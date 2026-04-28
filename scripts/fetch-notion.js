@@ -91,6 +91,9 @@ function extractProp(props, name, type) {
       })) || [];
     case 'unique_id':
       return p.unique_id ? `${p.unique_id.prefix || ''}-${p.unique_id.number}` : null;
+    case 'auto_increment_id':
+      // Notion auto_increment_id : la valeur est dans p.unique_id.number
+      return p.unique_id?.number ?? null;
     case 'created_time':
       return p.created_time;
     default:
@@ -103,33 +106,37 @@ function mapClassiquePage(page) {
   const p = page.properties;
   const dateCreation = extractProp(p, 'Date de création', 'created_time') || page.created_time;
 
+  // Identifiant : auto_increment_id Notion (entier). Format dashboard : "INA-123"
+  const idNum = extractProp(p, 'Identifiant', 'auto_increment_id');
+  const identifiant = idNum != null ? `INA-${idNum}` : null;
+
   return {
     id: page.id,
-    identifiant: extractProp(p, 'ID', 'unique_id') || extractProp(p, 'Identifiant', 'unique_id'),
-    titre: extractProp(p, 'Titre', 'title') || extractProp(p, 'Name', 'title') || extractProp(p, 'Nom', 'title'),
+    identifiant,
+    titre: extractProp(p, 'TITRE', 'title') || '',
     classification: extractProp(p, 'Classification', 'select'),
-    statut: extractProp(p, 'Statut', 'status') || extractProp(p, 'Statut', 'select'),
+    statut: extractProp(p, 'Statut', 'select'),
     priorisation: extractProp(p, 'Priorisation', 'select'),
     sprintIdeal: extractProp(p, 'Sprint idéal', 'multi_select') || [],
     fonctions: extractProp(p, 'Fonctions', 'select'),
     produits: extractProp(p, 'Produits', 'multi_select') || [],
-    client: extractProp(p, 'Client', 'rich_text') || extractProp(p, 'Client', 'select'),
+    client: extractProp(p, 'Client ?', 'rich_text') || '',
     dateCreation,
     estimBack: extractProp(p, 'Estimation BACK', 'number') || 0,
     estimFront: extractProp(p, 'Estimation FRONT', 'number') || 0,
-    estimPoTest: extractProp(p, 'Estimation PO-TEST', 'number') || 0,
-    persBack: extractProp(p, 'Pers. en charge BACK', 'multi_select') || extractProp(p, 'Pers. en charge BACK', 'people') || [],
-    persFront: extractProp(p, 'Pers. en charge FRONT', 'multi_select') || extractProp(p, 'Pers. en charge FRONT', 'people') || [],
-    persPoTest: extractProp(p, 'Pers. en charge PO-TEST', 'multi_select') || extractProp(p, 'Pers. en charge PO-TEST', 'people') || [],
-    pointAvancement: extractProp(p, 'Point d\'avancement', 'number') || extractProp(p, "Point d'avancement", 'number') || 0,
-    pointsBlocage: extractProp(p, 'Points de blocage', 'rich_text') || '',
-    explication: extractProp(p, 'Explication', 'rich_text') || extractProp(p, 'Description', 'rich_text') || '',
+    estimPoTest: extractProp(p, 'Estimation PO - TEST', 'number') || 0,
+    persBack: extractProp(p, 'Pers. en charge BACK', 'multi_select') || [],
+    persFront: extractProp(p, 'Pers. en charge FRONT', 'multi_select') || [],
+    persPoTest: extractProp(p, 'Pers. en charge PO-TEST', 'multi_select') || [],
+    pointAvancement: extractProp(p, 'Point avancement', 'number') || 0,
+    pointsBlocage: extractProp(p, 'Points de blocage / avancement', 'rich_text') || '',
+    explication: extractProp(p, 'Explication / commentaire', 'rich_text') || '',
     communication: extractProp(p, 'Communication', 'multi_select') || [],
-    initialeAjout: extractProp(p, 'Initiale / Ajout', 'multi_select') || extractProp(p, 'Initiale/Ajout', 'multi_select') || [],
-    versionInter: extractProp(p, 'Version intermédiaire', 'select') || extractProp(p, 'Version intermédiaire', 'rich_text'),
-    versionStable: extractProp(p, 'Version stable', 'select') || extractProp(p, 'Version stable', 'rich_text'),
-    dateSortieInter: extractProp(p, 'Date sortie intermédiaire', 'date'),
-    dateSortieStable: extractProp(p, 'Date sortie stable', 'date'),
+    initialeAjout: extractProp(p, 'Initiale / Ajout', 'multi_select') || [],
+    versionInter: extractProp(p, 'Version intermédiaire', 'rich_text') || '',
+    versionStable: extractProp(p, 'Version stable', 'rich_text') || '',
+    dateSortieInter: extractProp(p, 'Date sortie / version intermédiaire', 'date'),
+    dateSortieStable: extractProp(p, 'Date sortie / version stable', 'date'),
     pieceJointe: (extractProp(p, 'Pièce jointe', 'files') || [])[0] || null,
     url: page.url,
   };
