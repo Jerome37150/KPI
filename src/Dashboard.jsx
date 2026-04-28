@@ -1101,11 +1101,13 @@ function ClassiqueTab({ selectedMonth }) {
 // Chiffre de quantité avec tooltip détaillée au survol (délai 3s)
 function ClassifCountWithTooltip({ value, color, classification, details, monthLabel }) {
   const [showTooltip, setShowTooltip] = useState(false);
+  const [slideIdx, setSlideIdx] = useState(0);
   const timerRef = useRef(null);
 
   const handleMouseEnter = () => {
     timerRef.current = setTimeout(() => {
       setShowTooltip(true);
+      setSlideIdx(0); // reset au premier slide
     }, 800);
   };
   const handleMouseLeave = () => {
@@ -1125,6 +1127,18 @@ function ClassifCountWithTooltip({ value, color, classification, details, monthL
   const safeDetails = details || { produits: {}, fonctions: {}, priorisation: {} };
   const sortEntries = (obj) => Object.entries(obj).sort((a, b) => b[1] - a[1]);
 
+  // Configuration des 3 slides
+  const slides = [
+    { key: "produits", title: "Produits", icon: "📦", entries: sortEntries(safeDetails.produits) },
+    { key: "fonctions", title: "Fonctions", icon: "🧩", entries: sortEntries(safeDetails.fonctions) },
+    { key: "priorisation", title: "Priorisation", icon: "🎯", entries: sortEntries(safeDetails.priorisation) },
+  ];
+  const currentSlide = slides[slideIdx];
+  const totalCount = currentSlide.entries.reduce((s, [, c]) => s + c, 0);
+
+  const goPrev = (e) => { e.stopPropagation(); setSlideIdx((slideIdx - 1 + slides.length) % slides.length); };
+  const goNext = (e) => { e.stopPropagation(); setSlideIdx((slideIdx + 1) % slides.length); };
+
   return (
     <span
       onMouseEnter={handleMouseEnter}
@@ -1137,21 +1151,23 @@ function ClassifCountWithTooltip({ value, color, classification, details, monthL
     >
       {value}
       {showTooltip && value > 0 && (
-        <div style={{
-          position: "absolute",
-          bottom: "calc(100% + 8px)",
-          right: 0,
-          zIndex: 100,
-          background: C.paper,
-          border: `1px solid ${C.line}`,
-          borderRadius: 10,
-          boxShadow: "0 8px 24px rgba(0,0,0,0.12)",
-          padding: "12px 14px",
-          minWidth: 280,
-          fontSize: 11, color: C.ink, fontWeight: 400,
-          textAlign: "left",
-          letterSpacing: "normal",
-          textTransform: "none",
+        <div
+          onMouseEnter={() => { if (timerRef.current) clearTimeout(timerRef.current); setShowTooltip(true); }}
+          style={{
+            position: "absolute",
+            bottom: "calc(100% + 8px)",
+            right: 0,
+            zIndex: 100,
+            background: C.paper,
+            border: `1px solid ${C.line}`,
+            borderRadius: 12,
+            boxShadow: "0 12px 32px rgba(0,0,0,0.15), 0 4px 8px rgba(0,0,0,0.05)",
+            width: 320,
+            fontSize: 11, color: C.ink, fontWeight: 400,
+            textAlign: "left",
+            letterSpacing: "normal",
+            textTransform: "none",
+            overflow: "hidden",
         }}>
           {/* Flèche */}
           <div style={{
@@ -1172,34 +1188,158 @@ function ClassifCountWithTooltip({ value, color, classification, details, monthL
             borderTop: `5px solid ${C.paper}`,
           }} />
 
-          {/* Header */}
+          {/* Header avec couleur classification */}
           <div style={{
-            display: "flex", alignItems: "center", gap: 6,
-            marginBottom: 10, paddingBottom: 8, borderBottom: `1px solid ${C.line}`,
+            display: "flex", alignItems: "center", gap: 8,
+            padding: "12px 14px",
+            borderBottom: `1px solid ${C.line}`,
+            background: `${color}08`,
           }}>
-            <span style={{ width: 8, height: 8, borderRadius: 2, background: color }} />
+            <span style={{ width: 9, height: 9, borderRadius: 3, background: color, flexShrink: 0 }} />
             <span style={{
-              fontSize: 10, color, fontWeight: 700,
-              letterSpacing: "0.05em", textTransform: "uppercase",
+              fontSize: 10, color, fontWeight: 800,
+              letterSpacing: "0.06em", textTransform: "uppercase",
+              flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
             }}>{classification}</span>
-            <span style={{ fontSize: 10, color: C.inkDim, marginLeft: "auto" }}>
-              {value} ticket{value > 1 ? "s" : ""} · {monthLabel}
+            <span style={{
+              fontSize: 9, color: C.inkDim, fontWeight: 700,
+              padding: "2px 7px", borderRadius: 4,
+              background: C.paper, border: `1px solid ${C.line}`,
+              flexShrink: 0,
+            }}>
+              {value} · {monthLabel}
             </span>
           </div>
 
-          {/* Section : Produits */}
-          <TooltipSection title="Produits" entries={sortEntries(safeDetails.produits)} color={color} />
-          {/* Section : Fonctions */}
-          <TooltipSection title="Fonctions" entries={sortEntries(safeDetails.fonctions)} color={color} />
-          {/* Section : Priorisation */}
-          <TooltipSection title="Priorisation" entries={sortEntries(safeDetails.priorisation)} color={color} isLast />
+          {/* Slide actuelle */}
+          <div style={{ padding: "14px 14px 10px" }}>
+            {/* Titre du slide */}
+            <div style={{
+              display: "flex", alignItems: "center", gap: 8, marginBottom: 10,
+            }}>
+              <span style={{ fontSize: 14 }}>{currentSlide.icon}</span>
+              <span style={{
+                fontSize: 11, color: C.ink, fontWeight: 800,
+                letterSpacing: "0.04em", textTransform: "uppercase",
+              }}>{currentSlide.title}</span>
+              {totalCount > 0 && (
+                <span style={{
+                  marginLeft: "auto",
+                  fontSize: 9, color: C.inkDim, fontWeight: 600,
+                }}>{currentSlide.entries.length} catégorie{currentSlide.entries.length > 1 ? "s" : ""}</span>
+              )}
+            </div>
+
+            {/* Liste */}
+            {currentSlide.entries.length === 0 ? (
+              <div style={{
+                fontSize: 11, color: C.inkMute, fontStyle: "italic",
+                textAlign: "center", padding: "16px 0",
+              }}>Aucune donnée</div>
+            ) : (
+              <div style={{ display: "flex", flexDirection: "column", gap: 4, maxHeight: 220, overflowY: "auto" }}>
+                {currentSlide.entries.map(([label, count]) => {
+                  const pct = totalCount > 0 ? (count / totalCount) * 100 : 0;
+                  return (
+                    <div key={label} style={{
+                      position: "relative",
+                      padding: "6px 10px",
+                      background: C.paper,
+                      border: `1px solid ${C.line}`,
+                      borderRadius: 6,
+                      overflow: "hidden",
+                    }}>
+                      {/* Barre de fond */}
+                      <div style={{
+                        position: "absolute", top: 0, left: 0, bottom: 0,
+                        width: `${pct}%`,
+                        background: `${color}14`,
+                        transition: "width 0.3s",
+                      }} />
+                      <div style={{
+                        position: "relative",
+                        display: "flex", justifyContent: "space-between", alignItems: "center",
+                        gap: 8,
+                      }}>
+                        <span style={{
+                          fontSize: 11, color: C.ink, fontWeight: 600,
+                          overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
+                          flex: 1,
+                        }}>{label}</span>
+                        <span style={{
+                          fontSize: 10, fontWeight: 800, color,
+                          flexShrink: 0,
+                        }}>{count}</span>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+
+          {/* Footer : navigation slides */}
+          <div style={{
+            display: "flex", alignItems: "center", gap: 8,
+            padding: "10px 14px",
+            borderTop: `1px solid ${C.line}`,
+            background: C.bg,
+          }}>
+            <button
+              onClick={goPrev}
+              style={{
+                width: 24, height: 24, borderRadius: 6,
+                border: `1px solid ${C.line}`,
+                background: C.paper,
+                color: C.inkSoft, cursor: "pointer",
+                display: "inline-flex", alignItems: "center", justifyContent: "center",
+                transition: "all 0.15s",
+              }}
+              onMouseEnter={e => { e.currentTarget.style.borderColor = color; e.currentTarget.style.color = color; }}
+              onMouseLeave={e => { e.currentTarget.style.borderColor = C.line; e.currentTarget.style.color = C.inkSoft; }}
+            ><ChevronLeft size={14} /></button>
+
+            {/* Indicateurs */}
+            <div style={{ display: "flex", gap: 5, flex: 1, justifyContent: "center" }}>
+              {slides.map((s, i) => (
+                <button
+                  key={s.key}
+                  onClick={(e) => { e.stopPropagation(); setSlideIdx(i); }}
+                  style={{
+                    width: i === slideIdx ? 18 : 6, height: 6,
+                    borderRadius: 3,
+                    background: i === slideIdx ? color : C.lineDark,
+                    border: "none",
+                    cursor: "pointer",
+                    transition: "all 0.2s",
+                    padding: 0,
+                  }}
+                  title={s.title}
+                />
+              ))}
+            </div>
+
+            <button
+              onClick={goNext}
+              style={{
+                width: 24, height: 24, borderRadius: 6,
+                border: `1px solid ${C.line}`,
+                background: C.paper,
+                color: C.inkSoft, cursor: "pointer",
+                display: "inline-flex", alignItems: "center", justifyContent: "center",
+                transition: "all 0.15s",
+              }}
+              onMouseEnter={e => { e.currentTarget.style.borderColor = color; e.currentTarget.style.color = color; }}
+              onMouseLeave={e => { e.currentTarget.style.borderColor = C.line; e.currentTarget.style.color = C.inkSoft; }}
+            ><ChevronRight size={14} /></button>
+          </div>
         </div>
       )}
     </span>
   );
 }
 
-// Section de la tooltip : titre + liste de "Label · count"
+// Section de la tooltip : titre + liste de "Label · count" (gardée pour compatibilité, plus utilisée)
 function TooltipSection({ title, entries, color, isLast }) {
   if (entries.length === 0) {
     return (
@@ -2955,10 +3095,14 @@ function GanttRow({ fenetre, sprints, sprintIdx, colWidth, labelColWidth, rowHei
 // === En-tête mois avec tooltip récap (au survol, délai 800ms) ===
 function MonthHeader({ sprintLabel, items, colWidth, isLast }) {
   const [showTooltip, setShowTooltip] = useState(false);
+  const [slideIdx, setSlideIdx] = useState(0);
   const timerRef = useRef(null);
 
   const handleMouseEnter = () => {
-    timerRef.current = setTimeout(() => setShowTooltip(true), 800);
+    timerRef.current = setTimeout(() => {
+      setShowTooltip(true);
+      setSlideIdx(0);
+    }, 800);
   };
   const handleMouseLeave = () => {
     if (timerRef.current) { clearTimeout(timerRef.current); timerRef.current = null; }
@@ -2968,40 +3112,63 @@ function MonthHeader({ sprintLabel, items, colWidth, isLast }) {
     return () => { if (timerRef.current) clearTimeout(timerRef.current); };
   }, []);
 
-  // Calcul du récap pour ce mois : phases planifiées sur ce sprint
+  // Calcul du récap pour ce mois : groupé par PHASE (1 slide par phase)
   const recap = useMemo(() => {
-    const phasesParStatut = { fait: [], enCours: [], aVenir: [], blocage: [] };
-    const blocs = {};
-    let totalTemps = 0;
+    // Pour chaque phase, on liste les entrées qui ont cette phase planifiée sur ce sprint
+    const parPhase = {};
+    PHASES.forEach(p => { parPhase[p.key] = []; });
 
     items.forEach(fen => {
       PHASES.forEach(phase => {
         if (fen.sprint[phase.key] === sprintLabel) {
           const etat = fen.etat[phase.key];
           const av = fen.avancement[phase.key] || 0;
-          const entry = { fenetre: fen.nom, id: fen.id, phase: phase.label, icon: phase.icon, bloc: fen.bloc, etat, av };
-
-          if (etat === "Blocage") phasesParStatut.blocage.push(entry);
-          else if (etat === "FAIT") phasesParStatut.fait.push(entry);
-          else if (av > 0 || etat) phasesParStatut.enCours.push(entry);
-          else phasesParStatut.aVenir.push(entry);
-
-          // Comptage par bloc
-          if (!blocs[fen.bloc]) blocs[fen.bloc] = 0;
-          blocs[fen.bloc]++;
-
-          totalTemps += (fen.temps[phase.key] || 0);
+          parPhase[phase.key].push({
+            fenetre: fen.nom,
+            id: fen.id,
+            bloc: fen.bloc,
+            etat,
+            av,
+            isFait: etat === "FAIT",
+            isBlocage: etat === "Blocage",
+          });
         }
       });
     });
 
-    return {
-      total: phasesParStatut.fait.length + phasesParStatut.enCours.length + phasesParStatut.aVenir.length + phasesParStatut.blocage.length,
-      ...phasesParStatut,
-      blocs,
-      totalTemps,
-    };
+    // Total général
+    let total = 0;
+    PHASES.forEach(p => { total += parPhase[p.key].length; });
+
+    return { parPhase, total };
   }, [sprintLabel, items]);
+
+  // Filtre les phases qui ont des entrées (pour ne montrer que les slides utiles)
+  const slidesPhases = PHASES.filter(p => recap.parPhase[p.key].length > 0);
+  const currentPhase = slidesPhases[slideIdx];
+  const currentEntries = currentPhase ? recap.parPhase[currentPhase.key] : [];
+
+  // Tri : FAIT en haut, puis par % décroissant
+  const sortedEntries = useMemo(() => {
+    return [...currentEntries].sort((a, b) => {
+      const aFait = a.isFait ? 1 : 0;
+      const bFait = b.isFait ? 1 : 0;
+      if (aFait !== bFait) return bFait - aFait;
+      return (b.av || 0) - (a.av || 0);
+    });
+  }, [currentEntries]);
+
+  // Stats du slide actuel
+  const slideStats = useMemo(() => {
+    const fait = currentEntries.filter(e => e.isFait).length;
+    const blocage = currentEntries.filter(e => e.isBlocage).length;
+    const enCours = currentEntries.filter(e => !e.isFait && !e.isBlocage && (e.av > 0 || e.etat)).length;
+    const aVenir = currentEntries.filter(e => !e.isFait && !e.isBlocage && e.av === 0 && !e.etat).length;
+    return { fait, blocage, enCours, aVenir };
+  }, [currentEntries]);
+
+  const goPrev = (e) => { e.stopPropagation(); setSlideIdx((slideIdx - 1 + slidesPhases.length) % slidesPhases.length); };
+  const goNext = (e) => { e.stopPropagation(); setSlideIdx((slideIdx + 1) % slidesPhases.length); };
 
   return (
     <div
@@ -3027,25 +3194,26 @@ function MonthHeader({ sprintLabel, items, colWidth, isLast }) {
         }}>{recap.total} phase{recap.total > 1 ? "s" : ""}</div>
       )}
 
-      {/* Tooltip récap mois */}
-      {showTooltip && recap.total > 0 && (
-        <div style={{
-          position: "absolute",
-          top: "calc(100% + 6px)",
-          left: "50%",
-          transform: "translateX(-50%)",
-          zIndex: 100,
-          background: C.paper,
-          border: `1px solid ${C.line}`,
-          borderRadius: 10,
-          boxShadow: "0 8px 24px rgba(0,0,0,0.12)",
-          padding: "12px 14px",
-          minWidth: 320,
-          maxWidth: 420,
-          fontSize: 11, color: C.ink, fontWeight: 400,
-          textAlign: "left",
-          letterSpacing: "normal",
-          textTransform: "none",
+      {/* Tooltip récap mois en slides */}
+      {showTooltip && recap.total > 0 && currentPhase && (
+        <div
+          onMouseEnter={() => { if (timerRef.current) clearTimeout(timerRef.current); setShowTooltip(true); }}
+          style={{
+            position: "absolute",
+            top: "calc(100% + 6px)",
+            left: "50%",
+            transform: "translateX(-50%)",
+            zIndex: 100,
+            background: C.paper,
+            border: `1px solid ${C.line}`,
+            borderRadius: 12,
+            boxShadow: "0 12px 32px rgba(0,0,0,0.15), 0 4px 8px rgba(0,0,0,0.05)",
+            width: 360,
+            fontSize: 11, color: C.ink, fontWeight: 400,
+            textAlign: "left",
+            letterSpacing: "normal",
+            textTransform: "none",
+            overflow: "hidden",
         }}>
           {/* Flèche */}
           <div style={{
@@ -3066,110 +3234,166 @@ function MonthHeader({ sprintLabel, items, colWidth, isLast }) {
             borderBottom: `5px solid ${C.paper}`,
           }} />
 
-          {/* Header */}
+          {/* Header : sprint + total */}
           <div style={{
             display: "flex", alignItems: "center", gap: 8,
-            marginBottom: 10, paddingBottom: 8, borderBottom: `1px solid ${C.line}`,
+            padding: "12px 14px",
+            borderBottom: `1px solid ${C.line}`,
+            background: C.bg,
           }}>
             <span style={{
               fontSize: 11, color: C.orange, fontWeight: 800,
-              letterSpacing: "0.05em", textTransform: "uppercase",
+              letterSpacing: "0.06em", textTransform: "uppercase",
             }}>{sprintLabel}</span>
-            <span style={{ marginLeft: "auto", fontSize: 10, color: C.inkDim }}>
-              {recap.total} phase{recap.total > 1 ? "s" : ""} planifiée{recap.total > 1 ? "s" : ""}
+            <span style={{
+              marginLeft: "auto",
+              fontSize: 9, color: C.inkDim, fontWeight: 700,
+              padding: "2px 7px", borderRadius: 4,
+              background: C.paper, border: `1px solid ${C.line}`,
+            }}>
+              {recap.total} phase{recap.total > 1 ? "s" : ""}
             </span>
           </div>
 
-          {/* Stats récap par état */}
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 6, marginBottom: 10 }}>
-            <RecapStat label="FAIT" count={recap.fait.length} color="#16A34A" />
-            <RecapStat label="En cours" count={recap.enCours.length} color="#2563EB" />
-            <RecapStat label="À venir" count={recap.aVenir.length} color={C.inkDim} />
-            <RecapStat label="Blocage" count={recap.blocage.length} color="#DC2626" />
+          {/* Titre du slide (phase actuelle) */}
+          <div style={{
+            display: "flex", alignItems: "center", gap: 8,
+            padding: "12px 14px 8px",
+          }}>
+            <span style={{ fontSize: 16 }}>{currentPhase.icon}</span>
+            <span style={{
+              fontSize: 11, color: currentPhase.color, fontWeight: 800,
+              letterSpacing: "0.05em", textTransform: "uppercase",
+            }}>{currentPhase.label}</span>
+            <span style={{
+              marginLeft: "auto",
+              fontSize: 10, color: C.inkSoft, fontWeight: 600,
+            }}>{currentEntries.length} fenêtre{currentEntries.length > 1 ? "s" : ""}</span>
           </div>
 
-          {/* Répartition par bloc */}
-          {Object.keys(recap.blocs).length > 0 && (
-            <div style={{ marginBottom: 8 }}>
-              <div style={{
-                fontSize: 9, letterSpacing: "0.1em", textTransform: "uppercase",
-                color: C.inkDim, fontWeight: 700, marginBottom: 4,
-              }}>Par bloc</div>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: 4 }}>
-                {Object.entries(recap.blocs)
-                  .sort((a, b) => b[1] - a[1])
-                  .map(([bloc, count]) => {
-                    const color = BLOC_COLORS_TL[bloc] || C.ink;
-                    return (
-                      <span key={bloc} style={{
-                        display: "inline-flex", alignItems: "center", gap: 4,
-                        padding: "2px 7px", borderRadius: 4,
-                        background: `${color}12`,
-                        border: `1px solid ${color}30`,
-                        fontSize: 10, color: color, fontWeight: 700,
-                      }}>
-                        <span style={{ fontSize: 8 }}>●</span>
-                        {bloc} <strong>{count}</strong>
-                      </span>
-                    );
-                  })}
-              </div>
-            </div>
-          )}
+          {/* Mini stats du slide */}
+          <div style={{
+            display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 4,
+            padding: "0 14px 10px",
+          }}>
+            <RecapStat label="FAIT" count={slideStats.fait} color="#16A34A" />
+            <RecapStat label="En cours" count={slideStats.enCours} color="#2563EB" />
+            <RecapStat label="À venir" count={slideStats.aVenir} color={C.inkDim} />
+            <RecapStat label="Blocage" count={slideStats.blocage} color="#DC2626" />
+          </div>
 
-          {/* Liste des fenêtres concernées (max 12) - triées : FAIT d'abord, puis par % décroissant */}
-          <div style={{ marginTop: 8, paddingTop: 8, borderTop: `1px solid ${C.line}` }}>
-            <div style={{
-              fontSize: 9, letterSpacing: "0.1em", textTransform: "uppercase",
-              color: C.inkDim, fontWeight: 700, marginBottom: 6,
-            }}>Détail</div>
-            <div style={{ display: "flex", flexDirection: "column", gap: 3, maxHeight: 200, overflowY: "auto" }}>
-              {(() => {
-                // Tri : FAIT d'abord, puis par % décroissant, puis blocages, puis le reste
-                const allEntries = [...recap.fait, ...recap.enCours, ...recap.aVenir, ...recap.blocage];
-                const sorted = allEntries.sort((a, b) => {
-                  // FAIT en premier
-                  const aFait = a.etat === "FAIT" ? 1 : 0;
-                  const bFait = b.etat === "FAIT" ? 1 : 0;
-                  if (aFait !== bFait) return bFait - aFait;
-                  // Puis par % décroissant
-                  return (b.av || 0) - (a.av || 0);
-                });
-                return sorted.slice(0, 12).map((entry, i) => {
+          {/* Liste des fenêtres */}
+          <div style={{
+            padding: "0 14px 10px",
+            maxHeight: 220, overflowY: "auto",
+          }}>
+            {sortedEntries.length === 0 ? (
+              <div style={{
+                fontSize: 11, color: C.inkMute, fontStyle: "italic",
+                textAlign: "center", padding: "12px 0",
+              }}>Aucune fenêtre</div>
+            ) : (
+              <div style={{ display: "flex", flexDirection: "column", gap: 3 }}>
+                {sortedEntries.slice(0, 15).map((entry, i) => {
                   const etatColor = entry.etat ? (ETAT_COLORS_TL[entry.etat] || C.inkMute) : C.inkMute;
-                  const isFait = entry.etat === "FAIT";
-                  const isBloc = entry.etat === "Blocage";
-                  const pct = isFait ? 100 : Math.round((entry.av || 0) * 100);
+                  const blocColor = BLOC_COLORS_TL[entry.bloc] || C.inkMute;
+                  const pct = entry.isFait ? 100 : Math.round((entry.av || 0) * 100);
                   return (
                     <div key={i} style={{
                       display: "flex", alignItems: "center", gap: 6,
                       fontSize: 10,
+                      padding: "5px 8px",
+                      background: C.paper,
+                      border: `1px solid ${C.line}`,
+                      borderLeft: `3px solid ${blocColor}`,
+                      borderRadius: 4,
                     }}>
-                      <span style={{ fontSize: 12, flexShrink: 0 }}>{entry.icon}</span>
                       <span style={{
                         fontSize: 8, color: C.inkDim, fontWeight: 700,
                         letterSpacing: "0.04em", flexShrink: 0,
                         background: C.bgSoft, padding: "1px 4px", borderRadius: 3,
                       }}>{entry.id}</span>
                       <span style={{
-                        flex: 1, color: C.inkSoft,
+                        flex: 1, color: C.ink, fontWeight: 500,
                         overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
                       }}>{entry.fenetre}</span>
                       <span style={{
-                        fontSize: 10, fontWeight: 800, color: isFait ? "#16A34A" : (isBloc ? "#DC2626" : etatColor),
+                        fontSize: 10, fontWeight: 800,
+                        color: entry.isFait ? "#16A34A" : (entry.isBlocage ? "#DC2626" : etatColor),
                         flexShrink: 0,
-                      }}>{isBloc ? "⚠" : `${pct}%`}</span>
+                      }}>{entry.isBlocage ? "⚠" : `${pct}%`}</span>
                     </div>
                   );
-                });
-              })()}
-              {recap.total > 12 && (
-                <div style={{ fontSize: 9, color: C.inkMute, fontStyle: "italic", textAlign: "center", marginTop: 4 }}>
-                  + {recap.total - 12} autre{recap.total - 12 > 1 ? "s" : ""}…
-                </div>
-              )}
-            </div>
+                })}
+                {sortedEntries.length > 15 && (
+                  <div style={{ fontSize: 9, color: C.inkMute, fontStyle: "italic", textAlign: "center", marginTop: 4 }}>
+                    + {sortedEntries.length - 15} autre{sortedEntries.length - 15 > 1 ? "s" : ""}…
+                  </div>
+                )}
+              </div>
+            )}
           </div>
+
+          {/* Footer : navigation slides */}
+          {slidesPhases.length > 1 && (
+            <div style={{
+              display: "flex", alignItems: "center", gap: 8,
+              padding: "10px 14px",
+              borderTop: `1px solid ${C.line}`,
+              background: C.bg,
+            }}>
+              <button
+                onClick={goPrev}
+                style={{
+                  width: 24, height: 24, borderRadius: 6,
+                  border: `1px solid ${C.line}`,
+                  background: C.paper,
+                  color: C.inkSoft, cursor: "pointer",
+                  display: "inline-flex", alignItems: "center", justifyContent: "center",
+                  transition: "all 0.15s",
+                }}
+                onMouseEnter={e => { e.currentTarget.style.borderColor = currentPhase.color; e.currentTarget.style.color = currentPhase.color; }}
+                onMouseLeave={e => { e.currentTarget.style.borderColor = C.line; e.currentTarget.style.color = C.inkSoft; }}
+              ><ChevronLeft size={14} /></button>
+
+              {/* Indicateurs phases */}
+              <div style={{ display: "flex", gap: 5, flex: 1, justifyContent: "center" }}>
+                {slidesPhases.map((p, i) => (
+                  <button
+                    key={p.key}
+                    onClick={(e) => { e.stopPropagation(); setSlideIdx(i); }}
+                    style={{
+                      display: "inline-flex", alignItems: "center", justifyContent: "center",
+                      width: i === slideIdx ? 28 : 22, height: 22,
+                      borderRadius: 5,
+                      background: i === slideIdx ? p.color : "transparent",
+                      border: `1px solid ${i === slideIdx ? p.color : C.line}`,
+                      cursor: "pointer",
+                      transition: "all 0.2s",
+                      padding: 0,
+                      fontSize: 12,
+                      color: i === slideIdx ? "#fff" : C.inkSoft,
+                    }}
+                    title={p.label}
+                  >{p.icon}</button>
+                ))}
+              </div>
+
+              <button
+                onClick={goNext}
+                style={{
+                  width: 24, height: 24, borderRadius: 6,
+                  border: `1px solid ${C.line}`,
+                  background: C.paper,
+                  color: C.inkSoft, cursor: "pointer",
+                  display: "inline-flex", alignItems: "center", justifyContent: "center",
+                  transition: "all 0.15s",
+                }}
+                onMouseEnter={e => { e.currentTarget.style.borderColor = currentPhase.color; e.currentTarget.style.color = currentPhase.color; }}
+                onMouseLeave={e => { e.currentTarget.style.borderColor = C.line; e.currentTarget.style.color = C.inkSoft; }}
+              ><ChevronRight size={14} /></button>
+            </div>
+          )}
         </div>
       )}
     </div>
