@@ -1102,26 +1102,36 @@ function ClassiqueTab({ selectedMonth }) {
 function ClassifCountWithTooltip({ value, color, classification, details, monthLabel }) {
   const [showTooltip, setShowTooltip] = useState(false);
   const [slideIdx, setSlideIdx] = useState(0);
-  const timerRef = useRef(null);
+  const openTimerRef = useRef(null);
+  const closeTimerRef = useRef(null);
 
-  const handleMouseEnter = () => {
-    timerRef.current = setTimeout(() => {
-      setShowTooltip(true);
-      setSlideIdx(0); // reset au premier slide
-    }, 800);
+  // Annule tous les timers en attente
+  const clearTimers = () => {
+    if (openTimerRef.current) { clearTimeout(openTimerRef.current); openTimerRef.current = null; }
+    if (closeTimerRef.current) { clearTimeout(closeTimerRef.current); closeTimerRef.current = null; }
   };
-  const handleMouseLeave = () => {
-    if (timerRef.current) {
-      clearTimeout(timerRef.current);
-      timerRef.current = null;
+
+  // Souris entre sur le déclencheur OU sur la tooltip → on ouvre/maintient
+  const handleEnter = () => {
+    clearTimers();
+    if (!showTooltip) {
+      openTimerRef.current = setTimeout(() => {
+        setShowTooltip(true);
+        setSlideIdx(0);
+      }, 600);
     }
-    setShowTooltip(false);
+  };
+
+  // Souris sort → on planifie une fermeture (mais elle peut être annulée si la souris revient)
+  const handleLeave = () => {
+    clearTimers();
+    closeTimerRef.current = setTimeout(() => {
+      setShowTooltip(false);
+    }, 250);
   };
 
   useEffect(() => {
-    return () => {
-      if (timerRef.current) clearTimeout(timerRef.current);
-    };
+    return clearTimers;
   }, []);
 
   const safeDetails = details || { produits: {}, fonctions: {}, priorisation: {} };
@@ -1141,8 +1151,8 @@ function ClassifCountWithTooltip({ value, color, classification, details, monthL
 
   return (
     <span
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
+      onMouseEnter={handleEnter}
+      onMouseLeave={handleLeave}
       style={{
         position: "relative",
         fontSize: 18, fontWeight: 700, color,
@@ -1152,7 +1162,8 @@ function ClassifCountWithTooltip({ value, color, classification, details, monthL
       {value}
       {showTooltip && value > 0 && (
         <div
-          onMouseEnter={() => { if (timerRef.current) clearTimeout(timerRef.current); setShowTooltip(true); }}
+          onMouseEnter={handleEnter}
+          onMouseLeave={handleLeave}
           style={{
             position: "absolute",
             bottom: "calc(100% + 8px)",
@@ -1169,6 +1180,11 @@ function ClassifCountWithTooltip({ value, color, classification, details, monthL
             textTransform: "none",
             overflow: "hidden",
         }}>
+          {/* Zone tampon invisible entre déclencheur et tooltip pour éviter la fermeture */}
+          <div style={{
+            position: "absolute",
+            top: "100%", right: 0, height: 12, width: "100%",
+          }} />
           {/* Flèche */}
           <div style={{
             position: "absolute",
@@ -2364,6 +2380,7 @@ function KpiBox({ icon: Icon, label, value, color, bg }) {
 function TopLineTab() {
   const items = TOP_LINE;
   const [selectedBloc, setSelectedBloc] = useState(null);
+  const [selectedMonth, setSelectedMonth] = useState(null);
 
   // URL de la maquette interactive (s'ouvre dans un nouvel onglet)
   const VERCEL_PREVIEW_URL = "https://naxigestionfront-prepa.vercel.app/";
@@ -2484,7 +2501,7 @@ function TopLineTab() {
           </div>
         </div>
 
-        <GanttChart items={items} onSelectFenetre={openFenetrePreview} />
+        <GanttChart items={items} onSelectFenetre={openFenetrePreview} onSelectMonth={setSelectedMonth} />
       </Card>
 
       {/* Modale détails bloc */}
@@ -2493,6 +2510,15 @@ function TopLineTab() {
           stats={selectedBloc}
           onClose={() => setSelectedBloc(null)}
           onSelectFenetre={openFenetrePreview}
+        />
+      )}
+
+      {/* Modale détails mois */}
+      {selectedMonth && (
+        <MonthDetailModal
+          sprintLabel={selectedMonth}
+          items={items}
+          onClose={() => setSelectedMonth(null)}
         />
       )}
     </div>
@@ -2844,7 +2870,7 @@ function BlocFenetreRow({ fenetre, onClick }) {
 }
 
 // === Gantt Chart : 1 ligne par fenêtre, groupé par bloc, picto + couleur état par phase ===
-function GanttChart({ items, onSelectFenetre }) {
+function GanttChart({ items, onSelectFenetre, onSelectMonth }) {
   const sprints = TOP_LINE_SPRINTS;
   const sprintCount = sprints.length;
   const colWidth = 95; // largeur d'une colonne sprint (px)
@@ -2887,6 +2913,7 @@ function GanttChart({ items, onSelectFenetre }) {
               items={items}
               colWidth={colWidth}
               isLast={idx === sprintCount - 1}
+              onSelect={onSelectMonth}
             />
           ))}
         </div>
@@ -3092,29 +3119,65 @@ function GanttRow({ fenetre, sprints, sprintIdx, colWidth, labelColWidth, rowHei
 }
 
 // === Pilule d'une phase sur le Gantt ===
-// === En-tête mois avec tooltip récap (au survol, délai 800ms) ===
-function MonthHeader({ sprintLabel, items, colWidth, isLast }) {
-  const [showTooltip, setShowTooltip] = useState(false);
+
+// === En-tête mois (cliquable pour ouvrir une modale détaillée) ===
+function MonthHeader({ sprintLabel, items, colWidth, isLast, onSelect }) {
+  const [hover, setHover] = useState(false);
+
+  // Compteur rapide de phases planifiées sur ce sprint
+  const phaseCount = useMemo(() => {
+    let count = 0;
+    items.forEach(fen => {
+      PHASES.forEach(phase => {
+        if (fen.sprint[phase.key] === sprintLabel) count++;
+      });
+    });
+    return count;
+  }, [sprintLabel, items]);
+
+  const isClickable = phaseCount > 0 && !!onSelect;
+
+  return (
+    <div
+      onClick={() => isClickable && onSelect(sprintLabel)}
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+      title={isClickable ? `Cliquer pour voir le détail de ${sprintLabel}` : undefined}
+      style={{
+        width: colWidth, flexShrink: 0,
+        padding: "12px 6px", textAlign: "center",
+        fontSize: 10, letterSpacing: "0.05em",
+        color: C.inkDim, fontWeight: 700, textTransform: "uppercase",
+        borderRight: !isLast ? `1px solid ${C.line}` : "none",
+        cursor: isClickable ? "pointer" : "default",
+        background: isClickable && hover ? C.bgSoft : "transparent",
+        transition: "background 0.15s",
+      }}
+    >
+      {sprintLabel.replace(" 2026", " 26")}
+      {phaseCount > 0 && (
+        <div style={{
+          fontSize: 9, color: C.orange, fontWeight: 700, marginTop: 2,
+          letterSpacing: "0.05em",
+        }}>{phaseCount} phase{phaseCount > 1 ? "s" : ""}</div>
+      )}
+    </div>
+  );
+}
+
+// === Modale détail mois : 1 slide par phase (Maquette / Back / Front / Design / Test) ===
+function MonthDetailModal({ sprintLabel, items, onClose }) {
   const [slideIdx, setSlideIdx] = useState(0);
-  const timerRef = useRef(null);
 
-  const handleMouseEnter = () => {
-    timerRef.current = setTimeout(() => {
-      setShowTooltip(true);
-      setSlideIdx(0);
-    }, 800);
-  };
-  const handleMouseLeave = () => {
-    if (timerRef.current) { clearTimeout(timerRef.current); timerRef.current = null; }
-    setShowTooltip(false);
-  };
+  // Fermeture via Échap
   useEffect(() => {
-    return () => { if (timerRef.current) clearTimeout(timerRef.current); };
-  }, []);
+    const onKey = (e) => { if (e.key === "Escape") onClose(); };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onClose]);
 
-  // Calcul du récap pour ce mois : groupé par PHASE (1 slide par phase)
+  // Calcul : pour chaque phase, liste des fenêtres planifiées sur ce sprint
   const recap = useMemo(() => {
-    // Pour chaque phase, on liste les entrées qui ont cette phase planifiée sur ce sprint
     const parPhase = {};
     PHASES.forEach(p => { parPhase[p.key] = []; });
 
@@ -3136,19 +3199,17 @@ function MonthHeader({ sprintLabel, items, colWidth, isLast }) {
       });
     });
 
-    // Total général
     let total = 0;
     PHASES.forEach(p => { total += parPhase[p.key].length; });
-
     return { parPhase, total };
   }, [sprintLabel, items]);
 
-  // Filtre les phases qui ont des entrées (pour ne montrer que les slides utiles)
+  // Slides = uniquement phases avec entrées
   const slidesPhases = PHASES.filter(p => recap.parPhase[p.key].length > 0);
-  const currentPhase = slidesPhases[slideIdx];
-  const currentEntries = currentPhase ? recap.parPhase[currentPhase.key] : [];
+  const currentPhase = slidesPhases[slideIdx] || PHASES[0];
+  const currentEntries = recap.parPhase[currentPhase.key] || [];
 
-  // Tri : FAIT en haut, puis par % décroissant
+  // Tri : FAIT puis par % décroissant
   const sortedEntries = useMemo(() => {
     return [...currentEntries].sort((a, b) => {
       const aFait = a.isFait ? 1 : 0;
@@ -3158,7 +3219,7 @@ function MonthHeader({ sprintLabel, items, colWidth, isLast }) {
     });
   }, [currentEntries]);
 
-  // Stats du slide actuel
+  // Stats du slide
   const slideStats = useMemo(() => {
     const fait = currentEntries.filter(e => e.isFait).length;
     const blocage = currentEntries.filter(e => e.isBlocage).length;
@@ -3167,235 +3228,234 @@ function MonthHeader({ sprintLabel, items, colWidth, isLast }) {
     return { fait, blocage, enCours, aVenir };
   }, [currentEntries]);
 
-  const goPrev = (e) => { e.stopPropagation(); setSlideIdx((slideIdx - 1 + slidesPhases.length) % slidesPhases.length); };
-  const goNext = (e) => { e.stopPropagation(); setSlideIdx((slideIdx + 1) % slidesPhases.length); };
+  const goPrev = () => setSlideIdx((slideIdx - 1 + slidesPhases.length) % slidesPhases.length);
+  const goNext = () => setSlideIdx((slideIdx + 1) % slidesPhases.length);
 
   return (
     <div
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
+      onClick={onClose}
       style={{
-        width: colWidth, flexShrink: 0,
-        padding: "12px 6px", textAlign: "center",
-        fontSize: 10, letterSpacing: "0.05em",
-        color: C.inkDim, fontWeight: 700, textTransform: "uppercase",
-        borderRight: !isLast ? `1px solid ${C.line}` : "none",
-        cursor: recap.total > 0 ? "help" : "default",
-        position: "relative",
-        background: showTooltip ? C.bgSoft : "transparent",
-        transition: "background 0.15s",
+        position: "fixed",
+        top: 0, left: 0, right: 0, bottom: 0,
+        background: "rgba(0,0,0,0.55)",
+        zIndex: 1000,
+        display: "flex", alignItems: "center", justifyContent: "center",
+        padding: 20,
       }}
     >
-      {sprintLabel.replace(" 2026", " 26")}
-      {recap.total > 0 && (
+      <div
+        onClick={e => e.stopPropagation()}
+        style={{
+          width: "100%", maxWidth: 720, maxHeight: "85vh",
+          background: C.paper,
+          borderRadius: 12,
+          boxShadow: "0 20px 60px rgba(0,0,0,0.3)",
+          display: "flex", flexDirection: "column",
+          overflow: "hidden",
+        }}
+      >
+        {/* Header */}
         <div style={{
-          fontSize: 9, color: C.orange, fontWeight: 700, marginTop: 2,
-          letterSpacing: "0.05em",
-        }}>{recap.total} phase{recap.total > 1 ? "s" : ""}</div>
-      )}
-
-      {/* Tooltip récap mois en slides */}
-      {showTooltip && recap.total > 0 && currentPhase && (
-        <div
-          onMouseEnter={() => { if (timerRef.current) clearTimeout(timerRef.current); setShowTooltip(true); }}
-          style={{
-            position: "absolute",
-            top: "calc(100% + 6px)",
-            left: "50%",
-            transform: "translateX(-50%)",
-            zIndex: 100,
-            background: C.paper,
-            border: `1px solid ${C.line}`,
-            borderRadius: 12,
-            boxShadow: "0 12px 32px rgba(0,0,0,0.15), 0 4px 8px rgba(0,0,0,0.05)",
-            width: 360,
-            fontSize: 11, color: C.ink, fontWeight: 400,
-            textAlign: "left",
-            letterSpacing: "normal",
-            textTransform: "none",
-            overflow: "hidden",
+          padding: "18px 24px",
+          borderBottom: `1px solid ${C.line}`,
+          display: "flex", alignItems: "center", gap: 14,
+          flexShrink: 0,
         }}>
-          {/* Flèche */}
-          <div style={{
-            position: "absolute",
-            bottom: "100%", left: "50%", transform: "translateX(-50%)",
-            width: 0, height: 0,
-            borderLeft: "6px solid transparent",
-            borderRight: "6px solid transparent",
-            borderBottom: `6px solid ${C.line}`,
-          }} />
-          <div style={{
-            position: "absolute",
-            bottom: "100%", left: "50%", transform: "translateX(-50%)",
-            marginBottom: -1,
-            width: 0, height: 0,
-            borderLeft: "5px solid transparent",
-            borderRight: "5px solid transparent",
-            borderBottom: `5px solid ${C.paper}`,
-          }} />
-
-          {/* Header : sprint + total */}
-          <div style={{
-            display: "flex", alignItems: "center", gap: 8,
-            padding: "12px 14px",
-            borderBottom: `1px solid ${C.line}`,
-            background: C.bg,
-          }}>
-            <span style={{
-              fontSize: 11, color: C.orange, fontWeight: 800,
-              letterSpacing: "0.06em", textTransform: "uppercase",
-            }}>{sprintLabel}</span>
-            <span style={{
-              marginLeft: "auto",
-              fontSize: 9, color: C.inkDim, fontWeight: 700,
-              padding: "2px 7px", borderRadius: 4,
-              background: C.paper, border: `1px solid ${C.line}`,
-            }}>
-              {recap.total} phase{recap.total > 1 ? "s" : ""}
-            </span>
+          <div style={{ flex: 1 }}>
+            <div style={{
+              fontSize: 10, letterSpacing: "0.12em", textTransform: "uppercase",
+              color: C.inkDim, fontWeight: 700, marginBottom: 4,
+            }}>Détail du sprint</div>
+            <div style={{
+              fontSize: 22, fontWeight: 800, color: C.orange,
+              letterSpacing: "-0.02em",
+            }}>{sprintLabel}</div>
           </div>
-
-          {/* Titre du slide (phase actuelle) */}
-          <div style={{
-            display: "flex", alignItems: "center", gap: 8,
-            padding: "12px 14px 8px",
+          <span style={{
+            fontSize: 11, color: C.inkSoft, fontWeight: 600,
+            padding: "4px 10px", borderRadius: 6,
+            background: C.bgSoft, border: `1px solid ${C.line}`,
           }}>
-            <span style={{ fontSize: 16 }}>{currentPhase.icon}</span>
-            <span style={{
-              fontSize: 11, color: currentPhase.color, fontWeight: 800,
-              letterSpacing: "0.05em", textTransform: "uppercase",
-            }}>{currentPhase.label}</span>
-            <span style={{
-              marginLeft: "auto",
-              fontSize: 10, color: C.inkSoft, fontWeight: 600,
-            }}>{currentEntries.length} fenêtre{currentEntries.length > 1 ? "s" : ""}</span>
-          </div>
+            {recap.total} phase{recap.total > 1 ? "s" : ""} planifiée{recap.total > 1 ? "s" : ""}
+          </span>
+          <button
+            onClick={onClose}
+            style={{
+              width: 32, height: 32, borderRadius: 8,
+              background: "transparent",
+              border: `1px solid ${C.line}`,
+              color: C.inkSoft, cursor: "pointer",
+              display: "inline-flex", alignItems: "center", justifyContent: "center",
+              fontSize: 16, fontWeight: 700,
+              flexShrink: 0,
+            }}
+            onMouseEnter={e => { e.currentTarget.style.background = C.bgSoft; }}
+            onMouseLeave={e => { e.currentTarget.style.background = "transparent"; }}
+            title="Fermer (Échap)"
+          >✕</button>
+        </div>
 
-          {/* Mini stats du slide */}
+        {/* Si aucune phase planifiée */}
+        {recap.total === 0 ? (
           <div style={{
-            display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 4,
-            padding: "0 14px 10px",
-          }}>
-            <RecapStat label="FAIT" count={slideStats.fait} color="#16A34A" />
-            <RecapStat label="En cours" count={slideStats.enCours} color="#2563EB" />
-            <RecapStat label="À venir" count={slideStats.aVenir} color={C.inkDim} />
-            <RecapStat label="Blocage" count={slideStats.blocage} color="#DC2626" />
-          </div>
-
-          {/* Liste des fenêtres */}
-          <div style={{
-            padding: "0 14px 10px",
-            maxHeight: 220, overflowY: "auto",
-          }}>
-            {sortedEntries.length === 0 ? (
+            padding: 40, textAlign: "center",
+            fontSize: 13, color: C.inkMute, fontStyle: "italic",
+          }}>Aucune phase planifiée sur ce sprint</div>
+        ) : (
+          <>
+            {/* Slide actuelle */}
+            <div style={{ padding: "20px 24px 8px", flexShrink: 0 }}>
+              {/* Titre de la phase */}
               <div style={{
-                fontSize: 11, color: C.inkMute, fontStyle: "italic",
-                textAlign: "center", padding: "12px 0",
-              }}>Aucune fenêtre</div>
-            ) : (
-              <div style={{ display: "flex", flexDirection: "column", gap: 3 }}>
-                {sortedEntries.slice(0, 15).map((entry, i) => {
-                  const etatColor = entry.etat ? (ETAT_COLORS_TL[entry.etat] || C.inkMute) : C.inkMute;
-                  const blocColor = BLOC_COLORS_TL[entry.bloc] || C.inkMute;
-                  const pct = entry.isFait ? 100 : Math.round((entry.av || 0) * 100);
-                  return (
-                    <div key={i} style={{
-                      display: "flex", alignItems: "center", gap: 6,
-                      fontSize: 10,
-                      padding: "5px 8px",
-                      background: C.paper,
-                      border: `1px solid ${C.line}`,
-                      borderLeft: `3px solid ${blocColor}`,
-                      borderRadius: 4,
-                    }}>
-                      <span style={{
-                        fontSize: 8, color: C.inkDim, fontWeight: 700,
-                        letterSpacing: "0.04em", flexShrink: 0,
-                        background: C.bgSoft, padding: "1px 4px", borderRadius: 3,
-                      }}>{entry.id}</span>
-                      <span style={{
-                        flex: 1, color: C.ink, fontWeight: 500,
-                        overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
-                      }}>{entry.fenetre}</span>
-                      <span style={{
-                        fontSize: 10, fontWeight: 800,
-                        color: entry.isFait ? "#16A34A" : (entry.isBlocage ? "#DC2626" : etatColor),
-                        flexShrink: 0,
-                      }}>{entry.isBlocage ? "⚠" : `${pct}%`}</span>
-                    </div>
-                  );
-                })}
-                {sortedEntries.length > 15 && (
-                  <div style={{ fontSize: 9, color: C.inkMute, fontStyle: "italic", textAlign: "center", marginTop: 4 }}>
-                    + {sortedEntries.length - 15} autre{sortedEntries.length - 15 > 1 ? "s" : ""}…
-                  </div>
-                )}
+                display: "flex", alignItems: "center", gap: 10, marginBottom: 12,
+              }}>
+                <span style={{ fontSize: 22 }}>{currentPhase.icon}</span>
+                <span style={{
+                  fontSize: 13, color: currentPhase.color, fontWeight: 800,
+                  letterSpacing: "0.05em", textTransform: "uppercase",
+                }}>{currentPhase.label}</span>
+                <span style={{
+                  marginLeft: "auto",
+                  fontSize: 11, color: C.inkSoft, fontWeight: 600,
+                }}>{currentEntries.length} fenêtre{currentEntries.length > 1 ? "s" : ""}</span>
+              </div>
+
+              {/* Mini stats */}
+              <div style={{
+                display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 6,
+              }}>
+                <RecapStat label="FAIT" count={slideStats.fait} color="#16A34A" />
+                <RecapStat label="En cours" count={slideStats.enCours} color="#2563EB" />
+                <RecapStat label="À venir" count={slideStats.aVenir} color={C.inkDim} />
+                <RecapStat label="Blocage" count={slideStats.blocage} color="#DC2626" />
+              </div>
+            </div>
+
+            {/* Liste des fenêtres */}
+            <div style={{
+              flex: 1, padding: "8px 24px 20px",
+              overflowY: "auto",
+            }}>
+              {sortedEntries.length === 0 ? (
+                <div style={{
+                  fontSize: 12, color: C.inkMute, fontStyle: "italic",
+                  textAlign: "center", padding: "20px 0",
+                }}>Aucune fenêtre</div>
+              ) : (
+                <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
+                  {sortedEntries.map((entry, i) => {
+                    const etatColor = entry.etat ? (ETAT_COLORS_TL[entry.etat] || C.inkMute) : C.inkMute;
+                    const blocColor = BLOC_COLORS_TL[entry.bloc] || C.inkMute;
+                    const pct = entry.isFait ? 100 : Math.round((entry.av || 0) * 100);
+                    return (
+                      <div key={i} style={{
+                        display: "flex", alignItems: "center", gap: 10,
+                        padding: "10px 12px",
+                        background: C.paper,
+                        border: `1px solid ${C.line}`,
+                        borderLeft: `4px solid ${blocColor}`,
+                        borderRadius: 6,
+                      }}>
+                        <span style={{
+                          fontSize: 9, color: C.inkDim, fontWeight: 700,
+                          letterSpacing: "0.04em", flexShrink: 0,
+                          background: C.bgSoft, padding: "2px 5px", borderRadius: 3,
+                        }}>{entry.id}</span>
+                        <span style={{
+                          flex: 1, fontSize: 12, color: C.ink, fontWeight: 600,
+                          overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
+                        }}>{entry.fenetre}</span>
+                        <span style={{
+                          fontSize: 9, color: blocColor, fontWeight: 700,
+                          letterSpacing: "0.04em", textTransform: "uppercase",
+                          padding: "2px 6px", borderRadius: 4,
+                          background: `${blocColor}10`,
+                          flexShrink: 0,
+                        }}>{entry.bloc}</span>
+                        <span style={{
+                          fontSize: 13, fontWeight: 800,
+                          color: entry.isFait ? "#16A34A" : (entry.isBlocage ? "#DC2626" : etatColor),
+                          flexShrink: 0,
+                          minWidth: 45, textAlign: "right",
+                        }}>{entry.isBlocage ? "⚠" : `${pct}%`}</span>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+
+            {/* Footer : navigation slides */}
+            {slidesPhases.length > 1 && (
+              <div style={{
+                display: "flex", alignItems: "center", gap: 10,
+                padding: "14px 24px",
+                borderTop: `1px solid ${C.line}`,
+                background: C.bg,
+                flexShrink: 0,
+              }}>
+                <button
+                  onClick={goPrev}
+                  style={{
+                    width: 32, height: 32, borderRadius: 8,
+                    border: `1px solid ${C.line}`,
+                    background: C.paper,
+                    color: C.inkSoft, cursor: "pointer",
+                    display: "inline-flex", alignItems: "center", justifyContent: "center",
+                    transition: "all 0.15s",
+                  }}
+                  onMouseEnter={e => { e.currentTarget.style.borderColor = currentPhase.color; e.currentTarget.style.color = currentPhase.color; }}
+                  onMouseLeave={e => { e.currentTarget.style.borderColor = C.line; e.currentTarget.style.color = C.inkSoft; }}
+                ><ChevronLeft size={16} /></button>
+
+                {/* Indicateurs phases */}
+                <div style={{ display: "flex", gap: 6, flex: 1, justifyContent: "center" }}>
+                  {slidesPhases.map((p, i) => (
+                    <button
+                      key={p.key}
+                      onClick={() => setSlideIdx(i)}
+                      style={{
+                        display: "inline-flex", alignItems: "center", justifyContent: "center", gap: 4,
+                        height: 30, padding: i === slideIdx ? "0 12px" : "0 8px",
+                        borderRadius: 7,
+                        background: i === slideIdx ? p.color : "transparent",
+                        border: `1px solid ${i === slideIdx ? p.color : C.line}`,
+                        cursor: "pointer",
+                        transition: "all 0.2s",
+                        fontSize: 12,
+                        color: i === slideIdx ? "#fff" : C.inkSoft,
+                        fontWeight: i === slideIdx ? 700 : 500,
+                      }}
+                      title={p.label}
+                    >
+                      <span style={{ fontSize: 14 }}>{p.icon}</span>
+                      {i === slideIdx && (
+                        <span style={{ fontSize: 10, letterSpacing: "0.04em", textTransform: "uppercase" }}>
+                          {p.label}
+                        </span>
+                      )}
+                    </button>
+                  ))}
+                </div>
+
+                <button
+                  onClick={goNext}
+                  style={{
+                    width: 32, height: 32, borderRadius: 8,
+                    border: `1px solid ${C.line}`,
+                    background: C.paper,
+                    color: C.inkSoft, cursor: "pointer",
+                    display: "inline-flex", alignItems: "center", justifyContent: "center",
+                    transition: "all 0.15s",
+                  }}
+                  onMouseEnter={e => { e.currentTarget.style.borderColor = currentPhase.color; e.currentTarget.style.color = currentPhase.color; }}
+                  onMouseLeave={e => { e.currentTarget.style.borderColor = C.line; e.currentTarget.style.color = C.inkSoft; }}
+                ><ChevronRight size={16} /></button>
               </div>
             )}
-          </div>
-
-          {/* Footer : navigation slides */}
-          {slidesPhases.length > 1 && (
-            <div style={{
-              display: "flex", alignItems: "center", gap: 8,
-              padding: "10px 14px",
-              borderTop: `1px solid ${C.line}`,
-              background: C.bg,
-            }}>
-              <button
-                onClick={goPrev}
-                style={{
-                  width: 24, height: 24, borderRadius: 6,
-                  border: `1px solid ${C.line}`,
-                  background: C.paper,
-                  color: C.inkSoft, cursor: "pointer",
-                  display: "inline-flex", alignItems: "center", justifyContent: "center",
-                  transition: "all 0.15s",
-                }}
-                onMouseEnter={e => { e.currentTarget.style.borderColor = currentPhase.color; e.currentTarget.style.color = currentPhase.color; }}
-                onMouseLeave={e => { e.currentTarget.style.borderColor = C.line; e.currentTarget.style.color = C.inkSoft; }}
-              ><ChevronLeft size={14} /></button>
-
-              {/* Indicateurs phases */}
-              <div style={{ display: "flex", gap: 5, flex: 1, justifyContent: "center" }}>
-                {slidesPhases.map((p, i) => (
-                  <button
-                    key={p.key}
-                    onClick={(e) => { e.stopPropagation(); setSlideIdx(i); }}
-                    style={{
-                      display: "inline-flex", alignItems: "center", justifyContent: "center",
-                      width: i === slideIdx ? 28 : 22, height: 22,
-                      borderRadius: 5,
-                      background: i === slideIdx ? p.color : "transparent",
-                      border: `1px solid ${i === slideIdx ? p.color : C.line}`,
-                      cursor: "pointer",
-                      transition: "all 0.2s",
-                      padding: 0,
-                      fontSize: 12,
-                      color: i === slideIdx ? "#fff" : C.inkSoft,
-                    }}
-                    title={p.label}
-                  >{p.icon}</button>
-                ))}
-              </div>
-
-              <button
-                onClick={goNext}
-                style={{
-                  width: 24, height: 24, borderRadius: 6,
-                  border: `1px solid ${C.line}`,
-                  background: C.paper,
-                  color: C.inkSoft, cursor: "pointer",
-                  display: "inline-flex", alignItems: "center", justifyContent: "center",
-                  transition: "all 0.15s",
-                }}
-                onMouseEnter={e => { e.currentTarget.style.borderColor = currentPhase.color; e.currentTarget.style.color = currentPhase.color; }}
-                onMouseLeave={e => { e.currentTarget.style.borderColor = C.line; e.currentTarget.style.color = C.inkSoft; }}
-              ><ChevronRight size={14} /></button>
-            </div>
-          )}
-        </div>
-      )}
+          </>
+        )}
+      </div>
     </div>
   );
 }
