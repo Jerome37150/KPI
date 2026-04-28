@@ -460,15 +460,21 @@ function buildTopLineMock() {
 // Liste de tous les sprints utilisés en Top Line (ordre chronologique)
 const TOP_LINE_SPRINTS = ["Mars 2026", "Avril 2026", "Mai 2026", "Juin 2026", "Juillet 2026", "Aout 2026", "Septembre 2026", "Octobre 2026", "Novembre 2026", "Décembre 2026"];
 
-// === Date courante du projet (pour le calcul des retards) ===
-// On simule mai 2026 pour pouvoir tester visuellement les retards
-// dans un vrai contexte. À remplacer par la date du jour quand le projet sera bien avancé.
-const TOP_LINE_CURRENT_SPRINT_IDX = 2; // 0=Mars, 1=Avril, 2=Mai 26, etc.
+// === Sprint courant calculé automatiquement à partir de la date du jour ===
+// Mars 2026 = idx 0, Avril 2026 = idx 1, etc.
+// Si on est avant Mars 2026 → 0. Si après Décembre 2026 → 9.
+const TOP_LINE_CURRENT_SPRINT_IDX = (() => {
+  const now = new Date();
+  const yearDelta = now.getFullYear() - 2026;
+  const monthDelta = now.getMonth() - 2; // Mars = mois 2 (0-indexed)
+  const idx = yearDelta * 12 + monthDelta;
+  return Math.max(0, Math.min(TOP_LINE_SPRINTS.length - 1, idx));
+})();
 const TOP_LINE_CURRENT_SPRINT = TOP_LINE_SPRINTS[TOP_LINE_CURRENT_SPRINT_IDX];
 
 // Une phase est "en retard" si :
-// - Sprint passé ou en cours ET avancement < 100% ET état != FAIT
-// - OU bien état = "Blocage"
+// - Sprint STRICTEMENT passé (pas le mois courant) ET avancement < 100% ET état != FAIT
+// - OU bien état = "Blocage" (peu importe le sprint)
 function isPhaseLate(fenetre, phaseKey) {
   const sprintLabel = fenetre.sprint[phaseKey];
   const etat = fenetre.etat[phaseKey];
@@ -480,8 +486,8 @@ function isPhaseLate(fenetre, phaseKey) {
   const sprintIdx = TOP_LINE_SPRINTS.indexOf(sprintLabel);
   if (sprintIdx < 0) return false;
 
-  // Sprint passé ou en cours, et phase pas finie
-  if (sprintIdx <= TOP_LINE_CURRENT_SPRINT_IDX && av < 1 && etat !== "FAIT") {
+  // Sprint STRICTEMENT passé (pas le mois courant), et phase pas finie
+  if (sprintIdx < TOP_LINE_CURRENT_SPRINT_IDX && av < 1 && etat !== "FAIT") {
     return true;
   }
   return false;
@@ -709,23 +715,32 @@ function MonthPicker({ selectedDate, onChange }) {
               { label: "Mois passé", offset: -1 },
               { label: "Il y a 2 mois", offset: -2 },
               { label: "Il y a 3 mois", offset: -3 },
-            ].map(s => (
-              <button key={s.label} onClick={() => {
-                const d = shiftMonth(new Date(NOW.getFullYear(), NOW.getMonth(), 1), s.offset);
-                onChange(d);
-                setPickerYear(d.getFullYear());
-                setOpen(false);
-              }} style={{
-                padding: "6px 12px", borderRadius: 999,
-                fontSize: 11, fontWeight: 600, color: C.inkSoft,
-                background: C.bgSoft, border: `1px solid ${C.line}`,
-                cursor: "pointer", fontFamily: "inherit",
-                transition: "all 0.15s",
-              }}
-                onMouseEnter={e => { e.currentTarget.style.background = C.orangeSoft; e.currentTarget.style.color = C.orange; }}
-                onMouseLeave={e => { e.currentTarget.style.background = C.bgSoft; e.currentTarget.style.color = C.inkSoft; }}
-              >{s.label}</button>
-            ))}
+            ].map(s => {
+              const PROJECT_START_MIN = new Date(2026, 2, 1);
+              const targetDate = shiftMonth(new Date(NOW.getFullYear(), NOW.getMonth(), 1), s.offset);
+              const disabled = targetDate < PROJECT_START_MIN;
+              return (
+                <button key={s.label} onClick={() => {
+                  if (disabled) return;
+                  onChange(targetDate);
+                  setPickerYear(targetDate.getFullYear());
+                  setOpen(false);
+                }}
+                disabled={disabled}
+                style={{
+                  padding: "6px 12px", borderRadius: 999,
+                  fontSize: 11, fontWeight: 600, color: disabled ? C.inkMute : C.inkSoft,
+                  background: C.bgSoft, border: `1px solid ${C.line}`,
+                  cursor: disabled ? "not-allowed" : "pointer",
+                  fontFamily: "inherit",
+                  transition: "all 0.15s",
+                  opacity: disabled ? 0.4 : 1,
+                }}
+                onMouseEnter={e => { if (!disabled) { e.currentTarget.style.background = C.orangeSoft; e.currentTarget.style.color = C.orange; } }}
+                onMouseLeave={e => { if (!disabled) { e.currentTarget.style.background = C.bgSoft; e.currentTarget.style.color = C.inkSoft; } }}
+                >{s.label}</button>
+              );
+            })}
           </div>
 
           {/* Year navigator */}
@@ -755,23 +770,27 @@ function MonthPicker({ selectedDate, onChange }) {
               const isSelected = selectedDate.getFullYear() === pickerYear && selectedDate.getMonth() === idx;
               const isCurrent = NOW.getFullYear() === pickerYear && NOW.getMonth() === idx;
               const isFuture = monthDate > NOW;
+              // Mois antérieur au début du projet (mars 26) → désactivé
+              const PROJECT_START_MIN = new Date(2026, 2, 1);
+              const isBeforeStart = monthDate < PROJECT_START_MIN;
+              const isDisabled = isFuture || isBeforeStart;
               return (
                 <button key={idx} onClick={() => {
-                  if (!isFuture) { onChange(monthDate); setOpen(false); }
+                  if (!isDisabled) { onChange(monthDate); setOpen(false); }
                 }}
-                  disabled={isFuture}
+                  disabled={isDisabled}
                   style={{
                     padding: "10px 8px", borderRadius: 8,
                     fontSize: 12, fontWeight: isCurrent || isSelected ? 700 : 500,
                     background: isSelected ? C.orange : isCurrent ? C.orangeSoft : "transparent",
-                    color: isSelected ? "#fff" : isCurrent ? C.orange : isFuture ? C.inkMute : C.inkSoft,
+                    color: isSelected ? "#fff" : isCurrent ? C.orange : isDisabled ? C.inkMute : C.inkSoft,
                     border: `1px solid ${isSelected ? C.orange : "transparent"}`,
-                    cursor: isFuture ? "not-allowed" : "pointer",
+                    cursor: isDisabled ? "not-allowed" : "pointer",
                     fontFamily: "inherit", transition: "all 0.15s",
-                    opacity: isFuture ? 0.4 : 1,
+                    opacity: isDisabled ? 0.4 : 1,
                   }}
-                  onMouseEnter={e => { if (!isFuture && !isSelected) e.currentTarget.style.background = C.bgSoft; }}
-                  onMouseLeave={e => { if (!isFuture && !isSelected) e.currentTarget.style.background = isCurrent ? C.orangeSoft : "transparent"; }}
+                  onMouseEnter={e => { if (!isDisabled && !isSelected) e.currentTarget.style.background = C.bgSoft; }}
+                  onMouseLeave={e => { if (!isDisabled && !isSelected) e.currentTarget.style.background = isCurrent ? C.orangeSoft : "transparent"; }}
                 >{mois}</button>
               );
             })}
@@ -785,6 +804,27 @@ function MonthPicker({ selectedDate, onChange }) {
 // ============================================
 // ONGLET CLASSIQUE
 // ============================================
+
+// Helper : calcule l'avancement d'un ticket
+// - Priorité 1 : pointAvancement (valeur entre 0 et 1 dans Notion)
+// - Priorité 2 : si pas renseigné, on déduit du statut :
+//     - FAIT = 100%
+//     - Fait partiellement = 50%
+//     - En cours = 25%
+//     - Tout le reste = 0%
+function getAvancement(ticket) {
+  // Si pointAvancement est renseigné (et > 0), on le prend en priorité
+  const pa = ticket.pointAvancement;
+  if (pa != null && pa > 0) return pa;
+  // Sinon fallback sur statut
+  switch (ticket.statut) {
+    case "FAIT": return 1;
+    case "Fait partiellement": return 0.5;
+    case "En cours": return 0.25;
+    default: return 0;
+  }
+}
+
 function ClassiqueTab({ selectedMonth }) {
   const previousMonth = shiftMonth(selectedMonth, -1);
   const sprintCurrent = sprintLabel(selectedMonth);
@@ -806,10 +846,14 @@ function ClassiqueTab({ selectedMonth }) {
     const faitsCur = sprintTickets.filter(t => t.statut === "FAIT").length;
     const faitsPrev = sprintTicketsPrev.filter(t => t.statut === "FAIT").length;
 
-    // Taux d'avancement = moyenne pondérée des pointAvancement de tous les tickets du sprint
+    const faitPartCur = sprintTickets.filter(t => t.statut === "Fait partiellement").length;
+    const faitPartPrev = sprintTicketsPrev.filter(t => t.statut === "Fait partiellement").length;
+
+    // Taux d'avancement = moyenne des avancements de tous les tickets du sprint
+    // (utilise getAvancement qui priorise pointAvancement, sinon dérive du statut)
     const avgAvancement = (arr) => {
       if (arr.length === 0) return 0;
-      const sum = arr.reduce((acc, t) => acc + (t.pointAvancement || 0), 0);
+      const sum = arr.reduce((acc, t) => acc + getAvancement(t), 0);
       return Math.round((sum / arr.length) * 100);
     };
     const tauxCur = avgAvancement(sprintTickets);
@@ -824,6 +868,7 @@ function ClassiqueTab({ selectedMonth }) {
       enregistres: { value: enregistresCur.length, prev: enregistresPrev.length, delta: pct(enregistresCur.length, enregistresPrev.length) },
       enCours: { value: enCoursCur, prev: enCoursPrev, delta: pct(enCoursCur, enCoursPrev) },
       faits: { value: faitsCur, prev: faitsPrev, delta: pct(faitsCur, faitsPrev) },
+      faitPartiellement: { value: faitPartCur, prev: faitPartPrev, delta: pct(faitPartCur, faitPartPrev) },
       taux: { value: tauxCur, prev: tauxPrev, delta: tauxCur - tauxPrev },
       sprintTotal: sprintTickets.length,
     };
@@ -853,8 +898,11 @@ function ClassiqueTab({ selectedMonth }) {
   const enregCur = byMonth[monthKey(selectedMonth)] || { total: 0, parClassif: {}, classifDetails: {} };
   const enregPrev = byMonth[monthKey(previousMonth)] || { total: 0, parClassif: {}, classifDetails: {} };
 
-  // 5 derniers mois autour de selectedMonth (M-4 → M)
-  const last5Months = [4, 3, 2, 1, 0].map(d => shiftMonth(selectedMonth, -d));
+  // 5 derniers mois autour de selectedMonth (M-4 → M), bornés à Mars 26 minimum
+  const PROJECT_START = new Date(2026, 2, 1); // Mars 26 = mois 2 (0-indexed)
+  const last5Months = [4, 3, 2, 1, 0]
+    .map(d => shiftMonth(selectedMonth, -d))
+    .filter(d => d >= PROJECT_START);
   const maxMonth = Math.max(...last5Months.map(d => byMonth[monthKey(d)]?.total || 0), 1);
 
   return (
@@ -878,7 +926,7 @@ function ClassiqueTab({ selectedMonth }) {
           fontSize: 10, letterSpacing: "0.15em", textTransform: "uppercase",
           color: C.orange, fontWeight: 700, marginBottom: 8,
         }}>◆ Indicateurs · {monthLabel(selectedMonth)}</div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 10 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: 10 }}>
           <MacroKpi
             icon={Inbox}
             label="Enregistrés"
@@ -897,6 +945,15 @@ function ClassiqueTab({ selectedMonth }) {
             delta={macros.enCours.delta}
             color={C.blue}
             previous={macros.enCours.prev}
+          />
+          <MacroKpi
+            icon={CheckCircle2}
+            label="Fait partiellement"
+            sublabel={`Sprint ${sprintCurrent}`}
+            value={macros.faitPartiellement.value}
+            delta={macros.faitPartiellement.delta}
+            color="#3B82F6"
+            previous={macros.faitPartiellement.prev}
           />
           <MacroKpi
             icon={CheckCircle2}
@@ -1349,7 +1406,18 @@ function SprintSection({ sprintCurrent, sprintPrevious, selectedMonth, previousM
                   background: openTicketId === t.id ? C.bgSoft : "transparent",
                   transition: "background 0.15s",
                 }}>
-                  <td style={{ padding: "12px 8px", color: C.ink, fontWeight: 500, maxWidth: 320 }}>{t.titre}</td>
+                  <td style={{ padding: "12px 8px", color: C.ink, fontWeight: 500, maxWidth: 320 }}>
+                    {t.identifiant && (
+                      <span style={{
+                        display: "inline-block",
+                        fontSize: 9, color: C.inkDim, fontWeight: 700,
+                        letterSpacing: "0.05em",
+                        background: C.bgSoft, padding: "2px 5px", borderRadius: 3,
+                        marginRight: 8, verticalAlign: "middle",
+                      }}>{t.identifiant}</span>
+                    )}
+                    <span style={{ verticalAlign: "middle" }}>{t.titre || "(Sans titre)"}</span>
+                  </td>
                   <td style={{ padding: "12px 8px" }}>
                     <Pill color={CLASSIF_COLORS[t.classification] || C.inkMute} size="sm">{t.classification}</Pill>
                   </td>
@@ -1357,21 +1425,26 @@ function SprintSection({ sprintCurrent, sprintPrevious, selectedMonth, previousM
                     <Pill color={STATUT_COLORS[t.statut] || C.inkMute} size="sm">{t.statut}</Pill>
                   </td>
                   <td style={{ padding: "12px 8px" }}>
-                    <div style={{ display: "flex", alignItems: "center", gap: 10, minWidth: 120 }}>
-                      <div style={{ flex: 1, height: 5, background: C.bgSoft, borderRadius: 3, overflow: "hidden" }}>
-                        <div style={{
-                          height: "100%",
-                          width: `${t.pointAvancement * 100}%`,
-                          background: t.pointAvancement >= 1 ? C.green : C.orange,
-                          transition: "width 0.6s",
-                        }} />
-                      </div>
-                      <span style={{
-                        fontSize: 11,
-                        color: t.pointAvancement >= 1 ? C.green : C.orange,
-                        fontWeight: 700, minWidth: 30, textAlign: "right",
-                      }}>{Math.round(t.pointAvancement * 100)}%</span>
-                    </div>
+                    {(() => {
+                      const av = getAvancement(t);
+                      return (
+                        <div style={{ display: "flex", alignItems: "center", gap: 10, minWidth: 120 }}>
+                          <div style={{ flex: 1, height: 5, background: C.bgSoft, borderRadius: 3, overflow: "hidden" }}>
+                            <div style={{
+                              height: "100%",
+                              width: `${av * 100}%`,
+                              background: av >= 1 ? C.green : C.orange,
+                              transition: "width 0.6s",
+                            }} />
+                          </div>
+                          <span style={{
+                            fontSize: 11,
+                            color: av >= 1 ? C.green : C.orange,
+                            fontWeight: 700, minWidth: 30, textAlign: "right",
+                          }}>{Math.round(av * 100)}%</span>
+                        </div>
+                      );
+                    })()}
                   </td>
                   <td style={{ padding: "12px 4px", textAlign: "center" }}>
                     <InitAjoutBadge initialeAjout={t.initialeAjout} />
@@ -1852,10 +1925,10 @@ function TicketDetailPopover({ ticket, onClose }) {
             fontSize: 9, letterSpacing: "0.15em", textTransform: "uppercase",
             color: C.orange, fontWeight: 700, marginBottom: 3,
           }}>
-            Ticket #{ticket.id}
+            Ticket {ticket.identifiant || `#${ticket.id}`}
           </div>
           <div style={{ fontSize: 13, fontWeight: 600, color: C.ink, lineHeight: 1.3 }}>
-            {ticket.titre}
+            {ticket.titre || "(Sans titre)"}
           </div>
         </div>
         <button onClick={onClose} style={{
@@ -3044,37 +3117,52 @@ function MonthHeader({ sprintLabel, items, colWidth, isLast }) {
             </div>
           )}
 
-          {/* Liste des fenêtres concernées (max 8) */}
+          {/* Liste des fenêtres concernées (max 12) - triées : FAIT d'abord, puis par % décroissant */}
           <div style={{ marginTop: 8, paddingTop: 8, borderTop: `1px solid ${C.line}` }}>
             <div style={{
               fontSize: 9, letterSpacing: "0.1em", textTransform: "uppercase",
               color: C.inkDim, fontWeight: 700, marginBottom: 6,
             }}>Détail</div>
             <div style={{ display: "flex", flexDirection: "column", gap: 3, maxHeight: 200, overflowY: "auto" }}>
-              {[...recap.blocage, ...recap.enCours, ...recap.fait, ...recap.aVenir].slice(0, 12).map((entry, i) => {
-                const etatColor = entry.etat ? (ETAT_COLORS_TL[entry.etat] || C.inkMute) : C.inkMute;
-                return (
-                  <div key={i} style={{
-                    display: "flex", alignItems: "center", gap: 6,
-                    fontSize: 10,
-                  }}>
-                    <span style={{ fontSize: 12, flexShrink: 0 }}>{entry.icon}</span>
-                    <span style={{
-                      fontSize: 8, color: C.inkDim, fontWeight: 700,
-                      letterSpacing: "0.04em", flexShrink: 0,
-                      background: C.bgSoft, padding: "1px 4px", borderRadius: 3,
-                    }}>{entry.id}</span>
-                    <span style={{
-                      flex: 1, color: C.inkSoft,
-                      overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
-                    }}>{entry.fenetre}</span>
-                    <span style={{
-                      fontSize: 9, fontWeight: 700, color: etatColor,
-                      flexShrink: 0,
-                    }}>{entry.etat || "—"}</span>
-                  </div>
-                );
-              })}
+              {(() => {
+                // Tri : FAIT d'abord, puis par % décroissant, puis blocages, puis le reste
+                const allEntries = [...recap.fait, ...recap.enCours, ...recap.aVenir, ...recap.blocage];
+                const sorted = allEntries.sort((a, b) => {
+                  // FAIT en premier
+                  const aFait = a.etat === "FAIT" ? 1 : 0;
+                  const bFait = b.etat === "FAIT" ? 1 : 0;
+                  if (aFait !== bFait) return bFait - aFait;
+                  // Puis par % décroissant
+                  return (b.av || 0) - (a.av || 0);
+                });
+                return sorted.slice(0, 12).map((entry, i) => {
+                  const etatColor = entry.etat ? (ETAT_COLORS_TL[entry.etat] || C.inkMute) : C.inkMute;
+                  const isFait = entry.etat === "FAIT";
+                  const isBloc = entry.etat === "Blocage";
+                  const pct = isFait ? 100 : Math.round((entry.av || 0) * 100);
+                  return (
+                    <div key={i} style={{
+                      display: "flex", alignItems: "center", gap: 6,
+                      fontSize: 10,
+                    }}>
+                      <span style={{ fontSize: 12, flexShrink: 0 }}>{entry.icon}</span>
+                      <span style={{
+                        fontSize: 8, color: C.inkDim, fontWeight: 700,
+                        letterSpacing: "0.04em", flexShrink: 0,
+                        background: C.bgSoft, padding: "1px 4px", borderRadius: 3,
+                      }}>{entry.id}</span>
+                      <span style={{
+                        flex: 1, color: C.inkSoft,
+                        overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
+                      }}>{entry.fenetre}</span>
+                      <span style={{
+                        fontSize: 10, fontWeight: 800, color: isFait ? "#16A34A" : (isBloc ? "#DC2626" : etatColor),
+                        flexShrink: 0,
+                      }}>{isBloc ? "⚠" : `${pct}%`}</span>
+                    </div>
+                  );
+                });
+              })()}
               {recap.total > 12 && (
                 <div style={{ fontSize: 9, color: C.inkMute, fontStyle: "italic", textAlign: "center", marginTop: 4 }}>
                   + {recap.total - 12} autre{recap.total - 12 > 1 ? "s" : ""}…
@@ -3163,6 +3251,7 @@ function PhasePill({ phase, etat, avancement, isStarted, etatColor, left, width,
           top: 0, left: 0, bottom: 0,
           width: `${fillPct}%`,
           background: refColor,
+          opacity: 0.45,
           transition: "width 0.6s ease-out",
         }} />
       )}
@@ -3174,12 +3263,12 @@ function PhasePill({ phase, etat, avancement, isStarted, etatColor, left, width,
         display: "flex", alignItems: "center", justifyContent: "center", gap: 5,
         padding: "0 6px",
         fontSize: 11, fontWeight: 700,
-        // Texte blanc si rempli majoritairement, foncé sinon
-        color: isStarted && fillPct >= 50 ? "#fff" : (isStarted ? refColor : C.inkMute),
+        // Texte toujours en noir foncé pour lisibilité (sur fond clair grâce à fillPct < 100)
+        color: C.ink,
       }}>
         <span style={{ fontSize: 13, lineHeight: 1 }}>{phase.icon}</span>
         {isFait ? (
-          <span style={{ fontSize: 11, fontWeight: 800 }}>✓</span>
+          <span style={{ fontSize: 11, fontWeight: 800 }}>100%</span>
         ) : avancement > 0 ? (
           <span style={{ fontSize: 11, fontWeight: 700 }}>{Math.round(avancement * 100)}%</span>
         ) : null}
@@ -3581,4 +3670,5 @@ export default function Dashboard() {
       </footer>
     </div>
   );
+}
 }
