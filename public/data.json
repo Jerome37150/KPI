@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T11:45:13.248Z",
+  "generatedAt": "2026-04-29T15:26:29.904Z",
   "classique": [
     {
       "id": "3058db15-623a-800b-9334-e040aa618867",
@@ -173,7 +173,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "bug_absence_pdf_devis_sql.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/ea63adea-60bd-463f-b0c5-859fafdabb18/bug_absence_pdf_devis_sql.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46627GFLYQS%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114510Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJGMEQCIA6pgjkjYivOXyZtmXpnlOPrFRnkCOva17fFp%2FWfdxW6AiB71aMrazR7UTq%2Bb3BAXkaR%2Frg6sbdrQcX8gA8jjYNMXCqIBAj1%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM%2Fr4Te73W%2FELggTxiKtwDtgEttvQvf590RVraq9LeqHdxpFdA%2FTPuFqqmy3DksnsyfPNKrIcmFlPbEaEfDmROMhXIDp%2BUq3I5U6YmGrFqtDdbp3Z5q5PRQwV1l%2F5cIrNdJfIMAprcrQFCIe5UwoSeArglfnJCCZ%2BEzlNlM%2FHmR9P0tb5qQPh53L1dKUOtGiYbMY7UJgC4gRFZIBLWc14JA%2F%2BF0sJ1trOn53MF2wTjZwzGsc1uNXOSViRy%2FDYC%2B86ZqqTuioQljud0UnEb9Yj%2Fak0rLC2GhBWNre1raofwCcWtEBZDrAqNYV84M4Brw7xusYn38Vkz6xHMu4CYrJFaFqaM%2F90CvUHLAyFhWPZfM%2FreNShWXcXUG42rMDcWOgcsEVy4BjOi9cMzhwJJvh9ux8xWjLC%2FUuB30pfpWx4NUleW4rUgfOgjhaDHckXddkW%2BFxb1%2FFDVU%2By7b52UbTBlaT87Ork1tJdpUrmj16ryRLkjWjX3nWjM1cjFxba5uLZiv4cILYFlFZRF4uAaP19PQJOQS1Z1rzadYxhspQuK2tNuORy67q%2FWcHWSpcp9sXx22g0zyFH3Al1ScFypfNN8cgysnhDKto0ZCAJBcNGiT6dgt%2B%2BOgHgYy7%2Bbbfe5nNNjlSsBc%2F1%2FOnGA790wtNbHzwY6pgG4eHUtUrUNclEt4S52SMFLUrIrqZQcw%2FEUGFc4ozE%2BHapjVogFQsZlyECbOb1OerZdPPqpDCTuzu6Ppi8i%2FZxgb7ffGGJwRqVFdPU3DZXlFyOcV6xcxCg5fIvEF4eYwVVwYmwT0Eg3EirYsVMQcDZAGqcsM%2Fh0Sv%2FL1rAvtK5sHColwHBW5Erk4jY2KQr8cJ1ok3cQj2%2FDKbCa70wPF8a7S7y6OxKg&X-Amz-Signature=b5ed0cb0865a19d2f013bb95f3fae6f84904b6a75d732bc8f6530587d2a95224&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/ea63adea-60bd-463f-b0c5-859fafdabb18/bug_absence_pdf_devis_sql.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XGJFFIPC%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJIMEYCIQCtsW4o9w5P4t9ezmGcrv2P%2FXh1TbA0uGLwrazagQPgNwIhAM1OlNiCF8mKs8R9A6UkpYws9M7tbCZf8zoJ2GBtwQKzKogECPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyER1QrBrwIzKJnjIQq3APn5V%2FKy380ADx1jyXdU4KCyuKNkM0aCicg7116%2BlIfGrl5ouoe7wErG45Yt15dI6gRKCYrXlLAjlKwHJYp4jmdKQk7vqVQ4z562myNFnFpSrRLdBwnSlAdbQy9qxHHDd45NuT3r0l9qoEktvjU2jpBaKoi3sJcoidoISFGWZLxIwakM6fbyQjdwTYdxKgjS%2BOROmqpF%2FzIkbuDj60ivVM8XGiT%2F1SpQHL2PUoz%2BAQUdFCDWm%2FG1XoqfjVkwuF2c51Z3%2B3a4KaUzhy5cEU9PvGFOKU8vuUA75NnBkswoay21A71LaY2%2Bfl2V7Sqvq8cbGqO%2BPAjHGPjnxe%2FnYItd2P1Eb5IzH1Ays21mKMTdG8EWOrHjAludvhg1JFDrkGhp4xAdEK8Kd4z%2FrCvEFxaFXBWj9qyAc3lGm408lG7q2g0v7%2BBRoaBWlaKfleH%2FMX6STQQdFc1XwwHAW6dDrh7qI8GyIg1E1O3hWWwOn%2FRWHlCsuNubzgWXavJJ2ZLSPVo4%2BmmYAgZDJvujm0tCm0VciNS0otIxRITBitaznaL4bvaQLOzOGXXwe9MQEMBgW6bLMdXl8t%2Flxn5GAGDl2eyBqyouDlP7GhYe62LhUkBpXUpgHMQDphLBXTPurSWyzD1pcjPBjqkAbkp4oTO0ioxu8woUVs1xe%2BXlCMyZk0knQgQ6jAgcuV6v03njgOl99do3Mt5HeQgg%2BUe06MGDcfUoUFRgqZOaAGGwpcT%2FrQF8nZWGJv%2FemBfkbka7AC22QuZwi%2FYLQ26mAKsoihDTipZ1HDPVhKWm3gDlWmhojXybz%2BdkuTrdXaeuTyX2pdD%2BSEn2LD3w03c7zsyxYWqzMMqQma%2FqZxDvTMb%2BxQt&X-Amz-Signature=1dc279fc924e660428d09c6d5f8f99c9ffd800f48f0cd63e87209b5ca2e53b7f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Absence-des-PDF-des-devis-dans-l-onglet-Courrier-Email-en-SQL-30a8db15623a8147b130f87d6a60820f"
     },
@@ -615,7 +615,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-21.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/483e066e-5a4b-4631-bdbf-fc68550d8a43/INA-21.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46627GFLYQS%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114510Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJGMEQCIA6pgjkjYivOXyZtmXpnlOPrFRnkCOva17fFp%2FWfdxW6AiB71aMrazR7UTq%2Bb3BAXkaR%2Frg6sbdrQcX8gA8jjYNMXCqIBAj1%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM%2Fr4Te73W%2FELggTxiKtwDtgEttvQvf590RVraq9LeqHdxpFdA%2FTPuFqqmy3DksnsyfPNKrIcmFlPbEaEfDmROMhXIDp%2BUq3I5U6YmGrFqtDdbp3Z5q5PRQwV1l%2F5cIrNdJfIMAprcrQFCIe5UwoSeArglfnJCCZ%2BEzlNlM%2FHmR9P0tb5qQPh53L1dKUOtGiYbMY7UJgC4gRFZIBLWc14JA%2F%2BF0sJ1trOn53MF2wTjZwzGsc1uNXOSViRy%2FDYC%2B86ZqqTuioQljud0UnEb9Yj%2Fak0rLC2GhBWNre1raofwCcWtEBZDrAqNYV84M4Brw7xusYn38Vkz6xHMu4CYrJFaFqaM%2F90CvUHLAyFhWPZfM%2FreNShWXcXUG42rMDcWOgcsEVy4BjOi9cMzhwJJvh9ux8xWjLC%2FUuB30pfpWx4NUleW4rUgfOgjhaDHckXddkW%2BFxb1%2FFDVU%2By7b52UbTBlaT87Ork1tJdpUrmj16ryRLkjWjX3nWjM1cjFxba5uLZiv4cILYFlFZRF4uAaP19PQJOQS1Z1rzadYxhspQuK2tNuORy67q%2FWcHWSpcp9sXx22g0zyFH3Al1ScFypfNN8cgysnhDKto0ZCAJBcNGiT6dgt%2B%2BOgHgYy7%2Bbbfe5nNNjlSsBc%2F1%2FOnGA790wtNbHzwY6pgG4eHUtUrUNclEt4S52SMFLUrIrqZQcw%2FEUGFc4ozE%2BHapjVogFQsZlyECbOb1OerZdPPqpDCTuzu6Ppi8i%2FZxgb7ffGGJwRqVFdPU3DZXlFyOcV6xcxCg5fIvEF4eYwVVwYmwT0Eg3EirYsVMQcDZAGqcsM%2Fh0Sv%2FL1rAvtK5sHColwHBW5Erk4jY2KQr8cJ1ok3cQj2%2FDKbCa70wPF8a7S7y6OxKg&X-Amz-Signature=d380663691899d1c588f9e99495e5d84eb3943f603e8e2a6eb2bd4706097c38a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/483e066e-5a4b-4631-bdbf-fc68550d8a43/INA-21.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XGJFFIPC%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJIMEYCIQCtsW4o9w5P4t9ezmGcrv2P%2FXh1TbA0uGLwrazagQPgNwIhAM1OlNiCF8mKs8R9A6UkpYws9M7tbCZf8zoJ2GBtwQKzKogECPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyER1QrBrwIzKJnjIQq3APn5V%2FKy380ADx1jyXdU4KCyuKNkM0aCicg7116%2BlIfGrl5ouoe7wErG45Yt15dI6gRKCYrXlLAjlKwHJYp4jmdKQk7vqVQ4z562myNFnFpSrRLdBwnSlAdbQy9qxHHDd45NuT3r0l9qoEktvjU2jpBaKoi3sJcoidoISFGWZLxIwakM6fbyQjdwTYdxKgjS%2BOROmqpF%2FzIkbuDj60ivVM8XGiT%2F1SpQHL2PUoz%2BAQUdFCDWm%2FG1XoqfjVkwuF2c51Z3%2B3a4KaUzhy5cEU9PvGFOKU8vuUA75NnBkswoay21A71LaY2%2Bfl2V7Sqvq8cbGqO%2BPAjHGPjnxe%2FnYItd2P1Eb5IzH1Ays21mKMTdG8EWOrHjAludvhg1JFDrkGhp4xAdEK8Kd4z%2FrCvEFxaFXBWj9qyAc3lGm408lG7q2g0v7%2BBRoaBWlaKfleH%2FMX6STQQdFc1XwwHAW6dDrh7qI8GyIg1E1O3hWWwOn%2FRWHlCsuNubzgWXavJJ2ZLSPVo4%2BmmYAgZDJvujm0tCm0VciNS0otIxRITBitaznaL4bvaQLOzOGXXwe9MQEMBgW6bLMdXl8t%2Flxn5GAGDl2eyBqyouDlP7GhYe62LhUkBpXUpgHMQDphLBXTPurSWyzD1pcjPBjqkAbkp4oTO0ioxu8woUVs1xe%2BXlCMyZk0knQgQ6jAgcuV6v03njgOl99do3Mt5HeQgg%2BUe06MGDcfUoUFRgqZOaAGGwpcT%2FrQF8nZWGJv%2FemBfkbka7AC22QuZwi%2FYLQ26mAKsoihDTipZ1HDPVhKWm3gDlWmhojXybz%2BdkuTrdXaeuTyX2pdD%2BSEn2LD3w03c7zsyxYWqzMMqQma%2FqZxDvTMb%2BxQt&X-Amz-Signature=96c5f31dd76d5be5962bdf25986f829feae12ddccdec5f3ac1dc0f4c780fd7c9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Message-d-erreur-l-enregistrement-d-un-nouveau-v-hicule-30c8db15623a8007ac73ce8b55f77ce2"
     },
@@ -651,7 +651,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-22.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/1ca8ab67-0fcb-4072-b9e5-3399feca59ee/INA-22.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46627GFLYQS%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114510Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJGMEQCIA6pgjkjYivOXyZtmXpnlOPrFRnkCOva17fFp%2FWfdxW6AiB71aMrazR7UTq%2Bb3BAXkaR%2Frg6sbdrQcX8gA8jjYNMXCqIBAj1%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM%2Fr4Te73W%2FELggTxiKtwDtgEttvQvf590RVraq9LeqHdxpFdA%2FTPuFqqmy3DksnsyfPNKrIcmFlPbEaEfDmROMhXIDp%2BUq3I5U6YmGrFqtDdbp3Z5q5PRQwV1l%2F5cIrNdJfIMAprcrQFCIe5UwoSeArglfnJCCZ%2BEzlNlM%2FHmR9P0tb5qQPh53L1dKUOtGiYbMY7UJgC4gRFZIBLWc14JA%2F%2BF0sJ1trOn53MF2wTjZwzGsc1uNXOSViRy%2FDYC%2B86ZqqTuioQljud0UnEb9Yj%2Fak0rLC2GhBWNre1raofwCcWtEBZDrAqNYV84M4Brw7xusYn38Vkz6xHMu4CYrJFaFqaM%2F90CvUHLAyFhWPZfM%2FreNShWXcXUG42rMDcWOgcsEVy4BjOi9cMzhwJJvh9ux8xWjLC%2FUuB30pfpWx4NUleW4rUgfOgjhaDHckXddkW%2BFxb1%2FFDVU%2By7b52UbTBlaT87Ork1tJdpUrmj16ryRLkjWjX3nWjM1cjFxba5uLZiv4cILYFlFZRF4uAaP19PQJOQS1Z1rzadYxhspQuK2tNuORy67q%2FWcHWSpcp9sXx22g0zyFH3Al1ScFypfNN8cgysnhDKto0ZCAJBcNGiT6dgt%2B%2BOgHgYy7%2Bbbfe5nNNjlSsBc%2F1%2FOnGA790wtNbHzwY6pgG4eHUtUrUNclEt4S52SMFLUrIrqZQcw%2FEUGFc4ozE%2BHapjVogFQsZlyECbOb1OerZdPPqpDCTuzu6Ppi8i%2FZxgb7ffGGJwRqVFdPU3DZXlFyOcV6xcxCg5fIvEF4eYwVVwYmwT0Eg3EirYsVMQcDZAGqcsM%2Fh0Sv%2FL1rAvtK5sHColwHBW5Erk4jY2KQr8cJ1ok3cQj2%2FDKbCa70wPF8a7S7y6OxKg&X-Amz-Signature=6a46689671fb62d5d7f7dbc136060bf66c28a7cea23a9f90da790eafdf020293&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/1ca8ab67-0fcb-4072-b9e5-3399feca59ee/INA-22.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XGJFFIPC%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJIMEYCIQCtsW4o9w5P4t9ezmGcrv2P%2FXh1TbA0uGLwrazagQPgNwIhAM1OlNiCF8mKs8R9A6UkpYws9M7tbCZf8zoJ2GBtwQKzKogECPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyER1QrBrwIzKJnjIQq3APn5V%2FKy380ADx1jyXdU4KCyuKNkM0aCicg7116%2BlIfGrl5ouoe7wErG45Yt15dI6gRKCYrXlLAjlKwHJYp4jmdKQk7vqVQ4z562myNFnFpSrRLdBwnSlAdbQy9qxHHDd45NuT3r0l9qoEktvjU2jpBaKoi3sJcoidoISFGWZLxIwakM6fbyQjdwTYdxKgjS%2BOROmqpF%2FzIkbuDj60ivVM8XGiT%2F1SpQHL2PUoz%2BAQUdFCDWm%2FG1XoqfjVkwuF2c51Z3%2B3a4KaUzhy5cEU9PvGFOKU8vuUA75NnBkswoay21A71LaY2%2Bfl2V7Sqvq8cbGqO%2BPAjHGPjnxe%2FnYItd2P1Eb5IzH1Ays21mKMTdG8EWOrHjAludvhg1JFDrkGhp4xAdEK8Kd4z%2FrCvEFxaFXBWj9qyAc3lGm408lG7q2g0v7%2BBRoaBWlaKfleH%2FMX6STQQdFc1XwwHAW6dDrh7qI8GyIg1E1O3hWWwOn%2FRWHlCsuNubzgWXavJJ2ZLSPVo4%2BmmYAgZDJvujm0tCm0VciNS0otIxRITBitaznaL4bvaQLOzOGXXwe9MQEMBgW6bLMdXl8t%2Flxn5GAGDl2eyBqyouDlP7GhYe62LhUkBpXUpgHMQDphLBXTPurSWyzD1pcjPBjqkAbkp4oTO0ioxu8woUVs1xe%2BXlCMyZk0knQgQ6jAgcuV6v03njgOl99do3Mt5HeQgg%2BUe06MGDcfUoUFRgqZOaAGGwpcT%2FrQF8nZWGJv%2FemBfkbka7AC22QuZwi%2FYLQ26mAKsoihDTipZ1HDPVhKWm3gDlWmhojXybz%2BdkuTrdXaeuTyX2pdD%2BSEn2LD3w03c7zsyxYWqzMMqQma%2FqZxDvTMb%2BxQt&X-Amz-Signature=02c95d5a93d1956bc71e345a543f7ed9d9383eccfb38babed3fed458bf12aef0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Impossible-d-ouvrir-l-encours-V2-30d8db15623a800ca27fd69f3e971e27"
     },
@@ -3736,7 +3736,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-126.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/25dc85eb-6e64-4fa5-9693-8debe8bc3be2/INA-126.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=ac97232d71c5d68d7e548e06e39154d21a1ef2238b880747c5c5470130b4219f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/25dc85eb-6e64-4fa5-9693-8debe8bc3be2/INA-126.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=ea78a4c5fb4e648f6924712c4912f4c95aa28c826f7a941d83db8092ed5a02ef&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Facturation-La-civilit-et-le-pays-du-destinataire-de-la-facture-ne-sont-plus-prises-en-compte-Fa-3128db15623a800499bef30bbac24f10"
     },
@@ -3776,7 +3776,7 @@
       "dateSortieStable": "2026-04-07",
       "pieceJointe": {
         "name": "INA-127.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/9869f740-321b-435c-93ce-2d6dc4c7d948/INA-127.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=cd64dd81924baa9340b146fb609b90fb0cd2b2f8986e7c655d0879544195ef63&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/9869f740-321b-435c-93ce-2d6dc4c7d948/INA-127.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=45e79c55365c037f16bc9284794c28cd8bb59afdf2564c95f3b78662d2f657f7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/La-fen-tre-de-saisie-d-un-paiement-lors-de-la-facturation-ne-s-affiche-plus-automatiquement-3128db15623a80e49f99e20848413474"
     },
@@ -3815,7 +3815,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-129.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/9c73def6-a004-4500-8a5c-fe36dc0395da/INA-129.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=959f45c47f6497b8f317affb688005f3287216ae5911b86ab8edb505eb509f0f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/9c73def6-a004-4500-8a5c-fe36dc0395da/INA-129.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=6a6e3eaa3d4851f41b1460049ab5f914130425d19d97230a5511f7cc53301c92&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Doublons-dans-la-table-CPTCLIENT-Impact-export-comptable-3138db15623a800c93afff285c636bc9"
     },
@@ -3856,7 +3856,7 @@
     {
       "id": "3138db15-623a-807d-92b4-cf190225e061",
       "identifiant": "INA-132",
-      "titre": "Connexion Web a Naxi Nomad Premium",
+      "titre": "[WEB] Connexion Web a Naxi Nomad Premium",
       "classification": "DEV avec CC",
       "statut": "A planifier",
       "priorisation": "Moyenne",
@@ -3885,12 +3885,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Connexion-Web-a-Naxi-Nomad-Premium-3138db15623a807d92b4cf190225e061"
+      "url": "https://app.notion.com/p/WEB-Connexion-Web-a-Naxi-Nomad-Premium-3138db15623a807d92b4cf190225e061"
     },
     {
       "id": "3138db15-623a-80a7-b571-cfdbd2f12c03",
       "identifiant": "INA-130",
-      "titre": "Suppression de l’ancien planning",
+      "titre": "[LOGICIEL] Suppression de l’ancien planning",
       "classification": "STACK TECH",
       "statut": "A planifier",
       "priorisation": "Pas urgente",
@@ -3920,7 +3920,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Suppression-de-l-ancien-planning-3138db15623a80a7b571cfdbd2f12c03"
+      "url": "https://app.notion.com/p/LOGICIEL-Suppression-de-l-ancien-planning-3138db15623a80a7b571cfdbd2f12c03"
     },
     {
       "id": "3148db15-623a-8031-a8dc-c79d314bbdb6",
@@ -4287,7 +4287,7 @@
     {
       "id": "3178db15-623a-8017-a10f-f4b9821287fa",
       "identifiant": "INA-147",
-      "titre": "CRM - Le montant des suppléments envoyés est faux lorsque le supplément est en prix modifiable dans NAXI",
+      "titre": " [LOGICIEL/WEB] CRM - Le montant des suppléments envoyés est faux lorsque le supplément est en prix modifiable dans NAXI",
       "classification": "BUG OPERATIONNEL",
       "statut": "A planifier",
       "priorisation": "Pas urgente",
@@ -4315,9 +4315,9 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-147.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=a2516bf561d289d7ea1ba001b80cb7a588a1e003b07c9c359ba6a1e8c07886df&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=744fd979239b0095b08c5ef1cbf671143b030abcc119a38a90cafa1e747997cb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
-      "url": "https://app.notion.com/p/CRM-Le-montant-des-suppl-ments-envoy-s-est-faux-lorsque-le-suppl-ment-est-en-prix-modifiable-dans--3178db15623a8017a10ff4b9821287fa"
+      "url": "https://app.notion.com/p/LOGICIEL-WEB-CRM-Le-montant-des-suppl-ments-envoy-s-est-faux-lorsque-le-suppl-ment-est-en-prix-mo-3178db15623a8017a10ff4b9821287fa"
     },
     {
       "id": "3178db15-623a-8045-8d0d-e93a71d0564f",
@@ -4350,7 +4350,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-148.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=dc34ac0617ce5fa81bd67a3bc7c01a8e10bcc0f0587ae6a43a2ba1fb95db43e7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=37ff7408fdce6e09e3f876d5ee244ba70322af43ee9105f14dded29866039bd1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/REDSYS-Non-fonctionnel-suite-mise-en-place-3178db15623a80458d0de93a71d0564f"
     },
@@ -4388,7 +4388,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-145.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=0691304816c2b7e586817852dc0cab8ac67dc40328eac91cfa1db7106fb9d4cc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=e05ab56b255229adc47b78d75bc588f5645d43a44811398a007f9dc581b0b1da&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Erreur-de-saisie-sur-les-remises-manuelle-g-n-rant-un-montant-de-s-jour-faux-3178db15623a8079a34be124df5b756a"
     },
@@ -4431,7 +4431,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "INA-146.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/56dce0e5-85f0-4c94-94ff-9d3d623120c5/INA-146.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=6640743d27edb986066d6834441f89e405036ded62725d42fa7549639f544990&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/56dce0e5-85f0-4c94-94ff-9d3d623120c5/INA-146.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=c4e89ab5309fedff6fff1b5e72363b552f78b8bff13ce6632d2896547b17b8c6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Incoh-rences-dans-le-fichier-sousloc-du-CRM-Eurodecision-3178db15623a808296d6f486f5a74405"
     },
@@ -4470,7 +4470,7 @@
       "dateSortieStable": "2026-04-07",
       "pieceJointe": {
         "name": "INA-151.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/ae787592-0dee-4807-8558-ece77782c917/INA-151.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=1cbd6960a272656ad87d089a918d20676e6aa04465dd324f8cd532adb7081905&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/ae787592-0dee-4807-8558-ece77782c917/INA-151.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=be7fe5f9854b048ea7c7706e73b01d0d264d74a6e50cd7d1eea1dde03bcb5485&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/SQL-Envoi-auto-des-tats-comptables-non-fonctionnel-3188db15623a806aa522c23d5931f63e"
     },
@@ -4548,7 +4548,7 @@
     {
       "id": "3198db15-623a-8194-bb99-f0d58f1ce3a7",
       "identifiant": "INA-153",
-      "titre": "Gestion des mots de passe CTV",
+      "titre": " [LOGICIEL] Gestion des mots de passe CTV",
       "classification": "STACK TECH",
       "statut": "A planifier",
       "priorisation": "Moyenne",
@@ -4579,7 +4579,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Gestion-des-mots-de-passe-CTV-3198db15623a8194bb99f0d58f1ce3a7"
+      "url": "https://app.notion.com/p/LOGICIEL-Gestion-des-mots-de-passe-CTV-3198db15623a8194bb99f0d58f1ce3a7"
     },
     {
       "id": "31a8db15-623a-800d-915e-ea7ee689e4da",
@@ -4614,7 +4614,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "synthese_espaceclient (1).xlsx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=fa675642dedc59f2120ade0af79ce6ec10553ca74637c95f82e5dad941f3e45f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=35362b96d944f89524ec20202d7d4c005ab383007121642be319ce8738c6c4cf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/G-rer-l-arr-t-de-l-espace-client-V1-31a8db15623a800d915eea7ee689e4da"
     },
@@ -4623,10 +4623,10 @@
       "identifiant": "INA-155",
       "titre": "Grafana - Ajout d’un dashboard “Rapport de version”",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "En cours",
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "AOUT 26"
+        "AVRIL 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4687,7 +4687,7 @@
     {
       "id": "31b8db15-623a-806d-bc16-e39960f276ad",
       "identifiant": "INA-159",
-      "titre": "SAAS - Pouvoir passer des versions en NAXIADMIN",
+      "titre": " [LOGICIEL] SAAS - Pouvoir passer des versions en NAXIADMIN",
       "classification": "DEV sans CC",
       "statut": "A planifier",
       "priorisation": "Moyenne",
@@ -4716,7 +4716,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/SAAS-Pouvoir-passer-des-versions-en-NAXIADMIN-31b8db15623a806dbc16e39960f276ad"
+      "url": "https://app.notion.com/p/LOGICIEL-SAAS-Pouvoir-passer-des-versions-en-NAXIADMIN-31b8db15623a806dbc16e39960f276ad"
     },
     {
       "id": "31b8db15-623a-80db-938c-eb111c16917e",
@@ -4786,7 +4786,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "NNP Espagnol - Point paramétrage et traduction.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/c2e901f5-0ab4-4512-a687-e11862ef9623/NNP_Espagnol_-_Point_paramtrage_et_traduction.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=e0c537160adf3f28518071878bded943e731860508e5b06c41962877fb2ebfbf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/c2e901f5-0ab4-4512-a687-e11862ef9623/NNP_Espagnol_-_Point_paramtrage_et_traduction.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=0244ec4f8d6283ea347d51b12c2b5569e27b054659e186b6d04db7f3f5190c87&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Traductions-espagnoles-NaxiNomadPremium-Naxi-gestion-31e8db15623a8011b444f63b180247e0"
     },
@@ -4857,7 +4857,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-160.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=b9181325f71ce387d00164ee946763968ba67afde2c251490308e35fe37df518&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=d11e7d7052a7ebf37c9d2480851cef1bbb1c0c5efe6c6ec6ddd7769e2c7e0ee4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Apparition-d-un-message-sur-le-traitement-des-r-sas-issues-de-l-espace-client-31e8db15623a806896d5f5a1ed131200"
     },
@@ -4896,7 +4896,7 @@
       "dateSortieStable": "2026-04-07",
       "pieceJointe": {
         "name": "INA-164.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5b0d210a-d504-4ff4-85fd-513f9053b58f/INA-164.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=aa26f13e14d80ce0ad003323fe13251216fdb1a71c2fb95b891e8853233350c5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5b0d210a-d504-4ff4-85fd-513f9053b58f/INA-164.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=ab05ac4565f389984f56cbc249e78483a4bd2f653b0af36eab579728ae163c07&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Paiement-impossible-sur-l-espace-client-si-le-camping-a-un-d-lai-de-validation-activ-sur-Payline-31e8db15623a80d29de8f5b062e24cc4"
     },
@@ -4933,7 +4933,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "orangeraie.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/208fba4a-cf20-4be8-bec0-7005e46786b4/orangeraie.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=1fbf5e4ec73fb522e921f3266668f605b74799179b7872eef6911e9bc747889c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/208fba4a-cf20-4be8-bec0-7005e46786b4/orangeraie.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=e4a4b24607d869738fe3a9ca2d26830e2d19fce09df8e859dfb7a90aea8908cc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Version-espagnole-Num-rotation-de-facture-diff-rente-de-la-num-rotation-des-avoirs-31e8db15623a80e0a4e2ce7f1c6257fe"
     },
@@ -4972,14 +4972,14 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-167.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/7352179d-a87a-4ed5-8393-bcdf2e453c09/INA-167.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=48b1d47bda7b83da89fd8e03afb73fc5f58e17954922c446b5f5451456234403&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/7352179d-a87a-4ed5-8393-bcdf2e453c09/INA-167.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=bd825a6365af5f5dda93b9da3b59e374b5389ccabae38595ac58ee8c2df18893&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/NNP-Synchro-qui-boucle-en-erreur-chez-Ciela-cause-de-s-jours-qui-n-existent-pas-31f8db15623a8074860ac15810b4c140"
     },
     {
       "id": "31f8db15-623a-80b4-a619-f2ce85f05f0a",
       "identifiant": "INA-168",
-      "titre": "Contrôle manquant sur la suppression d’une autre installation NNP",
+      "titre": "[LOGICIEL] Contrôle manquant sur la suppression d’une autre installation NNP",
       "classification": "BUG D'USAGE",
       "statut": "A planifier",
       "priorisation": "Moyenne",
@@ -5011,9 +5011,9 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-168.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/df3c2eea-a76a-4cac-ab95-c76d578d590a/INA-168.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=f876c92ae1f6fec7a5314313b8085dc7463e3e3c4b6d7eed2c03c66ac00aead0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/df3c2eea-a76a-4cac-ab95-c76d578d590a/INA-168.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=c18f3dee8791de411921db9ce83a707936bca790c301758ded4c95196b42da80&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
-      "url": "https://app.notion.com/p/Contr-le-manquant-sur-la-suppression-d-une-autre-installation-NNP-31f8db15623a80b4a619f2ce85f05f0a"
+      "url": "https://app.notion.com/p/LOGICIEL-Contr-le-manquant-sur-la-suppression-d-une-autre-installation-NNP-31f8db15623a80b4a619f2ce85f05f0a"
     },
     {
       "id": "3208db15-623a-8016-bafd-f438e788fe2f",
@@ -5054,7 +5054,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "flots.png",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/ad2f164a-008c-4c1e-aad2-1798917246c8/flots.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=2e6005159e810b05a418bf24ab2a97d1e6e04f4a6495916eb4eb8e852ca48b08&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/ad2f164a-008c-4c1e-aad2-1798917246c8/flots.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=80cc24aa16e47ff60922558172cb8030b66508891740f68e8123102b05043ec5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Meilleure-affichage-du-bandeau-d-autorisation-des-cookies-sur-l-espace-client-3208db15623a8016bafdf438e788fe2f"
     },
@@ -5095,7 +5095,7 @@
     {
       "id": "3218db15-623a-803d-933b-d0eccc47a7ce",
       "identifiant": "INA-183",
-      "titre": "Flower : Rendre obligatoire la saisie du type de promo",
+      "titre": "[LOGICIEL] Flower : Rendre obligatoire la saisie du type de promo",
       "classification": "DEV sans CC",
       "statut": "A planifier",
       "priorisation": "Pas urgente",
@@ -5125,7 +5125,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Flower-Rendre-obligatoire-la-saisie-du-type-de-promo-3218db15623a803d933bd0eccc47a7ce"
+      "url": "https://app.notion.com/p/LOGICIEL-Flower-Rendre-obligatoire-la-saisie-du-type-de-promo-3218db15623a803d933bd0eccc47a7ce"
     },
     {
       "id": "3218db15-623a-803d-a941-c3c876559beb",
@@ -5162,7 +5162,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-179.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f95e251b-e3fa-4599-bee0-f521edb3a462/INA-179.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=16978474fa5433dd2e39f1fd4b49e0f9f190cec8d83b1655e5ef349d7d7c996d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f95e251b-e3fa-4599-bee0-f521edb3a462/INA-179.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=1e93987338ae29d7aec6d8002dad99253de1756c22af965f8a705db260b53064&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Fen-tre-de-synchro-bloqu-e-par-l-echec-d-envoi-du-CRM-3218db15623a803da941c3c876559beb"
     },
@@ -5271,7 +5271,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-180.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/2af8961a-4eee-4346-82fd-96f1bca1b664/INA-180.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=27bde6dfa325ca40e5d74a251d73ac21a11004a2f1ac401f523092dd553ef25f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/2af8961a-4eee-4346-82fd-96f1bca1b664/INA-180.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=3956f96a4b2e6d819b2871868e8053f88a1f81c6781c8e32c512844648e0e57a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Le-s-jour-n-appara-t-pas-dans-l-onglet-Prestations-de-la-fiche-client-apr-s-validation-d-un-devis--3218db15623a80b5a46bd4d9f34679ac"
     },
@@ -5551,7 +5551,7 @@
       "dateSortieStable": "2026-04-07",
       "pieceJointe": {
         "name": "Log erreur Getoptionsbydate.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/9c0c3474-043a-400d-938e-0324158d851b/Log_erreur_Getoptionsbydate.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=76dcce72c5a58957da59f8839edc835534a5ecb1d4cbe0cdd92c322645288407&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/9c0c3474-043a-400d-938e-0324158d851b/Log_erreur_Getoptionsbydate.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=a5e378060dd555e0204524f8613b12998799b411a7d300ff1fc2a755a1ce3ccd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Impossible-de-faire-une-resa-depuis-WS_NAXITO-3258db15623a804b8d02e14f918e03c8"
     },
@@ -5595,7 +5595,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "INA-192.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/a476c4d7-af7d-41c7-8a21-127636638d8e/INA-192.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=c40a6c2a7007c0e4ae586c0c8055f93061e4ac1ca60094cea55273bdf56ee3ff&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/a476c4d7-af7d-41c7-8a21-127636638d8e/INA-192.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=6c09baf858d01c5c31999c33ee45d398a9a476bdf721cfcbec1ed161787f05dd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Envoi-des-Schedules-pour-les-campings-n-ayant-pas-de-syst-me-de-r-servation-en-ligne-3268db15623a80798747ef2b39a2cf92"
     },
@@ -5638,7 +5638,7 @@
     {
       "id": "3288db15-623a-8098-9620-f6c98afd1347",
       "identifiant": "INA-195",
-      "titre": "Facturation : factures et proforma d’échéances : multipes problèmes",
+      "titre": "[LOGICIEL] Facturation : factures et proforma d’échéances : multipes problèmes",
       "classification": "STACK TECH",
       "statut": "FAIT",
       "priorisation": "Haute",
@@ -5677,9 +5677,9 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "INA-195.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/00cdb212-4d01-4a87-b1a1-b7bd845726f9/INA-195.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=85a6b188446a30ff895fae50871e34d1c80da51942af37560b564da2afbaba01&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/00cdb212-4d01-4a87-b1a1-b7bd845726f9/INA-195.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=255ea538b8816d15182170c18578f8bc167a70f5335fc35c69aec7f693886f17&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
-      "url": "https://app.notion.com/p/Facturation-factures-et-proforma-d-ch-ances-multipes-probl-mes-3288db15623a80989620f6c98afd1347"
+      "url": "https://app.notion.com/p/LOGICIEL-Facturation-factures-et-proforma-d-ch-ances-multipes-probl-mes-3288db15623a80989620f6c98afd1347"
     },
     {
       "id": "3288db15-623a-80e8-afce-ed8d47249ad2",
@@ -5720,7 +5720,7 @@
     {
       "id": "3298db15-623a-8017-8f97-f0b84b390f47",
       "identifiant": "INA-199",
-      "titre": "Masquer le mot de passe des boites emails dans les paramètres courriers/emails",
+      "titre": "[LOGICIEL] Masquer le mot de passe des boites emails dans les paramètres courriers/emails",
       "classification": "DEV sans CC",
       "statut": "A planifier",
       "priorisation": "Haute",
@@ -5750,7 +5750,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Masquer-le-mot-de-passe-des-boites-emails-dans-les-param-tres-courriers-emails-3298db15623a80178f97f0b84b390f47"
+      "url": "https://app.notion.com/p/LOGICIEL-Masquer-le-mot-de-passe-des-boites-emails-dans-les-param-tres-courriers-emails-3298db15623a80178f97f0b84b390f47"
     },
     {
       "id": "3298db15-623a-8048-9bdc-c709f6258f70",
@@ -5861,7 +5861,7 @@
     {
       "id": "32c8db15-623a-800a-9149-e99080fabc52",
       "identifiant": "INA-201",
-      "titre": "Code postal remplacé par un point sur fact et proforma",
+      "titre": "[LOGICIEL] Code postal remplacé par un point sur fact et proforma",
       "classification": "BUG D'USAGE",
       "statut": "A planifier",
       "priorisation": "Pas urgente",
@@ -5889,7 +5889,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Code-postal-remplac-par-un-point-sur-fact-et-proforma-32c8db15623a800a9149e99080fabc52"
+      "url": "https://app.notion.com/p/LOGICIEL-Code-postal-remplac-par-un-point-sur-fact-et-proforma-32c8db15623a800a9149e99080fabc52"
     },
     {
       "id": "32c8db15-623a-8014-8a5a-ceef03444167",
@@ -5968,7 +5968,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "INA-203.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/9703f8bf-2c00-487f-9ab0-58d3240f6991/INA-203.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=c976277ba3a26b93bf2900ac414ad1403f4274ff7ad90adb87acc04b52df9f41&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/9703f8bf-2c00-487f-9ab0-58d3240f6991/INA-203.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=73570385ee6b3222e354844d8b0627b186c1a229f056ea619101888cb7334269&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Erreur-d-envoi-des-CHANNELS-32c8db15623a804095d3fefacc020a6e"
     },
@@ -6007,7 +6007,7 @@
     {
       "id": "32d8db15-623a-8023-9196-c4075a01552b",
       "identifiant": "INA-206",
-      "titre": "Migration fonctions Inacom vers Backoffice ↔ Akuiteo",
+      "titre": "[WEB] Migration fonctions Inacom vers Backoffice ↔ Akuiteo",
       "classification": "DEV avec CC",
       "statut": "A planifier",
       "priorisation": "Moyenne",
@@ -6036,7 +6036,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Migration-fonctions-Inacom-vers-Backoffice-Akuiteo-32d8db15623a80239196c4075a01552b"
+      "url": "https://app.notion.com/p/WEB-Migration-fonctions-Inacom-vers-Backoffice-Akuiteo-32d8db15623a80239196c4075a01552b"
     },
     {
       "id": "32d8db15-623a-80ba-a953-d85354a79ef5",
@@ -6289,7 +6289,7 @@
     {
       "id": "3348db15-623a-8074-b823-e81b6b5e7ea6",
       "identifiant": "INA-212",
-      "titre": "Synchro: problème d'affichage doublon d'exercice",
+      "titre": "[LOGICIEL]  Synchro: problème d'affichage doublon d'exercice",
       "classification": "BUG OPERATIONNEL",
       "statut": "A planifier",
       "priorisation": null,
@@ -6319,7 +6319,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Synchro-probl-me-d-affichage-doublon-d-exercice-3348db15623a8074b823e81b6b5e7ea6"
+      "url": "https://app.notion.com/p/LOGICIEL-Synchro-probl-me-d-affichage-doublon-d-exercice-3348db15623a8074b823e81b6b5e7ea6"
     },
     {
       "id": "3348db15-623a-80a5-8f38-d8d9d206d940",
@@ -6354,7 +6354,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-214.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/590ddf26-1a01-49a0-b1fb-3407cad6d7d0/INA-214.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=07343551f39eecddef175a6ece4f12482ca120b6ec2597dcbede88564900018a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/590ddf26-1a01-49a0-b1fb-3407cad6d7d0/INA-214.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152629Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=6916b982aa70c0de9f7172a3d17019face132caad06bf1680c3423f30deb9b8c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Message-erreur-dans-Naxi-si-saisie-d-un-sur-le-pr-enregistrement-de-l-espace-client-3348db15623a80a58f38d8d9d206d940"
     },
@@ -6437,7 +6437,7 @@
     {
       "id": "3368db15-623a-801d-b142-f2f5f2353908",
       "identifiant": "INA-217",
-      "titre": "Refacto complet des extractions clients & séjours",
+      "titre": "[LOGICIEL]  Refacto complet des extractions clients & séjours",
       "classification": "DEV avec CC",
       "statut": "A planifier",
       "priorisation": "Pas urgente",
@@ -6467,7 +6467,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Refacto-complet-des-extractions-clients-s-jours-3368db15623a801db142f2f5f2353908"
+      "url": "https://app.notion.com/p/LOGICIEL-Refacto-complet-des-extractions-clients-s-jours-3368db15623a801db142f2f5f2353908"
     },
     {
       "id": "3368db15-623a-8039-807f-ce17c616ec9d",
@@ -7028,7 +7028,7 @@
     {
       "id": "3428db15-623a-8021-948e-e1a20ab5bc0a",
       "identifiant": "INA-236",
-      "titre": "Impossible d’ouvrir un compteur sans date de fin",
+      "titre": "[LOGICIEL] Impossible d’ouvrir un compteur sans date de fin",
       "classification": "BUG OPERATIONNEL",
       "statut": "A planifier",
       "priorisation": "Haute",
@@ -7059,9 +7059,9 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-236.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/2b3aef17-e712-4812-b8da-5cd6282e9a9d/INA-236.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466676K7QZA%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114511Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJHMEUCIQCgPJe3EpxVKG7Cp%2FiYvZ2qYowOszZU3TXq2ECh59sjqAIgU%2BQJkKF4hzG4UYzO9lJnPKbNH6I89gSElBjc2CD%2FAH0qiAQI9f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2Bo5ZzNT7qOuJll8yrcA2q2ZUnknEf%2FKWnCTNzpl8vIY8HpqYOqPJLcMe0pTxo0VqgGqHieFdjULbIiNaVob6xXZfyZ26N7GWL46cGA4aqTLa4Ll%2F6rqvWGdyX5%2BMEufMP23mRpwJGXAzPwscwTemmIRQ5US7nETdVSzIJ3Lo5jUITP%2FpUOnoOooCIkIGTYJnbQYSkP9gyu%2F9%2FJYVng6PsjcUb%2F33xpUxN9Ftw%2FWHG9xY4hVSUOgTh%2FIcyufXlzcPBqdqPPFeKUOKsh6XMAKb%2BRO%2FVGiyoLQczc%2B%2FnnaG4JCB664ixe1v7qpel2md0VUVJ5utwgx6%2F0u%2Fm73zBVwJBk%2F%2F0NVqKgRLUlbgipUEtuUbuunkb84ZCGaK1QTQ7qc1t3vJw28SJvR5mE6LnFt10xiswPS1fQo0uewK4xazqmzIR6JlaZgaqe6y6JLk1ZoOe6DgFKKca%2BavXWRnK%2BuuKSO2HFHNhSqcQBS9FxTkPv5qmWCxSzXQ0iyZ9kp110CbXUqo1erhMVdrooH6lkUuaHATwMWcYp8XGmnCUjHKVe60XHv5Zfx3waPDY%2FQnAxgGR88U90%2FEvSRcFNKqr3xR4u3xKHCSTiR2PqRu5c6XZUe%2FBmtvJi51b61GRItKmQhffEytORXRRdJNEyMKLXx88GOqUBmi2CWVJmFOYPf3TAJzn6XAH4%2F%2B3ghw225mCN5D2C1xbeu%2FJiSZpYhOyS6xYlqYb8PO3quYMz4wBtlvUXB%2FLmMTncQ%2B%2F1xnbYSUT%2BZpIM8OBzvlXOeR%2BXYUhFMsUeMT%2Bikt%2BikGeYmU03SNX%2FR6TjEUE9c4DmHoc27XtYVy7rzisDspQ1IsenRG6uUfbB%2FvablDMCQlI2N0seFZWde6FEXaeL2aGB&X-Amz-Signature=7dd8b3cef859353bc0ca7c3b9b1b7c76ca999108feb7b19c1808cc54aef588eb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/2b3aef17-e712-4812-b8da-5cd6282e9a9d/INA-236.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YJLYI7UE%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152629Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIB3DZGzr22oIG2LZAMDPmpyXfltp2JjL1ff6yW0BJ2XIAiEAn6xxCdOGy%2B4G6rOjUrp%2B2XJAFvf%2BWMkxvfaQfiSLmtEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMMcsZg5Mdss7IIV8ircAyXEefFaEIF4RgrePMrDL5IdexRBhT2vdF6ky5eDZpMekCGiVcnXA5RxhgpcfZupo4uPYbYkLRBGiKfIh0HnGTqD0YICljwIKDkuwAUW5J2ulWMd6BZMIyZOOvaVtAjPwDxwzAW277tPXXNEjBHy8eYzj2aNITdkAKpIU%2FAOc%2F5io31%2BXWkfsMMNTldsay36bm%2B8gLZiuzASPgiAD5P9cMD1y2Flz6xvV0CePulleWsOYUIX6ydL6tjALneSe8RlvLt5uy4iQz3uoyAuMhk%2F3%2FfRfWn8GwQZfMRZXr2VlASm%2FVBU9sGgv7wBk6mYVz7U3XWLRwR%2FKabgExQcD0XcGYNsBdU0PbaBH%2FnEVFNP3xH40uN1fn%2BMZqlUUYxa3jhOAZfL5OlvRJTldneGqOMHpdqIyf4C43CFkVuG%2BrdwcEb8Qj51YWTtID%2BAAZF1%2FFOGTJD2810cCLebZopSrNzXOTkdAjIOr5NxXhI9LqPs95EKufr8X3PqdTrKK5d7fo1Rg2oXKNhV%2Fkowu9HV3ziPsDCIBofdwylBC2%2Bp9Mni1zj0Zhudk5znO9BD5MMBQlMWODZUFfIUggoMilNW0s8uiUchxJcayVNWW%2Fr%2FJgVGbW6pV2zb1525324802%2FbMPWkyM8GOqUBG4lz%2FM%2BndAf%2FVxQHrscwFMOoc6mimjUTeWk6gNpw1O4p%2BGPQVS85%2FdBEFqrP3O9dgWLuDuZehd%2FZhGtnGPDC%2BF8UOBlRDXi4bI%2BYLpW1XxQdCuAoSfC88yYOiLhLeoAOdNGEWLe6zQr3Pv9Mi%2FwBh9EkfjODxP0wu0KZW38nMGAF9zzQtL1di1pdwP%2FG5k02W8JGcNQHfWxTITcww9%2BF%2F5tHIeQr&X-Amz-Signature=b3dcbd3b434483728f247cb22f6e61df21cff247a88d71187a6d2b69eb6fd1aa&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
-      "url": "https://app.notion.com/p/Impossible-d-ouvrir-un-compteur-sans-date-de-fin-3428db15623a8021948ee1a20ab5bc0a"
+      "url": "https://app.notion.com/p/LOGICIEL-Impossible-d-ouvrir-un-compteur-sans-date-de-fin-3428db15623a8021948ee1a20ab5bc0a"
     },
     {
       "id": "3428db15-623a-805d-b5a9-dd3f00efccbb",
@@ -7075,7 +7075,7 @@
       "produits": [
         "NAXI CODES"
       ],
-      "client": "Violettes 31\nOaki\nBaie de Terenez",
+      "client": "Violettes 31\nOaki\nBaie de Terenez\nAntioche Oleron",
       "dateCreation": "2026-04-14T08:41:00.000Z",
       "estimBack": 0,
       "estimFront": 0,
@@ -7162,14 +7162,14 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-237.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/3b696aa9-15f5-4444-9526-76874ca2870a/INA-237.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666OH7CKDS%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114512Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJIMEYCIQCkJ56%2FdtcvVnz%2BfKsxMekGMnrzHP73XfkhI2Z5mP0%2F%2FwIhAOlDDzW0p%2BUYsTF05CCql72x0dg%2BKsZ1E1jhAFXU%2BceoKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxN80fNeIK2sFLWubsq3AOelGZthaN%2FFvjxrkUgQ5zymc8Yb%2FwCN%2FIJW1AimGMBxksRx0cT%2BiASehteboCe2gGDEZg9kF%2F84pJxkLyJ8h%2BxKphQ9%2FMRSA7rLQLwI2%2Byf1V3wZrWzANNOukr2u8Cs0TWVOU9hWQ29SnybRSIcG3qT1PkRAPA6iRlykvSMDZGI%2BwJxC%2FmYRvAxCTDjlfkUsFxd6GNCMyLVBJm6VO9T2cfSTp7%2F1rqHeDR1N3wTWlhBc2hD8cPR0pgeUodEBiR%2Fb6X6auhS2K4fk8yQah1BZ5QzI4jfUWkVF1Z71AMZM6jXM%2F20vdr1%2FJm7DJxW%2BGD8wnA95l7pAXJvJte7PDFkt5Bz89KiacWzXxp7FkygRRo%2FgkJBgGH3eyhOgDeAh1%2FzgWk10nmwNWc%2F8I4OWFlSlGGHh5C3zSdPvTv9km8f6Hm9FNGxRO45%2BZRTWlmdW7Pu8hA3oNaHL7UjukqyElFEm%2F6Q1NHgHmRs7bur9479Dbp4fW%2FGudhSyj9tv6e%2F37ac3ylmPRW9OKbeLmnQaCY8Zd0LjObjhondCp8wGTlcSOTw%2FS1fZ4GiYNhm81on2ba8u67F6c6oFhNDRBtn0CiYw6arLFmxAct23w7oq6VnavQi38rcNegQAMOMYClHzCO1sfPBjqkAfWlsBsteDn2rCyOtAwARnzd2elZqIFSaVTTglpqdguRJm8Yg5wYfyUG%2FsX9yhDzrr8CeCdiwNaBdX8kyCHSZKueOp9MM0KOBjDuniYemq4uSCNNsTMVsnLgQ7VHGDcC1WgqV68RetBZKRisKVNUG0NXDyl%2BiRgL%2FDJuHaU50qjWq1gPKNecVqcp%2BU%2B3uvARMYB7PV4OXBRzugFDrFZmUUUxZduJ&X-Amz-Signature=5498e22b35f5366acb3099d57215f94699295de434ce3e076216e6a37cbd70ae&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/3b696aa9-15f5-4444-9526-76874ca2870a/INA-237.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QJGMSNDY%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152629Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJHMEUCIQDkYqU8iO0BAxYHynY6hhibmsy9Wk%2Bay9Qu9OkGTw2zPgIgGJ7A3%2B%2BMF0vacVFE1k1Jcc84xU27wPEWY445FDTiiXoqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNWhWLUdXFy4tNFTZyrcA1q%2F%2FWvOtL6DH02b%2BAPSjBKL%2BbhoWPEv00yf4u0ntOPmJhH9hbUq6cLWA4luzQWXe7xjpoXwBdVh0HRACKAUWG817wXdF2KcdjZH0UOwfBsIB7XLXSQDemoLbcNaOA56d6K%2B4ulV8iUuYj%2FCugES9nthnoZY0c17oh1EmGSHLGqyknXBMLPzpBg0L1XJnkbC8QDPPdbfkuUBjBrwpLpGOTqiqAOocy0On%2BnQOwwT4lngaevus%2BaWnVFrel%2BvOBRDhI1ICR3MJHKKiw0Uvy37nfDQxjw24SBGDqnxxbtK%2F0Aa4ee9OHqpOofwzljdQGW38uunNl9Hs6MpAzgZh4O8xhVEorEMgttJ6Rw5Tqr%2F6LttroH0DY7irEdwcpLA0QwOC73Zz96bCtg6Jr1McYVRJEus46CRFISl8TefeRd5vSvKHrgs2TrVO9XRLvwXNTCmlrnsncjcpR8yEN1MEzxgtjGzfZ7ckYiASXzXNxETQDtO5WvSXLFW%2BNSSwtkS8E2vJGszPdEqjFkYl0NhW7iFUBMmuI1%2FBARSGffkzqMiush3EcfuWYBsrIENeFuGB941KhxoUUwAdzBJMAABxhH8FAXSAMtul%2BCaanHk2ACo5sj4D473ot2%2BOIajMhiaMKKnyM8GOqUBOnBaGAg3fIkQbUrWrqXeqtarVUHIIRAY81t%2FNXNcxgU0VZC6Ih3TzCOBiCqfc%2B9%2BNEnhxj%2BTuV6%2Brr6wDT%2FXyCpVE3sXSGnpHb5oYejVecYA79jzNndJPgSnwXP%2Bu%2FZTX8UJcUSB%2BIVVsFO6DMY1Hk8TMrSY0MtIlL6pK%2BOPTtq4kMcw8Ye4wfM3isImozvwP33tfFzCQyQQUDI863V9RbW8xNTT&X-Amz-Signature=6df77f6002b703b3000d43395b7b594227a8cd4601cc656110101fcae15b912c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Impossible-de-facturer-un-s-jour-de-client-TO-si-pr-sence-d-une-promo-de-type-Abattement-taxe-de-s-j-3438db15623a80b2a5adf201e7e14c6e"
     },
     {
       "id": "3448db15-623a-8000-ba33-dc893cacb8cb",
       "identifiant": "INA-241",
-      "titre": "Etats comptables centralisés : Correctif sur Balance",
+      "titre": "[LOGICIEL] Etats comptables centralisés : Correctif sur Balance",
       "classification": "BUG OPERATIONNEL",
       "statut": "A planifier",
       "priorisation": "Pas urgente",
@@ -7200,14 +7200,14 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "20260131 - balanceNS DEMOISELL.xlsx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/2915c9ed-c4dc-46c4-bfcc-b4596edf1f85/20260131_-_balanceNS_DEMOISELL.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666OH7CKDS%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114512Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJIMEYCIQCkJ56%2FdtcvVnz%2BfKsxMekGMnrzHP73XfkhI2Z5mP0%2F%2FwIhAOlDDzW0p%2BUYsTF05CCql72x0dg%2BKsZ1E1jhAFXU%2BceoKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxN80fNeIK2sFLWubsq3AOelGZthaN%2FFvjxrkUgQ5zymc8Yb%2FwCN%2FIJW1AimGMBxksRx0cT%2BiASehteboCe2gGDEZg9kF%2F84pJxkLyJ8h%2BxKphQ9%2FMRSA7rLQLwI2%2Byf1V3wZrWzANNOukr2u8Cs0TWVOU9hWQ29SnybRSIcG3qT1PkRAPA6iRlykvSMDZGI%2BwJxC%2FmYRvAxCTDjlfkUsFxd6GNCMyLVBJm6VO9T2cfSTp7%2F1rqHeDR1N3wTWlhBc2hD8cPR0pgeUodEBiR%2Fb6X6auhS2K4fk8yQah1BZ5QzI4jfUWkVF1Z71AMZM6jXM%2F20vdr1%2FJm7DJxW%2BGD8wnA95l7pAXJvJte7PDFkt5Bz89KiacWzXxp7FkygRRo%2FgkJBgGH3eyhOgDeAh1%2FzgWk10nmwNWc%2F8I4OWFlSlGGHh5C3zSdPvTv9km8f6Hm9FNGxRO45%2BZRTWlmdW7Pu8hA3oNaHL7UjukqyElFEm%2F6Q1NHgHmRs7bur9479Dbp4fW%2FGudhSyj9tv6e%2F37ac3ylmPRW9OKbeLmnQaCY8Zd0LjObjhondCp8wGTlcSOTw%2FS1fZ4GiYNhm81on2ba8u67F6c6oFhNDRBtn0CiYw6arLFmxAct23w7oq6VnavQi38rcNegQAMOMYClHzCO1sfPBjqkAfWlsBsteDn2rCyOtAwARnzd2elZqIFSaVTTglpqdguRJm8Yg5wYfyUG%2FsX9yhDzrr8CeCdiwNaBdX8kyCHSZKueOp9MM0KOBjDuniYemq4uSCNNsTMVsnLgQ7VHGDcC1WgqV68RetBZKRisKVNUG0NXDyl%2BiRgL%2FDJuHaU50qjWq1gPKNecVqcp%2BU%2B3uvARMYB7PV4OXBRzugFDrFZmUUUxZduJ&X-Amz-Signature=dac5d2db9a52f50e62651526eff323063d9def8e6407dc327128fd1d8e048976&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/2915c9ed-c4dc-46c4-bfcc-b4596edf1f85/20260131_-_balanceNS_DEMOISELL.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QJGMSNDY%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152629Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJHMEUCIQDkYqU8iO0BAxYHynY6hhibmsy9Wk%2Bay9Qu9OkGTw2zPgIgGJ7A3%2B%2BMF0vacVFE1k1Jcc84xU27wPEWY445FDTiiXoqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNWhWLUdXFy4tNFTZyrcA1q%2F%2FWvOtL6DH02b%2BAPSjBKL%2BbhoWPEv00yf4u0ntOPmJhH9hbUq6cLWA4luzQWXe7xjpoXwBdVh0HRACKAUWG817wXdF2KcdjZH0UOwfBsIB7XLXSQDemoLbcNaOA56d6K%2B4ulV8iUuYj%2FCugES9nthnoZY0c17oh1EmGSHLGqyknXBMLPzpBg0L1XJnkbC8QDPPdbfkuUBjBrwpLpGOTqiqAOocy0On%2BnQOwwT4lngaevus%2BaWnVFrel%2BvOBRDhI1ICR3MJHKKiw0Uvy37nfDQxjw24SBGDqnxxbtK%2F0Aa4ee9OHqpOofwzljdQGW38uunNl9Hs6MpAzgZh4O8xhVEorEMgttJ6Rw5Tqr%2F6LttroH0DY7irEdwcpLA0QwOC73Zz96bCtg6Jr1McYVRJEus46CRFISl8TefeRd5vSvKHrgs2TrVO9XRLvwXNTCmlrnsncjcpR8yEN1MEzxgtjGzfZ7ckYiASXzXNxETQDtO5WvSXLFW%2BNSSwtkS8E2vJGszPdEqjFkYl0NhW7iFUBMmuI1%2FBARSGffkzqMiush3EcfuWYBsrIENeFuGB941KhxoUUwAdzBJMAABxhH8FAXSAMtul%2BCaanHk2ACo5sj4D473ot2%2BOIajMhiaMKKnyM8GOqUBOnBaGAg3fIkQbUrWrqXeqtarVUHIIRAY81t%2FNXNcxgU0VZC6Ih3TzCOBiCqfc%2B9%2BNEnhxj%2BTuV6%2Brr6wDT%2FXyCpVE3sXSGnpHb5oYejVecYA79jzNndJPgSnwXP%2Bu%2FZTX8UJcUSB%2BIVVsFO6DMY1Hk8TMrSY0MtIlL6pK%2BOPTtq4kMcw8Ye4wfM3isImozvwP33tfFzCQyQQUDI863V9RbW8xNTT&X-Amz-Signature=501832ee59eb4e59f594e148cc3b82401ae3109d9f11726c17738ea8f2456164&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
-      "url": "https://app.notion.com/p/Etats-comptables-centralis-s-Correctif-sur-Balance-3448db15623a8000ba33dc893cacb8cb"
+      "url": "https://app.notion.com/p/LOGICIEL-Etats-comptables-centralis-s-Correctif-sur-Balance-3448db15623a8000ba33dc893cacb8cb"
     },
     {
       "id": "3448db15-623a-804c-82a3-da8d38db58eb",
       "identifiant": "INA-239",
-      "titre": "Grafana - Modif lien dashboard NNP Assistance",
+      "titre": "[WEB] Grafana - Modif lien dashboard NNP Assistance",
       "classification": "BUG D'USAGE",
       "statut": "A planifier",
       "priorisation": "Pas urgente",
@@ -7236,12 +7236,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Grafana-Modif-lien-dashboard-NNP-Assistance-3448db15623a804c82a3da8d38db58eb"
+      "url": "https://app.notion.com/p/WEB-Grafana-Modif-lien-dashboard-NNP-Assistance-3448db15623a804c82a3da8d38db58eb"
     },
     {
       "id": "3448db15-623a-8056-ad85-df4a4ee78657",
       "identifiant": "INA-242",
-      "titre": "Fidelite 50€ minimum Flower : texte à modifier",
+      "titre": "[LOGICIEL]  Fidelite 50€ minimum Flower : texte à modifier",
       "classification": "DEV sans CC",
       "statut": "A planifier",
       "priorisation": "Moyenne",
@@ -7271,12 +7271,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Fidelite-50-minimum-Flower-texte-modifier-3448db15623a8056ad85df4a4ee78657"
+      "url": "https://app.notion.com/p/LOGICIEL-Fidelite-50-minimum-Flower-texte-modifier-3448db15623a8056ad85df4a4ee78657"
     },
     {
       "id": "3448db15-623a-8060-87ed-faedf43bb98a",
       "identifiant": "INA-244",
-      "titre": "Template : erreur sur les montants affichés dans le cas d’un séjour de TO ",
+      "titre": "[LOGICIEL]  Template : erreur sur les montants affichés dans le cas d’un séjour de TO ",
       "classification": "BUG OPERATIONNEL",
       "statut": "A planifier",
       "priorisation": "Pas urgente",
@@ -7307,14 +7307,14 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-244.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/86d0192a-f5de-4aeb-a06f-8f17964c14ed/INA-244.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666OH7CKDS%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114512Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJIMEYCIQCkJ56%2FdtcvVnz%2BfKsxMekGMnrzHP73XfkhI2Z5mP0%2F%2FwIhAOlDDzW0p%2BUYsTF05CCql72x0dg%2BKsZ1E1jhAFXU%2BceoKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxN80fNeIK2sFLWubsq3AOelGZthaN%2FFvjxrkUgQ5zymc8Yb%2FwCN%2FIJW1AimGMBxksRx0cT%2BiASehteboCe2gGDEZg9kF%2F84pJxkLyJ8h%2BxKphQ9%2FMRSA7rLQLwI2%2Byf1V3wZrWzANNOukr2u8Cs0TWVOU9hWQ29SnybRSIcG3qT1PkRAPA6iRlykvSMDZGI%2BwJxC%2FmYRvAxCTDjlfkUsFxd6GNCMyLVBJm6VO9T2cfSTp7%2F1rqHeDR1N3wTWlhBc2hD8cPR0pgeUodEBiR%2Fb6X6auhS2K4fk8yQah1BZ5QzI4jfUWkVF1Z71AMZM6jXM%2F20vdr1%2FJm7DJxW%2BGD8wnA95l7pAXJvJte7PDFkt5Bz89KiacWzXxp7FkygRRo%2FgkJBgGH3eyhOgDeAh1%2FzgWk10nmwNWc%2F8I4OWFlSlGGHh5C3zSdPvTv9km8f6Hm9FNGxRO45%2BZRTWlmdW7Pu8hA3oNaHL7UjukqyElFEm%2F6Q1NHgHmRs7bur9479Dbp4fW%2FGudhSyj9tv6e%2F37ac3ylmPRW9OKbeLmnQaCY8Zd0LjObjhondCp8wGTlcSOTw%2FS1fZ4GiYNhm81on2ba8u67F6c6oFhNDRBtn0CiYw6arLFmxAct23w7oq6VnavQi38rcNegQAMOMYClHzCO1sfPBjqkAfWlsBsteDn2rCyOtAwARnzd2elZqIFSaVTTglpqdguRJm8Yg5wYfyUG%2FsX9yhDzrr8CeCdiwNaBdX8kyCHSZKueOp9MM0KOBjDuniYemq4uSCNNsTMVsnLgQ7VHGDcC1WgqV68RetBZKRisKVNUG0NXDyl%2BiRgL%2FDJuHaU50qjWq1gPKNecVqcp%2BU%2B3uvARMYB7PV4OXBRzugFDrFZmUUUxZduJ&X-Amz-Signature=2d8002012a1659458ec8a63f2f2b0c606c5fdc73a323d28d4cfa35394662d68e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/86d0192a-f5de-4aeb-a06f-8f17964c14ed/INA-244.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QJGMSNDY%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152629Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJHMEUCIQDkYqU8iO0BAxYHynY6hhibmsy9Wk%2Bay9Qu9OkGTw2zPgIgGJ7A3%2B%2BMF0vacVFE1k1Jcc84xU27wPEWY445FDTiiXoqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNWhWLUdXFy4tNFTZyrcA1q%2F%2FWvOtL6DH02b%2BAPSjBKL%2BbhoWPEv00yf4u0ntOPmJhH9hbUq6cLWA4luzQWXe7xjpoXwBdVh0HRACKAUWG817wXdF2KcdjZH0UOwfBsIB7XLXSQDemoLbcNaOA56d6K%2B4ulV8iUuYj%2FCugES9nthnoZY0c17oh1EmGSHLGqyknXBMLPzpBg0L1XJnkbC8QDPPdbfkuUBjBrwpLpGOTqiqAOocy0On%2BnQOwwT4lngaevus%2BaWnVFrel%2BvOBRDhI1ICR3MJHKKiw0Uvy37nfDQxjw24SBGDqnxxbtK%2F0Aa4ee9OHqpOofwzljdQGW38uunNl9Hs6MpAzgZh4O8xhVEorEMgttJ6Rw5Tqr%2F6LttroH0DY7irEdwcpLA0QwOC73Zz96bCtg6Jr1McYVRJEus46CRFISl8TefeRd5vSvKHrgs2TrVO9XRLvwXNTCmlrnsncjcpR8yEN1MEzxgtjGzfZ7ckYiASXzXNxETQDtO5WvSXLFW%2BNSSwtkS8E2vJGszPdEqjFkYl0NhW7iFUBMmuI1%2FBARSGffkzqMiush3EcfuWYBsrIENeFuGB941KhxoUUwAdzBJMAABxhH8FAXSAMtul%2BCaanHk2ACo5sj4D473ot2%2BOIajMhiaMKKnyM8GOqUBOnBaGAg3fIkQbUrWrqXeqtarVUHIIRAY81t%2FNXNcxgU0VZC6Ih3TzCOBiCqfc%2B9%2BNEnhxj%2BTuV6%2Brr6wDT%2FXyCpVE3sXSGnpHb5oYejVecYA79jzNndJPgSnwXP%2Bu%2FZTX8UJcUSB%2BIVVsFO6DMY1Hk8TMrSY0MtIlL6pK%2BOPTtq4kMcw8Ye4wfM3isImozvwP33tfFzCQyQQUDI863V9RbW8xNTT&X-Amz-Signature=79d97dd3190d9dfcdae6fd967c25c09625f81bbae0e1cb3cdcf7140d23ce3407&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
-      "url": "https://app.notion.com/p/Template-erreur-sur-les-montants-affich-s-dans-le-cas-d-un-s-jour-de-TO-3448db15623a806087edfaedf43bb98a"
+      "url": "https://app.notion.com/p/LOGICIEL-Template-erreur-sur-les-montants-affich-s-dans-le-cas-d-un-s-jour-de-TO-3448db15623a806087edfaedf43bb98a"
     },
     {
       "id": "3448db15-623a-80f7-8f6e-fd089c09d7eb",
       "identifiant": "INA-243",
-      "titre": "Non affichage du logo sur les factures & proforma si les courriers & emails sont différents par exercice",
+      "titre": "[LOGICIEL] Non affichage du logo sur les factures & proforma si les courriers & emails sont différents par exercice",
       "classification": "BUG OPERATIONNEL",
       "statut": "A planifier",
       "priorisation": "Moyenne",
@@ -7345,9 +7345,9 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-243.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/99facd58-302b-43be-916f-6bc2e7c4be25/INA-243.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666OH7CKDS%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114512Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJIMEYCIQCkJ56%2FdtcvVnz%2BfKsxMekGMnrzHP73XfkhI2Z5mP0%2F%2FwIhAOlDDzW0p%2BUYsTF05CCql72x0dg%2BKsZ1E1jhAFXU%2BceoKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxN80fNeIK2sFLWubsq3AOelGZthaN%2FFvjxrkUgQ5zymc8Yb%2FwCN%2FIJW1AimGMBxksRx0cT%2BiASehteboCe2gGDEZg9kF%2F84pJxkLyJ8h%2BxKphQ9%2FMRSA7rLQLwI2%2Byf1V3wZrWzANNOukr2u8Cs0TWVOU9hWQ29SnybRSIcG3qT1PkRAPA6iRlykvSMDZGI%2BwJxC%2FmYRvAxCTDjlfkUsFxd6GNCMyLVBJm6VO9T2cfSTp7%2F1rqHeDR1N3wTWlhBc2hD8cPR0pgeUodEBiR%2Fb6X6auhS2K4fk8yQah1BZ5QzI4jfUWkVF1Z71AMZM6jXM%2F20vdr1%2FJm7DJxW%2BGD8wnA95l7pAXJvJte7PDFkt5Bz89KiacWzXxp7FkygRRo%2FgkJBgGH3eyhOgDeAh1%2FzgWk10nmwNWc%2F8I4OWFlSlGGHh5C3zSdPvTv9km8f6Hm9FNGxRO45%2BZRTWlmdW7Pu8hA3oNaHL7UjukqyElFEm%2F6Q1NHgHmRs7bur9479Dbp4fW%2FGudhSyj9tv6e%2F37ac3ylmPRW9OKbeLmnQaCY8Zd0LjObjhondCp8wGTlcSOTw%2FS1fZ4GiYNhm81on2ba8u67F6c6oFhNDRBtn0CiYw6arLFmxAct23w7oq6VnavQi38rcNegQAMOMYClHzCO1sfPBjqkAfWlsBsteDn2rCyOtAwARnzd2elZqIFSaVTTglpqdguRJm8Yg5wYfyUG%2FsX9yhDzrr8CeCdiwNaBdX8kyCHSZKueOp9MM0KOBjDuniYemq4uSCNNsTMVsnLgQ7VHGDcC1WgqV68RetBZKRisKVNUG0NXDyl%2BiRgL%2FDJuHaU50qjWq1gPKNecVqcp%2BU%2B3uvARMYB7PV4OXBRzugFDrFZmUUUxZduJ&X-Amz-Signature=803702c8a969ecf5dec618f448768c2a90ffd793f4cec35ae057133e74d77da3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/99facd58-302b-43be-916f-6bc2e7c4be25/INA-243.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QJGMSNDY%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152629Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJHMEUCIQDkYqU8iO0BAxYHynY6hhibmsy9Wk%2Bay9Qu9OkGTw2zPgIgGJ7A3%2B%2BMF0vacVFE1k1Jcc84xU27wPEWY445FDTiiXoqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNWhWLUdXFy4tNFTZyrcA1q%2F%2FWvOtL6DH02b%2BAPSjBKL%2BbhoWPEv00yf4u0ntOPmJhH9hbUq6cLWA4luzQWXe7xjpoXwBdVh0HRACKAUWG817wXdF2KcdjZH0UOwfBsIB7XLXSQDemoLbcNaOA56d6K%2B4ulV8iUuYj%2FCugES9nthnoZY0c17oh1EmGSHLGqyknXBMLPzpBg0L1XJnkbC8QDPPdbfkuUBjBrwpLpGOTqiqAOocy0On%2BnQOwwT4lngaevus%2BaWnVFrel%2BvOBRDhI1ICR3MJHKKiw0Uvy37nfDQxjw24SBGDqnxxbtK%2F0Aa4ee9OHqpOofwzljdQGW38uunNl9Hs6MpAzgZh4O8xhVEorEMgttJ6Rw5Tqr%2F6LttroH0DY7irEdwcpLA0QwOC73Zz96bCtg6Jr1McYVRJEus46CRFISl8TefeRd5vSvKHrgs2TrVO9XRLvwXNTCmlrnsncjcpR8yEN1MEzxgtjGzfZ7ckYiASXzXNxETQDtO5WvSXLFW%2BNSSwtkS8E2vJGszPdEqjFkYl0NhW7iFUBMmuI1%2FBARSGffkzqMiush3EcfuWYBsrIENeFuGB941KhxoUUwAdzBJMAABxhH8FAXSAMtul%2BCaanHk2ACo5sj4D473ot2%2BOIajMhiaMKKnyM8GOqUBOnBaGAg3fIkQbUrWrqXeqtarVUHIIRAY81t%2FNXNcxgU0VZC6Ih3TzCOBiCqfc%2B9%2BNEnhxj%2BTuV6%2Brr6wDT%2FXyCpVE3sXSGnpHb5oYejVecYA79jzNndJPgSnwXP%2Bu%2FZTX8UJcUSB%2BIVVsFO6DMY1Hk8TMrSY0MtIlL6pK%2BOPTtq4kMcw8Ye4wfM3isImozvwP33tfFzCQyQQUDI863V9RbW8xNTT&X-Amz-Signature=463adbfdb71fdeaaac2c77f545d54bd78853840a712432373efdb18b436dec1a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
-      "url": "https://app.notion.com/p/Non-affichage-du-logo-sur-les-factures-proforma-si-les-courriers-emails-sont-diff-rents-par-exer-3448db15623a80f78f6efd089c09d7eb"
+      "url": "https://app.notion.com/p/LOGICIEL-Non-affichage-du-logo-sur-les-factures-proforma-si-les-courriers-emails-sont-diff-rent-3448db15623a80f78f6efd089c09d7eb"
     },
     {
       "id": "3488db15-623a-8001-87d1-d454c7eba2dc",
@@ -7390,7 +7390,7 @@
     {
       "id": "3488db15-623a-8033-b0a8-fe236ad62efc",
       "identifiant": "INA-246",
-      "titre": "Erreur synchro ménage NNP si aucun libellé dans TYPEMENAG",
+      "titre": "[LOGICIEL]  Erreur synchro ménage NNP si aucun libellé dans TYPEMENAG",
       "classification": "BUG D'USAGE",
       "statut": "A planifier",
       "priorisation": "Pas urgente",
@@ -7421,14 +7421,14 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-246.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/7cd9a331-d6d7-413a-9f53-b84e461e019a/INA-246.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666OH7CKDS%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114512Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJIMEYCIQCkJ56%2FdtcvVnz%2BfKsxMekGMnrzHP73XfkhI2Z5mP0%2F%2FwIhAOlDDzW0p%2BUYsTF05CCql72x0dg%2BKsZ1E1jhAFXU%2BceoKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxN80fNeIK2sFLWubsq3AOelGZthaN%2FFvjxrkUgQ5zymc8Yb%2FwCN%2FIJW1AimGMBxksRx0cT%2BiASehteboCe2gGDEZg9kF%2F84pJxkLyJ8h%2BxKphQ9%2FMRSA7rLQLwI2%2Byf1V3wZrWzANNOukr2u8Cs0TWVOU9hWQ29SnybRSIcG3qT1PkRAPA6iRlykvSMDZGI%2BwJxC%2FmYRvAxCTDjlfkUsFxd6GNCMyLVBJm6VO9T2cfSTp7%2F1rqHeDR1N3wTWlhBc2hD8cPR0pgeUodEBiR%2Fb6X6auhS2K4fk8yQah1BZ5QzI4jfUWkVF1Z71AMZM6jXM%2F20vdr1%2FJm7DJxW%2BGD8wnA95l7pAXJvJte7PDFkt5Bz89KiacWzXxp7FkygRRo%2FgkJBgGH3eyhOgDeAh1%2FzgWk10nmwNWc%2F8I4OWFlSlGGHh5C3zSdPvTv9km8f6Hm9FNGxRO45%2BZRTWlmdW7Pu8hA3oNaHL7UjukqyElFEm%2F6Q1NHgHmRs7bur9479Dbp4fW%2FGudhSyj9tv6e%2F37ac3ylmPRW9OKbeLmnQaCY8Zd0LjObjhondCp8wGTlcSOTw%2FS1fZ4GiYNhm81on2ba8u67F6c6oFhNDRBtn0CiYw6arLFmxAct23w7oq6VnavQi38rcNegQAMOMYClHzCO1sfPBjqkAfWlsBsteDn2rCyOtAwARnzd2elZqIFSaVTTglpqdguRJm8Yg5wYfyUG%2FsX9yhDzrr8CeCdiwNaBdX8kyCHSZKueOp9MM0KOBjDuniYemq4uSCNNsTMVsnLgQ7VHGDcC1WgqV68RetBZKRisKVNUG0NXDyl%2BiRgL%2FDJuHaU50qjWq1gPKNecVqcp%2BU%2B3uvARMYB7PV4OXBRzugFDrFZmUUUxZduJ&X-Amz-Signature=897690eb1275705ab830fab6c63394e48c30744a972dc31112a28ef6a0430ff9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/7cd9a331-d6d7-413a-9f53-b84e461e019a/INA-246.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QJGMSNDY%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152629Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJHMEUCIQDkYqU8iO0BAxYHynY6hhibmsy9Wk%2Bay9Qu9OkGTw2zPgIgGJ7A3%2B%2BMF0vacVFE1k1Jcc84xU27wPEWY445FDTiiXoqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNWhWLUdXFy4tNFTZyrcA1q%2F%2FWvOtL6DH02b%2BAPSjBKL%2BbhoWPEv00yf4u0ntOPmJhH9hbUq6cLWA4luzQWXe7xjpoXwBdVh0HRACKAUWG817wXdF2KcdjZH0UOwfBsIB7XLXSQDemoLbcNaOA56d6K%2B4ulV8iUuYj%2FCugES9nthnoZY0c17oh1EmGSHLGqyknXBMLPzpBg0L1XJnkbC8QDPPdbfkuUBjBrwpLpGOTqiqAOocy0On%2BnQOwwT4lngaevus%2BaWnVFrel%2BvOBRDhI1ICR3MJHKKiw0Uvy37nfDQxjw24SBGDqnxxbtK%2F0Aa4ee9OHqpOofwzljdQGW38uunNl9Hs6MpAzgZh4O8xhVEorEMgttJ6Rw5Tqr%2F6LttroH0DY7irEdwcpLA0QwOC73Zz96bCtg6Jr1McYVRJEus46CRFISl8TefeRd5vSvKHrgs2TrVO9XRLvwXNTCmlrnsncjcpR8yEN1MEzxgtjGzfZ7ckYiASXzXNxETQDtO5WvSXLFW%2BNSSwtkS8E2vJGszPdEqjFkYl0NhW7iFUBMmuI1%2FBARSGffkzqMiush3EcfuWYBsrIENeFuGB941KhxoUUwAdzBJMAABxhH8FAXSAMtul%2BCaanHk2ACo5sj4D473ot2%2BOIajMhiaMKKnyM8GOqUBOnBaGAg3fIkQbUrWrqXeqtarVUHIIRAY81t%2FNXNcxgU0VZC6Ih3TzCOBiCqfc%2B9%2BNEnhxj%2BTuV6%2Brr6wDT%2FXyCpVE3sXSGnpHb5oYejVecYA79jzNndJPgSnwXP%2Bu%2FZTX8UJcUSB%2BIVVsFO6DMY1Hk8TMrSY0MtIlL6pK%2BOPTtq4kMcw8Ye4wfM3isImozvwP33tfFzCQyQQUDI863V9RbW8xNTT&X-Amz-Signature=6d92ff9f0ad38c9d41ec9a292feb387e7bb3ae44704681f86e0f4647bf5eb05c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
-      "url": "https://app.notion.com/p/Erreur-synchro-m-nage-NNP-si-aucun-libell-dans-TYPEMENAG-3488db15623a8033b0a8fe236ad62efc"
+      "url": "https://app.notion.com/p/LOGICIEL-Erreur-synchro-m-nage-NNP-si-aucun-libell-dans-TYPEMENAG-3488db15623a8033b0a8fe236ad62efc"
     },
     {
       "id": "3488db15-623a-8046-9e74-d8462cf7fb1f",
       "identifiant": "INA-248",
-      "titre": "Impossible d’envoyer des emails si présence d’un code Osmokey",
+      "titre": "[LOGICIEL] Impossible d’envoyer des emails si présence d’un code Osmokey",
       "classification": "BUG STRUCTURANT",
       "statut": "FAIT",
       "priorisation": "Haute",
@@ -7464,12 +7464,12 @@
       "dateSortieInter": "2026-04-27",
       "dateSortieStable": "2026-05-04",
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Impossible-d-envoyer-des-emails-si-pr-sence-d-un-code-Osmokey-3488db15623a80469e74d8462cf7fb1f"
+      "url": "https://app.notion.com/p/LOGICIEL-Impossible-d-envoyer-des-emails-si-pr-sence-d-un-code-Osmokey-3488db15623a80469e74d8462cf7fb1f"
     },
     {
       "id": "3488db15-623a-8048-bba2-d943a468b589",
       "identifiant": "INA-247",
-      "titre": "Erreur remontée historique NAXICOD (voir LOG pour analyse)",
+      "titre": "[LOGICIEL] Erreur remontée historique NAXICOD (voir LOG pour analyse)",
       "classification": "BUG STRUCTURANT",
       "statut": "A planifier",
       "priorisation": null,
@@ -7499,12 +7499,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Erreur-remont-e-historique-NAXICOD-voir-LOG-pour-analyse-3488db15623a8048bba2d943a468b589"
+      "url": "https://app.notion.com/p/LOGICIEL-Erreur-remont-e-historique-NAXICOD-voir-LOG-pour-analyse-3488db15623a8048bba2d943a468b589"
     },
     {
       "id": "3488db15-623a-8075-99be-ed88dd0f1143",
       "identifiant": "INA-245",
-      "titre": "Message erreur traitement auto",
+      "titre": "[LOGICIEL] Message erreur traitement auto",
       "classification": "BUG OPERATIONNEL",
       "statut": "FAIT",
       "priorisation": null,
@@ -7539,7 +7539,7 @@
       "dateSortieInter": "2026-04-27",
       "dateSortieStable": "2026-05-04",
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Message-erreur-traitement-auto-3488db15623a807599beed88dd0f1143"
+      "url": "https://app.notion.com/p/LOGICIEL-Message-erreur-traitement-auto-3488db15623a807599beed88dd0f1143"
     },
     {
       "id": "3488db15-623a-80da-947a-fc57ec1d5014",
@@ -7584,7 +7584,7 @@
     {
       "id": "3498db15-623a-8044-8e2c-f418bf34c9fd",
       "identifiant": "INA-255",
-      "titre": "Extraction client/séjour : Ajout d’une nouvelle donnée N°Allocataire Vacaf",
+      "titre": "[LOGICIEL]  Extraction client/séjour : Ajout d’une nouvelle donnée N°Allocataire Vacaf",
       "classification": "DEV sans CC",
       "statut": "A planifier",
       "priorisation": "Moyenne",
@@ -7614,7 +7614,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Extraction-client-s-jour-Ajout-d-une-nouvelle-donn-e-N-Allocataire-Vacaf-3498db15623a80448e2cf418bf34c9fd"
+      "url": "https://app.notion.com/p/LOGICIEL-Extraction-client-s-jour-Ajout-d-une-nouvelle-donn-e-N-Allocataire-Vacaf-3498db15623a80448e2cf418bf34c9fd"
     },
     {
       "id": "3498db15-623a-80cc-a86b-c866c668f3e7",
@@ -7720,7 +7720,7 @@
     {
       "id": "3498db15-623a-80e9-bfff-f2a78b0b810b",
       "identifiant": "INA-253",
-      "titre": "Facturation : montant à régler erroné si paiement saisi via la fenêtre de paiement avant facturation",
+      "titre": "[LOGICIEL] Facturation : montant à régler erroné si paiement saisi via la fenêtre de paiement avant facturation",
       "classification": "BUG OPERATIONNEL",
       "statut": "A planifier",
       "priorisation": null,
@@ -7750,12 +7750,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Facturation-montant-r-gler-erron-si-paiement-saisi-via-la-fen-tre-de-paiement-avant-facturation-3498db15623a80e9bffff2a78b0b810b"
+      "url": "https://app.notion.com/p/LOGICIEL-Facturation-montant-r-gler-erron-si-paiement-saisi-via-la-fen-tre-de-paiement-avant-f-3498db15623a80e9bffff2a78b0b810b"
     },
     {
       "id": "3498db15-623a-80f0-820b-e72cb4a0b5fe",
       "identifiant": "INA-251",
-      "titre": "Séjours et clients non envoyés sur le web",
+      "titre": "[LOGICIEL] Séjours et clients non envoyés sur le web",
       "classification": "BUG OPERATIONNEL",
       "statut": "A planifier",
       "priorisation": "Haute",
@@ -7787,14 +7787,14 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "CompareBookings_FTP_CRM_20260421_030920.xlsx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/78a80eab-ce9b-43ed-9ac6-b8a3bb68bf7a/CompareBookings_FTP_CRM_20260421_030920.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666OH7CKDS%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114512Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJIMEYCIQCkJ56%2FdtcvVnz%2BfKsxMekGMnrzHP73XfkhI2Z5mP0%2F%2FwIhAOlDDzW0p%2BUYsTF05CCql72x0dg%2BKsZ1E1jhAFXU%2BceoKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxN80fNeIK2sFLWubsq3AOelGZthaN%2FFvjxrkUgQ5zymc8Yb%2FwCN%2FIJW1AimGMBxksRx0cT%2BiASehteboCe2gGDEZg9kF%2F84pJxkLyJ8h%2BxKphQ9%2FMRSA7rLQLwI2%2Byf1V3wZrWzANNOukr2u8Cs0TWVOU9hWQ29SnybRSIcG3qT1PkRAPA6iRlykvSMDZGI%2BwJxC%2FmYRvAxCTDjlfkUsFxd6GNCMyLVBJm6VO9T2cfSTp7%2F1rqHeDR1N3wTWlhBc2hD8cPR0pgeUodEBiR%2Fb6X6auhS2K4fk8yQah1BZ5QzI4jfUWkVF1Z71AMZM6jXM%2F20vdr1%2FJm7DJxW%2BGD8wnA95l7pAXJvJte7PDFkt5Bz89KiacWzXxp7FkygRRo%2FgkJBgGH3eyhOgDeAh1%2FzgWk10nmwNWc%2F8I4OWFlSlGGHh5C3zSdPvTv9km8f6Hm9FNGxRO45%2BZRTWlmdW7Pu8hA3oNaHL7UjukqyElFEm%2F6Q1NHgHmRs7bur9479Dbp4fW%2FGudhSyj9tv6e%2F37ac3ylmPRW9OKbeLmnQaCY8Zd0LjObjhondCp8wGTlcSOTw%2FS1fZ4GiYNhm81on2ba8u67F6c6oFhNDRBtn0CiYw6arLFmxAct23w7oq6VnavQi38rcNegQAMOMYClHzCO1sfPBjqkAfWlsBsteDn2rCyOtAwARnzd2elZqIFSaVTTglpqdguRJm8Yg5wYfyUG%2FsX9yhDzrr8CeCdiwNaBdX8kyCHSZKueOp9MM0KOBjDuniYemq4uSCNNsTMVsnLgQ7VHGDcC1WgqV68RetBZKRisKVNUG0NXDyl%2BiRgL%2FDJuHaU50qjWq1gPKNecVqcp%2BU%2B3uvARMYB7PV4OXBRzugFDrFZmUUUxZduJ&X-Amz-Signature=9c6b2ce0358905aae28c840694e15fbe18a5261767982d710c12413636abbc8b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/78a80eab-ce9b-43ed-9ac6-b8a3bb68bf7a/CompareBookings_FTP_CRM_20260421_030920.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QJGMSNDY%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152629Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJHMEUCIQDkYqU8iO0BAxYHynY6hhibmsy9Wk%2Bay9Qu9OkGTw2zPgIgGJ7A3%2B%2BMF0vacVFE1k1Jcc84xU27wPEWY445FDTiiXoqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNWhWLUdXFy4tNFTZyrcA1q%2F%2FWvOtL6DH02b%2BAPSjBKL%2BbhoWPEv00yf4u0ntOPmJhH9hbUq6cLWA4luzQWXe7xjpoXwBdVh0HRACKAUWG817wXdF2KcdjZH0UOwfBsIB7XLXSQDemoLbcNaOA56d6K%2B4ulV8iUuYj%2FCugES9nthnoZY0c17oh1EmGSHLGqyknXBMLPzpBg0L1XJnkbC8QDPPdbfkuUBjBrwpLpGOTqiqAOocy0On%2BnQOwwT4lngaevus%2BaWnVFrel%2BvOBRDhI1ICR3MJHKKiw0Uvy37nfDQxjw24SBGDqnxxbtK%2F0Aa4ee9OHqpOofwzljdQGW38uunNl9Hs6MpAzgZh4O8xhVEorEMgttJ6Rw5Tqr%2F6LttroH0DY7irEdwcpLA0QwOC73Zz96bCtg6Jr1McYVRJEus46CRFISl8TefeRd5vSvKHrgs2TrVO9XRLvwXNTCmlrnsncjcpR8yEN1MEzxgtjGzfZ7ckYiASXzXNxETQDtO5WvSXLFW%2BNSSwtkS8E2vJGszPdEqjFkYl0NhW7iFUBMmuI1%2FBARSGffkzqMiush3EcfuWYBsrIENeFuGB941KhxoUUwAdzBJMAABxhH8FAXSAMtul%2BCaanHk2ACo5sj4D473ot2%2BOIajMhiaMKKnyM8GOqUBOnBaGAg3fIkQbUrWrqXeqtarVUHIIRAY81t%2FNXNcxgU0VZC6Ih3TzCOBiCqfc%2B9%2BNEnhxj%2BTuV6%2Brr6wDT%2FXyCpVE3sXSGnpHb5oYejVecYA79jzNndJPgSnwXP%2Bu%2FZTX8UJcUSB%2BIVVsFO6DMY1Hk8TMrSY0MtIlL6pK%2BOPTtq4kMcw8Ye4wfM3isImozvwP33tfFzCQyQQUDI863V9RbW8xNTT&X-Amz-Signature=12eadebf1ce300cd553ce61bb3d12c6221533580ca2aa5f3141fafde21cd06b8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
-      "url": "https://app.notion.com/p/S-jours-et-clients-non-envoy-s-sur-le-web-3498db15623a80f0820be72cb4a0b5fe"
+      "url": "https://app.notion.com/p/LOGICIEL-S-jours-et-clients-non-envoy-s-sur-le-web-3498db15623a80f0820be72cb4a0b5fe"
     },
     {
       "id": "34a8db15-623a-806a-b3dd-c9a350b41887",
       "identifiant": "INA-259",
-      "titre": "Lenteurs sur affichage de la fenêtre d’envoi d’email de factures si plusieurs séjours",
+      "titre": "[LOGICIEL] Lenteurs sur affichage de la fenêtre d’envoi d’email de factures si plusieurs séjours",
       "classification": "BUG OPERATIONNEL",
       "statut": "A planifier",
       "priorisation": "Moyenne",
@@ -7824,7 +7824,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Lenteurs-sur-affichage-de-la-fen-tre-d-envoi-d-email-de-factures-si-plusieurs-s-jours-34a8db15623a806ab3ddc9a350b41887"
+      "url": "https://app.notion.com/p/LOGICIEL-Lenteurs-sur-affichage-de-la-fen-tre-d-envoi-d-email-de-factures-si-plusieurs-s-jours-34a8db15623a806ab3ddc9a350b41887"
     },
     {
       "id": "34a8db15-623a-8075-a147-d472662329a2",
@@ -7859,7 +7859,7 @@
     {
       "id": "34a8db15-623a-807e-82bc-ce8b0e756c3d",
       "identifiant": "INA-258",
-      "titre": "Lenteurs sur l’enregistrement d’un paiement pour plusieurs prestations",
+      "titre": "[LOGICIEL] Lenteurs sur l’enregistrement d’un paiement pour plusieurs prestations",
       "classification": "BUG OPERATIONNEL",
       "statut": "A planifier",
       "priorisation": "Moyenne",
@@ -7889,12 +7889,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Lenteurs-sur-l-enregistrement-d-un-paiement-pour-plusieurs-prestations-34a8db15623a807e82bcce8b0e756c3d"
+      "url": "https://app.notion.com/p/LOGICIEL-Lenteurs-sur-l-enregistrement-d-un-paiement-pour-plusieurs-prestations-34a8db15623a807e82bcce8b0e756c3d"
     },
     {
       "id": "34a8db15-623a-80c0-a921-ebc27b6d0553",
       "identifiant": "INA-257",
-      "titre": "Param SWIKLY : Griser et rendre non modifiable l’environnement",
+      "titre": "[LOGICIEL] Param SWIKLY : Griser et rendre non modifiable l’environnement",
       "classification": "DEV sans CC",
       "statut": "A planifier",
       "priorisation": "Pas urgente",
@@ -7924,7 +7924,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Param-SWIKLY-Griser-et-rendre-non-modifiable-l-environnement-34a8db15623a80c0a921ebc27b6d0553"
+      "url": "https://app.notion.com/p/LOGICIEL-Param-SWIKLY-Griser-et-rendre-non-modifiable-l-environnement-34a8db15623a80c0a921ebc27b6d0553"
     },
     {
       "id": "34b8db15-623a-8004-9da0-f3ccafc94c60",
@@ -7996,7 +7996,7 @@
     {
       "id": "34b8db15-623a-8039-b2e8-fcdab5b7e2b7",
       "identifiant": "INA-262",
-      "titre": "Garder les filtres choisis sur NNP",
+      "titre": "[WEB] Garder les filtres choisis sur NNP",
       "classification": "BUG OPERATIONNEL",
       "statut": "A planifier",
       "priorisation": "Moyenne",
@@ -8025,12 +8025,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Garder-les-filtres-choisis-sur-NNP-34b8db15623a8039b2e8fcdab5b7e2b7"
+      "url": "https://app.notion.com/p/WEB-Garder-les-filtres-choisis-sur-NNP-34b8db15623a8039b2e8fcdab5b7e2b7"
     },
     {
       "id": "34b8db15-623a-803e-81b0-c8e1bbe1b1a3",
       "identifiant": "INA-264",
-      "titre": "Date prochaine arrivée erronée dans le module ménage",
+      "titre": "[LOGICIEL] Date prochaine arrivée erronée dans le module ménage",
       "classification": "BUG OPERATIONNEL",
       "statut": "A planifier",
       "priorisation": "Moyenne",
@@ -8061,12 +8061,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Date-prochaine-arriv-e-erron-e-dans-le-module-m-nage-34b8db15623a803e81b0c8e1bbe1b1a3"
+      "url": "https://app.notion.com/p/LOGICIEL-Date-prochaine-arriv-e-erron-e-dans-le-module-m-nage-34b8db15623a803e81b0c8e1bbe1b1a3"
     },
     {
       "id": "34b8db15-623a-80fa-8755-f095b4a93d4f",
       "identifiant": "INA-266",
-      "titre": "Problème d’affichage du statut du ménage dans l’enregistrement d’une arrivée sur NNP",
+      "titre": "[WEB] Problème d’affichage du statut du ménage dans l’enregistrement d’une arrivée sur NNP",
       "classification": "BUG OPERATIONNEL",
       "statut": "A planifier",
       "priorisation": "Moyenne",
@@ -8095,12 +8095,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Probl-me-d-affichage-du-statut-du-m-nage-dans-l-enregistrement-d-une-arriv-e-sur-NNP-34b8db15623a80fa8755f095b4a93d4f"
+      "url": "https://app.notion.com/p/WEB-Probl-me-d-affichage-du-statut-du-m-nage-dans-l-enregistrement-d-une-arriv-e-sur-NNP-34b8db15623a80fa8755f095b4a93d4f"
     },
     {
       "id": "34c8db15-623a-805e-8221-d18f1da60abe",
       "identifiant": "INA-269",
-      "titre": "Régression sur saisie date de naissance du client entre séjour et fiche client",
+      "titre": "[LOGICIEL] Régression sur saisie date de naissance du client entre séjour et fiche client",
       "classification": "BUG D'USAGE",
       "statut": "A planifier",
       "priorisation": "Pas urgente",
@@ -8130,7 +8130,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/R-gression-sur-saisie-date-de-naissance-du-client-entre-s-jour-et-fiche-client-34c8db15623a805e8221d18f1da60abe"
+      "url": "https://app.notion.com/p/LOGICIEL-R-gression-sur-saisie-date-de-naissance-du-client-entre-s-jour-et-fiche-client-34c8db15623a805e8221d18f1da60abe"
     },
     {
       "id": "34c8db15-623a-8066-b9cb-d8a7e3487e1f",
@@ -8171,14 +8171,14 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "NAXIRESA 8.zip",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/cc761fc2-78f0-47ae-98b4-2ff289a1d914/NAXIRESA_8.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666OH7CKDS%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T114512Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECwaCXVzLXdlc3QtMiJIMEYCIQCkJ56%2FdtcvVnz%2BfKsxMekGMnrzHP73XfkhI2Z5mP0%2F%2FwIhAOlDDzW0p%2BUYsTF05CCql72x0dg%2BKsZ1E1jhAFXU%2BceoKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxN80fNeIK2sFLWubsq3AOelGZthaN%2FFvjxrkUgQ5zymc8Yb%2FwCN%2FIJW1AimGMBxksRx0cT%2BiASehteboCe2gGDEZg9kF%2F84pJxkLyJ8h%2BxKphQ9%2FMRSA7rLQLwI2%2Byf1V3wZrWzANNOukr2u8Cs0TWVOU9hWQ29SnybRSIcG3qT1PkRAPA6iRlykvSMDZGI%2BwJxC%2FmYRvAxCTDjlfkUsFxd6GNCMyLVBJm6VO9T2cfSTp7%2F1rqHeDR1N3wTWlhBc2hD8cPR0pgeUodEBiR%2Fb6X6auhS2K4fk8yQah1BZ5QzI4jfUWkVF1Z71AMZM6jXM%2F20vdr1%2FJm7DJxW%2BGD8wnA95l7pAXJvJte7PDFkt5Bz89KiacWzXxp7FkygRRo%2FgkJBgGH3eyhOgDeAh1%2FzgWk10nmwNWc%2F8I4OWFlSlGGHh5C3zSdPvTv9km8f6Hm9FNGxRO45%2BZRTWlmdW7Pu8hA3oNaHL7UjukqyElFEm%2F6Q1NHgHmRs7bur9479Dbp4fW%2FGudhSyj9tv6e%2F37ac3ylmPRW9OKbeLmnQaCY8Zd0LjObjhondCp8wGTlcSOTw%2FS1fZ4GiYNhm81on2ba8u67F6c6oFhNDRBtn0CiYw6arLFmxAct23w7oq6VnavQi38rcNegQAMOMYClHzCO1sfPBjqkAfWlsBsteDn2rCyOtAwARnzd2elZqIFSaVTTglpqdguRJm8Yg5wYfyUG%2FsX9yhDzrr8CeCdiwNaBdX8kyCHSZKueOp9MM0KOBjDuniYemq4uSCNNsTMVsnLgQ7VHGDcC1WgqV68RetBZKRisKVNUG0NXDyl%2BiRgL%2FDJuHaU50qjWq1gPKNecVqcp%2BU%2B3uvARMYB7PV4OXBRzugFDrFZmUUUxZduJ&X-Amz-Signature=ec623fcfc6b3f839e7b159bac4111889a7d45a059230f15bf6f1e0b59c795a95&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/cc761fc2-78f0-47ae-98b4-2ff289a1d914/NAXIRESA_8.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QJGMSNDY%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T152629Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJHMEUCIQDkYqU8iO0BAxYHynY6hhibmsy9Wk%2Bay9Qu9OkGTw2zPgIgGJ7A3%2B%2BMF0vacVFE1k1Jcc84xU27wPEWY445FDTiiXoqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNWhWLUdXFy4tNFTZyrcA1q%2F%2FWvOtL6DH02b%2BAPSjBKL%2BbhoWPEv00yf4u0ntOPmJhH9hbUq6cLWA4luzQWXe7xjpoXwBdVh0HRACKAUWG817wXdF2KcdjZH0UOwfBsIB7XLXSQDemoLbcNaOA56d6K%2B4ulV8iUuYj%2FCugES9nthnoZY0c17oh1EmGSHLGqyknXBMLPzpBg0L1XJnkbC8QDPPdbfkuUBjBrwpLpGOTqiqAOocy0On%2BnQOwwT4lngaevus%2BaWnVFrel%2BvOBRDhI1ICR3MJHKKiw0Uvy37nfDQxjw24SBGDqnxxbtK%2F0Aa4ee9OHqpOofwzljdQGW38uunNl9Hs6MpAzgZh4O8xhVEorEMgttJ6Rw5Tqr%2F6LttroH0DY7irEdwcpLA0QwOC73Zz96bCtg6Jr1McYVRJEus46CRFISl8TefeRd5vSvKHrgs2TrVO9XRLvwXNTCmlrnsncjcpR8yEN1MEzxgtjGzfZ7ckYiASXzXNxETQDtO5WvSXLFW%2BNSSwtkS8E2vJGszPdEqjFkYl0NhW7iFUBMmuI1%2FBARSGffkzqMiush3EcfuWYBsrIENeFuGB941KhxoUUwAdzBJMAABxhH8FAXSAMtul%2BCaanHk2ACo5sj4D473ot2%2BOIajMhiaMKKnyM8GOqUBOnBaGAg3fIkQbUrWrqXeqtarVUHIIRAY81t%2FNXNcxgU0VZC6Ih3TzCOBiCqfc%2B9%2BNEnhxj%2BTuV6%2Brr6wDT%2FXyCpVE3sXSGnpHb5oYejVecYA79jzNndJPgSnwXP%2Bu%2FZTX8UJcUSB%2BIVVsFO6DMY1Hk8TMrSY0MtIlL6pK%2BOPTtq4kMcw8Ye4wfM3isImozvwP33tfFzCQyQQUDI863V9RbW8xNTT&X-Amz-Signature=0a0b9612ac7241145a9f0dfe921bbed6b562c693103570c0d4c6ea42596b6222&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Erreur-redescente-des-events-NAXICAM-34c8db15623a8066b9cbd8a7e3487e1f"
     },
     {
       "id": "34c8db15-623a-80b0-aef2-c7a6f92dccdf",
       "identifiant": "INA-267",
-      "titre": "Montant de la facture d’acompte à 0.00€ sur la facture de solde ",
+      "titre": "[LOGICIEL]  Montant de la facture d’acompte à 0.00€ sur la facture de solde ",
       "classification": "BUG OPERATIONNEL",
       "statut": "A planifier",
       "priorisation": "Haute",
@@ -8208,19 +8208,19 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Montant-de-la-facture-d-acompte-0-00-sur-la-facture-de-solde-34c8db15623a80b0aef2c7a6f92dccdf"
+      "url": "https://app.notion.com/p/LOGICIEL-Montant-de-la-facture-d-acompte-0-00-sur-la-facture-de-solde-34c8db15623a80b0aef2c7a6f92dccdf"
     },
     {
       "id": "34c8db15-623a-80cf-87a6-e360b92a7d9b",
       "identifiant": "INA-270",
       "titre": "Filtre secteur qui ne fonctionne pas sur le ménage de type suppléments",
       "classification": "BUG OPERATIONNEL",
-      "statut": "En cours",
+      "statut": "FAIT",
       "priorisation": "Haute",
       "sprintIdeal": [
-        "MAI 26"
+        "AVRIL 26"
       ],
-      "fonctions": null,
+      "fonctions": "Séjour",
       "produits": [
         "NAXI NOMAD PREMIUM"
       ],
@@ -8237,9 +8237,9 @@
       "explication": "Si on a des ménages de type “suppléments” (donc juste des suppléments à mettre en place à l’arrivée, pas de repasse), le filtre secteur ne fonctionne pas sur eux. Ce qui fait que quand on filtre par secteur on a aussi bien des emplacements du secteur (pour les ménages) mais aussi des emplacements hors secteur, ce qui n’est fonctionnellement pas pratique",
       "communication": [],
       "initialeAjout": [],
-      "versionInter": "",
+      "versionInter": "Web",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-04-28",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/Filtre-secteur-qui-ne-fonctionne-pas-sur-le-m-nage-de-type-suppl-ments-34c8db15623a80cf87a6e360b92a7d9b"
@@ -8247,7 +8247,7 @@
     {
       "id": "34c8db15-623a-80eb-a71f-d2e2dae8f4c0",
       "identifiant": "INA-268",
-      "titre": "Optimisation PDF Factures : blocs trop grands depuis les version 18 qui engendre un nombre de pages à imprimer plus important",
+      "titre": "[LOGICIEL/DESIGN] Optimisation PDF Factures : blocs trop grands depuis les version 18 qui engendre un nombre de pages à imprimer plus important",
       "classification": "DEV sans CC",
       "statut": "A planifier",
       "priorisation": "Pas urgente",
@@ -8277,7 +8277,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Optimisation-PDF-Factures-blocs-trop-grands-depuis-les-version-18-qui-engendre-un-nombre-de-pages--34c8db15623a80eba71fd2e2dae8f4c0"
+      "url": "https://app.notion.com/p/LOGICIEL-DESIGN-Optimisation-PDF-Factures-blocs-trop-grands-depuis-les-version-18-qui-engendre-un-34c8db15623a80eba71fd2e2dae8f4c0"
     },
     {
       "id": "3508db15-623a-8081-8b7f-fdea23ad507d",
@@ -8314,7 +8314,7 @@
     {
       "id": "3518db15-623a-8008-a118-c772916f3e6a",
       "identifiant": "INA-275",
-      "titre": "Loader qui tourne sans fin alors que pas de résultat sur NNP",
+      "titre": "[WEB] Loader qui tourne sans fin alors que pas de résultat sur NNP",
       "classification": "BUG OPERATIONNEL",
       "statut": "A planifier",
       "priorisation": null,
@@ -8339,7 +8339,137 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Loader-qui-tourne-sans-fin-alors-que-pas-de-r-sultat-sur-NNP-3518db15623a8008a118c772916f3e6a"
+      "url": "https://app.notion.com/p/WEB-Loader-qui-tourne-sans-fin-alors-que-pas-de-r-sultat-sur-NNP-3518db15623a8008a118c772916f3e6a"
+    },
+    {
+      "id": "3518db15-623a-801f-8b65-c1418eda085b",
+      "identifiant": "INA-277",
+      "titre": "[WEB] Problème sur la recherche client dans l'enregistrement des arrivées sur NNP",
+      "classification": "BUG OPERATIONNEL",
+      "statut": "FAIT",
+      "priorisation": null,
+      "sprintIdeal": [
+        "AVRIL 26"
+      ],
+      "fonctions": null,
+      "produits": [],
+      "client": "",
+      "dateCreation": "2026-04-29T12:29:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Le problème est présent sur les arrivées/départs. Si je cherche un client commençant par la lettre V, je n’ai rien qui apparait alors qu’il y a bien des clients arrivant qui commencent par la lettre V.",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "Web",
+      "versionStable": "",
+      "dateSortieInter": "2026-04-30",
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/WEB-Probl-me-sur-la-recherche-client-dans-l-enregistrement-des-arriv-es-sur-NNP-3518db15623a801f8b65c1418eda085b"
+    },
+    {
+      "id": "3518db15-623a-80a2-b934-f7a43cae2186",
+      "identifiant": "INA-279",
+      "titre": "Ajouter un contrôle sur le nom des fiches clients",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": "Fiche client",
+      "produits": [
+        "NAXI GESTION SQL",
+        "NAXI GESTION HF",
+        "CRM"
+      ],
+      "client": "",
+      "dateCreation": "2026-04-29T14:16:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Il est possible dans NAXI de créer une fiche client sans nom, ce qui génère ensuite des erreurs de synchro et d’envoi vers le CRM entre autres.\n\nIl faudrait donc ajouter un contrôle sur ce champs en s’assurant qu’à minima deux lettres sont saisies ",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Ajouter-un-contr-le-sur-le-nom-des-fiches-clients-3518db15623a80a2b934f7a43cae2186"
+    },
+    {
+      "id": "3518db15-623a-80bf-ac2b-f38eb8deb0fc",
+      "identifiant": "INA-278",
+      "titre": "Erreur fresh_ressource : données déjà existantes dans NAXI",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [],
+      "client": "Détecté chez Marsouins66",
+      "dateCreation": "2026-04-29T13:46:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite à la mise en place du dahsboard Synchronization V2 Failed ressources, j’ai tenté de relancer quelques ressources mais celles ci restent en erreur car elles ont déjà été intégré dans NAXI ",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-fresh_ressource-donn-es-d-j-existantes-dans-NAXI-3518db15623a80bfac2bf38eb8deb0fc"
+    },
+    {
+      "id": "3518db15-623a-80d3-abc2-f5da4528a981",
+      "identifiant": "INA-276",
+      "titre": "Erreur synchro fiche client : Aucun contrôle de la syntaxe adresse email depuis la création d’une fiche client issue d’un devis",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": "Fiche client",
+      "produits": [
+        "NAXI GESTION SQL",
+        "NAXI GESTION HF",
+        "CRM"
+      ],
+      "client": "",
+      "dateCreation": "2026-04-29T12:00:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "L’envoi d’une fiche client bloque la synchro lorsque la syntaxe de l’adresse email n’est pas correcte. \nAprès analyse, il s’avère que nous ne réalisons aucun contrôle de la syntaxe lorsque l’on crée une fiche client depuis les devis",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-synchro-fiche-client-Aucun-contr-le-de-la-syntaxe-adresse-email-depuis-la-cr-ation-d-une-fi-3518db15623a80d3abc2f5da4528a981"
     }
   ],
   "topline": [
@@ -10985,7 +11115,7 @@
     }
   ],
   "counts": {
-    "classique": 234,
+    "classique": 238,
     "topline": 56
   }
 }
