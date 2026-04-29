@@ -836,9 +836,26 @@ function ClassiqueTab({ selectedMonth }) {
     const enregistresCur = CLASSIQUE.filter(t => isInMonth(t.dateCreation, selectedMonth));
     const enregistresPrev = CLASSIQUE.filter(t => isInMonth(t.dateCreation, previousMonth));
 
-    // Tickets dont sprint idéal = mois sélectionné
-    const sprintTickets = CLASSIQUE.filter(t => (t.sprintIdeal || []).includes(sprintCurrent));
-    const sprintTicketsPrev = CLASSIQUE.filter(t => (t.sprintIdeal || []).includes(sprintPrevious));
+    // Helper : tickets du sprint, en excluant les archivés et les débords du sprint suivant
+    const ticketsForSprint = (sprintLabel) => {
+      return CLASSIQUE.filter(t => {
+        if (t.statut === "Archivé") return false;
+        if (!(t.sprintIdeal || []).includes(sprintLabel)) return false;
+        // Si "Débord sprint suivant" et le sprint considéré est le DERNIER de la liste,
+        // c'est un débord, on l'exclut.
+        const tags = t.initialeAjout || [];
+        const isDebord = tags.includes("Débord sprint suivant");
+        if (isDebord && (t.sprintIdeal || []).length > 1) {
+          const lastSprint = (t.sprintIdeal || [])[(t.sprintIdeal || []).length - 1];
+          if (lastSprint === sprintLabel) return false;
+        }
+        return true;
+      });
+    };
+
+    // Tickets dont sprint idéal = mois sélectionné (filtrés)
+    const sprintTickets = ticketsForSprint(sprintCurrent);
+    const sprintTicketsPrev = ticketsForSprint(sprintPrevious);
 
     const enCoursCur = sprintTickets.filter(t => t.statut === "En cours").length;
     const enCoursPrev = sprintTicketsPrev.filter(t => t.statut === "En cours").length;
@@ -1450,7 +1467,17 @@ function SprintSection({ sprintCurrent, sprintPrevious, selectedMonth, previousM
   const bySprint = useMemo(() => {
     const m = {};
     CLASSIQUE.forEach(t => {
-      (t.sprintIdeal || []).forEach(s => {
+      // Exclure les tickets archivés
+      if (t.statut === "Archivé") return;
+      // Exclure les tickets dont le sprint actuel est un "Débord sprint suivant"
+      // (ils restent visibles dans leur sprint d'origine, pas dans le sprint où ils débordent)
+      const tags = t.initialeAjout || [];
+      const isDebord = tags.includes("Débord sprint suivant");
+
+      (t.sprintIdeal || []).forEach((s, idx) => {
+        // Si le ticket est marqué "Débord sprint suivant", on l'exclut de son DERNIER sprint
+        // (le sprint d'origine est gardé, le débord est filtré)
+        if (isDebord && idx === (t.sprintIdeal || []).length - 1 && (t.sprintIdeal || []).length > 1) return;
         if (!m[s]) m[s] = [];
         m[s].push(t);
       });
