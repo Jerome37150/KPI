@@ -14,6 +14,12 @@ const PRIO_ICONS = {
   "Pas urgente": ChevronsDown,
 };
 
+const PRIO_RANK = {
+  "Haute":       1,
+  "Moyenne":     2,
+  "Pas urgente": 3,
+};
+
 const STATUT_COLORS = {
   "FAIT":                 C.green,
   "Fait partiellement":   C.green,
@@ -35,6 +41,9 @@ const STATUT_COLORS = {
 export function VersionTicketsTable({ tickets, title = "Tickets livrés", showStatus = false, showProgress = false }) {
   const rows = useMemo(() => {
     return [...tickets].sort((a, b) => {
+      const ra = PRIO_RANK[a.priorisation] || 99;
+      const rb = PRIO_RANK[b.priorisation] || 99;
+      if (ra !== rb) return ra - rb;
       const ai = a.identifiant || "";
       const bi = b.identifiant || "";
       return ai.localeCompare(bi, "fr", { numeric: true });

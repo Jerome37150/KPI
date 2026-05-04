@@ -1,4 +1,4 @@
-import { LayoutDashboard, FileText, Package, Sparkles } from 'lucide-react';
+import { LayoutDashboard, FileText, Package, Sparkles, Building2, LineChart } from 'lucide-react';
 import { C, LAYOUT } from '../styles/theme';
 import { LogoInaxel } from './LogoInaxel';
 
@@ -13,6 +13,9 @@ export const NAV_ITEMS = [
   { type: "window",   key: "version",        label: "Version",         icon: Package },
   { type: "category", label: "Sprint" },
   { type: "window",   key: "sprint",         label: "Sprint en cours", icon: Sparkles },
+  { type: "category", label: "Top Line" },
+  { type: "window",   key: "suivi",          label: "Suivi",           icon: LineChart },
+  { type: "window",   key: "immobilisation", label: "Immobilisation",  icon: Building2 },
 ];
 
 // ============================================

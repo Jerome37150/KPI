@@ -189,6 +189,7 @@ function mapTopLinePage(page) {
     lienMaquette: extractProp(p, 'Lien maquette', 'url'),
     lienJira: extractProp(p, 'Lien EPIC JIRA', 'url'),
     remarques: extractProp(p, 'Remarques', 'rich_text') || '',
+    lastEdited: page.last_edited_time || null,
     url: page.url,
   };
 }

@@ -8,6 +8,8 @@ import { DashboardPage } from './pages/DashboardPage';
 import { EnregistrementPage } from './pages/EnregistrementPage';
 import { VersionPage } from './pages/VersionPage';
 import { SprintPage } from './pages/SprintPage';
+import { ImmobilisationPage } from './pages/ImmobilisationPage';
+import { SuiviPage } from './pages/SuiviPage';
 
 // ============================================
 // PAGES — registre des pages connues (clé = id route, label = titre header)
@@ -17,6 +19,8 @@ const PAGES = {
   enregistrement: { label: "Enregistrement",  Component: EnregistrementPage },
   version:        { label: "Version",         Component: VersionPage        },
   sprint:         { label: "Sprint en cours", Component: SprintPage         },
+  suivi:          { label: "Suivi Top Line",  Component: SuiviPage          },
+  immobilisation: { label: "Immobilisation",  Component: ImmobilisationPage },
 };
 
 // ============================================
@@ -43,7 +47,7 @@ export default function Dashboard() {
       lastRefresh={data.generatedAt}
     >
       <div className="fade-in" key={tab}>
-        <Page data={data} />
+        <Page data={data} onNavigate={setTab} />
       </div>
     </AppLayout>
   );
