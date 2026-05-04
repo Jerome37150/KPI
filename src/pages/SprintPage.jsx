@@ -120,9 +120,10 @@ export function SprintPage({ data }) {
     let initiale = 0, debord = 0, ajout = 0;
     currentTickets.forEach(t => {
       const ini = Array.isArray(t.initialeAjout) ? t.initialeAjout : [];
-      if (ini.includes("Sprint initiale"))       initiale++;
-      if (ini.includes("Débord sprint suivant")) debord++;
-      if (ini.includes("Ajout en cours"))        ajout++;
+      if (ini.includes("Sprint initiale")) initiale++;
+      // Notion a renommé "Débord sprint suivant" en "Débord sprint" — on accepte les deux
+      if (ini.includes("Débord sprint") || ini.includes("Débord sprint suivant")) debord++;
+      if (ini.includes("Ajout en cours")) ajout++;
     });
     return { initiale, debord, ajout };
   }, [currentTickets]);

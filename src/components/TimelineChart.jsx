@@ -91,11 +91,11 @@ export function TimelineChart({ tickets, dateField = "dateCreation", title = "Vo
       <div style={{
         display: "flex", alignItems: "flex-end",
         gap: mode === "week" ? 4 : 10,
-        height: 160, paddingBottom: 28, position: "relative",
+        height: 220, paddingBottom: 28, position: "relative",
         overflowX: "auto",
       }}>
         {buckets.map(b => {
-          const h = (b.count / maxCount) * 130;
+          const h = (b.count / maxCount) * 170;
           const isCurrent = mode === "week"
             ? isoDateKey(startOfWeek(NOW)) === b.key
             : isoDateKey(startOfMonth(NOW)) === b.key;

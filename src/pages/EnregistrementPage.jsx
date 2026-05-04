@@ -1,9 +1,9 @@
 import { useState, useMemo } from 'react';
 import { Inbox, Layers, Package, Target, Sparkles } from 'lucide-react';
-import { C } from '../styles/theme';
+import { C, RADIUS } from '../styles/theme';
 import { SectionTitle } from '../components/primitives/SectionTitle';
+import { TrendBadge } from '../components/primitives/TrendBadge';
 import { MonthPicker } from '../components/MonthPicker';
-import { KpiCard } from '../components/KpiCard';
 import { BreakdownCard } from '../components/BreakdownCard';
 import { TimelineChart } from '../components/TimelineChart';
 import { TicketsTable } from '../components/TicketsTable';
@@ -74,37 +74,59 @@ export function EnregistrementPage({ data }) {
   const currentLabel  = monthLabelShort(selectedMonth);
   const previousLabel = monthLabelShort(previousMonth);
 
+  const currentCount  = currentTickets.length;
+  const previousCount = previousTickets.length;
+  const delta = previousCount === 0
+    ? (currentCount > 0 ? 100 : 0)
+    : Math.round(((currentCount - previousCount) / previousCount) * 100);
+  const sameValue = currentCount === previousCount;
+
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-      {/* En-tête + sélecteur */}
+      {/* En-tête + KPI compact + sélecteur */}
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 16, flexWrap: "wrap" }}>
         <SectionTitle
           overline="Tickets"
           icon={Inbox}
           sub="Enregistrement Notion · vue mensuelle (les blocs Volume et Tableau sont indépendants du sélecteur)"
         >Enregistrement</SectionTitle>
-        <MonthPicker selectedDate={selectedMonth} onChange={setSelectedMonth} />
+        <div style={{ display: "inline-flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
+          {/* KPI compact */}
+          <div
+            title={`Date de création · préc. ${previousCount}`}
+            style={{
+              display: "inline-flex", alignItems: "center", gap: 10,
+              padding: "8px 14px", borderRadius: RADIUS.md,
+              background: C.paper, border: `1px solid ${C.line}`,
+              fontFamily: "inherit",
+            }}
+          >
+            <Inbox size={14} color={C.inkSoft} strokeWidth={2.2} />
+            <span style={{
+              fontSize: 10, fontWeight: 700, letterSpacing: "0.07em",
+              textTransform: "uppercase", color: C.gray400,
+            }}>Enregistrés</span>
+            <span style={{
+              fontSize: 16, fontWeight: 700, color: C.ink,
+              letterSpacing: "-0.01em", fontVariantNumeric: "tabular-nums",
+            }}>{currentCount}</span>
+            {!sameValue && (
+              <TrendBadge delta={delta} suffix="%" invertColors={true} size="sm" />
+            )}
+          </div>
+          <MonthPicker selectedDate={selectedMonth} onChange={setSelectedMonth} />
+        </div>
       </div>
 
-      {/* Row 1 : KPI + Classification */}
-      <div style={{ display: "grid", gridTemplateColumns: "minmax(220px, 1fr) 2.2fr", gap: 16 }}>
-        <KpiCard
-          icon={Inbox}
-          label="Enregistrés"
-          sub="Date de création"
-          value={currentTickets.length}
-          previous={previousTickets.length}
-          invertTrend={true}
-        />
-        <BreakdownCard
-          title="Répartition par classification"
-          icon={Layers}
-          entries={classifEntries}
-          currentLabel={currentLabel}
-          previousLabel={previousLabel}
-          getColor={(label) => CLASSIF_COLORS[label] || C.inkSoft}
-        />
-      </div>
+      {/* Row 1 : Classification (pleine largeur) */}
+      <BreakdownCard
+        title="Répartition par classification"
+        icon={Layers}
+        entries={classifEntries}
+        currentLabel={currentLabel}
+        previousLabel={previousLabel}
+        getColor={(label) => CLASSIF_COLORS[label] || C.inkSoft}
+      />
 
       {/* Row 2 : Produit / Priorisation / Fonction */}
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 16 }}>

@@ -41,7 +41,7 @@ export function TicketsTable({ tickets, limit = 20, title = "20 derniers tickets
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12 }}>
           <thead>
             <tr style={{ background: C.gray50 }}>
-              {["Date", "ID", "Titre", "Classification", "Priorisation", "Statut"].map(h => (
+              {["Date", "ID", "Titre", "Classification", "Priorisation", "Produits", "Fonctions"].map(h => (
                 <th key={h} style={{
                   textAlign: "left", padding: "10px 16px",
                   fontSize: 11, letterSpacing: "0.06em", textTransform: "uppercase",
@@ -54,7 +54,7 @@ export function TicketsTable({ tickets, limit = 20, title = "20 derniers tickets
           <tbody>
             {rows.length === 0 && (
               <tr>
-                <td colSpan={6} style={{ padding: 32, textAlign: "center", color: C.inkDim }}>
+                <td colSpan={7} style={{ padding: 32, textAlign: "center", color: C.inkDim }}>
                   Aucun ticket
                 </td>
               </tr>
@@ -62,6 +62,7 @@ export function TicketsTable({ tickets, limit = 20, title = "20 derniers tickets
             {rows.map((t, i) => {
               const classifColor = CLASSIF_COLORS[t.classification] || C.inkSoft;
               const prioColor    = PRIO_COLORS[t.priorisation] || C.inkDim;
+              const produits     = Array.isArray(t.produits) ? t.produits : [];
               return (
                 <tr key={t.id || i} style={{
                   borderBottom: i === rows.length - 1 ? "none" : `1px solid ${C.gray100}`,
@@ -76,7 +77,7 @@ export function TicketsTable({ tickets, limit = 20, title = "20 derniers tickets
                   <td style={{ padding: "12px 16px", fontWeight: 700, color: C.inkSoft, whiteSpace: "nowrap" }}>
                     {t.identifiant || "—"}
                   </td>
-                  <td style={{ padding: "12px 16px", color: C.ink, maxWidth: 360, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }} title={t.titre}>
+                  <td style={{ padding: "12px 16px", color: C.ink, maxWidth: 320, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }} title={t.titre}>
                     {t.titre || "—"}
                   </td>
                   <td style={{ padding: "12px 16px" }}>
@@ -89,8 +90,17 @@ export function TicketsTable({ tickets, limit = 20, title = "20 derniers tickets
                       ? <Pill color={prioColor} size="sm">{t.priorisation}</Pill>
                       : <span style={{ color: C.inkMute }}>—</span>}
                   </td>
-                  <td style={{ padding: "12px 16px", color: C.inkSoft, whiteSpace: "nowrap" }}>
-                    {t.statut || "—"}
+                  <td style={{ padding: "12px 16px", color: C.inkSoft, fontSize: 12 }}>
+                    {produits.length === 0
+                      ? <span style={{ color: C.inkMute }}>—</span>
+                      : <span title={produits.join(", ")} style={{
+                          display: "inline-block", maxWidth: 200,
+                          overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
+                          verticalAlign: "middle",
+                        }}>{produits.join(", ")}</span>}
+                  </td>
+                  <td style={{ padding: "12px 16px", color: C.inkSoft, fontSize: 12, whiteSpace: "nowrap" }}>
+                    {t.fonctions || <span style={{ color: C.inkMute }}>—</span>}
                   </td>
                 </tr>
               );
