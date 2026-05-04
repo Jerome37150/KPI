@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T13:57:55.595Z",
+  "generatedAt": "2026-05-04T15:20:06.308Z",
   "classique": [
     {
       "id": "30b8db15-623a-8035-8f33-c1b911f3340e",
@@ -1485,7 +1485,7 @@
       "titre": "GRAFANA WEB] Synchro_recupV2 : Résas partenaires en erreur",
       "classification": "STACK TECH",
       "statut": "Sprint en cours",
-      "priorisation": null,
+      "priorisation": "Pas urgente",
       "sprintIdeal": [
         "MAI 26"
       ],
@@ -2879,7 +2879,7 @@
       "titre": "[WEB+LOGICIEL] Check-In Scan partie 1 :  Mapping + envoi Naxi.G vers CiS",
       "classification": "DEV sans CC",
       "statut": "FAIT",
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26",
         "MAI 26"
@@ -2919,7 +2919,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA77.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46627RJU44M%2F20260504%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260504T135753Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCdzPh4pRG7bOUr52b%2BDYpbiCLlG6opOJOIeF5e0DnZwQIhAIj%2Fo3YIL4ziZPsw%2BnELF%2FHh0zUIoQnIIzMcw5p2lTgYKv8DCG4QABoMNjM3NDIzMTgzODA1IgyFA9gv%2F%2FAhI0ynZPoq3AOV64w9bTG2pOeVvnrTxrq2Os%2FMAzjVo84HlRGnABRlwNm4e8kWuY1kJQb%2B6Zp4rrj4a7pstEBH9VW%2BJDB%2Bmp5FK4prgDzNHm6DgDHY2DEcmfZZx1x8GQHhbt6Zms08%2FQTU%2B5D7CtLBbs0mc4JOZzBwBR89rkS4EMSfv3MbQWuRR%2FgeCmWu0H5CcwdnWQJXQDJU2pKaRpW37eMvk%2FNzlw8BCOoghm0uk00e7ux4qYS3Eg7uMBxtLxjx%2FtcaK69pUw4GGBIES5LVqvucpEnuXXccx2adkcnoO7VKxvEJT57WFWFA%2B81WHSIwI%2BM4Gd%2FcV1qUfk1rOVYN4MBNOPyXQzfTbDf0yeoemASgWoz1Bc6xg%2F9rCdE3qISsbEiIPOWqDMNEkgC44XYMCxSFlyFgLM%2BylpgkBUBGU8KI4MOHWXBLSOxTs4VGjRmZcteV2VnHB1JaTEnlsovFVipKXqGMgp8sLdghjAnuCxnRzGyoitZCoQ12%2BU2vRBNnRZvorHrHeMX1aeyP7dBqcXdMm5bQhZvQ%2ByeF1%2BQPte1FAdPoYcJU3JOcHNcX0zyhh2E8Ll7e4zYSvg0rOAY3NUe2uXcSKQNGGAnqHD7HAe0UorHpT7ufM1XM36D4fxMD1TELfjCltuLPBjqkAWimFBMgsUZCwZc8nR0dZy6HqnX4UpheLjwYMja0YsN%2BibHLvI4QsXymKuCSDGV50IKwN9EXjTMQOCCHkGhqAJ1XHmQxv1AJKp3zzt6ctebc3YXLqqYPPYgc8mkfu4oKFzVMv6EzLhSTBnuy853xejvTrR7Q6co2rZIwrxQAOQU%2B%2FND39mh40l7MVQMdmc8iYdm3gp1r%2FAXndCzqgexfUXNr30ZD&X-Amz-Signature=2bfc3114a5bb566363ee527a189a443a58a5ce4837e074f377505f3a0ccad3cf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RB5Y5P4U%2F20260504%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260504T152004Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBP8JXKgQbMuFGENb2vaTVlsE9kHV2cM0oyxv2tHSoaxAiBg%2FyTOOM1aKVcn2zcq%2BSOkMm6vvRzQpr%2FFJuQ0cgBiuCr%2FAwhwEAAaDDYzNzQyMzE4MzgwNSIMoj2FH%2FEvrs3rWvK%2BKtwDVglR%2BwAEpTpFP7YHh7xiS1K8GqTMzM5YtdAo4gE6G27ejgDSA0vVOcKpbUr0Ze%2BPwkfBlXL6o92Cv0ut1ngraUxrbg5bMcNlN%2F0MqFI2wMPM7hNb42pkUKi3TvMOw21tBt9N7XghSDoxYBaKH7OzLVn4iJSTh%2FrHRw6lCAF4hhkvN1OkODqw4LU75By6DE2fTZ5GjhFbaut6G6s42xzgCEvMdFPx4o7DAA3u5iEL%2FxF4swNvpoj2Fyn9zuV1stPjfD0ssPRN%2Fe6mWUl3W7HfikizWoKDyZlZ6zNxS7KULDRHzUZuzq3ofXM4o5t1zfH5G5Ua8sYZCV06SRQ5DWiM7yt5lr2CtL4ZN4GPXZ1N%2Fd2iIEvtZiwTOypELfT%2BHlWXz%2BqFf%2FCUhwGxtUfuZn9kk0UKbCFpc%2B15mogILm%2FSEBlbL9Y092SG5uU7f9cBrCwUl6G0gED%2FtqCHn%2BR7AeV45gsybSs0Q5rvPpPPLvS1pTuKTRhrm88KVIiClSXlUpW%2BO%2BrjLs5T%2FGeGs%2FMfM6pfuyVW3u4DXF4bZ9x5cGvP6rIFO2oWwKJiI%2F2skDZg7mCGjtVFlF5QgaCUElU4fUXkUS1YwHBin7r%2BbXQ5UguhwczxIo1nT%2BQ0hI4Xdh8wpt3izwY6pgHjpWw6i6Ba4AxApt%2FKO5MKmMl%2FKzOSmGS%2FkF3hPNh6Bq1VccVWipC2uyJFX4%2B5gfjYft%2FGGLa6MosZHIoexae%2F%2FA%2BGaEI5iyEBQkMCxzgktRFxYtl2fS9z2Mco4CfjvHLfd7QQCFPc2zIbi9k%2FAp%2F1zBcdaAmQbBijuINWg2GRFQuEYTme0FfnX9%2FW5J6cDggE9qjA66DL95C7phkFOGfsmLAlMEmq&X-Amz-Signature=446a2a02b1c52d97ba0c20a996b4a606097c793f6b6d16e2df7019784fe9d18b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/WEB-LOGICIEL-Check-In-Scan-partie-1-Mapping-envoi-Naxi-G-vers-CiS-3118db15623a81c78ca4f07fb87f2047"
     },
@@ -4514,7 +4514,7 @@
       "titre": "[WEB+LOGICIEL] Mise en place facturaction electronique (Pennylane)",
       "classification": "DEV avec CC",
       "statut": "Sprint en cours",
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
       ],
@@ -5152,7 +5152,7 @@
       "titre": "[LOGICIEL] Facturation : montant à régler erroné si paiement saisi via la fenêtre de paiement avant facturation",
       "classification": "BUG OPERATIONNEL",
       "statut": "Sprint en cours",
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
       ],
@@ -5389,7 +5389,7 @@
       "titre": "[LOGICIEL] Erreur remontée historique NAXICOD (voir LOG pour analyse)",
       "classification": "BUG STRUCTURANT",
       "statut": "Sprint en cours",
-      "priorisation": null,
+      "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
       ],
@@ -6473,7 +6473,7 @@
       "titre": "[LOGICIEL]  Synchro: problème d'affichage doublon d'exercice",
       "classification": "BUG OPERATIONNEL",
       "statut": "Sprint en cours",
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
       ],
@@ -6514,7 +6514,7 @@
       "titre": "[WEB+LOGICIEL] Check-In Scan partie 2 : Envoi CiS vers Naxi.G",
       "classification": "DEV sans CC",
       "statut": "En cours",
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26",
         "MAI 26"
@@ -7732,7 +7732,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-160.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SIYFN3CK%2F20260504%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260504T135754Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZCTo0lu%2B8q59F0EeskWDa%2BXScwaCM%2BdKGh6mRFy%2B6lAiEAmZ5JSjAlUYJkeOC7Ck7ATakMP1f3HkzvFHtmtFcTc%2Fgq%2FwMIbhAAGgw2Mzc0MjMxODM4MDUiDOkwZ7PqB%2FrlDB0Z8yrcAyNqOSk4ZrHfEwK6C85cjD%2Bln2MTHK6IpBgnefislY%2BVG6n4pQLogHcCSEyu9kTkZ2wTYpS%2BALCGFd5djw3tEdSPy%2BHacs4q2x%2F%2Bx8mhpYqKfcScBhU2hPRGJNIHMFkjNj6apbyYglSKo4FObn3ksNBkkYLBs1yriv1rz78q8%2BzZhJFGoo3lJN574l7mM6GRFm3SJxp3bprAoYMuvRyzTWJZ%2FnyZYyZNWae2DdGb70GG%2FVjKDAcf3hfXy6jCpj%2F3yGb%2BTBEPFHWj4SCWpv2nbMlSjTSCcFfQ1IGPeuY%2FnmnQvxCdJGxgMmjmtwMY%2FwaHnndn5tQIB3mfrVhWI5A%2BVlDpAegXXh2%2FrahQCqYb6kklIvrvJKe6HW92e70i0lg3ldQlqJxCp%2FQlByuWizaSwWdmGP7BHrQBpHzQ6k4I70CZVpcx7%2FYmGsIIAZ3fA63QkNNgZrp1odIPxfovjue4QPxvwY6y3FzuPqvobS9eVmOGHPRq0ATDy%2ByqZM4lvBAXJCYfiuiP1qAFI%2FaYYXqXPcNQVkPshSTkrWMdHkTkFISl1cN9%2FH%2FX8OpLfZQTMF0Iyaf0tMRY1P3jORbJ50pmCU5wlD2NxB9jMuNeSzoVdOb1GcJ4BhzRlnGJff8BMM224s8GOqUBtNR8x8Ry%2BjgecDk2NSoyLtfJfl7bPN00LRFqmVSQ9olebm37xlsGZHHQEfvnRajQFx1OTOn%2FpU%2FVaViNdYmY334h8CCi9IeZi1mnr9Lb%2BxTxSuAcyWR4rI%2FDCkbu7bNd%2FajMD40aoy4nrJFywOJffpnYl6QNgyo1EKbdJYHW32QHkLBjvxOsB9yMssILFT3yudth85BIrQumEelq1Gsqwu1lFaZ3&X-Amz-Signature=7f23ef8b78ea42a847f0cb0a17367ad9a56b158d95d4d359fd8b653af429f9be&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YUKC67B7%2F20260504%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260504T152005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCa0DpcNX%2BkXZZzz%2BMkr%2BUiSROT%2FeOiO1w%2FOnm5tYWxCwIhAKerzIOSm%2Bar7%2FMo2iJTM0g2kXYx29YonmQkOk59FIfkKv8DCHAQABoMNjM3NDIzMTgzODA1IgwQMrhZ9BA6C1CNVTcq3ANmfgZkWEhF86minIi3o3O8TYrg%2B5yWrI2VjrY1kQdHbAE7NRNGGv41nm%2B8y3U%2BMvcaymPgNHFjN4zaEgMKYdwLNQs0hRbudEli9TRbzqMlrgw%2F4WIfsSTFs4biLCPQAQGPE7XjqtzZOy8XDevvFceesXrTTIn2IxicJtqVklwFerwXWLsFfyYiMCTg3ec6xntM%2Fs6Rks4NJTivUGfJoD3pbaECzw8NVsSviRB7DYIr4kRZmfjFBwaLMecBecBnA3EoKHxPQZscoQ2P56TDyAlBLEfEDYNMyUZDc3o6DitYvRaB%2FhEail2ofXTMqRkcNuhgNXRWqB0SDm%2B6%2Bi7WUJWEBqZALvYflbOyRqs4XuLwK4dW0XXSUDiMbq3vlWwVtsBiovC2aJGRjwqR6UE5gxWywaO3zBiiUwmcwn11sE%2BKEdzDPJCi2aQX8zmQMlo5Z%2F%2F12l8Xx6%2B%2FaF28K1D0xLJM2bwQosxaBPj8yPAoqGOkv0KX0sE50jZxVsMcFA7%2FOARzg3GrqSr4kSeVcwnGag6uc7%2FLyFoNG9FSxhyLSsHDiQoipscxrA2nHZ6ff2MRotXpzBDrBO%2Bqor8i%2BklDM2GhgmV91Gett5K0q2Tqoc6VVm5UfjxOjoJWNzd4SDD%2B3eLPBjqkAemvHEU2fXCSC%2Bkiomu%2BFG4URIEFMZ%2BpAl6V8zwIhQVK9a1Ue9Vkf7cXaiVjoNc6DRaVcX5zsWSfVbA1BIA8J%2BHQVTi%2FAcszBHwv1cgYyCYPbHrMwTYdabCQ8z511mSGm55UgxUUUkYvR6j6LMDd%2F8VWMfTo0xMPAC0Jz0%2BjzHqU%2FW2d5Z8SzhFwLLvHHX8YnA3hSXXVzeLxIhxAiypJ0sl1z5Af&X-Amz-Signature=3f45f100581b71468451ff50b30126acf4df97ffefcb5d62f45501598e5d45a1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Apparition-d-un-message-sur-le-traitement-des-r-sas-issues-de-l-espace-client-31e8db15623a806896d5f5a1ed131200"
     },
@@ -7835,7 +7835,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "synthese_espaceclient (1).xlsx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SIYFN3CK%2F20260504%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260504T135754Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZCTo0lu%2B8q59F0EeskWDa%2BXScwaCM%2BdKGh6mRFy%2B6lAiEAmZ5JSjAlUYJkeOC7Ck7ATakMP1f3HkzvFHtmtFcTc%2Fgq%2FwMIbhAAGgw2Mzc0MjMxODM4MDUiDOkwZ7PqB%2FrlDB0Z8yrcAyNqOSk4ZrHfEwK6C85cjD%2Bln2MTHK6IpBgnefislY%2BVG6n4pQLogHcCSEyu9kTkZ2wTYpS%2BALCGFd5djw3tEdSPy%2BHacs4q2x%2F%2Bx8mhpYqKfcScBhU2hPRGJNIHMFkjNj6apbyYglSKo4FObn3ksNBkkYLBs1yriv1rz78q8%2BzZhJFGoo3lJN574l7mM6GRFm3SJxp3bprAoYMuvRyzTWJZ%2FnyZYyZNWae2DdGb70GG%2FVjKDAcf3hfXy6jCpj%2F3yGb%2BTBEPFHWj4SCWpv2nbMlSjTSCcFfQ1IGPeuY%2FnmnQvxCdJGxgMmjmtwMY%2FwaHnndn5tQIB3mfrVhWI5A%2BVlDpAegXXh2%2FrahQCqYb6kklIvrvJKe6HW92e70i0lg3ldQlqJxCp%2FQlByuWizaSwWdmGP7BHrQBpHzQ6k4I70CZVpcx7%2FYmGsIIAZ3fA63QkNNgZrp1odIPxfovjue4QPxvwY6y3FzuPqvobS9eVmOGHPRq0ATDy%2ByqZM4lvBAXJCYfiuiP1qAFI%2FaYYXqXPcNQVkPshSTkrWMdHkTkFISl1cN9%2FH%2FX8OpLfZQTMF0Iyaf0tMRY1P3jORbJ50pmCU5wlD2NxB9jMuNeSzoVdOb1GcJ4BhzRlnGJff8BMM224s8GOqUBtNR8x8Ry%2BjgecDk2NSoyLtfJfl7bPN00LRFqmVSQ9olebm37xlsGZHHQEfvnRajQFx1OTOn%2FpU%2FVaViNdYmY334h8CCi9IeZi1mnr9Lb%2BxTxSuAcyWR4rI%2FDCkbu7bNd%2FajMD40aoy4nrJFywOJffpnYl6QNgyo1EKbdJYHW32QHkLBjvxOsB9yMssILFT3yudth85BIrQumEelq1Gsqwu1lFaZ3&X-Amz-Signature=7cee29d3ccf0f59d3ab05b09d7890b0a9050a3ef92518688ef9db8c44dc67d45&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YUKC67B7%2F20260504%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260504T152005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCa0DpcNX%2BkXZZzz%2BMkr%2BUiSROT%2FeOiO1w%2FOnm5tYWxCwIhAKerzIOSm%2Bar7%2FMo2iJTM0g2kXYx29YonmQkOk59FIfkKv8DCHAQABoMNjM3NDIzMTgzODA1IgwQMrhZ9BA6C1CNVTcq3ANmfgZkWEhF86minIi3o3O8TYrg%2B5yWrI2VjrY1kQdHbAE7NRNGGv41nm%2B8y3U%2BMvcaymPgNHFjN4zaEgMKYdwLNQs0hRbudEli9TRbzqMlrgw%2F4WIfsSTFs4biLCPQAQGPE7XjqtzZOy8XDevvFceesXrTTIn2IxicJtqVklwFerwXWLsFfyYiMCTg3ec6xntM%2Fs6Rks4NJTivUGfJoD3pbaECzw8NVsSviRB7DYIr4kRZmfjFBwaLMecBecBnA3EoKHxPQZscoQ2P56TDyAlBLEfEDYNMyUZDc3o6DitYvRaB%2FhEail2ofXTMqRkcNuhgNXRWqB0SDm%2B6%2Bi7WUJWEBqZALvYflbOyRqs4XuLwK4dW0XXSUDiMbq3vlWwVtsBiovC2aJGRjwqR6UE5gxWywaO3zBiiUwmcwn11sE%2BKEdzDPJCi2aQX8zmQMlo5Z%2F%2F12l8Xx6%2B%2FaF28K1D0xLJM2bwQosxaBPj8yPAoqGOkv0KX0sE50jZxVsMcFA7%2FOARzg3GrqSr4kSeVcwnGag6uc7%2FLyFoNG9FSxhyLSsHDiQoipscxrA2nHZ6ff2MRotXpzBDrBO%2Bqor8i%2BklDM2GhgmV91Gett5K0q2Tqoc6VVm5UfjxOjoJWNzd4SDD%2B3eLPBjqkAemvHEU2fXCSC%2Bkiomu%2BFG4URIEFMZ%2BpAl6V8zwIhQVK9a1Ue9Vkf7cXaiVjoNc6DRaVcX5zsWSfVbA1BIA8J%2BHQVTi%2FAcszBHwv1cgYyCYPbHrMwTYdabCQ8z511mSGm55UgxUUUkYvR6j6LMDd%2F8VWMfTo0xMPAC0Jz0%2BjzHqU%2FW2d5Z8SzhFwLLvHHX8YnA3hSXXVzeLxIhxAiypJ0sl1z5Af&X-Amz-Signature=0f7e8604e09f0b2f78b743308574746e179f2e7dfa780bb8e33c4e97cc82c7fe&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-G-rer-l-arr-t-de-l-espace-client-V1-31a8db15623a800d915eea7ee689e4da"
     },
@@ -8019,7 +8019,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-148.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SIYFN3CK%2F20260504%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260504T135754Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZCTo0lu%2B8q59F0EeskWDa%2BXScwaCM%2BdKGh6mRFy%2B6lAiEAmZ5JSjAlUYJkeOC7Ck7ATakMP1f3HkzvFHtmtFcTc%2Fgq%2FwMIbhAAGgw2Mzc0MjMxODM4MDUiDOkwZ7PqB%2FrlDB0Z8yrcAyNqOSk4ZrHfEwK6C85cjD%2Bln2MTHK6IpBgnefislY%2BVG6n4pQLogHcCSEyu9kTkZ2wTYpS%2BALCGFd5djw3tEdSPy%2BHacs4q2x%2F%2Bx8mhpYqKfcScBhU2hPRGJNIHMFkjNj6apbyYglSKo4FObn3ksNBkkYLBs1yriv1rz78q8%2BzZhJFGoo3lJN574l7mM6GRFm3SJxp3bprAoYMuvRyzTWJZ%2FnyZYyZNWae2DdGb70GG%2FVjKDAcf3hfXy6jCpj%2F3yGb%2BTBEPFHWj4SCWpv2nbMlSjTSCcFfQ1IGPeuY%2FnmnQvxCdJGxgMmjmtwMY%2FwaHnndn5tQIB3mfrVhWI5A%2BVlDpAegXXh2%2FrahQCqYb6kklIvrvJKe6HW92e70i0lg3ldQlqJxCp%2FQlByuWizaSwWdmGP7BHrQBpHzQ6k4I70CZVpcx7%2FYmGsIIAZ3fA63QkNNgZrp1odIPxfovjue4QPxvwY6y3FzuPqvobS9eVmOGHPRq0ATDy%2ByqZM4lvBAXJCYfiuiP1qAFI%2FaYYXqXPcNQVkPshSTkrWMdHkTkFISl1cN9%2FH%2FX8OpLfZQTMF0Iyaf0tMRY1P3jORbJ50pmCU5wlD2NxB9jMuNeSzoVdOb1GcJ4BhzRlnGJff8BMM224s8GOqUBtNR8x8Ry%2BjgecDk2NSoyLtfJfl7bPN00LRFqmVSQ9olebm37xlsGZHHQEfvnRajQFx1OTOn%2FpU%2FVaViNdYmY334h8CCi9IeZi1mnr9Lb%2BxTxSuAcyWR4rI%2FDCkbu7bNd%2FajMD40aoy4nrJFywOJffpnYl6QNgyo1EKbdJYHW32QHkLBjvxOsB9yMssILFT3yudth85BIrQumEelq1Gsqwu1lFaZ3&X-Amz-Signature=9aed976d40bb780e62ae41d1da296fe10287e97a41d9dc518d6d53de599644c3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YUKC67B7%2F20260504%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260504T152005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCa0DpcNX%2BkXZZzz%2BMkr%2BUiSROT%2FeOiO1w%2FOnm5tYWxCwIhAKerzIOSm%2Bar7%2FMo2iJTM0g2kXYx29YonmQkOk59FIfkKv8DCHAQABoMNjM3NDIzMTgzODA1IgwQMrhZ9BA6C1CNVTcq3ANmfgZkWEhF86minIi3o3O8TYrg%2B5yWrI2VjrY1kQdHbAE7NRNGGv41nm%2B8y3U%2BMvcaymPgNHFjN4zaEgMKYdwLNQs0hRbudEli9TRbzqMlrgw%2F4WIfsSTFs4biLCPQAQGPE7XjqtzZOy8XDevvFceesXrTTIn2IxicJtqVklwFerwXWLsFfyYiMCTg3ec6xntM%2Fs6Rks4NJTivUGfJoD3pbaECzw8NVsSviRB7DYIr4kRZmfjFBwaLMecBecBnA3EoKHxPQZscoQ2P56TDyAlBLEfEDYNMyUZDc3o6DitYvRaB%2FhEail2ofXTMqRkcNuhgNXRWqB0SDm%2B6%2Bi7WUJWEBqZALvYflbOyRqs4XuLwK4dW0XXSUDiMbq3vlWwVtsBiovC2aJGRjwqR6UE5gxWywaO3zBiiUwmcwn11sE%2BKEdzDPJCi2aQX8zmQMlo5Z%2F%2F12l8Xx6%2B%2FaF28K1D0xLJM2bwQosxaBPj8yPAoqGOkv0KX0sE50jZxVsMcFA7%2FOARzg3GrqSr4kSeVcwnGag6uc7%2FLyFoNG9FSxhyLSsHDiQoipscxrA2nHZ6ff2MRotXpzBDrBO%2Bqor8i%2BklDM2GhgmV91Gett5K0q2Tqoc6VVm5UfjxOjoJWNzd4SDD%2B3eLPBjqkAemvHEU2fXCSC%2Bkiomu%2BFG4URIEFMZ%2BpAl6V8zwIhQVK9a1Ue9Vkf7cXaiVjoNc6DRaVcX5zsWSfVbA1BIA8J%2BHQVTi%2FAcszBHwv1cgYyCYPbHrMwTYdabCQ8z511mSGm55UgxUUUkYvR6j6LMDd%2F8VWMfTo0xMPAC0Jz0%2BjzHqU%2FW2d5Z8SzhFwLLvHHX8YnA3hSXXVzeLxIhxAiypJ0sl1z5Af&X-Amz-Signature=e55a3e50c3ba2e46ad033352a276c6da9bf098332008bca7d367a2735cf9aa39&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/REDSYS-Non-fonctionnel-suite-mise-en-place-3178db15623a80458d0de93a71d0564f"
     },
@@ -8054,7 +8054,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-147.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SIYFN3CK%2F20260504%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260504T135754Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZCTo0lu%2B8q59F0EeskWDa%2BXScwaCM%2BdKGh6mRFy%2B6lAiEAmZ5JSjAlUYJkeOC7Ck7ATakMP1f3HkzvFHtmtFcTc%2Fgq%2FwMIbhAAGgw2Mzc0MjMxODM4MDUiDOkwZ7PqB%2FrlDB0Z8yrcAyNqOSk4ZrHfEwK6C85cjD%2Bln2MTHK6IpBgnefislY%2BVG6n4pQLogHcCSEyu9kTkZ2wTYpS%2BALCGFd5djw3tEdSPy%2BHacs4q2x%2F%2Bx8mhpYqKfcScBhU2hPRGJNIHMFkjNj6apbyYglSKo4FObn3ksNBkkYLBs1yriv1rz78q8%2BzZhJFGoo3lJN574l7mM6GRFm3SJxp3bprAoYMuvRyzTWJZ%2FnyZYyZNWae2DdGb70GG%2FVjKDAcf3hfXy6jCpj%2F3yGb%2BTBEPFHWj4SCWpv2nbMlSjTSCcFfQ1IGPeuY%2FnmnQvxCdJGxgMmjmtwMY%2FwaHnndn5tQIB3mfrVhWI5A%2BVlDpAegXXh2%2FrahQCqYb6kklIvrvJKe6HW92e70i0lg3ldQlqJxCp%2FQlByuWizaSwWdmGP7BHrQBpHzQ6k4I70CZVpcx7%2FYmGsIIAZ3fA63QkNNgZrp1odIPxfovjue4QPxvwY6y3FzuPqvobS9eVmOGHPRq0ATDy%2ByqZM4lvBAXJCYfiuiP1qAFI%2FaYYXqXPcNQVkPshSTkrWMdHkTkFISl1cN9%2FH%2FX8OpLfZQTMF0Iyaf0tMRY1P3jORbJ50pmCU5wlD2NxB9jMuNeSzoVdOb1GcJ4BhzRlnGJff8BMM224s8GOqUBtNR8x8Ry%2BjgecDk2NSoyLtfJfl7bPN00LRFqmVSQ9olebm37xlsGZHHQEfvnRajQFx1OTOn%2FpU%2FVaViNdYmY334h8CCi9IeZi1mnr9Lb%2BxTxSuAcyWR4rI%2FDCkbu7bNd%2FajMD40aoy4nrJFywOJffpnYl6QNgyo1EKbdJYHW32QHkLBjvxOsB9yMssILFT3yudth85BIrQumEelq1Gsqwu1lFaZ3&X-Amz-Signature=be42b5a0c8398bf7e7e4b0234f4936af48478408fdabe0526731036b70bea4e6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YUKC67B7%2F20260504%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260504T152005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCa0DpcNX%2BkXZZzz%2BMkr%2BUiSROT%2FeOiO1w%2FOnm5tYWxCwIhAKerzIOSm%2Bar7%2FMo2iJTM0g2kXYx29YonmQkOk59FIfkKv8DCHAQABoMNjM3NDIzMTgzODA1IgwQMrhZ9BA6C1CNVTcq3ANmfgZkWEhF86minIi3o3O8TYrg%2B5yWrI2VjrY1kQdHbAE7NRNGGv41nm%2B8y3U%2BMvcaymPgNHFjN4zaEgMKYdwLNQs0hRbudEli9TRbzqMlrgw%2F4WIfsSTFs4biLCPQAQGPE7XjqtzZOy8XDevvFceesXrTTIn2IxicJtqVklwFerwXWLsFfyYiMCTg3ec6xntM%2Fs6Rks4NJTivUGfJoD3pbaECzw8NVsSviRB7DYIr4kRZmfjFBwaLMecBecBnA3EoKHxPQZscoQ2P56TDyAlBLEfEDYNMyUZDc3o6DitYvRaB%2FhEail2ofXTMqRkcNuhgNXRWqB0SDm%2B6%2Bi7WUJWEBqZALvYflbOyRqs4XuLwK4dW0XXSUDiMbq3vlWwVtsBiovC2aJGRjwqR6UE5gxWywaO3zBiiUwmcwn11sE%2BKEdzDPJCi2aQX8zmQMlo5Z%2F%2F12l8Xx6%2B%2FaF28K1D0xLJM2bwQosxaBPj8yPAoqGOkv0KX0sE50jZxVsMcFA7%2FOARzg3GrqSr4kSeVcwnGag6uc7%2FLyFoNG9FSxhyLSsHDiQoipscxrA2nHZ6ff2MRotXpzBDrBO%2Bqor8i%2BklDM2GhgmV91Gett5K0q2Tqoc6VVm5UfjxOjoJWNzd4SDD%2B3eLPBjqkAemvHEU2fXCSC%2Bkiomu%2BFG4URIEFMZ%2BpAl6V8zwIhQVK9a1Ue9Vkf7cXaiVjoNc6DRaVcX5zsWSfVbA1BIA8J%2BHQVTi%2FAcszBHwv1cgYyCYPbHrMwTYdabCQ8z511mSGm55UgxUUUkYvR6j6LMDd%2F8VWMfTo0xMPAC0Jz0%2BjzHqU%2FW2d5Z8SzhFwLLvHHX8YnA3hSXXVzeLxIhxAiypJ0sl1z5Af&X-Amz-Signature=6c25c269614d707a9671ecbdacb19ad03ed8096b4066484c65e9493a3b6e2158&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-CRM-Le-montant-des-suppl-ments-envoy-s-est-faux-lorsque-le-suppl-ment-est-en-prix-mo-3178db15623a8017a10ff4b9821287fa"
     },
@@ -8132,7 +8132,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-145.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SIYFN3CK%2F20260504%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260504T135754Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZCTo0lu%2B8q59F0EeskWDa%2BXScwaCM%2BdKGh6mRFy%2B6lAiEAmZ5JSjAlUYJkeOC7Ck7ATakMP1f3HkzvFHtmtFcTc%2Fgq%2FwMIbhAAGgw2Mzc0MjMxODM4MDUiDOkwZ7PqB%2FrlDB0Z8yrcAyNqOSk4ZrHfEwK6C85cjD%2Bln2MTHK6IpBgnefislY%2BVG6n4pQLogHcCSEyu9kTkZ2wTYpS%2BALCGFd5djw3tEdSPy%2BHacs4q2x%2F%2Bx8mhpYqKfcScBhU2hPRGJNIHMFkjNj6apbyYglSKo4FObn3ksNBkkYLBs1yriv1rz78q8%2BzZhJFGoo3lJN574l7mM6GRFm3SJxp3bprAoYMuvRyzTWJZ%2FnyZYyZNWae2DdGb70GG%2FVjKDAcf3hfXy6jCpj%2F3yGb%2BTBEPFHWj4SCWpv2nbMlSjTSCcFfQ1IGPeuY%2FnmnQvxCdJGxgMmjmtwMY%2FwaHnndn5tQIB3mfrVhWI5A%2BVlDpAegXXh2%2FrahQCqYb6kklIvrvJKe6HW92e70i0lg3ldQlqJxCp%2FQlByuWizaSwWdmGP7BHrQBpHzQ6k4I70CZVpcx7%2FYmGsIIAZ3fA63QkNNgZrp1odIPxfovjue4QPxvwY6y3FzuPqvobS9eVmOGHPRq0ATDy%2ByqZM4lvBAXJCYfiuiP1qAFI%2FaYYXqXPcNQVkPshSTkrWMdHkTkFISl1cN9%2FH%2FX8OpLfZQTMF0Iyaf0tMRY1P3jORbJ50pmCU5wlD2NxB9jMuNeSzoVdOb1GcJ4BhzRlnGJff8BMM224s8GOqUBtNR8x8Ry%2BjgecDk2NSoyLtfJfl7bPN00LRFqmVSQ9olebm37xlsGZHHQEfvnRajQFx1OTOn%2FpU%2FVaViNdYmY334h8CCi9IeZi1mnr9Lb%2BxTxSuAcyWR4rI%2FDCkbu7bNd%2FajMD40aoy4nrJFywOJffpnYl6QNgyo1EKbdJYHW32QHkLBjvxOsB9yMssILFT3yudth85BIrQumEelq1Gsqwu1lFaZ3&X-Amz-Signature=b70d7c51c4205c5854f7331400330d58812ea21c89408f6610e4f1a28fd005f0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YUKC67B7%2F20260504%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260504T152005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCa0DpcNX%2BkXZZzz%2BMkr%2BUiSROT%2FeOiO1w%2FOnm5tYWxCwIhAKerzIOSm%2Bar7%2FMo2iJTM0g2kXYx29YonmQkOk59FIfkKv8DCHAQABoMNjM3NDIzMTgzODA1IgwQMrhZ9BA6C1CNVTcq3ANmfgZkWEhF86minIi3o3O8TYrg%2B5yWrI2VjrY1kQdHbAE7NRNGGv41nm%2B8y3U%2BMvcaymPgNHFjN4zaEgMKYdwLNQs0hRbudEli9TRbzqMlrgw%2F4WIfsSTFs4biLCPQAQGPE7XjqtzZOy8XDevvFceesXrTTIn2IxicJtqVklwFerwXWLsFfyYiMCTg3ec6xntM%2Fs6Rks4NJTivUGfJoD3pbaECzw8NVsSviRB7DYIr4kRZmfjFBwaLMecBecBnA3EoKHxPQZscoQ2P56TDyAlBLEfEDYNMyUZDc3o6DitYvRaB%2FhEail2ofXTMqRkcNuhgNXRWqB0SDm%2B6%2Bi7WUJWEBqZALvYflbOyRqs4XuLwK4dW0XXSUDiMbq3vlWwVtsBiovC2aJGRjwqR6UE5gxWywaO3zBiiUwmcwn11sE%2BKEdzDPJCi2aQX8zmQMlo5Z%2F%2F12l8Xx6%2B%2FaF28K1D0xLJM2bwQosxaBPj8yPAoqGOkv0KX0sE50jZxVsMcFA7%2FOARzg3GrqSr4kSeVcwnGag6uc7%2FLyFoNG9FSxhyLSsHDiQoipscxrA2nHZ6ff2MRotXpzBDrBO%2Bqor8i%2BklDM2GhgmV91Gett5K0q2Tqoc6VVm5UfjxOjoJWNzd4SDD%2B3eLPBjqkAemvHEU2fXCSC%2Bkiomu%2BFG4URIEFMZ%2BpAl6V8zwIhQVK9a1Ue9Vkf7cXaiVjoNc6DRaVcX5zsWSfVbA1BIA8J%2BHQVTi%2FAcszBHwv1cgYyCYPbHrMwTYdabCQ8z511mSGm55UgxUUUkYvR6j6LMDd%2F8VWMfTo0xMPAC0Jz0%2BjzHqU%2FW2d5Z8SzhFwLLvHHX8YnA3hSXXVzeLxIhxAiypJ0sl1z5Af&X-Amz-Signature=6dcdd8c27bb6db07d58b84dfdc32951f2c805123b1df83978fb34636094fb9b3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Erreur-de-saisie-sur-les-remises-manuelle-g-n-rant-un-montant-de-s-jour-faux-3178db15623a8079a34be124df5b756a"
     },
@@ -8505,7 +8505,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 8,
         "back": 4,
         "front": 1.5,
         "design": 2,
@@ -8555,7 +8555,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 2,
         "back": 2,
         "front": 2,
         "design": 3,
@@ -8605,7 +8605,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 8,
         "back": 8,
         "front": 15,
         "design": 0,
@@ -8655,7 +8655,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 9,
         "back": 3,
         "front": 17,
         "design": 0,
@@ -8705,7 +8705,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 7,
         "back": 7,
         "front": 15,
         "design": 0,
@@ -8755,7 +8755,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 11,
         "back": 4,
         "front": 6,
         "design": 2,
@@ -8851,7 +8851,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 5,
         "back": 6,
         "front": 20,
         "design": 0,
@@ -8901,7 +8901,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 5,
         "back": 4,
         "front": 5,
         "design": 0,
@@ -8951,7 +8951,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 6,
         "back": 3,
         "front": 3,
         "design": 0,
@@ -9001,7 +9001,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 5,
         "back": 4,
         "front": 4.5,
         "design": 0,
@@ -9051,7 +9051,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 4,
         "back": 5,
         "front": 2.5,
         "design": 0,
@@ -9101,7 +9101,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 6,
         "back": 0,
         "front": 2,
         "design": 0,
@@ -9151,7 +9151,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 7,
         "back": 13,
         "front": 2,
         "design": 0,
@@ -9201,7 +9201,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 9,
         "back": 5,
         "front": 0,
         "design": 0,
@@ -9251,7 +9251,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 9,
         "back": 0,
         "front": 0,
         "design": 0,
@@ -11059,7 +11059,7 @@
     {
       "id": "TP-82",
       "nom": "détails des transactions",
-      "bloc": null,
+      "bloc": "HOME",
       "equipe": null,
       "nbreUS": 1,
       "sprint": {
@@ -11095,7 +11095,7 @@
         "test": []
       },
       "temps": {
-        "maquette": 0,
+        "maquette": 4,
         "back": 5,
         "front": 0,
         "design": 0,
