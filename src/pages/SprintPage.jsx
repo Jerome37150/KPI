@@ -53,13 +53,10 @@ function countBy(list, key, { array = false } = {}) {
 export function SprintPage({ data }) {
   const tickets = data.classique || [];
 
-  // Liste des sprints : tickets dont initialeAjout = "Sprint initiale"
-  // (le sélecteur navigue par sprintIdeal — période)
+  // Liste des sprints : tous les tickets dont sprintIdeal contient une période
   const sprints = useMemo(() => {
     const map = new Map();
     tickets.forEach(t => {
-      const initiales = Array.isArray(t.initialeAjout) ? t.initialeAjout : [];
-      if (!initiales.includes("Sprint initiale")) return;
       const periods = Array.isArray(t.sprintIdeal) ? t.sprintIdeal : [];
       periods.forEach(p => {
         if (!map.has(p)) map.set(p, { tickets: [], date: parseSprint(p) });
@@ -111,26 +108,24 @@ export function SprintPage({ data }) {
     return idx > 0 ? sprints[idx - 1] : null;
   }, [current, sprints]);
 
-  // ── Tickets sprint (initiale uniquement) ──
+  // ── Tickets sprint (tout le périmètre de la période) ──
   const currentTickets = current?.tickets || [];
   const previousTickets = previous?.tickets || [];
 
   const bugCount = currentTickets.filter(t => BUG_CLASSIFS.includes(t.classification)).length;
   const devCount = currentTickets.filter(t => DEV_CLASSIFS.includes(t.classification)).length;
 
-  // ── Tickets ajoutés en cours de sprint (débord + ajout) — contexte ──
-  const additions = useMemo(() => {
-    if (!current) return { debord: 0, ajout: 0 };
-    let debord = 0, ajout = 0;
-    tickets.forEach(t => {
-      const periods = Array.isArray(t.sprintIdeal) ? t.sprintIdeal : [];
-      if (!periods.includes(current.value)) return;
+  // ── Distribution initialeAjout (initiale / débord / ajout) ──
+  const breakdown = useMemo(() => {
+    let initiale = 0, debord = 0, ajout = 0;
+    currentTickets.forEach(t => {
       const ini = Array.isArray(t.initialeAjout) ? t.initialeAjout : [];
+      if (ini.includes("Sprint initiale"))       initiale++;
       if (ini.includes("Débord sprint suivant")) debord++;
-      if (ini.includes("Ajout en cours")) ajout++;
+      if (ini.includes("Ajout en cours"))        ajout++;
     });
-    return { debord, ajout };
-  }, [tickets, current]);
+    return { initiale, debord, ajout };
+  }, [currentTickets]);
 
   // ── Breakdowns ──
   const buildEntries = (currentMap, previousMap, fixedOrder = null) => {
@@ -169,11 +164,11 @@ export function SprintPage({ data }) {
         <SectionTitle
           overline="Sprint actuel"
           icon={Sparkles}
-          sub="Périmètre initial · sprint en cours"
+          sub="Périmètre du sprint en cours"
         >Sprint en cours</SectionTitle>
         <Card padding={32}>
           <div style={{ textAlign: "center", color: C.inkDim, fontSize: 13 }}>
-            Aucun sprint trouvé (pas de ticket avec « Sprint initiale » + sprint idéal renseignés).
+            Aucun sprint trouvé (pas de ticket avec un sprint idéal renseigné).
           </div>
         </Card>
       </div>
@@ -190,7 +185,7 @@ export function SprintPage({ data }) {
         <SectionTitle
           overline="Sprint"
           icon={Sparkles}
-          sub="Périmètre initial du sprint · filtre « Sprint initiale »"
+          sub="Périmètre du sprint · tous les tickets planifiés"
         >Sprint en cours</SectionTitle>
         <SprintPicker
           sprints={sprints}
@@ -233,7 +228,7 @@ export function SprintPage({ data }) {
                   <Pill color={C.orange} soft={false} size="md">EN COURS</Pill>
                 )}
                 <Pill color={C.inkSoft} soft={true} size="md">
-                  Périmètre initial
+                  {current.count} ticket{current.count > 1 ? "s" : ""} planifié{current.count > 1 ? "s" : ""}
                 </Pill>
               </div>
             </div>
@@ -246,7 +241,7 @@ export function SprintPage({ data }) {
             }}>
               <HeroStat
                 icon={Inbox}
-                label="Tickets initiale"
+                label="Tickets"
                 value={current.count}
                 accent
               />
@@ -263,15 +258,20 @@ export function SprintPage({ data }) {
                 color={C.red}
               />
               <HeroStat
+                icon={Sparkles}
+                label="Initiale"
+                value={breakdown.initiale}
+              />
+              <HeroStat
                 icon={Plus}
                 label="Ajout en cours"
-                value={additions.ajout}
+                value={breakdown.ajout}
                 color={C.blue}
               />
               <HeroStat
                 icon={Repeat}
-                label="Débord sprint"
-                value={additions.debord}
+                label="Débord"
+                value={breakdown.debord}
                 color={C.amber}
               />
               {previous && (
@@ -279,7 +279,7 @@ export function SprintPage({ data }) {
                   icon={Hourglass}
                   label="Sprint préc."
                   value={previous.label}
-                  detail={`${previous.count} tickets initiale`}
+                  detail={`${previous.count} tickets`}
                   isText
                 />
               )}
@@ -319,10 +319,12 @@ export function SprintPage({ data }) {
         />
       </div>
 
-      {/* Table : tickets de la sprint sélectionnée */}
+      {/* Table : tickets du sprint sélectionné */}
       <VersionTicketsTable
         tickets={currentTickets}
-        title={`Tickets initiale · sprint ${currentLabel}`}
+        title={`Tickets sprint ${currentLabel}`}
+        showStatus
+        showProgress
       />
     </div>
   );

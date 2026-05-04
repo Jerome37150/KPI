@@ -14,11 +14,25 @@ const PRIO_ICONS = {
   "Pas urgente": ChevronsDown,
 };
 
+const STATUT_COLORS = {
+  "FAIT":                 C.green,
+  "Fait partiellement":   C.green,
+  "En cours":             C.orange,
+  "A planifier":          C.inkDim,
+  "Stand by":             C.amber,
+  "A etudier":            C.blue,
+  "A réfléchir autrement":C.purple,
+  "A prevoir TOP LINE":   C.purple,
+  "Abandon":              C.red,
+  "Archivé":              C.gray400,
+};
+
 // ============================================
-// VersionTicketsTable — tableau d'une version stable
-// Colonnes : titre / classif / prio / initiale ajout / comm / pièce jointe
+// VersionTicketsTable — tableau de tickets
+// Colonnes (toujours) : titre / classif / prio / initiale ajout / comm / pièce jointe
+// Optionnels : statut, avancement (props showStatus / showProgress)
 // ============================================
-export function VersionTicketsTable({ tickets, title = "Tickets livrés" }) {
+export function VersionTicketsTable({ tickets, title = "Tickets livrés", showStatus = false, showProgress = false }) {
   const rows = useMemo(() => {
     return [...tickets].sort((a, b) => {
       const ai = a.identifiant || "";
@@ -51,7 +65,16 @@ export function VersionTicketsTable({ tickets, title = "Tickets livrés" }) {
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12 }}>
           <thead>
             <tr style={{ background: C.gray50 }}>
-              {["Titre", "Classification", "Priorisation", "Initiale ajout", "Comm.", "P.J."].map(h => (
+              {[
+                "Titre",
+                "Classification",
+                "Priorisation",
+                showStatus   && "Statut",
+                showProgress && "Avancement",
+                "Initiale ajout",
+                "Comm.",
+                "P.J.",
+              ].filter(Boolean).map(h => (
                 <th key={h} style={{
                   textAlign: "left", padding: "10px 16px",
                   fontSize: 11, letterSpacing: "0.06em", textTransform: "uppercase",
@@ -65,7 +88,7 @@ export function VersionTicketsTable({ tickets, title = "Tickets livrés" }) {
           <tbody>
             {rows.length === 0 && (
               <tr>
-                <td colSpan={6} style={{ padding: 32, textAlign: "center", color: C.inkDim }}>
+                <td colSpan={6 + (showStatus ? 1 : 0) + (showProgress ? 1 : 0)} style={{ padding: 32, textAlign: "center", color: C.inkDim }}>
                   Aucun ticket
                 </td>
               </tr>
@@ -140,6 +163,55 @@ export function VersionTicketsTable({ tickets, title = "Tickets livrés" }) {
                       );
                     })() : <span style={{ color: C.inkMute }}>—</span>}
                   </td>
+
+                  {/* Statut (optionnel) */}
+                  {showStatus && (
+                    <td style={{ padding: "12px 16px" }}>
+                      {t.statut ? (
+                        <span style={{
+                          display: "inline-flex", alignItems: "center", gap: 6,
+                          fontSize: 12, fontWeight: 500, color: C.ink,
+                          whiteSpace: "nowrap",
+                        }} title={t.statut}>
+                          <span style={{
+                            width: 8, height: 8, borderRadius: RADIUS.full,
+                            background: STATUT_COLORS[t.statut] || C.inkDim,
+                            flexShrink: 0,
+                          }} />
+                          {t.statut}
+                        </span>
+                      ) : <span style={{ color: C.inkMute }}>—</span>}
+                    </td>
+                  )}
+
+                  {/* Avancement (optionnel) */}
+                  {showProgress && (
+                    <td style={{ padding: "12px 16px", minWidth: 130 }}>
+                      {(() => {
+                        const v = typeof t.pointAvancement === "number" ? t.pointAvancement : 0;
+                        const pct = Math.round(Math.max(0, Math.min(1, v)) * 100);
+                        const barColor = pct >= 100 ? C.green : pct > 0 ? C.orange : C.gray300;
+                        return (
+                          <div style={{ display: "flex", alignItems: "center", gap: 8, whiteSpace: "nowrap" }} title={`${pct}%`}>
+                            <div style={{
+                              flex: "0 0 70px", height: 6, background: C.gray100,
+                              borderRadius: RADIUS.sm, overflow: "hidden",
+                            }}>
+                              <div style={{
+                                width: `${pct}%`, height: "100%",
+                                background: barColor, borderRadius: RADIUS.sm,
+                                transition: "width 0.3s ease",
+                              }} />
+                            </div>
+                            <span style={{
+                              fontSize: 11, fontWeight: 700, color: pct >= 100 ? C.green : C.inkSoft,
+                              fontVariantNumeric: "tabular-nums", minWidth: 32,
+                            }}>{pct}%</span>
+                          </div>
+                        );
+                      })()}
+                    </td>
+                  )}
 
                   {/* Initiale ajout */}
                   <td style={{ padding: "12px 16px", color: C.ink, fontSize: 12, fontWeight: 500 }}>
