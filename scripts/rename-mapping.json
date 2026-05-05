@@ -1,0 +1,3439 @@
+[
+  {
+    "id": "3578db15623a81008b46f621f1e32ec0",
+    "oldName": "Taux d'occupation par type d'hébergement",
+    "newName": "Taux d'occupation par type d'hébergement (mesurer un taux)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a81009f41f833fb50c434",
+    "oldName": "Critères standards (animaux, PMR, vue mer…)",
+    "newName": "Critères standards (critères de filtre)",
+    "group": "G05",
+    "module": "M25"
+  },
+  {
+    "id": "3578db15623a8101b20efc0a67dd95e2",
+    "oldName": "Fusion de doublons clients",
+    "newName": "Fusion de doublons clients (clients / crm)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a810297cbccb998263c2b",
+    "oldName": "Inventaires programmés",
+    "newName": "Inventaires programmés (comptage et valorisation)",
+    "group": "G02",
+    "module": "M19"
+  },
+  {
+    "id": "3578db15623a8102a714c86842e6c5b5",
+    "oldName": "Articles favoris / mise en avant comptoir",
+    "newName": "Articles favoris / mise en avant comptoir (articles & catalogue ventes)",
+    "group": "G05",
+    "module": "M40"
+  },
+  {
+    "id": "3578db15623a81039dfbf4e83d2b8dd2",
+    "oldName": "Recherche dispo plan camping",
+    "newName": "Recherche dispo plan camping (recherche multicritères)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a8103a0d7cb5c1dd3ee02",
+    "oldName": "Thème clair / sombre",
+    "newName": "Thème clair / sombre (paramètres système)",
+    "group": "G06",
+    "module": "M28"
+  },
+  {
+    "id": "3578db15623a8103bb9addd4d551ed02",
+    "oldName": "Connecteur OTA / Channel manager",
+    "newName": "Connecteur OTA / Channel manager (connexions / interfaces)",
+    "group": "G06",
+    "module": "M29"
+  },
+  {
+    "id": "3578db15623a81048031debe36379609",
+    "oldName": "Codes-barres / EAN",
+    "newName": "Codes-barres / EAN (articles & catalogue ventes)",
+    "group": "G05",
+    "module": "M40"
+  },
+  {
+    "id": "3578db15623a8104a782e7eddc9fea66",
+    "oldName": "Stop-sell (vente bloquée par OTA)",
+    "newName": "Stop-sell (ota / distribution)",
+    "group": "G04",
+    "module": "M09"
+  },
+  {
+    "id": "3578db15623a8104affdefa81b9a93b1",
+    "oldName": "Téléchargements en attente",
+    "newName": "Téléchargements en attente (extractions / exports)",
+    "group": "G07",
+    "module": "M31"
+  },
+  {
+    "id": "3578db15623a8104b654ebec97f8a705",
+    "oldName": "Inventaire équipements standard (par modèle)",
+    "newName": "Inventaire équipements standard (comptage et valorisation)",
+    "group": "G05",
+    "module": "M26"
+  },
+  {
+    "id": "3578db15623a810582d9c29c6f4c6049",
+    "oldName": "Affectation technicien",
+    "newName": "Affectation technicien (affecter ressource)",
+    "group": "G02",
+    "module": "M20"
+  },
+  {
+    "id": "3578db15623a8105b905ec9f3059d12a",
+    "oldName": "Suivi consommation allotement",
+    "newName": "Suivi consommation allotement (monitorer en temps réel)",
+    "group": "G04",
+    "module": "M06"
+  },
+  {
+    "id": "3578db15623a81068434cac17f15a28e",
+    "oldName": "Droits par établissement (qui voit quoi)",
+    "newName": "Droits par établissement (gestion des droits)",
+    "group": "G07",
+    "module": "M34"
+  },
+  {
+    "id": "3578db15623a8106a071dcb929a329d9",
+    "oldName": "Suivi consommation",
+    "newName": "Suivi consommation (monitorer en temps réel)",
+    "group": "G04",
+    "module": "M12"
+  },
+  {
+    "id": "3578db15623a8107b3d9e71c7c43e1ba",
+    "oldName": "Suivi volumes consommés",
+    "newName": "Suivi volumes consommés (monitorer en temps réel)",
+    "group": "G04",
+    "module": "M07"
+  },
+  {
+    "id": "3578db15623a810a992ae27afd4a0bd2",
+    "oldName": "Règles de parité tarifaire",
+    "newName": "Règles de parité tarifaire (ota / distribution)",
+    "group": "G04",
+    "module": "M09"
+  },
+  {
+    "id": "3578db15623a810b9f50c56dc8903d89",
+    "oldName": "États de soldes (en attente / réglé)",
+    "newName": "États de soldes (encaissements)",
+    "group": "G03",
+    "module": "M13"
+  },
+  {
+    "id": "3578db15623a810bb85ac73010bc2616",
+    "oldName": "Calcul automatique sur séjour",
+    "newName": "Calcul automatique sur séjour (taxes & fiscalité)",
+    "group": "G03",
+    "module": "M17"
+  },
+  {
+    "id": "3578db15623a810bbaeaeecde828786d",
+    "oldName": "Connecteur moteur de réservation",
+    "newName": "Connecteur moteur de réservation (connexions / interfaces)",
+    "group": "G06",
+    "module": "M29"
+  },
+  {
+    "id": "3578db15623a810bbe26d5f57ea1ca25",
+    "oldName": "Last-minute / early-booking",
+    "newName": "Last-minute / early-booking (tarifs & revenue management)",
+    "group": "G04",
+    "module": "M10"
+  },
+  {
+    "id": "3578db15623a810c893bc5414da7439c",
+    "oldName": "Tableau de bord client",
+    "newName": "Tableau de bord client (synthèse visuelle)",
+    "group": "G01",
+    "module": "M38"
+  },
+  {
+    "id": "3578db15623a810c8b10f7348ad2371f",
+    "oldName": "Consolidation indicateurs financiers",
+    "newName": "Consolidation indicateurs financiers (multi-établissements / réseau)",
+    "group": "G07",
+    "module": "M34"
+  },
+  {
+    "id": "3578db15623a810ca8a0d47aebb9274d",
+    "oldName": "Prolongation devis",
+    "newName": "Prolongation devis (prolonger la durée)",
+    "group": "G01",
+    "module": "M02"
+  },
+  {
+    "id": "3578db15623a810caec7dfd25e2b3c73",
+    "oldName": "Modèles de documents (devis, facture, contrat)",
+    "newName": "Modèles de documents (paramètres système)",
+    "group": "G06",
+    "module": "M28"
+  },
+  {
+    "id": "3578db15623a810d8b45d37b44fb8b41",
+    "oldName": "Automatisations messages (pré-séjour, J-7, J+1…)",
+    "newName": "Automatisations messages (communication client)",
+    "group": "G05",
+    "module": "M22"
+  },
+  {
+    "id": "3578db15623a810da22ef073714140be",
+    "oldName": "États TVA (CA3, mensuel, trimestriel)",
+    "newName": "États TVA (taxes & fiscalité)",
+    "group": "G03",
+    "module": "M17"
+  },
+  {
+    "id": "3578db15623a810e826ff572125de1b5",
+    "oldName": "Tarifs négociés CE",
+    "newName": "Tarifs négociés CE (ce / collectivités)",
+    "group": "G04",
+    "module": "M07"
+  },
+  {
+    "id": "3578db15623a810e992efa224fc1a34e",
+    "oldName": "Menu burger / navigation principale",
+    "newName": "Menu burger / navigation principale (navigation principale)",
+    "group": "G06",
+    "module": "M28"
+  },
+  {
+    "id": "3578db15623a810f8a06e66fa70be2cd",
+    "oldName": "Check-out (parcours de départ)",
+    "newName": "Check-out (parcours de départ client)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a810f8b87edc3fc1012e8",
+    "oldName": "Conditions commerciales (commissions, remises)",
+    "newName": "Conditions commerciales (tour‑opérateurs / agences)",
+    "group": "G04",
+    "module": "M06"
+  },
+  {
+    "id": "3578db15623a810fa213c87ad0954b34",
+    "oldName": "Statistiques par emplacement",
+    "newName": "Statistiques par emplacement (analyse des indicateurs)",
+    "group": "G04",
+    "module": "M11"
+  },
+  {
+    "id": "3578db15623a810fa28dfa43ff0196dd",
+    "oldName": "Paiements depuis espace client / résident",
+    "newName": "Paiements depuis espace client / résident (règlement client)",
+    "group": "G03",
+    "module": "M13"
+  },
+  {
+    "id": "3578db15623a810fb2aaff6f7db79fb3",
+    "oldName": "Terminaux paiement (TPE)",
+    "newName": "Terminaux paiement (connexions / interfaces)",
+    "group": "G06",
+    "module": "M29"
+  },
+  {
+    "id": "3578db15623a810fbd44f1994cd45d40",
+    "oldName": "Modification de réservation",
+    "newName": "Modification de réservation (éditer existant)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a81109b02e3c5748228e3",
+    "oldName": "Prolongation de l'option",
+    "newName": "Prolongation de l'option (prolonger la durée)",
+    "group": "G01",
+    "module": "M02"
+  },
+  {
+    "id": "3578db15623a8110b093e3f04653cec5",
+    "oldName": "Politique de mots de passe",
+    "newName": "Politique de mots de passe (administration)",
+    "group": "G06",
+    "module": "M30"
+  },
+  {
+    "id": "3578db15623a81118225c82aa143d477",
+    "oldName": "Annulation séjour avec paiement",
+    "newName": "Annulation séjour avec paiement (annuler et gérer les conséquences)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a8111955cf1dbc910d5d3",
+    "oldName": "États de taxe de séjour (par période)",
+    "newName": "États de taxe de séjour (taxes & fiscalité)",
+    "group": "G03",
+    "module": "M17"
+  },
+  {
+    "id": "3578db15623a8111a37bec333cd1cfa2",
+    "oldName": "Configuration moteur (CGV, étapes, paiement)",
+    "newName": "Configuration moteur (configurer)",
+    "group": "G04",
+    "module": "M09"
+  },
+  {
+    "id": "3578db15623a81129d6ac17e1ffea8cd",
+    "oldName": "Fiche résident",
+    "newName": "Fiche résident (détail et édition résident)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a81129f58c9549c7052ab",
+    "oldName": "Catalogue détaillé des locatifs (modèles)",
+    "newName": "Catalogue détaillé des locatifs (référentiel produits)",
+    "group": "G05",
+    "module": "M26"
+  },
+  {
+    "id": "3578db15623a8112a19bd744a8c8d31b",
+    "oldName": "Mapping de données partenaire",
+    "newName": "Mapping de données partenaire (correspondance entre systèmes)",
+    "group": "G06",
+    "module": "M41"
+  },
+  {
+    "id": "3578db15623a8112b64ac0aa22a20e67",
+    "oldName": "Archivage (clôtures annuelles)",
+    "newName": "Archivage (administration)",
+    "group": "G06",
+    "module": "M30"
+  },
+  {
+    "id": "3578db15623a811384a0c88b7b3d8b8a",
+    "oldName": "Règles enfants / adultes (gratuités, demi-tarifs)",
+    "newName": "Règles enfants / adultes (paramètres tarifs)",
+    "group": "G05",
+    "module": "M27"
+  },
+  {
+    "id": "3578db15623a8113b7b5d9c7bef8b080",
+    "oldName": "Paiements en ligne (PSP : Stripe, Adyen…)",
+    "newName": "Paiements en ligne (règlement client)",
+    "group": "G03",
+    "module": "M13"
+  },
+  {
+    "id": "3578db15623a811485e9e48c56aa899f",
+    "oldName": "Télémaintenance",
+    "newName": "Télémaintenance (outils de support interne)",
+    "group": "G07",
+    "module": "M37"
+  },
+  {
+    "id": "3578db15623a8114aca3efbedef71395",
+    "oldName": "Taxes intégrées vs séparées",
+    "newName": "Taxes intégrées vs séparées (paramètres tarifs)",
+    "group": "G05",
+    "module": "M27"
+  },
+  {
+    "id": "3578db15623a8114ae70f5c372f4aec1",
+    "oldName": "Caisses enregistreuses externes (restaurant, snack)",
+    "newName": "Caisses enregistreuses externes (opérations de caisse)",
+    "group": "G06",
+    "module": "M29"
+  },
+  {
+    "id": "3578db15623a8114b757d7a27741e606",
+    "oldName": "Mouvements stock (historique global)",
+    "newName": "Mouvements stock (suivre les mouvements)",
+    "group": "G02",
+    "module": "M19"
+  },
+  {
+    "id": "3578db15623a8114b758d85c6e824758",
+    "oldName": "Liste interventions (filtres état / priorité)",
+    "newName": "Liste interventions (annuaire)",
+    "group": "G02",
+    "module": "M20"
+  },
+  {
+    "id": "3578db15623a81158095d5975cee5e2f",
+    "oldName": "Vente hors séjour",
+    "newName": "Vente hors séjour (ventes réception)",
+    "group": "G02",
+    "module": "M18"
+  },
+  {
+    "id": "3578db15623a8115b3b0fea0d2d3af40",
+    "oldName": "Refacturation des consommations",
+    "newName": "Refacturation des consommations (refacturer charges)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a811689e4f07ab776f036",
+    "oldName": "Acompte demandé (% ou montant fixe)",
+    "newName": "Acompte demandé (paramètres tarifs)",
+    "group": "G05",
+    "module": "M27"
+  },
+  {
+    "id": "3578db15623a8116b8adf9d38c8defcc",
+    "oldName": "Segmentation clients",
+    "newName": "Segmentation clients (clients / crm)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a8117a805c3848472e914",
+    "oldName": "Liste des avis clients",
+    "newName": "Liste des avis clients (consulter et filtrer avis clients)",
+    "group": "G05",
+    "module": "M22"
+  },
+  {
+    "id": "3578db15623a8117b3a4e7ab4a8202f3",
+    "oldName": "Rapport hebdomadaire",
+    "newName": "Rapport hebdomadaire (analyse des indicateurs)",
+    "group": "G07",
+    "module": "M33"
+  },
+  {
+    "id": "3578db15623a8117bca8e9f1ec7c50a1",
+    "oldName": "Facture d'acompte",
+    "newName": "Facture d'acompte (document comptable)",
+    "group": "G03",
+    "module": "M16"
+  },
+  {
+    "id": "3578db15623a81188b66f20e4080cd1f",
+    "oldName": "Catégories (mobil-home, tente, caravane, camping-car, nu)",
+    "newName": "Catégories (emplacements / hébergements)",
+    "group": "G04",
+    "module": "M11"
+  },
+  {
+    "id": "3578db15623a8118b590d111c827bf74",
+    "oldName": "Liste des automatisations",
+    "newName": "Liste des automatisations (consulter et filtrer automatisations)",
+    "group": "G05",
+    "module": "M23"
+  },
+  {
+    "id": "3578db15623a811980c3c3c420277381",
+    "oldName": "Saisie d'inventaire",
+    "newName": "Saisie d'inventaire (saisie manuelle)",
+    "group": "G02",
+    "module": "M19"
+  },
+  {
+    "id": "3578db15623a81198229e662e901ad3d",
+    "oldName": "Liste des CE / collectivités",
+    "newName": "Liste des CE / collectivités (consulter et filtrer ce / collectivités)",
+    "group": "G04",
+    "module": "M07"
+  },
+  {
+    "id": "3578db15623a81198f1ccef6e4c33ec9",
+    "oldName": "Templates de capacité (4p, 6p, 8p…)",
+    "newName": "Templates de capacité (paramètres emplacements)",
+    "group": "G05",
+    "module": "M25"
+  },
+  {
+    "id": "3578db15623a8119b49bddd3bf9d3a34",
+    "oldName": "App maintenance / interventions",
+    "newName": "App maintenance / interventions (mobile / terrain)",
+    "group": "G07",
+    "module": "M36"
+  },
+  {
+    "id": "3578db15623a811ab60cef21141cee23",
+    "oldName": "Tableau de bord résident",
+    "newName": "Tableau de bord résident (synthèse visuelle)",
+    "group": "G01",
+    "module": "M39"
+  },
+  {
+    "id": "3578db15623a811abc5acc1c1eb878c3",
+    "oldName": "Planning annuel",
+    "newName": "Planning annuel (vue calendrier)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a811b8e47e5ba2a2f2953",
+    "oldName": "Fiche réservation",
+    "newName": "Fiche réservation (détail et édition réservation)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a811bb0f3f79526ec9272",
+    "oldName": "Liste des groupes",
+    "newName": "Liste des groupes (consulter et filtrer groupes)",
+    "group": "G04",
+    "module": "M05"
+  },
+  {
+    "id": "3578db15623a811bb702dc6248a4776e",
+    "oldName": "Détail des transactions",
+    "newName": "Détail des transactions (vue détaillée)",
+    "group": "G03",
+    "module": "M13"
+  },
+  {
+    "id": "3578db15623a811db737ca1662e5ece4",
+    "oldName": "Tarifs par durée (semaine, week-end, court séjour)",
+    "newName": "Tarifs par durée (paramètres tarifs)",
+    "group": "G05",
+    "module": "M27"
+  },
+  {
+    "id": "3578db15623a811e8134c89f82dadec6",
+    "oldName": "Définition des saisons (haute, moyenne, basse)",
+    "newName": "Définition des saisons (paramètres saison)",
+    "group": "G05",
+    "module": "M24"
+  },
+  {
+    "id": "3578db15623a811ebc4fccc140f51ba6",
+    "oldName": "Restitution caution",
+    "newName": "Restitution caution (rendre au client)",
+    "group": "G03",
+    "module": "M15"
+  },
+  {
+    "id": "3578db15623a811ebe88f41c547b2182",
+    "oldName": "Plans intérieurs des locatifs",
+    "newName": "Plans intérieurs des locatifs (plan visuel)",
+    "group": "G05",
+    "module": "M26"
+  },
+  {
+    "id": "3578db15623a81218c0dcfdd29db29b0",
+    "oldName": "Calendrier de mes disponibilités",
+    "newName": "Calendrier de mes disponibilités (vue calendrier)",
+    "group": "G01",
+    "module": "M39"
+  },
+  {
+    "id": "3578db15623a8121a120f3aa7f3e76dc",
+    "oldName": "Channel manager (vue d'ensemble)",
+    "newName": "Channel manager (gestion multi-canal OTA)",
+    "group": "G04",
+    "module": "M09"
+  },
+  {
+    "id": "3578db15623a8121a44ae3c82049929f",
+    "oldName": "Centre de messagerie",
+    "newName": "Centre de messagerie (communication client)",
+    "group": "G05",
+    "module": "M22"
+  },
+  {
+    "id": "3578db15623a812282c0d1f5e198f382",
+    "oldName": "Widgets personnalisables",
+    "newName": "Widgets personnalisables (statistiques & reporting)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a81228a19ce92d39c4265",
+    "oldName": "Liste des devis",
+    "newName": "Liste des devis (consulter et filtrer devis)",
+    "group": "G01",
+    "module": "M02"
+  },
+  {
+    "id": "3578db15623a8122ae5ee58c9a07dee2",
+    "oldName": "Catalogue des API publiques",
+    "newName": "Catalogue des API publiques (référentiel produits)",
+    "group": "G06",
+    "module": "M41"
+  },
+  {
+    "id": "3578db15623a81239253e601e55398b5",
+    "oldName": "No-show",
+    "newName": "No-show (gérer client absent)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a812483c7d8b6181434aa",
+    "oldName": "Historique des affectations",
+    "newName": "Historique des affectations (consulter l'historique)",
+    "group": "G04",
+    "module": "M12"
+  },
+  {
+    "id": "3578db15623a8124a149c8f9bb33c700",
+    "oldName": "Création ticket",
+    "newName": "Création ticket (saisir un nouvel élément)",
+    "group": "G02",
+    "module": "M20"
+  },
+  {
+    "id": "3578db15623a8124bae3eda9cf9ae7f4",
+    "oldName": "Ajouter remise au séjour",
+    "newName": "Ajouter remise au séjour (ajouter au séjour)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a812583f6ee8ef7635cc6",
+    "oldName": "Déclencheurs (événements PMS)",
+    "newName": "Déclencheurs (automatisations / règles métier)",
+    "group": "G05",
+    "module": "M23"
+  },
+  {
+    "id": "3578db15623a812693fed14df6c9e5ae",
+    "oldName": "Programme fidélité (paramétrage)",
+    "newName": "Programme fidélité (clients / crm)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a8126b9d9d4c889a08449",
+    "oldName": "RevPAR (revenu par hébergement disponible)",
+    "newName": "RevPAR (indicateur revenue management)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a81279051e2cba4968a41",
+    "oldName": "Coordonnées légales (SIRET, RCS, TVA intra)",
+    "newName": "Coordonnées légales (coordonnées légales)",
+    "group": "G06",
+    "module": "M28"
+  },
+  {
+    "id": "3578db15623a8127a49ceea9a6410196",
+    "oldName": "Historique des exports (qui, quoi, quand)",
+    "newName": "Historique des exports (consulter l'historique)",
+    "group": "G07",
+    "module": "M31"
+  },
+  {
+    "id": "3578db15623a8127b35debb23c9bc2ef",
+    "oldName": "Critères de confort (clim, terrasse, lave-vaisselle…)",
+    "newName": "Critères de confort (critères de filtre)",
+    "group": "G05",
+    "module": "M26"
+  },
+  {
+    "id": "3578db15623a8128a724d4ab6af1b72a",
+    "oldName": "Facturation mensuelle (loyer, charges)",
+    "newName": "Facturation mensuelle (document comptable)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a8128beb7cedd05cb2bae",
+    "oldName": "Documents clients",
+    "newName": "Documents clients (documents standards)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a8129868ef88fb5dcf22a",
+    "oldName": "Clôture & validation",
+    "newName": "Clôture & validation (interventions)",
+    "group": "G02",
+    "module": "M20"
+  },
+  {
+    "id": "3578db15623a8129b243fba24293cc21",
+    "oldName": "Attributs techniques (eau, élec, ombre…)",
+    "newName": "Attributs techniques (caractéristiques techniques)",
+    "group": "G04",
+    "module": "M11"
+  },
+  {
+    "id": "3578db15623a812dad01cb5db47047ea",
+    "oldName": "Rapport de caisse journalier",
+    "newName": "Rapport de caisse journalier (analyse des indicateurs)",
+    "group": "G07",
+    "module": "M33"
+  },
+  {
+    "id": "3578db15623a812f9693da57e7dc03bf",
+    "oldName": "Historique client (séjours, achats, communications)",
+    "newName": "Historique client (consulter l'historique)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a812f9f3aed2173757087",
+    "oldName": "Hivernage / fermeture saisonnière",
+    "newName": "Hivernage / fermeture saisonnière (emplacements / hébergements)",
+    "group": "G04",
+    "module": "M11"
+  },
+  {
+    "id": "3578db15623a81309592e61135fe5191",
+    "oldName": "Inventaire de sortie",
+    "newName": "Inventaire de sortie (comptage et valorisation)",
+    "group": "G02",
+    "module": "M21"
+  },
+  {
+    "id": "3578db15623a8130b149cf4d4f489d0c",
+    "oldName": "Historique multi-séjours (familles)",
+    "newName": "Historique multi-séjours (consulter l'historique)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a8130bfb7e1d4fde94584",
+    "oldName": "Règles de numérotation",
+    "newName": "Règles de numérotation (paramètres emplacements)",
+    "group": "G05",
+    "module": "M25"
+  },
+  {
+    "id": "3578db15623a8131934bf23ac70f37a5",
+    "oldName": "Affectation à un séjour",
+    "newName": "Affectation à un séjour (affecter ressource)",
+    "group": "G04",
+    "module": "M12"
+  },
+  {
+    "id": "3578db15623a81319457fe911bcc4fbf",
+    "oldName": "Édition consolidée des fiches de police",
+    "newName": "Édition consolidée des fiches de police (taxes & fiscalité)",
+    "group": "G03",
+    "module": "M17"
+  },
+  {
+    "id": "3578db15623a81328c33e0dca3166703",
+    "oldName": "État des paiements",
+    "newName": "État des paiements (résidents / longue durée)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a813290c2dd9ec7216267",
+    "oldName": "Contrats commerciaux TO",
+    "newName": "Contrats commerciaux TO (document contractuel)",
+    "group": "G04",
+    "module": "M06"
+  },
+  {
+    "id": "3578db15623a81338babe677d4d5fcb3",
+    "oldName": "Restitution / récupération",
+    "newName": "Restitution / récupération (rendre au client)",
+    "group": "G04",
+    "module": "M12"
+  },
+  {
+    "id": "3578db15623a813393decdca32d010d4",
+    "oldName": "Devis groupe (lien M02)",
+    "newName": "Devis groupe (groupes)",
+    "group": "G04",
+    "module": "M05"
+  },
+  {
+    "id": "3578db15623a81339afaea90c7a923df",
+    "oldName": "Fiches de police (obligation légale FR)",
+    "newName": "Fiches de police (séjours / front‑desk)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a8133b2a2fe37626c79f8",
+    "oldName": "Photos & galerie",
+    "newName": "Photos & galerie (galerie média)",
+    "group": "G04",
+    "module": "M11"
+  },
+  {
+    "id": "3578db15623a8133bce3f192de8d77ad",
+    "oldName": "Paramétrage par site (héritage / spécifique)",
+    "newName": "Paramétrage par site (configurer)",
+    "group": "G07",
+    "module": "M34"
+  },
+  {
+    "id": "3578db15623a8134adbadf9944b77828",
+    "oldName": "Diffusion automatique (mail récurrent)",
+    "newName": "Diffusion automatique (rapports de gestion)",
+    "group": "G07",
+    "module": "M33"
+  },
+  {
+    "id": "3578db15623a8135b764d52a61feeaa7",
+    "oldName": "Vue par technicien",
+    "newName": "Vue par technicien (synthèse visuelle)",
+    "group": "G02",
+    "module": "M20"
+  },
+  {
+    "id": "3578db15623a8135bf40f8b7e0316c71",
+    "oldName": "Stock physique (lits bébé, draps, parasols…)",
+    "newName": "Stock physique (suppléments / matériel)",
+    "group": "G04",
+    "module": "M12"
+  },
+  {
+    "id": "3578db15623a8136b026d62704609cd5",
+    "oldName": "Fiche emplacement / hébergement",
+    "newName": "Fiche emplacement / hébergement (détail et édition emplacement / hébergement)",
+    "group": "G04",
+    "module": "M11"
+  },
+  {
+    "id": "3578db15623a8137a43bdd41babcf35f",
+    "oldName": "Audit logs (toutes actions)",
+    "newName": "Audit logs (piste d'audit)",
+    "group": "G06",
+    "module": "M30"
+  },
+  {
+    "id": "3578db15623a8137a534dff57ced215b",
+    "oldName": "Facture pour groupes / TO / CE",
+    "newName": "Facture pour groupes / TO / CE (document comptable)",
+    "group": "G03",
+    "module": "M16"
+  },
+  {
+    "id": "3578db15623a8137b287cb6f0ff15d97",
+    "oldName": "Immatriculations véhicules",
+    "newName": "Immatriculations véhicules (séjours / front‑desk)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a8137b549d537ef336994",
+    "oldName": "Prévisions de fin de saison",
+    "newName": "Prévisions de fin de saison (statistiques & reporting)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a8138a57ec64bd3135326",
+    "oldName": "Liste des ménages à faire",
+    "newName": "Liste des ménages à faire (consulter et filtrer ménages à faire)",
+    "group": "G02",
+    "module": "M21"
+  },
+  {
+    "id": "3578db15623a8139820fd1424496d6e0",
+    "oldName": "Liste des partenaires connectés",
+    "newName": "Liste des partenaires connectés (consulter et filtrer partenaires connectés)",
+    "group": "G06",
+    "module": "M41"
+  },
+  {
+    "id": "3578db15623a81399722e9e88cb634e3",
+    "oldName": "Réponses aux avis",
+    "newName": "Réponses aux avis (communication client)",
+    "group": "G05",
+    "module": "M22"
+  },
+  {
+    "id": "3578db15623a813a9177db806633cf7c",
+    "oldName": "Conversion devis → option / réservation",
+    "newName": "Conversion devis → option / réservation (transformer en étape suivante)",
+    "group": "G01",
+    "module": "M02"
+  },
+  {
+    "id": "3578db15623a813b8563c0b3f8be491b",
+    "oldName": "Planning journalier",
+    "newName": "Planning journalier (vue calendrier)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a813b9e32ceec73cac570",
+    "oldName": "Tâches planifiées (cron)",
+    "newName": "Tâches planifiées (automatisations / règles métier)",
+    "group": "G05",
+    "module": "M23"
+  },
+  {
+    "id": "3578db15623a813ba1f8f08ff548a5af",
+    "oldName": "Plan inventaire (vue technique)",
+    "newName": "Plan inventaire (plan visuel)",
+    "group": "G04",
+    "module": "M11"
+  },
+  {
+    "id": "3578db15623a813c9ff4ddb0fd1b2807",
+    "oldName": "Réservations web (moteur)",
+    "newName": "Réservations web (gestion réservation)",
+    "group": "G04",
+    "module": "M09"
+  },
+  {
+    "id": "3578db15623a813cb412f0a21a7b0b6f",
+    "oldName": "Pré check-in en ligne",
+    "newName": "Pré check-in en ligne (espace client en ligne)",
+    "group": "G01",
+    "module": "M38"
+  },
+  {
+    "id": "3578db15623a813d8055c4351e917b33",
+    "oldName": "Modifier mes informations personnelles",
+    "newName": "Modifier mes informations personnelles (espace client en ligne)",
+    "group": "G01",
+    "module": "M38"
+  },
+  {
+    "id": "3578db15623a813d998eccc5e5b43020",
+    "oldName": "Contrôle caisses secondaires",
+    "newName": "Contrôle caisses secondaires (contrôler / vérifier)",
+    "group": "G03",
+    "module": "M14"
+  },
+  {
+    "id": "3578db15623a813dadb4ce770d52896b",
+    "oldName": "Scan documents (pièce d'identité, carte grise)",
+    "newName": "Scan documents (numérisation document)",
+    "group": "G07",
+    "module": "M36"
+  },
+  {
+    "id": "3578db15623a813e838bff750da7e723",
+    "oldName": "Fiche TO (Eurocamp, Vacansoleil, Homair…)",
+    "newName": "Fiche TO (détail et édition to)",
+    "group": "G04",
+    "module": "M06"
+  },
+  {
+    "id": "3578db15623a813e872ec4475e924226",
+    "oldName": "Priorités (départ / arrivée du jour)",
+    "newName": "Priorités (ménage / housekeeping)",
+    "group": "G02",
+    "module": "M21"
+  },
+  {
+    "id": "3578db15623a813e9134ce7ff9e4411e",
+    "oldName": "Monitoring / quotas / rate limiting",
+    "newName": "Monitoring / quotas / rate limiting (limiter les volumes)",
+    "group": "G06",
+    "module": "M41"
+  },
+  {
+    "id": "3578db15623a813e9b2beefffff4a4c4",
+    "oldName": "Empreinte CB / pré-autorisation",
+    "newName": "Empreinte CB / pré-autorisation (cautions / dépôts de garantie)",
+    "group": "G03",
+    "module": "M15"
+  },
+  {
+    "id": "3578db15623a813ea902dd18ff889f1c",
+    "oldName": "Statistiques d'usage par partenaire",
+    "newName": "Statistiques d'usage par partenaire (analyse des indicateurs)",
+    "group": "G06",
+    "module": "M41"
+  },
+  {
+    "id": "3578db15623a813fa1e5f16bc7d4d7fb",
+    "oldName": "Notifications internes",
+    "newName": "Notifications internes (automatisations / règles métier)",
+    "group": "G05",
+    "module": "M23"
+  },
+  {
+    "id": "3578db15623a813fbadae328bcf53753",
+    "oldName": "Prix dynamique par taux d'occupation",
+    "newName": "Prix dynamique par taux d'occupation (mesurer un taux)",
+    "group": "G04",
+    "module": "M10"
+  },
+  {
+    "id": "3578db15623a813fbb37f99946de85ad",
+    "oldName": "Historique des ventes",
+    "newName": "Historique des ventes (consulter l'historique)",
+    "group": "G02",
+    "module": "M18"
+  },
+  {
+    "id": "3578db15623a81409a7fead518a38b1a",
+    "oldName": "Vue occupation",
+    "newName": "Vue occupation (synthèse visuelle)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a81409b7ad916a600af23",
+    "oldName": "Journal des ventes (consolidé)",
+    "newName": "Journal des ventes (journal des opérations)",
+    "group": "G03",
+    "module": "M17"
+  },
+  {
+    "id": "3578db15623a81409e91c55e29c91ee7",
+    "oldName": "Rapport mensuel (clôture)",
+    "newName": "Rapport mensuel (analyse des indicateurs)",
+    "group": "G07",
+    "module": "M33"
+  },
+  {
+    "id": "3578db15623a8140a0ddc9f0cb7a054a",
+    "oldName": "État des lieux sortie",
+    "newName": "État des lieux sortie (constat au départ)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a8140b2c8fbc090fd00e4",
+    "oldName": "Planning maintenance (vue calendaire)",
+    "newName": "Planning maintenance (vue calendrier)",
+    "group": "G02",
+    "module": "M20"
+  },
+  {
+    "id": "3578db15623a8141b9f7c6f3529b5f84",
+    "oldName": "Permissions & scopes par partenaire",
+    "newName": "Permissions & scopes par partenaire (data hub & api partenaires)",
+    "group": "G06",
+    "module": "M41"
+  },
+  {
+    "id": "3578db15623a8142b825f08e1bc786b4",
+    "oldName": "Fuseau horaire",
+    "newName": "Fuseau horaire (paramètres système)",
+    "group": "G06",
+    "module": "M28"
+  },
+  {
+    "id": "3578db15623a814384b8f21f1fcbc958",
+    "oldName": "Monitoring synchronisations (OTA, channel manager)",
+    "newName": "Monitoring synchronisations (outils de support interne)",
+    "group": "G07",
+    "module": "M37"
+  },
+  {
+    "id": "3578db15623a81448010e94bdca4eb27",
+    "oldName": "Validation & impression ticket",
+    "newName": "Validation & impression ticket (valider workflow)",
+    "group": "G02",
+    "module": "M18"
+  },
+  {
+    "id": "3578db15623a8144a85eed8473a8123c",
+    "oldName": "Renouvellement contrat",
+    "newName": "Renouvellement contrat (renouveler contrat)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a8144ad4cf496d4ed7b97",
+    "oldName": "Outils de migration (depuis autre PMS)",
+    "newName": "Outils de migration (outils de support interne)",
+    "group": "G07",
+    "module": "M37"
+  },
+  {
+    "id": "3578db15623a81458bbaeb877de2dd0e",
+    "oldName": "Déclaration EDIFICT (mairie / EPCI)",
+    "newName": "Déclaration EDIFICT (taxes & fiscalité)",
+    "group": "G03",
+    "module": "M17"
+  },
+  {
+    "id": "3578db15623a8145a25bfb3d97496215",
+    "oldName": "Facturation séparée (au CE / au salarié)",
+    "newName": "Facturation séparée (document comptable)",
+    "group": "G04",
+    "module": "M07"
+  },
+  {
+    "id": "3578db15623a8146998afa4e57f02d92",
+    "oldName": "Programmation d'envois",
+    "newName": "Programmation d'envois (communication client)",
+    "group": "G05",
+    "module": "M22"
+  },
+  {
+    "id": "3578db15623a8146bebcd04205900225",
+    "oldName": "Droits d'accès du séjour",
+    "newName": "Droits d'accès du séjour (gestion des droits)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a814789b0dc7c790eee86",
+    "oldName": "Documentation développeur (OpenAPI / Swagger)",
+    "newName": "Documentation développeur (data hub & api partenaires)",
+    "group": "G06",
+    "module": "M41"
+  },
+  {
+    "id": "3578db15623a81488c65cf73eb7ae89e",
+    "oldName": "Demandes de sous-location entrantes",
+    "newName": "Demandes de sous-location entrantes (résidents / longue durée)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a81488e9ec786b8c3c658",
+    "oldName": "Import / export clients (CSV)",
+    "newName": "Import / export clients (importer en masse)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a8148a514c95736879bea",
+    "oldName": "Fermeture de caisse (Z journalier)",
+    "newName": "Fermeture de caisse (clôturer la session)",
+    "group": "G03",
+    "module": "M14"
+  },
+  {
+    "id": "3578db15623a8148b024c7ef316ff001",
+    "oldName": "Modèles d'email",
+    "newName": "Modèles d'email (communication client)",
+    "group": "G05",
+    "module": "M22"
+  },
+  {
+    "id": "3578db15623a8149bd39f508d06cab2d",
+    "oldName": "Éditeur visuel d'automatisation",
+    "newName": "Éditeur visuel d'automatisation (automatisations / règles métier)",
+    "group": "G05",
+    "module": "M23"
+  },
+  {
+    "id": "3578db15623a814caacad7bcc188cbc5",
+    "oldName": "Jours fériés",
+    "newName": "Jours fériés (calendrier de jours spécifiques)",
+    "group": "G05",
+    "module": "M24"
+  },
+  {
+    "id": "3578db15623a814d99c2e92426bce841",
+    "oldName": "Gestion des utilisateurs",
+    "newName": "Gestion des utilisateurs (administrer)",
+    "group": "G06",
+    "module": "M30"
+  },
+  {
+    "id": "3578db15623a814e906cd761bc0f1430",
+    "oldName": "Planning emplacements numérotés",
+    "newName": "Planning emplacements numérotés (vue calendrier)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a814fb725eab1e40cb090",
+    "oldName": "Vue consolidée des conformités (RGPD, NF525, NF203, fiscal)",
+    "newName": "Vue consolidée des conformités (synthèse visuelle)",
+    "group": "G07",
+    "module": "M35"
+  },
+  {
+    "id": "3578db15623a81508362f07bf1db4f8a",
+    "oldName": "Liste clients (avec recherche intégrée)",
+    "newName": "Liste clients (annuaire)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a8151a544ded8338652d7",
+    "oldName": "Relances devis (auto + manuel)",
+    "newName": "Relances devis (relancer client / partenaire)",
+    "group": "G01",
+    "module": "M02"
+  },
+  {
+    "id": "3578db15623a81528fdcdf640b765dc4",
+    "oldName": "Configuration des webhooks",
+    "newName": "Configuration des webhooks (configurer)",
+    "group": "G06",
+    "module": "M41"
+  },
+  {
+    "id": "3578db15623a8152a1dcfd85810499ff",
+    "oldName": "Anonymisation RGPD (droit à l'oubli)",
+    "newName": "Anonymisation RGPD (clients / crm)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a8152b007ee3ec0c99fad",
+    "oldName": "Reversement / quote-part propriétaire",
+    "newName": "Reversement / quote-part propriétaire (résidents / longue durée)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a8152bcebd261658bb7e1",
+    "oldName": "Rapprochement bancaire",
+    "newName": "Rapprochement bancaire (rapprochement comptable)",
+    "group": "G03",
+    "module": "M13"
+  },
+  {
+    "id": "3578db15623a8152be34e152fbd840ff",
+    "oldName": "Rôles (ensembles de permissions)",
+    "newName": "Rôles (administration)",
+    "group": "G06",
+    "module": "M30"
+  },
+  {
+    "id": "3578db15623a8153a23bf71877f93e7e",
+    "oldName": "Signature électronique sur tablette",
+    "newName": "Signature électronique sur tablette (signature électronique)",
+    "group": "G07",
+    "module": "M36"
+  },
+  {
+    "id": "3578db15623a8153a852deacbb42f712",
+    "oldName": "Fiche devis",
+    "newName": "Fiche devis (détail et édition devis)",
+    "group": "G01",
+    "module": "M02"
+  },
+  {
+    "id": "3578db15623a8154a85ee50575cf6b9e",
+    "oldName": "Check-list de ménage (par type d'hébergement)",
+    "newName": "Check-list de ménage (ménage / housekeeping)",
+    "group": "G02",
+    "module": "M21"
+  },
+  {
+    "id": "3578db15623a8154b38ec13f49c301b2",
+    "oldName": "Fiche client",
+    "newName": "Fiche client (détail et édition client)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a8155b4acf41534151d51",
+    "oldName": "App espace client (vacanciers)",
+    "newName": "App espace client (mobile / terrain)",
+    "group": "G07",
+    "module": "M36"
+  },
+  {
+    "id": "3578db15623a815691c3e5ff073f6b7b",
+    "oldName": "Journal de synchronisation",
+    "newName": "Journal de synchronisation (journal des opérations)",
+    "group": "G04",
+    "module": "M09"
+  },
+  {
+    "id": "3578db15623a8156bf8dc34dcd12ae9a",
+    "oldName": "Rapport de production par CE",
+    "newName": "Rapport de production par CE (analyse des indicateurs)",
+    "group": "G04",
+    "module": "M07"
+  },
+  {
+    "id": "3578db15623a8157a2cbc8da58b0531b",
+    "oldName": "Tarifs par durée",
+    "newName": "Tarifs par durée (tarifs & revenue management)",
+    "group": "G04",
+    "module": "M10"
+  },
+  {
+    "id": "3578db15623a8158915dc61a94b75cdd",
+    "oldName": "Modification séjour (justifiée)",
+    "newName": "Modification séjour (éditer existant)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a815898fad8dba70ebb42",
+    "oldName": "Statistiques d'envoi (taux ouverture, clics)",
+    "newName": "Statistiques d'envoi (analyse des indicateurs)",
+    "group": "G05",
+    "module": "M22"
+  },
+  {
+    "id": "3578db15623a8159800cecf3d458c1ad",
+    "oldName": "Paiement en ligne (acompte / solde)",
+    "newName": "Paiement en ligne (règlement client)",
+    "group": "G01",
+    "module": "M38"
+  },
+  {
+    "id": "3578db15623a815a905de9c91aff3675",
+    "oldName": "Planning suppléments",
+    "newName": "Planning suppléments (vue calendrier)",
+    "group": "G04",
+    "module": "M12"
+  },
+  {
+    "id": "3578db15623a815aa0f0eb73f2b2d9ef",
+    "oldName": "Fiche caution",
+    "newName": "Fiche caution (détail et édition caution)",
+    "group": "G03",
+    "module": "M15"
+  },
+  {
+    "id": "3578db15623a815aab44f582de2898e6",
+    "oldName": "Logs d'appels API (succès / erreurs)",
+    "newName": "Logs d'appels API (journaux techniques)",
+    "group": "G06",
+    "module": "M41"
+  },
+  {
+    "id": "3578db15623a815abf9cde02c22b6148",
+    "oldName": "Encaissement (multi-modes : CB, espèces, chèque)",
+    "newName": "Encaissement (opérations de caisse)",
+    "group": "G02",
+    "module": "M18"
+  },
+  {
+    "id": "3578db15623a815ba18ec6c17500ecdd",
+    "oldName": "Mes documents (factures, devis, attestations)",
+    "newName": "Mes documents (espace personnel)",
+    "group": "G01",
+    "module": "M38"
+  },
+  {
+    "id": "3578db15623a815ba77dec7402d80730",
+    "oldName": "Mutualisation clients (CRM partagé)",
+    "newName": "Mutualisation clients (multi-établissements / réseau)",
+    "group": "G07",
+    "module": "M34"
+  },
+  {
+    "id": "3578db15623a815ca241d2a9d7318545",
+    "oldName": "Personnalisation interface",
+    "newName": "Personnalisation interface (paramètres système)",
+    "group": "G06",
+    "module": "M28"
+  },
+  {
+    "id": "3578db15623a815cbb52c1bbb386d03d",
+    "oldName": "Contrat groupe",
+    "newName": "Contrat groupe (document contractuel)",
+    "group": "G04",
+    "module": "M05"
+  },
+  {
+    "id": "3578db15623a815cbc51fa80cf479db8",
+    "oldName": "Journaux fiscaux",
+    "newName": "Journaux fiscaux (taxes & fiscalité)",
+    "group": "G03",
+    "module": "M17"
+  },
+  {
+    "id": "3578db15623a815d89a1f548840e86e7",
+    "oldName": "Alertes / to-do client",
+    "newName": "Alertes / to-do client (clients / crm)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a815da806d6c977a4e5d8",
+    "oldName": "Pilotage multi-sites (KPI consolidés)",
+    "newName": "Pilotage multi-sites (multi-établissements / réseau)",
+    "group": "G07",
+    "module": "M34"
+  },
+  {
+    "id": "3578db15623a815e8f38d9cc525d0d74",
+    "oldName": "Types d'emplacement (mobil-home, tente, caravane, nu…)",
+    "newName": "Types d'emplacement (typologie)",
+    "group": "G05",
+    "module": "M25"
+  },
+  {
+    "id": "3578db15623a815ea055ff69eb881bdf",
+    "oldName": "Restrictions par canal (PMS only, OTA only…)",
+    "newName": "Restrictions par canal (tarifs & revenue management)",
+    "group": "G04",
+    "module": "M10"
+  },
+  {
+    "id": "3578db15623a815f9aa6d995ef6a16c5",
+    "oldName": "Tables de prix (par hébergement × période)",
+    "newName": "Tables de prix (paramètres tarifs)",
+    "group": "G05",
+    "module": "M27"
+  },
+  {
+    "id": "3578db15623a81608885fc466afeebd4",
+    "oldName": "Chat support / ticket à Inaxel",
+    "newName": "Chat support / ticket à Inaxel (outils de support interne)",
+    "group": "G07",
+    "module": "M37"
+  },
+  {
+    "id": "3578db15623a81609a15eaa16261dd19",
+    "oldName": "Emails système (no-reply, notifications)",
+    "newName": "Emails système (templates email)",
+    "group": "G06",
+    "module": "M28"
+  },
+  {
+    "id": "3578db15623a8160b36aefe9db3e0090",
+    "oldName": "Liste des caisses",
+    "newName": "Liste des caisses (consulter et filtrer caisses)",
+    "group": "G03",
+    "module": "M14"
+  },
+  {
+    "id": "3578db15623a816199d8d0b51f1cd3d8",
+    "oldName": "Secteurs / zones du camping",
+    "newName": "Secteurs / zones du camping (paramètres emplacements)",
+    "group": "G05",
+    "module": "M25"
+  },
+  {
+    "id": "3578db15623a8161bafad7b71784cd9a",
+    "oldName": "Traitements automatiques",
+    "newName": "Traitements automatiques (automatisations / règles métier)",
+    "group": "G05",
+    "module": "M23"
+  },
+  {
+    "id": "3578db15623a816296b9e99ddc14d8a1",
+    "oldName": "Création de réservation",
+    "newName": "Création de réservation (saisir un nouvel élément)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a81629709d6fb7585434d",
+    "oldName": "Liste des participants au séjour",
+    "newName": "Liste des participants au séjour (consulter et filtrer participants au séjour)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a8163b5b1e1bbc4202a35",
+    "oldName": "Recherche avancée disponibilité",
+    "newName": "Recherche avancée disponibilité (recherche multicritères)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a8164b75def90274123b9",
+    "oldName": "Reprise de données (imports massifs)",
+    "newName": "Reprise de données (outils de support interne)",
+    "group": "G07",
+    "module": "M37"
+  },
+  {
+    "id": "3578db15623a8165ab2ed9c15ca13688",
+    "oldName": "Origine des réservations (par canal)",
+    "newName": "Origine des réservations (statistiques & reporting)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a81668425d4836d8c3413",
+    "oldName": "Bibliothèque pré-configurée (modèles)",
+    "newName": "Bibliothèque pré-configurée (automatisations / règles métier)",
+    "group": "G05",
+    "module": "M23"
+  },
+  {
+    "id": "3578db15623a8166a245d8f96e3a7516",
+    "oldName": "Liste des résidents",
+    "newName": "Liste des résidents (consulter et filtrer résidents)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a81678ec7c4a13ab67e61",
+    "oldName": "Base de connaissances (articles, tutoriels)",
+    "newName": "Base de connaissances (outils de support interne)",
+    "group": "G07",
+    "module": "M37"
+  },
+  {
+    "id": "3578db15623a8168bf7ad767022c3eb4",
+    "oldName": "Production par OTA (CA, nb résa)",
+    "newName": "Production par OTA (ota / distribution)",
+    "group": "G04",
+    "module": "M09"
+  },
+  {
+    "id": "3578db15623a81698c74db155f906eeb",
+    "oldName": "Seuils d'alerte / réapprovisionnement",
+    "newName": "Seuils d'alerte / réapprovisionnement (seuil d'alerte)",
+    "group": "G02",
+    "module": "M19"
+  },
+  {
+    "id": "3578db15623a816a82b8f7e1f95d1e45",
+    "oldName": "Contraintes d'attribution (handicap, animaux…)",
+    "newName": "Contraintes d'attribution (paramètres emplacements)",
+    "group": "G05",
+    "module": "M25"
+  },
+  {
+    "id": "3578db15623a816a9be2ff80bb59d168",
+    "oldName": "No-shows groupe",
+    "newName": "No-shows groupe (gérer client absent)",
+    "group": "G04",
+    "module": "M05"
+  },
+  {
+    "id": "3578db15623a816a9f64d1d8a1406b38",
+    "oldName": "Lecteurs de codes-barres",
+    "newName": "Lecteurs de codes-barres (connexions / interfaces)",
+    "group": "G06",
+    "module": "M29"
+  },
+  {
+    "id": "3578db15623a816aac3cc3fc208f48ec",
+    "oldName": "Édition PDF / envoi devis",
+    "newName": "Édition PDF / envoi devis (éditer existant)",
+    "group": "G01",
+    "module": "M02"
+  },
+  {
+    "id": "3578db15623a816abd4ff2b444bc736d",
+    "oldName": "Plafonds & subventions CE",
+    "newName": "Plafonds & subventions CE (ce / collectivités)",
+    "group": "G04",
+    "module": "M07"
+  },
+  {
+    "id": "3578db15623a816bad46d36e50306a29",
+    "oldName": "Réserver un supplément (depuis séjour ou devis)",
+    "newName": "Réserver un supplément (suppléments / matériel)",
+    "group": "G04",
+    "module": "M12"
+  },
+  {
+    "id": "3578db15623a816c8da7fec6b54bd24e",
+    "oldName": "Modèles d'extraction réutilisables",
+    "newName": "Modèles d'extraction réutilisables (extractions / exports)",
+    "group": "G07",
+    "module": "M31"
+  },
+  {
+    "id": "3578db15623a816ca969f3783ab0919b",
+    "oldName": "Campagnes (envoi groupé)",
+    "newName": "Campagnes (communication client)",
+    "group": "G05",
+    "module": "M22"
+  },
+  {
+    "id": "3578db15623a816caf22c7dee8300aee",
+    "oldName": "Langues (FR, EN, DE, NL, IT, ES…)",
+    "newName": "Langues (paramètres système)",
+    "group": "G06",
+    "module": "M28"
+  },
+  {
+    "id": "3578db15623a816cb39efe3903e196b1",
+    "oldName": "Performance par segment (direct, OTA, TO, CE…)",
+    "newName": "Performance par segment (statistiques & reporting)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a816cbe49cb17c3a4e9e0",
+    "oldName": "Calendriers consolidés (vue annuelle)",
+    "newName": "Calendriers consolidés (paramètres saison)",
+    "group": "G05",
+    "module": "M24"
+  },
+  {
+    "id": "3578db15623a816daa9ded42fb0995e0",
+    "oldName": "Liste des options",
+    "newName": "Liste des options (consulter et filtrer options)",
+    "group": "G01",
+    "module": "M02"
+  },
+  {
+    "id": "3578db15623a816e8960d8383a7d57e0",
+    "oldName": "Sandbox / environnement de test",
+    "newName": "Sandbox / environnement de test (data hub & api partenaires)",
+    "group": "G06",
+    "module": "M41"
+  },
+  {
+    "id": "3578db15623a816ea2ced55f0cc66283",
+    "oldName": "Fiche groupe (mariages, associations, scolaires)",
+    "newName": "Fiche groupe (détail et édition groupe)",
+    "group": "G04",
+    "module": "M05"
+  },
+  {
+    "id": "3578db15623a816ea7e2ef11c5fa8fdd",
+    "oldName": "Anomalies détectées (plan d'action)",
+    "newName": "Anomalies détectées (qualité / conformité)",
+    "group": "G07",
+    "module": "M35"
+  },
+  {
+    "id": "3578db15623a816eaeeedf597ca2ade3",
+    "oldName": "Arrondis (règles)",
+    "newName": "Arrondis (paramètres tarifs)",
+    "group": "G05",
+    "module": "M27"
+  },
+  {
+    "id": "3578db15623a8170a6d9c7bbd350b16b",
+    "oldName": "Mon hébergement (mobil-home, fiche)",
+    "newName": "Mon hébergement (espace personnel)",
+    "group": "G01",
+    "module": "M39"
+  },
+  {
+    "id": "3578db15623a8170ab3fdde8057f0322",
+    "oldName": "Ventes rapides",
+    "newName": "Ventes rapides (ventes réception)",
+    "group": "G02",
+    "module": "M18"
+  },
+  {
+    "id": "3578db15623a8170b004fa92c93b9182",
+    "oldName": "Listes personnalisées sauvegardées",
+    "newName": "Listes personnalisées sauvegardées (extractions / exports)",
+    "group": "G07",
+    "module": "M31"
+  },
+  {
+    "id": "3578db15623a8171b62dc50dbf73bc04",
+    "oldName": "Affecter vente à un séjour (facturation groupée)",
+    "newName": "Affecter vente à un séjour (affecter ressource)",
+    "group": "G02",
+    "module": "M18"
+  },
+  {
+    "id": "3578db15623a8172a122f098c81066b0",
+    "oldName": "Analyse de tendance pluriannuelle",
+    "newName": "Analyse de tendance pluriannuelle (rapports de gestion)",
+    "group": "G07",
+    "module": "M33"
+  },
+  {
+    "id": "3578db15623a81739b0dc2d2a9da0f3d",
+    "oldName": "Désinscription / opt-out",
+    "newName": "Désinscription / opt-out (communication client)",
+    "group": "G05",
+    "module": "M22"
+  },
+  {
+    "id": "3578db15623a8173bb1cdc9f5ba66f36",
+    "oldName": "Gestion des clés API & tokens",
+    "newName": "Gestion des clés API & tokens (administrer)",
+    "group": "G06",
+    "module": "M41"
+  },
+  {
+    "id": "3578db15623a8173bcaadfc2a610ac64",
+    "oldName": "Mes factures (loyer, charges, services)",
+    "newName": "Mes factures (espace personnel)",
+    "group": "G01",
+    "module": "M39"
+  },
+  {
+    "id": "3578db15623a8175852ff6bdd3fb2dbe",
+    "oldName": "Voir les participants",
+    "newName": "Voir les participants (clients / crm)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a81759253d1b8162b4256",
+    "oldName": "Dashboard accueil (home)",
+    "newName": "Dashboard accueil (statistiques & reporting)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a8176b5fcde8a25917363",
+    "oldName": "Panier moyen par séjour",
+    "newName": "Panier moyen par séjour (panier d'achat)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a8176bae9c9966faf6b05",
+    "oldName": "Minimum de séjour",
+    "newName": "Minimum de séjour (paramètres tarifs)",
+    "group": "G05",
+    "module": "M27"
+  },
+  {
+    "id": "3578db15623a8177b4a5c74dfdc74768",
+    "oldName": "Page de connexion",
+    "newName": "Page de connexion (page de l'interface)",
+    "group": "G06",
+    "module": "M28"
+  },
+  {
+    "id": "3578db15623a817885f6eadcf4eaf21d",
+    "oldName": "Sessions actives",
+    "newName": "Sessions actives (administration)",
+    "group": "G06",
+    "module": "M30"
+  },
+  {
+    "id": "3578db15623a8179987ec5a34cdb0b4e",
+    "oldName": "Comparatif vs N-1, N-2",
+    "newName": "Comparatif vs N-1, N-2 (statistiques & reporting)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a8179a045d1f0127d4e35",
+    "oldName": "Fiche partenaire / application",
+    "newName": "Fiche partenaire / application (détail et édition partenaire / application)",
+    "group": "G06",
+    "module": "M41"
+  },
+  {
+    "id": "3578db15623a817a9c9df2c5393e5c16",
+    "oldName": "Sauvegardes (manuelles & auto)",
+    "newName": "Sauvegardes (administration)",
+    "group": "G06",
+    "module": "M30"
+  },
+  {
+    "id": "3578db15623a817aab5cc4de618b843f",
+    "oldName": "Pickup (rythme de prise de réservation)",
+    "newName": "Pickup (statistiques & reporting)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a817ab986d6a64d374bb7",
+    "oldName": "Chiffre d'affaires (vue consolidée)",
+    "newName": "Chiffre d'affaires (suivi CA)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a817b8c48f056c68045bd",
+    "oldName": "Logs techniques",
+    "newName": "Logs techniques (journaux techniques)",
+    "group": "G07",
+    "module": "M37"
+  },
+  {
+    "id": "3578db15623a817b9f08ea6e0f499fae",
+    "oldName": "Liste emplacements",
+    "newName": "Liste emplacements (annuaire)",
+    "group": "G04",
+    "module": "M11"
+  },
+  {
+    "id": "3578db15623a817c9861cf9fa36562a5",
+    "oldName": "Animaux du séjour",
+    "newName": "Animaux du séjour (séjours / front‑desk)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a817cbfbde5749f193506",
+    "oldName": "Restrictions de séjour (min stay, max stay)",
+    "newName": "Restrictions de séjour (tarifs & revenue management)",
+    "group": "G04",
+    "module": "M10"
+  },
+  {
+    "id": "3578db15623a817d98bbeac2c0a830a9",
+    "oldName": "Fiche CE",
+    "newName": "Fiche CE (détail et édition ce)",
+    "group": "G04",
+    "module": "M07"
+  },
+  {
+    "id": "3578db15623a817db72bcf58ca27be47",
+    "oldName": "Liste des OTA connectées (Booking, Camping.fr, Capfun…)",
+    "newName": "Liste des OTA connectées (consulter et filtrer ota connectées)",
+    "group": "G04",
+    "module": "M09"
+  },
+  {
+    "id": "3578db15623a817dbedfd5f49612a11b",
+    "oldName": "Taux d'occupation (jour, semaine, mois)",
+    "newName": "Taux d'occupation (mesurer un taux)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a817ea8a4c1f52e2f3b95",
+    "oldName": "Transfert de séjour (changement emplacement)",
+    "newName": "Transfert de séjour (déplacer vers un autre emplacement)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a817eb3c4e0f88fc90885",
+    "oldName": "Ouverture de caisse (fond de caisse)",
+    "newName": "Ouverture de caisse (ouvrir une session)",
+    "group": "G03",
+    "module": "M14"
+  },
+  {
+    "id": "3578db15623a817f8398dccd1e473b8d",
+    "oldName": "Facturier (numérotation continue)",
+    "newName": "Facturier (facturation)",
+    "group": "G03",
+    "module": "M16"
+  },
+  {
+    "id": "3578db15623a81809952ed01cb839abb",
+    "oldName": "Reversement / quote-part propriétaire",
+    "newName": "Reversement / quote-part propriétaire (espace résident en ligne)",
+    "group": "G01",
+    "module": "M39"
+  },
+  {
+    "id": "3578db15623a8180a795dff39f12e67c",
+    "oldName": "Taux d'annulation",
+    "newName": "Taux d'annulation (mesurer un taux)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a81818152e48fc7d5884b",
+    "oldName": "Périodes (dates clés de saison)",
+    "newName": "Périodes (paramètres saison)",
+    "group": "G05",
+    "module": "M24"
+  },
+  {
+    "id": "3578db15623a8181925ce75e6222ab12",
+    "oldName": "Identité visuelle (logo, couleurs, polices)",
+    "newName": "Identité visuelle (paramètres système)",
+    "group": "G06",
+    "module": "M28"
+  },
+  {
+    "id": "3578db15623a8181b178edcc531048ed",
+    "oldName": "Émission facturation groupe (globale ou éclatée)",
+    "newName": "Émission facturation groupe (document comptable)",
+    "group": "G04",
+    "module": "M05"
+  },
+  {
+    "id": "3578db15623a8181ba48d765091510a3",
+    "oldName": "App espace résident (propriétaires mobil-home)",
+    "newName": "App espace résident (mobile / terrain)",
+    "group": "G07",
+    "module": "M36"
+  },
+  {
+    "id": "3578db15623a818281a1fef9e86582c6",
+    "oldName": "Sorties de stock (ventes auto, retraits manuels)",
+    "newName": "Sorties de stock (stock / inventaire)",
+    "group": "G02",
+    "module": "M19"
+  },
+  {
+    "id": "3578db15623a81829723f5b737ee5fb7",
+    "oldName": "Import / export catalogue (CSV)",
+    "newName": "Import / export catalogue (importer en masse)",
+    "group": "G05",
+    "module": "M40"
+  },
+  {
+    "id": "3578db15623a8183be5bff6b9e34b39b",
+    "oldName": "Connexion résident",
+    "newName": "Connexion résident (authentification)",
+    "group": "G01",
+    "module": "M39"
+  },
+  {
+    "id": "3578db15623a818582f4f6f2c9ad4061",
+    "oldName": "Comparatifs saison vs N-1",
+    "newName": "Comparatifs saison vs N-1 (rapports de gestion)",
+    "group": "G07",
+    "module": "M33"
+  },
+  {
+    "id": "3578db15623a818592ccc67092aa7c0e",
+    "oldName": "Contrôle pièces / documentation",
+    "newName": "Contrôle pièces / documentation (contrôler / vérifier)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a8185a42eead61ff4f260",
+    "oldName": "Émission multi-séjour (regroupement)",
+    "newName": "Émission multi-séjour (facturation)",
+    "group": "G03",
+    "module": "M16"
+  },
+  {
+    "id": "3578db15623a8185be93cf5633bac10a",
+    "oldName": "Journaux de connexion",
+    "newName": "Journaux de connexion (administration)",
+    "group": "G06",
+    "module": "M30"
+  },
+  {
+    "id": "3578db15623a81869af2f75f3814d890",
+    "oldName": "Fiche article (libellé, prix, TVA, image)",
+    "newName": "Fiche article (détail et édition article)",
+    "group": "G05",
+    "module": "M40"
+  },
+  {
+    "id": "3578db15623a8186be02dbf931dad363",
+    "oldName": "Modèles SMS",
+    "newName": "Modèles SMS (communication client)",
+    "group": "G05",
+    "module": "M22"
+  },
+  {
+    "id": "3578db15623a8187aaacd819e2303ab2",
+    "oldName": "Demande de fonctionnalité (feature request)",
+    "newName": "Demande de fonctionnalité (outils de support interne)",
+    "group": "G07",
+    "module": "M37"
+  },
+  {
+    "id": "3578db15623a81888594ca04a6ee6dac",
+    "oldName": "Répartition par emplacements",
+    "newName": "Répartition par emplacements (groupes)",
+    "group": "G04",
+    "module": "M05"
+  },
+  {
+    "id": "3578db15623a8188b933fb3407a59a86",
+    "oldName": "Remboursements",
+    "newName": "Remboursements (encaissements)",
+    "group": "G03",
+    "module": "M13"
+  },
+  {
+    "id": "3578db15623a8188bb12fac5fc1503da",
+    "oldName": "Fiche facture",
+    "newName": "Fiche facture (détail et édition facture)",
+    "group": "G03",
+    "module": "M16"
+  },
+  {
+    "id": "3578db15623a8188bdb7f430dca0b3e4",
+    "oldName": "Consentements RGPD",
+    "newName": "Consentements RGPD (clients / crm)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a81898fd0ccb4130e8309",
+    "oldName": "Caution résident",
+    "newName": "Caution résident (gestion caution)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a818a875ad40f1df89061",
+    "oldName": "Liste des promotions actives",
+    "newName": "Liste des promotions actives (consulter et filtrer promotions actives)",
+    "group": "G04",
+    "module": "M10"
+  },
+  {
+    "id": "3578db15623a818b8cd6eca83cd87ecc",
+    "oldName": "Délai de paiement",
+    "newName": "Délai de paiement (paramètres tarifs)",
+    "group": "G05",
+    "module": "M27"
+  },
+  {
+    "id": "3578db15623a818bbb87ef911c376d02",
+    "oldName": "Surclassement automatique",
+    "newName": "Surclassement automatique (upgrade catégorie)",
+    "group": "G04",
+    "module": "M10"
+  },
+  {
+    "id": "3578db15623a818cb36fddf3acacc0ed",
+    "oldName": "Demandes d'avis (post-séjour)",
+    "newName": "Demandes d'avis (communication client)",
+    "group": "G05",
+    "module": "M22"
+  },
+  {
+    "id": "3578db15623a818da148faa19e48fc00",
+    "oldName": "Rotation d'usage",
+    "newName": "Rotation d'usage (emplacements / hébergements)",
+    "group": "G04",
+    "module": "M11"
+  },
+  {
+    "id": "3578db15623a818db6f2f0f07bfb0f3d",
+    "oldName": "Liste des arrivants / participants",
+    "newName": "Liste des arrivants / participants (consulter et filtrer arrivants / participants)",
+    "group": "G04",
+    "module": "M05"
+  },
+  {
+    "id": "3578db15623a818fb97fde4550215ef2",
+    "oldName": "Bracelets cashless",
+    "newName": "Bracelets cashless (séjours / front‑desk)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a819085b3d2ddb350c593",
+    "oldName": "Plan du camping (configuration)",
+    "newName": "Plan du camping (plan visuel)",
+    "group": "G05",
+    "module": "M25"
+  },
+  {
+    "id": "3578db15623a8190a1d1c7d5d2d7b9c9",
+    "oldName": "Valorisation stock",
+    "newName": "Valorisation stock (valorisation comptable)",
+    "group": "G02",
+    "module": "M19"
+  },
+  {
+    "id": "3578db15623a8190a2bef4340c87f05c",
+    "oldName": "Contrôle des accès",
+    "newName": "Contrôle des accès (contrôler / vérifier)",
+    "group": "G07",
+    "module": "M35"
+  },
+  {
+    "id": "3578db15623a819283f9d9ee04e62409",
+    "oldName": "Erreurs de synchro",
+    "newName": "Erreurs de synchro (ota / distribution)",
+    "group": "G04",
+    "module": "M09"
+  },
+  {
+    "id": "3578db15623a81928408ed86029e41dc",
+    "oldName": "État des lieux entrée",
+    "newName": "État des lieux entrée (constat à l'arrivée)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a819288c3cff0d373cb75",
+    "oldName": "Duplication de séjour",
+    "newName": "Duplication de séjour (clients / crm)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a819290e6f271e03f5475",
+    "oldName": "Documents (contrat, règlement intérieur)",
+    "newName": "Documents (espace résident en ligne)",
+    "group": "G01",
+    "module": "M39"
+  },
+  {
+    "id": "3578db15623a81929237e0e98967746d",
+    "oldName": "Calendrier des automatisations",
+    "newName": "Calendrier des automatisations (vue calendrier)",
+    "group": "G05",
+    "module": "M23"
+  },
+  {
+    "id": "3578db15623a8193999ae4d393fc3d6b",
+    "oldName": "Liste des cautions",
+    "newName": "Liste des cautions (consulter et filtrer cautions)",
+    "group": "G03",
+    "module": "M15"
+  },
+  {
+    "id": "3578db15623a8193afffc91216c3fe94",
+    "oldName": "Liste d'attente / surbooking",
+    "newName": "Liste d'attente / surbooking (annuaire)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a8194a3d5ec137ca360ef",
+    "oldName": "Création d'avoir",
+    "newName": "Création d'avoir (saisir un nouvel élément)",
+    "group": "G03",
+    "module": "M16"
+  },
+  {
+    "id": "3578db15623a8194bcc8e23085d2e5b9",
+    "oldName": "Dates de rétrocession (libération auto)",
+    "newName": "Dates de rétrocession (tour‑opérateurs / agences)",
+    "group": "G04",
+    "module": "M06"
+  },
+  {
+    "id": "3578db15623a8195a681eee2d1c27f06",
+    "oldName": "Report de solde client",
+    "newName": "Report de solde client (encaissements)",
+    "group": "G03",
+    "module": "M13"
+  },
+  {
+    "id": "3578db15623a8195b461d7ac656da500",
+    "oldName": "Fiche option (avec date limite acompte)",
+    "newName": "Fiche option (détail et édition option)",
+    "group": "G01",
+    "module": "M02"
+  },
+  {
+    "id": "3578db15623a819687eee1cf67aa39a4",
+    "oldName": "Vacances scolaires (multi-zones)",
+    "newName": "Vacances scolaires (paramètres saison)",
+    "group": "G05",
+    "module": "M24"
+  },
+  {
+    "id": "3578db15623a8198a5d8db8bd931b3c3",
+    "oldName": "Suivi résolution (statut, temps passé)",
+    "newName": "Suivi résolution (monitorer en temps réel)",
+    "group": "G02",
+    "module": "M20"
+  },
+  {
+    "id": "3578db15623a8198abb2f3d75522373f",
+    "oldName": "Configuration taxe de séjour (tarifs, exemptions)",
+    "newName": "Configuration taxe de séjour (configurer)",
+    "group": "G03",
+    "module": "M17"
+  },
+  {
+    "id": "3578db15623a8198b213cc3be45a523a",
+    "oldName": "Recherche client",
+    "newName": "Recherche client (recherche multicritères)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a8199853ed746bc38d974",
+    "oldName": "Mode dégradé (hors ligne)",
+    "newName": "Mode dégradé (mobile / terrain)",
+    "group": "G07",
+    "module": "M36"
+  },
+  {
+    "id": "3578db15623a819993f1e1a180a860a8",
+    "oldName": "Détail d'un séjour",
+    "newName": "Détail d'un séjour (vue détaillée)",
+    "group": "G01",
+    "module": "M38"
+  },
+  {
+    "id": "3578db15623a819b87eef4d4a316613b",
+    "oldName": "Taux de conversion (devis → résa)",
+    "newName": "Taux de conversion (mesurer un taux)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a819ba5acc2892f12688d",
+    "oldName": "Authentification multi-facteur (MFA)",
+    "newName": "Authentification multi-facteur (authentification)",
+    "group": "G06",
+    "module": "M30"
+  },
+  {
+    "id": "3578db15623a819bb1ebd46012497b47",
+    "oldName": "Contrôle de caisse",
+    "newName": "Contrôle de caisse (contrôler / vérifier)",
+    "group": "G03",
+    "module": "M14"
+  },
+  {
+    "id": "3578db15623a819c842ee2b748a14f16",
+    "oldName": "Annulation / remboursement de vente",
+    "newName": "Annulation / remboursement de vente (annuler et gérer les conséquences)",
+    "group": "G02",
+    "module": "M18"
+  },
+  {
+    "id": "3578db15623a819ca865fa555ed34995",
+    "oldName": "Modèles de devis",
+    "newName": "Modèles de devis (devis & options)",
+    "group": "G01",
+    "module": "M02"
+  },
+  {
+    "id": "3578db15623a819cbf5ff5f607baf588",
+    "oldName": "Mapping produits PMS ↔ OTA",
+    "newName": "Mapping produits PMS ↔ OTA (correspondance entre systèmes)",
+    "group": "G04",
+    "module": "M09"
+  },
+  {
+    "id": "3578db15623a819d9d40eff64a45bcbb",
+    "oldName": "Catégories d'articles",
+    "newName": "Catégories d'articles (typologie)",
+    "group": "G05",
+    "module": "M40"
+  },
+  {
+    "id": "3578db15623a819ebd76df97c18ecac7",
+    "oldName": "Critères de filtre client (animaux OK, PMR…)",
+    "newName": "Critères de filtre client (critères de filtre)",
+    "group": "G04",
+    "module": "M11"
+  },
+  {
+    "id": "3578db15623a819f89e4f69e289e0def",
+    "oldName": "Liste des factures",
+    "newName": "Liste des factures (consulter et filtrer factures)",
+    "group": "G03",
+    "module": "M16"
+  },
+  {
+    "id": "3578db15623a819f8e9de546022073a3",
+    "oldName": "ADR (panier moyen par nuitée)",
+    "newName": "ADR (statistiques & reporting)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a819fb2d0f122cd3f6adf",
+    "oldName": "Expiration automatique d'option",
+    "newName": "Expiration automatique d'option (devis & options)",
+    "group": "G01",
+    "module": "M02"
+  },
+  {
+    "id": "3578db15623a81a19541f3d86d36aeeb",
+    "oldName": "App réception (check-in/out, paiement, dispos)",
+    "newName": "App réception (mobile / terrain)",
+    "group": "G07",
+    "module": "M36"
+  },
+  {
+    "id": "3578db15623a81a28504f4656b2d5a7b",
+    "oldName": "Traçabilité des données sensibles",
+    "newName": "Traçabilité des données sensibles (qualité / conformité)",
+    "group": "G07",
+    "module": "M35"
+  },
+  {
+    "id": "3578db15623a81a29479ff88963221b5",
+    "oldName": "Maximum de séjour",
+    "newName": "Maximum de séjour (paramètres tarifs)",
+    "group": "G05",
+    "module": "M27"
+  },
+  {
+    "id": "3578db15623a81a2a419c3b341c8b9c6",
+    "oldName": "Codes promo",
+    "newName": "Codes promo (référentiel codes)",
+    "group": "G04",
+    "module": "M10"
+  },
+  {
+    "id": "3578db15623a81a491e6d325e312f174",
+    "oldName": "Droits d'accès (matrice utilisateur × fonction)",
+    "newName": "Droits d'accès (gestion des droits)",
+    "group": "G06",
+    "module": "M30"
+  },
+  {
+    "id": "3578db15623a81a5b003cfaf854796c9",
+    "oldName": "Photos & galerie média",
+    "newName": "Photos & galerie média (galerie média)",
+    "group": "G05",
+    "module": "M26"
+  },
+  {
+    "id": "3578db15623a81a681d5ea22f00fbbea",
+    "oldName": "Grille des suppléments",
+    "newName": "Grille des suppléments (catalogue / référentiel)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a81a6b33cf9bb53b61ce7",
+    "oldName": "Articles inactifs / archivés",
+    "newName": "Articles inactifs / archivés (articles & catalogue ventes)",
+    "group": "G05",
+    "module": "M40"
+  },
+  {
+    "id": "3578db15623a81a780cbc9564f4e16bf",
+    "oldName": "Bibliothèque pièces jointes (CGV, plans, infos)",
+    "newName": "Bibliothèque pièces jointes (communication client)",
+    "group": "G05",
+    "module": "M22"
+  },
+  {
+    "id": "3578db15623a81a7a36ce8347776ddf6",
+    "oldName": "Fiche stock article (mouvements + niveau)",
+    "newName": "Fiche stock article (détail et édition stock article)",
+    "group": "G02",
+    "module": "M19"
+  },
+  {
+    "id": "3578db15623a81a88691feffb1cf0057",
+    "oldName": "Audit & traçabilité des échanges",
+    "newName": "Audit & traçabilité des échanges (piste d'audit)",
+    "group": "G06",
+    "module": "M41"
+  },
+  {
+    "id": "3578db15623a81a89015d602052111e0",
+    "oldName": "Catégories de suppléments",
+    "newName": "Catégories de suppléments (typologie)",
+    "group": "G04",
+    "module": "M12"
+  },
+  {
+    "id": "3578db15623a81a8a449d764b026e99f",
+    "oldName": "Retour d'expérience / avis",
+    "newName": "Retour d'expérience / avis (espace client en ligne)",
+    "group": "G01",
+    "module": "M38"
+  },
+  {
+    "id": "3578db15623a81a8b7e8d9c77bc0a72f",
+    "oldName": "Rupture de stock (alertes)",
+    "newName": "Rupture de stock (suppléments / matériel)",
+    "group": "G04",
+    "module": "M12"
+  },
+  {
+    "id": "3578db15623a81a98a00fec57ae81381",
+    "oldName": "Relevés compteurs (eau, électricité)",
+    "newName": "Relevés compteurs (résidents / longue durée)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a81a9a2f8ff1a66d65437",
+    "oldName": "Allotements CE",
+    "newName": "Allotements CE (allotement / contingent)",
+    "group": "G04",
+    "module": "M07"
+  },
+  {
+    "id": "3578db15623a81aa9811d496774f416a",
+    "oldName": "Exports planifiés (récurrents, envoi auto)",
+    "newName": "Exports planifiés (extraire les données)",
+    "group": "G07",
+    "module": "M31"
+  },
+  {
+    "id": "3578db15623a81aaa7ebd3f1bd41b1af",
+    "oldName": "Capacités (nb personnes, lits)",
+    "newName": "Capacités (emplacements / hébergements)",
+    "group": "G04",
+    "module": "M11"
+  },
+  {
+    "id": "3578db15623a81aab555f49fa069eca6",
+    "oldName": "État des lieux annuel",
+    "newName": "État des lieux annuel (constat hébergement)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a81abae93ee09bb2c5ba4",
+    "oldName": "Fiche supplément (libellé, prix, TVA, stock)",
+    "newName": "Fiche supplément (détail et édition supplément)",
+    "group": "G04",
+    "module": "M12"
+  },
+  {
+    "id": "3578db15623a81abbbc8efcf99e34ea1",
+    "oldName": "Purge programmée (RGPD)",
+    "newName": "Purge programmée (purge données)",
+    "group": "G06",
+    "module": "M30"
+  },
+  {
+    "id": "3578db15623a81ac8abccbe8aff0f3ae",
+    "oldName": "Journal TVA détaillé",
+    "newName": "Journal TVA détaillé (journal des opérations)",
+    "group": "G03",
+    "module": "M17"
+  },
+  {
+    "id": "3578db15623a81ac9cf7d044dd02cd49",
+    "oldName": "Rapport journalier (briefing du matin)",
+    "newName": "Rapport journalier (analyse des indicateurs)",
+    "group": "G07",
+    "module": "M33"
+  },
+  {
+    "id": "3578db15623a81ad83dcd8d074c3620f",
+    "oldName": "Annulations TO (avec frais éventuels)",
+    "newName": "Annulations TO (tour‑opérateurs / agences)",
+    "group": "G04",
+    "module": "M06"
+  },
+  {
+    "id": "3578db15623a81ad97adea5077792d04",
+    "oldName": "Déposer une période de sous-location",
+    "newName": "Déposer une période de sous-location (espace résident en ligne)",
+    "group": "G01",
+    "module": "M39"
+  },
+  {
+    "id": "3578db15623a81aeacd3ceb44702c0e8",
+    "oldName": "Préférences",
+    "newName": "Préférences (clients / crm)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a81afafd0da186157c731",
+    "oldName": "Suppléments tarifaires (pers. supp, animal…)",
+    "newName": "Suppléments tarifaires (paramètres tarifs)",
+    "group": "G05",
+    "module": "M27"
+  },
+  {
+    "id": "3578db15623a81b0a0cae8550a068742",
+    "oldName": "Bordereau de remise (détail)",
+    "newName": "Bordereau de remise (caisse)",
+    "group": "G03",
+    "module": "M14"
+  },
+  {
+    "id": "3578db15623a81b190f4de0c096aadc0",
+    "oldName": "Check-in (parcours d'arrivée)",
+    "newName": "Check-in (parcours d'arrivée client)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a81b297f7e321affaf466",
+    "oldName": "Barrières d'accès (parking, piscine)",
+    "newName": "Barrières d'accès (connexions / interfaces)",
+    "group": "G06",
+    "module": "M29"
+  },
+  {
+    "id": "3578db15623a81b2a85fe3fe6381d0bf",
+    "oldName": "Signatures électroniques (DocuSign, Yousign…)",
+    "newName": "Signatures électroniques (signature électronique)",
+    "group": "G06",
+    "module": "M29"
+  },
+  {
+    "id": "3578db15623a81b38036ce008c5d68fb",
+    "oldName": "Contrôle des règlements",
+    "newName": "Contrôle des règlements (contrôler / vérifier)",
+    "group": "G03",
+    "module": "M13"
+  },
+  {
+    "id": "3578db15623a81b49ce5d2a2f000927c",
+    "oldName": "Déplacement de séjour (drag & drop)",
+    "newName": "Déplacement de séjour (déplacer vers un autre emplacement)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a81b4a0efcb7606cf7a84",
+    "oldName": "Historique des modifications",
+    "newName": "Historique des modifications (consulter l'historique)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a81b4a1dac1cdce08785c",
+    "oldName": "Suivi des cautions actives",
+    "newName": "Suivi des cautions actives (monitorer en temps réel)",
+    "group": "G03",
+    "module": "M15"
+  },
+  {
+    "id": "3578db15623a81b5bb21f096316f72b2",
+    "oldName": "Liste des réservations",
+    "newName": "Liste des réservations (consulter et filtrer réservations)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a81b6a7a4cf77b96a0785",
+    "oldName": "Vue par lieu / emplacement",
+    "newName": "Vue par lieu / emplacement (synthèse visuelle)",
+    "group": "G02",
+    "module": "M20"
+  },
+  {
+    "id": "3578db15623a81b88c10dc4c27f74307",
+    "oldName": "Bons CE / chèques-vacances ANCV",
+    "newName": "Bons CE / chèques-vacances ANCV (ce / collectivités)",
+    "group": "G04",
+    "module": "M07"
+  },
+  {
+    "id": "3578db15623a81b999c3e77730037279",
+    "oldName": "Mes séjours (à venir / passés)",
+    "newName": "Mes séjours (espace personnel)",
+    "group": "G01",
+    "module": "M38"
+  },
+  {
+    "id": "3578db15623a81b9a006d315cc49cab3",
+    "oldName": "Forecast occupation",
+    "newName": "Forecast occupation (statistiques & reporting)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a81baab7bcfd2513b086c",
+    "oldName": "Intégrations comptabilité (Sage, EBP, Cegid…)",
+    "newName": "Intégrations comptabilité (connexions / interfaces)",
+    "group": "G06",
+    "module": "M29"
+  },
+  {
+    "id": "3578db15623a81bb8a3be7c76b32f1df",
+    "oldName": "Affectation équipes / agents",
+    "newName": "Affectation équipes / agents (affecter ressource)",
+    "group": "G02",
+    "module": "M21"
+  },
+  {
+    "id": "3578db15623a81bb9055fa2cc0949213",
+    "oldName": "Réimpression / duplicata",
+    "newName": "Réimpression / duplicata (facturation)",
+    "group": "G03",
+    "module": "M16"
+  },
+  {
+    "id": "3578db15623a81bca654c5b66c80cf48",
+    "oldName": "Journal des erreurs applicatives",
+    "newName": "Journal des erreurs applicatives (journal des opérations)",
+    "group": "G07",
+    "module": "M37"
+  },
+  {
+    "id": "3578db15623a81bd9d77c28ddd97e405",
+    "oldName": "Sélection articles (favoris + recherche)",
+    "newName": "Sélection articles (ventes réception)",
+    "group": "G02",
+    "module": "M18"
+  },
+  {
+    "id": "3578db15623a81be824fdb8a18478c60",
+    "oldName": "Échéancier de paiement",
+    "newName": "Échéancier de paiement (résidents / longue durée)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a81be90c6c5936bbb9ddf",
+    "oldName": "Groupes / équipes",
+    "newName": "Groupes / équipes (groupes utilisateurs)",
+    "group": "G06",
+    "module": "M30"
+  },
+  {
+    "id": "3578db15623a81bf8326cbf3e4c58efd",
+    "oldName": "Notes internes",
+    "newName": "Notes internes (clients / crm)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a81bf9126d1e051a9cdd0",
+    "oldName": "Statut hébergement (à faire / en cours / fait / contrôlé)",
+    "newName": "Statut hébergement (ménage / housekeeping)",
+    "group": "G02",
+    "module": "M21"
+  },
+  {
+    "id": "3578db15623a81bfbab3d4426461f6ef",
+    "oldName": "Planning recherche disponibilité",
+    "newName": "Planning recherche disponibilité (vue calendrier)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a81c097b9f00d3bffca8c",
+    "oldName": "Simulateur de prix",
+    "newName": "Simulateur de prix (tarifs & revenue management)",
+    "group": "G04",
+    "module": "M10"
+  },
+  {
+    "id": "3578db15623a81c4abd6c245798f7516",
+    "oldName": "Contrôle qualité (par superviseur)",
+    "newName": "Contrôle qualité (contrôler / vérifier)",
+    "group": "G02",
+    "module": "M21"
+  },
+  {
+    "id": "3578db15623a81c58479ed1a36325095",
+    "oldName": "Rapport fiscal périodique",
+    "newName": "Rapport fiscal périodique (analyse des indicateurs)",
+    "group": "G07",
+    "module": "M33"
+  },
+  {
+    "id": "3578db15623a81c6a35dfa0caff817ae",
+    "oldName": "Demandes depuis espace client / résident",
+    "newName": "Demandes depuis espace client / résident (interventions)",
+    "group": "G02",
+    "module": "M20"
+  },
+  {
+    "id": "3578db15623a81c7a4ffcad574164d9a",
+    "oldName": "Envoi mails (templates + PJ)",
+    "newName": "Envoi mails (envoyer document / message)",
+    "group": "G05",
+    "module": "M22"
+  },
+  {
+    "id": "3578db15623a81c7a943d2ffb2ec976b",
+    "oldName": "Règles d'ouverture (par catégorie d'hébergement)",
+    "newName": "Règles d'ouverture (paramètres saison)",
+    "group": "G05",
+    "module": "M24"
+  },
+  {
+    "id": "3578db15623a81c7a972d08acb258d1f",
+    "oldName": "Vue CRM 360°",
+    "newName": "Vue CRM 360° (synthèse visuelle)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a81c8921ed0464595aa3e",
+    "oldName": "Création de promotion",
+    "newName": "Création de promotion (saisir un nouvel élément)",
+    "group": "G04",
+    "module": "M10"
+  },
+  {
+    "id": "3578db15623a81c8950ad1f9b6580e5a",
+    "oldName": "Exports comptables (Sage, EBP, Cegid…)",
+    "newName": "Exports comptables (extraire les données)",
+    "group": "G03",
+    "module": "M17"
+  },
+  {
+    "id": "3578db15623a81c99ff9cbb442bdbc87",
+    "oldName": "Prise de caution (espèces, chèque, CB)",
+    "newName": "Prise de caution (encaisser la caution)",
+    "group": "G03",
+    "module": "M15"
+  },
+  {
+    "id": "3578db15623a81c9a3b5c0ccf2516fc5",
+    "oldName": "Liste stock (état temps réel)",
+    "newName": "Liste stock (annuaire)",
+    "group": "G02",
+    "module": "M19"
+  },
+  {
+    "id": "3578db15623a81c9bd3ef623fb16e4c1",
+    "oldName": "Rapport de fin de saison",
+    "newName": "Rapport de fin de saison (analyse des indicateurs)",
+    "group": "G07",
+    "module": "M33"
+  },
+  {
+    "id": "3578db15623a81ca870cdec1ea976dcb",
+    "oldName": "Diagnostics système (santé du PMS)",
+    "newName": "Diagnostics système (outils de support interne)",
+    "group": "G07",
+    "module": "M37"
+  },
+  {
+    "id": "3578db15623a81ca978ec4337a12c177",
+    "oldName": "Planning groupe (vue dédiée)",
+    "newName": "Planning groupe (vue calendrier)",
+    "group": "G04",
+    "module": "M05"
+  },
+  {
+    "id": "3578db15623a81cab7a1c6b39a5dd833",
+    "oldName": "Bons d'échange / vouchers (réception & validation)",
+    "newName": "Bons d'échange / vouchers (tour‑opérateurs / agences)",
+    "group": "G04",
+    "module": "M06"
+  },
+  {
+    "id": "3578db15623a81cabc11e5622b6b8f98",
+    "oldName": "Exercice comptable courant",
+    "newName": "Exercice comptable courant (exercice comptable)",
+    "group": "G06",
+    "module": "M30"
+  },
+  {
+    "id": "3578db15623a81cd8278cd99f5a7ff4d",
+    "oldName": "Journal des actions (audit fonctionnel)",
+    "newName": "Journal des actions (journal des opérations)",
+    "group": "G07",
+    "module": "M35"
+  },
+  {
+    "id": "3578db15623a81cda41eeab35ff02d25",
+    "oldName": "Pré-blocage de places (allotement)",
+    "newName": "Pré-blocage de places (groupes)",
+    "group": "G04",
+    "module": "M05"
+  },
+  {
+    "id": "3578db15623a81cdbf4cf16f6e5f95f8",
+    "oldName": "Jours spécifiques (événements locaux)",
+    "newName": "Jours spécifiques (calendrier de jours spécifiques)",
+    "group": "G05",
+    "module": "M24"
+  },
+  {
+    "id": "3578db15623a81cea020ce0a38129251",
+    "oldName": "Hébergements en travaux / hors service",
+    "newName": "Hébergements en travaux / hors service (emplacements / hébergements)",
+    "group": "G04",
+    "module": "M11"
+  },
+  {
+    "id": "3578db15623a81cea58ec6c8565e7497",
+    "oldName": "Paramètres régionaux (format date, décimaux)",
+    "newName": "Paramètres régionaux (configurer)",
+    "group": "G06",
+    "module": "M28"
+  },
+  {
+    "id": "3578db15623a81cf843bf6fbb058eb8f",
+    "oldName": "Signalement problème → création intervention",
+    "newName": "Signalement problème → création intervention (ménage / housekeeping)",
+    "group": "G02",
+    "module": "M21"
+  },
+  {
+    "id": "3578db15623a81cf89b9db04189942d8",
+    "oldName": "App ménage / housekeeping",
+    "newName": "App ménage / housekeeping (mobile / terrain)",
+    "group": "G07",
+    "module": "M36"
+  },
+  {
+    "id": "3578db15623a81cf97e7d033aadf15d6",
+    "oldName": "Liste des adhérents fidélité",
+    "newName": "Liste des adhérents fidélité (consulter et filtrer adhérents fidélité)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a81cfb5d8ce250359d597",
+    "oldName": "Aide contextuelle in-app",
+    "newName": "Aide contextuelle in-app (outils de support interne)",
+    "group": "G07",
+    "module": "M37"
+  },
+  {
+    "id": "3578db15623a81cfbf42e9477ea6b267",
+    "oldName": "Comparatif vs N-1",
+    "newName": "Comparatif vs N-1 (tarifs & revenue management)",
+    "group": "G04",
+    "module": "M10"
+  },
+  {
+    "id": "3578db15623a81d08f78cf34a70107ef",
+    "oldName": "Alertes de conformité",
+    "newName": "Alertes de conformité (qualité / conformité)",
+    "group": "G07",
+    "module": "M35"
+  },
+  {
+    "id": "3578db15623a81d093bfc5a559eab6d0",
+    "oldName": "Entrées de stock (réceptions, transferts)",
+    "newName": "Entrées de stock (stock / inventaire)",
+    "group": "G02",
+    "module": "M19"
+  },
+  {
+    "id": "3578db15623a81d0af83d65136528f93",
+    "oldName": "Écarts d'inventaire",
+    "newName": "Écarts d'inventaire (comptage)",
+    "group": "G02",
+    "module": "M19"
+  },
+  {
+    "id": "3578db15623a81d0b77ddc144779a110",
+    "oldName": "Échéancier de paiement",
+    "newName": "Échéancier de paiement (encaissements)",
+    "group": "G03",
+    "module": "M13"
+  },
+  {
+    "id": "3578db15623a81d183b8f1db35289c78",
+    "oldName": "Constructeur de requêtes (sélection champs)",
+    "newName": "Constructeur de requêtes (extractions / exports)",
+    "group": "G07",
+    "module": "M31"
+  },
+  {
+    "id": "3578db15623a81d19dc1d32e4b380a99",
+    "oldName": "Multi-TVA (taux applicables)",
+    "newName": "Multi-TVA (paramètres tarifs)",
+    "group": "G05",
+    "module": "M27"
+  },
+  {
+    "id": "3578db15623a81d1b943f55f008a3358",
+    "oldName": "Pertes & casses",
+    "newName": "Pertes & casses (gérer pertes et casses)",
+    "group": "G02",
+    "module": "M19"
+  },
+  {
+    "id": "3578db15623a81d1bb37ebd448737f64",
+    "oldName": "Ajouter supplément au séjour",
+    "newName": "Ajouter supplément au séjour (ajouter au séjour)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a81d28fe0e5e9c3c328e7",
+    "oldName": "Journal des encaissements",
+    "newName": "Journal des encaissements (journal des opérations)",
+    "group": "G03",
+    "module": "M13"
+  },
+  {
+    "id": "3578db15623a81d29b8ddb28fd927581",
+    "oldName": "Archivage légal (10 ans)",
+    "newName": "Archivage légal (archiver pour conformité)",
+    "group": "G03",
+    "module": "M17"
+  },
+  {
+    "id": "3578db15623a81d2a5f1e942688980c6",
+    "oldName": "Litiges & retenues sur caution",
+    "newName": "Litiges & retenues sur caution (cautions / dépôts de garantie)",
+    "group": "G03",
+    "module": "M15"
+  },
+  {
+    "id": "3578db15623a81d480a5dfda02f04a24",
+    "oldName": "Historique des modifications",
+    "newName": "Historique des modifications (consulter l'historique)",
+    "group": "G07",
+    "module": "M35"
+  },
+  {
+    "id": "3578db15623a81d599cbd5a795a58f1a",
+    "oldName": "Suivi des sous-locations actives",
+    "newName": "Suivi des sous-locations actives (monitorer en temps réel)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a81d59ac8e1e723fa2563",
+    "oldName": "Notifications push temps réel",
+    "newName": "Notifications push temps réel (mobile / terrain)",
+    "group": "G07",
+    "module": "M36"
+  },
+  {
+    "id": "3578db15623a81d68c1acab2bfbb11f1",
+    "oldName": "Demandes / messagerie camping",
+    "newName": "Demandes / messagerie camping (espace client en ligne)",
+    "group": "G01",
+    "module": "M38"
+  },
+  {
+    "id": "3578db15623a81d6b336e34fc3b1dfed",
+    "oldName": "Exports/imports techniques (CSV, JSON)",
+    "newName": "Exports/imports techniques (extraction données)",
+    "group": "G06",
+    "module": "M29"
+  },
+  {
+    "id": "3578db15623a81d88812e4e937c33ed4",
+    "oldName": "Détail d'un ticket",
+    "newName": "Détail d'un ticket (vue détaillée)",
+    "group": "G02",
+    "module": "M18"
+  },
+  {
+    "id": "3578db15623a81d899c6c241437abab5",
+    "oldName": "Liste des séjours",
+    "newName": "Liste des séjours (consulter et filtrer séjours)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a81d99a1fc6efeba8bc3b",
+    "oldName": "Paiement en ligne de mes factures",
+    "newName": "Paiement en ligne de mes factures (règlement client)",
+    "group": "G01",
+    "module": "M39"
+  },
+  {
+    "id": "3578db15623a81d9a674ce88715b17cc",
+    "oldName": "Création devis (multi-canal)",
+    "newName": "Création devis (saisir un nouvel élément)",
+    "group": "G01",
+    "module": "M02"
+  },
+  {
+    "id": "3578db15623a81d9affbec45766ce443",
+    "oldName": "Règles de ménage par modèle",
+    "newName": "Règles de ménage par modèle (paramètres hébergements locatifs)",
+    "group": "G05",
+    "module": "M26"
+  },
+  {
+    "id": "3578db15623a81d9b3ede24450777c21",
+    "oldName": "Tarification par période",
+    "newName": "Tarification par période (articles & catalogue ventes)",
+    "group": "G05",
+    "module": "M40"
+  },
+  {
+    "id": "3578db15623a81db8716dfc10184c1c3",
+    "oldName": "Catégories commerciales (Premium, Standard, Eco)",
+    "newName": "Catégories commerciales (typologie)",
+    "group": "G05",
+    "module": "M25"
+  },
+  {
+    "id": "3578db15623a81db8acac2b855917201",
+    "oldName": "Conversion option → réservation ferme",
+    "newName": "Conversion option → réservation ferme (transformer en étape suivante)",
+    "group": "G01",
+    "module": "M02"
+  },
+  {
+    "id": "3578db15623a81dba404e7fb725a0636",
+    "oldName": "Test à blanc d'une automatisation",
+    "newName": "Test à blanc d'une automatisation (automatisations / règles métier)",
+    "group": "G05",
+    "module": "M23"
+  },
+  {
+    "id": "3578db15623a81dba6aac53a362832ca",
+    "oldName": "Création compte fidélité",
+    "newName": "Création compte fidélité (saisir un nouvel élément)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a81dda86acd73c122425c",
+    "oldName": "Blocage emplacement (maintenance / owner)",
+    "newName": "Blocage emplacement (bloquer ressource ou créneau)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a81dda960f2f84986a0a5",
+    "oldName": "Liste des TO / agences",
+    "newName": "Liste des TO / agences (consulter et filtrer to / agences)",
+    "group": "G04",
+    "module": "M06"
+  },
+  {
+    "id": "3578db15623a81ddae5bc1af47ae37ab",
+    "oldName": "Actions (email, tâche, notification, API)",
+    "newName": "Actions (automatisations / règles métier)",
+    "group": "G05",
+    "module": "M23"
+  },
+  {
+    "id": "3578db15623a81ddaed6f86e354b0654",
+    "oldName": "Imprimantes tickets / factures",
+    "newName": "Imprimantes tickets / factures (document comptable)",
+    "group": "G06",
+    "module": "M29"
+  },
+  {
+    "id": "3578db15623a81de914ed2dab238c006",
+    "oldName": "Journal de caisse",
+    "newName": "Journal de caisse (journal des opérations)",
+    "group": "G03",
+    "module": "M14"
+  },
+  {
+    "id": "3578db15623a81dea7fbe0fefaac34d6",
+    "oldName": "Contrat / bail résidentiel",
+    "newName": "Contrat / bail résidentiel (document contractuel)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a81debe36f715b5a6377d",
+    "oldName": "Saisie paiement",
+    "newName": "Saisie paiement (saisie manuelle)",
+    "group": "G03",
+    "module": "M13"
+  },
+  {
+    "id": "3578db15623a81df9ccaf547a6edf58a",
+    "oldName": "Contrats CE / convention",
+    "newName": "Contrats CE / convention (document contractuel)",
+    "group": "G04",
+    "module": "M07"
+  },
+  {
+    "id": "3578db15623a81dfa880c101b81e701a",
+    "oldName": "Tracking conversion / abandons",
+    "newName": "Tracking conversion / abandons (ota / distribution)",
+    "group": "G04",
+    "module": "M09"
+  },
+  {
+    "id": "3578db15623a81e09224ed135393469e",
+    "oldName": "Familles de TVA",
+    "newName": "Familles de TVA (articles & catalogue ventes)",
+    "group": "G05",
+    "module": "M40"
+  },
+  {
+    "id": "3578db15623a81e0937fca565a3c744a",
+    "oldName": "Validation / refus de sous-location",
+    "newName": "Validation / refus de sous-location (valider workflow)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a81e188a5e15d2cecba94",
+    "oldName": "Yield management (par jour, par catégorie)",
+    "newName": "Yield management (yield management)",
+    "group": "G04",
+    "module": "M10"
+  },
+  {
+    "id": "3578db15623a81e1a726d9549d5f9c96",
+    "oldName": "Écarts de caisse",
+    "newName": "Écarts de caisse (opérations de caisse)",
+    "group": "G03",
+    "module": "M14"
+  },
+  {
+    "id": "3578db15623a81e284b3f0d82688381d",
+    "oldName": "Tableaux de bord par rôle (direction, réception, exploitation)",
+    "newName": "Tableaux de bord par rôle (synthèse visuelle)",
+    "group": "G07",
+    "module": "M32"
+  },
+  {
+    "id": "3578db15623a81e28f2cf235a6204458",
+    "oldName": "Scan pièce d'identité",
+    "newName": "Scan pièce d'identité (numérisation document)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a81e29dd4c8c5d335f5a5",
+    "oldName": "Allotements TO (blocage de places)",
+    "newName": "Allotements TO (allotement / contingent)",
+    "group": "G04",
+    "module": "M06"
+  },
+  {
+    "id": "3578db15623a81e29f87cdbb49ecdb2b",
+    "oldName": "Avenants au contrat",
+    "newName": "Avenants au contrat (document contractuel)",
+    "group": "G04",
+    "module": "M08"
+  },
+  {
+    "id": "3578db15623a81e496a9f70d9262eb44",
+    "oldName": "Reporting centralisé multi-sites",
+    "newName": "Reporting centralisé multi-sites (multi-établissements / réseau)",
+    "group": "G07",
+    "module": "M34"
+  },
+  {
+    "id": "3578db15623a81e4a4fec6d0fb2076f4",
+    "oldName": "Logs d'exécution",
+    "newName": "Logs d'exécution (journaux techniques)",
+    "group": "G05",
+    "module": "M23"
+  },
+  {
+    "id": "3578db15623a81e4b7eff7cc0303b316",
+    "oldName": "Facture résident (longue durée)",
+    "newName": "Facture résident (document comptable)",
+    "group": "G03",
+    "module": "M16"
+  },
+  {
+    "id": "3578db15623a81e58328cd66cbab7245",
+    "oldName": "Catalogue des exports prédéfinis",
+    "newName": "Catalogue des exports prédéfinis (référentiel produits)",
+    "group": "G07",
+    "module": "M31"
+  },
+  {
+    "id": "3578db15623a81e589a8cae00051d913",
+    "oldName": "Fiche intervention (description, photos, commentaires)",
+    "newName": "Fiche intervention (détail et édition intervention)",
+    "group": "G02",
+    "module": "M20"
+  },
+  {
+    "id": "3578db15623a81e5a809c756e7d70e58",
+    "oldName": "Annulation de réservation",
+    "newName": "Annulation de réservation (annuler et gérer les conséquences)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a81e6a0e7f214d80ee91a",
+    "oldName": "Tarifs par segment (direct, OTA, TO, CE)",
+    "newName": "Tarifs par segment (tarifs & revenue management)",
+    "group": "G04",
+    "module": "M10"
+  },
+  {
+    "id": "3578db15623a81e7a726d41e9e7088e1",
+    "oldName": "Erreurs & alertes",
+    "newName": "Erreurs & alertes (automatisations / règles métier)",
+    "group": "G05",
+    "module": "M23"
+  },
+  {
+    "id": "3578db15623a81e7babdccc19b9ec599",
+    "oldName": "Restrictions de vente (min stay, fermetures)",
+    "newName": "Restrictions de vente (ota / distribution)",
+    "group": "G04",
+    "module": "M09"
+  },
+  {
+    "id": "3578db15623a81e8b87ad075898e63bd",
+    "oldName": "Fiche séjour",
+    "newName": "Fiche séjour (détail et édition séjour)",
+    "group": "G01",
+    "module": "M03"
+  },
+  {
+    "id": "3578db15623a81e8bde7edb3eb383ed6",
+    "oldName": "Liste des indisponibilités",
+    "newName": "Liste des indisponibilités (consulter et filtrer indisponibilités)",
+    "group": "G04",
+    "module": "M11"
+  },
+  {
+    "id": "3578db15623a81e98eefd29dfb324093",
+    "oldName": "Filtres & paramètres avant export",
+    "newName": "Filtres & paramètres avant export (extraction données)",
+    "group": "G07",
+    "module": "M31"
+  },
+  {
+    "id": "3578db15623a81e98fbac000f18378a7",
+    "oldName": "Synchronisation tarifs & dispos",
+    "newName": "Synchronisation tarifs & dispos (synchroniser avec système externe)",
+    "group": "G04",
+    "module": "M09"
+  },
+  {
+    "id": "3578db15623a81e9a33df693a6d208e0",
+    "oldName": "Transferts entre caisses (apport / prélèvement)",
+    "newName": "Transferts entre caisses (opérations de caisse)",
+    "group": "G03",
+    "module": "M14"
+  },
+  {
+    "id": "3578db15623a81e9aebcea853f2958e5",
+    "oldName": "Bracelets / badges cashless",
+    "newName": "Bracelets / badges cashless (connexions / interfaces)",
+    "group": "G06",
+    "module": "M29"
+  },
+  {
+    "id": "3578db15623a81ea9e08c26af55ffc41",
+    "oldName": "Rapport de production par TO (CA, taux remplissage)",
+    "newName": "Rapport de production par TO (analyse des indicateurs)",
+    "group": "G04",
+    "module": "M06"
+  },
+  {
+    "id": "3578db15623a81eabf20dfe2b96bcb1c",
+    "oldName": "App gestion (manager, KPI)",
+    "newName": "App gestion (mobile / terrain)",
+    "group": "G07",
+    "module": "M36"
+  },
+  {
+    "id": "3578db15623a81ebbdafed2053c14d32",
+    "oldName": "Lancer un export (CSV, Excel, PDF, JSON)",
+    "newName": "Lancer un export (extraction données)",
+    "group": "G07",
+    "module": "M31"
+  },
+  {
+    "id": "3578db15623a81ec89d1ca7e44c59b2f",
+    "oldName": "État de production (CA + nb résa par canal)",
+    "newName": "État de production (rapports de gestion)",
+    "group": "G07",
+    "module": "M33"
+  },
+  {
+    "id": "3578db15623a81ed9b81f4410a071cdf",
+    "oldName": "Disponibilité par jour",
+    "newName": "Disponibilité par jour (suppléments / matériel)",
+    "group": "G04",
+    "module": "M12"
+  },
+  {
+    "id": "3578db15623a81edb123c8945eca555a",
+    "oldName": "Réservations web entrantes (site direct)",
+    "newName": "Réservations web entrantes (gestion réservation)",
+    "group": "G01",
+    "module": "M02"
+  },
+  {
+    "id": "3578db15623a81ee808fe34ae451c348",
+    "oldName": "Informations établissement (nom, adresse, contact)",
+    "newName": "Informations établissement (paramètres système)",
+    "group": "G06",
+    "module": "M28"
+  },
+  {
+    "id": "3578db15623a81ee8beec7cdc02b2012",
+    "oldName": "Logs cashless",
+    "newName": "Logs cashless (journaux techniques)",
+    "group": "G07",
+    "module": "M35"
+  },
+  {
+    "id": "3578db15623a81ef9695fabecb534a84",
+    "oldName": "Règles d'attribution (rotation, état)",
+    "newName": "Règles d'attribution (paramètres hébergements locatifs)",
+    "group": "G05",
+    "module": "M26"
+  },
+  {
+    "id": "3578db15623a81efb21bd4eae20b2ae2",
+    "oldName": "Maintenance préventive (récurrence)",
+    "newName": "Maintenance préventive (maintenance technique)",
+    "group": "G02",
+    "module": "M20"
+  },
+  {
+    "id": "3578db15623a81f0a7e7ecbb5532242b",
+    "oldName": "Cautions partiellement utilisées",
+    "newName": "Cautions partiellement utilisées (gestion caution)",
+    "group": "G03",
+    "module": "M15"
+  },
+  {
+    "id": "3578db15623a81f1873fd1c4aafcb066",
+    "oldName": "Planning hebdomadaire",
+    "newName": "Planning hebdomadaire (vue calendrier)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a81f39318f59006fdbe99",
+    "oldName": "Blacklist / clients indésirables",
+    "newName": "Blacklist / clients indésirables (clients / crm)",
+    "group": "G04",
+    "module": "M04"
+  },
+  {
+    "id": "3578db15623a81f3971dcb48f27e3613",
+    "oldName": "Facture finale (de séjour)",
+    "newName": "Facture finale (document comptable)",
+    "group": "G03",
+    "module": "M16"
+  },
+  {
+    "id": "3578db15623a81f3a33eee0ba98bcdab",
+    "oldName": "Paiements partiels (échelonnés)",
+    "newName": "Paiements partiels (règlement client)",
+    "group": "G03",
+    "module": "M13"
+  },
+  {
+    "id": "3578db15623a81f3bc0bf97329eeab0a",
+    "oldName": "Demandes / contact gestion résident",
+    "newName": "Demandes / contact gestion résident (espace résident en ligne)",
+    "group": "G01",
+    "module": "M39"
+  },
+  {
+    "id": "3578db15623a81f3bc0feb894ef16b01",
+    "oldName": "Liste des réservations sur mon hébergement",
+    "newName": "Liste des réservations sur mon hébergement (consulter et filtrer réservations sur mon hébergement)",
+    "group": "G01",
+    "module": "M39"
+  },
+  {
+    "id": "3578db15623a81f4816cfb97f8ef0dee",
+    "oldName": "Descriptifs commerciaux (libellés, longs textes)",
+    "newName": "Descriptifs commerciaux (paramètres hébergements locatifs)",
+    "group": "G05",
+    "module": "M26"
+  },
+  {
+    "id": "3578db15623a81f4b462eecde83506bb",
+    "oldName": "Liste des suppléments",
+    "newName": "Liste des suppléments (consulter et filtrer suppléments)",
+    "group": "G04",
+    "module": "M12"
+  },
+  {
+    "id": "3578db15623a81f6b512ec8f210508d1",
+    "oldName": "Panier en cours",
+    "newName": "Panier en cours (panier d'achat)",
+    "group": "G02",
+    "module": "M18"
+  },
+  {
+    "id": "3578db15623a81f7aebedb42762d17c7",
+    "oldName": "Relances impayés (auto + manuel)",
+    "newName": "Relances impayés (relancer client / partenaire)",
+    "group": "G03",
+    "module": "M13"
+  },
+  {
+    "id": "3578db15623a81f9813efdfbe4aaf66b",
+    "oldName": "Détail des calculs devis",
+    "newName": "Détail des calculs devis (vue détaillée)",
+    "group": "G01",
+    "module": "M02"
+  },
+  {
+    "id": "3578db15623a81f99266eeb587471bb5",
+    "oldName": "Remises en banque",
+    "newName": "Remises en banque (remise commerciale)",
+    "group": "G03",
+    "module": "M14"
+  },
+  {
+    "id": "3578db15623a81f9abadcdb195fceb62",
+    "oldName": "Réconciliation des commissions OTA",
+    "newName": "Réconciliation des commissions OTA (rapprochement comptable)",
+    "group": "G04",
+    "module": "M09"
+  },
+  {
+    "id": "3578db15623a81fa83d3cc64bbc74173",
+    "oldName": "Plan du camping (vue géographique)",
+    "newName": "Plan du camping (plan visuel)",
+    "group": "G01",
+    "module": "M01"
+  },
+  {
+    "id": "3578db15623a81fa8bc1f6574d762eae",
+    "oldName": "Vue globale réseau",
+    "newName": "Vue globale réseau (synthèse visuelle)",
+    "group": "G07",
+    "module": "M34"
+  },
+  {
+    "id": "3578db15623a81fa9083dea9f8d7d246",
+    "oldName": "Conditions (filtres, si/sinon)",
+    "newName": "Conditions (automatisations / règles métier)",
+    "group": "G05",
+    "module": "M23"
+  },
+  {
+    "id": "3578db15623a81faa19ddfecf45a7615",
+    "oldName": "Connexion / création de compte client",
+    "newName": "Connexion / création de compte client (authentification)",
+    "group": "G01",
+    "module": "M38"
+  },
+  {
+    "id": "3578db15623a81faa1fee7704171e0b3",
+    "oldName": "Devises (par défaut)",
+    "newName": "Devises (paramètres système)",
+    "group": "G06",
+    "module": "M28"
+  },
+  {
+    "id": "3578db15623a81faacdad84bfb4eac28",
+    "oldName": "Planning ménage (vue jour/semaine)",
+    "newName": "Planning ménage (vue calendrier)",
+    "group": "G02",
+    "module": "M21"
+  },
+  {
+    "id": "3578db15623a81fb8df3f967fb126911",
+    "oldName": "Historique d'occupation",
+    "newName": "Historique d'occupation (consulter l'historique)",
+    "group": "G04",
+    "module": "M11"
+  },
+  {
+    "id": "3578db15623a81fbac90dbf1bfbac45a",
+    "oldName": "Ouverture / fermeture du camping",
+    "newName": "Ouverture / fermeture du camping (ouvrir une session)",
+    "group": "G05",
+    "module": "M24"
+  },
+  {
+    "id": "3578db15623a81fc83fbd56c5a98d622",
+    "oldName": "Liste des avoirs",
+    "newName": "Liste des avoirs (consulter et filtrer avoirs)",
+    "group": "G03",
+    "module": "M16"
+  },
+  {
+    "id": "3578db15623a81fc94a4f947559fe982",
+    "oldName": "Grilles tarifaires TO",
+    "newName": "Grilles tarifaires TO (catalogue / référentiel)",
+    "group": "G04",
+    "module": "M06"
+  },
+  {
+    "id": "3578db15623a81fc9c42f5f975adcc5c",
+    "oldName": "Surveillance temps réel des barrières",
+    "newName": "Surveillance temps réel des barrières (qualité / conformité)",
+    "group": "G07",
+    "module": "M35"
+  },
+  {
+    "id": "3578db15623a81fe80d6cadb6150d7f0",
+    "oldName": "Licences logicielles",
+    "newName": "Licences logicielles (licences logicielles)",
+    "group": "G06",
+    "module": "M28"
+  },
+  {
+    "id": "3578db15623a81fe92affe247b31264e",
+    "oldName": "Suivi des paiements groupe",
+    "newName": "Suivi des paiements groupe (monitorer en temps réel)",
+    "group": "G04",
+    "module": "M05"
+  },
+  {
+    "id": "3578db15623a81feb6dbe38953dbaf06",
+    "oldName": "Passerelles paiement (Stripe, Adyen, Lyra…)",
+    "newName": "Passerelles paiement (intégration paiement)",
+    "group": "G06",
+    "module": "M29"
+  },
+  {
+    "id": "3578db15623a81feb727fa30becb80e2",
+    "oldName": "Maintenance technique",
+    "newName": "Maintenance technique (maintenance technique)",
+    "group": "G06",
+    "module": "M30"
+  },
+  {
+    "id": "3578db15623a81febf5deb961080c17b",
+    "oldName": "Rectification de facture (conforme NF525)",
+    "newName": "Rectification de facture (document comptable)",
+    "group": "G03",
+    "module": "M16"
+  },
+  {
+    "id": "3578db15623a81ff8171fab4799a8d69",
+    "oldName": "Envoi manuel (mail / SMS individuel)",
+    "newName": "Envoi manuel (envoyer document / message)",
+    "group": "G05",
+    "module": "M22"
+  },
+  {
+    "id": "3578db15623a81ff86c6d34123534fef",
+    "oldName": "Suppléments liés à un type d'hébergement",
+    "newName": "Suppléments liés à un type d'hébergement (suppléments / matériel)",
+    "group": "G04",
+    "module": "M12"
+  },
+  {
+    "id": "3578db15623a81ff9fb1d5fc9f68c735",
+    "oldName": "Vue d'ensemble tarifs actifs",
+    "newName": "Vue d'ensemble tarifs actifs (synthèse visuelle)",
+    "group": "G04",
+    "module": "M10"
+  },
+  {
+    "id": "3578db15623a81ffa2a4d86b8084eb90",
+    "oldName": "Liste des articles vendus en réception",
+    "newName": "Liste des articles vendus en réception (consulter et filtrer articles vendus en réception)",
+    "group": "G05",
+    "module": "M40"
+  }
+]
