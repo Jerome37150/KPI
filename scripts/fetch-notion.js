@@ -24,6 +24,11 @@ const NOTION_API = 'https://api.notion.com/v1';
 const DB_CLASSIQUE = '3058db15-623a-80d3-9deb-fb95191faa96';
 const DB_TOPLINE = '3108db15-623a-8035-a2d5-c3f2e6a97361';
 
+// Cartographies stratégiques (Stratégie produits Inaxel)
+const DB_CARTO_PMS_WEB    = 'e712a61e-0880-4bb9-b198-3d1d0bcaedc1';
+const DB_CARTO_PMS_MOBILE = 'd16c64be-2dc6-4f91-8724-5f1068004cc6';
+const DB_CARTO_MANAGER    = 'd92b19c5-f3e3-42a5-bcfa-673f3d1d11f6';
+
 if (!NOTION_TOKEN) {
   console.error('❌ Erreur : la variable NOTION_TOKEN est requise.');
   console.error('   Usage : NOTION_TOKEN=ntn_xxx node scripts/fetch-notion.js');
@@ -194,6 +199,39 @@ function mapTopLinePage(page) {
   };
 }
 
+// === Mapping Cartographie (schéma identique pour les 3 bases) ===
+function mapCartographiePage(page) {
+  const p = page.properties;
+  return {
+    id: page.id,
+    fenetre: extractProp(p, 'Fenêtre', 'title') || '',
+    groupe: extractProp(p, 'Groupe', 'select'),
+    idFenetre: extractProp(p, 'ID Fenêtre', 'rich_text') || '',
+    module: extractProp(p, 'Module', 'rich_text') || '',
+    numGroupe: extractProp(p, 'N° Groupe', 'select'),
+    numModule: extractProp(p, 'N° Module', 'select'),
+    ordre: extractProp(p, 'Ordre dans module', 'number'),
+    phase: extractProp(p, 'Phase', 'select'),
+    section: extractProp(p, 'Section', 'rich_text') || '',
+    // Champs présents uniquement sur PMS Web (ignorés ailleurs)
+    solution: extractProp(p, 'Solution', 'multi_select') || [],
+    typeClientele: extractProp(p, 'Type de clientèle', 'multi_select') || [],
+  };
+}
+
+// Helper : récupère + mappe une cartographie sans planter le script si erreur
+async function fetchCartographie(label, dbId) {
+  try {
+    console.log(`📥 Récupération de la cartographie ${label}...`);
+    const pages = await queryAllPages(dbId);
+    console.log(`   → ${pages.length} fenêtres récupérées`);
+    return pages.map(mapCartographiePage);
+  } catch (err) {
+    console.warn(`   ⚠️ Cartographie ${label} non récupérée : ${err.message}`);
+    return [];
+  }
+}
+
 // === Main ===
 async function main() {
   const startTime = Date.now();
@@ -210,13 +248,24 @@ async function main() {
   const classique = classiquePages.map(mapClassiquePage);
   const topline = toplinePages.map(mapTopLinePage);
 
+  // Cartographies stratégiques (best-effort : ne bloquent pas le script si KO)
+  const cartoPmsWeb    = await fetchCartographie('PMS Web',    DB_CARTO_PMS_WEB);
+  const cartoPmsMobile = await fetchCartographie('PMS Mobile', DB_CARTO_PMS_MOBILE);
+  const cartoManager   = await fetchCartographie('Manager',    DB_CARTO_MANAGER);
+
   const data = {
     generatedAt: new Date().toISOString(),
     classique,
     topline,
+    cartoPmsWeb,
+    cartoPmsMobile,
+    cartoManager,
     counts: {
       classique: classique.length,
       topline: topline.length,
+      cartoPmsWeb: cartoPmsWeb.length,
+      cartoPmsMobile: cartoPmsMobile.length,
+      cartoManager: cartoManager.length,
     },
   };
 
@@ -230,6 +279,7 @@ async function main() {
   const duration = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`✅ Fichier généré : ${OUTPUT_PATH}`);
   console.log(`   ${classique.length} tickets Classique + ${topline.length} fenêtres Top Line`);
+  console.log(`   Cartographies : ${cartoPmsWeb.length} PMS Web · ${cartoPmsMobile.length} Mobile · ${cartoManager.length} Manager`);
   console.log(`   Durée : ${duration}s`);
 }
 
