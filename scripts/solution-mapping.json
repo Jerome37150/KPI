@@ -1,0 +1,2936 @@
+[
+  {
+    "id": "3578db15623a81008b46f621f1e32ec0",
+    "fenetre": "Taux d'occupation par type d'hébergement (mesurer un taux)",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81009f41f833fb50c434",
+    "fenetre": "Critères standards (critères de filtre)",
+    "module": "M25",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8101b20efc0a67dd95e2",
+    "fenetre": "Fusion de doublons clients (fiche client)",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810297cbccb998263c2b",
+    "fenetre": "Inventaires programmés (comptage et valorisation)",
+    "module": "M19",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8102a714c86842e6c5b5",
+    "fenetre": "Articles favoris / mise en avant comptoir (articles & catalogue ventes)",
+    "module": "M40",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81039dfbf4e83d2b8dd2",
+    "fenetre": "Recherche dispo plan camping (recherche multicritères)",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8103a0d7cb5c1dd3ee02",
+    "fenetre": "Thème clair / sombre (paramètres système)",
+    "module": "M28",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8103bb9addd4d551ed02",
+    "fenetre": "Connecteur OTA / Channel manager (connexions / interfaces)",
+    "module": "M29",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81048031debe36379609",
+    "fenetre": "Codes-barres / EAN (articles & catalogue ventes)",
+    "module": "M40",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8104a782e7eddc9fea66",
+    "fenetre": "Stop-sell (ota / distribution)",
+    "module": "M09",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8104affdefa81b9a93b1",
+    "fenetre": "Téléchargements en attente (extractions / exports)",
+    "module": "M31",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8104b654ebec97f8a705",
+    "fenetre": "Inventaire équipements standard (comptage et valorisation)",
+    "module": "M26",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810582d9c29c6f4c6049",
+    "fenetre": "Affectation technicien (affecter ressource)",
+    "module": "M20",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8105b905ec9f3059d12a",
+    "fenetre": "Suivi consommation allotement (monitorer en temps réel)",
+    "module": "M06",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81068434cac17f15a28e",
+    "fenetre": "Droits par établissement (gestion des droits)",
+    "module": "M34",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8106a071dcb929a329d9",
+    "fenetre": "Suivi consommation (monitorer en temps réel)",
+    "module": "M12",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8107b3d9e71c7c43e1ba",
+    "fenetre": "Suivi volumes consommés (monitorer en temps réel)",
+    "module": "M07",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810a992ae27afd4a0bd2",
+    "fenetre": "Règles de parité tarifaire (ota / distribution)",
+    "module": "M09",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810b9f50c56dc8903d89",
+    "fenetre": "États de soldes (encaissements)",
+    "module": "M13",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810bb85ac73010bc2616",
+    "fenetre": "Calcul automatique sur séjour (taxes & fiscalité)",
+    "module": "M17",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810bbaeaeecde828786d",
+    "fenetre": "Connecteur moteur de réservation (connexions / interfaces)",
+    "module": "M29",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810bbe26d5f57ea1ca25",
+    "fenetre": "Last-minute / early-booking (tarifs & revenue management)",
+    "module": "M10",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a810c893bc5414da7439c",
+    "fenetre": "Tableau de bord client (synthèse visuelle)",
+    "module": "M38",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a810c8b10f7348ad2371f",
+    "fenetre": "Consolidation indicateurs financiers (multi-établissements / réseau)",
+    "module": "M34",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a810ca8a0d47aebb9274d",
+    "fenetre": "Prolongation devis (prolonger la durée)",
+    "module": "M02",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810caec7dfd25e2b3c73",
+    "fenetre": "Modèles de documents (paramètres système)",
+    "module": "M28",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810d8b45d37b44fb8b41",
+    "fenetre": "Automatisations messages (communication client)",
+    "module": "M22",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810da22ef073714140be",
+    "fenetre": "États TVA (taxes & fiscalité)",
+    "module": "M17",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810e826ff572125de1b5",
+    "fenetre": "Tarifs négociés CE (ce / collectivités)",
+    "module": "M07",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810e992efa224fc1a34e",
+    "fenetre": "Menu burger / navigation principale (navigation principale)",
+    "module": "M28",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810f8a06e66fa70be2cd",
+    "fenetre": "Check-out (parcours de départ client)",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810f8b87edc3fc1012e8",
+    "fenetre": "Conditions commerciales (tour-opérateurs / agences)",
+    "module": "M06",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810fa213c87ad0954b34",
+    "fenetre": "Statistiques par emplacement (analyse des indicateurs)",
+    "module": "M11",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810fa28dfa43ff0196dd",
+    "fenetre": "Paiements depuis espace client / résident (règlement client)",
+    "module": "M13",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810fb2aaff6f7db79fb3",
+    "fenetre": "Terminaux paiement (connexions / interfaces)",
+    "module": "M29",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a810fbd44f1994cd45d40",
+    "fenetre": "Modification de réservation (éditer existant)",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81109b02e3c5748228e3",
+    "fenetre": "Prolongation de l'option (prolonger la durée)",
+    "module": "M02",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8110b093e3f04653cec5",
+    "fenetre": "Politique de mots de passe (administration)",
+    "module": "M30",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81118225c82aa143d477",
+    "fenetre": "Annulation séjour avec paiement (annuler et gérer les conséquences)",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8111955cf1dbc910d5d3",
+    "fenetre": "États de taxe de séjour (taxes & fiscalité)",
+    "module": "M17",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8111a37bec333cd1cfa2",
+    "fenetre": "Configuration moteur (configurer)",
+    "module": "M09",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81129d6ac17e1ffea8cd",
+    "fenetre": "Fiche résident (détail et édition résident)",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81129f58c9549c7052ab",
+    "fenetre": "Catalogue détaillé des locatifs (référentiel produits)",
+    "module": "M26",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8112a19bd744a8c8d31b",
+    "fenetre": "Mapping de données partenaire (correspondance entre systèmes)",
+    "module": "M41",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8112b64ac0aa22a20e67",
+    "fenetre": "Archivage (administration)",
+    "module": "M30",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a811384a0c88b7b3d8b8a",
+    "fenetre": "Règles enfants / adultes (paramètres tarifs)",
+    "module": "M27",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8113b7b5d9c7bef8b080",
+    "fenetre": "Paiements en ligne (règlement client)",
+    "module": "M13",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a811485e9e48c56aa899f",
+    "fenetre": "Télémaintenance (outils de support interne)",
+    "module": "M37",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8114aca3efbedef71395",
+    "fenetre": "Taxes intégrées vs séparées (paramètres tarifs)",
+    "module": "M27",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8114ae70f5c372f4aec1",
+    "fenetre": "Caisses enregistreuses externes (restaurant, snack)",
+    "module": "M29",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8114b757d7a27741e606",
+    "fenetre": "Mouvements stock (historique global)",
+    "module": "M19",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8114b758d85c6e824758",
+    "fenetre": "Liste interventions (filtres état / priorité)",
+    "module": "M20",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81158095d5975cee5e2f",
+    "fenetre": "Vente hors séjour",
+    "module": "M18",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8115b3b0fea0d2d3af40",
+    "fenetre": "Refacturation des consommations",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a811689e4f07ab776f036",
+    "fenetre": "Acompte demandé (% ou montant fixe)",
+    "module": "M27",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8116b8adf9d38c8defcc",
+    "fenetre": "Segmentation clients",
+    "module": "M42",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8117a805c3848472e914",
+    "fenetre": "Liste des avis clients",
+    "module": "M22",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8117b3a4e7ab4a8202f3",
+    "fenetre": "Rapport hebdomadaire",
+    "module": "M33",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8117bca8e9f1ec7c50a1",
+    "fenetre": "Facture d'acompte",
+    "module": "M16",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81188b66f20e4080cd1f",
+    "fenetre": "Catégories (mobil-home, tente, caravane, camping-car, nu)",
+    "module": "M11",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8118b590d111c827bf74",
+    "fenetre": "Liste des automatisations",
+    "module": "M23",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a811980c3c3c420277381",
+    "fenetre": "Saisie d'inventaire",
+    "module": "M19",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81198229e662e901ad3d",
+    "fenetre": "Liste des CE / collectivités",
+    "module": "M07",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81198f1ccef6e4c33ec9",
+    "fenetre": "Templates de capacité (4p, 6p, 8p…)",
+    "module": "M25",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8119b49bddd3bf9d3a34",
+    "fenetre": "App maintenance / interventions",
+    "module": "M36",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a811ab60cef21141cee23",
+    "fenetre": "Tableau de bord résident",
+    "module": "M39",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a811abc5acc1c1eb878c3",
+    "fenetre": "Planning annuel",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a811b8e47e5ba2a2f2953",
+    "fenetre": "Fiche réservation",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a811bb0f3f79526ec9272",
+    "fenetre": "Liste des groupes",
+    "module": "M05",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a811bb702dc6248a4776e",
+    "fenetre": "Détail des transactions",
+    "module": "M13",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a811db737ca1662e5ece4",
+    "fenetre": "Tarifs par durée (semaine, week-end, court séjour)",
+    "module": "M27",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a811e8134c89f82dadec6",
+    "fenetre": "Définition des saisons (haute, moyenne, basse)",
+    "module": "M24",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a811ebc4fccc140f51ba6",
+    "fenetre": "Restitution caution",
+    "module": "M15",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a811ebe88f41c547b2182",
+    "fenetre": "Plans intérieurs des locatifs",
+    "module": "M26",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81218c0dcfdd29db29b0",
+    "fenetre": "Calendrier de mes disponibilités",
+    "module": "M39",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8121a120f3aa7f3e76dc",
+    "fenetre": "Channel manager (vue d'ensemble)",
+    "module": "M09",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8121a44ae3c82049929f",
+    "fenetre": "Centre de messagerie",
+    "module": "M22",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a812282c0d1f5e198f382",
+    "fenetre": "Widgets personnalisables",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81228a19ce92d39c4265",
+    "fenetre": "Liste des devis",
+    "module": "M02",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8122ae5ee58c9a07dee2",
+    "fenetre": "Catalogue des API publiques",
+    "module": "M41",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81239253e601e55398b5",
+    "fenetre": "No-show",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a812483c7d8b6181434aa",
+    "fenetre": "Historique des affectations",
+    "module": "M12",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8124a149c8f9bb33c700",
+    "fenetre": "Création ticket",
+    "module": "M20",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8124bae3eda9cf9ae7f4",
+    "fenetre": "Ajouter remise au séjour",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a812583f6ee8ef7635cc6",
+    "fenetre": "Déclencheurs (événements PMS)",
+    "module": "M23",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a812693fed14df6c9e5ae",
+    "fenetre": "Programme fidélité (paramétrage)",
+    "module": "M42",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8126b9d9d4c889a08449",
+    "fenetre": "RevPAR (revenu par hébergement disponible)",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81279051e2cba4968a41",
+    "fenetre": "Coordonnées légales (SIRET, RCS, TVA intra)",
+    "module": "M28",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8127a49ceea9a6410196",
+    "fenetre": "Historique des exports (qui, quoi, quand)",
+    "module": "M31",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8127b35debb23c9bc2ef",
+    "fenetre": "Critères de confort (clim, terrasse, lave-vaisselle…)",
+    "module": "M26",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8128a724d4ab6af1b72a",
+    "fenetre": "Facturation mensuelle (loyer, charges)",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8128beb7cedd05cb2bae",
+    "fenetre": "Documents clients",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8129868ef88fb5dcf22a",
+    "fenetre": "Clôture & validation",
+    "module": "M20",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8129b243fba24293cc21",
+    "fenetre": "Attributs techniques (eau, élec, ombre…)",
+    "module": "M11",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a812dad01cb5db47047ea",
+    "fenetre": "Rapport de caisse journalier",
+    "module": "M33",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a812f9693da57e7dc03bf",
+    "fenetre": "Historique client (séjours, achats, communications)",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a812f9f3aed2173757087",
+    "fenetre": "Hivernage / fermeture saisonnière",
+    "module": "M11",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81309592e61135fe5191",
+    "fenetre": "Inventaire de sortie",
+    "module": "M21",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8130b149cf4d4f489d0c",
+    "fenetre": "Historique multi-séjours (familles)",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8130bfb7e1d4fde94584",
+    "fenetre": "Règles de numérotation",
+    "module": "M25",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8131934bf23ac70f37a5",
+    "fenetre": "Affectation à un séjour",
+    "module": "M12",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81319457fe911bcc4fbf",
+    "fenetre": "Édition consolidée des fiches de police",
+    "module": "M17",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81328c33e0dca3166703",
+    "fenetre": "État des paiements",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813290c2dd9ec7216267",
+    "fenetre": "Contrats commerciaux TO",
+    "module": "M06",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81338babe677d4d5fcb3",
+    "fenetre": "Restitution / récupération",
+    "module": "M12",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813393decdca32d010d4",
+    "fenetre": "Devis groupe (lien M02)",
+    "module": "M05",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81339afaea90c7a923df",
+    "fenetre": "Fiches de police (obligation légale FR)",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8133b2a2fe37626c79f8",
+    "fenetre": "Photos & galerie",
+    "module": "M11",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8133bce3f192de8d77ad",
+    "fenetre": "Paramétrage par site (héritage / spécifique)",
+    "module": "M34",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8134adbadf9944b77828",
+    "fenetre": "Diffusion automatique (mail récurrent)",
+    "module": "M33",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8135b764d52a61feeaa7",
+    "fenetre": "Vue par technicien",
+    "module": "M20",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8135bf40f8b7e0316c71",
+    "fenetre": "Stock physique (lits bébé, draps, parasols…)",
+    "module": "M12",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8136b026d62704609cd5",
+    "fenetre": "Fiche emplacement / hébergement",
+    "module": "M11",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8137a43bdd41babcf35f",
+    "fenetre": "Audit logs (toutes actions)",
+    "module": "M30",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8137a534dff57ced215b",
+    "fenetre": "Facture pour groupes / TO / CE",
+    "module": "M16",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8137b287cb6f0ff15d97",
+    "fenetre": "Immatriculations véhicules",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8137b549d537ef336994",
+    "fenetre": "Prévisions de fin de saison",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8138a57ec64bd3135326",
+    "fenetre": "Liste des ménages à faire",
+    "module": "M21",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8139820fd1424496d6e0",
+    "fenetre": "Liste des partenaires connectés",
+    "module": "M41",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81399722e9e88cb634e3",
+    "fenetre": "Réponses aux avis",
+    "module": "M22",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813a9177db806633cf7c",
+    "fenetre": "Conversion devis → option / réservation",
+    "module": "M02",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813b8563c0b3f8be491b",
+    "fenetre": "Planning journalier",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813b9e32ceec73cac570",
+    "fenetre": "Tâches planifiées (cron)",
+    "module": "M23",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813ba1f8f08ff548a5af",
+    "fenetre": "Plan inventaire (vue technique)",
+    "module": "M11",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813c9ff4ddb0fd1b2807",
+    "fenetre": "Réservations web (moteur)",
+    "module": "M09",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813cb412f0a21a7b0b6f",
+    "fenetre": "Pré check-in en ligne",
+    "module": "M38",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a813d8055c4351e917b33",
+    "fenetre": "Modifier mes informations personnelles",
+    "module": "M38",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a813d998eccc5e5b43020",
+    "fenetre": "Contrôle caisses secondaires",
+    "module": "M14",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813dadb4ce770d52896b",
+    "fenetre": "Scan documents (pièce d'identité, carte grise)",
+    "module": "M36",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813e838bff750da7e723",
+    "fenetre": "Fiche TO (Eurocamp, Vacansoleil, Homair…)",
+    "module": "M06",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813e872ec4475e924226",
+    "fenetre": "Priorités (départ / arrivée du jour)",
+    "module": "M21",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813e9134ce7ff9e4411e",
+    "fenetre": "Monitoring / quotas / rate limiting",
+    "module": "M41",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813e9b2beefffff4a4c4",
+    "fenetre": "Empreinte CB / pré-autorisation",
+    "module": "M15",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813ea902dd18ff889f1c",
+    "fenetre": "Statistiques d'usage par partenaire",
+    "module": "M41",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813fa1e5f16bc7d4d7fb",
+    "fenetre": "Notifications internes",
+    "module": "M23",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a813fbadae328bcf53753",
+    "fenetre": "Prix dynamique par taux d'occupation",
+    "module": "M10",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a813fbb37f99946de85ad",
+    "fenetre": "Historique des ventes",
+    "module": "M18",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81409a7fead518a38b1a",
+    "fenetre": "Vue occupation",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81409b7ad916a600af23",
+    "fenetre": "Journal des ventes (consolidé)",
+    "module": "M17",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81409e91c55e29c91ee7",
+    "fenetre": "Rapport mensuel (clôture)",
+    "module": "M33",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8140a0ddc9f0cb7a054a",
+    "fenetre": "État des lieux sortie",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8140b2c8fbc090fd00e4",
+    "fenetre": "Planning maintenance (vue calendaire)",
+    "module": "M20",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8141b9f7c6f3529b5f84",
+    "fenetre": "Permissions & scopes par partenaire",
+    "module": "M41",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8142b825f08e1bc786b4",
+    "fenetre": "Fuseau horaire",
+    "module": "M28",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a814384b8f21f1fcbc958",
+    "fenetre": "Monitoring synchronisations (OTA, channel manager)",
+    "module": "M37",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81448010e94bdca4eb27",
+    "fenetre": "Validation & impression ticket",
+    "module": "M18",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8144a85eed8473a8123c",
+    "fenetre": "Renouvellement contrat",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8144ad4cf496d4ed7b97",
+    "fenetre": "Outils de migration (depuis autre PMS)",
+    "module": "M37",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81458bbaeb877de2dd0e",
+    "fenetre": "Déclaration EDIFICT (mairie / EPCI)",
+    "module": "M17",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8145a25bfb3d97496215",
+    "fenetre": "Facturation séparée (au CE / au salarié)",
+    "module": "M07",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8146998afa4e57f02d92",
+    "fenetre": "Programmation d'envois",
+    "module": "M22",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8146bebcd04205900225",
+    "fenetre": "Droits d'accès du séjour",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a814789b0dc7c790eee86",
+    "fenetre": "Documentation développeur (OpenAPI / Swagger)",
+    "module": "M41",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81488c65cf73eb7ae89e",
+    "fenetre": "Demandes de sous-location entrantes",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81488e9ec786b8c3c658",
+    "fenetre": "Import / export clients (CSV)",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8148a514c95736879bea",
+    "fenetre": "Fermeture de caisse (Z journalier)",
+    "module": "M14",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8148b024c7ef316ff001",
+    "fenetre": "Modèles d'email",
+    "module": "M22",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8149bd39f508d06cab2d",
+    "fenetre": "Éditeur visuel d'automatisation",
+    "module": "M23",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a814caacad7bcc188cbc5",
+    "fenetre": "Jours fériés",
+    "module": "M24",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a814d99c2e92426bce841",
+    "fenetre": "Gestion des utilisateurs",
+    "module": "M30",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a814e906cd761bc0f1430",
+    "fenetre": "Planning emplacements numérotés",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a814fb725eab1e40cb090",
+    "fenetre": "Vue consolidée des conformités (RGPD, NF525, NF203, fiscal)",
+    "module": "M35",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81508362f07bf1db4f8a",
+    "fenetre": "Liste clients (avec recherche intégrée)",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8151a544ded8338652d7",
+    "fenetre": "Relances devis (auto + manuel)",
+    "module": "M02",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81528fdcdf640b765dc4",
+    "fenetre": "Configuration des webhooks",
+    "module": "M41",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8152a1dcfd85810499ff",
+    "fenetre": "Anonymisation RGPD (droit à l'oubli)",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8152b007ee3ec0c99fad",
+    "fenetre": "Reversement / quote-part propriétaire",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8152bcebd261658bb7e1",
+    "fenetre": "Rapprochement bancaire",
+    "module": "M13",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8152be34e152fbd840ff",
+    "fenetre": "Rôles (ensembles de permissions)",
+    "module": "M30",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8153a23bf71877f93e7e",
+    "fenetre": "Signature électronique sur tablette",
+    "module": "M36",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8153a852deacbb42f712",
+    "fenetre": "Fiche devis",
+    "module": "M02",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8154a85ee50575cf6b9e",
+    "fenetre": "Check-list de ménage (par type d'hébergement)",
+    "module": "M21",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8154b38ec13f49c301b2",
+    "fenetre": "Fiche client",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8155b4acf41534151d51",
+    "fenetre": "App espace client (vacanciers)",
+    "module": "M36",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a815691c3e5ff073f6b7b",
+    "fenetre": "Journal de synchronisation",
+    "module": "M09",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8156bf8dc34dcd12ae9a",
+    "fenetre": "Rapport de production par CE",
+    "module": "M07",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8157a2cbc8da58b0531b",
+    "fenetre": "Tarifs par durée",
+    "module": "M10",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8158915dc61a94b75cdd",
+    "fenetre": "Modification séjour (justifiée)",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a815898fad8dba70ebb42",
+    "fenetre": "Statistiques d'envoi (taux ouverture, clics)",
+    "module": "M22",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8159800cecf3d458c1ad",
+    "fenetre": "Paiement en ligne (acompte / solde)",
+    "module": "M38",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a815a905de9c91aff3675",
+    "fenetre": "Planning suppléments",
+    "module": "M12",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a815aa0f0eb73f2b2d9ef",
+    "fenetre": "Fiche caution",
+    "module": "M15",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a815aab44f582de2898e6",
+    "fenetre": "Logs d'appels API (succès / erreurs)",
+    "module": "M41",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a815abf9cde02c22b6148",
+    "fenetre": "Encaissement (multi-modes : CB, espèces, chèque)",
+    "module": "M18",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a815ba18ec6c17500ecdd",
+    "fenetre": "Mes documents (factures, devis, attestations)",
+    "module": "M38",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a815ba77dec7402d80730",
+    "fenetre": "Mutualisation clients (CRM partagé)",
+    "module": "M34",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a815ca241d2a9d7318545",
+    "fenetre": "Personnalisation interface",
+    "module": "M28",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a815cbb52c1bbb386d03d",
+    "fenetre": "Contrat groupe",
+    "module": "M05",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a815cbc51fa80cf479db8",
+    "fenetre": "Journaux fiscaux",
+    "module": "M17",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a815d89a1f548840e86e7",
+    "fenetre": "Alertes / to-do client",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a815da806d6c977a4e5d8",
+    "fenetre": "Pilotage multi-sites (KPI consolidés)",
+    "module": "M34",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a815e8f38d9cc525d0d74",
+    "fenetre": "Types d'emplacement (mobil-home, tente, caravane, nu…)",
+    "module": "M25",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a815ea055ff69eb881bdf",
+    "fenetre": "Restrictions par canal (PMS only, OTA only…)",
+    "module": "M10",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a815f9aa6d995ef6a16c5",
+    "fenetre": "Tables de prix (par hébergement × période)",
+    "module": "M27",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81608885fc466afeebd4",
+    "fenetre": "Chat support / ticket à Inaxel",
+    "module": "M37",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81609a15eaa16261dd19",
+    "fenetre": "Emails système (no-reply, notifications)",
+    "module": "M28",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8160b36aefe9db3e0090",
+    "fenetre": "Liste des caisses",
+    "module": "M14",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816199d8d0b51f1cd3d8",
+    "fenetre": "Secteurs / zones du camping",
+    "module": "M25",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8161bafad7b71784cd9a",
+    "fenetre": "Traitements automatiques",
+    "module": "M23",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816296b9e99ddc14d8a1",
+    "fenetre": "Création de réservation",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81629709d6fb7585434d",
+    "fenetre": "Liste des participants au séjour",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8163b5b1e1bbc4202a35",
+    "fenetre": "Recherche avancée disponibilité",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8164b75def90274123b9",
+    "fenetre": "Reprise de données (imports massifs)",
+    "module": "M37",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8165ab2ed9c15ca13688",
+    "fenetre": "Origine des réservations (par canal)",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81668425d4836d8c3413",
+    "fenetre": "Bibliothèque pré-configurée (modèles)",
+    "module": "M23",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8166a245d8f96e3a7516",
+    "fenetre": "Liste des résidents",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81678ec7c4a13ab67e61",
+    "fenetre": "Base de connaissances (articles, tutoriels)",
+    "module": "M37",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8168bf7ad767022c3eb4",
+    "fenetre": "Production par OTA (CA, nb résa)",
+    "module": "M09",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81698c74db155f906eeb",
+    "fenetre": "Seuils d'alerte / réapprovisionnement",
+    "module": "M19",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816a82b8f7e1f95d1e45",
+    "fenetre": "Contraintes d'attribution (handicap, animaux…)",
+    "module": "M25",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816a9be2ff80bb59d168",
+    "fenetre": "No-shows groupe",
+    "module": "M05",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816a9f64d1d8a1406b38",
+    "fenetre": "Lecteurs de codes-barres",
+    "module": "M29",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816aac3cc3fc208f48ec",
+    "fenetre": "Édition PDF / envoi devis",
+    "module": "M02",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816abd4ff2b444bc736d",
+    "fenetre": "Plafonds & subventions CE",
+    "module": "M07",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816bad46d36e50306a29",
+    "fenetre": "Réserver un supplément (depuis séjour ou devis)",
+    "module": "M12",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816c8da7fec6b54bd24e",
+    "fenetre": "Modèles d'extraction réutilisables",
+    "module": "M31",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816ca969f3783ab0919b",
+    "fenetre": "Campagnes (envoi groupé)",
+    "module": "M22",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816caf22c7dee8300aee",
+    "fenetre": "Langues (FR, EN, DE, NL, IT, ES…)",
+    "module": "M28",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816cb39efe3903e196b1",
+    "fenetre": "Performance par segment (direct, OTA, TO, CE…)",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a816cbe49cb17c3a4e9e0",
+    "fenetre": "Calendriers consolidés (vue annuelle)",
+    "module": "M24",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816daa9ded42fb0995e0",
+    "fenetre": "Liste des options",
+    "module": "M02",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816e8960d8383a7d57e0",
+    "fenetre": "Sandbox / environnement de test",
+    "module": "M41",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816ea2ced55f0cc66283",
+    "fenetre": "Fiche groupe (mariages, associations, scolaires)",
+    "module": "M05",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816ea7e2ef11c5fa8fdd",
+    "fenetre": "Anomalies détectées (plan d'action)",
+    "module": "M35",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a816eaeeedf597ca2ade3",
+    "fenetre": "Arrondis (règles)",
+    "module": "M27",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8170a6d9c7bbd350b16b",
+    "fenetre": "Mon hébergement (mobil-home, fiche)",
+    "module": "M39",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8170ab3fdde8057f0322",
+    "fenetre": "Ventes rapides",
+    "module": "M18",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8170b004fa92c93b9182",
+    "fenetre": "Listes personnalisées sauvegardées",
+    "module": "M31",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8171b62dc50dbf73bc04",
+    "fenetre": "Affecter vente à un séjour (facturation groupée)",
+    "module": "M18",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8172a122f098c81066b0",
+    "fenetre": "Analyse de tendance pluriannuelle",
+    "module": "M33",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81739b0dc2d2a9da0f3d",
+    "fenetre": "Désinscription / opt-out",
+    "module": "M22",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8173bb1cdc9f5ba66f36",
+    "fenetre": "Gestion des clés API & tokens",
+    "module": "M41",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8173bcaadfc2a610ac64",
+    "fenetre": "Mes factures (loyer, charges, services)",
+    "module": "M39",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8175852ff6bdd3fb2dbe",
+    "fenetre": "Voir les participants",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81759253d1b8162b4256",
+    "fenetre": "Dashboard accueil (home)",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8176b5fcde8a25917363",
+    "fenetre": "Panier moyen par séjour",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8176bae9c9966faf6b05",
+    "fenetre": "Minimum de séjour",
+    "module": "M27",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8177b4a5c74dfdc74768",
+    "fenetre": "Page de connexion",
+    "module": "M28",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a817885f6eadcf4eaf21d",
+    "fenetre": "Sessions actives",
+    "module": "M30",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8179987ec5a34cdb0b4e",
+    "fenetre": "Comparatif vs N-1, N-2",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8179a045d1f0127d4e35",
+    "fenetre": "Fiche partenaire / application",
+    "module": "M41",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a817a9c9df2c5393e5c16",
+    "fenetre": "Sauvegardes (manuelles & auto)",
+    "module": "M30",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a817aab5cc4de618b843f",
+    "fenetre": "Pickup (rythme de prise de réservation)",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a817ab986d6a64d374bb7",
+    "fenetre": "Chiffre d'affaires (vue consolidée)",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a817b8c48f056c68045bd",
+    "fenetre": "Logs techniques",
+    "module": "M37",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a817b9f08ea6e0f499fae",
+    "fenetre": "Liste emplacements",
+    "module": "M11",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a817c9861cf9fa36562a5",
+    "fenetre": "Animaux du séjour",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a817cbfbde5749f193506",
+    "fenetre": "Restrictions de séjour (min stay, max stay)",
+    "module": "M10",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a817d98bbeac2c0a830a9",
+    "fenetre": "Fiche CE",
+    "module": "M07",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a817db72bcf58ca27be47",
+    "fenetre": "Liste des OTA connectées (Booking, Camping.fr, Capfun…)",
+    "module": "M09",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a817dbedfd5f49612a11b",
+    "fenetre": "Taux d'occupation (jour, semaine, mois)",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a817ea8a4c1f52e2f3b95",
+    "fenetre": "Transfert de séjour (changement emplacement)",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a817eb3c4e0f88fc90885",
+    "fenetre": "Ouverture de caisse (fond de caisse)",
+    "module": "M14",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a817f8398dccd1e473b8d",
+    "fenetre": "Facturier (numérotation continue)",
+    "module": "M16",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81809952ed01cb839abb",
+    "fenetre": "Reversement / quote-part propriétaire",
+    "module": "M39",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a8180a795dff39f12e67c",
+    "fenetre": "Taux d'annulation",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81818152e48fc7d5884b",
+    "fenetre": "Périodes (dates clés de saison)",
+    "module": "M24",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8181925ce75e6222ab12",
+    "fenetre": "Identité visuelle (logo, couleurs, polices)",
+    "module": "M28",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8181b178edcc531048ed",
+    "fenetre": "Émission facturation groupe (globale ou éclatée)",
+    "module": "M05",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8181ba48d765091510a3",
+    "fenetre": "App espace résident (propriétaires mobil-home)",
+    "module": "M36",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a818281a1fef9e86582c6",
+    "fenetre": "Sorties de stock (ventes auto, retraits manuels)",
+    "module": "M19",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81829723f5b737ee5fb7",
+    "fenetre": "Import / export catalogue (CSV)",
+    "module": "M40",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8183be5bff6b9e34b39b",
+    "fenetre": "Connexion résident",
+    "module": "M39",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a818582f4f6f2c9ad4061",
+    "fenetre": "Comparatifs saison vs N-1",
+    "module": "M33",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a818592ccc67092aa7c0e",
+    "fenetre": "Contrôle pièces / documentation",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8185a42eead61ff4f260",
+    "fenetre": "Émission multi-séjour (regroupement)",
+    "module": "M16",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8185be93cf5633bac10a",
+    "fenetre": "Journaux de connexion",
+    "module": "M30",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81869af2f75f3814d890",
+    "fenetre": "Fiche article (libellé, prix, TVA, image)",
+    "module": "M40",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8186be02dbf931dad363",
+    "fenetre": "Modèles SMS",
+    "module": "M22",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8187aaacd819e2303ab2",
+    "fenetre": "Demande de fonctionnalité (feature request)",
+    "module": "M37",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81888594ca04a6ee6dac",
+    "fenetre": "Répartition par emplacements",
+    "module": "M05",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8188b933fb3407a59a86",
+    "fenetre": "Remboursements",
+    "module": "M13",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8188bb12fac5fc1503da",
+    "fenetre": "Fiche facture",
+    "module": "M16",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8188bdb7f430dca0b3e4",
+    "fenetre": "Consentements RGPD",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81898fd0ccb4130e8309",
+    "fenetre": "Caution résident",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a818a875ad40f1df89061",
+    "fenetre": "Liste des promotions actives",
+    "module": "M10",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a818b8cd6eca83cd87ecc",
+    "fenetre": "Délai de paiement",
+    "module": "M27",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a818bbb87ef911c376d02",
+    "fenetre": "Surclassement automatique",
+    "module": "M10",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a818cb36fddf3acacc0ed",
+    "fenetre": "Demandes d'avis (post-séjour)",
+    "module": "M22",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a818da148faa19e48fc00",
+    "fenetre": "Rotation d'usage",
+    "module": "M11",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a818db6f2f0f07bfb0f3d",
+    "fenetre": "Liste des arrivants / participants",
+    "module": "M05",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a818fb97fde4550215ef2",
+    "fenetre": "Bracelets cashless",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a819085b3d2ddb350c593",
+    "fenetre": "Plan du camping (configuration)",
+    "module": "M25",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8190a1d1c7d5d2d7b9c9",
+    "fenetre": "Valorisation stock",
+    "module": "M19",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8190a2bef4340c87f05c",
+    "fenetre": "Contrôle des accès",
+    "module": "M35",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a819283f9d9ee04e62409",
+    "fenetre": "Erreurs de synchro",
+    "module": "M09",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81928408ed86029e41dc",
+    "fenetre": "État des lieux entrée",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a819288c3cff0d373cb75",
+    "fenetre": "Duplication de séjour",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a819290e6f271e03f5475",
+    "fenetre": "Documents (contrat, règlement intérieur)",
+    "module": "M39",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81929237e0e98967746d",
+    "fenetre": "Calendrier des automatisations",
+    "module": "M23",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8193999ae4d393fc3d6b",
+    "fenetre": "Liste des cautions",
+    "module": "M15",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8193afffc91216c3fe94",
+    "fenetre": "Liste d'attente / surbooking",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8194a3d5ec137ca360ef",
+    "fenetre": "Création d'avoir",
+    "module": "M16",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8194bcc8e23085d2e5b9",
+    "fenetre": "Dates de rétrocession (libération auto)",
+    "module": "M06",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8195a681eee2d1c27f06",
+    "fenetre": "Report de solde client",
+    "module": "M13",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a819687eee1cf67aa39a4",
+    "fenetre": "Vacances scolaires (multi-zones)",
+    "module": "M24",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8198a5d8db8bd931b3c3",
+    "fenetre": "Suivi résolution (statut, temps passé)",
+    "module": "M20",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8198abb2f3d75522373f",
+    "fenetre": "Configuration taxe de séjour (tarifs, exemptions)",
+    "module": "M17",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8198b213cc3be45a523a",
+    "fenetre": "Recherche client",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a8199853ed746bc38d974",
+    "fenetre": "Mode dégradé (hors ligne)",
+    "module": "M36",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a819993f1e1a180a860a8",
+    "fenetre": "Détail d'un séjour",
+    "module": "M38",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a819b87eef4d4a316613b",
+    "fenetre": "Taux de conversion (devis → résa)",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a819ba5acc2892f12688d",
+    "fenetre": "Authentification multi-facteur (MFA)",
+    "module": "M30",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a819bb1ebd46012497b47",
+    "fenetre": "Contrôle de caisse",
+    "module": "M14",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a819c842ee2b748a14f16",
+    "fenetre": "Annulation / remboursement de vente",
+    "module": "M18",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a819cbf5ff5f607baf588",
+    "fenetre": "Mapping produits PMS ↔ OTA",
+    "module": "M09",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a819d9d40eff64a45bcbb",
+    "fenetre": "Catégories d'articles",
+    "module": "M40",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a819ebd76df97c18ecac7",
+    "fenetre": "Critères de filtre client (animaux OK, PMR…)",
+    "module": "M11",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a819f89e4f69e289e0def",
+    "fenetre": "Liste des factures",
+    "module": "M16",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a819f8e9de546022073a3",
+    "fenetre": "ADR (panier moyen par nuitée)",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a819fb2d0f122cd3f6adf",
+    "fenetre": "Expiration automatique d'option",
+    "module": "M02",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81a19541f3d86d36aeeb",
+    "fenetre": "App réception (check-in/out, paiement, dispos)",
+    "module": "M36",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81a28504f4656b2d5a7b",
+    "fenetre": "Traçabilité des données sensibles",
+    "module": "M35",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81a29479ff88963221b5",
+    "fenetre": "Maximum de séjour",
+    "module": "M27",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81a2a419c3b341c8b9c6",
+    "fenetre": "Codes promo",
+    "module": "M10",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81a491e6d325e312f174",
+    "fenetre": "Droits d'accès (matrice utilisateur × fonction)",
+    "module": "M30",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81a5b003cfaf854796c9",
+    "fenetre": "Photos & galerie média",
+    "module": "M26",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81a681d5ea22f00fbbea",
+    "fenetre": "Grille des suppléments",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81a6b33cf9bb53b61ce7",
+    "fenetre": "Articles inactifs / archivés",
+    "module": "M40",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81a780cbc9564f4e16bf",
+    "fenetre": "Bibliothèque pièces jointes (CGV, plans, infos)",
+    "module": "M22",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81a7a36ce8347776ddf6",
+    "fenetre": "Fiche stock article (mouvements + niveau)",
+    "module": "M19",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81a88691feffb1cf0057",
+    "fenetre": "Audit & traçabilité des échanges",
+    "module": "M41",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81a89015d602052111e0",
+    "fenetre": "Catégories de suppléments",
+    "module": "M12",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81a8a449d764b026e99f",
+    "fenetre": "Retour d'expérience / avis",
+    "module": "M38",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81a8b7e8d9c77bc0a72f",
+    "fenetre": "Rupture de stock (alertes)",
+    "module": "M12",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81a98a00fec57ae81381",
+    "fenetre": "Relevés compteurs (eau, électricité)",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81a9a2f8ff1a66d65437",
+    "fenetre": "Allotements CE",
+    "module": "M07",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81aa9811d496774f416a",
+    "fenetre": "Exports planifiés (récurrents, envoi auto)",
+    "module": "M31",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81aaa7ebd3f1bd41b1af",
+    "fenetre": "Capacités (nb personnes, lits)",
+    "module": "M11",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81aab555f49fa069eca6",
+    "fenetre": "État des lieux annuel",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81abae93ee09bb2c5ba4",
+    "fenetre": "Fiche supplément (libellé, prix, TVA, stock)",
+    "module": "M12",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81abbbc8efcf99e34ea1",
+    "fenetre": "Purge programmée (RGPD)",
+    "module": "M30",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81ac8abccbe8aff0f3ae",
+    "fenetre": "Journal TVA détaillé",
+    "module": "M17",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81ac9cf7d044dd02cd49",
+    "fenetre": "Rapport journalier (briefing du matin)",
+    "module": "M33",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81ad83dcd8d074c3620f",
+    "fenetre": "Annulations TO (avec frais éventuels)",
+    "module": "M06",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81ad97adea5077792d04",
+    "fenetre": "Déposer une période de sous-location",
+    "module": "M39",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81aeacd3ceb44702c0e8",
+    "fenetre": "Préférences",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81afafd0da186157c731",
+    "fenetre": "Suppléments tarifaires (pers. supp, animal…)",
+    "module": "M27",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81b0a0cae8550a068742",
+    "fenetre": "Bordereau de remise (détail)",
+    "module": "M14",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81b190f4de0c096aadc0",
+    "fenetre": "Check-in (parcours d'arrivée)",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81b297f7e321affaf466",
+    "fenetre": "Barrières d'accès (parking, piscine)",
+    "module": "M29",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81b2a85fe3fe6381d0bf",
+    "fenetre": "Signatures électroniques (DocuSign, Yousign…)",
+    "module": "M29",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81b38036ce008c5d68fb",
+    "fenetre": "Contrôle des règlements",
+    "module": "M13",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81b49ce5d2a2f000927c",
+    "fenetre": "Déplacement de séjour (drag & drop)",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81b4a0efcb7606cf7a84",
+    "fenetre": "Historique des modifications",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81b4a1dac1cdce08785c",
+    "fenetre": "Suivi des cautions actives",
+    "module": "M15",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81b5bb21f096316f72b2",
+    "fenetre": "Liste des réservations",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81b6a7a4cf77b96a0785",
+    "fenetre": "Vue par lieu / emplacement",
+    "module": "M20",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81b88c10dc4c27f74307",
+    "fenetre": "Bons CE / chèques-vacances ANCV",
+    "module": "M07",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81b999c3e77730037279",
+    "fenetre": "Mes séjours (à venir / passés)",
+    "module": "M38",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81b9a006d315cc49cab3",
+    "fenetre": "Forecast occupation",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81baab7bcfd2513b086c",
+    "fenetre": "Intégrations comptabilité (Sage, EBP, Cegid…)",
+    "module": "M29",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81bb8a3be7c76b32f1df",
+    "fenetre": "Affectation équipes / agents",
+    "module": "M21",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81bb9055fa2cc0949213",
+    "fenetre": "Réimpression / duplicata",
+    "module": "M16",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81bca654c5b66c80cf48",
+    "fenetre": "Journal des erreurs applicatives",
+    "module": "M37",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81bd9d77c28ddd97e405",
+    "fenetre": "Sélection articles (favoris + recherche)",
+    "module": "M18",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81be824fdb8a18478c60",
+    "fenetre": "Échéancier de paiement",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81be90c6c5936bbb9ddf",
+    "fenetre": "Groupes / équipes",
+    "module": "M30",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81bf8326cbf3e4c58efd",
+    "fenetre": "Notes internes",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81bf9126d1e051a9cdd0",
+    "fenetre": "Statut hébergement (à faire / en cours / fait / contrôlé)",
+    "module": "M21",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81bfbab3d4426461f6ef",
+    "fenetre": "Planning recherche disponibilité",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81c097b9f00d3bffca8c",
+    "fenetre": "Simulateur de prix",
+    "module": "M10",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81c4abd6c245798f7516",
+    "fenetre": "Contrôle qualité (par superviseur)",
+    "module": "M21",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81c58479ed1a36325095",
+    "fenetre": "Rapport fiscal périodique",
+    "module": "M33",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81c6a35dfa0caff817ae",
+    "fenetre": "Demandes depuis espace client / résident",
+    "module": "M20",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81c7a4ffcad574164d9a",
+    "fenetre": "Envoi mails (templates + PJ)",
+    "module": "M22",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81c7a943d2ffb2ec976b",
+    "fenetre": "Règles d'ouverture (par catégorie d'hébergement)",
+    "module": "M24",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81c7a972d08acb258d1f",
+    "fenetre": "Vue CRM 360°",
+    "module": "M42",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81c8921ed0464595aa3e",
+    "fenetre": "Création de promotion",
+    "module": "M10",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81c8950ad1f9b6580e5a",
+    "fenetre": "Exports comptables (Sage, EBP, Cegid…)",
+    "module": "M17",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81c99ff9cbb442bdbc87",
+    "fenetre": "Prise de caution (espèces, chèque, CB)",
+    "module": "M15",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81c9a3b5c0ccf2516fc5",
+    "fenetre": "Liste stock (état temps réel)",
+    "module": "M19",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81c9bd3ef623fb16e4c1",
+    "fenetre": "Rapport de fin de saison",
+    "module": "M33",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81ca870cdec1ea976dcb",
+    "fenetre": "Diagnostics système (santé du PMS)",
+    "module": "M37",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81ca978ec4337a12c177",
+    "fenetre": "Planning groupe (vue dédiée)",
+    "module": "M05",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81cab7a1c6b39a5dd833",
+    "fenetre": "Bons d'échange / vouchers (réception & validation)",
+    "module": "M06",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81cabc11e5622b6b8f98",
+    "fenetre": "Exercice comptable courant",
+    "module": "M30",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81cd8278cd99f5a7ff4d",
+    "fenetre": "Journal des actions (audit fonctionnel)",
+    "module": "M35",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81cda41eeab35ff02d25",
+    "fenetre": "Pré-blocage de places (allotement)",
+    "module": "M05",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81cdbf4cf16f6e5f95f8",
+    "fenetre": "Jours spécifiques (événements locaux)",
+    "module": "M24",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81cea020ce0a38129251",
+    "fenetre": "Hébergements en travaux / hors service",
+    "module": "M11",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81cea58ec6c8565e7497",
+    "fenetre": "Paramètres régionaux (format date, décimaux)",
+    "module": "M28",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81cf843bf6fbb058eb8f",
+    "fenetre": "Signalement problème → création intervention",
+    "module": "M21",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81cf89b9db04189942d8",
+    "fenetre": "App ménage / housekeeping",
+    "module": "M36",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81cf97e7d033aadf15d6",
+    "fenetre": "Liste des adhérents fidélité",
+    "module": "M42",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81cfb5d8ce250359d597",
+    "fenetre": "Aide contextuelle in-app",
+    "module": "M37",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81cfbf42e9477ea6b267",
+    "fenetre": "Comparatif vs N-1",
+    "module": "M10",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81d08f78cf34a70107ef",
+    "fenetre": "Alertes de conformité",
+    "module": "M35",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d093bfc5a559eab6d0",
+    "fenetre": "Entrées de stock (réceptions, transferts)",
+    "module": "M19",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d0af83d65136528f93",
+    "fenetre": "Écarts d'inventaire",
+    "module": "M19",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d0b77ddc144779a110",
+    "fenetre": "Échéancier de paiement",
+    "module": "M13",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d183b8f1db35289c78",
+    "fenetre": "Constructeur de requêtes (sélection champs)",
+    "module": "M31",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d19dc1d32e4b380a99",
+    "fenetre": "Multi-TVA (taux applicables)",
+    "module": "M27",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d1b943f55f008a3358",
+    "fenetre": "Pertes & casses",
+    "module": "M19",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d1bb37ebd448737f64",
+    "fenetre": "Ajouter supplément au séjour",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d28fe0e5e9c3c328e7",
+    "fenetre": "Journal des encaissements",
+    "module": "M13",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d29b8ddb28fd927581",
+    "fenetre": "Archivage légal (10 ans)",
+    "module": "M17",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d2a5f1e942688980c6",
+    "fenetre": "Litiges & retenues sur caution",
+    "module": "M15",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d480a5dfda02f04a24",
+    "fenetre": "Historique des modifications",
+    "module": "M35",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d599cbd5a795a58f1a",
+    "fenetre": "Suivi des sous-locations actives",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d59ac8e1e723fa2563",
+    "fenetre": "Notifications push temps réel",
+    "module": "M36",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d68c1acab2bfbb11f1",
+    "fenetre": "Demandes / messagerie camping",
+    "module": "M38",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81d6b336e34fc3b1dfed",
+    "fenetre": "Exports/imports techniques (CSV, JSON)",
+    "module": "M29",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d88812e4e937c33ed4",
+    "fenetre": "Détail d'un ticket",
+    "module": "M18",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d899c6c241437abab5",
+    "fenetre": "Liste des séjours",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d99a1fc6efeba8bc3b",
+    "fenetre": "Paiement en ligne de mes factures",
+    "module": "M39",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81d9a674ce88715b17cc",
+    "fenetre": "Création devis (multi-canal)",
+    "module": "M02",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d9affbec45766ce443",
+    "fenetre": "Règles de ménage par modèle",
+    "module": "M26",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81d9b3ede24450777c21",
+    "fenetre": "Tarification par période",
+    "module": "M40",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81db8716dfc10184c1c3",
+    "fenetre": "Catégories commerciales (Premium, Standard, Eco)",
+    "module": "M25",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81db8acac2b855917201",
+    "fenetre": "Conversion option → réservation ferme",
+    "module": "M02",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81dba404e7fb725a0636",
+    "fenetre": "Test à blanc d'une automatisation",
+    "module": "M23",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81dba6aac53a362832ca",
+    "fenetre": "Création compte fidélité",
+    "module": "M42",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81dda86acd73c122425c",
+    "fenetre": "Blocage emplacement (maintenance / owner)",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81dda960f2f84986a0a5",
+    "fenetre": "Liste des TO / agences",
+    "module": "M06",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81ddae5bc1af47ae37ab",
+    "fenetre": "Actions (email, tâche, notification, API)",
+    "module": "M23",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81ddaed6f86e354b0654",
+    "fenetre": "Imprimantes tickets / factures",
+    "module": "M29",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81de914ed2dab238c006",
+    "fenetre": "Journal de caisse",
+    "module": "M14",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81dea7fbe0fefaac34d6",
+    "fenetre": "Contrat / bail résidentiel",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81debe36f715b5a6377d",
+    "fenetre": "Saisie paiement",
+    "module": "M13",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81df9ccaf547a6edf58a",
+    "fenetre": "Contrats CE / convention",
+    "module": "M07",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81dfa880c101b81e701a",
+    "fenetre": "Tracking conversion / abandons",
+    "module": "M09",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e09224ed135393469e",
+    "fenetre": "Familles de TVA",
+    "module": "M40",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e0937fca565a3c744a",
+    "fenetre": "Validation / refus de sous-location",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e188a5e15d2cecba94",
+    "fenetre": "Yield management (par jour, par catégorie)",
+    "module": "M10",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81e1a726d9549d5f9c96",
+    "fenetre": "Écarts de caisse",
+    "module": "M14",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e284b3f0d82688381d",
+    "fenetre": "Tableaux de bord par rôle (direction, réception, exploitation)",
+    "module": "M32",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81e28f2cf235a6204458",
+    "fenetre": "Scan pièce d'identité",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e29dd4c8c5d335f5a5",
+    "fenetre": "Allotements TO (blocage de places)",
+    "module": "M06",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e29f87cdbb49ecdb2b",
+    "fenetre": "Avenants au contrat",
+    "module": "M08",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e496a9f70d9262eb44",
+    "fenetre": "Reporting centralisé multi-sites",
+    "module": "M34",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81e4a4fec6d0fb2076f4",
+    "fenetre": "Logs d'exécution",
+    "module": "M23",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e4b7eff7cc0303b316",
+    "fenetre": "Facture résident (longue durée)",
+    "module": "M16",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e58328cd66cbab7245",
+    "fenetre": "Catalogue des exports prédéfinis",
+    "module": "M31",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e589a8cae00051d913",
+    "fenetre": "Fiche intervention (description, photos, commentaires)",
+    "module": "M20",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e5a809c756e7d70e58",
+    "fenetre": "Annulation de réservation",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e6a0e7f214d80ee91a",
+    "fenetre": "Tarifs par segment (direct, OTA, TO, CE)",
+    "module": "M10",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81e7a726d41e9e7088e1",
+    "fenetre": "Erreurs & alertes",
+    "module": "M23",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e7babdccc19b9ec599",
+    "fenetre": "Restrictions de vente (min stay, fermetures)",
+    "module": "M09",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e8b87ad075898e63bd",
+    "fenetre": "Fiche séjour",
+    "module": "M03",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e8bde7edb3eb383ed6",
+    "fenetre": "Liste des indisponibilités",
+    "module": "M11",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e98eefd29dfb324093",
+    "fenetre": "Filtres & paramètres avant export",
+    "module": "M31",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e98fbac000f18378a7",
+    "fenetre": "Synchronisation tarifs & dispos",
+    "module": "M09",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e9a33df693a6d208e0",
+    "fenetre": "Transferts entre caisses (apport / prélèvement)",
+    "module": "M14",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81e9aebcea853f2958e5",
+    "fenetre": "Bracelets / badges cashless",
+    "module": "M29",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81ea9e08c26af55ffc41",
+    "fenetre": "Rapport de production par TO (CA, taux remplissage)",
+    "module": "M06",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81eabf20dfe2b96bcb1c",
+    "fenetre": "App gestion (manager, KPI)",
+    "module": "M36",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81ebbdafed2053c14d32",
+    "fenetre": "Lancer un export (CSV, Excel, PDF, JSON)",
+    "module": "M31",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81ec89d1ca7e44c59b2f",
+    "fenetre": "État de production (CA + nb résa par canal)",
+    "module": "M33",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81ed9b81f4410a071cdf",
+    "fenetre": "Disponibilité par jour",
+    "module": "M12",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81edb123c8945eca555a",
+    "fenetre": "Réservations web entrantes (site direct)",
+    "module": "M02",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81ee808fe34ae451c348",
+    "fenetre": "Informations établissement (nom, adresse, contact)",
+    "module": "M28",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81ee8beec7cdc02b2012",
+    "fenetre": "Logs cashless",
+    "module": "M35",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81ef9695fabecb534a84",
+    "fenetre": "Règles d'attribution (rotation, état)",
+    "module": "M26",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81efb21bd4eae20b2ae2",
+    "fenetre": "Maintenance préventive (récurrence)",
+    "module": "M20",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81f0a7e7ecbb5532242b",
+    "fenetre": "Cautions partiellement utilisées",
+    "module": "M15",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81f1873fd1c4aafcb066",
+    "fenetre": "Planning hebdomadaire",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81f39318f59006fdbe99",
+    "fenetre": "Blacklist / clients indésirables",
+    "module": "M04",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81f3971dcb48f27e3613",
+    "fenetre": "Facture finale (de séjour)",
+    "module": "M16",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81f3a33eee0ba98bcdab",
+    "fenetre": "Paiements partiels (échelonnés)",
+    "module": "M13",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81f3bc0bf97329eeab0a",
+    "fenetre": "Demandes / contact gestion résident",
+    "module": "M39",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81f3bc0feb894ef16b01",
+    "fenetre": "Liste des réservations sur mon hébergement",
+    "module": "M39",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81f4816cfb97f8ef0dee",
+    "fenetre": "Descriptifs commerciaux (libellés, longs textes)",
+    "module": "M26",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81f4b462eecde83506bb",
+    "fenetre": "Liste des suppléments",
+    "module": "M12",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81f6b512ec8f210508d1",
+    "fenetre": "Panier en cours",
+    "module": "M18",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81f7aebedb42762d17c7",
+    "fenetre": "Relances impayés (auto + manuel)",
+    "module": "M13",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81f9813efdfbe4aaf66b",
+    "fenetre": "Détail des calculs devis",
+    "module": "M02",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81f99266eeb587471bb5",
+    "fenetre": "Remises en banque",
+    "module": "M14",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81f9abadcdb195fceb62",
+    "fenetre": "Réconciliation des commissions OTA",
+    "module": "M09",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81fa83d3cc64bbc74173",
+    "fenetre": "Plan du camping (vue géographique)",
+    "module": "M01",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81fa8bc1f6574d762eae",
+    "fenetre": "Vue globale réseau",
+    "module": "M34",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81fa9083dea9f8d7d246",
+    "fenetre": "Conditions (filtres, si/sinon)",
+    "module": "M23",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81faa19ddfecf45a7615",
+    "fenetre": "Connexion / création de compte client",
+    "module": "M38",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81faa1fee7704171e0b3",
+    "fenetre": "Devises (par défaut)",
+    "module": "M28",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81faacdad84bfb4eac28",
+    "fenetre": "Planning ménage (vue jour/semaine)",
+    "module": "M21",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81fb8df3f967fb126911",
+    "fenetre": "Historique d'occupation",
+    "module": "M11",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81fbac90dbf1bfbac45a",
+    "fenetre": "Ouverture / fermeture du camping",
+    "module": "M24",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81fc83fbd56c5a98d622",
+    "fenetre": "Liste des avoirs",
+    "module": "M16",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81fc94a4f947559fe982",
+    "fenetre": "Grilles tarifaires TO",
+    "module": "M06",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81fc9c42f5f975adcc5c",
+    "fenetre": "Surveillance temps réel des barrières",
+    "module": "M35",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81fe80d6cadb6150d7f0",
+    "fenetre": "Licences logicielles",
+    "module": "M28",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81fe92affe247b31264e",
+    "fenetre": "Suivi des paiements groupe",
+    "module": "M05",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81feb6dbe38953dbaf06",
+    "fenetre": "Passerelles paiement (Stripe, Adyen, Lyra…)",
+    "module": "M29",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81feb727fa30becb80e2",
+    "fenetre": "Maintenance technique",
+    "module": "M30",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81febf5deb961080c17b",
+    "fenetre": "Rectification de facture (conforme NF525)",
+    "module": "M16",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81ff8171fab4799a8d69",
+    "fenetre": "Envoi manuel (mail / SMS individuel)",
+    "module": "M22",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81ff86c6d34123534fef",
+    "fenetre": "Suppléments liés à un type d'hébergement",
+    "module": "M12",
+    "newSolution": "Inaxel (PMS)"
+  },
+  {
+    "id": "3578db15623a81ff9fb1d5fc9f68c735",
+    "fenetre": "Vue d'ensemble tarifs actifs",
+    "module": "M10",
+    "newSolution": "C tout Vert (CRS)"
+  },
+  {
+    "id": "3578db15623a81ffa2a4d86b8084eb90",
+    "fenetre": "Liste des articles vendus en réception",
+    "module": "M40",
+    "newSolution": "Inaxel (PMS)"
+  }
+]
