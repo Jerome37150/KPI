@@ -57,7 +57,7 @@
     "id": "3578db15623a8104a782e7eddc9fea66",
     "fenetre": "Stop-sell (ota / distribution)",
     "module": "M09",
-    "newSolution": "Inaxel (PMS)"
+    "newSolution": "C tout Vert (CRS)"
   },
   {
     "id": "3578db15623a8104affdefa81b9a93b1",
@@ -105,7 +105,7 @@
     "id": "3578db15623a810a992ae27afd4a0bd2",
     "fenetre": "Règles de parité tarifaire (ota / distribution)",
     "module": "M09",
-    "newSolution": "Inaxel (PMS)"
+    "newSolution": "C tout Vert (CRS)"
   },
   {
     "id": "3578db15623a810b9f50c56dc8903d89",
@@ -243,7 +243,7 @@
     "id": "3578db15623a8111a37bec333cd1cfa2",
     "fenetre": "Configuration moteur (configurer)",
     "module": "M09",
-    "newSolution": "Inaxel (PMS)"
+    "newSolution": "C tout Vert (CRS)"
   },
   {
     "id": "3578db15623a81129d6ac17e1ffea8cd",
@@ -453,7 +453,7 @@
     "id": "3578db15623a8121a120f3aa7f3e76dc",
     "fenetre": "Channel manager (vue d'ensemble)",
     "module": "M09",
-    "newSolution": "Inaxel (PMS)"
+    "newSolution": "C tout Vert (CRS)"
   },
   {
     "id": "3578db15623a8121a44ae3c82049929f",
@@ -747,7 +747,7 @@
     "id": "3578db15623a813c9ff4ddb0fd1b2807",
     "fenetre": "Réservations web (moteur)",
     "module": "M09",
-    "newSolution": "Inaxel (PMS)"
+    "newSolution": "C tout Vert (CRS)"
   },
   {
     "id": "3578db15623a813cb412f0a21a7b0b6f",
@@ -1047,7 +1047,7 @@
     "id": "3578db15623a815691c3e5ff073f6b7b",
     "fenetre": "Journal de synchronisation",
     "module": "M09",
-    "newSolution": "Inaxel (PMS)"
+    "newSolution": "C tout Vert (CRS)"
   },
   {
     "id": "3578db15623a8156bf8dc34dcd12ae9a",
@@ -1245,7 +1245,7 @@
     "id": "3578db15623a8168bf7ad767022c3eb4",
     "fenetre": "Production par OTA (CA, nb résa)",
     "module": "M09",
-    "newSolution": "Inaxel (PMS)"
+    "newSolution": "C tout Vert (CRS)"
   },
   {
     "id": "3578db15623a81698c74db155f906eeb",
@@ -1497,7 +1497,7 @@
     "id": "3578db15623a817db72bcf58ca27be47",
     "fenetre": "Liste des OTA connectées (Booking, Camping.fr, Capfun…)",
     "module": "M09",
-    "newSolution": "Inaxel (PMS)"
+    "newSolution": "C tout Vert (CRS)"
   },
   {
     "id": "3578db15623a817dbedfd5f49612a11b",
@@ -1713,7 +1713,7 @@
     "id": "3578db15623a819283f9d9ee04e62409",
     "fenetre": "Erreurs de synchro",
     "module": "M09",
-    "newSolution": "Inaxel (PMS)"
+    "newSolution": "C tout Vert (CRS)"
   },
   {
     "id": "3578db15623a81928408ed86029e41dc",
@@ -1833,7 +1833,7 @@
     "id": "3578db15623a819cbf5ff5f607baf588",
     "fenetre": "Mapping produits PMS ↔ OTA",
     "module": "M09",
-    "newSolution": "Inaxel (PMS)"
+    "newSolution": "C tout Vert (CRS)"
   },
   {
     "id": "3578db15623a819d9d40eff64a45bcbb",
@@ -2529,7 +2529,7 @@
     "id": "3578db15623a81dfa880c101b81e701a",
     "fenetre": "Tracking conversion / abandons",
     "module": "M09",
-    "newSolution": "Inaxel (PMS)"
+    "newSolution": "C tout Vert (CRS)"
   },
   {
     "id": "3578db15623a81e09224ed135393469e",
@@ -2631,7 +2631,7 @@
     "id": "3578db15623a81e7babdccc19b9ec599",
     "fenetre": "Restrictions de vente (min stay, fermetures)",
     "module": "M09",
-    "newSolution": "Inaxel (PMS)"
+    "newSolution": "C tout Vert (CRS)"
   },
   {
     "id": "3578db15623a81e8b87ad075898e63bd",
@@ -2655,7 +2655,7 @@
     "id": "3578db15623a81e98fbac000f18378a7",
     "fenetre": "Synchronisation tarifs & dispos",
     "module": "M09",
-    "newSolution": "Inaxel (PMS)"
+    "newSolution": "C tout Vert (CRS)"
   },
   {
     "id": "3578db15623a81e9a33df693a6d208e0",
@@ -2811,7 +2811,7 @@
     "id": "3578db15623a81f9abadcdb195fceb62",
     "fenetre": "Réconciliation des commissions OTA",
     "module": "M09",
-    "newSolution": "Inaxel (PMS)"
+    "newSolution": "C tout Vert (CRS)"
   },
   {
     "id": "3578db15623a81fa83d3cc64bbc74173",
