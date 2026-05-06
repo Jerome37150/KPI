@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import {
   Package, Layers, Inbox, Wrench, Bug, Calendar,
-  Sparkles,
+  Sparkles, Search, X,
 } from 'lucide-react';
 import { C } from '../styles/theme';
 import { Card } from '../components/primitives/Card';
@@ -106,6 +106,25 @@ export function VersionPage({ data }) {
     return versions[versions.length - 1].value;
   });
 
+  // Recherche globale (toutes versions)
+  const [search, setSearch] = useState("");
+  const searchActive = search.trim().length >= 2;
+  const searchResults = useMemo(() => {
+    if (!searchActive) return [];
+    const q = search.trim().toLowerCase();
+    return tickets
+      .filter(t => t.versionStable)
+      .filter(t => {
+        const haystack = [
+          t.titre, t.identifiant, t.classification, t.priorisation,
+          t.versionStable, t.statut, t.fonctions, t.client,
+          ...(Array.isArray(t.produits) ? t.produits : []),
+          ...(Array.isArray(t.initialeAjout) ? t.initialeAjout : []),
+        ].filter(Boolean).join(" ").toLowerCase();
+        return haystack.includes(q);
+      });
+  }, [tickets, search, searchActive]);
+
   // Si data charge après mount, ré-aligner
   const effectiveSelected = useMemo(() => {
     if (versions.length === 0) return null;
@@ -177,7 +196,7 @@ export function VersionPage({ data }) {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-      {/* En-tête + sélecteur */}
+      {/* En-tête + barre de recherche + sélecteur */}
       <div style={{
         display: "flex", justifyContent: "space-between", alignItems: "flex-end",
         gap: 16, flexWrap: "wrap",
@@ -187,11 +206,14 @@ export function VersionPage({ data }) {
           icon={Package}
           sub="Données de sortie · versions stables NAXI.G"
         >Version</SectionTitle>
-        <VersionPicker
-          versions={versions}
-          selected={effectiveSelected}
-          onChange={setSelected}
-        />
+        <div style={{ display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap" }}>
+          <SearchBar value={search} onChange={setSearch} />
+          <VersionPicker
+            versions={versions}
+            selected={effectiveSelected}
+            onChange={setSelected}
+          />
+        </div>
       </div>
 
       {/* Hero card — résumé de la version sélectionnée */}
@@ -314,11 +336,60 @@ export function VersionPage({ data }) {
         />
       </div>
 
-      {/* Table : tickets de la version sélectionnée */}
+      {/* Table : recherche globale ou tickets de la version sélectionnée */}
       <VersionTicketsTable
-        tickets={currentTickets}
-        title={`Tickets livrés en ${currentLabel}`}
+        tickets={searchActive ? searchResults : currentTickets}
+        title={
+          searchActive
+            ? `Recherche · « ${search.trim()} » · ${searchResults.length} résultat${searchResults.length > 1 ? 's' : ''} sur l'ensemble des versions`
+            : `Tickets livrés en ${currentLabel}`
+        }
+        showVersion={searchActive}
       />
+    </div>
+  );
+}
+
+// ── Barre de recherche ──
+function SearchBar({ value, onChange }) {
+  return (
+    <div style={{
+      display: "inline-flex", alignItems: "center", gap: 6,
+      padding: "0 8px",
+      background: C.paper,
+      border: `1px solid ${C.line}`,
+      borderRadius: 8,
+      minWidth: 280,
+      transition: "border-color 0.15s, box-shadow 0.15s",
+    }}>
+      <Search size={14} color={C.inkMute} strokeWidth={2.2} />
+      <input
+        type="text"
+        value={value}
+        onChange={e => onChange(e.target.value)}
+        placeholder="Rechercher dans toutes les versions…"
+        style={{
+          flex: 1, height: 34,
+          background: "transparent", border: "none", outline: "none",
+          fontSize: 13, color: C.ink, fontFamily: "inherit",
+        }}
+      />
+      {value && (
+        <button
+          onClick={() => onChange("")}
+          aria-label="Effacer la recherche"
+          style={{
+            display: "inline-flex", alignItems: "center", justifyContent: "center",
+            width: 22, height: 22, borderRadius: 6,
+            background: "transparent", border: "none", cursor: "pointer",
+            color: C.inkDim,
+          }}
+          onMouseEnter={e => { e.currentTarget.style.background = C.gray100; }}
+          onMouseLeave={e => { e.currentTarget.style.background = "transparent"; }}
+        >
+          <X size={13} strokeWidth={2.4} />
+        </button>
+      )}
     </div>
   );
 }

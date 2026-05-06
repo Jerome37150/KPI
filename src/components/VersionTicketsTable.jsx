@@ -33,12 +33,36 @@ const STATUT_COLORS = {
   "Archivé":              C.gray400,
 };
 
+// Détecte si une URL AWS S3 signée Notion est expirée (X-Amz-Date + X-Amz-Expires)
+function isAwsUrlExpired(url) {
+  try {
+    const u = new URL(url);
+    const date = u.searchParams.get('X-Amz-Date');
+    const expires = parseInt(u.searchParams.get('X-Amz-Expires') || '0', 10);
+    if (!date || !expires) return false;
+    const iso = `${date.slice(0,4)}-${date.slice(4,6)}-${date.slice(6,8)}T${date.slice(9,11)}:${date.slice(11,13)}:${date.slice(13,15)}Z`;
+    const signedAt = new Date(iso).getTime();
+    if (isNaN(signedAt)) return false;
+    return (Date.now() - signedAt) > expires * 1000;
+  } catch {
+    return false;
+  }
+}
+
+// Si l'URL S3 est encore valide, on l'ouvre directement.
+// Sinon on retombe sur l'URL Notion du ticket pour que l'utilisateur récupère la pièce jointe.
+function resolveAttachmentUrl(t) {
+  if (!t?.pieceJointe?.url) return null;
+  if (isAwsUrlExpired(t.pieceJointe.url)) return t.url || t.pieceJointe.url;
+  return t.pieceJointe.url;
+}
+
 // ============================================
 // VersionTicketsTable — tableau de tickets
 // Colonnes (toujours) : titre / classif / prio / initiale ajout / comm / pièce jointe
-// Optionnels : statut, avancement (props showStatus / showProgress)
+// Optionnels : statut, avancement, version (props showStatus / showProgress / showVersion)
 // ============================================
-export function VersionTicketsTable({ tickets, title = "Tickets livrés", showStatus = false, showProgress = false }) {
+export function VersionTicketsTable({ tickets, title = "Tickets livrés", showStatus = false, showProgress = false, showVersion = false }) {
   const rows = useMemo(() => {
     return [...tickets].sort((a, b) => {
       const ra = PRIO_RANK[a.priorisation] || 99;
@@ -76,6 +100,7 @@ export function VersionTicketsTable({ tickets, title = "Tickets livrés", showSt
             <tr style={{ background: C.gray50 }}>
               {[
                 "Titre",
+                showVersion  && "Version",
                 "Classification",
                 "Priorisation",
                 showStatus   && "Statut",
@@ -97,7 +122,7 @@ export function VersionTicketsTable({ tickets, title = "Tickets livrés", showSt
           <tbody>
             {rows.length === 0 && (
               <tr>
-                <td colSpan={6 + (showStatus ? 1 : 0) + (showProgress ? 1 : 0)} style={{ padding: 32, textAlign: "center", color: C.inkDim }}>
+                <td colSpan={6 + (showStatus ? 1 : 0) + (showProgress ? 1 : 0) + (showVersion ? 1 : 0)} style={{ padding: 32, textAlign: "center", color: C.inkDim }}>
                   Aucun ticket
                 </td>
               </tr>
@@ -148,6 +173,25 @@ export function VersionTicketsTable({ tickets, title = "Tickets livrés", showSt
                       </span>
                     )}
                   </td>
+
+                  {/* Version (optionnel) */}
+                  {showVersion && (
+                    <td style={{ padding: "12px 16px" }}>
+                      {t.versionStable ? (
+                        <span style={{
+                          display: "inline-flex", alignItems: "center", gap: 4,
+                          fontSize: 11, fontWeight: 700, color: C.orange,
+                          background: C.orangeBg, padding: "2px 8px",
+                          borderRadius: RADIUS.sm,
+                          fontVariantNumeric: "tabular-nums",
+                          whiteSpace: "nowrap",
+                        }}>
+                          <span style={{ fontSize: 9, color: C.orange, opacity: 0.7 }}>v</span>
+                          {t.versionStable}
+                        </span>
+                      ) : <span style={{ color: C.inkMute }}>—</span>}
+                    </td>
+                  )}
 
                   {/* Classification */}
                   <td style={{ padding: "12px 16px" }}>
@@ -246,24 +290,33 @@ export function VersionTicketsTable({ tickets, title = "Tickets livrés", showSt
 
                   {/* Pièce jointe */}
                   <td style={{ padding: "12px 16px", textAlign: "center" }}>
-                    {hasPiece ? (
-                      <a
-                        href={t.pieceJointe.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        title={t.pieceJointe.name || "Pièce jointe"}
-                        style={{
-                          display: "inline-flex", alignItems: "center", justifyContent: "center",
-                          width: 26, height: 26, borderRadius: RADIUS.full,
-                          background: C.orangeBg, color: C.orange,
-                          textDecoration: "none", transition: "transform 0.15s",
-                        }}
-                        onMouseEnter={e => { e.currentTarget.style.transform = "scale(1.1)"; }}
-                        onMouseLeave={e => { e.currentTarget.style.transform = "scale(1)"; }}
-                      >
-                        <Paperclip size={13} strokeWidth={2.2} />
-                      </a>
-                    ) : (
+                    {hasPiece ? (() => {
+                      const pjUrl = resolveAttachmentUrl(t);
+                      const expired = isAwsUrlExpired(t.pieceJointe.url);
+                      return (
+                        <a
+                          href={pjUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={e => e.stopPropagation()}
+                          title={
+                            expired
+                              ? `${t.pieceJointe.name || "Pièce jointe"} — lien direct expiré, ouvre le ticket Notion`
+                              : (t.pieceJointe.name || "Pièce jointe")
+                          }
+                          style={{
+                            display: "inline-flex", alignItems: "center", justifyContent: "center",
+                            width: 26, height: 26, borderRadius: RADIUS.full,
+                            background: C.orangeBg, color: C.orange,
+                            textDecoration: "none", transition: "transform 0.15s",
+                          }}
+                          onMouseEnter={e => { e.currentTarget.style.transform = "scale(1.1)"; }}
+                          onMouseLeave={e => { e.currentTarget.style.transform = "scale(1)"; }}
+                        >
+                          <Paperclip size={13} strokeWidth={2.2} />
+                        </a>
+                      );
+                    })() : (
                       <span style={{ color: C.gray300 }}>—</span>
                     )}
                   </td>
