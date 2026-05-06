@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T04:48:03.548Z",
+  "generatedAt": "2026-05-06T07:29:48.904Z",
   "classique": [
     {
       "id": "3058db15-623a-800b-9334-e040aa618867",
@@ -2929,7 +2929,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA77.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VO66GMSI%2F20260506%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260506T044757Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCBww%2F8y2VA7JMY8RK3QAC7i7zdBeOyvv5I0fHD58wSeQIgWT35SFhQZtVoPyUxnkkTGzxgRXakRsYySqAbJiaFaMkqiAQIlf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDBCwazRjfWCqBOpwkCrcA01NRzpdG3cuogtDMT4oZUiDlna2MpiIjD2nx8EuzcNnizCY4w5mF%2FDh4Wgq9d%2B%2BkBbGXq2XD8NZcrS0D%2B0ouNoeFK8uqOi%2F5pBegvlX92a%2BUfVmNCPiZiOSv0Zqc%2BtDeX9oKSq%2Fgxn%2FRbjTCRiaFFrj9G2e%2FABhdBlc6jcTG%2FVya%2FXN9ipRPGWhFml5biw73XFSyd2cbjiPjSd5QlUpzFNU%2B95LxT0YRK5EWQLrHBHWFQcUz4WNuIhDJ%2FBn7TpKsj1MhDVQ0SCXFLTJe4k%2B%2Bu%2FdCsc9YDNf4GvpVTKMIUIijcTVO93a1kzSw9%2FZC2BY4yrpARcOlnQKRfyKD7tHfbzQX3bNKm0vkI2dCqI5jXMe9N719IfT720RpXXx8CHUqW%2B6njStKessPfF7%2FOBJ71dC9iVi0wHLx2xF%2BtdQQC98RPAH9bf4Km6i%2B47Lqp%2Fi2xcM6GNGNpq7FjXH1X8uNT6pPHpkM1G0%2Bf2RCzkrz1W3Eid8jDiqM0aa2i2Qd2BKZbDzM2uV%2BYoH5HeEE%2FIeTQJSB6WANNtWXdFEyqwcfpeSPmTUsEMjVnFJy4eGd2tqWFcY8swE%2BOFGcYiWqdwGqt5T94UB2JradioK2i2xZ6ncE7LutRmQrGua090eMKn%2F6s8GOqUBdrdMgX%2BseUckug7KEIWIKYd1BR9RQ45uewU%2F5fA0nGjamm2aMl7FaXR4dysu8%2FXjpPLh%2FBbGNIeQZfjXwpBiicvynaBFwF1UzkH%2F0dNTYAvYP3kpNICOS8LrMwc0RYxuDOwoQ1A9K0SojZ4SY9xLZpFaqRwIQt4QeyVHHKpv8MUTLCjwwWNW7OvYliat5zckyfiDjGwkqgmh%2Blw%2FXedoRKDZk2mx&X-Amz-Signature=137e57e36461b982d3460734d2f68c205da17005a83fa1bd1bb0ef7991af6c6d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663INNCZPU%2F20260506%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260506T072940Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEM%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQD2bEFFQfRofeOObtxtVKaj659clEE52xWqUsSmqg0WEgIgb6EYlS2vMtboOqHY4llOwYTbNFHJpWNOhTA8yKpdXqcqiAQImP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDF%2BMHMl1cCMBLONMDircA7k%2BYex8X5MkuBsGbKXzE5Ho1oZM7uhfxYfykTX1KtLVStniG514lYaK2uAhA4%2FxzqTE%2BRsTUYfF5SWTf0oHiqqo%2FoYhBn6WalUIrcSO2OUQiDfL%2Bmk6NYscvehNzYqiONpXyEdLNOF53oAWdhWHbKeBBKF3GLXcgs1Ffoe5aToMxPQy8uH37nkDfSaMbYzQFHBszzqj%2BO1I8UOEyS27aba%2FVImwAVFeXAfs%2F3GXxptw%2BpRQbrvHB7hvRwIR5CUONVe%2BomGZpdP%2FlG672xSToJXFGT%2BK5s1KRLYw0hMvRBzvgNTQrRVwvdd1ILXgyqU38b3bP6GiSkYWfdaALVCV78O8BXrsTXirxQDw2tPiqFoFYouiV8doy%2FCLCHSM9ELJBzE4UaNq60x7k0Yvyl4erFA%2BIMxQH0FrOZdf%2FnPnyW5VocC7tIexDnLh%2Bnf7mhWNyZ4W7VYnGU1RVm9JNbMMvH2TO59QWRwSEZXfXZoJakUGp1do0hvYU6RsiQEWyk9cq2hfrqXHZ3BmujgzwZK2x%2FySniKzSj2ZIl6FhyDmmuP41ltfDHV2owsriwwy1UXlT4kQpdy5njWr0obXGgWkEBAwZCLpr%2BgTXNZygyyZFLQXyHQJZeCIz5hGCjecML7G688GOqUBXi8%2BNxtXXPQ1OG0wiDDvhamEeBccww94RyJfGgYa%2FUbPMPdacbcJRgwyXcd7NnXKPsfI8StdWDNNxrOU53TjMJ4evlCADTwSZD4xEf7%2FggAfL5G8FbUrRNE7QOpWnbGQyA%2BltotDJHfbX3GFH74JdfOJmfwuhCXa1AK5Xid51EaGuXBSLkzuUGT7kwcUmzsuzIL4tMxScphJsYmurFhP3KZkPloX&X-Amz-Signature=4c827bbd5eaa9ca6ba3c9bdbdd8fff734c0ac70fc3fe82cf3e5a5793be5c7cda&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/WEB-LOGICIEL-Check-In-Scan-partie-1-Mapping-envoi-Naxi-G-vers-CiS-3118db15623a81c78ca4f07fb87f2047"
     },
@@ -4116,7 +4116,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-147.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXUGHQBR%2F20260506%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260506T044757Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC%2FEuSRqrPI3Z6kQQy17Lfm5rD71lnkXSHUCWr5RQDFLAIhAMJujMeOVRu7kIxrru7KdJ2LjwlbtGtWZbFVrCHA7N5IKogECJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwF8KEnMYj8RmuVisUq3AOTLUvf9XkrmO9kteonX6v5ynVpuqj0l5DRAxYLiUbjL4%2B3%2BuZQ9YbSBQsJzj5qjBoYVhzLrLDVsMe3Lw5BqnLPmaLxXzTr08IErnePnn29gikcJ93jXoAdSPdMbUjfGpA1ihVcDKPLDf2lHgT65SQiH%2FL5h8Tbxcfl7oZdzY0A0JaLZyoC2DAbR6ONdICaZMKPGJFIkzJfo0pXfYEUgusLqP2WDxWcwZeXHXSCr8anlpnvlYAKjxy4t3NntWB2wjeNZA6AepBDDU8Qp%2BkbJqrwtRsn0zcueuxsmthzZsNBcsMuPscX1JYYP5n7JgAq663r3dxX9rz65R6QtmATgJAiX2jVn7K%2B5ZLwC4cV%2FNAeZ9ySw1%2FSnAeDccfcu2%2BDPsM1l5zl0YTmAexIZO6oNuMVZJMTRyzoOFfYxQey8NQcrWrdJ3DgDzQCD122T%2FxidyV80F%2Bxz5jOn27KeRACNJxZwLUUdUepGp1pQ5IzsmDGnZWlk%2Bpxvk5OPdlCw02TgI8PSd9ZUNVt3XQYqyTGbiaFCfDQgt%2Foh98PWAdydgVCejtCFfIchakBQOmAP%2BvM2TPwiqgmq0GyhWoH2xozqjdvkeSGmdf0T%2Fr6IId8NlJdgIlZgGHtVsMdPgn29zCKgOvPBjqkAfJE2miQABcHJdz7ne5bXIz1mWHb%2FuP2lXEvLwymY3Gfik2GKYp628KCdJCXI5CCGGFhX8Emm7VF0KbdHfldyt9zwH1GtBnIlA6fihwwwZY65oJW1Fc5hlnRmUwqQRZseWjfVlvcbpcHlpxrgeUt1N4q5sVddpBUGO9H9I7GWQefiHaflmJlhmfD9wQ82R9PO08U9hW%2FzdEjdM51AYM3DcxmpGy4&X-Amz-Signature=deb6707936aa72b914727a2fe11bdb42a61167a34c4a8ef055a8918bcadbb656&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663FZWUCMG%2F20260506%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260506T072941Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEM%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDFJzncfYIm6ckCffY%2BTHWKehDCzOx4gWl%2F3ERpGBAOAAIgUzACm5MdIKjpU%2FIHM9V0HocbEKgtCT%2Fmx7PEFnsJneYqiAQImP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLT2tvfM1n4AO%2Bn5EircA0BqiOmw8MskCimM0KKRDinczaft%2Bi8fJF4wlwdfqVXMBtCGSyyFdEM3dEZi%2FEHVDOgunNN876W1WlhXJrT0GiouACzFlJo3lpvmHswxKNke0IR8aJwH0vk%2Bhy7SEpnh3Qn3v0H8NsCzzHZc3UX9oTw1pHPwnUe1atEF32OJKEeTZa2vbc%2FA4CCc8iQ0TEiVduUzaZU6IBN0WL4%2F1WNVL3ILmRpdqN4UKHubH17Ke%2BvmYM8s1qeDNvEsbsPu8u5C5lSV6AV5YDMhMGBDu2Ngsc2rISr7s0e6zkDbnf88%2BIyxVPn%2BUJRuDbFWgdclrlUkMrpA0GVjnSQAaBbFR9ENPuCEkOBLJimG32moXkvDgcSBO18m3Mc2%2Fd%2F%2Fp0h2HHdkkpYBHXKxSzilTo643yY1OH6lDjY85Wh2f6hPOJSwo0xRXGr5UdtVC33kPUQUEBaSMXvx4Rhwuys5guOezqIg5l9L%2BB4fOXJ4oz2bgcprwg90bwcE0p2o6lEYOcdfsYYZw8QTcxg8BfMZQ%2BWpaU7U31KYsKJmOCY6Lmvhbmx3UFdvem1mH%2BP02j5i6iqSPmA45eZeUrSkGJnd%2Fja58E56fzF0vRO4mmZcvMkHjmuDU2M24uOrbY8CBJW7VNKQMPvO688GOqUBVBSWjjO0zr7whtrhJvKe1bMmyKpHgUfhEY9KDdaRSAsCGcKpIIJJqdHwUFkKmpG3wvn2WVEs%2BTpO%2FUFrPv1fiolvB2Src02uz%2F0bADcSF3l3pSl6HnjxlSr7ghEgw4b5tJbmhgp5%2BXzlzFldHuP39tUgbFwTzjM6gOor4dwqTgAlEbiWxkj0C1oCq4H8kFDLDA0kqnHhQ7gRNWW8LOndW%2BMmhL3%2B&X-Amz-Signature=37458f0c7c8336b51bd45051fd19e49b1d99c9ea1ad5778aa4bf7254bddaeca5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-CRM-Le-montant-des-suppl-ments-envoy-s-est-faux-lorsque-le-suppl-ment-est-en-prix-mo-3178db15623a8017a10ff4b9821287fa"
     },
@@ -4151,7 +4151,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-148.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXUGHQBR%2F20260506%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260506T044757Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC%2FEuSRqrPI3Z6kQQy17Lfm5rD71lnkXSHUCWr5RQDFLAIhAMJujMeOVRu7kIxrru7KdJ2LjwlbtGtWZbFVrCHA7N5IKogECJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwF8KEnMYj8RmuVisUq3AOTLUvf9XkrmO9kteonX6v5ynVpuqj0l5DRAxYLiUbjL4%2B3%2BuZQ9YbSBQsJzj5qjBoYVhzLrLDVsMe3Lw5BqnLPmaLxXzTr08IErnePnn29gikcJ93jXoAdSPdMbUjfGpA1ihVcDKPLDf2lHgT65SQiH%2FL5h8Tbxcfl7oZdzY0A0JaLZyoC2DAbR6ONdICaZMKPGJFIkzJfo0pXfYEUgusLqP2WDxWcwZeXHXSCr8anlpnvlYAKjxy4t3NntWB2wjeNZA6AepBDDU8Qp%2BkbJqrwtRsn0zcueuxsmthzZsNBcsMuPscX1JYYP5n7JgAq663r3dxX9rz65R6QtmATgJAiX2jVn7K%2B5ZLwC4cV%2FNAeZ9ySw1%2FSnAeDccfcu2%2BDPsM1l5zl0YTmAexIZO6oNuMVZJMTRyzoOFfYxQey8NQcrWrdJ3DgDzQCD122T%2FxidyV80F%2Bxz5jOn27KeRACNJxZwLUUdUepGp1pQ5IzsmDGnZWlk%2Bpxvk5OPdlCw02TgI8PSd9ZUNVt3XQYqyTGbiaFCfDQgt%2Foh98PWAdydgVCejtCFfIchakBQOmAP%2BvM2TPwiqgmq0GyhWoH2xozqjdvkeSGmdf0T%2Fr6IId8NlJdgIlZgGHtVsMdPgn29zCKgOvPBjqkAfJE2miQABcHJdz7ne5bXIz1mWHb%2FuP2lXEvLwymY3Gfik2GKYp628KCdJCXI5CCGGFhX8Emm7VF0KbdHfldyt9zwH1GtBnIlA6fihwwwZY65oJW1Fc5hlnRmUwqQRZseWjfVlvcbpcHlpxrgeUt1N4q5sVddpBUGO9H9I7GWQefiHaflmJlhmfD9wQ82R9PO08U9hW%2FzdEjdM51AYM3DcxmpGy4&X-Amz-Signature=082c5e5f2a3648c6b618d603efc797c9fa87474bdccd83c86c108112d9a99bbb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663FZWUCMG%2F20260506%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260506T072941Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEM%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDFJzncfYIm6ckCffY%2BTHWKehDCzOx4gWl%2F3ERpGBAOAAIgUzACm5MdIKjpU%2FIHM9V0HocbEKgtCT%2Fmx7PEFnsJneYqiAQImP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLT2tvfM1n4AO%2Bn5EircA0BqiOmw8MskCimM0KKRDinczaft%2Bi8fJF4wlwdfqVXMBtCGSyyFdEM3dEZi%2FEHVDOgunNN876W1WlhXJrT0GiouACzFlJo3lpvmHswxKNke0IR8aJwH0vk%2Bhy7SEpnh3Qn3v0H8NsCzzHZc3UX9oTw1pHPwnUe1atEF32OJKEeTZa2vbc%2FA4CCc8iQ0TEiVduUzaZU6IBN0WL4%2F1WNVL3ILmRpdqN4UKHubH17Ke%2BvmYM8s1qeDNvEsbsPu8u5C5lSV6AV5YDMhMGBDu2Ngsc2rISr7s0e6zkDbnf88%2BIyxVPn%2BUJRuDbFWgdclrlUkMrpA0GVjnSQAaBbFR9ENPuCEkOBLJimG32moXkvDgcSBO18m3Mc2%2Fd%2F%2Fp0h2HHdkkpYBHXKxSzilTo643yY1OH6lDjY85Wh2f6hPOJSwo0xRXGr5UdtVC33kPUQUEBaSMXvx4Rhwuys5guOezqIg5l9L%2BB4fOXJ4oz2bgcprwg90bwcE0p2o6lEYOcdfsYYZw8QTcxg8BfMZQ%2BWpaU7U31KYsKJmOCY6Lmvhbmx3UFdvem1mH%2BP02j5i6iqSPmA45eZeUrSkGJnd%2Fja58E56fzF0vRO4mmZcvMkHjmuDU2M24uOrbY8CBJW7VNKQMPvO688GOqUBVBSWjjO0zr7whtrhJvKe1bMmyKpHgUfhEY9KDdaRSAsCGcKpIIJJqdHwUFkKmpG3wvn2WVEs%2BTpO%2FUFrPv1fiolvB2Src02uz%2F0bADcSF3l3pSl6HnjxlSr7ghEgw4b5tJbmhgp5%2BXzlzFldHuP39tUgbFwTzjM6gOor4dwqTgAlEbiWxkj0C1oCq4H8kFDLDA0kqnHhQ7gRNWW8LOndW%2BMmhL3%2B&X-Amz-Signature=d4ac6d9f7dc5a5bf0c7f75a9b9788419b2d471e952286be9c6d7905554443c0d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/REDSYS-Non-fonctionnel-suite-mise-en-place-3178db15623a80458d0de93a71d0564f"
     },
@@ -4189,7 +4189,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-145.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXUGHQBR%2F20260506%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260506T044757Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC%2FEuSRqrPI3Z6kQQy17Lfm5rD71lnkXSHUCWr5RQDFLAIhAMJujMeOVRu7kIxrru7KdJ2LjwlbtGtWZbFVrCHA7N5IKogECJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwF8KEnMYj8RmuVisUq3AOTLUvf9XkrmO9kteonX6v5ynVpuqj0l5DRAxYLiUbjL4%2B3%2BuZQ9YbSBQsJzj5qjBoYVhzLrLDVsMe3Lw5BqnLPmaLxXzTr08IErnePnn29gikcJ93jXoAdSPdMbUjfGpA1ihVcDKPLDf2lHgT65SQiH%2FL5h8Tbxcfl7oZdzY0A0JaLZyoC2DAbR6ONdICaZMKPGJFIkzJfo0pXfYEUgusLqP2WDxWcwZeXHXSCr8anlpnvlYAKjxy4t3NntWB2wjeNZA6AepBDDU8Qp%2BkbJqrwtRsn0zcueuxsmthzZsNBcsMuPscX1JYYP5n7JgAq663r3dxX9rz65R6QtmATgJAiX2jVn7K%2B5ZLwC4cV%2FNAeZ9ySw1%2FSnAeDccfcu2%2BDPsM1l5zl0YTmAexIZO6oNuMVZJMTRyzoOFfYxQey8NQcrWrdJ3DgDzQCD122T%2FxidyV80F%2Bxz5jOn27KeRACNJxZwLUUdUepGp1pQ5IzsmDGnZWlk%2Bpxvk5OPdlCw02TgI8PSd9ZUNVt3XQYqyTGbiaFCfDQgt%2Foh98PWAdydgVCejtCFfIchakBQOmAP%2BvM2TPwiqgmq0GyhWoH2xozqjdvkeSGmdf0T%2Fr6IId8NlJdgIlZgGHtVsMdPgn29zCKgOvPBjqkAfJE2miQABcHJdz7ne5bXIz1mWHb%2FuP2lXEvLwymY3Gfik2GKYp628KCdJCXI5CCGGFhX8Emm7VF0KbdHfldyt9zwH1GtBnIlA6fihwwwZY65oJW1Fc5hlnRmUwqQRZseWjfVlvcbpcHlpxrgeUt1N4q5sVddpBUGO9H9I7GWQefiHaflmJlhmfD9wQ82R9PO08U9hW%2FzdEjdM51AYM3DcxmpGy4&X-Amz-Signature=15d017664a02a0a3c74b884fbb0e17bf7beb43b497591c3810386302e7fe0e38&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663FZWUCMG%2F20260506%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260506T072941Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEM%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDFJzncfYIm6ckCffY%2BTHWKehDCzOx4gWl%2F3ERpGBAOAAIgUzACm5MdIKjpU%2FIHM9V0HocbEKgtCT%2Fmx7PEFnsJneYqiAQImP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLT2tvfM1n4AO%2Bn5EircA0BqiOmw8MskCimM0KKRDinczaft%2Bi8fJF4wlwdfqVXMBtCGSyyFdEM3dEZi%2FEHVDOgunNN876W1WlhXJrT0GiouACzFlJo3lpvmHswxKNke0IR8aJwH0vk%2Bhy7SEpnh3Qn3v0H8NsCzzHZc3UX9oTw1pHPwnUe1atEF32OJKEeTZa2vbc%2FA4CCc8iQ0TEiVduUzaZU6IBN0WL4%2F1WNVL3ILmRpdqN4UKHubH17Ke%2BvmYM8s1qeDNvEsbsPu8u5C5lSV6AV5YDMhMGBDu2Ngsc2rISr7s0e6zkDbnf88%2BIyxVPn%2BUJRuDbFWgdclrlUkMrpA0GVjnSQAaBbFR9ENPuCEkOBLJimG32moXkvDgcSBO18m3Mc2%2Fd%2F%2Fp0h2HHdkkpYBHXKxSzilTo643yY1OH6lDjY85Wh2f6hPOJSwo0xRXGr5UdtVC33kPUQUEBaSMXvx4Rhwuys5guOezqIg5l9L%2BB4fOXJ4oz2bgcprwg90bwcE0p2o6lEYOcdfsYYZw8QTcxg8BfMZQ%2BWpaU7U31KYsKJmOCY6Lmvhbmx3UFdvem1mH%2BP02j5i6iqSPmA45eZeUrSkGJnd%2Fja58E56fzF0vRO4mmZcvMkHjmuDU2M24uOrbY8CBJW7VNKQMPvO688GOqUBVBSWjjO0zr7whtrhJvKe1bMmyKpHgUfhEY9KDdaRSAsCGcKpIIJJqdHwUFkKmpG3wvn2WVEs%2BTpO%2FUFrPv1fiolvB2Src02uz%2F0bADcSF3l3pSl6HnjxlSr7ghEgw4b5tJbmhgp5%2BXzlzFldHuP39tUgbFwTzjM6gOor4dwqTgAlEbiWxkj0C1oCq4H8kFDLDA0kqnHhQ7gRNWW8LOndW%2BMmhL3%2B&X-Amz-Signature=99d050b6bffc3ceff0c67db8fc9145bc0a8c4fdd0c0cc5444ad9960fdc905cef&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Erreur-de-saisie-sur-les-remises-manuelle-g-n-rant-un-montant-de-s-jour-faux-3178db15623a8079a34be124df5b756a"
     },
@@ -4409,7 +4409,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "synthese_espaceclient (1).xlsx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXUGHQBR%2F20260506%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260506T044757Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC%2FEuSRqrPI3Z6kQQy17Lfm5rD71lnkXSHUCWr5RQDFLAIhAMJujMeOVRu7kIxrru7KdJ2LjwlbtGtWZbFVrCHA7N5IKogECJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwF8KEnMYj8RmuVisUq3AOTLUvf9XkrmO9kteonX6v5ynVpuqj0l5DRAxYLiUbjL4%2B3%2BuZQ9YbSBQsJzj5qjBoYVhzLrLDVsMe3Lw5BqnLPmaLxXzTr08IErnePnn29gikcJ93jXoAdSPdMbUjfGpA1ihVcDKPLDf2lHgT65SQiH%2FL5h8Tbxcfl7oZdzY0A0JaLZyoC2DAbR6ONdICaZMKPGJFIkzJfo0pXfYEUgusLqP2WDxWcwZeXHXSCr8anlpnvlYAKjxy4t3NntWB2wjeNZA6AepBDDU8Qp%2BkbJqrwtRsn0zcueuxsmthzZsNBcsMuPscX1JYYP5n7JgAq663r3dxX9rz65R6QtmATgJAiX2jVn7K%2B5ZLwC4cV%2FNAeZ9ySw1%2FSnAeDccfcu2%2BDPsM1l5zl0YTmAexIZO6oNuMVZJMTRyzoOFfYxQey8NQcrWrdJ3DgDzQCD122T%2FxidyV80F%2Bxz5jOn27KeRACNJxZwLUUdUepGp1pQ5IzsmDGnZWlk%2Bpxvk5OPdlCw02TgI8PSd9ZUNVt3XQYqyTGbiaFCfDQgt%2Foh98PWAdydgVCejtCFfIchakBQOmAP%2BvM2TPwiqgmq0GyhWoH2xozqjdvkeSGmdf0T%2Fr6IId8NlJdgIlZgGHtVsMdPgn29zCKgOvPBjqkAfJE2miQABcHJdz7ne5bXIz1mWHb%2FuP2lXEvLwymY3Gfik2GKYp628KCdJCXI5CCGGFhX8Emm7VF0KbdHfldyt9zwH1GtBnIlA6fihwwwZY65oJW1Fc5hlnRmUwqQRZseWjfVlvcbpcHlpxrgeUt1N4q5sVddpBUGO9H9I7GWQefiHaflmJlhmfD9wQ82R9PO08U9hW%2FzdEjdM51AYM3DcxmpGy4&X-Amz-Signature=c50ef57a4b5066f9b74092ee078e2af430196167e5aae45f714e9e53630f2b1e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663FZWUCMG%2F20260506%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260506T072941Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEM%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDFJzncfYIm6ckCffY%2BTHWKehDCzOx4gWl%2F3ERpGBAOAAIgUzACm5MdIKjpU%2FIHM9V0HocbEKgtCT%2Fmx7PEFnsJneYqiAQImP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLT2tvfM1n4AO%2Bn5EircA0BqiOmw8MskCimM0KKRDinczaft%2Bi8fJF4wlwdfqVXMBtCGSyyFdEM3dEZi%2FEHVDOgunNN876W1WlhXJrT0GiouACzFlJo3lpvmHswxKNke0IR8aJwH0vk%2Bhy7SEpnh3Qn3v0H8NsCzzHZc3UX9oTw1pHPwnUe1atEF32OJKEeTZa2vbc%2FA4CCc8iQ0TEiVduUzaZU6IBN0WL4%2F1WNVL3ILmRpdqN4UKHubH17Ke%2BvmYM8s1qeDNvEsbsPu8u5C5lSV6AV5YDMhMGBDu2Ngsc2rISr7s0e6zkDbnf88%2BIyxVPn%2BUJRuDbFWgdclrlUkMrpA0GVjnSQAaBbFR9ENPuCEkOBLJimG32moXkvDgcSBO18m3Mc2%2Fd%2F%2Fp0h2HHdkkpYBHXKxSzilTo643yY1OH6lDjY85Wh2f6hPOJSwo0xRXGr5UdtVC33kPUQUEBaSMXvx4Rhwuys5guOezqIg5l9L%2BB4fOXJ4oz2bgcprwg90bwcE0p2o6lEYOcdfsYYZw8QTcxg8BfMZQ%2BWpaU7U31KYsKJmOCY6Lmvhbmx3UFdvem1mH%2BP02j5i6iqSPmA45eZeUrSkGJnd%2Fja58E56fzF0vRO4mmZcvMkHjmuDU2M24uOrbY8CBJW7VNKQMPvO688GOqUBVBSWjjO0zr7whtrhJvKe1bMmyKpHgUfhEY9KDdaRSAsCGcKpIIJJqdHwUFkKmpG3wvn2WVEs%2BTpO%2FUFrPv1fiolvB2Src02uz%2F0bADcSF3l3pSl6HnjxlSr7ghEgw4b5tJbmhgp5%2BXzlzFldHuP39tUgbFwTzjM6gOor4dwqTgAlEbiWxkj0C1oCq4H8kFDLDA0kqnHhQ7gRNWW8LOndW%2BMmhL3%2B&X-Amz-Signature=1b297246d6a3ecffad0e52790d16d6f68856c064dfb8a787a8dc89e5f97d7f0f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-G-rer-l-arr-t-de-l-espace-client-V1-31a8db15623a800d915eea7ee689e4da"
     },
@@ -4655,7 +4655,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-160.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXUGHQBR%2F20260506%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260506T044757Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC%2FEuSRqrPI3Z6kQQy17Lfm5rD71lnkXSHUCWr5RQDFLAIhAMJujMeOVRu7kIxrru7KdJ2LjwlbtGtWZbFVrCHA7N5IKogECJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwF8KEnMYj8RmuVisUq3AOTLUvf9XkrmO9kteonX6v5ynVpuqj0l5DRAxYLiUbjL4%2B3%2BuZQ9YbSBQsJzj5qjBoYVhzLrLDVsMe3Lw5BqnLPmaLxXzTr08IErnePnn29gikcJ93jXoAdSPdMbUjfGpA1ihVcDKPLDf2lHgT65SQiH%2FL5h8Tbxcfl7oZdzY0A0JaLZyoC2DAbR6ONdICaZMKPGJFIkzJfo0pXfYEUgusLqP2WDxWcwZeXHXSCr8anlpnvlYAKjxy4t3NntWB2wjeNZA6AepBDDU8Qp%2BkbJqrwtRsn0zcueuxsmthzZsNBcsMuPscX1JYYP5n7JgAq663r3dxX9rz65R6QtmATgJAiX2jVn7K%2B5ZLwC4cV%2FNAeZ9ySw1%2FSnAeDccfcu2%2BDPsM1l5zl0YTmAexIZO6oNuMVZJMTRyzoOFfYxQey8NQcrWrdJ3DgDzQCD122T%2FxidyV80F%2Bxz5jOn27KeRACNJxZwLUUdUepGp1pQ5IzsmDGnZWlk%2Bpxvk5OPdlCw02TgI8PSd9ZUNVt3XQYqyTGbiaFCfDQgt%2Foh98PWAdydgVCejtCFfIchakBQOmAP%2BvM2TPwiqgmq0GyhWoH2xozqjdvkeSGmdf0T%2Fr6IId8NlJdgIlZgGHtVsMdPgn29zCKgOvPBjqkAfJE2miQABcHJdz7ne5bXIz1mWHb%2FuP2lXEvLwymY3Gfik2GKYp628KCdJCXI5CCGGFhX8Emm7VF0KbdHfldyt9zwH1GtBnIlA6fihwwwZY65oJW1Fc5hlnRmUwqQRZseWjfVlvcbpcHlpxrgeUt1N4q5sVddpBUGO9H9I7GWQefiHaflmJlhmfD9wQ82R9PO08U9hW%2FzdEjdM51AYM3DcxmpGy4&X-Amz-Signature=36344abb574cd780652f25423efd09369d6aa0277c15d1fc33e3911265b1c694&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663FZWUCMG%2F20260506%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260506T072941Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEM%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDFJzncfYIm6ckCffY%2BTHWKehDCzOx4gWl%2F3ERpGBAOAAIgUzACm5MdIKjpU%2FIHM9V0HocbEKgtCT%2Fmx7PEFnsJneYqiAQImP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLT2tvfM1n4AO%2Bn5EircA0BqiOmw8MskCimM0KKRDinczaft%2Bi8fJF4wlwdfqVXMBtCGSyyFdEM3dEZi%2FEHVDOgunNN876W1WlhXJrT0GiouACzFlJo3lpvmHswxKNke0IR8aJwH0vk%2Bhy7SEpnh3Qn3v0H8NsCzzHZc3UX9oTw1pHPwnUe1atEF32OJKEeTZa2vbc%2FA4CCc8iQ0TEiVduUzaZU6IBN0WL4%2F1WNVL3ILmRpdqN4UKHubH17Ke%2BvmYM8s1qeDNvEsbsPu8u5C5lSV6AV5YDMhMGBDu2Ngsc2rISr7s0e6zkDbnf88%2BIyxVPn%2BUJRuDbFWgdclrlUkMrpA0GVjnSQAaBbFR9ENPuCEkOBLJimG32moXkvDgcSBO18m3Mc2%2Fd%2F%2Fp0h2HHdkkpYBHXKxSzilTo643yY1OH6lDjY85Wh2f6hPOJSwo0xRXGr5UdtVC33kPUQUEBaSMXvx4Rhwuys5guOezqIg5l9L%2BB4fOXJ4oz2bgcprwg90bwcE0p2o6lEYOcdfsYYZw8QTcxg8BfMZQ%2BWpaU7U31KYsKJmOCY6Lmvhbmx3UFdvem1mH%2BP02j5i6iqSPmA45eZeUrSkGJnd%2Fja58E56fzF0vRO4mmZcvMkHjmuDU2M24uOrbY8CBJW7VNKQMPvO688GOqUBVBSWjjO0zr7whtrhJvKe1bMmyKpHgUfhEY9KDdaRSAsCGcKpIIJJqdHwUFkKmpG3wvn2WVEs%2BTpO%2FUFrPv1fiolvB2Src02uz%2F0bADcSF3l3pSl6HnjxlSr7ghEgw4b5tJbmhgp5%2BXzlzFldHuP39tUgbFwTzjM6gOor4dwqTgAlEbiWxkj0C1oCq4H8kFDLDA0kqnHhQ7gRNWW8LOndW%2BMmhL3%2B&X-Amz-Signature=f134f0ecd126c5cfd1bcd98c8d49de61c0f167cb30e5de59e6dbfd3ba185e5e9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Apparition-d-un-message-sur-le-traitement-des-r-sas-issues-de-l-espace-client-31e8db15623a806896d5f5a1ed131200"
     },
@@ -5456,7 +5456,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "Fiche communication.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RXUGHQBR%2F20260506%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260506T044757Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC%2FEuSRqrPI3Z6kQQy17Lfm5rD71lnkXSHUCWr5RQDFLAIhAMJujMeOVRu7kIxrru7KdJ2LjwlbtGtWZbFVrCHA7N5IKogECJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwF8KEnMYj8RmuVisUq3AOTLUvf9XkrmO9kteonX6v5ynVpuqj0l5DRAxYLiUbjL4%2B3%2BuZQ9YbSBQsJzj5qjBoYVhzLrLDVsMe3Lw5BqnLPmaLxXzTr08IErnePnn29gikcJ93jXoAdSPdMbUjfGpA1ihVcDKPLDf2lHgT65SQiH%2FL5h8Tbxcfl7oZdzY0A0JaLZyoC2DAbR6ONdICaZMKPGJFIkzJfo0pXfYEUgusLqP2WDxWcwZeXHXSCr8anlpnvlYAKjxy4t3NntWB2wjeNZA6AepBDDU8Qp%2BkbJqrwtRsn0zcueuxsmthzZsNBcsMuPscX1JYYP5n7JgAq663r3dxX9rz65R6QtmATgJAiX2jVn7K%2B5ZLwC4cV%2FNAeZ9ySw1%2FSnAeDccfcu2%2BDPsM1l5zl0YTmAexIZO6oNuMVZJMTRyzoOFfYxQey8NQcrWrdJ3DgDzQCD122T%2FxidyV80F%2Bxz5jOn27KeRACNJxZwLUUdUepGp1pQ5IzsmDGnZWlk%2Bpxvk5OPdlCw02TgI8PSd9ZUNVt3XQYqyTGbiaFCfDQgt%2Foh98PWAdydgVCejtCFfIchakBQOmAP%2BvM2TPwiqgmq0GyhWoH2xozqjdvkeSGmdf0T%2Fr6IId8NlJdgIlZgGHtVsMdPgn29zCKgOvPBjqkAfJE2miQABcHJdz7ne5bXIz1mWHb%2FuP2lXEvLwymY3Gfik2GKYp628KCdJCXI5CCGGFhX8Emm7VF0KbdHfldyt9zwH1GtBnIlA6fihwwwZY65oJW1Fc5hlnRmUwqQRZseWjfVlvcbpcHlpxrgeUt1N4q5sVddpBUGO9H9I7GWQefiHaflmJlhmfD9wQ82R9PO08U9hW%2FzdEjdM51AYM3DcxmpGy4&X-Amz-Signature=00608d11c7fda7d1fd65b98641b792f5364cece90909e0de74077084a0aa6cc7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663FZWUCMG%2F20260506%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260506T072942Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEM%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDFJzncfYIm6ckCffY%2BTHWKehDCzOx4gWl%2F3ERpGBAOAAIgUzACm5MdIKjpU%2FIHM9V0HocbEKgtCT%2Fmx7PEFnsJneYqiAQImP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLT2tvfM1n4AO%2Bn5EircA0BqiOmw8MskCimM0KKRDinczaft%2Bi8fJF4wlwdfqVXMBtCGSyyFdEM3dEZi%2FEHVDOgunNN876W1WlhXJrT0GiouACzFlJo3lpvmHswxKNke0IR8aJwH0vk%2Bhy7SEpnh3Qn3v0H8NsCzzHZc3UX9oTw1pHPwnUe1atEF32OJKEeTZa2vbc%2FA4CCc8iQ0TEiVduUzaZU6IBN0WL4%2F1WNVL3ILmRpdqN4UKHubH17Ke%2BvmYM8s1qeDNvEsbsPu8u5C5lSV6AV5YDMhMGBDu2Ngsc2rISr7s0e6zkDbnf88%2BIyxVPn%2BUJRuDbFWgdclrlUkMrpA0GVjnSQAaBbFR9ENPuCEkOBLJimG32moXkvDgcSBO18m3Mc2%2Fd%2F%2Fp0h2HHdkkpYBHXKxSzilTo643yY1OH6lDjY85Wh2f6hPOJSwo0xRXGr5UdtVC33kPUQUEBaSMXvx4Rhwuys5guOezqIg5l9L%2BB4fOXJ4oz2bgcprwg90bwcE0p2o6lEYOcdfsYYZw8QTcxg8BfMZQ%2BWpaU7U31KYsKJmOCY6Lmvhbmx3UFdvem1mH%2BP02j5i6iqSPmA45eZeUrSkGJnd%2Fja58E56fzF0vRO4mmZcvMkHjmuDU2M24uOrbY8CBJW7VNKQMPvO688GOqUBVBSWjjO0zr7whtrhJvKe1bMmyKpHgUfhEY9KDdaRSAsCGcKpIIJJqdHwUFkKmpG3wvn2WVEs%2BTpO%2FUFrPv1fiolvB2Src02uz%2F0bADcSF3l3pSl6HnjxlSr7ghEgw4b5tJbmhgp5%2BXzlzFldHuP39tUgbFwTzjM6gOor4dwqTgAlEbiWxkj0C1oCq4H8kFDLDA0kqnHhQ7gRNWW8LOndW%2BMmhL3%2B&X-Amz-Signature=ab5e7e9b77f002088b70e6d425f124ffb8ef0947016a1d6e5c9cddec753d2ade&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-Facturation-factures-et-proforma-d-ch-ances-multipes-probl-mes-3288db15623a80989620f6c98afd1347"
     },
@@ -11314,7 +11314,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Indicateurs d'occupation",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11328,7 +11330,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Modèles abstraits",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11340,7 +11344,7 @@
       "numGroupe": "G04",
       "numModule": "M04",
       "ordre": 11,
-      "phase": null,
+      "phase": "P2",
       "section": "Actions",
       "solution": [
         "Inaxel (PMS)"
@@ -11374,7 +11378,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Catalogue articles",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11404,7 +11410,9 @@
       "ordre": 13,
       "phase": null,
       "section": "Interface globale",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11418,7 +11426,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Intégrations métier",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11432,7 +11442,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Catalogue articles",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11446,7 +11458,9 @@
       "ordre": 12,
       "phase": null,
       "section": "Restrictions",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11460,7 +11474,9 @@
       "ordre": 9,
       "phase": null,
       "section": "Récurrence & historique",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11474,7 +11490,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Spécifique locatifs",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11502,7 +11520,7 @@
       "numGroupe": "G04",
       "numModule": "M06",
       "ordre": 6,
-      "phase": null,
+      "phase": "P2",
       "section": "Inventaire alloué",
       "solution": [
         "Inaxel (PMS)"
@@ -11520,7 +11538,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Données partagées",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11532,9 +11552,11 @@
       "numGroupe": "G04",
       "numModule": "M12",
       "ordre": 11,
-      "phase": null,
+      "phase": "P2",
       "section": "Réservation & affectation",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11546,7 +11568,7 @@
       "numGroupe": "G04",
       "numModule": "M07",
       "ordre": 7,
-      "phase": null,
+      "phase": "P2",
       "section": "Allotements",
       "solution": [
         "Inaxel (PMS)"
@@ -11564,7 +11586,9 @@
       "ordre": 10,
       "phase": null,
       "section": "Channel manager",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11576,7 +11600,7 @@
       "numGroupe": "G03",
       "numModule": "M13",
       "ordre": 13,
-      "phase": null,
+      "phase": "P2",
       "section": "Soldes clients",
       "solution": [
         "Inaxel (PMS)"
@@ -11610,7 +11634,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Intégrations métier",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11624,7 +11650,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Promotions",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11654,7 +11682,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Vue groupe",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11684,7 +11714,9 @@
       "ordre": 9,
       "phase": null,
       "section": "Documents & emails",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11698,7 +11730,9 @@
       "ordre": 9,
       "phase": null,
       "section": "Automatisations communication",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11726,7 +11760,7 @@
       "numGroupe": "G04",
       "numModule": "M07",
       "ordre": 4,
-      "phase": null,
+      "phase": "P2",
       "section": "Tarifs négociés",
       "solution": [
         "Inaxel (PMS)"
@@ -11744,7 +11778,9 @@
       "ordre": 12,
       "phase": "P1",
       "section": "Interface globale",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11756,7 +11792,7 @@
       "numGroupe": "G01",
       "numModule": "M03",
       "ordre": 5,
-      "phase": null,
+      "phase": "P2",
       "section": "Check-in / check-out",
       "solution": [
         "Inaxel (PMS)"
@@ -11772,7 +11808,7 @@
       "numGroupe": "G04",
       "numModule": "M06",
       "ordre": 8,
-      "phase": null,
+      "phase": "P2",
       "section": "Tarifs & commercial",
       "solution": [
         "Inaxel (PMS)"
@@ -11788,9 +11824,11 @@
       "numGroupe": "G04",
       "numModule": "M11",
       "ordre": 14,
-      "phase": null,
+      "phase": "P2",
       "section": "Reporting",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11802,7 +11840,7 @@
       "numGroupe": "G03",
       "numModule": "M13",
       "ordre": 7,
-      "phase": null,
+      "phase": "P2",
       "section": "Multi-canaux & en ligne",
       "solution": [
         "Inaxel (PMS)"
@@ -11820,7 +11858,9 @@
       "ordre": 11,
       "phase": null,
       "section": "Équipements locaux connectés",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11832,7 +11872,7 @@
       "numGroupe": "G01",
       "numModule": "M01",
       "ordre": 13,
-      "phase": null,
+      "phase": "P2",
       "section": "Réservations - cycle de vie",
       "solution": [
         "Inaxel (PMS)"
@@ -11848,7 +11888,7 @@
       "numGroupe": "G01",
       "numModule": "M02",
       "ordre": 12,
-      "phase": null,
+      "phase": "P2",
       "section": "Options - résas en attente d'acompte",
       "solution": [
         "Inaxel (PMS)"
@@ -11866,7 +11906,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Sécurité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11912,7 +11954,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Moteur de réservation site direct",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11924,7 +11968,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 2,
-      "phase": null,
+      "phase": "P2",
       "section": "Résidents & contrats",
       "solution": [
         "Inaxel (PMS)"
@@ -11942,7 +11986,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Spécifique locatifs",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11956,7 +12002,9 @@
       "ordre": 11,
       "phase": null,
       "section": "Échanges",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11970,7 +12018,9 @@
       "ordre": 12,
       "phase": null,
       "section": "Cycle de vie des données",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11984,7 +12034,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Grilles de prix",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -11996,7 +12048,7 @@
       "numGroupe": "G03",
       "numModule": "M13",
       "ordre": 6,
-      "phase": null,
+      "phase": "P2",
       "section": "Multi-canaux & en ligne",
       "solution": [
         "Inaxel (PMS)"
@@ -12014,7 +12066,9 @@
       "ordre": 9,
       "phase": "P1",
       "section": "Maintenance & migration",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12028,7 +12082,9 @@
       "ordre": 11,
       "phase": null,
       "section": "Calcul",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12042,7 +12098,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Équipements locaux connectés",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12102,7 +12160,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 16,
-      "phase": null,
+      "phase": "P2",
       "section": "Compteurs",
       "solution": [
         "Inaxel (PMS)"
@@ -12120,7 +12178,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Conditions",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12135,7 +12195,7 @@
       "phase": null,
       "section": "Segmentation & exclusions",
       "solution": [
-        "Inaxel (PMS)"
+        "C tout Vert (CRS)"
       ],
       "typeClientele": []
     },
@@ -12150,7 +12210,9 @@
       "ordre": 12,
       "phase": null,
       "section": "Avis & retours",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12164,7 +12226,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Rapports périodiques",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12192,9 +12256,11 @@
       "numGroupe": "G04",
       "numModule": "M11",
       "ordre": 3,
-      "phase": null,
+      "phase": "P2",
       "section": "Vues inventaire",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12208,7 +12274,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Catalogue",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12236,7 +12304,7 @@
       "numGroupe": "G04",
       "numModule": "M07",
       "ordre": 1,
-      "phase": null,
+      "phase": "P2",
       "section": "Partenaires",
       "solution": [
         "Inaxel (PMS)"
@@ -12254,7 +12322,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Modèles abstraits",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12268,7 +12338,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Apps métier (staff)",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12312,7 +12384,7 @@
       "numGroupe": "G01",
       "numModule": "M01",
       "ordre": 12,
-      "phase": null,
+      "phase": "P2",
       "section": "Réservations - cycle de vie",
       "solution": [
         "Inaxel (PMS)"
@@ -12328,7 +12400,7 @@
       "numGroupe": "G04",
       "numModule": "M05",
       "ordre": 1,
-      "phase": null,
+      "phase": "P2",
       "section": "Cycle de vie d'un groupe",
       "solution": [
         "Inaxel (PMS)"
@@ -12362,7 +12434,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Grilles de prix",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12376,7 +12450,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Calendrier de saison",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12406,7 +12482,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Spécifique locatifs",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12436,7 +12514,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Channel manager",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12450,7 +12530,9 @@
       "ordre": 5,
       "phase": "P1",
       "section": "Envois",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12464,7 +12546,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Dashboards",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12494,7 +12578,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Catalogue API",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12506,7 +12592,7 @@
       "numGroupe": "G01",
       "numModule": "M03",
       "ordre": 14,
-      "phase": null,
+      "phase": "P2",
       "section": "Modifications & cas particuliers",
       "solution": [
         "Inaxel (PMS)"
@@ -12522,9 +12608,11 @@
       "numGroupe": "G04",
       "numModule": "M12",
       "ordre": 13,
-      "phase": null,
+      "phase": "P2",
       "section": "Historique",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12570,7 +12658,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Création / édition",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12585,7 +12675,7 @@
       "phase": null,
       "section": "Fidélité",
       "solution": [
-        "Inaxel (PMS)"
+        "C tout Vert (CRS)"
       ],
       "typeClientele": []
     },
@@ -12600,7 +12690,9 @@
       "ordre": 9,
       "phase": null,
       "section": "Indicateurs de revenu",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12614,7 +12706,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Identité de l'établissement",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12628,7 +12722,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Récurrence & historique",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12642,7 +12738,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Spécifique locatifs",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12654,7 +12752,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 7,
-      "phase": null,
+      "phase": "P2",
       "section": "Facturation & paiements",
       "solution": [
         "Inaxel (PMS)"
@@ -12702,9 +12800,11 @@
       "numGroupe": "G04",
       "numModule": "M11",
       "ordre": 6,
-      "phase": null,
+      "phase": "P2",
       "section": "Caractéristiques",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12718,7 +12818,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Rapports financiers",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12730,7 +12832,7 @@
       "numGroupe": "G04",
       "numModule": "M04",
       "ordre": 4,
-      "phase": null,
+      "phase": "P2",
       "section": "Vues",
       "solution": [
         "Inaxel (PMS)"
@@ -12746,9 +12848,11 @@
       "numGroupe": "G04",
       "numModule": "M11",
       "ordre": 11,
-      "phase": null,
+      "phase": "P2",
       "section": "Statuts & disponibilité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12776,7 +12880,7 @@
       "numGroupe": "G04",
       "numModule": "M04",
       "ordre": 5,
-      "phase": null,
+      "phase": "P2",
       "section": "Vues",
       "solution": [
         "Inaxel (PMS)"
@@ -12794,7 +12898,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Plan & numérotation",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12806,9 +12912,11 @@
       "numGroupe": "G04",
       "numModule": "M12",
       "ordre": 10,
-      "phase": null,
+      "phase": "P2",
       "section": "Réservation & affectation",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12836,7 +12944,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 9,
-      "phase": null,
+      "phase": "P2",
       "section": "Facturation & paiements",
       "solution": [
         "Inaxel (PMS)"
@@ -12852,7 +12960,7 @@
       "numGroupe": "G04",
       "numModule": "M06",
       "ordre": 3,
-      "phase": null,
+      "phase": "P2",
       "section": "Partenaires",
       "solution": [
         "Inaxel (PMS)"
@@ -12868,9 +12976,11 @@
       "numGroupe": "G04",
       "numModule": "M12",
       "ordre": 12,
-      "phase": null,
+      "phase": "P2",
       "section": "Réservation & affectation",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12882,7 +12992,7 @@
       "numGroupe": "G04",
       "numModule": "M05",
       "ordre": 3,
-      "phase": null,
+      "phase": "P2",
       "section": "Cycle de vie d'un groupe",
       "solution": [
         "Inaxel (PMS)"
@@ -12898,7 +13008,7 @@
       "numGroupe": "G01",
       "numModule": "M03",
       "ordre": 10,
-      "phase": null,
+      "phase": "P2",
       "section": "Check-in / check-out",
       "solution": [
         "Inaxel (PMS)"
@@ -12914,9 +13024,11 @@
       "numGroupe": "G04",
       "numModule": "M11",
       "ordre": 8,
-      "phase": null,
+      "phase": "P2",
       "section": "Caractéristiques",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12930,7 +13042,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Données partagées",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12944,7 +13058,9 @@
       "ordre": 10,
       "phase": null,
       "section": "Diffusion",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12972,9 +13088,11 @@
       "numGroupe": "G04",
       "numModule": "M12",
       "ordre": 5,
-      "phase": null,
+      "phase": "P2",
       "section": "Inventaire & disponibilité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -12986,9 +13104,11 @@
       "numGroupe": "G04",
       "numModule": "M11",
       "ordre": 2,
-      "phase": null,
+      "phase": "P2",
       "section": "Vues inventaire",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13002,7 +13122,9 @@
       "ordre": 9,
       "phase": null,
       "section": "Sécurité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13048,7 +13170,9 @@
       "ordre": 16,
       "phase": null,
       "section": "Prévisionnel",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13078,7 +13202,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Partenaires",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13092,7 +13218,9 @@
       "ordre": 13,
       "phase": null,
       "section": "Avis & retours",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13104,7 +13232,7 @@
       "numGroupe": "G01",
       "numModule": "M02",
       "ordre": 7,
-      "phase": null,
+      "phase": "P2",
       "section": "Devis",
       "solution": [
         "Inaxel (PMS)"
@@ -13120,7 +13248,7 @@
       "numGroupe": "G01",
       "numModule": "M01",
       "ordre": 3,
-      "phase": null,
+      "phase": "P2",
       "section": "Plannings & visualisations",
       "solution": [
         "Inaxel (PMS)"
@@ -13138,7 +13266,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Planification",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13150,9 +13280,11 @@
       "numGroupe": "G04",
       "numModule": "M11",
       "ordre": 4,
-      "phase": null,
+      "phase": "P2",
       "section": "Vues inventaire",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13166,7 +13298,9 @@
       "ordre": 1,
       "phase": "P1",
       "section": "Moteur de réservation site direct",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13210,7 +13344,7 @@
       "numGroupe": "G03",
       "numModule": "M14",
       "ordre": 6,
-      "phase": null,
+      "phase": "P2",
       "section": "Multi-caisses",
       "solution": [
         "Inaxel (PMS)"
@@ -13228,7 +13362,9 @@
       "ordre": 9,
       "phase": null,
       "section": "Fonctions transverses",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13240,7 +13376,7 @@
       "numGroupe": "G04",
       "numModule": "M06",
       "ordre": 2,
-      "phase": null,
+      "phase": "P2",
       "section": "Partenaires",
       "solution": [
         "Inaxel (PMS)"
@@ -13274,7 +13410,9 @@
       "ordre": 10,
       "phase": null,
       "section": "Échanges",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13304,7 +13442,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Partenaires",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13318,7 +13458,9 @@
       "ordre": 13,
       "phase": null,
       "section": "Exécution & supervision",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13332,7 +13474,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Pilotage tarifaire",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13394,7 +13538,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Rapports périodiques",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13406,7 +13552,7 @@
       "numGroupe": "G01",
       "numModule": "M03",
       "ordre": 7,
-      "phase": null,
+      "phase": "P2",
       "section": "Check-in / check-out",
       "solution": [
         "Inaxel (PMS)"
@@ -13440,7 +13586,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Partenaires",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13454,7 +13602,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Internationalisation",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13468,7 +13618,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Diagnostics & monitoring",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13496,7 +13648,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 4,
-      "phase": null,
+      "phase": "P2",
       "section": "Résidents & contrats",
       "solution": [
         "Inaxel (PMS)"
@@ -13514,7 +13666,9 @@
       "ordre": 10,
       "phase": null,
       "section": "Maintenance & migration",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13542,7 +13696,7 @@
       "numGroupe": "G04",
       "numModule": "M07",
       "ordre": 9,
-      "phase": null,
+      "phase": "P2",
       "section": "Opérations",
       "solution": [
         "Inaxel (PMS)"
@@ -13560,7 +13714,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Envois",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13590,7 +13746,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Catalogue API",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13602,7 +13760,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 11,
-      "phase": null,
+      "phase": "P2",
       "section": "Sous-location",
       "solution": [
         "Inaxel (PMS)"
@@ -13618,7 +13776,7 @@
       "numGroupe": "G04",
       "numModule": "M04",
       "ordre": 12,
-      "phase": null,
+      "phase": "P2",
       "section": "Actions",
       "solution": [
         "Inaxel (PMS)"
@@ -13634,7 +13792,7 @@
       "numGroupe": "G03",
       "numModule": "M14",
       "ordre": 2,
-      "phase": null,
+      "phase": "P2",
       "section": "Cycle journalier",
       "solution": [
         "Inaxel (PMS)"
@@ -13652,7 +13810,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Modèles & contenus",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13666,7 +13826,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Création / édition",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13680,7 +13842,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Calendrier de saison",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13694,7 +13858,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Utilisateurs & accès",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13724,7 +13890,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Tableau de bord conformité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13736,7 +13904,7 @@
       "numGroupe": "G04",
       "numModule": "M04",
       "ordre": 1,
-      "phase": null,
+      "phase": "P2",
       "section": "Vues",
       "solution": [
         "Inaxel (PMS)"
@@ -13752,7 +13920,7 @@
       "numGroupe": "G01",
       "numModule": "M02",
       "ordre": 9,
-      "phase": null,
+      "phase": "P2",
       "section": "Devis",
       "solution": [
         "Inaxel (PMS)"
@@ -13770,7 +13938,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Échanges",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13782,7 +13952,7 @@
       "numGroupe": "G04",
       "numModule": "M04",
       "ordre": 10,
-      "phase": null,
+      "phase": "P2",
       "section": "Données client",
       "solution": [
         "Inaxel (PMS)"
@@ -13798,7 +13968,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 13,
-      "phase": null,
+      "phase": "P2",
       "section": "Sous-location",
       "solution": [
         "Inaxel (PMS)"
@@ -13814,7 +13984,7 @@
       "numGroupe": "G03",
       "numModule": "M13",
       "ordre": 9,
-      "phase": null,
+      "phase": "P2",
       "section": "Suivi & relances",
       "solution": [
         "Inaxel (PMS)"
@@ -13832,7 +14002,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Utilisateurs & accès",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13846,7 +14018,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Fonctions transverses",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13908,7 +14082,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Apps client / résident",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13922,7 +14098,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Channel manager",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13934,7 +14112,7 @@
       "numGroupe": "G04",
       "numModule": "M07",
       "ordre": 10,
-      "phase": null,
+      "phase": "P2",
       "section": "Opérations",
       "solution": [
         "Inaxel (PMS)"
@@ -13952,7 +14130,9 @@
       "ordre": 13,
       "phase": null,
       "section": "Stratégie",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -13982,7 +14162,9 @@
       "ordre": 14,
       "phase": null,
       "section": "Statistiques",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14010,9 +14192,11 @@
       "numGroupe": "G04",
       "numModule": "M12",
       "ordre": 7,
-      "phase": null,
+      "phase": "P2",
       "section": "Inventaire & disponibilité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14042,7 +14226,9 @@
       "ordre": 9,
       "phase": null,
       "section": "Échanges",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14088,7 +14274,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Données partagées",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14102,7 +14290,9 @@
       "ordre": 14,
       "phase": null,
       "section": "Interface globale",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14114,7 +14304,7 @@
       "numGroupe": "G04",
       "numModule": "M05",
       "ordre": 4,
-      "phase": null,
+      "phase": "P2",
       "section": "Cycle de vie d'un groupe",
       "solution": [
         "Inaxel (PMS)"
@@ -14164,7 +14354,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Vue groupe",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14178,7 +14370,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Modèles abstraits",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14192,7 +14386,9 @@
       "ordre": 10,
       "phase": null,
       "section": "Restrictions",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14206,7 +14402,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Grilles de prix",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14220,7 +14418,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Support utilisateur",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14234,7 +14434,9 @@
       "ordre": 10,
       "phase": null,
       "section": "Documents & emails",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14246,7 +14448,7 @@
       "numGroupe": "G03",
       "numModule": "M14",
       "ordre": 5,
-      "phase": null,
+      "phase": "P2",
       "section": "Multi-caisses",
       "solution": [
         "Inaxel (PMS)"
@@ -14264,7 +14466,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Plan & numérotation",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14278,7 +14482,9 @@
       "ordre": 9,
       "phase": "P1",
       "section": "Exécution & supervision",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14290,7 +14496,7 @@
       "numGroupe": "G01",
       "numModule": "M01",
       "ordre": 11,
-      "phase": null,
+      "phase": "P2",
       "section": "Réservations - cycle de vie",
       "solution": [
         "Inaxel (PMS)"
@@ -14340,7 +14546,9 @@
       "ordre": 11,
       "phase": null,
       "section": "Maintenance & migration",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14354,7 +14562,9 @@
       "ordre": 15,
       "phase": null,
       "section": "Conversion & marketing",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14368,7 +14578,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Catalogue",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14380,7 +14592,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 1,
-      "phase": null,
+      "phase": "P2",
       "section": "Résidents & contrats",
       "solution": [
         "Inaxel (PMS)"
@@ -14398,7 +14610,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Support utilisateur",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14412,7 +14626,9 @@
       "ordre": 13,
       "phase": null,
       "section": "Reporting",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14442,7 +14658,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Plan & numérotation",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14454,7 +14672,7 @@
       "numGroupe": "G04",
       "numModule": "M05",
       "ordre": 11,
-      "phase": null,
+      "phase": "P2",
       "section": "Suivi",
       "solution": [
         "Inaxel (PMS)"
@@ -14472,7 +14690,9 @@
       "ordre": 10,
       "phase": null,
       "section": "Équipements locaux connectés",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14484,7 +14704,7 @@
       "numGroupe": "G01",
       "numModule": "M02",
       "ordre": 6,
-      "phase": null,
+      "phase": "P2",
       "section": "Devis",
       "solution": [
         "Inaxel (PMS)"
@@ -14500,7 +14720,7 @@
       "numGroupe": "G04",
       "numModule": "M07",
       "ordre": 5,
-      "phase": null,
+      "phase": "P2",
       "section": "Tarifs négociés",
       "solution": [
         "Inaxel (PMS)"
@@ -14516,9 +14736,11 @@
       "numGroupe": "G04",
       "numModule": "M12",
       "ordre": 9,
-      "phase": null,
+      "phase": "P2",
       "section": "Réservation & affectation",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14532,7 +14754,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Exports personnalisés",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14546,7 +14770,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Envois",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14560,7 +14786,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Internationalisation",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14574,7 +14802,9 @@
       "ordre": 12,
       "phase": null,
       "section": "Indicateurs de revenu",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14588,7 +14818,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Règles",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14600,7 +14832,7 @@
       "numGroupe": "G01",
       "numModule": "M02",
       "ordre": 10,
-      "phase": null,
+      "phase": "P2",
       "section": "Options - résas en attente d'acompte",
       "solution": [
         "Inaxel (PMS)"
@@ -14618,7 +14850,9 @@
       "ordre": 12,
       "phase": null,
       "section": "Outils",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14630,7 +14864,7 @@
       "numGroupe": "G04",
       "numModule": "M05",
       "ordre": 2,
-      "phase": null,
+      "phase": "P2",
       "section": "Cycle de vie d'un groupe",
       "solution": [
         "Inaxel (PMS)"
@@ -14648,7 +14882,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Tableau de bord conformité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14662,7 +14898,9 @@
       "ordre": 10,
       "phase": null,
       "section": "Calcul",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14708,7 +14946,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Exports personnalisés",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14738,7 +14978,9 @@
       "ordre": 9,
       "phase": null,
       "section": "Rapports comparatifs",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14752,7 +14994,9 @@
       "ordre": 10,
       "phase": null,
       "section": "Automatisations communication",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14766,7 +15010,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Partenaires",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14812,7 +15058,9 @@
       "ordre": 1,
       "phase": "P1",
       "section": "Dashboards",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14826,7 +15074,9 @@
       "ordre": 11,
       "phase": null,
       "section": "Indicateurs de revenu",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14840,7 +15090,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Conditions",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14854,7 +15106,9 @@
       "ordre": 11,
       "phase": "P1",
       "section": "Interface globale",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14868,7 +15122,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Sécurité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14882,7 +15138,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Indicateurs d'occupation",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14896,7 +15154,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Partenaires",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14910,7 +15170,9 @@
       "ordre": 11,
       "phase": null,
       "section": "Cycle de vie des données",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14924,7 +15186,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Indicateurs d'occupation",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14938,7 +15202,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Indicateurs de revenu",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14952,7 +15218,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Diagnostics & monitoring",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14964,9 +15232,11 @@
       "numGroupe": "G04",
       "numModule": "M11",
       "ordre": 1,
-      "phase": null,
+      "phase": "P2",
       "section": "Vues inventaire",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -14996,7 +15266,9 @@
       "ordre": 9,
       "phase": null,
       "section": "Restrictions",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15008,7 +15280,7 @@
       "numGroupe": "G04",
       "numModule": "M07",
       "ordre": 2,
-      "phase": null,
+      "phase": "P2",
       "section": "Partenaires",
       "solution": [
         "Inaxel (PMS)"
@@ -15026,7 +15298,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Channel manager",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15040,7 +15314,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Indicateurs d'occupation",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15052,7 +15328,7 @@
       "numGroupe": "G01",
       "numModule": "M03",
       "ordre": 13,
-      "phase": null,
+      "phase": "P2",
       "section": "Modifications & cas particuliers",
       "solution": [
         "Inaxel (PMS)"
@@ -15068,7 +15344,7 @@
       "numGroupe": "G03",
       "numModule": "M14",
       "ordre": 1,
-      "phase": null,
+      "phase": "P2",
       "section": "Cycle journalier",
       "solution": [
         "Inaxel (PMS)"
@@ -15118,7 +15394,9 @@
       "ordre": 14,
       "phase": null,
       "section": "Conversion & marketing",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15132,7 +15410,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Calendrier de saison",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15146,7 +15426,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Identité de l'établissement",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15158,7 +15440,7 @@
       "numGroupe": "G04",
       "numModule": "M05",
       "ordre": 10,
-      "phase": null,
+      "phase": "P2",
       "section": "Suivi",
       "solution": [
         "Inaxel (PMS)"
@@ -15176,7 +15458,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Apps client / résident",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15206,7 +15490,9 @@
       "ordre": 9,
       "phase": null,
       "section": "Catalogue articles",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15236,7 +15522,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Rapports comparatifs",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15248,7 +15536,7 @@
       "numGroupe": "G01",
       "numModule": "M03",
       "ordre": 8,
-      "phase": null,
+      "phase": "P2",
       "section": "Check-in / check-out",
       "solution": [
         "Inaxel (PMS)"
@@ -15282,7 +15570,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Sécurité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15296,7 +15586,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Catalogue articles",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15310,7 +15602,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Modèles & contenus",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15324,7 +15618,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Support utilisateur",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15336,7 +15632,7 @@
       "numGroupe": "G04",
       "numModule": "M05",
       "ordre": 6,
-      "phase": null,
+      "phase": "P2",
       "section": "Inventaire & planification",
       "solution": [
         "Inaxel (PMS)"
@@ -15352,7 +15648,7 @@
       "numGroupe": "G03",
       "numModule": "M13",
       "ordre": 11,
-      "phase": null,
+      "phase": "P2",
       "section": "Suivi & relances",
       "solution": [
         "Inaxel (PMS)"
@@ -15400,7 +15696,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 10,
-      "phase": null,
+      "phase": "P2",
       "section": "Facturation & paiements",
       "solution": [
         "Inaxel (PMS)"
@@ -15418,7 +15714,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Promotions",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15432,7 +15730,9 @@
       "ordre": 9,
       "phase": null,
       "section": "Conditions",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15446,7 +15746,9 @@
       "ordre": 11,
       "phase": null,
       "section": "Stratégie",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15460,7 +15762,9 @@
       "ordre": 11,
       "phase": null,
       "section": "Avis & retours",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15472,9 +15776,11 @@
       "numGroupe": "G04",
       "numModule": "M11",
       "ordre": 12,
-      "phase": null,
+      "phase": "P2",
       "section": "Statuts & disponibilité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15486,7 +15792,7 @@
       "numGroupe": "G04",
       "numModule": "M05",
       "ordre": 8,
-      "phase": null,
+      "phase": "P2",
       "section": "Inventaire & planification",
       "solution": [
         "Inaxel (PMS)"
@@ -15520,7 +15826,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Plan & numérotation",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15550,7 +15858,9 @@
       "ordre": 7,
       "phase": "P1",
       "section": "Contrôle terrain",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15564,7 +15874,9 @@
       "ordre": 9,
       "phase": null,
       "section": "Channel manager",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15576,7 +15888,7 @@
       "numGroupe": "G01",
       "numModule": "M03",
       "ordre": 6,
-      "phase": null,
+      "phase": "P2",
       "section": "Check-in / check-out",
       "solution": [
         "Inaxel (PMS)"
@@ -15626,7 +15938,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Planification",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15654,7 +15968,7 @@
       "numGroupe": "G01",
       "numModule": "M01",
       "ordre": 17,
-      "phase": null,
+      "phase": "P2",
       "section": "Réservations - cycle de vie",
       "solution": [
         "Inaxel (PMS)"
@@ -15686,7 +16000,7 @@
       "numGroupe": "G04",
       "numModule": "M06",
       "ordre": 5,
-      "phase": null,
+      "phase": "P2",
       "section": "Inventaire alloué",
       "solution": [
         "Inaxel (PMS)"
@@ -15720,7 +16034,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Calendrier de saison",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15782,7 +16098,9 @@
       "ordre": 10,
       "phase": null,
       "section": "Fonctions transverses",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15812,7 +16130,9 @@
       "ordre": 13,
       "phase": null,
       "section": "Conversion & marketing",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15826,7 +16146,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Sécurité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15872,7 +16194,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Channel manager",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15886,7 +16210,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Catalogue articles",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15898,9 +16224,11 @@
       "numGroupe": "G04",
       "numModule": "M11",
       "ordre": 7,
-      "phase": null,
+      "phase": "P2",
       "section": "Caractéristiques",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15930,7 +16258,9 @@
       "ordre": 10,
       "phase": null,
       "section": "Indicateurs de revenu",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15942,7 +16272,7 @@
       "numGroupe": "G01",
       "numModule": "M02",
       "ordre": 14,
-      "phase": null,
+      "phase": "P2",
       "section": "Options - résas en attente d'acompte",
       "solution": [
         "Inaxel (PMS)"
@@ -15960,7 +16290,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Apps métier (staff)",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15974,7 +16306,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Traçabilité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -15988,7 +16322,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Conditions",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16002,7 +16338,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Promotions",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16016,7 +16354,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Utilisateurs & accès",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16030,7 +16370,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Spécifique locatifs",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16060,7 +16402,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Catalogue articles",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16074,7 +16418,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Modèles & contenus",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16104,7 +16450,9 @@
       "ordre": 13,
       "phase": null,
       "section": "Outils",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16116,9 +16464,11 @@
       "numGroupe": "G04",
       "numModule": "M12",
       "ordre": 3,
-      "phase": null,
+      "phase": "P2",
       "section": "Catalogue",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16146,9 +16496,11 @@
       "numGroupe": "G04",
       "numModule": "M12",
       "ordre": 8,
-      "phase": null,
+      "phase": "P2",
       "section": "Inventaire & disponibilité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16160,7 +16512,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 15,
-      "phase": null,
+      "phase": "P2",
       "section": "Compteurs",
       "solution": [
         "Inaxel (PMS)"
@@ -16176,7 +16528,7 @@
       "numGroupe": "G04",
       "numModule": "M07",
       "ordre": 6,
-      "phase": null,
+      "phase": "P2",
       "section": "Allotements",
       "solution": [
         "Inaxel (PMS)"
@@ -16194,7 +16546,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Récurrence & historique",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16206,9 +16560,11 @@
       "numGroupe": "G04",
       "numModule": "M11",
       "ordre": 5,
-      "phase": null,
+      "phase": "P2",
       "section": "Caractéristiques",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16220,7 +16576,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 6,
-      "phase": null,
+      "phase": "P2",
       "section": "Résidents & contrats",
       "solution": [
         "Inaxel (PMS)"
@@ -16236,9 +16592,11 @@
       "numGroupe": "G04",
       "numModule": "M12",
       "ordre": 2,
-      "phase": null,
+      "phase": "P2",
       "section": "Catalogue",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16252,7 +16610,9 @@
       "ordre": 13,
       "phase": null,
       "section": "Cycle de vie des données",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16282,7 +16642,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Rapports périodiques",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16294,7 +16656,7 @@
       "numGroupe": "G04",
       "numModule": "M06",
       "ordre": 10,
-      "phase": null,
+      "phase": "P2",
       "section": "Opérations",
       "solution": [
         "Inaxel (PMS)"
@@ -16326,7 +16688,7 @@
       "numGroupe": "G04",
       "numModule": "M04",
       "ordre": 8,
-      "phase": null,
+      "phase": "P2",
       "section": "Données client",
       "solution": [
         "Inaxel (PMS)"
@@ -16344,7 +16706,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Grilles de prix",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16372,7 +16736,7 @@
       "numGroupe": "G01",
       "numModule": "M03",
       "ordre": 4,
-      "phase": null,
+      "phase": "P2",
       "section": "Check-in / check-out",
       "solution": [
         "Inaxel (PMS)"
@@ -16390,7 +16754,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Équipements locaux connectés",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16404,7 +16770,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Intégrations métier",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16416,7 +16784,7 @@
       "numGroupe": "G03",
       "numModule": "M13",
       "ordre": 8,
-      "phase": null,
+      "phase": "P2",
       "section": "Suivi & relances",
       "solution": [
         "Inaxel (PMS)"
@@ -16432,7 +16800,7 @@
       "numGroupe": "G01",
       "numModule": "M01",
       "ordre": 16,
-      "phase": null,
+      "phase": "P2",
       "section": "Réservations - cycle de vie",
       "solution": [
         "Inaxel (PMS)"
@@ -16448,7 +16816,7 @@
       "numGroupe": "G01",
       "numModule": "M01",
       "ordre": 15,
-      "phase": null,
+      "phase": "P2",
       "section": "Réservations - cycle de vie",
       "solution": [
         "Inaxel (PMS)"
@@ -16512,7 +16880,7 @@
       "numGroupe": "G04",
       "numModule": "M07",
       "ordre": 8,
-      "phase": null,
+      "phase": "P2",
       "section": "Opérations",
       "solution": [
         "Inaxel (PMS)"
@@ -16546,7 +16914,9 @@
       "ordre": 17,
       "phase": null,
       "section": "Prévisionnel",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16560,7 +16930,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Intégrations métier",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16606,7 +16978,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Diagnostics & monitoring",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16634,7 +17008,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 8,
-      "phase": null,
+      "phase": "P2",
       "section": "Facturation & paiements",
       "solution": [
         "Inaxel (PMS)"
@@ -16652,7 +17026,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Utilisateurs & accès",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16664,7 +17040,7 @@
       "numGroupe": "G04",
       "numModule": "M04",
       "ordre": 7,
-      "phase": null,
+      "phase": "P2",
       "section": "Données client",
       "solution": [
         "Inaxel (PMS)"
@@ -16714,7 +17090,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Pilotage tarifaire",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16744,7 +17122,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Rapports financiers",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16774,7 +17154,9 @@
       "ordre": 4,
       "phase": "P1",
       "section": "Envois",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16788,7 +17170,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Règles",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16803,7 +17187,7 @@
       "phase": "P1",
       "section": "Vues",
       "solution": [
-        "Inaxel (PMS)"
+        "C tout Vert (CRS)"
       ],
       "typeClientele": []
     },
@@ -16818,7 +17202,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Promotions",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16880,7 +17266,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Rapports périodiques",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16894,7 +17282,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Diagnostics & monitoring",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16906,7 +17296,7 @@
       "numGroupe": "G04",
       "numModule": "M05",
       "ordre": 7,
-      "phase": null,
+      "phase": "P2",
       "section": "Inventaire & planification",
       "solution": [
         "Inaxel (PMS)"
@@ -16922,7 +17312,7 @@
       "numGroupe": "G04",
       "numModule": "M06",
       "ordre": 9,
-      "phase": null,
+      "phase": "P2",
       "section": "Opérations",
       "solution": [
         "Inaxel (PMS)"
@@ -16940,7 +17330,9 @@
       "ordre": 10,
       "phase": null,
       "section": "Cycle de vie des données",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16954,7 +17346,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Traçabilité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16966,7 +17360,7 @@
       "numGroupe": "G04",
       "numModule": "M05",
       "ordre": 5,
-      "phase": null,
+      "phase": "P2",
       "section": "Inventaire & planification",
       "solution": [
         "Inaxel (PMS)"
@@ -16984,7 +17378,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Calendrier de saison",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -16996,9 +17392,11 @@
       "numGroupe": "G04",
       "numModule": "M11",
       "ordre": 10,
-      "phase": null,
+      "phase": "P2",
       "section": "Statuts & disponibilité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17012,7 +17410,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Internationalisation",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17042,7 +17442,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Apps métier (staff)",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17057,7 +17459,7 @@
       "phase": null,
       "section": "Fidélité",
       "solution": [
-        "Inaxel (PMS)"
+        "C tout Vert (CRS)"
       ],
       "typeClientele": []
     },
@@ -17072,7 +17474,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Support utilisateur",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17086,7 +17490,9 @@
       "ordre": 14,
       "phase": null,
       "section": "Stratégie",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17100,7 +17506,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Tableau de bord conformité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17144,7 +17552,7 @@
       "numGroupe": "G03",
       "numModule": "M13",
       "ordre": 4,
-      "phase": null,
+      "phase": "P2",
       "section": "Vue & saisie",
       "solution": [
         "Inaxel (PMS)"
@@ -17162,7 +17570,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Exports personnalisés",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17176,7 +17586,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Grilles de prix",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17220,7 +17632,7 @@
       "numGroupe": "G03",
       "numModule": "M13",
       "ordre": 1,
-      "phase": null,
+      "phase": "P2",
       "section": "Vue & saisie",
       "solution": [
         "Inaxel (PMS)"
@@ -17270,7 +17682,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Traçabilité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17282,7 +17696,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 14,
-      "phase": null,
+      "phase": "P2",
       "section": "Sous-location",
       "solution": [
         "Inaxel (PMS)"
@@ -17300,7 +17714,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Fonctions transverses",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17330,7 +17746,9 @@
       "ordre": 12,
       "phase": null,
       "section": "Imports / exports",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17390,7 +17808,7 @@
       "numGroupe": "G01",
       "numModule": "M02",
       "ordre": 4,
-      "phase": null,
+      "phase": "P2",
       "section": "Devis",
       "solution": [
         "Inaxel (PMS)"
@@ -17408,7 +17826,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Règles",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17422,7 +17842,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Catalogue articles",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17436,7 +17858,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Modèles abstraits",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17448,7 +17872,7 @@
       "numGroupe": "G01",
       "numModule": "M02",
       "ordre": 13,
-      "phase": null,
+      "phase": "P2",
       "section": "Options - résas en attente d'acompte",
       "solution": [
         "Inaxel (PMS)"
@@ -17466,7 +17890,9 @@
       "ordre": 12,
       "phase": null,
       "section": "Exécution & supervision",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17481,7 +17907,7 @@
       "phase": "P1",
       "section": "Fidélité",
       "solution": [
-        "Inaxel (PMS)"
+        "C tout Vert (CRS)"
       ],
       "typeClientele": []
     },
@@ -17494,7 +17920,7 @@
       "numGroupe": "G01",
       "numModule": "M01",
       "ordre": 18,
-      "phase": null,
+      "phase": "P2",
       "section": "Indisponibilités",
       "solution": [
         "Inaxel (PMS)"
@@ -17510,7 +17936,7 @@
       "numGroupe": "G04",
       "numModule": "M06",
       "ordre": 1,
-      "phase": null,
+      "phase": "P2",
       "section": "Partenaires",
       "solution": [
         "Inaxel (PMS)"
@@ -17528,7 +17954,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Création / édition",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17542,7 +17970,9 @@
       "ordre": 9,
       "phase": null,
       "section": "Équipements locaux connectés",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17570,7 +18000,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 3,
-      "phase": null,
+      "phase": "P2",
       "section": "Résidents & contrats",
       "solution": [
         "Inaxel (PMS)"
@@ -17602,7 +18032,7 @@
       "numGroupe": "G04",
       "numModule": "M07",
       "ordre": 3,
-      "phase": null,
+      "phase": "P2",
       "section": "Partenaires",
       "solution": [
         "Inaxel (PMS)"
@@ -17620,7 +18050,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Moteur de réservation site direct",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17634,7 +18066,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Catalogue articles",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17646,7 +18080,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 12,
-      "phase": null,
+      "phase": "P2",
       "section": "Sous-location",
       "solution": [
         "Inaxel (PMS)"
@@ -17664,7 +18098,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Pilotage tarifaire",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17694,7 +18130,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Dashboards",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17722,7 +18160,7 @@
       "numGroupe": "G04",
       "numModule": "M06",
       "ordre": 4,
-      "phase": null,
+      "phase": "P2",
       "section": "Inventaire alloué",
       "solution": [
         "Inaxel (PMS)"
@@ -17738,7 +18176,7 @@
       "numGroupe": "G04",
       "numModule": "M08",
       "ordre": 5,
-      "phase": null,
+      "phase": "P2",
       "section": "Résidents & contrats",
       "solution": [
         "Inaxel (PMS)"
@@ -17756,7 +18194,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Reporting",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17770,7 +18210,9 @@
       "ordre": 10,
       "phase": null,
       "section": "Exécution & supervision",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17800,7 +18242,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Catalogue d'exports",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17828,7 +18272,7 @@
       "numGroupe": "G01",
       "numModule": "M01",
       "ordre": 14,
-      "phase": null,
+      "phase": "P2",
       "section": "Réservations - cycle de vie",
       "solution": [
         "Inaxel (PMS)"
@@ -17846,7 +18290,9 @@
       "ordre": 12,
       "phase": null,
       "section": "Stratégie",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17860,7 +18306,9 @@
       "ordre": 11,
       "phase": null,
       "section": "Exécution & supervision",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17874,7 +18322,9 @@
       "ordre": 11,
       "phase": null,
       "section": "Restrictions",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17904,7 +18354,9 @@
       "ordre": 9,
       "phase": "P1",
       "section": "Statuts & disponibilité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17918,7 +18370,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Catalogue d'exports",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17932,7 +18386,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Channel manager",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17962,7 +18418,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Équipements locaux connectés",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -17974,7 +18432,7 @@
       "numGroupe": "G04",
       "numModule": "M06",
       "ordre": 11,
-      "phase": null,
+      "phase": "P2",
       "section": "Reporting",
       "solution": [
         "Inaxel (PMS)"
@@ -17992,7 +18450,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Apps métier (staff)",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18006,7 +18466,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Catalogue d'exports",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18020,7 +18482,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Rapports financiers",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18032,9 +18496,11 @@
       "numGroupe": "G04",
       "numModule": "M12",
       "ordre": 6,
-      "phase": null,
+      "phase": "P2",
       "section": "Inventaire & disponibilité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18046,7 +18512,7 @@
       "numGroupe": "G01",
       "numModule": "M02",
       "ordre": 15,
-      "phase": null,
+      "phase": "P2",
       "section": "Web",
       "solution": [
         "Inaxel (PMS)"
@@ -18064,7 +18530,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Identité de l'établissement",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18078,7 +18546,9 @@
       "ordre": 9,
       "phase": null,
       "section": "Contrôle terrain",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18092,7 +18562,9 @@
       "ordre": 7,
       "phase": null,
       "section": "Règles",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18136,7 +18608,7 @@
       "numGroupe": "G01",
       "numModule": "M01",
       "ordre": 2,
-      "phase": null,
+      "phase": "P2",
       "section": "Plannings & visualisations",
       "solution": [
         "Inaxel (PMS)"
@@ -18152,7 +18624,7 @@
       "numGroupe": "G04",
       "numModule": "M04",
       "ordre": 13,
-      "phase": null,
+      "phase": "P2",
       "section": "Segmentation & exclusions",
       "solution": [
         "Inaxel (PMS)"
@@ -18184,7 +18656,7 @@
       "numGroupe": "G03",
       "numModule": "M13",
       "ordre": 3,
-      "phase": null,
+      "phase": "P2",
       "section": "Vue & saisie",
       "solution": [
         "Inaxel (PMS)"
@@ -18234,7 +18706,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Spécifique locatifs",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18246,9 +18720,11 @@
       "numGroupe": "G04",
       "numModule": "M12",
       "ordre": 1,
-      "phase": null,
+      "phase": "P2",
       "section": "Catalogue",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18276,7 +18752,7 @@
       "numGroupe": "G03",
       "numModule": "M13",
       "ordre": 10,
-      "phase": null,
+      "phase": "P2",
       "section": "Suivi & relances",
       "solution": [
         "Inaxel (PMS)"
@@ -18324,9 +18800,11 @@
       "numGroupe": "G04",
       "numModule": "M09",
       "ordre": 14,
-      "phase": null,
+      "phase": "P2",
       "section": "Reporting",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18338,7 +18816,7 @@
       "numGroupe": "G01",
       "numModule": "M01",
       "ordre": 5,
-      "phase": null,
+      "phase": "P2",
       "section": "Plannings & visualisations",
       "solution": [
         "Inaxel (PMS)"
@@ -18356,7 +18834,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Vue groupe",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18370,7 +18850,9 @@
       "ordre": 5,
       "phase": null,
       "section": "Création / édition",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18400,7 +18882,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Internationalisation",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18428,9 +18912,11 @@
       "numGroupe": "G04",
       "numModule": "M11",
       "ordre": 13,
-      "phase": null,
+      "phase": "P2",
       "section": "Statuts & disponibilité",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18444,7 +18930,9 @@
       "ordre": 3,
       "phase": null,
       "section": "Calendrier de saison",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18472,7 +18960,7 @@
       "numGroupe": "G04",
       "numModule": "M06",
       "ordre": 7,
-      "phase": null,
+      "phase": "P2",
       "section": "Tarifs & commercial",
       "solution": [
         "Inaxel (PMS)"
@@ -18490,7 +18978,9 @@
       "ordre": 8,
       "phase": null,
       "section": "Contrôle terrain",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18504,7 +18994,9 @@
       "ordre": 4,
       "phase": null,
       "section": "Identité de l'établissement",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18516,7 +19008,7 @@
       "numGroupe": "G04",
       "numModule": "M05",
       "ordre": 9,
-      "phase": null,
+      "phase": "P2",
       "section": "Suivi",
       "solution": [
         "Inaxel (PMS)"
@@ -18534,7 +19026,9 @@
       "ordre": 2,
       "phase": null,
       "section": "Intégrations métier",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18548,7 +19042,9 @@
       "ordre": 14,
       "phase": null,
       "section": "Cycle de vie des données",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18578,7 +19074,9 @@
       "ordre": 6,
       "phase": null,
       "section": "Envois",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18590,9 +19088,11 @@
       "numGroupe": "G04",
       "numModule": "M12",
       "ordre": 4,
-      "phase": null,
+      "phase": "P2",
       "section": "Catalogue",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18606,7 +19106,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Pilotage tarifaire",
-      "solution": [],
+      "solution": [
+        "C tout Vert (CRS)"
+      ],
       "typeClientele": []
     },
     {
@@ -18620,7 +19122,9 @@
       "ordre": 1,
       "phase": null,
       "section": "Catalogue articles",
-      "solution": [],
+      "solution": [
+        "Inaxel (PMS)"
+      ],
       "typeClientele": []
     }
   ],
