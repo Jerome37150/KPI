@@ -4,7 +4,11 @@ import { useState, useEffect } from 'react';
 // FETCH des données Notion (data.json généré par scripts/fetch-notion.js)
 // ============================================
 export function useNotionData() {
-  const [data, setData] = useState({ classique: [], topline: [], generatedAt: null });
+  const [data, setData] = useState({
+    classique: [], topline: [],
+    cartoPmsWeb: [], cartoPmsMobile: [], cartoManager: [],
+    generatedAt: null,
+  });
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState(null);
 
@@ -19,9 +23,12 @@ export function useNotionData() {
       })
       .then(json => {
         setData({
-          classique:   Array.isArray(json?.classique) ? json.classique : [],
-          topline:     Array.isArray(json?.topline)   ? json.topline   : [],
-          generatedAt: json?.generatedAt || null,
+          classique:      Array.isArray(json?.classique)      ? json.classique      : [],
+          topline:        Array.isArray(json?.topline)        ? json.topline        : [],
+          cartoPmsWeb:    Array.isArray(json?.cartoPmsWeb)    ? json.cartoPmsWeb    : [],
+          cartoPmsMobile: Array.isArray(json?.cartoPmsMobile) ? json.cartoPmsMobile : [],
+          cartoManager:   Array.isArray(json?.cartoManager)   ? json.cartoManager   : [],
+          generatedAt:    json?.generatedAt || null,
         });
         setLoaded(true);
       })

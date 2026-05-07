@@ -10,6 +10,8 @@ import { VersionPage } from './pages/VersionPage';
 import { SprintPage } from './pages/SprintPage';
 import { ImmobilisationPage } from './pages/ImmobilisationPage';
 import { SuiviPage } from './pages/SuiviPage';
+import { BluePrintPage } from './pages/BluePrintPage';
+import { GanttPage } from './pages/GanttPage';
 
 // ============================================
 // PAGES — registre des pages connues (clé = id route, label = titre header)
@@ -21,6 +23,8 @@ const PAGES = {
   sprint:         { label: "Sprint en cours", Component: SprintPage         },
   suivi:          { label: "Suivi Top Line",  Component: SuiviPage          },
   immobilisation: { label: "Immobilisation",  Component: ImmobilisationPage },
+  blueprint:      { label: "Blue Print",      Component: BluePrintPage      },
+  gantt:          { label: "Gantt",            Component: GanttPage          },
 };
 
 // ============================================

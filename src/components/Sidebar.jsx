@@ -1,9 +1,11 @@
-import { LayoutDashboard, FileText, Package, Sparkles, Building2, LineChart } from 'lucide-react';
+import { useState } from 'react';
+import { LayoutDashboard, FileText, Package, Sparkles, Building2, LineChart, LayoutGrid, Calendar, Lock, Unlock } from 'lucide-react';
 import { C, LAYOUT } from '../styles/theme';
 import { LogoInaxel } from './LogoInaxel';
 
 // ============================================
 // NAV — structure du menu (cf. inaxel-pilot)
+// items marqués strategie:true sont masqués tant que le code n'est pas saisi
 // ============================================
 export const NAV_ITEMS = [
   { type: "window",   key: "dashboard",      label: "Dashboard",       icon: LayoutDashboard },
@@ -13,15 +15,50 @@ export const NAV_ITEMS = [
   { type: "window",   key: "version",        label: "Version",         icon: Package },
   { type: "category", label: "Sprint" },
   { type: "window",   key: "sprint",         label: "Sprint en cours", icon: Sparkles },
-  { type: "category", label: "Top Line" },
+  { type: "category", label: "Top Line Saas" },
   { type: "window",   key: "suivi",          label: "Suivi",           icon: LineChart },
   { type: "window",   key: "immobilisation", label: "Immobilisation",  icon: Building2 },
+  { type: "category", label: "Naxi Full Web", strategie: true },
+  { type: "window",   key: "blueprint",      label: "Blue Print",      icon: LayoutGrid, strategie: true },
+  { type: "window",   key: "gantt",          label: "Gantt",           icon: Calendar,   strategie: true },
 ];
+
+// Verrou visuel sur la section Stratégie
+const STRAT_KEY = "inaxel_kpi_strat";
+const STRAT_PWD = "123";
+const STRATEGIE_KEYS = NAV_ITEMS.filter(e => e.type === "window" && e.strategie).map(e => e.key);
 
 // ============================================
 // Sidebar — drawer permanent à gauche, style inaxel-pilot
 // ============================================
 export function Sidebar({ tab, onSelect }) {
+  const [stratUnlocked, setStratUnlocked] = useState(() => {
+    try { return sessionStorage.getItem(STRAT_KEY) === "ok"; }
+    catch { return false; }
+  });
+
+  const visibleItems = stratUnlocked
+    ? NAV_ITEMS
+    : NAV_ITEMS.filter(e => !e.strategie);
+
+  const toggleStrat = () => {
+    if (stratUnlocked) {
+      try { sessionStorage.removeItem(STRAT_KEY); } catch { /* ignore */ }
+      setStratUnlocked(false);
+      // si on est en train de regarder une page Stratégie, on revient au dashboard
+      if (STRATEGIE_KEYS.includes(tab)) onSelect("dashboard");
+      return;
+    }
+    const pwd = window.prompt("Code d'accès — Naxi Full Web");
+    if (pwd === null) return; // annulation
+    if (pwd === STRAT_PWD) {
+      try { sessionStorage.setItem(STRAT_KEY, "ok"); } catch { /* ignore */ }
+      setStratUnlocked(true);
+    } else {
+      window.alert("Code incorrect");
+    }
+  };
+
   return (
     <aside style={{
       position: "fixed", top: 0, left: 0, bottom: 0,
@@ -47,7 +84,7 @@ export function Sidebar({ tab, onSelect }) {
         padding: "8px 0 16px",
         display: "flex", flexDirection: "column",
       }}>
-        {NAV_ITEMS.map((entry, i) => {
+        {visibleItems.map((entry, i) => {
           if (entry.type === "category") {
             return (
               <div key={`cat-${i}-${entry.label}`} style={{
@@ -101,14 +138,30 @@ export function Sidebar({ tab, onSelect }) {
         })}
       </nav>
 
-      {/* Footer sidebar */}
-      <div style={{
-        padding: "14px 18px",
-        borderTop: `1px solid ${C.line}`,
-        fontSize: 10, color: C.inkMute, fontWeight: 500, letterSpacing: "0.04em",
-      }}>
-        NAXI.G · Produits & qualité
-      </div>
+      {/* Footer sidebar — clic pour (dé)verrouiller la section Stratégie */}
+      <button
+        type="button"
+        onClick={toggleStrat}
+        title={stratUnlocked ? "Verrouiller Naxi Full Web" : "Saisir le code Naxi Full Web"}
+        style={{
+          display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8,
+          width: "100%",
+          padding: "14px 18px",
+          borderTop: `1px solid ${C.line}`,
+          fontSize: 10, color: stratUnlocked ? C.orange : C.inkMute,
+          fontWeight: 500, letterSpacing: "0.04em",
+          background: "transparent", border: "none",
+          textAlign: "left", cursor: "pointer", fontFamily: "inherit",
+          transition: "color 0.12s, background 0.12s",
+        }}
+        onMouseEnter={e => { e.currentTarget.style.background = C.gray50; }}
+        onMouseLeave={e => { e.currentTarget.style.background = "transparent"; }}
+      >
+        <span>NAXI.G · Produits & qualité</span>
+        {stratUnlocked
+          ? <Unlock size={11} strokeWidth={2.2} color={C.orange} />
+          : <Lock   size={11} strokeWidth={2.2} color={C.inkMute} />}
+      </button>
     </aside>
   );
 }
