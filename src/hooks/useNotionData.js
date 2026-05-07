@@ -7,6 +7,7 @@ export function useNotionData() {
   const [data, setData] = useState({
     classique: [], topline: [],
     cartoPmsWeb: [], cartoPmsMobile: [], cartoManager: [],
+    cii: { rows: [], generatedAt: null },
     generatedAt: null,
   });
   const [loaded, setLoaded] = useState(false);
@@ -14,20 +15,28 @@ export function useNotionData() {
 
   useEffect(() => {
     const baseUrl = import.meta.env.BASE_URL || '/';
-    const dataUrl = `${baseUrl.replace(/\/$/, '')}/data.json`;
+    const root = baseUrl.replace(/\/$/, '');
+    const dataUrl = `${root}/data.json`;
+    const ciiUrl  = `${root}/cii-data.json`;
 
-    fetch(dataUrl)
-      .then(res => {
+    Promise.all([
+      fetch(dataUrl).then(res => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();
-      })
-      .then(json => {
+      }),
+      fetch(ciiUrl).then(res => res.ok ? res.json() : null).catch(() => null),
+    ])
+      .then(([json, cii]) => {
         setData({
           classique:      Array.isArray(json?.classique)      ? json.classique      : [],
           topline:        Array.isArray(json?.topline)        ? json.topline        : [],
           cartoPmsWeb:    Array.isArray(json?.cartoPmsWeb)    ? json.cartoPmsWeb    : [],
           cartoPmsMobile: Array.isArray(json?.cartoPmsMobile) ? json.cartoPmsMobile : [],
           cartoManager:   Array.isArray(json?.cartoManager)   ? json.cartoManager   : [],
+          cii: {
+            rows:        Array.isArray(cii?.rows) ? cii.rows : [],
+            generatedAt: cii?.generatedAt || null,
+          },
           generatedAt:    json?.generatedAt || null,
         });
         setLoaded(true);

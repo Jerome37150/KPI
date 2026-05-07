@@ -1,0 +1,855 @@
+{
+  "generatedAt": "2026-05-07T17:33:17.846Z",
+  "rows": [
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Albert",
+      "fenetre": "Listing réservation",
+      "bloc": "HOME",
+      "phase": "Front",
+      "jours": 6
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Albert",
+      "fenetre": "Listing séjours",
+      "bloc": "HOME",
+      "phase": "Front",
+      "jours": 1.5
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Caroline",
+      "fenetre": "Controle d’accès",
+      "bloc": "HOME",
+      "phase": "Front",
+      "jours": 3
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Caroline",
+      "fenetre": "Liste des cautions",
+      "bloc": "HOME",
+      "phase": "Front",
+      "jours": 4.5
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Caroline",
+      "fenetre": "Listing occupation",
+      "bloc": "HOME",
+      "phase": "Front",
+      "jours": 2.5
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Caroline",
+      "fenetre": "Page de connexion",
+      "bloc": "HOME",
+      "phase": "Front",
+      "jours": 2
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Cédric.F",
+      "fenetre": "Historiques des ventes",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 12
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Cédric.F",
+      "fenetre": "Listing indispo",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 4
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Cédric.F",
+      "fenetre": "Listing indispo",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 2
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Cédric.F",
+      "fenetre": "Listing occupation",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 5
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Cédric.F",
+      "fenetre": "Recherche client",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 7
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Cédric.F",
+      "fenetre": "Recherche dispo",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 8
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Cédric.V",
+      "fenetre": "Listing réservation",
+      "bloc": "HOME",
+      "phase": "Design",
+      "jours": 2
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Cédric.V",
+      "fenetre": "Listing séjours",
+      "bloc": "HOME",
+      "phase": "Design",
+      "jours": 2
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Cédric.V",
+      "fenetre": "Page de connexion",
+      "bloc": "HOME",
+      "phase": "Design",
+      "jours": 3
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Denis",
+      "fenetre": "Controle de Caisse",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 2.5
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Denis",
+      "fenetre": "détails des transactions",
+      "bloc": "",
+      "phase": "Back",
+      "jours": 2.5
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Denis",
+      "fenetre": "Rech dispo plan camping",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 3
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Ines",
+      "fenetre": "Rech dispo plan camping",
+      "bloc": "HOME",
+      "phase": "Front",
+      "jours": 15
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Ines",
+      "fenetre": "Recherche dispo",
+      "bloc": "HOME",
+      "phase": "Front",
+      "jours": 15
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Ines",
+      "fenetre": "Télémaintenance",
+      "bloc": "HOME",
+      "phase": "Front",
+      "jours": 5
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Loic",
+      "fenetre": "Controle d’accès",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 3
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Loic",
+      "fenetre": "Liste des cautions",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 4
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Loic",
+      "fenetre": "Listing réservation",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 4
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Loic",
+      "fenetre": "Listing séjours",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 4
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Loic",
+      "fenetre": "Page de connexion",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 2
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Loic",
+      "fenetre": "Télémaintenance",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 4
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Sylvain",
+      "fenetre": "Listing indispo",
+      "bloc": "HOME",
+      "phase": "Front",
+      "jours": 17
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "person": "Sylvain",
+      "fenetre": "Recherche client",
+      "bloc": "HOME",
+      "phase": "Front",
+      "jours": 15
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "Controle d’accès",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "Controle de Caisse",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 3
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "détails des transactions",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.333
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "Historiques des ventes",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2.333
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "Liste des cautions",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "Listing indispo",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "Listing occupation",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.333
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "Listing réservation",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 3.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "Listing séjours",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "Page de connexion",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 0.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "Rech dispo plan camping",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 3
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "Recherche client",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2.333
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "Recherche dispo",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "Remise en banque",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 3
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "Télémaintenance",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Agathe",
+      "fenetre": "Ventes réception",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Controle d’accès",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Controle de Caisse",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 3
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "détails des transactions",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.333
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Historiques des ventes",
+      "bloc": "HOME",
+      "phase": "Front",
+      "jours": 2
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Historiques des ventes",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2.333
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Liste des cautions",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Listing indispo",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Listing occupation",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.333
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Listing réservation",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 3.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Listing séjours",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Page de connexion",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 0.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Rech dispo plan camping",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 3
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Recherche client",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2.333
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Recherche dispo",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Remise en banque",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 3
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Télémaintenance",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Albert",
+      "fenetre": "Ventes réception",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Caroline",
+      "fenetre": "Ventes réception",
+      "bloc": "HOME",
+      "phase": "Front",
+      "jours": 2
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Cédric.F",
+      "fenetre": "Historiques des ventes",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 1
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Denis",
+      "fenetre": "Controle de Caisse",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 2.5
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Denis",
+      "fenetre": "détails des transactions",
+      "bloc": "",
+      "phase": "Back",
+      "jours": 2.5
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Denis",
+      "fenetre": "Rech dispo plan camping",
+      "bloc": "HOME",
+      "phase": "Back",
+      "jours": 2
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Ines",
+      "fenetre": "Rech dispo plan camping",
+      "bloc": "HOME",
+      "phase": "Front",
+      "jours": 2
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "Controle d’accès",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "Controle de Caisse",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 3
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "détails des transactions",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.333
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "Historiques des ventes",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2.333
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "Liste des cautions",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "Listing indispo",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "Listing occupation",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.333
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "Listing réservation",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 3.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "Listing séjours",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "Page de connexion",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 0.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "Rech dispo plan camping",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 3
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "Recherche client",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2.333
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "Recherche dispo",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "Remise en banque",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 3
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "Télémaintenance",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.667
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Jérôme",
+      "fenetre": "Ventes réception",
+      "bloc": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "person": "Sylvain",
+      "fenetre": "Listing indispo",
+      "bloc": "HOME",
+      "phase": "Front",
+      "jours": 3
+    }
+  ]
+}
