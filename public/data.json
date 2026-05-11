@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T04:21:38.438Z",
+  "generatedAt": "2026-05-11T07:59:07.348Z",
   "classique": [
     {
       "id": "3058db15-623a-800b-9334-e040aa618867",
@@ -126,7 +126,7 @@
         "Nina",
         "Marjorie"
       ],
-      "pointAvancement": 0.1,
+      "pointAvancement": 0.5,
       "pointsBlocage": "US  a faire",
       "explication": "Proposer solution pour la norme Europeen avec une solution de PA",
       "communication": [],
@@ -984,7 +984,7 @@
       "identifiant": "INA-29",
       "titre": "[LOGICIEL] NORME V19",
       "classification": "STACK TECH",
-      "statut": "Fait partiellement",
+      "statut": "FAIT",
       "priorisation": "Haute",
       "sprintIdeal": [
         "AVRIL 26",
@@ -1007,8 +1007,8 @@
       "persPoTest": [
         "Nina"
       ],
-      "pointAvancement": 0.75,
-      "pointsBlocage": "retour test",
+      "pointAvancement": 1,
+      "pointsBlocage": "",
       "explication": "Mise au norme NF525 et 203",
       "communication": [
         "fiche explicative"
@@ -1016,13 +1016,13 @@
       "initialeAjout": [
         "Débord sprint"
       ],
-      "versionInter": "",
+      "versionInter": "18.17",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-05-18",
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA29.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5P3AOO%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T042129Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJIMEYCIQDx0BEAA%2BpDMGwfFs0GZrgVTTqvJ18xRzmXI64pIeJ1SgIhANpbprivI9iPSaZ5Pt3KSNJNEgm7ej6JbUYLQbGiBgujKv8DCA0QABoMNjM3NDIzMTgzODA1IgxIFVxzkXzukZkuomYq3AOnXaCm95FQnjCUXdiAlKOZL21EMWLRsDB5VxhHMjXlwLQsGRBBj6zVr%2FHM1SE%2BfV9ZhoQgm%2BHemHOuiCtdcj8Imsu3SeB9dL5BpO8moDvLx5YvudGThXVnz4fy%2BhghOjmYQqaXLzyFeOU%2BfM2xJL19ng7It9n3SFik9UtX9Qz3wvo4euHtTGfcKuHnCY8gcGObDzVQSal%2F2jrq1Th5OF4bWeQwhptXmTroTRGc35DnSqZVr9yVoBh%2B4FGlqo17U%2BCuWjXv0n%2FdQsoz2wH22K3VO18ddKP%2BwJ6xcxwnmQ5Tju6RLPSslth4HKtLc4CCBRkrnBAZfvsFEihh41Xskv7F69QCjMO8RG58pK8B8NZMKm8ScJmWAW6GbQ7TpB%2Bjjo%2BTUVpHV%2BEFEuE7ccuXshspKDxEejeJaG5MEAhaHYrW6HyTwvpaCHZ4ewOSz9kGxPiFVy6Y3mlVXXyulUyKqrD3oBCbmD41eyjUTnG807oWgSS0eM2FuM%2BfAba%2F0%2F2yeq0xsDbOjYuqFK9Ts0%2B7YCKz7JZJUkNxuy8a1SF8htZe0djKI3rT4p1JoIhyuSqP%2BiMuTmfaqKFPyQyTlIOhsw9ZkksC%2Bsh%2F4%2FqLVo4jsaVv1UJy7HFf%2BgMQhO%2FZdDC4roXQBjqkAQioCozjqmoD46N8XAWCmVrfugkWlIPLRtq6vR20MkbAZEqMeDZjlAGPEUMWq4BU7t1mVDmlU5zBhIOyQA%2B4H7KmdWBBGiwvyPutFH5ReQocf2KZdyG1vZXUVV%2B7P2iJ1JoD%2BifK8kcZN8ETLahm%2BAnr0KPgfeE3csnYQEEvDbeacdv8vscEoD92yr7FZH2NL7Nkxr1jRJsrOKWs26JUcXyAqsxm&X-Amz-Signature=cadc944b264c5f8772ab2633344b2eca59b41b15c512c2e220d8026504cdf8f9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666226OGHE%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T075900Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJIMEYCIQDiPciaQzjJYq7eoCXHAZ6I6mtIDjPQXt42EcpTX8UsZQIhAMQriKWATZSGGj%2BmEtAhoBy7DL0IfTe9HQSyr8UVyNUUKv8DCBEQABoMNjM3NDIzMTgzODA1IgySDsnjDePN8Ud5LtIq3AMPkgjZQ0vMhmPO9kxuXHbF2m%2BsnCkHaTAFB3sfgxEaKr36mfoCfP5qJky9e6ceSD6ZzyCIbiTJBAYBdr41ik8Jsr0dRT22n5tBnw5Ghj3cRfzrYBXaTbfwOZQqKO0%2BRxn0CAdHfl2%2B0nwL4J66ZqV%2B1RUQG4fIPqVJnJy2hMnCk6AO%2B7W4bH5he70hH73UdcG4RzI6rjuKEPLxe0CgIkVbE3SmB0Qp%2FsZJlUGQC2z5BEGq2%2FMs8eYMOqsHKLLeKnCGhqw0yxBsroh9JnKkHManwDkdLNUEh3cNEFLrA%2BEsvIO17Y%2B4tOQ7h6eOS8XBd5DZ3mXm2XKqykZwn5%2BgjmvdpjBd0zrNtpc6ez7fhkY88NDQ8GUJpMEkAfi5411M2%2FmHQ7crDKRDSmipm8El2iWhDXF5%2B5YwCuwWGMF%2Fnq9eE9%2Fio32ytFmd38iKuQKVbs8HkwN2BgP%2FKRsa4Aq4ciPUdak%2F9kRl8CvyTWqAfBgFjgOm8G4ULAQ0dzY2bmtjWulu8lLimUBdhk9qFMoDGs9qb4S%2BKLpMLucDwvUzbPcvF%2Bih9PV8akwb8sOlmu4nf4fP1I0lit7EfUDsWxfnw0zYMqBjBofyA%2BmFQhAYsgZvrAw4Nny49jKIOcjhKTCNiYbQBjqkARYcors32Jn3%2FwlfMlajQVYvyzGeqBvbJs5OB0dpIfvJGdnFbXA%2BetDBGuiqM2mBSyQdluP8uvyldolOldjvFkc2Pv6H7HjJeJ1KlC23whcLMKLYUvkXYVUgCqKNMdDoA7l5oBqwS%2BZiBh2IT0beE4qzRirwwB%2FdvJqPvm%2F4Ed7Du5uqXSulfb3sJsSgrAjUskuCSRUCkS47hf54PXstSiHl%2B05n&X-Amz-Signature=2ba6006338dfd76c099afebfadbb0327c494e4ae468392132c4792e898bb6706&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-NORME-V19-3118db15623a8078a611ffceac61cd6e"
     },
@@ -2726,7 +2726,7 @@
       "identifiant": "INA-52",
       "titre": " [WEB]GRAFANA Synchro_recupV2 : Résas partenaires en erreur",
       "classification": "STACK TECH",
-      "statut": "Sprint en cours",
+      "statut": "En cours",
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "MAI 26"
@@ -2745,7 +2745,7 @@
       "persPoTest": [
         "Nina"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 0.7,
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
@@ -2932,7 +2932,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA77.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666V5P3AOO%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T042129Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJIMEYCIQDx0BEAA%2BpDMGwfFs0GZrgVTTqvJ18xRzmXI64pIeJ1SgIhANpbprivI9iPSaZ5Pt3KSNJNEgm7ej6JbUYLQbGiBgujKv8DCA0QABoMNjM3NDIzMTgzODA1IgxIFVxzkXzukZkuomYq3AOnXaCm95FQnjCUXdiAlKOZL21EMWLRsDB5VxhHMjXlwLQsGRBBj6zVr%2FHM1SE%2BfV9ZhoQgm%2BHemHOuiCtdcj8Imsu3SeB9dL5BpO8moDvLx5YvudGThXVnz4fy%2BhghOjmYQqaXLzyFeOU%2BfM2xJL19ng7It9n3SFik9UtX9Qz3wvo4euHtTGfcKuHnCY8gcGObDzVQSal%2F2jrq1Th5OF4bWeQwhptXmTroTRGc35DnSqZVr9yVoBh%2B4FGlqo17U%2BCuWjXv0n%2FdQsoz2wH22K3VO18ddKP%2BwJ6xcxwnmQ5Tju6RLPSslth4HKtLc4CCBRkrnBAZfvsFEihh41Xskv7F69QCjMO8RG58pK8B8NZMKm8ScJmWAW6GbQ7TpB%2Bjjo%2BTUVpHV%2BEFEuE7ccuXshspKDxEejeJaG5MEAhaHYrW6HyTwvpaCHZ4ewOSz9kGxPiFVy6Y3mlVXXyulUyKqrD3oBCbmD41eyjUTnG807oWgSS0eM2FuM%2BfAba%2F0%2F2yeq0xsDbOjYuqFK9Ts0%2B7YCKz7JZJUkNxuy8a1SF8htZe0djKI3rT4p1JoIhyuSqP%2BiMuTmfaqKFPyQyTlIOhsw9ZkksC%2Bsh%2F4%2FqLVo4jsaVv1UJy7HFf%2BgMQhO%2FZdDC4roXQBjqkAQioCozjqmoD46N8XAWCmVrfugkWlIPLRtq6vR20MkbAZEqMeDZjlAGPEUMWq4BU7t1mVDmlU5zBhIOyQA%2B4H7KmdWBBGiwvyPutFH5ReQocf2KZdyG1vZXUVV%2B7P2iJ1JoD%2BifK8kcZN8ETLahm%2BAnr0KPgfeE3csnYQEEvDbeacdv8vscEoD92yr7FZH2NL7Nkxr1jRJsrOKWs26JUcXyAqsxm&X-Amz-Signature=79bcf4974a591163d161ba4c24416fc5f33fddf1f9b46e1f5e8666fd10868b2c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666226OGHE%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T075900Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJIMEYCIQDiPciaQzjJYq7eoCXHAZ6I6mtIDjPQXt42EcpTX8UsZQIhAMQriKWATZSGGj%2BmEtAhoBy7DL0IfTe9HQSyr8UVyNUUKv8DCBEQABoMNjM3NDIzMTgzODA1IgySDsnjDePN8Ud5LtIq3AMPkgjZQ0vMhmPO9kxuXHbF2m%2BsnCkHaTAFB3sfgxEaKr36mfoCfP5qJky9e6ceSD6ZzyCIbiTJBAYBdr41ik8Jsr0dRT22n5tBnw5Ghj3cRfzrYBXaTbfwOZQqKO0%2BRxn0CAdHfl2%2B0nwL4J66ZqV%2B1RUQG4fIPqVJnJy2hMnCk6AO%2B7W4bH5he70hH73UdcG4RzI6rjuKEPLxe0CgIkVbE3SmB0Qp%2FsZJlUGQC2z5BEGq2%2FMs8eYMOqsHKLLeKnCGhqw0yxBsroh9JnKkHManwDkdLNUEh3cNEFLrA%2BEsvIO17Y%2B4tOQ7h6eOS8XBd5DZ3mXm2XKqykZwn5%2BgjmvdpjBd0zrNtpc6ez7fhkY88NDQ8GUJpMEkAfi5411M2%2FmHQ7crDKRDSmipm8El2iWhDXF5%2B5YwCuwWGMF%2Fnq9eE9%2Fio32ytFmd38iKuQKVbs8HkwN2BgP%2FKRsa4Aq4ciPUdak%2F9kRl8CvyTWqAfBgFjgOm8G4ULAQ0dzY2bmtjWulu8lLimUBdhk9qFMoDGs9qb4S%2BKLpMLucDwvUzbPcvF%2Bih9PV8akwb8sOlmu4nf4fP1I0lit7EfUDsWxfnw0zYMqBjBofyA%2BmFQhAYsgZvrAw4Nny49jKIOcjhKTCNiYbQBjqkARYcors32Jn3%2FwlfMlajQVYvyzGeqBvbJs5OB0dpIfvJGdnFbXA%2BetDBGuiqM2mBSyQdluP8uvyldolOldjvFkc2Pv6H7HjJeJ1KlC23whcLMKLYUvkXYVUgCqKNMdDoA7l5oBqwS%2BZiBh2IT0beE4qzRirwwB%2FdvJqPvm%2F4Ed7Du5uqXSulfb3sJsSgrAjUskuCSRUCkS47hf54PXstSiHl%2B05n&X-Amz-Signature=3d8352e47d2b203db6b7d8027f52fbeaf0d9e9fe5762b307bf0fefcdf48e01a0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/WEB-LOGICIEL-Check-In-Scan-partie-1-Mapping-envoi-Naxi-G-vers-CiS-3118db15623a81c78ca4f07fb87f2047"
     },
@@ -3589,7 +3589,7 @@
       "identifiant": "INA-129",
       "titre": "[LOGICIEL] Doublons dans la table CPTCLIENT - Impact export comptable",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": "En cours",
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -3610,7 +3610,7 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 0.1,
       "pointsBlocage": "",
       "explication": "Le groupe SEAGREEN nous a contacté car son export comptable était faux. Après analyse, il s’avère que certaines factures apparaissent en double dans l’export comptable. Après recherche, j’ai identifié un doublon sur la table CPTCLIENT. En supprimant le doublon, et en regénérant l’export comptable, la facture apparaissait bien qu’une seule fois.\nPour m’assurer qu’ils n’aient pas à nouveau le soucis, j’ai joué une requête sur la table CPTCLIENT. Chez SEAGREEN, c’est 183 doublons. Chez Ciela, c’est 9 doublons",
       "communication": [],
@@ -4119,7 +4119,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-147.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UQPQEYBR%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T042129Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIEuYydYiLWC0UgCQdlXm%2FD%2F8GXm%2FZNuYV9zj%2B86aW%2B%2FCAiEAt1G5dQQbRVRqcJi2uBw87kr0qMg6eDIeNaXvoOrTUYIq%2FwMIDRAAGgw2Mzc0MjMxODM4MDUiDJYNuxWXaUCg5mVYJyrcA7da2lMI5xfB%2Flb0wEWwJv0Uy1NEEUkRgKBjA%2FmvVKDAg2GWhYCT3tKGlHhkdppWkd9LbsHK6JRmSV8z4KizloMlqGLRu6%2FaD%2FPfoM%2FNLdVsxo03bO1OtRDmD0t1XXEk3WixEw%2BDxWsK5kPVaLw%2Bk5Zyootq30ysncvF7FjqgeIHVfJydJ5Nknrq8PagBsnc4Q1GgOvpobj3m0vn50SjhNyl7SWryAYWHcIJ9B6%2FvQSDbaRCOWCeqQ65VSOGk%2FU4lNJu%2BSibdCR4TdrJ%2BD9VcUlrfuDgeew%2BLz6N24%2FHgZaKfz1s%2FHOafPwqg4TSQwpidgY%2FBtDdCSp9%2B0x6J%2BfNaq1haQce0Btd2vUhKTcySAnyN3TXr1PanYTRj6lfxarI9b0h2suVwFNCHOY12%2FVsXM%2FX%2FjAhzjinrHgLEb%2F0r0CtKWGZJnpb6bMFG0Lad9WO59TLc7pfUXFVbxunSi7kNQxJgGllR%2B4Rur4CAlknIL6jA1vf0eckeGVrZjstX1JKWWUl5ivqZBNqPZg1k%2FBg8n5uIs5oROkVlejr9edmCQvYqyu1DiUC4Bs6V1lyFtB0LaVYuV8X9IzdG6TlRgW%2BkD97GC1el70RId2w%2B6%2BsfnqDunQNsLyEk91jNFC5MKSehdAGOqUBu0AG%2BdtQx6RZofGXsKAiQW5ZxGFXfMHBAGCAlDoGRPAPa6YJjOx55IlzWfxSP1eGNNnWq%2FtCqdGrgqxg2xgbVy0O7hwxHK833iil6B%2BxTXuDsdZ2ZBZ5n%2BcVYwUsBFKdaonfuJc1nKSe2TgITRBxmLD%2Fj%2F8PCFVE5%2B3ZBW%2BOpuI2clrB8S3UHIH6Gqe10puHOn2psWkWLYd0mzcol2RTZqNSmaZQ&X-Amz-Signature=f66e08f348f24bd85caed262165ae88df3fbc770312546420b047f928990dbd4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662533U77M%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T075900Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJGMEQCIHngYKb7OTLywm4aXQV6j%2BL%2BTd43ncerOEkxXm3YV6lnAiBH6G6PFtLOuCOd9P9GhQWa0Z%2BHoAHY6HB%2F8dLajMnQqCr%2FAwgREAAaDDYzNzQyMzE4MzgwNSIMqH%2B9n0kU6AdCmL8%2FKtwDSRTsFV5Sm2v3PMY87CbfuJiv0ErQOUWl6FeqYiTsu97Vye4miKY6lvQTXOtefoL1g1BD3AXxq%2Bs2DTz7yWAa%2Fw0JP%2BHTFDRIWXsvCrP8bcf1d8dLbw2%2BhLvXVCoZtauXZ69s2GXt7CnMeNoxKofEqpSjyAcSu93lU%2B4W2QsCULRK33Y9YiBpGeWgY2yJw5fWJJQCxIJPjmXeuuknXgsX1PqIhHyLodZz8mi%2FuR3HI%2BwrLdd9IBn1Roo9LbaseqoLbcSSrk8W4%2FlxPARboIBLk0KMT%2Fs3MTWmUJkiprtRpYvWPopnLLSrTQFNOhoBUJBFRlY%2BKg9K%2Byg5RdnrmqLMwAyKceVoQQfTKHOg5mWTJbFuZo5LQRkucmT%2BRf8b%2BQdLEhbv0jKzVxg2625eY71RMiFQAOt87WkelFYv6Gi3ps58M55hsP0BXgwdYAJDMAt1XX%2BwOpbv3NSB0VqPhObr1OziHnQhRegP7WxE5krGBZBwfsDVdPFwRdVg1BrpVuC%2BkcLZKf0sgsnS1IEoIsZZYc%2FeTQ7rk7k6Sgj72c26GCBzA4PX%2BvyAWLRuI4RmvMAljoc17T4U3oDV7rbEafPB1%2BI4BFoQ700LMbP98hEkr%2FpMVmNIWi3d9dWO5vQwgI%2BG0AY6pgEMaH3wHHqHMzp3meVkCss69VNm9%2FJUCy9kH%2FBktvF9ch0Xas7x8VlYVQ4Fqei1Ea34GI9YIlC1OJ%2FsRtbEJKXjUKVS3GXlcCQdoO0Y%2FjBLMcN27VvQJvXjTQR0vj2RT5ku40EknmCVMoBKuXUjxk95N7ObDO%2FGm65xMqRnWjD7ARgVa2zwyWlvsrlsMUQbgiZPim25i7wvaKTZ6oZuwCs1gZNIbz%2Bk&X-Amz-Signature=51d34cab724bc9a5647b4cae81c5f03689ce817560e62678fa6e913c238f9339&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-CRM-Le-montant-des-suppl-ments-envoy-s-est-faux-lorsque-le-suppl-ment-est-en-prix-mo-3178db15623a8017a10ff4b9821287fa"
     },
@@ -4154,7 +4154,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-148.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UQPQEYBR%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T042129Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIEuYydYiLWC0UgCQdlXm%2FD%2F8GXm%2FZNuYV9zj%2B86aW%2B%2FCAiEAt1G5dQQbRVRqcJi2uBw87kr0qMg6eDIeNaXvoOrTUYIq%2FwMIDRAAGgw2Mzc0MjMxODM4MDUiDJYNuxWXaUCg5mVYJyrcA7da2lMI5xfB%2Flb0wEWwJv0Uy1NEEUkRgKBjA%2FmvVKDAg2GWhYCT3tKGlHhkdppWkd9LbsHK6JRmSV8z4KizloMlqGLRu6%2FaD%2FPfoM%2FNLdVsxo03bO1OtRDmD0t1XXEk3WixEw%2BDxWsK5kPVaLw%2Bk5Zyootq30ysncvF7FjqgeIHVfJydJ5Nknrq8PagBsnc4Q1GgOvpobj3m0vn50SjhNyl7SWryAYWHcIJ9B6%2FvQSDbaRCOWCeqQ65VSOGk%2FU4lNJu%2BSibdCR4TdrJ%2BD9VcUlrfuDgeew%2BLz6N24%2FHgZaKfz1s%2FHOafPwqg4TSQwpidgY%2FBtDdCSp9%2B0x6J%2BfNaq1haQce0Btd2vUhKTcySAnyN3TXr1PanYTRj6lfxarI9b0h2suVwFNCHOY12%2FVsXM%2FX%2FjAhzjinrHgLEb%2F0r0CtKWGZJnpb6bMFG0Lad9WO59TLc7pfUXFVbxunSi7kNQxJgGllR%2B4Rur4CAlknIL6jA1vf0eckeGVrZjstX1JKWWUl5ivqZBNqPZg1k%2FBg8n5uIs5oROkVlejr9edmCQvYqyu1DiUC4Bs6V1lyFtB0LaVYuV8X9IzdG6TlRgW%2BkD97GC1el70RId2w%2B6%2BsfnqDunQNsLyEk91jNFC5MKSehdAGOqUBu0AG%2BdtQx6RZofGXsKAiQW5ZxGFXfMHBAGCAlDoGRPAPa6YJjOx55IlzWfxSP1eGNNnWq%2FtCqdGrgqxg2xgbVy0O7hwxHK833iil6B%2BxTXuDsdZ2ZBZ5n%2BcVYwUsBFKdaonfuJc1nKSe2TgITRBxmLD%2Fj%2F8PCFVE5%2B3ZBW%2BOpuI2clrB8S3UHIH6Gqe10puHOn2psWkWLYd0mzcol2RTZqNSmaZQ&X-Amz-Signature=f02006e65c9573c04521626a38d752609a594a70516e89fee677cf840b7715d8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662533U77M%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T075900Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJGMEQCIHngYKb7OTLywm4aXQV6j%2BL%2BTd43ncerOEkxXm3YV6lnAiBH6G6PFtLOuCOd9P9GhQWa0Z%2BHoAHY6HB%2F8dLajMnQqCr%2FAwgREAAaDDYzNzQyMzE4MzgwNSIMqH%2B9n0kU6AdCmL8%2FKtwDSRTsFV5Sm2v3PMY87CbfuJiv0ErQOUWl6FeqYiTsu97Vye4miKY6lvQTXOtefoL1g1BD3AXxq%2Bs2DTz7yWAa%2Fw0JP%2BHTFDRIWXsvCrP8bcf1d8dLbw2%2BhLvXVCoZtauXZ69s2GXt7CnMeNoxKofEqpSjyAcSu93lU%2B4W2QsCULRK33Y9YiBpGeWgY2yJw5fWJJQCxIJPjmXeuuknXgsX1PqIhHyLodZz8mi%2FuR3HI%2BwrLdd9IBn1Roo9LbaseqoLbcSSrk8W4%2FlxPARboIBLk0KMT%2Fs3MTWmUJkiprtRpYvWPopnLLSrTQFNOhoBUJBFRlY%2BKg9K%2Byg5RdnrmqLMwAyKceVoQQfTKHOg5mWTJbFuZo5LQRkucmT%2BRf8b%2BQdLEhbv0jKzVxg2625eY71RMiFQAOt87WkelFYv6Gi3ps58M55hsP0BXgwdYAJDMAt1XX%2BwOpbv3NSB0VqPhObr1OziHnQhRegP7WxE5krGBZBwfsDVdPFwRdVg1BrpVuC%2BkcLZKf0sgsnS1IEoIsZZYc%2FeTQ7rk7k6Sgj72c26GCBzA4PX%2BvyAWLRuI4RmvMAljoc17T4U3oDV7rbEafPB1%2BI4BFoQ700LMbP98hEkr%2FpMVmNIWi3d9dWO5vQwgI%2BG0AY6pgEMaH3wHHqHMzp3meVkCss69VNm9%2FJUCy9kH%2FBktvF9ch0Xas7x8VlYVQ4Fqei1Ea34GI9YIlC1OJ%2FsRtbEJKXjUKVS3GXlcCQdoO0Y%2FjBLMcN27VvQJvXjTQR0vj2RT5ku40EknmCVMoBKuXUjxk95N7ObDO%2FGm65xMqRnWjD7ARgVa2zwyWlvsrlsMUQbgiZPim25i7wvaKTZ6oZuwCs1gZNIbz%2Bk&X-Amz-Signature=08fb96c0d51944894738ee6761a2f717b401623e102c564d299f61d0e11a2823&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/REDSYS-Non-fonctionnel-suite-mise-en-place-3178db15623a80458d0de93a71d0564f"
     },
@@ -4192,7 +4192,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-145.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UQPQEYBR%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T042129Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIEuYydYiLWC0UgCQdlXm%2FD%2F8GXm%2FZNuYV9zj%2B86aW%2B%2FCAiEAt1G5dQQbRVRqcJi2uBw87kr0qMg6eDIeNaXvoOrTUYIq%2FwMIDRAAGgw2Mzc0MjMxODM4MDUiDJYNuxWXaUCg5mVYJyrcA7da2lMI5xfB%2Flb0wEWwJv0Uy1NEEUkRgKBjA%2FmvVKDAg2GWhYCT3tKGlHhkdppWkd9LbsHK6JRmSV8z4KizloMlqGLRu6%2FaD%2FPfoM%2FNLdVsxo03bO1OtRDmD0t1XXEk3WixEw%2BDxWsK5kPVaLw%2Bk5Zyootq30ysncvF7FjqgeIHVfJydJ5Nknrq8PagBsnc4Q1GgOvpobj3m0vn50SjhNyl7SWryAYWHcIJ9B6%2FvQSDbaRCOWCeqQ65VSOGk%2FU4lNJu%2BSibdCR4TdrJ%2BD9VcUlrfuDgeew%2BLz6N24%2FHgZaKfz1s%2FHOafPwqg4TSQwpidgY%2FBtDdCSp9%2B0x6J%2BfNaq1haQce0Btd2vUhKTcySAnyN3TXr1PanYTRj6lfxarI9b0h2suVwFNCHOY12%2FVsXM%2FX%2FjAhzjinrHgLEb%2F0r0CtKWGZJnpb6bMFG0Lad9WO59TLc7pfUXFVbxunSi7kNQxJgGllR%2B4Rur4CAlknIL6jA1vf0eckeGVrZjstX1JKWWUl5ivqZBNqPZg1k%2FBg8n5uIs5oROkVlejr9edmCQvYqyu1DiUC4Bs6V1lyFtB0LaVYuV8X9IzdG6TlRgW%2BkD97GC1el70RId2w%2B6%2BsfnqDunQNsLyEk91jNFC5MKSehdAGOqUBu0AG%2BdtQx6RZofGXsKAiQW5ZxGFXfMHBAGCAlDoGRPAPa6YJjOx55IlzWfxSP1eGNNnWq%2FtCqdGrgqxg2xgbVy0O7hwxHK833iil6B%2BxTXuDsdZ2ZBZ5n%2BcVYwUsBFKdaonfuJc1nKSe2TgITRBxmLD%2Fj%2F8PCFVE5%2B3ZBW%2BOpuI2clrB8S3UHIH6Gqe10puHOn2psWkWLYd0mzcol2RTZqNSmaZQ&X-Amz-Signature=8eac8bc5bc0a7f93fb8001e0eb71534015f2c08a6b59704cbbe2a76c6fbd6a0d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662533U77M%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T075900Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJGMEQCIHngYKb7OTLywm4aXQV6j%2BL%2BTd43ncerOEkxXm3YV6lnAiBH6G6PFtLOuCOd9P9GhQWa0Z%2BHoAHY6HB%2F8dLajMnQqCr%2FAwgREAAaDDYzNzQyMzE4MzgwNSIMqH%2B9n0kU6AdCmL8%2FKtwDSRTsFV5Sm2v3PMY87CbfuJiv0ErQOUWl6FeqYiTsu97Vye4miKY6lvQTXOtefoL1g1BD3AXxq%2Bs2DTz7yWAa%2Fw0JP%2BHTFDRIWXsvCrP8bcf1d8dLbw2%2BhLvXVCoZtauXZ69s2GXt7CnMeNoxKofEqpSjyAcSu93lU%2B4W2QsCULRK33Y9YiBpGeWgY2yJw5fWJJQCxIJPjmXeuuknXgsX1PqIhHyLodZz8mi%2FuR3HI%2BwrLdd9IBn1Roo9LbaseqoLbcSSrk8W4%2FlxPARboIBLk0KMT%2Fs3MTWmUJkiprtRpYvWPopnLLSrTQFNOhoBUJBFRlY%2BKg9K%2Byg5RdnrmqLMwAyKceVoQQfTKHOg5mWTJbFuZo5LQRkucmT%2BRf8b%2BQdLEhbv0jKzVxg2625eY71RMiFQAOt87WkelFYv6Gi3ps58M55hsP0BXgwdYAJDMAt1XX%2BwOpbv3NSB0VqPhObr1OziHnQhRegP7WxE5krGBZBwfsDVdPFwRdVg1BrpVuC%2BkcLZKf0sgsnS1IEoIsZZYc%2FeTQ7rk7k6Sgj72c26GCBzA4PX%2BvyAWLRuI4RmvMAljoc17T4U3oDV7rbEafPB1%2BI4BFoQ700LMbP98hEkr%2FpMVmNIWi3d9dWO5vQwgI%2BG0AY6pgEMaH3wHHqHMzp3meVkCss69VNm9%2FJUCy9kH%2FBktvF9ch0Xas7x8VlYVQ4Fqei1Ea34GI9YIlC1OJ%2FsRtbEJKXjUKVS3GXlcCQdoO0Y%2FjBLMcN27VvQJvXjTQR0vj2RT5ku40EknmCVMoBKuXUjxk95N7ObDO%2FGm65xMqRnWjD7ARgVa2zwyWlvsrlsMUQbgiZPim25i7wvaKTZ6oZuwCs1gZNIbz%2Bk&X-Amz-Signature=a8ed85776385e41b2618b3b80a56e718467e23b95dd71b7c5528d2be3456188b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Erreur-de-saisie-sur-les-remises-manuelle-g-n-rant-un-montant-de-s-jour-faux-3178db15623a8079a34be124df5b756a"
     },
@@ -4412,7 +4412,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "synthese_espaceclient (1).xlsx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UQPQEYBR%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T042129Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIEuYydYiLWC0UgCQdlXm%2FD%2F8GXm%2FZNuYV9zj%2B86aW%2B%2FCAiEAt1G5dQQbRVRqcJi2uBw87kr0qMg6eDIeNaXvoOrTUYIq%2FwMIDRAAGgw2Mzc0MjMxODM4MDUiDJYNuxWXaUCg5mVYJyrcA7da2lMI5xfB%2Flb0wEWwJv0Uy1NEEUkRgKBjA%2FmvVKDAg2GWhYCT3tKGlHhkdppWkd9LbsHK6JRmSV8z4KizloMlqGLRu6%2FaD%2FPfoM%2FNLdVsxo03bO1OtRDmD0t1XXEk3WixEw%2BDxWsK5kPVaLw%2Bk5Zyootq30ysncvF7FjqgeIHVfJydJ5Nknrq8PagBsnc4Q1GgOvpobj3m0vn50SjhNyl7SWryAYWHcIJ9B6%2FvQSDbaRCOWCeqQ65VSOGk%2FU4lNJu%2BSibdCR4TdrJ%2BD9VcUlrfuDgeew%2BLz6N24%2FHgZaKfz1s%2FHOafPwqg4TSQwpidgY%2FBtDdCSp9%2B0x6J%2BfNaq1haQce0Btd2vUhKTcySAnyN3TXr1PanYTRj6lfxarI9b0h2suVwFNCHOY12%2FVsXM%2FX%2FjAhzjinrHgLEb%2F0r0CtKWGZJnpb6bMFG0Lad9WO59TLc7pfUXFVbxunSi7kNQxJgGllR%2B4Rur4CAlknIL6jA1vf0eckeGVrZjstX1JKWWUl5ivqZBNqPZg1k%2FBg8n5uIs5oROkVlejr9edmCQvYqyu1DiUC4Bs6V1lyFtB0LaVYuV8X9IzdG6TlRgW%2BkD97GC1el70RId2w%2B6%2BsfnqDunQNsLyEk91jNFC5MKSehdAGOqUBu0AG%2BdtQx6RZofGXsKAiQW5ZxGFXfMHBAGCAlDoGRPAPa6YJjOx55IlzWfxSP1eGNNnWq%2FtCqdGrgqxg2xgbVy0O7hwxHK833iil6B%2BxTXuDsdZ2ZBZ5n%2BcVYwUsBFKdaonfuJc1nKSe2TgITRBxmLD%2Fj%2F8PCFVE5%2B3ZBW%2BOpuI2clrB8S3UHIH6Gqe10puHOn2psWkWLYd0mzcol2RTZqNSmaZQ&X-Amz-Signature=10c33e4635427be8995474ef878dd7ed4a173029a8325441fd74f521feee8f62&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662533U77M%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T075900Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJGMEQCIHngYKb7OTLywm4aXQV6j%2BL%2BTd43ncerOEkxXm3YV6lnAiBH6G6PFtLOuCOd9P9GhQWa0Z%2BHoAHY6HB%2F8dLajMnQqCr%2FAwgREAAaDDYzNzQyMzE4MzgwNSIMqH%2B9n0kU6AdCmL8%2FKtwDSRTsFV5Sm2v3PMY87CbfuJiv0ErQOUWl6FeqYiTsu97Vye4miKY6lvQTXOtefoL1g1BD3AXxq%2Bs2DTz7yWAa%2Fw0JP%2BHTFDRIWXsvCrP8bcf1d8dLbw2%2BhLvXVCoZtauXZ69s2GXt7CnMeNoxKofEqpSjyAcSu93lU%2B4W2QsCULRK33Y9YiBpGeWgY2yJw5fWJJQCxIJPjmXeuuknXgsX1PqIhHyLodZz8mi%2FuR3HI%2BwrLdd9IBn1Roo9LbaseqoLbcSSrk8W4%2FlxPARboIBLk0KMT%2Fs3MTWmUJkiprtRpYvWPopnLLSrTQFNOhoBUJBFRlY%2BKg9K%2Byg5RdnrmqLMwAyKceVoQQfTKHOg5mWTJbFuZo5LQRkucmT%2BRf8b%2BQdLEhbv0jKzVxg2625eY71RMiFQAOt87WkelFYv6Gi3ps58M55hsP0BXgwdYAJDMAt1XX%2BwOpbv3NSB0VqPhObr1OziHnQhRegP7WxE5krGBZBwfsDVdPFwRdVg1BrpVuC%2BkcLZKf0sgsnS1IEoIsZZYc%2FeTQ7rk7k6Sgj72c26GCBzA4PX%2BvyAWLRuI4RmvMAljoc17T4U3oDV7rbEafPB1%2BI4BFoQ700LMbP98hEkr%2FpMVmNIWi3d9dWO5vQwgI%2BG0AY6pgEMaH3wHHqHMzp3meVkCss69VNm9%2FJUCy9kH%2FBktvF9ch0Xas7x8VlYVQ4Fqei1Ea34GI9YIlC1OJ%2FsRtbEJKXjUKVS3GXlcCQdoO0Y%2FjBLMcN27VvQJvXjTQR0vj2RT5ku40EknmCVMoBKuXUjxk95N7ObDO%2FGm65xMqRnWjD7ARgVa2zwyWlvsrlsMUQbgiZPim25i7wvaKTZ6oZuwCs1gZNIbz%2Bk&X-Amz-Signature=bc623fb7b1c542d07a80af07cf3558d1eb366b1ff3e7337704015c21f7c68e5f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-G-rer-l-arr-t-de-l-espace-client-V1-31a8db15623a800d915eea7ee689e4da"
     },
@@ -4424,7 +4424,8 @@
       "statut": "En cours",
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "AVRIL 26"
+        "AVRIL 26",
+        "MAI 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4442,12 +4443,12 @@
       "persPoTest": [
         "Nina"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 0.5,
       "pointsBlocage": "",
       "explication": "Créer un Dashboard Rapport de version qui comporte : \n  • Une colonne Compte client (prendre le compte de la licence et non pas de l’id web pour avoir également les clients qui n’ont pas d’id web)\n  • Une colonne Version Naxi proposée\n  • Une colonne Version Naxi Installée \n\nAttention, ce Dashboard doit comporter tous les campings présents dans la table logiciels\nSi possible, ajouter des filtres relatif à la version installée afin d’avoir un listing rapide des clients ayant telle ou telle version (dans le cas où nous constatons un important bug, c’est plus facile à gérer :) ) \n",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4658,7 +4659,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-160.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UQPQEYBR%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T042129Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIEuYydYiLWC0UgCQdlXm%2FD%2F8GXm%2FZNuYV9zj%2B86aW%2B%2FCAiEAt1G5dQQbRVRqcJi2uBw87kr0qMg6eDIeNaXvoOrTUYIq%2FwMIDRAAGgw2Mzc0MjMxODM4MDUiDJYNuxWXaUCg5mVYJyrcA7da2lMI5xfB%2Flb0wEWwJv0Uy1NEEUkRgKBjA%2FmvVKDAg2GWhYCT3tKGlHhkdppWkd9LbsHK6JRmSV8z4KizloMlqGLRu6%2FaD%2FPfoM%2FNLdVsxo03bO1OtRDmD0t1XXEk3WixEw%2BDxWsK5kPVaLw%2Bk5Zyootq30ysncvF7FjqgeIHVfJydJ5Nknrq8PagBsnc4Q1GgOvpobj3m0vn50SjhNyl7SWryAYWHcIJ9B6%2FvQSDbaRCOWCeqQ65VSOGk%2FU4lNJu%2BSibdCR4TdrJ%2BD9VcUlrfuDgeew%2BLz6N24%2FHgZaKfz1s%2FHOafPwqg4TSQwpidgY%2FBtDdCSp9%2B0x6J%2BfNaq1haQce0Btd2vUhKTcySAnyN3TXr1PanYTRj6lfxarI9b0h2suVwFNCHOY12%2FVsXM%2FX%2FjAhzjinrHgLEb%2F0r0CtKWGZJnpb6bMFG0Lad9WO59TLc7pfUXFVbxunSi7kNQxJgGllR%2B4Rur4CAlknIL6jA1vf0eckeGVrZjstX1JKWWUl5ivqZBNqPZg1k%2FBg8n5uIs5oROkVlejr9edmCQvYqyu1DiUC4Bs6V1lyFtB0LaVYuV8X9IzdG6TlRgW%2BkD97GC1el70RId2w%2B6%2BsfnqDunQNsLyEk91jNFC5MKSehdAGOqUBu0AG%2BdtQx6RZofGXsKAiQW5ZxGFXfMHBAGCAlDoGRPAPa6YJjOx55IlzWfxSP1eGNNnWq%2FtCqdGrgqxg2xgbVy0O7hwxHK833iil6B%2BxTXuDsdZ2ZBZ5n%2BcVYwUsBFKdaonfuJc1nKSe2TgITRBxmLD%2Fj%2F8PCFVE5%2B3ZBW%2BOpuI2clrB8S3UHIH6Gqe10puHOn2psWkWLYd0mzcol2RTZqNSmaZQ&X-Amz-Signature=9b929d690f01a11f788f6c5c8f66755bfaefad20740aaf666e63e2e8d021928c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662533U77M%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T075901Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJGMEQCIHngYKb7OTLywm4aXQV6j%2BL%2BTd43ncerOEkxXm3YV6lnAiBH6G6PFtLOuCOd9P9GhQWa0Z%2BHoAHY6HB%2F8dLajMnQqCr%2FAwgREAAaDDYzNzQyMzE4MzgwNSIMqH%2B9n0kU6AdCmL8%2FKtwDSRTsFV5Sm2v3PMY87CbfuJiv0ErQOUWl6FeqYiTsu97Vye4miKY6lvQTXOtefoL1g1BD3AXxq%2Bs2DTz7yWAa%2Fw0JP%2BHTFDRIWXsvCrP8bcf1d8dLbw2%2BhLvXVCoZtauXZ69s2GXt7CnMeNoxKofEqpSjyAcSu93lU%2B4W2QsCULRK33Y9YiBpGeWgY2yJw5fWJJQCxIJPjmXeuuknXgsX1PqIhHyLodZz8mi%2FuR3HI%2BwrLdd9IBn1Roo9LbaseqoLbcSSrk8W4%2FlxPARboIBLk0KMT%2Fs3MTWmUJkiprtRpYvWPopnLLSrTQFNOhoBUJBFRlY%2BKg9K%2Byg5RdnrmqLMwAyKceVoQQfTKHOg5mWTJbFuZo5LQRkucmT%2BRf8b%2BQdLEhbv0jKzVxg2625eY71RMiFQAOt87WkelFYv6Gi3ps58M55hsP0BXgwdYAJDMAt1XX%2BwOpbv3NSB0VqPhObr1OziHnQhRegP7WxE5krGBZBwfsDVdPFwRdVg1BrpVuC%2BkcLZKf0sgsnS1IEoIsZZYc%2FeTQ7rk7k6Sgj72c26GCBzA4PX%2BvyAWLRuI4RmvMAljoc17T4U3oDV7rbEafPB1%2BI4BFoQ700LMbP98hEkr%2FpMVmNIWi3d9dWO5vQwgI%2BG0AY6pgEMaH3wHHqHMzp3meVkCss69VNm9%2FJUCy9kH%2FBktvF9ch0Xas7x8VlYVQ4Fqei1Ea34GI9YIlC1OJ%2FsRtbEJKXjUKVS3GXlcCQdoO0Y%2FjBLMcN27VvQJvXjTQR0vj2RT5ku40EknmCVMoBKuXUjxk95N7ObDO%2FGm65xMqRnWjD7ARgVa2zwyWlvsrlsMUQbgiZPim25i7wvaKTZ6oZuwCs1gZNIbz%2Bk&X-Amz-Signature=99e2a0fa629dc6d06d0a833d42928e67833e840b42a2edc7661db47eaa651279&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Apparition-d-un-message-sur-le-traitement-des-r-sas-issues-de-l-espace-client-31e8db15623a806896d5f5a1ed131200"
     },
@@ -5459,7 +5460,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "Fiche communication.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UQPQEYBR%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T042129Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIEuYydYiLWC0UgCQdlXm%2FD%2F8GXm%2FZNuYV9zj%2B86aW%2B%2FCAiEAt1G5dQQbRVRqcJi2uBw87kr0qMg6eDIeNaXvoOrTUYIq%2FwMIDRAAGgw2Mzc0MjMxODM4MDUiDJYNuxWXaUCg5mVYJyrcA7da2lMI5xfB%2Flb0wEWwJv0Uy1NEEUkRgKBjA%2FmvVKDAg2GWhYCT3tKGlHhkdppWkd9LbsHK6JRmSV8z4KizloMlqGLRu6%2FaD%2FPfoM%2FNLdVsxo03bO1OtRDmD0t1XXEk3WixEw%2BDxWsK5kPVaLw%2Bk5Zyootq30ysncvF7FjqgeIHVfJydJ5Nknrq8PagBsnc4Q1GgOvpobj3m0vn50SjhNyl7SWryAYWHcIJ9B6%2FvQSDbaRCOWCeqQ65VSOGk%2FU4lNJu%2BSibdCR4TdrJ%2BD9VcUlrfuDgeew%2BLz6N24%2FHgZaKfz1s%2FHOafPwqg4TSQwpidgY%2FBtDdCSp9%2B0x6J%2BfNaq1haQce0Btd2vUhKTcySAnyN3TXr1PanYTRj6lfxarI9b0h2suVwFNCHOY12%2FVsXM%2FX%2FjAhzjinrHgLEb%2F0r0CtKWGZJnpb6bMFG0Lad9WO59TLc7pfUXFVbxunSi7kNQxJgGllR%2B4Rur4CAlknIL6jA1vf0eckeGVrZjstX1JKWWUl5ivqZBNqPZg1k%2FBg8n5uIs5oROkVlejr9edmCQvYqyu1DiUC4Bs6V1lyFtB0LaVYuV8X9IzdG6TlRgW%2BkD97GC1el70RId2w%2B6%2BsfnqDunQNsLyEk91jNFC5MKSehdAGOqUBu0AG%2BdtQx6RZofGXsKAiQW5ZxGFXfMHBAGCAlDoGRPAPa6YJjOx55IlzWfxSP1eGNNnWq%2FtCqdGrgqxg2xgbVy0O7hwxHK833iil6B%2BxTXuDsdZ2ZBZ5n%2BcVYwUsBFKdaonfuJc1nKSe2TgITRBxmLD%2Fj%2F8PCFVE5%2B3ZBW%2BOpuI2clrB8S3UHIH6Gqe10puHOn2psWkWLYd0mzcol2RTZqNSmaZQ&X-Amz-Signature=84479c1824b92585ebc2b660458f9a073060c07ab060f8265c26779485820515&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662533U77M%2F20260511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260511T075901Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJGMEQCIHngYKb7OTLywm4aXQV6j%2BL%2BTd43ncerOEkxXm3YV6lnAiBH6G6PFtLOuCOd9P9GhQWa0Z%2BHoAHY6HB%2F8dLajMnQqCr%2FAwgREAAaDDYzNzQyMzE4MzgwNSIMqH%2B9n0kU6AdCmL8%2FKtwDSRTsFV5Sm2v3PMY87CbfuJiv0ErQOUWl6FeqYiTsu97Vye4miKY6lvQTXOtefoL1g1BD3AXxq%2Bs2DTz7yWAa%2Fw0JP%2BHTFDRIWXsvCrP8bcf1d8dLbw2%2BhLvXVCoZtauXZ69s2GXt7CnMeNoxKofEqpSjyAcSu93lU%2B4W2QsCULRK33Y9YiBpGeWgY2yJw5fWJJQCxIJPjmXeuuknXgsX1PqIhHyLodZz8mi%2FuR3HI%2BwrLdd9IBn1Roo9LbaseqoLbcSSrk8W4%2FlxPARboIBLk0KMT%2Fs3MTWmUJkiprtRpYvWPopnLLSrTQFNOhoBUJBFRlY%2BKg9K%2Byg5RdnrmqLMwAyKceVoQQfTKHOg5mWTJbFuZo5LQRkucmT%2BRf8b%2BQdLEhbv0jKzVxg2625eY71RMiFQAOt87WkelFYv6Gi3ps58M55hsP0BXgwdYAJDMAt1XX%2BwOpbv3NSB0VqPhObr1OziHnQhRegP7WxE5krGBZBwfsDVdPFwRdVg1BrpVuC%2BkcLZKf0sgsnS1IEoIsZZYc%2FeTQ7rk7k6Sgj72c26GCBzA4PX%2BvyAWLRuI4RmvMAljoc17T4U3oDV7rbEafPB1%2BI4BFoQ700LMbP98hEkr%2FpMVmNIWi3d9dWO5vQwgI%2BG0AY6pgEMaH3wHHqHMzp3meVkCss69VNm9%2FJUCy9kH%2FBktvF9ch0Xas7x8VlYVQ4Fqei1Ea34GI9YIlC1OJ%2FsRtbEJKXjUKVS3GXlcCQdoO0Y%2FjBLMcN27VvQJvXjTQR0vj2RT5ku40EknmCVMoBKuXUjxk95N7ObDO%2FGm65xMqRnWjD7ARgVa2zwyWlvsrlsMUQbgiZPim25i7wvaKTZ6oZuwCs1gZNIbz%2Bk&X-Amz-Signature=26068f8a999503d1ba235cae6abf4cec331fe82507edd7d29c910497be47751c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-Facturation-factures-et-proforma-d-ch-ances-multipes-probl-mes-3288db15623a80989620f6c98afd1347"
     },
@@ -5794,10 +5795,11 @@
       "identifiant": "INA-206",
       "titre": "[WEB] Migration fonctions Inacom vers Backoffice ↔ Akuiteo",
       "classification": "DEV avec CC",
-      "statut": "A planifier",
+      "statut": "En cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUIN 26"
+        "JUIN 26",
+        "MAI 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -5809,7 +5811,7 @@
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
-      "pointAvancement": 0,
+      "pointAvancement": 0.1,
       "pointsBlocage": "",
       "explication": "Vu avec Christophe pour refonte de l’espace client du site Inaxel avec suppression des élements pas utilisés + ajout de lien pour la partie technique",
       "communication": [],
@@ -5965,7 +5967,7 @@
       "identifiant": "INA-210",
       "titre": "[WEB+LOGICIEL] Check-In Scan partie 2 : Envoi CiS vers Naxi.G",
       "classification": "DEV sans CC",
-      "statut": "En cours",
+      "statut": "Stand by",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26",
@@ -6614,9 +6616,9 @@
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "",
+      "versionInter": "Web",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-05-11",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://www.notion.so/WEB-Probl-me-de-r-cup-ration-de-ressources-NNP-quand-ressources-plus-pr-sentes-sur-le-web-33d8db15623a803e98b7d9effd6c6c3a"
@@ -6970,7 +6972,7 @@
       "identifiant": "INA-241",
       "titre": "[LOGICIEL] Etats comptables centralisés : Correctif sur Balance",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": "En cours",
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "MAI 26"
@@ -6992,8 +6994,8 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
+      "pointAvancement": 0.75,
+      "pointsBlocage": "EN TEST",
       "explication": "Plusieurs problématiques sur la génération de la balance : \n\n  • Modifier les points en virgule sur les colonnes Débit et Crédit (points) a voir quand lignes 0 supp.\n  • Supprimer les lignes à 0 correspondant aux remises en banque (voir pièce ci jointe)",
       "communication": [],
       "initialeAjout": [
@@ -7127,7 +7129,7 @@
       "identifiant": "INA-243",
       "titre": "[LOGICIEL] Non affichage du logo sur les factures & proforma si les courriers & emails sont différents par exercice",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": "En cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -7149,8 +7151,8 @@
       "persPoTest": [
         "Nina"
       ],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
+      "pointAvancement": 0.75,
+      "pointsBlocage": "retour test",
       "explication": "Le logo ne s’affiche pas sur les pdf des factures et proforma si dans les paramètres exercices, les courriers et emails sont configurés en différents par exercice.\n\nNaxi stocke alors l’image dans un mauvais répertoire \n\nPour débloquer la situation chez le client, j’ai déplacé le fichier manuellement, ce qui a permis de ré-afficher le logo sur les factures",
       "communication": [],
       "initialeAjout": [
@@ -7282,7 +7284,7 @@
       "identifiant": "INA-247",
       "titre": "[LOGICIEL] Erreur remontée historique NAXICOD (voir LOG pour analyse)",
       "classification": "BUG STRUCTURANT",
-      "statut": "Sprint en cours",
+      "statut": "En cours",
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -7304,7 +7306,7 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 0.2,
       "pointsBlocage": "",
       "explication": "Nous avons installé la version 18.10 NG et 06.03 NxCod sur le camping Flower Rivière 04 et le soucis persiste malheureusement , à savoir lorsque l’on double clique sur un client dans NG, ce n’est pas la bonne fiche client qui s’ouvre.\n\nhttps://jam.dev/c/7abddfd2-a0ba-46b2-a00e-9169629ead71",
       "communication": [],
@@ -7588,7 +7590,7 @@
       "identifiant": "INA-251",
       "titre": "[LOGICIEL] Séjours et clients non envoyés sur le web",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": "FAIT",
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -7611,16 +7613,16 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Mailys a mis en place un système de controle entre le fichier booking déposé tous les jours sur le FTP et le CRM. Suite à cela, un fichier excel est envoyé tous les jours sur la boite support@inaxel.com\n\nLes premiers fichiers reçus (voir pièce jointe), montre qu’un certains nombre de campings sont impactés par une différence de nombre de séjour entre le fichier booking et le crm \n\nJ’ai pris comme exemple le camping LOU PTIT POUN car il est sur notre offre Saas. Ce camping a été migré en V2 le 26.03.2026.\n\nDepuis cette date, 77 séjours n’avaient pas été envoyé dans le CRM (alors que bien présents dans NAXI et dans le fichier booking). J’ai fait un renvoi complet des séjours et clients et les données se sont bien envoyés en intégralité.\n\nIl doit donc y avoir dans NAXI un traitement de création de séjour qui ne génère pas d’envoi dans le CRM. A première vue, les séjours non envoyés sont tous des résas provenant du resa web.\n\nUpdate du 23.04.2026 : \n\nJe viens de recevoir un email de ROMANEE pour m’indiquer qu’un client n’arrive pas à se connecter sur l’espace client. Après recherche, il s’avère que le client n’existe pas sur le web donc probablement le même soucis que pour les commandes",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "",
+      "versionInter": "18.16",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-05-11",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://www.notion.so/LOGICIEL-S-jours-et-clients-non-envoy-s-sur-le-web-3498db15623a80f0820be72cb4a0b5fe"
@@ -7844,7 +7846,7 @@
       "identifiant": "INA-262",
       "titre": "[WEB] Garder les filtres choisis sur NNP",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": "FAIT",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -7860,21 +7862,21 @@
       "estimPoTest": 21,
       "persBack": [],
       "persFront": [
-        "Louis Charles"
+        "Christophe"
       ],
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Quand on fait une recherche avec des filtres (peu importe ceux utilisés) qu’on  valide un ménage, un supplément, une arrivée,… quand on revient sur la liste tous les filtres utilisés avant sont enlevé → ce qui rend l’utilisation lourde",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "",
+      "versionInter": "Web",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-05-11",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://www.notion.so/WEB-Garder-les-filtres-choisis-sur-NNP-34b8db15623a8039b2e8fcdab5b7e2b7"
@@ -7926,7 +7928,7 @@
       "identifiant": "INA-266",
       "titre": "[WEB] Problème d’affichage du statut du ménage dans l’enregistrement d’une arrivée sur NNP",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": "FAIT",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -7947,16 +7949,16 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Dans le module “enregistrer une arrivée”, sur une arrivée on peut voir le statut du ménage du locatif. Le soucis c’est que ce statut s’affiche uniquement s’il y a un ménage pour la date d’arrivée. Si le ménage a été généré quelques jours avant, alors le statut du ménage ne s’affiche pas. Vu avec Christophe, la recherche est effectuée que sur la date de l’arrivée, il faudrait aller chercher le dernier ménage fait sur l’emplacement concerné.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "",
+      "versionInter": "Web",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-05-11",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://www.notion.so/WEB-Probl-me-d-affichage-du-statut-du-m-nage-dans-l-enregistrement-d-une-arriv-e-sur-NNP-34b8db15623a80fa8755f095b4a93d4f"
@@ -8151,7 +8153,7 @@
       "identifiant": "INA-274",
       "titre": "[WEB+LOGICIEL] Mise en place facturaction electronique (Pennylane)",
       "classification": "DEV avec CC",
-      "statut": "Sprint en cours",
+      "statut": "En cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -8175,7 +8177,7 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 0.1,
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
@@ -8442,7 +8444,7 @@
       "identifiant": "INA-284",
       "titre": "Erreur encodage fichier sousloc",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": "FAIT",
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -8460,16 +8462,16 @@
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
-      "pointAvancement": 0,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Suite à la BUG-1034, Flower m’a contacté afin de me signaler une anomalie d’encodage ur le fichier sous loc, qui génèrent des anomalies dans leur analyses.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "",
+      "versionInter": "18.16",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-05-11",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://www.notion.so/Erreur-encodage-fichier-sousloc-3568db15623a80efb066da17c4e2e722"
@@ -8511,7 +8513,7 @@
       "identifiant": "INA-287",
       "titre": "[WEB] Ajout d'un filtre \"Date prochaine arrivée\" dans le sous module Ménages",
       "classification": "DEV avec CC",
-      "statut": "A planifier",
+      "statut": "En cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -8526,9 +8528,13 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
+      "persFront": [
+        "Christophe"
+      ],
+      "persPoTest": [
+        "Marjorie"
+      ],
+      "pointAvancement": 0.01,
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
@@ -8677,9 +8683,11 @@
       "identifiant": "INA-292",
       "titre": "Erreur redescente des résas Sunelia",
       "classification": "BUG STRUCTURANT",
-      "statut": null,
+      "statut": "En cours",
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "MAI 26"
+      ],
       "fonctions": "Résa web",
       "produits": [
         "CTV"
@@ -8690,9 +8698,13 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
+      "persFront": [
+        "Christophe"
+      ],
+      "persPoTest": [
+        "Aurore"
+      ],
+      "pointAvancement": 0.01,
       "pointsBlocage": "",
       "explication": "Beaucoup de réservations ne redescendent pas chez SUNELIA.\n\nLe soucis semble venir de l’insertion du rs_suppl lié au Programme de Fidelité de Sunelia",
       "communication": [],
@@ -8775,7 +8787,7 @@
       "identifiant": "INA-294",
       "titre": "Mise à jour Edge V148 engendrant un planton de NAXI lors de la facturation",
       "classification": "BUG STRUCTURANT",
-      "statut": "En cours",
+      "statut": "FAIT",
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -8790,17 +8802,21 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [],
+      "persBack": [
+        "Loic"
+      ],
       "persFront": [],
-      "persPoTest": [],
+      "persPoTest": [
+        "Aurore"
+      ],
       "pointAvancement": 0,
       "pointsBlocage": "",
       "explication": "Le Camp du Domaine nous a contacté en nous signalant que NAXI plantait dès qu’ils facturaient.\nAprès analyse, le soucis provient de la mise à jour d’Edge v148",
       "communication": [],
       "initialeAjout": [],
-      "versionInter": "",
+      "versionInter": "18.16",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-05-11",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://www.notion.so/Mise-jour-Edge-V148-engendrant-un-planton-de-NAXI-lors-de-la-facturation-35b8db15623a8052b645e5aa4ea67af8"
