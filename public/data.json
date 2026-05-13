@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T15:33:53.047Z",
+  "generatedAt": "2026-05-13T17:38:00.614Z",
   "classique": [
     {
       "id": "35f8db15-623a-8043-b07e-d9aec01b0198",
@@ -3581,7 +3581,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "Fiche communication.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46632GPEFM6%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T153342Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEH8aCXVzLXdlc3QtMiJHMEUCIQCAchAN%2F1xrfiNfXQBkqZ4xlM4ryQF8R%2Bun9wDrjWnEUgIgdC%2BQXHIu5dkDvNAB0eg6Cek1gZkGm435YM2ssodEgS0q%2FwMISBAAGgw2Mzc0MjMxODM4MDUiDBGd%2B%2FaZHzeD9aNp%2BCrcAxiZKprN75pBQ67Ynuqc9a1CWTNNo5bGJbSrC3LHpDwAsm%2BPF4nYCuOMxTwLe0IKc2CGcG2Wf6evgIaZKUbgiqsqOMdFvTOxgKDuX2IzDwp9Is%2BzAo5MCHeM6q4fYGa7ayywHQ3ZiEYvXTlUukkuMzudosz7GRrBgX3a2njSQgNKj60FYwqsd%2FHr9dgZyhtH4GjI8yLN5xC3ieyGcF17JH03lKbrYyDa6N4skwDZxGwzrgGeLF7awSscfFGsiyPfJNFkNl4Fwu8L8tXrhunTIxvFOKnZNRklF%2FPV57lAScry8X5eO0BTgWr7giWrXOCH8fk1ntsxPh%2BCH%2FhOe3P%2FovFIdExybaVCtZIVFJsu0ZsOd1l6BuThr4EMfx%2FYrUhl%2B817AJaYMXTGJTwu3qq6x8HVziwtSBa%2FY6qjMw%2B2CFOmPKwR8VkCLDqadVdYevPMFcDBEhdbSN3mhuhdeHe%2F8PdgPSHq8dpw%2BaMEZ1HdS44Z7g2MLadaBtVEI%2FsVBZusseSZk5e4wuNFdlPQwewqk%2BJZLZMVqePmGWdb1hVbXDxZAFzuS%2BSR0H4hDrl2O8vcEU1jzig1zAibT0MamjzXfJVX0LDzhaZHBIoWE3fJhB3195AnGovf27Jxd%2Bk8MJWbktAGOqUBYCZf0VcFuhNi84nlW24xdAWa05XFMjnc53lO8vP9vQjLvanguBuqR3i7uVRhqCpPB1r2SvkHo4MlwP1bYKl9qBFpyGfTtV0DKp2KAE9HsEeaLpBVt3NlP5h2MD7h%2FmhJZbjJPMeZoc707CHB%2BJt98aMjuIRZRA1sDEE8Xl%2FZu6cnl0NgswkiIbDJHC776NKFa4aSX2dZmOVQIy4XSVgMG%2Bz0jO6c&X-Amz-Signature=fe78b923cc7846fcc2d7ccbd7c923e0ab3229b7683e5fb2ca34d3867009d7516&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UIGRJUDW%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T173750Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDksLQiHuE6wJBX5nRJhgQsBJYOVBbdMgi6W%2BXIepkSZAIhAOve8c0oMrti079QqVQCXq7KhsQOiZdNusIlHKyrAs2qKv8DCEoQABoMNjM3NDIzMTgzODA1IgwqffinkdTgWVcdlvMq3AMUx79dajiVbV%2FHuJDfwAyLSLfKyoA3BLWO3bxrzA%2Fq5WVkkCEKZrOZzALiEpM1Q1Uky72NhlvUA3YckdxokKD7a85eeW3ObpbhEP0gbV27fVTCX4NWckgAHuTcz9lT2j2n9dHwwnRHj7pD3T857rhMr6WUmBcd8BqFJGIu4GEiE7R2vmMTrrsJJAyuxj93YxBvRtBiPT8sNcbTGJOmY7RtFa%2BB289jFzYxLfHMaQsQuYckJJEIrMIaLQMV5WR9a8iUVmZYTK58oqlA%2BygG7EuTLKMl%2BJ%2F9GmcPIr4m4CM9blEsaqHeeXnzqVbVJGwuy0ZsD9duvOk51VPRjhtFG29d57yGWFqAyHxbo3xh8%2FiI2DomG1etQ2u97EvXb3w0M6SuSLivHo%2BLHb6E4gg%2FDYZtf2vmjuo%2FrXIHbuS7ttmVF6Wyg%2FxzmVErstha4WcyVJXug7yRFHPgisA1riB6UY7LclwfqHKMNDo9izZfwYV3H5X49lggh%2BHaqKBW%2BQ7U6rHukyBpE%2B4zwTjbYQdmPJ5wZIH2x6g1cXLqNB2%2BtdLgLfaOZxO4DdzxzCTygms4GdldRx89UCMNKzRdgLGFw0Us7vzpG%2BH8FhVZm%2Bz9U1BJi%2FCxU6R1qAfmMouzRzCd3pLQBjqkAZzS5EZAa7S3FjBhDPed1ruFo6JnY0MuYx7TbqgZeZKJcv%2BaxH9rF8IMoDAKw3GPmjXQ1iNMCrjDA9saBSOM3bkKlW1COLB0uCcVmGb3t%2FarJMpDCacEEWtlKKArBP6QFOe8cUpg9lGQOTHnMuQA5wW%2FT%2F1DwII%2BaxYUPr1Ht0dZADYPzp8kn3JwX1fttpO2Rv4plxvAIjKV1CHhpuXSp2l6tEE5&X-Amz-Signature=2d75673e280d2ab11050fd5ee3bb2364e1d381ed97b6ff24a7d105ec276ee96c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-Facturation-factures-et-proforma-d-ch-ances-multipes-probl-mes-3288db15623a80989620f6c98afd1347"
     },
@@ -4476,7 +4476,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-160.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665RLOSZ2W%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T153342Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEH4aCXVzLXdlc3QtMiJHMEUCIQDyG%2FxlA9sw3IXnilPno1ToTxWLZvppd%2BrTRuIUGEI5QQIgIUmI%2Buwpd8Y8fSIkY6EWqScVtKJQhE7aGI0yK0v3LUsq%2FwMIRxAAGgw2Mzc0MjMxODM4MDUiDEptGGU3N%2BHa0GJ6tSrcA58dbTaiDOStPui9C9x7K%2FvPafA4Wtd5bd0u%2FOz3vneX3cnpOUorxcSq5rypDVoM%2FNJ9lSz%2FRJV4jwiJIOazGDsmxbwkg8Wekq1i0HIMOuXVHEKq1wHDPnn0zhBuFTrKkmE6G3wggUoqSfF3Rcy1DjQGczza7kQD43NO5H2ZRl52jIfYYYajZa0Yzgf8MMBbclBDHOOKBnBIfzM3Fp3fCLPByQfuCk9SSU7VGx%2F%2BGlNIy5P3XfriVUskHWavVMIQg9Cwbc5%2FygK%2Bzf2f2LPI2xMioulw93DGCJcnnnjT9JZhLBnsuDAACYqfr4aPkT76O9xOo4%2BhP23noU52f6oMzdqrOT2DxKi0SxautFxpJucv9rqzXYvCoR1WDh3dgXzFHhxy4l76XGD%2BzRK4e9obPPir3zzjqA%2B2xrhCTC2wDWJRD0BKF9pyWQ%2BeMIhiTqzqyTvF57vz4iZ3NyCawXhkNgqz4JcV7D1I%2B7tZoJ6lbJUosD9PFqAyJ00buX2dF9ZDP4QfL%2FNEvNzQn33IbmdB%2B0HT%2BfgiqxeHamCNmZNm8jcPU2k8ISA%2BTSTW%2BnC1cH667gr%2BR%2ByU3iKodj3D3Be5TH7Mtj%2FbuAEnhrT4xPr7ShsC3wNoS8qkVTREDz2fMPSLktAGOqUBzxt4WiJimONkG5BpexdGZRgrPFRbPwTh1dMPv%2B19fcFQ7qyCcM1sgs35YXmUX8t7BN5bCAYesfrYbAO7TmFcgr2lMSm4pV1SBo93wSrBigS1ohPozJ8LMrVUUDIzcXzA1m9v57CSg1usVtQqNpxJ%2B%2Fnj5byCOR8ET0azcNtOrxMqpLUwnPiev8O5j5%2FyrkInwlBByQh84O81J%2BBxvRXhUH0%2FURKf&X-Amz-Signature=a01de3d1153f5f8d98a81f5e28a51d19bc33de8040717ad956ff778afe933ceb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XG4MSZGN%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T173750Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCl6mMH3iYQSQWXgT5wj88%2BhDqwmAiCcMRX4btZs4o%2BfQIgCmQ6Nh5Cqy7S5JRLWsH6otdzTR6pTUZ7iXyVQ6M8H%2FQq%2FwMIShAAGgw2Mzc0MjMxODM4MDUiDAewL3kw8A0SubwUcSrcA%2FQ7xRad9IU9XPakuAfr9D9K6IVZKcpI0I4PGLBiprcGSxIDTZk%2FQOUbUQ8KcgNkSf5PfDIVNpBRzO5VavX6s5JG28eME0V8J7T%2BcoSbk1tb9NOGdBb6ZwQjaXaUsNJxYnQ%2FjfXK5iYbfQyyZ9DurpQ1YhNxVEayRhnvNNUKJxyYmiy4kax5uN%2FUMD%2B4sEalwjssC3Nq9HWBBv3%2B6K4BzIaZOxDuSLIDW8J6pnwvDy3pWyt%2F4dudOuq2Mv6DswPW9MmB38De0uapUgMIlakr5rAE3gLg3B74aM0%2FFBa2AWUYdHnkm3phXc5qlbhRpeI9nEpVIZny4mWO3oVvhSSLHtdkyIgF5uV2AO79Oz9MpqcmmSPgFdZdyKcm7Nd%2BP9X1nD%2BBq%2Fc70sm02jJlH%2Brtvm97Gyq9hAiZGuKMUL9bQUzzNMAVG%2FP0ld1Kpbvav2Ivq0LPUeoYRSjGDHC88UWKgpnpSPcOHMeFdqC7cuAf64KRhni%2FWexk0yUG8dm%2FuJkoRgRAq1SvGNTZV6mQB2i%2BCUgezXRL8c3NfqbkhK8Iu2Eno7ZtkUY%2F%2BJ%2Bff7X0j7gQYZV5kL95srXcveElG4GiFOe0CzhVWTQVBE51E0N0zYtM793gslcVnumTz1KgMN3ektAGOqUBtYv3bVWuF6UKSgUHgsDcTJ0G7MUNoSSnTcKFDnpM6wC8MGFiUWRmjm3%2F3Wsv5gMH%2FGNuKdqWrT64d2Ja%2B0tscRFtW6EERcWw%2FT9TRVYL%2FO%2Ff%2BT0kDKToCPWM0Xhs%2BixF7UuB2FvwaripBBtCrylQIpCt8uEPggbYcyP%2Fo%2FUccPOfNEoMkFs4qWOhc%2BIwc6fA95yO4rYAy2LaUgNjjdedla5ykSP3&X-Amz-Signature=320f0934c2adee2d3da562a27e59546352a26ad97fdac4f03d8c78b5d26b7377&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Apparition-d-un-message-sur-le-traitement-des-r-sas-issues-de-l-espace-client-31e8db15623a806896d5f5a1ed131200"
     },
@@ -4615,7 +4615,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "synthese_espaceclient (1).xlsx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665RLOSZ2W%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T153342Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEH4aCXVzLXdlc3QtMiJHMEUCIQDyG%2FxlA9sw3IXnilPno1ToTxWLZvppd%2BrTRuIUGEI5QQIgIUmI%2Buwpd8Y8fSIkY6EWqScVtKJQhE7aGI0yK0v3LUsq%2FwMIRxAAGgw2Mzc0MjMxODM4MDUiDEptGGU3N%2BHa0GJ6tSrcA58dbTaiDOStPui9C9x7K%2FvPafA4Wtd5bd0u%2FOz3vneX3cnpOUorxcSq5rypDVoM%2FNJ9lSz%2FRJV4jwiJIOazGDsmxbwkg8Wekq1i0HIMOuXVHEKq1wHDPnn0zhBuFTrKkmE6G3wggUoqSfF3Rcy1DjQGczza7kQD43NO5H2ZRl52jIfYYYajZa0Yzgf8MMBbclBDHOOKBnBIfzM3Fp3fCLPByQfuCk9SSU7VGx%2F%2BGlNIy5P3XfriVUskHWavVMIQg9Cwbc5%2FygK%2Bzf2f2LPI2xMioulw93DGCJcnnnjT9JZhLBnsuDAACYqfr4aPkT76O9xOo4%2BhP23noU52f6oMzdqrOT2DxKi0SxautFxpJucv9rqzXYvCoR1WDh3dgXzFHhxy4l76XGD%2BzRK4e9obPPir3zzjqA%2B2xrhCTC2wDWJRD0BKF9pyWQ%2BeMIhiTqzqyTvF57vz4iZ3NyCawXhkNgqz4JcV7D1I%2B7tZoJ6lbJUosD9PFqAyJ00buX2dF9ZDP4QfL%2FNEvNzQn33IbmdB%2B0HT%2BfgiqxeHamCNmZNm8jcPU2k8ISA%2BTSTW%2BnC1cH667gr%2BR%2ByU3iKodj3D3Be5TH7Mtj%2FbuAEnhrT4xPr7ShsC3wNoS8qkVTREDz2fMPSLktAGOqUBzxt4WiJimONkG5BpexdGZRgrPFRbPwTh1dMPv%2B19fcFQ7qyCcM1sgs35YXmUX8t7BN5bCAYesfrYbAO7TmFcgr2lMSm4pV1SBo93wSrBigS1ohPozJ8LMrVUUDIzcXzA1m9v57CSg1usVtQqNpxJ%2B%2Fnj5byCOR8ET0azcNtOrxMqpLUwnPiev8O5j5%2FyrkInwlBByQh84O81J%2BBxvRXhUH0%2FURKf&X-Amz-Signature=b56093970d87149fb9c63e27d47a501ad044404223526f22a499e30394c9d05f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XG4MSZGN%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T173750Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCl6mMH3iYQSQWXgT5wj88%2BhDqwmAiCcMRX4btZs4o%2BfQIgCmQ6Nh5Cqy7S5JRLWsH6otdzTR6pTUZ7iXyVQ6M8H%2FQq%2FwMIShAAGgw2Mzc0MjMxODM4MDUiDAewL3kw8A0SubwUcSrcA%2FQ7xRad9IU9XPakuAfr9D9K6IVZKcpI0I4PGLBiprcGSxIDTZk%2FQOUbUQ8KcgNkSf5PfDIVNpBRzO5VavX6s5JG28eME0V8J7T%2BcoSbk1tb9NOGdBb6ZwQjaXaUsNJxYnQ%2FjfXK5iYbfQyyZ9DurpQ1YhNxVEayRhnvNNUKJxyYmiy4kax5uN%2FUMD%2B4sEalwjssC3Nq9HWBBv3%2B6K4BzIaZOxDuSLIDW8J6pnwvDy3pWyt%2F4dudOuq2Mv6DswPW9MmB38De0uapUgMIlakr5rAE3gLg3B74aM0%2FFBa2AWUYdHnkm3phXc5qlbhRpeI9nEpVIZny4mWO3oVvhSSLHtdkyIgF5uV2AO79Oz9MpqcmmSPgFdZdyKcm7Nd%2BP9X1nD%2BBq%2Fc70sm02jJlH%2Brtvm97Gyq9hAiZGuKMUL9bQUzzNMAVG%2FP0ld1Kpbvav2Ivq0LPUeoYRSjGDHC88UWKgpnpSPcOHMeFdqC7cuAf64KRhni%2FWexk0yUG8dm%2FuJkoRgRAq1SvGNTZV6mQB2i%2BCUgezXRL8c3NfqbkhK8Iu2Eno7ZtkUY%2F%2BJ%2Bff7X0j7gQYZV5kL95srXcveElG4GiFOe0CzhVWTQVBE51E0N0zYtM793gslcVnumTz1KgMN3ektAGOqUBtYv3bVWuF6UKSgUHgsDcTJ0G7MUNoSSnTcKFDnpM6wC8MGFiUWRmjm3%2F3Wsv5gMH%2FGNuKdqWrT64d2Ja%2B0tscRFtW6EERcWw%2FT9TRVYL%2FO%2Ff%2BT0kDKToCPWM0Xhs%2BixF7UuB2FvwaripBBtCrylQIpCt8uEPggbYcyP%2Fo%2FUccPOfNEoMkFs4qWOhc%2BIwc6fA95yO4rYAy2LaUgNjjdedla5ykSP3&X-Amz-Signature=b98ba1e1a17529363df61f50b64a9dac89c72153f7d0ccc4b2274203effeea13&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-G-rer-l-arr-t-de-l-espace-client-V1-31a8db15623a800d915eea7ee689e4da"
     },
@@ -4834,7 +4834,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-148.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665RLOSZ2W%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T153342Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEH4aCXVzLXdlc3QtMiJHMEUCIQDyG%2FxlA9sw3IXnilPno1ToTxWLZvppd%2BrTRuIUGEI5QQIgIUmI%2Buwpd8Y8fSIkY6EWqScVtKJQhE7aGI0yK0v3LUsq%2FwMIRxAAGgw2Mzc0MjMxODM4MDUiDEptGGU3N%2BHa0GJ6tSrcA58dbTaiDOStPui9C9x7K%2FvPafA4Wtd5bd0u%2FOz3vneX3cnpOUorxcSq5rypDVoM%2FNJ9lSz%2FRJV4jwiJIOazGDsmxbwkg8Wekq1i0HIMOuXVHEKq1wHDPnn0zhBuFTrKkmE6G3wggUoqSfF3Rcy1DjQGczza7kQD43NO5H2ZRl52jIfYYYajZa0Yzgf8MMBbclBDHOOKBnBIfzM3Fp3fCLPByQfuCk9SSU7VGx%2F%2BGlNIy5P3XfriVUskHWavVMIQg9Cwbc5%2FygK%2Bzf2f2LPI2xMioulw93DGCJcnnnjT9JZhLBnsuDAACYqfr4aPkT76O9xOo4%2BhP23noU52f6oMzdqrOT2DxKi0SxautFxpJucv9rqzXYvCoR1WDh3dgXzFHhxy4l76XGD%2BzRK4e9obPPir3zzjqA%2B2xrhCTC2wDWJRD0BKF9pyWQ%2BeMIhiTqzqyTvF57vz4iZ3NyCawXhkNgqz4JcV7D1I%2B7tZoJ6lbJUosD9PFqAyJ00buX2dF9ZDP4QfL%2FNEvNzQn33IbmdB%2B0HT%2BfgiqxeHamCNmZNm8jcPU2k8ISA%2BTSTW%2BnC1cH667gr%2BR%2ByU3iKodj3D3Be5TH7Mtj%2FbuAEnhrT4xPr7ShsC3wNoS8qkVTREDz2fMPSLktAGOqUBzxt4WiJimONkG5BpexdGZRgrPFRbPwTh1dMPv%2B19fcFQ7qyCcM1sgs35YXmUX8t7BN5bCAYesfrYbAO7TmFcgr2lMSm4pV1SBo93wSrBigS1ohPozJ8LMrVUUDIzcXzA1m9v57CSg1usVtQqNpxJ%2B%2Fnj5byCOR8ET0azcNtOrxMqpLUwnPiev8O5j5%2FyrkInwlBByQh84O81J%2BBxvRXhUH0%2FURKf&X-Amz-Signature=086757d8553537d33bf8542f9d0a7ce8aaf3f202d55087865ea04348a3815cce&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XG4MSZGN%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T173750Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCl6mMH3iYQSQWXgT5wj88%2BhDqwmAiCcMRX4btZs4o%2BfQIgCmQ6Nh5Cqy7S5JRLWsH6otdzTR6pTUZ7iXyVQ6M8H%2FQq%2FwMIShAAGgw2Mzc0MjMxODM4MDUiDAewL3kw8A0SubwUcSrcA%2FQ7xRad9IU9XPakuAfr9D9K6IVZKcpI0I4PGLBiprcGSxIDTZk%2FQOUbUQ8KcgNkSf5PfDIVNpBRzO5VavX6s5JG28eME0V8J7T%2BcoSbk1tb9NOGdBb6ZwQjaXaUsNJxYnQ%2FjfXK5iYbfQyyZ9DurpQ1YhNxVEayRhnvNNUKJxyYmiy4kax5uN%2FUMD%2B4sEalwjssC3Nq9HWBBv3%2B6K4BzIaZOxDuSLIDW8J6pnwvDy3pWyt%2F4dudOuq2Mv6DswPW9MmB38De0uapUgMIlakr5rAE3gLg3B74aM0%2FFBa2AWUYdHnkm3phXc5qlbhRpeI9nEpVIZny4mWO3oVvhSSLHtdkyIgF5uV2AO79Oz9MpqcmmSPgFdZdyKcm7Nd%2BP9X1nD%2BBq%2Fc70sm02jJlH%2Brtvm97Gyq9hAiZGuKMUL9bQUzzNMAVG%2FP0ld1Kpbvav2Ivq0LPUeoYRSjGDHC88UWKgpnpSPcOHMeFdqC7cuAf64KRhni%2FWexk0yUG8dm%2FuJkoRgRAq1SvGNTZV6mQB2i%2BCUgezXRL8c3NfqbkhK8Iu2Eno7ZtkUY%2F%2BJ%2Bff7X0j7gQYZV5kL95srXcveElG4GiFOe0CzhVWTQVBE51E0N0zYtM793gslcVnumTz1KgMN3ektAGOqUBtYv3bVWuF6UKSgUHgsDcTJ0G7MUNoSSnTcKFDnpM6wC8MGFiUWRmjm3%2F3Wsv5gMH%2FGNuKdqWrT64d2Ja%2B0tscRFtW6EERcWw%2FT9TRVYL%2FO%2Ff%2BT0kDKToCPWM0Xhs%2BixF7UuB2FvwaripBBtCrylQIpCt8uEPggbYcyP%2Fo%2FUccPOfNEoMkFs4qWOhc%2BIwc6fA95yO4rYAy2LaUgNjjdedla5ykSP3&X-Amz-Signature=c9627b3a6a2b24e59a8978ab12100c7d30ab531d1cfdb22248b56346cfa908e6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/REDSYS-Non-fonctionnel-suite-mise-en-place-3178db15623a80458d0de93a71d0564f"
     },
@@ -4869,7 +4869,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-147.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665RLOSZ2W%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T153342Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEH4aCXVzLXdlc3QtMiJHMEUCIQDyG%2FxlA9sw3IXnilPno1ToTxWLZvppd%2BrTRuIUGEI5QQIgIUmI%2Buwpd8Y8fSIkY6EWqScVtKJQhE7aGI0yK0v3LUsq%2FwMIRxAAGgw2Mzc0MjMxODM4MDUiDEptGGU3N%2BHa0GJ6tSrcA58dbTaiDOStPui9C9x7K%2FvPafA4Wtd5bd0u%2FOz3vneX3cnpOUorxcSq5rypDVoM%2FNJ9lSz%2FRJV4jwiJIOazGDsmxbwkg8Wekq1i0HIMOuXVHEKq1wHDPnn0zhBuFTrKkmE6G3wggUoqSfF3Rcy1DjQGczza7kQD43NO5H2ZRl52jIfYYYajZa0Yzgf8MMBbclBDHOOKBnBIfzM3Fp3fCLPByQfuCk9SSU7VGx%2F%2BGlNIy5P3XfriVUskHWavVMIQg9Cwbc5%2FygK%2Bzf2f2LPI2xMioulw93DGCJcnnnjT9JZhLBnsuDAACYqfr4aPkT76O9xOo4%2BhP23noU52f6oMzdqrOT2DxKi0SxautFxpJucv9rqzXYvCoR1WDh3dgXzFHhxy4l76XGD%2BzRK4e9obPPir3zzjqA%2B2xrhCTC2wDWJRD0BKF9pyWQ%2BeMIhiTqzqyTvF57vz4iZ3NyCawXhkNgqz4JcV7D1I%2B7tZoJ6lbJUosD9PFqAyJ00buX2dF9ZDP4QfL%2FNEvNzQn33IbmdB%2B0HT%2BfgiqxeHamCNmZNm8jcPU2k8ISA%2BTSTW%2BnC1cH667gr%2BR%2ByU3iKodj3D3Be5TH7Mtj%2FbuAEnhrT4xPr7ShsC3wNoS8qkVTREDz2fMPSLktAGOqUBzxt4WiJimONkG5BpexdGZRgrPFRbPwTh1dMPv%2B19fcFQ7qyCcM1sgs35YXmUX8t7BN5bCAYesfrYbAO7TmFcgr2lMSm4pV1SBo93wSrBigS1ohPozJ8LMrVUUDIzcXzA1m9v57CSg1usVtQqNpxJ%2B%2Fnj5byCOR8ET0azcNtOrxMqpLUwnPiev8O5j5%2FyrkInwlBByQh84O81J%2BBxvRXhUH0%2FURKf&X-Amz-Signature=59da2d9e6a81291bb84e2746dbaa569f83584fc8ed398b6166e1580797dc8002&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XG4MSZGN%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T173750Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCl6mMH3iYQSQWXgT5wj88%2BhDqwmAiCcMRX4btZs4o%2BfQIgCmQ6Nh5Cqy7S5JRLWsH6otdzTR6pTUZ7iXyVQ6M8H%2FQq%2FwMIShAAGgw2Mzc0MjMxODM4MDUiDAewL3kw8A0SubwUcSrcA%2FQ7xRad9IU9XPakuAfr9D9K6IVZKcpI0I4PGLBiprcGSxIDTZk%2FQOUbUQ8KcgNkSf5PfDIVNpBRzO5VavX6s5JG28eME0V8J7T%2BcoSbk1tb9NOGdBb6ZwQjaXaUsNJxYnQ%2FjfXK5iYbfQyyZ9DurpQ1YhNxVEayRhnvNNUKJxyYmiy4kax5uN%2FUMD%2B4sEalwjssC3Nq9HWBBv3%2B6K4BzIaZOxDuSLIDW8J6pnwvDy3pWyt%2F4dudOuq2Mv6DswPW9MmB38De0uapUgMIlakr5rAE3gLg3B74aM0%2FFBa2AWUYdHnkm3phXc5qlbhRpeI9nEpVIZny4mWO3oVvhSSLHtdkyIgF5uV2AO79Oz9MpqcmmSPgFdZdyKcm7Nd%2BP9X1nD%2BBq%2Fc70sm02jJlH%2Brtvm97Gyq9hAiZGuKMUL9bQUzzNMAVG%2FP0ld1Kpbvav2Ivq0LPUeoYRSjGDHC88UWKgpnpSPcOHMeFdqC7cuAf64KRhni%2FWexk0yUG8dm%2FuJkoRgRAq1SvGNTZV6mQB2i%2BCUgezXRL8c3NfqbkhK8Iu2Eno7ZtkUY%2F%2BJ%2Bff7X0j7gQYZV5kL95srXcveElG4GiFOe0CzhVWTQVBE51E0N0zYtM793gslcVnumTz1KgMN3ektAGOqUBtYv3bVWuF6UKSgUHgsDcTJ0G7MUNoSSnTcKFDnpM6wC8MGFiUWRmjm3%2F3Wsv5gMH%2FGNuKdqWrT64d2Ja%2B0tscRFtW6EERcWw%2FT9TRVYL%2FO%2Ff%2BT0kDKToCPWM0Xhs%2BixF7UuB2FvwaripBBtCrylQIpCt8uEPggbYcyP%2Fo%2FUccPOfNEoMkFs4qWOhc%2BIwc6fA95yO4rYAy2LaUgNjjdedla5ykSP3&X-Amz-Signature=526e29092adf00bfc312e68b45548f244fe26c2c719444fb70b30367d741b492&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-CRM-Le-montant-des-suppl-ments-envoy-s-est-faux-lorsque-le-suppl-ment-est-en-prix-mo-3178db15623a8017a10ff4b9821287fa"
     },
@@ -4947,7 +4947,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-145.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665RLOSZ2W%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T153342Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEH4aCXVzLXdlc3QtMiJHMEUCIQDyG%2FxlA9sw3IXnilPno1ToTxWLZvppd%2BrTRuIUGEI5QQIgIUmI%2Buwpd8Y8fSIkY6EWqScVtKJQhE7aGI0yK0v3LUsq%2FwMIRxAAGgw2Mzc0MjMxODM4MDUiDEptGGU3N%2BHa0GJ6tSrcA58dbTaiDOStPui9C9x7K%2FvPafA4Wtd5bd0u%2FOz3vneX3cnpOUorxcSq5rypDVoM%2FNJ9lSz%2FRJV4jwiJIOazGDsmxbwkg8Wekq1i0HIMOuXVHEKq1wHDPnn0zhBuFTrKkmE6G3wggUoqSfF3Rcy1DjQGczza7kQD43NO5H2ZRl52jIfYYYajZa0Yzgf8MMBbclBDHOOKBnBIfzM3Fp3fCLPByQfuCk9SSU7VGx%2F%2BGlNIy5P3XfriVUskHWavVMIQg9Cwbc5%2FygK%2Bzf2f2LPI2xMioulw93DGCJcnnnjT9JZhLBnsuDAACYqfr4aPkT76O9xOo4%2BhP23noU52f6oMzdqrOT2DxKi0SxautFxpJucv9rqzXYvCoR1WDh3dgXzFHhxy4l76XGD%2BzRK4e9obPPir3zzjqA%2B2xrhCTC2wDWJRD0BKF9pyWQ%2BeMIhiTqzqyTvF57vz4iZ3NyCawXhkNgqz4JcV7D1I%2B7tZoJ6lbJUosD9PFqAyJ00buX2dF9ZDP4QfL%2FNEvNzQn33IbmdB%2B0HT%2BfgiqxeHamCNmZNm8jcPU2k8ISA%2BTSTW%2BnC1cH667gr%2BR%2ByU3iKodj3D3Be5TH7Mtj%2FbuAEnhrT4xPr7ShsC3wNoS8qkVTREDz2fMPSLktAGOqUBzxt4WiJimONkG5BpexdGZRgrPFRbPwTh1dMPv%2B19fcFQ7qyCcM1sgs35YXmUX8t7BN5bCAYesfrYbAO7TmFcgr2lMSm4pV1SBo93wSrBigS1ohPozJ8LMrVUUDIzcXzA1m9v57CSg1usVtQqNpxJ%2B%2Fnj5byCOR8ET0azcNtOrxMqpLUwnPiev8O5j5%2FyrkInwlBByQh84O81J%2BBxvRXhUH0%2FURKf&X-Amz-Signature=3a77b55fbc8a1060a691df6e5237cef4bcbc07e227de51e2a4b7afec3bd182f9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XG4MSZGN%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T173750Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCl6mMH3iYQSQWXgT5wj88%2BhDqwmAiCcMRX4btZs4o%2BfQIgCmQ6Nh5Cqy7S5JRLWsH6otdzTR6pTUZ7iXyVQ6M8H%2FQq%2FwMIShAAGgw2Mzc0MjMxODM4MDUiDAewL3kw8A0SubwUcSrcA%2FQ7xRad9IU9XPakuAfr9D9K6IVZKcpI0I4PGLBiprcGSxIDTZk%2FQOUbUQ8KcgNkSf5PfDIVNpBRzO5VavX6s5JG28eME0V8J7T%2BcoSbk1tb9NOGdBb6ZwQjaXaUsNJxYnQ%2FjfXK5iYbfQyyZ9DurpQ1YhNxVEayRhnvNNUKJxyYmiy4kax5uN%2FUMD%2B4sEalwjssC3Nq9HWBBv3%2B6K4BzIaZOxDuSLIDW8J6pnwvDy3pWyt%2F4dudOuq2Mv6DswPW9MmB38De0uapUgMIlakr5rAE3gLg3B74aM0%2FFBa2AWUYdHnkm3phXc5qlbhRpeI9nEpVIZny4mWO3oVvhSSLHtdkyIgF5uV2AO79Oz9MpqcmmSPgFdZdyKcm7Nd%2BP9X1nD%2BBq%2Fc70sm02jJlH%2Brtvm97Gyq9hAiZGuKMUL9bQUzzNMAVG%2FP0ld1Kpbvav2Ivq0LPUeoYRSjGDHC88UWKgpnpSPcOHMeFdqC7cuAf64KRhni%2FWexk0yUG8dm%2FuJkoRgRAq1SvGNTZV6mQB2i%2BCUgezXRL8c3NfqbkhK8Iu2Eno7ZtkUY%2F%2BJ%2Bff7X0j7gQYZV5kL95srXcveElG4GiFOe0CzhVWTQVBE51E0N0zYtM793gslcVnumTz1KgMN3ektAGOqUBtYv3bVWuF6UKSgUHgsDcTJ0G7MUNoSSnTcKFDnpM6wC8MGFiUWRmjm3%2F3Wsv5gMH%2FGNuKdqWrT64d2Ja%2B0tscRFtW6EERcWw%2FT9TRVYL%2FO%2Ff%2BT0kDKToCPWM0Xhs%2BixF7UuB2FvwaripBBtCrylQIpCt8uEPggbYcyP%2Fo%2FUccPOfNEoMkFs4qWOhc%2BIwc6fA95yO4rYAy2LaUgNjjdedla5ykSP3&X-Amz-Signature=b99d12bfc0fdab861ed9acebe7a57f126c6ade9554c1ef08b572e6f84b2df80f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Erreur-de-saisie-sur-les-remises-manuelle-g-n-rant-un-montant-de-s-jour-faux-3178db15623a8079a34be124df5b756a"
     },
@@ -6780,7 +6780,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA77.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665RLOSZ2W%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T153342Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEH4aCXVzLXdlc3QtMiJHMEUCIQDyG%2FxlA9sw3IXnilPno1ToTxWLZvppd%2BrTRuIUGEI5QQIgIUmI%2Buwpd8Y8fSIkY6EWqScVtKJQhE7aGI0yK0v3LUsq%2FwMIRxAAGgw2Mzc0MjMxODM4MDUiDEptGGU3N%2BHa0GJ6tSrcA58dbTaiDOStPui9C9x7K%2FvPafA4Wtd5bd0u%2FOz3vneX3cnpOUorxcSq5rypDVoM%2FNJ9lSz%2FRJV4jwiJIOazGDsmxbwkg8Wekq1i0HIMOuXVHEKq1wHDPnn0zhBuFTrKkmE6G3wggUoqSfF3Rcy1DjQGczza7kQD43NO5H2ZRl52jIfYYYajZa0Yzgf8MMBbclBDHOOKBnBIfzM3Fp3fCLPByQfuCk9SSU7VGx%2F%2BGlNIy5P3XfriVUskHWavVMIQg9Cwbc5%2FygK%2Bzf2f2LPI2xMioulw93DGCJcnnnjT9JZhLBnsuDAACYqfr4aPkT76O9xOo4%2BhP23noU52f6oMzdqrOT2DxKi0SxautFxpJucv9rqzXYvCoR1WDh3dgXzFHhxy4l76XGD%2BzRK4e9obPPir3zzjqA%2B2xrhCTC2wDWJRD0BKF9pyWQ%2BeMIhiTqzqyTvF57vz4iZ3NyCawXhkNgqz4JcV7D1I%2B7tZoJ6lbJUosD9PFqAyJ00buX2dF9ZDP4QfL%2FNEvNzQn33IbmdB%2B0HT%2BfgiqxeHamCNmZNm8jcPU2k8ISA%2BTSTW%2BnC1cH667gr%2BR%2ByU3iKodj3D3Be5TH7Mtj%2FbuAEnhrT4xPr7ShsC3wNoS8qkVTREDz2fMPSLktAGOqUBzxt4WiJimONkG5BpexdGZRgrPFRbPwTh1dMPv%2B19fcFQ7qyCcM1sgs35YXmUX8t7BN5bCAYesfrYbAO7TmFcgr2lMSm4pV1SBo93wSrBigS1ohPozJ8LMrVUUDIzcXzA1m9v57CSg1usVtQqNpxJ%2B%2Fnj5byCOR8ET0azcNtOrxMqpLUwnPiev8O5j5%2FyrkInwlBByQh84O81J%2BBxvRXhUH0%2FURKf&X-Amz-Signature=bfdfa4a419192a81d459ccaa8ab4350fa485e7929a5ac16d6bab1bf483522c71&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XG4MSZGN%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T173751Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCl6mMH3iYQSQWXgT5wj88%2BhDqwmAiCcMRX4btZs4o%2BfQIgCmQ6Nh5Cqy7S5JRLWsH6otdzTR6pTUZ7iXyVQ6M8H%2FQq%2FwMIShAAGgw2Mzc0MjMxODM4MDUiDAewL3kw8A0SubwUcSrcA%2FQ7xRad9IU9XPakuAfr9D9K6IVZKcpI0I4PGLBiprcGSxIDTZk%2FQOUbUQ8KcgNkSf5PfDIVNpBRzO5VavX6s5JG28eME0V8J7T%2BcoSbk1tb9NOGdBb6ZwQjaXaUsNJxYnQ%2FjfXK5iYbfQyyZ9DurpQ1YhNxVEayRhnvNNUKJxyYmiy4kax5uN%2FUMD%2B4sEalwjssC3Nq9HWBBv3%2B6K4BzIaZOxDuSLIDW8J6pnwvDy3pWyt%2F4dudOuq2Mv6DswPW9MmB38De0uapUgMIlakr5rAE3gLg3B74aM0%2FFBa2AWUYdHnkm3phXc5qlbhRpeI9nEpVIZny4mWO3oVvhSSLHtdkyIgF5uV2AO79Oz9MpqcmmSPgFdZdyKcm7Nd%2BP9X1nD%2BBq%2Fc70sm02jJlH%2Brtvm97Gyq9hAiZGuKMUL9bQUzzNMAVG%2FP0ld1Kpbvav2Ivq0LPUeoYRSjGDHC88UWKgpnpSPcOHMeFdqC7cuAf64KRhni%2FWexk0yUG8dm%2FuJkoRgRAq1SvGNTZV6mQB2i%2BCUgezXRL8c3NfqbkhK8Iu2Eno7ZtkUY%2F%2BJ%2Bff7X0j7gQYZV5kL95srXcveElG4GiFOe0CzhVWTQVBE51E0N0zYtM793gslcVnumTz1KgMN3ektAGOqUBtYv3bVWuF6UKSgUHgsDcTJ0G7MUNoSSnTcKFDnpM6wC8MGFiUWRmjm3%2F3Wsv5gMH%2FGNuKdqWrT64d2Ja%2B0tscRFtW6EERcWw%2FT9TRVYL%2FO%2Ff%2BT0kDKToCPWM0Xhs%2BixF7UuB2FvwaripBBtCrylQIpCt8uEPggbYcyP%2Fo%2FUccPOfNEoMkFs4qWOhc%2BIwc6fA95yO4rYAy2LaUgNjjdedla5ykSP3&X-Amz-Signature=aff736e09b50d298a13b24928fec57cb437bdf197d62292954a34c5a639df912&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/WEB-LOGICIEL-Check-In-Scan-partie-1-Mapping-envoi-Naxi-G-vers-CiS-3118db15623a81c78ca4f07fb87f2047"
     },
@@ -8158,7 +8158,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA29.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TQAIQ5ZT%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T153343Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEH4aCXVzLXdlc3QtMiJHMEUCIGM%2BjLbhJ1y1d7WCEuGIQZy5OBdDssb6bJhTzRQIIv4WAiEAyvTYea1UWNpwPjV5fVlZjdmQAtP9JL9hP6U59lyRKq0q%2FwMIRxAAGgw2Mzc0MjMxODM4MDUiDACx7L8Gg5q%2Bfoo8TSrcA18A1q0KL%2BbIdddjvqIpN4meiBqia4kBZ7EcfqSd4VFFPKjsCDYrT3zKMotCRnWscGU7RM7vfv1B0NGkYZMKSb2VIzEUVmPjjMC5ifmyi1YcMIbQO4109OtiGksXkC%2BPptc9KQ4nCgkTyjMjD2lx52i6ch7Wf26L4XCx6eqdw8FeMnG45TGBYZpkgcFoCvhLQM3iB3K%2FD%2FsySUqlkP23A9Rv4x9Mc%2BdvT8Fwy%2BdPSbxASU3VKyr7rRhpQVApSMfvfyEgYCAQw33ED0PDLKJm%2FRqhP69iacVfsQjiuMgtTa0BeCU1ktk0fFUbQqx4Hs3eWk4MWMADyNNv4iyg48fwzW9BRmlpu8ShUWg%2Bx8jz8mhNV69BDlEXXgdmh65nWdvyFyHpDQRn2W8Msna7BY85PINq54DmO86m0tA5gt4Tctpvz%2FRwfETZPA8sqavwwP%2FTC8xfl%2Bnw4X5BPE0A%2FDwB1NWesiGkQkNO9I5pTkXDADqxDIJQh3XSsZkXennYYQuaktO5%2BgV3OePPaPZi%2FV3egrBXFkdTdHWtqLFHHSQ69yLLwge%2F2oCUCn4ELrwHAMb86JgTuFisqu%2B82P6YOMUqRaaTU7TnZdJ3wgQ21WCLpEdJhys9OvOh3BPZbRE4MPKKktAGOqUBzKe8iuBNYMj3JSFU%2BNqx%2FKXyhXJWWBLwvFkCTirtuLNndEcK7t7Q%2FVfE1fCTk32HLflaY8R%2BEXcHsa%2B0MM8yvbiV8wWY5rZUeoLj1TCm%2Fu%2B9Qx5Aw0ocNZuAVSdbzlBTVOhIH0xgHXfGl6l5IyzQ7O0tUl%2B9K4dRYTSmONRHacMZqBMDaa10W6W57SgEeCnUxyA%2BNaOxgJ7qhaYog6tvH7ANoU6e&X-Amz-Signature=eac9cb14fbd5285e72276beeb625999c83e79b30399b68dbd4eae21219ba9a81&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46657TBSZZP%2F20260513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260513T173751Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAlbLD3MkLKlw%2BmUGbzfWQYXVl7NptwQKAy89MDhcwUUAiAo19jBO6Tc69GBlON4gMg20gk3PCz4dT2t69tGEvEL9yr%2FAwhKEAAaDDYzNzQyMzE4MzgwNSIMhGrf3GkVuknZ3Jb0KtwDEoUbQpEdqLsEnk8M2OW312AJhddoaOr5%2BT1EYmRn45yUZuzXnD0WEu3QPtOfkiwL3RsRxnFXS1I6W6sHBR6AUEMvcONXduwDkpRJNhcEq%2FExw0mLghaVOvDT9MfLAVB3owiNe8UNTwZhfABzkOvn79BOxxKs9a6DNPjv0nqZdi9el2LCxnQWbBMIET64%2BdiPDY0EnNCGdQi4uhhhPSHMZvsH%2FHB1%2B6REyDq0kcHOKwynqrGFYcGUCg6Wu2usugyy4VBvuxUB6lqRRz8Lk%2BmshUELrNLxzRH07mBxiuYU5H93EKHji1HyY453inOKPtKrUlI7OBLgyY9%2FuJF1xvIImY1utzPSLmL41OwJVS2ouAbnE6yppvIjJfboOxTe0t5nFEYgwr30oxmMcwrgKOGFqTPA%2FO9iVoWW6UUnpHaWgEqVCobnJkg9bQR8jAwzmQfzzZnjKq3Kvxp3D6gHOLaVb6t0y0AUp1ZJS1ZKALOaEilswF5hPE0jlqJUc9W3OPCoiXs3xibhPqBw6NZd97qu46aduZ1TEZszQ3ZW7Ax%2FDNgdeWVN4V2kTMtMpMR%2FfCEy65h%2BXZFO0IiH%2B2sC5DXfAKwCuAhV%2FG1cDIYJ6i1AwnV8XP51IoSe2diZ0Kww1d6S0AY6pgGpstnbStqr0P6mG14UGFboFj6PFy4G1XCJKOtE3Z4MFu2vSEkAv%2F9aUDj29a%2FQYGubBMQJdy18xF%2FTfrV0k6mkfeYfuOGTesfgZ9dENIXAQLaTHKYdBJ4Q%2BcKJ3fFNYrYhq1wt3IMg3aptrppZb05%2FvYSDbpoxouRHcnjLF%2FHwlh5LiXZjAvFMoQRsAhB%2F2XY2Gr7FHbmXQzjzf4uHRxpdV%2FS1buYn&X-Amz-Signature=4dd793ababc3995c9cdea1878c2db857e95cf398393f4ead03bc43447e040011&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-NORME-V19-3118db15623a8078a611ffceac61cd6e"
     },
@@ -9042,7 +9042,7 @@
   "topline": [
     {
       "id": "TP-84",
-      "nom": "Recherche UX / UI Layout général",
+      "nom": null,
       "bloc": null,
       "equipe": null,
       "nbreUS": 0,
@@ -9057,7 +9057,7 @@
         "maquette": 0,
         "back": 0,
         "front": 0,
-        "design": 0.5,
+        "design": 0,
         "test": 0
       },
       "etat": {
@@ -9071,14 +9071,14 @@
         "maquette": [],
         "back": null,
         "front": null,
-        "design": "Cédric.V",
+        "design": null,
         "test": []
       },
       "temps": {
         "maquette": 0,
         "back": 0,
         "front": 0,
-        "design": 2,
+        "design": 0,
         "test": 0
       },
       "lienMaquette": null,
@@ -9089,7 +9089,7 @@
     },
     {
       "id": "TP-83",
-      "nom": "Recherche design modales et panneaux",
+      "nom": null,
       "bloc": null,
       "equipe": null,
       "nbreUS": 0,
@@ -9104,7 +9104,7 @@
         "maquette": 0,
         "back": 0,
         "front": 0,
-        "design": 1,
+        "design": 0,
         "test": 0
       },
       "etat": {
@@ -9118,14 +9118,14 @@
         "maquette": [],
         "back": null,
         "front": null,
-        "design": "Cédric.V",
+        "design": null,
         "test": []
       },
       "temps": {
         "maquette": 0,
         "back": 0,
         "front": 0,
-        "design": 4,
+        "design": 0,
         "test": 0
       },
       "lienMaquette": null,
@@ -9136,8 +9136,8 @@
     },
     {
       "id": "TP-82",
-      "nom": "détails des transactions",
-      "bloc": "HOME",
+      "nom": null,
+      "bloc": null,
       "equipe": null,
       "nbreUS": 1,
       "sprint": {
@@ -9148,34 +9148,30 @@
         "test": "Juillet 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 0.95,
-        "front": 0.2,
-        "design": 0.8,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
+        "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "En cours",
-        "front": "En cours",
+        "maquette": null,
+        "back": null,
+        "front": null,
         "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Jérôme",
-          "Agathe"
-        ],
-        "back": "Denis",
-        "front": "Albert",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 4,
-        "back": 5,
-        "front": 4,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
@@ -9187,9 +9183,9 @@
     },
     {
       "id": "TP-81",
-      "nom": "Remise en banque",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Avril 2026",
@@ -9199,34 +9195,30 @@
         "test": "Juillet 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 0.95,
-        "front": 0.8,
-        "design": 0.8,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
+        "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "En cours",
-        "front": "En cours",
+        "maquette": null,
+        "back": null,
+        "front": null,
         "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Jérôme",
-          "Agathe"
-        ],
-        "back": "Rachid",
-        "front": "Albert",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 9,
+        "maquette": 0,
         "back": 0,
-        "front": 4,
+        "front": 0,
         "design": 0,
         "test": 0
       },
@@ -9238,9 +9230,9 @@
     },
     {
       "id": "TP-80",
-      "nom": "Controle de Caisse",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Avril 2026",
@@ -9250,34 +9242,30 @@
         "test": "Juillet 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 0.95,
-        "front": 0.7,
-        "design": 0.8,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
+        "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "En cours",
-        "front": "En cours",
+        "maquette": null,
+        "back": null,
+        "front": null,
         "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Jérôme",
-          "Agathe"
-        ],
-        "back": "Denis",
-        "front": "Albert",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 9,
-        "back": 5,
-        "front": 4,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
@@ -9289,9 +9277,9 @@
     },
     {
       "id": "TP-79",
-      "nom": "Listing occupation",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Mars 2026",
@@ -9301,34 +9289,30 @@
         "test": "Juin 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 1,
-        "front": 1,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "FAIT",
-        "front": "FAIT",
+        "maquette": null,
+        "back": null,
+        "front": null,
         "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Jérôme",
-          "Agathe"
-        ],
-        "back": "Cédric.F",
-        "front": "Caroline",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 4,
-        "back": 5,
-        "front": 2.5,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
@@ -9340,9 +9324,9 @@
     },
     {
       "id": "TP-78",
-      "nom": "Historiques des ventes",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Avril 2026",
@@ -9352,34 +9336,30 @@
         "test": "Juillet 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 0.85,
-        "front": 0.7,
-        "design": 0.8,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
+        "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "En cours",
-        "front": "En cours",
+        "maquette": null,
+        "back": null,
+        "front": null,
         "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Jérôme",
-          "Agathe"
-        ],
-        "back": "Cédric.F",
-        "front": "Albert",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 7,
-        "back": 13,
-        "front": 2,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
@@ -9391,9 +9371,9 @@
     },
     {
       "id": "TP-77",
-      "nom": "Fiche séjour  - finalisation",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PREPA",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juin 2026",
@@ -9438,9 +9418,9 @@
     },
     {
       "id": "TP-74",
-      "nom": "Modif séjour (justificatif)",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juillet 2026",
@@ -9485,9 +9465,9 @@
     },
     {
       "id": "TP-73",
-      "nom": "Caution + restituer",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juin 2026",
@@ -9532,9 +9512,9 @@
     },
     {
       "id": "TP-72",
-      "nom": "Intervention",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juin 2026",
@@ -9579,9 +9559,9 @@
     },
     {
       "id": "TP-71",
-      "nom": "Cashless (listing, créer, badge)",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juin 2026",
@@ -9626,9 +9606,9 @@
     },
     {
       "id": "TP-70",
-      "nom": "Inventaire",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juin 2026",
@@ -9673,9 +9653,9 @@
     },
     {
       "id": "TP-69",
-      "nom": "Annuler séjour (si paiement)",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juin 2026",
@@ -9720,9 +9700,9 @@
     },
     {
       "id": "TP-68",
-      "nom": "Créer un avoir",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juillet 2026",
@@ -9767,9 +9747,9 @@
     },
     {
       "id": "TP-67",
-      "nom": "Facturer",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juillet 2026",
@@ -9814,9 +9794,9 @@
     },
     {
       "id": "TP-66",
-      "nom": "Contrôle d’accès (ajouter/modifier)",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juillet 2026",
@@ -9861,9 +9841,9 @@
     },
     {
       "id": "TP-65",
-      "nom": "Ajouter / modifier Animaux",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juillet 2026",
@@ -9908,9 +9888,9 @@
     },
     {
       "id": "TP-64",
-      "nom": "Ajouter / modifier Immat voiture",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juin 2026",
@@ -9955,9 +9935,9 @@
     },
     {
       "id": "TP-63",
-      "nom": "Scan PI",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juin 2026",
@@ -10002,9 +9982,9 @@
     },
     {
       "id": "TP-62",
-      "nom": "Afficher tous les participants",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juin 2026",
@@ -10049,9 +10029,9 @@
     },
     {
       "id": "TP-61",
-      "nom": "FS - Paiement",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Mai 2026",
@@ -10096,9 +10076,9 @@
     },
     {
       "id": "TP-58",
-      "nom": "FS - Grille Suppl.",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juin 2026",
@@ -10143,9 +10123,9 @@
     },
     {
       "id": "TP-56",
-      "nom": "FS - Ajouter Remise",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juin 2026",
@@ -10190,9 +10170,9 @@
     },
     {
       "id": "TP-54",
-      "nom": "Créer compte FID",
-      "bloc": "FICHE CLIENT",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Mai 2026",
@@ -10218,7 +10198,7 @@
       "pers": {
         "maquette": [],
         "back": null,
-        "front": "Sylvain",
+        "front": null,
         "design": null,
         "test": []
       },
@@ -10237,9 +10217,9 @@
     },
     {
       "id": "TP-50",
-      "nom": "GESTION MAILS - Finalisation",
-      "bloc": "GESTION MAILS",
-      "equipe": "Equipe PREPA",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juillet 2026",
@@ -10284,9 +10264,9 @@
     },
     {
       "id": "TP-49",
-      "nom": "PLANNING - finalisation",
-      "bloc": "PLANNING",
-      "equipe": "Equipe PREPA",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Mai 2026",
@@ -10312,7 +10292,7 @@
       "pers": {
         "maquette": [],
         "back": null,
-        "front": "Albert",
+        "front": null,
         "design": null,
         "test": []
       },
@@ -10331,9 +10311,9 @@
     },
     {
       "id": "TP-40",
-      "nom": "FS - Ajouter Supplément",
-      "bloc": "FICHE SEJOUR",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juin 2026",
@@ -10378,9 +10358,9 @@
     },
     {
       "id": "TP-38",
-      "nom": "DEVIS - finalisation",
-      "bloc": "PRE-RESERVATION (Devis)",
-      "equipe": "Equipe PREPA",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juillet 2026",
@@ -10425,9 +10405,9 @@
     },
     {
       "id": "TP-34",
-      "nom": "Prolonger devis",
-      "bloc": "PRE-RESERVATION (Devis)",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juillet 2026",
@@ -10472,9 +10452,9 @@
     },
     {
       "id": "TP-33",
-      "nom": "Gestion des devis",
-      "bloc": "PRE-RESERVATION (Devis)",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juillet 2026",
@@ -10519,9 +10499,9 @@
     },
     {
       "id": "TP-32",
-      "nom": "Devis - détails des calculs",
-      "bloc": "PRE-RESERVATION (Devis)",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juillet 2026",
@@ -10566,9 +10546,9 @@
     },
     {
       "id": "TP-31",
-      "nom": "Planning - rech dispo",
-      "bloc": "PLANNING",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Mai 2026",
@@ -10578,14 +10558,14 @@
         "test": "Juillet 2026"
       },
       "avancement": {
-        "maquette": 0.75,
+        "maquette": 0,
         "back": 0,
         "front": 0,
         "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "En cours",
+        "maquette": null,
         "back": null,
         "front": null,
         "design": null,
@@ -10593,7 +10573,7 @@
       },
       "pers": {
         "maquette": [],
-        "back": "Loic",
+        "back": null,
         "front": null,
         "design": null,
         "test": []
@@ -10613,9 +10593,9 @@
     },
     {
       "id": "TP-30",
-      "nom": "VENTES HORS SEJOUR - Finalisation",
-      "bloc": "VENTES HORS SEJOUR",
-      "equipe": "Equipe PREPA",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juillet 2026",
@@ -10660,9 +10640,9 @@
     },
     {
       "id": "TP-29",
-      "nom": "Envoi mails + template auto + gestion pièces jointes",
-      "bloc": "GESTION MAILS",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juillet 2026",
@@ -10707,9 +10687,9 @@
     },
     {
       "id": "TP-28",
-      "nom": "Report solde",
-      "bloc": "FICHE CLIENT",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Mai 2026",
@@ -10754,9 +10734,9 @@
     },
     {
       "id": "TP-27",
-      "nom": "Duplication séjours",
-      "bloc": "FICHE CLIENT",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Mai 2026",
@@ -10801,9 +10781,9 @@
     },
     {
       "id": "TP-26",
-      "nom": "Docs clients",
-      "bloc": "FICHE CLIENT",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Mai 2026",
@@ -10848,9 +10828,9 @@
     },
     {
       "id": "TP-25",
-      "nom": "Alertes (to do list)",
-      "bloc": "FICHE CLIENT",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Mai 2026",
@@ -10895,9 +10875,9 @@
     },
     {
       "id": "TP-24",
-      "nom": "CRM",
-      "bloc": "FICHE CLIENT",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Mai 2026",
@@ -10942,9 +10922,9 @@
     },
     {
       "id": "TP-23",
-      "nom": "Voir les participants",
-      "bloc": "FICHE CLIENT",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Mai 2026",
@@ -10989,9 +10969,9 @@
     },
     {
       "id": "TP-22",
-      "nom": "FICHE CLIENT - Finalisation",
-      "bloc": "FICHE CLIENT",
-      "equipe": "Equipe PREPA",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Juillet 2026",
@@ -11036,9 +11016,9 @@
     },
     {
       "id": "TP-21",
-      "nom": "Traitement auto",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Juillet 2026",
@@ -11048,7 +11028,7 @@
         "test": "Octobre 2026"
       },
       "avancement": {
-        "maquette": 1,
+        "maquette": 0,
         "back": 0,
         "front": 0,
         "design": 0,
@@ -11083,9 +11063,9 @@
     },
     {
       "id": "TP-20",
-      "nom": "Télémaintenance",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Mars 2026",
@@ -11095,35 +11075,31 @@
         "test": "Juin 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 1,
-        "front": 1,
-        "design": 0.8,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
+        "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "FAIT",
-        "front": "FAIT",
+        "maquette": null,
+        "back": null,
+        "front": null,
         "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Agathe",
-          "Jérôme"
-        ],
-        "back": "Loic",
-        "front": "Ines",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 5,
-        "back": 4,
-        "front": 5,
-        "design": 1,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
+        "design": 0,
         "test": 0
       },
       "lienMaquette": "https://hide-retina-26594246.figma.site",
@@ -11134,9 +11110,9 @@
     },
     {
       "id": "TP-19",
-      "nom": "Ventes réception",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Avril 2026",
@@ -11146,34 +11122,30 @@
         "test": "Juillet 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 0.7,
-        "front": 0.55,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "En cours",
-        "front": "En cours",
+        "maquette": null,
+        "back": null,
+        "front": null,
         "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Jérôme",
-          "Agathe"
-        ],
-        "back": "Loic",
-        "front": "Caroline",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 6,
-        "back": 3,
-        "front": 6,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
@@ -11185,9 +11157,9 @@
     },
     {
       "id": "TP-17",
-      "nom": "Recherche client",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Mars 2026",
@@ -11197,34 +11169,30 @@
         "test": "Juin 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 1,
-        "front": 1,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "FAIT",
-        "front": "FAIT",
+        "maquette": null,
+        "back": null,
+        "front": null,
         "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Agathe",
-          "Jérôme"
-        ],
-        "back": "Cédric.F",
-        "front": "Sylvain",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 7,
-        "back": 7,
-        "front": 15,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
@@ -11236,9 +11204,9 @@
     },
     {
       "id": "TP-16",
-      "nom": "Recherche dispo",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Mars 2026",
@@ -11248,34 +11216,30 @@
         "test": "Juin 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 1,
-        "front": 1,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "FAIT",
-        "front": "FAIT",
+        "maquette": null,
+        "back": null,
+        "front": null,
         "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Agathe",
-          "Jérôme"
-        ],
-        "back": "Cédric.F",
-        "front": "Ines",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 8,
-        "back": 8,
-        "front": 15,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
@@ -11287,9 +11251,9 @@
     },
     {
       "id": "TP-15",
-      "nom": "Listing indispo",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Avril 2026",
@@ -11299,34 +11263,30 @@
         "test": "Juin 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 0.95,
-        "front": 0.97,
-        "design": 0.9,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
+        "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "En cours",
-        "front": "En cours",
+        "maquette": null,
+        "back": null,
+        "front": null,
         "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Jérôme",
-          "Agathe"
-        ],
-        "back": "Cédric.F",
-        "front": "Sylvain",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 5,
-        "back": 6,
-        "front": 23,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
@@ -11338,9 +11298,9 @@
     },
     {
       "id": "TP-13",
-      "nom": "Liste des cautions",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Avril 2026",
@@ -11350,35 +11310,31 @@
         "test": "Juin 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 1,
-        "front": 0.85,
-        "design": 0.9,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
+        "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "FAIT",
-        "front": "En cours",
+        "maquette": null,
+        "back": null,
+        "front": null,
         "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Jérôme",
-          "Agathe"
-        ],
-        "back": "Loic",
-        "front": "Ines",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 5,
-        "back": 4,
-        "front": 4.5,
-        "design": 3,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
+        "design": 0,
         "test": 0
       },
       "lienMaquette": "https://naxigestionfront-prepa.vercel.app/",
@@ -11389,9 +11345,9 @@
     },
     {
       "id": "TP-11",
-      "nom": "Planning sup. numéroté",
-      "bloc": "PLANNING",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Mai 2026",
@@ -11401,14 +11357,14 @@
         "test": "Aout 2026"
       },
       "avancement": {
-        "maquette": 0.75,
+        "maquette": 0,
         "back": 0,
         "front": 0,
         "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "En cours",
+        "maquette": null,
         "back": null,
         "front": null,
         "design": null,
@@ -11436,9 +11392,9 @@
     },
     {
       "id": "TP-10",
-      "nom": "Rech dispo plan camping",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Avril 2026",
@@ -11448,34 +11404,30 @@
         "test": "Juin 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 1,
-        "front": 0.99,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "FAIT",
-        "front": "En cours",
+        "maquette": null,
+        "back": null,
+        "front": null,
         "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Jérôme",
-          "Agathe"
-        ],
-        "back": "Denis",
-        "front": "Ines",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 9,
-        "back": 5,
-        "front": 17,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
@@ -11487,9 +11439,9 @@
     },
     {
       "id": "TP-9",
-      "nom": "Controle d’accès",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Mars 2026",
@@ -11499,34 +11451,30 @@
         "test": "Juin 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 1,
-        "front": 1,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "FAIT",
-        "front": "FAIT",
+        "maquette": null,
+        "back": null,
+        "front": null,
         "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Jérôme",
-          "Agathe"
-        ],
-        "back": "Loic",
-        "front": "Caroline",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 6,
-        "back": 3,
-        "front": 3,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
         "design": 0,
         "test": 0
       },
@@ -11538,9 +11486,9 @@
     },
     {
       "id": "TP-7",
-      "nom": "Réservation Web",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Mai 2026",
@@ -11550,14 +11498,14 @@
         "test": "Aout 2026"
       },
       "avancement": {
-        "maquette": 0.5,
-        "back": 0.3,
+        "maquette": 0,
+        "back": 0,
         "front": 0,
         "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "En cours",
+        "maquette": null,
         "back": null,
         "front": null,
         "design": null,
@@ -11565,8 +11513,8 @@
       },
       "pers": {
         "maquette": [],
-        "back": "Cédric.F",
-        "front": "Albert",
+        "back": null,
+        "front": null,
         "design": null,
         "test": []
       },
@@ -11585,9 +11533,9 @@
     },
     {
       "id": "TP-6",
-      "nom": "Listing réservation",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Mars 2026",
@@ -11597,35 +11545,31 @@
         "test": "Juin 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 0.99,
-        "front": 0.9990000000000001,
-        "design": 1,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
+        "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "FAIT",
-        "front": "FAIT",
-        "design": "FAIT",
+        "maquette": null,
+        "back": null,
+        "front": null,
+        "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Agathe",
-          "Jérôme"
-        ],
-        "back": "Loic",
-        "front": "Albert",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 11,
-        "back": 4,
-        "front": 6,
-        "design": 2,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
+        "design": 0,
         "test": 0
       },
       "lienMaquette": "https://short-mop-16350499.figma.site",
@@ -11636,9 +11580,9 @@
     },
     {
       "id": "TP-5",
-      "nom": "Listing séjours",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Mars 2026",
@@ -11648,35 +11592,31 @@
         "test": "Juin 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 0.99,
-        "front": 0.9990000000000001,
-        "design": 1,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
+        "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "FAIT",
-        "front": "FAIT",
-        "design": "FAIT",
+        "maquette": null,
+        "back": null,
+        "front": null,
+        "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Agathe",
-          "Jérôme"
-        ],
-        "back": "Loic",
-        "front": "Albert",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 8,
-        "back": 4,
-        "front": 1.5,
-        "design": 2,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
+        "design": 0,
         "test": 0
       },
       "lienMaquette": "https://flick-royal-89410119.figma.site",
@@ -11687,9 +11627,9 @@
     },
     {
       "id": "TP-3",
-      "nom": "HOME - Dasboard - Finalisation",
-      "bloc": "HOME",
-      "equipe": "Equipe PREPA",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Mai 2026",
@@ -11699,14 +11639,14 @@
         "test": "Juillet 2026"
       },
       "avancement": {
-        "maquette": 0.3,
+        "maquette": 0,
         "back": 0,
         "front": 0,
         "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "En cours",
+        "maquette": null,
         "back": null,
         "front": null,
         "design": null,
@@ -11734,9 +11674,9 @@
     },
     {
       "id": "TP-2",
-      "nom": "HOME - Menu Burger - Finalisation",
-      "bloc": "HOME",
-      "equipe": "Equipe PREPA",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 0,
       "sprint": {
         "maquette": "Mai 2026",
@@ -11746,14 +11686,14 @@
         "test": "Juillet 2026"
       },
       "avancement": {
-        "maquette": 0.3,
+        "maquette": 0,
         "back": 0,
         "front": 0,
         "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "En cours",
+        "maquette": null,
         "back": null,
         "front": null,
         "design": null,
@@ -11781,9 +11721,9 @@
     },
     {
       "id": "TP-1",
-      "nom": "Page de connexion",
-      "bloc": "HOME",
-      "equipe": "Equipe PROD",
+      "nom": null,
+      "bloc": null,
+      "equipe": null,
       "nbreUS": 1,
       "sprint": {
         "maquette": "Mars 2026",
@@ -11793,35 +11733,31 @@
         "test": "Juin 2026"
       },
       "avancement": {
-        "maquette": 1,
-        "back": 1,
-        "front": 1,
-        "design": 1,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
+        "design": 0,
         "test": 0
       },
       "etat": {
-        "maquette": "FAIT",
-        "back": "FAIT",
-        "front": "FAIT",
-        "design": "FAIT",
+        "maquette": null,
+        "back": null,
+        "front": null,
+        "design": null,
         "test": null
       },
       "pers": {
-        "maquette": [
-          "Albert",
-          "Agathe",
-          "Jérôme"
-        ],
-        "back": "Loic",
-        "front": "Caroline",
-        "design": "Cédric.V",
+        "maquette": [],
+        "back": null,
+        "front": null,
+        "design": null,
         "test": []
       },
       "temps": {
-        "maquette": 2,
-        "back": 2,
-        "front": 2,
-        "design": 3,
+        "maquette": 0,
+        "back": 0,
+        "front": 0,
+        "design": 0,
         "test": 0
       },
       "lienMaquette": "https://embed-salon-34129728.figma.site",
