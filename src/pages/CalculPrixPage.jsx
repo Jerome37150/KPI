@@ -1,8 +1,8 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import {
-  Calculator, Layers, Globe, Server, Search,
+  Calculator, Layers, Globe, Server,
   Tag, Percent, Receipt, Banknote, Coins, ShieldCheck,
-  ArrowDownRight, ArrowRight, ChevronRight,
+  ArrowDownRight, Table as TableIcon,
 } from 'lucide-react';
 import { C, RADIUS, SHADOW } from '../styles/theme';
 import { Card } from '../components/primitives/Card';
@@ -19,76 +19,60 @@ const PRICING_MODULES = ['M02','M03','M06','M07','M08','M10','M13','M14','M15','
 const SOL_PMS = 'Inaxel (PMS)';
 const SOL_CRS = 'C tout Vert (CRS)';
 
+// ── Canaux clients : online / offline B2C / offline B2B / POS ───────────
+const CHANNELS = {
+  DIRECT:   { label: 'Direct site',    color: '#10b981', kind: 'online' },
+  OTA:      { label: 'OTA',            color: '#3b82f6', kind: 'online' },
+  WALKIN:   { label: 'Walk-in / Tél',  color: '#64748b', kind: 'offline-b2c' },
+  TO:       { label: 'TO / Agence',    color: '#8b5cf6', kind: 'offline-b2b' },
+  CE:       { label: 'CE / Collec.',   color: '#ec4899', kind: 'offline-b2b' },
+  RESIDENT: { label: 'Résident',       color: '#f59e0b', kind: 'offline-b2b' },
+  POS:      { label: 'POS sur place',  color: '#dc2626', kind: 'offline-pos' },
+};
+
+const ALL_CHANNELS    = Object.keys(CHANNELS);
+const BOOKING_CHANNELS = ['DIRECT','OTA','WALKIN','TO','CE','RESIDENT']; // hors POS
+
 // ── Pipeline de calcul prix : étapes ordonnées ───────────────────────────
 const PIPELINE = [
-  {
-    step: 1, color: C.orange,
-    title: "Tarif de base",
+  { step: 1, color: C.orange, title: "Tarif de base",
     formula: "Σ (nuits × tarif_jour × catégorie_hébergement)",
     source: "M27 · Tables de prix",
-    detail: "Grille tarifaire par hébergement × période × jour. Modulée par les règles enfants/adultes, le minimum/maximum de séjour, le supplément personne au-delà de la capacité standard.",
-  },
-  {
-    step: 2, color: C.blue,
-    title: "Compléments tarifaires",
+    detail: "Grille tarifaire par hébergement × période × jour. Modulée par les règles enfants/adultes, le minimum/maximum de séjour, le supplément personne au-delà de la capacité standard." },
+  { step: 2, color: C.blue, title: "Compléments tarifaires",
     formula: "+ Σ (suppléments × quantité × nuits)",
     source: "M27 · Suppléments tarifaires · M03 · Grille des suppléments",
-    detail: "Réfrigérateur, draps, animal, véhicule supplémentaire, raccordement, etc. Catalogue maintenu en M12 (suppléments / matériel) + grille M03 spécifique au séjour.",
-  },
-  {
-    step: 3, color: C.purple,
-    title: "Pricing dynamique (yield)",
+    detail: "Réfrigérateur, draps, animal, véhicule supplémentaire, raccordement, etc. Catalogue maintenu en M12 (suppléments / matériel) + grille M03 spécifique au séjour." },
+  { step: 3, color: C.purple, title: "Pricing dynamique (yield)",
     formula: "× (1 + facteur_occupation + facteur_canal)",
     source: "M10 · CRS",
-    detail: "Le CRS module le prix selon le taux d'occupation, le segment client (Direct / OTA / TO / CE) et la durée de séjour (early-booking / last-minute). Hors CRS, le tarif reste celui de la grille de base.",
-  },
-  {
-    step: 4, color: C.amber,
-    title: "Promotions & codes promo",
+    detail: "Le CRS module le prix selon le taux d'occupation, le segment client (Direct / OTA / TO / CE) et la durée de séjour (early-booking / last-minute). Hors CRS, le tarif reste celui de la grille de base." },
+  { step: 4, color: C.amber, title: "Promotions & codes promo",
     formula: "− Σ (réductions %) ou − Σ (montants €)",
     source: "M10 · Promotions · Codes promo",
-    detail: "Une promotion peut être saisonnière, basée sur un canal, conditionnée à un code, ou auto-déclenchée (last-minute, early-booking). Cumul ou exclusion selon le paramétrage.",
-  },
-  {
-    step: 5, color: C.green,
-    title: "Tarifs négociés B2B",
+    detail: "Une promotion peut être saisonnière, basée sur un canal, conditionnée à un code, ou auto-déclenchée (last-minute, early-booking). Cumul ou exclusion selon le paramétrage." },
+  { step: 5, color: C.green, title: "Tarifs négociés B2B",
     formula: "OU remplace le tarif base si TO/CE/Résident",
     source: "M06 · Grilles tarifaires TO · M07 · Tarifs négociés CE · M08 · Contrat résident",
-    detail: "Si le séjour est rattaché à un partenaire B2B, on applique la grille négociée du contrat. Plafonds et subventions CE sont gérés séparément (M07 · Plafonds & subventions CE).",
-  },
-  {
-    step: 6, color: C.red,
-    title: "Taxe de séjour",
+    detail: "Si le séjour est rattaché à un partenaire B2B, on applique la grille négociée du contrat. Plafonds et subventions CE sont gérés séparément (M07 · Plafonds & subventions CE)." },
+  { step: 6, color: C.red, title: "Taxe de séjour",
     formula: "+ (adultes × nuits × tarif_commune)",
     source: "M17 · Taxe de séjour · Calcul automatique sur séjour",
-    detail: "Calcul automatique selon la configuration communale, exemptions (enfants, étudiants, etc.). Déclaration EDIFICT vers la commune.",
-  },
-  {
-    step: 7, color: C.inkSoft,
-    title: "TVA",
+    detail: "Calcul automatique selon la configuration communale, exemptions (enfants, étudiants, etc.). Déclaration EDIFICT vers la commune." },
+  { step: 7, color: C.inkSoft, title: "TVA",
     formula: "+ TVA (intégrée ou séparée)",
     source: "M27 · Multi-TVA · Taxes intégrées vs séparées",
-    detail: "Multi-taux selon la nature de la ligne (hébergement, restauration, vente boutique, ménage, etc.). Affichage TTC ou HT+TVA selon le paramètre établissement.",
-  },
-  {
-    step: 8, color: C.orange,
-    title: "Arrondis & présentation",
+    detail: "Multi-taux selon la nature de la ligne (hébergement, restauration, vente boutique, ménage, etc.). Affichage TTC ou HT+TVA selon le paramètre établissement." },
+  { step: 8, color: C.orange, title: "Arrondis & présentation",
     formula: "→ ROUND (selon règle M27)",
     source: "M27 · Arrondis",
-    detail: "Arrondi à 0,01 € / 0,05 € / 0,10 € / 1 € selon le segment et la stratégie commerciale. Cohérent avec l'affichage public (CRS) et l'édition devis (PMS).",
-  },
+    detail: "Arrondi à 0,01 € / 0,05 € / 0,10 € / 1 € selon le segment et la stratégie commerciale. Cohérent avec l'affichage public (CRS) et l'édition devis (PMS)." },
 ];
 
-// ── Sections fonctionnelles (regroupement de modules) ────────────────────
+// ── Sections fonctionnelles ─────────────────────────────────────────────
 const SECTIONS = [
-  {
-    key: 'parametres',
-    title: 'Référentiels tarifaires',
-    sub: 'Paramètres saisonniers — fondations du calcul',
-    color: C.orange,
-    icon: Layers,
-    modules: ['M27'],
-    notes: [
+  { key:'parametres', title:'Référentiels tarifaires', sub:'Paramètres saisonniers — fondations du calcul', color:C.orange, icon:Layers, modules:['M27'],
+    notes:[
       "Tables de prix : grille par hébergement × période × type clientèle (base saison).",
       "Multi-TVA : taux différenciés hébergement / restauration / boutique / location.",
       "Suppléments tarifaires : catalogue tarif unitaire applicable au séjour.",
@@ -99,16 +83,9 @@ const SECTIONS = [
       "Délai de paiement : J-X avant arrivée pour le solde.",
       "Arrondis : règle d'arrondi final (centime, 5 cts, euro).",
       "Taxes intégrées vs séparées : affichage prix TTC ou HT+TVA.",
-    ],
-  },
-  {
-    key: 'rm',
-    title: 'Pricing dynamique & promotions',
-    sub: 'Revenue management côté CRS en ligne',
-    color: C.purple,
-    icon: Percent,
-    modules: ['M10'],
-    notes: [
+    ] },
+  { key:'rm', title:'Pricing dynamique & promotions', sub:'Revenue management côté CRS en ligne', color:C.purple, icon:Percent, modules:['M10'],
+    notes:[
       "Vue d'ensemble tarifs actifs : visu calendaire des prix appliqués par hébergement.",
       "Simulateur de prix : calcule le prix d'un séjour fictif (pré-conversion).",
       "Yield management : moteur RM automatique (algorithme d'optimisation revenue).",
@@ -122,16 +99,9 @@ const SECTIONS = [
       "Restrictions par canal : stop-sell ciblé OTA / canaux directs.",
       "Surclassement automatique : règle d'upgrade catégorie selon dispo.",
       "Comparatif vs N-1 : pilotage saison vs année précédente.",
-    ],
-  },
-  {
-    key: 'b2b',
-    title: 'Tarification B2B',
-    sub: 'Partenaires commerciaux : TO, CE, résidents',
-    color: C.blue,
-    icon: Tag,
-    modules: ['M06', 'M07', 'M08'],
-    notes: [
+    ] },
+  { key:'b2b', title:'Tarification B2B', sub:'Partenaires commerciaux : TO, CE, résidents', color:C.blue, icon:Tag, modules:['M06','M07','M08'],
+    notes:[
       "Grilles tarifaires TO : prix négociés par tour-opérateur (rétrocession, vouchers).",
       "Conditions commerciales TO : commission, délais d'annulation, allotements.",
       "Tarifs négociés CE : barème CE + plafonds & subventions partielles.",
@@ -139,16 +109,9 @@ const SECTIONS = [
       "Contrats résidents (longue durée) : bail, loyer, charges, refacturation conso.",
       "Échéancier de paiement résident : facturation mensuelle automatique.",
       "Rapport de production par TO / CE : volume négocié × tarif × commission.",
-    ],
-  },
-  {
-    key: 'devis',
-    title: 'Devis & séjour : application du prix',
-    sub: 'Du devis prévisionnel au prix final facturé',
-    color: C.green,
-    icon: Calculator,
-    modules: ['M02', 'M03'],
-    notes: [
+    ] },
+  { key:'devis', title:'Devis & séjour : application du prix', sub:'Du devis prévisionnel au prix final facturé', color:C.green, icon:Calculator, modules:['M02','M03'],
+    notes:[
       "Création devis → Détail des calculs devis : pipeline complet visible client.",
       "Édition PDF + envoi devis : document commercial avec ventilation lignes prix.",
       "Conversion devis → option / réservation ferme : option = bloque dispo avec deadline.",
@@ -160,32 +123,18 @@ const SECTIONS = [
       "Annulation séjour avec paiement : application des conditions tarifaires d'annulation.",
       "Transfert de séjour : changement d'emplacement → recalcul si grille différente.",
       "No-show : facturation selon règle no-show paramétrée.",
-    ],
-  },
-  {
-    key: 'pos',
-    title: 'Ventes réception (POS)',
-    sub: 'Boutique, restauration, prestations annexes',
-    color: C.amber,
-    icon: Receipt,
-    modules: ['M18'],
-    notes: [
+    ] },
+  { key:'pos', title:'Ventes réception (POS)', sub:'Boutique, restauration, prestations annexes', color:C.amber, icon:Receipt, modules:['M18'],
+    notes:[
       "Ventes rapides : caisse type POS, articles fréquents en accès direct.",
       "Sélection articles + Panier : prix article × quantité, TVA par article.",
       "Encaissement : multi-règlement (espèces, CB, chèque, cashless, espace client).",
       "Affecter vente à un séjour : ajoute la ligne au compte séjour (facturation finale).",
       "Vente hors séjour : ticket autonome (passant, client occasionnel).",
       "Annulation / remboursement de vente : avoir si déjà facturé.",
-    ],
-  },
-  {
-    key: 'encaissement',
-    title: 'Encaissement & cautions',
-    sub: 'Flux de règlement (acompte, solde, partiel, en ligne)',
-    color: C.orange,
-    icon: Banknote,
-    modules: ['M13', 'M14', 'M15'],
-    notes: [
+    ] },
+  { key:'encaissement', title:'Encaissement & cautions', sub:'Flux de règlement (acompte, solde, partiel, en ligne)', color:C.orange, icon:Banknote, modules:['M13','M14','M15'],
+    notes:[
       "Saisie paiement / Paiements partiels : un séjour peut avoir N paiements.",
       "Échéancier de paiement : acompte à la résa + solde à J-X.",
       "Paiements en ligne (espace client + web booking) : interface PSP intégrée.",
@@ -195,16 +144,9 @@ const SECTIONS = [
       "Caisse : ouverture / fermeture quotidienne, multi-caisses, transferts.",
       "Remises en banque : bordereau, contrôle de caisse.",
       "Cautions : empreinte CB, prise, restitution, partielle, litiges & retenues.",
-    ],
-  },
-  {
-    key: 'facturation',
-    title: 'Facturation',
-    sub: 'Documents légaux et numérotation',
-    color: C.red,
-    icon: Receipt,
-    modules: ['M16'],
-    notes: [
+    ] },
+  { key:'facturation', title:'Facturation', sub:'Documents légaux et numérotation', color:C.red, icon:Receipt, modules:['M16'],
+    notes:[
       "Facture d'acompte : émise dès le 1er encaissement.",
       "Facture finale : ventile l'intégralité du séjour à la sortie.",
       "Facture résident : facturation mensuelle automatique (M08).",
@@ -213,31 +155,257 @@ const SECTIONS = [
       "Avoirs & rectifications : annulation comptable, rectification a posteriori.",
       "Facturier : numérotation chronologique séquentielle (obligation légale).",
       "Réimpression / duplicata : copie conforme avec mention duplicata.",
-    ],
-  },
-  {
-    key: 'taxes',
-    title: 'Taxes & fiscalité',
-    sub: 'Taxe de séjour, TVA, exports comptables',
-    color: C.inkSoft,
-    icon: ShieldCheck,
-    modules: ['M17'],
-    notes: [
+    ] },
+  { key:'taxes', title:'Taxes & fiscalité', sub:'Taxe de séjour, TVA, exports comptables', color:C.inkSoft, icon:ShieldCheck, modules:['M17'],
+    notes:[
       "Configuration taxe de séjour : par commune, tarif par catégorie, exemptions.",
       "Calcul automatique sur séjour : (adultes éligibles × nuits × tarif).",
       "États de taxe de séjour + Déclaration EDIFICT : envoi mensuel commune.",
       "États TVA / Journal TVA détaillé : ventilation par taux pour comptable.",
       "Exports comptables : FEC, journal des ventes, journaux fiscaux.",
       "Archivage légal : conservation 10 ans (factures, tickets, journaux).",
-    ],
-  },
+    ] },
 ];
+
+// ── Tableau exhaustif : éléments du calcul prix ─────────────────────────
+// Chaque ligne = un élément facturable / variable de calcul.
+// Colonnes : Catégorie · Élément · Variables d'entrée · Composants tarif/taxe · Canaux applicables · Module
+const PRICING_ELEMENTS = [
+  // === HÉBERGEMENT ===
+  { catg:'Hébergement', catgColor:C.blue, item:'Locatif (nuit)',
+    desc:'Tarif principal de l\'hébergement à la nuit',
+    vars:['Dates arrivée/départ','Nb nuits','Hébergement','Catégorie','Adultes','Enfants','Capacité standard'],
+    prices:['Tarif jour (grille)','Suppl. personne au-delà capacité','Règle enfants/adultes','TVA 10%'],
+    channels:BOOKING_CHANNELS, module:'M27/M03' },
+  { catg:'Hébergement', catgColor:C.blue, item:'Forfait long séjour',
+    desc:'Tarif dégressif semaine / quinzaine / mois',
+    vars:['Durée totale','Hébergement','Période','Type contrat'],
+    prices:['Barème durée (M27)','Forfait mensuel','Charges incluses ou non','TVA 10%'],
+    channels:['WALKIN','RESIDENT'], module:'M27/M08' },
+  { catg:'Hébergement', catgColor:C.blue, item:'Allotement / contingent',
+    desc:'Inventaire pré-réservé pour un TO ou CE',
+    vars:['Partenaire (TO/CE)','Période','Nb unités allouées','Date de rétrocession'],
+    prices:['Grille négociée du contrat','Commission TO (%)','TVA 10%'],
+    channels:['TO','CE'], module:'M06/M07' },
+  { catg:'Hébergement', catgColor:C.blue, item:'Loyer résidentiel mensuel',
+    desc:'Facturation mensuelle d\'un résident long terme',
+    vars:['Bail','Hébergement','Mois facturé','Index révision'],
+    prices:['Loyer base','Provisions charges','Taxes locatives','TVA selon régime'],
+    channels:['RESIDENT'], module:'M08' },
+
+  // === COMPLÉMENTS TARIFAIRES ===
+  { catg:'Suppléments', catgColor:C.amber, item:'Personne supplémentaire',
+    desc:'Au-delà de la capacité standard de l\'hébergement',
+    vars:['Nb pers. supp','Adulte ou enfant','Nuits'],
+    prices:['Tarif/pers/nuit (M27)','Règle enfants (gratuité, demi-tarif)','TVA 10%'],
+    channels:BOOKING_CHANNELS, module:'M27/M03' },
+  { catg:'Suppléments', catgColor:C.amber, item:'Animal',
+    desc:'Chien/chat — forfait séjour ou par nuit',
+    vars:['Nb animaux','Espèce','Nuits'],
+    prices:['Tarif forfait ou nuit','TVA 10%'],
+    channels:BOOKING_CHANNELS, module:'M03' },
+  { catg:'Suppléments', catgColor:C.amber, item:'Véhicule supplémentaire',
+    desc:'2e voiture, camping-car, remorque',
+    vars:['Type véhicule','Immatriculation','Nuits'],
+    prices:['Tarif/véhicule/nuit','TVA 10%'],
+    channels:BOOKING_CHANNELS, module:'M03' },
+  { catg:'Suppléments', catgColor:C.amber, item:'Linge / kit ménage',
+    desc:'Draps, serviettes, ménage de sortie',
+    vars:['Nb kits','Type prestation','Personnes'],
+    prices:['Tarif unitaire','TVA 20%'],
+    channels:BOOKING_CHANNELS, module:'M03' },
+  { catg:'Suppléments', catgColor:C.amber, item:'Électricité / fluides',
+    desc:'Forfait ou consommation réelle au compteur',
+    vars:['Type forfait / relevé compteur','Période','kWh / m³'],
+    prices:['Forfait quotidien ou tarif unitaire','Abonnement','TVA 20%'],
+    channels:['WALKIN','TO','CE','RESIDENT'], module:'M03/M08' },
+  { catg:'Suppléments', catgColor:C.amber, item:'Climatisation / chauffage',
+    desc:'Option payante selon saison',
+    vars:['Nuits','Saison'],
+    prices:['Tarif/nuit','TVA 20%'],
+    channels:BOOKING_CHANNELS, module:'M27' },
+  { catg:'Suppléments', catgColor:C.amber, item:'Cashless / bracelet',
+    desc:'Bracelet RFID rechargeable du séjour',
+    vars:['Nb bracelets','Type','Montant chargé'],
+    prices:['Caution bracelet','Crédit initial','Recharges (POS)'],
+    channels:BOOKING_CHANNELS, module:'M03' },
+
+  // === PRESTATIONS POS / VENTES RÉCEPTION ===
+  { catg:'POS (sur place)', catgColor:'#dc2626', item:'Vente boutique',
+    desc:'Articles épicerie, souvenirs, équipement',
+    vars:['Article','Quantité','Séjour rattaché ou ticket libre'],
+    prices:['Prix unitaire catalogue','Remise éventuelle','TVA 20% / 5,5% (alim.)'],
+    channels:['POS'], module:'M18' },
+  { catg:'POS (sur place)', catgColor:'#dc2626', item:'Restauration / bar',
+    desc:'Repas, boissons, snacks au restaurant ou bar',
+    vars:['Carte','Quantité','Table/Séjour'],
+    prices:['Prix carte','Happy hour','Menu fixe','TVA 10% (sur place) / 5,5% (à emporter)'],
+    channels:['POS'], module:'M18' },
+  { catg:'POS (sur place)', catgColor:'#dc2626', item:'Prestations annexes',
+    desc:'Excursions, animations payantes, location matériel',
+    vars:['Prestation','Nb pers','Date'],
+    prices:['Tarif fixe','TVA 10% / 20%'],
+    channels:['POS'], module:'M18' },
+  { catg:'POS (sur place)', catgColor:'#dc2626', item:'Demi/pension complète',
+    desc:'Forfait restauration adossé au séjour',
+    vars:['Nuits','Nb adultes','Nb enfants','Formule'],
+    prices:['Forfait/pers/jour','TVA 10%'],
+    channels:BOOKING_CHANNELS, module:'M03/M18' },
+  { catg:'POS (sur place)', catgColor:'#dc2626', item:'Pré-commande pain',
+    desc:'Boulangerie quotidienne avec retrait sur place',
+    vars:['Article','Date livraison','Quantité'],
+    prices:['Prix unitaire','TVA 5,5%'],
+    channels:['POS'], module:'M18' },
+
+  // === PROMOTIONS / REMISES ===
+  { catg:'Promotions', catgColor:C.purple, item:'Promotion saisonnière',
+    desc:'Campagne datée appliquée à un canal/segment',
+    vars:['Période','Hébergement éligible','Canal','Conditions cumul'],
+    prices:['Remise % ou €','Plafond éventuel'],
+    channels:['DIRECT','OTA','WALKIN'], module:'M10' },
+  { catg:'Promotions', catgColor:C.purple, item:'Code promo',
+    desc:'Saisi manuellement par le client en réservation',
+    vars:['Code','Usage unique ou multi','Période validité','Conditions'],
+    prices:['Remise % ou €','Plafond','Hébergements éligibles'],
+    channels:['DIRECT','OTA','WALKIN'], module:'M10' },
+  { catg:'Promotions', catgColor:C.purple, item:'Last-minute',
+    desc:'Auto-déclenché si arrivée < N jours',
+    vars:['Délai avant arrivée','Hébergement','Saison'],
+    prices:['Remise % paramétrée','Plafond'],
+    channels:['DIRECT','OTA'], module:'M10' },
+  { catg:'Promotions', catgColor:C.purple, item:'Early-booking',
+    desc:'Auto-déclenché si résa > N jours avant arrivée',
+    vars:['Délai avant arrivée','Hébergement','Saison'],
+    prices:['Remise % paramétrée','Plafond'],
+    channels:['DIRECT','OTA'], module:'M10' },
+  { catg:'Promotions', catgColor:C.purple, item:'Tarif par durée (dégressif)',
+    desc:'Réduction à partir de N nuits',
+    vars:['Durée séjour','Hébergement','Période'],
+    prices:['Barème dégressif (M27)','% par palier'],
+    channels:BOOKING_CHANNELS, module:'M27/M10' },
+  { catg:'Promotions', catgColor:C.purple, item:'Surclassement (upgrade)',
+    desc:'Catégorie supérieure offerte selon dispo',
+    vars:['Hébergement réservé','Hébergement upgrade dispo'],
+    prices:['Différentiel offert','Aucune ligne facturée'],
+    channels:['DIRECT','OTA','WALKIN'], module:'M10' },
+  { catg:'Promotions', catgColor:C.purple, item:'Remise commerciale manuelle',
+    desc:'Saisie en direct par la réception',
+    vars:['Motif','Montant ou %','Plafond utilisateur'],
+    prices:['Remise % ou € libre'],
+    channels:['WALKIN'], module:'M03' },
+
+  // === TARIFS B2B NÉGOCIÉS ===
+  { catg:'Tarifs B2B', catgColor:'#0ea5e9', item:'Grille TO',
+    desc:'Tarif négocié par tour-opérateur',
+    vars:['Partenaire TO','Hébergement','Période','Allotement'],
+    prices:['Grille TO (remplace base)','Commission TO (%)','Net réceptif'],
+    channels:['TO'], module:'M06' },
+  { catg:'Tarifs B2B', catgColor:'#0ea5e9', item:'Tarif négocié CE',
+    desc:'Barème spécifique pour comité d\'entreprise',
+    vars:['CE','Hébergement','Période','Plafond / subvention'],
+    prices:['Grille CE','Subvention CE (% pris en charge)','Reste à charge salarié'],
+    channels:['CE'], module:'M07' },
+  { catg:'Tarifs B2B', catgColor:'#0ea5e9', item:'Bon ANCV / chèque-vacances',
+    desc:'Moyen de paiement subventionné',
+    vars:['Type bon','Montant','Validité'],
+    prices:['Valeur faciale','Commission émetteur (le cas échéant)'],
+    channels:['CE','WALKIN'], module:'M07/M13' },
+  { catg:'Tarifs B2B', catgColor:'#0ea5e9', item:'Voucher TO',
+    desc:'Bon d\'échange émis par le tour-opérateur',
+    vars:['Numéro voucher','TO','Séjour','Validité'],
+    prices:['Pré-payé par TO','Facturation post-séjour vers TO'],
+    channels:['TO'], module:'M06' },
+
+  // === CAUTIONS / DÉPÔTS DE GARANTIE ===
+  { catg:'Cautions', catgColor:'#84cc16', item:'Caution hébergement',
+    desc:'Empreinte CB ou caution encaissée',
+    vars:['Hébergement','Type caution','Montant'],
+    prices:['Montant fixe paramétré','Pré-autorisation CB ou encaissement réel'],
+    channels:BOOKING_CHANNELS, module:'M15' },
+  { catg:'Cautions', catgColor:'#84cc16', item:'Caution bracelet/badge',
+    desc:'Caution sur dispositif électronique remis au client',
+    vars:['Type dispositif','Quantité'],
+    prices:['Montant fixe','Restitué au retour'],
+    channels:BOOKING_CHANNELS, module:'M15' },
+  { catg:'Cautions', catgColor:'#84cc16', item:'Retenue sur caution',
+    desc:'Litige, dégradation, ménage non rendu',
+    vars:['Motif retenue','Montant','Justificatif'],
+    prices:['Montant retenu','Avoir partiel','TVA selon nature'],
+    channels:BOOKING_CHANNELS, module:'M15/M16' },
+
+  // === TAXES ===
+  { catg:'Taxes', catgColor:C.red, item:'Taxe de séjour',
+    desc:'Reversement à la commune',
+    vars:['Adultes éligibles','Nuits','Commune','Exemptions (enfants, étudiants...)'],
+    prices:['Tarif communal/personne/nuit','Cumul plafonné (selon barème)'],
+    channels:BOOKING_CHANNELS, module:'M17' },
+  { catg:'Taxes', catgColor:C.red, item:'TVA hébergement',
+    desc:'Taux réduit sur location de courte durée',
+    vars:['Nature ligne'],
+    prices:['TVA 10%'],
+    channels:BOOKING_CHANNELS, module:'M17/M27' },
+  { catg:'Taxes', catgColor:C.red, item:'TVA restauration',
+    desc:'Sur place / à emporter / boissons alcoolisées',
+    vars:['Type produit','Mode consommation'],
+    prices:['TVA 10% (sur place repas)','TVA 5,5% (alim. à emporter)','TVA 20% (alcool)'],
+    channels:['POS'], module:'M17' },
+  { catg:'Taxes', catgColor:C.red, item:'TVA boutique / services',
+    desc:'Taux normal sur la majorité des ventes annexes',
+    vars:['Type produit'],
+    prices:['TVA 20%','TVA 5,5% (livre, alim. de base)'],
+    channels:['POS'], module:'M17' },
+
+  // === ACOMPTE / FACTURATION ===
+  { catg:'Encaissement', catgColor:C.orange, item:'Acompte initial',
+    desc:'À la résa, montant ou % paramétré',
+    vars:['Segment','Canal','Date résa vs date arrivée','Montant séjour'],
+    prices:['% du total ou montant fixe (M27)','Délai de paiement'],
+    channels:BOOKING_CHANNELS, module:'M13/M27' },
+  { catg:'Encaissement', catgColor:C.orange, item:'Solde séjour',
+    desc:'Avant arrivée (J-X) ou au check-out',
+    vars:['Échéance contractuelle','Acompte déjà encaissé'],
+    prices:['Total - acompte','Aucune TVA additionnelle (déjà ventilée)'],
+    channels:BOOKING_CHANNELS, module:'M13' },
+  { catg:'Encaissement', catgColor:C.orange, item:'Paiement partiel',
+    desc:'Échéancier custom ou paiement en plusieurs fois',
+    vars:['Nb échéances','Dates','Montants'],
+    prices:['Sous-total par échéance','Pas de frais (sauf paramétrage CB X3)'],
+    channels:BOOKING_CHANNELS, module:'M13' },
+  { catg:'Encaissement', catgColor:C.orange, item:'Paiement en ligne',
+    desc:'Via PSP intégré (CB, Apple Pay, etc.)',
+    vars:['Moyen','Montant','Référence transaction'],
+    prices:['Montant','Commission PSP (interne, non facturée client)'],
+    channels:['DIRECT','OTA','RESIDENT'], module:'M13' },
+
+  // === PÉNALITÉS / ANNULATION ===
+  { catg:'Pénalités', catgColor:'#94a3b8', item:'Frais d\'annulation',
+    desc:'Selon politique du contrat / canal',
+    vars:['Délai avant arrivée','Politique','Segment'],
+    prices:['% du séjour selon barème','Ou montant fixe'],
+    channels:BOOKING_CHANNELS, module:'M03' },
+  { catg:'Pénalités', catgColor:'#94a3b8', item:'No-show',
+    desc:'Client absent à la date d\'arrivée',
+    vars:['Heure de bascule','Acompte encaissé'],
+    prices:['1ère nuit ou intégralité (selon politique)','TVA appliquée'],
+    channels:BOOKING_CHANNELS, module:'M03' },
+
+  // === REFACTURATION RÉSIDENTS ===
+  { catg:'Refacturation', catgColor:'#f59e0b', item:'Charges résident',
+    desc:'Mensualisation des consommations (eau, élec, ordures)',
+    vars:['Période','Relevé compteur','Tarif unitaire'],
+    prices:['Consommation × tarif','Régularisation annuelle','TVA 20%'],
+    channels:['RESIDENT'], module:'M08' },
+  { catg:'Refacturation', catgColor:'#f59e0b', item:'Sous-location',
+    desc:'Quote-part propriétaire sur sous-location',
+    vars:['Sous-locataire','Période','% reversement'],
+    prices:['Reversement propriétaire','Commission gestion','TVA 20%'],
+    channels:['RESIDENT'], module:'M08' },
+];
+
+const CATEGORY_ORDER = [...new Set(PRICING_ELEMENTS.map(e => e.catg))];
 
 // ── Composant principal ──────────────────────────────────────────────────
 export function CalculPrixPage({ data }) {
-  const [filter, setFilter] = useState('');
-
-  // Fenêtres pricing depuis cartoPmsWeb
   const pricingItems = useMemo(() => {
     const carto = data?.cartoPmsWeb || [];
     return carto.filter(c => PRICING_MODULES.includes(c.numModule));
@@ -251,16 +419,6 @@ export function CalculPrixPage({ data }) {
     return { total, pms, crs, modules: modules.size };
   }, [pricingItems]);
 
-  const filteredItems = useMemo(() => {
-    const q = filter.trim().toLowerCase();
-    if (!q) return pricingItems;
-    return pricingItems.filter(c => {
-      const blob = [c.fenetre, c.module, c.section, c.groupe, (c.solution || []).join(' ')]
-        .filter(Boolean).join(' ').toLowerCase();
-      return blob.includes(q);
-    });
-  }, [pricingItems, filter]);
-
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
       <SectionTitle
@@ -270,16 +428,13 @@ export function CalculPrixPage({ data }) {
       >Calcul prix</SectionTitle>
 
       {/* Bandeau stats */}
-      <div style={{
-        display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 16,
-      }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 16 }}>
         <StatCard icon={Layers} label="Fenêtres pricing"   value={stats.total}   accent={C.orange} />
         <StatCard icon={Server} label="PMS (off-line)"      value={stats.pms}     accent={C.blue} sub="Inaxel" />
         <StatCard icon={Globe}  label="CRS (en ligne)"      value={stats.crs}     accent={C.purple} sub="C tout Vert" />
         <StatCard icon={Coins}  label="Modules concernés"   value={stats.modules} accent={C.green} />
       </div>
 
-      {/* Architecture 2 couches */}
       <ArchitectureSplit />
 
       {/* Pipeline de calcul */}
@@ -298,68 +453,81 @@ export function CalculPrixPage({ data }) {
         <SectionBlock key={sec.key} section={sec} items={pricingItems} />
       ))}
 
-      {/* Workflow Devis → Séjour → Facturation */}
-      <LifecycleFlow />
-
-      {/* Tableau de référence : toutes les fenêtres pricing */}
-      <Card padding={0} style={{ overflow: 'hidden' }}>
-        <div style={{
-          padding: '16px 20px', borderBottom: `1px solid ${C.line}`,
-          display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-          gap: 12, flexWrap: 'wrap',
-        }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-            <Calculator size={13} color={C.orange} strokeWidth={2.2} />
-            <div style={{
-              fontSize: 11, letterSpacing: '0.06em', textTransform: 'uppercase',
-              color: C.orange, fontWeight: 700,
-            }}>Référentiel des fenêtres pricing · {filteredItems.length}/{pricingItems.length}</div>
-          </div>
-          <div style={{
-            display: 'inline-flex', alignItems: 'center', gap: 6,
-            padding: '6px 12px', borderRadius: RADIUS.md,
-            background: C.paper, border: `1px solid ${C.line}`,
-          }}>
-            <Search size={13} color={C.inkDim} strokeWidth={2.2} />
-            <input
-              type="text"
-              placeholder="Filtrer (fenêtre, module, section, solution)"
-              value={filter}
-              onChange={e => setFilter(e.target.value)}
-              style={{
-                border: 'none', outline: 'none', background: 'transparent',
-                fontFamily: 'inherit', fontSize: 12, color: C.ink,
-                width: 280,
-              }}
-            />
-          </div>
+      {/* Légende canaux */}
+      <Card padding={20}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
+          <TableIcon size={15} color={C.orange} strokeWidth={2.2} />
+          <div style={{ fontSize: 13, fontWeight: 700, color: C.ink }}>Canaux clients · légende</div>
         </div>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 16, fontSize: 11 }}>
+          <ChannelLegendGroup label="En ligne (online)" channels={['DIRECT','OTA']} />
+          <ChannelLegendGroup label="Hors ligne B2C"    channels={['WALKIN']} />
+          <ChannelLegendGroup label="Hors ligne B2B"    channels={['TO','CE','RESIDENT']} />
+          <ChannelLegendGroup label="Sur place (POS)"   channels={['POS']} />
+        </div>
+      </Card>
+
+      {/* Tableau exhaustif : éléments du calcul prix */}
+      <Card padding={0} style={{ overflow: 'hidden' }}>
+        <CardHeader
+          icon={TableIcon}
+          title={`Éléments du calcul prix · ${PRICING_ELEMENTS.length} variables référencées`}
+          sub="Tous les éléments facturables / paramètres entrant dans le calcul, par catégorie"
+        />
         <div style={{ overflowX: 'auto' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 12 }}>
             <thead>
               <tr style={{ background: C.gray50 }}>
-                <th style={th()}>Module</th>
-                <th style={th()}>Section</th>
-                <th style={th()}>Fenêtre</th>
-                <th style={th({ textAlign: 'center' })}>Solution</th>
+                <th style={th({ minWidth: 130 })}>Catégorie</th>
+                <th style={th({ minWidth: 200 })}>Élément</th>
+                <th style={th({ minWidth: 240 })}>Variables d'entrée</th>
+                <th style={th({ minWidth: 240 })}>Composants tarif / taxe</th>
+                <th style={th({ minWidth: 200 })}>Canaux applicables</th>
+                <th style={th({ minWidth: 90 })}>Module</th>
               </tr>
             </thead>
             <tbody>
-              {filteredItems
-                .sort((a, b) => (a.numModule || '').localeCompare(b.numModule || '') || (a.ordre || 0) - (b.ordre || 0))
-                .map((c, i) => (
-                  <tr key={c.id || i} style={{ borderBottom: `1px solid ${C.gray100}` }}>
-                    <td style={td()}>
-                      <span style={{ fontWeight: 700, color: C.orange }}>{c.numModule}</span>
-                      <span style={{ color: C.inkDim, marginLeft: 6 }}>{c.module}</span>
-                    </td>
-                    <td style={{ ...td(), color: C.inkDim }}>{c.section || '—'}</td>
-                    <td style={{ ...td(), color: C.ink, fontWeight: 500 }}>{c.fenetre}</td>
-                    <td style={{ ...td(), textAlign: 'center' }}>
-                      <SolutionBadge solutions={c.solution} />
-                    </td>
-                  </tr>
-                ))}
+              {CATEGORY_ORDER.map(catg => {
+                const rows = PRICING_ELEMENTS.filter(e => e.catg === catg);
+                return rows.map((e, idx) => {
+                  const isFirstOfGroup = idx === 0;
+                  const isLastOfGroup = idx === rows.length - 1;
+                  return (
+                    <tr key={catg + '-' + idx} style={{
+                      borderBottom: isLastOfGroup ? `2px solid ${C.line}` : `1px solid ${C.gray100}`,
+                      background: idx % 2 === 0 ? 'transparent' : 'rgba(0,0,0,0.012)',
+                    }}>
+                      <td style={{ ...td(), verticalAlign: 'top', paddingTop: 14 }}>
+                        {isFirstOfGroup && (
+                          <span style={{
+                            display: 'inline-block',
+                            padding: '4px 10px', borderRadius: RADIUS.sm,
+                            background: e.catgColor + '15', color: e.catgColor,
+                            border: `1px solid ${e.catgColor}40`,
+                            fontSize: 11, fontWeight: 700, letterSpacing: '0.02em',
+                          }}>{e.catg}</span>
+                        )}
+                      </td>
+                      <td style={{ ...td(), verticalAlign: 'top', paddingTop: 14, whiteSpace: 'normal' }}>
+                        <div style={{ fontWeight: 700, color: C.ink, fontSize: 12.5 }}>{e.item}</div>
+                        <div style={{ fontSize: 11, color: C.inkDim, marginTop: 3, lineHeight: 1.4 }}>{e.desc}</div>
+                      </td>
+                      <td style={{ ...td(), verticalAlign: 'top', paddingTop: 12, whiteSpace: 'normal' }}>
+                        <ChipList items={e.vars} color={C.inkSoft} bg={C.gray50} border={C.gray200} />
+                      </td>
+                      <td style={{ ...td(), verticalAlign: 'top', paddingTop: 12, whiteSpace: 'normal' }}>
+                        <ChipList items={e.prices} color={C.orange} bg={'#fff8f3'} border={'#fcd7bd'} />
+                      </td>
+                      <td style={{ ...td(), verticalAlign: 'top', paddingTop: 12, whiteSpace: 'normal' }}>
+                        <ChannelChips channels={e.channels} />
+                      </td>
+                      <td style={{ ...td(), verticalAlign: 'top', paddingTop: 14, color: C.inkSoft, fontWeight: 600 }}>
+                        {e.module}
+                      </td>
+                    </tr>
+                  );
+                });
+              })}
             </tbody>
           </table>
         </div>
@@ -417,15 +585,11 @@ function CardHeader({ icon: Icon, title, sub }) {
 
 function ArchitectureSplit() {
   return (
-    <div style={{
-      display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))', gap: 16,
-    }}>
+    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))', gap: 16 }}>
       <Card padding={20} style={{ borderTop: `3px solid ${C.blue}` }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
           <Server size={15} color={C.blue} strokeWidth={2.2} />
-          <div style={{
-            fontSize: 13, fontWeight: 700, color: C.ink,
-          }}>PMS off-line · Inaxel</div>
+          <div style={{ fontSize: 13, fontWeight: 700, color: C.ink }}>PMS off-line · Inaxel</div>
         </div>
         <div style={{ fontSize: 12, color: C.inkSoft, lineHeight: 1.55, marginBottom: 12 }}>
           Le logiciel local de l'établissement. Détient les <b>paramètres tarifaires</b>,
@@ -451,18 +615,14 @@ function ArchitectureSplit() {
       <Card padding={20} style={{ borderTop: `3px solid ${C.purple}` }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
           <Globe size={15} color={C.purple} strokeWidth={2.2} />
-          <div style={{
-            fontSize: 13, fontWeight: 700, color: C.ink,
-          }}>CRS en ligne · C tout Vert</div>
+          <div style={{ fontSize: 13, fontWeight: 700, color: C.ink }}>CRS en ligne · C tout Vert</div>
         </div>
         <div style={{ fontSize: 12, color: C.inkSoft, lineHeight: 1.55, marginBottom: 12 }}>
           Le central de réservation en ligne. <b>Pilote dynamiquement</b> les prix
           publiés (yield, segments, durée), gère les <b>promotions</b> et
           <b> restrictions</b>, et synchronise avec les <b>OTA</b> et le site web direct.
         </div>
-        <ModuleList modules={[
-          { num: 'M10', label: 'Tarifs & revenue management' },
-        ]} accent={C.purple} />
+        <ModuleList modules={[{ num: 'M10', label: 'Tarifs & revenue management' }]} accent={C.purple} />
         <div style={{
           marginTop: 12, padding: '10px 12px',
           background: C.bgSoft, borderRadius: RADIUS.sm,
@@ -499,9 +659,7 @@ function PipelineStep({ step, last }) {
     <div style={{
       display: 'grid', gridTemplateColumns: '40px 1fr', gap: 12,
       paddingBottom: last ? 0 : 16,
-      position: 'relative',
     }}>
-      {/* Bullet step */}
       <div>
         <div style={{
           width: 32, height: 32, borderRadius: '50%',
@@ -518,7 +676,6 @@ function PipelineStep({ step, last }) {
           }} />
         )}
       </div>
-      {/* Content */}
       <div style={{ paddingTop: 4 }}>
         <div style={{ display: 'flex', alignItems: 'baseline', gap: 8, flexWrap: 'wrap' }}>
           <div style={{ fontSize: 14, fontWeight: 700, color: C.ink }}>{step.title}</div>
@@ -625,74 +782,65 @@ function SectionBlock({ section, items }) {
   );
 }
 
-function LifecycleFlow() {
-  const stages = [
-    { label: 'Devis', mod: 'M02', color: C.blue,   detail: 'Simulation prix, ventilation lignes, PDF client' },
-    { label: 'Option', mod: 'M02', color: C.amber, detail: 'Bloque dispo avec deadline + expiration auto' },
-    { label: 'Réservation', mod: 'M02→M03', color: C.purple, detail: 'Conversion + acompte → fiche séjour ouverte' },
-    { label: 'Séjour', mod: 'M03', color: C.green, detail: 'Check-in, ajouts in-stay (suppléments, ventes POS)' },
-    { label: 'Facturation', mod: 'M16', color: C.red,   detail: 'Facture acompte → finale, ventilation TVA' },
-    { label: 'Encaissement', mod: 'M13', color: C.orange, detail: 'Solde, rapprochement, restitution caution' },
-  ];
+function ChipList({ items, color, bg, border }) {
   return (
-    <Card padding={0} style={{ overflow: 'hidden' }}>
-      <CardHeader icon={ArrowRight} title="Cycle de vie du prix" sub="Du devis à l'encaissement final" />
-      <div style={{
-        padding: '20px 24px',
-        display: 'flex', flexWrap: 'wrap', alignItems: 'stretch',
-        gap: 8,
-      }}>
-        {stages.map((s, i) => (
-          <div key={s.label} style={{ display: 'flex', alignItems: 'center', flex: '1 1 160px', minWidth: 160 }}>
-            <div style={{
-              flex: 1,
-              padding: '12px 14px',
-              background: C.bgSoft,
-              border: `1px solid ${C.line}`,
-              borderTop: `3px solid ${s.color}`,
-              borderRadius: RADIUS.md,
-            }}>
-              <div style={{
-                fontSize: 10, letterSpacing: '0.06em', textTransform: 'uppercase',
-                color: s.color, fontWeight: 700,
-              }}>{s.mod}</div>
-              <div style={{ fontSize: 13, fontWeight: 700, color: C.ink, margin: '4px 0' }}>{s.label}</div>
-              <div style={{ fontSize: 11, color: C.inkDim, lineHeight: 1.4 }}>{s.detail}</div>
-            </div>
-            {i < stages.length - 1 && (
-              <ChevronRight size={16} color={C.gray300} strokeWidth={2} style={{ flexShrink: 0, margin: '0 -4px' }} />
-            )}
-          </div>
-        ))}
-      </div>
-    </Card>
+    <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+      {items.map((v, i) => (
+        <span key={i} style={{
+          padding: '3px 8px', borderRadius: RADIUS.sm,
+          background: bg, color, border: `1px solid ${border}`,
+          fontSize: 10.5, fontWeight: 600, lineHeight: 1.4,
+        }}>{v}</span>
+      ))}
+    </div>
   );
 }
 
-function SolutionBadge({ solutions }) {
-  if (!solutions || solutions.length === 0) {
+function ChannelChips({ channels }) {
+  if (!channels || channels.length === 0) {
     return <span style={{ color: C.inkMute, fontSize: 11 }}>—</span>;
   }
   return (
-    <div style={{ display: 'inline-flex', gap: 4, flexWrap: 'wrap', justifyContent: 'center' }}>
-      {solutions.map(s => {
-        const isPms = s === SOL_PMS;
-        const color = isPms ? C.blue : C.purple;
-        const label = isPms ? 'PMS' : 'CRS';
-        const Icon = isPms ? Server : Globe;
+    <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+      {channels.map(c => {
+        const def = CHANNELS[c];
+        if (!def) return null;
         return (
-          <span key={s} style={{
-            display: 'inline-flex', alignItems: 'center', gap: 4,
-            padding: '2px 8px', borderRadius: RADIUS.sm,
-            background: `${color}15`, color,
-            border: `1px solid ${color}40`,
-            fontSize: 10, fontWeight: 700,
-          }} title={s}>
-            <Icon size={10} strokeWidth={2.4} />
-            {label}
+          <span key={c} style={{
+            display: 'inline-flex', alignItems: 'center',
+            padding: '3px 8px', borderRadius: RADIUS.sm,
+            background: def.color + '15', color: def.color,
+            border: `1px solid ${def.color}40`,
+            fontSize: 10.5, fontWeight: 700, letterSpacing: '0.01em',
+          }} title={`${def.label} (${def.kind})`}>
+            {def.label}
           </span>
         );
       })}
+    </div>
+  );
+}
+
+function ChannelLegendGroup({ label, channels }) {
+  return (
+    <div>
+      <div style={{
+        fontSize: 10, fontWeight: 700, color: C.gray400,
+        letterSpacing: '0.06em', textTransform: 'uppercase', marginBottom: 6,
+      }}>{label}</div>
+      <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap' }}>
+        {channels.map(c => {
+          const def = CHANNELS[c];
+          return (
+            <span key={c} style={{
+              padding: '3px 8px', borderRadius: RADIUS.sm,
+              background: def.color + '15', color: def.color,
+              border: `1px solid ${def.color}40`,
+              fontSize: 10.5, fontWeight: 700,
+            }}>{def.label}</span>
+          );
+        })}
+      </div>
     </div>
   );
 }
