@@ -39,7 +39,7 @@ function downloadCsv(rows) {
     'Date fin (dimanche)',
     'Personne',
     'Fenêtre',
-    'Bloc',
+    'Groupe',
     'Phase',
     'Jours',
   ];
@@ -51,7 +51,7 @@ function downloadCsv(rows) {
       r.end,
       r.person,
       r.fenetre,
-      r.bloc,
+      r.groupe || '',
       r.phase,
       Number(r.jours.toFixed(3)).toString().replace('.', ','),
     ].map(csvEscape).join(';'));

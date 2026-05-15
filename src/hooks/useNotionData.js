@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 // ============================================
 export function useNotionData() {
   const [data, setData] = useState({
-    classique: [], topline: [],
+    classique: [], topline: [], suiviLundi: [], equipe: [],
     cartoPmsWeb: [], cartoPmsMobile: [], cartoManager: [],
     cii: { rows: [], generatedAt: null },
     generatedAt: null,
@@ -30,6 +30,8 @@ export function useNotionData() {
         setData({
           classique:      Array.isArray(json?.classique)      ? json.classique      : [],
           topline:        Array.isArray(json?.topline)        ? json.topline        : [],
+          suiviLundi:     Array.isArray(json?.suiviLundi)     ? json.suiviLundi     : [],
+          equipe:         Array.isArray(json?.equipe)         ? json.equipe         : [],
           cartoPmsWeb:    Array.isArray(json?.cartoPmsWeb)    ? json.cartoPmsWeb    : [],
           cartoPmsMobile: Array.isArray(json?.cartoPmsMobile) ? json.cartoPmsMobile : [],
           cartoManager:   Array.isArray(json?.cartoManager)   ? json.cartoManager   : [],

@@ -176,11 +176,11 @@ export function DashboardPage({ data, onNavigate }) {
     let totalTime = 0, sumAv = 0, totalPhases = 0, done = 0;
     const blocs = new Map();
     topline.forEach(t => {
-      if (!t.bloc) return;
-      if (!blocs.has(t.bloc)) {
-        blocs.set(t.bloc, { name: t.bloc, count: 0, time: 0, sumAv: 0, n: 0, fait: 0 });
+      if (!t.groupe) return;
+      if (!blocs.has(t.groupe)) {
+        blocs.set(t.groupe, { name: t.groupe, count: 0, time: 0, sumAv: 0, n: 0, fait: 0 });
       }
-      const b = blocs.get(t.bloc);
+      const b = blocs.get(t.groupe);
       b.count++;
       TL_PHASES.forEach(p => {
         const v = t.avancement?.[p] || 0;
@@ -199,7 +199,7 @@ export function DashboardPage({ data, onNavigate }) {
       .sort((a, b) => b.count - a.count)
       .slice(0, 6);
     return {
-      total: topline.filter(t => t.bloc).length,
+      total: topline.filter(t => t.groupe).length,
       totalTime,
       avgPct: totalPhases > 0 ? Math.round((sumAv / totalPhases) * 100) : 0,
       done, totalPhases,
@@ -355,7 +355,7 @@ export function DashboardPage({ data, onNavigate }) {
               <div style={{
                 fontSize: 11, letterSpacing: "0.06em", textTransform: "uppercase",
                 color: C.orange, fontWeight: 700,
-              }}>Top Line · vue par bloc</div>
+              }}>Top Line · vue par groupe</div>
             </div>
             <div style={{ display: "inline-flex", alignItems: "center", gap: 16 }}>
               <span style={{ fontSize: 11, color: C.inkDim }}>

@@ -4,8 +4,9 @@ import { C, RADIUS } from '../styles/theme';
 import { Card } from './primitives/Card';
 
 // ============================================
-// TopLineTable — fenêtres Top Line avec colonnes Pers / Temps
-// Triables, filtrables par équipe/bloc, exportable CSV
+// TopLineTable — fenêtres Top Line avec colonnes Membres / Temps
+// Triables, filtrables, exportable CSV
+// Source : rollups depuis Suivi lundi (temps cumulé, avancement, état)
 // ============================================
 const PHASES = [
   { key: "maquette", label: "Maq." },
@@ -15,7 +16,7 @@ const PHASES = [
   { key: "test",     label: "Test" },
 ];
 
-function formatPers(v) {
+function formatNames(v) {
   if (!v) return "";
   if (Array.isArray(v)) return v.join(" · ");
   return String(v);
@@ -58,32 +59,33 @@ function csvEscape(v) {
 
 function downloadCsv(rows) {
   const headers = [
-    "Nom de la fonction", "Bloc",
-    "Pers. Maquette/UX", "Pers. Back", "Pers. Front", "Pers. Design", "Pers. Test",
+    "Fenêtre", "Groupe", "Module",
+    "Membres Maquette/UX", "Membres Back", "Membres Front", "Membres Design", "Membres Test",
     "Temps Maquette/UX (j)", "Temps Back (j)", "Temps Front (j)", "Temps Design (j)", "Temps Test (j)",
     "Temps total (j)",
+    "Contributeurs réels",
     "Dernière maj",
   ];
   const lines = [headers.map(csvEscape).join(";")];
   rows.forEach(t => {
-    const total =
-      (t.temps?.maquette || 0) + (t.temps?.back || 0) + (t.temps?.front || 0) +
-      (t.temps?.design || 0)   + (t.temps?.test || 0);
+    const total = PHASES.reduce((s, p) => s + (t.temps?.[p.key] || 0), 0);
     const maj = formatLastEdited(t.lastEdited);
     lines.push([
-      t.nom || "",
-      t.bloc || "",
-      Array.isArray(t.pers?.maquette) ? t.pers.maquette.join(" · ") : (t.pers?.maquette || ""),
-      t.pers?.back || "",
-      t.pers?.front || "",
-      t.pers?.design || "",
-      Array.isArray(t.pers?.test) ? t.pers.test.join(" · ") : (t.pers?.test || ""),
+      t.fenetre || "",
+      t.groupe || "",
+      t.module || "",
+      formatNames(t.membres?.maquette),
+      formatNames(t.membres?.back),
+      formatNames(t.membres?.front),
+      formatNames(t.membres?.design),
+      formatNames(t.membres?.test),
       t.temps?.maquette ?? "",
       t.temps?.back     ?? "",
       t.temps?.front    ?? "",
       t.temps?.design   ?? "",
       t.temps?.test     ?? "",
       total || "",
+      formatNames(t.contributeursReels),
       maj?.full || "",
     ].map(csvEscape).join(";"));
   });
@@ -110,18 +112,19 @@ export function TopLineTable({ items }) {
     if (q) {
       list = items.filter(t => {
         const blob = [
-          t.nom, t.bloc,
-          ...(Array.isArray(t.pers?.maquette) ? t.pers.maquette : [t.pers?.maquette]),
-          t.pers?.back, t.pers?.front, t.pers?.design,
-          ...(Array.isArray(t.pers?.test) ? t.pers.test : [t.pers?.test]),
+          t.fenetre, t.groupe, t.module, t.section,
+          ...(t.membres?.maquette || []),
+          ...(t.membres?.back || []),
+          ...(t.membres?.front || []),
+          ...(t.membres?.design || []),
+          ...(t.membres?.test || []),
+          ...(t.contributeursReels || []),
         ].filter(Boolean).join(" ").toLowerCase();
         return blob.includes(q);
       });
     }
     // Lignes avec du temps renseigné en haut, lignes vides en bas
-    const totalOf = t =>
-      (t.temps?.maquette || 0) + (t.temps?.back || 0) + (t.temps?.front || 0) +
-      (t.temps?.design || 0)   + (t.temps?.test || 0);
+    const totalOf = t => PHASES.reduce((s, p) => s + (t.temps?.[p.key] || 0), 0);
     return [...list].sort((a, b) => {
       const ta = totalOf(a);
       const tb = totalOf(b);
@@ -129,7 +132,7 @@ export function TopLineTable({ items }) {
       const filledB = tb > 0;
       if (filledA !== filledB) return filledA ? -1 : 1;
       if (filledA) return tb - ta; // les plus chargées d'abord
-      return (a.nom || "").localeCompare(b.nom || "", "fr");
+      return (a.fenetre || "").localeCompare(b.fenetre || "", "fr");
     });
   }, [items, filter]);
 
@@ -169,13 +172,13 @@ export function TopLineTable({ items }) {
             <Search size={13} color={C.inkDim} strokeWidth={2.2} />
             <input
               type="text"
-              placeholder="Filtrer (nom, bloc, pers.)"
+              placeholder="Filtrer (fenêtre, groupe, membre)"
               value={filter}
               onChange={e => setFilter(e.target.value)}
               style={{
                 border: "none", outline: "none", background: "transparent",
                 fontFamily: "inherit", fontSize: 12, color: C.ink,
-                width: 220,
+                width: 240,
               }}
             />
           </div>
@@ -208,17 +211,18 @@ export function TopLineTable({ items }) {
           <thead>
             {/* Ligne de groupes */}
             <tr style={{ background: C.gray50 }}>
-              <th rowSpan={2} style={thBase()}>Nom de la fonction</th>
-              <th rowSpan={2} style={thBase({ textAlign: "left" })}>Bloc</th>
-              <th colSpan={5} style={thGroup({ borderLeft: `1px solid ${C.line}` })}>Pers en charge</th>
-              <th colSpan={5} style={thGroup({ borderLeft: `1px solid ${C.line}`, color: C.orange })}>Temps (j)</th>
+              <th rowSpan={2} style={thBase()}>Fenêtre</th>
+              <th rowSpan={2} style={thBase({ textAlign: "left" })}>Groupe</th>
+              <th colSpan={5} style={thGroup({ borderLeft: `1px solid ${C.line}` })}>Membres (prévu)</th>
+              <th colSpan={5} style={thGroup({ borderLeft: `1px solid ${C.line}`, color: C.orange })}>Temps cumulé (j)</th>
               <th rowSpan={2} style={thBase({ textAlign: "right", borderLeft: `1px solid ${C.line}` })}>Total</th>
+              <th rowSpan={2} style={thBase({ textAlign: "left", borderLeft: `1px solid ${C.line}` })}>Contributeurs réels</th>
               <th rowSpan={2} style={thBase({ textAlign: "right", borderLeft: `1px solid ${C.line}` })}>Maj</th>
             </tr>
             {/* Ligne de phases */}
             <tr style={{ background: C.gray50 }}>
               {PHASES.map((p, i) => (
-                <th key={`pers-${p.key}`} style={thBase({
+                <th key={`mem-${p.key}`} style={thBase({
                   borderLeft: i === 0 ? `1px solid ${C.line}` : "none",
                   fontWeight: 600, color: C.inkSoft,
                 })}>{p.label}</th>
@@ -234,7 +238,7 @@ export function TopLineTable({ items }) {
           <tbody>
             {rows.length === 0 && (
               <tr>
-                <td colSpan={14} style={{ padding: 32, textAlign: "center", color: C.inkDim }}>
+                <td colSpan={15} style={{ padding: 32, textAlign: "center", color: C.inkDim }}>
                   Aucune fenêtre {filter ? "ne correspond au filtre" : ""}
                 </td>
               </tr>
@@ -252,21 +256,23 @@ export function TopLineTable({ items }) {
                   <td style={{
                     padding: "10px 12px", color: C.ink, fontWeight: 600,
                     maxWidth: 240, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
-                  }} title={t.nom}>
+                  }} title={t.fenetre}>
                     {t.url ? (
                       <a href={t.url} target="_blank" rel="noopener noreferrer" style={{
                         color: C.ink, textDecoration: "none",
                       }}
                       onMouseEnter={e => { e.currentTarget.style.color = C.orange; }}
                       onMouseLeave={e => { e.currentTarget.style.color = C.ink; }}
-                      >{t.nom || "—"}</a>
-                    ) : (t.nom || "—")}
+                      >{t.fenetre || "—"}</a>
+                    ) : (t.fenetre || "—")}
                   </td>
-                  <td style={tdMuted()}>{t.bloc || "—"}</td>
+                  <td style={tdMuted()} title={t.module || ""}>
+                    {t.groupe || "—"}
+                  </td>
                   {PHASES.map((p, idx) => {
-                    const v = formatPers(t.pers?.[p.key]);
+                    const v = formatNames(t.membres?.[p.key]);
                     return (
-                      <td key={`pers-${p.key}`} style={{
+                      <td key={`mem-${p.key}`} style={{
                         ...tdMuted(),
                         borderLeft: idx === 0 ? `1px solid ${C.gray100}` : "none",
                         maxWidth: 130, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
@@ -294,6 +300,14 @@ export function TopLineTable({ items }) {
                     fontWeight: 700,
                   }}>
                     {total > 0 ? formatTemps(total) : "—"}
+                  </td>
+                  {/* Contributeurs réels */}
+                  <td style={{
+                    ...tdMuted(),
+                    borderLeft: `1px solid ${C.gray100}`,
+                    maxWidth: 180, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
+                  }} title={formatNames(t.contributeursReels)}>
+                    {formatNames(t.contributeursReels) || <span style={{ color: C.inkMute }}>—</span>}
                   </td>
                   {/* Dernière maj */}
                   {(() => {
@@ -344,6 +358,11 @@ export function TopLineTable({ items }) {
                 }}>
                   {totals.total > 0 ? formatTemps(totals.total) : "—"}
                 </td>
+                <td style={{
+                  ...tdMuted(),
+                  borderLeft: `1px solid ${C.line}`,
+                  color: C.inkMute,
+                }}>—</td>
                 <td style={{
                   ...tdNum(),
                   borderLeft: `1px solid ${C.line}`,

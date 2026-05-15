@@ -10,7 +10,7 @@ import { SectionTitle } from '../components/primitives/SectionTitle';
 import { paletteColor } from '../utils/colors';
 
 // ============================================
-// SuiviPage — vue macro Top Line : indicateurs par bloc + matrice phases × mois
+// SuiviPage — vue macro Top Line : indicateurs par groupe + matrice phases × mois
 // ============================================
 
 const PHASES = [
@@ -72,20 +72,20 @@ export function SuiviPage({ data }) {
     };
   }, [items]);
 
-  // ── Stats par bloc ──
+  // ── Stats par groupe ──
   const blocs = useMemo(() => {
     const map = new Map();
     items.forEach(t => {
-      if (!t.bloc) return; // exclut les tickets sans bloc
-      if (!map.has(t.bloc)) {
-        map.set(t.bloc, {
-          name: t.bloc, count: 0, time: 0,
+      if (!t.groupe) return; // exclut les fenêtres sans groupe
+      if (!map.has(t.groupe)) {
+        map.set(t.groupe, {
+          name: t.groupe, count: 0, time: 0,
           avSum: 0, avTotal: 0,
           items: [],
           byPhase: PHASES.reduce((a, p) => ({ ...a, [p.key]: { sum: 0, count: 0, fait: 0, encours: 0 } }), {}),
         });
       }
-      const e = map.get(t.bloc);
+      const e = map.get(t.groupe);
       e.count++;
       e.items.push(t);
       PHASES.forEach(p => {
@@ -158,7 +158,7 @@ export function SuiviPage({ data }) {
         <SectionTitle
           overline="Top Line"
           icon={LineChart}
-          sub="Suivi des fenêtres par bloc métier · phases sur le calendrier"
+          sub="Suivi des fenêtres par groupe métier · phases sur le calendrier"
         >Suivi</SectionTitle>
         <a
           href="https://naxigestionfront-prepa.vercel.app/"
@@ -227,7 +227,7 @@ export function SuiviPage({ data }) {
           color: C.orange, fontWeight: 700,
         }}>
           <Building2 size={13} color={C.orange} strokeWidth={2.2} />
-          Indicateurs par bloc métier
+          Indicateurs par groupe métier
         </div>
         <div style={{
           display: "grid",
@@ -441,7 +441,7 @@ function BlocDetail({ bloc, color }) {
         display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))",
         gap: 18, background: C.bgSoft,
       }}>
-        <SummaryStat label="Avancement bloc" value={`${blocAvgPct}%`} accent={color} />
+        <SummaryStat label="Avancement groupe" value={`${blocAvgPct}%`} accent={color} />
         <SummaryStat label="Phases livrées" value={`${totalDone} / ${bloc.avTotal}`} accent={C.green} />
         <SummaryStat label="Phases en cours" value={totalEnCours} accent={C.orange} />
         <SummaryStat label="Temps cumulé" value={formatDays(bloc.time)} />
@@ -475,7 +475,7 @@ function BlocDetail({ bloc, color }) {
                   <td style={{
                     padding: "10px 16px", color: C.ink, fontWeight: 600,
                     maxWidth: 280, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
-                  }} title={t.nom}>
+                  }} title={t.fenetre}>
                     {t.url ? (
                       <a href={t.url} target="_blank" rel="noopener noreferrer" style={{
                         color: C.ink, textDecoration: "none",
@@ -484,10 +484,10 @@ function BlocDetail({ bloc, color }) {
                       onMouseEnter={e => { e.currentTarget.style.color = C.orange; }}
                       onMouseLeave={e => { e.currentTarget.style.color = C.ink; }}
                       >
-                        {t.nom || "—"}
+                        {t.fenetre || "—"}
                         <ExternalLink size={10} color={C.inkMute} strokeWidth={2.2} />
                       </a>
-                    ) : (t.nom || "—")}
+                    ) : (t.fenetre || "—")}
                   </td>
                   {PHASES.map(p => {
                     const pct = Math.round((t.avancement?.[p.key] || 0) * 100);

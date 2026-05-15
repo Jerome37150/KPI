@@ -1,102 +1,49 @@
 /**
- * Extraction du temps passé par personne / fenêtre / semaine
+ * Extraction du temps passé par personne / fenêtre / phase / semaine
  * pour un dossier Crédit d'Impôt Innovation (CII).
  *
- * Méthode :
- *  - Walk de tous les commits qui ont touché public/data.json
- *  - Pour chaque transition commit(n-1) → commit(n), diff sur topline[].temps.{phase}
- *  - Tout delta strictement positif est attribué à la (les) personne(s) listée(s)
- *    dans pers.{phase} au commit le plus récent, en split équitable (option A).
- *  - Les deltas négatifs (corrections rétroactives) sont ignorés.
- *  - La date du commit donne la semaine ISO de la contribution.
+ * Source : `public/data.json` → `suiviLundi[]`
+ *   Chaque saisie (📅 Suivi lundi) est l'historique canonique :
+ *     { personne, fenetreId, fenetre, fenetreGroupe, semaine (lundi),
+ *       phase, tempsHeures, tempsJours, avancement, etat, remarques }
+ *
+ * Une ligne CII = une saisie. Pas de diff de commits, pas d'heuristique.
  *
  * Usage : npm run export-cii
  * Sortie : exports/cii-YYYY-MM-DD.csv (séparateur ;, BOM utf-8, virgule décimale FR)
+ *          public/cii-data.json (consommé par la page Immobilisation)
  */
 
-import { execSync } from 'node:child_process';
-import { writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.join(__dirname, '..');
-const DATA_FILE = 'public/data.json';
+const DATA_PATH = path.join(REPO_ROOT, 'public', 'data.json');
 const OUTPUT_DIR = path.join(REPO_ROOT, 'exports');
-const PUBLIC_DIR = path.join(REPO_ROOT, 'public');
-const PUBLIC_JSON = path.join(PUBLIC_DIR, 'cii-data.json');
+const PUBLIC_JSON = path.join(REPO_ROOT, 'public', 'cii-data.json');
 
-const PHASES = ['maquette', 'back', 'front', 'design', 'test'];
 const PHASE_LABELS = {
-  maquette: 'Maquette / UX',
-  back:     'Back',
-  front:    'Front',
-  design:   'Design',
-  test:     'Test',
+  MAQUETTE: 'Maquette / UX',
+  BACK:     'Back',
+  FRONT:    'Front',
+  DESIGN:   'Design',
+  TEST:     'Test',
 };
 
-// === Helpers Git ===
-function git(args) {
-  return execSync(`git ${args}`, {
-    cwd: REPO_ROOT,
-    encoding: 'utf8',
-    maxBuffer: 200 * 1024 * 1024,
-  });
-}
-
-function getCommitsTouchingData() {
-  // Format : <sha>|<iso-date>|<sujet>
-  const out = git(`log --reverse --pretty=format:"%H|%cI|%s" -- ${DATA_FILE}`);
-  return out
-    .trim()
-    .split('\n')
-    .filter(Boolean)
-    .map(line => {
-      const [sha, date, ...rest] = line.split('|');
-      return { sha, date, subject: rest.join('|') };
-    });
-}
-
-function readDataAtCommit(sha) {
-  try {
-    const json = git(`show ${sha}:${DATA_FILE}`);
-    return JSON.parse(json);
-  } catch (err) {
-    console.warn(`⚠️ Lecture impossible du commit ${sha.slice(0, 7)} : ${err.message.split('\n')[0]}`);
-    return null;
-  }
-}
-
-// === Helpers data ===
-function buildToplineMap(data) {
-  const map = new Map();
-  if (!data?.topline) return map;
-  for (const item of data.topline) {
-    if (item?.id) map.set(item.id, item);
-  }
-  return map;
-}
-
-function normalizePers(persValue) {
-  if (Array.isArray(persValue)) return persValue.map(s => String(s).trim()).filter(Boolean);
-  if (typeof persValue === 'string' && persValue.trim()) return [persValue.trim()];
-  return [];
-}
-
-// === Helpers semaine ISO ===
-function isoWeekParts(isoDateString) {
-  // Renvoie { year, week, mondayISO, sundayISO }
-  const d = new Date(isoDateString);
-  // Calcul ISO 8601 : la semaine contient le jeudi
+// === Semaine ISO à partir d'une date lundi ===
+function isoWeekParts(dateLundiISO) {
+  if (!dateLundiISO) return null;
+  const d = new Date(dateLundiISO);
+  if (isNaN(d.getTime())) return null;
   const tmp = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()));
   const dayNum = (tmp.getUTCDay() + 6) % 7; // 0 = lundi
-  // Lundi de la semaine du commit
   const monday = new Date(tmp);
   monday.setUTCDate(tmp.getUTCDate() - dayNum);
   const sunday = new Date(monday);
   sunday.setUTCDate(monday.getUTCDate() + 6);
-  // Numéro de semaine : on déplace au jeudi
   const thursday = new Date(tmp);
   thursday.setUTCDate(tmp.getUTCDate() - dayNum + 3);
   const isoYear = thursday.getUTCFullYear();
@@ -128,66 +75,57 @@ function fmtJoursFR(n) {
 
 // === Main ===
 async function main() {
-  console.log(`📥 Lecture des commits qui ont modifié ${DATA_FILE}…`);
-  const commits = getCommitsTouchingData();
-  if (commits.length === 0) {
-    console.error(`❌ Aucun commit n'a modifié ${DATA_FILE}.`);
+  console.log(`📥 Lecture de ${DATA_PATH}…`);
+  let data;
+  try {
+    data = JSON.parse(await readFile(DATA_PATH, 'utf8'));
+  } catch (err) {
+    console.error(`❌ Impossible de lire ${DATA_PATH} : ${err.message}`);
+    console.error('   Lance d\'abord `node scripts/fetch-notion.js` pour générer ce fichier.');
     process.exit(1);
   }
-  console.log(`   → ${commits.length} commits trouvés`);
-  console.log(`   → 1er : ${commits[0].sha.slice(0, 7)} (${commits[0].date.slice(0, 10)})`);
-  console.log(`   → Dernier : ${commits[commits.length - 1].sha.slice(0, 7)} (${commits[commits.length - 1].date.slice(0, 10)})`);
+
+  const saisies = Array.isArray(data.suiviLundi) ? data.suiviLundi : [];
+  if (saisies.length === 0) {
+    console.warn('⚠️ Aucune saisie dans data.suiviLundi — fichier vide ou data.json obsolète.');
+  }
+  console.log(`   → ${saisies.length} saisies trouvées`);
 
   const rows = [];
   const warnings = [];
-  let prevMap = new Map(); // vide pour le 1er commit → tout est traité comme un delta initial
 
-  let firstCommit = true;
-  for (const commit of commits) {
-    const data = readDataAtCommit(commit.sha);
-    if (!data) continue;
-
-    const currentMap = buildToplineMap(data);
-    const wk = isoWeekParts(commit.date);
-
-    for (const [id, item] of currentMap.entries()) {
-      const prev = prevMap.get(id);
-
-      for (const phase of PHASES) {
-        const currTime = item.temps?.[phase] || 0;
-        const prevTime = prev?.temps?.[phase] || 0;
-        const delta = currTime - prevTime;
-        if (delta <= 0) continue; // option 4 : on ignore les <= 0
-
-        const persons = normalizePers(item.pers?.[phase]);
-        if (persons.length === 0) {
-          warnings.push(`${wk.label} · ${item.nom || '(?)'} · ${PHASE_LABELS[phase]} : +${delta}j sans personne assignée`);
-          continue;
-        }
-
-        const splitJours = delta / persons.length;
-        for (const person of persons) {
-          rows.push({
-            year: wk.year,
-            weekNum: wk.weekNum,
-            week: wk.label,
-            start: wk.mondayISO,
-            end: wk.sundayISO,
-            person,
-            fenetre: item.nom || '',
-            bloc: item.bloc || '',
-            phase: PHASE_LABELS[phase],
-            jours: splitJours,
-            remarques: item.remarques || '',
-            commit: commit.sha.slice(0, 7),
-            firstCommit, // marqueur : delta initial vs delta hebdo
-          });
-        }
-      }
+  for (const s of saisies) {
+    const wk = isoWeekParts(s.semaine);
+    if (!wk) {
+      warnings.push(`Saisie ${s.id || '(sans id)'} : date 'semaine' invalide → ignorée`);
+      continue;
     }
+    if (!s.personne) {
+      warnings.push(`${wk.label} · ${s.fenetre || '(sans fenêtre)'} : pas de personne → ignorée`);
+      continue;
+    }
+    if (!s.phase) {
+      warnings.push(`${wk.label} · ${s.personne} · ${s.fenetre || '(sans fenêtre)'} : pas de phase → ignorée`);
+      continue;
+    }
+    const jours = Number(s.tempsJours) || 0;
+    if (jours <= 0) continue; // pas de temps → pas de ligne CII
 
-    prevMap = currentMap;
-    firstCommit = false;
+    rows.push({
+      year: wk.year,
+      weekNum: wk.week,
+      week: wk.label,
+      start: wk.mondayISO,
+      end: wk.sundayISO,
+      person: s.personne,
+      fenetre: s.fenetre || '',
+      groupe: s.fenetreGroupe || '',
+      phase: PHASE_LABELS[s.phase] || s.phase,
+      jours,
+      avancement: s.avancement || 0,
+      etat: s.etat || '',
+      remarques: s.remarques || '',
+    });
   }
 
   // Tri : semaine ASC, personne ASC, fenêtre ASC, phase ASC
@@ -205,12 +143,13 @@ async function main() {
     'Date fin (dimanche)',
     'Personne',
     'Fenêtre',
-    'Bloc',
+    'Groupe',
     'Phase',
     'Jours',
+    'Avancement',
+    'État',
   ];
   const lines = [headers.map(csvEscape).join(';')];
-
   for (const r of rows) {
     lines.push([
       r.week,
@@ -218,12 +157,13 @@ async function main() {
       r.end,
       r.person,
       r.fenetre,
-      r.bloc,
+      r.groupe,
       r.phase,
       fmtJoursFR(r.jours),
+      r.avancement ? `${Math.round(r.avancement * 100)}%` : '',
+      r.etat,
     ].map(csvEscape).join(';'));
   }
-
   const csv = '﻿' + lines.join('\r\n');
 
   // Output
@@ -241,12 +181,13 @@ async function main() {
     end:     r.end,
     person:  r.person,
     fenetre: r.fenetre,
-    bloc:    r.bloc,
+    groupe:  r.groupe,
     phase:   r.phase,
     jours:   Number(r.jours.toFixed(3)),
   }));
   const jsonPayload = {
     generatedAt: new Date().toISOString(),
+    source: 'suiviLundi',
     rows: cleanRows,
   };
   await writeFile(PUBLIC_JSON, JSON.stringify(jsonPayload, null, 2), 'utf8');
@@ -266,7 +207,7 @@ async function main() {
 
   if (warnings.length > 0) {
     console.log('');
-    console.log(`⚠️ ${warnings.length} contribution(s) sans personne assignée (ignorée(s)) :`);
+    console.log(`⚠️ ${warnings.length} saisie(s) ignorée(s) :`);
     warnings.slice(0, 10).forEach(w => console.log('   · ' + w));
     if (warnings.length > 10) console.log(`   … et ${warnings.length - 10} autre(s)`);
   }
