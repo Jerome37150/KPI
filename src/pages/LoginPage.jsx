@@ -46,7 +46,7 @@ export function LoginPage({ onLogin }) {
         }}
       >
         <div style={{ display: "flex", justifyContent: "center", marginBottom: 28 }}>
-          <LogoInaxel variant="full" subtitle="KPI" />
+          <LogoInaxel variant="full" subtitle="KPI & Projets" />
         </div>
 
         <div style={{

@@ -2,14 +2,23 @@ import { C } from '../styles/theme';
 
 // ============================================
 // Logo Inaxel — variantes "compact" et "full"
-// Inspiré de inaxel-pilot/_components/InaxelLogo.vue
+// Le viewBox s'adapte à la longueur du subtitle (KPI vs KPI & Projets, etc.)
+// pour éviter que le sous-titre déborde ou soit tronqué.
 // ============================================
 export function LogoInaxel({ variant = "compact", subtitle = "KPI" }) {
   if (variant === "full") {
+    // Sous-titre rendu plus petit s'il est long, pour rester sous l'illustration
+    const subFontSize = subtitle.length > 5 ? 18 : 24;
+    const subEstimatedWidth = subtitle.length * subFontSize * 0.6;
+    const minVbWidth = 265;
+    const vbWidth = Math.max(minVbWidth, 95 + subEstimatedWidth);
+    const displayWidth = 220 * (vbWidth / minVbWidth);
+
     return (
       <svg
-        viewBox="0 0 265 145"
-        width="220" height="120"
+        viewBox={`0 0 ${vbWidth} 145`}
+        width={displayWidth}
+        height="120"
         xmlns="http://www.w3.org/2000/svg"
         aria-label={`Inaxel ${subtitle}`}
         style={{ display: "block", maxWidth: "100%", height: "auto" }}
@@ -33,9 +42,9 @@ export function LogoInaxel({ variant = "compact", subtitle = "KPI" }) {
         </g>
         <text x="2" y="103"
           fontFamily="Inter, -apple-system, sans-serif"
-          fontWeight="700" fontSize="24">
-          <tspan fill={C.gray900}>Inaxel&#160;</tspan>
-          <tspan fill={C.orange}>{subtitle}</tspan>
+          fontWeight="700">
+          <tspan fill={C.gray900} fontSize="24">Inaxel&#160;</tspan>
+          <tspan fill={C.orange} fontSize={subFontSize}>{subtitle}</tspan>
         </text>
         <text x="2" y="126"
           fontFamily="Inter, -apple-system, sans-serif"
@@ -46,14 +55,23 @@ export function LogoInaxel({ variant = "compact", subtitle = "KPI" }) {
     );
   }
 
-  // compact : "inaxel ✶ KPI" (header / sidebar)
+  // compact : "inaxel ✶ KPI [& Projets]" (header / sidebar)
+  const subFontSize = subtitle.length > 5 ? 16 : 26;
+  const subEstimatedWidth = subtitle.length * subFontSize * 0.6;
+  const minVbWidth = 238;
+  const vbWidth = Math.max(minVbWidth, 170 + subEstimatedWidth);
+  const displayWidth = 148 * (vbWidth / minVbWidth);
+  // Y baseline du subtitle remonté un peu si fontSize plus petite pour rester centré
+  const subY = subFontSize >= 26 ? 38 : 32;
+
   return (
     <svg
-      viewBox="0 0 238 52"
-      width="148" height="32"
+      viewBox={`0 0 ${vbWidth} 52`}
+      width={displayWidth}
+      height="32"
       xmlns="http://www.w3.org/2000/svg"
       aria-label={`Inaxel ${subtitle}`}
-      style={{ display: "block", flexShrink: 0 }}
+      style={{ display: "block", flexShrink: 0, maxWidth: "100%", height: "auto" }}
     >
       <text x="2" y="38"
         fontFamily="Inter, -apple-system, sans-serif"
@@ -71,9 +89,9 @@ export function LogoInaxel({ variant = "compact", subtitle = "KPI" }) {
         <line x1="138" y1="26" x2="158" y2="35"/>
         <line x1="138" y1="26" x2="155" y2="40"/>
       </g>
-      <text x="168" y="38"
+      <text x="168" y={subY}
         fontFamily="Inter, -apple-system, sans-serif"
-        fontWeight="700" fontSize="26" fill={C.orange}>
+        fontWeight="700" fontSize={subFontSize} fill={C.orange}>
         {subtitle}
       </text>
     </svg>

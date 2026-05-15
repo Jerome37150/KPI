@@ -122,7 +122,7 @@ export function Sidebar({ tab, onSelect }) {
         borderBottom: `1px solid ${C.line}`,
         display: "flex", alignItems: "center",
       }}>
-        <LogoInaxel variant="compact" subtitle="KPI" />
+        <LogoInaxel variant="compact" subtitle="KPI & Projets" />
       </div>
 
       {/* Navigation */}
