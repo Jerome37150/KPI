@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { LayoutDashboard, FileText, Package, Sparkles, Building2, LineChart, LayoutGrid, Calendar, Lock, Unlock } from 'lucide-react';
+import { LayoutDashboard, FileText, Package, Sparkles, Building2, LineChart, LayoutGrid, Calendar, ClipboardList, Calculator, ShieldAlert, Database, Lock, Unlock } from 'lucide-react';
 import { C, LAYOUT } from '../styles/theme';
 import { LogoInaxel } from './LogoInaxel';
 
@@ -18,9 +18,13 @@ export const NAV_ITEMS = [
   { type: "category", label: "Naxi.G Full Saas" },
   { type: "window",   key: "suivi",          label: "Suivi",           icon: LineChart },
   { type: "window",   key: "immobilisation", label: "Immobilisation",  icon: Building2 },
-  { type: "category", label: "Naxi Full Web", strategie: true },
-  { type: "window",   key: "blueprint",      label: "Blue Print",      icon: LayoutGrid, strategie: true },
-  { type: "window",   key: "gantt",          label: "Gantt",           icon: Calendar,   strategie: true },
+  { type: "category", label: "NAX7 full web", strategie: true },
+  { type: "window",   key: "blueprint",         label: "Blue Print",            icon: LayoutGrid,    strategie: true },
+  { type: "window",   key: "gantt",             label: "Gantt",                 icon: Calendar,      strategie: true },
+  { type: "window",   key: "cahier-des-charges", label: "Cahier des charges",   icon: ClipboardList, strategie: true },
+  { type: "window",   key: "calcul-prix",       label: "Calcul prix",           icon: Calculator,    strategie: true },
+  { type: "window",   key: "rd-mode-degrade",   label: "R&D mode dégradé",      icon: ShieldAlert,   strategie: true },
+  { type: "window",   key: "rd-migration",      label: "R&D migration",         icon: Database,      strategie: true },
 ];
 
 // Verrou visuel sur la section Stratégie
@@ -49,7 +53,7 @@ export function Sidebar({ tab, onSelect }) {
       if (STRATEGIE_KEYS.includes(tab)) onSelect("dashboard");
       return;
     }
-    const pwd = window.prompt("Code d'accès — Naxi Full Web");
+    const pwd = window.prompt("Code d'accès — NAX7 full web");
     if (pwd === null) return; // annulation
     if (pwd === STRAT_PWD) {
       try { sessionStorage.setItem(STRAT_KEY, "ok"); } catch { /* ignore */ }
@@ -142,7 +146,7 @@ export function Sidebar({ tab, onSelect }) {
       <button
         type="button"
         onClick={toggleStrat}
-        title={stratUnlocked ? "Verrouiller Naxi Full Web" : "Saisir le code Naxi Full Web"}
+        title={stratUnlocked ? "Verrouiller NAX7 full web" : "Saisir le code NAX7 full web"}
         style={{
           display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8,
           width: "100%",
