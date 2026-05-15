@@ -139,7 +139,7 @@ export function SuiviPage({ data }) {
   if (items.length === 0) {
     return (
       <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-        <SectionTitle overline="Top Line" icon={LineChart}>Suivi</SectionTitle>
+        <SectionTitle overline="Naxi.G Full Saas" icon={LineChart}>Suivi</SectionTitle>
         <Card padding={32}>
           <div style={{ textAlign: "center", color: C.inkDim, fontSize: 13 }}>
             Aucune fenêtre Top Line dans les données.
@@ -156,7 +156,7 @@ export function SuiviPage({ data }) {
         gap: 16, flexWrap: "wrap",
       }}>
         <SectionTitle
-          overline="Top Line"
+          overline="Naxi.G Full Saas"
           icon={LineChart}
           sub="Suivi des fenêtres par groupe métier · phases sur le calendrier"
         >Suivi</SectionTitle>

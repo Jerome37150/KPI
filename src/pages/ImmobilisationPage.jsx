@@ -110,7 +110,7 @@ export function ImmobilisationPage({ data }) {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
       <SectionTitle
-        overline="Top Line"
+        overline="Naxi.G Full Saas"
         icon={Building2}
         sub="Suivi temps par phase et par mois — données pour dossier CII"
       >Immobilisation</SectionTitle>
