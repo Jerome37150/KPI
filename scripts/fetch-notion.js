@@ -26,9 +26,9 @@ const NOTION_VERSION = '2022-06-28';
 const NOTION_API = 'https://api.notion.com/v1';
 
 const DB_CLASSIQUE   = '3058db15-623a-80d3-9deb-fb95191faa96';
-const DB_TOPLINE     = '3108db15-623a-80ed-bf9a-000b2e7d0ead';
-const DB_SUIVI_LUNDI = 'ce0ddde9-3441-44a7-9cb6-97ac7833266c';
-const DB_EQUIPE      = '4ad9fff6-2853-4c1a-b9a4-0a63c0e40f80';
+const DB_TOPLINE     = '3108db15-623a-8035-a2d5-c3f2e6a97361';
+const DB_SUIVI_LUNDI = '2b9336d7-42d2-4678-a04d-99f57e481552';
+const DB_EQUIPE      = '032f893d-d6ec-4f85-8e55-53a88236c0a0';
 
 const DB_CARTO_PMS_WEB    = 'e712a61e-0880-4bb9-b198-3d1d0bcaedc1';
 const DB_CARTO_PMS_MOBILE = 'd16c64be-2dc6-4f91-8724-5f1068004cc6';
@@ -351,11 +351,18 @@ async function main() {
   console.log(`   → ${classiquePages.length} tickets récupérés`);
   const classique = classiquePages.map(mapClassiquePage);
 
-  console.log('📥 Récupération de la base 👥 Équipe NAXI.G...');
-  const equipePages = await queryAllPages(DB_EQUIPE);
-  console.log(`   → ${equipePages.length} membres récupérés`);
-  const equipe = equipePages.map(mapEquipePage);
-  const equipeMap = new Map(equipe.map(m => [m.id, m]));
+  // Équipe : best-effort (si l'intégration n'a pas accès, les membres seront vides)
+  let equipe = [];
+  let equipeMap = new Map();
+  try {
+    console.log('📥 Récupération de la base 👥 Équipe NAXI.G...');
+    const equipePages = await queryAllPages(DB_EQUIPE);
+    console.log(`   → ${equipePages.length} membres récupérés`);
+    equipe = equipePages.map(mapEquipePage);
+    equipeMap = new Map(equipe.map(m => [m.id, m]));
+  } catch (err) {
+    console.warn(`   ⚠️ Équipe non récupérée (membres prévus = vides) : ${err.message.split('\n')[0]}`);
+  }
 
   console.log('📥 Récupération de la base 📋 Retro-planning Top Line...');
   const toplinePages = await queryAllPages(DB_TOPLINE);
@@ -363,10 +370,16 @@ async function main() {
   const topline = toplinePages.map(p => mapTopLinePage(p, equipeMap));
   const toplineMap = new Map(topline.map(t => [t.id, t]));
 
-  console.log('📥 Récupération de la base 📅 Suivi lundi...');
-  const suiviPages = await queryAllPages(DB_SUIVI_LUNDI);
-  console.log(`   → ${suiviPages.length} saisies récupérées`);
-  const suiviLundi = suiviPages.map(p => mapSuiviLundiPage(p, toplineMap));
+  // Suivi lundi : best-effort (si l'intégration n'a pas accès, l'historique sera vide)
+  let suiviLundi = [];
+  try {
+    console.log('📥 Récupération de la base 📅 Suivi lundi...');
+    const suiviPages = await queryAllPages(DB_SUIVI_LUNDI);
+    console.log(`   → ${suiviPages.length} saisies récupérées`);
+    suiviLundi = suiviPages.map(p => mapSuiviLundiPage(p, toplineMap));
+  } catch (err) {
+    console.warn(`   ⚠️ Suivi lundi non récupéré (CII vide) : ${err.message.split('\n')[0]}`);
+  }
 
   // Cartographies stratégiques (best-effort)
   const cartoPmsWeb    = await fetchCartographie('PMS Web',    DB_CARTO_PMS_WEB);
