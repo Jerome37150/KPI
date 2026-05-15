@@ -207,6 +207,7 @@ function mapSuiviLundiPage(page, toplineMap) {
     etat: extractProp(p, 'Etat', 'select'),
     tempsHeures: heures,
     tempsJours: heures / HOURS_PER_DAY,
+    actions: extractProp(p, 'Actions', 'rich_text') || '',
     remarques: extractProp(p, 'Remarques', 'rich_text') || '',
     fenetreId,
     fenetre: fenetre?.fenetre || null,

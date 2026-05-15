@@ -42,6 +42,7 @@ function downloadCsv(rows) {
     'Groupe',
     'Phase',
     'Jours',
+    'Actions',
   ];
   const lines = [headers.map(csvEscape).join(';')];
   rows.forEach(r => {
@@ -54,6 +55,7 @@ function downloadCsv(rows) {
       r.groupe || '',
       r.phase,
       Number(r.jours.toFixed(3)).toString().replace('.', ','),
+      r.actions || '',
     ].map(csvEscape).join(';'));
   });
   const csv = '﻿' + lines.join('\r\n');

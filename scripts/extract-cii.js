@@ -124,6 +124,7 @@ async function main() {
       jours,
       avancement: s.avancement || 0,
       etat: s.etat || '',
+      actions: s.actions || '',
       remarques: s.remarques || '',
     });
   }
@@ -148,6 +149,7 @@ async function main() {
     'Jours',
     'Avancement',
     'État',
+    'Actions',
   ];
   const lines = [headers.map(csvEscape).join(';')];
   for (const r of rows) {
@@ -162,6 +164,7 @@ async function main() {
       fmtJoursFR(r.jours),
       r.avancement ? `${Math.round(r.avancement * 100)}%` : '',
       r.etat,
+      r.actions,
     ].map(csvEscape).join(';'));
   }
   const csv = '﻿' + lines.join('\r\n');
@@ -184,6 +187,7 @@ async function main() {
     groupe:  r.groupe,
     phase:   r.phase,
     jours:   Number(r.jours.toFixed(3)),
+    actions: r.actions,
   }));
   const jsonPayload = {
     generatedAt: new Date().toISOString(),
