@@ -1,7 +1,7 @@
 ﻿import { useMemo } from 'react';
 import {
   LayoutDashboard, Inbox, Bug, Wrench, Sparkles, Layers, Target, Package,
-  Building2, ArrowUpRight,
+  ArrowUpRight,
 } from 'lucide-react';
 import { C, RADIUS } from '../styles/theme';
 import { Card } from '../components/primitives/Card';
@@ -10,7 +10,7 @@ import { KpiCard } from '../components/KpiCard';
 import { BreakdownCard } from '../components/BreakdownCard';
 import { TimelineChart } from '../components/TimelineChart';
 import { TicketsTable } from '../components/TicketsTable';
-import { CLASSIF_COLORS, PRIO_COLORS, paletteColor } from '../utils/colors';
+import { CLASSIF_COLORS, PRIO_COLORS } from '../utils/colors';
 import { NOW, shiftMonth, isInMonth, monthLabel, monthLabelShort } from '../utils/dates';
 
 const BUG_CLASSIFS = ["BUG D'USAGE", "BUG OPERATIONNEL", "BUG STRUCTURANT"];
@@ -32,9 +32,6 @@ function parseSprint(label) {
   if (y < 100) y += 2000;
   return new Date(y, idx, 1);
 }
-
-// Top Line phases
-const TL_PHASES = ["maquette", "back", "front", "design", "test"];
 
 function compareVersions(a, b) {
   const pa = String(a).split(".").map(n => parseInt(n, 10) || 0);
@@ -74,18 +71,11 @@ function buildEntries(currentMap, previousMap, fixedOrder = null) {
     .sort((a, b) => Math.max(b.current, b.previous) - Math.max(a.current, a.previous));
 }
 
-function formatDays(n) {
-  if (!n) return "0 j";
-  if (Number.isInteger(n)) return `${n} j`;
-  return `${Number(n.toFixed(1))} j`;
-}
-
 // ============================================
 // DashboardPage — vue macro NAXI.G
 // ============================================
 export function DashboardPage({ data, onNavigate }) {
   const tickets = data.classique || [];
-  const topline = data.topline || [];
 
   // ── Tickets : courant / précédent (mois) ──
   const currentMonth  = new Date(NOW.getFullYear(), NOW.getMonth(), 1);
@@ -169,43 +159,6 @@ export function DashboardPage({ data, onNavigate }) {
       bug, dev,
     };
   }, [tickets]);
-
-  // ── Top Line agrégats ──
-  const tlInfo = useMemo(() => {
-    if (topline.length === 0) return null;
-    let totalTime = 0, sumAv = 0, totalPhases = 0, done = 0;
-    const blocs = new Map();
-    topline.forEach(t => {
-      if (!t.groupe) return;
-      if (!blocs.has(t.groupe)) {
-        blocs.set(t.groupe, { name: t.groupe, count: 0, time: 0, sumAv: 0, n: 0, fait: 0 });
-      }
-      const b = blocs.get(t.groupe);
-      b.count++;
-      TL_PHASES.forEach(p => {
-        const v = t.avancement?.[p] || 0;
-        const tm = t.temps?.[p] || 0;
-        b.time   += tm;
-        b.sumAv  += v;
-        b.n++;
-        if (t.etat?.[p] === "FAIT") { b.fait++; done++; }
-        totalTime += tm;
-        sumAv += v;
-        totalPhases++;
-      });
-    });
-    const blocList = [...blocs.values()]
-      .map(b => ({ ...b, avgPct: b.n > 0 ? Math.round((b.sumAv / b.n) * 100) : 0 }))
-      .sort((a, b) => b.count - a.count)
-      .slice(0, 6);
-    return {
-      total: topline.filter(t => t.groupe).length,
-      totalTime,
-      avgPct: totalPhases > 0 ? Math.round((sumAv / totalPhases) * 100) : 0,
-      done, totalPhases,
-      blocs: blocList,
-    };
-  }, [topline]);
 
   // ── Breakdowns ──
   const classifEntries = buildEntries(
@@ -341,46 +294,6 @@ export function DashboardPage({ data, onNavigate }) {
         />
       </div>
 
-      {/* Row 5 — Top Line preview */}
-      {tlInfo && (
-        <Card padding={0} style={{ overflow: "hidden" }}>
-          <div style={{
-            padding: "16px 20px",
-            borderBottom: `1px solid ${C.line}`,
-            display: "flex", justifyContent: "space-between", alignItems: "center",
-            gap: 12, flexWrap: "wrap",
-          }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <Building2 size={13} color={C.orange} strokeWidth={2.2} />
-              <div style={{
-                fontSize: 11, letterSpacing: "0.06em", textTransform: "uppercase",
-                color: C.orange, fontWeight: 700,
-              }}>Top Line · vue par groupe</div>
-            </div>
-            <div style={{ display: "inline-flex", alignItems: "center", gap: 16 }}>
-              <span style={{ fontSize: 11, color: C.inkDim }}>
-                <span style={{ color: C.inkSoft, fontWeight: 700 }}>{tlInfo.total}</span> fenêtres ·{" "}
-                <span style={{ color: C.inkSoft, fontWeight: 700 }}>{tlInfo.avgPct}%</span> avancement ·{" "}
-                <span style={{ color: C.inkSoft, fontWeight: 700 }}>{formatDays(tlInfo.totalTime)}</span>
-              </span>
-              {onNavigate && (
-                <NavLink onClick={() => onNavigate("suivi")}>Voir Suivi</NavLink>
-              )}
-            </div>
-          </div>
-          <div style={{
-            padding: 16,
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
-            gap: 12,
-          }}>
-            {tlInfo.blocs.map((b, i) => (
-              <MiniBlocCard key={b.name} bloc={b} color={paletteColor(i)} />
-            ))}
-          </div>
-        </Card>
-      )}
-
       {/* Row 6 — Activité récente */}
       <TicketsTable tickets={tickets} limit={5} title="5 derniers tickets enregistrés" />
     </div>
@@ -446,46 +359,6 @@ function SummaryCard({ icon: Icon, overline, title, subTitle, stats, accent, onN
         </div>
       )}
     </Card>
-  );
-}
-
-function MiniBlocCard({ bloc, color }) {
-  return (
-    <div style={{
-      padding: "12px 14px",
-      borderRadius: RADIUS.md,
-      background: C.bgSoft,
-      border: `1px solid ${C.line}`,
-      borderTop: `2px solid ${color}`,
-    }}>
-      <div style={{
-        display: "flex", justifyContent: "space-between", alignItems: "baseline",
-        gap: 8, marginBottom: 4,
-      }}>
-        <span style={{
-          fontSize: 12, fontWeight: 700, color: C.ink,
-          maxWidth: "70%", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
-        }} title={bloc.name}>{bloc.name}</span>
-        <span style={{
-          fontSize: 16, fontWeight: 700, color, fontVariantNumeric: "tabular-nums",
-          letterSpacing: "-0.01em",
-        }}>{bloc.count}</span>
-      </div>
-      <div style={{
-        height: 4, background: C.gray100, borderRadius: RADIUS.sm,
-        overflow: "hidden", marginBottom: 6,
-      }}>
-        <div style={{
-          width: `${bloc.avgPct}%`, height: "100%",
-          background: bloc.avgPct >= 100 ? C.green : color,
-          borderRadius: RADIUS.sm,
-        }} />
-      </div>
-      <div style={{ display: "flex", justifyContent: "space-between", fontSize: 10, color: C.inkDim }}>
-        <span style={{ fontWeight: 600, color: C.inkSoft }}>{bloc.avgPct}%</span>
-        <span>{bloc.time > 0 ? formatDays(bloc.time) : "—"}</span>
-      </div>
-    </div>
   );
 }
 
