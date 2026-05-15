@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T13:47:31.510Z",
+  "generatedAt": "2026-05-15T14:43:26.152Z",
   "source": "suiviLundi",
   "rows": [
     {
@@ -10,7 +10,8 @@
       "fenetre": "Page de connexion",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W11",
@@ -20,7 +21,8 @@
       "fenetre": "Listing réservation",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W11",
@@ -30,7 +32,8 @@
       "fenetre": "Page de connexion",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W11",
@@ -40,7 +43,8 @@
       "fenetre": "Listing indispo",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W11",
@@ -50,7 +54,8 @@
       "fenetre": "Page de connexion",
       "groupe": "HOME",
       "phase": "Design",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W11",
@@ -60,7 +65,8 @@
       "fenetre": "Listing réservation",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W11",
@@ -70,7 +76,8 @@
       "fenetre": "Listing séjours",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W11",
@@ -80,7 +87,8 @@
       "fenetre": "Page de connexion",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W11",
@@ -90,7 +98,8 @@
       "fenetre": "Listing séjours",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W12",
@@ -100,7 +109,8 @@
       "fenetre": "Listing réservation",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W12",
@@ -110,7 +120,8 @@
       "fenetre": "Listing séjours",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W12",
@@ -120,7 +131,8 @@
       "fenetre": "Listing réservation",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W12",
@@ -130,7 +142,8 @@
       "fenetre": "Télémaintenance",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W12",
@@ -140,7 +153,8 @@
       "fenetre": "Listing réservation",
       "groupe": "HOME",
       "phase": "Design",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W12",
@@ -150,7 +164,8 @@
       "fenetre": "Listing séjours",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W12",
@@ -160,7 +175,8 @@
       "fenetre": "Listing indispo",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W12",
@@ -170,7 +186,8 @@
       "fenetre": "Listing réservation",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W12",
@@ -180,7 +197,8 @@
       "fenetre": "Listing indispo",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W13",
@@ -190,7 +208,8 @@
       "fenetre": "Listing séjours",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W13",
@@ -200,7 +219,8 @@
       "fenetre": "Listing indispo",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W13",
@@ -210,7 +230,8 @@
       "fenetre": "Listing séjours",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W13",
@@ -220,7 +241,8 @@
       "fenetre": "Liste des cautions",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W13",
@@ -230,7 +252,8 @@
       "fenetre": "Listing séjours",
       "groupe": "HOME",
       "phase": "Design",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W13",
@@ -240,7 +263,8 @@
       "fenetre": "Listing indispo",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W13",
@@ -250,7 +274,8 @@
       "fenetre": "Télémaintenance",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W13",
@@ -260,7 +285,8 @@
       "fenetre": "Listing séjours",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W13",
@@ -270,7 +296,8 @@
       "fenetre": "Télémaintenance",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W14",
@@ -280,7 +307,8 @@
       "fenetre": "Listing indispo",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W14",
@@ -290,7 +318,8 @@
       "fenetre": "Télémaintenance",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W14",
@@ -300,7 +329,8 @@
       "fenetre": "Listing indispo",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W14",
@@ -310,7 +340,8 @@
       "fenetre": "Remise en banque",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W14",
@@ -320,7 +351,8 @@
       "fenetre": "Télémaintenance",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W14",
@@ -330,7 +362,8 @@
       "fenetre": "Liste des cautions",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W14",
@@ -340,7 +373,8 @@
       "fenetre": "Listing indispo",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W14",
@@ -350,7 +384,8 @@
       "fenetre": "Liste des cautions",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W15",
@@ -360,7 +395,8 @@
       "fenetre": "Télémaintenance",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W15",
@@ -370,7 +406,8 @@
       "fenetre": "Liste des cautions",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W15",
@@ -380,7 +417,8 @@
       "fenetre": "Télémaintenance",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W15",
@@ -390,7 +428,8 @@
       "fenetre": "Historiques des ventes",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W15",
@@ -400,7 +439,8 @@
       "fenetre": "Télémaintenance",
       "groupe": "HOME",
       "phase": "Design",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W15",
@@ -410,7 +450,8 @@
       "fenetre": "Liste des cautions",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W15",
@@ -420,7 +461,8 @@
       "fenetre": "Remise en banque",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W15",
@@ -430,7 +472,8 @@
       "fenetre": "Télémaintenance",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W15",
@@ -440,7 +483,8 @@
       "fenetre": "Remise en banque",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W16",
@@ -450,7 +494,8 @@
       "fenetre": "Liste des cautions",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W16",
@@ -460,7 +505,8 @@
       "fenetre": "Remise en banque",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W16",
@@ -470,7 +516,8 @@
       "fenetre": "Liste des cautions",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W16",
@@ -480,7 +527,8 @@
       "fenetre": "Listing occupation",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W16",
@@ -490,7 +538,8 @@
       "fenetre": "Liste des cautions",
       "groupe": "HOME",
       "phase": "Design",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W16",
@@ -500,7 +549,8 @@
       "fenetre": "Remise en banque",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W16",
@@ -510,7 +560,8 @@
       "fenetre": "Historiques des ventes",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W16",
@@ -520,7 +571,8 @@
       "fenetre": "Liste des cautions",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W16",
@@ -530,7 +582,8 @@
       "fenetre": "Historiques des ventes",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W17",
@@ -540,7 +593,8 @@
       "fenetre": "Remise en banque",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W17",
@@ -550,7 +604,8 @@
       "fenetre": "Historiques des ventes",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W17",
@@ -560,7 +615,8 @@
       "fenetre": "Remise en banque",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W17",
@@ -570,7 +626,8 @@
       "fenetre": "Recherche client",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W17",
@@ -580,7 +637,8 @@
       "fenetre": "Remise en banque",
       "groupe": "HOME",
       "phase": "Design",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W17",
@@ -590,7 +648,8 @@
       "fenetre": "Controle de Caisse",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 1.429
+      "jours": 1.429,
+      "actions": ""
     },
     {
       "week": "2026-W17",
@@ -600,7 +659,8 @@
       "fenetre": "Historiques des ventes",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W17",
@@ -610,7 +670,8 @@
       "fenetre": "Listing occupation",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W17",
@@ -620,7 +681,8 @@
       "fenetre": "Remise en banque",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W17",
@@ -630,7 +692,8 @@
       "fenetre": "Remise en banque",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 2.143
+      "jours": 2.143,
+      "actions": ""
     },
     {
       "week": "2026-W17",
@@ -640,7 +703,8 @@
       "fenetre": "Listing occupation",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W18",
@@ -650,7 +714,8 @@
       "fenetre": "Historiques des ventes",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W18",
@@ -660,7 +725,8 @@
       "fenetre": "Listing occupation",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W18",
@@ -670,7 +736,8 @@
       "fenetre": "Historiques des ventes",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W18",
@@ -680,7 +747,8 @@
       "fenetre": "Recherche dispo",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W18",
@@ -690,7 +758,8 @@
       "fenetre": "Historiques des ventes",
       "groupe": "HOME",
       "phase": "Design",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W18",
@@ -700,7 +769,8 @@
       "fenetre": "détails des transactions",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 1.714
+      "jours": 1.714,
+      "actions": ""
     },
     {
       "week": "2026-W18",
@@ -710,7 +780,8 @@
       "fenetre": "Listing occupation",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W18",
@@ -720,7 +791,8 @@
       "fenetre": "Recherche client",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W18",
@@ -730,7 +802,8 @@
       "fenetre": "Historiques des ventes",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 1.429
+      "jours": 1.429,
+      "actions": ""
     },
     {
       "week": "2026-W18",
@@ -740,7 +813,8 @@
       "fenetre": "Recherche client",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W19",
@@ -750,7 +824,8 @@
       "fenetre": "Listing occupation",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W19",
@@ -760,7 +835,8 @@
       "fenetre": "Recherche client",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W19",
@@ -770,7 +846,8 @@
       "fenetre": "Listing occupation",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W19",
@@ -780,7 +857,8 @@
       "fenetre": "Controle d’accès",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W19",
@@ -790,7 +868,8 @@
       "fenetre": "Controle de Caisse",
       "groupe": "HOME",
       "phase": "Design",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W19",
@@ -800,7 +879,8 @@
       "fenetre": "Controle d’accès",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 2
+      "jours": 2,
+      "actions": ""
     },
     {
       "week": "2026-W19",
@@ -810,7 +890,8 @@
       "fenetre": "Recherche client",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W19",
@@ -820,7 +901,8 @@
       "fenetre": "Recherche dispo",
       "groupe": "HOME",
       "phase": "Maquette / UX",
-      "jours": 4
+      "jours": 4,
+      "actions": ""
     },
     {
       "week": "2026-W19",
@@ -830,7 +912,8 @@
       "fenetre": "Listing occupation",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     },
     {
       "week": "2026-W19",
@@ -840,7 +923,8 @@
       "fenetre": "Rech dispo plan camping",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 1.714
+      "jours": 1.714,
+      "actions": ""
     },
     {
       "week": "2026-W19",
@@ -850,7 +934,8 @@
       "fenetre": "Recherche dispo",
       "groupe": "HOME",
       "phase": "Front",
-      "jours": 3.2
+      "jours": 3.2,
+      "actions": ""
     }
   ]
 }
