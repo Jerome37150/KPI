@@ -1,12 +1,13 @@
 import { ClipboardList } from 'lucide-react';
 import { PagePlaceholder } from '../components/primitives/PagePlaceholder';
 
-export function CahierDesChargesPage() {
+// Page générique réutilisée par chaque projet (NAX7 full web, Nax7 light, etc.)
+export function CahierDesChargesPage({ project }) {
   return (
     <PagePlaceholder
-      overline="NAX7 full web"
+      overline={project}
       title="Cahier des charges"
-      description="Spécifications fonctionnelles et techniques du projet NAX7 full web."
+      description={`Spécifications fonctionnelles et techniques du projet ${project}.`}
       icon={ClipboardList}
     />
   );

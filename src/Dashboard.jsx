@@ -17,6 +17,9 @@ import { CalculPrixPage } from './pages/CalculPrixPage';
 import { RdModeDegradePage } from './pages/RdModeDegradePage';
 import { RdMigrationPage } from './pages/RdMigrationPage';
 
+// Wrappers pour les Cahiers des charges par projet
+const Cdc = (project) => () => <CahierDesChargesPage project={project} />;
+
 // ============================================
 // PAGES — registre des pages connues (clé = id route, label = titre header)
 // ============================================
@@ -27,12 +30,21 @@ const PAGES = {
   sprint:         { label: "Sprint en cours", Component: SprintPage         },
   suivi:          { label: "Suivi Top Line",  Component: SuiviPage          },
   immobilisation: { label: "Immobilisation",  Component: ImmobilisationPage },
-  blueprint:           { label: "Blue Print",            Component: BluePrintPage         },
-  gantt:               { label: "Gantt",                 Component: GanttPage             },
-  "cahier-des-charges": { label: "Cahier des charges",    Component: CahierDesChargesPage  },
-  "calcul-prix":       { label: "Calcul prix",           Component: CalculPrixPage        },
-  "rd-mode-degrade":   { label: "R&D mode dégradé",      Component: RdModeDegradePage     },
-  "rd-migration":      { label: "R&D migration",         Component: RdMigrationPage       },
+
+  // NAX7 full web
+  blueprint:                  { label: "Blue Print",                          Component: BluePrintPage      },
+  gantt:                      { label: "Gantt",                               Component: GanttPage          },
+  "cdc-nax7-full-web":        { label: "NAX7 full web · Cahier des charges",  Component: Cdc("NAX7 full web") },
+  "calcul-prix":              { label: "Calcul prix",                         Component: CalculPrixPage     },
+  "rd-mode-degrade":          { label: "R&D mode dégradé",                    Component: RdModeDegradePage  },
+  "rd-migration":             { label: "R&D migration",                       Component: RdMigrationPage    },
+
+  // Autres projets — uniquement Cahier des charges pour l'instant
+  "cdc-nax7-light":           { label: "Nax7 light · Cahier des charges",            Component: Cdc("Nax7 light") },
+  "cdc-nax7-manager":         { label: "Nax7 Manager · Cahier des charges",          Component: Cdc("Nax7 Manager") },
+  "cdc-inaxel-pilot":         { label: "Inaxel Pilot · Cahier des charges",          Component: Cdc("Inaxel Pilot") },
+  "cdc-espace-client-resident": { label: "Espace client & Résident · Cahier des charges", Component: Cdc("Espace client & Résident") },
+  "cdc-espace-client-inaxel": { label: "Espace client (site inaxel) · Cahier des charges", Component: Cdc("Espace client (site inaxel)") },
 };
 
 // ============================================
