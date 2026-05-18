@@ -1,6 +1,6 @@
-import { useMemo, useState } from 'react';
-import { Building2, Download } from 'lucide-react';
-import { C, RADIUS } from '../styles/theme';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { Building2, Download, ChevronDown } from 'lucide-react';
+import { C, RADIUS, SHADOW } from '../styles/theme';
 import { Card } from '../components/primitives/Card';
 import { SectionTitle } from '../components/primitives/SectionTitle';
 import { KNOWN_PROJECTS } from '../components/Sidebar';
@@ -191,14 +191,11 @@ export function ImmobilisationPage({ data }) {
           emptyHint="Tous les projets"
         />
         <div style={{ height: 12 }} />
-        <FilterRow
-          label="Mois"
+        <MonthDropdown
           options={allMonths}
-          renderOption={monthLabel}
           selected={selectedMonths}
           onToggle={toggleMonth}
           onClear={() => setSelectedMonths(new Set())}
-          emptyHint="Tous les mois"
         />
       </Card>
 
@@ -399,6 +396,137 @@ function FilterRow({ label, options, renderOption, selected, onToggle, onClear, 
           </button>
         );
       })}
+    </div>
+  );
+}
+
+// ── Dropdown multi-sélection des mois ──
+// Bouton compact qui ouvre un panneau avec checkboxes (groupées par année).
+function MonthDropdown({ options, selected, onToggle, onClear }) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef(null);
+
+  // Click-outside fermeture
+  useEffect(() => {
+    if (!open) return;
+    const handler = (e) => {
+      if (ref.current && !ref.current.contains(e.target)) setOpen(false);
+    };
+    window.addEventListener('mousedown', handler);
+    return () => window.removeEventListener('mousedown', handler);
+  }, [open]);
+
+  const allOn = selected.size === 0;
+  const summary = allOn
+    ? 'Tous les mois'
+    : selected.size === 1
+      ? monthLabel([...selected][0])
+      : `${selected.size} mois sélectionnés`;
+
+  // Groupe par année (les mois sont triés)
+  const byYear = useMemo(() => {
+    const m = new Map();
+    options.forEach(ym => {
+      const y = ym.slice(0, 4);
+      if (!m.has(y)) m.set(y, []);
+      m.get(y).push(ym);
+    });
+    return [...m.entries()];
+  }, [options]);
+
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+      <span style={{
+        fontSize: 11, letterSpacing: '0.06em', textTransform: 'uppercase',
+        color: C.inkDim, fontWeight: 700, minWidth: 64,
+      }}>Mois</span>
+      <div ref={ref} style={{ position: 'relative' }}>
+        <button
+          type="button"
+          onClick={() => setOpen(o => !o)}
+          style={{
+            display: 'inline-flex', alignItems: 'center', gap: 8,
+            padding: '6px 12px', borderRadius: RADIUS.sm,
+            background: allOn ? 'transparent' : C.orangeBg,
+            color: allOn ? C.inkSoft : C.orange,
+            border: `1px solid ${allOn ? C.line : C.orange}`,
+            cursor: 'pointer', fontSize: 12, fontWeight: 600,
+            fontFamily: 'inherit', minWidth: 180,
+            justifyContent: 'space-between',
+            transition: 'background 0.12s, color 0.12s',
+          }}
+        >
+          <span>{summary}</span>
+          <ChevronDown size={13} strokeWidth={2.2} style={{
+            transition: 'transform 0.15s',
+            transform: open ? 'rotate(180deg)' : 'rotate(0)',
+          }} />
+        </button>
+
+        {open && (
+          <div style={{
+            position: 'absolute', top: 'calc(100% + 4px)', left: 0,
+            background: C.paper,
+            border: `1px solid ${C.line}`,
+            borderRadius: RADIUS.md,
+            boxShadow: SHADOW.card,
+            padding: 8,
+            minWidth: 240, maxHeight: 360, overflowY: 'auto',
+            zIndex: 10,
+          }}>
+            <button
+              type="button"
+              onClick={() => { onClear(); }}
+              style={{
+                display: 'block', width: '100%',
+                padding: '6px 10px',
+                background: allOn ? C.orange : 'transparent',
+                color: allOn ? '#fff' : C.inkSoft,
+                border: `1px solid ${allOn ? C.orange : C.line}`,
+                borderRadius: RADIUS.sm,
+                cursor: 'pointer', fontSize: 11, fontWeight: 700,
+                fontFamily: 'inherit',
+                marginBottom: 6, textAlign: 'left',
+              }}
+            >
+              Tous les mois
+            </button>
+            {byYear.map(([year, monthsOfYear]) => (
+              <div key={year} style={{ marginBottom: 4 }}>
+                <div style={{
+                  fontSize: 10, letterSpacing: '0.06em', textTransform: 'uppercase',
+                  color: C.inkMute, fontWeight: 700,
+                  padding: '6px 6px 2px',
+                }}>{year}</div>
+                {monthsOfYear.map(ym => {
+                  const isOn = selected.has(ym);
+                  return (
+                    <label key={ym} style={{
+                      display: 'flex', alignItems: 'center', gap: 8,
+                      padding: '5px 8px', borderRadius: RADIUS.sm,
+                      cursor: 'pointer', fontSize: 12,
+                      color: isOn ? C.ink : C.inkSoft,
+                      background: isOn ? C.gray50 : 'transparent',
+                      transition: 'background 0.1s',
+                    }}
+                    onMouseEnter={e => { if (!isOn) e.currentTarget.style.background = C.gray50; }}
+                    onMouseLeave={e => { if (!isOn) e.currentTarget.style.background = 'transparent'; }}
+                    >
+                      <input
+                        type="checkbox"
+                        checked={isOn}
+                        onChange={() => onToggle(ym)}
+                        style={{ cursor: 'pointer', accentColor: C.orange }}
+                      />
+                      {monthLabel(ym)}
+                    </label>
+                  );
+                })}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }
