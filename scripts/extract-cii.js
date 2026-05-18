@@ -3,7 +3,7 @@
  * pour un dossier Crédit d'Impôt Innovation (CII).
  *
  * Source : `public/data.json` → `suiviLundi[]`
- *   Chaque saisie (📅 Suivi lundi) est l'historique canonique :
+ *   Chaque saisie (📅 Suivi Hebdo) est l'historique canonique :
  *     { personne, fenetreId, fenetre, fenetreGroupe, semaine (lundi),
  *       phase, tempsHeures, tempsJours, avancement, etat, remarques }
  *

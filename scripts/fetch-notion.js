@@ -7,7 +7,7 @@
  * Bases Notion :
  *  - Sprint Classique NAXI.G        : 3058db15-623a-80d3-9deb-fb95191faa96
  *  - 📋 Retro-planning Top Line     : 3108db15-623a-80ed-bf9a-000b2e7d0ead
- *  - 📅 Suivi lundi (saisies hebdo) : ce0ddde9-3441-44a7-9cb6-97ac7833266c
+ *  - 📅 Suivi Hebdo (saisies hebdo) : ce0ddde9-3441-44a7-9cb6-97ac7833266c
  *  - 👥 Équipe NAXI.G               : 4ad9fff6-2853-4c1a-b9a4-0a63c0e40f80
  *
  * Cartographies stratégiques (PMS Web / PMS Mobile / Manager) : best-effort.
@@ -215,7 +215,7 @@ function mapEquipePage(page) {
   };
 }
 
-// === Mapping Suivi lundi ===
+// === Mapping Suivi Hebdo ===
 function mapSuiviLundiPage(page, toplineMap, equipeMap) {
   const p = page.properties;
   const heures = extractProp(p, 'Temps semaine (h)', 'number') || 0;
@@ -312,7 +312,7 @@ function mapTopLinePage(page, equipeMap) {
       test:     memberNames('Membre TEST'),
     },
 
-    // Avancement dérivé (rollup max sur snapshots Suivi lundi)
+    // Avancement dérivé (rollup max sur snapshots Suivi Hebdo)
     avancement: {
       maquette: avancement('Dernier avancement MAQUETTE'),
       back:     avancement('Dernier avancement BACK'),
@@ -411,15 +411,15 @@ async function main() {
   const topline = toplinePages.map(p => mapTopLinePage(p, equipeMap));
   const toplineMap = new Map(topline.map(t => [t.id, t]));
 
-  // Suivi lundi : best-effort (si l'intégration n'a pas accès, l'historique sera vide)
+  // Suivi Hebdo : best-effort (si l'intégration n'a pas accès, l'historique sera vide)
   let suiviLundi = [];
   try {
-    console.log('📥 Récupération de la base 📅 Suivi lundi...');
+    console.log('📥 Récupération de la base 📅 Suivi Hebdo...');
     const suiviPages = await queryAllPages(DB_SUIVI_LUNDI);
     console.log(`   → ${suiviPages.length} saisies récupérées`);
     suiviLundi = suiviPages.map(p => mapSuiviLundiPage(p, toplineMap, equipeMap));
   } catch (err) {
-    console.warn(`   ⚠️ Suivi lundi non récupéré (CII vide) : ${err.message.split('\n')[0]}`);
+    console.warn(`   ⚠️ Suivi Hebdo non récupéré (CII vide) : ${err.message.split('\n')[0]}`);
   }
 
   // Cartographies stratégiques (best-effort)

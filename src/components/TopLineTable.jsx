@@ -6,7 +6,7 @@ import { Card } from './primitives/Card';
 // ============================================
 // TopLineTable — fenêtres Top Line avec colonnes Membres / Temps
 // Triables, filtrables, exportable CSV
-// Source : rollups depuis Suivi lundi (temps cumulé, avancement, état)
+// Source : rollups depuis Suivi Hebdo (temps cumulé, avancement, état)
 // ============================================
 const PHASES = [
   { key: "maquette", label: "Maq." },
