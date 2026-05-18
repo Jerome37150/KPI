@@ -25,10 +25,10 @@ export const NAV_ITEMS = [
   { type: "category", label: "Sprint" },
   { type: "window",   key: "sprint",         label: "Sprint en cours", icon: Sparkles },
 
-  { type: "category", label: "Naxi.G Full Saas" },
-  { type: "window",   key: "naxi-saas-cdc",  label: "Cahier des charges",              icon: ClipboardList },
-  { type: "window",   key: "suivi",          label: "Suivi",           icon: LineChart },
-  { type: "window",   key: "immobilisation", label: "Immobilisation",  icon: Building2 },
+  { type: "category", key: "naxi-saas",     label: "Naxi.G Full Saas", collapsible: true },
+  { type: "window",   key: "naxi-saas-cdc", label: "Cahier des charges", icon: ClipboardList, parent: "naxi-saas" },
+  { type: "window",   key: "suivi",         label: "Suivi",              icon: LineChart,     parent: "naxi-saas" },
+  { type: "window",   key: "immobilisation", label: "Immobilisation",    icon: Building2,     parent: "naxi-saas" },
 
   // ── Projets stratégiques (verrouillés derrière un code, repliés par défaut) ──
   { type: "category", key: "nax7-full-web",      label: "NAX7 full web",            collapsible: true, strategie: true },
