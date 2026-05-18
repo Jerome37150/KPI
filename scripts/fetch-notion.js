@@ -223,10 +223,18 @@ function mapSuiviLundiPage(page, toplineMap, equipeMap) {
   const fenetreId = topLineIds[0] || null;
   const fenetre = fenetreId ? toplineMap.get(fenetreId) : null;
 
-  // Personne : relation Équipe NAXI.G en priorité, sinon fallback sur l'ancien select
-  const personneRelIds = extractProp(p, '👥 Équipe NAXI.G', 'relation');
-  const personneFromRel = personneRelIds[0] ? (equipeMap?.get(personneRelIds[0])?.nom || null) : null;
-  const personneFromSelect = extractProp(p, 'Personne', 'select');
+  // Personne : tolère 3 états de migration
+  //  - avant renommage : relation "👥 Équipe NAXI.G" + select "Personne"
+  //  - pendant         : relation "Personne" + select "Personne (legacy)"
+  //  - après nettoyage : relation "Personne" seule
+  const persRelIds =
+    extractProp(p, 'Personne', 'relation') ||
+    extractProp(p, '👥 Équipe NAXI.G', 'relation') ||
+    [];
+  const personneFromRel = persRelIds[0] ? (equipeMap?.get(persRelIds[0])?.nom || null) : null;
+  const personneFromSelect =
+    extractProp(p, 'Personne (legacy)', 'select') ||
+    extractProp(p, 'Personne', 'select');
 
   return {
     id: page.id,
