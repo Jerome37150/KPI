@@ -26,7 +26,7 @@ export const NAV_ITEMS = [
   { type: "window",   key: "sprint",         label: "Sprint en cours", icon: Sparkles },
 
   { type: "category", label: "Naxi.G Full Saas" },
-  { type: "window",   key: "naxi-saas-cdc",  label: "Cahier des charges & livraison", icon: ClipboardList },
+  { type: "window",   key: "naxi-saas-cdc",  label: "Cahier des charges",              icon: ClipboardList },
   { type: "window",   key: "suivi",          label: "Suivi",           icon: LineChart },
   { type: "window",   key: "immobilisation", label: "Immobilisation",  icon: Building2 },
 

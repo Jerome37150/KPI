@@ -29,7 +29,7 @@ const PAGES = {
   enregistrement: { label: "Enregistrement",  Component: EnregistrementPage },
   version:        { label: "Version",         Component: VersionPage        },
   sprint:         { label: "Sprint en cours", Component: SprintPage         },
-  "naxi-saas-cdc":{ label: "Cahier des charges & livraison · Naxi Saas", Component: CahierDesChargesNaxiSaasPage },
+  "naxi-saas-cdc":{ label: "Cahier des charges · Naxi Saas", Component: CahierDesChargesNaxiSaasPage },
   suivi:          { label: "Suivi Top Line",  Component: SuiviPage          },
   immobilisation: { label: "Immobilisation",  Component: ImmobilisationPage },
 

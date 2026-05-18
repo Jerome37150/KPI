@@ -66,7 +66,7 @@ export function CahierDesChargesNaxiSaasPage() {
         overline="Naxi.G Full Saas"
         icon={ClipboardList}
         sub="Objectifs, périmètre fonctionnel et rétro-planning de livraison"
-      >Cahier des charges & livraison</SectionTitle>
+      >Cahier des charges</SectionTitle>
 
       {/* Objectifs */}
       <Card padding={24} style={{
