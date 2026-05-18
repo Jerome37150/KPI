@@ -138,6 +138,32 @@ function rollupSelectNames(props, name) {
   return arr.map(o => o?.select?.name).filter(Boolean);
 }
 
+// Rollup sur une relation → liste de noms (résolus via equipeMap)
+// Gère aussi le cas legacy où le rollup pointait encore sur l'ancien select Personne
+function rollupRelationNames(props, name, equipeMap) {
+  const arr = extractProp(props, name, 'rollup_array');
+  const names = [];
+  for (const o of arr) {
+    // Nouvelle forme : rollup d'une relation → objet { type: 'relation', relation: [{id}] }
+    if (o?.type === 'relation' && Array.isArray(o.relation)) {
+      for (const r of o.relation) {
+        const eq = equipeMap?.get(r.id);
+        if (eq?.nom) names.push(eq.nom);
+      }
+    }
+    // Forme legacy : rollup d'un select → objet { select: { name } }
+    else if (o?.select?.name) {
+      names.push(o.select.name);
+    }
+    // Forme "show_original" sur relation → objet page direct { id, properties }
+    else if (o?.id) {
+      const eq = equipeMap?.get(o.id);
+      if (eq?.nom) names.push(eq.nom);
+    }
+  }
+  return [...new Set(names)]; // dédoublonnage
+}
+
 // === Mapping Sprint Classique (inchangé) ===
 function mapClassiquePage(page) {
   const p = page.properties;
@@ -190,18 +216,23 @@ function mapEquipePage(page) {
 }
 
 // === Mapping Suivi lundi ===
-function mapSuiviLundiPage(page, toplineMap) {
+function mapSuiviLundiPage(page, toplineMap, equipeMap) {
   const p = page.properties;
   const heures = extractProp(p, 'Temps semaine (h)', 'number') || 0;
   const topLineIds = extractProp(p, 'Top Line', 'relation');
   const fenetreId = topLineIds[0] || null;
   const fenetre = fenetreId ? toplineMap.get(fenetreId) : null;
 
+  // Personne : relation Équipe NAXI.G en priorité, sinon fallback sur l'ancien select
+  const personneRelIds = extractProp(p, '👥 Équipe NAXI.G', 'relation');
+  const personneFromRel = personneRelIds[0] ? (equipeMap?.get(personneRelIds[0])?.nom || null) : null;
+  const personneFromSelect = extractProp(p, 'Personne', 'select');
+
   return {
     id: page.id,
     saisie: extractProp(p, 'Saisie', 'title') || '',
     semaine: extractProp(p, 'Semaine', 'date'),
-    personne: extractProp(p, 'Personne', 'select'),
+    personne: personneFromRel || personneFromSelect,
     phase: extractProp(p, 'Phase', 'select'),
     avancement: extractProp(p, 'Avancement', 'number') || 0,
     etat: extractProp(p, 'Etat', 'select'),
@@ -300,8 +331,9 @@ function mapTopLinePage(page, equipeMap) {
       test:     tempsJ('Temps cumulé TEST'),
     },
 
-    // Contributeurs réels (rollup show_unique sur Personne) — qui a effectivement saisi
-    contributeursReels: rollupSelectNames(p, 'Contributeurs réels'),
+    // Contributeurs réels — qui a effectivement saisi
+    // Tolère 2 formes : rollup sur relation Équipe (nouvelle) ou sur select Personne (legacy)
+    contributeursReels: rollupRelationNames(p, 'Contributeurs réels', equipeMap),
 
     lienMaquette: extractProp(p, 'Lien maquette', 'url'),
     lienJira:     extractProp(p, 'Lien EPIC JIRA', 'url'),
@@ -377,7 +409,7 @@ async function main() {
     console.log('📥 Récupération de la base 📅 Suivi lundi...');
     const suiviPages = await queryAllPages(DB_SUIVI_LUNDI);
     console.log(`   → ${suiviPages.length} saisies récupérées`);
-    suiviLundi = suiviPages.map(p => mapSuiviLundiPage(p, toplineMap));
+    suiviLundi = suiviPages.map(p => mapSuiviLundiPage(p, toplineMap, equipeMap));
   } catch (err) {
     console.warn(`   ⚠️ Suivi lundi non récupéré (CII vide) : ${err.message.split('\n')[0]}`);
   }
