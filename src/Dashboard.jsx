@@ -18,6 +18,7 @@ import { CahierDesChargesNaxiSaasPage } from './pages/CahierDesChargesNaxiSaasPa
 import { CalculPrixPage } from './pages/CalculPrixPage';
 import { RdModeDegradePage } from './pages/RdModeDegradePage';
 import { RdMigrationPage } from './pages/RdMigrationPage';
+import { ProceduresPage } from './pages/ProceduresPage';
 import { PagePlaceholder } from './components/primitives/PagePlaceholder';
 import { ClipboardList } from 'lucide-react';
 
@@ -45,6 +46,7 @@ const PAGES = {
   "naxi-saas-cdc":{ label: "Cahier des charges · Naxi Saas", Component: CahierDesChargesNaxiSaasPage },
   suivi:          { label: "Suivi Top Line",  Component: SuiviPage          },
   immobilisation: { label: "Immobilisation",  Component: ImmobilisationPage },
+  "procedures-list": { label: "Procédures",   Component: ProceduresPage     },
 
   // NAX7 full web
   blueprint:                       { label: "Blue Print",                         Component: BluePrintPage      },

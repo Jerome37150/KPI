@@ -2,7 +2,7 @@ import { useState } from 'react';
 import {
   LayoutDashboard, FileText, Package, Sparkles, Building2, LineChart,
   LayoutGrid, Calendar, ClipboardList, Calculator, ShieldAlert, Database,
-  ChevronRight, ChevronDown,
+  BookOpen, ChevronRight, ChevronDown,
 } from 'lucide-react';
 import { C, LAYOUT } from '../styles/theme';
 import { LogoInaxel } from './LogoInaxel';
@@ -26,8 +26,9 @@ export const NAV_ITEMS = [
   { type: "window",   key: "version",         label: "Version",          icon: Package,  parent: "sav-dev" },
   { type: "window",   key: "sprint",          label: "Sprint en cours",  icon: Sparkles, parent: "sav-dev" },
 
-  // === Procédures (vide pour l'instant) ===
+  // === Procédures ===
   { type: "category", key: "procedures",      label: "Procédures",       collapsible: true },
+  { type: "window",   key: "procedures-list", label: "Toutes les procédures", icon: BookOpen, parent: "procedures" },
 
   // === Projets ===
   { type: "category", key: "projets",         label: "Projets",          collapsible: true },

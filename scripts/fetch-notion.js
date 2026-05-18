@@ -34,6 +34,8 @@ const DB_CARTO_PMS_WEB    = 'e712a61e-0880-4bb9-b198-3d1d0bcaedc1';
 const DB_CARTO_PMS_MOBILE = 'd16c64be-2dc6-4f91-8724-5f1068004cc6';
 const DB_CARTO_MANAGER    = 'd92b19c5-f3e3-42a5-bcfa-673f3d1d11f6';
 
+const DB_PROCEDURES = '9e35709403f44c07bb4092121e87415e';
+
 const HOURS_PER_DAY = 7; // conversion heures → jours (journée FR)
 
 const PHASES = ['MAQUETTE', 'BACK', 'FRONT', 'DESIGN', 'TEST'];
@@ -362,6 +364,94 @@ function mapTopLinePage(page, equipeMap) {
   };
 }
 
+// === Mapping Procédures ===
+// Convertit le contenu d'une page Notion en Markdown via l'API blocks/children.
+// Couvre les blocks utilisés dans les procédures : headings, paragraphe, listes,
+// quote, divider, code, callout, table. Ignore le reste silencieusement.
+async function fetchBlockChildren(blockId) {
+  const out = [];
+  let cursor = undefined;
+  do {
+    const url = `/blocks/${blockId}/children?page_size=100${cursor ? `&start_cursor=${cursor}` : ''}`;
+    const data = await notionFetch(url);
+    out.push(...data.results);
+    cursor = data.has_more ? data.next_cursor : null;
+  } while (cursor);
+  return out;
+}
+
+function richTextToMd(arr) {
+  if (!Array.isArray(arr)) return '';
+  return arr.map(t => {
+    let s = t.plain_text || '';
+    const a = t.annotations || {};
+    if (a.code)          s = '`' + s + '`';
+    if (a.bold)          s = `**${s}**`;
+    if (a.italic)        s = `*${s}*`;
+    if (a.strikethrough) s = `~~${s}~~`;
+    if (t.href)          s = `[${s}](${t.href})`;
+    return s;
+  }).join('');
+}
+
+async function blockToMarkdown(b) {
+  const rt = (k) => richTextToMd(b[k]?.rich_text);
+  switch (b.type) {
+    case 'heading_1':           return '## ' + rt('heading_1');   // h1 réservé au titre page
+    case 'heading_2':           return '### ' + rt('heading_2');
+    case 'heading_3':           return '#### ' + rt('heading_3');
+    case 'paragraph':           return rt('paragraph');
+    case 'bulleted_list_item':  return '- ' + rt('bulleted_list_item');
+    case 'numbered_list_item':  return '1. ' + rt('numbered_list_item');
+    case 'quote':               return '> ' + rt('quote');
+    case 'callout':             return '> 💡 ' + rt('callout');
+    case 'divider':             return '---';
+    case 'code': {
+      const lang = b.code?.language || '';
+      return '```' + lang + '\n' + rt('code') + '\n```';
+    }
+    case 'table': {
+      const rows = await fetchBlockChildren(b.id);
+      if (rows.length === 0) return '';
+      const md = rows.map(r =>
+        '| ' + (r.table_row?.cells || []).map(richTextToMd).join(' | ') + ' |'
+      );
+      if (b.table?.has_column_header && md.length > 0) {
+        const cols = rows[0].table_row?.cells.length || 1;
+        md.splice(1, 0, '|' + ' --- |'.repeat(cols));
+      }
+      return md.join('\n');
+    }
+    default:
+      return '';
+  }
+}
+
+async function blocksToMarkdown(blocks) {
+  const parts = [];
+  for (const b of blocks) {
+    const md = await blockToMarkdown(b);
+    if (md) parts.push(md);
+  }
+  return parts.join('\n\n');
+}
+
+async function mapProcedurePage(page) {
+  const p = page.properties;
+  const blocks = await fetchBlockChildren(page.id);
+  const contenu = await blocksToMarkdown(blocks);
+  return {
+    id: page.id,
+    titre:     extractProp(p, 'Titre', 'title') || '',
+    categorie: extractProp(p, 'Catégorie', 'select'),
+    ordre:     extractProp(p, 'Ordre', 'number') || 0,
+    resume:    extractProp(p, 'Résumé', 'rich_text') || '',
+    contenu,
+    lastEdited: page.last_edited_time || null,
+    url:       page.url,
+  };
+}
+
 // === Mapping Cartographie ===
 function mapCartographiePage(page) {
   const p = page.properties;
@@ -438,6 +528,18 @@ async function main() {
   const cartoPmsMobile = await fetchCartographie('PMS Mobile', DB_CARTO_PMS_MOBILE);
   const cartoManager   = await fetchCartographie('Manager',    DB_CARTO_MANAGER);
 
+  // Procédures : best-effort (si l'intégration n'a pas accès, liste vide)
+  let procedures = [];
+  try {
+    console.log('📥 Récupération de la base 📋 Procédures...');
+    const procPages = await queryAllPages(DB_PROCEDURES);
+    console.log(`   → ${procPages.length} procédures récupérées`);
+    procedures = await Promise.all(procPages.map(mapProcedurePage));
+    procedures.sort((a, b) => (a.ordre || 0) - (b.ordre || 0));
+  } catch (err) {
+    console.warn(`   ⚠️ Procédures non récupérées : ${err.message.split('\n')[0]}`);
+  }
+
   const data = {
     generatedAt: new Date().toISOString(),
     classique,
@@ -447,11 +549,13 @@ async function main() {
     cartoPmsWeb,
     cartoPmsMobile,
     cartoManager,
+    procedures,
     counts: {
       classique: classique.length,
       topline: topline.length,
       suiviLundi: suiviLundi.length,
       equipe: equipe.length,
+      procedures: procedures.length,
       cartoPmsWeb: cartoPmsWeb.length,
       cartoPmsMobile: cartoPmsMobile.length,
       cartoManager: cartoManager.length,
@@ -468,6 +572,7 @@ async function main() {
   console.log(`✅ Fichier généré : ${OUTPUT_PATH}`);
   console.log(`   ${classique.length} tickets Classique · ${topline.length} fenêtres Top Line · ${suiviLundi.length} saisies · ${equipe.length} membres`);
   console.log(`   Cartographies : ${cartoPmsWeb.length} PMS Web · ${cartoPmsMobile.length} Mobile · ${cartoManager.length} Manager`);
+  console.log(`   Procédures : ${procedures.length}`);
   console.log(`   Durée : ${duration}s`);
 }
 

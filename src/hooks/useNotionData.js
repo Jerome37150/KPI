@@ -7,6 +7,7 @@ export function useNotionData() {
   const [data, setData] = useState({
     classique: [], topline: [], suiviLundi: [], equipe: [],
     cartoPmsWeb: [], cartoPmsMobile: [], cartoManager: [],
+    procedures: [],
     cii: { rows: [], generatedAt: null },
     generatedAt: null,
   });
@@ -35,6 +36,7 @@ export function useNotionData() {
           cartoPmsWeb:    Array.isArray(json?.cartoPmsWeb)    ? json.cartoPmsWeb    : [],
           cartoPmsMobile: Array.isArray(json?.cartoPmsMobile) ? json.cartoPmsMobile : [],
           cartoManager:   Array.isArray(json?.cartoManager)   ? json.cartoManager   : [],
+          procedures:     Array.isArray(json?.procedures)     ? json.procedures     : [],
           cii: {
             rows:        Array.isArray(cii?.rows) ? cii.rows : [],
             generatedAt: cii?.generatedAt || null,
