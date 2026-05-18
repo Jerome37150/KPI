@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T05:03:23.208Z",
+  "generatedAt": "2026-05-18T05:54:32.481Z",
   "classique": [
     {
       "id": "3618db15-623a-80a1-8af6-f7838bd5f591",
@@ -3616,7 +3616,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "Fiche communication.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SIK4W47A%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T050304Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCuuV8WFk0b1e8gFJQabquuDFPVnNVaoluwIj16EmxPVgIgalVZmM34T69yK3bHI4RkgARpWYJnjTeRlgzAweulF8UqiAQItf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDAUNgyJh3MgFMz4CuyrcAy6MWIUI1sPcK%2B6apI%2FHYoYpkgDf2dYEFiATMxOq1GwW%2BN05bYbBNZBrEyK7CFoB%2F9DIR7ouXXLAqiX6Hit2C59GqNtK6mRfHthQZUHFFPgRH39JXQWBW%2BfBVUQ1eCN5TYbiHAD2yZMQWLM%2BOD%2BhZpLsb3zjxdOmno0SkgCGEPdIdv6D1bZ8eYN%2Biv87XOZhAV6y8oRmK%2Biot3u6nC7LYYBVnRUPh%2FzZ%2B04wfbV0BpQa75Nub0QQnCWfWTdxmQuH1mBEgS%2BmyT8Ly3r4WmaUYQTWZM82TibYFXtcNFnRIDXQK9FnlqXPQSwLVs4DsiICfhtcO5MZ7HdTOZuIDrNkBPCWAlswM5WLVLaHGlb%2BBzZlnbSG4avzs%2BvClYJHbRn0i8UyBHWE9DkJnuPh1Zk5bDbrvZn%2FWzcG0taUPPu7w9aepo9vkxWlwChL5q6SJx%2BsgiXgHpYDXUpkXgdhWwroljcrO1uLFZmQaLfbaVTawV3eMS2SRODtYVZMHpP5MhlQasf8LwaZ5F6vNjDz4EUQY5qEue7Bm4ilkSn6anivnP6TF2CqYn7Xdon8lxmlQdesTKKxl8t1LzFzigBT2wuFtgRBfg9DxkEfTxp2j9b3ZJLIPBHmqUeQZLFyzMo6MNiUqtAGOqUB7F8m4J30XdlzBBiE1dLglz5e0k6zIuTQdvr8VXxlWlCdhNbUUZlk3PqaSY6KSa7jse%2FKWuu%2FXfIQCPCJlkQBn8pronlmiFTS%2FfRnSndDgPXzXk0ZKh8WIDcw6BeiftS3suNIZM9js2oN0zw7cEMQsR6HBFwYPr897gQdwPm1w2KJ4XqUcFSLNo80t%2Bqb0yz4MMRR7h4bjEvFt9Vt7yE%2Bep6R0uxg&X-Amz-Signature=cb439a4c2e6eeba0f9ceac9d701bf4a8ac440545ce3341593db37a4d5b8601f5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667UANFERS%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T055414Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEFuDRqI4lEsHzKYTNNEzG8CssqlCVXq2DYHM9hvGgdPAiBHfWnyAHxz188vQewj1ejXMskCfun1Lq3CqkLgrbzVqyqIBAi2%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMDiJObZcc9mgAz9UdKtwDRsjqOY%2B7pB2jsGv9sSPrKGTKEw66YlWaudlWCR%2BcQJAVp%2BRFHseTD36LfUIqW0KZLbNjS0SRjbCvRGfNZ6QX91uSklJvqzKI2UhmVIh3BPSURqD6r4d6ZxdWa8iP%2BhwhLf6APxenOLKmg%2FHreUQX%2BBs62RRHRZXpjUvsVkYnYFk7dXVnX6UW9%2FMIiJQytPLQyqp1up4JWHcw99AJEZmbNUTcmzOOp4QKhn0sdQdjEiYYhaYP6FvFUf3UAbFjwss94S0xLKXCeiPC%2BLdi94dfGqxrECqJYakRNZN8rZZ%2BVi5GzfumsvIDTgC6rkrYKnZPAreeJLWOUD61yER%2FOEeZ2GwGbZjIhdhBHzoFuiTpVpbZMyDUf0%2BpqfgQxzHAiac6oCUhyl9tzMHZJLF9LJHIIu%2FK7UcQj4%2FXxI9qOUUAz2yV0nwcDDk428FOzvDYYC59lB3GUVhodcKOcOqRq3eVGicdzQChGNcyLyQEdAjj%2F0MTPYgN49IxjWQZtLrfpBzGn%2BVdnpO3lia4ZcmB%2BqJkSqAp258Fgt6QGKPmk6CrSKAIfWXrh0oeicNQtt1aKFkWGL1HkQZO%2BvMlulcEbK73JOlojfTHdcHXyYx1Jp4iPviH3taFF%2BeAAevKaX4wu7%2Bq0AY6pgFK1oy3zcbm382CmmBxegxzhX04noUxtCptSWeFqzoZfWv4ZUQL4DY7rBLgbx%2BAcBRhPAldaT0ZIyub2s%2BQvEM6iQnzsKgf696xJEGEbAKMuSwaAThSjTgp%2FlYgmDgc2JeuUba1DKmXCVd622vADbIAmMadbAU1gDgHxO9a8ts6mbf49W0Oh2KAPMlL4lIXDO%2FUBlgZbM8L5d5mjHRwXmzUZ%2BOG3clo&X-Amz-Signature=eb0dc5f7e1e69786cd813910ffa3fcd97f000632a05781c7efe0053cf2270916&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-Facturation-factures-et-proforma-d-ch-ances-multipes-probl-mes-3288db15623a80989620f6c98afd1347"
     },
@@ -4511,7 +4511,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-160.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TDTQPWNZ%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T050305Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJFMEMCIHO3zjKJtaoCh%2FMGWOgmOihi1TPvjdIED9X8TIU%2FZMS2Ah9ufj46ICPczVYl0XYGtNKZauMQ8g0yCclzUeRoPGMvKogECLX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyuRWDXNEgGqlchqAQq3AMCet143tg0H0ylbFVIdJeNACCtwuPr7SHTMKNkvri3XP7VZyRD3fh7ffRl5P57lZ%2FlqsY6qZELQvPnO3ReJa0JRrHIErbAaS6nVwNnk3904ZhpeyxHPPe%2FiRDU9KvaYtf%2BRZz5BfdJBnCXBveLusVfXfxJ%2BFBwscSdEfS2PghaOy%2BlBPIxI6LwMFOx3pz0r%2FU88TC5zsmr1D2OVcqD02pI9ms%2FO68VXCFDtYBfZQTpiQxRj3EnopZqNYWCiFEXJFV%2FyemzmfPjISBe04hvmvCvKGi7SYGiAC0NNujxlVBskUY0kK1GkC98vv1VVclijnACiFzr%2FcZNfGy5Y0lo6BiE%2Byrt2PPdbzrO%2B71UPb5ECSyrpRI%2BBY9gBza8OsGUsrMZ057%2BGh6pB6dUuCm2Px%2BTkHg13BIsgn5mdKJhjEfJH7TLQXIEp1HcXP8vPI8d5R09uuRRUylYIzgCS46QisYqFpf3qQOEwjBbjnwQtrcn7Ximp9QtrQTN2UH65HSmo4T85hzrXwd%2FQLAZvJRksD7JmvIFD8FsTRsITmE2doAD4VJ9HULxWBP1Z%2B36K8cyXzCnZk3ktBoiwO77tfdlRIYR0bLtA8nQ4Xypr%2FgJEkEYuEJY9m3zFoY5LlJUPjCPlKrQBjqnAem24ScNMb9pUF%2FGHMgpuQVVAaq6Qd%2BKyAS5q63bizMigkLpmk%2BgEoqD8Xw83kB4Ail9gLmm9JDivPnPOLMYuJA6MdKw5bMk%2Fo3KRD4zc9gbAwguqNrygTtz93YkMoDkptmUwnN%2F3ssepD0raF1k%2FW65kchiGwhJShsYRveJSJjZr%2FSXfiDXvzx5yTGQ7PHc%2FhXGVGc9iJiSBdwR%2FczuWXpAf%2BwZas9W&X-Amz-Signature=1205c28c5d23d34f5e068004cc996569be533c9cca2e0129ce3a448af7c198f3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZFWXCGY6%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T055415Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIFGSENLJUug%2BEIKGqynE%2BlHfaAQNBKcySosKDyKSu4FcAiEA2gvIw1Pfzz8u5PLVKnqkq2H%2ByMkq%2Fn8UPnhHfAntTSQqiAQItv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKgSA7XjfcE4Ua9JEyrcAyGKTvyqyLVY2ZcTLBNaVncPe9VGzcwdwCwRDf3f8hrJnwZDqqdqtqe0Fcm77FFk0txXSOzJnfeVWAZYdGbS2bWWdpP16UhvTqKdB4NG693GyXJ2thPraeYBsvImZSfZoh8H3OR2sWkf7n3iigCGCFuwVbLmodpoGPIjx4hMvbXW8XtfvOd5Asz1XGiPoV8N0FtX5CDuv3dkI5UUWpUAGkfZqzEKzh0E2TOJfNE8gekjKWVTNrWadyhga3Q9wrqk6sxgMzSZawVibmpymvH9iCZdzbCEx8w1eNVyOjC1ovBbKS5aSEoKgcBUioyQwItl9z9OXTWHFsxSoqrxple6mWtFcI9KmbGXwwF69t4N4VhqhOp6ckTznwPUux6QeIZzM9Q6Nf%2BMHiDK1mV9ffvUs4gjeD8mmfA91CxJu1fJ0QXemM%2B8nOv2QNgNoE4bBeU7ZACzg77mVSL6TptfL96%2BazunvznEOCwgWRBFwU9DPzu88O1sxWj%2BjGOyjAEX1uXIXTJOZsRVdNb9r5RYuxdPdDgd%2FQCt8qPOlC%2FVQkhuwCrHkwXkdI3MXXijBjEruLCCs1gmRey8qvTg3eI9VcAfD4Ex8%2FYeeCNEm31K%2BbaWJO%2FSy%2FgEbVkCW3bc1fX2MLy%2FqtAGOqUBh%2F2FGTx8w3Ij27eZo7TqhijrLKfnmikH%2BL%2F8xaTEiKP9pPNsOt32GHvKPDPiTC6cXoLsw9b%2BKkIA19zQNlYjyZVj9VpjLJ%2BT4js4KLUeG0ZIz5QffCc0OGNvsXE0gkhGR6th9REVMe0Fue%2FHNlDGkXgfJq2zwruR4dnO0nktjA7OQn4oq6OqbRaNhmb43Mjvx7HmfBkjH%2F1wQiORRo7a9f15JpFj&X-Amz-Signature=714e8bfbbbdc1b42e49c7ff487083d3e6b53d9b6c5e2d9429af66f2a77158b2b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Apparition-d-un-message-sur-le-traitement-des-r-sas-issues-de-l-espace-client-31e8db15623a806896d5f5a1ed131200"
     },
@@ -4650,7 +4650,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "synthese_espaceclient (1).xlsx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TDTQPWNZ%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T050305Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJFMEMCIHO3zjKJtaoCh%2FMGWOgmOihi1TPvjdIED9X8TIU%2FZMS2Ah9ufj46ICPczVYl0XYGtNKZauMQ8g0yCclzUeRoPGMvKogECLX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyuRWDXNEgGqlchqAQq3AMCet143tg0H0ylbFVIdJeNACCtwuPr7SHTMKNkvri3XP7VZyRD3fh7ffRl5P57lZ%2FlqsY6qZELQvPnO3ReJa0JRrHIErbAaS6nVwNnk3904ZhpeyxHPPe%2FiRDU9KvaYtf%2BRZz5BfdJBnCXBveLusVfXfxJ%2BFBwscSdEfS2PghaOy%2BlBPIxI6LwMFOx3pz0r%2FU88TC5zsmr1D2OVcqD02pI9ms%2FO68VXCFDtYBfZQTpiQxRj3EnopZqNYWCiFEXJFV%2FyemzmfPjISBe04hvmvCvKGi7SYGiAC0NNujxlVBskUY0kK1GkC98vv1VVclijnACiFzr%2FcZNfGy5Y0lo6BiE%2Byrt2PPdbzrO%2B71UPb5ECSyrpRI%2BBY9gBza8OsGUsrMZ057%2BGh6pB6dUuCm2Px%2BTkHg13BIsgn5mdKJhjEfJH7TLQXIEp1HcXP8vPI8d5R09uuRRUylYIzgCS46QisYqFpf3qQOEwjBbjnwQtrcn7Ximp9QtrQTN2UH65HSmo4T85hzrXwd%2FQLAZvJRksD7JmvIFD8FsTRsITmE2doAD4VJ9HULxWBP1Z%2B36K8cyXzCnZk3ktBoiwO77tfdlRIYR0bLtA8nQ4Xypr%2FgJEkEYuEJY9m3zFoY5LlJUPjCPlKrQBjqnAem24ScNMb9pUF%2FGHMgpuQVVAaq6Qd%2BKyAS5q63bizMigkLpmk%2BgEoqD8Xw83kB4Ail9gLmm9JDivPnPOLMYuJA6MdKw5bMk%2Fo3KRD4zc9gbAwguqNrygTtz93YkMoDkptmUwnN%2F3ssepD0raF1k%2FW65kchiGwhJShsYRveJSJjZr%2FSXfiDXvzx5yTGQ7PHc%2FhXGVGc9iJiSBdwR%2FczuWXpAf%2BwZas9W&X-Amz-Signature=176bae0e4fd30e05d0ce8df17c44549c82b54d37c77f2cf6eb818fd28b7fed24&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZFWXCGY6%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T055415Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIFGSENLJUug%2BEIKGqynE%2BlHfaAQNBKcySosKDyKSu4FcAiEA2gvIw1Pfzz8u5PLVKnqkq2H%2ByMkq%2Fn8UPnhHfAntTSQqiAQItv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKgSA7XjfcE4Ua9JEyrcAyGKTvyqyLVY2ZcTLBNaVncPe9VGzcwdwCwRDf3f8hrJnwZDqqdqtqe0Fcm77FFk0txXSOzJnfeVWAZYdGbS2bWWdpP16UhvTqKdB4NG693GyXJ2thPraeYBsvImZSfZoh8H3OR2sWkf7n3iigCGCFuwVbLmodpoGPIjx4hMvbXW8XtfvOd5Asz1XGiPoV8N0FtX5CDuv3dkI5UUWpUAGkfZqzEKzh0E2TOJfNE8gekjKWVTNrWadyhga3Q9wrqk6sxgMzSZawVibmpymvH9iCZdzbCEx8w1eNVyOjC1ovBbKS5aSEoKgcBUioyQwItl9z9OXTWHFsxSoqrxple6mWtFcI9KmbGXwwF69t4N4VhqhOp6ckTznwPUux6QeIZzM9Q6Nf%2BMHiDK1mV9ffvUs4gjeD8mmfA91CxJu1fJ0QXemM%2B8nOv2QNgNoE4bBeU7ZACzg77mVSL6TptfL96%2BazunvznEOCwgWRBFwU9DPzu88O1sxWj%2BjGOyjAEX1uXIXTJOZsRVdNb9r5RYuxdPdDgd%2FQCt8qPOlC%2FVQkhuwCrHkwXkdI3MXXijBjEruLCCs1gmRey8qvTg3eI9VcAfD4Ex8%2FYeeCNEm31K%2BbaWJO%2FSy%2FgEbVkCW3bc1fX2MLy%2FqtAGOqUBh%2F2FGTx8w3Ij27eZo7TqhijrLKfnmikH%2BL%2F8xaTEiKP9pPNsOt32GHvKPDPiTC6cXoLsw9b%2BKkIA19zQNlYjyZVj9VpjLJ%2BT4js4KLUeG0ZIz5QffCc0OGNvsXE0gkhGR6th9REVMe0Fue%2FHNlDGkXgfJq2zwruR4dnO0nktjA7OQn4oq6OqbRaNhmb43Mjvx7HmfBkjH%2F1wQiORRo7a9f15JpFj&X-Amz-Signature=8575b1814aaea009e3eb375a59ef6b049d853d21fbbae36946b862ddb1412596&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-G-rer-l-arr-t-de-l-espace-client-V1-31a8db15623a800d915eea7ee689e4da"
     },
@@ -4869,7 +4869,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-148.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TDTQPWNZ%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T050305Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJFMEMCIHO3zjKJtaoCh%2FMGWOgmOihi1TPvjdIED9X8TIU%2FZMS2Ah9ufj46ICPczVYl0XYGtNKZauMQ8g0yCclzUeRoPGMvKogECLX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyuRWDXNEgGqlchqAQq3AMCet143tg0H0ylbFVIdJeNACCtwuPr7SHTMKNkvri3XP7VZyRD3fh7ffRl5P57lZ%2FlqsY6qZELQvPnO3ReJa0JRrHIErbAaS6nVwNnk3904ZhpeyxHPPe%2FiRDU9KvaYtf%2BRZz5BfdJBnCXBveLusVfXfxJ%2BFBwscSdEfS2PghaOy%2BlBPIxI6LwMFOx3pz0r%2FU88TC5zsmr1D2OVcqD02pI9ms%2FO68VXCFDtYBfZQTpiQxRj3EnopZqNYWCiFEXJFV%2FyemzmfPjISBe04hvmvCvKGi7SYGiAC0NNujxlVBskUY0kK1GkC98vv1VVclijnACiFzr%2FcZNfGy5Y0lo6BiE%2Byrt2PPdbzrO%2B71UPb5ECSyrpRI%2BBY9gBza8OsGUsrMZ057%2BGh6pB6dUuCm2Px%2BTkHg13BIsgn5mdKJhjEfJH7TLQXIEp1HcXP8vPI8d5R09uuRRUylYIzgCS46QisYqFpf3qQOEwjBbjnwQtrcn7Ximp9QtrQTN2UH65HSmo4T85hzrXwd%2FQLAZvJRksD7JmvIFD8FsTRsITmE2doAD4VJ9HULxWBP1Z%2B36K8cyXzCnZk3ktBoiwO77tfdlRIYR0bLtA8nQ4Xypr%2FgJEkEYuEJY9m3zFoY5LlJUPjCPlKrQBjqnAem24ScNMb9pUF%2FGHMgpuQVVAaq6Qd%2BKyAS5q63bizMigkLpmk%2BgEoqD8Xw83kB4Ail9gLmm9JDivPnPOLMYuJA6MdKw5bMk%2Fo3KRD4zc9gbAwguqNrygTtz93YkMoDkptmUwnN%2F3ssepD0raF1k%2FW65kchiGwhJShsYRveJSJjZr%2FSXfiDXvzx5yTGQ7PHc%2FhXGVGc9iJiSBdwR%2FczuWXpAf%2BwZas9W&X-Amz-Signature=31cfe22a2f282e405b16b58645306340a87af20a639d62e1c9a85f6d13dc2458&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZFWXCGY6%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T055415Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIFGSENLJUug%2BEIKGqynE%2BlHfaAQNBKcySosKDyKSu4FcAiEA2gvIw1Pfzz8u5PLVKnqkq2H%2ByMkq%2Fn8UPnhHfAntTSQqiAQItv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKgSA7XjfcE4Ua9JEyrcAyGKTvyqyLVY2ZcTLBNaVncPe9VGzcwdwCwRDf3f8hrJnwZDqqdqtqe0Fcm77FFk0txXSOzJnfeVWAZYdGbS2bWWdpP16UhvTqKdB4NG693GyXJ2thPraeYBsvImZSfZoh8H3OR2sWkf7n3iigCGCFuwVbLmodpoGPIjx4hMvbXW8XtfvOd5Asz1XGiPoV8N0FtX5CDuv3dkI5UUWpUAGkfZqzEKzh0E2TOJfNE8gekjKWVTNrWadyhga3Q9wrqk6sxgMzSZawVibmpymvH9iCZdzbCEx8w1eNVyOjC1ovBbKS5aSEoKgcBUioyQwItl9z9OXTWHFsxSoqrxple6mWtFcI9KmbGXwwF69t4N4VhqhOp6ckTznwPUux6QeIZzM9Q6Nf%2BMHiDK1mV9ffvUs4gjeD8mmfA91CxJu1fJ0QXemM%2B8nOv2QNgNoE4bBeU7ZACzg77mVSL6TptfL96%2BazunvznEOCwgWRBFwU9DPzu88O1sxWj%2BjGOyjAEX1uXIXTJOZsRVdNb9r5RYuxdPdDgd%2FQCt8qPOlC%2FVQkhuwCrHkwXkdI3MXXijBjEruLCCs1gmRey8qvTg3eI9VcAfD4Ex8%2FYeeCNEm31K%2BbaWJO%2FSy%2FgEbVkCW3bc1fX2MLy%2FqtAGOqUBh%2F2FGTx8w3Ij27eZo7TqhijrLKfnmikH%2BL%2F8xaTEiKP9pPNsOt32GHvKPDPiTC6cXoLsw9b%2BKkIA19zQNlYjyZVj9VpjLJ%2BT4js4KLUeG0ZIz5QffCc0OGNvsXE0gkhGR6th9REVMe0Fue%2FHNlDGkXgfJq2zwruR4dnO0nktjA7OQn4oq6OqbRaNhmb43Mjvx7HmfBkjH%2F1wQiORRo7a9f15JpFj&X-Amz-Signature=a2da42f31a53229b995ae09431ad0ae46ba1ed20d4e848871ef025ce06eb64ab&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/REDSYS-Non-fonctionnel-suite-mise-en-place-3178db15623a80458d0de93a71d0564f"
     },
@@ -4904,7 +4904,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-147.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TDTQPWNZ%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T050305Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJFMEMCIHO3zjKJtaoCh%2FMGWOgmOihi1TPvjdIED9X8TIU%2FZMS2Ah9ufj46ICPczVYl0XYGtNKZauMQ8g0yCclzUeRoPGMvKogECLX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyuRWDXNEgGqlchqAQq3AMCet143tg0H0ylbFVIdJeNACCtwuPr7SHTMKNkvri3XP7VZyRD3fh7ffRl5P57lZ%2FlqsY6qZELQvPnO3ReJa0JRrHIErbAaS6nVwNnk3904ZhpeyxHPPe%2FiRDU9KvaYtf%2BRZz5BfdJBnCXBveLusVfXfxJ%2BFBwscSdEfS2PghaOy%2BlBPIxI6LwMFOx3pz0r%2FU88TC5zsmr1D2OVcqD02pI9ms%2FO68VXCFDtYBfZQTpiQxRj3EnopZqNYWCiFEXJFV%2FyemzmfPjISBe04hvmvCvKGi7SYGiAC0NNujxlVBskUY0kK1GkC98vv1VVclijnACiFzr%2FcZNfGy5Y0lo6BiE%2Byrt2PPdbzrO%2B71UPb5ECSyrpRI%2BBY9gBza8OsGUsrMZ057%2BGh6pB6dUuCm2Px%2BTkHg13BIsgn5mdKJhjEfJH7TLQXIEp1HcXP8vPI8d5R09uuRRUylYIzgCS46QisYqFpf3qQOEwjBbjnwQtrcn7Ximp9QtrQTN2UH65HSmo4T85hzrXwd%2FQLAZvJRksD7JmvIFD8FsTRsITmE2doAD4VJ9HULxWBP1Z%2B36K8cyXzCnZk3ktBoiwO77tfdlRIYR0bLtA8nQ4Xypr%2FgJEkEYuEJY9m3zFoY5LlJUPjCPlKrQBjqnAem24ScNMb9pUF%2FGHMgpuQVVAaq6Qd%2BKyAS5q63bizMigkLpmk%2BgEoqD8Xw83kB4Ail9gLmm9JDivPnPOLMYuJA6MdKw5bMk%2Fo3KRD4zc9gbAwguqNrygTtz93YkMoDkptmUwnN%2F3ssepD0raF1k%2FW65kchiGwhJShsYRveJSJjZr%2FSXfiDXvzx5yTGQ7PHc%2FhXGVGc9iJiSBdwR%2FczuWXpAf%2BwZas9W&X-Amz-Signature=8c1daec4fdbe81d32537d4dbfbe24ba285d51d20452dfdfb8968ebd52c634a45&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZFWXCGY6%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T055415Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIFGSENLJUug%2BEIKGqynE%2BlHfaAQNBKcySosKDyKSu4FcAiEA2gvIw1Pfzz8u5PLVKnqkq2H%2ByMkq%2Fn8UPnhHfAntTSQqiAQItv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKgSA7XjfcE4Ua9JEyrcAyGKTvyqyLVY2ZcTLBNaVncPe9VGzcwdwCwRDf3f8hrJnwZDqqdqtqe0Fcm77FFk0txXSOzJnfeVWAZYdGbS2bWWdpP16UhvTqKdB4NG693GyXJ2thPraeYBsvImZSfZoh8H3OR2sWkf7n3iigCGCFuwVbLmodpoGPIjx4hMvbXW8XtfvOd5Asz1XGiPoV8N0FtX5CDuv3dkI5UUWpUAGkfZqzEKzh0E2TOJfNE8gekjKWVTNrWadyhga3Q9wrqk6sxgMzSZawVibmpymvH9iCZdzbCEx8w1eNVyOjC1ovBbKS5aSEoKgcBUioyQwItl9z9OXTWHFsxSoqrxple6mWtFcI9KmbGXwwF69t4N4VhqhOp6ckTznwPUux6QeIZzM9Q6Nf%2BMHiDK1mV9ffvUs4gjeD8mmfA91CxJu1fJ0QXemM%2B8nOv2QNgNoE4bBeU7ZACzg77mVSL6TptfL96%2BazunvznEOCwgWRBFwU9DPzu88O1sxWj%2BjGOyjAEX1uXIXTJOZsRVdNb9r5RYuxdPdDgd%2FQCt8qPOlC%2FVQkhuwCrHkwXkdI3MXXijBjEruLCCs1gmRey8qvTg3eI9VcAfD4Ex8%2FYeeCNEm31K%2BbaWJO%2FSy%2FgEbVkCW3bc1fX2MLy%2FqtAGOqUBh%2F2FGTx8w3Ij27eZo7TqhijrLKfnmikH%2BL%2F8xaTEiKP9pPNsOt32GHvKPDPiTC6cXoLsw9b%2BKkIA19zQNlYjyZVj9VpjLJ%2BT4js4KLUeG0ZIz5QffCc0OGNvsXE0gkhGR6th9REVMe0Fue%2FHNlDGkXgfJq2zwruR4dnO0nktjA7OQn4oq6OqbRaNhmb43Mjvx7HmfBkjH%2F1wQiORRo7a9f15JpFj&X-Amz-Signature=943397dc754f2220d9abefc68c41236f654dccc18161c017a571f27a4b7bf09e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-CRM-Le-montant-des-suppl-ments-envoy-s-est-faux-lorsque-le-suppl-ment-est-en-prix-mo-3178db15623a8017a10ff4b9821287fa"
     },
@@ -4982,7 +4982,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-145.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TDTQPWNZ%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T050305Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJFMEMCIHO3zjKJtaoCh%2FMGWOgmOihi1TPvjdIED9X8TIU%2FZMS2Ah9ufj46ICPczVYl0XYGtNKZauMQ8g0yCclzUeRoPGMvKogECLX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyuRWDXNEgGqlchqAQq3AMCet143tg0H0ylbFVIdJeNACCtwuPr7SHTMKNkvri3XP7VZyRD3fh7ffRl5P57lZ%2FlqsY6qZELQvPnO3ReJa0JRrHIErbAaS6nVwNnk3904ZhpeyxHPPe%2FiRDU9KvaYtf%2BRZz5BfdJBnCXBveLusVfXfxJ%2BFBwscSdEfS2PghaOy%2BlBPIxI6LwMFOx3pz0r%2FU88TC5zsmr1D2OVcqD02pI9ms%2FO68VXCFDtYBfZQTpiQxRj3EnopZqNYWCiFEXJFV%2FyemzmfPjISBe04hvmvCvKGi7SYGiAC0NNujxlVBskUY0kK1GkC98vv1VVclijnACiFzr%2FcZNfGy5Y0lo6BiE%2Byrt2PPdbzrO%2B71UPb5ECSyrpRI%2BBY9gBza8OsGUsrMZ057%2BGh6pB6dUuCm2Px%2BTkHg13BIsgn5mdKJhjEfJH7TLQXIEp1HcXP8vPI8d5R09uuRRUylYIzgCS46QisYqFpf3qQOEwjBbjnwQtrcn7Ximp9QtrQTN2UH65HSmo4T85hzrXwd%2FQLAZvJRksD7JmvIFD8FsTRsITmE2doAD4VJ9HULxWBP1Z%2B36K8cyXzCnZk3ktBoiwO77tfdlRIYR0bLtA8nQ4Xypr%2FgJEkEYuEJY9m3zFoY5LlJUPjCPlKrQBjqnAem24ScNMb9pUF%2FGHMgpuQVVAaq6Qd%2BKyAS5q63bizMigkLpmk%2BgEoqD8Xw83kB4Ail9gLmm9JDivPnPOLMYuJA6MdKw5bMk%2Fo3KRD4zc9gbAwguqNrygTtz93YkMoDkptmUwnN%2F3ssepD0raF1k%2FW65kchiGwhJShsYRveJSJjZr%2FSXfiDXvzx5yTGQ7PHc%2FhXGVGc9iJiSBdwR%2FczuWXpAf%2BwZas9W&X-Amz-Signature=a666324011202a02a616bc16c9294afa11762a1269471e64fe948c4dbba164b7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZFWXCGY6%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T055415Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIFGSENLJUug%2BEIKGqynE%2BlHfaAQNBKcySosKDyKSu4FcAiEA2gvIw1Pfzz8u5PLVKnqkq2H%2ByMkq%2Fn8UPnhHfAntTSQqiAQItv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKgSA7XjfcE4Ua9JEyrcAyGKTvyqyLVY2ZcTLBNaVncPe9VGzcwdwCwRDf3f8hrJnwZDqqdqtqe0Fcm77FFk0txXSOzJnfeVWAZYdGbS2bWWdpP16UhvTqKdB4NG693GyXJ2thPraeYBsvImZSfZoh8H3OR2sWkf7n3iigCGCFuwVbLmodpoGPIjx4hMvbXW8XtfvOd5Asz1XGiPoV8N0FtX5CDuv3dkI5UUWpUAGkfZqzEKzh0E2TOJfNE8gekjKWVTNrWadyhga3Q9wrqk6sxgMzSZawVibmpymvH9iCZdzbCEx8w1eNVyOjC1ovBbKS5aSEoKgcBUioyQwItl9z9OXTWHFsxSoqrxple6mWtFcI9KmbGXwwF69t4N4VhqhOp6ckTznwPUux6QeIZzM9Q6Nf%2BMHiDK1mV9ffvUs4gjeD8mmfA91CxJu1fJ0QXemM%2B8nOv2QNgNoE4bBeU7ZACzg77mVSL6TptfL96%2BazunvznEOCwgWRBFwU9DPzu88O1sxWj%2BjGOyjAEX1uXIXTJOZsRVdNb9r5RYuxdPdDgd%2FQCt8qPOlC%2FVQkhuwCrHkwXkdI3MXXijBjEruLCCs1gmRey8qvTg3eI9VcAfD4Ex8%2FYeeCNEm31K%2BbaWJO%2FSy%2FgEbVkCW3bc1fX2MLy%2FqtAGOqUBh%2F2FGTx8w3Ij27eZo7TqhijrLKfnmikH%2BL%2F8xaTEiKP9pPNsOt32GHvKPDPiTC6cXoLsw9b%2BKkIA19zQNlYjyZVj9VpjLJ%2BT4js4KLUeG0ZIz5QffCc0OGNvsXE0gkhGR6th9REVMe0Fue%2FHNlDGkXgfJq2zwruR4dnO0nktjA7OQn4oq6OqbRaNhmb43Mjvx7HmfBkjH%2F1wQiORRo7a9f15JpFj&X-Amz-Signature=d354cacf63f0acdb352b6fa460b0b5808089d399464cff86e6ebee3d44e67747&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Erreur-de-saisie-sur-les-remises-manuelle-g-n-rant-un-montant-de-s-jour-faux-3178db15623a8079a34be124df5b756a"
     },
@@ -6815,7 +6815,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA77.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TDTQPWNZ%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T050305Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJFMEMCIHO3zjKJtaoCh%2FMGWOgmOihi1TPvjdIED9X8TIU%2FZMS2Ah9ufj46ICPczVYl0XYGtNKZauMQ8g0yCclzUeRoPGMvKogECLX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyuRWDXNEgGqlchqAQq3AMCet143tg0H0ylbFVIdJeNACCtwuPr7SHTMKNkvri3XP7VZyRD3fh7ffRl5P57lZ%2FlqsY6qZELQvPnO3ReJa0JRrHIErbAaS6nVwNnk3904ZhpeyxHPPe%2FiRDU9KvaYtf%2BRZz5BfdJBnCXBveLusVfXfxJ%2BFBwscSdEfS2PghaOy%2BlBPIxI6LwMFOx3pz0r%2FU88TC5zsmr1D2OVcqD02pI9ms%2FO68VXCFDtYBfZQTpiQxRj3EnopZqNYWCiFEXJFV%2FyemzmfPjISBe04hvmvCvKGi7SYGiAC0NNujxlVBskUY0kK1GkC98vv1VVclijnACiFzr%2FcZNfGy5Y0lo6BiE%2Byrt2PPdbzrO%2B71UPb5ECSyrpRI%2BBY9gBza8OsGUsrMZ057%2BGh6pB6dUuCm2Px%2BTkHg13BIsgn5mdKJhjEfJH7TLQXIEp1HcXP8vPI8d5R09uuRRUylYIzgCS46QisYqFpf3qQOEwjBbjnwQtrcn7Ximp9QtrQTN2UH65HSmo4T85hzrXwd%2FQLAZvJRksD7JmvIFD8FsTRsITmE2doAD4VJ9HULxWBP1Z%2B36K8cyXzCnZk3ktBoiwO77tfdlRIYR0bLtA8nQ4Xypr%2FgJEkEYuEJY9m3zFoY5LlJUPjCPlKrQBjqnAem24ScNMb9pUF%2FGHMgpuQVVAaq6Qd%2BKyAS5q63bizMigkLpmk%2BgEoqD8Xw83kB4Ail9gLmm9JDivPnPOLMYuJA6MdKw5bMk%2Fo3KRD4zc9gbAwguqNrygTtz93YkMoDkptmUwnN%2F3ssepD0raF1k%2FW65kchiGwhJShsYRveJSJjZr%2FSXfiDXvzx5yTGQ7PHc%2FhXGVGc9iJiSBdwR%2FczuWXpAf%2BwZas9W&X-Amz-Signature=54d6b1631886744e90bf2daaf4105a2b95b504b74866652ab63f0836e56faf23&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZFWXCGY6%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T055415Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIFGSENLJUug%2BEIKGqynE%2BlHfaAQNBKcySosKDyKSu4FcAiEA2gvIw1Pfzz8u5PLVKnqkq2H%2ByMkq%2Fn8UPnhHfAntTSQqiAQItv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKgSA7XjfcE4Ua9JEyrcAyGKTvyqyLVY2ZcTLBNaVncPe9VGzcwdwCwRDf3f8hrJnwZDqqdqtqe0Fcm77FFk0txXSOzJnfeVWAZYdGbS2bWWdpP16UhvTqKdB4NG693GyXJ2thPraeYBsvImZSfZoh8H3OR2sWkf7n3iigCGCFuwVbLmodpoGPIjx4hMvbXW8XtfvOd5Asz1XGiPoV8N0FtX5CDuv3dkI5UUWpUAGkfZqzEKzh0E2TOJfNE8gekjKWVTNrWadyhga3Q9wrqk6sxgMzSZawVibmpymvH9iCZdzbCEx8w1eNVyOjC1ovBbKS5aSEoKgcBUioyQwItl9z9OXTWHFsxSoqrxple6mWtFcI9KmbGXwwF69t4N4VhqhOp6ckTznwPUux6QeIZzM9Q6Nf%2BMHiDK1mV9ffvUs4gjeD8mmfA91CxJu1fJ0QXemM%2B8nOv2QNgNoE4bBeU7ZACzg77mVSL6TptfL96%2BazunvznEOCwgWRBFwU9DPzu88O1sxWj%2BjGOyjAEX1uXIXTJOZsRVdNb9r5RYuxdPdDgd%2FQCt8qPOlC%2FVQkhuwCrHkwXkdI3MXXijBjEruLCCs1gmRey8qvTg3eI9VcAfD4Ex8%2FYeeCNEm31K%2BbaWJO%2FSy%2FgEbVkCW3bc1fX2MLy%2FqtAGOqUBh%2F2FGTx8w3Ij27eZo7TqhijrLKfnmikH%2BL%2F8xaTEiKP9pPNsOt32GHvKPDPiTC6cXoLsw9b%2BKkIA19zQNlYjyZVj9VpjLJ%2BT4js4KLUeG0ZIz5QffCc0OGNvsXE0gkhGR6th9REVMe0Fue%2FHNlDGkXgfJq2zwruR4dnO0nktjA7OQn4oq6OqbRaNhmb43Mjvx7HmfBkjH%2F1wQiORRo7a9f15JpFj&X-Amz-Signature=5f5f968013b33ccde6d168d6ce33b8a45c917ef2e7a677d8143ef53429e157f4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/WEB-LOGICIEL-Check-In-Scan-partie-1-Mapping-envoi-Naxi-G-vers-CiS-3118db15623a81c78ca4f07fb87f2047"
     },
@@ -8193,7 +8193,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA29.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YVQVBGN4%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T050306Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDl9mJeGxgE8NcovmcQ1XGJfzWqpuGeuSqUJiT%2FJBTSiQIhAPJJaLd%2F1h3xK17XKmf0YyeWUO2ybwWQ5DrbV07TAHHEKogECLX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwPwMhLocmWEu9OXvIq3AP%2Fp7jILawO0Fy%2FSZg%2FHZIra2cxu7%2FtakuT70qJd3DAoH89cC9rGIfj7jO2pnhGVjbNrZv3WMoL5cMfVgKbaigrl%2FJaLrX4j3odxeOGD5V0U9p2LHMTNjKTvlJCsRXaHUMsRID9r2K6CciBmcD10yYZWVn7PKmAFq%2BieECjcJpyH0dRo%2BrTpIpN7OMWmf5FnxDqsdWaSQ%2Bfw98m4PgmpWcd5ADjB%2BnaY3xd8L9UYcQ7dWDAbtamrjHOyC2q8bUViPhyZ1MoSlF5XiizxpoqP1A%2FE8T65FFMAPUicZmcYzfBDFjrvU6bCq9VqqCVlj%2FdLTDAaBeiAGW%2BcYd9kP1lKp%2BPbd%2BvuDw3uSRpLTN2nfrLGZdiIfdpChEvsWqG0IlWfLJA18NphR9UqslSldOKFrUreuRFn7ZRL3OMRsP0OywvirVSTuIaYax%2FLZxvcnA2UM2betUTzuEj1%2BXIwMiUNlbwc8JqDwA%2FqWakJXo3HDgRSAmmvxnuX0ZqqTduCXc6a%2BTp3V0xz%2BEzlVKaWkaCzn6VNZvZqlQDKfOvV3NzI3Cf%2BOiqoYCl5wbFAQvRZcTBNbra234OMn7wWgi%2Brx8GB8x5E0mrcoMVhMzLZ2hfgBe%2F%2F3q5oTfx1ID1oxpzujDelarQBjqkAR7%2FaYQL8nGeUL1l%2F%2Bgy8exHNn73r107JMdyh65v3Dg%2BjTzpR0Mqwa0RLVPUpB%2BzpwU3juvKTAVzocSU6AG7A4%2FJKpScQp7RTOl6rlYpEg7vkuW96mJxsM3%2FYGCMMNqJ2EA1xAcHwvPG84K7x1tZc2mdwh7Q209jmB9Zvfg6YD58rM1ObMqeRBgt6yeTbiarrmwk196W3XER9BkcE0SAQg3xgWJj&X-Amz-Signature=f058ac3be7cec48e9f9bd1b5d85fbd0e836ae334cf8ef37bbb537dcff1eca034&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XRGPUJ2E%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T055416Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCspoQxXHx5yxxrJUxLe2WhYsMNYbatxsl5Jj0FPnqrkwIhAMSPUm6YtPu7qi8%2BN27txkynmnpcXqB7BfY9ul2xwt14KogECLb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyAHMD%2Fo3k2sp4vg%2Fgq3APfD%2FXIu9pG%2BwklNzynGXDDfK0N3R8yLo7aofBezpb%2FYOzrZRo6SXQYkL7DuxttbCoQd7NIV4bfRqDgdSuTFEMHRIRrfSJjWon9dIO72ghMmfVnxQ1e5hNOg9%2B0UStwdPYPkdnByq5nAw2ytXiVc51CxgopBoRlSxhyJErmjuPodB5A65qltUnjcDvHfFI8HNJXmke4H%2FPXjX7KTMILUz5UaXQ0LjAMvfNrzuWYzXBa0ox%2BoxvuE%2F1iI70Drvh%2FGEw22GcNqREFuqS%2FAGA8gpIG5dFZhk6YKwCxOhzLedeO%2FJt%2F9Le1LUZITlX8OK6cVPtOO1udXJi4Z4XxYfJrAsYVk2fVRF2pa3i8adzrc7VdSnXmFfaMWb%2FFN7ribrw1PwtD57PoE9NSdDRby9WJgervR%2BqiGbs8rzBEAcdPaBdJZmYkudVVHTeroPsQMaxZibVtZdC8UGcpobThb3IBeJRw8hQKyhWnLoaf%2FNNO%2F3%2FDL1NxtQiGlX%2FfaURDunnn%2FMSFOrUJyukXO8deTYaqKACiRK%2Bkv1j692BuLgQCajZWZ%2Fi8%2BQ%2BY%2B94k2glKDhJnxZbX367nViOODBek36bwb7P4AHLZSdo1DZJS3XaWisao1BlF1kvO%2BEu2%2Fjv%2BOTCVvarQBjqkAVDGWruQ%2BENX3kwXpXPOKOWH%2FfSeHFXYVzORy7doXPBVlQmjoh4Y3ToxVbL%2BecdkbThg54Owb2B5rrvBfRswxzYCcgebag2GnbFh4KK0uK4z2LhlIkGIvp7t19GQzEZTi1pELQ0XqrLPHitwgS%2FK0QvWSlYmDKvfrStsnbpzvRlQh6EGmMiHb0Y3srKbTJT3HTQzpxkNQbjEXAbuvofrz%2BddJo6x&X-Amz-Signature=d4cee7aa3fe8cc8393a5afc3c084170c12dd511f8cdc2d321bfb8b3d6e223fa9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-NORME-V19-3118db15623a8078a611ffceac61cd6e"
     },
@@ -9088,10 +9088,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Mai 2026",
+        "maquette": "Juin 2026",
         "back": "Juin 2026",
-        "front": "Mai 2026",
-        "design": "Mai 2026",
+        "front": "Juin 2026",
+        "design": "Juillet 2026",
         "test": "Mai 2026"
       },
       "membres": {
@@ -9100,13 +9100,11 @@
           "Jérôme",
           "Albert"
         ],
-        "back": [
-          "Cédric.F"
+        "back": [],
+        "front": [],
+        "design": [
+          "Cédric.V"
         ],
-        "front": [
-          "Albert"
-        ],
-        "design": [],
         "test": []
       },
       "avancement": {
@@ -9134,7 +9132,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:00:00.000Z",
+      "lastEdited": "2026-05-18T05:26:00.000Z",
       "url": "https://www.notion.so/To-do-3648db15623a809fbdbacf8421e20ad9"
     },
     {
@@ -9373,8 +9371,12 @@
         "back": [
           "Cédric.F"
         ],
-        "front": [],
-        "design": [],
+        "front": [
+          "Ines"
+        ],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -9411,7 +9413,7 @@
       "lienMaquette": "https://naxigestionfront-prepa.vercel.app/",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-251",
       "remarques": "",
-      "lastEdited": "2026-05-18T05:01:00.000Z",
+      "lastEdited": "2026-05-18T05:17:00.000Z",
       "url": "https://www.notion.so/Listing-occupation-3118db15623a806c9003d6a37bbcc876"
     },
     {
@@ -9442,8 +9444,12 @@
         "back": [
           "Cédric.F"
         ],
-        "front": [],
-        "design": [],
+        "front": [
+          "Ines"
+        ],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -9481,7 +9487,7 @@
       "lienMaquette": "https://naxigestionfront-prepa.vercel.app/",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-130",
       "remarques": "",
-      "lastEdited": "2026-05-18T05:02:00.000Z",
+      "lastEdited": "2026-05-18T05:17:00.000Z",
       "url": "https://www.notion.so/Historiques-des-ventes-3118db15623a8000a66cf364b01aea44"
     },
     {
@@ -9497,10 +9503,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juillet 2026",
+        "maquette": "Aout 2026",
         "back": "Aout 2026",
-        "front": "Juillet 2026",
-        "design": "Juillet 2026",
+        "front": "Aout 2026",
+        "design": "Septembre 2026",
         "test": "Juillet 2026"
       },
       "membres": {
@@ -9511,7 +9517,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -9539,7 +9547,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:58:00.000Z",
+      "lastEdited": "2026-05-18T05:25:00.000Z",
       "url": "https://www.notion.so/Fiche-s-jour-finalisation-3108db15623a8059bd0bc46cf046cd65"
     },
     {
@@ -9555,10 +9563,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juillet 2026",
+        "maquette": "Aout 2026",
         "back": "Aout 2026",
-        "front": "Juillet 2026",
-        "design": "Juillet 2026",
+        "front": "Aout 2026",
+        "design": "Septembre 2026",
         "test": "Juillet 2026"
       },
       "membres": {
@@ -9569,7 +9577,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -9597,7 +9607,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:57:00.000Z",
+      "lastEdited": "2026-05-18T05:25:00.000Z",
       "url": "https://www.notion.so/FS-Modif-s-jour-justificatif-3108db15623a8007b806e7d7b5926dc6"
     },
     {
@@ -9613,10 +9623,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juillet 2026",
+        "maquette": "Aout 2026",
         "back": "Aout 2026",
-        "front": "Juillet 2026",
-        "design": "Juillet 2026",
+        "front": "Aout 2026",
+        "design": "Septembre 2026",
         "test": "Juillet 2026"
       },
       "membres": {
@@ -9627,7 +9637,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -9655,7 +9667,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:57:00.000Z",
+      "lastEdited": "2026-05-18T05:25:00.000Z",
       "url": "https://www.notion.so/FS-Caution-restituer-3108db15623a8080b2decff057386b2c"
     },
     {
@@ -9674,7 +9686,7 @@
         "maquette": "Juillet 2026",
         "back": "Juillet 2026",
         "front": "Juillet 2026",
-        "design": "Juillet 2026",
+        "design": "Aout 2026",
         "test": "Juillet 2026"
       },
       "membres": {
@@ -9685,7 +9697,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -9713,7 +9727,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:00:00.000Z",
+      "lastEdited": "2026-05-18T05:26:00.000Z",
       "url": "https://www.notion.so/FS-Intervention-3108db15623a80e99e75c230842b40b1"
     },
     {
@@ -9732,7 +9746,7 @@
         "maquette": "Juillet 2026",
         "back": "Juillet 2026",
         "front": "Juillet 2026",
-        "design": "Juillet 2026",
+        "design": "Aout 2026",
         "test": "Juillet 2026"
       },
       "membres": {
@@ -9743,7 +9757,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -9771,7 +9787,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:00:00.000Z",
+      "lastEdited": "2026-05-18T05:26:00.000Z",
       "url": "https://www.notion.so/FS-Cashless-listing-cr-er-badge-3108db15623a8026b821f78465d6b1c5"
     },
     {
@@ -9790,7 +9806,7 @@
         "maquette": "Juillet 2026",
         "back": "Juillet 2026",
         "front": "Juillet 2026",
-        "design": "Juillet 2026",
+        "design": "Aout 2026",
         "test": "Juillet 2026"
       },
       "membres": {
@@ -9801,7 +9817,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -9829,7 +9847,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:00:00.000Z",
+      "lastEdited": "2026-05-18T05:26:00.000Z",
       "url": "https://www.notion.so/FS-Inventaire-3108db15623a80afafcfd36aea8da415"
     },
     {
@@ -9845,10 +9863,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juin 2026",
+        "maquette": "Juillet 2026",
         "back": "Juillet 2026",
-        "front": "Juin 2026",
-        "design": "Juin 2026",
+        "front": "Juillet 2026",
+        "design": "Aout 2026",
         "test": "Juin 2026"
       },
       "membres": {
@@ -9859,7 +9877,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -9887,7 +9907,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:59:00.000Z",
+      "lastEdited": "2026-05-18T05:26:00.000Z",
       "url": "https://www.notion.so/FS-Annuler-s-jour-si-paiement-3108db15623a809f848bddfcd22add69"
     },
     {
@@ -9903,10 +9923,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juillet 2026",
+        "maquette": "Aout 2026",
         "back": "Aout 2026",
-        "front": "Juillet 2026",
-        "design": "Juillet 2026",
+        "front": "Aout 2026",
+        "design": "Septembre 2026",
         "test": "Juillet 2026"
       },
       "membres": {
@@ -9917,7 +9937,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -9945,7 +9967,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:57:00.000Z",
+      "lastEdited": "2026-05-18T05:25:00.000Z",
       "url": "https://www.notion.so/FS-Cr-er-un-avoir-3108db15623a8085bab1d02b691e1640"
     },
     {
@@ -9961,10 +9983,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juillet 2026",
+        "maquette": "Aout 2026",
         "back": "Aout 2026",
-        "front": "Juillet 2026",
-        "design": "Juillet 2026",
+        "front": "Aout 2026",
+        "design": "Septembre 2026",
         "test": "Juillet 2026"
       },
       "membres": {
@@ -9975,7 +9997,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10003,7 +10027,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:57:00.000Z",
+      "lastEdited": "2026-05-18T05:25:00.000Z",
       "url": "https://www.notion.so/FS-Facturer-3108db15623a80fab396c5573af3f7ca"
     },
     {
@@ -10019,10 +10043,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juillet 2026",
+        "maquette": "Aout 2026",
         "back": "Aout 2026",
-        "front": "Juillet 2026",
-        "design": "Juillet 2026",
+        "front": "Aout 2026",
+        "design": "Septembre 2026",
         "test": "Juillet 2026"
       },
       "membres": {
@@ -10033,7 +10057,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10061,7 +10087,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:57:00.000Z",
+      "lastEdited": "2026-05-18T05:25:00.000Z",
       "url": "https://www.notion.so/FS-Contr-le-d-acc-s-ajouter-modifier-3108db15623a80eb8afbd65c2c203f6e"
     },
     {
@@ -10077,10 +10103,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juillet 2026",
+        "maquette": "Aout 2026",
         "back": "Aout 2026",
-        "front": "Juillet 2026",
-        "design": "Juillet 2026",
+        "front": "Aout 2026",
+        "design": "Septembre 2026",
         "test": "Juillet 2026"
       },
       "membres": {
@@ -10091,7 +10117,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10119,7 +10147,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:57:00.000Z",
+      "lastEdited": "2026-05-18T05:25:00.000Z",
       "url": "https://www.notion.so/FS-Ajouter-modifier-Animaux-3108db15623a8096aa99d522e071409a"
     },
     {
@@ -10135,10 +10163,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juin 2026",
+        "maquette": "Juillet 2026",
         "back": "Juillet 2026",
-        "front": "Juin 2026",
-        "design": "Juin 2026",
+        "front": "Juillet 2026",
+        "design": "Aout 2026",
         "test": "Juin 2026"
       },
       "membres": {
@@ -10149,7 +10177,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10177,7 +10207,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:59:00.000Z",
+      "lastEdited": "2026-05-18T05:26:00.000Z",
       "url": "https://www.notion.so/FS-Ajouter-modifier-Immat-voiture-3108db15623a80c7b484c8d44e8f394e"
     },
     {
@@ -10193,10 +10223,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juin 2026",
+        "maquette": "Juillet 2026",
         "back": "Juillet 2026",
-        "front": "Juin 2026",
-        "design": "Juin 2026",
+        "front": "Juillet 2026",
+        "design": "Aout 2026",
         "test": "Juin 2026"
       },
       "membres": {
@@ -10207,7 +10237,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10235,7 +10267,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:59:00.000Z",
+      "lastEdited": "2026-05-18T05:26:00.000Z",
       "url": "https://www.notion.so/FS-Scan-PI-3108db15623a809f836ff61d618208dc"
     },
     {
@@ -10251,10 +10283,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juin 2026",
+        "maquette": "Juillet 2026",
         "back": "Juillet 2026",
-        "front": "Juin 2026",
-        "design": "Juin 2026",
+        "front": "Juillet 2026",
+        "design": "Aout 2026",
         "test": "Juin 2026"
       },
       "membres": {
@@ -10265,7 +10297,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10293,7 +10327,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:59:00.000Z",
+      "lastEdited": "2026-05-18T05:26:00.000Z",
       "url": "https://www.notion.so/FS-Afficher-tous-les-participants-3108db15623a807dab18dc32070ed4ad"
     },
     {
@@ -10309,10 +10343,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juillet 2026",
+        "maquette": "Aout 2026",
         "back": "Aout 2026",
-        "front": "Juillet 2026",
-        "design": "Juillet 2026",
+        "front": "Aout 2026",
+        "design": "Septembre 2026",
         "test": "Juillet 2026"
       },
       "membres": {
@@ -10323,7 +10357,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10351,7 +10387,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:57:00.000Z",
+      "lastEdited": "2026-05-18T05:25:00.000Z",
       "url": "https://www.notion.so/FS-Paiement-3108db15623a8033bdc2f2676fc02342"
     },
     {
@@ -10367,10 +10403,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juillet 2026",
+        "maquette": "Aout 2026",
         "back": "Aout 2026",
-        "front": "Juillet 2026",
-        "design": "Juillet 2026",
+        "front": "Aout 2026",
+        "design": "Septembre 2026",
         "test": "Juillet 2026"
       },
       "membres": {
@@ -10381,7 +10417,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10409,7 +10447,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:57:00.000Z",
+      "lastEdited": "2026-05-18T05:25:00.000Z",
       "url": "https://www.notion.so/FS-Grille-Suppl-3108db15623a805b89f4ea96b3404809"
     },
     {
@@ -10425,10 +10463,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juillet 2026",
+        "maquette": "Aout 2026",
         "back": "Aout 2026",
-        "front": "Juillet 2026",
-        "design": "Juillet 2026",
+        "front": "Aout 2026",
+        "design": "Septembre 2026",
         "test": "Juillet 2026"
       },
       "membres": {
@@ -10439,7 +10477,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10467,7 +10507,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:57:00.000Z",
+      "lastEdited": "2026-05-18T05:25:00.000Z",
       "url": "https://www.notion.so/FS-Ajouter-Remise-3108db15623a8069a984d66e15249587"
     },
     {
@@ -10483,10 +10523,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Mai 2026",
+        "maquette": "Juin 2026",
         "back": "Juin 2026",
-        "front": "Mai 2026",
-        "design": "Mai 2026",
+        "front": "Juin 2026",
+        "design": "Juillet 2026",
         "test": "Mai 2026"
       },
       "membres": {
@@ -10496,10 +10536,10 @@
           "Albert"
         ],
         "back": [],
-        "front": [
-          "Sylvain"
+        "front": [],
+        "design": [
+          "Cédric.V"
         ],
-        "design": [],
         "test": []
       },
       "avancement": {
@@ -10527,7 +10567,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:01:00.000Z",
+      "lastEdited": "2026-05-18T05:27:00.000Z",
       "url": "https://www.notion.so/Cr-er-compte-FID-3108db15623a80c88396ca7ac906408d"
     },
     {
@@ -10543,10 +10583,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Aout 2026",
+        "maquette": "Septembre 2026",
         "back": "Septembre 2026",
-        "front": "Aout 2026",
-        "design": "Aout 2026",
+        "front": "Septembre 2026",
+        "design": "Octobre 2026",
         "test": "Aout 2026"
       },
       "membres": {
@@ -10557,7 +10597,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10585,7 +10627,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:56:00.000Z",
+      "lastEdited": "2026-05-18T05:24:00.000Z",
       "url": "https://www.notion.so/GESTION-MAILS-Finalisation-3108db15623a803d9fa4d11bb5caf126"
     },
     {
@@ -10601,10 +10643,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Mai 2026",
+        "maquette": "Juin 2026",
         "back": "Juin 2026",
-        "front": "Mai 2026",
-        "design": "Mai 2026",
+        "front": "Juin 2026",
+        "design": "Juillet 2026",
         "test": "Mai 2026"
       },
       "membres": {
@@ -10614,10 +10656,10 @@
           "Albert"
         ],
         "back": [],
-        "front": [
-          "Albert"
+        "front": [],
+        "design": [
+          "Cédric.V"
         ],
-        "design": [],
         "test": []
       },
       "avancement": {
@@ -10645,7 +10687,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:01:00.000Z",
+      "lastEdited": "2026-05-18T05:27:00.000Z",
       "url": "https://www.notion.so/PLANNING-finalisation-3108db15623a8046a892ff0bc03935e2"
     },
     {
@@ -10661,10 +10703,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juillet 2026",
+        "maquette": "Aout 2026",
         "back": "Aout 2026",
-        "front": "Juillet 2026",
-        "design": "Juillet 2026",
+        "front": "Aout 2026",
+        "design": "Septembre 2026",
         "test": "Juillet 2026"
       },
       "membres": {
@@ -10675,7 +10717,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10703,7 +10747,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:57:00.000Z",
+      "lastEdited": "2026-05-18T05:25:00.000Z",
       "url": "https://www.notion.so/FS-Ajouter-Suppl-ment-3108db15623a80b79bcad43566450bf2"
     },
     {
@@ -10719,10 +10763,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Aout 2026",
+        "maquette": "Septembre 2026",
         "back": "Septembre 2026",
-        "front": "Aout 2026",
-        "design": "Aout 2026",
+        "front": "Septembre 2026",
+        "design": "Octobre 2026",
         "test": "Aout 2026"
       },
       "membres": {
@@ -10733,7 +10777,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10761,7 +10807,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:56:00.000Z",
+      "lastEdited": "2026-05-18T05:24:00.000Z",
       "url": "https://www.notion.so/DEVIS-finalisation-3108db15623a803f901bf8d05665eb44"
     },
     {
@@ -10777,10 +10823,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Aout 2026",
+        "maquette": "Septembre 2026",
         "back": "Septembre 2026",
-        "front": "Aout 2026",
-        "design": "Aout 2026",
+        "front": "Septembre 2026",
+        "design": "Octobre 2026",
         "test": "Aout 2026"
       },
       "membres": {
@@ -10791,7 +10837,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10819,7 +10867,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:56:00.000Z",
+      "lastEdited": "2026-05-18T05:24:00.000Z",
       "url": "https://www.notion.so/Prolonger-devis-3108db15623a8005bcafcb863397d027"
     },
     {
@@ -10835,10 +10883,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Aout 2026",
+        "maquette": "Septembre 2026",
         "back": "Septembre 2026",
-        "front": "Aout 2026",
-        "design": "Aout 2026",
+        "front": "Septembre 2026",
+        "design": "Octobre 2026",
         "test": "Aout 2026"
       },
       "membres": {
@@ -10849,7 +10897,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10877,7 +10927,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:56:00.000Z",
+      "lastEdited": "2026-05-18T05:24:00.000Z",
       "url": "https://www.notion.so/Gestion-des-devis-3108db15623a80f281b2c128614b9f2c"
     },
     {
@@ -10893,10 +10943,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Aout 2026",
+        "maquette": "Septembre 2026",
         "back": "Septembre 2026",
-        "front": "Aout 2026",
-        "design": "Aout 2026",
+        "front": "Septembre 2026",
+        "design": "Octobre 2026",
         "test": "Aout 2026"
       },
       "membres": {
@@ -10907,7 +10957,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10935,7 +10987,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:56:00.000Z",
+      "lastEdited": "2026-05-18T05:24:00.000Z",
       "url": "https://www.notion.so/Devis-d-tails-des-calculs-3108db15623a805fb66ae261eede739a"
     },
     {
@@ -10967,7 +11019,9 @@
           "Loic"
         ],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -10995,7 +11049,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:14:00.000Z",
+      "lastEdited": "2026-05-18T05:17:00.000Z",
       "url": "https://www.notion.so/Planning-rech-dispo-3108db15623a80299b95d03d075b8e3b"
     },
     {
@@ -11011,10 +11065,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Aout 2026",
+        "maquette": "Septembre 2026",
         "back": "Septembre 2026",
-        "front": "Aout 2026",
-        "design": "Aout 2026",
+        "front": "Septembre 2026",
+        "design": "Octobre 2026",
         "test": "Aout 2026"
       },
       "membres": {
@@ -11025,7 +11079,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -11053,7 +11109,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:56:00.000Z",
+      "lastEdited": "2026-05-18T05:24:00.000Z",
       "url": "https://www.notion.so/VENTES-HORS-SEJOUR-Finalisation-3108db15623a8069a77debe44fddf4f1"
     },
     {
@@ -11069,10 +11125,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Aout 2026",
+        "maquette": "Septembre 2026",
         "back": "Septembre 2026",
-        "front": "Aout 2026",
-        "design": "Aout 2026",
+        "front": "Septembre 2026",
+        "design": "Octobre 2026",
         "test": "Aout 2026"
       },
       "membres": {
@@ -11083,7 +11139,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -11111,7 +11169,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:56:00.000Z",
+      "lastEdited": "2026-05-18T05:24:00.000Z",
       "url": "https://www.notion.so/Envoi-mails-template-auto-gestion-pi-ces-jointes-3108db15623a8017abfee377c07de1b5"
     },
     {
@@ -11127,10 +11185,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juin 2026",
+        "maquette": "Juillet 2026",
         "back": "Juillet 2026",
-        "front": "Juin 2026",
-        "design": "Juin 2026",
+        "front": "Juillet 2026",
+        "design": "Juillet 2026",
         "test": "Juin 2026"
       },
       "membres": {
@@ -11141,7 +11199,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -11169,7 +11229,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:00:00.000Z",
+      "lastEdited": "2026-05-18T05:24:00.000Z",
       "url": "https://www.notion.so/Report-solde-3108db15623a808fbef7d02783c1a2e8"
     },
     {
@@ -11185,10 +11245,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juin 2026",
+        "maquette": "Juillet 2026",
         "back": "Juillet 2026",
-        "front": "Juin 2026",
-        "design": "Juin 2026",
+        "front": "Juillet 2026",
+        "design": "Juillet 2026",
         "test": "Juin 2026"
       },
       "membres": {
@@ -11199,7 +11259,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -11227,7 +11289,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:00:00.000Z",
+      "lastEdited": "2026-05-18T05:24:00.000Z",
       "url": "https://www.notion.so/Duplication-s-jours-3108db15623a80c194fdd0ec9b31478c"
     },
     {
@@ -11243,10 +11305,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juin 2026",
+        "maquette": "Juillet 2026",
         "back": "Juillet 2026",
-        "front": "Juin 2026",
-        "design": "Juin 2026",
+        "front": "Juillet 2026",
+        "design": "Juillet 2026",
         "test": "Juin 2026"
       },
       "membres": {
@@ -11257,7 +11319,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -11285,7 +11349,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:00:00.000Z",
+      "lastEdited": "2026-05-18T05:23:00.000Z",
       "url": "https://www.notion.so/Docs-clients-3108db15623a80f09788f61e6d51bb8b"
     },
     {
@@ -11301,10 +11365,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Mai 2026",
+        "maquette": "Juin 2026",
         "back": "Juin 2026",
-        "front": "Mai 2026",
-        "design": "Mai 2026",
+        "front": "Juin 2026",
+        "design": "Juillet 2026",
         "test": "Mai 2026"
       },
       "membres": {
@@ -11315,7 +11379,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -11343,7 +11409,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:01:00.000Z",
+      "lastEdited": "2026-05-18T05:27:00.000Z",
       "url": "https://www.notion.so/Alertes-to-do-list-3108db15623a80bcafa9faa7e779cdb8"
     },
     {
@@ -11359,10 +11425,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juin 2026",
+        "maquette": "Juillet 2026",
         "back": "Juillet 2026",
-        "front": "Juin 2026",
-        "design": "Juin 2026",
+        "front": "Juillet 2026",
+        "design": "Juillet 2026",
         "test": "Juin 2026"
       },
       "membres": {
@@ -11373,7 +11439,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -11401,7 +11469,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:00:00.000Z",
+      "lastEdited": "2026-05-18T05:23:00.000Z",
       "url": "https://www.notion.so/CRM-3108db15623a80808bc9f45ac368b723"
     },
     {
@@ -11417,10 +11485,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Mai 2026",
+        "maquette": "Juin 2026",
         "back": "Juin 2026",
-        "front": "Mai 2026",
-        "design": "Mai 2026",
+        "front": "Juin 2026",
+        "design": "Juillet 2026",
         "test": "Mai 2026"
       },
       "membres": {
@@ -11431,7 +11499,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -11459,7 +11529,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:00:00.000Z",
+      "lastEdited": "2026-05-18T05:26:00.000Z",
       "url": "https://www.notion.so/Voir-les-participants-3108db15623a8034b32bec46d986d4b0"
     },
     {
@@ -11475,10 +11545,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Juin 2026",
+        "maquette": "Juillet 2026",
         "back": "Juillet 2026",
-        "front": "Juin 2026",
-        "design": "Juin 2026",
+        "front": "Juillet 2026",
+        "design": "Aout 2026",
         "test": "Juin 2026"
       },
       "membres": {
@@ -11489,7 +11559,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -11517,7 +11589,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:00:00.000Z",
+      "lastEdited": "2026-05-18T05:26:00.000Z",
       "url": "https://www.notion.so/FICHE-CLIENT-Finalisation-3108db15623a8086a5faf24fa6e1b473"
     },
     {
@@ -11533,10 +11605,10 @@
       "ordre": null,
       "nbreUS": 1,
       "sprint": {
-        "maquette": "Aout 2026",
+        "maquette": "Septembre 2026",
         "back": "Septembre 2026",
-        "front": "Aout 2026",
-        "design": "Aout 2026",
+        "front": "Septembre 2026",
+        "design": "Octobre 2026",
         "test": "Aout 2026"
       },
       "membres": {
@@ -11547,7 +11619,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -11575,7 +11649,7 @@
       "lienMaquette": "https://naxigestionfront-prepa.vercel.app/",
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:56:00.000Z",
+      "lastEdited": "2026-05-18T05:24:00.000Z",
       "url": "https://www.notion.so/Traitement-auto-3108db15623a80c29debf401ff4b9c83"
     },
     {
@@ -11814,8 +11888,12 @@
         "back": [
           "Cédric.F"
         ],
-        "front": [],
-        "design": [],
+        "front": [
+          "Ines"
+        ],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -11847,7 +11925,7 @@
       "lienMaquette": "https://naxigestionfront-prepa.vercel.app/",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-171",
       "remarques": "",
-      "lastEdited": "2026-05-18T05:01:00.000Z",
+      "lastEdited": "2026-05-18T05:17:00.000Z",
       "url": "https://www.notion.so/Recherche-dispo-3108db15623a80dbb784c8d97d57d3e8"
     },
     {
@@ -12027,7 +12105,9 @@
           "Cédric.F"
         ],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -12055,7 +12135,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:02:00.000Z",
+      "lastEdited": "2026-05-18T05:17:00.000Z",
       "url": "https://www.notion.so/Planning-sup-num-rot-3108db15623a807db76ffd0dc006e555"
     },
     {
@@ -12086,8 +12166,12 @@
         "back": [
           "Cédric.F"
         ],
-        "front": [],
-        "design": [],
+        "front": [
+          "Ines"
+        ],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -12117,7 +12201,7 @@
       "lienMaquette": "https://naxigestionfront-prepa.vercel.app/",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-50",
       "remarques": "",
-      "lastEdited": "2026-05-18T05:02:00.000Z",
+      "lastEdited": "2026-05-18T05:17:00.000Z",
       "url": "https://www.notion.so/Rech-dispo-plan-camping-3108db15623a804f8cbfee177c272a4d"
     },
     {
@@ -12215,10 +12299,10 @@
         "back": [
           "Cédric.F"
         ],
-        "front": [
-          "Albert"
+        "front": [],
+        "design": [
+          "Cédric.V"
         ],
-        "design": [],
         "test": []
       },
       "avancement": {
@@ -12246,7 +12330,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T04:16:00.000Z",
+      "lastEdited": "2026-05-18T05:17:00.000Z",
       "url": "https://www.notion.so/R-servation-a-traiter-3108db15623a80658b19ce3a08074f23"
     },
     {
@@ -12277,8 +12361,12 @@
         "back": [
           "Cédric.F"
         ],
-        "front": [],
-        "design": [],
+        "front": [
+          "Albert"
+        ],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -12313,7 +12401,7 @@
       "lienMaquette": "https://short-mop-16350499.figma.site",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-154",
       "remarques": "",
-      "lastEdited": "2026-05-18T05:01:00.000Z",
+      "lastEdited": "2026-05-18T05:17:00.000Z",
       "url": "https://www.notion.so/Listing-r-servation-3108db15623a80fdbad6df082fed2115"
     },
     {
@@ -12402,10 +12490,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Mai 2026",
+        "maquette": "Juin 2026",
         "back": "Juin 2026",
-        "front": "Mai 2026",
-        "design": "Mai 2026",
+        "front": "Juin 2026",
+        "design": "Juillet 2026",
         "test": "Mai 2026"
       },
       "membres": {
@@ -12416,7 +12504,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -12444,7 +12534,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:01:00.000Z",
+      "lastEdited": "2026-05-18T05:27:00.000Z",
       "url": "https://www.notion.so/HOME-Dasboard-Finalisation-3108db15623a80d395eac7695aa36dba"
     },
     {
@@ -12460,10 +12550,10 @@
       "ordre": null,
       "nbreUS": 0,
       "sprint": {
-        "maquette": "Mai 2026",
+        "maquette": "Juin 2026",
         "back": "Juin 2026",
-        "front": "Mai 2026",
-        "design": "Mai 2026",
+        "front": "Juin 2026",
+        "design": "Juillet 2026",
         "test": "Mai 2026"
       },
       "membres": {
@@ -12474,7 +12564,9 @@
         ],
         "back": [],
         "front": [],
-        "design": [],
+        "design": [
+          "Cédric.V"
+        ],
         "test": []
       },
       "avancement": {
@@ -12502,7 +12594,7 @@
       "lienMaquette": null,
       "lienJira": null,
       "remarques": "",
-      "lastEdited": "2026-05-18T05:01:00.000Z",
+      "lastEdited": "2026-05-18T05:27:00.000Z",
       "url": "https://www.notion.so/HOME-Menu-Burger-Finalisation-3108db15623a80d989fcc8350d408d13"
     },
     {
