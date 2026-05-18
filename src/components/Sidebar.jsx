@@ -9,54 +9,85 @@ import { LogoInaxel } from './LogoInaxel';
 
 // ============================================
 // NAV — structure du menu
-// Catégories `collapsible:true` peuvent être pliées (chevron). Windows portant
-// un `parent: "<category-key>"` ne sont rendues que si le parent est ouvert.
+// Catégories `collapsible:true` peuvent être pliées (chevron). Les items
+// portant un `parent: "<key>"` ne sont rendus que si tous leurs ancêtres
+// (jusqu'à la racine) sont dépliés.
 // items `strategie:true` sont masqués tant que le code n'est pas saisi.
 // `notionProject` sur une catégorie : option du select 🏗️ PROJETS dans Notion —
 // les pages enfants filtrent automatiquement les données par cette valeur.
 // ============================================
 export const NAV_ITEMS = [
-  { type: "window",   key: "dashboard",      label: "Dashboard",       icon: LayoutDashboard },
+  { type: "window",   key: "dashboard",       label: "Dashboard",        icon: LayoutDashboard },
 
-  { type: "category", label: "Tickets" },
-  { type: "window",   key: "enregistrement", label: "Enregistrement",  icon: FileText },
+  // === SAV & DEV produits ===
+  { type: "category", key: "sav-dev",         label: "SAV & DEV produits", collapsible: true },
+  { type: "window",   key: "enregistrement",  label: "Enregistrement",   icon: FileText, parent: "sav-dev" },
+  { type: "window",   key: "version",         label: "Version",          icon: Package,  parent: "sav-dev" },
+  { type: "window",   key: "sprint",          label: "Sprint en cours",  icon: Sparkles, parent: "sav-dev" },
 
-  { type: "category", label: "Releases" },
-  { type: "window",   key: "version",        label: "Version",         icon: Package },
+  // === Procédures (vide pour l'instant) ===
+  { type: "category", key: "procedures",      label: "Procédures",       collapsible: true },
 
-  { type: "category", label: "Sprint" },
-  { type: "window",   key: "sprint",         label: "Sprint en cours", icon: Sparkles },
+  // === Projets ===
+  { type: "category", key: "projets",         label: "Projets",          collapsible: true },
+  { type: "window",   key: "immobilisation",  label: "Immobilisation",   icon: Building2, parent: "projets" },
 
-  { type: "category", key: "naxi-saas",     label: "Naxi.G Full Saas", collapsible: true, notionProject: "Naxi G Full Saas" },
-  { type: "window",   key: "naxi-saas-cdc", label: "Cahier des charges", icon: ClipboardList, parent: "naxi-saas" },
-  { type: "window",   key: "suivi",         label: "Suivi",              icon: LineChart,     parent: "naxi-saas" },
-  { type: "window",   key: "immobilisation", label: "Immobilisation",    icon: Building2,     parent: "naxi-saas" },
+  // ─ Naxi.G Full Saas ─
+  { type: "category", key: "naxi-saas",       label: "Naxi.G Full Saas", collapsible: true, parent: "projets", notionProject: "Naxi G Full Saas" },
+  { type: "window",   key: "naxi-saas-cdc",   label: "Cahier des charges", icon: ClipboardList, parent: "naxi-saas" },
+  { type: "window",   key: "suivi",           label: "Suivi",              icon: LineChart,     parent: "naxi-saas" },
 
-  // ── Projets stratégiques (verrouillés derrière un code, repliés par défaut) ──
-  { type: "category", key: "nax7-full-web",      label: "NAX7 full web",            collapsible: true, strategie: true, notionProject: "Nax7 Full Web" },
-  { type: "window",   key: "blueprint",          label: "Blue Print",               icon: LayoutGrid,    parent: "nax7-full-web", strategie: true },
-  { type: "window",   key: "gantt",              label: "Gantt",                    icon: Calendar,      parent: "nax7-full-web", strategie: true },
-  { type: "window",   key: "cdc-nax7-full-web",  label: "Cahier des charges",       icon: ClipboardList, parent: "nax7-full-web", strategie: true },
-  { type: "window",   key: "calcul-prix",        label: "Calcul prix",              icon: Calculator,    parent: "nax7-full-web", strategie: true },
-  { type: "window",   key: "rd-mode-degrade",    label: "R&D mode dégradé",         icon: ShieldAlert,   parent: "nax7-full-web", strategie: true },
-  { type: "window",   key: "rd-migration",       label: "R&D migration",            icon: Database,      parent: "nax7-full-web", strategie: true },
+  // ─ NAX7 full web (stratégique) ─
+  { type: "category", key: "nax7-full-web",   label: "NAX7 full web",    collapsible: true, parent: "projets", strategie: true, notionProject: "Nax7 Full Web" },
+  { type: "window",   key: "blueprint",       label: "Blue Print",       icon: LayoutGrid,    parent: "nax7-full-web", strategie: true },
+  { type: "window",   key: "gantt",           label: "Gantt",            icon: Calendar,      parent: "nax7-full-web", strategie: true },
+  { type: "window",   key: "cdc-nax7-full-web", label: "Cahier des charges", icon: ClipboardList, parent: "nax7-full-web", strategie: true },
+  { type: "window",   key: "calcul-prix",     label: "Calcul prix",      icon: Calculator,    parent: "nax7-full-web", strategie: true },
+  { type: "window",   key: "rd-mode-degrade", label: "R&D mode dégradé", icon: ShieldAlert,   parent: "nax7-full-web", strategie: true },
+  { type: "window",   key: "rd-migration",    label: "R&D migration",    icon: Database,      parent: "nax7-full-web", strategie: true },
+  { type: "window",   key: "portail-clients-residents", label: "Portail clients et résidents", icon: ClipboardList, parent: "nax7-full-web", strategie: true },
 
-  { type: "category", key: "nax7-light",         label: "Nax7 light",               collapsible: true, strategie: true, notionProject: "Nax7 Light" },
-  { type: "window",   key: "cdc-nax7-light",     label: "Cahier des charges",       icon: ClipboardList, parent: "nax7-light", strategie: true },
+  // ─ Nax7 light (stratégique) ─
+  { type: "category", key: "nax7-light",      label: "Nax7 light",       collapsible: true, parent: "projets", strategie: true, notionProject: "Nax7 Light" },
+  { type: "window",   key: "cdc-nax7-light",  label: "Cahier des charges", icon: ClipboardList, parent: "nax7-light", strategie: true },
 
-  { type: "category", key: "nax7-manager",       label: "Nax7 Manager",             collapsible: true, strategie: true, notionProject: "Nax7 Manager" },
-  { type: "window",   key: "cdc-nax7-manager",   label: "Cahier des charges",       icon: ClipboardList, parent: "nax7-manager", strategie: true },
+  // ─ Nax7 Manager (stratégique) ─
+  { type: "category", key: "nax7-manager",    label: "Nax7 Manager",     collapsible: true, parent: "projets", strategie: true, notionProject: "Nax7 Manager" },
+  { type: "window",   key: "cdc-nax7-manager", label: "Cahier des charges", icon: ClipboardList, parent: "nax7-manager", strategie: true },
 
-  { type: "category", key: "inaxel-pilot",       label: "Inaxel Pilot",             collapsible: true, strategie: true, notionProject: "Inaxel Pilot" },
-  { type: "window",   key: "cdc-inaxel-pilot",   label: "Cahier des charges",       icon: ClipboardList, parent: "inaxel-pilot", strategie: true },
+  // ─ Inaxel Pilot (stratégique) ─
+  { type: "category", key: "inaxel-pilot",    label: "Inaxel Pilot",     collapsible: true, parent: "projets", strategie: true, notionProject: "Inaxel Pilot" },
+  { type: "window",   key: "cdc-inaxel-pilot", label: "Cahier des charges", icon: ClipboardList, parent: "inaxel-pilot", strategie: true },
+  { type: "window",   key: "espace-client-inaxel", label: "Espace client (site inaxel)", icon: ClipboardList, parent: "inaxel-pilot", strategie: true },
 ];
 
-// Résout le projet Notion correspondant à un onglet (via la catégorie parente).
-// Retourne null pour les vues globales (dashboard, enregistrement, version, sprint).
+// Index pour lookups O(1) sur la chaîne de parent
+const BY_KEY = new Map(NAV_ITEMS.filter(e => e.key).map(e => [e.key, e]));
+
+// Profondeur d'imbrication (Dashboard = 0, sous-Projets = 1, sous-Naxi-Saas = 2)
+function depthOf(entry) {
+  let d = 0;
+  let cur = entry;
+  while (cur?.parent) { d++; cur = BY_KEY.get(cur.parent); }
+  return d;
+}
+
+// True si au moins un ancêtre est replié → l'entrée doit être masquée
+function isHiddenByCollapse(entry, collapsed) {
+  let cur = BY_KEY.get(entry.parent);
+  while (cur) {
+    if (collapsed.has(cur.key)) return true;
+    cur = BY_KEY.get(cur.parent);
+  }
+  return false;
+}
+
+// Résout le projet Notion d'un onglet via sa catégorie parente directe.
+// Retourne null pour les vues globales (dashboard, sav-dev, immobilisation, etc.).
 export function projectForTab(tab) {
-  const win = NAV_ITEMS.find(e => e.type === "window" && e.key === tab);
+  const win = BY_KEY.get(tab);
   if (!win?.parent) return null;
-  const cat = NAV_ITEMS.find(e => e.type === "category" && e.key === win.parent);
+  const cat = BY_KEY.get(win.parent);
   return cat?.notionProject || null;
 }
 
@@ -138,10 +169,16 @@ export function Sidebar({ tab, onSelect }) {
         display: "flex", flexDirection: "column",
       }}>
         {visibleItems.map((entry, i) => {
+          // Masque les éléments dont un ancêtre est replié
+          if (isHiddenByCollapse(entry, collapsed)) return null;
+
+          const depth = depthOf(entry);
+
           if (entry.type === "category") {
             if (entry.collapsible && entry.key) {
               const isCollapsed = collapsed.has(entry.key);
               const Caret = isCollapsed ? ChevronRight : ChevronDown;
+              const isTopLevel = depth === 0;
               return (
                 <button
                   type="button"
@@ -150,41 +187,48 @@ export function Sidebar({ tab, onSelect }) {
                   style={{
                     display: "flex", alignItems: "center", gap: 6,
                     width: "100%",
-                    padding: "16px 14px 5px",
-                    fontSize: 10, fontWeight: 700, letterSpacing: "0.07em",
-                    textTransform: "uppercase", color: C.orange,
-                    borderTop: `1px solid ${C.line}`,
-                    marginTop: 4,
+                    padding: isTopLevel
+                      ? "16px 14px 5px"
+                      : "10px 14px 5px 26px",
+                    fontSize: isTopLevel ? 10 : 11,
+                    fontWeight: 700,
+                    letterSpacing: isTopLevel ? "0.07em" : "0.04em",
+                    textTransform: "uppercase",
+                    color: isTopLevel ? C.orange : C.inkDim,
+                    borderTop: isTopLevel ? `1px solid ${C.line}` : "none",
+                    marginTop: isTopLevel ? 4 : 0,
                     background: "transparent", border: "none",
                     textAlign: "left", cursor: "pointer", fontFamily: "inherit",
-                    transition: "background 0.12s",
+                    transition: "background 0.12s, color 0.12s",
                   }}
                   onMouseEnter={e => { e.currentTarget.style.background = C.gray50; }}
                   onMouseLeave={e => { e.currentTarget.style.background = "transparent"; }}
                   title={isCollapsed ? "Déplier" : "Replier"}
                 >
-                  <Caret size={11} strokeWidth={2.4} />
+                  <Caret size={isTopLevel ? 11 : 10} strokeWidth={2.4} />
                   {entry.label}
                 </button>
               );
             }
+            // Catégorie non-collapsible (header simple)
             return (
               <div key={`cat-${i}-${entry.label}`} style={{
-                padding: "16px 14px 5px",
+                padding: depth === 0 ? "16px 14px 5px" : "10px 14px 5px 26px",
                 fontSize: 10, fontWeight: 700, letterSpacing: "0.07em",
                 textTransform: "uppercase", color: C.orange,
-                borderTop: `1px solid ${C.line}`,
-                marginTop: 4,
+                borderTop: depth === 0 ? `1px solid ${C.line}` : "none",
+                marginTop: depth === 0 ? 4 : 0,
               }}>{entry.label}</div>
             );
           }
 
-          // window
-          if (entry.parent && collapsed.has(entry.parent)) return null;
-
+          // window — indentation selon profondeur
+          // depth 0 : window racine (Dashboard) → 18px
+          // depth 1 : window sous catégorie de niveau 1 → 32px
+          // depth 2 : window sous sous-catégorie (sous Projets) → 44px
           const active = tab === entry.key;
           const Icon = entry.icon;
-          const nested = !!entry.parent;
+          const paddingLeft = depth === 0 ? 18 : depth === 1 ? 32 : 44;
           return (
             <button
               key={entry.key}
@@ -192,7 +236,7 @@ export function Sidebar({ tab, onSelect }) {
               style={{
                 display: "flex", alignItems: "center", gap: 10,
                 width: "100%",
-                padding: nested ? "8px 14px 8px 32px" : "8px 14px 8px 18px",
+                padding: `8px 14px 8px ${paddingLeft}px`,
                 background: active ? C.orangeBg : "transparent",
                 color: active ? C.orange : C.inkDim,
                 border: "none",

@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { Building2, Download } from 'lucide-react';
 import { C, RADIUS } from '../styles/theme';
 import { Card } from '../components/primitives/Card';
@@ -6,6 +6,7 @@ import { SectionTitle } from '../components/primitives/SectionTitle';
 
 // ============================================
 // ImmobilisationPage — Recap CII : pivot phase × mois
+// Vue multi-projets : sélecteurs projets + mois ↘ tableau + export.
 // Données : public/cii-data.json (généré par `npm run export-cii`)
 // ============================================
 const PHASES_ORDER = ['Maquette / UX', 'Back', 'Front', 'Design', 'Test'];
@@ -37,6 +38,7 @@ function downloadCsv(rows) {
     'Semaine ISO',
     'Date début (lundi)',
     'Date fin (dimanche)',
+    'Projet',
     'Personne',
     'Fenêtre',
     'Groupe',
@@ -50,6 +52,7 @@ function downloadCsv(rows) {
       r.week,
       r.start,
       r.end,
+      r.projet || '',
       r.person,
       r.fenetre,
       r.groupe || '',
@@ -72,13 +75,55 @@ function downloadCsv(rows) {
 }
 
 export function ImmobilisationPage({ data }) {
-  const ciiRows = data?.cii?.rows || [];
+  const allRows = data?.cii?.rows || [];
 
-  // Pivot phase × mois — chaque semaine est attribuée au mois du lundi (start)
+  // ── Inventaire des projets et mois disponibles dans les données ──
+  const { allProjects, allMonths } = useMemo(() => {
+    const projSet = new Set();
+    const monthSet = new Set();
+    allRows.forEach(r => {
+      if (r.projet) projSet.add(r.projet);
+      const ym = (r.start || '').slice(0, 7);
+      if (ym) monthSet.add(ym);
+    });
+    return {
+      allProjects: [...projSet].sort(),
+      allMonths:   [...monthSet].sort(),
+    };
+  }, [allRows]);
+
+  // Sélection : vide = "tous" (équivalent à filtre désactivé)
+  const [selectedProjects, setSelectedProjects] = useState(() => new Set());
+  const [selectedMonths,   setSelectedMonths]   = useState(() => new Set());
+
+  const toggle = (setter) => (value) => setter(prev => {
+    const next = new Set(prev);
+    if (next.has(value)) next.delete(value); else next.add(value);
+    return next;
+  });
+  const toggleProject = toggle(setSelectedProjects);
+  const toggleMonth   = toggle(setSelectedMonths);
+
+  // Lignes filtrées par projet + mois sélectionnés
+  const filteredRows = useMemo(() => {
+    const noProjFilter  = selectedProjects.size === 0;
+    const noMonthFilter = selectedMonths.size === 0;
+    if (noProjFilter && noMonthFilter) return allRows;
+    return allRows.filter(r => {
+      if (!noProjFilter && !selectedProjects.has(r.projet || '')) return false;
+      if (!noMonthFilter) {
+        const ym = (r.start || '').slice(0, 7);
+        if (!selectedMonths.has(ym)) return false;
+      }
+      return true;
+    });
+  }, [allRows, selectedProjects, selectedMonths]);
+
+  // Pivot phase × mois sur les lignes filtrées
   const { months, matrix, totalsPerMonth, totalsPerPhase, grandTotal } = useMemo(() => {
     const monthSet = new Set();
-    const m = new Map(); // phase → mois → jours
-    ciiRows.forEach(r => {
+    const m = new Map();
+    filteredRows.forEach(r => {
       const ym = (r.start || '').slice(0, 7);
       if (!ym) return;
       monthSet.add(ym);
@@ -105,17 +150,41 @@ export function ImmobilisationPage({ data }) {
       totalsPerPhase: totalsP,
       grandTotal: grand,
     };
-  }, [ciiRows]);
+  }, [filteredRows]);
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
       <SectionTitle
-        overline="Naxi.G Full Saas"
+        overline="Projets · CII"
         icon={Building2}
         sub="Suivi temps par phase et par mois — données pour dossier CII"
       >Immobilisation</SectionTitle>
 
-      {ciiRows.length === 0 ? (
+      {/* Filtres : projets + mois */}
+      {allRows.length > 0 && (
+        <Card padding={16}>
+          <FilterRow
+            label="Projets"
+            options={allProjects}
+            selected={selectedProjects}
+            onToggle={toggleProject}
+            onClear={() => setSelectedProjects(new Set())}
+            emptyHint="Tous les projets"
+          />
+          <div style={{ height: 12 }} />
+          <FilterRow
+            label="Mois"
+            options={allMonths}
+            renderOption={monthLabel}
+            selected={selectedMonths}
+            onToggle={toggleMonth}
+            onClear={() => setSelectedMonths(new Set())}
+            emptyHint="Tous les mois"
+          />
+        </Card>
+      )}
+
+      {allRows.length === 0 ? (
         <Card padding={32}>
           <div style={{ textAlign: 'center', color: C.inkDim, fontSize: 13 }}>
             Aucune donnée CII disponible.<br/>
@@ -148,15 +217,15 @@ export function ImmobilisationPage({ data }) {
             </div>
 
             <button
-              onClick={() => downloadCsv(ciiRows)}
-              disabled={ciiRows.length === 0}
+              onClick={() => downloadCsv(filteredRows)}
+              disabled={filteredRows.length === 0}
               style={{
                 display: 'inline-flex', alignItems: 'center', gap: 6,
                 padding: '8px 14px', borderRadius: RADIUS.md,
-                background: ciiRows.length === 0 ? C.bgSoft : C.orange,
-                color: ciiRows.length === 0 ? C.inkMute : '#fff',
-                border: ciiRows.length === 0 ? `1px solid ${C.line}` : 'none',
-                cursor: ciiRows.length === 0 ? 'not-allowed' : 'pointer',
+                background: filteredRows.length === 0 ? C.bgSoft : C.orange,
+                color: filteredRows.length === 0 ? C.inkMute : '#fff',
+                border: filteredRows.length === 0 ? `1px solid ${C.line}` : 'none',
+                cursor: filteredRows.length === 0 ? 'not-allowed' : 'pointer',
                 fontSize: 12, fontWeight: 700, letterSpacing: '0.02em',
                 fontFamily: 'inherit', transition: 'background 0.15s',
               }}
@@ -168,95 +237,150 @@ export function ImmobilisationPage({ data }) {
           </div>
 
           {/* Tableau pivot — phase × mois */}
-          <div style={{ overflowX: 'auto' }}>
-            <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 12 }}>
-              <thead>
-                <tr style={{ background: C.gray50 }}>
-                  <th style={thBase({
-                    position: 'sticky', left: 0, background: C.gray50, zIndex: 2, minWidth: 160,
-                  })}>Phase</th>
-                  {months.map((ym, i) => (
-                    <th key={ym} style={thBase({
+          {months.length === 0 ? (
+            <div style={{
+              padding: 32, textAlign: 'center', color: C.inkDim, fontSize: 13,
+            }}>
+              Aucune donnée pour les filtres sélectionnés.
+            </div>
+          ) : (
+            <div style={{ overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 12 }}>
+                <thead>
+                  <tr style={{ background: C.gray50 }}>
+                    <th style={thBase({
+                      position: 'sticky', left: 0, background: C.gray50, zIndex: 2, minWidth: 160,
+                    })}>Phase</th>
+                    {months.map((ym, i) => (
+                      <th key={ym} style={thBase({
+                        textAlign: 'right',
+                        borderLeft: i === 0 ? `1px solid ${C.line}` : 'none',
+                      })} title={ym}>{monthLabel(ym)}</th>
+                    ))}
+                    <th style={thBase({
                       textAlign: 'right',
-                      borderLeft: i === 0 ? `1px solid ${C.line}` : 'none',
-                    })} title={ym}>{monthLabel(ym)}</th>
-                  ))}
-                  <th style={thBase({
-                    textAlign: 'right',
-                    borderLeft: `1px solid ${C.line}`,
-                    color: C.orange,
-                  })}>Total</th>
-                </tr>
-              </thead>
-              <tbody>
-                {PHASES_ORDER.map((phase, i) => {
-                  const total = totalsPerPhase[i];
-                  return (
-                    <tr key={phase} style={{
-                      borderBottom: i === PHASES_ORDER.length - 1 ? 'none' : `1px solid ${C.gray100}`,
-                      transition: 'background 0.1s',
-                    }}
-                    onMouseEnter={e => { e.currentTarget.style.background = C.gray50; }}
-                    onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; }}
-                    >
-                      <td style={{
-                        padding: '10px 12px', color: C.ink, fontWeight: 600,
-                        position: 'sticky', left: 0, background: 'inherit', zIndex: 1,
-                      }}>{phase}</td>
-                      {months.map((ym, idx) => {
-                        const v = matrix.get(phase)?.get(ym) || 0;
-                        const txt = fmtJoursFR(v);
-                        return (
-                          <td key={ym} style={{
-                            ...tdNum(),
-                            borderLeft: idx === 0 ? `1px solid ${C.gray100}` : 'none',
-                            color: txt ? C.inkSoft : C.inkMute,
-                          }}>
-                            {txt || '—'}
-                          </td>
-                        );
-                      })}
-                      <td style={{
+                      borderLeft: `1px solid ${C.line}`,
+                      color: C.orange,
+                    })}>Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {PHASES_ORDER.map((phase, i) => {
+                    const total = totalsPerPhase[i];
+                    return (
+                      <tr key={phase} style={{
+                        borderBottom: i === PHASES_ORDER.length - 1 ? 'none' : `1px solid ${C.gray100}`,
+                        transition: 'background 0.1s',
+                      }}
+                      onMouseEnter={e => { e.currentTarget.style.background = C.gray50; }}
+                      onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; }}
+                      >
+                        <td style={{
+                          padding: '10px 12px', color: C.ink, fontWeight: 600,
+                          position: 'sticky', left: 0, background: 'inherit', zIndex: 1,
+                        }}>{phase}</td>
+                        {months.map((ym, idx) => {
+                          const v = matrix.get(phase)?.get(ym) || 0;
+                          const txt = fmtJoursFR(v);
+                          return (
+                            <td key={ym} style={{
+                              ...tdNum(),
+                              borderLeft: idx === 0 ? `1px solid ${C.gray100}` : 'none',
+                              color: txt ? C.inkSoft : C.inkMute,
+                            }}>
+                              {txt || '—'}
+                            </td>
+                          );
+                        })}
+                        <td style={{
+                          ...tdNum(),
+                          borderLeft: `1px solid ${C.gray100}`,
+                          color: total > 0 ? C.ink : C.inkMute,
+                          fontWeight: 700,
+                        }}>
+                          {fmtJoursFR(total) || '—'}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+                <tfoot>
+                  <tr style={{ background: C.gray50, borderTop: `2px solid ${C.line}` }}>
+                    <td style={{
+                      padding: '10px 12px', fontSize: 11, fontWeight: 700,
+                      letterSpacing: '0.06em', textTransform: 'uppercase', color: C.ink,
+                      position: 'sticky', left: 0, background: C.gray50, zIndex: 1,
+                    }}>Total</td>
+                    {totalsPerMonth.map((t, i) => (
+                      <td key={months[i]} style={{
                         ...tdNum(),
-                        borderLeft: `1px solid ${C.gray100}`,
-                        color: total > 0 ? C.ink : C.inkMute,
-                        fontWeight: 700,
+                        borderLeft: i === 0 ? `1px solid ${C.line}` : 'none',
+                        fontWeight: 700, color: t > 0 ? C.ink : C.inkMute,
                       }}>
-                        {fmtJoursFR(total) || '—'}
+                        {fmtJoursFR(t) || '—'}
                       </td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-              <tfoot>
-                <tr style={{ background: C.gray50, borderTop: `2px solid ${C.line}` }}>
-                  <td style={{
-                    padding: '10px 12px', fontSize: 11, fontWeight: 700,
-                    letterSpacing: '0.06em', textTransform: 'uppercase', color: C.ink,
-                    position: 'sticky', left: 0, background: C.gray50, zIndex: 1,
-                  }}>Total</td>
-                  {totalsPerMonth.map((t, i) => (
-                    <td key={months[i]} style={{
+                    ))}
+                    <td style={{
                       ...tdNum(),
-                      borderLeft: i === 0 ? `1px solid ${C.line}` : 'none',
-                      fontWeight: 700, color: t > 0 ? C.ink : C.inkMute,
+                      borderLeft: `1px solid ${C.line}`,
+                      fontWeight: 800, color: C.orange,
                     }}>
-                      {fmtJoursFR(t) || '—'}
+                      {fmtJoursFR(grandTotal) || '—'}
                     </td>
-                  ))}
-                  <td style={{
-                    ...tdNum(),
-                    borderLeft: `1px solid ${C.line}`,
-                    fontWeight: 800, color: C.orange,
-                  }}>
-                    {fmtJoursFR(grandTotal) || '—'}
-                  </td>
-                </tr>
-              </tfoot>
-            </table>
-          </div>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          )}
         </Card>
       )}
+    </div>
+  );
+}
+
+// ── Ligne de filtres (pills cliquables) ──
+function FilterRow({ label, options, renderOption, selected, onToggle, onClear, emptyHint }) {
+  const isAllSelected = selected.size === 0;
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+      <span style={{
+        fontSize: 11, letterSpacing: '0.06em', textTransform: 'uppercase',
+        color: C.inkDim, fontWeight: 700, minWidth: 64,
+      }}>{label}</span>
+      <button
+        type="button"
+        onClick={onClear}
+        style={{
+          padding: '4px 10px', borderRadius: RADIUS.sm,
+          background: isAllSelected ? C.orange : 'transparent',
+          color: isAllSelected ? '#fff' : C.inkDim,
+          border: `1px solid ${isAllSelected ? C.orange : C.line}`,
+          cursor: 'pointer', fontSize: 11, fontWeight: 600,
+          fontFamily: 'inherit', transition: 'background 0.12s, color 0.12s',
+        }}
+      >
+        {emptyHint}
+      </button>
+      {options.map(opt => {
+        const isOn = selected.has(opt);
+        return (
+          <button
+            key={opt}
+            type="button"
+            onClick={() => onToggle(opt)}
+            style={{
+              padding: '4px 10px', borderRadius: RADIUS.sm,
+              background: isOn ? C.orange : 'transparent',
+              color: isOn ? '#fff' : C.inkSoft,
+              border: `1px solid ${isOn ? C.orange : C.line}`,
+              cursor: 'pointer', fontSize: 11, fontWeight: 600,
+              fontFamily: 'inherit', transition: 'background 0.12s, color 0.12s',
+            }}
+          >
+            {renderOption ? renderOption(opt) : opt}
+          </button>
+        );
+      })}
     </div>
   );
 }
