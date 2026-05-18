@@ -4,6 +4,16 @@ import {
 } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import { C, RADIUS, SHADOW } from '../styles/theme';
+import { InfraProjetsSchema } from './schemas/InfraProjetsSchema';
+import { InfraGlobalSchema } from './schemas/InfraGlobalSchema';
+
+// Certaines procédures ont un schéma React custom (en dur) plutôt que le
+// rendu Markdown du contenu Notion. Le titre/résumé/catégorie restent
+// pilotés par Notion, seul le corps de la page change.
+const CUSTOM_SCHEMAS = {
+  'infra-global':                   InfraGlobalSchema,
+  'infra-projets-service-produits': InfraProjetsSchema,
+};
 
 // ============================================
 // ProcedureDetailPage — page dédiée à UNE procédure
@@ -149,18 +159,25 @@ export function ProcedureDetailPage({ data, slug, onNavigate }) {
         </div>
       </div>
 
-      {/* CONTENU MARKDOWN */}
-      <article style={{
-        background: C.paper,
-        border: `1px solid ${C.line}`,
-        borderRadius: RADIUS.md,
-        padding: '24px 32px',
-        boxShadow: SHADOW.sm,
-      }}>
-        <ReactMarkdown components={makeMdComponents(meta.color)}>
-          {procedure.contenu || '_Aucun contenu_'}
-        </ReactMarkdown>
-      </article>
+      {/* CORPS — schéma React custom si défini, sinon Markdown */}
+      {CUSTOM_SCHEMAS[procedure.slug] ? (
+        (() => {
+          const Schema = CUSTOM_SCHEMAS[procedure.slug];
+          return <Schema />;
+        })()
+      ) : (
+        <article style={{
+          background: C.paper,
+          border: `1px solid ${C.line}`,
+          borderRadius: RADIUS.md,
+          padding: '24px 32px',
+          boxShadow: SHADOW.sm,
+        }}>
+          <ReactMarkdown components={makeMdComponents(meta.color)}>
+            {procedure.contenu || '_Aucun contenu_'}
+          </ReactMarkdown>
+        </article>
+      )}
 
       {/* NAVIGATION prev / next */}
       {(prev || next) && (
