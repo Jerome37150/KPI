@@ -8,7 +8,7 @@ import { formatLastRefresh } from '../utils/format';
 // AppLayout — sidebar gauche + header + main + footer
 // Pattern inspiré de inaxel-pilot/views/_layout/InaxelAppLayout.vue
 // ============================================
-export function AppLayout({ children, tab, onTabChange, onLogout, currentLabel, lastRefresh }) {
+export function AppLayout({ children, tab, onTabChange, onLogout, currentLabel, lastRefresh, procedures }) {
   const lastRefreshFr = formatLastRefresh(lastRefresh);
   const today = new Date().toLocaleDateString('fr-FR', {
     weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
@@ -17,7 +17,7 @@ export function AppLayout({ children, tab, onTabChange, onLogout, currentLabel, 
   return (
     <div style={{ minHeight: "100vh", background: C.bg }}>
       {/* Sidebar */}
-      <Sidebar tab={tab} onSelect={onTabChange} />
+      <Sidebar tab={tab} onSelect={onTabChange} procedures={procedures} />
 
       {/* Zone principale (décalée du sidebar) */}
       <div style={{ marginLeft: LAYOUT.sidebarWidth, display: "flex", flexDirection: "column", minHeight: "100vh" }}>

@@ -436,13 +436,24 @@ async function blocksToMarkdown(blocks) {
   return parts.join('\n\n');
 }
 
+// Kebab-case sans diacritiques pour générer des slugs URL-safe à partir du titre
+function slugify(s) {
+  return (s || '')
+    .toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 async function mapProcedurePage(page) {
   const p = page.properties;
+  const titre = extractProp(p, 'Titre', 'title') || '';
   const blocks = await fetchBlockChildren(page.id);
   const contenu = await blocksToMarkdown(blocks);
   return {
     id: page.id,
-    titre:     extractProp(p, 'Titre', 'title') || '',
+    slug:      slugify(titre),
+    titre,
     categorie: extractProp(p, 'Catégorie', 'select'),
     ordre:     extractProp(p, 'Ordre', 'number') || 0,
     resume:    extractProp(p, 'Résumé', 'rich_text') || '',

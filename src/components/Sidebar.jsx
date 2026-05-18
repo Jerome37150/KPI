@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import {
   LayoutDashboard, FileText, Package, Sparkles, Building2, LineChart,
   LayoutGrid, Calendar, ClipboardList, Calculator, ShieldAlert, Database,
@@ -27,8 +27,9 @@ export const NAV_ITEMS = [
   { type: "window",   key: "sprint",          label: "Sprint en cours",  icon: Sparkles, parent: "sav-dev" },
 
   // === Procédures ===
+  // Les windows enfants sont injectées dynamiquement par <Sidebar> à partir de
+  // data.procedures (1 entrée par procédure publiée dans Notion).
   { type: "category", key: "procedures",      label: "Procédures",       collapsible: true },
-  { type: "window",   key: "procedures-list", label: "Toutes les procédures", icon: BookOpen, parent: "procedures" },
 
   // === Projets ===
   { type: "category", key: "projets",         label: "Projets",          collapsible: true },
@@ -73,28 +74,28 @@ export const KNOWN_PROJECTS = NAV_ITEMS
   .map(e => e.notionProject);
 
 // Profondeur d'imbrication (Dashboard = 0, sous-Projets = 1, sous-Naxi-Saas = 2)
-function depthOf(entry) {
+function depthOf(entry, byKey) {
   let d = 0;
   let cur = entry;
-  while (cur?.parent) { d++; cur = BY_KEY.get(cur.parent); }
+  while (cur?.parent) { d++; cur = byKey.get(cur.parent); }
   return d;
 }
 
 // True si au moins un ancêtre est replié → l'entrée doit être masquée
-function isHiddenByCollapse(entry, collapsed) {
-  let cur = BY_KEY.get(entry.parent);
+function isHiddenByCollapse(entry, collapsed, byKey) {
+  let cur = byKey.get(entry.parent);
   while (cur) {
     if (collapsed.has(cur.key)) return true;
-    cur = BY_KEY.get(cur.parent);
+    cur = byKey.get(cur.parent);
   }
   return false;
 }
 
 // Catégories collapsibles ayant le même parent direct que `catKey` (siblings)
-function siblingCollapsibleKeys(catKey) {
-  const cat = BY_KEY.get(catKey);
+function siblingCollapsibleKeys(items, catKey, byKey) {
+  const cat = byKey.get(catKey);
   if (!cat) return [];
-  return NAV_ITEMS
+  return items
     .filter(e => e.type === "category" && e.collapsible && e.key
               && e.key !== catKey && e.parent === cat.parent)
     .map(e => e.key);
@@ -116,8 +117,32 @@ const COLLAPSIBLE_KEYS = NAV_ITEMS
 
 // ============================================
 // Sidebar — drawer permanent à gauche, style inaxel-pilot
+// Reçoit `procedures` pour générer dynamiquement 1 window par procédure
+// sous la catégorie "procedures".
 // ============================================
-export function Sidebar({ tab, onSelect }) {
+export function Sidebar({ tab, onSelect, procedures = [] }) {
+  // Construit la liste complète des items en injectant les procédures (1 par page Notion)
+  // juste après la catégorie "procedures".
+  const { items, byKey } = useMemo(() => {
+    const out = [];
+    NAV_ITEMS.forEach(entry => {
+      out.push(entry);
+      if (entry.type === "category" && entry.key === "procedures") {
+        procedures.forEach(p => {
+          out.push({
+            type: "window",
+            key: `procedure-${p.slug}`,
+            label: p.titre,
+            icon: BookOpen,
+            parent: "procedures",
+          });
+        });
+      }
+    });
+    const map = new Map(out.filter(e => e.key).map(e => [e.key, e]));
+    return { items: out, byKey: map };
+  }, [procedures]);
+
   // Set des catégories actuellement repliées (par défaut : toutes les collapsibles)
   const [collapsed, setCollapsed] = useState(() => new Set(COLLAPSIBLE_KEYS));
 
@@ -130,7 +155,7 @@ export function Sidebar({ tab, onSelect }) {
         // Déplier
         next.delete(catKey);
         // Replier les siblings
-        siblingCollapsibleKeys(catKey).forEach(k => next.add(k));
+        siblingCollapsibleKeys(items, catKey, byKey).forEach(k => next.add(k));
       } else {
         // Replier simple
         next.add(catKey);
@@ -164,11 +189,11 @@ export function Sidebar({ tab, onSelect }) {
         padding: "8px 0 16px",
         display: "flex", flexDirection: "column",
       }}>
-        {NAV_ITEMS.map((entry, i) => {
+        {items.map((entry, i) => {
           // Masque les éléments dont un ancêtre est replié
-          if (isHiddenByCollapse(entry, collapsed)) return null;
+          if (isHiddenByCollapse(entry, collapsed, byKey)) return null;
 
-          const depth = depthOf(entry);
+          const depth = depthOf(entry, byKey);
 
           if (entry.type === "category") {
             if (entry.collapsible && entry.key) {

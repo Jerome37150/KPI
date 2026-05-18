@@ -18,7 +18,7 @@ import { CahierDesChargesNaxiSaasPage } from './pages/CahierDesChargesNaxiSaasPa
 import { CalculPrixPage } from './pages/CalculPrixPage';
 import { RdModeDegradePage } from './pages/RdModeDegradePage';
 import { RdMigrationPage } from './pages/RdMigrationPage';
-import { ProceduresPage } from './pages/ProceduresPage';
+import { ProcedureDetailPage } from './pages/ProcedureDetailPage';
 import { PagePlaceholder } from './components/primitives/PagePlaceholder';
 import { ClipboardList } from 'lucide-react';
 
@@ -46,7 +46,6 @@ const PAGES = {
   "naxi-saas-cdc":{ label: "Cahier des charges · Naxi Saas", Component: CahierDesChargesNaxiSaasPage },
   suivi:          { label: "Suivi Top Line",  Component: SuiviPage          },
   immobilisation: { label: "Immobilisation",  Component: ImmobilisationPage },
-  "procedures-list": { label: "Procédures",   Component: ProceduresPage     },
 
   // NAX7 full web
   blueprint:                       { label: "Blue Print",                         Component: BluePrintPage      },
@@ -76,8 +75,19 @@ export default function Dashboard() {
     return <LoginPage onLogin={login} />;
   }
 
-  const page = PAGES[tab] || PAGES.dashboard;
-  const Page = page.Component;
+  // Route dynamique pour les procédures : `procedure-<slug>` → ProcedureDetailPage
+  let page;
+  let renderPage;
+  if (tab.startsWith("procedure-")) {
+    const slug = tab.slice("procedure-".length);
+    const proc = data.procedures?.find(p => p.slug === slug);
+    page = { label: proc?.titre || "Procédure" };
+    renderPage = (props) => <ProcedureDetailPage {...props} slug={slug} />;
+  } else {
+    page = PAGES[tab] || PAGES.dashboard;
+    const Page = page.Component;
+    renderPage = (props) => <Page {...props} />;
+  }
 
   // Filtre data selon le projet de l'onglet actif (null = vue globale, pas de filtre).
   // Les onglets sous une catégorie avec `notionProject` ne voient que les fenêtres,
@@ -104,9 +114,10 @@ export default function Dashboard() {
       onLogout={logout}
       currentLabel={page.label}
       lastRefresh={data.generatedAt}
+      procedures={data.procedures}
     >
       <div className="fade-in" key={tab}>
-        <Page data={scopedData} onNavigate={setTab} />
+        {renderPage({ data: scopedData, onNavigate: setTab })}
       </div>
     </AppLayout>
   );
