@@ -1,4 +1,3 @@
-import { useEffect, useMemo, useState } from 'react';
 import {
   BookOpen, ExternalLink, ChevronLeft, ChevronRight,
   Megaphone, Network, Bug, Rocket, ShieldCheck,
@@ -8,8 +7,7 @@ import { C, RADIUS, SHADOW } from '../styles/theme';
 
 // ============================================
 // ProcedureDetailPage — page dédiée à UNE procédure
-// Hero header coloré par catégorie + sommaire sticky + Markdown stylé
-// + navigation procédure précédente / suivante.
+// Hero header coloré par catégorie + Markdown stylé + navigation prev/next.
 // ============================================
 
 const CATEGORIE_META = {
@@ -21,34 +19,6 @@ const CATEGORIE_META = {
 };
 
 const DEFAULT_META = { color: C.gray400, icon: BookOpen };
-
-// Extrait les headings h1/h2 du Markdown pour construire le sommaire.
-// On parse ligne par ligne, on ignore ce qui est à l'intérieur d'un bloc ``` (code).
-function extractHeadings(markdown) {
-  if (!markdown) return [];
-  const lines = markdown.split('\n');
-  const result = [];
-  let inCode = false;
-  for (const line of lines) {
-    if (line.startsWith('```')) { inCode = !inCode; continue; }
-    if (inCode) continue;
-    const m = line.match(/^(##|###)\s+(.+)$/);
-    if (!m) continue;
-    const level = m[1].length;
-    const text = m[2].replace(/\*\*/g, '').trim();
-    const id = slugifyAnchor(text);
-    result.push({ id, text, level });
-  }
-  return result;
-}
-
-function slugifyAnchor(s) {
-  return (s || '')
-    .toLowerCase()
-    .normalize('NFD').replace(/[̀-ͯ]/g, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
 
 function formatDateFr(iso) {
   if (!iso) return null;
@@ -65,26 +35,6 @@ export function ProcedureDetailPage({ data, slug, onNavigate }) {
   const procedure = idx >= 0 ? procedures[idx] : null;
   const prev = idx > 0 ? procedures[idx - 1] : null;
   const next = idx >= 0 && idx < procedures.length - 1 ? procedures[idx + 1] : null;
-
-  const headings = useMemo(() => extractHeadings(procedure?.contenu), [procedure?.contenu]);
-  const [activeId, setActiveId] = useState(null);
-
-  // Surligne le heading dans le sommaire selon le scroll de la page
-  useEffect(() => {
-    if (headings.length === 0) return;
-    const handler = () => {
-      const scrollY = window.scrollY + 120;
-      let current = headings[0]?.id || null;
-      for (const h of headings) {
-        const el = document.getElementById(h.id);
-        if (el && el.offsetTop <= scrollY) current = h.id;
-      }
-      setActiveId(current);
-    };
-    handler();
-    window.addEventListener('scroll', handler, { passive: true });
-    return () => window.removeEventListener('scroll', handler);
-  }, [headings]);
 
   if (!procedure) {
     return (
@@ -199,80 +149,18 @@ export function ProcedureDetailPage({ data, slug, onNavigate }) {
         </div>
       </div>
 
-      {/* GRID : contenu + sommaire latéral */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: headings.length > 1 ? 'minmax(0, 1fr) 220px' : '1fr',
-        gap: 24,
-        alignItems: 'flex-start',
+      {/* CONTENU MARKDOWN */}
+      <article style={{
+        background: C.paper,
+        border: `1px solid ${C.line}`,
+        borderRadius: RADIUS.md,
+        padding: '24px 32px',
+        boxShadow: SHADOW.sm,
       }}>
-        {/* CONTENU MARKDOWN */}
-        <article style={{
-          background: C.paper,
-          border: `1px solid ${C.line}`,
-          borderRadius: RADIUS.md,
-          padding: '24px 32px',
-          boxShadow: SHADOW.sm,
-        }}>
-          <ReactMarkdown components={makeMdComponents(meta.color)}>
-            {procedure.contenu || '_Aucun contenu_'}
-          </ReactMarkdown>
-        </article>
-
-        {/* TOC sticky */}
-        {headings.length > 1 && (
-          <nav style={{
-            position: 'sticky',
-            top: 80,
-            background: C.paper,
-            border: `1px solid ${C.line}`,
-            borderRadius: RADIUS.md,
-            padding: '16px 14px',
-            maxHeight: 'calc(100vh - 100px)',
-            overflowY: 'auto',
-          }}>
-            <div style={{
-              fontSize: 10, letterSpacing: '0.08em', textTransform: 'uppercase',
-              color: C.inkDim, fontWeight: 700, marginBottom: 10,
-              paddingLeft: 4,
-            }}>Sommaire</div>
-            {headings.map(h => {
-              const isActive = activeId === h.id;
-              return (
-                <a
-                  key={h.id}
-                  href={`#${h.id}`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    const el = document.getElementById(h.id);
-                    if (el) {
-                      const y = el.getBoundingClientRect().top + window.scrollY - 80;
-                      window.scrollTo({ top: y, behavior: 'smooth' });
-                    }
-                  }}
-                  style={{
-                    display: 'block',
-                    padding: `4px 8px 4px ${4 + (h.level - 2) * 12}px`,
-                    fontSize: 12,
-                    color: isActive ? meta.color : C.inkDim,
-                    fontWeight: isActive ? 600 : 500,
-                    textDecoration: 'none',
-                    borderLeft: `2px solid ${isActive ? meta.color : 'transparent'}`,
-                    background: isActive ? meta.color + '0d' : 'transparent',
-                    transition: 'color 0.12s, border-color 0.12s, background 0.12s',
-                    borderRadius: '0 4px 4px 0',
-                    lineHeight: 1.4,
-                  }}
-                  onMouseEnter={e => { if (!isActive) e.currentTarget.style.color = C.ink; }}
-                  onMouseLeave={e => { if (!isActive) e.currentTarget.style.color = C.inkDim; }}
-                >
-                  {h.text}
-                </a>
-              );
-            })}
-          </nav>
-        )}
-      </div>
+        <ReactMarkdown components={makeMdComponents(meta.color)}>
+          {procedure.contenu || '_Aucun contenu_'}
+        </ReactMarkdown>
+      </article>
 
       {/* NAVIGATION prev / next */}
       {(prev || next) && (
@@ -354,39 +242,19 @@ function NavCard({ label, procedure, onClick, direction }) {
 }
 
 // ── Mapping Markdown → composants stylés ──
-// L'orange du titre h2 reprend la couleur de la catégorie (passée en arg).
+// Le titre h2 reprend la couleur de la catégorie (passée en arg).
 function makeMdComponents(accent) {
   return {
-    h2: ({ node, children, ...p }) => {
-      const text = childrenToText(children);
-      return (
-        <h2
-          id={slugifyAnchor(text)}
-          style={{
-            fontSize: 18, fontWeight: 700, color: accent,
-            margin: '28px 0 10px',
-            paddingBottom: 6,
-            borderBottom: `1px solid ${accent}30`,
-            scrollMarginTop: 80,
-          }}
-          {...p}
-        >{children}</h2>
-      );
-    },
-    h3: ({ node, children, ...p }) => {
-      const text = childrenToText(children);
-      return (
-        <h3
-          id={slugifyAnchor(text)}
-          style={{
-            fontSize: 15, fontWeight: 700, color: C.ink,
-            margin: '20px 0 6px',
-            scrollMarginTop: 80,
-          }}
-          {...p}
-        >{children}</h3>
-      );
-    },
+    h2: (p) => <h2 style={{
+      fontSize: 18, fontWeight: 700, color: accent,
+      margin: '28px 0 10px',
+      paddingBottom: 6,
+      borderBottom: `1px solid ${accent}30`,
+    }} {...p} />,
+    h3: (p) => <h3 style={{
+      fontSize: 15, fontWeight: 700, color: C.ink,
+      margin: '20px 0 6px',
+    }} {...p} />,
     h4: (p) => <h4 style={{
       fontSize: 13, fontWeight: 700, color: C.inkSoft,
       margin: '12px 0 4px',
@@ -449,12 +317,4 @@ function makeMdComponents(accent) {
       verticalAlign: 'top',
     }} {...p} />,
   };
-}
-
-// Helper : extrait le texte plein d'un set d'enfants React (pour anchor id)
-function childrenToText(children) {
-  if (typeof children === 'string') return children;
-  if (Array.isArray(children)) return children.map(childrenToText).join('');
-  if (children?.props?.children) return childrenToText(children.props.children);
-  return '';
 }
