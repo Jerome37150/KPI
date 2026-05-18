@@ -49,12 +49,6 @@ export const NAV_ITEMS = [
 
   { type: "category", key: "inaxel-pilot",       label: "Inaxel Pilot",             collapsible: true, strategie: true, notionProject: "Inaxel Pilot" },
   { type: "window",   key: "cdc-inaxel-pilot",   label: "Cahier des charges",       icon: ClipboardList, parent: "inaxel-pilot", strategie: true },
-
-  { type: "category", key: "espace-client-resident", label: "Espace client & Résident", collapsible: true, strategie: true, notionProject: "Portail clients & résidents" },
-  { type: "window",   key: "cdc-espace-client-resident", label: "Cahier des charges", icon: ClipboardList, parent: "espace-client-resident", strategie: true },
-
-  { type: "category", key: "espace-client-inaxel", label: "Espace client (site inaxel)", collapsible: true, strategie: true, notionProject: "Espace client (site Inaxel)" },
-  { type: "window",   key: "cdc-espace-client-inaxel", label: "Cahier des charges", icon: ClipboardList, parent: "espace-client-inaxel", strategie: true },
 ];
 
 // Résout le projet Notion correspondant à un onglet (via la catégorie parente).

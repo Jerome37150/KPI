@@ -46,8 +46,6 @@ const PAGES = {
   "cdc-nax7-light":           { label: "Nax7 light · Cahier des charges",            Component: Cdc("Nax7 light") },
   "cdc-nax7-manager":         { label: "Nax7 Manager · Cahier des charges",          Component: Cdc("Nax7 Manager") },
   "cdc-inaxel-pilot":         { label: "Inaxel Pilot · Cahier des charges",          Component: Cdc("Inaxel Pilot") },
-  "cdc-espace-client-resident": { label: "Espace client & Résident · Cahier des charges", Component: Cdc("Espace client & Résident") },
-  "cdc-espace-client-inaxel": { label: "Espace client (site inaxel) · Cahier des charges", Component: Cdc("Espace client (site inaxel)") },
 };
 
 // ============================================

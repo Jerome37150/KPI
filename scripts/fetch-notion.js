@@ -207,12 +207,15 @@ function mapClassiquePage(page) {
 // === Mapping Équipe NAXI.G ===
 function mapEquipePage(page) {
   const p = page.properties;
+  // Métiers peut être passé en select simple côté Notion (utilisateur) : on tolère les deux formes.
+  const metiersMulti = extractProp(p, 'Métiers', 'multi_select');
+  const metiersSelect = extractProp(p, 'Métiers', 'select');
   return {
     id: page.id,
     nom: extractProp(p, 'Nom', 'title') || '',
-    metiers: extractProp(p, 'Métiers', 'multi_select') || [],
-    // Rollup show_unique sur Membre MAQUETTE → Projet : projets sur lesquels le membre est impliqué
-    projets: rollupSelectNames(p, '🏗️ PROJETS'),
+    metiers: metiersMulti?.length ? metiersMulti : (metiersSelect ? [metiersSelect] : []),
+    // Multi_select éditable manuellement : projets sur lesquels le membre intervient
+    projets: extractProp(p, '🏗️ PROJETS', 'multi_select') || [],
     url: page.url,
   };
 }
