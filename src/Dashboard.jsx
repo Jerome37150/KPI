@@ -13,6 +13,7 @@ import { SuiviPage } from './pages/SuiviPage';
 import { BluePrintPage } from './pages/BluePrintPage';
 import { GanttPage } from './pages/GanttPage';
 import { CahierDesChargesPage } from './pages/CahierDesChargesPage';
+import { CahierDesChargesNaxiSaasPage } from './pages/CahierDesChargesNaxiSaasPage';
 import { CalculPrixPage } from './pages/CalculPrixPage';
 import { RdModeDegradePage } from './pages/RdModeDegradePage';
 import { RdMigrationPage } from './pages/RdMigrationPage';
@@ -28,6 +29,7 @@ const PAGES = {
   enregistrement: { label: "Enregistrement",  Component: EnregistrementPage },
   version:        { label: "Version",         Component: VersionPage        },
   sprint:         { label: "Sprint en cours", Component: SprintPage         },
+  "naxi-saas-cdc":{ label: "Cahier des charges & livraison · Naxi Saas", Component: CahierDesChargesNaxiSaasPage },
   suivi:          { label: "Suivi Top Line",  Component: SuiviPage          },
   immobilisation: { label: "Immobilisation",  Component: ImmobilisationPage },
 
