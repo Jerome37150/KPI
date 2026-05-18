@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-05-18T14:53:53.792Z",
+  "generatedAt": "2026-05-18T16:16:37.126Z",
   "classique": [
+    {
+      "id": "3648db15-623a-80e0-afb9-f5e129a9dc92",
+      "identifiant": "INA-306",
+      "titre": "[Logiciel] - Export EURODECISION : Fichier sous loc erroné",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": "Extractions",
+      "produits": [
+        "CRM"
+      ],
+      "client": "Flower Exploitation",
+      "dateCreation": "2026-05-18T15:32:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "NAXI génère de façon automatique un fichier nommé sousloc pour tous les clients ayant le CRM et/ou les clients ayant la spécif EURODECISION. Côté CTM, ce fichier est utilisé pour les calculs RM. \n\nNous avons déjà fait un premier correctif : https://inaxel.atlassian.net/browse/BUG-1034?atlOrigin=eyJpIjoiZWRkNzJjYzA4ZDIwNGM4YjlmMzE3ZDlkYWE0YzBmMDIiLCJwIjoiaiJ9\nMais cela ne suffit pas, des incohérences persistent",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://www.notion.so/Logiciel-Export-EURODECISION-Fichier-sous-loc-erron-3648db15623a80e0afb9f5e129a9dc92"
+    },
     {
       "id": "3648db15-623a-8049-9f10-f8385aca046f",
       "identifiant": "INA-305",
@@ -3702,7 +3734,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "Fiche communication.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ROCDWOES%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145338Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBP5X7wFfM4HNHV6Zpsx%2BDmc0bYI0qc6c1mZM%2BOJgDNQAiEA1IDIG9G9vHiU4YhR%2FYrVQcCLVJlxYGINZXgp5IH3JlAqiAQIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDM4XjIE8vpUGX9Y8qCrcA%2FxRPA5qJUY14%2BrqS1cvAl3Vym%2Bnop7XU6ZpFl8%2BG15%2Fea4zO9HSnodtdH6oXe7YMiR6se1uPMvK6CoEgpT6HbMbJv7Se3I4JJcRPcaM0Ay3ulWN%2FzYr8cTcPmEKRJG2wNxw5k6f6fV0mNiNyBzyRjEFj5qDOsYy9nxj6N0sp12uXyMX%2F26M9CYC9Ibg3GQcXO8DT7rlcsjFAg41Vs7NQ%2FPQI%2F6EIN%2BVGw5aUi4aCp4u1a1R36dG2MnieGp%2FlZ8JyEtE0%2Fby3u91pnzw0gSjRHckSpiTMYJj8Ee5ceHI4fSbXyXUeue7jNV6M6q67CU4vG4qS69VJ3CzicE3adFMOhcPfFSf9a8nsdIeqGaqbMaJCBEUDneZ4Y0bWh%2BI4bLpwDxBgmRzjeAOrh%2BCUlVkhzN1QAKr3jNx%2BYfCGQYTrCS3w2uxM4fE1%2FC8SHlOhG7ajOMixWlwnzBFAeWmPuhmdS9bYpyrmW7qXpfrz%2B07tvAKtAGevbKYSDJ5Rst5RZBNcEoBMDroWUu0Jy7uFoqIwgPlYQ7ZkHYFCi4Asa2iy7Aswp%2BThC75t5XCccE8aWRFgSx4Y4u8q%2B%2FVoytzT1u81GWN9PZ4nzILZvJ4K3PguCz%2FgThLc3cywFml1d3XMKm4rNAGOqUBaUDxSMM1o%2FZ6%2FSfFGwOwdvsOEaFcfH70kmYoCruFQgevA%2FbDlwKeJ%2FRrkUDAib8ser7gbaLhGzzJpBD5%2BZxzwkTw3VNoPO%2BjOFzcC5CMsFX2CilxlQTiPrewTgEkitXYxKYZySsG17TW5fnk9Hk8W0t1K37CRKRox%2B27T%2FmfIX7s2bHGdFdEyb8YkQWi7EMfLxfLLm1kLQ%2BfBaxdK044%2B53tJ%2Brp&X-Amz-Signature=189e03423250bd9fb9d72a674e7baf5bbb47508345428c432d72fb1ac67c58c4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664C4N7QAA%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T161623Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICF%2FlzhmfEIzO3oQUoJFa8SWP25tmX9OqefYUzAxgVlCAiEAv81PWDZnGU0iplNm4grKGynG%2B2fcS9JWu4xYoT8WRd8qiAQIwP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCyYnPsiuZ9rK8o1dircA38ThHZ2Hn3W2Qp8qIdCKNJmM0svFRMd4BTG3mVKPRWJihi8pLBYtBy41XW%2BEyxd1x6Cfx85m%2FUze5aOiyC1OpmlJQILk3%2BJZX87Mbwr5fx61e4wYoO0CWOyNk3MlZ5olubJv435mZ%2BmFWOLIxSt9cO0RJ3yoATz3XG5iEL9EWlAJNUcCN6n67%2FAyyc0WymkOTqKGzmyL%2B74W3%2FYSnUv1RjNClkD18J5wdqgKrdxFJbfI3PIH9yydFXs6ONaxpJtw7vppL48Jp%2BVbrUYC3ao%2BJgQBX9T3EQ3CsNU%2Bb0JGgFKjPMPOk04FfNPTSzb8zRRihy%2BR%2BuQJK5ua3GEXuLfidyVDzJfEvX7lTfWFTIwa42vJIndSv5VjHjwLDuFj4zjMQWlH5AnABUT45Oz4QXK3RhKj9TKmboNge%2BDKsjE5DTTxP1A2oWCxo%2BgN7bz8ODvfFl7x36KG53iO8yHz0l23i0YJnOU3mgUiXiGwnFI9ZQwMEULkcLw9MCVgxI1ayL490sj6HdYutjY4wRfYbdGW7h0MwpNXSH68dlQrtLx1qdQZQMnRFMnyNuSWiXfidTR1Vx1nVmeRyJ1eLDuDLvKIEgJEM8KgC2yzCmGpQ7AHwucg7PRv%2Bbw3n7Itc8EMPHYrNAGOqUBDBOk1cgLRqWD7Vjp5uNeIMQohgUypqBXorCvcit9GR2at10Q2FH1T3fNvrs1%2Fos%2FtAx%2F%2BMQL3YUTw0I8Swj4v%2B8ZkqPCdcFMF%2BVwwY50C71OuLx%2BjJ9JrZOGLmgexEjJDYQcZdFVuMVxtmsnt6%2BOQrNMsl%2FZ0kyjd5Z7Mp1pJ%2FysWI2Ipd5Sy7UEUY95yjHeNM9JdxaA%2FhiDFPbnCRKVIXeHgkNd&X-Amz-Signature=c328616fe74c4074cd9ba47661df86ebd9c93e734b5f92722a504f341e7abc8a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-Facturation-factures-et-proforma-d-ch-ances-multipes-probl-mes-3288db15623a80989620f6c98afd1347"
     },
@@ -4597,7 +4629,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-160.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ROCDWOES%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBP5X7wFfM4HNHV6Zpsx%2BDmc0bYI0qc6c1mZM%2BOJgDNQAiEA1IDIG9G9vHiU4YhR%2FYrVQcCLVJlxYGINZXgp5IH3JlAqiAQIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDM4XjIE8vpUGX9Y8qCrcA%2FxRPA5qJUY14%2BrqS1cvAl3Vym%2Bnop7XU6ZpFl8%2BG15%2Fea4zO9HSnodtdH6oXe7YMiR6se1uPMvK6CoEgpT6HbMbJv7Se3I4JJcRPcaM0Ay3ulWN%2FzYr8cTcPmEKRJG2wNxw5k6f6fV0mNiNyBzyRjEFj5qDOsYy9nxj6N0sp12uXyMX%2F26M9CYC9Ibg3GQcXO8DT7rlcsjFAg41Vs7NQ%2FPQI%2F6EIN%2BVGw5aUi4aCp4u1a1R36dG2MnieGp%2FlZ8JyEtE0%2Fby3u91pnzw0gSjRHckSpiTMYJj8Ee5ceHI4fSbXyXUeue7jNV6M6q67CU4vG4qS69VJ3CzicE3adFMOhcPfFSf9a8nsdIeqGaqbMaJCBEUDneZ4Y0bWh%2BI4bLpwDxBgmRzjeAOrh%2BCUlVkhzN1QAKr3jNx%2BYfCGQYTrCS3w2uxM4fE1%2FC8SHlOhG7ajOMixWlwnzBFAeWmPuhmdS9bYpyrmW7qXpfrz%2B07tvAKtAGevbKYSDJ5Rst5RZBNcEoBMDroWUu0Jy7uFoqIwgPlYQ7ZkHYFCi4Asa2iy7Aswp%2BThC75t5XCccE8aWRFgSx4Y4u8q%2B%2FVoytzT1u81GWN9PZ4nzILZvJ4K3PguCz%2FgThLc3cywFml1d3XMKm4rNAGOqUBaUDxSMM1o%2FZ6%2FSfFGwOwdvsOEaFcfH70kmYoCruFQgevA%2FbDlwKeJ%2FRrkUDAib8ser7gbaLhGzzJpBD5%2BZxzwkTw3VNoPO%2BjOFzcC5CMsFX2CilxlQTiPrewTgEkitXYxKYZySsG17TW5fnk9Hk8W0t1K37CRKRox%2B27T%2FmfIX7s2bHGdFdEyb8YkQWi7EMfLxfLLm1kLQ%2BfBaxdK044%2B53tJ%2Brp&X-Amz-Signature=2691fab3a8fa8505be7f313cfcb5784c712782697d76f7e34e2797787a9e7e33&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664C4N7QAA%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T161623Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICF%2FlzhmfEIzO3oQUoJFa8SWP25tmX9OqefYUzAxgVlCAiEAv81PWDZnGU0iplNm4grKGynG%2B2fcS9JWu4xYoT8WRd8qiAQIwP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCyYnPsiuZ9rK8o1dircA38ThHZ2Hn3W2Qp8qIdCKNJmM0svFRMd4BTG3mVKPRWJihi8pLBYtBy41XW%2BEyxd1x6Cfx85m%2FUze5aOiyC1OpmlJQILk3%2BJZX87Mbwr5fx61e4wYoO0CWOyNk3MlZ5olubJv435mZ%2BmFWOLIxSt9cO0RJ3yoATz3XG5iEL9EWlAJNUcCN6n67%2FAyyc0WymkOTqKGzmyL%2B74W3%2FYSnUv1RjNClkD18J5wdqgKrdxFJbfI3PIH9yydFXs6ONaxpJtw7vppL48Jp%2BVbrUYC3ao%2BJgQBX9T3EQ3CsNU%2Bb0JGgFKjPMPOk04FfNPTSzb8zRRihy%2BR%2BuQJK5ua3GEXuLfidyVDzJfEvX7lTfWFTIwa42vJIndSv5VjHjwLDuFj4zjMQWlH5AnABUT45Oz4QXK3RhKj9TKmboNge%2BDKsjE5DTTxP1A2oWCxo%2BgN7bz8ODvfFl7x36KG53iO8yHz0l23i0YJnOU3mgUiXiGwnFI9ZQwMEULkcLw9MCVgxI1ayL490sj6HdYutjY4wRfYbdGW7h0MwpNXSH68dlQrtLx1qdQZQMnRFMnyNuSWiXfidTR1Vx1nVmeRyJ1eLDuDLvKIEgJEM8KgC2yzCmGpQ7AHwucg7PRv%2Bbw3n7Itc8EMPHYrNAGOqUBDBOk1cgLRqWD7Vjp5uNeIMQohgUypqBXorCvcit9GR2at10Q2FH1T3fNvrs1%2Fos%2FtAx%2F%2BMQL3YUTw0I8Swj4v%2B8ZkqPCdcFMF%2BVwwY50C71OuLx%2BjJ9JrZOGLmgexEjJDYQcZdFVuMVxtmsnt6%2BOQrNMsl%2FZ0kyjd5Z7Mp1pJ%2FysWI2Ipd5Sy7UEUY95yjHeNM9JdxaA%2FhiDFPbnCRKVIXeHgkNd&X-Amz-Signature=02d39d43dc29097b21dbde92966a5bdc48279eda5fb392085ee47c43b9854ee3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Apparition-d-un-message-sur-le-traitement-des-r-sas-issues-de-l-espace-client-31e8db15623a806896d5f5a1ed131200"
     },
@@ -4736,7 +4768,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "synthese_espaceclient (1).xlsx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ROCDWOES%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBP5X7wFfM4HNHV6Zpsx%2BDmc0bYI0qc6c1mZM%2BOJgDNQAiEA1IDIG9G9vHiU4YhR%2FYrVQcCLVJlxYGINZXgp5IH3JlAqiAQIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDM4XjIE8vpUGX9Y8qCrcA%2FxRPA5qJUY14%2BrqS1cvAl3Vym%2Bnop7XU6ZpFl8%2BG15%2Fea4zO9HSnodtdH6oXe7YMiR6se1uPMvK6CoEgpT6HbMbJv7Se3I4JJcRPcaM0Ay3ulWN%2FzYr8cTcPmEKRJG2wNxw5k6f6fV0mNiNyBzyRjEFj5qDOsYy9nxj6N0sp12uXyMX%2F26M9CYC9Ibg3GQcXO8DT7rlcsjFAg41Vs7NQ%2FPQI%2F6EIN%2BVGw5aUi4aCp4u1a1R36dG2MnieGp%2FlZ8JyEtE0%2Fby3u91pnzw0gSjRHckSpiTMYJj8Ee5ceHI4fSbXyXUeue7jNV6M6q67CU4vG4qS69VJ3CzicE3adFMOhcPfFSf9a8nsdIeqGaqbMaJCBEUDneZ4Y0bWh%2BI4bLpwDxBgmRzjeAOrh%2BCUlVkhzN1QAKr3jNx%2BYfCGQYTrCS3w2uxM4fE1%2FC8SHlOhG7ajOMixWlwnzBFAeWmPuhmdS9bYpyrmW7qXpfrz%2B07tvAKtAGevbKYSDJ5Rst5RZBNcEoBMDroWUu0Jy7uFoqIwgPlYQ7ZkHYFCi4Asa2iy7Aswp%2BThC75t5XCccE8aWRFgSx4Y4u8q%2B%2FVoytzT1u81GWN9PZ4nzILZvJ4K3PguCz%2FgThLc3cywFml1d3XMKm4rNAGOqUBaUDxSMM1o%2FZ6%2FSfFGwOwdvsOEaFcfH70kmYoCruFQgevA%2FbDlwKeJ%2FRrkUDAib8ser7gbaLhGzzJpBD5%2BZxzwkTw3VNoPO%2BjOFzcC5CMsFX2CilxlQTiPrewTgEkitXYxKYZySsG17TW5fnk9Hk8W0t1K37CRKRox%2B27T%2FmfIX7s2bHGdFdEyb8YkQWi7EMfLxfLLm1kLQ%2BfBaxdK044%2B53tJ%2Brp&X-Amz-Signature=225817c77b23b2d1826bd93352acea1604bfe8861393bc7d8c0acfc6b1e92ade&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664C4N7QAA%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T161623Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICF%2FlzhmfEIzO3oQUoJFa8SWP25tmX9OqefYUzAxgVlCAiEAv81PWDZnGU0iplNm4grKGynG%2B2fcS9JWu4xYoT8WRd8qiAQIwP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCyYnPsiuZ9rK8o1dircA38ThHZ2Hn3W2Qp8qIdCKNJmM0svFRMd4BTG3mVKPRWJihi8pLBYtBy41XW%2BEyxd1x6Cfx85m%2FUze5aOiyC1OpmlJQILk3%2BJZX87Mbwr5fx61e4wYoO0CWOyNk3MlZ5olubJv435mZ%2BmFWOLIxSt9cO0RJ3yoATz3XG5iEL9EWlAJNUcCN6n67%2FAyyc0WymkOTqKGzmyL%2B74W3%2FYSnUv1RjNClkD18J5wdqgKrdxFJbfI3PIH9yydFXs6ONaxpJtw7vppL48Jp%2BVbrUYC3ao%2BJgQBX9T3EQ3CsNU%2Bb0JGgFKjPMPOk04FfNPTSzb8zRRihy%2BR%2BuQJK5ua3GEXuLfidyVDzJfEvX7lTfWFTIwa42vJIndSv5VjHjwLDuFj4zjMQWlH5AnABUT45Oz4QXK3RhKj9TKmboNge%2BDKsjE5DTTxP1A2oWCxo%2BgN7bz8ODvfFl7x36KG53iO8yHz0l23i0YJnOU3mgUiXiGwnFI9ZQwMEULkcLw9MCVgxI1ayL490sj6HdYutjY4wRfYbdGW7h0MwpNXSH68dlQrtLx1qdQZQMnRFMnyNuSWiXfidTR1Vx1nVmeRyJ1eLDuDLvKIEgJEM8KgC2yzCmGpQ7AHwucg7PRv%2Bbw3n7Itc8EMPHYrNAGOqUBDBOk1cgLRqWD7Vjp5uNeIMQohgUypqBXorCvcit9GR2at10Q2FH1T3fNvrs1%2Fos%2FtAx%2F%2BMQL3YUTw0I8Swj4v%2B8ZkqPCdcFMF%2BVwwY50C71OuLx%2BjJ9JrZOGLmgexEjJDYQcZdFVuMVxtmsnt6%2BOQrNMsl%2FZ0kyjd5Z7Mp1pJ%2FysWI2Ipd5Sy7UEUY95yjHeNM9JdxaA%2FhiDFPbnCRKVIXeHgkNd&X-Amz-Signature=696d831f4915864da5cae6006be117f71058510beec9c976a3807ef25d8b9993&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-G-rer-l-arr-t-de-l-espace-client-V1-31a8db15623a800d915eea7ee689e4da"
     },
@@ -4955,7 +4987,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-148.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ROCDWOES%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBP5X7wFfM4HNHV6Zpsx%2BDmc0bYI0qc6c1mZM%2BOJgDNQAiEA1IDIG9G9vHiU4YhR%2FYrVQcCLVJlxYGINZXgp5IH3JlAqiAQIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDM4XjIE8vpUGX9Y8qCrcA%2FxRPA5qJUY14%2BrqS1cvAl3Vym%2Bnop7XU6ZpFl8%2BG15%2Fea4zO9HSnodtdH6oXe7YMiR6se1uPMvK6CoEgpT6HbMbJv7Se3I4JJcRPcaM0Ay3ulWN%2FzYr8cTcPmEKRJG2wNxw5k6f6fV0mNiNyBzyRjEFj5qDOsYy9nxj6N0sp12uXyMX%2F26M9CYC9Ibg3GQcXO8DT7rlcsjFAg41Vs7NQ%2FPQI%2F6EIN%2BVGw5aUi4aCp4u1a1R36dG2MnieGp%2FlZ8JyEtE0%2Fby3u91pnzw0gSjRHckSpiTMYJj8Ee5ceHI4fSbXyXUeue7jNV6M6q67CU4vG4qS69VJ3CzicE3adFMOhcPfFSf9a8nsdIeqGaqbMaJCBEUDneZ4Y0bWh%2BI4bLpwDxBgmRzjeAOrh%2BCUlVkhzN1QAKr3jNx%2BYfCGQYTrCS3w2uxM4fE1%2FC8SHlOhG7ajOMixWlwnzBFAeWmPuhmdS9bYpyrmW7qXpfrz%2B07tvAKtAGevbKYSDJ5Rst5RZBNcEoBMDroWUu0Jy7uFoqIwgPlYQ7ZkHYFCi4Asa2iy7Aswp%2BThC75t5XCccE8aWRFgSx4Y4u8q%2B%2FVoytzT1u81GWN9PZ4nzILZvJ4K3PguCz%2FgThLc3cywFml1d3XMKm4rNAGOqUBaUDxSMM1o%2FZ6%2FSfFGwOwdvsOEaFcfH70kmYoCruFQgevA%2FbDlwKeJ%2FRrkUDAib8ser7gbaLhGzzJpBD5%2BZxzwkTw3VNoPO%2BjOFzcC5CMsFX2CilxlQTiPrewTgEkitXYxKYZySsG17TW5fnk9Hk8W0t1K37CRKRox%2B27T%2FmfIX7s2bHGdFdEyb8YkQWi7EMfLxfLLm1kLQ%2BfBaxdK044%2B53tJ%2Brp&X-Amz-Signature=cb7b5e1c2ba02d969c84da461560742312bcb06900aa27c1dddd08d982b18d7f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664C4N7QAA%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T161623Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICF%2FlzhmfEIzO3oQUoJFa8SWP25tmX9OqefYUzAxgVlCAiEAv81PWDZnGU0iplNm4grKGynG%2B2fcS9JWu4xYoT8WRd8qiAQIwP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCyYnPsiuZ9rK8o1dircA38ThHZ2Hn3W2Qp8qIdCKNJmM0svFRMd4BTG3mVKPRWJihi8pLBYtBy41XW%2BEyxd1x6Cfx85m%2FUze5aOiyC1OpmlJQILk3%2BJZX87Mbwr5fx61e4wYoO0CWOyNk3MlZ5olubJv435mZ%2BmFWOLIxSt9cO0RJ3yoATz3XG5iEL9EWlAJNUcCN6n67%2FAyyc0WymkOTqKGzmyL%2B74W3%2FYSnUv1RjNClkD18J5wdqgKrdxFJbfI3PIH9yydFXs6ONaxpJtw7vppL48Jp%2BVbrUYC3ao%2BJgQBX9T3EQ3CsNU%2Bb0JGgFKjPMPOk04FfNPTSzb8zRRihy%2BR%2BuQJK5ua3GEXuLfidyVDzJfEvX7lTfWFTIwa42vJIndSv5VjHjwLDuFj4zjMQWlH5AnABUT45Oz4QXK3RhKj9TKmboNge%2BDKsjE5DTTxP1A2oWCxo%2BgN7bz8ODvfFl7x36KG53iO8yHz0l23i0YJnOU3mgUiXiGwnFI9ZQwMEULkcLw9MCVgxI1ayL490sj6HdYutjY4wRfYbdGW7h0MwpNXSH68dlQrtLx1qdQZQMnRFMnyNuSWiXfidTR1Vx1nVmeRyJ1eLDuDLvKIEgJEM8KgC2yzCmGpQ7AHwucg7PRv%2Bbw3n7Itc8EMPHYrNAGOqUBDBOk1cgLRqWD7Vjp5uNeIMQohgUypqBXorCvcit9GR2at10Q2FH1T3fNvrs1%2Fos%2FtAx%2F%2BMQL3YUTw0I8Swj4v%2B8ZkqPCdcFMF%2BVwwY50C71OuLx%2BjJ9JrZOGLmgexEjJDYQcZdFVuMVxtmsnt6%2BOQrNMsl%2FZ0kyjd5Z7Mp1pJ%2FysWI2Ipd5Sy7UEUY95yjHeNM9JdxaA%2FhiDFPbnCRKVIXeHgkNd&X-Amz-Signature=6c0da5477d920db4d78d41725b942c96d5c59fecdf32119e32919b91d4914a85&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/REDSYS-Non-fonctionnel-suite-mise-en-place-3178db15623a80458d0de93a71d0564f"
     },
@@ -4990,7 +5022,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-147.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ROCDWOES%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBP5X7wFfM4HNHV6Zpsx%2BDmc0bYI0qc6c1mZM%2BOJgDNQAiEA1IDIG9G9vHiU4YhR%2FYrVQcCLVJlxYGINZXgp5IH3JlAqiAQIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDM4XjIE8vpUGX9Y8qCrcA%2FxRPA5qJUY14%2BrqS1cvAl3Vym%2Bnop7XU6ZpFl8%2BG15%2Fea4zO9HSnodtdH6oXe7YMiR6se1uPMvK6CoEgpT6HbMbJv7Se3I4JJcRPcaM0Ay3ulWN%2FzYr8cTcPmEKRJG2wNxw5k6f6fV0mNiNyBzyRjEFj5qDOsYy9nxj6N0sp12uXyMX%2F26M9CYC9Ibg3GQcXO8DT7rlcsjFAg41Vs7NQ%2FPQI%2F6EIN%2BVGw5aUi4aCp4u1a1R36dG2MnieGp%2FlZ8JyEtE0%2Fby3u91pnzw0gSjRHckSpiTMYJj8Ee5ceHI4fSbXyXUeue7jNV6M6q67CU4vG4qS69VJ3CzicE3adFMOhcPfFSf9a8nsdIeqGaqbMaJCBEUDneZ4Y0bWh%2BI4bLpwDxBgmRzjeAOrh%2BCUlVkhzN1QAKr3jNx%2BYfCGQYTrCS3w2uxM4fE1%2FC8SHlOhG7ajOMixWlwnzBFAeWmPuhmdS9bYpyrmW7qXpfrz%2B07tvAKtAGevbKYSDJ5Rst5RZBNcEoBMDroWUu0Jy7uFoqIwgPlYQ7ZkHYFCi4Asa2iy7Aswp%2BThC75t5XCccE8aWRFgSx4Y4u8q%2B%2FVoytzT1u81GWN9PZ4nzILZvJ4K3PguCz%2FgThLc3cywFml1d3XMKm4rNAGOqUBaUDxSMM1o%2FZ6%2FSfFGwOwdvsOEaFcfH70kmYoCruFQgevA%2FbDlwKeJ%2FRrkUDAib8ser7gbaLhGzzJpBD5%2BZxzwkTw3VNoPO%2BjOFzcC5CMsFX2CilxlQTiPrewTgEkitXYxKYZySsG17TW5fnk9Hk8W0t1K37CRKRox%2B27T%2FmfIX7s2bHGdFdEyb8YkQWi7EMfLxfLLm1kLQ%2BfBaxdK044%2B53tJ%2Brp&X-Amz-Signature=589eb862b0dcb8b251d434f6fba89fb393f1a08a8603f172e29711b9dd288b64&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664C4N7QAA%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T161623Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICF%2FlzhmfEIzO3oQUoJFa8SWP25tmX9OqefYUzAxgVlCAiEAv81PWDZnGU0iplNm4grKGynG%2B2fcS9JWu4xYoT8WRd8qiAQIwP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCyYnPsiuZ9rK8o1dircA38ThHZ2Hn3W2Qp8qIdCKNJmM0svFRMd4BTG3mVKPRWJihi8pLBYtBy41XW%2BEyxd1x6Cfx85m%2FUze5aOiyC1OpmlJQILk3%2BJZX87Mbwr5fx61e4wYoO0CWOyNk3MlZ5olubJv435mZ%2BmFWOLIxSt9cO0RJ3yoATz3XG5iEL9EWlAJNUcCN6n67%2FAyyc0WymkOTqKGzmyL%2B74W3%2FYSnUv1RjNClkD18J5wdqgKrdxFJbfI3PIH9yydFXs6ONaxpJtw7vppL48Jp%2BVbrUYC3ao%2BJgQBX9T3EQ3CsNU%2Bb0JGgFKjPMPOk04FfNPTSzb8zRRihy%2BR%2BuQJK5ua3GEXuLfidyVDzJfEvX7lTfWFTIwa42vJIndSv5VjHjwLDuFj4zjMQWlH5AnABUT45Oz4QXK3RhKj9TKmboNge%2BDKsjE5DTTxP1A2oWCxo%2BgN7bz8ODvfFl7x36KG53iO8yHz0l23i0YJnOU3mgUiXiGwnFI9ZQwMEULkcLw9MCVgxI1ayL490sj6HdYutjY4wRfYbdGW7h0MwpNXSH68dlQrtLx1qdQZQMnRFMnyNuSWiXfidTR1Vx1nVmeRyJ1eLDuDLvKIEgJEM8KgC2yzCmGpQ7AHwucg7PRv%2Bbw3n7Itc8EMPHYrNAGOqUBDBOk1cgLRqWD7Vjp5uNeIMQohgUypqBXorCvcit9GR2at10Q2FH1T3fNvrs1%2Fos%2FtAx%2F%2BMQL3YUTw0I8Swj4v%2B8ZkqPCdcFMF%2BVwwY50C71OuLx%2BjJ9JrZOGLmgexEjJDYQcZdFVuMVxtmsnt6%2BOQrNMsl%2FZ0kyjd5Z7Mp1pJ%2FysWI2Ipd5Sy7UEUY95yjHeNM9JdxaA%2FhiDFPbnCRKVIXeHgkNd&X-Amz-Signature=0346289bf1328480be1fba0eb531ace03cadc749b0bc07c28d4eb4c5d9e15827&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-CRM-Le-montant-des-suppl-ments-envoy-s-est-faux-lorsque-le-suppl-ment-est-en-prix-mo-3178db15623a8017a10ff4b9821287fa"
     },
@@ -5068,7 +5100,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-145.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ROCDWOES%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBP5X7wFfM4HNHV6Zpsx%2BDmc0bYI0qc6c1mZM%2BOJgDNQAiEA1IDIG9G9vHiU4YhR%2FYrVQcCLVJlxYGINZXgp5IH3JlAqiAQIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDM4XjIE8vpUGX9Y8qCrcA%2FxRPA5qJUY14%2BrqS1cvAl3Vym%2Bnop7XU6ZpFl8%2BG15%2Fea4zO9HSnodtdH6oXe7YMiR6se1uPMvK6CoEgpT6HbMbJv7Se3I4JJcRPcaM0Ay3ulWN%2FzYr8cTcPmEKRJG2wNxw5k6f6fV0mNiNyBzyRjEFj5qDOsYy9nxj6N0sp12uXyMX%2F26M9CYC9Ibg3GQcXO8DT7rlcsjFAg41Vs7NQ%2FPQI%2F6EIN%2BVGw5aUi4aCp4u1a1R36dG2MnieGp%2FlZ8JyEtE0%2Fby3u91pnzw0gSjRHckSpiTMYJj8Ee5ceHI4fSbXyXUeue7jNV6M6q67CU4vG4qS69VJ3CzicE3adFMOhcPfFSf9a8nsdIeqGaqbMaJCBEUDneZ4Y0bWh%2BI4bLpwDxBgmRzjeAOrh%2BCUlVkhzN1QAKr3jNx%2BYfCGQYTrCS3w2uxM4fE1%2FC8SHlOhG7ajOMixWlwnzBFAeWmPuhmdS9bYpyrmW7qXpfrz%2B07tvAKtAGevbKYSDJ5Rst5RZBNcEoBMDroWUu0Jy7uFoqIwgPlYQ7ZkHYFCi4Asa2iy7Aswp%2BThC75t5XCccE8aWRFgSx4Y4u8q%2B%2FVoytzT1u81GWN9PZ4nzILZvJ4K3PguCz%2FgThLc3cywFml1d3XMKm4rNAGOqUBaUDxSMM1o%2FZ6%2FSfFGwOwdvsOEaFcfH70kmYoCruFQgevA%2FbDlwKeJ%2FRrkUDAib8ser7gbaLhGzzJpBD5%2BZxzwkTw3VNoPO%2BjOFzcC5CMsFX2CilxlQTiPrewTgEkitXYxKYZySsG17TW5fnk9Hk8W0t1K37CRKRox%2B27T%2FmfIX7s2bHGdFdEyb8YkQWi7EMfLxfLLm1kLQ%2BfBaxdK044%2B53tJ%2Brp&X-Amz-Signature=59d43adadc1190a01a19f99480b3b7af1056d95b1a2db10c4ab4ea8e97821572&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664C4N7QAA%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T161623Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICF%2FlzhmfEIzO3oQUoJFa8SWP25tmX9OqefYUzAxgVlCAiEAv81PWDZnGU0iplNm4grKGynG%2B2fcS9JWu4xYoT8WRd8qiAQIwP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCyYnPsiuZ9rK8o1dircA38ThHZ2Hn3W2Qp8qIdCKNJmM0svFRMd4BTG3mVKPRWJihi8pLBYtBy41XW%2BEyxd1x6Cfx85m%2FUze5aOiyC1OpmlJQILk3%2BJZX87Mbwr5fx61e4wYoO0CWOyNk3MlZ5olubJv435mZ%2BmFWOLIxSt9cO0RJ3yoATz3XG5iEL9EWlAJNUcCN6n67%2FAyyc0WymkOTqKGzmyL%2B74W3%2FYSnUv1RjNClkD18J5wdqgKrdxFJbfI3PIH9yydFXs6ONaxpJtw7vppL48Jp%2BVbrUYC3ao%2BJgQBX9T3EQ3CsNU%2Bb0JGgFKjPMPOk04FfNPTSzb8zRRihy%2BR%2BuQJK5ua3GEXuLfidyVDzJfEvX7lTfWFTIwa42vJIndSv5VjHjwLDuFj4zjMQWlH5AnABUT45Oz4QXK3RhKj9TKmboNge%2BDKsjE5DTTxP1A2oWCxo%2BgN7bz8ODvfFl7x36KG53iO8yHz0l23i0YJnOU3mgUiXiGwnFI9ZQwMEULkcLw9MCVgxI1ayL490sj6HdYutjY4wRfYbdGW7h0MwpNXSH68dlQrtLx1qdQZQMnRFMnyNuSWiXfidTR1Vx1nVmeRyJ1eLDuDLvKIEgJEM8KgC2yzCmGpQ7AHwucg7PRv%2Bbw3n7Itc8EMPHYrNAGOqUBDBOk1cgLRqWD7Vjp5uNeIMQohgUypqBXorCvcit9GR2at10Q2FH1T3fNvrs1%2Fos%2FtAx%2F%2BMQL3YUTw0I8Swj4v%2B8ZkqPCdcFMF%2BVwwY50C71OuLx%2BjJ9JrZOGLmgexEjJDYQcZdFVuMVxtmsnt6%2BOQrNMsl%2FZ0kyjd5Z7Mp1pJ%2FysWI2Ipd5Sy7UEUY95yjHeNM9JdxaA%2FhiDFPbnCRKVIXeHgkNd&X-Amz-Signature=5b825285d92a5d370d6227ebd2128aaded7054f9e4579713a7b5cd1d1e17e968&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Erreur-de-saisie-sur-les-remises-manuelle-g-n-rant-un-montant-de-s-jour-faux-3178db15623a8079a34be124df5b756a"
     },
@@ -6901,7 +6933,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA77.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ROCDWOES%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBP5X7wFfM4HNHV6Zpsx%2BDmc0bYI0qc6c1mZM%2BOJgDNQAiEA1IDIG9G9vHiU4YhR%2FYrVQcCLVJlxYGINZXgp5IH3JlAqiAQIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDM4XjIE8vpUGX9Y8qCrcA%2FxRPA5qJUY14%2BrqS1cvAl3Vym%2Bnop7XU6ZpFl8%2BG15%2Fea4zO9HSnodtdH6oXe7YMiR6se1uPMvK6CoEgpT6HbMbJv7Se3I4JJcRPcaM0Ay3ulWN%2FzYr8cTcPmEKRJG2wNxw5k6f6fV0mNiNyBzyRjEFj5qDOsYy9nxj6N0sp12uXyMX%2F26M9CYC9Ibg3GQcXO8DT7rlcsjFAg41Vs7NQ%2FPQI%2F6EIN%2BVGw5aUi4aCp4u1a1R36dG2MnieGp%2FlZ8JyEtE0%2Fby3u91pnzw0gSjRHckSpiTMYJj8Ee5ceHI4fSbXyXUeue7jNV6M6q67CU4vG4qS69VJ3CzicE3adFMOhcPfFSf9a8nsdIeqGaqbMaJCBEUDneZ4Y0bWh%2BI4bLpwDxBgmRzjeAOrh%2BCUlVkhzN1QAKr3jNx%2BYfCGQYTrCS3w2uxM4fE1%2FC8SHlOhG7ajOMixWlwnzBFAeWmPuhmdS9bYpyrmW7qXpfrz%2B07tvAKtAGevbKYSDJ5Rst5RZBNcEoBMDroWUu0Jy7uFoqIwgPlYQ7ZkHYFCi4Asa2iy7Aswp%2BThC75t5XCccE8aWRFgSx4Y4u8q%2B%2FVoytzT1u81GWN9PZ4nzILZvJ4K3PguCz%2FgThLc3cywFml1d3XMKm4rNAGOqUBaUDxSMM1o%2FZ6%2FSfFGwOwdvsOEaFcfH70kmYoCruFQgevA%2FbDlwKeJ%2FRrkUDAib8ser7gbaLhGzzJpBD5%2BZxzwkTw3VNoPO%2BjOFzcC5CMsFX2CilxlQTiPrewTgEkitXYxKYZySsG17TW5fnk9Hk8W0t1K37CRKRox%2B27T%2FmfIX7s2bHGdFdEyb8YkQWi7EMfLxfLLm1kLQ%2BfBaxdK044%2B53tJ%2Brp&X-Amz-Signature=6bb85426798d370e69e2a3c394c43ec3d2c9f74ee743bae08daf2f295e62f221&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664C4N7QAA%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T161623Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICF%2FlzhmfEIzO3oQUoJFa8SWP25tmX9OqefYUzAxgVlCAiEAv81PWDZnGU0iplNm4grKGynG%2B2fcS9JWu4xYoT8WRd8qiAQIwP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCyYnPsiuZ9rK8o1dircA38ThHZ2Hn3W2Qp8qIdCKNJmM0svFRMd4BTG3mVKPRWJihi8pLBYtBy41XW%2BEyxd1x6Cfx85m%2FUze5aOiyC1OpmlJQILk3%2BJZX87Mbwr5fx61e4wYoO0CWOyNk3MlZ5olubJv435mZ%2BmFWOLIxSt9cO0RJ3yoATz3XG5iEL9EWlAJNUcCN6n67%2FAyyc0WymkOTqKGzmyL%2B74W3%2FYSnUv1RjNClkD18J5wdqgKrdxFJbfI3PIH9yydFXs6ONaxpJtw7vppL48Jp%2BVbrUYC3ao%2BJgQBX9T3EQ3CsNU%2Bb0JGgFKjPMPOk04FfNPTSzb8zRRihy%2BR%2BuQJK5ua3GEXuLfidyVDzJfEvX7lTfWFTIwa42vJIndSv5VjHjwLDuFj4zjMQWlH5AnABUT45Oz4QXK3RhKj9TKmboNge%2BDKsjE5DTTxP1A2oWCxo%2BgN7bz8ODvfFl7x36KG53iO8yHz0l23i0YJnOU3mgUiXiGwnFI9ZQwMEULkcLw9MCVgxI1ayL490sj6HdYutjY4wRfYbdGW7h0MwpNXSH68dlQrtLx1qdQZQMnRFMnyNuSWiXfidTR1Vx1nVmeRyJ1eLDuDLvKIEgJEM8KgC2yzCmGpQ7AHwucg7PRv%2Bbw3n7Itc8EMPHYrNAGOqUBDBOk1cgLRqWD7Vjp5uNeIMQohgUypqBXorCvcit9GR2at10Q2FH1T3fNvrs1%2Fos%2FtAx%2F%2BMQL3YUTw0I8Swj4v%2B8ZkqPCdcFMF%2BVwwY50C71OuLx%2BjJ9JrZOGLmgexEjJDYQcZdFVuMVxtmsnt6%2BOQrNMsl%2FZ0kyjd5Z7Mp1pJ%2FysWI2Ipd5Sy7UEUY95yjHeNM9JdxaA%2FhiDFPbnCRKVIXeHgkNd&X-Amz-Signature=e92e470d0db714f963815d962c77d1e30f396c839ae7dc2009acc6cc4d3627b6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/WEB-LOGICIEL-Check-In-Scan-partie-1-Mapping-envoi-Naxi-G-vers-CiS-3118db15623a81c78ca4f07fb87f2047"
     },
@@ -8279,7 +8311,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA29.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XFIM5GV2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145341Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCrDS8PwbGbW8S1sVyIIhlywnU%2F9yh5CXVToF6J8YWOOgIhAOixUi8PxE3YqnJIHr0Tzhe8T5aspFOBMZdptzP3%2FFk%2FKogECL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwVJMEh3R2kLIQsU6oq3ANguW9aNKnPJz7TwGT%2BcKz9URrDjnysr%2FJYyuKpsiBXK8K3FA7CgT9VaiwnE172fCa3yRQ2E6yvQ6%2FkYm2kQDRjUlgqBX0boWr2StnJsOYSINxh23sQUznWMQHk18ILxjZpuCggnm2jldoTv9Ba3JDhW7WICrKSU4sMitp1wMXOOXQfVWDp0qaKNJhK5Lhf07WMJR0%2B6f2EwO8HRpENMnW%2FzN1Cn2OuJhLWpm1wiJzhBmVVvJEZQBzzyjF1T0ANhjyrL2nZb%2FDvxs9ouQaySjXew6rBvKOH%2FmvXjQquK8XOwXSz8FrRxniZmJMVo0oyU2i1XEv7sNvoMxovcGkaeF0%2BjzOmkPI9d5WjBcWzHbjTfBT4MZm2ngjMcabwbwF3rsHO5Tl95G18eo2ZNWCi0TPoXSaa6E7Cl64AoXzrBPgoDGdjiVLcD7KpQKWiWVeV4a%2FDdulivWGoizj%2BTgGRsio9ZiyB5ue0El7yW40ZxRyJDYitRndjyY2q6LQF3hPmgeOS%2FBrLJCcdQt04HKT%2FnOWNYh7Enl3h0gYdIwOQflJp4SGacC7FtstBTwLZff3ajyeNhgMuBUaxDQj3mfo%2Bdnm%2FIrHtisAHbJQwhX%2FLI%2FHRb3zVnKkABf%2FjsYqVdzDitqzQBjqkAVG3LAyPrro3%2F%2BSm%2FKm7W19IJpNHSgMHNgBb8DaRLwU72i4Rkg3PgB%2FWRDLFKFFAeaL0wTUtXr6Z0OZPSEW47j%2FxK3w9pX8DqZNHOCp7bw%2F8g3TEDMneCFeOQeIl5Y%2BYeIoPgq8f7t7F5rWp%2BWD3wLbninBIotbGmspKWCK9cluqEiqR5FmLqW5XudiC9Si7aEO93oFkI2sVs%2FvWe5uEedRtGjJn&X-Amz-Signature=64e012a91510310aa99e7a30d1dd1e08032b93a560400df24713ca673389dba7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666EPNKTVR%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T161625Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCNgshwwHK8oAIedMUyv63JrV5SmPs%2BsFu4MGDiLNL%2FEgIgPgVqjr7LM%2BAp9BiQH9ThBD35%2BydM5m0dMPBPlg3OEWIqiAQIwP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEGdgpniOP5NIg%2BGCSrcA6MeK%2BuO05g4qjGW7X%2B5BnHqz9Uf%2Fy9EfmkcOWkxAyEUID8fJ1gev76fBODjG2o5xpQl1JK3WLbbU0USgWP5WsXMd1Pxo1tEpFnYUk1CS%2B38hpXthowF9jLwbMi69qnfZQvPw8LQDqe4C%2FArEsxPe17uphFz7iwCuX78EUgznsRUB4SLpH8Fhib7QdhA9SDo%2B2fAEY%2FVlz3bKH9sUajRFRBV%2BIsEBDyta4UGUHQXyIJIxbCdLPF0VCoBEaAB9iyA7N44ZtCtq1be1532NkRYFxjxFcoqVKQssxmXk9u%2Fe3N905dawlSTq0%2Bn5SVnOSPEn%2BSTnF3l%2BBeOvR99maTFD3AOsLj6Z5dfnbDLShpjH2Nfrdwuk1W%2B8LZukEoDTsAa17Cx1L%2BTA2iq%2FW0HU5xKNVlMyRfDo%2BD20MY1BIyO%2BargQIBdZRvI7m%2BCnOZUrhGTlbSlyflpeTdb56NEIAkjOlAiRx61HhV8dEHlOcU80h2%2BP1nINpGQyuIPcScxY%2FWj0hv2ecn8zCUl9YaQwD1N1dpihpHspVPekZwH089PQqSjYhB04jAYwMg1EodyMHsbsWwQQf5bMrLbPuFYSgAizzblcczK34RV4iCPLQypnEvJLhQ2pOiWNaltWRT4MIfZrNAGOqUBVQipb2kzmigFzSUNq8m%2Fz8N3K0KrXDQh6Z3qzG7k7AgnSL39MUKvbPeh3jKZcVf5%2F27Tz15LPqLUSH2YDJhnIL%2FI7IxbuRoB6RShQuP%2BcMUtwdu0OLuvLEhbz5StQgOk6UJpj3%2F8uWVpA7Ae8suQXZwU5JfjwpL1jNLeEFP2bnVZmho%2Fr9FX0ZfdKwsZ9hi8542xK2hHthBIJLuu9aNy8HyNeglW&X-Amz-Signature=52fe31d15fb9bd59f96ac4e27f684e6c890e50b72158ce16328eb69c5663be55&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-NORME-V19-3118db15623a8078a611ffceac61cd6e"
     },
@@ -9183,7 +9215,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -9246,7 +9278,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [
           "Denis"
@@ -9313,7 +9345,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [
           "Rachid"
@@ -9348,7 +9380,7 @@
         "test": 0
       },
       "contributeursReels": [
-        "Agathe",
+        "Agathe (PO)",
         "Albert (UX)",
         "Jérôme",
         "Caroline",
@@ -9389,7 +9421,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [
           "Denis"
@@ -9457,7 +9489,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [
           "Cédric.F"
@@ -9492,7 +9524,7 @@
         "test": 0
       },
       "contributeursReels": [
-        "Agathe",
+        "Agathe (PO)",
         "Albert (UX)",
         "Jérôme",
         "Caroline",
@@ -9531,7 +9563,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [
           "Cédric.F"
@@ -9566,7 +9598,7 @@
         "test": 0
       },
       "contributeursReels": [
-        "Agathe",
+        "Agathe (PO)",
         "Albert (UX)",
         "Jérôme",
         "Caroline",
@@ -9606,7 +9638,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [],
         "front": [],
@@ -9665,7 +9697,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -9728,7 +9760,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [],
         "front": [],
@@ -9789,7 +9821,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [],
         "front": [],
@@ -9850,7 +9882,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [],
         "front": [],
@@ -9911,7 +9943,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [],
         "front": [],
@@ -9972,7 +10004,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [],
         "front": [],
@@ -10031,7 +10063,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -10092,7 +10124,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -10153,7 +10185,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -10214,7 +10246,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -10277,7 +10309,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [],
         "front": [],
@@ -10338,7 +10370,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [],
         "front": [],
@@ -10399,7 +10431,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [],
         "front": [],
@@ -10458,7 +10490,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -10521,7 +10553,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [],
         "front": [],
@@ -10582,7 +10614,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [],
         "front": [],
@@ -10641,7 +10673,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -10702,7 +10734,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -10763,7 +10795,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -10826,7 +10858,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [],
         "front": [],
@@ -10885,7 +10917,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -10946,7 +10978,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -11007,7 +11039,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -11068,7 +11100,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -11129,7 +11161,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -11192,7 +11224,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -11253,7 +11285,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -11314,7 +11346,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -11375,7 +11407,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -11436,7 +11468,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -11497,7 +11529,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -11558,7 +11590,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -11619,7 +11651,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -11680,7 +11712,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -11741,7 +11773,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -11805,7 +11837,7 @@
       "membres": {
         "maquette": [
           "Albert (UX)",
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme"
         ],
         "back": [
@@ -11841,7 +11873,7 @@
         "test": 0
       },
       "contributeursReels": [
-        "Agathe",
+        "Agathe (PO)",
         "Albert (UX)",
         "Jérôme",
         "Caroline",
@@ -11881,7 +11913,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [
           "Loic"
@@ -11945,7 +11977,7 @@
       "membres": {
         "maquette": [
           "Albert (UX)",
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme"
         ],
         "back": [
@@ -12015,7 +12047,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Albert (UX)",
           "Jérôme"
         ],
@@ -12086,7 +12118,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [
           "Cédric.F"
@@ -12121,7 +12153,7 @@
         "test": 0
       },
       "contributeursReels": [
-        "Agathe",
+        "Agathe (PO)",
         "Albert (UX)",
         "Jérôme",
         "Caroline",
@@ -12160,7 +12192,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [
           "Loic"
@@ -12195,7 +12227,7 @@
         "test": 0
       },
       "contributeursReels": [
-        "Agathe",
+        "Agathe (PO)",
         "Albert (UX)",
         "Jérôme",
         "Caroline",
@@ -12233,7 +12265,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -12299,7 +12331,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [
           "Cédric.F"
@@ -12364,7 +12396,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [
           "Loic"
@@ -12430,7 +12462,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -12495,7 +12527,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe (PO)"
         ],
         "back": [
           "Cédric.F"
@@ -12530,7 +12562,7 @@
         "test": 0
       },
       "contributeursReels": [
-        "Agathe",
+        "Agathe (PO)",
         "Albert (UX)",
         "Caroline",
         "Ines",
@@ -12566,7 +12598,7 @@
       "membres": {
         "maquette": [
           "Albert (UX)",
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme"
         ],
         "back": [
@@ -12602,7 +12634,7 @@
         "test": 0
       },
       "contributeursReels": [
-        "Agathe",
+        "Agathe (PO)",
         "Albert (UX)",
         "Jérôme",
         "Caroline",
@@ -12639,7 +12671,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -12700,7 +12732,7 @@
       },
       "membres": {
         "maquette": [
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme",
           "Albert (UX)"
         ],
@@ -12762,7 +12794,7 @@
       "membres": {
         "maquette": [
           "Albert (UX)",
-          "Agathe",
+          "Agathe (PO)",
           "Jérôme"
         ],
         "back": [
@@ -12798,7 +12830,7 @@
         "test": 0
       },
       "contributeursReels": [
-        "Agathe",
+        "Agathe (PO)",
         "Caroline",
         "Loic",
         "Cédric.V"
@@ -14575,7 +14607,7 @@
       "id": "35f8db15-623a-8172-b8e0-dd9e29ae9eb1",
       "saisie": "Agathe · Listing indispo · MAQUETTE · S14",
       "semaine": "2026-03-30",
-      "personne": "Agathe",
+      "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 0.3,
       "etat": "En cours",
@@ -14855,7 +14887,7 @@
       "id": "35f8db15-623a-81aa-a87f-dfe11d800dd2",
       "saisie": "Agathe · Listing occupation · MAQUETTE · S19",
       "semaine": "2026-05-04",
-      "personne": "Agathe",
+      "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 1,
       "etat": "FAIT",
@@ -14975,7 +15007,7 @@
       "id": "35f8db15-623a-81b6-8f94-d307acb2033b",
       "saisie": "Agathe · Télémaintenance · MAQUETTE · S15",
       "semaine": "2026-04-06",
-      "personne": "Agathe",
+      "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 0.52,
       "etat": "En cours",
@@ -15015,7 +15047,7 @@
       "id": "35f8db15-623a-81ba-a506-d713bbee7baf",
       "saisie": "Agathe · Listing séjours · MAQUETTE · S13",
       "semaine": "2026-03-23",
-      "personne": "Agathe",
+      "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 0.1,
       "etat": "En cours",
@@ -15075,7 +15107,7 @@
       "id": "35f8db15-623a-81be-944d-c2156cc63ec3",
       "saisie": "Agathe · Liste des cautions · MAQUETTE · S16",
       "semaine": "2026-04-13",
-      "personne": "Agathe",
+      "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 0.77,
       "etat": "En cours",
@@ -15135,7 +15167,7 @@
       "id": "35f8db15-623a-81c4-a075-c4a1fec9bd06",
       "saisie": "Agathe · Remise en banque · MAQUETTE · S17",
       "semaine": "2026-04-20",
-      "personne": "Agathe",
+      "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 0.92,
       "etat": "En cours",
@@ -15395,7 +15427,7 @@
       "id": "35f8db15-623a-81dc-9a99-c57b3c4dbcd9",
       "saisie": "Agathe · Page de connexion · MAQUETTE · S11",
       "semaine": "2026-03-09",
-      "personne": "Agathe",
+      "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 0.3,
       "etat": "En cours",
@@ -15415,7 +15447,7 @@
       "id": "35f8db15-623a-81dd-9aba-efd07f694072",
       "saisie": "Agathe · Listing réservation · MAQUETTE · S12",
       "semaine": "2026-03-16",
-      "personne": "Agathe",
+      "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 0.08,
       "etat": "En cours",
@@ -15655,7 +15687,7 @@
       "id": "35f8db15-623a-81f7-95cc-e56fb342b3a0",
       "saisie": "Agathe · Historiques des ventes · MAQUETTE · S18",
       "semaine": "2026-04-27",
-      "personne": "Agathe",
+      "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 0.97,
       "etat": "En cours",
@@ -15694,12 +15726,81 @@
   ],
   "equipe": [
     {
+      "id": "3648db15-623a-80cb-9a60-ef05a9aa0614",
+      "nom": "Louis Charles",
+      "metiers": [
+        "FRONT"
+      ],
+      "projets": [],
+      "url": "https://www.notion.so/Louis-Charles-3648db15623a80cb9a60ef05a9aa0614"
+    },
+    {
+      "id": "3648db15-623a-8000-b7c4-f7636945606e",
+      "nom": "Christophe",
+      "metiers": [
+        "BACK"
+      ],
+      "projets": [],
+      "url": "https://www.notion.so/Christophe-3648db15623a8000b7c4f7636945606e"
+    },
+    {
+      "id": "3648db15-623a-80c8-9f1e-c712b5b62f87",
+      "nom": "Marjorie (PO)",
+      "metiers": [
+        "MAQUETTE"
+      ],
+      "projets": [],
+      "url": "https://www.notion.so/Marjorie-PO-3648db15623a80c89f1ec712b5b62f87"
+    },
+    {
+      "id": "3648db15-623a-80ec-aa44-e27e3aea08a9",
+      "nom": "Nina (test)",
+      "metiers": [
+        "TEST"
+      ],
+      "projets": [],
+      "url": "https://www.notion.so/Nina-test-3648db15623a80ecaa44e27e3aea08a9"
+    },
+    {
+      "id": "3648db15-623a-809a-86c5-cc5ab4ba3b9f",
+      "nom": "Aurore (Test)",
+      "metiers": [
+        "TEST"
+      ],
+      "projets": [],
+      "url": "https://www.notion.so/Aurore-Test-3648db15623a809a86c5cc5ab4ba3b9f"
+    },
+    {
+      "id": "3648db15-623a-80de-8af3-ff43dd1dfefc",
+      "nom": "Marjorie (Test)",
+      "metiers": [
+        "TEST"
+      ],
+      "projets": [
+        "Naxi G Full Saas"
+      ],
+      "url": "https://www.notion.so/Marjorie-Test-3648db15623a80de8af3ff43dd1dfefc"
+    },
+    {
+      "id": "3648db15-623a-80ae-947e-e2248e39c48c",
+      "nom": "Agathe (Test)",
+      "metiers": [
+        "TEST"
+      ],
+      "projets": [
+        "Naxi G Full Saas"
+      ],
+      "url": "https://www.notion.so/Agathe-Test-3648db15623a80ae947ee2248e39c48c"
+    },
+    {
       "id": "3648db15-623a-80c3-b2d7-fbf664dc0e09",
       "nom": "Albert (Front)",
       "metiers": [
         "FRONT"
       ],
-      "projets": [],
+      "projets": [
+        "Naxi G Full Saas"
+      ],
       "url": "https://www.notion.so/Albert-Front-3648db15623a80c3b2d7fbf664dc0e09"
     },
     {
@@ -15709,32 +15810,6 @@
         "MAQUETTE"
       ],
       "projets": [
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
         "Naxi G Full Saas"
       ],
       "url": "https://www.notion.so/Albert-UX-35f8db15623a8155aa16d7a6f066747e"
@@ -15746,32 +15821,6 @@
         "MAQUETTE"
       ],
       "projets": [
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
         "Naxi G Full Saas"
       ],
       "url": "https://www.notion.so/J-r-me-35f8db15623a8158b815e0012923008f"
@@ -15782,7 +15831,9 @@
       "metiers": [
         "BACK"
       ],
-      "projets": [],
+      "projets": [
+        "Naxi G Full Saas"
+      ],
       "url": "https://www.notion.so/Denis-35f8db15623a81649233e5945d32e5c1"
     },
     {
@@ -15791,7 +15842,9 @@
       "metiers": [
         "FRONT"
       ],
-      "projets": [],
+      "projets": [
+        "Naxi G Full Saas"
+      ],
       "url": "https://www.notion.so/Caroline-35f8db15623a816c9a38febc48db9f75"
     },
     {
@@ -15800,46 +15853,21 @@
       "metiers": [
         "FRONT"
       ],
-      "projets": [],
+      "projets": [
+        "Naxi G Full Saas"
+      ],
       "url": "https://www.notion.so/Ines-35f8db15623a8192b4fadfd7bc6ef50c"
     },
     {
       "id": "35f8db15-623a-81b4-869a-cd2028059cbc",
-      "nom": "Agathe",
+      "nom": "Agathe (PO)",
       "metiers": [
-        "MAQUETTE",
-        "TEST"
+        "MAQUETTE"
       ],
       "projets": [
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
-        "Naxi G Full Saas",
         "Naxi G Full Saas"
       ],
-      "url": "https://www.notion.so/Agathe-35f8db15623a81b4869acd2028059cbc"
+      "url": "https://www.notion.so/Agathe-PO-35f8db15623a81b4869acd2028059cbc"
     },
     {
       "id": "35f8db15-623a-81b7-9676-e24c091ee02c",
@@ -15847,7 +15875,9 @@
       "metiers": [
         "DESIGN"
       ],
-      "projets": [],
+      "projets": [
+        "Naxi G Full Saas"
+      ],
       "url": "https://www.notion.so/C-dric-V-35f8db15623a81b79676e24c091ee02c"
     },
     {
@@ -15856,7 +15886,9 @@
       "metiers": [
         "BACK"
       ],
-      "projets": [],
+      "projets": [
+        "Naxi G Full Saas"
+      ],
       "url": "https://www.notion.so/C-dric-F-35f8db15623a81c58e7af2269f2342c1"
     },
     {
@@ -15865,7 +15897,9 @@
       "metiers": [
         "BACK"
       ],
-      "projets": [],
+      "projets": [
+        "Naxi G Full Saas"
+      ],
       "url": "https://www.notion.so/Loic-35f8db15623a81d4b029cea997d5a289"
     },
     {
@@ -15874,7 +15908,9 @@
       "metiers": [
         "BACK"
       ],
-      "projets": [],
+      "projets": [
+        "Naxi G Full Saas"
+      ],
       "url": "https://www.notion.so/Rachid-35f8db15623a81e9ad55d0a79ca85d1a"
     },
     {
@@ -15883,7 +15919,9 @@
       "metiers": [
         "FRONT"
       ],
-      "projets": [],
+      "projets": [
+        "Naxi G Full Saas"
+      ],
       "url": "https://www.notion.so/Sylvain-35f8db15623a81fc9f90cec8efd5303e"
     }
   ],
@@ -23984,10 +24022,10 @@
     }
   ],
   "counts": {
-    "classique": 254,
+    "classique": 255,
     "topline": 57,
     "suiviLundi": 144,
-    "equipe": 12,
+    "equipe": 19,
     "cartoPmsWeb": 489,
     "cartoPmsMobile": 13,
     "cartoManager": 6
