@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T06:41:40.181Z",
+  "generatedAt": "2026-05-18T09:35:18.018Z",
   "source": "suiviLundi",
   "rows": [
     {
@@ -121,6 +121,17 @@
       "groupe": "HOME",
       "phase": "Maquette / UX",
       "jours": 4,
+      "actions": ""
+    },
+    {
+      "week": "2026-W12",
+      "start": "2026-03-16",
+      "end": "2026-03-22",
+      "person": "Albert",
+      "fenetre": "Page de connexion",
+      "groupe": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 1.429,
       "actions": ""
     },
     {

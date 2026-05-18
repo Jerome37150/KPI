@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-18T06:41:39.999Z",
+  "generatedAt": "2026-05-18T09:35:17.826Z",
   "classique": [
     {
       "id": "3618db15-623a-80a1-8af6-f7838bd5f591",
       "identifiant": "INA-302",
       "titre": "[LOGICIEL] - Génération des pdf de facture impossible si civilité client à 0",
       "classification": "BUG STRUCTURANT",
-      "statut": null,
+      "statut": "FAIT",
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -24,14 +24,14 @@
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
-      "pointAvancement": 0,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le camping LA SIRENE nous a contacté car les pdf de certaines de ses factures ne se généraient pas. \nAprès analyse de leur base de données, les factures concernées ont toutes été éditées sur des fiches clients ou la civilité est à 0\n\n→ Correctif d’urgence fait par Loic car ils avaient plus de 9 000 fiches clients dans ce cas. Le correctif consiste à prendre la civilité par défaut dans NAXI (table PARGEN / pg_code = PREFCLI) lorsque la fiche client a une civilité à 0. \n\n→ En revanche, il faudrait trouver comment ils peuvent avoir des fiches clients avec une civilité à 0/ Pistes déjà vérifiées : \n\n  • L’import des clients par fichier excel, si pas de colonne civilité, alors le champs se met en effet à 0 donc il faudrait prévoir une US pour que quand on importe un fichier client on mette la civilité par défaut si il y en a pas\n\n",
       "communication": [],
       "initialeAjout": [],
-      "versionInter": "",
+      "versionInter": "18.17",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-05-18",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://www.notion.so/LOGICIEL-G-n-ration-des-pdf-de-facture-impossible-si-civilit-client-0-3618db15623a80a18af6f7838bd5f591"
@@ -56,9 +56,13 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
+      "persFront": [
+        "Christophe"
+      ],
+      "persPoTest": [
+        "Marjorie"
+      ],
+      "pointAvancement": 0.6,
       "pointsBlocage": "",
       "explication": "Si on plus de 20 suppléments à charger, lorsqu’on arrive en bas de liste, la liste se recharge avec les 20 premiers au lieu de charger les suppléments suivants",
       "communication": [],
@@ -77,7 +81,7 @@
       "identifiant": "INA-300",
       "titre": "[LOGICIEL] Erreur sur Proforma lors de paiements ventilés sur plusieurs séjours",
       "classification": "BUG OPERATIONNEL",
-      "statut": null,
+      "statut": "FAIT",
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -96,16 +100,16 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "",
+      "versionInter": "18.17",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-05-18",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://www.notion.so/LOGICIEL-Erreur-sur-Proforma-lors-de-paiements-ventil-s-sur-plusieurs-s-jours-35f8db15623a80b88126f39177d3b633"
@@ -324,7 +328,7 @@
       "identifiant": "INA-292",
       "titre": "Erreur redescente des résas Sunelia",
       "classification": "BUG STRUCTURANT",
-      "statut": "En cours",
+      "statut": "FAIT",
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -345,11 +349,13 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0.01,
-      "pointsBlocage": "",
+      "pointAvancement": 1,
+      "pointsBlocage": "coté CTV - bascule resa SOAP en REST",
       "explication": "Beaucoup de réservations ne redescendent pas chez SUNELIA.\n\nLe soucis semble venir de l’insertion du rs_suppl lié au Programme de Fidelité de Sunelia",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -520,8 +526,8 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0.01,
-      "pointsBlocage": "",
+      "pointAvancement": 0.75,
+      "pointsBlocage": "EN TEST",
       "explication": "",
       "communication": [],
       "initialeAjout": [
@@ -913,7 +919,7 @@
         "Aurore"
       ],
       "pointAvancement": 0.1,
-      "pointsBlocage": "",
+      "pointsBlocage": "Point rapide cette semaine",
       "explication": "",
       "communication": [],
       "initialeAjout": [
@@ -1335,7 +1341,7 @@
       "identifiant": "INA-259",
       "titre": "[LOGICIEL] Lenteurs sur affichage de la fenêtre d’envoi d’email de factures si plusieurs séjours",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": "FAIT",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -1357,16 +1363,16 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le camping la Sardane nous a signalé d’importantes lenteurs sur la génération de factures lorsqu’il y a plusieurs prestations.\n\n→ Après tests sur ma démo, les lenteurs sont confirmés ce qui permet d’écarter la piste de l’infra puisque je teste sur mon PC en local \n\nLes lenteurs sont en revanche pas sur la facturation mais sur l’ouverture de la fenêtre d’envoi du mail ",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "",
+      "versionInter": "18.17",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-05-18",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://www.notion.so/LOGICIEL-Lenteurs-sur-affichage-de-la-fen-tre-d-envoi-d-email-de-factures-si-plusieurs-s-jours-34a8db15623a806ab3ddc9a350b41887"
@@ -1820,8 +1826,8 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0.2,
-      "pointsBlocage": "",
+      "pointAvancement": 0.05,
+      "pointsBlocage": "purge des évenements pour repartir sur une base propre",
       "explication": "Nous avons installé la version 18.10 NG et 06.03 NxCod sur le camping Flower Rivière 04 et le soucis persiste malheureusement , à savoir lorsque l’on double clique sur un client dans NG, ce n’est pas la bonne fiche client qui s’ouvre.\n\nhttps://jam.dev/c/7abddfd2-a0ba-46b2-a00e-9169629ead71",
       "communication": [],
       "initialeAjout": [
@@ -1969,6 +1975,7 @@
       ],
       "persFront": [],
       "persPoTest": [
+        "Aurore",
         "Nina"
       ],
       "pointAvancement": 0.75,
@@ -2072,7 +2079,7 @@
       "identifiant": "INA-239",
       "titre": "[WEB] Grafana - Modif lien dashboard NNP Assistance",
       "classification": "BUG D'USAGE",
-      "statut": "Sprint en cours",
+      "statut": "FAIT",
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "MAI 26"
@@ -2093,16 +2100,16 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Les liens n’ont pas été modifié sur le dashboard Assistance > 06 : NaxiNomadPremium : \n\n  • Se rendre sur l’URL : https://backoffice.inaxel.com/grafana/d/ffaebf14-03b6-471a-a7ba-e569686f264c/06-3a-naxi-nomad-premium?orgId=1&from=now-6h&to=now&timezone=browser&var-accountWeb=kabana\n  • Choisir un compte web (dans mon exemple Kabana)\n  • Si on clique sur le nombre de tickets, le nombre de ménages, le nombre d’inventaires….etc, cela renvoit vers une URL de type : https://grafana.inaxel.com/d/d0d30252-6a39-4949-a7cb-0741fdcd8160/menages?orgId=1&var-accountWeb=kabana au lieu d’une URL backoffice.inaxel.com\n\nOlivier a montré la manip à son service mais cela n’est pas acquis donc si possible de modifier les liens pour simplifier ce serait top :)",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "",
+      "versionInter": "web",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-05-18",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://www.notion.so/WEB-Grafana-Modif-lien-dashboard-NNP-Assistance-3448db15623a804c82a3da8d38db58eb"
@@ -2722,7 +2729,7 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 0.2,
       "pointsBlocage": "",
       "explication": "Le camping KABANA nous a contacté afin de nous indiquer que sa synchro bouclait en erreur.\nAprès analyse, ce camping fait parti d’un petit groupe de 4 établissements dont 3 n’ont pas de système de réservation en ligne.\n\nLes éléments en erreur qui bouclait dans la synchro correspondait aux sociétés n’ayant pas de réservation en ligne / Je les ai supprimé pour éviter que ça boucle inutilement mais cela va forcément revenir",
       "communication": [],
@@ -2958,7 +2965,7 @@
       "identifiant": "INA-212",
       "titre": "[LOGICIEL]  Synchro: problème d'affichage doublon d'exercice",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": "FAIT",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -2980,16 +2987,16 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Détails:\nAnomalie sur la fenêtre de synchro: on a certaines entreprises/exercices qui apparaissent en doublon.\nLe problème ne se produit pas systématiquement sur toutes les bases il doit donc y avoir certaines conditions pour entrer dedans. (on a repéré qu’il faut à minima 2 exercices actifs) \nAprès recherche rapide avec Loïc on a identifié quelques endroits dans le code qui sont susceptibles d'être à l’origine du soucis - Il faut donc se pencher sur ces cas là et vérifier si c’est bien ça qui pose soucis ou pas",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "",
+      "versionInter": "18.17",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-05-18",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://www.notion.so/LOGICIEL-Synchro-probl-me-d-affichage-doublon-d-exercice-3348db15623a8074b823e81b6b5e7ea6"
@@ -2999,7 +3006,7 @@
       "identifiant": "INA-211",
       "titre": "[WEB] GRAFANA : fenêtre Naxi V2 : désactivation en masse des fenetres",
       "classification": "STACK TECH",
-      "statut": "Fait partiellement",
+      "statut": "FAIT",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26",
@@ -3021,8 +3028,8 @@
       "persPoTest": [
         "Nina"
       ],
-      "pointAvancement": 0.75,
-      "pointsBlocage": "Test",
+      "pointAvancement": 1,
+      "pointsBlocage": "",
       "explication": "",
       "communication": [
         "fiche explicative"
@@ -3030,9 +3037,9 @@
       "initialeAjout": [
         "Débord sprint"
       ],
-      "versionInter": "",
+      "versionInter": "VOIR 632",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-05-25",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://www.notion.so/WEB-GRAFANA-fen-tre-Naxi-V2-d-sactivation-en-masse-des-fenetres-3348db15623a80abb795f2964aad7abf"
@@ -3202,7 +3209,7 @@
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
-      "pointAvancement": 0.1,
+      "pointAvancement": 0.15,
       "pointsBlocage": "",
       "explication": "Vu avec Christophe pour refonte de l’espace client du site Inaxel avec suppression des élements pas utilisés + ajout de lien pour la partie technique",
       "communication": [],
@@ -3616,7 +3623,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "Fiche communication.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z25FTASQ%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T064126Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCyK0p0BP2Fcwfk8d4Z%2Bq8bePb%2F6jDL9fvn24n0BK57bAIhAJeQIZlqayoxu%2F7KWusP8GqG4ZPaY%2B2zdZyku%2FYuS5STKogECLf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzXJPdMHpuxhDjBm3Qq3AMY%2B%2BXrtJSE%2B%2BcsDKvCktYFRWb93sHrJlG6KKeaazzmvuJmnBT1Hk2wrueGpzRNuriVBEtwEb8BggvQvOyQ3sWqRgeQxw8tFFk6da8QVMpryCsrqn7Zv4lsJAM28kaIietqRjWK1M0IyeRvRPdP1OhgT0w%2FTxmIGLHcKszEvnfENSY4TRFWBJF6S%2BgIQRkCNaLt3lig4s7yJLzD5mbWQRW%2B%2FORPFSE9lf6FpnhQcRdvzUuUfJGixx898mNgfFMOHbHMjwu97Wbey2DbsECmpMAItUWeo3KFqzHH96b%2Ff%2BETrCg2BemEkTrcUtCT6hgqivOhYMCOO6ePSPGjfBF%2Fy4fj5NDkwARps%2FdQGotl73vR3r8Hn7djqZeZq7IBJiWcEDSYjSxThQAD83IIgHU5TfO%2FYD%2BZzl%2FMn7qYycS6Xk06TnS2O9dps0gyqtkXbJrxav3esSjx6FSoT37Jf8fiNMjsjKbCJgGL3VRe7PAPCY8%2BVunqFmSKxDKPws6MY4BWVsL9vpUATLrWzsVsQZ4dBtMe4Vr6jwlpmNdslPE79d9tJSE7N64oANGTBwX45NnK4rvWzMKRBVUoNBe1S2fiGs73q7mWHrLf4q%2F7F%2F0Zx%2BYFMTrgl6E8PfYJJam%2BojCE36rQBjqkAQSAJxQzsI1n16nicN7fAWZl%2Bx6s7qsAQX4QYl%2FpS41d4iGoZISjIENuQ2yu6SxkkS2HGMi4TOs2TKw1j52JkDWemxDwzaRzI5JJV53c0bOfFS8SXncz%2By4Rrwq2%2FzpbJePfhaqkxacSKXeqDMN6Uvo4LvxznXXJWi8EPBA9D1aprB3hmffThRoD8Sg7U3ErBxGkC1ODCL8BkU1hmWatdiwJRPAw&X-Amz-Signature=f425f767667859a4cef71c25f956f13eff81b1f6c6d4e02836e0d76a8b5a4c19&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664Q7NARQ5%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093502Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIFTRtBMUMBa2zm%2BQSxZ9TO0mqk1ZesAxi712HZ06KBxaAiBCj1MiQlblWVFaKUqV0ig0NVEoYu1YTNyHjGKtHLPZXCqIBAi6%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMSSy2FAzp%2FAIS17%2FXKtwDAuu5pr5NWjF%2FiEb5EGywNochG6lWf6kDHgbY2EFqroazTkXKDOaJ5neKL7uTvjiV4BWKail%2BO%2Bez53BbxZ%2BxbRFMy4a6809kztf1Z5%2FKz96j0v08w7OSdAYOmtstuXx8Dvf8KkcZNz%2FFgtle8bKEJJr3jyaPKzElR%2F%2BgkT5yB3cHuAIHYox%2BmRtFL2jbCevxsGmbuzrinJx9jhph0OWUSlFPazZKVB1Fs1pKl1LcRlGx9bBSIIaImP9PMcUHt%2BzEQUtvgq23Is2ViIa02JJTga21npbwwfwcEzm72H47PR%2BHtRO%2Bbh0gMh8ALTjFif6VqftsiBmp4V7wqlVw7hKavm7k6%2BrYeZz%2BaOBww2tlgEX1LLOZdHQKwm7P5vkWwPlh%2BzCmEOZ00%2FSjeL50cLYQb%2BbBpPnyaldfjiYCGbZZ77qoYdqOWJMmHjMYlJGKnjIzyiGj35E2%2B24naY25P8dDXS4OSQRIV71tGeLORED3CEtkpRC1fWe%2BsLmb8cjKDZxCgyLF0rFTJC4V9dayOcyfFEY9q%2FFWd4tSYBMBB14KdWCAE0oW5Ax19dHdmMbb%2FpuyY3Sv2FCM4fdHcU6qj8cXz8DbnOFBlDJ%2BBjR0KsOgVC%2FDGadklWL%2Fhvl%2Fv9gwh6ur0AY6pgENp8N5PisSVG1ujYm%2FChhBBYvE%2FrDVQwNlihJJTGIU%2BHwCcilejZxBFQXyKsaaOnc7bpIwlZDtXaCDuS3w6k5ivDaa%2B1kg0EFvX9Pc5Ms7MZ3iCzo0CzxU06xk6xUgKjeY19jzMSS2W5LwIytuQkdQYo8HPPe2xGl71GDhtU07rvMN7E4UdNRE6dAv3JBilgB%2B%2BFYWGqnqi8afwZ3wRLrp%2FdByInDe&X-Amz-Signature=2825c749891f4bf61cdfa1113bb5e61d82bb0040eb0bdfd6b60b6e02d5e68e87&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-Facturation-factures-et-proforma-d-ch-ances-multipes-probl-mes-3288db15623a80989620f6c98afd1347"
     },
@@ -4511,7 +4518,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-160.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RDOFAEUG%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T064126Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEXUqKfTjSBzaZk408rEtFHGRPJF5MmFRHx0%2Bflh3qzEAiEAhonqmBx%2B%2B2khJSTMrTKjCPs8fzIKYkfcoHQDbrSMuDgqiAQIt%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIL6dxcurkmLaweFKCrcA2mWxRPm0uXqTdGIOK0vtfvHevd1CyCPeNoO%2FWpGSm6y3jWt%2FiJul6Q3hstro%2BU8RMylKL99KyPmH7L1EgOhh3LEyjJtYQTe%2FoX704KLs8wRm5ySkWbIiJPnD7CiB5%2B40VUw7eUh00fqA02pdQHKltl0xsoUXA9DpV0JTbSq3oceI3z1NDlkhw8VRZlNQ8BB66Q%2BdTUKjQlxM6Se8jbUY%2Bihw3vw3HMR1OhryZFA4svEKAuN8U7uuCzmLjya53mbnsgR0TmubQOqwEpW7lCsQhKyt8jztTTS33ke9IBiuA0oIzZq0lziqD7YgvYqBECJqJ76Wt820Mk62pMAGGLqx%2Be44xv08aq29dheDl9ZaLsp4aYWZvmO906PpajZflFIdaf%2BzopMjdLxHfKCSM0OZRNIZ%2FUtIHH6CNqOZeQi%2Fbo4yD%2BRzSwkIrRdPYCtITLhSyHtur%2BJ%2BoZqK%2BBcdzjHlrOrH1eqtbQl%2B0vl%2FIT53oPJ4VvCwZDjrtznoWTn%2F8zz5EfIAlP6J5bjdWThjZh7KwFtgRHPC24trygj6MWkwWdvra8nmYTLIuIFQBROYIasYC0bqSq51w%2Brg1vB%2FLQaL%2FQRbjXFd%2F7rJ3T92MoODMaHtOBwW%2BDdsQy4JPV6MNTgqtAGOqUBpyd8NamgzMeG2PXu3%2Bn1Mdn8FG7ksFJ1AbE0z3QiNKNmM6tkP9%2FJVgolxoFYIdImEPWtg%2Fp2ye4rgDs54V0GX3EbFa%2B79MdFZkyXdlzQtfBuRSAeJ97Fuuv4DsIXYvKS9uklxUv31qEvK9MOGbZNe0Bm45frwR%2FtTR9%2FwGWujyTMUY84pGH8JMj0XzJNbiiqCbLbU39KAr6k6nYmtLKjwci4hQSf&X-Amz-Signature=37a2afd1f54dbb0701c2a1d10001cd878434f7e59e592f29c1861d0fd87c2841&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TEROUD2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093503Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB0RPSFk7ojnOWqtxwYZJyFd91YWQbDUovJFX1mT0Y44AiEA4UWF48c6THTaHdzBTHtyrDkgncfhgzdNVEBAvs9gwj0qiAQIuv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPwdkOBWhkakuuhI9yrcA%2BoUevd7kcKYjZI68AMjK3WTiFejqrE0JRvv5JUPO%2F0YC0mBjfpJQQdz7B1zxDodwiZn9vEnFmRvUON7wwJcWK59gnr4nLWiVz8VRmVhwYhav7VVXt4ite2c09fNP5tl0QsbxiinvgLtIDwFXaxZtN09aNMd5382IRb2YxEtxv5rRtMKYh3BCkBMho7Z18oOIdKjeO5rnezOaSFSREBJLrvGrWw5vTcNFZM%2Fa7hJHIfiZnFEMMsiENOv57yDggABMbW4rSIH%2FtntBjeWBbACgB59295T%2B3rPKHAjwyzw4ybgWxvwjQ%2BBYsU8XwlYfzFNjQqMAqKWOPtbCqSaS63TCwuyT3g5gCGQQTuIeUjvjg0xbeHRC8MoFUEkecwaljWstbybuldI0vjA1dfuiZdkHXv9i30gPjW%2Fiax%2FaTb32Z0ehWYx1Rf0CgEKnu6rCD5%2BHaLZ3s4%2Bv2CM2DDcvE2%2BmIvWg7cGNM%2F9o%2BhjYnI%2ByPv%2Fddbt0PXoGGEraJp3mLB06Ad8PrqqrEbBVZMU%2Fsg12Dv4vGpmaa6npLg2vHU09daXRMYsgpUSn%2F%2F42quinaltC%2BV9eXmHroCYXKtW6nqx4ZvseyT%2Fy5U3tTs5A2mHCHFGOH4mLik6SYNACwW0MMerq9AGOqUBGu4KGoBUy21eTjfRVnBz88SjMr8KAnfxjHtHqadbaql0Tj5oc5FQW5%2B0kHc2XHACz2inav3MsRXgMGHQ%2B6eyhy3VA5KqogEAD4Od9rPiSJ4%2By%2FLomsNMvB02kHBUvf6uGi%2BStg4PEaqpEMv6uc3xx9K6ZgwODP7p%2Bv3zM2bi3y9XZYO%2BVb3oDWzd%2FP0BXnlL73acYzasFPV5xLPdFs1pEHsO27bS&X-Amz-Signature=3a8afdd820cfe49a0493b8af78f51d8dbe345a5d2217a7e7aea35215e0f51e12&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Apparition-d-un-message-sur-le-traitement-des-r-sas-issues-de-l-espace-client-31e8db15623a806896d5f5a1ed131200"
     },
@@ -4650,7 +4657,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "synthese_espaceclient (1).xlsx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RDOFAEUG%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T064126Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEXUqKfTjSBzaZk408rEtFHGRPJF5MmFRHx0%2Bflh3qzEAiEAhonqmBx%2B%2B2khJSTMrTKjCPs8fzIKYkfcoHQDbrSMuDgqiAQIt%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIL6dxcurkmLaweFKCrcA2mWxRPm0uXqTdGIOK0vtfvHevd1CyCPeNoO%2FWpGSm6y3jWt%2FiJul6Q3hstro%2BU8RMylKL99KyPmH7L1EgOhh3LEyjJtYQTe%2FoX704KLs8wRm5ySkWbIiJPnD7CiB5%2B40VUw7eUh00fqA02pdQHKltl0xsoUXA9DpV0JTbSq3oceI3z1NDlkhw8VRZlNQ8BB66Q%2BdTUKjQlxM6Se8jbUY%2Bihw3vw3HMR1OhryZFA4svEKAuN8U7uuCzmLjya53mbnsgR0TmubQOqwEpW7lCsQhKyt8jztTTS33ke9IBiuA0oIzZq0lziqD7YgvYqBECJqJ76Wt820Mk62pMAGGLqx%2Be44xv08aq29dheDl9ZaLsp4aYWZvmO906PpajZflFIdaf%2BzopMjdLxHfKCSM0OZRNIZ%2FUtIHH6CNqOZeQi%2Fbo4yD%2BRzSwkIrRdPYCtITLhSyHtur%2BJ%2BoZqK%2BBcdzjHlrOrH1eqtbQl%2B0vl%2FIT53oPJ4VvCwZDjrtznoWTn%2F8zz5EfIAlP6J5bjdWThjZh7KwFtgRHPC24trygj6MWkwWdvra8nmYTLIuIFQBROYIasYC0bqSq51w%2Brg1vB%2FLQaL%2FQRbjXFd%2F7rJ3T92MoODMaHtOBwW%2BDdsQy4JPV6MNTgqtAGOqUBpyd8NamgzMeG2PXu3%2Bn1Mdn8FG7ksFJ1AbE0z3QiNKNmM6tkP9%2FJVgolxoFYIdImEPWtg%2Fp2ye4rgDs54V0GX3EbFa%2B79MdFZkyXdlzQtfBuRSAeJ97Fuuv4DsIXYvKS9uklxUv31qEvK9MOGbZNe0Bm45frwR%2FtTR9%2FwGWujyTMUY84pGH8JMj0XzJNbiiqCbLbU39KAr6k6nYmtLKjwci4hQSf&X-Amz-Signature=31e33948776e6a91b6ed00df0f4a40e1e2597d10c4f028822f8ba4fd9913bc5f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TEROUD2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093503Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB0RPSFk7ojnOWqtxwYZJyFd91YWQbDUovJFX1mT0Y44AiEA4UWF48c6THTaHdzBTHtyrDkgncfhgzdNVEBAvs9gwj0qiAQIuv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPwdkOBWhkakuuhI9yrcA%2BoUevd7kcKYjZI68AMjK3WTiFejqrE0JRvv5JUPO%2F0YC0mBjfpJQQdz7B1zxDodwiZn9vEnFmRvUON7wwJcWK59gnr4nLWiVz8VRmVhwYhav7VVXt4ite2c09fNP5tl0QsbxiinvgLtIDwFXaxZtN09aNMd5382IRb2YxEtxv5rRtMKYh3BCkBMho7Z18oOIdKjeO5rnezOaSFSREBJLrvGrWw5vTcNFZM%2Fa7hJHIfiZnFEMMsiENOv57yDggABMbW4rSIH%2FtntBjeWBbACgB59295T%2B3rPKHAjwyzw4ybgWxvwjQ%2BBYsU8XwlYfzFNjQqMAqKWOPtbCqSaS63TCwuyT3g5gCGQQTuIeUjvjg0xbeHRC8MoFUEkecwaljWstbybuldI0vjA1dfuiZdkHXv9i30gPjW%2Fiax%2FaTb32Z0ehWYx1Rf0CgEKnu6rCD5%2BHaLZ3s4%2Bv2CM2DDcvE2%2BmIvWg7cGNM%2F9o%2BhjYnI%2ByPv%2Fddbt0PXoGGEraJp3mLB06Ad8PrqqrEbBVZMU%2Fsg12Dv4vGpmaa6npLg2vHU09daXRMYsgpUSn%2F%2F42quinaltC%2BV9eXmHroCYXKtW6nqx4ZvseyT%2Fy5U3tTs5A2mHCHFGOH4mLik6SYNACwW0MMerq9AGOqUBGu4KGoBUy21eTjfRVnBz88SjMr8KAnfxjHtHqadbaql0Tj5oc5FQW5%2B0kHc2XHACz2inav3MsRXgMGHQ%2B6eyhy3VA5KqogEAD4Od9rPiSJ4%2By%2FLomsNMvB02kHBUvf6uGi%2BStg4PEaqpEMv6uc3xx9K6ZgwODP7p%2Bv3zM2bi3y9XZYO%2BVb3oDWzd%2FP0BXnlL73acYzasFPV5xLPdFs1pEHsO27bS&X-Amz-Signature=447e32749f5dd5b0556c2cdc476ae6fde1053dcdfbf297d9d2e7b5f0c2b5e76d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-G-rer-l-arr-t-de-l-espace-client-V1-31a8db15623a800d915eea7ee689e4da"
     },
@@ -4681,7 +4688,7 @@
       "persPoTest": [
         "Nina"
       ],
-      "pointAvancement": 0.5,
+      "pointAvancement": 0.9,
       "pointsBlocage": "",
       "explication": "Créer un Dashboard Rapport de version qui comporte : \n  • Une colonne Compte client (prendre le compte de la licence et non pas de l’id web pour avoir également les clients qui n’ont pas d’id web)\n  • Une colonne Version Naxi proposée\n  • Une colonne Version Naxi Installée \n\nAttention, ce Dashboard doit comporter tous les campings présents dans la table logiciels\nSi possible, ajouter des filtres relatif à la version installée afin d’avoir un listing rapide des clients ayant telle ou telle version (dans le cas où nous constatons un important bug, c’est plus facile à gérer :) ) \n",
       "communication": [],
@@ -4869,7 +4876,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-148.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RDOFAEUG%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T064126Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEXUqKfTjSBzaZk408rEtFHGRPJF5MmFRHx0%2Bflh3qzEAiEAhonqmBx%2B%2B2khJSTMrTKjCPs8fzIKYkfcoHQDbrSMuDgqiAQIt%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIL6dxcurkmLaweFKCrcA2mWxRPm0uXqTdGIOK0vtfvHevd1CyCPeNoO%2FWpGSm6y3jWt%2FiJul6Q3hstro%2BU8RMylKL99KyPmH7L1EgOhh3LEyjJtYQTe%2FoX704KLs8wRm5ySkWbIiJPnD7CiB5%2B40VUw7eUh00fqA02pdQHKltl0xsoUXA9DpV0JTbSq3oceI3z1NDlkhw8VRZlNQ8BB66Q%2BdTUKjQlxM6Se8jbUY%2Bihw3vw3HMR1OhryZFA4svEKAuN8U7uuCzmLjya53mbnsgR0TmubQOqwEpW7lCsQhKyt8jztTTS33ke9IBiuA0oIzZq0lziqD7YgvYqBECJqJ76Wt820Mk62pMAGGLqx%2Be44xv08aq29dheDl9ZaLsp4aYWZvmO906PpajZflFIdaf%2BzopMjdLxHfKCSM0OZRNIZ%2FUtIHH6CNqOZeQi%2Fbo4yD%2BRzSwkIrRdPYCtITLhSyHtur%2BJ%2BoZqK%2BBcdzjHlrOrH1eqtbQl%2B0vl%2FIT53oPJ4VvCwZDjrtznoWTn%2F8zz5EfIAlP6J5bjdWThjZh7KwFtgRHPC24trygj6MWkwWdvra8nmYTLIuIFQBROYIasYC0bqSq51w%2Brg1vB%2FLQaL%2FQRbjXFd%2F7rJ3T92MoODMaHtOBwW%2BDdsQy4JPV6MNTgqtAGOqUBpyd8NamgzMeG2PXu3%2Bn1Mdn8FG7ksFJ1AbE0z3QiNKNmM6tkP9%2FJVgolxoFYIdImEPWtg%2Fp2ye4rgDs54V0GX3EbFa%2B79MdFZkyXdlzQtfBuRSAeJ97Fuuv4DsIXYvKS9uklxUv31qEvK9MOGbZNe0Bm45frwR%2FtTR9%2FwGWujyTMUY84pGH8JMj0XzJNbiiqCbLbU39KAr6k6nYmtLKjwci4hQSf&X-Amz-Signature=2b2ab56ad2bb13442b33892816b2e4be4352244f8ac2d262b41547a66a861027&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TEROUD2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093503Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB0RPSFk7ojnOWqtxwYZJyFd91YWQbDUovJFX1mT0Y44AiEA4UWF48c6THTaHdzBTHtyrDkgncfhgzdNVEBAvs9gwj0qiAQIuv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPwdkOBWhkakuuhI9yrcA%2BoUevd7kcKYjZI68AMjK3WTiFejqrE0JRvv5JUPO%2F0YC0mBjfpJQQdz7B1zxDodwiZn9vEnFmRvUON7wwJcWK59gnr4nLWiVz8VRmVhwYhav7VVXt4ite2c09fNP5tl0QsbxiinvgLtIDwFXaxZtN09aNMd5382IRb2YxEtxv5rRtMKYh3BCkBMho7Z18oOIdKjeO5rnezOaSFSREBJLrvGrWw5vTcNFZM%2Fa7hJHIfiZnFEMMsiENOv57yDggABMbW4rSIH%2FtntBjeWBbACgB59295T%2B3rPKHAjwyzw4ybgWxvwjQ%2BBYsU8XwlYfzFNjQqMAqKWOPtbCqSaS63TCwuyT3g5gCGQQTuIeUjvjg0xbeHRC8MoFUEkecwaljWstbybuldI0vjA1dfuiZdkHXv9i30gPjW%2Fiax%2FaTb32Z0ehWYx1Rf0CgEKnu6rCD5%2BHaLZ3s4%2Bv2CM2DDcvE2%2BmIvWg7cGNM%2F9o%2BhjYnI%2ByPv%2Fddbt0PXoGGEraJp3mLB06Ad8PrqqrEbBVZMU%2Fsg12Dv4vGpmaa6npLg2vHU09daXRMYsgpUSn%2F%2F42quinaltC%2BV9eXmHroCYXKtW6nqx4ZvseyT%2Fy5U3tTs5A2mHCHFGOH4mLik6SYNACwW0MMerq9AGOqUBGu4KGoBUy21eTjfRVnBz88SjMr8KAnfxjHtHqadbaql0Tj5oc5FQW5%2B0kHc2XHACz2inav3MsRXgMGHQ%2B6eyhy3VA5KqogEAD4Od9rPiSJ4%2By%2FLomsNMvB02kHBUvf6uGi%2BStg4PEaqpEMv6uc3xx9K6ZgwODP7p%2Bv3zM2bi3y9XZYO%2BVb3oDWzd%2FP0BXnlL73acYzasFPV5xLPdFs1pEHsO27bS&X-Amz-Signature=973f0c3ff21134cdc9781d39d07edcba356cbd62416eb3f174ef329c4fe9d93b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/REDSYS-Non-fonctionnel-suite-mise-en-place-3178db15623a80458d0de93a71d0564f"
     },
@@ -4904,7 +4911,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-147.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RDOFAEUG%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T064126Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEXUqKfTjSBzaZk408rEtFHGRPJF5MmFRHx0%2Bflh3qzEAiEAhonqmBx%2B%2B2khJSTMrTKjCPs8fzIKYkfcoHQDbrSMuDgqiAQIt%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIL6dxcurkmLaweFKCrcA2mWxRPm0uXqTdGIOK0vtfvHevd1CyCPeNoO%2FWpGSm6y3jWt%2FiJul6Q3hstro%2BU8RMylKL99KyPmH7L1EgOhh3LEyjJtYQTe%2FoX704KLs8wRm5ySkWbIiJPnD7CiB5%2B40VUw7eUh00fqA02pdQHKltl0xsoUXA9DpV0JTbSq3oceI3z1NDlkhw8VRZlNQ8BB66Q%2BdTUKjQlxM6Se8jbUY%2Bihw3vw3HMR1OhryZFA4svEKAuN8U7uuCzmLjya53mbnsgR0TmubQOqwEpW7lCsQhKyt8jztTTS33ke9IBiuA0oIzZq0lziqD7YgvYqBECJqJ76Wt820Mk62pMAGGLqx%2Be44xv08aq29dheDl9ZaLsp4aYWZvmO906PpajZflFIdaf%2BzopMjdLxHfKCSM0OZRNIZ%2FUtIHH6CNqOZeQi%2Fbo4yD%2BRzSwkIrRdPYCtITLhSyHtur%2BJ%2BoZqK%2BBcdzjHlrOrH1eqtbQl%2B0vl%2FIT53oPJ4VvCwZDjrtznoWTn%2F8zz5EfIAlP6J5bjdWThjZh7KwFtgRHPC24trygj6MWkwWdvra8nmYTLIuIFQBROYIasYC0bqSq51w%2Brg1vB%2FLQaL%2FQRbjXFd%2F7rJ3T92MoODMaHtOBwW%2BDdsQy4JPV6MNTgqtAGOqUBpyd8NamgzMeG2PXu3%2Bn1Mdn8FG7ksFJ1AbE0z3QiNKNmM6tkP9%2FJVgolxoFYIdImEPWtg%2Fp2ye4rgDs54V0GX3EbFa%2B79MdFZkyXdlzQtfBuRSAeJ97Fuuv4DsIXYvKS9uklxUv31qEvK9MOGbZNe0Bm45frwR%2FtTR9%2FwGWujyTMUY84pGH8JMj0XzJNbiiqCbLbU39KAr6k6nYmtLKjwci4hQSf&X-Amz-Signature=538fb5243de642c5ab8dabf144337a84d72e5f61a8068fba324fe1cca611971a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TEROUD2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093503Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB0RPSFk7ojnOWqtxwYZJyFd91YWQbDUovJFX1mT0Y44AiEA4UWF48c6THTaHdzBTHtyrDkgncfhgzdNVEBAvs9gwj0qiAQIuv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPwdkOBWhkakuuhI9yrcA%2BoUevd7kcKYjZI68AMjK3WTiFejqrE0JRvv5JUPO%2F0YC0mBjfpJQQdz7B1zxDodwiZn9vEnFmRvUON7wwJcWK59gnr4nLWiVz8VRmVhwYhav7VVXt4ite2c09fNP5tl0QsbxiinvgLtIDwFXaxZtN09aNMd5382IRb2YxEtxv5rRtMKYh3BCkBMho7Z18oOIdKjeO5rnezOaSFSREBJLrvGrWw5vTcNFZM%2Fa7hJHIfiZnFEMMsiENOv57yDggABMbW4rSIH%2FtntBjeWBbACgB59295T%2B3rPKHAjwyzw4ybgWxvwjQ%2BBYsU8XwlYfzFNjQqMAqKWOPtbCqSaS63TCwuyT3g5gCGQQTuIeUjvjg0xbeHRC8MoFUEkecwaljWstbybuldI0vjA1dfuiZdkHXv9i30gPjW%2Fiax%2FaTb32Z0ehWYx1Rf0CgEKnu6rCD5%2BHaLZ3s4%2Bv2CM2DDcvE2%2BmIvWg7cGNM%2F9o%2BhjYnI%2ByPv%2Fddbt0PXoGGEraJp3mLB06Ad8PrqqrEbBVZMU%2Fsg12Dv4vGpmaa6npLg2vHU09daXRMYsgpUSn%2F%2F42quinaltC%2BV9eXmHroCYXKtW6nqx4ZvseyT%2Fy5U3tTs5A2mHCHFGOH4mLik6SYNACwW0MMerq9AGOqUBGu4KGoBUy21eTjfRVnBz88SjMr8KAnfxjHtHqadbaql0Tj5oc5FQW5%2B0kHc2XHACz2inav3MsRXgMGHQ%2B6eyhy3VA5KqogEAD4Od9rPiSJ4%2By%2FLomsNMvB02kHBUvf6uGi%2BStg4PEaqpEMv6uc3xx9K6ZgwODP7p%2Bv3zM2bi3y9XZYO%2BVb3oDWzd%2FP0BXnlL73acYzasFPV5xLPdFs1pEHsO27bS&X-Amz-Signature=4f6bf3c19214da9a3a94b8c8f140072469400330a26d560b2345fb4ed3aee42e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-CRM-Le-montant-des-suppl-ments-envoy-s-est-faux-lorsque-le-suppl-ment-est-en-prix-mo-3178db15623a8017a10ff4b9821287fa"
     },
@@ -4982,7 +4989,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-145.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RDOFAEUG%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T064126Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEXUqKfTjSBzaZk408rEtFHGRPJF5MmFRHx0%2Bflh3qzEAiEAhonqmBx%2B%2B2khJSTMrTKjCPs8fzIKYkfcoHQDbrSMuDgqiAQIt%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIL6dxcurkmLaweFKCrcA2mWxRPm0uXqTdGIOK0vtfvHevd1CyCPeNoO%2FWpGSm6y3jWt%2FiJul6Q3hstro%2BU8RMylKL99KyPmH7L1EgOhh3LEyjJtYQTe%2FoX704KLs8wRm5ySkWbIiJPnD7CiB5%2B40VUw7eUh00fqA02pdQHKltl0xsoUXA9DpV0JTbSq3oceI3z1NDlkhw8VRZlNQ8BB66Q%2BdTUKjQlxM6Se8jbUY%2Bihw3vw3HMR1OhryZFA4svEKAuN8U7uuCzmLjya53mbnsgR0TmubQOqwEpW7lCsQhKyt8jztTTS33ke9IBiuA0oIzZq0lziqD7YgvYqBECJqJ76Wt820Mk62pMAGGLqx%2Be44xv08aq29dheDl9ZaLsp4aYWZvmO906PpajZflFIdaf%2BzopMjdLxHfKCSM0OZRNIZ%2FUtIHH6CNqOZeQi%2Fbo4yD%2BRzSwkIrRdPYCtITLhSyHtur%2BJ%2BoZqK%2BBcdzjHlrOrH1eqtbQl%2B0vl%2FIT53oPJ4VvCwZDjrtznoWTn%2F8zz5EfIAlP6J5bjdWThjZh7KwFtgRHPC24trygj6MWkwWdvra8nmYTLIuIFQBROYIasYC0bqSq51w%2Brg1vB%2FLQaL%2FQRbjXFd%2F7rJ3T92MoODMaHtOBwW%2BDdsQy4JPV6MNTgqtAGOqUBpyd8NamgzMeG2PXu3%2Bn1Mdn8FG7ksFJ1AbE0z3QiNKNmM6tkP9%2FJVgolxoFYIdImEPWtg%2Fp2ye4rgDs54V0GX3EbFa%2B79MdFZkyXdlzQtfBuRSAeJ97Fuuv4DsIXYvKS9uklxUv31qEvK9MOGbZNe0Bm45frwR%2FtTR9%2FwGWujyTMUY84pGH8JMj0XzJNbiiqCbLbU39KAr6k6nYmtLKjwci4hQSf&X-Amz-Signature=5a95dc5d5c71f5c3d37b35e718e281a3964e1a5a825384884f8e0645d81cbee3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TEROUD2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093503Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB0RPSFk7ojnOWqtxwYZJyFd91YWQbDUovJFX1mT0Y44AiEA4UWF48c6THTaHdzBTHtyrDkgncfhgzdNVEBAvs9gwj0qiAQIuv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPwdkOBWhkakuuhI9yrcA%2BoUevd7kcKYjZI68AMjK3WTiFejqrE0JRvv5JUPO%2F0YC0mBjfpJQQdz7B1zxDodwiZn9vEnFmRvUON7wwJcWK59gnr4nLWiVz8VRmVhwYhav7VVXt4ite2c09fNP5tl0QsbxiinvgLtIDwFXaxZtN09aNMd5382IRb2YxEtxv5rRtMKYh3BCkBMho7Z18oOIdKjeO5rnezOaSFSREBJLrvGrWw5vTcNFZM%2Fa7hJHIfiZnFEMMsiENOv57yDggABMbW4rSIH%2FtntBjeWBbACgB59295T%2B3rPKHAjwyzw4ybgWxvwjQ%2BBYsU8XwlYfzFNjQqMAqKWOPtbCqSaS63TCwuyT3g5gCGQQTuIeUjvjg0xbeHRC8MoFUEkecwaljWstbybuldI0vjA1dfuiZdkHXv9i30gPjW%2Fiax%2FaTb32Z0ehWYx1Rf0CgEKnu6rCD5%2BHaLZ3s4%2Bv2CM2DDcvE2%2BmIvWg7cGNM%2F9o%2BhjYnI%2ByPv%2Fddbt0PXoGGEraJp3mLB06Ad8PrqqrEbBVZMU%2Fsg12Dv4vGpmaa6npLg2vHU09daXRMYsgpUSn%2F%2F42quinaltC%2BV9eXmHroCYXKtW6nqx4ZvseyT%2Fy5U3tTs5A2mHCHFGOH4mLik6SYNACwW0MMerq9AGOqUBGu4KGoBUy21eTjfRVnBz88SjMr8KAnfxjHtHqadbaql0Tj5oc5FQW5%2B0kHc2XHACz2inav3MsRXgMGHQ%2B6eyhy3VA5KqogEAD4Od9rPiSJ4%2By%2FLomsNMvB02kHBUvf6uGi%2BStg4PEaqpEMv6uc3xx9K6ZgwODP7p%2Bv3zM2bi3y9XZYO%2BVb3oDWzd%2FP0BXnlL73acYzasFPV5xLPdFs1pEHsO27bS&X-Amz-Signature=de77bbb6a0023aeb920c84228905b7d9d55eaecec0b74d26ef2b5dc1bf289c56&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Erreur-de-saisie-sur-les-remises-manuelle-g-n-rant-un-montant-de-s-jour-faux-3178db15623a8079a34be124df5b756a"
     },
@@ -6815,7 +6822,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA77.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RDOFAEUG%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T064127Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEXUqKfTjSBzaZk408rEtFHGRPJF5MmFRHx0%2Bflh3qzEAiEAhonqmBx%2B%2B2khJSTMrTKjCPs8fzIKYkfcoHQDbrSMuDgqiAQIt%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIL6dxcurkmLaweFKCrcA2mWxRPm0uXqTdGIOK0vtfvHevd1CyCPeNoO%2FWpGSm6y3jWt%2FiJul6Q3hstro%2BU8RMylKL99KyPmH7L1EgOhh3LEyjJtYQTe%2FoX704KLs8wRm5ySkWbIiJPnD7CiB5%2B40VUw7eUh00fqA02pdQHKltl0xsoUXA9DpV0JTbSq3oceI3z1NDlkhw8VRZlNQ8BB66Q%2BdTUKjQlxM6Se8jbUY%2Bihw3vw3HMR1OhryZFA4svEKAuN8U7uuCzmLjya53mbnsgR0TmubQOqwEpW7lCsQhKyt8jztTTS33ke9IBiuA0oIzZq0lziqD7YgvYqBECJqJ76Wt820Mk62pMAGGLqx%2Be44xv08aq29dheDl9ZaLsp4aYWZvmO906PpajZflFIdaf%2BzopMjdLxHfKCSM0OZRNIZ%2FUtIHH6CNqOZeQi%2Fbo4yD%2BRzSwkIrRdPYCtITLhSyHtur%2BJ%2BoZqK%2BBcdzjHlrOrH1eqtbQl%2B0vl%2FIT53oPJ4VvCwZDjrtznoWTn%2F8zz5EfIAlP6J5bjdWThjZh7KwFtgRHPC24trygj6MWkwWdvra8nmYTLIuIFQBROYIasYC0bqSq51w%2Brg1vB%2FLQaL%2FQRbjXFd%2F7rJ3T92MoODMaHtOBwW%2BDdsQy4JPV6MNTgqtAGOqUBpyd8NamgzMeG2PXu3%2Bn1Mdn8FG7ksFJ1AbE0z3QiNKNmM6tkP9%2FJVgolxoFYIdImEPWtg%2Fp2ye4rgDs54V0GX3EbFa%2B79MdFZkyXdlzQtfBuRSAeJ97Fuuv4DsIXYvKS9uklxUv31qEvK9MOGbZNe0Bm45frwR%2FtTR9%2FwGWujyTMUY84pGH8JMj0XzJNbiiqCbLbU39KAr6k6nYmtLKjwci4hQSf&X-Amz-Signature=0d03563a47ed724bda5fd96f06003c8debf2ec9f49390cb43daadd3a7cc417d0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TEROUD2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093503Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB0RPSFk7ojnOWqtxwYZJyFd91YWQbDUovJFX1mT0Y44AiEA4UWF48c6THTaHdzBTHtyrDkgncfhgzdNVEBAvs9gwj0qiAQIuv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPwdkOBWhkakuuhI9yrcA%2BoUevd7kcKYjZI68AMjK3WTiFejqrE0JRvv5JUPO%2F0YC0mBjfpJQQdz7B1zxDodwiZn9vEnFmRvUON7wwJcWK59gnr4nLWiVz8VRmVhwYhav7VVXt4ite2c09fNP5tl0QsbxiinvgLtIDwFXaxZtN09aNMd5382IRb2YxEtxv5rRtMKYh3BCkBMho7Z18oOIdKjeO5rnezOaSFSREBJLrvGrWw5vTcNFZM%2Fa7hJHIfiZnFEMMsiENOv57yDggABMbW4rSIH%2FtntBjeWBbACgB59295T%2B3rPKHAjwyzw4ybgWxvwjQ%2BBYsU8XwlYfzFNjQqMAqKWOPtbCqSaS63TCwuyT3g5gCGQQTuIeUjvjg0xbeHRC8MoFUEkecwaljWstbybuldI0vjA1dfuiZdkHXv9i30gPjW%2Fiax%2FaTb32Z0ehWYx1Rf0CgEKnu6rCD5%2BHaLZ3s4%2Bv2CM2DDcvE2%2BmIvWg7cGNM%2F9o%2BhjYnI%2ByPv%2Fddbt0PXoGGEraJp3mLB06Ad8PrqqrEbBVZMU%2Fsg12Dv4vGpmaa6npLg2vHU09daXRMYsgpUSn%2F%2F42quinaltC%2BV9eXmHroCYXKtW6nqx4ZvseyT%2Fy5U3tTs5A2mHCHFGOH4mLik6SYNACwW0MMerq9AGOqUBGu4KGoBUy21eTjfRVnBz88SjMr8KAnfxjHtHqadbaql0Tj5oc5FQW5%2B0kHc2XHACz2inav3MsRXgMGHQ%2B6eyhy3VA5KqogEAD4Od9rPiSJ4%2By%2FLomsNMvB02kHBUvf6uGi%2BStg4PEaqpEMv6uc3xx9K6ZgwODP7p%2Bv3zM2bi3y9XZYO%2BVb3oDWzd%2FP0BXnlL73acYzasFPV5xLPdFs1pEHsO27bS&X-Amz-Signature=b4c783c76d93ccbe8db20f0995c9201aab23c71433b71eddce66844bca42f936&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/WEB-LOGICIEL-Check-In-Scan-partie-1-Mapping-envoi-Naxi-G-vers-CiS-3118db15623a81c78ca4f07fb87f2047"
     },
@@ -7646,7 +7653,7 @@
       "identifiant": "INA-49",
       "titre": "[WEB ]GRAFANA : fenêtre Naxi V2 : activation en masse des fenetres",
       "classification": "STACK TECH",
-      "statut": "Fait partiellement",
+      "statut": "FAIT",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26",
@@ -7668,8 +7675,8 @@
       "persPoTest": [
         "Nina"
       ],
-      "pointAvancement": 0.75,
-      "pointsBlocage": "Test",
+      "pointAvancement": 1,
+      "pointsBlocage": "",
       "explication": "",
       "communication": [
         "fiche explicative"
@@ -7677,9 +7684,9 @@
       "initialeAjout": [
         "Débord sprint"
       ],
-      "versionInter": "",
+      "versionInter": "VOIR 632",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-05-25",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://www.notion.so/WEB-GRAFANA-fen-tre-Naxi-V2-activation-en-masse-des-fenetres-3118db15623a8136b2d8d52416248148"
@@ -8193,7 +8200,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA29.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QMI3IWPS%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T064128Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIG7IrnjYDlvJhkknvzMSJWhSfXvhwh3nE8MvP4XJckTjAiEA8mz4B6KeIYAvXOuBv3%2FMd9Wmp7UvE1nK5VFMOhu%2FswUqiAQIt%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFF4Zy6zLAkNNym4oyrcAxmqBG1AHz77JziYS2lyQf%2Br9E6hxMiuNz7i2DpGXacnLhkeqMMdc42c7YRuBABU%2FHSvMNotf6dACVMj6wuZLxhBgZr%2BBDD%2BPetiBWYklxjeV7y2m3Rq9VFnrsLaS5FE2xhqMlLe1Gdf6rbVhsSWTXGn8AfrFy%2FgJNRujYecXRAO70w1ypoC45esiQxu%2FK49IoENRJ%2BZ%2BbIUc0WTknZrHBZqkFwTqm8pqIyENAzaAemlg2QBN%2FONNkqTKl3LE%2FjX7XRJ%2B6w1FvasTR%2BJioS%2BKDWJSige4TN%2BDdaIuw79w8%2FKvrbBEep9iQT0msHmZgdxcNCxY5nk1rSZCs5TVH7NKD1K4zUs7yKxiIP75ZzMWdO%2BjVWj7nOl7EuHxRQbGXgQq6wWtsjPCXeAjvlyzF8EOE4IYJHnCd%2BAX2P8WITJyCbKPObXNPE7rk6k87c0Qw6vNEH0FuvqFdhgcxOduHnPhV0l7sXT%2FdTrdjxpWvkpjVRmKy3kyPgxTdFXvCv8jVVQMS6yDUbBHttXMMY4HK9J8bUC%2Bq24GnxO9ZnRrFy8VXUNLKNw%2FhGxuqn4clE5OmUF9ToqDddJFVbEU73ym7W2kffZHgTUiwL%2F4CjB5q4w%2Bl%2Fhh16KZHspHsW53LIiMJvhqtAGOqUBwYejQeqjqvr4NKc3qxko5td3QwNbLcq4K7406dyrYKlEHM4HEh0nsD2mYJ66lFIERF62cUoFXTcUKkqukbeTwKcwGU6%2FOZji2lBJeQuDYGMSqJ5CmTCW7u0M5xAfv0uSPucGq6UDpHG2u8AbD%2BDIpCGvaqiBzp8BAmncSG7vgN4%2BTFVvFYEtIbcOAEQFuptLTxJOh6HnW1bMp41hHZcOmLatWXtm&X-Amz-Signature=a307b3b474a0ff2c1e95f84f8f08c6cea8609012d2550a6e2312e59709b6dcc0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667LH7EKK2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093504Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAKwfXYziVrfuGosWpb35x7yQNkMZ0kmuDZdhosg%2FMgtAiEA7eTQKJCMBe6SiPX0SSvBT7hYjPQRmWbxZcefD2aHxK0qiAQIuv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIcvNvnWuWTnBWFk9ircA0CCESCrwJbgoSqyIew5037v7vkemzMllClQUgH0J7NrtgykDVzFRtV2YrYXlw%2FzdoilEpMMLhsCWGMw3UrgheRB76hlbpPtWCE%2FLmVYtzm1EOSS755z94%2F6Yos4PYF3mZrItXipu5k1G03u0uyfubiBFmMhcU3jJKZ8NaMa%2BTA68R7lj0iqBmVmSFAjCHCmyD9SJ1mdasi60t3Iecot%2Bsk29Rl6oqp7rSFwQXS5%2FOX7dH32HSUR3%2BAGoXNbiTJfUsN8q2ITJH1llW%2BluKiQ%2BuNb88bo%2F9ABj6p6raBBTcLofVbKSgMbbPUiCXz3rDmTZFX2oC57Ysq88f4Ztxvv94tkeddNtPr3iUaI3TmjZu%2F%2B2rFFODcMVuokCZKu0Mwjaqe%2F4uDX%2BXxSLRwXJMg70VPDuR0c8W1dOVKBspGOE3DMeQOhr%2FYPf4ifI%2BJyxdCN8MpD8lAPWhTXHFwaCGtIhaEVZ34OyD5crm3k9PMLRWUsk1MX%2FquM8F99T0hYueACvbIzqhnX9paNgPAy8SRM936W%2BINc1BUqprzIDw33dPzlLHDv2Inlk%2BGTqwb66EAR6ji6aWkaGSh8guxgpjvjciFAqr%2B5DV52IRCnfjupMrSr%2F3KDfTTtXgAUgaA7MJOpq9AGOqUB8hMd9x6EHd322UB%2FuE4LyPz59W7I%2Bz31FeffpGCvEURY04E%2BZZpWwaLDQnK7MFCqAB1DjEvAcC29fpT%2BIXNh2cn6s7J52xPyka9sMyE3NFiwwCakBsOlpULqFRNZLgnvFBzflhAeL1aWNpj9FJ4%2FXmkcw7eO%2FrsjX3Y04AmiXQC99WDXfczZPO74EFYauNzi1%2BpcqcktJXG1vBqhIZlPNvaWCTTt&X-Amz-Signature=0a0436206831bc8e7a4ba35fbcf7594ae94eb563ad01f036dbf2efc48e957a4f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-NORME-V19-3118db15623a8078a611ffceac61cd6e"
     },
@@ -8263,7 +8270,7 @@
         "Nina"
       ],
       "pointAvancement": 0.95,
-      "pointsBlocage": "attente Swikly pour deploiement",
+      "pointsBlocage": "Relance 18/05 voir plan action S+1",
       "explication": "Modification de la solution SWIKLY - MaJ nécessaire via API",
       "communication": [],
       "initialeAjout": [
@@ -8926,8 +8933,8 @@
       ],
       "persFront": [],
       "persPoTest": [
-        "Nina",
-        "Marjorie"
+        "Marjorie",
+        "Aurore"
       ],
       "pointAvancement": 0.5,
       "pointsBlocage": "US  a faire",
@@ -9098,7 +9105,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -9150,21 +9158,23 @@
       "sprint": {
         "maquette": "Avril 2026",
         "back": "Avril 2026",
-        "front": "Avril 2026",
+        "front": "Mai 2026",
         "design": "Juin 2026",
         "test": "Juillet 2026"
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [
           "Denis"
         ],
         "front": [
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "design": [
           "Cédric.V"
@@ -9198,7 +9208,7 @@
       "lienMaquette": null,
       "lienJira": "https://inaxel.atlassian.net/browse/TL-280",
       "remarques": "",
-      "lastEdited": "2026-05-18T06:04:00.000Z",
+      "lastEdited": "2026-05-18T07:09:00.000Z",
       "url": "https://www.notion.so/d-tails-des-transactions-3488db15623a80e7a521fda2f82d5596"
     },
     {
@@ -9216,21 +9226,23 @@
       "sprint": {
         "maquette": "Avril 2026",
         "back": "Avril 2026",
-        "front": "Avril 2026",
+        "front": "Mai 2026",
         "design": "Juin 2026",
         "test": "Juillet 2026"
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [
           "Rachid"
         ],
         "front": [
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "design": [
           "Cédric.V"
@@ -9273,7 +9285,7 @@
       "lienMaquette": null,
       "lienJira": "https://inaxel.atlassian.net/browse/TL-64",
       "remarques": "Review code à faire",
-      "lastEdited": "2026-05-18T06:04:00.000Z",
+      "lastEdited": "2026-05-18T07:09:00.000Z",
       "url": "https://www.notion.so/Remise-en-banque-3258db15623a80b7a82fcb0243c89e54"
     },
     {
@@ -9291,21 +9303,23 @@
       "sprint": {
         "maquette": "Avril 2026",
         "back": "Avril 2026",
-        "front": "Avril 2026",
+        "front": "Mai 2026",
         "design": "Juin 2026",
         "test": "Juillet 2026"
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [
           "Denis"
         ],
         "front": [
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "design": [
           "Cédric.V"
@@ -9340,7 +9354,7 @@
       "lienMaquette": null,
       "lienJira": "https://inaxel.atlassian.net/browse/TL-65",
       "remarques": "",
-      "lastEdited": "2026-05-18T06:04:00.000Z",
+      "lastEdited": "2026-05-18T07:09:00.000Z",
       "url": "https://www.notion.so/Controle-de-Caisse-3258db15623a808a85eae18bd4888d64"
     },
     {
@@ -9364,9 +9378,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [
           "Cédric.F"
@@ -9431,15 +9446,16 @@
       "sprint": {
         "maquette": "Avril 2026",
         "back": "Avril 2026",
-        "front": "Avril 2026",
+        "front": "Mai 2026",
         "design": "Mai 2026",
         "test": "Juillet 2026"
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [
           "Cédric.F"
@@ -9487,7 +9503,7 @@
       "lienMaquette": "https://naxigestionfront-prepa.vercel.app/",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-130",
       "remarques": "",
-      "lastEdited": "2026-05-18T06:04:00.000Z",
+      "lastEdited": "2026-05-18T07:08:00.000Z",
       "url": "https://www.notion.so/Historiques-des-ventes-3118db15623a8000a66cf364b01aea44"
     },
     {
@@ -9511,9 +9527,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -9573,7 +9590,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -9631,9 +9649,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -9691,9 +9710,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -9751,9 +9771,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -9811,9 +9832,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -9871,9 +9893,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -9933,7 +9956,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -9993,7 +10017,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10053,7 +10078,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10113,7 +10139,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10171,9 +10198,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10231,9 +10259,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10291,9 +10320,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10353,7 +10383,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10411,9 +10442,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10471,9 +10503,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10533,7 +10566,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10593,7 +10627,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10653,7 +10688,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10711,9 +10747,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10773,7 +10810,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10833,7 +10871,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10893,7 +10932,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -10953,7 +10993,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -11013,7 +11054,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [
           "Loic"
@@ -11075,7 +11117,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -11135,7 +11178,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -11195,7 +11239,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -11255,7 +11300,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -11315,7 +11361,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -11375,7 +11422,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -11435,7 +11483,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -11495,7 +11544,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -11555,7 +11605,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -11615,7 +11666,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -11673,9 +11725,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Agathe",
-          "Jérôme"
+          "Jérôme",
+          "Albert (Front)"
         ],
         "back": [
           "Loic"
@@ -11741,15 +11794,16 @@
       "sprint": {
         "maquette": "Avril 2026",
         "back": "Avril 2026",
-        "front": "Avril 2026",
+        "front": "Mai 2026",
         "design": "Mai 2026",
         "test": "Juillet 2026"
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [
           "Loic"
@@ -11787,7 +11841,7 @@
       "lienMaquette": "https://naxigestionfront-prepa.vercel.app/",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-68",
       "remarques": "",
-      "lastEdited": "2026-05-18T06:04:00.000Z",
+      "lastEdited": "2026-05-18T07:08:00.000Z",
       "url": "https://www.notion.so/Ventes-r-ception-3108db15623a80cfaa8dca854e48dd28"
     },
     {
@@ -11811,9 +11865,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Agathe",
-          "Jérôme"
+          "Jérôme",
+          "Albert (Front)"
         ],
         "back": [
           "Cédric.F"
@@ -11882,8 +11937,9 @@
       "membres": {
         "maquette": [
           "Agathe",
-          "Albert",
-          "Jérôme"
+          "Albert (UX)",
+          "Jérôme",
+          "Albert (Front)"
         ],
         "back": [
           "Cédric.F"
@@ -11943,15 +11999,16 @@
       "sprint": {
         "maquette": "Avril 2026",
         "back": "Avril 2026",
-        "front": "Avril 2026",
+        "front": "Mai 2026",
         "design": "Mai 2026",
         "test": "Juillet 2026"
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [
           "Cédric.F"
@@ -11998,7 +12055,7 @@
       "lienMaquette": "https://naxigestionfront-prepa.vercel.app/",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-89",
       "remarques": "",
-      "lastEdited": "2026-05-18T06:04:00.000Z",
+      "lastEdited": "2026-05-18T07:09:00.000Z",
       "url": "https://www.notion.so/Listing-indispo-3108db15623a80998834c873b8a5189a"
     },
     {
@@ -12016,15 +12073,16 @@
       "sprint": {
         "maquette": "Avril 2026",
         "back": "Avril 2026",
-        "front": "Avril 2026",
+        "front": "Mai 2026",
         "design": "Mai 2026",
         "test": "Aout 2026"
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [
           "Loic"
@@ -12072,7 +12130,7 @@
       "lienMaquette": "https://naxigestionfront-prepa.vercel.app/",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-63",
       "remarques": "100% sur prepa, quasi fini sur prod fait par Caroline",
-      "lastEdited": "2026-05-18T06:04:00.000Z",
+      "lastEdited": "2026-05-18T07:09:00.000Z",
       "url": "https://www.notion.so/Liste-des-cautions-3108db15623a80adaaeac71e0389d225"
     },
     {
@@ -12098,7 +12156,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [
           "Loic",
@@ -12153,15 +12212,16 @@
       "sprint": {
         "maquette": "Avril 2026",
         "back": "Avril 2026",
-        "front": "Avril 2026",
+        "front": "Mai 2026",
         "design": "Juin 2026",
         "test": "Aout 2026"
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [
           "Cédric.F"
@@ -12201,7 +12261,7 @@
       "lienMaquette": "https://naxigestionfront-prepa.vercel.app/",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-50",
       "remarques": "",
-      "lastEdited": "2026-05-18T06:03:00.000Z",
+      "lastEdited": "2026-05-18T07:09:00.000Z",
       "url": "https://www.notion.so/Rech-dispo-plan-camping-3108db15623a804f8cbfee177c272a4d"
     },
     {
@@ -12225,9 +12285,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [
           "Loic"
@@ -12294,7 +12355,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [
           "Cédric.F"
@@ -12354,15 +12416,17 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Jérôme",
-          "Agathe"
+          "Agathe",
+          "Albert (Front)"
         ],
         "back": [
           "Cédric.F"
         ],
         "front": [
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "design": [
           "Cédric.V"
@@ -12425,15 +12489,17 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Agathe",
-          "Jérôme"
+          "Jérôme",
+          "Albert (Front)"
         ],
         "back": [
           "Loic"
         ],
         "front": [
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "design": [
           "Cédric.V"
@@ -12500,7 +12566,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -12560,7 +12627,8 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert"
+          "Albert (UX)",
+          "Albert (Front)"
         ],
         "back": [],
         "front": [],
@@ -12618,9 +12686,10 @@
       },
       "membres": {
         "maquette": [
-          "Albert",
+          "Albert (UX)",
           "Agathe",
-          "Jérôme"
+          "Jérôme",
+          "Albert (Front)"
         ],
         "back": [
           "Loic"
@@ -12634,7 +12703,7 @@
         "test": []
       },
       "avancement": {
-        "maquette": 0.03,
+        "maquette": 0.5,
         "back": 0.02,
         "front": 0.02,
         "design": 0,
@@ -12648,7 +12717,7 @@
         "test": null
       },
       "temps": {
-        "maquette": 4,
+        "maquette": 5.428571428571429,
         "back": 4,
         "front": 4,
         "design": 4,
@@ -12658,7 +12727,8 @@
         "Agathe",
         "Caroline",
         "Loic",
-        "Cédric.V"
+        "Cédric.V",
+        "Albert"
       ],
       "lienMaquette": "https://embed-salon-34129728.figma.site",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-11",
@@ -12668,6 +12738,1108 @@
     }
   ],
   "suiviLundi": [
+    {
+      "id": "3648db15-623a-8025-a096-fbd480d7b215",
+      "saisie": "",
+      "semaine": "2026-03-16",
+      "personne": "Albert",
+      "phase": "MAQUETTE",
+      "avancement": 0.5,
+      "etat": "En cours",
+      "tempsHeures": 10,
+      "tempsJours": 1.4285714285714286,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8018-a8eb-d508e1528ae5",
+      "fenetre": "Page de connexion",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/3648db15623a8025a096fbd480d7b215"
+    },
+    {
+      "id": "3648db15-623a-810c-a460-e398b4085052",
+      "saisie": "Alertes (to do list)",
+      "semaine": "2026-06-01",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80bc-afa9-faa7e779cdb8",
+      "fenetre": "Alertes (to do list)",
+      "fenetreGroupe": "FICHE CLIENT",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Alertes-to-do-list-3648db15623a810ca460e398b4085052"
+    },
+    {
+      "id": "3648db15-623a-810d-a076-efa319aed0ab",
+      "saisie": "Listing séjours",
+      "semaine": "2026-03-02",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-800b-a620-fa6e3c629ee4",
+      "fenetre": "Listing séjours",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Listing-s-jours-3648db15623a810da076efa319aed0ab"
+    },
+    {
+      "id": "3648db15-623a-8111-a7c1-f77eb1692e13",
+      "saisie": "Historiques des ventes",
+      "semaine": "2026-04-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3118db15-623a-8000-a66c-f364b01aea44",
+      "fenetre": "Historiques des ventes",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Historiques-des-ventes-3648db15623a8111a7c1f77eb1692e13"
+    },
+    {
+      "id": "3648db15-623a-8122-86ed-e96cc1e68cb1",
+      "saisie": "Listing réservation",
+      "semaine": "2026-03-02",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80fd-bad6-df082fed2115",
+      "fenetre": "Listing réservation",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Listing-r-servation-3648db15623a812286ede96cc1e68cb1"
+    },
+    {
+      "id": "3648db15-623a-8123-9201-cadcf5136bca",
+      "saisie": "FS - Paiement",
+      "semaine": "2026-08-03",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8033-bdc2-f2676fc02342",
+      "fenetre": "FS - Paiement",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Paiement-3648db15623a81239201cadcf5136bca"
+    },
+    {
+      "id": "3648db15-623a-8127-aa1b-c28f58c4705a",
+      "saisie": "FS - Contrôle d’accès (ajouter/modifier)",
+      "semaine": "2026-08-03",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80eb-8afb-d65c2c203f6e",
+      "fenetre": "FS - Contrôle d’accès (ajouter/modifier)",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Contr-le-d-acc-s-ajouter-modifier-3648db15623a8127aa1bc28f58c4705a"
+    },
+    {
+      "id": "3648db15-623a-812b-82a8-e4dbe3d44ba7",
+      "saisie": "Docs clients",
+      "semaine": "2026-07-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80f0-9788-f61e6d51bb8b",
+      "fenetre": "Docs clients",
+      "fenetreGroupe": "FICHE CLIENT",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Docs-clients-3648db15623a812b82a8e4dbe3d44ba7"
+    },
+    {
+      "id": "3648db15-623a-812d-b560-d5e3b1b7e90c",
+      "saisie": "Planning - rech dispo",
+      "semaine": "2026-05-04",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8029-9b95-d03d075b8e3b",
+      "fenetre": "Planning - rech dispo",
+      "fenetreGroupe": "PLANNING",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Planning-rech-dispo-3648db15623a812db560d5e3b1b7e90c"
+    },
+    {
+      "id": "3648db15-623a-8138-b205-c084b268355e",
+      "saisie": "FS - Intervention",
+      "semaine": "2026-07-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80e9-9e75-c230842b40b1",
+      "fenetre": "FS - Intervention",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Intervention-3648db15623a8138b205c084b268355e"
+    },
+    {
+      "id": "3648db15-623a-813b-880d-c66a51b6821c",
+      "saisie": "FS - Grille Suppl.",
+      "semaine": "2026-08-03",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-805b-89f4-ea96b3404809",
+      "fenetre": "FS - Grille Suppl.",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Grille-Suppl-3648db15623a813b880dc66a51b6821c"
+    },
+    {
+      "id": "3648db15-623a-813c-a8ef-fe12ab9e61d7",
+      "saisie": "Créer compte FID",
+      "semaine": "2026-06-01",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80c8-8396-ca7ac906408d",
+      "fenetre": "Créer compte FID",
+      "fenetreGroupe": "FICHE CLIENT",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Cr-er-compte-FID-3648db15623a813ca8effe12ab9e61d7"
+    },
+    {
+      "id": "3648db15-623a-8144-a8d5-de37efad1001",
+      "saisie": "HOME - Dasboard - Finalisation",
+      "semaine": "2026-06-01",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80d3-95ea-c7695aa36dba",
+      "fenetre": "HOME - Dasboard - Finalisation",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/HOME-Dasboard-Finalisation-3648db15623a8144a8d5de37efad1001"
+    },
+    {
+      "id": "3648db15-623a-8146-8866-f75d87d01138",
+      "saisie": "FS - Ajouter / modifier Immat voiture",
+      "semaine": "2026-07-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80c7-b484-c8d44e8f394e",
+      "fenetre": "FS - Ajouter / modifier Immat voiture",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Ajouter-modifier-Immat-voiture-3648db15623a81468866f75d87d01138"
+    },
+    {
+      "id": "3648db15-623a-8147-8112-d1eff342f95e",
+      "saisie": "HOME - Menu Burger - Finalisation",
+      "semaine": "2026-06-01",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80d9-89fc-c8350d408d13",
+      "fenetre": "HOME - Menu Burger - Finalisation",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/HOME-Menu-Burger-Finalisation-3648db15623a81478112d1eff342f95e"
+    },
+    {
+      "id": "3648db15-623a-8147-8443-efc4921d26c8",
+      "saisie": "Traitement auto",
+      "semaine": "2026-09-07",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80c2-9deb-f401ff4b9c83",
+      "fenetre": "Traitement auto",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Traitement-auto-3648db15623a81478443efc4921d26c8"
+    },
+    {
+      "id": "3648db15-623a-8147-848d-cd716913e406",
+      "saisie": "FS - Inventaire",
+      "semaine": "2026-07-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80af-afcf-d36aea8da415",
+      "fenetre": "FS - Inventaire",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Inventaire-3648db15623a8147848dcd716913e406"
+    },
+    {
+      "id": "3648db15-623a-8147-9ff2-fdc49456fada",
+      "saisie": "FS -Cashless (listing, créer, badge)",
+      "semaine": "2026-07-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8026-b821-f78465d6b1c5",
+      "fenetre": "FS -Cashless (listing, créer, badge)",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Cashless-listing-cr-er-badge-3648db15623a81479ff2fdc49456fada"
+    },
+    {
+      "id": "3648db15-623a-814d-9739-da4345c0ea52",
+      "saisie": "FS - Créer un avoir",
+      "semaine": "2026-08-03",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8085-bab1-d02b691e1640",
+      "fenetre": "FS - Créer un avoir",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Cr-er-un-avoir-3648db15623a814d9739da4345c0ea52"
+    },
+    {
+      "id": "3648db15-623a-814f-9409-c6988e5ff997",
+      "saisie": "Prolonger devis",
+      "semaine": "2026-09-07",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8005-bcaf-cb863397d027",
+      "fenetre": "Prolonger devis",
+      "fenetreGroupe": "PRE-RESERVATION (Devis)",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Prolonger-devis-3648db15623a814f9409c6988e5ff997"
+    },
+    {
+      "id": "3648db15-623a-8155-af81-e13f9061313d",
+      "saisie": "Devis - détails des calculs",
+      "semaine": "2026-09-07",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-805f-b66a-e261eede739a",
+      "fenetre": "Devis - détails des calculs",
+      "fenetreGroupe": "PRE-RESERVATION (Devis)",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Devis-d-tails-des-calculs-3648db15623a8155af81e13f9061313d"
+    },
+    {
+      "id": "3648db15-623a-8158-a93c-e88769cc7ffb",
+      "saisie": "GESTION MAILS - Finalisation",
+      "semaine": "2026-09-07",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-803d-9fa4-d11bb5caf126",
+      "fenetre": "GESTION MAILS - Finalisation",
+      "fenetreGroupe": "GESTION MAILS",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/GESTION-MAILS-Finalisation-3648db15623a8158a93ce88769cc7ffb"
+    },
+    {
+      "id": "3648db15-623a-815a-a40d-db7576e9bd81",
+      "saisie": "Gestion des devis",
+      "semaine": "2026-09-07",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80f2-81b2-c128614b9f2c",
+      "fenetre": "Gestion des devis",
+      "fenetreGroupe": "PRE-RESERVATION (Devis)",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Gestion-des-devis-3648db15623a815aa40ddb7576e9bd81"
+    },
+    {
+      "id": "3648db15-623a-8160-98c6-c876ff87da6c",
+      "saisie": "Recherche client",
+      "semaine": "2026-03-02",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8070-9c85-d24ac71ca8b4",
+      "fenetre": "Recherche client",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Recherche-client-3648db15623a816098c6c876ff87da6c"
+    },
+    {
+      "id": "3648db15-623a-8169-96d5-f6815580672a",
+      "saisie": "Page de connexion",
+      "semaine": "2026-03-02",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8018-a8eb-d508e1528ae5",
+      "fenetre": "Page de connexion",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Page-de-connexion-3648db15623a816996d5f6815580672a"
+    },
+    {
+      "id": "3648db15-623a-816b-b6b3-f8ad685d1931",
+      "saisie": "Voir les participants",
+      "semaine": "2026-06-01",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8034-b32b-ec46d986d4b0",
+      "fenetre": "Voir les participants",
+      "fenetreGroupe": "FICHE CLIENT",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Voir-les-participants-3648db15623a816bb6b3f8ad685d1931"
+    },
+    {
+      "id": "3648db15-623a-8174-927d-cea96e0da3e3",
+      "saisie": "Recherche dispo",
+      "semaine": "2026-03-02",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80db-b784-c8d97d57d3e8",
+      "fenetre": "Recherche dispo",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Recherche-dispo-3648db15623a8174927dcea96e0da3e3"
+    },
+    {
+      "id": "3648db15-623a-8175-9969-c5106ccf1eb6",
+      "saisie": "Télémaintenance",
+      "semaine": "2026-03-02",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-802c-87f1-fabb2712dc71",
+      "fenetre": "Télémaintenance",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/T-l-maintenance-3648db15623a81759969c5106ccf1eb6"
+    },
+    {
+      "id": "3648db15-623a-8177-8a1c-ff1cc9057035",
+      "saisie": "Fiche séjour  - finalisation",
+      "semaine": "2026-08-03",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8059-bd0b-c46cf046cd65",
+      "fenetre": "Fiche séjour  - finalisation",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Fiche-s-jour-finalisation-3648db15623a81778a1cff1cc9057035"
+    },
+    {
+      "id": "3648db15-623a-8177-9d93-cb2f74b7a0b2",
+      "saisie": "FS - Ajouter Remise",
+      "semaine": "2026-08-03",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8069-a984-d66e15249587",
+      "fenetre": "FS - Ajouter Remise",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Ajouter-Remise-3648db15623a81779d93cb2f74b7a0b2"
+    },
+    {
+      "id": "3648db15-623a-8177-aa2f-dfc3aa3504d4",
+      "saisie": "CRM",
+      "semaine": "2026-07-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8080-8bc9-f45ac368b723",
+      "fenetre": "CRM",
+      "fenetreGroupe": "FICHE CLIENT",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/CRM-3648db15623a8177aa2fdfc3aa3504d4"
+    },
+    {
+      "id": "3648db15-623a-817d-b1f4-d6d26ea39c75",
+      "saisie": "Duplication séjours",
+      "semaine": "2026-07-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80c1-94fd-d0ec9b31478c",
+      "fenetre": "Duplication séjours",
+      "fenetreGroupe": "FICHE CLIENT",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Duplication-s-jours-3648db15623a817db1f4d6d26ea39c75"
+    },
+    {
+      "id": "3648db15-623a-817e-86db-e0307104c5e7",
+      "saisie": "FS -Afficher tous les participants",
+      "semaine": "2026-07-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-807d-ab18-dc32070ed4ad",
+      "fenetre": "FS -Afficher tous les participants",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Afficher-tous-les-participants-3648db15623a817e86dbe0307104c5e7"
+    },
+    {
+      "id": "3648db15-623a-817f-86d4-c3833d506002",
+      "saisie": "PLANNING - finalisation",
+      "semaine": "2026-06-01",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8046-a892-ff0bc03935e2",
+      "fenetre": "PLANNING - finalisation",
+      "fenetreGroupe": "PLANNING",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/PLANNING-finalisation-3648db15623a817f86d4c3833d506002"
+    },
+    {
+      "id": "3648db15-623a-8181-a898-e3fccaf9ec1c",
+      "saisie": "Planning sup. numéroté",
+      "semaine": "2026-05-04",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-807d-b76f-fd0dc006e555",
+      "fenetre": "Planning sup. numéroté",
+      "fenetreGroupe": "PLANNING",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Planning-sup-num-rot-3648db15623a8181a898e3fccaf9ec1c"
+    },
+    {
+      "id": "3648db15-623a-8187-9319-d432d9c03b40",
+      "saisie": "VENTES HORS SEJOUR - Finalisation",
+      "semaine": "2026-09-07",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8069-a77d-ebe44fddf4f1",
+      "fenetre": "VENTES HORS SEJOUR - Finalisation",
+      "fenetreGroupe": "VENTES HORS SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/VENTES-HORS-SEJOUR-Finalisation-3648db15623a81879319d432d9c03b40"
+    },
+    {
+      "id": "3648db15-623a-818d-b56f-d1aef3c2751b",
+      "saisie": "Listing occupation",
+      "semaine": "2026-03-02",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3118db15-623a-806c-9003-d6a37bbcc876",
+      "fenetre": "Listing occupation",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Listing-occupation-3648db15623a818db56fd1aef3c2751b"
+    },
+    {
+      "id": "3648db15-623a-818f-9456-d55fae458ea5",
+      "saisie": "Liste des cautions",
+      "semaine": "2026-04-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80ad-aaea-c71e0389d225",
+      "fenetre": "Liste des cautions",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Liste-des-cautions-3648db15623a818f9456d55fae458ea5"
+    },
+    {
+      "id": "3648db15-623a-819b-af64-c669fbec012c",
+      "saisie": "Envoi mails + template auto + gestion pièces jointes",
+      "semaine": "2026-09-07",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8017-abfe-e377c07de1b5",
+      "fenetre": "Envoi mails + template auto + gestion pièces jointes",
+      "fenetreGroupe": "GESTION MAILS",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Envoi-mails-template-auto-gestion-pi-ces-jointes-3648db15623a819baf64c669fbec012c"
+    },
+    {
+      "id": "3648db15-623a-819c-b7bc-c9fcde7a65e7",
+      "saisie": "Réservation a traiter",
+      "semaine": "2026-05-04",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8065-8b19-ce3a08074f23",
+      "fenetre": "Réservation a traiter",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/R-servation-a-traiter-3648db15623a819cb7bcc9fcde7a65e7"
+    },
+    {
+      "id": "3648db15-623a-81a3-9b06-c6ac4abe8991",
+      "saisie": "FS - Modif séjour (justificatif)",
+      "semaine": "2026-08-03",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8007-b806-e7d7b5926dc6",
+      "fenetre": "FS - Modif séjour (justificatif)",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Modif-s-jour-justificatif-3648db15623a81a39b06c6ac4abe8991"
+    },
+    {
+      "id": "3648db15-623a-81b4-89ef-db4326c77525",
+      "saisie": "Listing indispo",
+      "semaine": "2026-04-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8099-8834-c873b8a5189a",
+      "fenetre": "Listing indispo",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Listing-indispo-3648db15623a81b489efdb4326c77525"
+    },
+    {
+      "id": "3648db15-623a-81b5-9a48-c069f00d681e",
+      "saisie": "FS - Ajouter / modifier Animaux",
+      "semaine": "2026-08-03",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8096-aa99-d522e071409a",
+      "fenetre": "FS - Ajouter / modifier Animaux",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Ajouter-modifier-Animaux-3648db15623a81b59a48c069f00d681e"
+    },
+    {
+      "id": "3648db15-623a-81b8-8497-d87c9b817bdf",
+      "saisie": "détails des transactions",
+      "semaine": "2026-04-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3488db15-623a-80e7-a521-fda2f82d5596",
+      "fenetre": "détails des transactions",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/d-tails-des-transactions-3648db15623a81b88497d87c9b817bdf"
+    },
+    {
+      "id": "3648db15-623a-81b8-9d5f-e4511b2e33fa",
+      "saisie": "Controle de Caisse",
+      "semaine": "2026-04-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3258db15-623a-808a-85ea-e18bd4888d64",
+      "fenetre": "Controle de Caisse",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Controle-de-Caisse-3648db15623a81b89d5fe4511b2e33fa"
+    },
+    {
+      "id": "3648db15-623a-81c5-9519-fd7ae5d877cb",
+      "saisie": "Remise en banque",
+      "semaine": "2026-04-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3258db15-623a-80b7-a82f-cb0243c89e54",
+      "fenetre": "Remise en banque",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Remise-en-banque-3648db15623a81c59519fd7ae5d877cb"
+    },
+    {
+      "id": "3648db15-623a-81c9-b186-ca9c2afbcd9a",
+      "saisie": "To do",
+      "semaine": "2026-06-01",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3648db15-623a-809f-bdba-cf8421e20ad9",
+      "fenetre": "To do",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/To-do-3648db15623a81c9b186ca9c2afbcd9a"
+    },
+    {
+      "id": "3648db15-623a-81ca-a93d-c39dc87d2a38",
+      "saisie": "FS - Facturer",
+      "semaine": "2026-08-03",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80fa-b396-c5573af3f7ca",
+      "fenetre": "FS - Facturer",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Facturer-3648db15623a81caa93dc39dc87d2a38"
+    },
+    {
+      "id": "3648db15-623a-81d2-9586-da1526c855a6",
+      "saisie": "FICHE CLIENT - Finalisation",
+      "semaine": "2026-07-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8086-a5fa-f24fa6e1b473",
+      "fenetre": "FICHE CLIENT - Finalisation",
+      "fenetreGroupe": "FICHE CLIENT",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FICHE-CLIENT-Finalisation-3648db15623a81d29586da1526c855a6"
+    },
+    {
+      "id": "3648db15-623a-81d8-bf13-dfb4a8b74337",
+      "saisie": "FS - Scan PI",
+      "semaine": "2026-07-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-809f-836f-f61d618208dc",
+      "fenetre": "FS - Scan PI",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Scan-PI-3648db15623a81d8bf13dfb4a8b74337"
+    },
+    {
+      "id": "3648db15-623a-81e1-9034-f75e89f8af40",
+      "saisie": "DEVIS - finalisation",
+      "semaine": "2026-09-07",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-803f-901b-f8d05665eb44",
+      "fenetre": "DEVIS - finalisation",
+      "fenetreGroupe": "PRE-RESERVATION (Devis)",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/DEVIS-finalisation-3648db15623a81e19034f75e89f8af40"
+    },
+    {
+      "id": "3648db15-623a-81e7-9fde-f2b0bf6fab85",
+      "saisie": "FS - Ajouter Supplément",
+      "semaine": "2026-08-03",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80b7-9bca-d43566450bf2",
+      "fenetre": "FS - Ajouter Supplément",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Ajouter-Suppl-ment-3648db15623a81e79fdef2b0bf6fab85"
+    },
+    {
+      "id": "3648db15-623a-81ea-a531-ea0ed3b4a903",
+      "saisie": "Report solde",
+      "semaine": "2026-07-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-808f-bef7-d02783c1a2e8",
+      "fenetre": "Report solde",
+      "fenetreGroupe": "FICHE CLIENT",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Report-solde-3648db15623a81eaa531ea0ed3b4a903"
+    },
+    {
+      "id": "3648db15-623a-81ef-b99f-d7cf0a82338f",
+      "saisie": "Rech dispo plan camping",
+      "semaine": "2026-04-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-804f-8cbf-ee177c272a4d",
+      "fenetre": "Rech dispo plan camping",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Rech-dispo-plan-camping-3648db15623a81efb99fd7cf0a82338f"
+    },
+    {
+      "id": "3648db15-623a-81ef-bc98-f5e544d93734",
+      "saisie": "FS - Caution + restituer",
+      "semaine": "2026-08-03",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8080-b2de-cff057386b2c",
+      "fenetre": "FS - Caution + restituer",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Caution-restituer-3648db15623a81efbc98f5e544d93734"
+    },
+    {
+      "id": "3648db15-623a-81f2-b459-f4dac52cc193",
+      "saisie": "FS - Annuler séjour (si paiement)",
+      "semaine": "2026-07-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-809f-848b-ddfcd22add69",
+      "fenetre": "FS - Annuler séjour (si paiement)",
+      "fenetreGroupe": "FICHE SEJOUR",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/FS-Annuler-s-jour-si-paiement-3648db15623a81f2b459f4dac52cc193"
+    },
+    {
+      "id": "3648db15-623a-81fa-8b87-eac711ce346d",
+      "saisie": "Ventes réception",
+      "semaine": "2026-04-06",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-80cf-aa8d-ca854e48dd28",
+      "fenetre": "Ventes réception",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Ventes-r-ception-3648db15623a81fa8b87eac711ce346d"
+    },
+    {
+      "id": "3648db15-623a-81fd-afab-d1319ffa1bf2",
+      "saisie": "Controle d’accès",
+      "semaine": "2026-03-02",
+      "personne": null,
+      "phase": "MAQUETTE",
+      "avancement": 0,
+      "etat": null,
+      "tempsHeures": 0,
+      "tempsJours": 0,
+      "actions": "",
+      "remarques": "",
+      "fenetreId": "3108db15-623a-8031-863a-d72cad8e4457",
+      "fenetre": "Controle d’accès",
+      "fenetreGroupe": "HOME",
+      "fenetreNumGroupe": null,
+      "fenetreNumModule": null,
+      "url": "https://www.notion.so/Controle-d-acc-s-3648db15623a81fdafabd1319ffa1bf2"
+    },
     {
       "id": "3648db15-623a-80a8-9eea-d699ff66d328",
       "saisie": "",
@@ -14023,7 +15195,7 @@
       "semaine": "2026-03-09",
       "personne": "Agathe",
       "phase": "MAQUETTE",
-      "avancement": 0.03,
+      "avancement": 0.3,
       "etat": "En cours",
       "tempsHeures": 28,
       "tempsJours": 4,
@@ -14305,13 +15477,20 @@
   ],
   "equipe": [
     {
-      "id": "35f8db15-623a-8155-aa16-d7a6f066747e",
-      "nom": "Albert",
+      "id": "3648db15-623a-80c3-b2d7-fbf664dc0e09",
+      "nom": "Albert (Front)",
       "metiers": [
-        "MAQUETTE",
         "FRONT"
       ],
-      "url": "https://www.notion.so/Albert-35f8db15623a8155aa16d7a6f066747e"
+      "url": "https://www.notion.so/Albert-Front-3648db15623a80c3b2d7fbf664dc0e09"
+    },
+    {
+      "id": "35f8db15-623a-8155-aa16-d7a6f066747e",
+      "nom": "Albert (UX)",
+      "metiers": [
+        "MAQUETTE"
+      ],
+      "url": "https://www.notion.so/Albert-UX-35f8db15623a8155aa16d7a6f066747e"
     },
     {
       "id": "35f8db15-623a-8158-b815-e0012923008f",
@@ -22494,8 +23673,8 @@
   "counts": {
     "classique": 252,
     "topline": 57,
-    "suiviLundi": 86,
-    "equipe": 11,
+    "suiviLundi": 144,
+    "equipe": 12,
     "cartoPmsWeb": 489,
     "cartoPmsMobile": 13,
     "cartoManager": 6
