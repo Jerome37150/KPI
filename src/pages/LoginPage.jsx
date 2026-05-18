@@ -46,7 +46,7 @@ export function LoginPage({ onLogin }) {
         }}
       >
         <div style={{ display: "flex", justifyContent: "center", marginBottom: 28 }}>
-          <LogoInaxel variant="full" subtitle="KPI & Projets" />
+          <LogoInaxel variant="full" subtitle="Produits & Qualité" />
         </div>
 
         <div style={{
@@ -122,7 +122,7 @@ export function LoginPage({ onLogin }) {
           fontSize: 10, color: C.inkMute,
           letterSpacing: "0.04em",
         }}>
-          NAXI.G · KPI - Produits & qualité
+          NAXI.G · Produits & Qualité
         </div>
       </form>
     </div>

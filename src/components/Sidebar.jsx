@@ -180,7 +180,7 @@ export function Sidebar({ tab, onSelect, procedures = [] }) {
         borderBottom: `1px solid ${C.line}`,
         display: "flex", alignItems: "center",
       }}>
-        <LogoInaxel variant="compact" subtitle="KPI & Projets" />
+        <LogoInaxel variant="compact" subtitle="Produits & Qualité" />
       </div>
 
       {/* Navigation */}

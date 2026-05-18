@@ -82,7 +82,7 @@ export function AppLayout({ children, tab, onTabChange, onLogout, currentLabel, 
             display: "flex", justifyContent: "space-between", alignItems: "center",
             fontSize: 11, color: C.inkDim, gap: 16, flexWrap: "wrap",
           }}>
-            <span style={{ fontWeight: 600 }}>NAXI.G · KPI - Produits & qualité</span>
+            <span style={{ fontWeight: 600 }}>NAXI.G · Produits & Qualité</span>
             <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
               <span>Auto-sync 15 min ·</span>
               <span style={{ color: C.inkSoft, fontWeight: 600 }}>
