@@ -1,10 +1,80 @@
 {
-  "generatedAt": "2026-05-18T09:35:17.826Z",
+  "generatedAt": "2026-05-18T14:53:53.792Z",
   "classique": [
+    {
+      "id": "3648db15-623a-8049-9f10-f8385aca046f",
+      "identifiant": "INA-305",
+      "titre": "[LOGICIEL] - Génération des pdf de facture impossible si civilité client à 0 / Partie 2 : Identifier l’origine des civilités à 0",
+      "classification": "BUG STRUCTURANT",
+      "statut": "FAIT",
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "MAI 26"
+      ],
+      "fonctions": "Facturation",
+      "produits": [
+        "NAXI GESTION SQL",
+        "NAXI GESTION HF"
+      ],
+      "client": "SIRENE66 (Signalé le 15.05.2026)",
+      "dateCreation": "2026-05-18T13:09:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 1,
+      "pointsBlocage": "",
+      "explication": "Le camping LA SIRENE nous a contacté car les pdf de certaines de ses factures ne se généraient pas. \nAprès analyse de leur base de données, les factures concernées ont toutes été éditées sur des fiches clients ou la civilité est à 0\n\n→ Correctif d’urgence fait par Loic car ils avaient plus de 9 000 fiches clients dans ce cas. Le correctif consiste à prendre la civilité par défaut dans NAXI (table PARGEN / pg_code = PREFCLI) lorsque la fiche client a une civilité à 0. \n\n→ En revanche, il faudrait trouver comment ils peuvent avoir des fiches clients avec une civilité à 0/ Pistes déjà vérifiées : \n\n  • L’import des clients par fichier excel, si pas de colonne civilité, alors le champs se met en effet à 0 donc il faudrait prévoir une US pour que quand on importe un fichier client on mette la civilité par défaut si il y en a pas\n\n",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "18.17",
+      "versionStable": "",
+      "dateSortieInter": "2026-05-18",
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://www.notion.so/LOGICIEL-G-n-ration-des-pdf-de-facture-impossible-si-civilit-client-0-Partie-2-Identifier--3648db15623a80499f10f8385aca046f"
+    },
+    {
+      "id": "3648db15-623a-8034-9627-e4e09145ec61",
+      "identifiant": "INA-304",
+      "titre": "[LOGICIEL] - Clients & séjours non envoyés sur le web",
+      "classification": "BUG OPERATIONNEL",
+      "statut": "A planifier",
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": "Autres",
+      "produits": [
+        "NAXI GESTION SQL",
+        "NAXI GESTION HF"
+      ],
+      "client": "Ma prairie (Signalé le 18.05.2026)",
+      "dateCreation": "2026-05-18T13:02:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Malgré le correctif de Loic (BUG 1080), le camping ‘maprairie’ continue d’avoir des séjours non envoyés sur le web\n\n→ Exemple du 15.05 : séjour n°868 non envoyés sur le web\n→ Exemple du 16.05 : séjour n° 888 non envoyé sur le web\n\nAnalyse : \n\n  • Clients & séjours non présents sur le web\n  • Fichier synchro>sequential vide donc aucun élément en attente de synchro\n  • Table synchro vide\n  • Les deux sont des résas web avec création de la fiche client lors de la resa \n\nRecherche toujours en cours",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://www.notion.so/LOGICIEL-Clients-s-jours-non-envoy-s-sur-le-web-3648db15623a80349627e4e09145ec61"
+    },
     {
       "id": "3618db15-623a-80a1-8af6-f7838bd5f591",
       "identifiant": "INA-302",
-      "titre": "[LOGICIEL] - Génération des pdf de facture impossible si civilité client à 0",
+      "titre": "[LOGICIEL] - Génération des pdf de facture impossible si civilité client à 0 / Partie 1 : Prendre la civilité par défaut lors de la facturation si civilité à 0",
       "classification": "BUG STRUCTURANT",
       "statut": "FAIT",
       "priorisation": "Haute",
@@ -28,13 +98,15 @@
       "pointsBlocage": "",
       "explication": "Le camping LA SIRENE nous a contacté car les pdf de certaines de ses factures ne se généraient pas. \nAprès analyse de leur base de données, les factures concernées ont toutes été éditées sur des fiches clients ou la civilité est à 0\n\n→ Correctif d’urgence fait par Loic car ils avaient plus de 9 000 fiches clients dans ce cas. Le correctif consiste à prendre la civilité par défaut dans NAXI (table PARGEN / pg_code = PREFCLI) lorsque la fiche client a une civilité à 0. \n\n→ En revanche, il faudrait trouver comment ils peuvent avoir des fiches clients avec une civilité à 0/ Pistes déjà vérifiées : \n\n  • L’import des clients par fichier excel, si pas de colonne civilité, alors le champs se met en effet à 0 donc il faudrait prévoir une US pour que quand on importe un fichier client on mette la civilité par défaut si il y en a pas\n\n",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "18.17",
       "versionStable": "",
       "dateSortieInter": "2026-05-18",
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://www.notion.so/LOGICIEL-G-n-ration-des-pdf-de-facture-impossible-si-civilit-client-0-3618db15623a80a18af6f7838bd5f591"
+      "url": "https://www.notion.so/LOGICIEL-G-n-ration-des-pdf-de-facture-impossible-si-civilit-client-0-Partie-1-Prendre-la--3618db15623a80a18af6f7838bd5f591"
     },
     {
       "id": "35f8db15-623a-8043-b07e-d9aec01b0198",
@@ -46,7 +118,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": null,
+      "fonctions": "Autres",
       "produits": [
         "NAXI NOMAD PREMIUM"
       ],
@@ -86,8 +158,11 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": null,
-      "produits": [],
+      "fonctions": "Facturation",
+      "produits": [
+        "NAXI GESTION SQL",
+        "NAXI GESTION HF"
+      ],
       "client": "",
       "dateCreation": "2026-05-13T12:08:00.000Z",
       "estimBack": 0,
@@ -119,9 +194,11 @@
       "identifiant": "INA-298",
       "titre": "[LOGICIEL] - Ajout garde fou sur nom & prénom des participants d’un séjour",
       "classification": "DEV sans CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "statut": "A planifier",
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "JUIN 26"
+      ],
       "fonctions": "Séjour",
       "produits": [
         "NAXI GESTION SQL",
@@ -152,10 +229,12 @@
       "identifiant": "INA-297",
       "titre": "[WEB] - Masquer le bouton “Souscrire au programme fidelité” sur l’espace client",
       "classification": "DEV sans CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
+      "statut": "A planifier",
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "JUIN 26"
+      ],
+      "fonctions": "Autres",
       "produits": [
         "NAXI ESPACE CLIENT"
       ],
@@ -1056,7 +1135,7 @@
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
       ],
-      "client": "Rive Bleue (Signalé le 24.04.2026) \nLauzons (Signalé le 24.04.2026)\nColombière 74 (Signalé le 30.04.2026)",
+      "client": "Rive Bleue (Signalé le 24.04.2026) \nLauzons (Signalé le 24.04.2026)\nColombière 74 (Signalé le 30.04.2026)\nBobains (Signalé le 18.05.2026)",
       "dateCreation": "2026-04-24T13:02:00.000Z",
       "estimBack": 0,
       "estimFront": 0,
@@ -3623,7 +3702,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "Fiche communication.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664Q7NARQ5%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093502Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIFTRtBMUMBa2zm%2BQSxZ9TO0mqk1ZesAxi712HZ06KBxaAiBCj1MiQlblWVFaKUqV0ig0NVEoYu1YTNyHjGKtHLPZXCqIBAi6%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMSSy2FAzp%2FAIS17%2FXKtwDAuu5pr5NWjF%2FiEb5EGywNochG6lWf6kDHgbY2EFqroazTkXKDOaJ5neKL7uTvjiV4BWKail%2BO%2Bez53BbxZ%2BxbRFMy4a6809kztf1Z5%2FKz96j0v08w7OSdAYOmtstuXx8Dvf8KkcZNz%2FFgtle8bKEJJr3jyaPKzElR%2F%2BgkT5yB3cHuAIHYox%2BmRtFL2jbCevxsGmbuzrinJx9jhph0OWUSlFPazZKVB1Fs1pKl1LcRlGx9bBSIIaImP9PMcUHt%2BzEQUtvgq23Is2ViIa02JJTga21npbwwfwcEzm72H47PR%2BHtRO%2Bbh0gMh8ALTjFif6VqftsiBmp4V7wqlVw7hKavm7k6%2BrYeZz%2BaOBww2tlgEX1LLOZdHQKwm7P5vkWwPlh%2BzCmEOZ00%2FSjeL50cLYQb%2BbBpPnyaldfjiYCGbZZ77qoYdqOWJMmHjMYlJGKnjIzyiGj35E2%2B24naY25P8dDXS4OSQRIV71tGeLORED3CEtkpRC1fWe%2BsLmb8cjKDZxCgyLF0rFTJC4V9dayOcyfFEY9q%2FFWd4tSYBMBB14KdWCAE0oW5Ax19dHdmMbb%2FpuyY3Sv2FCM4fdHcU6qj8cXz8DbnOFBlDJ%2BBjR0KsOgVC%2FDGadklWL%2Fhvl%2Fv9gwh6ur0AY6pgENp8N5PisSVG1ujYm%2FChhBBYvE%2FrDVQwNlihJJTGIU%2BHwCcilejZxBFQXyKsaaOnc7bpIwlZDtXaCDuS3w6k5ivDaa%2B1kg0EFvX9Pc5Ms7MZ3iCzo0CzxU06xk6xUgKjeY19jzMSS2W5LwIytuQkdQYo8HPPe2xGl71GDhtU07rvMN7E4UdNRE6dAv3JBilgB%2B%2BFYWGqnqi8afwZ3wRLrp%2FdByInDe&X-Amz-Signature=2825c749891f4bf61cdfa1113bb5e61d82bb0040eb0bdfd6b60b6e02d5e68e87&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ROCDWOES%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145338Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBP5X7wFfM4HNHV6Zpsx%2BDmc0bYI0qc6c1mZM%2BOJgDNQAiEA1IDIG9G9vHiU4YhR%2FYrVQcCLVJlxYGINZXgp5IH3JlAqiAQIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDM4XjIE8vpUGX9Y8qCrcA%2FxRPA5qJUY14%2BrqS1cvAl3Vym%2Bnop7XU6ZpFl8%2BG15%2Fea4zO9HSnodtdH6oXe7YMiR6se1uPMvK6CoEgpT6HbMbJv7Se3I4JJcRPcaM0Ay3ulWN%2FzYr8cTcPmEKRJG2wNxw5k6f6fV0mNiNyBzyRjEFj5qDOsYy9nxj6N0sp12uXyMX%2F26M9CYC9Ibg3GQcXO8DT7rlcsjFAg41Vs7NQ%2FPQI%2F6EIN%2BVGw5aUi4aCp4u1a1R36dG2MnieGp%2FlZ8JyEtE0%2Fby3u91pnzw0gSjRHckSpiTMYJj8Ee5ceHI4fSbXyXUeue7jNV6M6q67CU4vG4qS69VJ3CzicE3adFMOhcPfFSf9a8nsdIeqGaqbMaJCBEUDneZ4Y0bWh%2BI4bLpwDxBgmRzjeAOrh%2BCUlVkhzN1QAKr3jNx%2BYfCGQYTrCS3w2uxM4fE1%2FC8SHlOhG7ajOMixWlwnzBFAeWmPuhmdS9bYpyrmW7qXpfrz%2B07tvAKtAGevbKYSDJ5Rst5RZBNcEoBMDroWUu0Jy7uFoqIwgPlYQ7ZkHYFCi4Asa2iy7Aswp%2BThC75t5XCccE8aWRFgSx4Y4u8q%2B%2FVoytzT1u81GWN9PZ4nzILZvJ4K3PguCz%2FgThLc3cywFml1d3XMKm4rNAGOqUBaUDxSMM1o%2FZ6%2FSfFGwOwdvsOEaFcfH70kmYoCruFQgevA%2FbDlwKeJ%2FRrkUDAib8ser7gbaLhGzzJpBD5%2BZxzwkTw3VNoPO%2BjOFzcC5CMsFX2CilxlQTiPrewTgEkitXYxKYZySsG17TW5fnk9Hk8W0t1K37CRKRox%2B27T%2FmfIX7s2bHGdFdEyb8YkQWi7EMfLxfLLm1kLQ%2BfBaxdK044%2B53tJ%2Brp&X-Amz-Signature=189e03423250bd9fb9d72a674e7baf5bbb47508345428c432d72fb1ac67c58c4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-Facturation-factures-et-proforma-d-ch-ances-multipes-probl-mes-3288db15623a80989620f6c98afd1347"
     },
@@ -4518,7 +4597,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-160.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TEROUD2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093503Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB0RPSFk7ojnOWqtxwYZJyFd91YWQbDUovJFX1mT0Y44AiEA4UWF48c6THTaHdzBTHtyrDkgncfhgzdNVEBAvs9gwj0qiAQIuv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPwdkOBWhkakuuhI9yrcA%2BoUevd7kcKYjZI68AMjK3WTiFejqrE0JRvv5JUPO%2F0YC0mBjfpJQQdz7B1zxDodwiZn9vEnFmRvUON7wwJcWK59gnr4nLWiVz8VRmVhwYhav7VVXt4ite2c09fNP5tl0QsbxiinvgLtIDwFXaxZtN09aNMd5382IRb2YxEtxv5rRtMKYh3BCkBMho7Z18oOIdKjeO5rnezOaSFSREBJLrvGrWw5vTcNFZM%2Fa7hJHIfiZnFEMMsiENOv57yDggABMbW4rSIH%2FtntBjeWBbACgB59295T%2B3rPKHAjwyzw4ybgWxvwjQ%2BBYsU8XwlYfzFNjQqMAqKWOPtbCqSaS63TCwuyT3g5gCGQQTuIeUjvjg0xbeHRC8MoFUEkecwaljWstbybuldI0vjA1dfuiZdkHXv9i30gPjW%2Fiax%2FaTb32Z0ehWYx1Rf0CgEKnu6rCD5%2BHaLZ3s4%2Bv2CM2DDcvE2%2BmIvWg7cGNM%2F9o%2BhjYnI%2ByPv%2Fddbt0PXoGGEraJp3mLB06Ad8PrqqrEbBVZMU%2Fsg12Dv4vGpmaa6npLg2vHU09daXRMYsgpUSn%2F%2F42quinaltC%2BV9eXmHroCYXKtW6nqx4ZvseyT%2Fy5U3tTs5A2mHCHFGOH4mLik6SYNACwW0MMerq9AGOqUBGu4KGoBUy21eTjfRVnBz88SjMr8KAnfxjHtHqadbaql0Tj5oc5FQW5%2B0kHc2XHACz2inav3MsRXgMGHQ%2B6eyhy3VA5KqogEAD4Od9rPiSJ4%2By%2FLomsNMvB02kHBUvf6uGi%2BStg4PEaqpEMv6uc3xx9K6ZgwODP7p%2Bv3zM2bi3y9XZYO%2BVb3oDWzd%2FP0BXnlL73acYzasFPV5xLPdFs1pEHsO27bS&X-Amz-Signature=3a8afdd820cfe49a0493b8af78f51d8dbe345a5d2217a7e7aea35215e0f51e12&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ROCDWOES%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBP5X7wFfM4HNHV6Zpsx%2BDmc0bYI0qc6c1mZM%2BOJgDNQAiEA1IDIG9G9vHiU4YhR%2FYrVQcCLVJlxYGINZXgp5IH3JlAqiAQIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDM4XjIE8vpUGX9Y8qCrcA%2FxRPA5qJUY14%2BrqS1cvAl3Vym%2Bnop7XU6ZpFl8%2BG15%2Fea4zO9HSnodtdH6oXe7YMiR6se1uPMvK6CoEgpT6HbMbJv7Se3I4JJcRPcaM0Ay3ulWN%2FzYr8cTcPmEKRJG2wNxw5k6f6fV0mNiNyBzyRjEFj5qDOsYy9nxj6N0sp12uXyMX%2F26M9CYC9Ibg3GQcXO8DT7rlcsjFAg41Vs7NQ%2FPQI%2F6EIN%2BVGw5aUi4aCp4u1a1R36dG2MnieGp%2FlZ8JyEtE0%2Fby3u91pnzw0gSjRHckSpiTMYJj8Ee5ceHI4fSbXyXUeue7jNV6M6q67CU4vG4qS69VJ3CzicE3adFMOhcPfFSf9a8nsdIeqGaqbMaJCBEUDneZ4Y0bWh%2BI4bLpwDxBgmRzjeAOrh%2BCUlVkhzN1QAKr3jNx%2BYfCGQYTrCS3w2uxM4fE1%2FC8SHlOhG7ajOMixWlwnzBFAeWmPuhmdS9bYpyrmW7qXpfrz%2B07tvAKtAGevbKYSDJ5Rst5RZBNcEoBMDroWUu0Jy7uFoqIwgPlYQ7ZkHYFCi4Asa2iy7Aswp%2BThC75t5XCccE8aWRFgSx4Y4u8q%2B%2FVoytzT1u81GWN9PZ4nzILZvJ4K3PguCz%2FgThLc3cywFml1d3XMKm4rNAGOqUBaUDxSMM1o%2FZ6%2FSfFGwOwdvsOEaFcfH70kmYoCruFQgevA%2FbDlwKeJ%2FRrkUDAib8ser7gbaLhGzzJpBD5%2BZxzwkTw3VNoPO%2BjOFzcC5CMsFX2CilxlQTiPrewTgEkitXYxKYZySsG17TW5fnk9Hk8W0t1K37CRKRox%2B27T%2FmfIX7s2bHGdFdEyb8YkQWi7EMfLxfLLm1kLQ%2BfBaxdK044%2B53tJ%2Brp&X-Amz-Signature=2691fab3a8fa8505be7f313cfcb5784c712782697d76f7e34e2797787a9e7e33&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Apparition-d-un-message-sur-le-traitement-des-r-sas-issues-de-l-espace-client-31e8db15623a806896d5f5a1ed131200"
     },
@@ -4657,7 +4736,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "synthese_espaceclient (1).xlsx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TEROUD2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093503Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB0RPSFk7ojnOWqtxwYZJyFd91YWQbDUovJFX1mT0Y44AiEA4UWF48c6THTaHdzBTHtyrDkgncfhgzdNVEBAvs9gwj0qiAQIuv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPwdkOBWhkakuuhI9yrcA%2BoUevd7kcKYjZI68AMjK3WTiFejqrE0JRvv5JUPO%2F0YC0mBjfpJQQdz7B1zxDodwiZn9vEnFmRvUON7wwJcWK59gnr4nLWiVz8VRmVhwYhav7VVXt4ite2c09fNP5tl0QsbxiinvgLtIDwFXaxZtN09aNMd5382IRb2YxEtxv5rRtMKYh3BCkBMho7Z18oOIdKjeO5rnezOaSFSREBJLrvGrWw5vTcNFZM%2Fa7hJHIfiZnFEMMsiENOv57yDggABMbW4rSIH%2FtntBjeWBbACgB59295T%2B3rPKHAjwyzw4ybgWxvwjQ%2BBYsU8XwlYfzFNjQqMAqKWOPtbCqSaS63TCwuyT3g5gCGQQTuIeUjvjg0xbeHRC8MoFUEkecwaljWstbybuldI0vjA1dfuiZdkHXv9i30gPjW%2Fiax%2FaTb32Z0ehWYx1Rf0CgEKnu6rCD5%2BHaLZ3s4%2Bv2CM2DDcvE2%2BmIvWg7cGNM%2F9o%2BhjYnI%2ByPv%2Fddbt0PXoGGEraJp3mLB06Ad8PrqqrEbBVZMU%2Fsg12Dv4vGpmaa6npLg2vHU09daXRMYsgpUSn%2F%2F42quinaltC%2BV9eXmHroCYXKtW6nqx4ZvseyT%2Fy5U3tTs5A2mHCHFGOH4mLik6SYNACwW0MMerq9AGOqUBGu4KGoBUy21eTjfRVnBz88SjMr8KAnfxjHtHqadbaql0Tj5oc5FQW5%2B0kHc2XHACz2inav3MsRXgMGHQ%2B6eyhy3VA5KqogEAD4Od9rPiSJ4%2By%2FLomsNMvB02kHBUvf6uGi%2BStg4PEaqpEMv6uc3xx9K6ZgwODP7p%2Bv3zM2bi3y9XZYO%2BVb3oDWzd%2FP0BXnlL73acYzasFPV5xLPdFs1pEHsO27bS&X-Amz-Signature=447e32749f5dd5b0556c2cdc476ae6fde1053dcdfbf297d9d2e7b5f0c2b5e76d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ROCDWOES%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBP5X7wFfM4HNHV6Zpsx%2BDmc0bYI0qc6c1mZM%2BOJgDNQAiEA1IDIG9G9vHiU4YhR%2FYrVQcCLVJlxYGINZXgp5IH3JlAqiAQIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDM4XjIE8vpUGX9Y8qCrcA%2FxRPA5qJUY14%2BrqS1cvAl3Vym%2Bnop7XU6ZpFl8%2BG15%2Fea4zO9HSnodtdH6oXe7YMiR6se1uPMvK6CoEgpT6HbMbJv7Se3I4JJcRPcaM0Ay3ulWN%2FzYr8cTcPmEKRJG2wNxw5k6f6fV0mNiNyBzyRjEFj5qDOsYy9nxj6N0sp12uXyMX%2F26M9CYC9Ibg3GQcXO8DT7rlcsjFAg41Vs7NQ%2FPQI%2F6EIN%2BVGw5aUi4aCp4u1a1R36dG2MnieGp%2FlZ8JyEtE0%2Fby3u91pnzw0gSjRHckSpiTMYJj8Ee5ceHI4fSbXyXUeue7jNV6M6q67CU4vG4qS69VJ3CzicE3adFMOhcPfFSf9a8nsdIeqGaqbMaJCBEUDneZ4Y0bWh%2BI4bLpwDxBgmRzjeAOrh%2BCUlVkhzN1QAKr3jNx%2BYfCGQYTrCS3w2uxM4fE1%2FC8SHlOhG7ajOMixWlwnzBFAeWmPuhmdS9bYpyrmW7qXpfrz%2B07tvAKtAGevbKYSDJ5Rst5RZBNcEoBMDroWUu0Jy7uFoqIwgPlYQ7ZkHYFCi4Asa2iy7Aswp%2BThC75t5XCccE8aWRFgSx4Y4u8q%2B%2FVoytzT1u81GWN9PZ4nzILZvJ4K3PguCz%2FgThLc3cywFml1d3XMKm4rNAGOqUBaUDxSMM1o%2FZ6%2FSfFGwOwdvsOEaFcfH70kmYoCruFQgevA%2FbDlwKeJ%2FRrkUDAib8ser7gbaLhGzzJpBD5%2BZxzwkTw3VNoPO%2BjOFzcC5CMsFX2CilxlQTiPrewTgEkitXYxKYZySsG17TW5fnk9Hk8W0t1K37CRKRox%2B27T%2FmfIX7s2bHGdFdEyb8YkQWi7EMfLxfLLm1kLQ%2BfBaxdK044%2B53tJ%2Brp&X-Amz-Signature=225817c77b23b2d1826bd93352acea1604bfe8861393bc7d8c0acfc6b1e92ade&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-G-rer-l-arr-t-de-l-espace-client-V1-31a8db15623a800d915eea7ee689e4da"
     },
@@ -4876,7 +4955,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-148.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TEROUD2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093503Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB0RPSFk7ojnOWqtxwYZJyFd91YWQbDUovJFX1mT0Y44AiEA4UWF48c6THTaHdzBTHtyrDkgncfhgzdNVEBAvs9gwj0qiAQIuv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPwdkOBWhkakuuhI9yrcA%2BoUevd7kcKYjZI68AMjK3WTiFejqrE0JRvv5JUPO%2F0YC0mBjfpJQQdz7B1zxDodwiZn9vEnFmRvUON7wwJcWK59gnr4nLWiVz8VRmVhwYhav7VVXt4ite2c09fNP5tl0QsbxiinvgLtIDwFXaxZtN09aNMd5382IRb2YxEtxv5rRtMKYh3BCkBMho7Z18oOIdKjeO5rnezOaSFSREBJLrvGrWw5vTcNFZM%2Fa7hJHIfiZnFEMMsiENOv57yDggABMbW4rSIH%2FtntBjeWBbACgB59295T%2B3rPKHAjwyzw4ybgWxvwjQ%2BBYsU8XwlYfzFNjQqMAqKWOPtbCqSaS63TCwuyT3g5gCGQQTuIeUjvjg0xbeHRC8MoFUEkecwaljWstbybuldI0vjA1dfuiZdkHXv9i30gPjW%2Fiax%2FaTb32Z0ehWYx1Rf0CgEKnu6rCD5%2BHaLZ3s4%2Bv2CM2DDcvE2%2BmIvWg7cGNM%2F9o%2BhjYnI%2ByPv%2Fddbt0PXoGGEraJp3mLB06Ad8PrqqrEbBVZMU%2Fsg12Dv4vGpmaa6npLg2vHU09daXRMYsgpUSn%2F%2F42quinaltC%2BV9eXmHroCYXKtW6nqx4ZvseyT%2Fy5U3tTs5A2mHCHFGOH4mLik6SYNACwW0MMerq9AGOqUBGu4KGoBUy21eTjfRVnBz88SjMr8KAnfxjHtHqadbaql0Tj5oc5FQW5%2B0kHc2XHACz2inav3MsRXgMGHQ%2B6eyhy3VA5KqogEAD4Od9rPiSJ4%2By%2FLomsNMvB02kHBUvf6uGi%2BStg4PEaqpEMv6uc3xx9K6ZgwODP7p%2Bv3zM2bi3y9XZYO%2BVb3oDWzd%2FP0BXnlL73acYzasFPV5xLPdFs1pEHsO27bS&X-Amz-Signature=973f0c3ff21134cdc9781d39d07edcba356cbd62416eb3f174ef329c4fe9d93b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ROCDWOES%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBP5X7wFfM4HNHV6Zpsx%2BDmc0bYI0qc6c1mZM%2BOJgDNQAiEA1IDIG9G9vHiU4YhR%2FYrVQcCLVJlxYGINZXgp5IH3JlAqiAQIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDM4XjIE8vpUGX9Y8qCrcA%2FxRPA5qJUY14%2BrqS1cvAl3Vym%2Bnop7XU6ZpFl8%2BG15%2Fea4zO9HSnodtdH6oXe7YMiR6se1uPMvK6CoEgpT6HbMbJv7Se3I4JJcRPcaM0Ay3ulWN%2FzYr8cTcPmEKRJG2wNxw5k6f6fV0mNiNyBzyRjEFj5qDOsYy9nxj6N0sp12uXyMX%2F26M9CYC9Ibg3GQcXO8DT7rlcsjFAg41Vs7NQ%2FPQI%2F6EIN%2BVGw5aUi4aCp4u1a1R36dG2MnieGp%2FlZ8JyEtE0%2Fby3u91pnzw0gSjRHckSpiTMYJj8Ee5ceHI4fSbXyXUeue7jNV6M6q67CU4vG4qS69VJ3CzicE3adFMOhcPfFSf9a8nsdIeqGaqbMaJCBEUDneZ4Y0bWh%2BI4bLpwDxBgmRzjeAOrh%2BCUlVkhzN1QAKr3jNx%2BYfCGQYTrCS3w2uxM4fE1%2FC8SHlOhG7ajOMixWlwnzBFAeWmPuhmdS9bYpyrmW7qXpfrz%2B07tvAKtAGevbKYSDJ5Rst5RZBNcEoBMDroWUu0Jy7uFoqIwgPlYQ7ZkHYFCi4Asa2iy7Aswp%2BThC75t5XCccE8aWRFgSx4Y4u8q%2B%2FVoytzT1u81GWN9PZ4nzILZvJ4K3PguCz%2FgThLc3cywFml1d3XMKm4rNAGOqUBaUDxSMM1o%2FZ6%2FSfFGwOwdvsOEaFcfH70kmYoCruFQgevA%2FbDlwKeJ%2FRrkUDAib8ser7gbaLhGzzJpBD5%2BZxzwkTw3VNoPO%2BjOFzcC5CMsFX2CilxlQTiPrewTgEkitXYxKYZySsG17TW5fnk9Hk8W0t1K37CRKRox%2B27T%2FmfIX7s2bHGdFdEyb8YkQWi7EMfLxfLLm1kLQ%2BfBaxdK044%2B53tJ%2Brp&X-Amz-Signature=cb7b5e1c2ba02d969c84da461560742312bcb06900aa27c1dddd08d982b18d7f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/REDSYS-Non-fonctionnel-suite-mise-en-place-3178db15623a80458d0de93a71d0564f"
     },
@@ -4911,7 +4990,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-147.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TEROUD2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093503Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB0RPSFk7ojnOWqtxwYZJyFd91YWQbDUovJFX1mT0Y44AiEA4UWF48c6THTaHdzBTHtyrDkgncfhgzdNVEBAvs9gwj0qiAQIuv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPwdkOBWhkakuuhI9yrcA%2BoUevd7kcKYjZI68AMjK3WTiFejqrE0JRvv5JUPO%2F0YC0mBjfpJQQdz7B1zxDodwiZn9vEnFmRvUON7wwJcWK59gnr4nLWiVz8VRmVhwYhav7VVXt4ite2c09fNP5tl0QsbxiinvgLtIDwFXaxZtN09aNMd5382IRb2YxEtxv5rRtMKYh3BCkBMho7Z18oOIdKjeO5rnezOaSFSREBJLrvGrWw5vTcNFZM%2Fa7hJHIfiZnFEMMsiENOv57yDggABMbW4rSIH%2FtntBjeWBbACgB59295T%2B3rPKHAjwyzw4ybgWxvwjQ%2BBYsU8XwlYfzFNjQqMAqKWOPtbCqSaS63TCwuyT3g5gCGQQTuIeUjvjg0xbeHRC8MoFUEkecwaljWstbybuldI0vjA1dfuiZdkHXv9i30gPjW%2Fiax%2FaTb32Z0ehWYx1Rf0CgEKnu6rCD5%2BHaLZ3s4%2Bv2CM2DDcvE2%2BmIvWg7cGNM%2F9o%2BhjYnI%2ByPv%2Fddbt0PXoGGEraJp3mLB06Ad8PrqqrEbBVZMU%2Fsg12Dv4vGpmaa6npLg2vHU09daXRMYsgpUSn%2F%2F42quinaltC%2BV9eXmHroCYXKtW6nqx4ZvseyT%2Fy5U3tTs5A2mHCHFGOH4mLik6SYNACwW0MMerq9AGOqUBGu4KGoBUy21eTjfRVnBz88SjMr8KAnfxjHtHqadbaql0Tj5oc5FQW5%2B0kHc2XHACz2inav3MsRXgMGHQ%2B6eyhy3VA5KqogEAD4Od9rPiSJ4%2By%2FLomsNMvB02kHBUvf6uGi%2BStg4PEaqpEMv6uc3xx9K6ZgwODP7p%2Bv3zM2bi3y9XZYO%2BVb3oDWzd%2FP0BXnlL73acYzasFPV5xLPdFs1pEHsO27bS&X-Amz-Signature=4f6bf3c19214da9a3a94b8c8f140072469400330a26d560b2345fb4ed3aee42e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ROCDWOES%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBP5X7wFfM4HNHV6Zpsx%2BDmc0bYI0qc6c1mZM%2BOJgDNQAiEA1IDIG9G9vHiU4YhR%2FYrVQcCLVJlxYGINZXgp5IH3JlAqiAQIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDM4XjIE8vpUGX9Y8qCrcA%2FxRPA5qJUY14%2BrqS1cvAl3Vym%2Bnop7XU6ZpFl8%2BG15%2Fea4zO9HSnodtdH6oXe7YMiR6se1uPMvK6CoEgpT6HbMbJv7Se3I4JJcRPcaM0Ay3ulWN%2FzYr8cTcPmEKRJG2wNxw5k6f6fV0mNiNyBzyRjEFj5qDOsYy9nxj6N0sp12uXyMX%2F26M9CYC9Ibg3GQcXO8DT7rlcsjFAg41Vs7NQ%2FPQI%2F6EIN%2BVGw5aUi4aCp4u1a1R36dG2MnieGp%2FlZ8JyEtE0%2Fby3u91pnzw0gSjRHckSpiTMYJj8Ee5ceHI4fSbXyXUeue7jNV6M6q67CU4vG4qS69VJ3CzicE3adFMOhcPfFSf9a8nsdIeqGaqbMaJCBEUDneZ4Y0bWh%2BI4bLpwDxBgmRzjeAOrh%2BCUlVkhzN1QAKr3jNx%2BYfCGQYTrCS3w2uxM4fE1%2FC8SHlOhG7ajOMixWlwnzBFAeWmPuhmdS9bYpyrmW7qXpfrz%2B07tvAKtAGevbKYSDJ5Rst5RZBNcEoBMDroWUu0Jy7uFoqIwgPlYQ7ZkHYFCi4Asa2iy7Aswp%2BThC75t5XCccE8aWRFgSx4Y4u8q%2B%2FVoytzT1u81GWN9PZ4nzILZvJ4K3PguCz%2FgThLc3cywFml1d3XMKm4rNAGOqUBaUDxSMM1o%2FZ6%2FSfFGwOwdvsOEaFcfH70kmYoCruFQgevA%2FbDlwKeJ%2FRrkUDAib8ser7gbaLhGzzJpBD5%2BZxzwkTw3VNoPO%2BjOFzcC5CMsFX2CilxlQTiPrewTgEkitXYxKYZySsG17TW5fnk9Hk8W0t1K37CRKRox%2B27T%2FmfIX7s2bHGdFdEyb8YkQWi7EMfLxfLLm1kLQ%2BfBaxdK044%2B53tJ%2Brp&X-Amz-Signature=589eb862b0dcb8b251d434f6fba89fb393f1a08a8603f172e29711b9dd288b64&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-CRM-Le-montant-des-suppl-ments-envoy-s-est-faux-lorsque-le-suppl-ment-est-en-prix-mo-3178db15623a8017a10ff4b9821287fa"
     },
@@ -4989,7 +5068,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-145.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TEROUD2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093503Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB0RPSFk7ojnOWqtxwYZJyFd91YWQbDUovJFX1mT0Y44AiEA4UWF48c6THTaHdzBTHtyrDkgncfhgzdNVEBAvs9gwj0qiAQIuv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPwdkOBWhkakuuhI9yrcA%2BoUevd7kcKYjZI68AMjK3WTiFejqrE0JRvv5JUPO%2F0YC0mBjfpJQQdz7B1zxDodwiZn9vEnFmRvUON7wwJcWK59gnr4nLWiVz8VRmVhwYhav7VVXt4ite2c09fNP5tl0QsbxiinvgLtIDwFXaxZtN09aNMd5382IRb2YxEtxv5rRtMKYh3BCkBMho7Z18oOIdKjeO5rnezOaSFSREBJLrvGrWw5vTcNFZM%2Fa7hJHIfiZnFEMMsiENOv57yDggABMbW4rSIH%2FtntBjeWBbACgB59295T%2B3rPKHAjwyzw4ybgWxvwjQ%2BBYsU8XwlYfzFNjQqMAqKWOPtbCqSaS63TCwuyT3g5gCGQQTuIeUjvjg0xbeHRC8MoFUEkecwaljWstbybuldI0vjA1dfuiZdkHXv9i30gPjW%2Fiax%2FaTb32Z0ehWYx1Rf0CgEKnu6rCD5%2BHaLZ3s4%2Bv2CM2DDcvE2%2BmIvWg7cGNM%2F9o%2BhjYnI%2ByPv%2Fddbt0PXoGGEraJp3mLB06Ad8PrqqrEbBVZMU%2Fsg12Dv4vGpmaa6npLg2vHU09daXRMYsgpUSn%2F%2F42quinaltC%2BV9eXmHroCYXKtW6nqx4ZvseyT%2Fy5U3tTs5A2mHCHFGOH4mLik6SYNACwW0MMerq9AGOqUBGu4KGoBUy21eTjfRVnBz88SjMr8KAnfxjHtHqadbaql0Tj5oc5FQW5%2B0kHc2XHACz2inav3MsRXgMGHQ%2B6eyhy3VA5KqogEAD4Od9rPiSJ4%2By%2FLomsNMvB02kHBUvf6uGi%2BStg4PEaqpEMv6uc3xx9K6ZgwODP7p%2Bv3zM2bi3y9XZYO%2BVb3oDWzd%2FP0BXnlL73acYzasFPV5xLPdFs1pEHsO27bS&X-Amz-Signature=de77bbb6a0023aeb920c84228905b7d9d55eaecec0b74d26ef2b5dc1bf289c56&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ROCDWOES%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBP5X7wFfM4HNHV6Zpsx%2BDmc0bYI0qc6c1mZM%2BOJgDNQAiEA1IDIG9G9vHiU4YhR%2FYrVQcCLVJlxYGINZXgp5IH3JlAqiAQIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDM4XjIE8vpUGX9Y8qCrcA%2FxRPA5qJUY14%2BrqS1cvAl3Vym%2Bnop7XU6ZpFl8%2BG15%2Fea4zO9HSnodtdH6oXe7YMiR6se1uPMvK6CoEgpT6HbMbJv7Se3I4JJcRPcaM0Ay3ulWN%2FzYr8cTcPmEKRJG2wNxw5k6f6fV0mNiNyBzyRjEFj5qDOsYy9nxj6N0sp12uXyMX%2F26M9CYC9Ibg3GQcXO8DT7rlcsjFAg41Vs7NQ%2FPQI%2F6EIN%2BVGw5aUi4aCp4u1a1R36dG2MnieGp%2FlZ8JyEtE0%2Fby3u91pnzw0gSjRHckSpiTMYJj8Ee5ceHI4fSbXyXUeue7jNV6M6q67CU4vG4qS69VJ3CzicE3adFMOhcPfFSf9a8nsdIeqGaqbMaJCBEUDneZ4Y0bWh%2BI4bLpwDxBgmRzjeAOrh%2BCUlVkhzN1QAKr3jNx%2BYfCGQYTrCS3w2uxM4fE1%2FC8SHlOhG7ajOMixWlwnzBFAeWmPuhmdS9bYpyrmW7qXpfrz%2B07tvAKtAGevbKYSDJ5Rst5RZBNcEoBMDroWUu0Jy7uFoqIwgPlYQ7ZkHYFCi4Asa2iy7Aswp%2BThC75t5XCccE8aWRFgSx4Y4u8q%2B%2FVoytzT1u81GWN9PZ4nzILZvJ4K3PguCz%2FgThLc3cywFml1d3XMKm4rNAGOqUBaUDxSMM1o%2FZ6%2FSfFGwOwdvsOEaFcfH70kmYoCruFQgevA%2FbDlwKeJ%2FRrkUDAib8ser7gbaLhGzzJpBD5%2BZxzwkTw3VNoPO%2BjOFzcC5CMsFX2CilxlQTiPrewTgEkitXYxKYZySsG17TW5fnk9Hk8W0t1K37CRKRox%2B27T%2FmfIX7s2bHGdFdEyb8YkQWi7EMfLxfLLm1kLQ%2BfBaxdK044%2B53tJ%2Brp&X-Amz-Signature=59d43adadc1190a01a19f99480b3b7af1056d95b1a2db10c4ab4ea8e97821572&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Erreur-de-saisie-sur-les-remises-manuelle-g-n-rant-un-montant-de-s-jour-faux-3178db15623a8079a34be124df5b756a"
     },
@@ -6822,7 +6901,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA77.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TEROUD2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093503Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB0RPSFk7ojnOWqtxwYZJyFd91YWQbDUovJFX1mT0Y44AiEA4UWF48c6THTaHdzBTHtyrDkgncfhgzdNVEBAvs9gwj0qiAQIuv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPwdkOBWhkakuuhI9yrcA%2BoUevd7kcKYjZI68AMjK3WTiFejqrE0JRvv5JUPO%2F0YC0mBjfpJQQdz7B1zxDodwiZn9vEnFmRvUON7wwJcWK59gnr4nLWiVz8VRmVhwYhav7VVXt4ite2c09fNP5tl0QsbxiinvgLtIDwFXaxZtN09aNMd5382IRb2YxEtxv5rRtMKYh3BCkBMho7Z18oOIdKjeO5rnezOaSFSREBJLrvGrWw5vTcNFZM%2Fa7hJHIfiZnFEMMsiENOv57yDggABMbW4rSIH%2FtntBjeWBbACgB59295T%2B3rPKHAjwyzw4ybgWxvwjQ%2BBYsU8XwlYfzFNjQqMAqKWOPtbCqSaS63TCwuyT3g5gCGQQTuIeUjvjg0xbeHRC8MoFUEkecwaljWstbybuldI0vjA1dfuiZdkHXv9i30gPjW%2Fiax%2FaTb32Z0ehWYx1Rf0CgEKnu6rCD5%2BHaLZ3s4%2Bv2CM2DDcvE2%2BmIvWg7cGNM%2F9o%2BhjYnI%2ByPv%2Fddbt0PXoGGEraJp3mLB06Ad8PrqqrEbBVZMU%2Fsg12Dv4vGpmaa6npLg2vHU09daXRMYsgpUSn%2F%2F42quinaltC%2BV9eXmHroCYXKtW6nqx4ZvseyT%2Fy5U3tTs5A2mHCHFGOH4mLik6SYNACwW0MMerq9AGOqUBGu4KGoBUy21eTjfRVnBz88SjMr8KAnfxjHtHqadbaql0Tj5oc5FQW5%2B0kHc2XHACz2inav3MsRXgMGHQ%2B6eyhy3VA5KqogEAD4Od9rPiSJ4%2By%2FLomsNMvB02kHBUvf6uGi%2BStg4PEaqpEMv6uc3xx9K6ZgwODP7p%2Bv3zM2bi3y9XZYO%2BVb3oDWzd%2FP0BXnlL73acYzasFPV5xLPdFs1pEHsO27bS&X-Amz-Signature=b4c783c76d93ccbe8db20f0995c9201aab23c71433b71eddce66844bca42f936&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ROCDWOES%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBP5X7wFfM4HNHV6Zpsx%2BDmc0bYI0qc6c1mZM%2BOJgDNQAiEA1IDIG9G9vHiU4YhR%2FYrVQcCLVJlxYGINZXgp5IH3JlAqiAQIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDM4XjIE8vpUGX9Y8qCrcA%2FxRPA5qJUY14%2BrqS1cvAl3Vym%2Bnop7XU6ZpFl8%2BG15%2Fea4zO9HSnodtdH6oXe7YMiR6se1uPMvK6CoEgpT6HbMbJv7Se3I4JJcRPcaM0Ay3ulWN%2FzYr8cTcPmEKRJG2wNxw5k6f6fV0mNiNyBzyRjEFj5qDOsYy9nxj6N0sp12uXyMX%2F26M9CYC9Ibg3GQcXO8DT7rlcsjFAg41Vs7NQ%2FPQI%2F6EIN%2BVGw5aUi4aCp4u1a1R36dG2MnieGp%2FlZ8JyEtE0%2Fby3u91pnzw0gSjRHckSpiTMYJj8Ee5ceHI4fSbXyXUeue7jNV6M6q67CU4vG4qS69VJ3CzicE3adFMOhcPfFSf9a8nsdIeqGaqbMaJCBEUDneZ4Y0bWh%2BI4bLpwDxBgmRzjeAOrh%2BCUlVkhzN1QAKr3jNx%2BYfCGQYTrCS3w2uxM4fE1%2FC8SHlOhG7ajOMixWlwnzBFAeWmPuhmdS9bYpyrmW7qXpfrz%2B07tvAKtAGevbKYSDJ5Rst5RZBNcEoBMDroWUu0Jy7uFoqIwgPlYQ7ZkHYFCi4Asa2iy7Aswp%2BThC75t5XCccE8aWRFgSx4Y4u8q%2B%2FVoytzT1u81GWN9PZ4nzILZvJ4K3PguCz%2FgThLc3cywFml1d3XMKm4rNAGOqUBaUDxSMM1o%2FZ6%2FSfFGwOwdvsOEaFcfH70kmYoCruFQgevA%2FbDlwKeJ%2FRrkUDAib8ser7gbaLhGzzJpBD5%2BZxzwkTw3VNoPO%2BjOFzcC5CMsFX2CilxlQTiPrewTgEkitXYxKYZySsG17TW5fnk9Hk8W0t1K37CRKRox%2B27T%2FmfIX7s2bHGdFdEyb8YkQWi7EMfLxfLLm1kLQ%2BfBaxdK044%2B53tJ%2Brp&X-Amz-Signature=6bb85426798d370e69e2a3c394c43ec3d2c9f74ee743bae08daf2f295e62f221&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/WEB-LOGICIEL-Check-In-Scan-partie-1-Mapping-envoi-Naxi-G-vers-CiS-3118db15623a81c78ca4f07fb87f2047"
     },
@@ -8200,7 +8279,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA29.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667LH7EKK2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T093504Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAKwfXYziVrfuGosWpb35x7yQNkMZ0kmuDZdhosg%2FMgtAiEA7eTQKJCMBe6SiPX0SSvBT7hYjPQRmWbxZcefD2aHxK0qiAQIuv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIcvNvnWuWTnBWFk9ircA0CCESCrwJbgoSqyIew5037v7vkemzMllClQUgH0J7NrtgykDVzFRtV2YrYXlw%2FzdoilEpMMLhsCWGMw3UrgheRB76hlbpPtWCE%2FLmVYtzm1EOSS755z94%2F6Yos4PYF3mZrItXipu5k1G03u0uyfubiBFmMhcU3jJKZ8NaMa%2BTA68R7lj0iqBmVmSFAjCHCmyD9SJ1mdasi60t3Iecot%2Bsk29Rl6oqp7rSFwQXS5%2FOX7dH32HSUR3%2BAGoXNbiTJfUsN8q2ITJH1llW%2BluKiQ%2BuNb88bo%2F9ABj6p6raBBTcLofVbKSgMbbPUiCXz3rDmTZFX2oC57Ysq88f4Ztxvv94tkeddNtPr3iUaI3TmjZu%2F%2B2rFFODcMVuokCZKu0Mwjaqe%2F4uDX%2BXxSLRwXJMg70VPDuR0c8W1dOVKBspGOE3DMeQOhr%2FYPf4ifI%2BJyxdCN8MpD8lAPWhTXHFwaCGtIhaEVZ34OyD5crm3k9PMLRWUsk1MX%2FquM8F99T0hYueACvbIzqhnX9paNgPAy8SRM936W%2BINc1BUqprzIDw33dPzlLHDv2Inlk%2BGTqwb66EAR6ji6aWkaGSh8guxgpjvjciFAqr%2B5DV52IRCnfjupMrSr%2F3KDfTTtXgAUgaA7MJOpq9AGOqUB8hMd9x6EHd322UB%2FuE4LyPz59W7I%2Bz31FeffpGCvEURY04E%2BZZpWwaLDQnK7MFCqAB1DjEvAcC29fpT%2BIXNh2cn6s7J52xPyka9sMyE3NFiwwCakBsOlpULqFRNZLgnvFBzflhAeL1aWNpj9FJ4%2FXmkcw7eO%2FrsjX3Y04AmiXQC99WDXfczZPO74EFYauNzi1%2BpcqcktJXG1vBqhIZlPNvaWCTTt&X-Amz-Signature=0a0436206831bc8e7a4ba35fbcf7594ae94eb563ad01f036dbf2efc48e957a4f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XFIM5GV2%2F20260518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260518T145341Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCrDS8PwbGbW8S1sVyIIhlywnU%2F9yh5CXVToF6J8YWOOgIhAOixUi8PxE3YqnJIHr0Tzhe8T5aspFOBMZdptzP3%2FFk%2FKogECL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwVJMEh3R2kLIQsU6oq3ANguW9aNKnPJz7TwGT%2BcKz9URrDjnysr%2FJYyuKpsiBXK8K3FA7CgT9VaiwnE172fCa3yRQ2E6yvQ6%2FkYm2kQDRjUlgqBX0boWr2StnJsOYSINxh23sQUznWMQHk18ILxjZpuCggnm2jldoTv9Ba3JDhW7WICrKSU4sMitp1wMXOOXQfVWDp0qaKNJhK5Lhf07WMJR0%2B6f2EwO8HRpENMnW%2FzN1Cn2OuJhLWpm1wiJzhBmVVvJEZQBzzyjF1T0ANhjyrL2nZb%2FDvxs9ouQaySjXew6rBvKOH%2FmvXjQquK8XOwXSz8FrRxniZmJMVo0oyU2i1XEv7sNvoMxovcGkaeF0%2BjzOmkPI9d5WjBcWzHbjTfBT4MZm2ngjMcabwbwF3rsHO5Tl95G18eo2ZNWCi0TPoXSaa6E7Cl64AoXzrBPgoDGdjiVLcD7KpQKWiWVeV4a%2FDdulivWGoizj%2BTgGRsio9ZiyB5ue0El7yW40ZxRyJDYitRndjyY2q6LQF3hPmgeOS%2FBrLJCcdQt04HKT%2FnOWNYh7Enl3h0gYdIwOQflJp4SGacC7FtstBTwLZff3ajyeNhgMuBUaxDQj3mfo%2Bdnm%2FIrHtisAHbJQwhX%2FLI%2FHRb3zVnKkABf%2FjsYqVdzDitqzQBjqkAVG3LAyPrro3%2F%2BSm%2FKm7W19IJpNHSgMHNgBb8DaRLwU72i4Rkg3PgB%2FWRDLFKFFAeaL0wTUtXr6Z0OZPSEW47j%2FxK3w9pX8DqZNHOCp7bw%2F8g3TEDMneCFeOQeIl5Y%2BYeIoPgq8f7t7F5rWp%2BWD3wLbninBIotbGmspKWCK9cluqEiqR5FmLqW5XudiC9Si7aEO93oFkI2sVs%2FvWe5uEedRtGjJn&X-Amz-Signature=64e012a91510310aa99e7a30d1dd1e08032b93a560400df24713ca673389dba7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-NORME-V19-3118db15623a8078a611ffceac61cd6e"
     },
@@ -8760,8 +8839,8 @@
       "identifiant": "INA-12",
       "titre": "[LOGICIEL] Naxi Cod - Log erreur - fichier trop volumineux",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A etudier",
-      "priorisation": "Moyenne",
+      "statut": "A planifier",
+      "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
       ],
@@ -9086,6 +9165,7 @@
       "id": "3648db15-623a-809f-bdba-cf8421e20ad9",
       "idTopLine": 88,
       "fenetre": "To do",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -9105,8 +9185,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -9147,6 +9226,7 @@
       "id": "3488db15-623a-80e7-a521-fda2f82d5596",
       "idTopLine": 82,
       "fenetre": "détails des transactions",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -9166,14 +9246,12 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [
           "Denis"
         ],
         "front": [
-          "Albert (UX)",
           "Albert (Front)"
         ],
         "design": [
@@ -9215,6 +9293,7 @@
       "id": "3258db15-623a-80b7-a82f-cb0243c89e54",
       "idTopLine": 81,
       "fenetre": "Remise en banque",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -9234,14 +9313,12 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [
           "Rachid"
         ],
         "front": [
-          "Albert (UX)",
           "Albert (Front)"
         ],
         "design": [
@@ -9272,7 +9349,7 @@
       },
       "contributeursReels": [
         "Agathe",
-        "Albert",
+        "Albert (UX)",
         "Jérôme",
         "Caroline",
         "Ines",
@@ -9292,6 +9369,7 @@
       "id": "3258db15-623a-808a-85ea-e18bd4888d64",
       "idTopLine": 80,
       "fenetre": "Controle de Caisse",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -9311,14 +9389,12 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [
           "Denis"
         ],
         "front": [
-          "Albert (UX)",
           "Albert (Front)"
         ],
         "design": [
@@ -9361,6 +9437,7 @@
       "id": "3118db15-623a-806c-9003-d6a37bbcc876",
       "idTopLine": 79,
       "fenetre": "Listing occupation",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -9380,8 +9457,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [
           "Cédric.F"
@@ -9417,7 +9493,7 @@
       },
       "contributeursReels": [
         "Agathe",
-        "Albert",
+        "Albert (UX)",
         "Jérôme",
         "Caroline",
         "Ines",
@@ -9428,13 +9504,14 @@
       "lienMaquette": "https://naxigestionfront-prepa.vercel.app/",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-251",
       "remarques": "",
-      "lastEdited": "2026-05-18T06:04:00.000Z",
+      "lastEdited": "2026-05-18T14:27:00.000Z",
       "url": "https://www.notion.so/Listing-occupation-3118db15623a806c9003d6a37bbcc876"
     },
     {
       "id": "3118db15-623a-8000-a66c-f364b01aea44",
       "idTopLine": 78,
       "fenetre": "Historiques des ventes",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -9454,8 +9531,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [
           "Cédric.F"
@@ -9491,7 +9567,7 @@
       },
       "contributeursReels": [
         "Agathe",
-        "Albert",
+        "Albert (UX)",
         "Jérôme",
         "Caroline",
         "Ines",
@@ -9510,6 +9586,7 @@
       "id": "3108db15-623a-8059-bd0b-c46cf046cd65",
       "idTopLine": 77,
       "fenetre": "Fiche séjour  - finalisation",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -9529,8 +9606,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [],
         "front": [],
@@ -9571,6 +9647,7 @@
       "id": "3108db15-623a-8007-b806-e7d7b5926dc6",
       "idTopLine": 74,
       "fenetre": "FS - Modif séjour (justificatif)",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -9590,8 +9667,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -9632,6 +9708,7 @@
       "id": "3108db15-623a-8080-b2de-cff057386b2c",
       "idTopLine": 73,
       "fenetre": "FS - Caution + restituer",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -9651,8 +9728,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [],
         "front": [],
@@ -9693,6 +9769,7 @@
       "id": "3108db15-623a-80e9-9e75-c230842b40b1",
       "idTopLine": 72,
       "fenetre": "FS - Intervention",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -9712,8 +9789,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [],
         "front": [],
@@ -9754,6 +9830,7 @@
       "id": "3108db15-623a-8026-b821-f78465d6b1c5",
       "idTopLine": 71,
       "fenetre": "FS -Cashless (listing, créer, badge)",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -9773,8 +9850,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [],
         "front": [],
@@ -9815,6 +9891,7 @@
       "id": "3108db15-623a-80af-afcf-d36aea8da415",
       "idTopLine": 70,
       "fenetre": "FS - Inventaire",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -9834,8 +9911,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [],
         "front": [],
@@ -9876,6 +9952,7 @@
       "id": "3108db15-623a-809f-848b-ddfcd22add69",
       "idTopLine": 69,
       "fenetre": "FS - Annuler séjour (si paiement)",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -9895,8 +9972,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [],
         "front": [],
@@ -9937,6 +10013,7 @@
       "id": "3108db15-623a-8085-bab1-d02b691e1640",
       "idTopLine": 68,
       "fenetre": "FS - Créer un avoir",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -9956,8 +10033,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -9998,6 +10074,7 @@
       "id": "3108db15-623a-80fa-b396-c5573af3f7ca",
       "idTopLine": 67,
       "fenetre": "FS - Facturer",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -10017,8 +10094,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -10059,6 +10135,7 @@
       "id": "3108db15-623a-80eb-8afb-d65c2c203f6e",
       "idTopLine": 66,
       "fenetre": "FS - Contrôle d’accès (ajouter/modifier)",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -10078,8 +10155,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -10120,6 +10196,7 @@
       "id": "3108db15-623a-8096-aa99-d522e071409a",
       "idTopLine": 65,
       "fenetre": "FS - Ajouter / modifier Animaux",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -10139,8 +10216,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -10181,6 +10257,7 @@
       "id": "3108db15-623a-80c7-b484-c8d44e8f394e",
       "idTopLine": 64,
       "fenetre": "FS - Ajouter / modifier Immat voiture",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -10200,8 +10277,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [],
         "front": [],
@@ -10242,6 +10318,7 @@
       "id": "3108db15-623a-809f-836f-f61d618208dc",
       "idTopLine": 63,
       "fenetre": "FS - Scan PI",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -10261,8 +10338,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [],
         "front": [],
@@ -10303,6 +10379,7 @@
       "id": "3108db15-623a-807d-ab18-dc32070ed4ad",
       "idTopLine": 62,
       "fenetre": "FS -Afficher tous les participants",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -10322,8 +10399,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [],
         "front": [],
@@ -10364,6 +10440,7 @@
       "id": "3108db15-623a-8033-bdc2-f2676fc02342",
       "idTopLine": 61,
       "fenetre": "FS - Paiement",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -10383,8 +10460,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -10425,6 +10501,7 @@
       "id": "3108db15-623a-805b-89f4-ea96b3404809",
       "idTopLine": 58,
       "fenetre": "FS - Grille Suppl.",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -10444,8 +10521,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [],
         "front": [],
@@ -10486,6 +10562,7 @@
       "id": "3108db15-623a-8069-a984-d66e15249587",
       "idTopLine": 56,
       "fenetre": "FS - Ajouter Remise",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -10505,8 +10582,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [],
         "front": [],
@@ -10547,6 +10623,7 @@
       "id": "3108db15-623a-80c8-8396-ca7ac906408d",
       "idTopLine": 54,
       "fenetre": "Créer compte FID",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE CLIENT",
       "numGroupe": null,
       "module": "",
@@ -10566,8 +10643,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -10608,6 +10684,7 @@
       "id": "3108db15-623a-803d-9fa4-d11bb5caf126",
       "idTopLine": 50,
       "fenetre": "GESTION MAILS - Finalisation",
+      "projet": "Naxi G Full Saas",
       "groupe": "GESTION MAILS",
       "numGroupe": null,
       "module": "",
@@ -10627,8 +10704,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -10669,6 +10745,7 @@
       "id": "3108db15-623a-8046-a892-ff0bc03935e2",
       "idTopLine": 49,
       "fenetre": "PLANNING - finalisation",
+      "projet": "Naxi G Full Saas",
       "groupe": "PLANNING",
       "numGroupe": null,
       "module": "",
@@ -10688,8 +10765,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -10730,6 +10806,7 @@
       "id": "3108db15-623a-80b7-9bca-d43566450bf2",
       "idTopLine": 40,
       "fenetre": "FS - Ajouter Supplément",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -10749,8 +10826,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [],
         "front": [],
@@ -10791,6 +10867,7 @@
       "id": "3108db15-623a-803f-901b-f8d05665eb44",
       "idTopLine": 38,
       "fenetre": "DEVIS - finalisation",
+      "projet": "Naxi G Full Saas",
       "groupe": "PRE-RESERVATION (Devis)",
       "numGroupe": null,
       "module": "",
@@ -10810,8 +10887,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -10852,6 +10928,7 @@
       "id": "3108db15-623a-8005-bcaf-cb863397d027",
       "idTopLine": 34,
       "fenetre": "Prolonger devis",
+      "projet": "Naxi G Full Saas",
       "groupe": "PRE-RESERVATION (Devis)",
       "numGroupe": null,
       "module": "",
@@ -10871,8 +10948,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -10913,6 +10989,7 @@
       "id": "3108db15-623a-80f2-81b2-c128614b9f2c",
       "idTopLine": 33,
       "fenetre": "Gestion des devis",
+      "projet": "Naxi G Full Saas",
       "groupe": "PRE-RESERVATION (Devis)",
       "numGroupe": null,
       "module": "",
@@ -10932,8 +11009,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -10974,6 +11050,7 @@
       "id": "3108db15-623a-805f-b66a-e261eede739a",
       "idTopLine": 32,
       "fenetre": "Devis - détails des calculs",
+      "projet": "Naxi G Full Saas",
       "groupe": "PRE-RESERVATION (Devis)",
       "numGroupe": null,
       "module": "",
@@ -10993,8 +11070,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -11035,6 +11111,7 @@
       "id": "3108db15-623a-8029-9b95-d03d075b8e3b",
       "idTopLine": 31,
       "fenetre": "Planning - rech dispo",
+      "projet": "Naxi G Full Saas",
       "groupe": "PLANNING",
       "numGroupe": null,
       "module": "",
@@ -11054,8 +11131,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [
           "Loic"
@@ -11098,6 +11174,7 @@
       "id": "3108db15-623a-8069-a77d-ebe44fddf4f1",
       "idTopLine": 30,
       "fenetre": "VENTES HORS SEJOUR - Finalisation",
+      "projet": "Naxi G Full Saas",
       "groupe": "VENTES HORS SEJOUR",
       "numGroupe": null,
       "module": "",
@@ -11117,8 +11194,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -11159,6 +11235,7 @@
       "id": "3108db15-623a-8017-abfe-e377c07de1b5",
       "idTopLine": 29,
       "fenetre": "Envoi mails + template auto + gestion pièces jointes",
+      "projet": "Naxi G Full Saas",
       "groupe": "GESTION MAILS",
       "numGroupe": null,
       "module": "",
@@ -11178,8 +11255,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -11220,6 +11296,7 @@
       "id": "3108db15-623a-808f-bef7-d02783c1a2e8",
       "idTopLine": 28,
       "fenetre": "Report solde",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE CLIENT",
       "numGroupe": null,
       "module": "",
@@ -11239,8 +11316,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -11281,6 +11357,7 @@
       "id": "3108db15-623a-80c1-94fd-d0ec9b31478c",
       "idTopLine": 27,
       "fenetre": "Duplication séjours",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE CLIENT",
       "numGroupe": null,
       "module": "",
@@ -11300,8 +11377,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -11342,6 +11418,7 @@
       "id": "3108db15-623a-80f0-9788-f61e6d51bb8b",
       "idTopLine": 26,
       "fenetre": "Docs clients",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE CLIENT",
       "numGroupe": null,
       "module": "",
@@ -11361,8 +11438,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -11403,6 +11479,7 @@
       "id": "3108db15-623a-80bc-afa9-faa7e779cdb8",
       "idTopLine": 25,
       "fenetre": "Alertes (to do list)",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE CLIENT",
       "numGroupe": null,
       "module": "",
@@ -11422,8 +11499,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -11464,6 +11540,7 @@
       "id": "3108db15-623a-8080-8bc9-f45ac368b723",
       "idTopLine": 24,
       "fenetre": "CRM",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE CLIENT",
       "numGroupe": null,
       "module": "",
@@ -11483,8 +11560,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -11525,6 +11601,7 @@
       "id": "3108db15-623a-8034-b32b-ec46d986d4b0",
       "idTopLine": 23,
       "fenetre": "Voir les participants",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE CLIENT",
       "numGroupe": null,
       "module": "",
@@ -11544,8 +11621,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -11586,6 +11662,7 @@
       "id": "3108db15-623a-8086-a5fa-f24fa6e1b473",
       "idTopLine": 22,
       "fenetre": "FICHE CLIENT - Finalisation",
+      "projet": "Naxi G Full Saas",
       "groupe": "FICHE CLIENT",
       "numGroupe": null,
       "module": "",
@@ -11605,8 +11682,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -11647,6 +11723,7 @@
       "id": "3108db15-623a-80c2-9deb-f401ff4b9c83",
       "idTopLine": 21,
       "fenetre": "Traitement auto",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -11666,8 +11743,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -11697,7 +11773,9 @@
         "design": 0,
         "test": 0
       },
-      "contributeursReels": [],
+      "contributeursReels": [
+        "Jérôme"
+      ],
       "lienMaquette": "https://naxigestionfront-prepa.vercel.app/",
       "lienJira": null,
       "remarques": "",
@@ -11708,6 +11786,7 @@
       "id": "3108db15-623a-802c-87f1-fabb2712dc71",
       "idTopLine": 20,
       "fenetre": "Télémaintenance",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -11727,8 +11806,7 @@
         "maquette": [
           "Albert (UX)",
           "Agathe",
-          "Jérôme",
-          "Albert (Front)"
+          "Jérôme"
         ],
         "back": [
           "Loic"
@@ -11764,7 +11842,7 @@
       },
       "contributeursReels": [
         "Agathe",
-        "Albert",
+        "Albert (UX)",
         "Jérôme",
         "Caroline",
         "Ines",
@@ -11783,6 +11861,7 @@
       "id": "3108db15-623a-80cf-aa8d-ca854e48dd28",
       "idTopLine": 19,
       "fenetre": "Ventes réception",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -11802,8 +11881,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [
           "Loic"
@@ -11848,6 +11926,7 @@
       "id": "3108db15-623a-8070-9c85-d24ac71ca8b4",
       "idTopLine": 17,
       "fenetre": "Recherche client",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -11867,8 +11946,7 @@
         "maquette": [
           "Albert (UX)",
           "Agathe",
-          "Jérôme",
-          "Albert (Front)"
+          "Jérôme"
         ],
         "back": [
           "Cédric.F"
@@ -11903,7 +11981,7 @@
         "test": 0
       },
       "contributeursReels": [
-        "Albert",
+        "Albert (UX)",
         "Jérôme",
         "Ines",
         "Sylvain",
@@ -11919,6 +11997,7 @@
       "id": "3108db15-623a-80db-b784-c8d97d57d3e8",
       "idTopLine": 16,
       "fenetre": "Recherche dispo",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -11938,8 +12017,7 @@
         "maquette": [
           "Agathe",
           "Albert (UX)",
-          "Jérôme",
-          "Albert (Front)"
+          "Jérôme"
         ],
         "back": [
           "Cédric.F"
@@ -11988,6 +12066,7 @@
       "id": "3108db15-623a-8099-8834-c873b8a5189a",
       "idTopLine": 15,
       "fenetre": "Listing indispo",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -12007,8 +12086,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [
           "Cédric.F"
@@ -12044,7 +12122,7 @@
       },
       "contributeursReels": [
         "Agathe",
-        "Albert",
+        "Albert (UX)",
         "Jérôme",
         "Caroline",
         "Ines",
@@ -12062,6 +12140,7 @@
       "id": "3108db15-623a-80ad-aaea-c71e0389d225",
       "idTopLine": 13,
       "fenetre": "Liste des cautions",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -12081,8 +12160,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [
           "Loic"
@@ -12118,7 +12196,7 @@
       },
       "contributeursReels": [
         "Agathe",
-        "Albert",
+        "Albert (UX)",
         "Jérôme",
         "Caroline",
         "Ines",
@@ -12137,6 +12215,7 @@
       "id": "3108db15-623a-807d-b76f-fd0dc006e555",
       "idTopLine": 11,
       "fenetre": "Planning sup. numéroté",
+      "projet": "Naxi G Full Saas",
       "groupe": "PLANNING",
       "numGroupe": null,
       "module": "",
@@ -12156,8 +12235,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [
           "Loic",
@@ -12201,6 +12279,7 @@
       "id": "3108db15-623a-804f-8cbf-ee177c272a4d",
       "idTopLine": 10,
       "fenetre": "Rech dispo plan camping",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -12220,8 +12299,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [
           "Cédric.F"
@@ -12255,9 +12333,7 @@
         "design": 0,
         "test": 0
       },
-      "contributeursReels": [
-        "Rachid"
-      ],
+      "contributeursReels": [],
       "lienMaquette": "https://naxigestionfront-prepa.vercel.app/",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-50",
       "remarques": "",
@@ -12268,6 +12344,7 @@
       "id": "3108db15-623a-8031-863a-d72cad8e4457",
       "idTopLine": 9,
       "fenetre": "Controle d’accès",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -12287,8 +12364,7 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [
           "Loic"
@@ -12336,6 +12412,7 @@
       "id": "3108db15-623a-8065-8b19-ce3a08074f23",
       "idTopLine": 7,
       "fenetre": "Réservation a traiter",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -12355,8 +12432,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [
           "Cédric.F"
@@ -12399,6 +12475,7 @@
       "id": "3108db15-623a-80fd-bad6-df082fed2115",
       "idTopLine": 6,
       "fenetre": "Listing réservation",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -12418,14 +12495,12 @@
         "maquette": [
           "Albert (UX)",
           "Jérôme",
-          "Agathe",
-          "Albert (Front)"
+          "Agathe"
         ],
         "back": [
           "Cédric.F"
         ],
         "front": [
-          "Albert (UX)",
           "Albert (Front)"
         ],
         "design": [
@@ -12456,7 +12531,7 @@
       },
       "contributeursReels": [
         "Agathe",
-        "Albert",
+        "Albert (UX)",
         "Caroline",
         "Ines",
         "Loic",
@@ -12472,6 +12547,7 @@
       "id": "3108db15-623a-800b-a620-fa6e3c629ee4",
       "idTopLine": 5,
       "fenetre": "Listing séjours",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -12491,14 +12567,12 @@
         "maquette": [
           "Albert (UX)",
           "Agathe",
-          "Jérôme",
-          "Albert (Front)"
+          "Jérôme"
         ],
         "back": [
           "Loic"
         ],
         "front": [
-          "Albert (UX)",
           "Albert (Front)"
         ],
         "design": [
@@ -12529,7 +12603,7 @@
       },
       "contributeursReels": [
         "Agathe",
-        "Albert",
+        "Albert (UX)",
         "Jérôme",
         "Caroline",
         "Ines",
@@ -12547,6 +12621,7 @@
       "id": "3108db15-623a-80d3-95ea-c7695aa36dba",
       "idTopLine": 3,
       "fenetre": "HOME - Dasboard - Finalisation",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -12566,8 +12641,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -12608,6 +12682,7 @@
       "id": "3108db15-623a-80d9-89fc-c8350d408d13",
       "idTopLine": 2,
       "fenetre": "HOME - Menu Burger - Finalisation",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -12627,8 +12702,7 @@
         "maquette": [
           "Agathe",
           "Jérôme",
-          "Albert (UX)",
-          "Albert (Front)"
+          "Albert (UX)"
         ],
         "back": [],
         "front": [],
@@ -12669,6 +12743,7 @@
       "id": "3108db15-623a-8018-a8eb-d508e1528ae5",
       "idTopLine": 1,
       "fenetre": "Page de connexion",
+      "projet": "Naxi G Full Saas",
       "groupe": "HOME",
       "numGroupe": null,
       "module": "",
@@ -12688,8 +12763,7 @@
         "maquette": [
           "Albert (UX)",
           "Agathe",
-          "Jérôme",
-          "Albert (Front)"
+          "Jérôme"
         ],
         "back": [
           "Loic"
@@ -12727,8 +12801,7 @@
         "Agathe",
         "Caroline",
         "Loic",
-        "Cédric.V",
-        "Albert"
+        "Cédric.V"
       ],
       "lienMaquette": "https://embed-salon-34129728.figma.site",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-11",
@@ -12742,7 +12815,7 @@
       "id": "3648db15-623a-8025-a096-fbd480d7b215",
       "saisie": "",
       "semaine": "2026-03-16",
-      "personne": "Albert",
+      "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0.5,
       "etat": "En cours",
@@ -12755,6 +12828,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/3648db15623a8025a096fbd480d7b215"
     },
     {
@@ -12774,6 +12848,7 @@
       "fenetreGroupe": "FICHE CLIENT",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Alertes-to-do-list-3648db15623a810ca460e398b4085052"
     },
     {
@@ -12793,6 +12868,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Listing-s-jours-3648db15623a810da076efa319aed0ab"
     },
     {
@@ -12812,6 +12888,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Historiques-des-ventes-3648db15623a8111a7c1f77eb1692e13"
     },
     {
@@ -12831,6 +12908,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Listing-r-servation-3648db15623a812286ede96cc1e68cb1"
     },
     {
@@ -12850,6 +12928,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Paiement-3648db15623a81239201cadcf5136bca"
     },
     {
@@ -12869,6 +12948,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Contr-le-d-acc-s-ajouter-modifier-3648db15623a8127aa1bc28f58c4705a"
     },
     {
@@ -12888,6 +12968,7 @@
       "fenetreGroupe": "FICHE CLIENT",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Docs-clients-3648db15623a812b82a8e4dbe3d44ba7"
     },
     {
@@ -12907,6 +12988,7 @@
       "fenetreGroupe": "PLANNING",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Planning-rech-dispo-3648db15623a812db560d5e3b1b7e90c"
     },
     {
@@ -12926,6 +13008,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Intervention-3648db15623a8138b205c084b268355e"
     },
     {
@@ -12945,6 +13028,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Grille-Suppl-3648db15623a813b880dc66a51b6821c"
     },
     {
@@ -12964,6 +13048,7 @@
       "fenetreGroupe": "FICHE CLIENT",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Cr-er-compte-FID-3648db15623a813ca8effe12ab9e61d7"
     },
     {
@@ -12983,6 +13068,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/HOME-Dasboard-Finalisation-3648db15623a8144a8d5de37efad1001"
     },
     {
@@ -13002,6 +13088,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Ajouter-modifier-Immat-voiture-3648db15623a81468866f75d87d01138"
     },
     {
@@ -13021,13 +13108,14 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/HOME-Menu-Burger-Finalisation-3648db15623a81478112d1eff342f95e"
     },
     {
       "id": "3648db15-623a-8147-8443-efc4921d26c8",
       "saisie": "Traitement auto",
       "semaine": "2026-09-07",
-      "personne": null,
+      "personne": "Jérôme",
       "phase": "MAQUETTE",
       "avancement": 0,
       "etat": null,
@@ -13040,6 +13128,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Traitement-auto-3648db15623a81478443efc4921d26c8"
     },
     {
@@ -13059,6 +13148,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Inventaire-3648db15623a8147848dcd716913e406"
     },
     {
@@ -13078,6 +13168,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Cashless-listing-cr-er-badge-3648db15623a81479ff2fdc49456fada"
     },
     {
@@ -13097,6 +13188,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Cr-er-un-avoir-3648db15623a814d9739da4345c0ea52"
     },
     {
@@ -13116,6 +13208,7 @@
       "fenetreGroupe": "PRE-RESERVATION (Devis)",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Prolonger-devis-3648db15623a814f9409c6988e5ff997"
     },
     {
@@ -13135,6 +13228,7 @@
       "fenetreGroupe": "PRE-RESERVATION (Devis)",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Devis-d-tails-des-calculs-3648db15623a8155af81e13f9061313d"
     },
     {
@@ -13154,6 +13248,7 @@
       "fenetreGroupe": "GESTION MAILS",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/GESTION-MAILS-Finalisation-3648db15623a8158a93ce88769cc7ffb"
     },
     {
@@ -13173,6 +13268,7 @@
       "fenetreGroupe": "PRE-RESERVATION (Devis)",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Gestion-des-devis-3648db15623a815aa40ddb7576e9bd81"
     },
     {
@@ -13192,6 +13288,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Recherche-client-3648db15623a816098c6c876ff87da6c"
     },
     {
@@ -13211,6 +13308,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Page-de-connexion-3648db15623a816996d5f6815580672a"
     },
     {
@@ -13230,6 +13328,7 @@
       "fenetreGroupe": "FICHE CLIENT",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Voir-les-participants-3648db15623a816bb6b3f8ad685d1931"
     },
     {
@@ -13249,6 +13348,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Recherche-dispo-3648db15623a8174927dcea96e0da3e3"
     },
     {
@@ -13268,6 +13368,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/T-l-maintenance-3648db15623a81759969c5106ccf1eb6"
     },
     {
@@ -13287,6 +13388,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Fiche-s-jour-finalisation-3648db15623a81778a1cff1cc9057035"
     },
     {
@@ -13306,6 +13408,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Ajouter-Remise-3648db15623a81779d93cb2f74b7a0b2"
     },
     {
@@ -13325,6 +13428,7 @@
       "fenetreGroupe": "FICHE CLIENT",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/CRM-3648db15623a8177aa2fdfc3aa3504d4"
     },
     {
@@ -13344,6 +13448,7 @@
       "fenetreGroupe": "FICHE CLIENT",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Duplication-s-jours-3648db15623a817db1f4d6d26ea39c75"
     },
     {
@@ -13363,6 +13468,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Afficher-tous-les-participants-3648db15623a817e86dbe0307104c5e7"
     },
     {
@@ -13382,6 +13488,7 @@
       "fenetreGroupe": "PLANNING",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/PLANNING-finalisation-3648db15623a817f86d4c3833d506002"
     },
     {
@@ -13401,6 +13508,7 @@
       "fenetreGroupe": "PLANNING",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Planning-sup-num-rot-3648db15623a8181a898e3fccaf9ec1c"
     },
     {
@@ -13420,6 +13528,7 @@
       "fenetreGroupe": "VENTES HORS SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/VENTES-HORS-SEJOUR-Finalisation-3648db15623a81879319d432d9c03b40"
     },
     {
@@ -13439,6 +13548,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Listing-occupation-3648db15623a818db56fd1aef3c2751b"
     },
     {
@@ -13458,6 +13568,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Liste-des-cautions-3648db15623a818f9456d55fae458ea5"
     },
     {
@@ -13477,6 +13588,7 @@
       "fenetreGroupe": "GESTION MAILS",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Envoi-mails-template-auto-gestion-pi-ces-jointes-3648db15623a819baf64c669fbec012c"
     },
     {
@@ -13496,6 +13608,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/R-servation-a-traiter-3648db15623a819cb7bcc9fcde7a65e7"
     },
     {
@@ -13515,6 +13628,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Modif-s-jour-justificatif-3648db15623a81a39b06c6ac4abe8991"
     },
     {
@@ -13534,6 +13648,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Listing-indispo-3648db15623a81b489efdb4326c77525"
     },
     {
@@ -13553,6 +13668,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Ajouter-modifier-Animaux-3648db15623a81b59a48c069f00d681e"
     },
     {
@@ -13572,6 +13688,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/d-tails-des-transactions-3648db15623a81b88497d87c9b817bdf"
     },
     {
@@ -13591,6 +13708,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Controle-de-Caisse-3648db15623a81b89d5fe4511b2e33fa"
     },
     {
@@ -13610,6 +13728,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Remise-en-banque-3648db15623a81c59519fd7ae5d877cb"
     },
     {
@@ -13629,6 +13748,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/To-do-3648db15623a81c9b186ca9c2afbcd9a"
     },
     {
@@ -13648,6 +13768,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Facturer-3648db15623a81caa93dc39dc87d2a38"
     },
     {
@@ -13667,6 +13788,7 @@
       "fenetreGroupe": "FICHE CLIENT",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FICHE-CLIENT-Finalisation-3648db15623a81d29586da1526c855a6"
     },
     {
@@ -13686,6 +13808,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Scan-PI-3648db15623a81d8bf13dfb4a8b74337"
     },
     {
@@ -13705,6 +13828,7 @@
       "fenetreGroupe": "PRE-RESERVATION (Devis)",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/DEVIS-finalisation-3648db15623a81e19034f75e89f8af40"
     },
     {
@@ -13724,6 +13848,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Ajouter-Suppl-ment-3648db15623a81e79fdef2b0bf6fab85"
     },
     {
@@ -13743,6 +13868,7 @@
       "fenetreGroupe": "FICHE CLIENT",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Report-solde-3648db15623a81eaa531ea0ed3b4a903"
     },
     {
@@ -13762,6 +13888,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Rech-dispo-plan-camping-3648db15623a81efb99fd7cf0a82338f"
     },
     {
@@ -13781,6 +13908,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Caution-restituer-3648db15623a81efbc98f5e544d93734"
     },
     {
@@ -13800,6 +13928,7 @@
       "fenetreGroupe": "FICHE SEJOUR",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/FS-Annuler-s-jour-si-paiement-3648db15623a81f2b459f4dac52cc193"
     },
     {
@@ -13819,6 +13948,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Ventes-r-ception-3648db15623a81fa8b87eac711ce346d"
     },
     {
@@ -13838,6 +13968,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Controle-d-acc-s-3648db15623a81fdafabd1319ffa1bf2"
     },
     {
@@ -13857,6 +13988,7 @@
       "fenetreGroupe": null,
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": null,
       "url": "https://www.notion.so/3648db15623a80a89eead699ff66d328"
     },
     {
@@ -13876,13 +14008,14 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-V-T-l-maintenance-DESIGN-S15-35f8db15623a81038e7bdcae557a2713"
     },
     {
       "id": "35f8db15-623a-8103-a842-cd8e287b440b",
       "saisie": "Albert · Remise en banque · MAQUETTE · S16",
       "semaine": "2026-04-13",
-      "personne": "Albert",
+      "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 0.72,
       "etat": "En cours",
@@ -13895,6 +14028,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Albert-Remise-en-banque-MAQUETTE-S16-35f8db15623a8103a842cd8e287b440b"
     },
     {
@@ -13914,6 +14048,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-V-Liste-des-cautions-DESIGN-S16-35f8db15623a8105862ad4c357df75b9"
     },
     {
@@ -13933,6 +14068,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-F-Liste-des-cautions-BACK-S13-35f8db15623a8105b307c904ee306538"
     },
     {
@@ -13952,6 +14088,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Loic-Listing-r-servation-BACK-S12-35f8db15623a81068a75d9abadeb4a19"
     },
     {
@@ -13971,6 +14108,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Ines-Historiques-des-ventes-FRONT-S17-35f8db15623a8106b0c8fc9d5e669ecc"
     },
     {
@@ -13990,6 +14128,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-V-Listing-r-servation-DESIGN-S12-35f8db15623a81168233d73e5d292e4a"
     },
     {
@@ -14009,13 +14148,14 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/J-r-me-Liste-des-cautions-MAQUETTE-S14-35f8db15623a81169102fa622acb5494"
     },
     {
       "id": "35f8db15-623a-8116-b3af-c872673460e3",
       "saisie": "Albert · Télémaintenance · MAQUETTE · S14",
       "semaine": "2026-03-30",
-      "personne": "Albert",
+      "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 0.26,
       "etat": "En cours",
@@ -14028,6 +14168,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Albert-T-l-maintenance-MAQUETTE-S14-35f8db15623a8116b3afc872673460e3"
     },
     {
@@ -14047,6 +14188,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-F-Historiques-des-ventes-BACK-S15-35f8db15623a811a837bf48e53297889"
     },
     {
@@ -14066,6 +14208,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Rachid-Rech-dispo-plan-camping-BACK-S19-35f8db15623a811a927dcaecea5860fb"
     },
     {
@@ -14085,13 +14228,14 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Loic-Liste-des-cautions-BACK-S16-35f8db15623a81278811e4e4a6914170"
     },
     {
       "id": "35f8db15-623a-812e-8a63-c2eff9251836",
       "saisie": "Albert · Listing indispo · MAQUETTE · S13",
       "semaine": "2026-03-23",
-      "personne": "Albert",
+      "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 0.1,
       "etat": "En cours",
@@ -14104,6 +14248,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Albert-Listing-indispo-MAQUETTE-S13-35f8db15623a812e8a63c2eff9251836"
     },
     {
@@ -14123,6 +14268,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/J-r-me-Historiques-des-ventes-MAQUETTE-S16-35f8db15623a812ea54ffcc38359cca9"
     },
     {
@@ -14142,6 +14288,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-V-Remise-en-banque-DESIGN-S17-35f8db15623a81319c9bca80e3fa765b"
     },
     {
@@ -14161,6 +14308,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-F-Remise-en-banque-BACK-S14-35f8db15623a8137a8acf5df5bc506cf"
     },
     {
@@ -14180,6 +14328,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Caroline-Page-de-connexion-FRONT-S11-35f8db15623a813a8f6ccc464ef88274"
     },
     {
@@ -14199,6 +14348,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Ines-T-l-maintenance-FRONT-S14-35f8db15623a813ab529d35f4fcd2e6d"
     },
     {
@@ -14218,6 +14368,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Ines-Listing-s-jours-FRONT-S12-35f8db15623a8141bcbbe187f7764d83"
     },
     {
@@ -14237,6 +14388,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Caroline-Listing-s-jours-FRONT-S13-35f8db15623a8149acace8c67938a989"
     },
     {
@@ -14256,13 +14408,14 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-F-Recherche-client-BACK-S17-35f8db15623a814ab0b1c455d305cd10"
     },
     {
       "id": "35f8db15-623a-814e-bb8b-ff701ce572e2",
       "saisie": "Albert · Recherche client · MAQUETTE · S19",
       "semaine": "2026-05-04",
-      "personne": "Albert",
+      "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 1,
       "etat": "FAIT",
@@ -14275,6 +14428,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Albert-Recherche-client-MAQUETTE-S19-35f8db15623a814ebb8bff701ce572e2"
     },
     {
@@ -14294,6 +14448,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Sylvain-Remise-en-banque-FRONT-S15-35f8db15623a815d80a4ef238f19e14e"
     },
     {
@@ -14313,6 +14468,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-F-Listing-indispo-BACK-S11-35f8db15623a816d894bc939fcab2e19"
     },
     {
@@ -14332,6 +14488,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-F-Listing-occupation-BACK-S16-35f8db15623a816e83b3cd6f119bdc06"
     },
     {
@@ -14351,6 +14508,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Caroline-Listing-occupation-FRONT-S19-35f8db15623a816e8d80d3ec51728109"
     },
     {
@@ -14370,13 +14528,14 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/J-r-me-Listing-occupation-MAQUETTE-S17-35f8db15623a816f8ef7cbba71b9566e"
     },
     {
       "id": "35f8db15-623a-8170-8abc-dfd2ed7d53dd",
       "saisie": "Albert · Listing occupation · MAQUETTE · S18",
       "semaine": "2026-04-27",
-      "personne": "Albert",
+      "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 1,
       "etat": "FAIT",
@@ -14389,6 +14548,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Albert-Listing-occupation-MAQUETTE-S18-35f8db15623a81708abcdfd2ed7d53dd"
     },
     {
@@ -14408,6 +14568,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Denis-d-tails-des-transactions-BACK-S18-35f8db15623a8170a7eff0ad2dcaf17f"
     },
     {
@@ -14427,6 +14588,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Agathe-Listing-indispo-MAQUETTE-S14-35f8db15623a8172b8e0dd9e29ae9eb1"
     },
     {
@@ -14446,13 +14608,14 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Loic-Page-de-connexion-BACK-S11-35f8db15623a8172bdc5d369e9a56389"
     },
     {
       "id": "35f8db15-623a-8175-935a-edbc63248230",
       "saisie": "Albert · Liste des cautions · MAQUETTE · S15",
       "semaine": "2026-04-06",
-      "personne": "Albert",
+      "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 0.52,
       "etat": "En cours",
@@ -14465,6 +14628,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Albert-Liste-des-cautions-MAQUETTE-S15-35f8db15623a8175935aedbc63248230"
     },
     {
@@ -14484,6 +14648,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Ines-Remise-en-banque-FRONT-S16-35f8db15623a817988b4f48f26ed4f1a"
     },
     {
@@ -14503,6 +14668,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-V-Controle-de-Caisse-DESIGN-S19-35f8db15623a81798b7addc292171f90"
     },
     {
@@ -14522,6 +14688,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Caroline-Listing-indispo-FRONT-S14-35f8db15623a81838f4cf3e522129a44"
     },
     {
@@ -14541,6 +14708,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Loic-Listing-s-jours-BACK-S13-35f8db15623a81858eaddfc13a51ed9b"
     },
     {
@@ -14560,6 +14728,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-V-Historiques-des-ventes-DESIGN-S18-35f8db15623a81859a24f9013c385bd6"
     },
     {
@@ -14579,6 +14748,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Loic-Listing-indispo-BACK-S14-35f8db15623a8189a9b0e45faed8e35f"
     },
     {
@@ -14598,13 +14768,14 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Sylvain-Liste-des-cautions-FRONT-S14-35f8db15623a819284a7f9a0dedede9a"
     },
     {
       "id": "35f8db15-623a-819b-9dc0-f1a2148b251e",
       "saisie": "Albert · Listing réservation · MAQUETTE · S11",
       "semaine": "2026-03-09",
-      "personne": "Albert",
+      "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 0,
       "etat": "En cours",
@@ -14617,6 +14788,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Albert-Listing-r-servation-MAQUETTE-S11-35f8db15623a819b9dc0f1a2148b251e"
     },
     {
@@ -14636,6 +14808,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Caroline-Listing-r-servation-FRONT-S12-35f8db15623a81a284e7ec10a8a77b52"
     },
     {
@@ -14655,6 +14828,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Sylvain-Listing-indispo-FRONT-S12-35f8db15623a81a2a408e768c504382c"
     },
     {
@@ -14674,6 +14848,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Rachid-Remise-en-banque-BACK-S17-35f8db15623a81a6ab94c75595b8d674"
     },
     {
@@ -14693,6 +14868,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Agathe-Listing-occupation-MAQUETTE-S19-35f8db15623a81aaa87fdfe11d800dd2"
     },
     {
@@ -14712,6 +14888,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Loic-T-l-maintenance-BACK-S15-35f8db15623a81ab9863c5bd23e536e4"
     },
     {
@@ -14731,6 +14908,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Sylvain-Listing-occupation-FRONT-S17-35f8db15623a81ad8a9ae9988204e358"
     },
     {
@@ -14750,6 +14928,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Caroline-Liste-des-cautions-FRONT-S16-35f8db15623a81af8745e9e0b6b6f128"
     },
     {
@@ -14769,6 +14948,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Sylvain-T-l-maintenance-FRONT-S13-35f8db15623a81b28280db885c643fa7"
     },
     {
@@ -14788,6 +14968,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/J-r-me-T-l-maintenance-MAQUETTE-S13-35f8db15623a81b49385cdb23f080dff"
     },
     {
@@ -14807,6 +14988,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Agathe-T-l-maintenance-MAQUETTE-S15-35f8db15623a81b68f94d307acb2033b"
     },
     {
@@ -14826,6 +15008,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Sylvain-Recherche-client-FRONT-S18-35f8db15623a81b9b7defc7eb595352a"
     },
     {
@@ -14845,6 +15028,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Agathe-Listing-s-jours-MAQUETTE-S13-35f8db15623a81baa506d713bbee7baf"
     },
     {
@@ -14864,6 +15048,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-F-Controle-d-acc-s-BACK-S19-35f8db15623a81bc8585cd4561a0d24a"
     },
     {
@@ -14883,6 +15068,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Sylvain-Recherche-dispo-FRONT-S19-35f8db15623a81bda441c3e6ba92501e"
     },
     {
@@ -14902,6 +15088,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Agathe-Liste-des-cautions-MAQUETTE-S16-35f8db15623a81be944dc2156cc63ec3"
     },
     {
@@ -14921,6 +15108,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Ines-Listing-indispo-FRONT-S13-35f8db15623a81c1a577f6aa9f788250"
     },
     {
@@ -14940,6 +15128,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Ines-Recherche-client-FRONT-S19-35f8db15623a81c4859bd27d407bfd50"
     },
     {
@@ -14959,6 +15148,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Agathe-Remise-en-banque-MAQUETTE-S17-35f8db15623a81c4a075c4a1fec9bd06"
     },
     {
@@ -14978,13 +15168,14 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/J-r-me-Listing-s-jours-MAQUETTE-S11-35f8db15623a81c4b9a6cf36ac1e492b"
     },
     {
       "id": "35f8db15-623a-81c7-960e-fc8126b90297",
       "saisie": "Albert · Historiques des ventes · MAQUETTE · S17",
       "semaine": "2026-04-20",
-      "personne": "Albert",
+      "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 0.92,
       "etat": "En cours",
@@ -14997,6 +15188,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Albert-Historiques-des-ventes-MAQUETTE-S17-35f8db15623a81c7960efc8126b90297"
     },
     {
@@ -15016,6 +15208,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Sylvain-Historiques-des-ventes-FRONT-S16-35f8db15623a81c7ae90ec5e12741c33"
     },
     {
@@ -15035,6 +15228,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-F-Recherche-dispo-BACK-S18-35f8db15623a81ca973dc963ee48001c"
     },
     {
@@ -15054,6 +15248,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Denis-Controle-d-acc-s-BACK-S19-35f8db15623a81ce9118d8ca2ca7a956"
     },
     {
@@ -15073,6 +15268,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Caroline-Remise-en-banque-FRONT-S17-35f8db15623a81cfb1c3d4cc27f55086"
     },
     {
@@ -15092,6 +15288,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/J-r-me-Remise-en-banque-MAQUETTE-S15-35f8db15623a81d4a8e4c84af1d1dcb7"
     },
     {
@@ -15111,6 +15308,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Caroline-Historiques-des-ventes-FRONT-S18-35f8db15623a81d5b58cd3c7f6799ac1"
     },
     {
@@ -15130,6 +15328,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/J-r-me-Recherche-client-MAQUETTE-S18-35f8db15623a81d6a2d9fb9925d55398"
     },
     {
@@ -15149,6 +15348,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Loic-Remise-en-banque-BACK-S17-35f8db15623a81d8a10bd3fba188c0cf"
     },
     {
@@ -15168,6 +15368,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Ines-Listing-occupation-FRONT-S18-35f8db15623a81da9868c6efa0207add"
     },
     {
@@ -15187,6 +15388,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/J-r-me-Recherche-dispo-MAQUETTE-S19-35f8db15623a81db8874dde69ced13ad"
     },
     {
@@ -15206,6 +15408,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Agathe-Page-de-connexion-MAQUETTE-S11-35f8db15623a81dc9a99c57b3c4dbcd9"
     },
     {
@@ -15225,6 +15428,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Agathe-Listing-r-servation-MAQUETTE-S12-35f8db15623a81dd9abaefd07f694072"
     },
     {
@@ -15244,6 +15448,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Denis-Controle-de-Caisse-BACK-S17-35f8db15623a81dda993c9d1f9727c01"
     },
     {
@@ -15263,6 +15468,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Loic-Listing-occupation-BACK-S19-35f8db15623a81de9522d1f315a283b8"
     },
     {
@@ -15282,13 +15488,14 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-V-Page-de-connexion-DESIGN-S11-35f8db15623a81e0a9d3e1659aaaa130"
     },
     {
       "id": "35f8db15-623a-81e2-9e1c-d90b49badfdc",
       "saisie": "Albert · Listing séjours · MAQUETTE · S12",
       "semaine": "2026-03-16",
-      "personne": "Albert",
+      "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 0.07,
       "etat": "En cours",
@@ -15301,6 +15508,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Albert-Listing-s-jours-MAQUETTE-S12-35f8db15623a81e29e1cd90b49badfdc"
     },
     {
@@ -15320,6 +15528,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/J-r-me-Listing-indispo-MAQUETTE-S12-35f8db15623a81e2abc7e32a0e73d251"
     },
     {
@@ -15339,6 +15548,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Caroline-T-l-maintenance-FRONT-S15-35f8db15623a81e5a394eada8d95ee15"
     },
     {
@@ -15358,6 +15568,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-V-Listing-s-jours-DESIGN-S13-35f8db15623a81e9a458c5b4943b10a8"
     },
     {
@@ -15377,6 +15588,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Ines-Listing-r-servation-FRONT-S11-35f8db15623a81eb99bad67abf2ebf20"
     },
     {
@@ -15396,6 +15608,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Rachid-Historiques-des-ventes-BACK-S18-35f8db15623a81efbb99ff6eeeecb94f"
     },
     {
@@ -15415,6 +15628,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Sylvain-Listing-s-jours-FRONT-S11-35f8db15623a81f08d08c8381121f5d2"
     },
     {
@@ -15434,6 +15648,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/C-dric-F-T-l-maintenance-BACK-S12-35f8db15623a81f48748de5ca1dc5ad9"
     },
     {
@@ -15453,6 +15668,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Agathe-Historiques-des-ventes-MAQUETTE-S18-35f8db15623a81f795cce56fb342b3a0"
     },
     {
@@ -15472,6 +15688,7 @@
       "fenetreGroupe": "HOME",
       "fenetreNumGroupe": null,
       "fenetreNumModule": null,
+      "projet": "Naxi G Full Saas",
       "url": "https://www.notion.so/Ines-Liste-des-cautions-FRONT-S15-35f8db15623a81fd8f8aef93d01fb50f"
     }
   ],
@@ -15482,6 +15699,7 @@
       "metiers": [
         "FRONT"
       ],
+      "projets": [],
       "url": "https://www.notion.so/Albert-Front-3648db15623a80c3b2d7fbf664dc0e09"
     },
     {
@@ -15489,6 +15707,35 @@
       "nom": "Albert (UX)",
       "metiers": [
         "MAQUETTE"
+      ],
+      "projets": [
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas"
       ],
       "url": "https://www.notion.so/Albert-UX-35f8db15623a8155aa16d7a6f066747e"
     },
@@ -15498,6 +15745,35 @@
       "metiers": [
         "MAQUETTE"
       ],
+      "projets": [
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas"
+      ],
       "url": "https://www.notion.so/J-r-me-35f8db15623a8158b815e0012923008f"
     },
     {
@@ -15506,6 +15782,7 @@
       "metiers": [
         "BACK"
       ],
+      "projets": [],
       "url": "https://www.notion.so/Denis-35f8db15623a81649233e5945d32e5c1"
     },
     {
@@ -15514,6 +15791,7 @@
       "metiers": [
         "FRONT"
       ],
+      "projets": [],
       "url": "https://www.notion.so/Caroline-35f8db15623a816c9a38febc48db9f75"
     },
     {
@@ -15522,6 +15800,7 @@
       "metiers": [
         "FRONT"
       ],
+      "projets": [],
       "url": "https://www.notion.so/Ines-35f8db15623a8192b4fadfd7bc6ef50c"
     },
     {
@@ -15531,6 +15810,35 @@
         "MAQUETTE",
         "TEST"
       ],
+      "projets": [
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas",
+        "Naxi G Full Saas"
+      ],
       "url": "https://www.notion.so/Agathe-35f8db15623a81b4869acd2028059cbc"
     },
     {
@@ -15539,6 +15847,7 @@
       "metiers": [
         "DESIGN"
       ],
+      "projets": [],
       "url": "https://www.notion.so/C-dric-V-35f8db15623a81b79676e24c091ee02c"
     },
     {
@@ -15547,6 +15856,7 @@
       "metiers": [
         "BACK"
       ],
+      "projets": [],
       "url": "https://www.notion.so/C-dric-F-35f8db15623a81c58e7af2269f2342c1"
     },
     {
@@ -15555,6 +15865,7 @@
       "metiers": [
         "BACK"
       ],
+      "projets": [],
       "url": "https://www.notion.so/Loic-35f8db15623a81d4b029cea997d5a289"
     },
     {
@@ -15563,6 +15874,7 @@
       "metiers": [
         "BACK"
       ],
+      "projets": [],
       "url": "https://www.notion.so/Rachid-35f8db15623a81e9ad55d0a79ca85d1a"
     },
     {
@@ -15571,6 +15883,7 @@
       "metiers": [
         "FRONT"
       ],
+      "projets": [],
       "url": "https://www.notion.so/Sylvain-35f8db15623a81fc9f90cec8efd5303e"
     }
   ],
@@ -23671,7 +23984,7 @@
     }
   ],
   "counts": {
-    "classique": 252,
+    "classique": 254,
     "topline": 57,
     "suiviLundi": 144,
     "equipe": 12,
