@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import './styles/globals.css';
 import { useAuth } from './hooks/useAuth';
 import { useNotionData } from './hooks/useNotionData';
 import { AppLayout } from './components/AppLayout';
+import { projectForTab } from './components/Sidebar';
 import { LoginPage } from './pages/LoginPage';
 import { DashboardPage } from './pages/DashboardPage';
 import { EnregistrementPage } from './pages/EnregistrementPage';
@@ -64,6 +65,24 @@ export default function Dashboard() {
   const page = PAGES[tab] || PAGES.dashboard;
   const Page = page.Component;
 
+  // Filtre data selon le projet de l'onglet actif (null = vue globale, pas de filtre).
+  // Les onglets sous une catégorie avec `notionProject` ne voient que les fenêtres,
+  // saisies, lignes CII et membres rattachés à ce projet.
+  const currentProject = projectForTab(tab);
+  const scopedData = useMemo(() => {
+    if (!currentProject) return data;
+    return {
+      ...data,
+      topline:    data.topline.filter(t => t.projet === currentProject),
+      suiviLundi: data.suiviLundi.filter(s => s.projet === currentProject),
+      equipe:     data.equipe.filter(e => !e.projets?.length || e.projets.includes(currentProject)),
+      cii: {
+        ...data.cii,
+        rows: data.cii.rows.filter(r => r.projet === currentProject),
+      },
+    };
+  }, [data, currentProject]);
+
   return (
     <AppLayout
       tab={tab}
@@ -73,7 +92,7 @@ export default function Dashboard() {
       lastRefresh={data.generatedAt}
     >
       <div className="fade-in" key={tab}>
-        <Page data={data} onNavigate={setTab} />
+        <Page data={scopedData} onNavigate={setTab} />
       </div>
     </AppLayout>
   );

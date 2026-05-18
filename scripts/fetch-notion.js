@@ -211,6 +211,8 @@ function mapEquipePage(page) {
     id: page.id,
     nom: extractProp(p, 'Nom', 'title') || '',
     metiers: extractProp(p, 'Métiers', 'multi_select') || [],
+    // Rollup show_unique sur Membre MAQUETTE → Projet : projets sur lesquels le membre est impliqué
+    projets: rollupSelectNames(p, '🏗️ PROJETS'),
     url: page.url,
   };
 }
@@ -236,6 +238,10 @@ function mapSuiviLundiPage(page, toplineMap, equipeMap) {
     extractProp(p, 'Personne (legacy)', 'select') ||
     extractProp(p, 'Personne', 'select');
 
+  // Projet : rollup show_original via Top Line → select sur Retro-planning
+  // Une saisie est liée à 1 fenêtre, donc 1 projet — on prend le premier non-null
+  const projet = rollupSelectNames(p, '🏗️ PROJETS')[0] || null;
+
   return {
     id: page.id,
     saisie: extractProp(p, 'Saisie', 'title') || '',
@@ -253,6 +259,7 @@ function mapSuiviLundiPage(page, toplineMap, equipeMap) {
     fenetreGroupe: fenetre?.groupe || null,
     fenetreNumGroupe: fenetre?.numGroupe || null,
     fenetreNumModule: fenetre?.numModule || null,
+    projet,
     url: page.url,
   };
 }
@@ -283,6 +290,7 @@ function mapTopLinePage(page, equipeMap) {
     id: page.id,
     idTopLine: extractProp(p, 'ID Top Line', 'auto_increment_id'),
     fenetre: extractProp(p, 'Fenêtre', 'title') || '',
+    projet: extractProp(p, '🏗️ PROJETS', 'select'),
 
     // Structure type PMS
     groupe:    extractProp(p, 'Groupe', 'select'),

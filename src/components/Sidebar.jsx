@@ -12,6 +12,8 @@ import { LogoInaxel } from './LogoInaxel';
 // Catégories `collapsible:true` peuvent être pliées (chevron). Windows portant
 // un `parent: "<category-key>"` ne sont rendues que si le parent est ouvert.
 // items `strategie:true` sont masqués tant que le code n'est pas saisi.
+// `notionProject` sur une catégorie : option du select 🏗️ PROJETS dans Notion —
+// les pages enfants filtrent automatiquement les données par cette valeur.
 // ============================================
 export const NAV_ITEMS = [
   { type: "window",   key: "dashboard",      label: "Dashboard",       icon: LayoutDashboard },
@@ -25,13 +27,13 @@ export const NAV_ITEMS = [
   { type: "category", label: "Sprint" },
   { type: "window",   key: "sprint",         label: "Sprint en cours", icon: Sparkles },
 
-  { type: "category", key: "naxi-saas",     label: "Naxi.G Full Saas", collapsible: true },
+  { type: "category", key: "naxi-saas",     label: "Naxi.G Full Saas", collapsible: true, notionProject: "Naxi G Full Saas" },
   { type: "window",   key: "naxi-saas-cdc", label: "Cahier des charges", icon: ClipboardList, parent: "naxi-saas" },
   { type: "window",   key: "suivi",         label: "Suivi",              icon: LineChart,     parent: "naxi-saas" },
   { type: "window",   key: "immobilisation", label: "Immobilisation",    icon: Building2,     parent: "naxi-saas" },
 
   // ── Projets stratégiques (verrouillés derrière un code, repliés par défaut) ──
-  { type: "category", key: "nax7-full-web",      label: "NAX7 full web",            collapsible: true, strategie: true },
+  { type: "category", key: "nax7-full-web",      label: "NAX7 full web",            collapsible: true, strategie: true, notionProject: "Nax7 Full Web" },
   { type: "window",   key: "blueprint",          label: "Blue Print",               icon: LayoutGrid,    parent: "nax7-full-web", strategie: true },
   { type: "window",   key: "gantt",              label: "Gantt",                    icon: Calendar,      parent: "nax7-full-web", strategie: true },
   { type: "window",   key: "cdc-nax7-full-web",  label: "Cahier des charges",       icon: ClipboardList, parent: "nax7-full-web", strategie: true },
@@ -39,21 +41,30 @@ export const NAV_ITEMS = [
   { type: "window",   key: "rd-mode-degrade",    label: "R&D mode dégradé",         icon: ShieldAlert,   parent: "nax7-full-web", strategie: true },
   { type: "window",   key: "rd-migration",       label: "R&D migration",            icon: Database,      parent: "nax7-full-web", strategie: true },
 
-  { type: "category", key: "nax7-light",         label: "Nax7 light",               collapsible: true, strategie: true },
+  { type: "category", key: "nax7-light",         label: "Nax7 light",               collapsible: true, strategie: true, notionProject: "Nax7 Light" },
   { type: "window",   key: "cdc-nax7-light",     label: "Cahier des charges",       icon: ClipboardList, parent: "nax7-light", strategie: true },
 
-  { type: "category", key: "nax7-manager",       label: "Nax7 Manager",             collapsible: true, strategie: true },
+  { type: "category", key: "nax7-manager",       label: "Nax7 Manager",             collapsible: true, strategie: true, notionProject: "Nax7 Manager" },
   { type: "window",   key: "cdc-nax7-manager",   label: "Cahier des charges",       icon: ClipboardList, parent: "nax7-manager", strategie: true },
 
-  { type: "category", key: "inaxel-pilot",       label: "Inaxel Pilot",             collapsible: true, strategie: true },
+  { type: "category", key: "inaxel-pilot",       label: "Inaxel Pilot",             collapsible: true, strategie: true, notionProject: "Inaxel Pilot" },
   { type: "window",   key: "cdc-inaxel-pilot",   label: "Cahier des charges",       icon: ClipboardList, parent: "inaxel-pilot", strategie: true },
 
-  { type: "category", key: "espace-client-resident", label: "Espace client & Résident", collapsible: true, strategie: true },
+  { type: "category", key: "espace-client-resident", label: "Espace client & Résident", collapsible: true, strategie: true, notionProject: "Portail clients & résidents" },
   { type: "window",   key: "cdc-espace-client-resident", label: "Cahier des charges", icon: ClipboardList, parent: "espace-client-resident", strategie: true },
 
-  { type: "category", key: "espace-client-inaxel", label: "Espace client (site inaxel)", collapsible: true, strategie: true },
+  { type: "category", key: "espace-client-inaxel", label: "Espace client (site inaxel)", collapsible: true, strategie: true, notionProject: "Espace client (site Inaxel)" },
   { type: "window",   key: "cdc-espace-client-inaxel", label: "Cahier des charges", icon: ClipboardList, parent: "espace-client-inaxel", strategie: true },
 ];
+
+// Résout le projet Notion correspondant à un onglet (via la catégorie parente).
+// Retourne null pour les vues globales (dashboard, enregistrement, version, sprint).
+export function projectForTab(tab) {
+  const win = NAV_ITEMS.find(e => e.type === "window" && e.key === tab);
+  if (!win?.parent) return null;
+  const cat = NAV_ITEMS.find(e => e.type === "category" && e.key === win.parent);
+  return cat?.notionProject || null;
+}
 
 // Verrou visuel sur la section Stratégie
 const STRAT_KEY = "inaxel_kpi_strat";
