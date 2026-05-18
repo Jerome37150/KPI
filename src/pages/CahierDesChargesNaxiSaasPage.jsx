@@ -1,5 +1,5 @@
 import {
-  ClipboardList, Target, Layers, Rocket, Wrench, ExternalLink,
+  ClipboardList, Target, Layers, Rocket,
   Home, User, BedDouble, FileText, Mail, ShoppingCart, Calendar,
 } from 'lucide-react';
 import { C, RADIUS, SHADOW } from '../styles/theme';
@@ -59,18 +59,6 @@ const VAGUES = [
   },
 ];
 
-const NOTION_LINKS = [
-  { icon: '📆', label: 'Naxi Saas - Retro-planning',
-    desc: 'Liste de toutes les fenêtres à produire (Groupe / Module / Phase, planning par métier, membres affectés, état, avancement, temps cumulé)',
-    url: 'https://www.notion.so/3108db15623a8035a2d5c3f2e6a97361' },
-  { icon: '📅', label: 'Naxi Saas - Suivi Hebdo',
-    desc: 'Saisies hebdo (1 ligne = 1 personne × 1 fenêtre × 1 phase × 1 semaine)',
-    url: 'https://www.notion.so/2b9336d742d24678a04d99f57e481552' },
-  { icon: '👥', label: 'Naxi Saas - Équipe Projet',
-    desc: 'Les membres du projet et leurs métiers',
-    url: 'https://www.notion.so/032f893dd6ec4f858e5553a88236c0a0' },
-];
-
 export function CahierDesChargesNaxiSaasPage() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
@@ -104,7 +92,6 @@ export function CahierDesChargesNaxiSaasPage() {
         }}>
           <Pill label="57 fenêtres" color={C.orange} />
           <Pill label="7 blocs métier" color={C.blue} />
-          <Pill label="5 phases" color={C.purple} sub="Maquette → Back → Front → Design → Test" />
           <Pill label="3 vagues de livraison" color={C.green} />
         </div>
       </Card>
@@ -130,64 +117,6 @@ export function CahierDesChargesNaxiSaasPage() {
         </div>
       </Card>
 
-      {/* Méthodologie */}
-      <Card padding={24}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
-          <Wrench size={15} color={C.orange} strokeWidth={2.2} />
-          <div style={{
-            fontSize: 11, letterSpacing: '0.06em', textTransform: 'uppercase',
-            color: C.orange, fontWeight: 700,
-          }}>Méthodologie</div>
-        </div>
-        <div style={{ fontSize: 13, color: C.inkSoft, lineHeight: 1.7 }}>
-          <p style={{ margin: 0, marginBottom: 8 }}>
-            <b>Mars → Septembre 2026</b> : sprints mensuels de design + dev des 57 fenêtres.
-            Chaque fenêtre traverse 5 phases successives : <code style={codeStyle}>MAQUETTE → BACK → FRONT → DESIGN → TEST</code>.
-          </p>
-          <p style={{ margin: 0 }}>
-            À partir d'<b>Octobre 2026</b> : livraison itérative par bloc, avec stabilisation V1 et préparation V2 en parallèle.
-          </p>
-        </div>
-      </Card>
-
-      {/* Bases liées Notion */}
-      <Card padding={0} style={{ overflow: 'hidden' }}>
-        <CardHeader icon={ExternalLink} title="Bases liées · Notion" sub="Source de vérité opérationnelle" />
-        <div style={{ padding: 20, display: 'flex', flexDirection: 'column', gap: 10 }}>
-          {NOTION_LINKS.map(l => (
-            <a
-              key={l.url}
-              href={l.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                display: 'flex', alignItems: 'center', gap: 12,
-                padding: '12px 16px',
-                background: C.bgSoft,
-                border: `1px solid ${C.line}`,
-                borderRadius: RADIUS.md,
-                textDecoration: 'none',
-                transition: 'transform 0.12s, border-color 0.12s',
-              }}
-              onMouseEnter={e => {
-                e.currentTarget.style.transform = 'translateY(-1px)';
-                e.currentTarget.style.borderColor = C.orange;
-              }}
-              onMouseLeave={e => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.borderColor = C.line;
-              }}
-            >
-              <span style={{ fontSize: 22 }}>{l.icon}</span>
-              <div style={{ flex: 1 }}>
-                <div style={{ fontSize: 13, fontWeight: 700, color: C.ink }}>{l.label}</div>
-                <div style={{ fontSize: 11, color: C.inkDim, marginTop: 2, lineHeight: 1.4 }}>{l.desc}</div>
-              </div>
-              <ExternalLink size={14} color={C.inkMute} strokeWidth={2.2} />
-            </a>
-          ))}
-        </div>
-      </Card>
     </div>
   );
 }
@@ -315,13 +244,3 @@ function Pill({ label, color, sub }) {
     </span>
   );
 }
-
-const codeStyle = {
-  fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
-  fontSize: 11.5,
-  background: C.bgSoft,
-  padding: '2px 6px',
-  borderRadius: RADIUS.sm,
-  border: `1px solid ${C.line}`,
-  color: C.ink,
-};
