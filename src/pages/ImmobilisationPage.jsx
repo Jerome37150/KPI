@@ -3,6 +3,7 @@ import { Building2, Download } from 'lucide-react';
 import { C, RADIUS } from '../styles/theme';
 import { Card } from '../components/primitives/Card';
 import { SectionTitle } from '../components/primitives/SectionTitle';
+import { KNOWN_PROJECTS } from '../components/Sidebar';
 
 // ============================================
 // ImmobilisationPage — Recap CII : pivot phase × mois
@@ -77,18 +78,37 @@ function downloadCsv(rows) {
 export function ImmobilisationPage({ data }) {
   const allRows = data?.cii?.rows || [];
 
-  // ── Inventaire des projets et mois disponibles dans les données ──
+  // ── Pills affichées : tous les projets connus + une plage de mois étendue
+  //    autour d'aujourd'hui — même si pas encore de saisies pour eux ──
   const { allProjects, allMonths } = useMemo(() => {
-    const projSet = new Set();
-    const monthSet = new Set();
-    allRows.forEach(r => {
-      if (r.projet) projSet.add(r.projet);
-      const ym = (r.start || '').slice(0, 7);
-      if (ym) monthSet.add(ym);
-    });
+    // Projets : liste fixe (5 options Notion) + tout projet en données qui
+    // ne serait pas dans la liste connue (sécurité).
+    const projSet = new Set(KNOWN_PROJECTS);
+    allRows.forEach(r => { if (r.projet) projSet.add(r.projet); });
+
+    // Mois : plage [min(saisies, today-12m), max(saisies, today+12m)]
+    const today = new Date();
+    const fmt = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
+    const past = fmt(new Date(today.getFullYear(), today.getMonth() - 12, 1));
+    const future = fmt(new Date(today.getFullYear(), today.getMonth() + 12, 1));
+    const dataMonths = allRows
+      .map(r => (r.start || '').slice(0, 7))
+      .filter(Boolean);
+    const sorted = [...dataMonths, past, future].sort();
+    const minM = sorted[0];
+    const maxM = sorted[sorted.length - 1];
+
+    const months = [];
+    let [y, m] = minM.split('-').map(Number);
+    const [yEnd, mEnd] = maxM.split('-').map(Number);
+    while (y < yEnd || (y === yEnd && m <= mEnd)) {
+      months.push(`${y}-${String(m).padStart(2, '0')}`);
+      m++;
+      if (m > 12) { m = 1; y++; }
+    }
     return {
-      allProjects: [...projSet].sort(),
-      allMonths:   [...monthSet].sort(),
+      allProjects: [...projSet],
+      allMonths:   months,
     };
   }, [allRows]);
 
@@ -160,29 +180,27 @@ export function ImmobilisationPage({ data }) {
         sub="Suivi temps par phase et par mois — données pour dossier CII"
       >Immobilisation</SectionTitle>
 
-      {/* Filtres : projets + mois */}
-      {allRows.length > 0 && (
-        <Card padding={16}>
-          <FilterRow
-            label="Projets"
-            options={allProjects}
-            selected={selectedProjects}
-            onToggle={toggleProject}
-            onClear={() => setSelectedProjects(new Set())}
-            emptyHint="Tous les projets"
-          />
-          <div style={{ height: 12 }} />
-          <FilterRow
-            label="Mois"
-            options={allMonths}
-            renderOption={monthLabel}
-            selected={selectedMonths}
-            onToggle={toggleMonth}
-            onClear={() => setSelectedMonths(new Set())}
-            emptyHint="Tous les mois"
-          />
-        </Card>
-      )}
+      {/* Filtres : projets + mois (toujours visibles) */}
+      <Card padding={16}>
+        <FilterRow
+          label="Projets"
+          options={allProjects}
+          selected={selectedProjects}
+          onToggle={toggleProject}
+          onClear={() => setSelectedProjects(new Set())}
+          emptyHint="Tous les projets"
+        />
+        <div style={{ height: 12 }} />
+        <FilterRow
+          label="Mois"
+          options={allMonths}
+          renderOption={monthLabel}
+          selected={selectedMonths}
+          onToggle={toggleMonth}
+          onClear={() => setSelectedMonths(new Set())}
+          emptyHint="Tous les mois"
+        />
+      </Card>
 
       {allRows.length === 0 ? (
         <Card padding={32}>

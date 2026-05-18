@@ -2,7 +2,7 @@ import { useState } from 'react';
 import {
   LayoutDashboard, FileText, Package, Sparkles, Building2, LineChart,
   LayoutGrid, Calendar, ClipboardList, Calculator, ShieldAlert, Database,
-  ChevronRight, ChevronDown, Lock, Unlock,
+  ChevronRight, ChevronDown,
 } from 'lucide-react';
 import { C, LAYOUT } from '../styles/theme';
 import { LogoInaxel } from './LogoInaxel';
@@ -12,9 +12,10 @@ import { LogoInaxel } from './LogoInaxel';
 // Catégories `collapsible:true` peuvent être pliées (chevron). Les items
 // portant un `parent: "<key>"` ne sont rendus que si tous leurs ancêtres
 // (jusqu'à la racine) sont dépliés.
-// items `strategie:true` sont masqués tant que le code n'est pas saisi.
 // `notionProject` sur une catégorie : option du select 🏗️ PROJETS dans Notion —
 // les pages enfants filtrent automatiquement les données par cette valeur.
+// Comportement accordéon : déplier une catégorie collapsible ferme automatiquement
+// ses sibling categories (celles partageant le même parent).
 // ============================================
 export const NAV_ITEMS = [
   { type: "window",   key: "dashboard",       label: "Dashboard",        icon: LayoutDashboard },
@@ -37,32 +38,38 @@ export const NAV_ITEMS = [
   { type: "window",   key: "naxi-saas-cdc",   label: "Cahier des charges", icon: ClipboardList, parent: "naxi-saas" },
   { type: "window",   key: "suivi",           label: "Suivi",              icon: LineChart,     parent: "naxi-saas" },
 
-  // ─ NAX7 full web (stratégique) ─
-  { type: "category", key: "nax7-full-web",   label: "NAX7 full web",    collapsible: true, parent: "projets", strategie: true, notionProject: "Nax7 Full Web" },
-  { type: "window",   key: "blueprint",       label: "Blue Print",       icon: LayoutGrid,    parent: "nax7-full-web", strategie: true },
-  { type: "window",   key: "gantt",           label: "Gantt",            icon: Calendar,      parent: "nax7-full-web", strategie: true },
-  { type: "window",   key: "cdc-nax7-full-web", label: "Cahier des charges", icon: ClipboardList, parent: "nax7-full-web", strategie: true },
-  { type: "window",   key: "calcul-prix",     label: "Calcul prix",      icon: Calculator,    parent: "nax7-full-web", strategie: true },
-  { type: "window",   key: "rd-mode-degrade", label: "R&D mode dégradé", icon: ShieldAlert,   parent: "nax7-full-web", strategie: true },
-  { type: "window",   key: "rd-migration",    label: "R&D migration",    icon: Database,      parent: "nax7-full-web", strategie: true },
-  { type: "window",   key: "portail-clients-residents", label: "Portail clients et résidents", icon: ClipboardList, parent: "nax7-full-web", strategie: true },
+  // ─ NAX7 full web ─
+  { type: "category", key: "nax7-full-web",   label: "NAX7 full web",    collapsible: true, parent: "projets", notionProject: "Nax7 Full Web" },
+  { type: "window",   key: "blueprint",       label: "Blue Print",       icon: LayoutGrid,    parent: "nax7-full-web" },
+  { type: "window",   key: "gantt",           label: "Gantt",            icon: Calendar,      parent: "nax7-full-web" },
+  { type: "window",   key: "cdc-nax7-full-web", label: "Cahier des charges", icon: ClipboardList, parent: "nax7-full-web" },
+  { type: "window",   key: "calcul-prix",     label: "Calcul prix",      icon: Calculator,    parent: "nax7-full-web" },
+  { type: "window",   key: "rd-mode-degrade", label: "R&D mode dégradé", icon: ShieldAlert,   parent: "nax7-full-web" },
+  { type: "window",   key: "rd-migration",    label: "R&D migration",    icon: Database,      parent: "nax7-full-web" },
+  { type: "window",   key: "portail-clients-residents", label: "Portail clients et résidents", icon: ClipboardList, parent: "nax7-full-web" },
 
-  // ─ Nax7 light (stratégique) ─
-  { type: "category", key: "nax7-light",      label: "Nax7 light",       collapsible: true, parent: "projets", strategie: true, notionProject: "Nax7 Light" },
-  { type: "window",   key: "cdc-nax7-light",  label: "Cahier des charges", icon: ClipboardList, parent: "nax7-light", strategie: true },
+  // ─ Nax7 light ─
+  { type: "category", key: "nax7-light",      label: "Nax7 light",       collapsible: true, parent: "projets", notionProject: "Nax7 Light" },
+  { type: "window",   key: "cdc-nax7-light",  label: "Cahier des charges", icon: ClipboardList, parent: "nax7-light" },
 
-  // ─ Nax7 Manager (stratégique) ─
-  { type: "category", key: "nax7-manager",    label: "Nax7 Manager",     collapsible: true, parent: "projets", strategie: true, notionProject: "Nax7 Manager" },
-  { type: "window",   key: "cdc-nax7-manager", label: "Cahier des charges", icon: ClipboardList, parent: "nax7-manager", strategie: true },
+  // ─ Nax7 Manager ─
+  { type: "category", key: "nax7-manager",    label: "Nax7 Manager",     collapsible: true, parent: "projets", notionProject: "Nax7 Manager" },
+  { type: "window",   key: "cdc-nax7-manager", label: "Cahier des charges", icon: ClipboardList, parent: "nax7-manager" },
 
-  // ─ Inaxel Pilot (stratégique) ─
-  { type: "category", key: "inaxel-pilot",    label: "Inaxel Pilot",     collapsible: true, parent: "projets", strategie: true, notionProject: "Inaxel Pilot" },
-  { type: "window",   key: "cdc-inaxel-pilot", label: "Cahier des charges", icon: ClipboardList, parent: "inaxel-pilot", strategie: true },
-  { type: "window",   key: "espace-client-inaxel", label: "Espace client (site inaxel)", icon: ClipboardList, parent: "inaxel-pilot", strategie: true },
+  // ─ Inaxel Pilot ─
+  { type: "category", key: "inaxel-pilot",    label: "Inaxel Pilot",     collapsible: true, parent: "projets", notionProject: "Inaxel Pilot" },
+  { type: "window",   key: "cdc-inaxel-pilot", label: "Cahier des charges", icon: ClipboardList, parent: "inaxel-pilot" },
+  { type: "window",   key: "espace-client-inaxel", label: "Espace client (site inaxel)", icon: ClipboardList, parent: "inaxel-pilot" },
 ];
 
 // Index pour lookups O(1) sur la chaîne de parent
 const BY_KEY = new Map(NAV_ITEMS.filter(e => e.key).map(e => [e.key, e]));
+
+// Liste des projets connus (ordre Sidebar) — utilisée par la page Immobilisation
+// pour proposer un filtre par projet, même en l'absence de saisies.
+export const KNOWN_PROJECTS = NAV_ITEMS
+  .filter(e => e.type === "category" && e.notionProject)
+  .map(e => e.notionProject);
 
 // Profondeur d'imbrication (Dashboard = 0, sous-Projets = 1, sous-Naxi-Saas = 2)
 function depthOf(entry) {
@@ -82,6 +89,16 @@ function isHiddenByCollapse(entry, collapsed) {
   return false;
 }
 
+// Catégories collapsibles ayant le même parent direct que `catKey` (siblings)
+function siblingCollapsibleKeys(catKey) {
+  const cat = BY_KEY.get(catKey);
+  if (!cat) return [];
+  return NAV_ITEMS
+    .filter(e => e.type === "category" && e.collapsible && e.key
+              && e.key !== catKey && e.parent === cat.parent)
+    .map(e => e.key);
+}
+
 // Résout le projet Notion d'un onglet via sa catégorie parente directe.
 // Retourne null pour les vues globales (dashboard, sav-dev, immobilisation, etc.).
 export function projectForTab(tab) {
@@ -90,11 +107,6 @@ export function projectForTab(tab) {
   const cat = BY_KEY.get(win.parent);
   return cat?.notionProject || null;
 }
-
-// Verrou visuel sur la section Stratégie
-const STRAT_KEY = "inaxel_kpi_strat";
-const STRAT_PWD = "123";
-const STRATEGIE_KEYS = NAV_ITEMS.filter(e => e.type === "window" && e.strategie).map(e => e.key);
 
 // Catégories repliables : repliées par défaut
 const COLLAPSIBLE_KEYS = NAV_ITEMS
@@ -105,42 +117,25 @@ const COLLAPSIBLE_KEYS = NAV_ITEMS
 // Sidebar — drawer permanent à gauche, style inaxel-pilot
 // ============================================
 export function Sidebar({ tab, onSelect }) {
-  const [stratUnlocked, setStratUnlocked] = useState(() => {
-    try { return sessionStorage.getItem(STRAT_KEY) === "ok"; }
-    catch { return false; }
-  });
-
   // Set des catégories actuellement repliées (par défaut : toutes les collapsibles)
   const [collapsed, setCollapsed] = useState(() => new Set(COLLAPSIBLE_KEYS));
 
-  const visibleItems = stratUnlocked
-    ? NAV_ITEMS
-    : NAV_ITEMS.filter(e => !e.strategie);
-
+  // Toggle d'une catégorie. Si on déplie : ferme automatiquement ses siblings
+  // (catégories de même parent) pour un comportement accordéon.
   const toggleCollapse = (catKey) => {
     setCollapsed(prev => {
       const next = new Set(prev);
-      if (next.has(catKey)) next.delete(catKey);
-      else                  next.add(catKey);
+      if (next.has(catKey)) {
+        // Déplier
+        next.delete(catKey);
+        // Replier les siblings
+        siblingCollapsibleKeys(catKey).forEach(k => next.add(k));
+      } else {
+        // Replier simple
+        next.add(catKey);
+      }
       return next;
     });
-  };
-
-  const toggleStrat = () => {
-    if (stratUnlocked) {
-      try { sessionStorage.removeItem(STRAT_KEY); } catch { /* ignore */ }
-      setStratUnlocked(false);
-      if (STRATEGIE_KEYS.includes(tab)) onSelect("dashboard");
-      return;
-    }
-    const pwd = window.prompt("Code d'accès — projets stratégiques");
-    if (pwd === null) return;
-    if (pwd === STRAT_PWD) {
-      try { sessionStorage.setItem(STRAT_KEY, "ok"); } catch { /* ignore */ }
-      setStratUnlocked(true);
-    } else {
-      window.alert("Code incorrect");
-    }
   };
 
   return (
@@ -168,7 +163,7 @@ export function Sidebar({ tab, onSelect }) {
         padding: "8px 0 16px",
         display: "flex", flexDirection: "column",
       }}>
-        {visibleItems.map((entry, i) => {
+        {NAV_ITEMS.map((entry, i) => {
           // Masque les éléments dont un ancêtre est replié
           if (isHiddenByCollapse(entry, collapsed)) return null;
 
@@ -267,31 +262,6 @@ export function Sidebar({ tab, onSelect }) {
           );
         })}
       </nav>
-
-      {/* Footer sidebar — clic pour (dé)verrouiller la section Stratégie */}
-      <button
-        type="button"
-        onClick={toggleStrat}
-        title={stratUnlocked ? "Verrouiller les projets stratégiques" : "Saisir le code d'accès"}
-        style={{
-          display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8,
-          width: "100%",
-          padding: "14px 18px",
-          borderTop: `1px solid ${C.line}`,
-          fontSize: 10, color: stratUnlocked ? C.orange : C.inkMute,
-          fontWeight: 500, letterSpacing: "0.04em",
-          background: "transparent", border: "none",
-          textAlign: "left", cursor: "pointer", fontFamily: "inherit",
-          transition: "color 0.12s, background 0.12s",
-        }}
-        onMouseEnter={e => { e.currentTarget.style.background = C.gray50; }}
-        onMouseLeave={e => { e.currentTarget.style.background = "transparent"; }}
-      >
-        <span>NAXI.G · Produits & qualité</span>
-        {stratUnlocked
-          ? <Unlock size={11} strokeWidth={2.2} color={C.orange} />
-          : <Lock   size={11} strokeWidth={2.2} color={C.inkMute} />}
-      </button>
     </aside>
   );
 }
