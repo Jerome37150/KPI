@@ -42,9 +42,9 @@ export const NAV_ITEMS = [
 
   // ─ NAX7 full web ─
   { type: "category", key: "nax7-full-web",   label: "NAX7 full web",    collapsible: true, parent: "projets", notionProject: "Nax7 Full Web" },
+  { type: "window",   key: "cdc-nax7-full-web", label: "Cahier des charges", icon: ClipboardList, parent: "nax7-full-web" },
   { type: "window",   key: "blueprint",       label: "Blue Print",       icon: LayoutGrid,    parent: "nax7-full-web" },
   { type: "window",   key: "gantt",           label: "Gantt",            icon: Calendar,      parent: "nax7-full-web" },
-  { type: "window",   key: "cdc-nax7-full-web", label: "Cahier des charges", icon: ClipboardList, parent: "nax7-full-web" },
   { type: "window",   key: "calcul-prix",     label: "Calcul prix",      icon: Calculator,    parent: "nax7-full-web" },
   { type: "window",   key: "rd-mode-degrade", label: "R&D mode dégradé", icon: ShieldAlert,   parent: "nax7-full-web" },
   { type: "window",   key: "rd-migration",    label: "R&D migration",    icon: Database,      parent: "nax7-full-web" },
