@@ -97,13 +97,6 @@ export function CahierDesChargesNax7ManagerPage() {
           d'établissements qui ont besoin d'une vue consolidée et d'un pilotage
           centralisé.
         </div>
-        <div style={{
-          display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16,
-        }}>
-          <Pill label="Module groupe" color={C.orange} />
-          <Pill label="4 fonctionnalités clés" color={C.blue} />
-          <Pill label="Livraison début 2029" color={C.green} />
-        </div>
       </Card>
 
       {/* ===== 4 FONCTIONNALITÉS ===== */}
@@ -218,17 +211,3 @@ function VagueStep({ vague, last }) {
   );
 }
 
-function Pill({ label, color, sub }) {
-  return (
-    <span style={{
-      display: 'inline-flex', alignItems: 'center', gap: 6,
-      padding: '6px 12px', borderRadius: RADIUS.md,
-      background: color + '15', color,
-      border: `1px solid ${color}40`,
-      fontSize: 11.5, fontWeight: 700,
-    }}>
-      {label}
-      {sub && <span style={{ color: C.inkDim, fontWeight: 500, fontSize: 10.5 }}>· {sub}</span>}
-    </span>
-  );
-}

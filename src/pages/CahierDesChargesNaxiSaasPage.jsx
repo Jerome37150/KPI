@@ -120,13 +120,6 @@ export function CahierDesChargesNaxiSaasPage() {
           (réception, check-in/out, gestion séjour, paiements, devis, mails). Architecture revue,
           parcours utilisateur repensés et design system aligné sur les standards actuels.
         </div>
-        <div style={{
-          display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16,
-        }}>
-          <Pill label="57 fenêtres" color={C.orange} />
-          <Pill label="7 blocs métier" color={C.blue} />
-          <Pill label="3 vagues de livraison" color={C.green} />
-        </div>
       </Card>
 
       {/* 7 blocs métier */}
@@ -263,17 +256,3 @@ function VagueStep({ vague, last }) {
   );
 }
 
-function Pill({ label, color, sub }) {
-  return (
-    <span style={{
-      display: 'inline-flex', alignItems: 'center', gap: 6,
-      padding: '6px 12px', borderRadius: RADIUS.md,
-      background: color + '15', color,
-      border: `1px solid ${color}40`,
-      fontSize: 11.5, fontWeight: 700,
-    }}>
-      {label}
-      {sub && <span style={{ color: C.inkDim, fontWeight: 500, fontSize: 10.5 }}>· {sub}</span>}
-    </span>
-  );
-}

@@ -113,13 +113,6 @@ export function CahierDesChargesNax7FullWebPage() {
           l'<b>automatisation</b> (IA) et l'<b>ouverture</b> (API Store) pour répondre aux usages
           actuels et futurs des établissements.
         </div>
-        <div style={{
-          display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16,
-        }}>
-          <Pill label="PMS 100 % web"        color={C.orange} />
-          <Pill label="7 innovations clés"   color={C.blue} />
-          <Pill label="2 vagues de livraison" color={C.green} sub="2027 · 2028" />
-        </div>
       </Card>
 
       {/* ===== 7 INNOVATIONS ===== */}
@@ -237,17 +230,3 @@ function VagueStep({ vague, last }) {
   );
 }
 
-function Pill({ label, color, sub }) {
-  return (
-    <span style={{
-      display: 'inline-flex', alignItems: 'center', gap: 6,
-      padding: '6px 12px', borderRadius: RADIUS.md,
-      background: color + '15', color,
-      border: `1px solid ${color}40`,
-      fontSize: 11.5, fontWeight: 700,
-    }}>
-      {label}
-      {sub && <span style={{ color: C.inkDim, fontWeight: 500, fontSize: 10.5 }}>· {sub}</span>}
-    </span>
-  );
-}

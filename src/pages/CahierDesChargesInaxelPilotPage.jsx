@@ -98,13 +98,6 @@ export function CahierDesChargesInaxelPilotPage() {
           opérationnel des clients aux dashboards techniques, en passant par
           la documentation auto-générée et l'assistant conversationnel.
         </div>
-        <div style={{
-          display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16,
-        }}>
-          <Pill label="Outil interne" color={C.orange} />
-          <Pill label="7 modules" color={C.blue} />
-          <Pill label="Itératif" color={C.green} sub="construction continue" />
-        </div>
       </Card>
 
       {/* ===== 7 MODULES ===== */}
@@ -189,17 +182,3 @@ function ModuleCard({ module }) {
   );
 }
 
-function Pill({ label, color, sub }) {
-  return (
-    <span style={{
-      display: 'inline-flex', alignItems: 'center', gap: 6,
-      padding: '6px 12px', borderRadius: RADIUS.md,
-      background: color + '15', color,
-      border: `1px solid ${color}40`,
-      fontSize: 11.5, fontWeight: 700,
-    }}>
-      {label}
-      {sub && <span style={{ color: C.inkDim, fontWeight: 500, fontSize: 10.5 }}>· {sub}</span>}
-    </span>
-  );
-}

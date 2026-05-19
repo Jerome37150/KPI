@@ -96,13 +96,6 @@ export function CahierDesChargesNax7LightPage() {
           idéal pour les campings et établissements où certaines zones n'ont pas
           de couverture Wi-Fi stable.
         </div>
-        <div style={{
-          display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16,
-        }}>
-          <Pill label="PMS mobile" color={C.orange} />
-          <Pill label="4 profils utilisateurs" color={C.blue} />
-          <Pill label="Livraison fin 2028" color={C.green} sub="FR · ES" />
-        </div>
       </Card>
 
       {/* ===== 4 PROFILS ===== */}
@@ -217,17 +210,3 @@ function VagueStep({ vague, last }) {
   );
 }
 
-function Pill({ label, color, sub }) {
-  return (
-    <span style={{
-      display: 'inline-flex', alignItems: 'center', gap: 6,
-      padding: '6px 12px', borderRadius: RADIUS.md,
-      background: color + '15', color,
-      border: `1px solid ${color}40`,
-      fontSize: 11.5, fontWeight: 700,
-    }}>
-      {label}
-      {sub && <span style={{ color: C.inkDim, fontWeight: 500, fontSize: 10.5 }}>· {sub}</span>}
-    </span>
-  );
-}

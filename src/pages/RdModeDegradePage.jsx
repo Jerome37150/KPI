@@ -90,14 +90,6 @@ export function RdModeDegradePage() {
           automatiquement</b> au retour du réseau. Zéro saisie perdue, continuité
           de service.
         </div>
-        <div style={{
-          display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16,
-        }}>
-          <Pill label="Continuité de service" color={C.orange} />
-          <Pill label="Boîtier local" color={C.blue} />
-          <Pill label="Sync automatique" color={C.green} />
-          <Pill label="R&D" color={C.gray500} sub="exploratoire" />
-        </div>
       </Card>
 
       {/* ===== ARCHITECTURE ===== */}
@@ -368,17 +360,3 @@ function SyncStep({ step, last }) {
   );
 }
 
-function Pill({ label, color, sub }) {
-  return (
-    <span style={{
-      display: 'inline-flex', alignItems: 'center', gap: 6,
-      padding: '6px 12px', borderRadius: RADIUS.md,
-      background: color + '15', color,
-      border: `1px solid ${color}40`,
-      fontSize: 11.5, fontWeight: 700,
-    }}>
-      {label}
-      {sub && <span style={{ color: C.inkDim, fontWeight: 500, fontSize: 10.5 }}>· {sub}</span>}
-    </span>
-  );
-}

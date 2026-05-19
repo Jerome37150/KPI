@@ -108,14 +108,6 @@ export function RdMigrationPage() {
           saisons passées</b> préservé sur un Naxi office local accessible
           à tout moment.
         </div>
-        <div style={{
-          display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16,
-        }}>
-          <Pill label="Vécu comme une mise à jour" color={C.orange} />
-          <Pill label="Migration automatique" color={C.blue} />
-          <Pill label="Historique préservé" color={C.green} />
-          <Pill label="R&D" color={C.gray500} sub="exploratoire" />
-        </div>
       </Card>
 
       {/* ===== ARCHITECTURE DE BASCULE ===== */}
@@ -398,17 +390,3 @@ function CategoryColumn({ cat }) {
   );
 }
 
-function Pill({ label, color, sub }) {
-  return (
-    <span style={{
-      display: 'inline-flex', alignItems: 'center', gap: 6,
-      padding: '6px 12px', borderRadius: RADIUS.md,
-      background: color + '15', color,
-      border: `1px solid ${color}40`,
-      fontSize: 11.5, fontWeight: 700,
-    }}>
-      {label}
-      {sub && <span style={{ color: C.inkDim, fontWeight: 500, fontSize: 10.5 }}>· {sub}</span>}
-    </span>
-  );
-}
