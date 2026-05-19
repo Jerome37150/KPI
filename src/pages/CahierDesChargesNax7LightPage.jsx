@@ -109,10 +109,9 @@ export function CahierDesChargesNax7LightPage() {
           dehors du comptoir, et sur le terrain.
         </div>
         <div style={{ fontSize: 13, color: C.inkSoft, lineHeight: 1.55 }}>
-          Quatre profils complémentaires : la <b>direction</b> qui valide à distance,
-          la <b>réception</b> qui accélère les check-in/out, l'<b>équipe ménage</b>
-          qui suit ses avancements, et l'<b>équipe technique</b> qui pilote ses
-          interventions. Un seul outil mobile, plusieurs métiers servis.
+          Pensé pour le terrain : fonctionne en <b>Wi-Fi</b> comme en <b>4G</b>,
+          idéal pour les campings et établissements où certaines zones n'ont pas
+          de couverture Wi-Fi stable.
         </div>
         <div style={{
           display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16,
