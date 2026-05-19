@@ -1,6 +1,5 @@
 import {
   Database, Target, Layers, RefreshCw, HelpCircle, Archive,
-  Settings, MapPin, BedDouble, ShoppingCart, FileSpreadsheet,
   CheckCircle, AlertCircle, XCircle, Lock, ArrowRight,
 } from 'lucide-react';
 import { C, RADIUS, SHADOW } from '../styles/theme';
@@ -12,20 +11,6 @@ import { SectionTitle } from '../components/primitives/SectionTitle';
 // Migration Naxi Gestion (Office / Full SaaS) → NAX7 Full Web.
 // Principe : vécu comme une simple mise à jour, transparent pour les clients.
 // ============================================
-
-// 5 jeux de données migrés automatiquement (avec confiance forte)
-const AUTO_MIGRATED = [
-  { color: C.blue,    icon: Settings,        title: 'Paramétrages',
-    desc: 'Règles TVA, taxes de séjour, règles enfants/adultes, politiques d\'annulation, canaux, modes de paiement.' },
-  { color: C.green,   icon: MapPin,          title: 'Emplacements & hébergements',
-    desc: 'Catalogue complet : descriptifs, capacités, équipements, photos, tarifs grille, allotements actifs.' },
-  { color: C.purple,  icon: BedDouble,       title: 'Réservations en cours',
-    desc: 'Séjours futurs et présents : clients, dates, prix figés, acomptes encaissés, statut de paiement.' },
-  { color: C.amber,   icon: ShoppingCart,    title: 'Ventes en cours',
-    desc: 'Devis non transformés, options posées, paniers POS ouverts, contrats TO en cours de validité.' },
-  { color: '#0ea5e9', icon: FileSpreadsheet, title: 'Plan comptable',
-    desc: 'Mapping de l\'ancien plan comptable vers la structure NAX7 standard. Conservation des codes journal et des analytiques.' },
-];
 
 // Matrice des 3 catégories de données
 const CATEGORIES = [
@@ -138,17 +123,6 @@ export function RdMigrationPage() {
         <CardHeader icon={Layers} title="Architecture de bascule" sub="Source → outil de migration → cible · historique préservé" />
         <div style={{ padding: '24px 20px' }}>
           <MigrationSchema />
-        </div>
-      </Card>
-
-      {/* ===== 5 JEUX DE DONNÉES MIGRÉS AUTO ===== */}
-      <Card padding={0} style={{ overflow: 'hidden' }}>
-        <CardHeader icon={RefreshCw} title="Données migrées automatiquement" sub="5 jeux de données critiques" />
-        <div style={{
-          padding: 20,
-          display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 12,
-        }}>
-          {AUTO_MIGRATED.map((d, i) => <DataCard key={i} data={d} />)}
         </div>
       </Card>
 
@@ -373,35 +347,6 @@ function FlowArrow({ label }) {
           textAlign: 'center',
         }}>{label}</span>
       )}
-    </div>
-  );
-}
-
-function DataCard({ data }) {
-  const Icon = data.icon;
-  return (
-    <div style={{
-      padding: '14px 16px',
-      background: C.bgSoft,
-      border: `1px solid ${C.line}`,
-      borderLeft: `3px solid ${data.color}`,
-      borderRadius: RADIUS.md,
-    }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
-        <div style={{
-          width: 28, height: 28, borderRadius: RADIUS.sm,
-          background: data.color + '15',
-          display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
-        }}>
-          {Icon && <Icon size={14} color={data.color} strokeWidth={2.4} />}
-        </div>
-        <div style={{
-          fontSize: 12.5, fontWeight: 700, color: C.ink, letterSpacing: '0.01em',
-        }}>{data.title}</div>
-      </div>
-      <div style={{ fontSize: 11.5, color: C.inkDim, lineHeight: 1.5 }}>
-        {data.desc}
-      </div>
     </div>
   );
 }
