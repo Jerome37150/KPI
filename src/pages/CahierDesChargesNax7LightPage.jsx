@@ -2,6 +2,26 @@ import {
   ClipboardList, Target, Users, Rocket,
   Smartphone, UserCheck, Sparkles, Wrench,
 } from 'lucide-react';
+
+const PROTOTYPE_URL = 'https://nax7-light.vercel.app/';
+
+// Ouvre le prototype dans une popup au format mobile (420×900, centrée).
+// Le viewport étroit force le rendu mobile du site cible via ses media queries.
+function openMobilePreview() {
+  const w = 420;
+  const h = 900;
+  const left = Math.max(0, Math.round((window.screen.width  - w) / 2));
+  const top  = Math.max(0, Math.round((window.screen.height - h) / 2));
+  const features = [
+    `width=${w}`, `height=${h}`,
+    `left=${left}`, `top=${top}`,
+    'scrollbars=yes', 'resizable=yes',
+    'toolbar=no', 'location=no', 'menubar=no', 'status=no',
+  ].join(',');
+  const win = window.open(PROTOTYPE_URL, 'nax7-light-mobile-preview', features);
+  // Fallback si la popup est bloquée : ouverture standard en nouvel onglet
+  if (!win) window.open(PROTOTYPE_URL, '_blank', 'noopener,noreferrer');
+}
 import { C, RADIUS, SHADOW } from '../styles/theme';
 import { Card } from '../components/primitives/Card';
 import { SectionTitle } from '../components/primitives/SectionTitle';
@@ -49,12 +69,39 @@ export function CahierDesChargesNax7LightPage() {
         background: `linear-gradient(135deg, ${C.paper} 0%, ${C.paper} 60%, ${C.orangeFaint} 100%)`,
         borderLeft: `3px solid ${C.orange}`,
       }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 14 }}>
-          <Target size={15} color={C.orange} strokeWidth={2.2} />
-          <div style={{
-            fontSize: 11, letterSpacing: '0.06em', textTransform: 'uppercase',
-            color: C.orange, fontWeight: 700,
-          }}>Vision produit</div>
+        <div style={{
+          display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+          gap: 12, marginBottom: 14, flexWrap: 'wrap',
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <Target size={15} color={C.orange} strokeWidth={2.2} />
+            <div style={{
+              fontSize: 11, letterSpacing: '0.06em', textTransform: 'uppercase',
+              color: C.orange, fontWeight: 700,
+            }}>Vision produit</div>
+          </div>
+          <button
+            type="button"
+            onClick={openMobilePreview}
+            style={{
+              display: 'inline-flex', alignItems: 'center', gap: 6,
+              padding: '8px 14px', borderRadius: RADIUS.md,
+              background: C.orange, color: '#fff',
+              border: 'none', cursor: 'pointer',
+              fontSize: 12, fontWeight: 700, letterSpacing: '0.02em',
+              fontFamily: 'inherit',
+              boxShadow: SHADOW.orange,
+              transition: 'background 0.15s, transform 0.1s',
+            }}
+            onMouseEnter={e => { e.currentTarget.style.background = C.orangeHover; }}
+            onMouseLeave={e => { e.currentTarget.style.background = C.orange; }}
+            onMouseDown={e => { e.currentTarget.style.transform = 'scale(0.97)'; }}
+            onMouseUp={e => { e.currentTarget.style.transform = 'scale(1)'; }}
+            title="Ouvrir le prototype dans une fenêtre au format mobile (420×900)"
+          >
+            <Smartphone size={13} strokeWidth={2.4} />
+            Voir le prototype
+          </button>
         </div>
         <div style={{ fontSize: 14, color: C.ink, lineHeight: 1.55, marginBottom: 12 }}>
           <b>NAX7 Light</b> — la <b>version mobile du PMS</b>, conçue pour les usages
