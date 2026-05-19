@@ -112,11 +112,13 @@ export function CahierDesChargesNaxiSaasPage() {
           </a>
         </div>
         <div style={{ fontSize: 14, color: C.ink, lineHeight: 1.55, marginBottom: 12 }}>
-          Permettre de <b>promouvoir la formule SaaS de Naxi Gestion</b> auprès des prospects et clients existants.
+          <b>Refonte technique, UX et design</b> complète des fenêtres métiers de Naxi Gestion,
+          pour offrir une expérience moderne, fluide et efficace aux équipes terrain.
         </div>
         <div style={{ fontSize: 13, color: C.inkSoft, lineHeight: 1.55 }}>
-          Refonte visuelle complète d'un module de <b>50 à 60 fenêtres</b> opérationnelles, ciblées sur les usages
-          quotidiens des saisonniers (réception, check-in/out, gestion séjour, paiements, devis, mails).
+          Périmètre : <b>50 à 60 fenêtres</b> opérationnelles couvrant les usages quotidiens des saisonniers
+          (réception, check-in/out, gestion séjour, paiements, devis, mails). Architecture revue,
+          parcours utilisateur repensés et design system aligné sur les standards actuels.
         </div>
         <div style={{
           display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16,
