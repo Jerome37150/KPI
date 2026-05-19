@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T01:33:34.662Z",
+  "generatedAt": "2026-05-19T05:49:37.480Z",
   "classique": [
     {
       "id": "3648db15-623a-80e0-afb9-f5e129a9dc92",
@@ -3734,7 +3734,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "Fiche communication.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XJFO2JHK%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T013318Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAEaCXVzLXdlc3QtMiJIMEYCIQDJWrj5poTY%2BqYi4O6PMbJVmDEa%2B6ijkYUJWYK4%2BzBBOAIhAMpUr1nqjIoQQ8Pk91TkzGIdH7KIXe3qGrJvxu5QLzD5KogECMr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyKNPzFoRLFLiqQKSEq3ANO5s70QtnhdKgx281MRfXB0%2B2XEHsJ4NqlTRjCwBoPFwKDFS8vCe3T10T86e2bBrKa7W%2Fw%2FH4mMeMMpnivZEOM2DLYZZn1mSnVPlFjlp6dBk2M0xSLC2sFo%2BcNI4%2BffneuMJpV3zVP7pxDBaw0XmA6fPG2sMqyTbr8C%2BYdRsknmqorjPkIvwvB9Lrr0Wyipr471v0M4bOojx9Xl5lR9%2BNNEIGoY87VTsxJucdhYkPslRdp0zgG4y84A6x6C0rSP5TFcqMUytSuaG6Ul5mYVL8hZsQhvA18RuloJiKLD2%2Fean43RhRsGSX%2BCTfb2vGkTkcCQVKx%2BueRgp0BE3faCKClb2D3DSc1F38veUCF0%2B5Av4%2By7BJUklKwd7NjsKOPy%2BQ7tq952C%2Bs%2Bu1UZ02ayj%2FiMC4Z61GU8FiZ9Kr9vT6YBM4rXbXKJSclPyYYyVbRwJnOPgZG9TZ8EXEWTKYKEuEse702Ivw49lG3c3Fpvpp7hTdJPQETapA0rPn%2BFy2pcIjTwG%2FzdUq2X6otCmPSVKQVCK53Tx8eWaQ38cNn3P3mxsKYe2Y9apXWWfoGOQ7oOvOsSm9HKtSh26IWgOfR0pN6MztBxsDm4gjL0C9OTaoz48hjrRjwYHxhPJRT8DCf8K7QBjqkAa4m%2Fu8JIpy8G5fXeJz1HP7FoOKlhChruGGg2AdTu7SiOuDsjXFaFaCX4g5BE0F4OB1Fi75Ba84IQAhRKeEIonvQ%2Fx3XqWus%2B9CLIpGcxnDsS2hadsZihUQtiUz0RvgOZ47JD8PBEzTJT8Q2lxSpjAKH02q2ll4Eg8P%2FTb%2FvfIVdcwes6iMxlw2Olg6lAbReyTj3Z7XAiqZmXzeYJW4VsDAiU91P&X-Amz-Signature=acd3355ee0fa8e167d27160fac6c0128a0cd931ab43d8c36b5858079281ce686&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U4B6PAKW%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T054922Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAUaCXVzLXdlc3QtMiJHMEUCIQD61MyPYUPEThg4sf8%2B5uOr%2BeNKJovqG0iF4P2u1UBPpgIgcqhjrWpCipEX4gTb%2BPCnTk9VqasX9kijHZKb0GjJP1kqiAQIzv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDL7r9QkTU2%2FRay2KaircA6SwexueAp1s3wJ7ayoXNh9D5h%2FVeBz%2B10QuWpN5pg8K2oYe%2Bpeq4n3y8ucxavKTgPtzTAkdRIjWXQbVF38r9xtXrfKA3XHHSAcps3jF6O8VkbuAaVBPv6dO%2BYZ1mdCTp4TPE92QLYmiF4m8pDI%2B%2FjkWLYWb7l97LoHzuDsZe0pzOwZMG5USZKiYQaVaeatJqBmGDDgEtCbIc9nv2XpXwhKbpplOMsqYPbxQZJVZ8wh%2FAZL77tD1KupRwto%2Bc%2FsPbKodXtCMDJjDtpFM7XD62N9gYqbLjuHELP%2Fo2yCLMvPgRa3Jf7v6sANRWlrUFETliMZEiEYnWzPE90UeReq6NIimsyesdaYOGmwbw2mGt%2BCDF4u4LmlE5HCeVlh4etjq0H7Ie6P62Ro7Hg%2FeNjwIFHenPsOJpG%2F6HD6tfSnPY3V43a6IYCH1meMumGslFpsnzWlpehKZAMh1hx%2FbBWNzprPVDPpZs4LIJk0HU6yJX1qaHK8ocYE67PI2mflj3QiVgZ1C62j2Jt0urOBuRL8Bb7s6Fw8DqL7Zf1WhyLGo2QCq78SLzb7pXuSGK9tsZfS0m3hd1wODgygGzSIOw4Kefc70sBwsGKQbjZmFQs7jNB2hLRj7hY0nSt0KuvdTMPbkr9AGOqUBf4nKdZZnxRHgeh9hLHhE3hHYQa83k%2BFKkcRjW0a5xfqpVUrpIZE7B6Q4BRZTBSGHzR4dIg4UiahxVwtM0SY7NF%2BLqvG6euBd8P%2FiS2TnyWbj3Y93bTmujkJK1Sz93d7xCnA0514nT5gDM2rm%2BFSgfFn%2BAKXzilKHcqEyjOfq3brBB7EF%2B9q6Qzpaqi%2BcmXVLB4ymGXoj2AwEcNg5jiW4WWTiUzHv&X-Amz-Signature=816c249d0b5acc83f1882995ae3a368d230a694441fe496bfdba24f18cc10e04&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-Facturation-factures-et-proforma-d-ch-ances-multipes-probl-mes-3288db15623a80989620f6c98afd1347"
     },
@@ -4629,7 +4629,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-160.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XJFO2JHK%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T013318Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAEaCXVzLXdlc3QtMiJIMEYCIQDJWrj5poTY%2BqYi4O6PMbJVmDEa%2B6ijkYUJWYK4%2BzBBOAIhAMpUr1nqjIoQQ8Pk91TkzGIdH7KIXe3qGrJvxu5QLzD5KogECMr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyKNPzFoRLFLiqQKSEq3ANO5s70QtnhdKgx281MRfXB0%2B2XEHsJ4NqlTRjCwBoPFwKDFS8vCe3T10T86e2bBrKa7W%2Fw%2FH4mMeMMpnivZEOM2DLYZZn1mSnVPlFjlp6dBk2M0xSLC2sFo%2BcNI4%2BffneuMJpV3zVP7pxDBaw0XmA6fPG2sMqyTbr8C%2BYdRsknmqorjPkIvwvB9Lrr0Wyipr471v0M4bOojx9Xl5lR9%2BNNEIGoY87VTsxJucdhYkPslRdp0zgG4y84A6x6C0rSP5TFcqMUytSuaG6Ul5mYVL8hZsQhvA18RuloJiKLD2%2Fean43RhRsGSX%2BCTfb2vGkTkcCQVKx%2BueRgp0BE3faCKClb2D3DSc1F38veUCF0%2B5Av4%2By7BJUklKwd7NjsKOPy%2BQ7tq952C%2Bs%2Bu1UZ02ayj%2FiMC4Z61GU8FiZ9Kr9vT6YBM4rXbXKJSclPyYYyVbRwJnOPgZG9TZ8EXEWTKYKEuEse702Ivw49lG3c3Fpvpp7hTdJPQETapA0rPn%2BFy2pcIjTwG%2FzdUq2X6otCmPSVKQVCK53Tx8eWaQ38cNn3P3mxsKYe2Y9apXWWfoGOQ7oOvOsSm9HKtSh26IWgOfR0pN6MztBxsDm4gjL0C9OTaoz48hjrRjwYHxhPJRT8DCf8K7QBjqkAa4m%2Fu8JIpy8G5fXeJz1HP7FoOKlhChruGGg2AdTu7SiOuDsjXFaFaCX4g5BE0F4OB1Fi75Ba84IQAhRKeEIonvQ%2Fx3XqWus%2B9CLIpGcxnDsS2hadsZihUQtiUz0RvgOZ47JD8PBEzTJT8Q2lxSpjAKH02q2ll4Eg8P%2FTb%2FvfIVdcwes6iMxlw2Olg6lAbReyTj3Z7XAiqZmXzeYJW4VsDAiU91P&X-Amz-Signature=7756ca103bac559e1e6a79bf598a06cf5a72ed823d2183f288289effcaa693e0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U4B6PAKW%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T054922Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAUaCXVzLXdlc3QtMiJHMEUCIQD61MyPYUPEThg4sf8%2B5uOr%2BeNKJovqG0iF4P2u1UBPpgIgcqhjrWpCipEX4gTb%2BPCnTk9VqasX9kijHZKb0GjJP1kqiAQIzv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDL7r9QkTU2%2FRay2KaircA6SwexueAp1s3wJ7ayoXNh9D5h%2FVeBz%2B10QuWpN5pg8K2oYe%2Bpeq4n3y8ucxavKTgPtzTAkdRIjWXQbVF38r9xtXrfKA3XHHSAcps3jF6O8VkbuAaVBPv6dO%2BYZ1mdCTp4TPE92QLYmiF4m8pDI%2B%2FjkWLYWb7l97LoHzuDsZe0pzOwZMG5USZKiYQaVaeatJqBmGDDgEtCbIc9nv2XpXwhKbpplOMsqYPbxQZJVZ8wh%2FAZL77tD1KupRwto%2Bc%2FsPbKodXtCMDJjDtpFM7XD62N9gYqbLjuHELP%2Fo2yCLMvPgRa3Jf7v6sANRWlrUFETliMZEiEYnWzPE90UeReq6NIimsyesdaYOGmwbw2mGt%2BCDF4u4LmlE5HCeVlh4etjq0H7Ie6P62Ro7Hg%2FeNjwIFHenPsOJpG%2F6HD6tfSnPY3V43a6IYCH1meMumGslFpsnzWlpehKZAMh1hx%2FbBWNzprPVDPpZs4LIJk0HU6yJX1qaHK8ocYE67PI2mflj3QiVgZ1C62j2Jt0urOBuRL8Bb7s6Fw8DqL7Zf1WhyLGo2QCq78SLzb7pXuSGK9tsZfS0m3hd1wODgygGzSIOw4Kefc70sBwsGKQbjZmFQs7jNB2hLRj7hY0nSt0KuvdTMPbkr9AGOqUBf4nKdZZnxRHgeh9hLHhE3hHYQa83k%2BFKkcRjW0a5xfqpVUrpIZE7B6Q4BRZTBSGHzR4dIg4UiahxVwtM0SY7NF%2BLqvG6euBd8P%2FiS2TnyWbj3Y93bTmujkJK1Sz93d7xCnA0514nT5gDM2rm%2BFSgfFn%2BAKXzilKHcqEyjOfq3brBB7EF%2B9q6Qzpaqi%2BcmXVLB4ymGXoj2AwEcNg5jiW4WWTiUzHv&X-Amz-Signature=05b287e4169566992b612ba1e923aa99f6cee9bac6b04b9dee7ac0718e4d3ad0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Apparition-d-un-message-sur-le-traitement-des-r-sas-issues-de-l-espace-client-31e8db15623a806896d5f5a1ed131200"
     },
@@ -4768,7 +4768,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "synthese_espaceclient (1).xlsx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XJFO2JHK%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T013318Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAEaCXVzLXdlc3QtMiJIMEYCIQDJWrj5poTY%2BqYi4O6PMbJVmDEa%2B6ijkYUJWYK4%2BzBBOAIhAMpUr1nqjIoQQ8Pk91TkzGIdH7KIXe3qGrJvxu5QLzD5KogECMr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyKNPzFoRLFLiqQKSEq3ANO5s70QtnhdKgx281MRfXB0%2B2XEHsJ4NqlTRjCwBoPFwKDFS8vCe3T10T86e2bBrKa7W%2Fw%2FH4mMeMMpnivZEOM2DLYZZn1mSnVPlFjlp6dBk2M0xSLC2sFo%2BcNI4%2BffneuMJpV3zVP7pxDBaw0XmA6fPG2sMqyTbr8C%2BYdRsknmqorjPkIvwvB9Lrr0Wyipr471v0M4bOojx9Xl5lR9%2BNNEIGoY87VTsxJucdhYkPslRdp0zgG4y84A6x6C0rSP5TFcqMUytSuaG6Ul5mYVL8hZsQhvA18RuloJiKLD2%2Fean43RhRsGSX%2BCTfb2vGkTkcCQVKx%2BueRgp0BE3faCKClb2D3DSc1F38veUCF0%2B5Av4%2By7BJUklKwd7NjsKOPy%2BQ7tq952C%2Bs%2Bu1UZ02ayj%2FiMC4Z61GU8FiZ9Kr9vT6YBM4rXbXKJSclPyYYyVbRwJnOPgZG9TZ8EXEWTKYKEuEse702Ivw49lG3c3Fpvpp7hTdJPQETapA0rPn%2BFy2pcIjTwG%2FzdUq2X6otCmPSVKQVCK53Tx8eWaQ38cNn3P3mxsKYe2Y9apXWWfoGOQ7oOvOsSm9HKtSh26IWgOfR0pN6MztBxsDm4gjL0C9OTaoz48hjrRjwYHxhPJRT8DCf8K7QBjqkAa4m%2Fu8JIpy8G5fXeJz1HP7FoOKlhChruGGg2AdTu7SiOuDsjXFaFaCX4g5BE0F4OB1Fi75Ba84IQAhRKeEIonvQ%2Fx3XqWus%2B9CLIpGcxnDsS2hadsZihUQtiUz0RvgOZ47JD8PBEzTJT8Q2lxSpjAKH02q2ll4Eg8P%2FTb%2FvfIVdcwes6iMxlw2Olg6lAbReyTj3Z7XAiqZmXzeYJW4VsDAiU91P&X-Amz-Signature=e1d2c9c7913d6c36d1a3892c593841898a694ba75219671b22cadea3866aa314&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U4B6PAKW%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T054922Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAUaCXVzLXdlc3QtMiJHMEUCIQD61MyPYUPEThg4sf8%2B5uOr%2BeNKJovqG0iF4P2u1UBPpgIgcqhjrWpCipEX4gTb%2BPCnTk9VqasX9kijHZKb0GjJP1kqiAQIzv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDL7r9QkTU2%2FRay2KaircA6SwexueAp1s3wJ7ayoXNh9D5h%2FVeBz%2B10QuWpN5pg8K2oYe%2Bpeq4n3y8ucxavKTgPtzTAkdRIjWXQbVF38r9xtXrfKA3XHHSAcps3jF6O8VkbuAaVBPv6dO%2BYZ1mdCTp4TPE92QLYmiF4m8pDI%2B%2FjkWLYWb7l97LoHzuDsZe0pzOwZMG5USZKiYQaVaeatJqBmGDDgEtCbIc9nv2XpXwhKbpplOMsqYPbxQZJVZ8wh%2FAZL77tD1KupRwto%2Bc%2FsPbKodXtCMDJjDtpFM7XD62N9gYqbLjuHELP%2Fo2yCLMvPgRa3Jf7v6sANRWlrUFETliMZEiEYnWzPE90UeReq6NIimsyesdaYOGmwbw2mGt%2BCDF4u4LmlE5HCeVlh4etjq0H7Ie6P62Ro7Hg%2FeNjwIFHenPsOJpG%2F6HD6tfSnPY3V43a6IYCH1meMumGslFpsnzWlpehKZAMh1hx%2FbBWNzprPVDPpZs4LIJk0HU6yJX1qaHK8ocYE67PI2mflj3QiVgZ1C62j2Jt0urOBuRL8Bb7s6Fw8DqL7Zf1WhyLGo2QCq78SLzb7pXuSGK9tsZfS0m3hd1wODgygGzSIOw4Kefc70sBwsGKQbjZmFQs7jNB2hLRj7hY0nSt0KuvdTMPbkr9AGOqUBf4nKdZZnxRHgeh9hLHhE3hHYQa83k%2BFKkcRjW0a5xfqpVUrpIZE7B6Q4BRZTBSGHzR4dIg4UiahxVwtM0SY7NF%2BLqvG6euBd8P%2FiS2TnyWbj3Y93bTmujkJK1Sz93d7xCnA0514nT5gDM2rm%2BFSgfFn%2BAKXzilKHcqEyjOfq3brBB7EF%2B9q6Qzpaqi%2BcmXVLB4ymGXoj2AwEcNg5jiW4WWTiUzHv&X-Amz-Signature=6622f276398ab90e5252a55383f74b427baeca9ed61ba736fd3d8b06586b8255&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-G-rer-l-arr-t-de-l-espace-client-V1-31a8db15623a800d915eea7ee689e4da"
     },
@@ -4987,7 +4987,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-148.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XJFO2JHK%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T013318Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAEaCXVzLXdlc3QtMiJIMEYCIQDJWrj5poTY%2BqYi4O6PMbJVmDEa%2B6ijkYUJWYK4%2BzBBOAIhAMpUr1nqjIoQQ8Pk91TkzGIdH7KIXe3qGrJvxu5QLzD5KogECMr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyKNPzFoRLFLiqQKSEq3ANO5s70QtnhdKgx281MRfXB0%2B2XEHsJ4NqlTRjCwBoPFwKDFS8vCe3T10T86e2bBrKa7W%2Fw%2FH4mMeMMpnivZEOM2DLYZZn1mSnVPlFjlp6dBk2M0xSLC2sFo%2BcNI4%2BffneuMJpV3zVP7pxDBaw0XmA6fPG2sMqyTbr8C%2BYdRsknmqorjPkIvwvB9Lrr0Wyipr471v0M4bOojx9Xl5lR9%2BNNEIGoY87VTsxJucdhYkPslRdp0zgG4y84A6x6C0rSP5TFcqMUytSuaG6Ul5mYVL8hZsQhvA18RuloJiKLD2%2Fean43RhRsGSX%2BCTfb2vGkTkcCQVKx%2BueRgp0BE3faCKClb2D3DSc1F38veUCF0%2B5Av4%2By7BJUklKwd7NjsKOPy%2BQ7tq952C%2Bs%2Bu1UZ02ayj%2FiMC4Z61GU8FiZ9Kr9vT6YBM4rXbXKJSclPyYYyVbRwJnOPgZG9TZ8EXEWTKYKEuEse702Ivw49lG3c3Fpvpp7hTdJPQETapA0rPn%2BFy2pcIjTwG%2FzdUq2X6otCmPSVKQVCK53Tx8eWaQ38cNn3P3mxsKYe2Y9apXWWfoGOQ7oOvOsSm9HKtSh26IWgOfR0pN6MztBxsDm4gjL0C9OTaoz48hjrRjwYHxhPJRT8DCf8K7QBjqkAa4m%2Fu8JIpy8G5fXeJz1HP7FoOKlhChruGGg2AdTu7SiOuDsjXFaFaCX4g5BE0F4OB1Fi75Ba84IQAhRKeEIonvQ%2Fx3XqWus%2B9CLIpGcxnDsS2hadsZihUQtiUz0RvgOZ47JD8PBEzTJT8Q2lxSpjAKH02q2ll4Eg8P%2FTb%2FvfIVdcwes6iMxlw2Olg6lAbReyTj3Z7XAiqZmXzeYJW4VsDAiU91P&X-Amz-Signature=0567e30d0416679cf81578f04c6fdbf91f11c6ef9a9fd28cf3c14bd50e9cdf0f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U4B6PAKW%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T054922Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAUaCXVzLXdlc3QtMiJHMEUCIQD61MyPYUPEThg4sf8%2B5uOr%2BeNKJovqG0iF4P2u1UBPpgIgcqhjrWpCipEX4gTb%2BPCnTk9VqasX9kijHZKb0GjJP1kqiAQIzv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDL7r9QkTU2%2FRay2KaircA6SwexueAp1s3wJ7ayoXNh9D5h%2FVeBz%2B10QuWpN5pg8K2oYe%2Bpeq4n3y8ucxavKTgPtzTAkdRIjWXQbVF38r9xtXrfKA3XHHSAcps3jF6O8VkbuAaVBPv6dO%2BYZ1mdCTp4TPE92QLYmiF4m8pDI%2B%2FjkWLYWb7l97LoHzuDsZe0pzOwZMG5USZKiYQaVaeatJqBmGDDgEtCbIc9nv2XpXwhKbpplOMsqYPbxQZJVZ8wh%2FAZL77tD1KupRwto%2Bc%2FsPbKodXtCMDJjDtpFM7XD62N9gYqbLjuHELP%2Fo2yCLMvPgRa3Jf7v6sANRWlrUFETliMZEiEYnWzPE90UeReq6NIimsyesdaYOGmwbw2mGt%2BCDF4u4LmlE5HCeVlh4etjq0H7Ie6P62Ro7Hg%2FeNjwIFHenPsOJpG%2F6HD6tfSnPY3V43a6IYCH1meMumGslFpsnzWlpehKZAMh1hx%2FbBWNzprPVDPpZs4LIJk0HU6yJX1qaHK8ocYE67PI2mflj3QiVgZ1C62j2Jt0urOBuRL8Bb7s6Fw8DqL7Zf1WhyLGo2QCq78SLzb7pXuSGK9tsZfS0m3hd1wODgygGzSIOw4Kefc70sBwsGKQbjZmFQs7jNB2hLRj7hY0nSt0KuvdTMPbkr9AGOqUBf4nKdZZnxRHgeh9hLHhE3hHYQa83k%2BFKkcRjW0a5xfqpVUrpIZE7B6Q4BRZTBSGHzR4dIg4UiahxVwtM0SY7NF%2BLqvG6euBd8P%2FiS2TnyWbj3Y93bTmujkJK1Sz93d7xCnA0514nT5gDM2rm%2BFSgfFn%2BAKXzilKHcqEyjOfq3brBB7EF%2B9q6Qzpaqi%2BcmXVLB4ymGXoj2AwEcNg5jiW4WWTiUzHv&X-Amz-Signature=ceefd5837d88975d5321080a290caff3028476dfb437b6dfbc927af64622e2cd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/REDSYS-Non-fonctionnel-suite-mise-en-place-3178db15623a80458d0de93a71d0564f"
     },
@@ -5022,7 +5022,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-147.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XJFO2JHK%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T013318Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAEaCXVzLXdlc3QtMiJIMEYCIQDJWrj5poTY%2BqYi4O6PMbJVmDEa%2B6ijkYUJWYK4%2BzBBOAIhAMpUr1nqjIoQQ8Pk91TkzGIdH7KIXe3qGrJvxu5QLzD5KogECMr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyKNPzFoRLFLiqQKSEq3ANO5s70QtnhdKgx281MRfXB0%2B2XEHsJ4NqlTRjCwBoPFwKDFS8vCe3T10T86e2bBrKa7W%2Fw%2FH4mMeMMpnivZEOM2DLYZZn1mSnVPlFjlp6dBk2M0xSLC2sFo%2BcNI4%2BffneuMJpV3zVP7pxDBaw0XmA6fPG2sMqyTbr8C%2BYdRsknmqorjPkIvwvB9Lrr0Wyipr471v0M4bOojx9Xl5lR9%2BNNEIGoY87VTsxJucdhYkPslRdp0zgG4y84A6x6C0rSP5TFcqMUytSuaG6Ul5mYVL8hZsQhvA18RuloJiKLD2%2Fean43RhRsGSX%2BCTfb2vGkTkcCQVKx%2BueRgp0BE3faCKClb2D3DSc1F38veUCF0%2B5Av4%2By7BJUklKwd7NjsKOPy%2BQ7tq952C%2Bs%2Bu1UZ02ayj%2FiMC4Z61GU8FiZ9Kr9vT6YBM4rXbXKJSclPyYYyVbRwJnOPgZG9TZ8EXEWTKYKEuEse702Ivw49lG3c3Fpvpp7hTdJPQETapA0rPn%2BFy2pcIjTwG%2FzdUq2X6otCmPSVKQVCK53Tx8eWaQ38cNn3P3mxsKYe2Y9apXWWfoGOQ7oOvOsSm9HKtSh26IWgOfR0pN6MztBxsDm4gjL0C9OTaoz48hjrRjwYHxhPJRT8DCf8K7QBjqkAa4m%2Fu8JIpy8G5fXeJz1HP7FoOKlhChruGGg2AdTu7SiOuDsjXFaFaCX4g5BE0F4OB1Fi75Ba84IQAhRKeEIonvQ%2Fx3XqWus%2B9CLIpGcxnDsS2hadsZihUQtiUz0RvgOZ47JD8PBEzTJT8Q2lxSpjAKH02q2ll4Eg8P%2FTb%2FvfIVdcwes6iMxlw2Olg6lAbReyTj3Z7XAiqZmXzeYJW4VsDAiU91P&X-Amz-Signature=c5b7a6a8776098f716b1137bf381ca60e0da6f461df8a49a3e43fdecf9165e93&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U4B6PAKW%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T054922Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAUaCXVzLXdlc3QtMiJHMEUCIQD61MyPYUPEThg4sf8%2B5uOr%2BeNKJovqG0iF4P2u1UBPpgIgcqhjrWpCipEX4gTb%2BPCnTk9VqasX9kijHZKb0GjJP1kqiAQIzv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDL7r9QkTU2%2FRay2KaircA6SwexueAp1s3wJ7ayoXNh9D5h%2FVeBz%2B10QuWpN5pg8K2oYe%2Bpeq4n3y8ucxavKTgPtzTAkdRIjWXQbVF38r9xtXrfKA3XHHSAcps3jF6O8VkbuAaVBPv6dO%2BYZ1mdCTp4TPE92QLYmiF4m8pDI%2B%2FjkWLYWb7l97LoHzuDsZe0pzOwZMG5USZKiYQaVaeatJqBmGDDgEtCbIc9nv2XpXwhKbpplOMsqYPbxQZJVZ8wh%2FAZL77tD1KupRwto%2Bc%2FsPbKodXtCMDJjDtpFM7XD62N9gYqbLjuHELP%2Fo2yCLMvPgRa3Jf7v6sANRWlrUFETliMZEiEYnWzPE90UeReq6NIimsyesdaYOGmwbw2mGt%2BCDF4u4LmlE5HCeVlh4etjq0H7Ie6P62Ro7Hg%2FeNjwIFHenPsOJpG%2F6HD6tfSnPY3V43a6IYCH1meMumGslFpsnzWlpehKZAMh1hx%2FbBWNzprPVDPpZs4LIJk0HU6yJX1qaHK8ocYE67PI2mflj3QiVgZ1C62j2Jt0urOBuRL8Bb7s6Fw8DqL7Zf1WhyLGo2QCq78SLzb7pXuSGK9tsZfS0m3hd1wODgygGzSIOw4Kefc70sBwsGKQbjZmFQs7jNB2hLRj7hY0nSt0KuvdTMPbkr9AGOqUBf4nKdZZnxRHgeh9hLHhE3hHYQa83k%2BFKkcRjW0a5xfqpVUrpIZE7B6Q4BRZTBSGHzR4dIg4UiahxVwtM0SY7NF%2BLqvG6euBd8P%2FiS2TnyWbj3Y93bTmujkJK1Sz93d7xCnA0514nT5gDM2rm%2BFSgfFn%2BAKXzilKHcqEyjOfq3brBB7EF%2B9q6Qzpaqi%2BcmXVLB4ymGXoj2AwEcNg5jiW4WWTiUzHv&X-Amz-Signature=99637d1f2d365e14bbc2fec0095887968a00286f55fe160973dc7db80b8a5786&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-CRM-Le-montant-des-suppl-ments-envoy-s-est-faux-lorsque-le-suppl-ment-est-en-prix-mo-3178db15623a8017a10ff4b9821287fa"
     },
@@ -5100,7 +5100,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-145.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XJFO2JHK%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T013318Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAEaCXVzLXdlc3QtMiJIMEYCIQDJWrj5poTY%2BqYi4O6PMbJVmDEa%2B6ijkYUJWYK4%2BzBBOAIhAMpUr1nqjIoQQ8Pk91TkzGIdH7KIXe3qGrJvxu5QLzD5KogECMr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyKNPzFoRLFLiqQKSEq3ANO5s70QtnhdKgx281MRfXB0%2B2XEHsJ4NqlTRjCwBoPFwKDFS8vCe3T10T86e2bBrKa7W%2Fw%2FH4mMeMMpnivZEOM2DLYZZn1mSnVPlFjlp6dBk2M0xSLC2sFo%2BcNI4%2BffneuMJpV3zVP7pxDBaw0XmA6fPG2sMqyTbr8C%2BYdRsknmqorjPkIvwvB9Lrr0Wyipr471v0M4bOojx9Xl5lR9%2BNNEIGoY87VTsxJucdhYkPslRdp0zgG4y84A6x6C0rSP5TFcqMUytSuaG6Ul5mYVL8hZsQhvA18RuloJiKLD2%2Fean43RhRsGSX%2BCTfb2vGkTkcCQVKx%2BueRgp0BE3faCKClb2D3DSc1F38veUCF0%2B5Av4%2By7BJUklKwd7NjsKOPy%2BQ7tq952C%2Bs%2Bu1UZ02ayj%2FiMC4Z61GU8FiZ9Kr9vT6YBM4rXbXKJSclPyYYyVbRwJnOPgZG9TZ8EXEWTKYKEuEse702Ivw49lG3c3Fpvpp7hTdJPQETapA0rPn%2BFy2pcIjTwG%2FzdUq2X6otCmPSVKQVCK53Tx8eWaQ38cNn3P3mxsKYe2Y9apXWWfoGOQ7oOvOsSm9HKtSh26IWgOfR0pN6MztBxsDm4gjL0C9OTaoz48hjrRjwYHxhPJRT8DCf8K7QBjqkAa4m%2Fu8JIpy8G5fXeJz1HP7FoOKlhChruGGg2AdTu7SiOuDsjXFaFaCX4g5BE0F4OB1Fi75Ba84IQAhRKeEIonvQ%2Fx3XqWus%2B9CLIpGcxnDsS2hadsZihUQtiUz0RvgOZ47JD8PBEzTJT8Q2lxSpjAKH02q2ll4Eg8P%2FTb%2FvfIVdcwes6iMxlw2Olg6lAbReyTj3Z7XAiqZmXzeYJW4VsDAiU91P&X-Amz-Signature=78f79ade1894d0b8ce65c3f1cdc848e9e706b0de0d4bf2e549ea97dd0717d822&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U4B6PAKW%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T054922Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAUaCXVzLXdlc3QtMiJHMEUCIQD61MyPYUPEThg4sf8%2B5uOr%2BeNKJovqG0iF4P2u1UBPpgIgcqhjrWpCipEX4gTb%2BPCnTk9VqasX9kijHZKb0GjJP1kqiAQIzv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDL7r9QkTU2%2FRay2KaircA6SwexueAp1s3wJ7ayoXNh9D5h%2FVeBz%2B10QuWpN5pg8K2oYe%2Bpeq4n3y8ucxavKTgPtzTAkdRIjWXQbVF38r9xtXrfKA3XHHSAcps3jF6O8VkbuAaVBPv6dO%2BYZ1mdCTp4TPE92QLYmiF4m8pDI%2B%2FjkWLYWb7l97LoHzuDsZe0pzOwZMG5USZKiYQaVaeatJqBmGDDgEtCbIc9nv2XpXwhKbpplOMsqYPbxQZJVZ8wh%2FAZL77tD1KupRwto%2Bc%2FsPbKodXtCMDJjDtpFM7XD62N9gYqbLjuHELP%2Fo2yCLMvPgRa3Jf7v6sANRWlrUFETliMZEiEYnWzPE90UeReq6NIimsyesdaYOGmwbw2mGt%2BCDF4u4LmlE5HCeVlh4etjq0H7Ie6P62Ro7Hg%2FeNjwIFHenPsOJpG%2F6HD6tfSnPY3V43a6IYCH1meMumGslFpsnzWlpehKZAMh1hx%2FbBWNzprPVDPpZs4LIJk0HU6yJX1qaHK8ocYE67PI2mflj3QiVgZ1C62j2Jt0urOBuRL8Bb7s6Fw8DqL7Zf1WhyLGo2QCq78SLzb7pXuSGK9tsZfS0m3hd1wODgygGzSIOw4Kefc70sBwsGKQbjZmFQs7jNB2hLRj7hY0nSt0KuvdTMPbkr9AGOqUBf4nKdZZnxRHgeh9hLHhE3hHYQa83k%2BFKkcRjW0a5xfqpVUrpIZE7B6Q4BRZTBSGHzR4dIg4UiahxVwtM0SY7NF%2BLqvG6euBd8P%2FiS2TnyWbj3Y93bTmujkJK1Sz93d7xCnA0514nT5gDM2rm%2BFSgfFn%2BAKXzilKHcqEyjOfq3brBB7EF%2B9q6Qzpaqi%2BcmXVLB4ymGXoj2AwEcNg5jiW4WWTiUzHv&X-Amz-Signature=2cc1f2769afc78dc621328678d8517c39630eb3886bc10d6bb3f45ac7b12c597&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Erreur-de-saisie-sur-les-remises-manuelle-g-n-rant-un-montant-de-s-jour-faux-3178db15623a8079a34be124df5b756a"
     },
@@ -6933,7 +6933,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA77.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XJFO2JHK%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T013318Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAEaCXVzLXdlc3QtMiJIMEYCIQDJWrj5poTY%2BqYi4O6PMbJVmDEa%2B6ijkYUJWYK4%2BzBBOAIhAMpUr1nqjIoQQ8Pk91TkzGIdH7KIXe3qGrJvxu5QLzD5KogECMr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyKNPzFoRLFLiqQKSEq3ANO5s70QtnhdKgx281MRfXB0%2B2XEHsJ4NqlTRjCwBoPFwKDFS8vCe3T10T86e2bBrKa7W%2Fw%2FH4mMeMMpnivZEOM2DLYZZn1mSnVPlFjlp6dBk2M0xSLC2sFo%2BcNI4%2BffneuMJpV3zVP7pxDBaw0XmA6fPG2sMqyTbr8C%2BYdRsknmqorjPkIvwvB9Lrr0Wyipr471v0M4bOojx9Xl5lR9%2BNNEIGoY87VTsxJucdhYkPslRdp0zgG4y84A6x6C0rSP5TFcqMUytSuaG6Ul5mYVL8hZsQhvA18RuloJiKLD2%2Fean43RhRsGSX%2BCTfb2vGkTkcCQVKx%2BueRgp0BE3faCKClb2D3DSc1F38veUCF0%2B5Av4%2By7BJUklKwd7NjsKOPy%2BQ7tq952C%2Bs%2Bu1UZ02ayj%2FiMC4Z61GU8FiZ9Kr9vT6YBM4rXbXKJSclPyYYyVbRwJnOPgZG9TZ8EXEWTKYKEuEse702Ivw49lG3c3Fpvpp7hTdJPQETapA0rPn%2BFy2pcIjTwG%2FzdUq2X6otCmPSVKQVCK53Tx8eWaQ38cNn3P3mxsKYe2Y9apXWWfoGOQ7oOvOsSm9HKtSh26IWgOfR0pN6MztBxsDm4gjL0C9OTaoz48hjrRjwYHxhPJRT8DCf8K7QBjqkAa4m%2Fu8JIpy8G5fXeJz1HP7FoOKlhChruGGg2AdTu7SiOuDsjXFaFaCX4g5BE0F4OB1Fi75Ba84IQAhRKeEIonvQ%2Fx3XqWus%2B9CLIpGcxnDsS2hadsZihUQtiUz0RvgOZ47JD8PBEzTJT8Q2lxSpjAKH02q2ll4Eg8P%2FTb%2FvfIVdcwes6iMxlw2Olg6lAbReyTj3Z7XAiqZmXzeYJW4VsDAiU91P&X-Amz-Signature=755d69d1d4ef13442cba319b2509831384d5b8f833076bca82b824054e7eb411&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U4B6PAKW%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T054922Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAUaCXVzLXdlc3QtMiJHMEUCIQD61MyPYUPEThg4sf8%2B5uOr%2BeNKJovqG0iF4P2u1UBPpgIgcqhjrWpCipEX4gTb%2BPCnTk9VqasX9kijHZKb0GjJP1kqiAQIzv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDL7r9QkTU2%2FRay2KaircA6SwexueAp1s3wJ7ayoXNh9D5h%2FVeBz%2B10QuWpN5pg8K2oYe%2Bpeq4n3y8ucxavKTgPtzTAkdRIjWXQbVF38r9xtXrfKA3XHHSAcps3jF6O8VkbuAaVBPv6dO%2BYZ1mdCTp4TPE92QLYmiF4m8pDI%2B%2FjkWLYWb7l97LoHzuDsZe0pzOwZMG5USZKiYQaVaeatJqBmGDDgEtCbIc9nv2XpXwhKbpplOMsqYPbxQZJVZ8wh%2FAZL77tD1KupRwto%2Bc%2FsPbKodXtCMDJjDtpFM7XD62N9gYqbLjuHELP%2Fo2yCLMvPgRa3Jf7v6sANRWlrUFETliMZEiEYnWzPE90UeReq6NIimsyesdaYOGmwbw2mGt%2BCDF4u4LmlE5HCeVlh4etjq0H7Ie6P62Ro7Hg%2FeNjwIFHenPsOJpG%2F6HD6tfSnPY3V43a6IYCH1meMumGslFpsnzWlpehKZAMh1hx%2FbBWNzprPVDPpZs4LIJk0HU6yJX1qaHK8ocYE67PI2mflj3QiVgZ1C62j2Jt0urOBuRL8Bb7s6Fw8DqL7Zf1WhyLGo2QCq78SLzb7pXuSGK9tsZfS0m3hd1wODgygGzSIOw4Kefc70sBwsGKQbjZmFQs7jNB2hLRj7hY0nSt0KuvdTMPbkr9AGOqUBf4nKdZZnxRHgeh9hLHhE3hHYQa83k%2BFKkcRjW0a5xfqpVUrpIZE7B6Q4BRZTBSGHzR4dIg4UiahxVwtM0SY7NF%2BLqvG6euBd8P%2FiS2TnyWbj3Y93bTmujkJK1Sz93d7xCnA0514nT5gDM2rm%2BFSgfFn%2BAKXzilKHcqEyjOfq3brBB7EF%2B9q6Qzpaqi%2BcmXVLB4ymGXoj2AwEcNg5jiW4WWTiUzHv&X-Amz-Signature=46adafdcb2b1ea778ad68b65b8eed72a94375964c7b06d0c6df76ddfe15cfe56&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/WEB-LOGICIEL-Check-In-Scan-partie-1-Mapping-envoi-Naxi-G-vers-CiS-3118db15623a81c78ca4f07fb87f2047"
     },
@@ -8311,7 +8311,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA29.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664AOFFMF3%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T013320Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCIQCinLyZou7oS25kX1UQ8DLElJEXHLMScULnG78Y7GecYAIgfZ2cP6aw1xtFFW3cukCnH0UcvqmzAMkGAMeKgwiSeJIqiAQIyf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDOzF1FEpjmHkJvXxMCrcA8ntyjYCZNFW6h%2FHqhCaCfJtWHxwjYAOCPQjQ8xJ8CzrNzA8ryKyQUfNyr9pBXS6XEAGTpLGy1Ohw6C2JUR%2BVLvymOhk8fmo%2BOM5iWwZFojwNpdqbT2%2BwQgqGvlNJmkTrjLDV9gAjUGxZFkdNQYJ05G4sa42OZ6zA9%2BJO6gFIOa5zqK7CVIULmKuxXKEpWCm2OspUT5DV%2FLOJRm1U1qExFykrbaLi2wxJ6wKn6IU3hFc3X6E2I1LMUuZsZV4yv4Obn6YWIEeI5mDUwQyhPyTyJi2EXdV3Q0AJ1fXGB9VkeNTbx51%2B75Sw7CWXLnQiQ1YMc8W4quZg3g1PiwCU7%2BNtbS3CfCYGvNklc4MoOgBNq%2BQFYEiSoS0d1FPJ7MSv7SLZaSDm4iSkFZ1qR7o6oQsYkdwYdDg9Z2%2F9NkdhJhZFgv84fpN%2FxquIslc2LA0vVQNhe6ywQun7%2F7uMQ1f6Q9eEBqqQebEPwsadPNC2puo65m%2F4pj%2FiXuenkmgl%2Foez%2FgZUTp%2FfmsX5bAzrV%2B1yYjnUqbtKOqO0AEV7mAwHoUuJMPBvYv3DHJ6DkO%2Ff65w0IFeHSxXKwXe8r61c2PfkCVQPmzIkCRvZE3NsQZEgCnj%2F895a02h0W%2FeXx23x4kwMNnWrtAGOqUBT24PENj1XgYQU5bcjUEHTuVbVUNYDTggCBOscw7Yn00cMXcBpVgK7orGot5dnGjTC%2BCCmPkSFRtQAngGOOSDeLZOjRpTN1JcdUxi9wt4Nyc0eLVwfCgPe7vhaCdiBNvIJXM3ChBHhD50HHVo%2FjIdvBsAhe1NKJPRqQZOV9Na6rV5Mm7NGbTbDhimMXkAl9zI8Vh0c2sh%2F%2B2crtDuTosReFpCR0St&X-Amz-Signature=a271b198138fea9eb1e5502ab103d03b1e4ccd1a79df94f823196126ecbfa286&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZBWBD3QF%2F20260519%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260519T054924Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAYaCXVzLXdlc3QtMiJIMEYCIQCU9kY%2BFeESpfwYnVAIxWYnlqpf45yWsistIYXA1XbknQIhALXs2KetCklhzplHbeuoylR8C7ytEP3JGZZ9u9j5sl7aKogECM7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwdT2kIv6ZrdLTAzDYq3AMTMYdszybm%2B7mMXKgMG8Nnb6Lcu%2FUtSA%2Bc9u3277o%2BjF%2BdJBZwGX7IesHcSjcFpGst9EgpSdwJzaC7uSVSH21%2FVIKKmU4hcMhzYsp6fo9akdRyp0WABPsgPyFIINZKbRF8my9vNjD%2BT7zj%2F0RsromvyIzeaEDM3y4Ub7II5eNVrTqE0tMPayiGRUAP4JjwBG91TxYDUvQ%2FZWbH65OqOeXzhTkYO1KCuecaWG9wBjA6bgroLYf3CmCvLLd8tRM5IjNktbBIN6JHV9d3YDrKl%2Fq0HEGHpBh%2B1gDEBVqa0SjrHJyq6bYckqf65MgdFwbQAMY2yKso0EN7MugD5IN%2Fqfw9SVa4aTRrl%2BGioIZYobmgjik65OIXmDs7rPZDZwMZGGxGpUBTmJwpHAywoywUQwlPV76YV6TxZ5wEKCWl3V5HYGfN5MY1MGSD00%2FebRH1JXLrErgRWuwsCvt%2BJApSKktFua4mCG%2BAKzHq3aLiUJqi1sLpPWXaFoovX5uW7CKVunN2AMMWllBrZwYtE8uHZZ6%2BxcvQKH%2BBt%2FPOEKA74PiFYuI06fE%2BlDDrSeIdWK%2BcaSVUG0EReySBtpsuGTJkqgMySZiiYsnBnrH%2BJIkZ2SLcVyC3D%2B%2B5G9sLrZmQejDY5q%2FQBjqkAVxz0Aw0qxs0EmY7FaTzamQqWSpXvecFnU30RO5K%2F3RKBruyJE89uHzppTLEFsNo6Z%2BtAw9kkkUgJfIFWNNLW6h4JYquR1h7unQKViE54N3Bh7YU4I%2F9CM7Z%2FN33tq1Lrcfaek72P91NxAMtwo%2FYa8gjUjiLlmVCAP7qz3%2F7Kz%2FNgD87JcpGAf1BAjDZScD0MMpuQWwIicDG9UUnd75JEikZ0PGu&X-Amz-Signature=fe3decb4ce8c65abc3e89301ed0ae7aef9f6b2f706049243365402d4ba458244&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-NORME-V19-3118db15623a8078a611ffceac61cd6e"
     },
@@ -24078,12 +24078,1034 @@
       "url": "https://www.notion.so/Infra-global-3648db15623a81e2a912ff37a34c1898"
     }
   ],
+  "calculPrix": {
+    "intro": "",
+    "elements": [
+      {
+        "id": "3658db15-623a-8126-8219-d2573c464265",
+        "item": "Locatif (nuit)",
+        "categorie": "Hébergement",
+        "description": "Tarif principal de l'hébergement à la nuit",
+        "vars": [
+          "Dates arrivée/départ",
+          "Nb nuits",
+          "Hébergement",
+          "Catégorie",
+          "Adultes",
+          "Enfants",
+          "Capacité standard"
+        ],
+        "prices": [
+          "Tarif jour (grille)",
+          "Suppl. personne au-delà capacité",
+          "Règle enfants/adultes",
+          "TVA 10%"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M27/M03",
+        "ordre": 10,
+        "url": "https://www.notion.so/Locatif-nuit-3658db15623a81268219d2573c464265"
+      },
+      {
+        "id": "3658db15-623a-814a-8ac7-e0e67bcce2a1",
+        "item": "Forfait long séjour",
+        "categorie": "Hébergement",
+        "description": "Tarif dégressif semaine / quinzaine / mois",
+        "vars": [
+          "Durée totale",
+          "Hébergement",
+          "Période",
+          "Type contrat"
+        ],
+        "prices": [
+          "Barème durée (M27)",
+          "Forfait mensuel",
+          "Charges incluses ou non",
+          "TVA 10%"
+        ],
+        "channels": [
+          "WALKIN",
+          "RESIDENT"
+        ],
+        "module": "M27/M08",
+        "ordre": 20,
+        "url": "https://www.notion.so/Forfait-long-s-jour-3658db15623a814a8ac7e0e67bcce2a1"
+      },
+      {
+        "id": "3658db15-623a-8119-8c6f-d33c08e0f284",
+        "item": "Allotement / contingent",
+        "categorie": "Hébergement",
+        "description": "Inventaire pré-réservé pour un TO ou CE",
+        "vars": [
+          "Partenaire (TO/CE)",
+          "Période",
+          "Nb unités allouées",
+          "Date de rétrocession"
+        ],
+        "prices": [
+          "Grille négociée du contrat",
+          "Commission TO (%)",
+          "TVA 10%"
+        ],
+        "channels": [
+          "TO",
+          "CE"
+        ],
+        "module": "M06/M07",
+        "ordre": 30,
+        "url": "https://www.notion.so/Allotement-contingent-3658db15623a81198c6fd33c08e0f284"
+      },
+      {
+        "id": "3658db15-623a-81f2-bd3d-fcaaa6501613",
+        "item": "Loyer résidentiel mensuel",
+        "categorie": "Hébergement",
+        "description": "Facturation mensuelle d'un résident long terme",
+        "vars": [
+          "Bail",
+          "Hébergement",
+          "Mois facturé",
+          "Index révision"
+        ],
+        "prices": [
+          "Loyer base",
+          "Provisions charges",
+          "Taxes locatives",
+          "TVA selon régime"
+        ],
+        "channels": [
+          "RESIDENT"
+        ],
+        "module": "M08",
+        "ordre": 40,
+        "url": "https://www.notion.so/Loyer-r-sidentiel-mensuel-3658db15623a81f2bd3dfcaaa6501613"
+      },
+      {
+        "id": "3658db15-623a-8120-bc99-ddd68e147806",
+        "item": "Personne supplémentaire",
+        "categorie": "Suppléments",
+        "description": "Au-delà de la capacité standard de l'hébergement",
+        "vars": [
+          "Nb pers. supp",
+          "Adulte ou enfant",
+          "Nuits"
+        ],
+        "prices": [
+          "Tarif/pers/nuit (M27)",
+          "Règle enfants (gratuité, demi-tarif)",
+          "TVA 10%"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M27/M03",
+        "ordre": 50,
+        "url": "https://www.notion.so/Personne-suppl-mentaire-3658db15623a8120bc99ddd68e147806"
+      },
+      {
+        "id": "3658db15-623a-81a1-a802-ce0d52880678",
+        "item": "Animal",
+        "categorie": "Suppléments",
+        "description": "Chien/chat — forfait séjour ou par nuit",
+        "vars": [
+          "Nb animaux",
+          "Espèce",
+          "Nuits"
+        ],
+        "prices": [
+          "Tarif forfait ou nuit",
+          "TVA 10%"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M03",
+        "ordre": 60,
+        "url": "https://www.notion.so/Animal-3658db15623a81a1a802ce0d52880678"
+      },
+      {
+        "id": "3658db15-623a-812f-b817-cc854c2142cf",
+        "item": "Véhicule supplémentaire",
+        "categorie": "Suppléments",
+        "description": "2e voiture, camping-car, remorque",
+        "vars": [
+          "Type véhicule",
+          "Immatriculation",
+          "Nuits"
+        ],
+        "prices": [
+          "Tarif/véhicule/nuit",
+          "TVA 10%"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M03",
+        "ordre": 70,
+        "url": "https://www.notion.so/V-hicule-suppl-mentaire-3658db15623a812fb817cc854c2142cf"
+      },
+      {
+        "id": "3658db15-623a-81b6-b7c1-c7ebdd34d2aa",
+        "item": "Linge / kit ménage",
+        "categorie": "Suppléments",
+        "description": "Draps, serviettes, ménage de sortie",
+        "vars": [
+          "Nb kits",
+          "Type prestation",
+          "Personnes"
+        ],
+        "prices": [
+          "Tarif unitaire",
+          "TVA 20%"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M03",
+        "ordre": 80,
+        "url": "https://www.notion.so/Linge-kit-m-nage-3658db15623a81b6b7c1c7ebdd34d2aa"
+      },
+      {
+        "id": "3658db15-623a-8178-b269-d8c684df3f00",
+        "item": "Électricité / fluides",
+        "categorie": "Suppléments",
+        "description": "Forfait ou consommation réelle au compteur",
+        "vars": [
+          "Type forfait / relevé compteur",
+          "Période",
+          "kWh / m³"
+        ],
+        "prices": [
+          "Forfait quotidien ou tarif unitaire",
+          "Abonnement",
+          "TVA 20%"
+        ],
+        "channels": [
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M03/M08",
+        "ordre": 90,
+        "url": "https://www.notion.so/lectricit-fluides-3658db15623a8178b269d8c684df3f00"
+      },
+      {
+        "id": "3658db15-623a-81aa-b80d-c8b5ec3e97ef",
+        "item": "Climatisation / chauffage",
+        "categorie": "Suppléments",
+        "description": "Option payante selon saison",
+        "vars": [
+          "Nuits",
+          "Saison"
+        ],
+        "prices": [
+          "Tarif/nuit",
+          "TVA 20%"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M27",
+        "ordre": 100,
+        "url": "https://www.notion.so/Climatisation-chauffage-3658db15623a81aab80dc8b5ec3e97ef"
+      },
+      {
+        "id": "3658db15-623a-8171-839a-e9279baab590",
+        "item": "Cashless / bracelet",
+        "categorie": "Suppléments",
+        "description": "Bracelet RFID rechargeable du séjour",
+        "vars": [
+          "Nb bracelets",
+          "Type",
+          "Montant chargé"
+        ],
+        "prices": [
+          "Caution bracelet",
+          "Crédit initial",
+          "Recharges (POS)"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M03",
+        "ordre": 110,
+        "url": "https://www.notion.so/Cashless-bracelet-3658db15623a8171839ae9279baab590"
+      },
+      {
+        "id": "3658db15-623a-81c9-b413-f9a3fd08b05a",
+        "item": "Vente boutique",
+        "categorie": "POS (sur place)",
+        "description": "Articles épicerie, souvenirs, équipement",
+        "vars": [
+          "Article",
+          "Quantité",
+          "Séjour rattaché ou ticket libre"
+        ],
+        "prices": [
+          "Prix unitaire catalogue",
+          "Remise éventuelle",
+          "TVA 20% / 5,5% (alim.)"
+        ],
+        "channels": [
+          "POS"
+        ],
+        "module": "M18",
+        "ordre": 120,
+        "url": "https://www.notion.so/Vente-boutique-3658db15623a81c9b413f9a3fd08b05a"
+      },
+      {
+        "id": "3658db15-623a-8129-868c-eb1ebe248e81",
+        "item": "Restauration / bar",
+        "categorie": "POS (sur place)",
+        "description": "Repas, boissons, snacks au restaurant ou bar",
+        "vars": [
+          "Carte",
+          "Quantité",
+          "Table/Séjour"
+        ],
+        "prices": [
+          "Prix carte",
+          "Happy hour",
+          "Menu fixe",
+          "TVA 10% (sur place) / 5,5% (à emporter)"
+        ],
+        "channels": [
+          "POS"
+        ],
+        "module": "M18",
+        "ordre": 130,
+        "url": "https://www.notion.so/Restauration-bar-3658db15623a8129868ceb1ebe248e81"
+      },
+      {
+        "id": "3658db15-623a-815a-bcb3-e16394db6c95",
+        "item": "Prestations annexes",
+        "categorie": "POS (sur place)",
+        "description": "Excursions, animations payantes, location matériel",
+        "vars": [
+          "Prestation",
+          "Nb pers",
+          "Date"
+        ],
+        "prices": [
+          "Tarif fixe",
+          "TVA 10% / 20%"
+        ],
+        "channels": [
+          "POS"
+        ],
+        "module": "M18",
+        "ordre": 140,
+        "url": "https://www.notion.so/Prestations-annexes-3658db15623a815abcb3e16394db6c95"
+      },
+      {
+        "id": "3658db15-623a-812e-b1a0-e3ebe386f721",
+        "item": "Demi/pension complète",
+        "categorie": "POS (sur place)",
+        "description": "Forfait restauration adossé au séjour",
+        "vars": [
+          "Nuits",
+          "Nb adultes",
+          "Nb enfants",
+          "Formule"
+        ],
+        "prices": [
+          "Forfait/pers/jour",
+          "TVA 10%"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M03/M18",
+        "ordre": 150,
+        "url": "https://www.notion.so/Demi-pension-compl-te-3658db15623a812eb1a0e3ebe386f721"
+      },
+      {
+        "id": "3658db15-623a-8102-8618-ccaeea71b491",
+        "item": "Pré-commande pain",
+        "categorie": "POS (sur place)",
+        "description": "Boulangerie quotidienne avec retrait sur place",
+        "vars": [
+          "Article",
+          "Date livraison",
+          "Quantité"
+        ],
+        "prices": [
+          "Prix unitaire",
+          "TVA 5,5%"
+        ],
+        "channels": [
+          "POS"
+        ],
+        "module": "M18",
+        "ordre": 160,
+        "url": "https://www.notion.so/Pr-commande-pain-3658db15623a81028618ccaeea71b491"
+      },
+      {
+        "id": "3658db15-623a-8146-a1bb-d4c5d87f0602",
+        "item": "Promotion saisonnière",
+        "categorie": "Promotions",
+        "description": "Campagne datée appliquée à un canal/segment",
+        "vars": [
+          "Période",
+          "Hébergement éligible",
+          "Canal",
+          "Conditions cumul"
+        ],
+        "prices": [
+          "Remise % ou €",
+          "Plafond éventuel"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN"
+        ],
+        "module": "M10",
+        "ordre": 170,
+        "url": "https://www.notion.so/Promotion-saisonni-re-3658db15623a8146a1bbd4c5d87f0602"
+      },
+      {
+        "id": "3658db15-623a-81bf-8e4f-d74ee504401b",
+        "item": "Code promo",
+        "categorie": "Promotions",
+        "description": "Saisi manuellement par le client en réservation",
+        "vars": [
+          "Code",
+          "Usage unique ou multi",
+          "Période validité",
+          "Conditions"
+        ],
+        "prices": [
+          "Remise % ou €",
+          "Plafond",
+          "Hébergements éligibles"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN"
+        ],
+        "module": "M10",
+        "ordre": 180,
+        "url": "https://www.notion.so/Code-promo-3658db15623a81bf8e4fd74ee504401b"
+      },
+      {
+        "id": "3658db15-623a-81fc-b950-de3af431bf34",
+        "item": "Last-minute",
+        "categorie": "Promotions",
+        "description": "Auto-déclenché si arrivée < N jours",
+        "vars": [
+          "Délai avant arrivée",
+          "Hébergement",
+          "Saison"
+        ],
+        "prices": [
+          "Remise % paramétrée",
+          "Plafond"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA"
+        ],
+        "module": "M10",
+        "ordre": 190,
+        "url": "https://www.notion.so/Last-minute-3658db15623a81fcb950de3af431bf34"
+      },
+      {
+        "id": "3658db15-623a-8142-9670-d38c83ac5fd9",
+        "item": "Early-booking",
+        "categorie": "Promotions",
+        "description": "Auto-déclenché si résa > N jours avant arrivée",
+        "vars": [
+          "Délai avant arrivée",
+          "Hébergement",
+          "Saison"
+        ],
+        "prices": [
+          "Remise % paramétrée",
+          "Plafond"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA"
+        ],
+        "module": "M10",
+        "ordre": 200,
+        "url": "https://www.notion.so/Early-booking-3658db15623a81429670d38c83ac5fd9"
+      },
+      {
+        "id": "3658db15-623a-81a0-8b91-d946e7372a6b",
+        "item": "Tarif par durée (dégressif)",
+        "categorie": "Promotions",
+        "description": "Réduction à partir de N nuits",
+        "vars": [
+          "Durée séjour",
+          "Hébergement",
+          "Période"
+        ],
+        "prices": [
+          "Barème dégressif (M27)",
+          "% par palier"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M27/M10",
+        "ordre": 210,
+        "url": "https://www.notion.so/Tarif-par-dur-e-d-gressif-3658db15623a81a08b91d946e7372a6b"
+      },
+      {
+        "id": "3658db15-623a-8159-9726-e7d659179026",
+        "item": "Surclassement (upgrade)",
+        "categorie": "Promotions",
+        "description": "Catégorie supérieure offerte selon dispo",
+        "vars": [
+          "Hébergement réservé",
+          "Hébergement upgrade dispo"
+        ],
+        "prices": [
+          "Différentiel offert",
+          "Aucune ligne facturée"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN"
+        ],
+        "module": "M10",
+        "ordre": 220,
+        "url": "https://www.notion.so/Surclassement-upgrade-3658db15623a81599726e7d659179026"
+      },
+      {
+        "id": "3658db15-623a-8189-bf99-e846ac2938c2",
+        "item": "Remise commerciale manuelle",
+        "categorie": "Promotions",
+        "description": "Saisie en direct par la réception",
+        "vars": [
+          "Motif",
+          "Montant ou %",
+          "Plafond utilisateur"
+        ],
+        "prices": [
+          "Remise % ou € libre"
+        ],
+        "channels": [
+          "WALKIN"
+        ],
+        "module": "M03",
+        "ordre": 230,
+        "url": "https://www.notion.so/Remise-commerciale-manuelle-3658db15623a8189bf99e846ac2938c2"
+      },
+      {
+        "id": "3658db15-623a-8190-8bef-ddeb866f2ef0",
+        "item": "Grille TO",
+        "categorie": "Tarifs B2B",
+        "description": "Tarif négocié par tour-opérateur",
+        "vars": [
+          "Partenaire TO",
+          "Hébergement",
+          "Période",
+          "Allotement"
+        ],
+        "prices": [
+          "Grille TO (remplace base)",
+          "Commission TO (%)",
+          "Net réceptif"
+        ],
+        "channels": [
+          "TO"
+        ],
+        "module": "M06",
+        "ordre": 240,
+        "url": "https://www.notion.so/Grille-TO-3658db15623a81908befddeb866f2ef0"
+      },
+      {
+        "id": "3658db15-623a-8183-86ea-dae56c801c00",
+        "item": "Tarif négocié CE",
+        "categorie": "Tarifs B2B",
+        "description": "Barème spécifique pour comité d'entreprise",
+        "vars": [
+          "CE",
+          "Hébergement",
+          "Période",
+          "Plafond / subvention"
+        ],
+        "prices": [
+          "Grille CE",
+          "Subvention CE (% pris en charge)",
+          "Reste à charge salarié"
+        ],
+        "channels": [
+          "CE"
+        ],
+        "module": "M07",
+        "ordre": 250,
+        "url": "https://www.notion.so/Tarif-n-goci-CE-3658db15623a818386eadae56c801c00"
+      },
+      {
+        "id": "3658db15-623a-81a0-b41b-e41c22dc27b2",
+        "item": "Bon ANCV / chèque-vacances",
+        "categorie": "Tarifs B2B",
+        "description": "Moyen de paiement subventionné",
+        "vars": [
+          "Type bon",
+          "Montant",
+          "Validité"
+        ],
+        "prices": [
+          "Valeur faciale",
+          "Commission émetteur (le cas échéant)"
+        ],
+        "channels": [
+          "CE",
+          "WALKIN"
+        ],
+        "module": "M07/M13",
+        "ordre": 260,
+        "url": "https://www.notion.so/Bon-ANCV-ch-que-vacances-3658db15623a81a0b41be41c22dc27b2"
+      },
+      {
+        "id": "3658db15-623a-81d1-b67c-c8185c2aae0f",
+        "item": "Voucher TO",
+        "categorie": "Tarifs B2B",
+        "description": "Bon d'échange émis par le tour-opérateur",
+        "vars": [
+          "Numéro voucher",
+          "TO",
+          "Séjour",
+          "Validité"
+        ],
+        "prices": [
+          "Pré-payé par TO",
+          "Facturation post-séjour vers TO"
+        ],
+        "channels": [
+          "TO"
+        ],
+        "module": "M06",
+        "ordre": 270,
+        "url": "https://www.notion.so/Voucher-TO-3658db15623a81d1b67cc8185c2aae0f"
+      },
+      {
+        "id": "3658db15-623a-81fe-90de-f66af6e88618",
+        "item": "Caution hébergement",
+        "categorie": "Cautions",
+        "description": "Empreinte CB ou caution encaissée",
+        "vars": [
+          "Hébergement",
+          "Type caution",
+          "Montant"
+        ],
+        "prices": [
+          "Montant fixe paramétré",
+          "Pré-autorisation CB ou encaissement réel"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M15",
+        "ordre": 280,
+        "url": "https://www.notion.so/Caution-h-bergement-3658db15623a81fe90def66af6e88618"
+      },
+      {
+        "id": "3658db15-623a-814a-becb-e69aeab41d11",
+        "item": "Caution bracelet/badge",
+        "categorie": "Cautions",
+        "description": "Caution sur dispositif électronique remis au client",
+        "vars": [
+          "Type dispositif",
+          "Quantité"
+        ],
+        "prices": [
+          "Montant fixe",
+          "Restitué au retour"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M15",
+        "ordre": 290,
+        "url": "https://www.notion.so/Caution-bracelet-badge-3658db15623a814abecbe69aeab41d11"
+      },
+      {
+        "id": "3658db15-623a-81e1-aece-c664b3a43512",
+        "item": "Retenue sur caution",
+        "categorie": "Cautions",
+        "description": "Litige, dégradation, ménage non rendu",
+        "vars": [
+          "Motif retenue",
+          "Montant",
+          "Justificatif"
+        ],
+        "prices": [
+          "Montant retenu",
+          "Avoir partiel",
+          "TVA selon nature"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M15/M16",
+        "ordre": 300,
+        "url": "https://www.notion.so/Retenue-sur-caution-3658db15623a81e1aecec664b3a43512"
+      },
+      {
+        "id": "3658db15-623a-8190-a065-d611516214e8",
+        "item": "Taxe de séjour",
+        "categorie": "Taxes",
+        "description": "Reversement à la commune",
+        "vars": [
+          "Adultes éligibles",
+          "Nuits",
+          "Commune",
+          "Exemptions (enfants, étudiants...)"
+        ],
+        "prices": [
+          "Tarif communal/personne/nuit",
+          "Cumul plafonné (selon barème)"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M17",
+        "ordre": 310,
+        "url": "https://www.notion.so/Taxe-de-s-jour-3658db15623a8190a065d611516214e8"
+      },
+      {
+        "id": "3658db15-623a-8144-9a4d-c02fb7a564c5",
+        "item": "TVA hébergement",
+        "categorie": "Taxes",
+        "description": "Taux réduit sur location de courte durée",
+        "vars": [
+          "Nature ligne"
+        ],
+        "prices": [
+          "TVA 10%"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M17/M27",
+        "ordre": 320,
+        "url": "https://www.notion.so/TVA-h-bergement-3658db15623a81449a4dc02fb7a564c5"
+      },
+      {
+        "id": "3658db15-623a-8183-a628-f270f3eb60da",
+        "item": "TVA restauration",
+        "categorie": "Taxes",
+        "description": "Sur place / à emporter / boissons alcoolisées",
+        "vars": [
+          "Type produit",
+          "Mode consommation"
+        ],
+        "prices": [
+          "TVA 10% (sur place repas)",
+          "TVA 5,5% (alim. à emporter)",
+          "TVA 20% (alcool)"
+        ],
+        "channels": [
+          "POS"
+        ],
+        "module": "M17",
+        "ordre": 330,
+        "url": "https://www.notion.so/TVA-restauration-3658db15623a8183a628f270f3eb60da"
+      },
+      {
+        "id": "3658db15-623a-8191-bc1d-d1268fc229d9",
+        "item": "TVA boutique / services",
+        "categorie": "Taxes",
+        "description": "Taux normal sur la majorité des ventes annexes",
+        "vars": [
+          "Type produit"
+        ],
+        "prices": [
+          "TVA 20%",
+          "TVA 5,5% (livre, alim. de base)"
+        ],
+        "channels": [
+          "POS"
+        ],
+        "module": "M17",
+        "ordre": 340,
+        "url": "https://www.notion.so/TVA-boutique-services-3658db15623a8191bc1dd1268fc229d9"
+      },
+      {
+        "id": "3658db15-623a-81db-84ef-c2b067265185",
+        "item": "Acompte initial",
+        "categorie": "Encaissement",
+        "description": "À la résa, montant ou % paramétré",
+        "vars": [
+          "Segment",
+          "Canal",
+          "Date résa vs date arrivée",
+          "Montant séjour"
+        ],
+        "prices": [
+          "% du total ou montant fixe (M27)",
+          "Délai de paiement"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M13/M27",
+        "ordre": 350,
+        "url": "https://www.notion.so/Acompte-initial-3658db15623a81db84efc2b067265185"
+      },
+      {
+        "id": "3658db15-623a-8175-a91d-d72e68071e79",
+        "item": "Solde séjour",
+        "categorie": "Encaissement",
+        "description": "Avant arrivée (J-X) ou au check-out",
+        "vars": [
+          "Échéance contractuelle",
+          "Acompte déjà encaissé"
+        ],
+        "prices": [
+          "Total - acompte",
+          "Aucune TVA additionnelle (déjà ventilée)"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M13",
+        "ordre": 360,
+        "url": "https://www.notion.so/Solde-s-jour-3658db15623a8175a91dd72e68071e79"
+      },
+      {
+        "id": "3658db15-623a-817b-8fef-ffa70a6fb51f",
+        "item": "Paiement partiel",
+        "categorie": "Encaissement",
+        "description": "Échéancier custom ou paiement en plusieurs fois",
+        "vars": [
+          "Nb échéances",
+          "Dates",
+          "Montants"
+        ],
+        "prices": [
+          "Sous-total par échéance",
+          "Pas de frais (sauf paramétrage CB X3)"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M13",
+        "ordre": 370,
+        "url": "https://www.notion.so/Paiement-partiel-3658db15623a817b8fefffa70a6fb51f"
+      },
+      {
+        "id": "3658db15-623a-817f-897b-dbed9caa40ad",
+        "item": "Paiement en ligne",
+        "categorie": "Encaissement",
+        "description": "Via PSP intégré (CB, Apple Pay, etc.)",
+        "vars": [
+          "Moyen",
+          "Montant",
+          "Référence transaction"
+        ],
+        "prices": [
+          "Montant",
+          "Commission PSP (interne, non facturée client)"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "RESIDENT"
+        ],
+        "module": "M13",
+        "ordre": 380,
+        "url": "https://www.notion.so/Paiement-en-ligne-3658db15623a817f897bdbed9caa40ad"
+      },
+      {
+        "id": "3658db15-623a-8131-a262-d8cfca270abc",
+        "item": "Frais d'annulation",
+        "categorie": "Pénalités",
+        "description": "Selon politique du contrat / canal",
+        "vars": [
+          "Délai avant arrivée",
+          "Politique",
+          "Segment"
+        ],
+        "prices": [
+          "% du séjour selon barème",
+          "Ou montant fixe"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M03",
+        "ordre": 390,
+        "url": "https://www.notion.so/Frais-d-annulation-3658db15623a8131a262d8cfca270abc"
+      },
+      {
+        "id": "3658db15-623a-817d-94e7-c9d528e8a7fd",
+        "item": "No-show",
+        "categorie": "Pénalités",
+        "description": "Client absent à la date d'arrivée",
+        "vars": [
+          "Heure de bascule",
+          "Acompte encaissé"
+        ],
+        "prices": [
+          "1ère nuit ou intégralité (selon politique)",
+          "TVA appliquée"
+        ],
+        "channels": [
+          "DIRECT",
+          "OTA",
+          "WALKIN",
+          "TO",
+          "CE",
+          "RESIDENT"
+        ],
+        "module": "M03",
+        "ordre": 400,
+        "url": "https://www.notion.so/No-show-3658db15623a817d94e7c9d528e8a7fd"
+      },
+      {
+        "id": "3658db15-623a-81d4-bd80-e157c1f05b0d",
+        "item": "Charges résident",
+        "categorie": "Refacturation",
+        "description": "Mensualisation des consommations (eau, élec, ordures)",
+        "vars": [
+          "Période",
+          "Relevé compteur",
+          "Tarif unitaire"
+        ],
+        "prices": [
+          "Consommation × tarif",
+          "Régularisation annuelle",
+          "TVA 20%"
+        ],
+        "channels": [
+          "RESIDENT"
+        ],
+        "module": "M08",
+        "ordre": 410,
+        "url": "https://www.notion.so/Charges-r-sident-3658db15623a81d4bd80e157c1f05b0d"
+      },
+      {
+        "id": "3658db15-623a-81a1-8127-d186647e73b6",
+        "item": "Sous-location",
+        "categorie": "Refacturation",
+        "description": "Quote-part propriétaire sur sous-location",
+        "vars": [
+          "Sous-locataire",
+          "Période",
+          "% reversement"
+        ],
+        "prices": [
+          "Reversement propriétaire",
+          "Commission gestion",
+          "TVA 20%"
+        ],
+        "channels": [
+          "RESIDENT"
+        ],
+        "module": "M08",
+        "ordre": 420,
+        "url": "https://www.notion.so/Sous-location-3658db15623a81a18127d186647e73b6"
+      }
+    ]
+  },
   "counts": {
     "classique": 255,
     "topline": 57,
     "suiviLundi": 144,
     "equipe": 19,
     "procedures": 5,
+    "pricingElements": 42,
     "cartoPmsWeb": 489,
     "cartoPmsMobile": 13,
     "cartoManager": 6
