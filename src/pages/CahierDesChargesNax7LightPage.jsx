@@ -2,26 +2,9 @@ import {
   ClipboardList, Target, Users, Rocket,
   Smartphone, UserCheck, Sparkles, Wrench,
 } from 'lucide-react';
+import { openMobilePreview } from '../utils/openPreview';
 
 const PROTOTYPE_URL = 'https://nax7-light.vercel.app/';
-
-// Ouvre le prototype dans une popup au format mobile (420×900, centrée).
-// Le viewport étroit force le rendu mobile du site cible via ses media queries.
-function openMobilePreview() {
-  const w = 420;
-  const h = 900;
-  const left = Math.max(0, Math.round((window.screen.width  - w) / 2));
-  const top  = Math.max(0, Math.round((window.screen.height - h) / 2));
-  const features = [
-    `width=${w}`, `height=${h}`,
-    `left=${left}`, `top=${top}`,
-    'scrollbars=yes', 'resizable=yes',
-    'toolbar=no', 'location=no', 'menubar=no', 'status=no',
-  ].join(',');
-  const win = window.open(PROTOTYPE_URL, 'nax7-light-mobile-preview', features);
-  // Fallback si la popup est bloquée : ouverture standard en nouvel onglet
-  if (!win) window.open(PROTOTYPE_URL, '_blank', 'noopener,noreferrer');
-}
 import { C, RADIUS, SHADOW } from '../styles/theme';
 import { Card } from '../components/primitives/Card';
 import { SectionTitle } from '../components/primitives/SectionTitle';
@@ -82,7 +65,7 @@ export function CahierDesChargesNax7LightPage() {
           </div>
           <button
             type="button"
-            onClick={openMobilePreview}
+            onClick={() => openMobilePreview(PROTOTYPE_URL)}
             style={{
               display: 'inline-flex', alignItems: 'center', gap: 6,
               padding: '8px 14px', borderRadius: RADIUS.md,

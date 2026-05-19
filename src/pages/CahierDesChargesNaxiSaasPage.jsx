@@ -3,6 +3,7 @@ import {
   Home, User, BedDouble, FileText, Mail, ShoppingCart, Calendar,
   ExternalLink,
 } from 'lucide-react';
+import { openDesktopPreview } from '../utils/openPreview';
 
 const PROTOTYPE_URL = 'https://naxigestionfront-prepa.vercel.app/';
 import { C, RADIUS, SHADOW } from '../styles/theme';
@@ -87,15 +88,14 @@ export function CahierDesChargesNaxiSaasPage() {
               color: C.orange, fontWeight: 700,
             }}>Objectifs</div>
           </div>
-          <a
-            href={PROTOTYPE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            type="button"
+            onClick={() => openDesktopPreview(PROTOTYPE_URL)}
             style={{
               display: 'inline-flex', alignItems: 'center', gap: 6,
               padding: '8px 14px', borderRadius: RADIUS.md,
               background: C.orange, color: '#fff',
-              border: 'none', textDecoration: 'none',
+              border: 'none', cursor: 'pointer',
               fontSize: 12, fontWeight: 700, letterSpacing: '0.02em',
               fontFamily: 'inherit',
               boxShadow: SHADOW.orange,
@@ -105,11 +105,11 @@ export function CahierDesChargesNaxiSaasPage() {
             onMouseLeave={e => { e.currentTarget.style.background = C.orange; }}
             onMouseDown={e => { e.currentTarget.style.transform = 'scale(0.97)'; }}
             onMouseUp={e => { e.currentTarget.style.transform = 'scale(1)'; }}
-            title="Ouvrir le prototype dans un nouvel onglet"
+            title="Ouvrir le prototype dans une fenêtre en surimpression"
           >
             <ExternalLink size={13} strokeWidth={2.4} />
             Voir le prototype
-          </a>
+          </button>
         </div>
         <div style={{ fontSize: 14, color: C.ink, lineHeight: 1.55, marginBottom: 12 }}>
           <b>Refonte technique, UX et design</b> complète des fenêtres métiers de Naxi Gestion,

@@ -3,6 +3,7 @@ import {
   Zap, RefreshCw, ShieldAlert, Sparkles, Puzzle, Users, Plug,
   ExternalLink,
 } from 'lucide-react';
+import { openDesktopPreview } from '../utils/openPreview';
 
 const PROTOTYPE_URL = 'https://nax7.vercel.app/';
 import { C, RADIUS, SHADOW } from '../styles/theme';
@@ -79,15 +80,14 @@ export function CahierDesChargesNax7FullWebPage() {
               color: C.orange, fontWeight: 700,
             }}>Vision produit</div>
           </div>
-          <a
-            href={PROTOTYPE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            type="button"
+            onClick={() => openDesktopPreview(PROTOTYPE_URL)}
             style={{
               display: 'inline-flex', alignItems: 'center', gap: 6,
               padding: '8px 14px', borderRadius: RADIUS.md,
               background: C.orange, color: '#fff',
-              border: 'none', textDecoration: 'none',
+              border: 'none', cursor: 'pointer',
               fontSize: 12, fontWeight: 700, letterSpacing: '0.02em',
               fontFamily: 'inherit',
               boxShadow: SHADOW.orange,
@@ -97,11 +97,11 @@ export function CahierDesChargesNax7FullWebPage() {
             onMouseLeave={e => { e.currentTarget.style.background = C.orange; }}
             onMouseDown={e => { e.currentTarget.style.transform = 'scale(0.97)'; }}
             onMouseUp={e => { e.currentTarget.style.transform = 'scale(1)'; }}
-            title="Ouvrir le prototype dans un nouvel onglet"
+            title="Ouvrir le prototype dans une fenêtre en surimpression"
           >
             <ExternalLink size={13} strokeWidth={2.4} />
             Voir le prototype
-          </a>
+          </button>
         </div>
         <div style={{ fontSize: 14, color: C.ink, lineHeight: 1.55, marginBottom: 12 }}>
           <b>NAX7 Full Web</b> — un PMS de nouvelle génération conçu nativement pour le web :
