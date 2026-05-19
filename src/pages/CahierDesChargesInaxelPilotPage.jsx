@@ -13,7 +13,7 @@ import { openDesktopPreview } from '../utils/openPreview';
 // Outil interne services Produit & Support · 7 modules.
 // ============================================
 
-const PROTOTYPE_URL = 'https://inaxel-pilot.vercel.app/login';
+const PROTOTYPE_URL = 'https://inaxel-pilot.vercel.app/';
 
 const MODULES = [
   { key: 'CLIENTS',     color: C.blue,    icon: Users,
