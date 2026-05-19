@@ -17,6 +17,7 @@ import { CahierDesChargesPage } from './pages/CahierDesChargesPage';
 import { CahierDesChargesNaxiSaasPage } from './pages/CahierDesChargesNaxiSaasPage';
 import { CahierDesChargesNax7FullWebPage } from './pages/CahierDesChargesNax7FullWebPage';
 import { CahierDesChargesNax7LightPage } from './pages/CahierDesChargesNax7LightPage';
+import { CahierDesChargesNax7ManagerPage } from './pages/CahierDesChargesNax7ManagerPage';
 import { CalculPrixPage } from './pages/CalculPrixPage';
 import { RdModeDegradePage } from './pages/RdModeDegradePage';
 import { RdMigrationPage } from './pages/RdMigrationPage';
@@ -60,7 +61,7 @@ const PAGES = {
 
   // Autres projets — uniquement Cahier des charges pour l'instant
   "cdc-nax7-light":                { label: "Nax7 light · Cahier des charges",      Component: CahierDesChargesNax7LightPage },
-  "cdc-nax7-manager":              { label: "Nax7 Manager · Cahier des charges",    Component: Cdc("Nax7 Manager") },
+  "cdc-nax7-manager":              { label: "Nax7 Manager · Cahier des charges",    Component: CahierDesChargesNax7ManagerPage },
   "cdc-inaxel-pilot":              { label: "Inaxel Pilot · Cahier des charges",    Component: Cdc("Inaxel Pilot") },
   "espace-client-inaxel":          { label: "Espace client (site inaxel)",          Component: Placeholder("Inaxel Pilot", "Espace client (site inaxel)") },
 };
