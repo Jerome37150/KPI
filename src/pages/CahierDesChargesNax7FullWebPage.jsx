@@ -1,7 +1,10 @@
 import {
   ClipboardList, Target, Layers, Rocket,
   Zap, RefreshCw, ShieldAlert, Sparkles, Puzzle, Users, Plug,
+  ExternalLink,
 } from 'lucide-react';
+
+const PROTOTYPE_URL = 'https://nax7.vercel.app/';
 import { C, RADIUS, SHADOW } from '../styles/theme';
 import { Card } from '../components/primitives/Card';
 import { SectionTitle } from '../components/primitives/SectionTitle';
@@ -42,14 +45,12 @@ const VAGUES = [
     period: 'Fin 2027',
     color: C.orange,
     scope: 'Version réduite — périmètre core du PMS sur les fonctions opérationnelles essentielles (réservations, séjour, encaissements, plannings).',
-    features: ['FULL-WEB', 'CRS-SYNC', 'DEGRADED', 'MODULAR'],
   },
   {
     label: 'V2',
     period: 'Fin 2028',
     color: C.blue,
     scope: "Version complète couvrant l'ensemble du périmètre fonctionnel, disponible en français et en espagnol.",
-    features: ['AI', 'PORTAIL', 'API-STORE'],
   },
 ];
 
@@ -67,12 +68,40 @@ export function CahierDesChargesNax7FullWebPage() {
         background: `linear-gradient(135deg, ${C.paper} 0%, ${C.paper} 60%, ${C.orangeFaint} 100%)`,
         borderLeft: `3px solid ${C.orange}`,
       }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 14 }}>
-          <Target size={15} color={C.orange} strokeWidth={2.2} />
-          <div style={{
-            fontSize: 11, letterSpacing: '0.06em', textTransform: 'uppercase',
-            color: C.orange, fontWeight: 700,
-          }}>Vision produit</div>
+        <div style={{
+          display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+          gap: 12, marginBottom: 14, flexWrap: 'wrap',
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <Target size={15} color={C.orange} strokeWidth={2.2} />
+            <div style={{
+              fontSize: 11, letterSpacing: '0.06em', textTransform: 'uppercase',
+              color: C.orange, fontWeight: 700,
+            }}>Vision produit</div>
+          </div>
+          <a
+            href={PROTOTYPE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-flex', alignItems: 'center', gap: 6,
+              padding: '8px 14px', borderRadius: RADIUS.md,
+              background: C.orange, color: '#fff',
+              border: 'none', textDecoration: 'none',
+              fontSize: 12, fontWeight: 700, letterSpacing: '0.02em',
+              fontFamily: 'inherit',
+              boxShadow: SHADOW.orange,
+              transition: 'background 0.15s, transform 0.1s',
+            }}
+            onMouseEnter={e => { e.currentTarget.style.background = C.orangeHover; }}
+            onMouseLeave={e => { e.currentTarget.style.background = C.orange; }}
+            onMouseDown={e => { e.currentTarget.style.transform = 'scale(0.97)'; }}
+            onMouseUp={e => { e.currentTarget.style.transform = 'scale(1)'; }}
+            title="Ouvrir le prototype dans un nouvel onglet"
+          >
+            <ExternalLink size={13} strokeWidth={2.4} />
+            Voir le prototype
+          </a>
         </div>
         <div style={{ fontSize: 14, color: C.ink, lineHeight: 1.55, marginBottom: 12 }}>
           <b>NAX7 Full Web</b> — un PMS de nouvelle génération conçu nativement pour le web :
@@ -200,27 +229,8 @@ function VagueStep({ vague, last }) {
           fontSize: 12, fontWeight: 700, letterSpacing: '0.02em',
           marginBottom: 8,
         }}>{vague.period}</div>
-        <div style={{ fontSize: 13.5, color: C.ink, lineHeight: 1.55, marginBottom: 8 }}>
+        <div style={{ fontSize: 13.5, color: C.ink, lineHeight: 1.55 }}>
           {vague.scope}
-        </div>
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
-          {vague.features.map(fk => {
-            const f = FEATURES.find(x => x.key === fk);
-            if (!f) return null;
-            const Icon = f.icon;
-            return (
-              <span key={fk} style={{
-                display: 'inline-flex', alignItems: 'center', gap: 4,
-                padding: '3px 8px', borderRadius: RADIUS.sm,
-                background: f.color + '15', color: f.color,
-                border: `1px solid ${f.color}40`,
-                fontSize: 10.5, fontWeight: 700,
-              }}>
-                {Icon && <Icon size={10} strokeWidth={2.4} />}
-                {f.title}
-              </span>
-            );
-          })}
         </div>
       </div>
     </div>
