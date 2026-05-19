@@ -15,6 +15,7 @@ import { BluePrintPage } from './pages/BluePrintPage';
 import { GanttPage } from './pages/GanttPage';
 import { CahierDesChargesPage } from './pages/CahierDesChargesPage';
 import { CahierDesChargesNaxiSaasPage } from './pages/CahierDesChargesNaxiSaasPage';
+import { CahierDesChargesNax7FullWebPage } from './pages/CahierDesChargesNax7FullWebPage';
 import { CalculPrixPage } from './pages/CalculPrixPage';
 import { RdModeDegradePage } from './pages/RdModeDegradePage';
 import { RdMigrationPage } from './pages/RdMigrationPage';
@@ -50,7 +51,7 @@ const PAGES = {
   // NAX7 full web
   blueprint:                       { label: "Blue Print",                         Component: BluePrintPage      },
   gantt:                           { label: "Gantt",                              Component: GanttPage          },
-  "cdc-nax7-full-web":             { label: "NAX7 full web · Cahier des charges", Component: Cdc("NAX7 full web") },
+  "cdc-nax7-full-web":             { label: "NAX7 full web · Cahier des charges", Component: CahierDesChargesNax7FullWebPage },
   "calcul-prix":                   { label: "Calcul prix",                        Component: CalculPrixPage     },
   "rd-mode-degrade":               { label: "R&D mode dégradé",                   Component: RdModeDegradePage  },
   "rd-migration":                  { label: "R&D migration",                      Component: RdMigrationPage    },
