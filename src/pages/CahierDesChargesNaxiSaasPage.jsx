@@ -1,7 +1,10 @@
 import {
   ClipboardList, Target, Layers, Rocket,
   Home, User, BedDouble, FileText, Mail, ShoppingCart, Calendar,
+  ExternalLink,
 } from 'lucide-react';
+
+const PROTOTYPE_URL = 'https://naxigestionfront-prepa.vercel.app/';
 import { C, RADIUS, SHADOW } from '../styles/theme';
 import { Card } from '../components/primitives/Card';
 import { SectionTitle } from '../components/primitives/SectionTitle';
@@ -73,12 +76,40 @@ export function CahierDesChargesNaxiSaasPage() {
         background: `linear-gradient(135deg, ${C.paper} 0%, ${C.paper} 60%, ${C.orangeFaint} 100%)`,
         borderLeft: `3px solid ${C.orange}`,
       }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 14 }}>
-          <Target size={15} color={C.orange} strokeWidth={2.2} />
-          <div style={{
-            fontSize: 11, letterSpacing: '0.06em', textTransform: 'uppercase',
-            color: C.orange, fontWeight: 700,
-          }}>Objectifs</div>
+        <div style={{
+          display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+          gap: 12, marginBottom: 14, flexWrap: 'wrap',
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <Target size={15} color={C.orange} strokeWidth={2.2} />
+            <div style={{
+              fontSize: 11, letterSpacing: '0.06em', textTransform: 'uppercase',
+              color: C.orange, fontWeight: 700,
+            }}>Objectifs</div>
+          </div>
+          <a
+            href={PROTOTYPE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-flex', alignItems: 'center', gap: 6,
+              padding: '8px 14px', borderRadius: RADIUS.md,
+              background: C.orange, color: '#fff',
+              border: 'none', textDecoration: 'none',
+              fontSize: 12, fontWeight: 700, letterSpacing: '0.02em',
+              fontFamily: 'inherit',
+              boxShadow: SHADOW.orange,
+              transition: 'background 0.15s, transform 0.1s',
+            }}
+            onMouseEnter={e => { e.currentTarget.style.background = C.orangeHover; }}
+            onMouseLeave={e => { e.currentTarget.style.background = C.orange; }}
+            onMouseDown={e => { e.currentTarget.style.transform = 'scale(0.97)'; }}
+            onMouseUp={e => { e.currentTarget.style.transform = 'scale(1)'; }}
+            title="Ouvrir le prototype dans un nouvel onglet"
+          >
+            <ExternalLink size={13} strokeWidth={2.4} />
+            Voir le prototype
+          </a>
         </div>
         <div style={{ fontSize: 14, color: C.ink, lineHeight: 1.55, marginBottom: 12 }}>
           Permettre de <b>promouvoir la formule SaaS de Naxi Gestion</b> auprès des prospects et clients existants.
