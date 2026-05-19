@@ -2,7 +2,7 @@ import {
   ShieldAlert, Target, Layers, RefreshCw, HelpCircle,
   Cloud, Box, Server, WifiOff,
   ClipboardList, BedDouble, Unlock, Wallet, ShieldCheck,
-  AlertTriangle, ArrowLeftRight,
+  ArrowLeftRight,
 } from 'lucide-react';
 import { C, RADIUS, SHADOW } from '../styles/theme';
 import { Card } from '../components/primitives/Card';
@@ -98,29 +98,6 @@ export function RdModeDegradePage() {
           <Pill label="Sync automatique" color={C.green} />
           <Pill label="R&D" color={C.gray500} sub="exploratoire" />
         </div>
-      </Card>
-
-      {/* ===== CONTEXTE / ENJEU ===== */}
-      <Card padding={20} style={{
-        borderLeft: `3px solid ${C.red}`,
-        background: '#fff5f5',
-      }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 10 }}>
-          <AlertTriangle size={15} color={C.red} strokeWidth={2.2} />
-          <div style={{
-            fontSize: 11, letterSpacing: '0.06em', textTransform: 'uppercase',
-            color: C.red, fontWeight: 700,
-          }}>Le problème à résoudre</div>
-        </div>
-        <ul style={{
-          fontSize: 13, color: C.inkSoft, lineHeight: 1.6,
-          margin: 0, paddingLeft: 22,
-        }}>
-          <li><b>Le pire moment</b> : pic d'arrivées et départs le samedi, justement les jours où la qualité réseau est dégradée (saturation, pannes, météo).</li>
-          <li><b>L'impact</b> : impossibilité d'accueillir les clients, files d'attente, sentiment d'amateurisme, frustration des saisonniers.</li>
-          <li><b>Le contournement actuel</b> : extraction manuelle préalable (PDF imprimés), gestion papier, ressaisie post-coupure.</li>
-          <li><b>L'enjeu commercial</b> : un PMS qui ne tient pas debout sans réseau n'est pas crédible face à des établissements ruraux ou de plein air.</li>
-        </ul>
       </Card>
 
       {/* ===== ARCHITECTURE ===== */}
