@@ -8,6 +8,7 @@ export function useNotionData() {
     classique: [], topline: [], suiviLundi: [], equipe: [],
     cartoPmsWeb: [], cartoPmsMobile: [], cartoManager: [],
     procedures: [],
+    calculPrix: { intro: '', elements: [] },
     cii: { rows: [], generatedAt: null },
     generatedAt: null,
   });
@@ -37,6 +38,10 @@ export function useNotionData() {
           cartoPmsMobile: Array.isArray(json?.cartoPmsMobile) ? json.cartoPmsMobile : [],
           cartoManager:   Array.isArray(json?.cartoManager)   ? json.cartoManager   : [],
           procedures:     Array.isArray(json?.procedures)     ? json.procedures     : [],
+          calculPrix: {
+            intro:    json?.calculPrix?.intro || '',
+            elements: Array.isArray(json?.calculPrix?.elements) ? json.calculPrix.elements : [],
+          },
           cii: {
             rows:        Array.isArray(cii?.rows) ? cii.rows : [],
             generatedAt: cii?.generatedAt || null,

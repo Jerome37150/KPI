@@ -36,6 +36,10 @@ const DB_CARTO_MANAGER    = 'd92b19c5-f3e3-42a5-bcfa-673f3d1d11f6';
 
 const DB_PROCEDURES = '9e35709403f44c07bb4092121e87415e';
 
+// NAX7 Full Web — Calcul prix
+const DB_PRICING   = '9c6a86130fdf436ba2240033b16aa441';
+const PAGE_PRICING = '3658db15623a80ee893ee5aa7de0015a';
+
 const HOURS_PER_DAY = 7; // conversion heures → jours (journée FR)
 
 const PHASES = ['MAQUETTE', 'BACK', 'FRONT', 'DESIGN', 'TEST'];
@@ -445,6 +449,29 @@ function slugify(s) {
     .replace(/^-+|-+$/g, '');
 }
 
+// === Mapping Calcul prix (NAX7 Full Web) ===
+// rich_text avec sauts de ligne → array de strings non vides
+function splitLines(s) {
+  if (!s) return [];
+  return String(s).split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+}
+
+function mapPricingElementPage(page) {
+  const p = page.properties;
+  return {
+    id:          page.id,
+    item:        extractProp(p, 'Item', 'title') || '',
+    categorie:   extractProp(p, 'Catégorie', 'select'),
+    description: extractProp(p, 'Description', 'rich_text') || '',
+    vars:        splitLines(extractProp(p, 'Variables', 'rich_text')),
+    prices:      splitLines(extractProp(p, 'Règles de prix', 'rich_text')),
+    channels:    extractProp(p, 'Canaux', 'multi_select') || [],
+    module:      extractProp(p, 'Module', 'rich_text') || '',
+    ordre:       extractProp(p, 'Ordre', 'number') || 0,
+    url:         page.url,
+  };
+}
+
 async function mapProcedurePage(page) {
   const p = page.properties;
   const titre = extractProp(p, 'Titre', 'title') || '';
@@ -551,6 +578,29 @@ async function main() {
     console.warn(`   ⚠️ Procédures non récupérées : ${err.message.split('\n')[0]}`);
   }
 
+  // Calcul prix (NAX7 Full Web) : DB '💰 Éléments de prix' + intro Markdown
+  let calculPrix = { intro: '', elements: [] };
+  try {
+    console.log('📥 Récupération de la base 💰 Éléments de prix...');
+    const pricePages = await queryAllPages(DB_PRICING);
+    const elements = pricePages
+      .map(mapPricingElementPage)
+      .sort((a, b) => (a.ordre || 0) - (b.ordre || 0));
+    console.log(`   → ${elements.length} éléments de prix récupérés`);
+
+    let intro = '';
+    try {
+      const introBlocks = await fetchBlockChildren(PAGE_PRICING);
+      // Filtre : on ignore les child_database blocks (la DB elle-même apparaît dans la page)
+      const textBlocks = introBlocks.filter(b => b.type !== 'child_database');
+      intro = await blocksToMarkdown(textBlocks);
+    } catch { /* page intro non accessible : intro vide, on continue */ }
+
+    calculPrix = { intro, elements };
+  } catch (err) {
+    console.warn(`   ⚠️ Calcul prix non récupéré : ${err.message.split('\n')[0]}`);
+  }
+
   const data = {
     generatedAt: new Date().toISOString(),
     classique,
@@ -561,12 +611,14 @@ async function main() {
     cartoPmsMobile,
     cartoManager,
     procedures,
+    calculPrix,
     counts: {
       classique: classique.length,
       topline: topline.length,
       suiviLundi: suiviLundi.length,
       equipe: equipe.length,
       procedures: procedures.length,
+      pricingElements: calculPrix.elements.length,
       cartoPmsWeb: cartoPmsWeb.length,
       cartoPmsMobile: cartoPmsMobile.length,
       cartoManager: cartoManager.length,
@@ -584,6 +636,7 @@ async function main() {
   console.log(`   ${classique.length} tickets Classique · ${topline.length} fenêtres Top Line · ${suiviLundi.length} saisies · ${equipe.length} membres`);
   console.log(`   Cartographies : ${cartoPmsWeb.length} PMS Web · ${cartoPmsMobile.length} Mobile · ${cartoManager.length} Manager`);
   console.log(`   Procédures : ${procedures.length}`);
+  console.log(`   Calcul prix : ${calculPrix.elements.length} éléments`);
   console.log(`   Durée : ${duration}s`);
 }
 
