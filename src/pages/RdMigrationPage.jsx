@@ -70,22 +70,6 @@ const CATEGORIES = [
   },
 ];
 
-// Étapes du processus de migration
-const STEPS = [
-  { num: '1', title: 'Audit pré-migration',
-    desc: "Inventaire des données et configurations existantes, détection des particularités non standard, estimation de l'effort de ressaisie." },
-  { num: '2', title: 'Mapping & dry-run',
-    desc: "Définition des règles de transformation, exécution d'une migration à blanc dans un environnement de test, contrôle des écarts." },
-  { num: '3', title: 'Validation client',
-    desc: 'Le client revoit les données migrées sur la plateforme NAX7 de pré-prod : prix, occupation, paramètres clés. Go / no-go signé.' },
-  { num: '4', title: 'Snapshot & gel',
-    desc: 'Photo instantanée des données Naxi à la date de bascule. Naxi passe en lecture seule pour éviter toute divergence.' },
-  { num: '5', title: 'Bascule',
-    desc: "Migration effective vers NAX7 Full Web. Reconfiguration des connecteurs externes. Tests opérationnels (réservation, encaissement, plan d'occupation)." },
-  { num: '6', title: 'Phase de stabilisation',
-    desc: 'Support renforcé sur les premiers jours. Naxi reste accessible en lecture seule en cas de doute. Comparaison périodique des chiffres.' },
-];
-
 // Questions R&D à trancher
 const OPEN_QUESTIONS = [
   { title: 'Transparence pour le client final',
@@ -178,47 +162,6 @@ export function RdMigrationPage() {
           gap: 12,
         }}>
           {CATEGORIES.map(cat => <CategoryColumn key={cat.key} cat={cat} />)}
-        </div>
-      </Card>
-
-      {/* ===== HISTORIQUE NAXI OFFICE ===== */}
-      <Card padding={20} style={{
-        borderLeft: `3px solid ${C.blue}`,
-        background: '#f0f9ff',
-      }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 10 }}>
-          <Archive size={15} color={C.blue} strokeWidth={2.2} />
-          <div style={{
-            fontSize: 11, letterSpacing: '0.06em', textTransform: 'uppercase',
-            color: C.blue, fontWeight: 700,
-          }}>Préservation de l'historique</div>
-        </div>
-        <div style={{ fontSize: 13, color: C.inkSoft, lineHeight: 1.6 }}>
-          Une instance <b>Naxi Gestion office local</b> est conservée en
-          <b> lecture seule</b> après la bascule. Elle contient l'intégralité
-          des saisons passées (réservations, factures, comptabilité, statistiques)
-          et reste consultable à tout moment depuis le poste de l'établissement.
-          Cela évite toute perte d'historique tout en isolant les données
-          anciennes du nouveau système opérationnel.
-        </div>
-        <div style={{
-          display: 'inline-flex', alignItems: 'center', gap: 6, marginTop: 10,
-          padding: '4px 10px', borderRadius: RADIUS.sm,
-          background: C.paper, border: `1px solid ${C.blue}40`,
-          fontSize: 11, fontWeight: 700, color: C.blue,
-        }}>
-          <Lock size={11} strokeWidth={2.4} />
-          Mode lecture seule
-        </div>
-      </Card>
-
-      {/* ===== ÉTAPES DE MIGRATION ===== */}
-      <Card padding={0} style={{ overflow: 'hidden' }}>
-        <CardHeader icon={RefreshCw} title="Processus de migration" sub="6 étapes maîtrisées" />
-        <div style={{ padding: '20px 24px' }}>
-          {STEPS.map((s, i) => (
-            <SyncStep key={s.num} step={s} last={i === STEPS.length - 1} />
-          ))}
         </div>
       </Card>
 
@@ -506,40 +449,6 @@ function CategoryColumn({ cat }) {
           </li>
         ))}
       </ul>
-    </div>
-  );
-}
-
-function SyncStep({ step, last }) {
-  return (
-    <div style={{
-      display: 'grid', gridTemplateColumns: '40px 1fr', gap: 14,
-      paddingBottom: last ? 0 : 16,
-    }}>
-      <div>
-        <div style={{
-          width: 32, height: 32, borderRadius: '50%',
-          background: C.orange, color: '#fff',
-          display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
-          fontSize: 13, fontWeight: 700,
-          boxShadow: SHADOW.sm,
-        }}>{step.num}</div>
-        {!last && (
-          <div style={{
-            width: 2, height: 'calc(100% - 14px)',
-            background: C.gray200,
-            marginLeft: 15, marginTop: 2,
-          }} />
-        )}
-      </div>
-      <div style={{ paddingTop: 4 }}>
-        <div style={{
-          fontSize: 13, fontWeight: 700, color: C.ink, marginBottom: 3,
-        }}>{step.title}</div>
-        <div style={{ fontSize: 12, color: C.inkSoft, lineHeight: 1.55 }}>
-          {step.desc}
-        </div>
-      </div>
     </div>
   );
 }
