@@ -16,9 +16,9 @@ export function LogoInaxel({ variant = "compact", subtitle = "KPI" }) {
 
     return (
       <svg
-        viewBox={`0 0 ${vbWidth} 145`}
+        viewBox={`0 0 ${vbWidth} 110`}
         width={displayWidth}
-        height="120"
+        height="92"
         xmlns="http://www.w3.org/2000/svg"
         aria-label={`Inaxel ${subtitle}`}
         style={{ display: "block", maxWidth: "100%", height: "auto" }}
@@ -42,14 +42,8 @@ export function LogoInaxel({ variant = "compact", subtitle = "KPI" }) {
         </g>
         <text x="2" y="103"
           fontFamily="Inter, -apple-system, sans-serif"
-          fontWeight="700">
-          <tspan fill={C.gray900} fontSize="24">Inaxel&#160;</tspan>
-          <tspan fill={C.orange} fontSize={subFontSize}>{subtitle}</tspan>
-        </text>
-        <text x="2" y="126"
-          fontFamily="Inter, -apple-system, sans-serif"
-          fontSize="13" fill={C.orange}>
-          pilotage produits &amp; qualité
+          fontWeight="700" fontSize={subFontSize} fill={C.orange}>
+          {subtitle}
         </text>
       </svg>
     );
