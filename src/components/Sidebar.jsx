@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import {
   LayoutDashboard, FileText, Package, Sparkles, Building2, LineChart,
   LayoutGrid, Calendar, ClipboardList, Calculator, ShieldAlert, Database,
-  BookOpen, ChevronRight, ChevronDown,
+  BookOpen, Bot, ChevronRight, ChevronDown,
 } from 'lucide-react';
 import { C, LAYOUT } from '../styles/theme';
 import { LogoInaxel } from './LogoInaxel';
@@ -48,6 +48,7 @@ export const NAV_ITEMS = [
   { type: "window",   key: "calcul-prix",     label: "Calcul prix",      icon: Calculator,    parent: "nax7-full-web" },
   { type: "window",   key: "rd-mode-degrade", label: "R&D mode dégradé", icon: ShieldAlert,   parent: "nax7-full-web" },
   { type: "window",   key: "rd-migration",    label: "R&D migration",    icon: Database,      parent: "nax7-full-web" },
+  { type: "window",   key: "rd-ia",           label: "R&D intégration IA", icon: Bot,         parent: "nax7-full-web" },
   { type: "window",   key: "portail-clients-residents", label: "Portail clients et résidents", icon: ClipboardList, parent: "nax7-full-web" },
 
   // ─ Nax7 light ─

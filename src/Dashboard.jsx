@@ -22,6 +22,7 @@ import { CahierDesChargesInaxelPilotPage } from './pages/CahierDesChargesInaxelP
 import { CalculPrixPage } from './pages/CalculPrixPage';
 import { RdModeDegradePage } from './pages/RdModeDegradePage';
 import { RdMigrationPage } from './pages/RdMigrationPage';
+import { RdIaPage } from './pages/RdIaPage';
 import { ProcedureDetailPage } from './pages/ProcedureDetailPage';
 import { PagePlaceholder } from './components/primitives/PagePlaceholder';
 import { ClipboardList } from 'lucide-react';
@@ -58,6 +59,7 @@ const PAGES = {
   "calcul-prix":                   { label: "Calcul prix",                        Component: CalculPrixPage     },
   "rd-mode-degrade":               { label: "R&D mode dégradé",                   Component: RdModeDegradePage  },
   "rd-migration":                  { label: "R&D migration",                      Component: RdMigrationPage    },
+  "rd-ia":                         { label: "R&D intégration IA",                 Component: RdIaPage           },
   "portail-clients-residents":     { label: "Portail clients et résidents",       Component: Placeholder("NAX7 full web", "Portail clients et résidents") },
 
   // Autres projets — uniquement Cahier des charges pour l'instant
