@@ -3,7 +3,7 @@ import {
   Lock, BadgeCheck, Scale,
   Briefcase, Building2, Smile,
 } from 'lucide-react';
-import { C, RADIUS, SHADOW } from '../styles/theme';
+import { C, RADIUS } from '../styles/theme';
 import { Card } from '../components/primitives/Card';
 import { SectionTitle } from '../components/primitives/SectionTitle';
 
@@ -91,19 +91,41 @@ export function AuditsAteliersPage() {
           title="Ateliers de réflexion métier"
           sub="Module par module, recueil des remarques et avis"
         />
-        <div style={{
-          padding: 20,
-          display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 12,
-        }}>
-          {ATELIERS.map((a, i) => <AtelierCard key={i} atelier={a} />)}
-        </div>
-        <div style={{
-          padding: '12px 20px 18px',
-          fontSize: 11.5, color: C.inkDim, fontStyle: 'italic',
-        }}>
-          Les ateliers sont organisés <b>par module fonctionnel</b> (réservation,
-          séjour, encaissement, planning…) avec chaque profil successivement,
-          pour confronter les visions et identifier les écarts d'usage.
+        <div style={{ padding: '18px 20px 20px' }}>
+          <div style={{ fontSize: 13, color: C.inkSoft, lineHeight: 1.6, marginBottom: 14 }}>
+            Tout au long du projet, des ateliers sont organisés
+            <b> par module fonctionnel </b>
+            (réservation, séjour, encaissement, planning…) avec trois profils
+            consultés successivement, pour confronter les visions et identifier
+            les écarts d'usage.
+          </div>
+          <ul style={{
+            margin: 0, padding: 0, listStyle: 'none',
+            display: 'flex', flexDirection: 'column', gap: 10,
+          }}>
+            {ATELIERS.map((a, i) => {
+              const Icon = a.icon;
+              return (
+                <li key={i} style={{
+                  display: 'flex', alignItems: 'flex-start', gap: 12,
+                  fontSize: 13, lineHeight: 1.5,
+                }}>
+                  <div style={{
+                    width: 28, height: 28, borderRadius: RADIUS.sm,
+                    background: a.color + '15',
+                    display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+                    flexShrink: 0,
+                  }}>
+                    <Icon size={14} color={a.color} strokeWidth={2.4} />
+                  </div>
+                  <div>
+                    <span style={{ fontWeight: 700, color: C.ink }}>{a.title}</span>
+                    <span style={{ color: C.inkSoft }}> — {a.desc}</span>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </Card>
     </div>
@@ -166,33 +188,3 @@ function AuditCard({ audit }) {
   );
 }
 
-function AtelierCard({ atelier }) {
-  const Icon = atelier.icon;
-  return (
-    <div style={{
-      padding: '16px 18px',
-      background: C.paper,
-      border: `1px solid ${C.line}`,
-      borderTop: `3px solid ${atelier.color}`,
-      borderRadius: RADIUS.md,
-      boxShadow: SHADOW.sm,
-      display: 'flex', flexDirection: 'column', gap: 10,
-    }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-        <div style={{
-          width: 32, height: 32, borderRadius: '50%',
-          background: atelier.color + '15',
-          display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
-        }}>
-          <Icon size={16} color={atelier.color} strokeWidth={2.2} />
-        </div>
-        <div style={{
-          fontSize: 14, fontWeight: 700, color: C.ink, letterSpacing: '-0.01em',
-        }}>{atelier.title}</div>
-      </div>
-      <div style={{ fontSize: 12, color: C.inkSoft, lineHeight: 1.55 }}>
-        {atelier.desc}
-      </div>
-    </div>
-  );
-}
