@@ -1,7 +1,7 @@
 import {
   ClipboardList, Target, Layers, Rocket,
   Zap, RefreshCw, ShieldAlert, Sparkles, Puzzle, Users, Plug,
-  ExternalLink,
+  CalendarRange, ExternalLink,
 } from 'lucide-react';
 import { openDesktopPreview } from '../utils/openPreview';
 
@@ -12,7 +12,7 @@ import { SectionTitle } from '../components/primitives/SectionTitle';
 
 // ============================================
 // CahierDesChargesNax7FullWebPage — vision NAX7 Full Web
-// Objectifs · 7 innovations clés · rétro-planning de livraison (V1 fin 2027,
+// Objectifs · 8 innovations clés · rétro-planning de livraison (V1 fin 2027,
 // V2 fin 2028 français + espagnol).
 // ============================================
 
@@ -20,6 +20,9 @@ const FEATURES = [
   { key: 'FULL-WEB',  color: '#e55010', icon: Zap,
     title: 'PMS nouvelle génération',
     desc: 'Application 100 % web, plus rapide et plus fluide, accessible depuis tout poste sans installation locale.' },
+  { key: 'DAY-TO-DAY', color: '#06b6d4', icon: CalendarRange,
+    title: 'Day-to-day · périodes flexibles',
+    desc: "Évolution du modèle 'logiciel période' (semaine, quinzaine, mois) vers une gestion à la nuit. Un même outil pour le court séjour hôtelier comme pour le long séjour camping ou résidentiel." },
   { key: 'CRS-SYNC',  color: '#3b82f6', icon: RefreshCw,
     title: 'Connexion native CRS',
     desc: 'Synchronisation parfaite avec le CRS : fini la double saisie, calculs de prix strictement identiques entre les deux outils.' },
@@ -117,7 +120,7 @@ export function CahierDesChargesNax7FullWebPage() {
 
       {/* ===== 7 INNOVATIONS ===== */}
       <Card padding={0} style={{ overflow: 'hidden' }}>
-        <CardHeader icon={Layers} title="Innovations clés · 7 leviers de différenciation" />
+        <CardHeader icon={Layers} title="Innovations clés · 8 leviers de différenciation" />
         <div style={{
           padding: 20,
           display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 12,
