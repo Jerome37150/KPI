@@ -22,6 +22,7 @@ import { CalculPrixPage } from './pages/CalculPrixPage';
 import { RdModeDegradePage } from './pages/RdModeDegradePage';
 import { RdMigrationPage } from './pages/RdMigrationPage';
 import { RdIaPage } from './pages/RdIaPage';
+import { AuditsAteliersPage } from './pages/AuditsAteliersPage';
 import { ProcedureDetailPage } from './pages/ProcedureDetailPage';
 import { PagePlaceholder } from './components/primitives/PagePlaceholder';
 import { ClipboardList } from 'lucide-react';
@@ -58,6 +59,7 @@ const PAGES = {
   "rd-mode-degrade":               { label: "R&D mode dégradé",                   Component: RdModeDegradePage  },
   "rd-migration":                  { label: "R&D migration",                      Component: RdMigrationPage    },
   "rd-ia":                         { label: "R&D intégration IA",                 Component: RdIaPage           },
+  "audits-ateliers":               { label: "Audits & ateliers",                  Component: AuditsAteliersPage },
 
   // Autres projets — uniquement Cahier des charges pour l'instant
   "cdc-nax7-light":                { label: "Nax7 light · Cahier des charges",      Component: CahierDesChargesNax7LightPage },

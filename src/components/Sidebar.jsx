@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import {
   LayoutDashboard, FileText, Package, Sparkles, Building2, LineChart,
-  LayoutGrid, ClipboardList, Calculator, ShieldAlert, Database,
+  LayoutGrid, ClipboardList, Calculator, ShieldAlert, ShieldCheck, Database,
   BookOpen, Bot, ChevronRight, ChevronDown,
 } from 'lucide-react';
 import { C, LAYOUT } from '../styles/theme';
@@ -48,6 +48,7 @@ export const NAV_ITEMS = [
   { type: "window",   key: "rd-mode-degrade", label: "R&D mode dégradé", icon: ShieldAlert,   parent: "nax7-full-web" },
   { type: "window",   key: "rd-migration",    label: "R&D migration",    icon: Database,      parent: "nax7-full-web" },
   { type: "window",   key: "rd-ia",           label: "R&D intégration IA", icon: Bot,         parent: "nax7-full-web" },
+  { type: "window",   key: "audits-ateliers", label: "Audits & ateliers", icon: ShieldCheck,   parent: "nax7-full-web" },
 
   // ─ Nax7 light ─
   { type: "category", key: "nax7-light",      label: "Nax7 light",       collapsible: true, parent: "projets", notionProject: "Nax7 Light" },
