@@ -12,7 +12,6 @@ import { SprintPage } from './pages/SprintPage';
 import { ImmobilisationPage } from './pages/ImmobilisationPage';
 import { SuiviPage } from './pages/SuiviPage';
 import { BluePrintPage } from './pages/BluePrintPage';
-import { GanttPage } from './pages/GanttPage';
 import { CahierDesChargesPage } from './pages/CahierDesChargesPage';
 import { CahierDesChargesNaxiSaasPage } from './pages/CahierDesChargesNaxiSaasPage';
 import { CahierDesChargesNax7FullWebPage } from './pages/CahierDesChargesNax7FullWebPage';
@@ -54,13 +53,11 @@ const PAGES = {
 
   // NAX7 full web
   blueprint:                       { label: "Blue Print",                         Component: BluePrintPage      },
-  gantt:                           { label: "Gantt",                              Component: GanttPage          },
   "cdc-nax7-full-web":             { label: "NAX7 full web · Cahier des charges", Component: CahierDesChargesNax7FullWebPage },
   "calcul-prix":                   { label: "Calcul prix",                        Component: CalculPrixPage     },
   "rd-mode-degrade":               { label: "R&D mode dégradé",                   Component: RdModeDegradePage  },
   "rd-migration":                  { label: "R&D migration",                      Component: RdMigrationPage    },
   "rd-ia":                         { label: "R&D intégration IA",                 Component: RdIaPage           },
-  "portail-clients-residents":     { label: "Portail clients et résidents",       Component: Placeholder("NAX7 full web", "Portail clients et résidents") },
 
   // Autres projets — uniquement Cahier des charges pour l'instant
   "cdc-nax7-light":                { label: "Nax7 light · Cahier des charges",      Component: CahierDesChargesNax7LightPage },

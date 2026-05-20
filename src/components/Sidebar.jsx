@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import {
   LayoutDashboard, FileText, Package, Sparkles, Building2, LineChart,
-  LayoutGrid, Calendar, ClipboardList, Calculator, ShieldAlert, Database,
+  LayoutGrid, ClipboardList, Calculator, ShieldAlert, Database,
   BookOpen, Bot, ChevronRight, ChevronDown,
 } from 'lucide-react';
 import { C, LAYOUT } from '../styles/theme';
@@ -44,12 +44,10 @@ export const NAV_ITEMS = [
   { type: "category", key: "nax7-full-web",   label: "NAX7 full web",    collapsible: true, parent: "projets", notionProject: "Nax7 Full Web" },
   { type: "window",   key: "cdc-nax7-full-web", label: "Cahier des charges", icon: ClipboardList, parent: "nax7-full-web" },
   { type: "window",   key: "blueprint",       label: "Blue Print",       icon: LayoutGrid,    parent: "nax7-full-web" },
-  { type: "window",   key: "gantt",           label: "Gantt",            icon: Calendar,      parent: "nax7-full-web" },
   { type: "window",   key: "calcul-prix",     label: "Calcul prix",      icon: Calculator,    parent: "nax7-full-web" },
   { type: "window",   key: "rd-mode-degrade", label: "R&D mode dégradé", icon: ShieldAlert,   parent: "nax7-full-web" },
   { type: "window",   key: "rd-migration",    label: "R&D migration",    icon: Database,      parent: "nax7-full-web" },
   { type: "window",   key: "rd-ia",           label: "R&D intégration IA", icon: Bot,         parent: "nax7-full-web" },
-  { type: "window",   key: "portail-clients-residents", label: "Portail clients et résidents", icon: ClipboardList, parent: "nax7-full-web" },
 
   // ─ Nax7 light ─
   { type: "category", key: "nax7-light",      label: "Nax7 light",       collapsible: true, parent: "projets", notionProject: "Nax7 Light" },

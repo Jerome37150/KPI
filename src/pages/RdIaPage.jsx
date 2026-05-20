@@ -1,7 +1,7 @@
 import {
   Sparkles, Target, Layers, HelpCircle,
   TrendingUp, Mail, ListTodo,
-  CheckCircle, Database, ArrowRight, ShieldCheck,
+  CheckCircle, Database, ArrowRight,
 } from 'lucide-react';
 import { C, RADIUS, SHADOW } from '../styles/theme';
 import { Card } from '../components/primitives/Card';
@@ -62,18 +62,6 @@ const PROJECTS = [
   },
 ];
 
-const PRINCIPES = [
-  { icon: ShieldCheck, color: C.green,
-    title: 'Décision humaine en dernier ressort',
-    desc: "L'IA suggère, l'opérateur décide. Pas d'action irréversible sans validation explicite." },
-  { icon: Database, color: C.blue,
-    title: 'Transparence des recommandations',
-    desc: "Chaque proposition est justifiée par les données qui l'ont motivée (REVPAR, avis, profil client...)." },
-  { icon: CheckCircle, color: C.purple,
-    title: 'Mesure d\'impact continue',
-    desc: "Comparaison avant/après sur les KPIs métier : un projet IA n'est conservé que s'il prouve sa valeur." },
-];
-
 const OPEN_QUESTIONS = [
   { title: 'Choix du moteur IA',
     desc: 'Modèle propriétaire fine-tuné sur les données métier, ou API externe (OpenAI, Anthropic, Mistral) ? Coût vs maîtrise.' },
@@ -130,17 +118,6 @@ export function RdIaPage() {
           display: 'grid', gridTemplateColumns: '1fr', gap: 16,
         }}>
           {PROJECTS.map(p => <ProjectCard key={p.num} project={p} />)}
-        </div>
-      </Card>
-
-      {/* ===== PRINCIPES ===== */}
-      <Card padding={0} style={{ overflow: 'hidden' }}>
-        <CardHeader icon={ShieldCheck} title="Principes communs" sub="Comment on aborde l'IA chez Inaxel" />
-        <div style={{
-          padding: 20,
-          display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 12,
-        }}>
-          {PRINCIPES.map((p, i) => <PrincipeCard key={i} principe={p} />)}
         </div>
       </Card>
 
@@ -338,31 +315,3 @@ function FlowArrow({ color }) {
   );
 }
 
-function PrincipeCard({ principe }) {
-  const Icon = principe.icon;
-  return (
-    <div style={{
-      background: C.bgSoft,
-      border: `1px solid ${C.line}`,
-      borderLeft: `3px solid ${principe.color}`,
-      borderRadius: RADIUS.md,
-      padding: '14px 16px',
-    }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
-        <div style={{
-          width: 28, height: 28, borderRadius: RADIUS.sm,
-          background: principe.color + '15',
-          display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
-        }}>
-          <Icon size={14} color={principe.color} strokeWidth={2.4} />
-        </div>
-        <div style={{
-          fontSize: 12.5, fontWeight: 700, color: C.ink, letterSpacing: '0.01em',
-        }}>{principe.title}</div>
-      </div>
-      <div style={{ fontSize: 11.5, color: C.inkDim, lineHeight: 1.5 }}>
-        {principe.desc}
-      </div>
-    </div>
-  );
-}
