@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import {
   LayoutDashboard, FileText, Package, Sparkles, Building2, LineChart,
   LayoutGrid, ClipboardList, Calculator, ShieldAlert, ShieldCheck, Database,
-  BookOpen, Bot, ChevronRight, ChevronDown,
+  BookOpen, Bot, ChevronRight, ChevronDown, Lock, Unlock,
 } from 'lucide-react';
 import { C, LAYOUT } from '../styles/theme';
 import { LogoInaxel } from './LogoInaxel';
@@ -29,19 +29,22 @@ export const NAV_ITEMS = [
   // === Procédures ===
   // Les windows enfants sont injectées dynamiquement par <Sidebar> à partir de
   // data.procedures (1 entrée par procédure publiée dans Notion).
-  { type: "category", key: "procedures",      label: "Procédures",       collapsible: true },
+  // `locked: true` → masqué tant que le code d'accès n'est pas saisi.
+  { type: "category", key: "procedures",      label: "Procédures",       collapsible: true, locked: true },
 
   // === Projets ===
+  // La catégorie "projets" et la window "immobilisation" restent publiques.
+  // Les sous-catégories projets (Naxi.G, NAX7, …) sont verrouillées.
   { type: "category", key: "projets",         label: "Projets",          collapsible: true },
   { type: "window",   key: "immobilisation",  label: "Immobilisation",   icon: Building2, parent: "projets" },
 
   // ─ Naxi.G Full Saas ─
-  { type: "category", key: "naxi-saas",       label: "Naxi.G Full Saas", collapsible: true, parent: "projets", notionProject: "Naxi G Full Saas" },
+  { type: "category", key: "naxi-saas",       label: "Naxi.G Full Saas", collapsible: true, parent: "projets", notionProject: "Naxi G Full Saas", locked: true },
   { type: "window",   key: "naxi-saas-cdc",   label: "Cahier des charges", icon: ClipboardList, parent: "naxi-saas" },
   { type: "window",   key: "suivi",           label: "Suivi",              icon: LineChart,     parent: "naxi-saas" },
 
   // ─ NAX7 full web ─
-  { type: "category", key: "nax7-full-web",   label: "NAX7 full web",    collapsible: true, parent: "projets", notionProject: "Nax7 Full Web" },
+  { type: "category", key: "nax7-full-web",   label: "NAX7 full web",    collapsible: true, parent: "projets", notionProject: "Nax7 Full Web", locked: true },
   { type: "window",   key: "cdc-nax7-full-web", label: "Cahier des charges", icon: ClipboardList, parent: "nax7-full-web" },
   { type: "window",   key: "blueprint",       label: "Blue Print",       icon: LayoutGrid,    parent: "nax7-full-web" },
   { type: "window",   key: "calcul-prix",     label: "Calcul prix",      icon: Calculator,    parent: "nax7-full-web" },
@@ -51,15 +54,15 @@ export const NAV_ITEMS = [
   { type: "window",   key: "audits-ateliers", label: "Audits & ateliers", icon: ShieldCheck,   parent: "nax7-full-web" },
 
   // ─ Nax7 light ─
-  { type: "category", key: "nax7-light",      label: "Nax7 light",       collapsible: true, parent: "projets", notionProject: "Nax7 Light" },
+  { type: "category", key: "nax7-light",      label: "Nax7 light",       collapsible: true, parent: "projets", notionProject: "Nax7 Light", locked: true },
   { type: "window",   key: "cdc-nax7-light",  label: "Cahier des charges", icon: ClipboardList, parent: "nax7-light" },
 
   // ─ Nax7 Manager ─
-  { type: "category", key: "nax7-manager",    label: "Nax7 Manager",     collapsible: true, parent: "projets", notionProject: "Nax7 Manager" },
+  { type: "category", key: "nax7-manager",    label: "Nax7 Manager",     collapsible: true, parent: "projets", notionProject: "Nax7 Manager", locked: true },
   { type: "window",   key: "cdc-nax7-manager", label: "Cahier des charges", icon: ClipboardList, parent: "nax7-manager" },
 
   // ─ Inaxel Pilot ─
-  { type: "category", key: "inaxel-pilot",    label: "Inaxel Pilot",     collapsible: true, parent: "projets", notionProject: "Inaxel Pilot" },
+  { type: "category", key: "inaxel-pilot",    label: "Inaxel Pilot",     collapsible: true, parent: "projets", notionProject: "Inaxel Pilot", locked: true },
   { type: "window",   key: "cdc-inaxel-pilot", label: "Cahier des charges", icon: ClipboardList, parent: "inaxel-pilot" },
   { type: "window",   key: "espace-client-inaxel", label: "Espace client (site inaxel)", icon: ClipboardList, parent: "inaxel-pilot" },
 ];
@@ -115,6 +118,23 @@ const COLLAPSIBLE_KEYS = NAV_ITEMS
   .filter(e => e.type === "category" && e.collapsible && e.key)
   .map(e => e.key);
 
+// Verrou de second niveau : masque Procédures + sous-projets tant que le
+// code d'accès n'est pas saisi. Mot de passe en clair dans le bundle —
+// pas de secret réel, juste un filtre d'affichage.
+const UNLOCK_KEY = 'inaxel_kpi_unlocked';
+const UNLOCK_PWD = '123';
+
+// True si l'entrée elle-même ou un ancêtre porte `locked: true`.
+function isLockedByAncestor(entry, byKey) {
+  if (entry?.locked) return true;
+  let cur = byKey.get(entry?.parent);
+  while (cur) {
+    if (cur.locked) return true;
+    cur = byKey.get(cur.parent);
+  }
+  return false;
+}
+
 // ============================================
 // Sidebar — drawer permanent à gauche, style inaxel-pilot
 // Reçoit `procedures` pour générer dynamiquement 1 window par procédure
@@ -145,6 +165,38 @@ export function Sidebar({ tab, onSelect, procedures = [] }) {
 
   // Set des catégories actuellement repliées (par défaut : toutes les collapsibles)
   const [collapsed, setCollapsed] = useState(() => new Set(COLLAPSIBLE_KEYS));
+
+  // État du verrou de second niveau (persisté en sessionStorage)
+  const [unlocked, setUnlocked] = useState(() => {
+    try { return sessionStorage.getItem(UNLOCK_KEY) === 'ok'; }
+    catch { return false; }
+  });
+
+  // Liste des items filtrés selon l'état du verrou
+  const visibleItems = useMemo(
+    () => unlocked ? items : items.filter(e => !isLockedByAncestor(e, byKey)),
+    [items, byKey, unlocked]
+  );
+
+  // Toggle du verrou : prompt à déverrouiller, ou retour direct à verrouillé
+  const toggleUnlock = () => {
+    if (unlocked) {
+      try { sessionStorage.removeItem(UNLOCK_KEY); } catch { /* ignore */ }
+      setUnlocked(false);
+      // Si le tab actif est verrouillé, retour Dashboard
+      const cur = byKey.get(tab);
+      if (cur && isLockedByAncestor(cur, byKey)) onSelect('dashboard');
+      return;
+    }
+    const pwd = window.prompt("Code d'accès — déverrouiller Procédures et projets");
+    if (pwd === null) return;
+    if (pwd === UNLOCK_PWD) {
+      try { sessionStorage.setItem(UNLOCK_KEY, 'ok'); } catch { /* ignore */ }
+      setUnlocked(true);
+    } else {
+      window.alert('Code incorrect');
+    }
+  };
 
   // Toggle d'une catégorie. Si on déplie : ferme automatiquement ses siblings
   // (catégories de même parent) pour un comportement accordéon.
@@ -189,7 +241,7 @@ export function Sidebar({ tab, onSelect, procedures = [] }) {
         padding: "8px 0 16px",
         display: "flex", flexDirection: "column",
       }}>
-        {items.map((entry, i) => {
+        {visibleItems.map((entry, i) => {
           // Masque les éléments dont un ancêtre est replié
           if (isHiddenByCollapse(entry, collapsed, byKey)) return null;
 
@@ -288,6 +340,35 @@ export function Sidebar({ tab, onSelect, procedures = [] }) {
           );
         })}
       </nav>
+
+      {/* Footer — verrou de second niveau */}
+      <button
+        type="button"
+        onClick={toggleUnlock}
+        title={unlocked
+          ? "Verrouiller Procédures et projets"
+          : "Saisir le code pour déverrouiller Procédures et projets"}
+        style={{
+          display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8,
+          width: "100%",
+          padding: "14px 18px",
+          borderTop: `1px solid ${C.line}`,
+          fontSize: 10, color: unlocked ? C.orange : C.inkMute,
+          fontWeight: 600, letterSpacing: "0.04em",
+          background: "transparent", border: "none",
+          textAlign: "left", cursor: "pointer", fontFamily: "inherit",
+          transition: "color 0.12s, background 0.12s",
+        }}
+        onMouseEnter={e => { e.currentTarget.style.background = C.gray50; }}
+        onMouseLeave={e => { e.currentTarget.style.background = "transparent"; }}
+      >
+        <span style={{ textTransform: "uppercase" }}>
+          {unlocked ? "Accès complet" : "Accès restreint"}
+        </span>
+        {unlocked
+          ? <Unlock size={11} strokeWidth={2.2} color={C.orange} />
+          : <Lock   size={11} strokeWidth={2.2} color={C.inkMute} />}
+      </button>
     </aside>
   );
 }
