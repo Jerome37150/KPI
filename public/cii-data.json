@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T10:48:58.511Z",
+  "generatedAt": "2026-05-21T13:52:06.428Z",
   "source": "suiviLundi",
   "rows": [
     {
@@ -83,7 +83,7 @@
       "fenetre": "Page de connexion",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 4,
+      "jours": 3.143,
       "actions": ""
     },
     {
@@ -152,7 +152,7 @@
       "end": "2026-03-22",
       "projet": "Naxi G Full Saas",
       "person": "Cédric.V",
-      "fenetre": "Listing réservation",
+      "fenetre": "Télémaintenance",
       "groupe": "HOME",
       "phase": "Design",
       "jours": 4,
@@ -191,7 +191,7 @@
       "fenetre": "Listing réservation",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 4,
+      "jours": 2.429,
       "actions": ""
     },
     {
@@ -299,7 +299,7 @@
       "fenetre": "Listing séjours",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 4,
+      "jours": 2.714,
       "actions": ""
     },
     {
@@ -320,7 +320,7 @@
       "end": "2026-04-05",
       "projet": "Naxi G Full Saas",
       "person": "Agathe (PO)",
-      "fenetre": "Listing indispo",
+      "fenetre": "Télémaintenance",
       "groupe": "HOME",
       "phase": "Maquette / UX",
       "jours": 4,
@@ -404,7 +404,7 @@
       "end": "2026-04-05",
       "projet": "Naxi G Full Saas",
       "person": "Loic",
-      "fenetre": "Listing indispo",
+      "fenetre": "Controle d’accès",
       "groupe": "HOME",
       "phase": "Back",
       "jours": 4,
@@ -428,7 +428,7 @@
       "end": "2026-04-12",
       "projet": "Naxi G Full Saas",
       "person": "Agathe (PO)",
-      "fenetre": "Télémaintenance",
+      "fenetre": "Liste des cautions",
       "groupe": "HOME",
       "phase": "Maquette / UX",
       "jours": 3.2,
@@ -488,7 +488,7 @@
       "end": "2026-04-12",
       "projet": "Naxi G Full Saas",
       "person": "Cédric.V",
-      "fenetre": "Télémaintenance",
+      "fenetre": "Listing réservation",
       "groupe": "HOME",
       "phase": "Design",
       "jours": 3.2,
@@ -524,10 +524,10 @@
       "end": "2026-04-12",
       "projet": "Naxi G Full Saas",
       "person": "Loic",
-      "fenetre": "Télémaintenance",
+      "fenetre": "Liste des cautions",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 3.2,
+      "jours": 3,
       "actions": ""
     },
     {
@@ -548,7 +548,7 @@
       "end": "2026-04-19",
       "projet": "Naxi G Full Saas",
       "person": "Agathe (PO)",
-      "fenetre": "Liste des cautions",
+      "fenetre": "Listing occupation",
       "groupe": "HOME",
       "phase": "Maquette / UX",
       "jours": 4,
@@ -608,7 +608,7 @@
       "end": "2026-04-19",
       "projet": "Naxi G Full Saas",
       "person": "Cédric.V",
-      "fenetre": "Liste des cautions",
+      "fenetre": "Recherche client",
       "groupe": "HOME",
       "phase": "Design",
       "jours": 4,
@@ -647,7 +647,7 @@
       "fenetre": "Liste des cautions",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 4,
+      "jours": 0.714,
       "actions": ""
     },
     {
@@ -728,7 +728,7 @@
       "end": "2026-04-26",
       "projet": "Naxi G Full Saas",
       "person": "Cédric.V",
-      "fenetre": "Remise en banque",
+      "fenetre": "Recherche client",
       "groupe": "HOME",
       "phase": "Design",
       "jours": 4,
@@ -776,10 +776,10 @@
       "end": "2026-04-26",
       "projet": "Naxi G Full Saas",
       "person": "Loic",
-      "fenetre": "Remise en banque",
+      "fenetre": "Ventes réception",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 4,
+      "jours": 1.571,
       "actions": ""
     },
     {
@@ -872,11 +872,11 @@
       "end": "2026-05-03",
       "projet": "Naxi G Full Saas",
       "person": "Cédric.V",
-      "fenetre": "Historiques des ventes",
+      "fenetre": "Liste des cautions",
       "groupe": "HOME",
       "phase": "Design",
       "jours": 3.2,
-      "actions": ""
+      "actions": "Uniformisation modales"
     },
     {
       "week": "2026-W18",
@@ -944,8 +944,8 @@
       "end": "2026-05-10",
       "projet": "Naxi G Full Saas",
       "person": "Agathe (PO)",
-      "fenetre": "Listing occupation",
-      "groupe": "HOME",
+      "fenetre": "Planning - rech dispo",
+      "groupe": "PLANNING",
       "phase": "Maquette / UX",
       "jours": 3.2,
       "actions": ""
@@ -1004,11 +1004,11 @@
       "end": "2026-05-10",
       "projet": "Naxi G Full Saas",
       "person": "Cédric.V",
-      "fenetre": "Controle de Caisse",
+      "fenetre": "Liste des cautions",
       "groupe": "HOME",
       "phase": "Design",
       "jours": 3.2,
-      "actions": ""
+      "actions": "Uniformisation modales"
     },
     {
       "week": "2026-W19",
@@ -1040,10 +1040,10 @@
       "end": "2026-05-10",
       "projet": "Naxi G Full Saas",
       "person": "Loic",
-      "fenetre": "Listing occupation",
+      "fenetre": "Ventes réception",
       "groupe": "HOME",
       "phase": "Back",
-      "jours": 3.2,
+      "jours": 1.143,
       "actions": ""
     },
     {
@@ -1056,6 +1056,18 @@
       "groupe": "HOME",
       "phase": "Front",
       "jours": 3.2,
+      "actions": ""
+    },
+    {
+      "week": "2026-W20",
+      "start": "2026-05-11",
+      "end": "2026-05-17",
+      "projet": "Naxi G Full Saas",
+      "person": "Agathe (PO)",
+      "fenetre": "Planning - rech dispo",
+      "groupe": "PLANNING",
+      "phase": "Maquette / UX",
+      "jours": 2,
       "actions": ""
     }
   ]
