@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T13:52:06.361Z",
+  "generatedAt": "2026-05-21T16:32:14.388Z",
   "classique": [
     {
       "id": "3678db15-623a-809c-88c6-e9d4c871c5eb",
@@ -213,7 +213,7 @@
       "identifiant": "INA-312",
       "titre": "[WEB] NAXITO : modification de résa défaillante avec promos",
       "classification": "BUG STRUCTURANT",
-      "statut": "En cours",
+      "statut": "FAIT",
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -232,7 +232,7 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Harmony du groupe Sunelia nous a contacté car lorsque ils reçoivent une modif de résa qui a une promo, la modification de la résa fait sauter la promo pour remettre le tarif de base. ",
       "communication": [],
@@ -600,7 +600,7 @@
     {
       "id": "35e8db15-623a-808e-a679-e77cdd45748b",
       "identifiant": "INA-297",
-      "titre": "[WEB] - Masquer le bouton “Souscrire au programme fidelité” sur l’espace client",
+      "titre": "[WEB+LOGICIEL] - Masquer le bouton “Souscrire au programme fidelité” sur l’espace client",
       "classification": "DEV sans CC",
       "statut": "A planifier",
       "priorisation": "Haute",
@@ -629,7 +629,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://www.notion.so/WEB-Masquer-le-bouton-Souscrire-au-programme-fidelit-sur-l-espace-client-35e8db15623a808ea679e77cdd45748b"
+      "url": "https://www.notion.so/WEB-LOGICIEL-Masquer-le-bouton-Souscrire-au-programme-fidelit-sur-l-espace-client-35e8db15623a808ea679e77cdd45748b"
     },
     {
       "id": "35d8db15-623a-80ff-81df-dd182effb5dd",
@@ -4075,7 +4075,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "Fiche communication.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S4773V7L%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T135145Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjED0aCXVzLXdlc3QtMiJIMEYCIQCwtWYxLLWXVbpYausgxwkBYRaeDrVR3XsFIrzoFFHjrgIhAKVVXNthUK4l2yS7NgqOft0b6rxkHFpL4O3sXvSwUmUPKv8DCAYQABoMNjM3NDIzMTgzODA1IgxfJ1ZvFHNYGXInypMq3AOkP784cJ%2BcjSQS04zutSFJFPt0IkU%2FmbwuAbQyS2PNDf6d2F2QRx1eMDSVXgg1MJpyHVNjyCIqGnCb3f%2B9u11r9XcaZWSZsEfs7h7R7W4stPPL%2FecmilukmtbuHC%2BltmUz4h5mPoG1G%2BC3fmYOUV%2FMahWyJcjem%2BBFN5bSyUyFsFRKv8JcGkAUjjdrz3UjidIGNDyXQOhSHlIIuFnU4McD8nwFFAMfGmdB8C7JSnhvokr%2BYZGxE0wN%2B3WcbmszJyBgykUM%2FsVvtOy%2BzpZigD78rh2tSTDp1uDZJYi9r6MBUFQaL2crWt4s4jTAy%2BxxzSKGiHE0tjo%2BU5mcs5iyR4Uk9sQsKqY1Z7xjadKNjMjiuxU5iICgm%2FRhGaa4SJ%2FjF4A7NOcNvPR4SHlo4bk8ZUAxGwWTtrWwYn8B4pbqPE1%2BrTnenyf33lndfkJJxZ%2FF9CmrMJ%2FbKIlwUcXrgX1FZP1gcIdsqRfDOvGNZZ%2FgGI5cPPEp%2F0IyPup6BD83qChVTCEszhZHWjmV7MabCU57s9tMttC1paoLq8JDswbMeN2gOziWz1uUC13TaGu9DwwSqe8SJClwcrRQm0%2B0W%2FPqmdrXpRASYkx3cNx2Kuq8gCxgHpz5K9gI%2BI2RgqSVuzD7g7zQBjqkAR9GhWsH1qwIIl%2BixDH0ZbqKyAa%2FCmSdUhLlMyx1oilHggZA8UpYJmAGzb%2FopfAKXaaqx5I8yflSFa2yQTTpAbjYawXD74SVPjmV92Df7HPUvEOzj7HTi%2BMJxZ2PAwwk%2B86C9YkvtGK6IoAE3mJxbBJPRRQ7qKP1t4yjsMZUyM164xMw6SL86pLjRPi%2BVcepnv5DtsMwl9TkZrBcXbi6UMQP%2BTYZ&X-Amz-Signature=7e0c2a51c13c91428fd9721b2639483a475c569251d06803dbf91dca6a09fb1d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WZC2S37N%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T163157Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEAaCXVzLXdlc3QtMiJHMEUCIQDigRBdJXbH9i%2F73%2BN8e2Xl0OMWLZ8eCnah4uN58sbX4gIgPZpjsjVGxKuE54eVqYprU4LyMqJWJLQB7sQcasqMabYq%2FwMICRAAGgw2Mzc0MjMxODM4MDUiDPKOgAZDAlrZ1RR9UCrcA2C6Ixn8laZU9aNHPntjDQkuCayO1qcRNMg4GhtEwMRXWkpgPWuxkZWupsBEsNj3kyWZ9K0vLVNcVWzZON22SdLBRJ3FHsD5Ww3jvEleCX1bFfKcoMRhIxWORnDMGZMULjCc3HQsNylMB%2Bixpw%2FlZSNTinCx6rs05CPgthjb17H1Rn4qFvOxRbz8801QcmH1MTkzKOX5duyWs%2FK%2FyQZsRRmb5C6QW4zbHSev7TfUgIa57PzoR%2F7zmTHjjTCl8TxS1rKBbbEGdmXXG0Xgm6ZTG4jFbc2DOBtcOpFww6ROYnshxZgfEZkYcz%2F2rfisg4bRzfq6SikS%2BHoeL%2BhWyJXt6a1SSozXgkmhsfqELOBM6QEKAyUiGNYUt7Bel%2FfjIrRv78Yynfn2kGWEBYGQdirK3%2BzbDuAFgxtDCRGlfDXo6GHNlpkcN2SDcjCCkwfDW3%2B5hgAONdh%2BDAIHYBI41CtVQGjHVeGT8B1UEwrEg7r1SoKcmERLwoJhOkySoi6LmsFXPkuKpv6f1N7ltnk0%2F8HILxRwxEg8%2F2iUupLWt7crIfdgLk2TvGheLtRkX1EKkw1H3p1OfW93j6scxpW9MqYq5ZjrxQgEWesY4sxkBBQf21cj%2Fq8qx2Oz2iq1bxoXMI%2FfvNAGOqUBa%2FFzwh67LL8jkW2L5uFUDrH3raQa9vieAN%2FB4ZeD%2BGrGt76BhNo3Da0UPqVaslFv1yh13wFltIJGVB6qw%2F0G6CVCXMJrmz%2F7t7dB9JITOuBAaoqyWhiy1sVtTqeIPZ%2F1Dy48Z3auxMzbb%2FaP3Gte%2FYFgfR4VhMA7fH4g7qFquYrDQZEr9%2BKSFncJQFz%2FAFxZ%2F6cyFjhM3wlhijKMHbMmEP0NKw2Z&X-Amz-Signature=3c25f81d370a52cadcafb433658ee13d6297ae0eca5a1bb375756bb18d3b818a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-Facturation-factures-et-proforma-d-ch-ances-multipes-probl-mes-3288db15623a80989620f6c98afd1347"
     },
@@ -4970,7 +4970,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-160.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S4773V7L%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T135145Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjED0aCXVzLXdlc3QtMiJIMEYCIQCwtWYxLLWXVbpYausgxwkBYRaeDrVR3XsFIrzoFFHjrgIhAKVVXNthUK4l2yS7NgqOft0b6rxkHFpL4O3sXvSwUmUPKv8DCAYQABoMNjM3NDIzMTgzODA1IgxfJ1ZvFHNYGXInypMq3AOkP784cJ%2BcjSQS04zutSFJFPt0IkU%2FmbwuAbQyS2PNDf6d2F2QRx1eMDSVXgg1MJpyHVNjyCIqGnCb3f%2B9u11r9XcaZWSZsEfs7h7R7W4stPPL%2FecmilukmtbuHC%2BltmUz4h5mPoG1G%2BC3fmYOUV%2FMahWyJcjem%2BBFN5bSyUyFsFRKv8JcGkAUjjdrz3UjidIGNDyXQOhSHlIIuFnU4McD8nwFFAMfGmdB8C7JSnhvokr%2BYZGxE0wN%2B3WcbmszJyBgykUM%2FsVvtOy%2BzpZigD78rh2tSTDp1uDZJYi9r6MBUFQaL2crWt4s4jTAy%2BxxzSKGiHE0tjo%2BU5mcs5iyR4Uk9sQsKqY1Z7xjadKNjMjiuxU5iICgm%2FRhGaa4SJ%2FjF4A7NOcNvPR4SHlo4bk8ZUAxGwWTtrWwYn8B4pbqPE1%2BrTnenyf33lndfkJJxZ%2FF9CmrMJ%2FbKIlwUcXrgX1FZP1gcIdsqRfDOvGNZZ%2FgGI5cPPEp%2F0IyPup6BD83qChVTCEszhZHWjmV7MabCU57s9tMttC1paoLq8JDswbMeN2gOziWz1uUC13TaGu9DwwSqe8SJClwcrRQm0%2B0W%2FPqmdrXpRASYkx3cNx2Kuq8gCxgHpz5K9gI%2BI2RgqSVuzD7g7zQBjqkAR9GhWsH1qwIIl%2BixDH0ZbqKyAa%2FCmSdUhLlMyx1oilHggZA8UpYJmAGzb%2FopfAKXaaqx5I8yflSFa2yQTTpAbjYawXD74SVPjmV92Df7HPUvEOzj7HTi%2BMJxZ2PAwwk%2B86C9YkvtGK6IoAE3mJxbBJPRRQ7qKP1t4yjsMZUyM164xMw6SL86pLjRPi%2BVcepnv5DtsMwl9TkZrBcXbi6UMQP%2BTYZ&X-Amz-Signature=54f25e31201e628d2c2ad8dcf051f5d082b061d50ea47e3531a3857db98af538&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WZC2S37N%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T163157Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEAaCXVzLXdlc3QtMiJHMEUCIQDigRBdJXbH9i%2F73%2BN8e2Xl0OMWLZ8eCnah4uN58sbX4gIgPZpjsjVGxKuE54eVqYprU4LyMqJWJLQB7sQcasqMabYq%2FwMICRAAGgw2Mzc0MjMxODM4MDUiDPKOgAZDAlrZ1RR9UCrcA2C6Ixn8laZU9aNHPntjDQkuCayO1qcRNMg4GhtEwMRXWkpgPWuxkZWupsBEsNj3kyWZ9K0vLVNcVWzZON22SdLBRJ3FHsD5Ww3jvEleCX1bFfKcoMRhIxWORnDMGZMULjCc3HQsNylMB%2Bixpw%2FlZSNTinCx6rs05CPgthjb17H1Rn4qFvOxRbz8801QcmH1MTkzKOX5duyWs%2FK%2FyQZsRRmb5C6QW4zbHSev7TfUgIa57PzoR%2F7zmTHjjTCl8TxS1rKBbbEGdmXXG0Xgm6ZTG4jFbc2DOBtcOpFww6ROYnshxZgfEZkYcz%2F2rfisg4bRzfq6SikS%2BHoeL%2BhWyJXt6a1SSozXgkmhsfqELOBM6QEKAyUiGNYUt7Bel%2FfjIrRv78Yynfn2kGWEBYGQdirK3%2BzbDuAFgxtDCRGlfDXo6GHNlpkcN2SDcjCCkwfDW3%2B5hgAONdh%2BDAIHYBI41CtVQGjHVeGT8B1UEwrEg7r1SoKcmERLwoJhOkySoi6LmsFXPkuKpv6f1N7ltnk0%2F8HILxRwxEg8%2F2iUupLWt7crIfdgLk2TvGheLtRkX1EKkw1H3p1OfW93j6scxpW9MqYq5ZjrxQgEWesY4sxkBBQf21cj%2Fq8qx2Oz2iq1bxoXMI%2FfvNAGOqUBa%2FFzwh67LL8jkW2L5uFUDrH3raQa9vieAN%2FB4ZeD%2BGrGt76BhNo3Da0UPqVaslFv1yh13wFltIJGVB6qw%2F0G6CVCXMJrmz%2F7t7dB9JITOuBAaoqyWhiy1sVtTqeIPZ%2F1Dy48Z3auxMzbb%2FaP3Gte%2FYFgfR4VhMA7fH4g7qFquYrDQZEr9%2BKSFncJQFz%2FAFxZ%2F6cyFjhM3wlhijKMHbMmEP0NKw2Z&X-Amz-Signature=1b14f9e55ba0fdccd6f444100184c649c27f75fe2e309f46241d5483a6021f03&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Apparition-d-un-message-sur-le-traitement-des-r-sas-issues-de-l-espace-client-31e8db15623a806896d5f5a1ed131200"
     },
@@ -5109,7 +5109,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "synthese_espaceclient (1).xlsx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S4773V7L%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T135145Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjED0aCXVzLXdlc3QtMiJIMEYCIQCwtWYxLLWXVbpYausgxwkBYRaeDrVR3XsFIrzoFFHjrgIhAKVVXNthUK4l2yS7NgqOft0b6rxkHFpL4O3sXvSwUmUPKv8DCAYQABoMNjM3NDIzMTgzODA1IgxfJ1ZvFHNYGXInypMq3AOkP784cJ%2BcjSQS04zutSFJFPt0IkU%2FmbwuAbQyS2PNDf6d2F2QRx1eMDSVXgg1MJpyHVNjyCIqGnCb3f%2B9u11r9XcaZWSZsEfs7h7R7W4stPPL%2FecmilukmtbuHC%2BltmUz4h5mPoG1G%2BC3fmYOUV%2FMahWyJcjem%2BBFN5bSyUyFsFRKv8JcGkAUjjdrz3UjidIGNDyXQOhSHlIIuFnU4McD8nwFFAMfGmdB8C7JSnhvokr%2BYZGxE0wN%2B3WcbmszJyBgykUM%2FsVvtOy%2BzpZigD78rh2tSTDp1uDZJYi9r6MBUFQaL2crWt4s4jTAy%2BxxzSKGiHE0tjo%2BU5mcs5iyR4Uk9sQsKqY1Z7xjadKNjMjiuxU5iICgm%2FRhGaa4SJ%2FjF4A7NOcNvPR4SHlo4bk8ZUAxGwWTtrWwYn8B4pbqPE1%2BrTnenyf33lndfkJJxZ%2FF9CmrMJ%2FbKIlwUcXrgX1FZP1gcIdsqRfDOvGNZZ%2FgGI5cPPEp%2F0IyPup6BD83qChVTCEszhZHWjmV7MabCU57s9tMttC1paoLq8JDswbMeN2gOziWz1uUC13TaGu9DwwSqe8SJClwcrRQm0%2B0W%2FPqmdrXpRASYkx3cNx2Kuq8gCxgHpz5K9gI%2BI2RgqSVuzD7g7zQBjqkAR9GhWsH1qwIIl%2BixDH0ZbqKyAa%2FCmSdUhLlMyx1oilHggZA8UpYJmAGzb%2FopfAKXaaqx5I8yflSFa2yQTTpAbjYawXD74SVPjmV92Df7HPUvEOzj7HTi%2BMJxZ2PAwwk%2B86C9YkvtGK6IoAE3mJxbBJPRRQ7qKP1t4yjsMZUyM164xMw6SL86pLjRPi%2BVcepnv5DtsMwl9TkZrBcXbi6UMQP%2BTYZ&X-Amz-Signature=9f0265683ff26627996a6fd9fddb2be87a840afe6c911e967b8ed069c63291f4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WZC2S37N%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T163157Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEAaCXVzLXdlc3QtMiJHMEUCIQDigRBdJXbH9i%2F73%2BN8e2Xl0OMWLZ8eCnah4uN58sbX4gIgPZpjsjVGxKuE54eVqYprU4LyMqJWJLQB7sQcasqMabYq%2FwMICRAAGgw2Mzc0MjMxODM4MDUiDPKOgAZDAlrZ1RR9UCrcA2C6Ixn8laZU9aNHPntjDQkuCayO1qcRNMg4GhtEwMRXWkpgPWuxkZWupsBEsNj3kyWZ9K0vLVNcVWzZON22SdLBRJ3FHsD5Ww3jvEleCX1bFfKcoMRhIxWORnDMGZMULjCc3HQsNylMB%2Bixpw%2FlZSNTinCx6rs05CPgthjb17H1Rn4qFvOxRbz8801QcmH1MTkzKOX5duyWs%2FK%2FyQZsRRmb5C6QW4zbHSev7TfUgIa57PzoR%2F7zmTHjjTCl8TxS1rKBbbEGdmXXG0Xgm6ZTG4jFbc2DOBtcOpFww6ROYnshxZgfEZkYcz%2F2rfisg4bRzfq6SikS%2BHoeL%2BhWyJXt6a1SSozXgkmhsfqELOBM6QEKAyUiGNYUt7Bel%2FfjIrRv78Yynfn2kGWEBYGQdirK3%2BzbDuAFgxtDCRGlfDXo6GHNlpkcN2SDcjCCkwfDW3%2B5hgAONdh%2BDAIHYBI41CtVQGjHVeGT8B1UEwrEg7r1SoKcmERLwoJhOkySoi6LmsFXPkuKpv6f1N7ltnk0%2F8HILxRwxEg8%2F2iUupLWt7crIfdgLk2TvGheLtRkX1EKkw1H3p1OfW93j6scxpW9MqYq5ZjrxQgEWesY4sxkBBQf21cj%2Fq8qx2Oz2iq1bxoXMI%2FfvNAGOqUBa%2FFzwh67LL8jkW2L5uFUDrH3raQa9vieAN%2FB4ZeD%2BGrGt76BhNo3Da0UPqVaslFv1yh13wFltIJGVB6qw%2F0G6CVCXMJrmz%2F7t7dB9JITOuBAaoqyWhiy1sVtTqeIPZ%2F1Dy48Z3auxMzbb%2FaP3Gte%2FYFgfR4VhMA7fH4g7qFquYrDQZEr9%2BKSFncJQFz%2FAFxZ%2F6cyFjhM3wlhijKMHbMmEP0NKw2Z&X-Amz-Signature=5f989789987e8bb120ff1560ba4e36ea40e3c96a17d5b20caca2aa1a97a08446&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-G-rer-l-arr-t-de-l-espace-client-V1-31a8db15623a800d915eea7ee689e4da"
     },
@@ -5328,7 +5328,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-148.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S4773V7L%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T135145Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjED0aCXVzLXdlc3QtMiJIMEYCIQCwtWYxLLWXVbpYausgxwkBYRaeDrVR3XsFIrzoFFHjrgIhAKVVXNthUK4l2yS7NgqOft0b6rxkHFpL4O3sXvSwUmUPKv8DCAYQABoMNjM3NDIzMTgzODA1IgxfJ1ZvFHNYGXInypMq3AOkP784cJ%2BcjSQS04zutSFJFPt0IkU%2FmbwuAbQyS2PNDf6d2F2QRx1eMDSVXgg1MJpyHVNjyCIqGnCb3f%2B9u11r9XcaZWSZsEfs7h7R7W4stPPL%2FecmilukmtbuHC%2BltmUz4h5mPoG1G%2BC3fmYOUV%2FMahWyJcjem%2BBFN5bSyUyFsFRKv8JcGkAUjjdrz3UjidIGNDyXQOhSHlIIuFnU4McD8nwFFAMfGmdB8C7JSnhvokr%2BYZGxE0wN%2B3WcbmszJyBgykUM%2FsVvtOy%2BzpZigD78rh2tSTDp1uDZJYi9r6MBUFQaL2crWt4s4jTAy%2BxxzSKGiHE0tjo%2BU5mcs5iyR4Uk9sQsKqY1Z7xjadKNjMjiuxU5iICgm%2FRhGaa4SJ%2FjF4A7NOcNvPR4SHlo4bk8ZUAxGwWTtrWwYn8B4pbqPE1%2BrTnenyf33lndfkJJxZ%2FF9CmrMJ%2FbKIlwUcXrgX1FZP1gcIdsqRfDOvGNZZ%2FgGI5cPPEp%2F0IyPup6BD83qChVTCEszhZHWjmV7MabCU57s9tMttC1paoLq8JDswbMeN2gOziWz1uUC13TaGu9DwwSqe8SJClwcrRQm0%2B0W%2FPqmdrXpRASYkx3cNx2Kuq8gCxgHpz5K9gI%2BI2RgqSVuzD7g7zQBjqkAR9GhWsH1qwIIl%2BixDH0ZbqKyAa%2FCmSdUhLlMyx1oilHggZA8UpYJmAGzb%2FopfAKXaaqx5I8yflSFa2yQTTpAbjYawXD74SVPjmV92Df7HPUvEOzj7HTi%2BMJxZ2PAwwk%2B86C9YkvtGK6IoAE3mJxbBJPRRQ7qKP1t4yjsMZUyM164xMw6SL86pLjRPi%2BVcepnv5DtsMwl9TkZrBcXbi6UMQP%2BTYZ&X-Amz-Signature=855dd996d011013c9d09988488e699a12439cd798987ba6f4d77b58f8bc67fb3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WZC2S37N%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T163157Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEAaCXVzLXdlc3QtMiJHMEUCIQDigRBdJXbH9i%2F73%2BN8e2Xl0OMWLZ8eCnah4uN58sbX4gIgPZpjsjVGxKuE54eVqYprU4LyMqJWJLQB7sQcasqMabYq%2FwMICRAAGgw2Mzc0MjMxODM4MDUiDPKOgAZDAlrZ1RR9UCrcA2C6Ixn8laZU9aNHPntjDQkuCayO1qcRNMg4GhtEwMRXWkpgPWuxkZWupsBEsNj3kyWZ9K0vLVNcVWzZON22SdLBRJ3FHsD5Ww3jvEleCX1bFfKcoMRhIxWORnDMGZMULjCc3HQsNylMB%2Bixpw%2FlZSNTinCx6rs05CPgthjb17H1Rn4qFvOxRbz8801QcmH1MTkzKOX5duyWs%2FK%2FyQZsRRmb5C6QW4zbHSev7TfUgIa57PzoR%2F7zmTHjjTCl8TxS1rKBbbEGdmXXG0Xgm6ZTG4jFbc2DOBtcOpFww6ROYnshxZgfEZkYcz%2F2rfisg4bRzfq6SikS%2BHoeL%2BhWyJXt6a1SSozXgkmhsfqELOBM6QEKAyUiGNYUt7Bel%2FfjIrRv78Yynfn2kGWEBYGQdirK3%2BzbDuAFgxtDCRGlfDXo6GHNlpkcN2SDcjCCkwfDW3%2B5hgAONdh%2BDAIHYBI41CtVQGjHVeGT8B1UEwrEg7r1SoKcmERLwoJhOkySoi6LmsFXPkuKpv6f1N7ltnk0%2F8HILxRwxEg8%2F2iUupLWt7crIfdgLk2TvGheLtRkX1EKkw1H3p1OfW93j6scxpW9MqYq5ZjrxQgEWesY4sxkBBQf21cj%2Fq8qx2Oz2iq1bxoXMI%2FfvNAGOqUBa%2FFzwh67LL8jkW2L5uFUDrH3raQa9vieAN%2FB4ZeD%2BGrGt76BhNo3Da0UPqVaslFv1yh13wFltIJGVB6qw%2F0G6CVCXMJrmz%2F7t7dB9JITOuBAaoqyWhiy1sVtTqeIPZ%2F1Dy48Z3auxMzbb%2FaP3Gte%2FYFgfR4VhMA7fH4g7qFquYrDQZEr9%2BKSFncJQFz%2FAFxZ%2F6cyFjhM3wlhijKMHbMmEP0NKw2Z&X-Amz-Signature=a6215de2d7275f348a8b444f4d00b5fed5b1da3dc4e374c2102a8a1946319874&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/REDSYS-Non-fonctionnel-suite-mise-en-place-3178db15623a80458d0de93a71d0564f"
     },
@@ -5363,7 +5363,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-147.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S4773V7L%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T135145Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjED0aCXVzLXdlc3QtMiJIMEYCIQCwtWYxLLWXVbpYausgxwkBYRaeDrVR3XsFIrzoFFHjrgIhAKVVXNthUK4l2yS7NgqOft0b6rxkHFpL4O3sXvSwUmUPKv8DCAYQABoMNjM3NDIzMTgzODA1IgxfJ1ZvFHNYGXInypMq3AOkP784cJ%2BcjSQS04zutSFJFPt0IkU%2FmbwuAbQyS2PNDf6d2F2QRx1eMDSVXgg1MJpyHVNjyCIqGnCb3f%2B9u11r9XcaZWSZsEfs7h7R7W4stPPL%2FecmilukmtbuHC%2BltmUz4h5mPoG1G%2BC3fmYOUV%2FMahWyJcjem%2BBFN5bSyUyFsFRKv8JcGkAUjjdrz3UjidIGNDyXQOhSHlIIuFnU4McD8nwFFAMfGmdB8C7JSnhvokr%2BYZGxE0wN%2B3WcbmszJyBgykUM%2FsVvtOy%2BzpZigD78rh2tSTDp1uDZJYi9r6MBUFQaL2crWt4s4jTAy%2BxxzSKGiHE0tjo%2BU5mcs5iyR4Uk9sQsKqY1Z7xjadKNjMjiuxU5iICgm%2FRhGaa4SJ%2FjF4A7NOcNvPR4SHlo4bk8ZUAxGwWTtrWwYn8B4pbqPE1%2BrTnenyf33lndfkJJxZ%2FF9CmrMJ%2FbKIlwUcXrgX1FZP1gcIdsqRfDOvGNZZ%2FgGI5cPPEp%2F0IyPup6BD83qChVTCEszhZHWjmV7MabCU57s9tMttC1paoLq8JDswbMeN2gOziWz1uUC13TaGu9DwwSqe8SJClwcrRQm0%2B0W%2FPqmdrXpRASYkx3cNx2Kuq8gCxgHpz5K9gI%2BI2RgqSVuzD7g7zQBjqkAR9GhWsH1qwIIl%2BixDH0ZbqKyAa%2FCmSdUhLlMyx1oilHggZA8UpYJmAGzb%2FopfAKXaaqx5I8yflSFa2yQTTpAbjYawXD74SVPjmV92Df7HPUvEOzj7HTi%2BMJxZ2PAwwk%2B86C9YkvtGK6IoAE3mJxbBJPRRQ7qKP1t4yjsMZUyM164xMw6SL86pLjRPi%2BVcepnv5DtsMwl9TkZrBcXbi6UMQP%2BTYZ&X-Amz-Signature=5dd829d19caf1bac7e294a4ad14e5c2b98c1bd13be514e64dedd50d726f2690e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WZC2S37N%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T163157Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEAaCXVzLXdlc3QtMiJHMEUCIQDigRBdJXbH9i%2F73%2BN8e2Xl0OMWLZ8eCnah4uN58sbX4gIgPZpjsjVGxKuE54eVqYprU4LyMqJWJLQB7sQcasqMabYq%2FwMICRAAGgw2Mzc0MjMxODM4MDUiDPKOgAZDAlrZ1RR9UCrcA2C6Ixn8laZU9aNHPntjDQkuCayO1qcRNMg4GhtEwMRXWkpgPWuxkZWupsBEsNj3kyWZ9K0vLVNcVWzZON22SdLBRJ3FHsD5Ww3jvEleCX1bFfKcoMRhIxWORnDMGZMULjCc3HQsNylMB%2Bixpw%2FlZSNTinCx6rs05CPgthjb17H1Rn4qFvOxRbz8801QcmH1MTkzKOX5duyWs%2FK%2FyQZsRRmb5C6QW4zbHSev7TfUgIa57PzoR%2F7zmTHjjTCl8TxS1rKBbbEGdmXXG0Xgm6ZTG4jFbc2DOBtcOpFww6ROYnshxZgfEZkYcz%2F2rfisg4bRzfq6SikS%2BHoeL%2BhWyJXt6a1SSozXgkmhsfqELOBM6QEKAyUiGNYUt7Bel%2FfjIrRv78Yynfn2kGWEBYGQdirK3%2BzbDuAFgxtDCRGlfDXo6GHNlpkcN2SDcjCCkwfDW3%2B5hgAONdh%2BDAIHYBI41CtVQGjHVeGT8B1UEwrEg7r1SoKcmERLwoJhOkySoi6LmsFXPkuKpv6f1N7ltnk0%2F8HILxRwxEg8%2F2iUupLWt7crIfdgLk2TvGheLtRkX1EKkw1H3p1OfW93j6scxpW9MqYq5ZjrxQgEWesY4sxkBBQf21cj%2Fq8qx2Oz2iq1bxoXMI%2FfvNAGOqUBa%2FFzwh67LL8jkW2L5uFUDrH3raQa9vieAN%2FB4ZeD%2BGrGt76BhNo3Da0UPqVaslFv1yh13wFltIJGVB6qw%2F0G6CVCXMJrmz%2F7t7dB9JITOuBAaoqyWhiy1sVtTqeIPZ%2F1Dy48Z3auxMzbb%2FaP3Gte%2FYFgfR4VhMA7fH4g7qFquYrDQZEr9%2BKSFncJQFz%2FAFxZ%2F6cyFjhM3wlhijKMHbMmEP0NKw2Z&X-Amz-Signature=976218de46aed2094a724edf17f849b5bb4eea495418a279d68fbb4779f5d034&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-CRM-Le-montant-des-suppl-ments-envoy-s-est-faux-lorsque-le-suppl-ment-est-en-prix-mo-3178db15623a8017a10ff4b9821287fa"
     },
@@ -5441,7 +5441,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-145.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S4773V7L%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T135145Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjED0aCXVzLXdlc3QtMiJIMEYCIQCwtWYxLLWXVbpYausgxwkBYRaeDrVR3XsFIrzoFFHjrgIhAKVVXNthUK4l2yS7NgqOft0b6rxkHFpL4O3sXvSwUmUPKv8DCAYQABoMNjM3NDIzMTgzODA1IgxfJ1ZvFHNYGXInypMq3AOkP784cJ%2BcjSQS04zutSFJFPt0IkU%2FmbwuAbQyS2PNDf6d2F2QRx1eMDSVXgg1MJpyHVNjyCIqGnCb3f%2B9u11r9XcaZWSZsEfs7h7R7W4stPPL%2FecmilukmtbuHC%2BltmUz4h5mPoG1G%2BC3fmYOUV%2FMahWyJcjem%2BBFN5bSyUyFsFRKv8JcGkAUjjdrz3UjidIGNDyXQOhSHlIIuFnU4McD8nwFFAMfGmdB8C7JSnhvokr%2BYZGxE0wN%2B3WcbmszJyBgykUM%2FsVvtOy%2BzpZigD78rh2tSTDp1uDZJYi9r6MBUFQaL2crWt4s4jTAy%2BxxzSKGiHE0tjo%2BU5mcs5iyR4Uk9sQsKqY1Z7xjadKNjMjiuxU5iICgm%2FRhGaa4SJ%2FjF4A7NOcNvPR4SHlo4bk8ZUAxGwWTtrWwYn8B4pbqPE1%2BrTnenyf33lndfkJJxZ%2FF9CmrMJ%2FbKIlwUcXrgX1FZP1gcIdsqRfDOvGNZZ%2FgGI5cPPEp%2F0IyPup6BD83qChVTCEszhZHWjmV7MabCU57s9tMttC1paoLq8JDswbMeN2gOziWz1uUC13TaGu9DwwSqe8SJClwcrRQm0%2B0W%2FPqmdrXpRASYkx3cNx2Kuq8gCxgHpz5K9gI%2BI2RgqSVuzD7g7zQBjqkAR9GhWsH1qwIIl%2BixDH0ZbqKyAa%2FCmSdUhLlMyx1oilHggZA8UpYJmAGzb%2FopfAKXaaqx5I8yflSFa2yQTTpAbjYawXD74SVPjmV92Df7HPUvEOzj7HTi%2BMJxZ2PAwwk%2B86C9YkvtGK6IoAE3mJxbBJPRRQ7qKP1t4yjsMZUyM164xMw6SL86pLjRPi%2BVcepnv5DtsMwl9TkZrBcXbi6UMQP%2BTYZ&X-Amz-Signature=e1633616f37dbb7bc6a3f00b366e0c770860306b8292cbe3dc6acdb31fb213b8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WZC2S37N%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T163157Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEAaCXVzLXdlc3QtMiJHMEUCIQDigRBdJXbH9i%2F73%2BN8e2Xl0OMWLZ8eCnah4uN58sbX4gIgPZpjsjVGxKuE54eVqYprU4LyMqJWJLQB7sQcasqMabYq%2FwMICRAAGgw2Mzc0MjMxODM4MDUiDPKOgAZDAlrZ1RR9UCrcA2C6Ixn8laZU9aNHPntjDQkuCayO1qcRNMg4GhtEwMRXWkpgPWuxkZWupsBEsNj3kyWZ9K0vLVNcVWzZON22SdLBRJ3FHsD5Ww3jvEleCX1bFfKcoMRhIxWORnDMGZMULjCc3HQsNylMB%2Bixpw%2FlZSNTinCx6rs05CPgthjb17H1Rn4qFvOxRbz8801QcmH1MTkzKOX5duyWs%2FK%2FyQZsRRmb5C6QW4zbHSev7TfUgIa57PzoR%2F7zmTHjjTCl8TxS1rKBbbEGdmXXG0Xgm6ZTG4jFbc2DOBtcOpFww6ROYnshxZgfEZkYcz%2F2rfisg4bRzfq6SikS%2BHoeL%2BhWyJXt6a1SSozXgkmhsfqELOBM6QEKAyUiGNYUt7Bel%2FfjIrRv78Yynfn2kGWEBYGQdirK3%2BzbDuAFgxtDCRGlfDXo6GHNlpkcN2SDcjCCkwfDW3%2B5hgAONdh%2BDAIHYBI41CtVQGjHVeGT8B1UEwrEg7r1SoKcmERLwoJhOkySoi6LmsFXPkuKpv6f1N7ltnk0%2F8HILxRwxEg8%2F2iUupLWt7crIfdgLk2TvGheLtRkX1EKkw1H3p1OfW93j6scxpW9MqYq5ZjrxQgEWesY4sxkBBQf21cj%2Fq8qx2Oz2iq1bxoXMI%2FfvNAGOqUBa%2FFzwh67LL8jkW2L5uFUDrH3raQa9vieAN%2FB4ZeD%2BGrGt76BhNo3Da0UPqVaslFv1yh13wFltIJGVB6qw%2F0G6CVCXMJrmz%2F7t7dB9JITOuBAaoqyWhiy1sVtTqeIPZ%2F1Dy48Z3auxMzbb%2FaP3Gte%2FYFgfR4VhMA7fH4g7qFquYrDQZEr9%2BKSFncJQFz%2FAFxZ%2F6cyFjhM3wlhijKMHbMmEP0NKw2Z&X-Amz-Signature=f8afb1344ddcea30668174537eec391f6f3cd63aee9c4470d82245b5bf49a24f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Erreur-de-saisie-sur-les-remises-manuelle-g-n-rant-un-montant-de-s-jour-faux-3178db15623a8079a34be124df5b756a"
     },
@@ -6973,7 +6973,7 @@
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
       ],
-      "client": "Amis de la Nature (Constaté le 20.05.2026)\nHaie Penée (Constaté le 21.05.2026)",
+      "client": "Amis de la Nature (Constaté le 20.05.2026)\nHaie Penée (Constaté le 21.05.2026)\nIKL (Constaté le 21.05.2026)",
       "dateCreation": "2026-02-24T19:05:00.000Z",
       "estimBack": 0,
       "estimFront": 0,
@@ -7277,7 +7277,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA77.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SOSREDO2%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T135145Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjED0aCXVzLXdlc3QtMiJHMEUCIQDWixUb2gkXJTYT8MNcJYvUKy1fKXr5Cz%2Bei%2BPRofC%2FkwIgJas1uk9XMMC3Jmy8urB9%2FWjOSlZfaOA3cp9I%2BSB9Ek8q%2FwMIBhAAGgw2Mzc0MjMxODM4MDUiDNO8PMBubtd1yTAzWircA3LemUOj6HiyX8apb8B6X1k9mdyvMSph3gpBDfviiKszstOm9iZNd9kuFuZsOodxmyVIdfVIC62n3JbKCPUeHxjCsoQyrGYd6wsDMDiwN%2BC28%2FN3oq33xbgNrXuRA3vsOJ1tmsD6%2BVWdMjloPMJKkoGFcIMXUWcVATExBDDNEyhBn5pD3g2NzHMVhLOFzNJobnmIXUrA%2B%2FD49VdxbfBP8kyzZc3buk9Uyy1ODhwzjEAwVWZ%2Bi6yu%2BoseLkl0ccUNtA0mxKCDDSaAWpxEJQKMwaOpcIlqFx9FM2oYv%2BixDz8LkTHSoIEWd0frr6inkaTeTdqEKN1O1%2BWDazdeI1xWKaWJiKm1g8AlEHJ2KrhtC5DW76w4m7uJOcsWSeYccL%2BtszWx6p63uG9Y2rvmOUbfElkNDS8bh8PeLaMpcO62a8fSXPrMTG6%2BHb9TO918N3db6XxbnlHfJSwWnoZaJ5SlOSCypz9QNTt4HWYUeZwdNoL3q9xVsZXFobPBIl7PUAGz8h8EasU98wYWCsCkcUcKG156203Bp4hMLbsT6m%2BPKaj5%2FFmK2Jx%2FxJI1kAzfbmBd1%2FNXBBKfM9r3xNSuuZ8mSf7qgz8Yh32v4FqaOZn9nd0u1BjaBiigSH2B0sfaMKiEvNAGOqUB1oYKbwzROzqJe8hZysJ%2Fag%2FuyyGQit5AA20FomhDgrm4%2BRaOGkxoEBZi59Q26mJs0lbb99wO8wa1n0pKGNlsjODKIPEt%2BX9ZOpKZSoRjFFjp1%2FotgkRGm5ElSERSx8WrlyF%2F2n2SH0S1LpIzf14rVJJZ1Xw5niIxKSkJDDvwXWnPA1QVrbWE5Lebj7xDO6qvUtmqaiXCsk25GJHVysLT9wbLr7Zg&X-Amz-Signature=6b0a3be7cabe67843c0f3bdf441ab200dee538c82d9c9e7779afe66e68d94cbf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662IZVJR5X%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T163157Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEAaCXVzLXdlc3QtMiJIMEYCIQD%2B9q%2F4ZhcAGfcufo4R4HP28sE4RpacZ3ohJOSiwZLCiAIhAM8xeQg5IOzCq9Nd60tYr%2BVlsrcY3%2FKipBJtoMZe%2BFk1Kv8DCAkQABoMNjM3NDIzMTgzODA1IgxahFkzz5r3pKokVCAq3AMu8fnmFXw0g7iaiZm8AWgDUgaovSoE2gjGLAhxn%2FkvMtXSIdWdMmwNox8IjTh3AFcQnUShPQ2%2B7tBNcb2NuVh3TFXb2bBecvdrhnLT8A5V55%2FFaZeLQEw5OjZLaZWGVo7EOWRkvb%2Fbm5caoICCMNEEc1IZqdOAImkCHaeBEJub69ZlWRdMa82fYf8h%2BOrTKZTBxqArXuV84oi3Ugwz%2F3GV6M2qZMJPrH1%2B0P23fpnAPEsqduWI06kEUlQE9JIg6O3SIAXp8e9jAtsKahPVC4Pvdl9WL%2Bh%2BK92HovB5bvLsDs%2FsJNC3vCRJLSiCFoACcKjfFY2AxJDtoq%2FH42vtJ6qGN2yY5THD0SG0N8ZdYo1V61PLGDsG%2FC4ITPtUbNUMXEKgn3ZFDcFNe0fCO7jLUYbhINFYSx3cjyi0CPsI6cjhiSYG%2B05zgR3onUng6SeAwJ9ef%2FlUgk3%2BqMRstFwpl2UtDP8%2BUIAKs230Em7PRIt5NeaLzAxzwuh8f3w6u96E7wLSy6zUdxROS56dQvozAXi7mIlTw3F20Y0X9Ab9zwHpY4Zflzkqd5Hzt5njUO4oakWgoWfrJAk8IvDiGXxLwGjQ5ECs%2BDzbU1oMHGJpP1zH96yHMtl4kt%2Bp66ky9TCe37zQBjqkAdQ4ayJIpx1VNVpsnXlMUYaRbdfSCwBbqco7AF4vLt%2B1PJNvnWDrdDZ5hEqc7DQAdt%2FmpP56BTm52LnKiqsMjYT4QdoegIowN%2FF6f%2FojEWxSUi6IwmyXWkHuDEj1EuzWZ96Hvi7aLjGnWROWidipLElTDga5tGiox2Dqffto484q9gj5EZbBkFPzQQ1voPX7XkNPFa3reimEcHuLcCPxNz4O3xdd&X-Amz-Signature=b60805635d98e6377f4a5541012451706d47120f7907214d878e3eeea97084c2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/WEB-LOGICIEL-Check-In-Scan-partie-1-Mapping-envoi-Naxi-G-vers-CiS-3118db15623a81c78ca4f07fb87f2047"
     },
@@ -8655,7 +8655,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "FicheCom_INA29.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SOSREDO2%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T135146Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjED0aCXVzLXdlc3QtMiJHMEUCIQDWixUb2gkXJTYT8MNcJYvUKy1fKXr5Cz%2Bei%2BPRofC%2FkwIgJas1uk9XMMC3Jmy8urB9%2FWjOSlZfaOA3cp9I%2BSB9Ek8q%2FwMIBhAAGgw2Mzc0MjMxODM4MDUiDNO8PMBubtd1yTAzWircA3LemUOj6HiyX8apb8B6X1k9mdyvMSph3gpBDfviiKszstOm9iZNd9kuFuZsOodxmyVIdfVIC62n3JbKCPUeHxjCsoQyrGYd6wsDMDiwN%2BC28%2FN3oq33xbgNrXuRA3vsOJ1tmsD6%2BVWdMjloPMJKkoGFcIMXUWcVATExBDDNEyhBn5pD3g2NzHMVhLOFzNJobnmIXUrA%2B%2FD49VdxbfBP8kyzZc3buk9Uyy1ODhwzjEAwVWZ%2Bi6yu%2BoseLkl0ccUNtA0mxKCDDSaAWpxEJQKMwaOpcIlqFx9FM2oYv%2BixDz8LkTHSoIEWd0frr6inkaTeTdqEKN1O1%2BWDazdeI1xWKaWJiKm1g8AlEHJ2KrhtC5DW76w4m7uJOcsWSeYccL%2BtszWx6p63uG9Y2rvmOUbfElkNDS8bh8PeLaMpcO62a8fSXPrMTG6%2BHb9TO918N3db6XxbnlHfJSwWnoZaJ5SlOSCypz9QNTt4HWYUeZwdNoL3q9xVsZXFobPBIl7PUAGz8h8EasU98wYWCsCkcUcKG156203Bp4hMLbsT6m%2BPKaj5%2FFmK2Jx%2FxJI1kAzfbmBd1%2FNXBBKfM9r3xNSuuZ8mSf7qgz8Yh32v4FqaOZn9nd0u1BjaBiigSH2B0sfaMKiEvNAGOqUB1oYKbwzROzqJe8hZysJ%2Fag%2FuyyGQit5AA20FomhDgrm4%2BRaOGkxoEBZi59Q26mJs0lbb99wO8wa1n0pKGNlsjODKIPEt%2BX9ZOpKZSoRjFFjp1%2FotgkRGm5ElSERSx8WrlyF%2F2n2SH0S1LpIzf14rVJJZ1Xw5niIxKSkJDDvwXWnPA1QVrbWE5Lebj7xDO6qvUtmqaiXCsk25GJHVysLT9wbLr7Zg&X-Amz-Signature=2c5ac6bec81639182f6ab837f13a51483d5e5ae5deb8235043692efb65f7e3e9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662IZVJR5X%2F20260521%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260521T163158Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEAaCXVzLXdlc3QtMiJIMEYCIQD%2B9q%2F4ZhcAGfcufo4R4HP28sE4RpacZ3ohJOSiwZLCiAIhAM8xeQg5IOzCq9Nd60tYr%2BVlsrcY3%2FKipBJtoMZe%2BFk1Kv8DCAkQABoMNjM3NDIzMTgzODA1IgxahFkzz5r3pKokVCAq3AMu8fnmFXw0g7iaiZm8AWgDUgaovSoE2gjGLAhxn%2FkvMtXSIdWdMmwNox8IjTh3AFcQnUShPQ2%2B7tBNcb2NuVh3TFXb2bBecvdrhnLT8A5V55%2FFaZeLQEw5OjZLaZWGVo7EOWRkvb%2Fbm5caoICCMNEEc1IZqdOAImkCHaeBEJub69ZlWRdMa82fYf8h%2BOrTKZTBxqArXuV84oi3Ugwz%2F3GV6M2qZMJPrH1%2B0P23fpnAPEsqduWI06kEUlQE9JIg6O3SIAXp8e9jAtsKahPVC4Pvdl9WL%2Bh%2BK92HovB5bvLsDs%2FsJNC3vCRJLSiCFoACcKjfFY2AxJDtoq%2FH42vtJ6qGN2yY5THD0SG0N8ZdYo1V61PLGDsG%2FC4ITPtUbNUMXEKgn3ZFDcFNe0fCO7jLUYbhINFYSx3cjyi0CPsI6cjhiSYG%2B05zgR3onUng6SeAwJ9ef%2FlUgk3%2BqMRstFwpl2UtDP8%2BUIAKs230Em7PRIt5NeaLzAxzwuh8f3w6u96E7wLSy6zUdxROS56dQvozAXi7mIlTw3F20Y0X9Ab9zwHpY4Zflzkqd5Hzt5njUO4oakWgoWfrJAk8IvDiGXxLwGjQ5ECs%2BDzbU1oMHGJpP1zH96yHMtl4kt%2Bp66ky9TCe37zQBjqkAdQ4ayJIpx1VNVpsnXlMUYaRbdfSCwBbqco7AF4vLt%2B1PJNvnWDrdDZ5hEqc7DQAdt%2FmpP56BTm52LnKiqsMjYT4QdoegIowN%2FF6f%2FojEWxSUi6IwmyXWkHuDEj1EuzWZ96Hvi7aLjGnWROWidipLElTDga5tGiox2Dqffto484q9gj5EZbBkFPzQQ1voPX7XkNPFa3reimEcHuLcCPxNz4O3xdd&X-Amz-Signature=6ea0b3c56bbf5d514ac1fbd6f0504600cc46e4ebf87ae0f2b94f5c85f1934328&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-NORME-V19-3118db15623a8078a611ffceac61cd6e"
     },
@@ -12200,7 +12200,7 @@
       },
       "avancement": {
         "maquette": 1,
-        "back": 0,
+        "back": 1,
         "front": 1,
         "design": 0.9,
         "test": 0
@@ -12214,7 +12214,7 @@
       },
       "temps": {
         "maquette": 10,
-        "back": 0,
+        "back": 3.142857142857143,
         "front": 7.142857142857143,
         "design": 4,
         "test": 0
@@ -12224,7 +12224,8 @@
         "Jérôme",
         "Ines",
         "Agathe (PO)",
-        "Cédric.V"
+        "Cédric.V",
+        "Loic"
       ],
       "lienMaquette": "https://hide-retina-26594246.figma.site",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-62",
@@ -13416,7 +13417,7 @@
     {
       "id": "3648db15-623a-8025-a096-fbd480d7b215",
       "saisie": "",
-      "semaine": "2026-03-16",
+      "semaine": "2026-03-30",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0.5,
@@ -13456,7 +13457,7 @@
     {
       "id": "3648db15-623a-810d-a076-efa319aed0ab",
       "saisie": "Listing séjours",
-      "semaine": "2026-03-02",
+      "semaine": "2026-03-16",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -13476,7 +13477,7 @@
     {
       "id": "3648db15-623a-8111-a7c1-f77eb1692e13",
       "saisie": "Historiques des ventes",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -13496,7 +13497,7 @@
     {
       "id": "3648db15-623a-8122-86ed-e96cc1e68cb1",
       "saisie": "Listing réservation",
-      "semaine": "2026-03-02",
+      "semaine": "2026-03-16",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -13576,7 +13577,7 @@
     {
       "id": "3648db15-623a-812d-b560-d5e3b1b7e90c",
       "saisie": "Planning - rech dispo",
-      "semaine": "2026-05-04",
+      "semaine": "2026-05-18",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -13856,7 +13857,7 @@
     {
       "id": "3648db15-623a-8160-98c6-c876ff87da6c",
       "saisie": "Recherche client",
-      "semaine": "2026-03-02",
+      "semaine": "2026-03-16",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -13876,7 +13877,7 @@
     {
       "id": "3648db15-623a-8169-96d5-f6815580672a",
       "saisie": "Page de connexion",
-      "semaine": "2026-03-02",
+      "semaine": "2026-03-16",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -13916,7 +13917,7 @@
     {
       "id": "3648db15-623a-8174-927d-cea96e0da3e3",
       "saisie": "Recherche dispo",
-      "semaine": "2026-03-02",
+      "semaine": "2026-03-16",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -13936,7 +13937,7 @@
     {
       "id": "3648db15-623a-8175-9969-c5106ccf1eb6",
       "saisie": "Télémaintenance",
-      "semaine": "2026-03-02",
+      "semaine": "2026-03-16",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -14076,7 +14077,7 @@
     {
       "id": "3648db15-623a-8181-a898-e3fccaf9ec1c",
       "saisie": "Planning sup. numéroté",
-      "semaine": "2026-05-04",
+      "semaine": "2026-05-18",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -14116,7 +14117,7 @@
     {
       "id": "3648db15-623a-818d-b56f-d1aef3c2751b",
       "saisie": "Listing occupation",
-      "semaine": "2026-03-02",
+      "semaine": "2026-03-16",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -14136,7 +14137,7 @@
     {
       "id": "3648db15-623a-818f-9456-d55fae458ea5",
       "saisie": "Liste des cautions",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -14176,7 +14177,7 @@
     {
       "id": "3648db15-623a-819c-b7bc-c9fcde7a65e7",
       "saisie": "Réservation a traiter",
-      "semaine": "2026-05-04",
+      "semaine": "2026-05-18",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -14216,7 +14217,7 @@
     {
       "id": "3648db15-623a-81b4-89ef-db4326c77525",
       "saisie": "Listing indispo",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -14256,7 +14257,7 @@
     {
       "id": "3648db15-623a-81b8-8497-d87c9b817bdf",
       "saisie": "détails des transactions",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -14276,7 +14277,7 @@
     {
       "id": "3648db15-623a-81b8-9d5f-e4511b2e33fa",
       "saisie": "Controle de Caisse",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -14296,7 +14297,7 @@
     {
       "id": "3648db15-623a-81c5-9519-fd7ae5d877cb",
       "saisie": "Remise en banque",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -14456,7 +14457,7 @@
     {
       "id": "3648db15-623a-81ef-b99f-d7cf0a82338f",
       "saisie": "Rech dispo plan camping",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -14516,7 +14517,7 @@
     {
       "id": "3648db15-623a-81fa-8b87-eac711ce346d",
       "saisie": "Ventes réception",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -14536,7 +14537,7 @@
     {
       "id": "3648db15-623a-81fd-afab-d1319ffa1bf2",
       "saisie": "Controle d’accès",
-      "semaine": "2026-03-02",
+      "semaine": "2026-03-16",
       "personne": null,
       "phase": "MAQUETTE",
       "avancement": 0,
@@ -14576,7 +14577,7 @@
     {
       "id": "35f8db15-623a-8103-8e7b-dcae557a2713",
       "saisie": "Cédric.V · Télémaintenance · DESIGN · S15",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": "Cédric.V",
       "phase": "DESIGN",
       "avancement": 1,
@@ -14596,7 +14597,7 @@
     {
       "id": "35f8db15-623a-8103-a842-cd8e287b440b",
       "saisie": "Albert · Remise en banque · MAQUETTE · S16",
-      "semaine": "2026-04-13",
+      "semaine": "2026-04-27",
       "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 0.7,
@@ -14616,7 +14617,7 @@
     {
       "id": "35f8db15-623a-8105-862a-d4c357df75b9",
       "saisie": "Cédric.V · Liste des cautions · DESIGN · S16",
-      "semaine": "2026-04-13",
+      "semaine": "2026-04-27",
       "personne": "Cédric.V",
       "phase": "DESIGN",
       "avancement": 0.45,
@@ -14636,7 +14637,7 @@
     {
       "id": "35f8db15-623a-8105-b307-c904ee306538",
       "saisie": "Cédric.F · Liste des cautions · BACK · S13",
-      "semaine": "2026-03-23",
+      "semaine": "2026-04-06",
       "personne": "Cédric.F",
       "phase": "BACK",
       "avancement": 0.52,
@@ -14656,7 +14657,7 @@
     {
       "id": "35f8db15-623a-8106-8a75-d9abadeb4a19",
       "saisie": "Loic · Listing réservation · BACK · S12",
-      "semaine": "2026-03-16",
+      "semaine": "2026-03-30",
       "personne": "Loic",
       "phase": "BACK",
       "avancement": 1,
@@ -14676,7 +14677,7 @@
     {
       "id": "35f8db15-623a-8106-b0c8-fc9d5e669ecc",
       "saisie": "Ines · Historiques des ventes · FRONT · S17",
-      "semaine": "2026-04-20",
+      "semaine": "2026-05-04",
       "personne": "Ines",
       "phase": "FRONT",
       "avancement": 1,
@@ -14696,7 +14697,7 @@
     {
       "id": "35f8db15-623a-8116-8233-d73e5d292e4a",
       "saisie": "Cédric.V · Listing réservation · DESIGN · S12",
-      "semaine": "2026-03-16",
+      "semaine": "2026-03-30",
       "personne": "Cédric.V",
       "phase": "DESIGN",
       "avancement": 0.9,
@@ -14716,7 +14717,7 @@
     {
       "id": "35f8db15-623a-8116-9102-fa622acb5494",
       "saisie": "Jérôme · Liste des cautions · MAQUETTE · S14",
-      "semaine": "2026-03-30",
+      "semaine": "2026-04-13",
       "personne": "Jérôme",
       "phase": "MAQUETTE",
       "avancement": 0.3,
@@ -14736,7 +14737,7 @@
     {
       "id": "35f8db15-623a-8116-b3af-c872673460e3",
       "saisie": "Albert · Télémaintenance · MAQUETTE · S14",
-      "semaine": "2026-03-30",
+      "semaine": "2026-04-13",
       "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 0.26,
@@ -14756,7 +14757,7 @@
     {
       "id": "35f8db15-623a-811a-837b-f48e53297889",
       "saisie": "Cédric.F · Historiques des ventes · BACK · S15",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": "Cédric.F",
       "phase": "BACK",
       "avancement": 0.46,
@@ -14776,7 +14777,7 @@
     {
       "id": "35f8db15-623a-8127-8811-e4e4a6914170",
       "saisie": "Loic · Liste des cautions · BACK · S16",
-      "semaine": "2026-04-13",
+      "semaine": "2026-04-27",
       "personne": "Loic",
       "phase": "BACK",
       "avancement": 1,
@@ -14796,7 +14797,7 @@
     {
       "id": "35f8db15-623a-812e-8a63-c2eff9251836",
       "saisie": "Albert · Listing indispo · MAQUETTE · S13",
-      "semaine": "2026-03-23",
+      "semaine": "2026-04-06",
       "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 0.1,
@@ -14816,7 +14817,7 @@
     {
       "id": "35f8db15-623a-812e-a54f-fcc38359cca9",
       "saisie": "Jérôme · Historiques des ventes · MAQUETTE · S16",
-      "semaine": "2026-04-13",
+      "semaine": "2026-04-27",
       "personne": "Jérôme",
       "phase": "MAQUETTE",
       "avancement": 0.3,
@@ -14836,7 +14837,7 @@
     {
       "id": "35f8db15-623a-8131-9c9b-ca80e3fa765b",
       "saisie": "Cédric.V · Remise en banque · DESIGN · S17",
-      "semaine": "2026-04-20",
+      "semaine": "2026-05-04",
       "personne": "Cédric.V",
       "phase": "DESIGN",
       "avancement": 0.7,
@@ -14856,7 +14857,7 @@
     {
       "id": "35f8db15-623a-8137-a8ac-f5df5bc506cf",
       "saisie": "Cédric.F · Remise en banque · BACK · S14",
-      "semaine": "2026-03-30",
+      "semaine": "2026-04-13",
       "personne": "Cédric.F",
       "phase": "BACK",
       "avancement": 1,
@@ -14876,7 +14877,7 @@
     {
       "id": "35f8db15-623a-813a-8f6c-cc464ef88274",
       "saisie": "Caroline · Page de connexion · FRONT · S11",
-      "semaine": "2026-03-09",
+      "semaine": "2026-03-23",
       "personne": "Caroline",
       "phase": "FRONT",
       "avancement": 0.25,
@@ -14896,7 +14897,7 @@
     {
       "id": "35f8db15-623a-813a-b529-d35f4fcd2e6d",
       "saisie": "Ines · Télémaintenance · FRONT · S14",
-      "semaine": "2026-03-30",
+      "semaine": "2026-04-13",
       "personne": "Ines",
       "phase": "FRONT",
       "avancement": 1,
@@ -14916,7 +14917,7 @@
     {
       "id": "35f8db15-623a-8141-bcbb-e187f7764d83",
       "saisie": "Ines · Listing séjours · FRONT · S12",
-      "semaine": "2026-03-16",
+      "semaine": "2026-03-30",
       "personne": "Ines",
       "phase": "FRONT",
       "avancement": 1,
@@ -14936,7 +14937,7 @@
     {
       "id": "35f8db15-623a-8149-acac-e8c67938a989",
       "saisie": "Caroline · Listing séjours · FRONT · S13",
-      "semaine": "2026-03-23",
+      "semaine": "2026-04-06",
       "personne": "Caroline",
       "phase": "FRONT",
       "avancement": 1,
@@ -14956,7 +14957,7 @@
     {
       "id": "35f8db15-623a-814a-b0b1-c455d305cd10",
       "saisie": "Cédric.F · Recherche client · BACK · S17",
-      "semaine": "2026-04-20",
+      "semaine": "2026-05-04",
       "personne": "Cédric.F",
       "phase": "BACK",
       "avancement": 1,
@@ -14976,7 +14977,7 @@
     {
       "id": "35f8db15-623a-814e-bb8b-ff701ce572e2",
       "saisie": "Albert · Recherche client · MAQUETTE · S19",
-      "semaine": "2026-05-04",
+      "semaine": "2026-05-18",
       "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 0.75,
@@ -14996,7 +14997,7 @@
     {
       "id": "35f8db15-623a-815d-80a4-ef238f19e14e",
       "saisie": "Sylvain · Remise en banque · FRONT · S15",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": "Sylvain",
       "phase": "FRONT",
       "avancement": 0.33,
@@ -15016,7 +15017,7 @@
     {
       "id": "35f8db15-623a-816d-894b-c939fcab2e19",
       "saisie": "Cédric.F · Listing indispo · BACK · S11",
-      "semaine": "2026-03-09",
+      "semaine": "2026-03-23",
       "personne": "Cédric.F",
       "phase": "BACK",
       "avancement": 0.45,
@@ -15036,7 +15037,7 @@
     {
       "id": "35f8db15-623a-816e-83b3-cd6f119bdc06",
       "saisie": "Cédric.F · Listing occupation · BACK · S16",
-      "semaine": "2026-04-13",
+      "semaine": "2026-04-27",
       "personne": "Cédric.F",
       "phase": "BACK",
       "avancement": 1,
@@ -15056,7 +15057,7 @@
     {
       "id": "35f8db15-623a-816e-8d80-d3ec51728109",
       "saisie": "Caroline · Listing occupation · FRONT · S19",
-      "semaine": "2026-05-04",
+      "semaine": "2026-05-18",
       "personne": "Caroline",
       "phase": "FRONT",
       "avancement": 0.8,
@@ -15076,7 +15077,7 @@
     {
       "id": "35f8db15-623a-816f-8ef7-cbba71b9566e",
       "saisie": "Jérôme · Listing occupation · MAQUETTE · S17",
-      "semaine": "2026-04-20",
+      "semaine": "2026-05-04",
       "personne": "Jérôme",
       "phase": "MAQUETTE",
       "avancement": 0.3,
@@ -15096,7 +15097,7 @@
     {
       "id": "35f8db15-623a-8170-8abc-dfd2ed7d53dd",
       "saisie": "Albert · Listing occupation · MAQUETTE · S18",
-      "semaine": "2026-04-27",
+      "semaine": "2026-05-11",
       "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 0.75,
@@ -15116,7 +15117,7 @@
     {
       "id": "35f8db15-623a-8170-a7ef-f0ad2dcaf17f",
       "saisie": "Denis · détails des transactions · BACK · S18",
-      "semaine": "2026-04-27",
+      "semaine": "2026-05-11",
       "personne": "Denis",
       "phase": "BACK",
       "avancement": 0.9,
@@ -15136,7 +15137,7 @@
     {
       "id": "35f8db15-623a-8172-b8e0-dd9e29ae9eb1",
       "saisie": "Agathe · Listing indispo · MAQUETTE · S14",
-      "semaine": "2026-03-30",
+      "semaine": "2026-04-13",
       "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 1,
@@ -15156,7 +15157,7 @@
     {
       "id": "35f8db15-623a-8172-bdc5-d369e9a56389",
       "saisie": "Loic · Page de connexion · BACK · S11",
-      "semaine": "2026-03-09",
+      "semaine": "2026-03-23",
       "personne": "Loic",
       "phase": "BACK",
       "avancement": 1,
@@ -15176,7 +15177,7 @@
     {
       "id": "35f8db15-623a-8175-935a-edbc63248230",
       "saisie": "Albert · Liste des cautions · MAQUETTE · S15",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 0.52,
@@ -15196,7 +15197,7 @@
     {
       "id": "35f8db15-623a-8179-88b4-f48f26ed4f1a",
       "saisie": "Ines · Remise en banque · FRONT · S16",
-      "semaine": "2026-04-13",
+      "semaine": "2026-04-27",
       "personne": "Ines",
       "phase": "FRONT",
       "avancement": 0.53,
@@ -15216,7 +15217,7 @@
     {
       "id": "35f8db15-623a-8179-8b7a-ddc292171f90",
       "saisie": "Cédric.V · Controle de Caisse · DESIGN · S19",
-      "semaine": "2026-05-04",
+      "semaine": "2026-05-18",
       "personne": "Cédric.V",
       "phase": "DESIGN",
       "avancement": 0.8,
@@ -15236,7 +15237,7 @@
     {
       "id": "35f8db15-623a-8183-8f4c-f3e522129a44",
       "saisie": "Caroline · Listing indispo · FRONT · S14",
-      "semaine": "2026-03-30",
+      "semaine": "2026-04-13",
       "personne": "Caroline",
       "phase": "FRONT",
       "avancement": 0.62,
@@ -15256,7 +15257,7 @@
     {
       "id": "35f8db15-623a-8185-8ead-dfc13a51ed9b",
       "saisie": "Loic · Listing séjours · BACK · S13",
-      "semaine": "2026-03-23",
+      "semaine": "2026-04-06",
       "personne": "Loic",
       "phase": "BACK",
       "avancement": 1,
@@ -15276,7 +15277,7 @@
     {
       "id": "35f8db15-623a-8185-9a24-f9013c385bd6",
       "saisie": "Cédric.V · Historiques des ventes · DESIGN · S18",
-      "semaine": "2026-04-27",
+      "semaine": "2026-05-11",
       "personne": "Cédric.V",
       "phase": "DESIGN",
       "avancement": 0.4,
@@ -15296,7 +15297,7 @@
     {
       "id": "35f8db15-623a-8189-a9b0-e45faed8e35f",
       "saisie": "Loic · Listing indispo · BACK · S14",
-      "semaine": "2026-03-30",
+      "semaine": "2026-04-13",
       "personne": "Loic",
       "phase": "BACK",
       "avancement": 0.9,
@@ -15316,7 +15317,7 @@
     {
       "id": "35f8db15-623a-8192-84a7-f9a0dedede9a",
       "saisie": "Sylvain · Liste des cautions · FRONT · S14",
-      "semaine": "2026-03-30",
+      "semaine": "2026-04-13",
       "personne": "Sylvain",
       "phase": "FRONT",
       "avancement": 0.2,
@@ -15336,7 +15337,7 @@
     {
       "id": "35f8db15-623a-81a2-84e7-ec10a8a77b52",
       "saisie": "Caroline · Listing réservation · FRONT · S12",
-      "semaine": "2026-03-16",
+      "semaine": "2026-03-30",
       "personne": "Caroline",
       "phase": "FRONT",
       "avancement": 0.8,
@@ -15356,7 +15357,7 @@
     {
       "id": "35f8db15-623a-81a2-a408-e768c504382c",
       "saisie": "Sylvain · Listing indispo · FRONT · S12",
-      "semaine": "2026-03-16",
+      "semaine": "2026-03-30",
       "personne": "Sylvain",
       "phase": "FRONT",
       "avancement": 1,
@@ -15376,7 +15377,7 @@
     {
       "id": "35f8db15-623a-81a6-ab94-c75595b8d674",
       "saisie": "Rachid · Remise en banque · BACK · S17",
-      "semaine": "2026-04-20",
+      "semaine": "2026-05-04",
       "personne": "Rachid",
       "phase": "BACK",
       "avancement": 0.15,
@@ -15396,7 +15397,7 @@
     {
       "id": "35f8db15-623a-81aa-a87f-dfe11d800dd2",
       "saisie": "Agathe · Listing occupation · MAQUETTE · S19",
-      "semaine": "2026-05-11",
+      "semaine": "2026-05-18",
       "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 0.95,
@@ -15416,7 +15417,7 @@
     {
       "id": "35f8db15-623a-81ab-9863-c5bd23e536e4",
       "saisie": "Loic · Télémaintenance · BACK · S15",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": "Loic",
       "phase": "BACK",
       "avancement": 0.49,
@@ -15436,7 +15437,7 @@
     {
       "id": "35f8db15-623a-81ad-8a9a-e9988204e358",
       "saisie": "Sylvain · Listing occupation · FRONT · S17",
-      "semaine": "2026-04-20",
+      "semaine": "2026-05-04",
       "personne": "Sylvain",
       "phase": "FRONT",
       "avancement": 0.91,
@@ -15456,7 +15457,7 @@
     {
       "id": "35f8db15-623a-81af-8745-e9e0b6b6f128",
       "saisie": "Caroline · Liste des cautions · FRONT · S16",
-      "semaine": "2026-04-13",
+      "semaine": "2026-04-27",
       "personne": "Caroline",
       "phase": "FRONT",
       "avancement": 0.64,
@@ -15476,7 +15477,7 @@
     {
       "id": "35f8db15-623a-81b2-8280-db885c643fa7",
       "saisie": "Sylvain · Télémaintenance · FRONT · S13",
-      "semaine": "2026-03-23",
+      "semaine": "2026-04-06",
       "personne": "Sylvain",
       "phase": "FRONT",
       "avancement": 0.11,
@@ -15496,7 +15497,7 @@
     {
       "id": "35f8db15-623a-81b4-9385-cdb23f080dff",
       "saisie": "Jérôme · Télémaintenance · MAQUETTE · S13",
-      "semaine": "2026-03-23",
+      "semaine": "2026-04-06",
       "personne": "Jérôme",
       "phase": "MAQUETTE",
       "avancement": 0.3,
@@ -15516,7 +15517,7 @@
     {
       "id": "35f8db15-623a-81b6-8f94-d307acb2033b",
       "saisie": "Agathe · Télémaintenance · MAQUETTE · S15",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 1,
@@ -15536,7 +15537,7 @@
     {
       "id": "35f8db15-623a-81b9-b7de-fc7eb595352a",
       "saisie": "Sylvain · Recherche client · FRONT · S18",
-      "semaine": "2026-04-27",
+      "semaine": "2026-05-11",
       "personne": "Sylvain",
       "phase": "FRONT",
       "avancement": 0.97,
@@ -15556,7 +15557,7 @@
     {
       "id": "35f8db15-623a-81ba-a506-d713bbee7baf",
       "saisie": "Agathe · Listing séjours · MAQUETTE · S13",
-      "semaine": "2026-03-23",
+      "semaine": "2026-04-06",
       "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 1,
@@ -15576,7 +15577,7 @@
     {
       "id": "35f8db15-623a-81bc-8585-cd4561a0d24a",
       "saisie": "Cédric.F · Controle d'accès · BACK · S19",
-      "semaine": "2026-05-04",
+      "semaine": "2026-05-18",
       "personne": "Cédric.F",
       "phase": "BACK",
       "avancement": 0.9,
@@ -15596,7 +15597,7 @@
     {
       "id": "35f8db15-623a-81bd-a441-c3e6ba92501e",
       "saisie": "Sylvain · Recherche dispo · FRONT · S19",
-      "semaine": "2026-05-04",
+      "semaine": "2026-05-18",
       "personne": "Sylvain",
       "phase": "FRONT",
       "avancement": 1,
@@ -15616,7 +15617,7 @@
     {
       "id": "35f8db15-623a-81be-944d-c2156cc63ec3",
       "saisie": "Agathe · Liste des cautions · MAQUETTE · S16",
-      "semaine": "2026-04-13",
+      "semaine": "2026-04-27",
       "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 1,
@@ -15636,7 +15637,7 @@
     {
       "id": "35f8db15-623a-81c1-a577-f6aa9f788250",
       "saisie": "Ines · Listing indispo · FRONT · S13",
-      "semaine": "2026-03-23",
+      "semaine": "2026-04-06",
       "personne": "Ines",
       "phase": "FRONT",
       "avancement": 0.52,
@@ -15656,7 +15657,7 @@
     {
       "id": "35f8db15-623a-81c4-859b-d27d407bfd50",
       "saisie": "Ines · Recherche client · FRONT · S19",
-      "semaine": "2026-05-04",
+      "semaine": "2026-05-18",
       "personne": "Ines",
       "phase": "FRONT",
       "avancement": 0.7,
@@ -15676,7 +15677,7 @@
     {
       "id": "35f8db15-623a-81c4-a075-c4a1fec9bd06",
       "saisie": "Agathe · Remise en banque · MAQUETTE · S17",
-      "semaine": "2026-04-20",
+      "semaine": "2026-05-04",
       "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 0.85,
@@ -15696,7 +15697,7 @@
     {
       "id": "35f8db15-623a-81c4-b9a6-cf36ac1e492b",
       "saisie": "Jérôme · Listing séjours · MAQUETTE · S11",
-      "semaine": "2026-03-09",
+      "semaine": "2026-03-23",
       "personne": "Jérôme",
       "phase": "MAQUETTE",
       "avancement": 0.3,
@@ -15716,7 +15717,7 @@
     {
       "id": "35f8db15-623a-81c7-960e-fc8126b90297",
       "saisie": "Albert · Historiques des ventes · MAQUETTE · S17",
-      "semaine": "2026-04-20",
+      "semaine": "2026-05-04",
       "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 0.75,
@@ -15736,7 +15737,7 @@
     {
       "id": "35f8db15-623a-81c7-ae90-ec5e12741c33",
       "saisie": "Sylvain · Historiques des ventes · FRONT · S16",
-      "semaine": "2026-04-13",
+      "semaine": "2026-04-27",
       "personne": "Sylvain",
       "phase": "FRONT",
       "avancement": 0.54,
@@ -15756,7 +15757,7 @@
     {
       "id": "35f8db15-623a-81ca-973d-c963ee48001c",
       "saisie": "Cédric.F · Recherche dispo · BACK · S18",
-      "semaine": "2026-04-27",
+      "semaine": "2026-05-11",
       "personne": "Cédric.F",
       "phase": "BACK",
       "avancement": 1,
@@ -15776,7 +15777,7 @@
     {
       "id": "35f8db15-623a-81cf-b1c3-d4cc27f55086",
       "saisie": "Caroline · Remise en banque · FRONT · S17",
-      "semaine": "2026-04-20",
+      "semaine": "2026-05-04",
       "personne": "Caroline",
       "phase": "FRONT",
       "avancement": 1,
@@ -15796,7 +15797,7 @@
     {
       "id": "35f8db15-623a-81d4-a8e4-c84af1d1dcb7",
       "saisie": "Jérôme · Remise en banque · MAQUETTE · S15",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": "Jérôme",
       "phase": "MAQUETTE",
       "avancement": 0.3,
@@ -15816,7 +15817,7 @@
     {
       "id": "35f8db15-623a-81d5-b58c-d3c7f6799ac1",
       "saisie": "Caroline · Historiques des ventes · FRONT · S18",
-      "semaine": "2026-04-27",
+      "semaine": "2026-05-11",
       "personne": "Caroline",
       "phase": "FRONT",
       "avancement": 0.3,
@@ -15836,7 +15837,7 @@
     {
       "id": "35f8db15-623a-81d6-a2d9-fb9925d55398",
       "saisie": "Jérôme · Recherche client · MAQUETTE · S18",
-      "semaine": "2026-04-27",
+      "semaine": "2026-05-11",
       "personne": "Jérôme",
       "phase": "MAQUETTE",
       "avancement": 0.3,
@@ -15856,7 +15857,7 @@
     {
       "id": "35f8db15-623a-81d8-a10b-d3fba188c0cf",
       "saisie": "Loic · Remise en banque · BACK · S17",
-      "semaine": "2026-04-20",
+      "semaine": "2026-05-04",
       "personne": "Loic",
       "phase": "BACK",
       "avancement": 0.35,
@@ -15876,7 +15877,7 @@
     {
       "id": "35f8db15-623a-81da-9868-c6efa0207add",
       "saisie": "Ines · Listing occupation · FRONT · S18",
-      "semaine": "2026-04-27",
+      "semaine": "2026-05-11",
       "personne": "Ines",
       "phase": "FRONT",
       "avancement": 0.35,
@@ -15896,7 +15897,7 @@
     {
       "id": "35f8db15-623a-81db-8874-dde69ced13ad",
       "saisie": "Jérôme · Recherche dispo · MAQUETTE · S19",
-      "semaine": "2026-05-04",
+      "semaine": "2026-05-18",
       "personne": "Jérôme",
       "phase": "MAQUETTE",
       "avancement": 0.3,
@@ -15916,7 +15917,7 @@
     {
       "id": "35f8db15-623a-81dc-9a99-c57b3c4dbcd9",
       "saisie": "Agathe · Page de connexion · MAQUETTE · S11",
-      "semaine": "2026-03-09",
+      "semaine": "2026-03-23",
       "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 0.55,
@@ -15936,7 +15937,7 @@
     {
       "id": "35f8db15-623a-81dd-9aba-efd07f694072",
       "saisie": "Agathe · Listing réservation · MAQUETTE · S12",
-      "semaine": "2026-03-16",
+      "semaine": "2026-03-30",
       "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 1,
@@ -15956,7 +15957,7 @@
     {
       "id": "35f8db15-623a-81dd-a993-c9d1f9727c01",
       "saisie": "Denis · Controle de Caisse · BACK · S17",
-      "semaine": "2026-04-20",
+      "semaine": "2026-05-04",
       "personne": "Denis",
       "phase": "BACK",
       "avancement": 0.9,
@@ -15976,7 +15977,7 @@
     {
       "id": "35f8db15-623a-81de-9522-d1f315a283b8",
       "saisie": "Loic · Listing occupation · BACK · S19",
-      "semaine": "2026-05-04",
+      "semaine": "2026-05-18",
       "personne": "Loic",
       "phase": "BACK",
       "avancement": 0.7,
@@ -15996,7 +15997,7 @@
     {
       "id": "35f8db15-623a-81e0-a9d3-e1659aaaa130",
       "saisie": "Cédric.V · Page de connexion · DESIGN · S11",
-      "semaine": "2026-03-09",
+      "semaine": "2026-03-23",
       "personne": "Cédric.V",
       "phase": "DESIGN",
       "avancement": 1,
@@ -16016,7 +16017,7 @@
     {
       "id": "35f8db15-623a-81e2-9e1c-d90b49badfdc",
       "saisie": "Albert · Listing séjours · MAQUETTE · S12",
-      "semaine": "2026-03-16",
+      "semaine": "2026-03-30",
       "personne": "Albert (UX)",
       "phase": "MAQUETTE",
       "avancement": 0.07,
@@ -16036,7 +16037,7 @@
     {
       "id": "35f8db15-623a-81e2-abc7-e32a0e73d251",
       "saisie": "Jérôme · Listing indispo · MAQUETTE · S12",
-      "semaine": "2026-03-16",
+      "semaine": "2026-03-30",
       "personne": "Jérôme",
       "phase": "MAQUETTE",
       "avancement": 0.3,
@@ -16056,7 +16057,7 @@
     {
       "id": "35f8db15-623a-81e5-a394-eada8d95ee15",
       "saisie": "Caroline · Télémaintenance · FRONT · S15",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": "Caroline",
       "phase": "FRONT",
       "avancement": 1,
@@ -16076,7 +16077,7 @@
     {
       "id": "35f8db15-623a-81e9-a458-c5b4943b10a8",
       "saisie": "Cédric.V · Listing séjours · DESIGN · S13",
-      "semaine": "2026-03-23",
+      "semaine": "2026-04-06",
       "personne": "Cédric.V",
       "phase": "DESIGN",
       "avancement": 0.5,
@@ -16096,7 +16097,7 @@
     {
       "id": "35f8db15-623a-81eb-99ba-d67abf2ebf20",
       "saisie": "Ines · Listing réservation · FRONT · S11",
-      "semaine": "2026-03-09",
+      "semaine": "2026-03-23",
       "personne": "Ines",
       "phase": "FRONT",
       "avancement": 0.15,
@@ -16116,7 +16117,7 @@
     {
       "id": "35f8db15-623a-81f0-8d08-c8381121f5d2",
       "saisie": "Sylvain · Listing séjours · FRONT · S11",
-      "semaine": "2026-03-09",
+      "semaine": "2026-03-23",
       "personne": "Sylvain",
       "phase": "FRONT",
       "avancement": 0.52,
@@ -16136,7 +16137,7 @@
     {
       "id": "35f8db15-623a-81f4-8748-de5ca1dc5ad9",
       "saisie": "Cédric.F · Télémaintenance · BACK · S12",
-      "semaine": "2026-03-16",
+      "semaine": "2026-03-30",
       "personne": "Cédric.F",
       "phase": "BACK",
       "avancement": 1,
@@ -16156,7 +16157,7 @@
     {
       "id": "35f8db15-623a-81f7-95cc-e56fb342b3a0",
       "saisie": "Agathe · Historiques des ventes · MAQUETTE · S18",
-      "semaine": "2026-04-27",
+      "semaine": "2026-05-11",
       "personne": "Agathe (PO)",
       "phase": "MAQUETTE",
       "avancement": 1,
@@ -16176,7 +16177,7 @@
     {
       "id": "35f8db15-623a-81fd-8f8a-ef93d01fb50f",
       "saisie": "Ines · Liste des cautions · FRONT · S15",
-      "semaine": "2026-04-06",
+      "semaine": "2026-04-20",
       "personne": "Ines",
       "phase": "FRONT",
       "avancement": 0.22,
