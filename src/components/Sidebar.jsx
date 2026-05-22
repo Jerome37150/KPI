@@ -38,8 +38,8 @@ export const NAV_ITEMS = [
   { type: "category", key: "projets",         label: "Projets",          collapsible: true },
   { type: "window",   key: "immobilisation",  label: "Immobilisation",   icon: Building2, parent: "projets" },
 
-  // ─ Naxi.G Full Saas ─
-  { type: "category", key: "naxi-saas",       label: "Naxi.G Full Saas", collapsible: true, parent: "projets", notionProject: "Naxi G Full Saas", locked: true },
+  // ─ Naxi.G Full Saas ─ (public, pas de verrou)
+  { type: "category", key: "naxi-saas",       label: "Naxi.G Full Saas", collapsible: true, parent: "projets", notionProject: "Naxi G Full Saas" },
   { type: "window",   key: "naxi-saas-cdc",   label: "Cahier des charges", icon: ClipboardList, parent: "naxi-saas" },
   { type: "window",   key: "suivi",           label: "Suivi",              icon: LineChart,     parent: "naxi-saas" },
 
