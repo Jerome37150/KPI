@@ -61,8 +61,384 @@ function effectiveEtat(t, phaseKey) {
   return null;
 }
 
+// ============================================
+// SuiviPage — wrapper avec 2 onglets : Général + Rétro planning
+// ============================================
 export function SuiviPage({ data }) {
   const items = data.topline || [];
+  const [activeTab, setActiveTab] = useState('general');
+
+  if (items.length === 0) {
+    return (
+      <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+        <SectionTitle overline="Naxi.G Full Saas" icon={LineChart}>Suivi</SectionTitle>
+        <Card padding={32}>
+          <div style={{ textAlign: "center", color: C.inkDim, fontSize: 13 }}>
+            Aucune fenêtre Top Line dans les données.
+          </div>
+        </Card>
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+      {/* Header — titre + bouton prototype */}
+      <div style={{
+        display: "flex", justifyContent: "space-between", alignItems: "flex-end",
+        gap: 16, flexWrap: "wrap",
+      }}>
+        <SectionTitle
+          overline="Naxi.G Full Saas"
+          icon={LineChart}
+          sub="Suivi des fenêtres par groupe métier · phases sur le calendrier"
+        >Suivi</SectionTitle>
+        <a
+          href="https://naxigestionfront-prepa.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: "inline-flex", alignItems: "center", gap: 8,
+            padding: "10px 16px", borderRadius: RADIUS.md,
+            background: C.orange, color: "#fff",
+            border: "none", boxShadow: "0 4px 14px rgba(229, 80, 16, 0.25)",
+            cursor: "pointer", textDecoration: "none",
+            fontSize: 12, fontWeight: 700, letterSpacing: "0.04em",
+            fontFamily: "inherit", textTransform: "uppercase",
+            transition: "transform 0.15s, box-shadow 0.15s, background 0.15s",
+          }}
+          onMouseEnter={e => {
+            e.currentTarget.style.background = "#f06a2a";
+            e.currentTarget.style.transform = "translateY(-1px)";
+            e.currentTarget.style.boxShadow = "0 6px 18px rgba(229, 80, 16, 0.35)";
+          }}
+          onMouseLeave={e => {
+            e.currentTarget.style.background = C.orange;
+            e.currentTarget.style.transform = "translateY(0)";
+            e.currentTarget.style.boxShadow = "0 4px 14px rgba(229, 80, 16, 0.25)";
+          }}
+          title="Ouvre le prototype Naxi Gestion Prepa dans un nouvel onglet"
+        >
+          <Rocket size={14} strokeWidth={2.4} />
+          Voir le prototype
+          <ExternalLink size={12} strokeWidth={2.4} style={{ opacity: 0.85 }} />
+        </a>
+      </div>
+
+      {/* Tabs principaux */}
+      <TabBar
+        tabs={[
+          { id: 'general', label: 'Général' },
+          { id: 'retro',   label: 'Rétro planning' },
+        ]}
+        active={activeTab}
+        onChange={setActiveTab}
+      />
+
+      {activeTab === 'general'
+        ? <GeneralTab items={items} />
+        : <RetroPlanningTab items={items} />}
+    </div>
+  );
+}
+
+// ============================================
+// TabBar — onglets principaux et sous-onglets
+// ============================================
+function TabBar({ tabs, active, onChange, size = 'lg' }) {
+  const isLg = size === 'lg';
+  return (
+    <div style={{
+      display: 'flex', gap: 4,
+      borderBottom: `1px solid ${C.line}`,
+      flexWrap: 'wrap',
+    }}>
+      {tabs.map(t => {
+        const isActive = active === t.id;
+        return (
+          <button
+            key={t.id}
+            type="button"
+            onClick={() => onChange(t.id)}
+            style={{
+              padding: isLg ? '10px 18px' : '6px 12px',
+              fontSize: isLg ? 13 : 11.5,
+              fontWeight: isActive ? 700 : 500,
+              color: isActive ? C.orange : C.inkDim,
+              background: 'transparent',
+              border: 'none',
+              borderBottom: `2px solid ${isActive ? C.orange : 'transparent'}`,
+              marginBottom: -1,
+              cursor: 'pointer', fontFamily: 'inherit',
+              letterSpacing: isLg ? '0.02em' : '0.04em',
+              transition: 'color 0.12s, border-color 0.12s',
+            }}
+            onMouseEnter={e => { if (!isActive) e.currentTarget.style.color = C.ink; }}
+            onMouseLeave={e => { if (!isActive) e.currentTarget.style.color = C.inkDim; }}
+          >
+            {t.icon && <t.icon size={isLg ? 14 : 12} strokeWidth={2.2} style={{
+              marginRight: 6, verticalAlign: '-2px',
+            }} />}
+            {t.label}
+            {t.count != null && (
+              <span style={{
+                marginLeft: 6, fontSize: isLg ? 11 : 10,
+                color: isActive ? C.orange : C.inkMute,
+                fontWeight: 600,
+              }}>({t.count})</span>
+            )}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
+// ============================================
+// RetroPlanningTab — par métier (sous-onglets) × par mois × tableau détaillé
+// ============================================
+function RetroPlanningTab({ items }) {
+  const [phase, setPhase] = useState('maquette');
+
+  // Groupes par mois pour la phase active
+  const byMonth = useMemo(() => {
+    const map = new Map();
+    items.forEach(t => {
+      const sprint = t.sprint?.[phase];
+      const date = parseSprintMonth(sprint);
+      if (!date) return;
+      const k = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
+      if (!map.has(k)) map.set(k, { key: k, date, label: sprint, items: [] });
+      map.get(k).items.push(t);
+    });
+    return [...map.values()].sort((a, b) => a.date - b.date);
+  }, [items, phase]);
+
+  // Compte par phase pour les sub-tabs
+  const countsPerPhase = useMemo(() => {
+    const counts = {};
+    PHASES.forEach(p => {
+      counts[p.key] = items.filter(t => t.sprint?.[p.key]).length;
+    });
+    return counts;
+  }, [items]);
+
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
+      {/* Sous-onglets par métier */}
+      <TabBar
+        size="sm"
+        tabs={PHASES.map(p => ({
+          id: p.key,
+          label: p.label,
+          icon: p.icon,
+          count: countsPerPhase[p.key],
+        }))}
+        active={phase}
+        onChange={setPhase}
+      />
+
+      {byMonth.length === 0 ? (
+        <Card padding={32}>
+          <div style={{ textAlign: 'center', color: C.inkDim, fontSize: 13 }}>
+            Aucune fenêtre avec sprint <b>{PHASES.find(p => p.key === phase)?.label}</b> planifié.
+          </div>
+        </Card>
+      ) : (
+        byMonth.map(group => (
+          <MonthSection key={group.key} group={group} phase={phase} />
+        ))
+      )}
+    </div>
+  );
+}
+
+function MonthSection({ group, phase }) {
+  return (
+    <Card padding={0} style={{ overflow: 'hidden' }}>
+      {/* Header mois */}
+      <div style={{
+        padding: '14px 20px',
+        borderBottom: `1px solid ${C.line}`,
+        background: C.bgSoft,
+        display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+        gap: 10, flexWrap: 'wrap',
+      }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+          <CalendarDays size={14} color={C.orange} strokeWidth={2.2} />
+          <span style={{
+            fontSize: 13, fontWeight: 700, color: C.ink,
+            letterSpacing: '0.01em',
+          }}>{group.label}</span>
+          <span style={{
+            fontSize: 11, color: C.inkDim,
+          }}>· {group.items.length} fenêtre{group.items.length > 1 ? 's' : ''}</span>
+        </div>
+      </div>
+
+      {/* Tableau */}
+      <div style={{ overflowX: 'auto' }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 12 }}>
+          <thead>
+            <tr style={{ background: C.paper }}>
+              <th style={th({ minWidth: 220 })}>Fenêtre</th>
+              <th style={th({ minWidth: 90 })}>Jira</th>
+              <th style={th({ minWidth: 130 })}>Avancement</th>
+              <th style={th({ minWidth: 100 })}>État</th>
+              <th style={th({ minWidth: 180 })}>Personne(s)</th>
+            </tr>
+          </thead>
+          <tbody>
+            {group.items.map(t => <RetroRow key={t.id} t={t} phase={phase} />)}
+          </tbody>
+        </table>
+      </div>
+    </Card>
+  );
+}
+
+function RetroRow({ t, phase }) {
+  const av = t.avancement?.[phase] || 0;
+  const pct = Math.round(av * 100);
+  const etat = effectiveEtat(t, phase);
+  const membres = t.membres?.[phase] || [];
+
+  const etatColor =
+    etat === 'FAIT'    ? C.green :
+    etat === 'En cours' ? C.orange :
+    etat === 'Blocage' ? C.red :
+                         C.gray400;
+  const etatBg =
+    etat === 'FAIT'    ? C.greenSoft :
+    etat === 'En cours' ? C.orangeBg :
+    etat === 'Blocage' ? C.redSoft :
+                         C.gray100;
+  const etatLabel = etat || 'À faire';
+
+  return (
+    <tr style={{
+      borderTop: `1px solid ${C.gray100}`,
+      transition: 'background 0.1s',
+    }}
+    onMouseEnter={e => { e.currentTarget.style.background = C.gray50; }}
+    onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; }}
+    >
+      {/* Fenêtre */}
+      <td style={td()}>
+        <div style={{
+          fontSize: 13, fontWeight: 600, color: C.ink,
+          lineHeight: 1.3,
+        }}>{t.fenetre || '—'}</div>
+        {t.groupe && (
+          <div style={{ fontSize: 10.5, color: C.inkDim, marginTop: 2 }}>
+            {t.groupe}{t.module ? ` · ${t.module}` : ''}
+          </div>
+        )}
+      </td>
+
+      {/* Jira */}
+      <td style={td()}>
+        {t.lienJira ? (
+          <a
+            href={t.lienJira}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-flex', alignItems: 'center', gap: 4,
+              padding: '3px 8px', borderRadius: RADIUS.sm,
+              background: '#0052CC15',
+              color: '#0052CC',
+              border: '1px solid #0052CC40',
+              fontSize: 10.5, fontWeight: 700,
+              textDecoration: 'none',
+            }}
+          >
+            Jira <ExternalLink size={10} strokeWidth={2.4} />
+          </a>
+        ) : (
+          <span style={{ color: C.inkMute, fontSize: 11 }}>—</span>
+        )}
+      </td>
+
+      {/* Avancement */}
+      <td style={td()}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+          <div style={{
+            flex: 1, minWidth: 60, maxWidth: 90,
+            height: 5, background: C.gray100,
+            borderRadius: RADIUS.sm, overflow: 'hidden',
+          }}>
+            <div style={{
+              width: `${pct}%`, height: '100%',
+              background: pct >= 100 ? C.green : C.orange,
+              borderRadius: RADIUS.sm,
+              transition: 'width 0.3s',
+            }} />
+          </div>
+          <span style={{
+            fontSize: 11.5, fontWeight: 700,
+            color: pct >= 100 ? C.green : (pct > 0 ? C.orange : C.inkMute),
+            fontVariantNumeric: 'tabular-nums',
+            minWidth: 32, textAlign: 'right',
+          }}>{pct}%</span>
+        </div>
+      </td>
+
+      {/* État */}
+      <td style={td()}>
+        <span style={{
+          display: 'inline-block',
+          padding: '3px 10px', borderRadius: RADIUS.sm,
+          background: etatBg, color: etatColor,
+          border: `1px solid ${etatColor}40`,
+          fontSize: 10.5, fontWeight: 700, letterSpacing: '0.02em',
+        }}>{etatLabel}</span>
+      </td>
+
+      {/* Personne(s) */}
+      <td style={td()}>
+        {membres.length === 0 ? (
+          <span style={{ color: C.inkMute, fontSize: 11 }}>—</span>
+        ) : (
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+            {membres.map((m, i) => (
+              <span key={i} style={{
+                display: 'inline-block',
+                padding: '2px 8px', borderRadius: RADIUS.sm,
+                background: C.bgSoft,
+                border: `1px solid ${C.line}`,
+                fontSize: 11, color: C.inkSoft, fontWeight: 600,
+              }}>{m}</span>
+            ))}
+          </div>
+        )}
+      </td>
+    </tr>
+  );
+}
+
+function th(extra = {}) {
+  return {
+    textAlign: 'left', padding: '10px 14px',
+    fontSize: 10.5, letterSpacing: '0.06em', textTransform: 'uppercase',
+    color: C.gray400, fontWeight: 700,
+    borderBottom: `1px solid ${C.gray200}`,
+    whiteSpace: 'nowrap', verticalAlign: 'middle',
+    ...extra,
+  };
+}
+function td(extra = {}) {
+  return {
+    padding: '10px 14px',
+    verticalAlign: 'middle',
+    ...extra,
+  };
+}
+
+// ============================================
+// GeneralTab — vue actuelle (KPIs + blocs + matrice + modale)
+// ============================================
+function GeneralTab({ items }) {
   const [openBloc, setOpenBloc] = useState(null);
 
   // ── KPIs globaux ──
@@ -151,62 +527,8 @@ export function SuiviPage({ data }) {
     return { months, cells, maxCount };
   }, [items]);
 
-  // ── Empty state ──
-  if (items.length === 0) {
-    return (
-      <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-        <SectionTitle overline="Naxi.G Full Saas" icon={LineChart}>Suivi</SectionTitle>
-        <Card padding={32}>
-          <div style={{ textAlign: "center", color: C.inkDim, fontSize: 13 }}>
-            Aucune fenêtre Top Line dans les données.
-          </div>
-        </Card>
-      </div>
-    );
-  }
-
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-      <div style={{
-        display: "flex", justifyContent: "space-between", alignItems: "flex-end",
-        gap: 16, flexWrap: "wrap",
-      }}>
-        <SectionTitle
-          overline="Naxi.G Full Saas"
-          icon={LineChart}
-          sub="Suivi des fenêtres par groupe métier · phases sur le calendrier"
-        >Suivi</SectionTitle>
-        <a
-          href="https://naxigestionfront-prepa.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: "inline-flex", alignItems: "center", gap: 8,
-            padding: "10px 16px", borderRadius: RADIUS.md,
-            background: C.orange, color: "#fff",
-            border: "none", boxShadow: "0 4px 14px rgba(229, 80, 16, 0.25)",
-            cursor: "pointer", textDecoration: "none",
-            fontSize: 12, fontWeight: 700, letterSpacing: "0.04em",
-            fontFamily: "inherit", textTransform: "uppercase",
-            transition: "transform 0.15s, box-shadow 0.15s, background 0.15s",
-          }}
-          onMouseEnter={e => {
-            e.currentTarget.style.background = "#f06a2a";
-            e.currentTarget.style.transform = "translateY(-1px)";
-            e.currentTarget.style.boxShadow = "0 6px 18px rgba(229, 80, 16, 0.35)";
-          }}
-          onMouseLeave={e => {
-            e.currentTarget.style.background = C.orange;
-            e.currentTarget.style.transform = "translateY(0)";
-            e.currentTarget.style.boxShadow = "0 4px 14px rgba(229, 80, 16, 0.25)";
-          }}
-          title="Ouvre le prototype Naxi Gestion Prepa dans un nouvel onglet"
-        >
-          <Rocket size={14} strokeWidth={2.4} />
-          Voir le prototype
-          <ExternalLink size={12} strokeWidth={2.4} style={{ opacity: 0.85 }} />
-        </a>
-      </div>
 
       {/* KPI macro */}
       <div style={{
