@@ -47,6 +47,20 @@ function formatDays(n) {
   return `${Number(n.toFixed(1))} j`;
 }
 
+// État effectif d'une phase pour une fenêtre :
+// - prend l'état explicite Notion ('FAIT' / 'En cours' / 'Blocage') si présent
+// - sinon déduit depuis l'avancement (≥1 → FAIT, >0 → En cours, =0 → null)
+// Utilisé pour combler l'absence des formules 'Dernier état MAQUETTE/BACK/FRONT'
+// sur Retro-planning (seules DESIGN et TEST existent côté Notion).
+function effectiveEtat(t, phaseKey) {
+  const explicit = t.etat?.[phaseKey];
+  if (explicit) return explicit;
+  const av = t.avancement?.[phaseKey] || 0;
+  if (av >= 1) return 'FAIT';
+  if (av > 0)  return 'En cours';
+  return null;
+}
+
 export function SuiviPage({ data }) {
   const items = data.topline || [];
   const [openBloc, setOpenBloc] = useState(null);
@@ -58,7 +72,7 @@ export function SuiviPage({ data }) {
       PHASES.forEach(p => {
         totalTime += t.temps?.[p.key] || 0;
         sumAv     += t.avancement?.[p.key] || 0;
-        if (t.etat?.[p.key] === "FAIT") doneCount++;
+        if (effectiveEtat(t, p.key) === "FAIT") doneCount++;
         totalPhases++;
       });
     });
@@ -95,8 +109,9 @@ export function SuiviPage({ data }) {
         e.avTotal++;
         e.byPhase[p.key].sum += val;
         e.byPhase[p.key].count++;
-        if (t.etat?.[p.key] === "FAIT")     e.byPhase[p.key].fait++;
-        if (t.etat?.[p.key] === "En cours") e.byPhase[p.key].encours++;
+        const et = effectiveEtat(t, p.key);
+        if (et === "FAIT")     e.byPhase[p.key].fait++;
+        if (et === "En cours") e.byPhase[p.key].encours++;
       });
     });
     return [...map.values()].sort((a, b) => b.count - a.count);
@@ -125,8 +140,9 @@ export function SuiviPage({ data }) {
         const cellKey = `${p.key}|${k}`;
         if (!cells[cellKey]) cells[cellKey] = { total: 0, fait: 0, encours: 0 };
         cells[cellKey].total++;
-        if (t.etat?.[p.key] === "FAIT") cells[cellKey].fait++;
-        else if (t.etat?.[p.key] === "En cours") cells[cellKey].encours++;
+        const et = effectiveEtat(t, p.key);
+        if (et === "FAIT") cells[cellKey].fait++;
+        else if (et === "En cours") cells[cellKey].encours++;
       });
     });
 
@@ -491,7 +507,7 @@ function BlocDetail({ bloc, color }) {
                   </td>
                   {PHASES.map(p => {
                     const pct = Math.round((t.avancement?.[p.key] || 0) * 100);
-                    const etat = t.etat?.[p.key];
+                    const etat = effectiveEtat(t, p.key);
                     const sprint = t.sprint?.[p.key];
                     return (
                       <td key={p.key} style={{
