@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T06:58:04.940Z",
+  "generatedAt": "2026-06-01T12:33:01.461Z",
   "source": "suiviLundi",
   "rows": [
     {
@@ -979,18 +979,6 @@
       "start": "2026-05-18",
       "end": "2026-05-24",
       "projet": "Naxi G Full Saas",
-      "person": "Agathe (PO)",
-      "fenetre": "Planning - rech dispo",
-      "groupe": "PLANNING",
-      "phase": "Maquette / UX",
-      "jours": 2,
-      "actions": ""
-    },
-    {
-      "week": "2026-W21",
-      "start": "2026-05-18",
-      "end": "2026-05-24",
-      "projet": "Naxi G Full Saas",
       "person": "Albert (UX)",
       "fenetre": "PLANNING - finalisation",
       "groupe": "PLANNING",
@@ -1080,6 +1068,18 @@
       "groupe": "HOME",
       "phase": "Front",
       "jours": 3.2,
+      "actions": ""
+    },
+    {
+      "week": "2026-W22",
+      "start": "2026-05-25",
+      "end": "2026-05-31",
+      "projet": "Naxi G Full Saas",
+      "person": "Agathe (PO)",
+      "fenetre": "Planning - rech dispo",
+      "groupe": "PLANNING",
+      "phase": "Maquette / UX",
+      "jours": 2,
       "actions": ""
     },
     {
@@ -1189,6 +1189,126 @@
       "phase": "Front",
       "jours": 4,
       "actions": ""
+    },
+    {
+      "week": "2026-W23",
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "projet": "Naxi G Full Saas",
+      "person": "Agathe (PO)",
+      "fenetre": "To do",
+      "groupe": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 4,
+      "actions": ""
+    },
+    {
+      "week": "2026-W23",
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "projet": "Naxi G Full Saas",
+      "person": "Albert (Front)",
+      "fenetre": "Remise en banque",
+      "groupe": "HOME",
+      "phase": "Front",
+      "jours": 3,
+      "actions": "attente cablage avec Back"
+    },
+    {
+      "week": "2026-W23",
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "projet": "Naxi G Full Saas",
+      "person": "Caroline",
+      "fenetre": "Ventes réception",
+      "groupe": "HOME",
+      "phase": "Front",
+      "jours": 2.429,
+      "actions": "en attente validation design / paiement"
+    },
+    {
+      "week": "2026-W23",
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "projet": "Naxi G Full Saas",
+      "person": "Cédric.F",
+      "fenetre": "Historiques des ventes",
+      "groupe": "HOME",
+      "phase": "Back",
+      "jours": 3.571,
+      "actions": "mise en place test auto + corrections"
+    },
+    {
+      "week": "2026-W23",
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "projet": "Naxi G Full Saas",
+      "person": "Cédric.V",
+      "fenetre": "Ventes réception",
+      "groupe": "HOME",
+      "phase": "Design",
+      "jours": 3,
+      "actions": ""
+    },
+    {
+      "week": "2026-W23",
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "projet": "Naxi G Full Saas",
+      "person": "Denis",
+      "fenetre": "détails des transactions",
+      "groupe": "HOME",
+      "phase": "Back",
+      "jours": 3,
+      "actions": "gestion des droits + test auto"
+    },
+    {
+      "week": "2026-W23",
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "projet": "Naxi G Full Saas",
+      "person": "Ines",
+      "fenetre": "Liste des cautions",
+      "groupe": "HOME",
+      "phase": "Front",
+      "jours": 4,
+      "actions": ""
+    },
+    {
+      "week": "2026-W23",
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "projet": "Naxi G Full Saas",
+      "person": "Jérôme",
+      "fenetre": "FICHE CLIENT - Finalisation",
+      "groupe": "FICHE CLIENT",
+      "phase": "Maquette / UX",
+      "jours": 4,
+      "actions": ""
+    },
+    {
+      "week": "2026-W23",
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "projet": "Naxi G Full Saas",
+      "person": "Loic",
+      "fenetre": "Ventes réception",
+      "groupe": "HOME",
+      "phase": "Back",
+      "jours": 0.857,
+      "actions": "Test auto / Normes NF 525"
+    },
+    {
+      "week": "2026-W23",
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "projet": "Naxi G Full Saas",
+      "person": "Sylvain",
+      "fenetre": "détails des transactions",
+      "groupe": "HOME",
+      "phase": "Front",
+      "jours": 4,
+      "actions": "point a faire sur les modes de paiement"
     }
   ]
 }
