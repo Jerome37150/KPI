@@ -1,6 +1,198 @@
 {
-  "generatedAt": "2026-06-02T11:00:17.764Z",
+  "generatedAt": "2026-06-02T14:52:58.651Z",
   "classique": [
+    {
+      "id": "3738db15-623a-8024-8ae9-e6b56325ead2",
+      "identifiant": "INA-342",
+      "titre": "[LOGICIEL] - Les fiches clients ne s’ouvrent plus de façon aléatoire sur la fenêtre interne “Alerte sur les séjours”",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": "Autres",
+      "produits": [
+        "NAXI GESTION SQL"
+      ],
+      "client": "Chanet 25 (Signalé le 02.06.2026)",
+      "dateCreation": "2026-06-02T14:44:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Visiblement depuis le passage de la version 18.19, la fenêtre interne “Alertes sur les séjours” ne fonctionne plus correctement de façon aléatoire à savoir que lorsque l’on clique sur un séjour, ça ouvre la recherche client au lieu d’ouvrir la fiche client",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://www.notion.so/LOGICIEL-Les-fiches-clients-ne-s-ouvrent-plus-de-fa-on-al-atoire-sur-la-fen-tre-interne-Alerte-s-3738db15623a80248ae9e6b56325ead2"
+    },
+    {
+      "id": "3738db15-623a-8096-b43c-d8dbb6e759c9",
+      "identifiant": "INA-341",
+      "titre": "[LOGICIEL] - Lenteurs sur fermeture fenêtre facturation par lot",
+      "classification": "BUG OPERATIONNEL",
+      "statut": "A planifier",
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": "Facturation",
+      "produits": [
+        "NAXI GESTION SQL",
+        "NAXI GESTION HF"
+      ],
+      "client": "Ma Prairie + Chanet25",
+      "dateCreation": "2026-06-02T14:25:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Naxi galère à fermer la fenêtre de facturation par lot que ce soit en HF ou en SQL / Depuis le 18.18 à minima",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://www.notion.so/LOGICIEL-Lenteurs-sur-fermeture-fen-tre-facturation-par-lot-3738db15623a8096b43cd8dbb6e759c9"
+    },
+    {
+      "id": "3738db15-623a-8043-861c-c2f8c0a71553",
+      "identifiant": "INA-340",
+      "titre": "[LOGICIEL] - Doublon sur la table TRFCS",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": "Paramétrages",
+      "produits": [
+        "NAXI GESTION SQL",
+        "NAXI GESTION HF"
+      ],
+      "client": "Groupe IKL (Signalé le 02.06.2026)",
+      "dateCreation": "2026-06-02T13:51:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "En surveillant nos logs, j’ai constaté que la synchro de KABANA bouclait en erreur à cause d’un doublon sur la table TRCS. \n\nIl faudrait un garde fou pour empêcher la création de doublon sur cette table ",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://www.notion.so/LOGICIEL-Doublon-sur-la-table-TRFCS-3738db15623a8043861cc2f8c0a71553"
+    },
+    {
+      "id": "3738db15-623a-808e-b292-d6dfe76084ee",
+      "identifiant": "INA-339",
+      "titre": "[LOGICIEL] - Message d’erreur depuis passage 18.19",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": "Autres",
+      "produits": [
+        "NAXI GESTION SQL"
+      ],
+      "client": "Chanet (Constaté le 02.06.2026)",
+      "dateCreation": "2026-06-02T13:37:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "J’ai passé ce camping en 18.19 ce midi et depuis, il a beaucoup d’erreurs visiblement. Je ne sais pas encore quelle fenêtre genère cette erreur ",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://www.notion.so/LOGICIEL-Message-d-erreur-depuis-passage-18-19-3738db15623a808eb292d6dfe76084ee"
+    },
+    {
+      "id": "3738db15-623a-8094-970f-f8c33530f92c",
+      "identifiant": "INA-338",
+      "titre": "[WEB] - Pouvoir désactiver ou activer l’échange de solde ",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": "Autres",
+      "produits": [
+        "CTV"
+      ],
+      "client": "Arize (Signalé le 02.06.2026)",
+      "dateCreation": "2026-06-02T13:14:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "La cliente ne souhaite pas que les soldes redescendent dans NAXI automatiquement : \n\n”Parce qu elle fait ses modif qu elle verifie pas toujours ce qu elle envoie ou ce qu elle reçoit et donc elle doit faire des avoirs ensuite”\n\nJe l’ai remise en V1 mais cela risque de nous poser problème à termes et cette cliente n’est pas la seule // Nous avons également le groupe Vacances de Giens qui a +/- la même problématique : eux ne souhaitent pas l’échange de solde car tous les modes de paiements redescendent, notamment les virement alors qu’ils n’ont pas encore l’argent sur le compte / Et 2ème problème pour eux, les paiements sont mélangés au résas donc n’aime pas la façon de traiter les choses \n\n→ Est ce gênant d’avoir des clients qui restent en V1 sur la ressource paiement ? Si non, OK rien besoin de faire // Si gênant, voir comment on peut gérer cette situatiuon",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://www.notion.so/WEB-Pouvoir-d-sactiver-ou-activer-l-change-de-solde-3738db15623a8094970ff8c33530f92c"
+    },
+    {
+      "id": "3738db15-623a-8068-8c3f-e8ae75f33130",
+      "identifiant": "INA-337",
+      "titre": "[WEB]NAXITO :  suppression du patch BUG-1108",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [],
+      "client": "",
+      "dateCreation": "2026-06-02T12:26:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "L'équipe SH a mis en place le correctif sur l’Assurance Annulation. Il faut supprimer le code de l’US BUG-1108 (INA-316)",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://www.notion.so/WEB-NAXITO-suppression-du-patch-BUG-1108-3738db15623a80688c3fe8ae75f33130"
+    },
     {
       "id": "3728db15-623a-80e0-a171-e5d0b35f5546",
       "identifiant": "INA-336",
@@ -315,7 +507,7 @@
     {
       "id": "36e8db15-623a-80b3-82f8-f09b5eafa72e",
       "identifiant": "INA-327",
-      "titre": "[WEB] GRAFANA : Dasboard Caution Swikly ",
+      "titre": "[WEB] GRAFANA : Dashboard Caution Swikly ",
       "classification": "DEV sans CC",
       "statut": "A planifier",
       "priorisation": "Pas urgente",
@@ -344,7 +536,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://www.notion.so/WEB-GRAFANA-Dasboard-Caution-Swikly-36e8db15623a80b382f8f09b5eafa72e"
+      "url": "https://www.notion.so/WEB-GRAFANA-Dashboard-Caution-Swikly-36e8db15623a80b382f8f09b5eafa72e"
     },
     {
       "id": "36e8db15-623a-80ef-9486-da400b399d7a",
@@ -2188,7 +2380,7 @@
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
       ],
-      "client": "Rive Bleue (Signalé le 24.04.2026) \nLauzons (Signalé le 24.04.2026)\nColombière 74 (Signalé le 30.04.2026)\nBobains (Signalé le 18.05.2026)\nVerdoyant (Signalé le 22.05.2026)",
+      "client": "Rive Bleue (Signalé le 24.04.2026) \nLauzons (Signalé le 24.04.2026)\nColombière 74 (Signalé le 30.04.2026)\nBobains (Signalé le 18.05.2026)\nVerdoyant (Signalé le 22.05.2026)\nFontarache (Signalé le 02.06.2026)",
       "dateCreation": "2026-04-24T13:02:00.000Z",
       "estimBack": 0,
       "estimFront": 0,
@@ -4191,7 +4383,7 @@
       "dateSortieStable": "2026-06-01",
       "pieceJointe": {
         "name": "FicheCom_INA211.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/7d5f981d-c5ad-447d-83ff-a8edbc4a77ac/FicheCom_INA211.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S3VQ4UDI%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T105958Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCXVzLXdlc3QtMiJHMEUCIBi%2Byeky7MEHPhxNNjpiKHVYhXKdpMIo5vogAxotx3LLAiEAzOf0mRKo6oNSyjX0xok%2BsAI5gFzwApZslw4Jcb6MLDwq%2FwMIIxAAGgw2Mzc0MjMxODM4MDUiDMH9IVwoXmbgBvJ5VSrcA9DoTeBCh81JVLE8ILocyQ%2Bk3QoV6AdeKmYBh6rpUpGkWFX3Q9NSyU4LlegW0YDlGDa8xI6LtRR9xO7ruuyCcCefq4P1Rh%2Fx%2FSSm43cT2szC5C0Zf8vVQoEJkOW6yskEdw05OLUJu3riNEog1ex8o%2FEClSdB2FJ5iv0gtfWVyaI1Un2pwkC3oFPtcaaDq%2Fou5tAGeADQ62X%2BbI60VAD5A1ZI4bl0dawLV2IUTdNqeyJHg6l9%2F8v7bUEsOmQ8NrLG18%2FaXVfQN0yBccPTuXx5jdPhsnk%2Bz%2FblQdCtUkh0SMDuxXd9YeRnTqMtWl1gL8dwsgOWBSrp0pH9O1rRJmVSfYb9q18vDGDUhigHTPA7vukqFuwF8fQ2Fy17e1NUwy7Tnvd5OuB6xBislzPkx4pYhG4PNk1bLs445ur9GGzMYRlbDxcvgbPr385brmAW31picVHnz2x9VMo5G6tPUPVTGtlJSPeEBRVgUthamo1hjjondGlY9HIxF92%2Fg28Ld5mztLkEE3OD%2BmvTeR4ER%2Fy%2B%2FREwvjxsd66ErRGdNShwW42a02xwRqIdSfTn9kmriLpTsQz7s7jbLqzA2hb%2FioDG9b1Hq9sjmpOjJo%2F3sciLdImM9jcl4%2BaZt9csPwRVMMHE%2BtAGOqUBy6BVWNFdV%2BEbjE8L5whHoQ3To%2FBKiCe%2F0OgbEIvM1TSGoChI2n6aQyoeJWSoT25NaTn8r94iMt8QJIUguQBqrEZQLFKz89f0JmGMrXhqOcbyKKKYxcXlZGTucFcTrDBF2eRYAfwI5q9U8BMKG9bOnm9Qxjeoez70ksZyM5EWSC1UGi3WdJre0kpw0Uu5Oj9tuDzsPbBDPlMtOA3fnMu8652TkQCa&X-Amz-Signature=455a4dc93070a78d845543f0bb89f3b55dcaa270ab3aacfc56dbae1a465ef8ad&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/7d5f981d-c5ad-447d-83ff-a8edbc4a77ac/FicheCom_INA211.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W7C4Y4OW%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T145243Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLXdlc3QtMiJHMEUCIEsGolfbdDOD%2BwOJ7CVWS2Q1zglBCqUisLB4IIK7sp1VAiEAxSXPcrwzpa%2B%2BCklRPCesp5lDCsgTaJOT1YuTKe7A05Yq%2FwMIJxAAGgw2Mzc0MjMxODM4MDUiDM7x3riLXixNqap6hircA37wD1s9%2FHYvfj0dbEbmP%2FPMl9Rmyht9bCAEN1lGPF546rr6%2Baew%2Fw0I2PM8goleVlVm7YksQncCACu%2Bag2vWWvQ4B%2Fxe4K%2Fqh3BbNcGlhUznHORSbpA4DQ0wUcSHGZvyNHirf44BnRTlhSmyZOEiKpi1bAB4mY%2FR5RD%2Bg2wjUJ8YfWMD4McASwUpWpR5vbViv3HH%2BgKn2bKEZT1m5nYRvRzz3nknQmNcWqKA2G9BLpr132qrIqWVhovppjnGy8APsSmJ8%2FeP%2FP%2BxskFf%2B0NphrzTFFaTydv57yy1cYpusGKR9yhST6fFXk7PA6UgO%2FKZT%2BXhif6VfQTcUKp6JTMbQoa8A3Qx7aBoPuCvsJRLjIYAn5mL34FAI%2F0cTNcinZf36kcIKUUBSOzT%2BHDuQmFjudkb%2BMx3r6VtJ87Snv4v0vqr7F%2FDuU0s%2B5Ll%2BlSw1gX38ngVaFXa4h%2FMR%2F1HMNPLKzKGf3BzRfMiZB6uCtkZhahk8WzRwvJgMV26XcKB7y66AiFG0zaP8PfGAdbphBx99O7AQnQd5fd1zerz5GB1ENLegJYxMtapvyEieceFJl628CC3db2z4lNFVamEAZu8MwFucRbMOoywexDqEk7i%2BHA%2FRoepcflnNTdoGF2MKi2%2B9AGOqUBWzqnBez95QJ%2BO3Slr7Qf%2FdZbq7bpsDtRtsw7wG3f252qf9BikDo333PvqCopd5YpFFr2h82Bq3rgaVp9hUgWzRvOXapGfn7zBpDEcxl%2F%2F5INppZ9Vw5wpofGsMoVkOhUxRptJsCEyQPwDNU6pmyb3D0QF9MNqHU8nY8CdrPBWI1qsSrI3l81%2BfPo5n8amOrQI5u9K3T8tOvvQqx9mXlNNiyg9sfl&X-Amz-Signature=ee9b528055864db1364dae7833ddca804a59fbd3d954937de5ffc69ea0565bcd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/WEB-GRAFANA-fen-tre-Naxi-V2-d-sactivation-en-masse-des-fenetres-3348db15623a80abb795f2964aad7abf"
     },
@@ -4772,7 +4964,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "Fiche communication.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S3VQ4UDI%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T105958Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCXVzLXdlc3QtMiJHMEUCIBi%2Byeky7MEHPhxNNjpiKHVYhXKdpMIo5vogAxotx3LLAiEAzOf0mRKo6oNSyjX0xok%2BsAI5gFzwApZslw4Jcb6MLDwq%2FwMIIxAAGgw2Mzc0MjMxODM4MDUiDMH9IVwoXmbgBvJ5VSrcA9DoTeBCh81JVLE8ILocyQ%2Bk3QoV6AdeKmYBh6rpUpGkWFX3Q9NSyU4LlegW0YDlGDa8xI6LtRR9xO7ruuyCcCefq4P1Rh%2Fx%2FSSm43cT2szC5C0Zf8vVQoEJkOW6yskEdw05OLUJu3riNEog1ex8o%2FEClSdB2FJ5iv0gtfWVyaI1Un2pwkC3oFPtcaaDq%2Fou5tAGeADQ62X%2BbI60VAD5A1ZI4bl0dawLV2IUTdNqeyJHg6l9%2F8v7bUEsOmQ8NrLG18%2FaXVfQN0yBccPTuXx5jdPhsnk%2Bz%2FblQdCtUkh0SMDuxXd9YeRnTqMtWl1gL8dwsgOWBSrp0pH9O1rRJmVSfYb9q18vDGDUhigHTPA7vukqFuwF8fQ2Fy17e1NUwy7Tnvd5OuB6xBislzPkx4pYhG4PNk1bLs445ur9GGzMYRlbDxcvgbPr385brmAW31picVHnz2x9VMo5G6tPUPVTGtlJSPeEBRVgUthamo1hjjondGlY9HIxF92%2Fg28Ld5mztLkEE3OD%2BmvTeR4ER%2Fy%2B%2FREwvjxsd66ErRGdNShwW42a02xwRqIdSfTn9kmriLpTsQz7s7jbLqzA2hb%2FioDG9b1Hq9sjmpOjJo%2F3sciLdImM9jcl4%2BaZt9csPwRVMMHE%2BtAGOqUBy6BVWNFdV%2BEbjE8L5whHoQ3To%2FBKiCe%2F0OgbEIvM1TSGoChI2n6aQyoeJWSoT25NaTn8r94iMt8QJIUguQBqrEZQLFKz89f0JmGMrXhqOcbyKKKYxcXlZGTucFcTrDBF2eRYAfwI5q9U8BMKG9bOnm9Qxjeoez70ksZyM5EWSC1UGi3WdJre0kpw0Uu5Oj9tuDzsPbBDPlMtOA3fnMu8652TkQCa&X-Amz-Signature=fc89a8fa7ba44d4da8ce1ab647629bb7626aa2f84b8fb9fd7ea962b720c286fa&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W7C4Y4OW%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T145243Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLXdlc3QtMiJHMEUCIEsGolfbdDOD%2BwOJ7CVWS2Q1zglBCqUisLB4IIK7sp1VAiEAxSXPcrwzpa%2B%2BCklRPCesp5lDCsgTaJOT1YuTKe7A05Yq%2FwMIJxAAGgw2Mzc0MjMxODM4MDUiDM7x3riLXixNqap6hircA37wD1s9%2FHYvfj0dbEbmP%2FPMl9Rmyht9bCAEN1lGPF546rr6%2Baew%2Fw0I2PM8goleVlVm7YksQncCACu%2Bag2vWWvQ4B%2Fxe4K%2Fqh3BbNcGlhUznHORSbpA4DQ0wUcSHGZvyNHirf44BnRTlhSmyZOEiKpi1bAB4mY%2FR5RD%2Bg2wjUJ8YfWMD4McASwUpWpR5vbViv3HH%2BgKn2bKEZT1m5nYRvRzz3nknQmNcWqKA2G9BLpr132qrIqWVhovppjnGy8APsSmJ8%2FeP%2FP%2BxskFf%2B0NphrzTFFaTydv57yy1cYpusGKR9yhST6fFXk7PA6UgO%2FKZT%2BXhif6VfQTcUKp6JTMbQoa8A3Qx7aBoPuCvsJRLjIYAn5mL34FAI%2F0cTNcinZf36kcIKUUBSOzT%2BHDuQmFjudkb%2BMx3r6VtJ87Snv4v0vqr7F%2FDuU0s%2B5Ll%2BlSw1gX38ngVaFXa4h%2FMR%2F1HMNPLKzKGf3BzRfMiZB6uCtkZhahk8WzRwvJgMV26XcKB7y66AiFG0zaP8PfGAdbphBx99O7AQnQd5fd1zerz5GB1ENLegJYxMtapvyEieceFJl628CC3db2z4lNFVamEAZu8MwFucRbMOoywexDqEk7i%2BHA%2FRoepcflnNTdoGF2MKi2%2B9AGOqUBWzqnBez95QJ%2BO3Slr7Qf%2FdZbq7bpsDtRtsw7wG3f252qf9BikDo333PvqCopd5YpFFr2h82Bq3rgaVp9hUgWzRvOXapGfn7zBpDEcxl%2F%2F5INppZ9Vw5wpofGsMoVkOhUxRptJsCEyQPwDNU6pmyb3D0QF9MNqHU8nY8CdrPBWI1qsSrI3l81%2BfPo5n8amOrQI5u9K3T8tOvvQqx9mXlNNiyg9sfl&X-Amz-Signature=b8a793d3dda2fdf8c2adb3899e2f318881529f274e3f52e1b1967dcedc5e5b07&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-Facturation-factures-et-proforma-d-ch-ances-multipes-probl-mes-3288db15623a80989620f6c98afd1347"
     },
@@ -5657,7 +5849,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-160.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S3VQ4UDI%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T105958Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCXVzLXdlc3QtMiJHMEUCIBi%2Byeky7MEHPhxNNjpiKHVYhXKdpMIo5vogAxotx3LLAiEAzOf0mRKo6oNSyjX0xok%2BsAI5gFzwApZslw4Jcb6MLDwq%2FwMIIxAAGgw2Mzc0MjMxODM4MDUiDMH9IVwoXmbgBvJ5VSrcA9DoTeBCh81JVLE8ILocyQ%2Bk3QoV6AdeKmYBh6rpUpGkWFX3Q9NSyU4LlegW0YDlGDa8xI6LtRR9xO7ruuyCcCefq4P1Rh%2Fx%2FSSm43cT2szC5C0Zf8vVQoEJkOW6yskEdw05OLUJu3riNEog1ex8o%2FEClSdB2FJ5iv0gtfWVyaI1Un2pwkC3oFPtcaaDq%2Fou5tAGeADQ62X%2BbI60VAD5A1ZI4bl0dawLV2IUTdNqeyJHg6l9%2F8v7bUEsOmQ8NrLG18%2FaXVfQN0yBccPTuXx5jdPhsnk%2Bz%2FblQdCtUkh0SMDuxXd9YeRnTqMtWl1gL8dwsgOWBSrp0pH9O1rRJmVSfYb9q18vDGDUhigHTPA7vukqFuwF8fQ2Fy17e1NUwy7Tnvd5OuB6xBislzPkx4pYhG4PNk1bLs445ur9GGzMYRlbDxcvgbPr385brmAW31picVHnz2x9VMo5G6tPUPVTGtlJSPeEBRVgUthamo1hjjondGlY9HIxF92%2Fg28Ld5mztLkEE3OD%2BmvTeR4ER%2Fy%2B%2FREwvjxsd66ErRGdNShwW42a02xwRqIdSfTn9kmriLpTsQz7s7jbLqzA2hb%2FioDG9b1Hq9sjmpOjJo%2F3sciLdImM9jcl4%2BaZt9csPwRVMMHE%2BtAGOqUBy6BVWNFdV%2BEbjE8L5whHoQ3To%2FBKiCe%2F0OgbEIvM1TSGoChI2n6aQyoeJWSoT25NaTn8r94iMt8QJIUguQBqrEZQLFKz89f0JmGMrXhqOcbyKKKYxcXlZGTucFcTrDBF2eRYAfwI5q9U8BMKG9bOnm9Qxjeoez70ksZyM5EWSC1UGi3WdJre0kpw0Uu5Oj9tuDzsPbBDPlMtOA3fnMu8652TkQCa&X-Amz-Signature=2bd3ee38d7d062560a74fc0f540850f5d2fb55e5667f557b4c273f0ba9dfd61d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W7C4Y4OW%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T145244Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLXdlc3QtMiJHMEUCIEsGolfbdDOD%2BwOJ7CVWS2Q1zglBCqUisLB4IIK7sp1VAiEAxSXPcrwzpa%2B%2BCklRPCesp5lDCsgTaJOT1YuTKe7A05Yq%2FwMIJxAAGgw2Mzc0MjMxODM4MDUiDM7x3riLXixNqap6hircA37wD1s9%2FHYvfj0dbEbmP%2FPMl9Rmyht9bCAEN1lGPF546rr6%2Baew%2Fw0I2PM8goleVlVm7YksQncCACu%2Bag2vWWvQ4B%2Fxe4K%2Fqh3BbNcGlhUznHORSbpA4DQ0wUcSHGZvyNHirf44BnRTlhSmyZOEiKpi1bAB4mY%2FR5RD%2Bg2wjUJ8YfWMD4McASwUpWpR5vbViv3HH%2BgKn2bKEZT1m5nYRvRzz3nknQmNcWqKA2G9BLpr132qrIqWVhovppjnGy8APsSmJ8%2FeP%2FP%2BxskFf%2B0NphrzTFFaTydv57yy1cYpusGKR9yhST6fFXk7PA6UgO%2FKZT%2BXhif6VfQTcUKp6JTMbQoa8A3Qx7aBoPuCvsJRLjIYAn5mL34FAI%2F0cTNcinZf36kcIKUUBSOzT%2BHDuQmFjudkb%2BMx3r6VtJ87Snv4v0vqr7F%2FDuU0s%2B5Ll%2BlSw1gX38ngVaFXa4h%2FMR%2F1HMNPLKzKGf3BzRfMiZB6uCtkZhahk8WzRwvJgMV26XcKB7y66AiFG0zaP8PfGAdbphBx99O7AQnQd5fd1zerz5GB1ENLegJYxMtapvyEieceFJl628CC3db2z4lNFVamEAZu8MwFucRbMOoywexDqEk7i%2BHA%2FRoepcflnNTdoGF2MKi2%2B9AGOqUBWzqnBez95QJ%2BO3Slr7Qf%2FdZbq7bpsDtRtsw7wG3f252qf9BikDo333PvqCopd5YpFFr2h82Bq3rgaVp9hUgWzRvOXapGfn7zBpDEcxl%2F%2F5INppZ9Vw5wpofGsMoVkOhUxRptJsCEyQPwDNU6pmyb3D0QF9MNqHU8nY8CdrPBWI1qsSrI3l81%2BfPo5n8amOrQI5u9K3T8tOvvQqx9mXlNNiyg9sfl&X-Amz-Signature=690da6da2cd6de756639f78a47f41b3ed3fa32d6d4247882626c1bee261ca7b9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Apparition-d-un-message-sur-le-traitement-des-r-sas-issues-de-l-espace-client-31e8db15623a806896d5f5a1ed131200"
     },
@@ -5794,7 +5986,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "synthese_espaceclient (1).xlsx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S3VQ4UDI%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T105958Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCXVzLXdlc3QtMiJHMEUCIBi%2Byeky7MEHPhxNNjpiKHVYhXKdpMIo5vogAxotx3LLAiEAzOf0mRKo6oNSyjX0xok%2BsAI5gFzwApZslw4Jcb6MLDwq%2FwMIIxAAGgw2Mzc0MjMxODM4MDUiDMH9IVwoXmbgBvJ5VSrcA9DoTeBCh81JVLE8ILocyQ%2Bk3QoV6AdeKmYBh6rpUpGkWFX3Q9NSyU4LlegW0YDlGDa8xI6LtRR9xO7ruuyCcCefq4P1Rh%2Fx%2FSSm43cT2szC5C0Zf8vVQoEJkOW6yskEdw05OLUJu3riNEog1ex8o%2FEClSdB2FJ5iv0gtfWVyaI1Un2pwkC3oFPtcaaDq%2Fou5tAGeADQ62X%2BbI60VAD5A1ZI4bl0dawLV2IUTdNqeyJHg6l9%2F8v7bUEsOmQ8NrLG18%2FaXVfQN0yBccPTuXx5jdPhsnk%2Bz%2FblQdCtUkh0SMDuxXd9YeRnTqMtWl1gL8dwsgOWBSrp0pH9O1rRJmVSfYb9q18vDGDUhigHTPA7vukqFuwF8fQ2Fy17e1NUwy7Tnvd5OuB6xBislzPkx4pYhG4PNk1bLs445ur9GGzMYRlbDxcvgbPr385brmAW31picVHnz2x9VMo5G6tPUPVTGtlJSPeEBRVgUthamo1hjjondGlY9HIxF92%2Fg28Ld5mztLkEE3OD%2BmvTeR4ER%2Fy%2B%2FREwvjxsd66ErRGdNShwW42a02xwRqIdSfTn9kmriLpTsQz7s7jbLqzA2hb%2FioDG9b1Hq9sjmpOjJo%2F3sciLdImM9jcl4%2BaZt9csPwRVMMHE%2BtAGOqUBy6BVWNFdV%2BEbjE8L5whHoQ3To%2FBKiCe%2F0OgbEIvM1TSGoChI2n6aQyoeJWSoT25NaTn8r94iMt8QJIUguQBqrEZQLFKz89f0JmGMrXhqOcbyKKKYxcXlZGTucFcTrDBF2eRYAfwI5q9U8BMKG9bOnm9Qxjeoez70ksZyM5EWSC1UGi3WdJre0kpw0Uu5Oj9tuDzsPbBDPlMtOA3fnMu8652TkQCa&X-Amz-Signature=d20bf233a96b8752c93e0112c96991c2673c02fc754244196aa2bf2bf8e5ad3f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W7C4Y4OW%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T145244Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLXdlc3QtMiJHMEUCIEsGolfbdDOD%2BwOJ7CVWS2Q1zglBCqUisLB4IIK7sp1VAiEAxSXPcrwzpa%2B%2BCklRPCesp5lDCsgTaJOT1YuTKe7A05Yq%2FwMIJxAAGgw2Mzc0MjMxODM4MDUiDM7x3riLXixNqap6hircA37wD1s9%2FHYvfj0dbEbmP%2FPMl9Rmyht9bCAEN1lGPF546rr6%2Baew%2Fw0I2PM8goleVlVm7YksQncCACu%2Bag2vWWvQ4B%2Fxe4K%2Fqh3BbNcGlhUznHORSbpA4DQ0wUcSHGZvyNHirf44BnRTlhSmyZOEiKpi1bAB4mY%2FR5RD%2Bg2wjUJ8YfWMD4McASwUpWpR5vbViv3HH%2BgKn2bKEZT1m5nYRvRzz3nknQmNcWqKA2G9BLpr132qrIqWVhovppjnGy8APsSmJ8%2FeP%2FP%2BxskFf%2B0NphrzTFFaTydv57yy1cYpusGKR9yhST6fFXk7PA6UgO%2FKZT%2BXhif6VfQTcUKp6JTMbQoa8A3Qx7aBoPuCvsJRLjIYAn5mL34FAI%2F0cTNcinZf36kcIKUUBSOzT%2BHDuQmFjudkb%2BMx3r6VtJ87Snv4v0vqr7F%2FDuU0s%2B5Ll%2BlSw1gX38ngVaFXa4h%2FMR%2F1HMNPLKzKGf3BzRfMiZB6uCtkZhahk8WzRwvJgMV26XcKB7y66AiFG0zaP8PfGAdbphBx99O7AQnQd5fd1zerz5GB1ENLegJYxMtapvyEieceFJl628CC3db2z4lNFVamEAZu8MwFucRbMOoywexDqEk7i%2BHA%2FRoepcflnNTdoGF2MKi2%2B9AGOqUBWzqnBez95QJ%2BO3Slr7Qf%2FdZbq7bpsDtRtsw7wG3f252qf9BikDo333PvqCopd5YpFFr2h82Bq3rgaVp9hUgWzRvOXapGfn7zBpDEcxl%2F%2F5INppZ9Vw5wpofGsMoVkOhUxRptJsCEyQPwDNU6pmyb3D0QF9MNqHU8nY8CdrPBWI1qsSrI3l81%2BfPo5n8amOrQI5u9K3T8tOvvQqx9mXlNNiyg9sfl&X-Amz-Signature=7e4060359d988402d65ff2a4516e51c05e2a0a5f85306508241796040d0794a8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-G-rer-l-arr-t-de-l-espace-client-V1-31a8db15623a800d915eea7ee689e4da"
     },
@@ -6013,7 +6205,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-148.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S3VQ4UDI%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T105958Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCXVzLXdlc3QtMiJHMEUCIBi%2Byeky7MEHPhxNNjpiKHVYhXKdpMIo5vogAxotx3LLAiEAzOf0mRKo6oNSyjX0xok%2BsAI5gFzwApZslw4Jcb6MLDwq%2FwMIIxAAGgw2Mzc0MjMxODM4MDUiDMH9IVwoXmbgBvJ5VSrcA9DoTeBCh81JVLE8ILocyQ%2Bk3QoV6AdeKmYBh6rpUpGkWFX3Q9NSyU4LlegW0YDlGDa8xI6LtRR9xO7ruuyCcCefq4P1Rh%2Fx%2FSSm43cT2szC5C0Zf8vVQoEJkOW6yskEdw05OLUJu3riNEog1ex8o%2FEClSdB2FJ5iv0gtfWVyaI1Un2pwkC3oFPtcaaDq%2Fou5tAGeADQ62X%2BbI60VAD5A1ZI4bl0dawLV2IUTdNqeyJHg6l9%2F8v7bUEsOmQ8NrLG18%2FaXVfQN0yBccPTuXx5jdPhsnk%2Bz%2FblQdCtUkh0SMDuxXd9YeRnTqMtWl1gL8dwsgOWBSrp0pH9O1rRJmVSfYb9q18vDGDUhigHTPA7vukqFuwF8fQ2Fy17e1NUwy7Tnvd5OuB6xBislzPkx4pYhG4PNk1bLs445ur9GGzMYRlbDxcvgbPr385brmAW31picVHnz2x9VMo5G6tPUPVTGtlJSPeEBRVgUthamo1hjjondGlY9HIxF92%2Fg28Ld5mztLkEE3OD%2BmvTeR4ER%2Fy%2B%2FREwvjxsd66ErRGdNShwW42a02xwRqIdSfTn9kmriLpTsQz7s7jbLqzA2hb%2FioDG9b1Hq9sjmpOjJo%2F3sciLdImM9jcl4%2BaZt9csPwRVMMHE%2BtAGOqUBy6BVWNFdV%2BEbjE8L5whHoQ3To%2FBKiCe%2F0OgbEIvM1TSGoChI2n6aQyoeJWSoT25NaTn8r94iMt8QJIUguQBqrEZQLFKz89f0JmGMrXhqOcbyKKKYxcXlZGTucFcTrDBF2eRYAfwI5q9U8BMKG9bOnm9Qxjeoez70ksZyM5EWSC1UGi3WdJre0kpw0Uu5Oj9tuDzsPbBDPlMtOA3fnMu8652TkQCa&X-Amz-Signature=aa6fafa7985521485dc26959bc5f83a8f075677833ace5dc60ce14a3ccdbde4d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W7C4Y4OW%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T145244Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLXdlc3QtMiJHMEUCIEsGolfbdDOD%2BwOJ7CVWS2Q1zglBCqUisLB4IIK7sp1VAiEAxSXPcrwzpa%2B%2BCklRPCesp5lDCsgTaJOT1YuTKe7A05Yq%2FwMIJxAAGgw2Mzc0MjMxODM4MDUiDM7x3riLXixNqap6hircA37wD1s9%2FHYvfj0dbEbmP%2FPMl9Rmyht9bCAEN1lGPF546rr6%2Baew%2Fw0I2PM8goleVlVm7YksQncCACu%2Bag2vWWvQ4B%2Fxe4K%2Fqh3BbNcGlhUznHORSbpA4DQ0wUcSHGZvyNHirf44BnRTlhSmyZOEiKpi1bAB4mY%2FR5RD%2Bg2wjUJ8YfWMD4McASwUpWpR5vbViv3HH%2BgKn2bKEZT1m5nYRvRzz3nknQmNcWqKA2G9BLpr132qrIqWVhovppjnGy8APsSmJ8%2FeP%2FP%2BxskFf%2B0NphrzTFFaTydv57yy1cYpusGKR9yhST6fFXk7PA6UgO%2FKZT%2BXhif6VfQTcUKp6JTMbQoa8A3Qx7aBoPuCvsJRLjIYAn5mL34FAI%2F0cTNcinZf36kcIKUUBSOzT%2BHDuQmFjudkb%2BMx3r6VtJ87Snv4v0vqr7F%2FDuU0s%2B5Ll%2BlSw1gX38ngVaFXa4h%2FMR%2F1HMNPLKzKGf3BzRfMiZB6uCtkZhahk8WzRwvJgMV26XcKB7y66AiFG0zaP8PfGAdbphBx99O7AQnQd5fd1zerz5GB1ENLegJYxMtapvyEieceFJl628CC3db2z4lNFVamEAZu8MwFucRbMOoywexDqEk7i%2BHA%2FRoepcflnNTdoGF2MKi2%2B9AGOqUBWzqnBez95QJ%2BO3Slr7Qf%2FdZbq7bpsDtRtsw7wG3f252qf9BikDo333PvqCopd5YpFFr2h82Bq3rgaVp9hUgWzRvOXapGfn7zBpDEcxl%2F%2F5INppZ9Vw5wpofGsMoVkOhUxRptJsCEyQPwDNU6pmyb3D0QF9MNqHU8nY8CdrPBWI1qsSrI3l81%2BfPo5n8amOrQI5u9K3T8tOvvQqx9mXlNNiyg9sfl&X-Amz-Signature=969a221ac8ffc47c848b68c3f893eb924cb9c77ac0696f09eabbf2c269d90526&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/REDSYS-Non-fonctionnel-suite-mise-en-place-3178db15623a80458d0de93a71d0564f"
     },
@@ -6048,7 +6240,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-147.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S3VQ4UDI%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T105958Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCXVzLXdlc3QtMiJHMEUCIBi%2Byeky7MEHPhxNNjpiKHVYhXKdpMIo5vogAxotx3LLAiEAzOf0mRKo6oNSyjX0xok%2BsAI5gFzwApZslw4Jcb6MLDwq%2FwMIIxAAGgw2Mzc0MjMxODM4MDUiDMH9IVwoXmbgBvJ5VSrcA9DoTeBCh81JVLE8ILocyQ%2Bk3QoV6AdeKmYBh6rpUpGkWFX3Q9NSyU4LlegW0YDlGDa8xI6LtRR9xO7ruuyCcCefq4P1Rh%2Fx%2FSSm43cT2szC5C0Zf8vVQoEJkOW6yskEdw05OLUJu3riNEog1ex8o%2FEClSdB2FJ5iv0gtfWVyaI1Un2pwkC3oFPtcaaDq%2Fou5tAGeADQ62X%2BbI60VAD5A1ZI4bl0dawLV2IUTdNqeyJHg6l9%2F8v7bUEsOmQ8NrLG18%2FaXVfQN0yBccPTuXx5jdPhsnk%2Bz%2FblQdCtUkh0SMDuxXd9YeRnTqMtWl1gL8dwsgOWBSrp0pH9O1rRJmVSfYb9q18vDGDUhigHTPA7vukqFuwF8fQ2Fy17e1NUwy7Tnvd5OuB6xBislzPkx4pYhG4PNk1bLs445ur9GGzMYRlbDxcvgbPr385brmAW31picVHnz2x9VMo5G6tPUPVTGtlJSPeEBRVgUthamo1hjjondGlY9HIxF92%2Fg28Ld5mztLkEE3OD%2BmvTeR4ER%2Fy%2B%2FREwvjxsd66ErRGdNShwW42a02xwRqIdSfTn9kmriLpTsQz7s7jbLqzA2hb%2FioDG9b1Hq9sjmpOjJo%2F3sciLdImM9jcl4%2BaZt9csPwRVMMHE%2BtAGOqUBy6BVWNFdV%2BEbjE8L5whHoQ3To%2FBKiCe%2F0OgbEIvM1TSGoChI2n6aQyoeJWSoT25NaTn8r94iMt8QJIUguQBqrEZQLFKz89f0JmGMrXhqOcbyKKKYxcXlZGTucFcTrDBF2eRYAfwI5q9U8BMKG9bOnm9Qxjeoez70ksZyM5EWSC1UGi3WdJre0kpw0Uu5Oj9tuDzsPbBDPlMtOA3fnMu8652TkQCa&X-Amz-Signature=10d7348f12767f786d30bb7f48c06797da91197e26a3346f9b7d26abeed225dc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W7C4Y4OW%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T145244Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLXdlc3QtMiJHMEUCIEsGolfbdDOD%2BwOJ7CVWS2Q1zglBCqUisLB4IIK7sp1VAiEAxSXPcrwzpa%2B%2BCklRPCesp5lDCsgTaJOT1YuTKe7A05Yq%2FwMIJxAAGgw2Mzc0MjMxODM4MDUiDM7x3riLXixNqap6hircA37wD1s9%2FHYvfj0dbEbmP%2FPMl9Rmyht9bCAEN1lGPF546rr6%2Baew%2Fw0I2PM8goleVlVm7YksQncCACu%2Bag2vWWvQ4B%2Fxe4K%2Fqh3BbNcGlhUznHORSbpA4DQ0wUcSHGZvyNHirf44BnRTlhSmyZOEiKpi1bAB4mY%2FR5RD%2Bg2wjUJ8YfWMD4McASwUpWpR5vbViv3HH%2BgKn2bKEZT1m5nYRvRzz3nknQmNcWqKA2G9BLpr132qrIqWVhovppjnGy8APsSmJ8%2FeP%2FP%2BxskFf%2B0NphrzTFFaTydv57yy1cYpusGKR9yhST6fFXk7PA6UgO%2FKZT%2BXhif6VfQTcUKp6JTMbQoa8A3Qx7aBoPuCvsJRLjIYAn5mL34FAI%2F0cTNcinZf36kcIKUUBSOzT%2BHDuQmFjudkb%2BMx3r6VtJ87Snv4v0vqr7F%2FDuU0s%2B5Ll%2BlSw1gX38ngVaFXa4h%2FMR%2F1HMNPLKzKGf3BzRfMiZB6uCtkZhahk8WzRwvJgMV26XcKB7y66AiFG0zaP8PfGAdbphBx99O7AQnQd5fd1zerz5GB1ENLegJYxMtapvyEieceFJl628CC3db2z4lNFVamEAZu8MwFucRbMOoywexDqEk7i%2BHA%2FRoepcflnNTdoGF2MKi2%2B9AGOqUBWzqnBez95QJ%2BO3Slr7Qf%2FdZbq7bpsDtRtsw7wG3f252qf9BikDo333PvqCopd5YpFFr2h82Bq3rgaVp9hUgWzRvOXapGfn7zBpDEcxl%2F%2F5INppZ9Vw5wpofGsMoVkOhUxRptJsCEyQPwDNU6pmyb3D0QF9MNqHU8nY8CdrPBWI1qsSrI3l81%2BfPo5n8amOrQI5u9K3T8tOvvQqx9mXlNNiyg9sfl&X-Amz-Signature=946c4362dc0754fc2acc05008b9e0b84d79774436eac13d83f09021a3fc9fc55&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-WEB-CRM-Le-montant-des-suppl-ments-envoy-s-est-faux-lorsque-le-suppl-ment-est-en-prix-mo-3178db15623a8017a10ff4b9821287fa"
     },
@@ -6126,7 +6318,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-145.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S3VQ4UDI%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T105958Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCXVzLXdlc3QtMiJHMEUCIBi%2Byeky7MEHPhxNNjpiKHVYhXKdpMIo5vogAxotx3LLAiEAzOf0mRKo6oNSyjX0xok%2BsAI5gFzwApZslw4Jcb6MLDwq%2FwMIIxAAGgw2Mzc0MjMxODM4MDUiDMH9IVwoXmbgBvJ5VSrcA9DoTeBCh81JVLE8ILocyQ%2Bk3QoV6AdeKmYBh6rpUpGkWFX3Q9NSyU4LlegW0YDlGDa8xI6LtRR9xO7ruuyCcCefq4P1Rh%2Fx%2FSSm43cT2szC5C0Zf8vVQoEJkOW6yskEdw05OLUJu3riNEog1ex8o%2FEClSdB2FJ5iv0gtfWVyaI1Un2pwkC3oFPtcaaDq%2Fou5tAGeADQ62X%2BbI60VAD5A1ZI4bl0dawLV2IUTdNqeyJHg6l9%2F8v7bUEsOmQ8NrLG18%2FaXVfQN0yBccPTuXx5jdPhsnk%2Bz%2FblQdCtUkh0SMDuxXd9YeRnTqMtWl1gL8dwsgOWBSrp0pH9O1rRJmVSfYb9q18vDGDUhigHTPA7vukqFuwF8fQ2Fy17e1NUwy7Tnvd5OuB6xBislzPkx4pYhG4PNk1bLs445ur9GGzMYRlbDxcvgbPr385brmAW31picVHnz2x9VMo5G6tPUPVTGtlJSPeEBRVgUthamo1hjjondGlY9HIxF92%2Fg28Ld5mztLkEE3OD%2BmvTeR4ER%2Fy%2B%2FREwvjxsd66ErRGdNShwW42a02xwRqIdSfTn9kmriLpTsQz7s7jbLqzA2hb%2FioDG9b1Hq9sjmpOjJo%2F3sciLdImM9jcl4%2BaZt9csPwRVMMHE%2BtAGOqUBy6BVWNFdV%2BEbjE8L5whHoQ3To%2FBKiCe%2F0OgbEIvM1TSGoChI2n6aQyoeJWSoT25NaTn8r94iMt8QJIUguQBqrEZQLFKz89f0JmGMrXhqOcbyKKKYxcXlZGTucFcTrDBF2eRYAfwI5q9U8BMKG9bOnm9Qxjeoez70ksZyM5EWSC1UGi3WdJre0kpw0Uu5Oj9tuDzsPbBDPlMtOA3fnMu8652TkQCa&X-Amz-Signature=9e4adf5041f0aed00cf550507aacd03346ef0b8fdd88a20a2938268cc12f4a01&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W7C4Y4OW%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T145244Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLXdlc3QtMiJHMEUCIEsGolfbdDOD%2BwOJ7CVWS2Q1zglBCqUisLB4IIK7sp1VAiEAxSXPcrwzpa%2B%2BCklRPCesp5lDCsgTaJOT1YuTKe7A05Yq%2FwMIJxAAGgw2Mzc0MjMxODM4MDUiDM7x3riLXixNqap6hircA37wD1s9%2FHYvfj0dbEbmP%2FPMl9Rmyht9bCAEN1lGPF546rr6%2Baew%2Fw0I2PM8goleVlVm7YksQncCACu%2Bag2vWWvQ4B%2Fxe4K%2Fqh3BbNcGlhUznHORSbpA4DQ0wUcSHGZvyNHirf44BnRTlhSmyZOEiKpi1bAB4mY%2FR5RD%2Bg2wjUJ8YfWMD4McASwUpWpR5vbViv3HH%2BgKn2bKEZT1m5nYRvRzz3nknQmNcWqKA2G9BLpr132qrIqWVhovppjnGy8APsSmJ8%2FeP%2FP%2BxskFf%2B0NphrzTFFaTydv57yy1cYpusGKR9yhST6fFXk7PA6UgO%2FKZT%2BXhif6VfQTcUKp6JTMbQoa8A3Qx7aBoPuCvsJRLjIYAn5mL34FAI%2F0cTNcinZf36kcIKUUBSOzT%2BHDuQmFjudkb%2BMx3r6VtJ87Snv4v0vqr7F%2FDuU0s%2B5Ll%2BlSw1gX38ngVaFXa4h%2FMR%2F1HMNPLKzKGf3BzRfMiZB6uCtkZhahk8WzRwvJgMV26XcKB7y66AiFG0zaP8PfGAdbphBx99O7AQnQd5fd1zerz5GB1ENLegJYxMtapvyEieceFJl628CC3db2z4lNFVamEAZu8MwFucRbMOoywexDqEk7i%2BHA%2FRoepcflnNTdoGF2MKi2%2B9AGOqUBWzqnBez95QJ%2BO3Slr7Qf%2FdZbq7bpsDtRtsw7wG3f252qf9BikDo333PvqCopd5YpFFr2h82Bq3rgaVp9hUgWzRvOXapGfn7zBpDEcxl%2F%2F5INppZ9Vw5wpofGsMoVkOhUxRptJsCEyQPwDNU6pmyb3D0QF9MNqHU8nY8CdrPBWI1qsSrI3l81%2BfPo5n8amOrQI5u9K3T8tOvvQqx9mXlNNiyg9sfl&X-Amz-Signature=b28b76781564d6712ca61f20b045b41be7e399e309cff097c54d1c473caae6f1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/Erreur-de-saisie-sur-les-remises-manuelle-g-n-rant-un-montant-de-s-jour-faux-3178db15623a8079a34be124df5b756a"
     },
@@ -6213,7 +6405,7 @@
       "dateSortieStable": "2026-06-01",
       "pieceJointe": {
         "name": "FicheCom_INA142.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9004eaf-4551-44bb-af44-cdddad9a82d0/FicheCom_INA142.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S3VQ4UDI%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T105958Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCXVzLXdlc3QtMiJHMEUCIBi%2Byeky7MEHPhxNNjpiKHVYhXKdpMIo5vogAxotx3LLAiEAzOf0mRKo6oNSyjX0xok%2BsAI5gFzwApZslw4Jcb6MLDwq%2FwMIIxAAGgw2Mzc0MjMxODM4MDUiDMH9IVwoXmbgBvJ5VSrcA9DoTeBCh81JVLE8ILocyQ%2Bk3QoV6AdeKmYBh6rpUpGkWFX3Q9NSyU4LlegW0YDlGDa8xI6LtRR9xO7ruuyCcCefq4P1Rh%2Fx%2FSSm43cT2szC5C0Zf8vVQoEJkOW6yskEdw05OLUJu3riNEog1ex8o%2FEClSdB2FJ5iv0gtfWVyaI1Un2pwkC3oFPtcaaDq%2Fou5tAGeADQ62X%2BbI60VAD5A1ZI4bl0dawLV2IUTdNqeyJHg6l9%2F8v7bUEsOmQ8NrLG18%2FaXVfQN0yBccPTuXx5jdPhsnk%2Bz%2FblQdCtUkh0SMDuxXd9YeRnTqMtWl1gL8dwsgOWBSrp0pH9O1rRJmVSfYb9q18vDGDUhigHTPA7vukqFuwF8fQ2Fy17e1NUwy7Tnvd5OuB6xBislzPkx4pYhG4PNk1bLs445ur9GGzMYRlbDxcvgbPr385brmAW31picVHnz2x9VMo5G6tPUPVTGtlJSPeEBRVgUthamo1hjjondGlY9HIxF92%2Fg28Ld5mztLkEE3OD%2BmvTeR4ER%2Fy%2B%2FREwvjxsd66ErRGdNShwW42a02xwRqIdSfTn9kmriLpTsQz7s7jbLqzA2hb%2FioDG9b1Hq9sjmpOjJo%2F3sciLdImM9jcl4%2BaZt9csPwRVMMHE%2BtAGOqUBy6BVWNFdV%2BEbjE8L5whHoQ3To%2FBKiCe%2F0OgbEIvM1TSGoChI2n6aQyoeJWSoT25NaTn8r94iMt8QJIUguQBqrEZQLFKz89f0JmGMrXhqOcbyKKKYxcXlZGTucFcTrDBF2eRYAfwI5q9U8BMKG9bOnm9Qxjeoez70ksZyM5EWSC1UGi3WdJre0kpw0Uu5Oj9tuDzsPbBDPlMtOA3fnMu8652TkQCa&X-Amz-Signature=c031502108a9c39d2e627d575c413e25758c2effd2e911d303ebe39b3b25350d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9004eaf-4551-44bb-af44-cdddad9a82d0/FicheCom_INA142.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W7C4Y4OW%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T145244Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLXdlc3QtMiJHMEUCIEsGolfbdDOD%2BwOJ7CVWS2Q1zglBCqUisLB4IIK7sp1VAiEAxSXPcrwzpa%2B%2BCklRPCesp5lDCsgTaJOT1YuTKe7A05Yq%2FwMIJxAAGgw2Mzc0MjMxODM4MDUiDM7x3riLXixNqap6hircA37wD1s9%2FHYvfj0dbEbmP%2FPMl9Rmyht9bCAEN1lGPF546rr6%2Baew%2Fw0I2PM8goleVlVm7YksQncCACu%2Bag2vWWvQ4B%2Fxe4K%2Fqh3BbNcGlhUznHORSbpA4DQ0wUcSHGZvyNHirf44BnRTlhSmyZOEiKpi1bAB4mY%2FR5RD%2Bg2wjUJ8YfWMD4McASwUpWpR5vbViv3HH%2BgKn2bKEZT1m5nYRvRzz3nknQmNcWqKA2G9BLpr132qrIqWVhovppjnGy8APsSmJ8%2FeP%2FP%2BxskFf%2B0NphrzTFFaTydv57yy1cYpusGKR9yhST6fFXk7PA6UgO%2FKZT%2BXhif6VfQTcUKp6JTMbQoa8A3Qx7aBoPuCvsJRLjIYAn5mL34FAI%2F0cTNcinZf36kcIKUUBSOzT%2BHDuQmFjudkb%2BMx3r6VtJ87Snv4v0vqr7F%2FDuU0s%2B5Ll%2BlSw1gX38ngVaFXa4h%2FMR%2F1HMNPLKzKGf3BzRfMiZB6uCtkZhahk8WzRwvJgMV26XcKB7y66AiFG0zaP8PfGAdbphBx99O7AQnQd5fd1zerz5GB1ENLegJYxMtapvyEieceFJl628CC3db2z4lNFVamEAZu8MwFucRbMOoywexDqEk7i%2BHA%2FRoepcflnNTdoGF2MKi2%2B9AGOqUBWzqnBez95QJ%2BO3Slr7Qf%2FdZbq7bpsDtRtsw7wG3f252qf9BikDo333PvqCopd5YpFFr2h82Bq3rgaVp9hUgWzRvOXapGfn7zBpDEcxl%2F%2F5INppZ9Vw5wpofGsMoVkOhUxRptJsCEyQPwDNU6pmyb3D0QF9MNqHU8nY8CdrPBWI1qsSrI3l81%2BfPo5n8amOrQI5u9K3T8tOvvQqx9mXlNNiyg9sfl&X-Amz-Signature=84291c3782a5922b82d3e5f96a05bb5aebe64c303158b1781a2b402c96ebab6b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/WEB-SynchroV2-Activation-globale-de-ressource-s-en-V2-pour-l-ensemble-de-nos-clients-3148db15623a80d490cfc8021defa18c"
     },
@@ -7965,7 +8157,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "FicheCom_INA77.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X2OCTADI%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T105958Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCXVzLXdlc3QtMiJHMEUCIGpu3DZHjbh4lGjytJNF5vK5LkRAfp%2B7MWnz%2FsymoAKsAiEA7GhBwhpedX0B1KmTqbn9oNMd3QGKXzu8GreZZMNktGcq%2FwMIIxAAGgw2Mzc0MjMxODM4MDUiDCYU9eNFLUIMpiPTkSrcA9F1TXqX1CgS74tQoK2Rb%2BCS66WkA0jV0m%2FivkUYWOyW67bJurBReKwZGdBKgih3ZstrYMvQMRipOKSacXrIvCsIVDv9m6l5adRA7QqnahikBQNVfN%2FHLQeDVpyZHtE3TbSBTxfS22afRPArr0rpohA9bGzfil1kmZ3oJtNvPEUX2FAqdPxHBi1PEGBGJtKXQyjUKTRZG%2Fq2KwgvayUfjq7O%2FkmNtfsFnmY3cEyBASIAuG2V40Tdi5GYTY4glI7Jm4EYsL4epfWQwHeeN0Y5GVYrPcXkkgMh4o8FCYAVgfJsejyf%2FUi6g0h5aWrPE%2FtbzZ%2Fmp1eXlEdmV%2BhGNdRzS3iNyFiUjRARBAMD1Tl%2Fc18AHbAxtBkZ2Fr4xxItUgzNZExWmWXq492boMnSvF28t6yiQXC3wIVx56PCDJJRTmQgtREXb7q1tE21aztYCQ2QvSfd4wFXfOOB2bDMpKJgDpFdRdk%2BOnKKP4wxx2oPKVlyzm31sZWF4Uk0agqfSSUETH5RIlnrMHLZVJlV%2Fjs%2BJuIf6ya4JrXaijIXqrTK7bF2nbRmRi0UORlYI5aDVDqEL%2B6M9wV7wxRD5cWiz9W2w%2BgxYNrLafMC15AdaRQI%2Bw8X5XVIgyK2cVYYx3AQMMzD%2BtAGOqUB3wfiUEvX111sX4TaPwjHnMpTIhME26RlhcZOtpMOCjxC9zk%2B7hY56RspQNKNccZit9N%2B3IRGw%2BVIJ0R9e524ryavBHWaLwHBKnTlY4IQnwguS41Ww8ZuH%2FvyFCVzIFyO0Nv%2BC5m8nnu5klPxGuY%2Bs7T45o9RVbmAg85fkIhitNSs1mGRQWIQNTwVlDpsJkQWACMfaalOjw%2F6dvHx0CZfbB%2FZRL4o&X-Amz-Signature=571ecdee57b1a1ba80894ad4dd2051826fa501a73744dbdac18feaa11724d5d0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664LFZOWWZ%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T145244Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLXdlc3QtMiJHMEUCIQDnZJPa3uLePzxeCNVvCNagTNLRr%2FAkhkEUTJIHkpHoOQIgPkCXDf%2FnYFqhMnUKbybfn5zw77LFsqrNDyOY35Pve1Eq%2FwMIJxAAGgw2Mzc0MjMxODM4MDUiDLapIlouIqjFXc4ypyrcA1Y3v%2BZ16F3tb3JfNNHjc%2BRvEwz8f21EY8C0IfXYjj%2BSMCtx107UD0L2pXhpK589Aw6cT93avdgcq1631RUzC7BrCHz%2FmlZD8%2FRn34V6Vg383KOhzcR5IB3Ow4lnj3JB%2BZygzQb9tKyhWEIAeTvg0lerg%2BierQNOFEYO6neBMpXAfhnSVb6oaAV%2B%2B5uMCsexogy4UbApNh4pqaO8b4h7KBvz%2BDMSpDB364BiUEesWROXNbocxNsDhjdfmIq%2FIAnarUS%2BcfIIqLxNMQzYdL1tYeEpwhEx6TxFwVs4Utpk4q2k1mrmPywkCJYl5r2dky4555N8%2FGe9IUjeuw63G6zfL8r2RGfXZT2IYBXtUCDagTj7u7IL2evfL95UA0GDohbWVmxQoVgmJcJmpitljlOM88GUmHJ7%2FlNpaofOOnMu8Yl5xwKg%2BAR4So14p70ZXsVncD%2FOf0qX5hE2ubKgNj6MsK%2F3VxoxzPH7lFgyyL50P2zQoJ9BPmMvgR8x5RR6u8rbXU34aLj92TCUuzb9h%2F%2F6jrktoh9rojogGKH6gKj3A6YdjSqy2IgQXIKQjPWHI5h3RRUMPnqamju1bLsSkpyf%2BnJ4ZYexfjv5ApbObsyYaycKERviMxBwQ5dTnNcmMO21%2B9AGOqUBzJG%2Bb%2BvV%2FGNGsC7gpLKW99O5TnFal1B1mjwFFX5ONfkjcgNHpSjx43CnemIq7UlfIiEtPk4X2dgQYzFybkhe2FkjnNTc%2BJRiJljgWEQ52G1DKpiwAwXyoSIceDAbsG0RCEfaMFO3QAMQiB9V2ysPOAx9997O1fIyogqv5ZxUpIB7CEMnh3GgLFWxcOSljJspxaLZad7%2FpQL7ONBcQ%2FvnboOIIGbt&X-Amz-Signature=3ce219e6b2d969f06cd5bba8749459b17621cf6dd9e86369491218163cd197d8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/WEB-LOGICIEL-Check-In-Scan-partie-1-Mapping-envoi-Naxi-G-vers-CiS-3118db15623a81c78ca4f07fb87f2047"
     },
@@ -8831,7 +9023,7 @@
       "dateSortieStable": "2026-06-01",
       "pieceJointe": {
         "name": "FicheCom_INA49.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/6c1a8c6e-e00f-4f6f-bf1e-87c104e0cef1/FicheCom_INA49.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X2OCTADI%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T105958Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCXVzLXdlc3QtMiJHMEUCIGpu3DZHjbh4lGjytJNF5vK5LkRAfp%2B7MWnz%2FsymoAKsAiEA7GhBwhpedX0B1KmTqbn9oNMd3QGKXzu8GreZZMNktGcq%2FwMIIxAAGgw2Mzc0MjMxODM4MDUiDCYU9eNFLUIMpiPTkSrcA9F1TXqX1CgS74tQoK2Rb%2BCS66WkA0jV0m%2FivkUYWOyW67bJurBReKwZGdBKgih3ZstrYMvQMRipOKSacXrIvCsIVDv9m6l5adRA7QqnahikBQNVfN%2FHLQeDVpyZHtE3TbSBTxfS22afRPArr0rpohA9bGzfil1kmZ3oJtNvPEUX2FAqdPxHBi1PEGBGJtKXQyjUKTRZG%2Fq2KwgvayUfjq7O%2FkmNtfsFnmY3cEyBASIAuG2V40Tdi5GYTY4glI7Jm4EYsL4epfWQwHeeN0Y5GVYrPcXkkgMh4o8FCYAVgfJsejyf%2FUi6g0h5aWrPE%2FtbzZ%2Fmp1eXlEdmV%2BhGNdRzS3iNyFiUjRARBAMD1Tl%2Fc18AHbAxtBkZ2Fr4xxItUgzNZExWmWXq492boMnSvF28t6yiQXC3wIVx56PCDJJRTmQgtREXb7q1tE21aztYCQ2QvSfd4wFXfOOB2bDMpKJgDpFdRdk%2BOnKKP4wxx2oPKVlyzm31sZWF4Uk0agqfSSUETH5RIlnrMHLZVJlV%2Fjs%2BJuIf6ya4JrXaijIXqrTK7bF2nbRmRi0UORlYI5aDVDqEL%2B6M9wV7wxRD5cWiz9W2w%2BgxYNrLafMC15AdaRQI%2Bw8X5XVIgyK2cVYYx3AQMMzD%2BtAGOqUB3wfiUEvX111sX4TaPwjHnMpTIhME26RlhcZOtpMOCjxC9zk%2B7hY56RspQNKNccZit9N%2B3IRGw%2BVIJ0R9e524ryavBHWaLwHBKnTlY4IQnwguS41Ww8ZuH%2FvyFCVzIFyO0Nv%2BC5m8nnu5klPxGuY%2Bs7T45o9RVbmAg85fkIhitNSs1mGRQWIQNTwVlDpsJkQWACMfaalOjw%2F6dvHx0CZfbB%2FZRL4o&X-Amz-Signature=8f187d88d2bf9547bf6b4746dbdbb0b4a4e23441f0d163527120fa73d82bc264&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/6c1a8c6e-e00f-4f6f-bf1e-87c104e0cef1/FicheCom_INA49.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664LFZOWWZ%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T145244Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLXdlc3QtMiJHMEUCIQDnZJPa3uLePzxeCNVvCNagTNLRr%2FAkhkEUTJIHkpHoOQIgPkCXDf%2FnYFqhMnUKbybfn5zw77LFsqrNDyOY35Pve1Eq%2FwMIJxAAGgw2Mzc0MjMxODM4MDUiDLapIlouIqjFXc4ypyrcA1Y3v%2BZ16F3tb3JfNNHjc%2BRvEwz8f21EY8C0IfXYjj%2BSMCtx107UD0L2pXhpK589Aw6cT93avdgcq1631RUzC7BrCHz%2FmlZD8%2FRn34V6Vg383KOhzcR5IB3Ow4lnj3JB%2BZygzQb9tKyhWEIAeTvg0lerg%2BierQNOFEYO6neBMpXAfhnSVb6oaAV%2B%2B5uMCsexogy4UbApNh4pqaO8b4h7KBvz%2BDMSpDB364BiUEesWROXNbocxNsDhjdfmIq%2FIAnarUS%2BcfIIqLxNMQzYdL1tYeEpwhEx6TxFwVs4Utpk4q2k1mrmPywkCJYl5r2dky4555N8%2FGe9IUjeuw63G6zfL8r2RGfXZT2IYBXtUCDagTj7u7IL2evfL95UA0GDohbWVmxQoVgmJcJmpitljlOM88GUmHJ7%2FlNpaofOOnMu8Yl5xwKg%2BAR4So14p70ZXsVncD%2FOf0qX5hE2ubKgNj6MsK%2F3VxoxzPH7lFgyyL50P2zQoJ9BPmMvgR8x5RR6u8rbXU34aLj92TCUuzb9h%2F%2F6jrktoh9rojogGKH6gKj3A6YdjSqy2IgQXIKQjPWHI5h3RRUMPnqamju1bLsSkpyf%2BnJ4ZYexfjv5ApbObsyYaycKERviMxBwQ5dTnNcmMO21%2B9AGOqUBzJG%2Bb%2BvV%2FGNGsC7gpLKW99O5TnFal1B1mjwFFX5ONfkjcgNHpSjx43CnemIq7UlfIiEtPk4X2dgQYzFybkhe2FkjnNTc%2BJRiJljgWEQ52G1DKpiwAwXyoSIceDAbsG0RCEfaMFO3QAMQiB9V2ysPOAx9997O1fIyogqv5ZxUpIB7CEMnh3GgLFWxcOSljJspxaLZad7%2FpQL7ONBcQ%2FvnboOIIGbt&X-Amz-Signature=b490493e73df7aa8fa22bef59e3d7cd834a1101954a11d34edee7a41a6449696&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/WEB-GRAFANA-fen-tre-Naxi-V2-activation-en-masse-des-fenetres-3118db15623a8136b2d8d52416248148"
     },
@@ -9342,7 +9534,7 @@
       "dateSortieStable": "2026-06-01",
       "pieceJointe": {
         "name": "FicheCom_INA29.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X2OCTADI%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T105959Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCXVzLXdlc3QtMiJHMEUCIGpu3DZHjbh4lGjytJNF5vK5LkRAfp%2B7MWnz%2FsymoAKsAiEA7GhBwhpedX0B1KmTqbn9oNMd3QGKXzu8GreZZMNktGcq%2FwMIIxAAGgw2Mzc0MjMxODM4MDUiDCYU9eNFLUIMpiPTkSrcA9F1TXqX1CgS74tQoK2Rb%2BCS66WkA0jV0m%2FivkUYWOyW67bJurBReKwZGdBKgih3ZstrYMvQMRipOKSacXrIvCsIVDv9m6l5adRA7QqnahikBQNVfN%2FHLQeDVpyZHtE3TbSBTxfS22afRPArr0rpohA9bGzfil1kmZ3oJtNvPEUX2FAqdPxHBi1PEGBGJtKXQyjUKTRZG%2Fq2KwgvayUfjq7O%2FkmNtfsFnmY3cEyBASIAuG2V40Tdi5GYTY4glI7Jm4EYsL4epfWQwHeeN0Y5GVYrPcXkkgMh4o8FCYAVgfJsejyf%2FUi6g0h5aWrPE%2FtbzZ%2Fmp1eXlEdmV%2BhGNdRzS3iNyFiUjRARBAMD1Tl%2Fc18AHbAxtBkZ2Fr4xxItUgzNZExWmWXq492boMnSvF28t6yiQXC3wIVx56PCDJJRTmQgtREXb7q1tE21aztYCQ2QvSfd4wFXfOOB2bDMpKJgDpFdRdk%2BOnKKP4wxx2oPKVlyzm31sZWF4Uk0agqfSSUETH5RIlnrMHLZVJlV%2Fjs%2BJuIf6ya4JrXaijIXqrTK7bF2nbRmRi0UORlYI5aDVDqEL%2B6M9wV7wxRD5cWiz9W2w%2BgxYNrLafMC15AdaRQI%2Bw8X5XVIgyK2cVYYx3AQMMzD%2BtAGOqUB3wfiUEvX111sX4TaPwjHnMpTIhME26RlhcZOtpMOCjxC9zk%2B7hY56RspQNKNccZit9N%2B3IRGw%2BVIJ0R9e524ryavBHWaLwHBKnTlY4IQnwguS41Ww8ZuH%2FvyFCVzIFyO0Nv%2BC5m8nnu5klPxGuY%2Bs7T45o9RVbmAg85fkIhitNSs1mGRQWIQNTwVlDpsJkQWACMfaalOjw%2F6dvHx0CZfbB%2FZRL4o&X-Amz-Signature=1a03cbec2b48cfb3c6a246e195dab94dde1e4dabd24f45b9bd49eb2b4b920710&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664LFZOWWZ%2F20260602%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260602T145244Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLXdlc3QtMiJHMEUCIQDnZJPa3uLePzxeCNVvCNagTNLRr%2FAkhkEUTJIHkpHoOQIgPkCXDf%2FnYFqhMnUKbybfn5zw77LFsqrNDyOY35Pve1Eq%2FwMIJxAAGgw2Mzc0MjMxODM4MDUiDLapIlouIqjFXc4ypyrcA1Y3v%2BZ16F3tb3JfNNHjc%2BRvEwz8f21EY8C0IfXYjj%2BSMCtx107UD0L2pXhpK589Aw6cT93avdgcq1631RUzC7BrCHz%2FmlZD8%2FRn34V6Vg383KOhzcR5IB3Ow4lnj3JB%2BZygzQb9tKyhWEIAeTvg0lerg%2BierQNOFEYO6neBMpXAfhnSVb6oaAV%2B%2B5uMCsexogy4UbApNh4pqaO8b4h7KBvz%2BDMSpDB364BiUEesWROXNbocxNsDhjdfmIq%2FIAnarUS%2BcfIIqLxNMQzYdL1tYeEpwhEx6TxFwVs4Utpk4q2k1mrmPywkCJYl5r2dky4555N8%2FGe9IUjeuw63G6zfL8r2RGfXZT2IYBXtUCDagTj7u7IL2evfL95UA0GDohbWVmxQoVgmJcJmpitljlOM88GUmHJ7%2FlNpaofOOnMu8Yl5xwKg%2BAR4So14p70ZXsVncD%2FOf0qX5hE2ubKgNj6MsK%2F3VxoxzPH7lFgyyL50P2zQoJ9BPmMvgR8x5RR6u8rbXU34aLj92TCUuzb9h%2F%2F6jrktoh9rojogGKH6gKj3A6YdjSqy2IgQXIKQjPWHI5h3RRUMPnqamju1bLsSkpyf%2BnJ4ZYexfjv5ApbObsyYaycKERviMxBwQ5dTnNcmMO21%2B9AGOqUBzJG%2Bb%2BvV%2FGNGsC7gpLKW99O5TnFal1B1mjwFFX5ONfkjcgNHpSjx43CnemIq7UlfIiEtPk4X2dgQYzFybkhe2FkjnNTc%2BJRiJljgWEQ52G1DKpiwAwXyoSIceDAbsG0RCEfaMFO3QAMQiB9V2ysPOAx9997O1fIyogqv5ZxUpIB7CEMnh3GgLFWxcOSljJspxaLZad7%2FpQL7ONBcQ%2FvnboOIIGbt&X-Amz-Signature=52461c5270bfa82b3e1ad253afe4ce7729363e9dab8e44bb1278d4a9df2fc838&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://www.notion.so/LOGICIEL-NORME-V19-3118db15623a8078a611ffceac61cd6e"
     },
@@ -25637,7 +25829,7 @@
       "ordre": 4,
       "resume": ".",
       "contenu": "## Procédure : Infra projets service produits\n\n> 💡 **Document de référence** — Infrastructure et workflows des projets du service Produits Inaxel.\n\n### 1. Vue d'ensemble de l'écosystème\n\nL'écosystème Inaxel se compose de trois projets prod exposés sur des sous-domaines `*.inaxel.com`, de cinq prototypes à migrer depuis Vercel / GitHub perso, et d'un package npm de design system commun. Tout est hébergé sur GitLab EE auto-hébergé (`gitlab-ee.inaxel.com`). Le projet `KPI CTV` reste hors périmètre.\n\n| # | Nom court | URL cible | Framework | Responsabilité | État |\n| --- | --- | --- | --- | --- | --- |\n| 1 | PRODUITS | `produits.inaxel.com` | React + Vite | Suivi tickets, versions, nouveautés, projets et temps immo (sync Notion au build) | EXISTANT — renommer `inaxel-kpi` en `inaxel-produits` |\n| 2 | STORYBOOK | `storybook.inaxel.com` | Vue.js | Catalogue visuel + code des composants du design system commun | À CRÉER |\n| 3 | NORMES | `normes.inaxel.com` | Vue.js (front) | Affichage des analyses produites par les agents IA réglementaires (RGPD, NF 525, comptabilité) | À CRÉER |\n| 4 | Proto Inaxel Pilot | (sous-domaine proto à définir) | Vue.js | Prototype Pilot | À MIGRER depuis GitHub perso |\n| 5 | Proto Naxi Gestion FS | (sous-domaine proto à définir) | Vue.js | Prototype Naxi (gestion FS) | À MIGRER ou À CRÉER (origine à confirmer) |\n| 6 | Proto NAX7 / Proto NAX7 light / Proto NAX7 Manager | (sous-domaines proto à définir) | Vue.js | Trois prototypes NAX7 (standard, light, manager) | À MIGRER depuis Vercel (`nax7.vercel.app`, `nax7-light.vercel.app`, `nax7-manager.vercel.app`) et GitHub perso |\n| 7 | Package `@inaxel/ui` | npm (registry interne) | Vue.js | Librairie de composants commune, consommée par STORYBOOK, NORMES et les prototypes | À CRÉER |\n\nPoints à trancher : nom définitif du package npm (`@inaxel/ui` proposé), registry (GitLab Package Registry vs Harbor), techno de protection des prototypes (« MDP Edge »), DNS `inaxel.com`, et adoption de Chromatic pour STORYBOOK.\n\n### 2. Schéma visuel de l'infrastructure\n\n```plain text\n                        +------------------------------------+\n                        |  VS Code + Claude Code (côté dev)  |\n                        +------------------------------------+\n                                         |\n                                         v\n                        +------------------------------------+\n                        |          GitLab Inaxel             |\n                        |     (gitlab-ee.inaxel.com)         |\n                        +------------------------------------+\n                              |                       |\n              +---------------+                       +----------------+\n              v                                                        v\n   +---------------------------+                  +-----------------------------------+\n   | Accès modif Jérôme        |                  | Accès modif équipes Produits /    |\n   | uniquement                |                  | Design                            |\n   +---------------------------+                  +-----------------------------------+\n              |                                                        |\n              |                                                        v\n              |                                   +-----------------------------------+\n              |                                   | Validation visuelle / fonction-   |\n              |                                   | nelle par Jérôme avant merge main |\n              |                                   +-----------------------------------+\n              |                                                        |\n   +----------+----------+                  +----------+--------+------+----+----------+\n   v          v          v                  v          v        v          v          v\n +------+ +---------+ +-------+         +--------+ +-------+ +------+ +--------+ +---------+\n |PROD- | |STORYBOOK| |NORMES |         | Proto  | | Proto | |Proto | | Proto  | | Proto   |\n |UITS  | |         | |       |         | Inaxel | | Naxi  | | NAX7 | | NAX7   | | NAX7    |\n |      | |         | |       |         | Pilot  | | Gest. | |      | | light  | | Manager |\n |      | |         | |       |         |        | | FS    | |      | |        | |         |\n |(MDP  | |(MDP    | |(MDP   | |(MDP  | |(MDP    | |(MDP     |\n |      | |         | |       |         | Edge)  | | Edge) | | Edge)| | Edge)  | | Edge)   |\n +------+ +---------+ +-------+         +--------+ +-------+ +------+ +--------+ +---------+\n   ^         ^   ^       ^                  |         |        |          |          |\n   |         |   |       |                  +---------+--------+----------+----------+\n   |         |   |       |                                     |\n   |         |   |       |                                     v\n   |         |   |       |                              +--------------+\n   |         |   |       |                              |  Chromatic   |\n   |         |   |       |                              | (catalogue   |\n   |         |   |       |                              |   commun)    |\n   |         |   |       |                              +--------------+\n   |         |   |       |\n   |         |   |       |   Notion (token) ------+-----> PRODUITS\n   |         |   |       |                        +-----> NORMES\n   |         |   |       |\n   |         |   |       |   Agents IA local (PC Jérôme)\n   |         |   |       +------> docs .txt ------------> NORMES (commit manuel)\n   |         |   |\n   |         |   |   Package npm \"@inaxel/ui\"\n   |         |   +------> tous les protos Vue (Pilot, Naxi, NAX7, NAX7 light, Manager)\n   |         +----------> STORYBOOK\n   |         +----------> NORMES         (NB: PAS PRODUITS)\n   |\n   |   STORYBOOK --> Bot Renovate --> ouvre MR de bump @inaxel/ui dans tous les protos\n   |\n   |   Pipeline GitOps (Ludwig) pour PRODUITS :\n   +-----> build --> registry Harbor --> ArgoCD --> K8s preprod\n```\n\n### 3. Workflows opérationnels par projet\n\n#### 3.1 PRODUITS (`produits.inaxel.com`) — React\n\nWorkflow solo, simple et direct :\n\n- **Acteur unique** : Jérôme. Aucune intervention PO/Design sur ce projet.\n\n- **Code** : React + Vite, push direct sur `main` pour les changements légers, MR pour les modifications de plus grande ampleur (à l'appréciation de Jérôme).\n\n- **CI/CD** : le push déclenche le **pipeline GitOps Ludwig** (cf. section 4.9). Build = `npm ci` → `fetch-notion.js` → `extract-cii.js` → `npm run build`.\n\n- **Rafraîchissement des données Notion** : toutes les heures via un **pipeline schedule GitLab CI** (cron `0 * * * *`). Aucune donnée Notion n'est commitée dans le repo — elles sont fetchées à chaque build.\n\n- **Tempo** : continu, au fil de l'eau.\n\n#### 3.2 STORYBOOK + package `@inaxel/ui` — Vue.js\n\nWorkflow centré sur la diffusion contrôlée du design system vers les prototypes :\n\n- **Acteur** : Jérôme (code Vue.js).\n\n- **Publication double, à chaque ajout/modification de composant** :\n\n- **Propagation automatisée mais non instantanée** :\n\n- **Choix de design** : pas de propagation auto-mergée. La validation MR par MR est **volontaire**, pour garder le contrôle sur les régressions visuelles ou fonctionnelles dans les protos.\n\n#### 3.3 NORMES (`normes.inaxel.com`) — Vue.js + agents IA\n\nWorkflow batch, piloté par Jérôme, sans backend live :\n\n- **Agents IA** : tournent **sur le PC de Jérôme** (solution court terme, en attendant une éventuelle bascule serveur).\n\n- **Sources interrogées** : Legifrance, AFNOR (pour la NF 525), et autres sources réglementaires (RGPD, comptabilité).\n\n- **Sortie des agents** : documents texte produits localement.\n\n- **Ingestion dans le projet** : Jérôme **commit ces docs dans le repo NORMES**, sous `data/normes/`.\n\n- **CI** : build + deploy classique sur `normes.inaxel.com` à chaque push.\n\n- **Front Vue.js** : lit les docs commitées dans `data/normes/` **et** lit Notion (fiches produits + fonctions) pour produire l'**analyse d'impact** (quelle norme touche quel produit / quelle fonction).\n\n- **Architecture** : **pas de backend live, pas de base de données**. Tout est statique au moment du build.\n\n- **Cadence** : **mensuelle**, ou ponctuelle selon la disponibilité de Jérôme et l'actualité réglementaire.\n\n#### 3.4 Les 5 prototypes — Vue.js, workflow PO/Design + Claude Code\n\nC'est le workflow le plus structurant de l'écosystème : il fait travailler les équipes **Produits / Design** (non-développeurs) sur les protos, avec Claude Code comme copilote, et Jérôme uniquement en validation visuelle/fonctionnelle.\n\n**Étapes détaillées :**\n\n1. **Ouverture du repo proto** : le PO/Design ouvre le repo du prototype concerné dans **VS Code**, puis lance **Claude Code** dans le terminal intégré.\n\n1. **Chargement du contexte par Claude Code** : Claude Code lit automatiquement le **`CLAUDE.md`** du repo (conventions, structure, design system) et charge les **skills** définis dans `.claude/skills/` (par exemple `add-fenetre`, `add-bloc`, etc.).\n\n1. **Brief en langage naturel** : le PO/Design décrit en français ce qu'il veut à Claude (ex. *« ajoute une fenêtre de saisie client avec nom, SIRET, adresse »*).\n\n1. **Génération par Claude Code** : Claude crée, dans le même geste :\n\n1. **Vérification visuelle locale** : le PO/Design lance `npm run dev`, vérifie le rendu dans le navigateur, et **itère avec Claude** si la maquette ne correspond pas (ajustement couleurs, layout, libellés…).\n\n1. **Push sur branche feature** : une fois satisfait, le PO/Design pousse sur une branche `feature/xxx`.\n\n1. **Branche ****`main`**** protégée** : le **push direct sur ****`main`**** est interdit**. Seules les **Merge Requests** sont acceptées (réglage GitLab Protected Branches).\n\n1. **Ouverture automatique de la MR** : une MR est ouverte automatiquement (template GitLab, assignation à Jérôme).\n\n1. **Validation par Jérôme — visuel + fonctionnel uniquement** :\n\n1. **CI automatique sur la MR** : la CI vérifie que **le code compile**, que **le lint passe**, et que **le build Storybook réussit**. Si la CI est rouge, Claude (relancé par le PO/Design) ou un dev corrige avant merge.\n\n1. **Après merge sur ****`main`**, trois actions automatiques s'enchaînent :\n\n1. **Consommation par les devs externes** : les devs externes ouvrent Chromatic, voient la nouvelle fenêtre avec **(code Vue + doc Notion MDX + rendu visuel)** côte à côte. Ils peuvent **copier le code** et **l'adapter dans leur pre-prod** (industrialisation à leur charge).\n\n**Résumé du partage de responsabilité sur ce workflow :**\n\n| Rôle | Fait |\n| --- | --- |\n| PO/Design | Brief Claude, itère sur le visuel, push branche feature |\n| Claude Code | Génère Vue + story + lien Notion |\n| Jérôme | Valide visuel + fonctionnel sur MR, merge |\n| CI GitLab | Lint, build, publie Chromatic, génère MDX Notion, notifie |\n| Devs externes | Consomment Chromatic et adaptent dans leur pre-prod |\n\n### 4. Détails techniques et points clés\n\n#### 4.1 Framework par projet\n\nLe choix de framework est tranché projet par projet, sans recherche de mutualisation côté runtime.\n\n- **PRODUITS** reste en **React** : c'est l'héritage du repo `inaxel-kpi`, il ne sera pas touché sur ce volet.\n\n- **STORYBOOK, NORMES et les 5 prototypes** sont en **Vue.js**, exclusivement en **Composition API** avec la syntaxe `<script setup>`.\n\n- **Aucune mutualisation de composants entre React et Vue.** Les deux mondes vivent en parallèle : pas de wrapper, pas de pont, pas de composants partagés au niveau code. PRODUITS reste isolé de l'écosystème Vue, et inversement.\n\n#### 4.2 Design system / package commun\n\nLe design system est matérialisé par un package npm dédié, partagé par tous les projets Vue.\n\n- **Nom** : `@inaxel/ui` (à confirmer).\n\n- **Hébergement** : registry **Harbor** d'Inaxel (in-house, pas npmjs.com public).\n\n- **Construction** : **de zéro en Vue.js**. Le React existant dans `inaxel-kpi/src/components` ne se transpose pas tel quel ; il sert uniquement de **référence visuelle** (palette, espacements, typographie, patterns d'UI).\n\n- **Effort estimé** : **3 à 6 semaines de dev senior** selon la richesse cible de la librairie (composants atomiques uniquement vs blocs composés).\n\n- **Versioning** : **semver** strict, avec propagation automatique vers les protos via Renovate (cf. section 3.2).\n\n#### 4.3 Chromatic\n\nChromatic centralise la visualisation de tous les Storybooks de l'écosystème.\n\n- **Catalogue commun** rassemblant le Storybook du design system **et** celui de chaque prototype.\n\n- **Organisation par dossiers** : `Components/` (atomique), `Blocks/` (composés), `Screens/` (fenêtre complète).\n\n- **Niveau de granularité** explicite : composant atomique / bloc composé / fenêtre complète.\n\n- **Code visible** dans le panneau **\"Show source\"** de Chromatic, pour que le PO / Design puissent lire le code sans cloner le repo.\n\n- **Notifications Slack et email** déclenchées à chaque publication.\n\n- **Tarification** : démarrage sur le **free tier** (5000 snapshots/mois). Bascule sur le plan **Pro à 149 $/mois** uniquement si le quota est dépassé.\n\n#### 4.4 Notion comme source de doc\n\nNotion reste la source de vérité pour la documentation produit ; Storybook la consomme, ne la duplique pas.\n\n- **Contenu source de vérité dans Notion** : fiches produits, liste des fenêtres, fonctions par fenêtre, descriptions textuelles.\n\n- **Liaison story ↔ Notion** : chaque story expose un paramètre `notion.pageId` qui pointe vers la page Notion correspondante.\n\n- **Script de synchro** : `fetch-notion-docs.js` (à coder, **~1 jour de dev**) exécuté dans la CI. Il récupère le contenu Notion, le transforme et **génère des fichiers MDX dans ****`/docs`** consommés par Storybook.\n\n- **Conséquence pour le PO / Design** : la doc est maintenue à **UN seul endroit** (Notion). Pas de duplication, pas de drift.\n\n#### 4.5 Claude Code et workflow PO / Design\n\nClaude Code devient un acteur du workflow code côté PO / Design, encadré par des fichiers de configuration versionnés.\n\n- **`CLAUDE.md`**** à la racine de chaque repo** : conventions du projet (Vue 3 Composition API, structure `src/screens|blocks|components`, source unique du design system `@inaxel/ui`, etc.).\n\n- **`.claude/skills/`** : skills dédiés versionnés avec le code, par exemple `add-fenetre.md`, `add-bloc.md`, `update-design-system.md`, `notion-doc-link.md`.\n\n- **Comportement** : Claude Code lit ces fichiers au démarrage et applique automatiquement les patterns du projet sans avoir à les redécrire à chaque prompt.\n\n- **Usage cible** : le PO et le Design utilisent Claude Code comme **pair programmer**. Ils décrivent ce qu'ils veulent en langage naturel ; Claude écrit le code Vue conforme aux conventions.\n\n#### 4.6 Validation et CI stricte\n\nLa règle de partage du contrôle qualité est nette : l'humain regarde, la CI vérifie.\n\n- **Règle d'or** : Jérôme valide **uniquement le visuel et le fonctionnel**. Pas de relecture ligne à ligne.\n\n- **La CI compense** en vérifiant automatiquement, sur chaque MR : `eslint`, `prettier`, `vue-tsc` (si TypeScript), `npm run build`, `npm run build-storybook`.\n\n- **Optionnel** : smoke tests **Playwright** basiques (la page se charge sans erreur JS).\n\n- **Décision finale** : si la CI passe au vert **et** que Jérôme valide visuellement, la MR est acceptée et mergée.\n\n#### 4.7 Protection accès prototypes\n\nLes 5 prototypes sont accessibles via une URL nominative (proto-xxx.inaxel.com ou similaire) mais protégés par mot de passe au niveau Edge.\n\n- **URL nominative** par prototype : `proto-xxx.inaxel.com` ou similaire.\n\n- **Protection MDP Edge** : technologie précise **à confirmer ultérieurement**. Options envisagées : **Cloudflare Access**, **middleware custom**, **Vercel Password Protection** (150 $/mois ; déconseillé car Vercel est par ailleurs abandonné).\n\n- **Diffusion** : les devs externes reçoivent les credentials d'accès aux maquettes déployées **ainsi qu'à Chromatic**.\n\n#### 4.8 DNS et hébergement\n\nDNS et runtime sont entièrement gérés en interne, sans dépendance Vercel.\n\n- **Domaine ****`inaxel.com`** : registrar **Gandi**, DNS également géré chez Gandi.\n\n- **Sous-domaines** (`produits`, `storybook`, `normes`, `proto-*`) : chaque sous-domaine donne lieu à un enregistrement **A** ou **CNAME** chez Gandi pointant vers l'**ingress K8s** Inaxel.\n\n- **Hébergement** : **tout chez Inaxel sur K8s preprod**, déployé via **Ludwig**.\n\n- **Vercel** : **abandonné** intégralement.\n\n#### 4.9 Pipeline GitOps (Ludwig) pour PRODUITS\n\nPRODUITS suit le pipeline GitOps standard Inaxel.\n\n- **Stages** :\n\n- **Tags Kubernetes** sur les jobs CI : `mks`, `kubernetes`, `preprod`.\n\n- **Variables CI nécessaires** : `NOTION_TOKEN` + variables Harbor (registry, user, password) + tokens GitOps (accès en écriture au repo `web/devops/infra`).\n\n### 5. Points en suspens / décisions à prendre ultérieurement\n\n> 💡 Ces points ne bloquent pas le démarrage du projet, mais doivent être tranchés progressivement.\n\n- **Technologie de protection MDP Edge** sur les 5 prototypes — choix entre Cloudflare Access (nécessite délégation DNS chez Cloudflare), middleware custom (gratuit, demande du code), Vercel Password Protection (150 $/mois, écarté par défaut). **À trancher avant la migration du premier prototype.**\n\n- **Hébergement futur des agents IA NORMES** — court terme sur le PC de Jérôme (manuel). À terme, déplacer vers un cron Inaxel (Ludwig) ou un serverless cloud (OpenAI Assistants, Anthropic Batch). **Pas urgent.**\n\n- **Suivi du quota Chromatic Free tier** (5000 snapshots/mois). Si dépassement avec les 5 protos + design system actifs, bascule Pro 149 $/mois. **Monitorer après ~3 mois d'usage.**\n\n- **Renommage du repo ****`inaxel-kpi`**** → ****`inaxel-produits`** à coordonner avec Ludwig (impact sur le pipeline GitOps + les variables dans les `.gitlab-ci.yml`). **Tâche concrète à planifier.**\n\n- **Audit et nettoyage des assets perso GitHub** avant migration vers GitLab Inaxel : design system Vue + les prototypes déjà amorcés. **Prochaine étape concrète après ce document.**\n\n- **Recrutement d'un dev senior référent** (freelance ou CDI) pour : valider les MR sensibles, debugger quand Claude Code se plante, maintenir les skills/rules. **À planifier dès que l'usage des protos par PO/Design démarre vraiment.**\n\n- **Mise à jour du composant React ****`InfraProjetsSchema.jsx`** (dashboard PRODUITS) : son contenu actuel reflète l'ancienne archi (Vercel, Jira, GitHub privé). À refactorer pour refléter le schéma de la section 2 du présent document.\n\n### 6. Règle d'or\n\n> 💡 **Jérôme valide sur main UNIQUEMENT l'aspect visuel et fonctionnel. Jamais le code.**",
-      "lastEdited": "2026-06-02T10:04:00.000Z",
+      "lastEdited": "2026-06-02T14:04:00.000Z",
       "url": "https://www.notion.so/Infra-projets-service-produits-3648db15623a81949ec2eeb59712e669"
     },
     {
@@ -26674,7 +26866,7 @@
     ]
   },
   "counts": {
-    "classique": 282,
+    "classique": 288,
     "topline": 57,
     "suiviLundi": 169,
     "equipe": 19,
