@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T11:51:36.773Z",
+  "generatedAt": "2026-06-09T14:15:16.660Z",
   "source": "suiviLundi",
   "rows": [
     {
@@ -1219,6 +1219,18 @@
       "start": "2026-06-01",
       "end": "2026-06-07",
       "projet": "Naxi G Full Saas",
+      "person": "Albert (UX)",
+      "fenetre": "PLANNING - finalisation",
+      "groupe": "PLANNING",
+      "phase": "Maquette / UX",
+      "jours": 1.714,
+      "actions": ""
+    },
+    {
+      "week": "2026-W23",
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "projet": "Naxi G Full Saas",
       "person": "Caroline",
       "fenetre": "Ventes réception",
       "groupe": "HOME",
@@ -1309,6 +1321,66 @@
       "phase": "Front",
       "jours": 4,
       "actions": "point a faire sur les modes de paiement"
+    },
+    {
+      "week": "2026-W24",
+      "start": "2026-06-08",
+      "end": "2026-06-14",
+      "projet": "Naxi G Full Saas",
+      "person": "Agathe (PO)",
+      "fenetre": "Réservation a traiter",
+      "groupe": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 3,
+      "actions": "  • analyse fiche client"
+    },
+    {
+      "week": "2026-W24",
+      "start": "2026-06-08",
+      "end": "2026-06-14",
+      "projet": "Naxi G Full Saas",
+      "person": "Caroline",
+      "fenetre": "Ventes réception",
+      "groupe": "HOME",
+      "phase": "Front",
+      "jours": 4,
+      "actions": ""
+    },
+    {
+      "week": "2026-W24",
+      "start": "2026-06-08",
+      "end": "2026-06-14",
+      "projet": "Naxi G Full Saas",
+      "person": "Cédric.F",
+      "fenetre": "Réservation a traiter",
+      "groupe": "HOME",
+      "phase": "Back",
+      "jours": 4,
+      "actions": ""
+    },
+    {
+      "week": "2026-W24",
+      "start": "2026-06-08",
+      "end": "2026-06-14",
+      "projet": "Naxi G Full Saas",
+      "person": "Denis",
+      "fenetre": "détails des transactions",
+      "groupe": "HOME",
+      "phase": "Back",
+      "jours": 4,
+      "actions": ""
+    },
+    {
+      "week": "2026-W24",
+      "start": "2026-06-08",
+      "end": "2026-06-14",
+      "projet": "Naxi G Full Saas",
+      "person": "Ines",
+      "fenetre": "PLANNING - finalisation",
+      "groupe": "PLANNING",
+      "phase": "Front",
+      "jours": 4,
+      "actions": ""
     }
   ]
 }
