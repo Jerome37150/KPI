@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T01:30:20.998Z",
+  "generatedAt": "2026-06-09T05:44:00.087Z",
   "classique": [
     {
       "id": "3798db15-623a-8016-b720-c2d92446630c",
@@ -8,7 +8,9 @@
       "classification": "BUG STRUCTURANT",
       "statut": "A planifier",
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
       "fonctions": "Autres",
       "produits": [
         "NAXI GESTION SQL",
@@ -207,7 +209,7 @@
       "identifiant": "INA-348",
       "titre": "[LOGICIEL] - NaxiExport ne s’ouvre pas à cause du traitement LoungeUp qui ne finit jamais",
       "classification": "BUG STRUCTURANT",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -222,9 +224,13 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [],
+      "persBack": [
+        "Denis"
+      ],
       "persFront": [],
-      "persPoTest": [],
+      "persPoTest": [
+        "Marjorie"
+      ],
       "pointAvancement": 0,
       "pointsBlocage": "",
       "explication": "La fenêtre NAXI Export ne se lance plus et reste bloquée sur l’envoi vers LoungeUp",
@@ -244,7 +250,7 @@
       "identifiant": "INA-347",
       "titre": "[LOGICIEL] - Message d’erreur lors de la validation d’un paiement avec répartition manuelle",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -259,9 +265,13 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [],
+      "persBack": [
+        "Rachid"
+      ],
       "persFront": [],
-      "persPoTest": [],
+      "persPoTest": [
+        "Aurore"
+      ],
       "pointAvancement": 0,
       "pointsBlocage": "",
       "explication": "Un message d’erreur apparaît dans NAXI lorsque on valide un paiement hors séjour sur lequel on a appliqué une répartition manuelle",
@@ -391,9 +401,13 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [],
+      "persBack": [
+        "Rachid"
+      ],
       "persFront": [],
-      "persPoTest": [],
+      "persPoTest": [
+        "Aurore"
+      ],
       "pointAvancement": 0,
       "pointsBlocage": "",
       "explication": "Les clients et séjours ne sont pas envoyés dans la table SYNCHRO lorsqu’ils sont issus d’un devis transformé directement en séjour",
@@ -415,9 +429,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": "Stand by",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "MARS 27"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Autres",
       "produits": [
         "NAXI GESTION SQL"
@@ -447,7 +459,7 @@
       "identifiant": "INA-341",
       "titre": "[LOGICIEL] - Lenteurs sur fermeture fenêtre facturation par lot",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -462,9 +474,13 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [],
+      "persBack": [
+        "Loic"
+      ],
       "persFront": [],
-      "persPoTest": [],
+      "persPoTest": [
+        "Marjorie"
+      ],
       "pointAvancement": 0,
       "pointsBlocage": "",
       "explication": "Naxi galère à fermer la fenêtre de facturation par lot que ce soit en HF ou en SQL / Depuis le 18.18 à minima",
@@ -486,9 +502,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": "Stand by",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "JUILLET 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Paramétrages",
       "produits": [
         "NAXI GESTION SQL",
@@ -533,14 +547,20 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [],
+      "persBack": [
+        "Loic"
+      ],
       "persFront": [],
-      "persPoTest": [],
+      "persPoTest": [
+        "Marjorie"
+      ],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "J’ai passé ce camping en 18.19 ce midi et depuis, il a beaucoup d’erreurs visiblement. Le message se génère à chaque changement d’opérateur dans NAXI ",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "18.20",
       "versionStable": "",
       "dateSortieInter": "2026-06-04",
@@ -585,7 +605,7 @@
       "identifiant": "INA-337",
       "titre": "[WEB]NAXITO :  suppression du patch BUG-1108",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -602,12 +622,16 @@
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
-      "persPoTest": [],
+      "persPoTest": [
+        "Marjorie"
+      ],
       "pointAvancement": 0,
       "pointsBlocage": "",
       "explication": "L'équipe SH a mis en place le correctif sur l’Assurance Annulation. Il faut supprimer le code de l’US BUG-1108 (INA-316)",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -722,11 +746,9 @@
       "identifiant": "INA-333",
       "titre": "[LOGICIEL] NNP : Augmenter la taille du champ commentaire des tickets d’intervention automatiques",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "JUILLET 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Autres",
       "produits": [
         "NAXI NOMAD PREMIUM"
@@ -770,9 +792,13 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [],
+      "persBack": [
+        "Denis"
+      ],
       "persFront": [],
-      "persPoTest": [],
+      "persPoTest": [
+        "Aurore"
+      ],
       "pointAvancement": 0,
       "pointsBlocage": "",
       "explication": "En passant par la fenêtre Arrivées/Départs, quand on bascule un ou plusieurs séjours en “Parti” les ménages ne basculent pas en “A faire”",
@@ -842,8 +868,12 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
+      "persFront": [
+        "Louis Charles"
+      ],
+      "persPoTest": [
+        "Marjorie"
+      ],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -938,11 +968,9 @@
       "identifiant": "INA-327",
       "titre": "[WEB] GRAFANA : Dashboard Caution Swikly ",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "JUILLET 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Autres",
       "produits": [
         "GRAFANA"
@@ -1045,7 +1073,7 @@
       "identifiant": "INA-324",
       "titre": "[LOGICIEL] - Les séjours sans emplacements ne s’affichent pas dans les arrivées & départs du jour en SQL uniquement",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -1117,11 +1145,9 @@
       "identifiant": "INA-322",
       "titre": "[LOGICIEL] - Appels inutiles des campings résiliés vers systemAPI depuis NAXI EXPORT ",
       "classification": "BUG D'USAGE",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Synchro",
       "produits": [
         "NAXI GESTION HF",
@@ -1152,7 +1178,7 @@
       "identifiant": "INA-321",
       "titre": "[WEB] Interprétation web service - gestion des soldes par CTV",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -1378,7 +1404,6 @@
       "statut": "A planifier",
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26",
         "OCTOBRE 26"
       ],
       "fonctions": "Compta & finances",
@@ -1629,7 +1654,7 @@
       "identifiant": "INA-306",
       "titre": "[LOGICIEL] - Export EURODECISION & CRM (Maeva) : Fichier sous loc erroné",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26",
@@ -1685,9 +1710,13 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [],
+      "persBack": [
+        "Rachid"
+      ],
       "persFront": [],
-      "persPoTest": [],
+      "persPoTest": [
+        "Aurore"
+      ],
       "pointAvancement": 0,
       "pointsBlocage": "",
       "explication": "Le camping LA SIRENE nous a contacté car les pdf de certaines de ses factures ne se généraient pas. \nAprès analyse de leur base de données, les factures concernées ont toutes été éditées sur des fiches clients ou la civilité est à 0\n\n→ Correctif d’urgence fait par Loic car ils avaient plus de 9 000 fiches clients dans ce cas. Le correctif consiste à prendre la civilité par défaut dans NAXI (table PARGEN / pg_code = PREFCLI) lorsque la fiche client a une civilité à 0. \n\n→ En revanche, il faudrait trouver comment ils peuvent avoir des fiches clients avec une civilité à 0/ Pistes déjà vérifiées : \n\n  • L’import des clients par fichier excel, si pas de colonne civilité, alors le champs se met en effet à 0 donc il faudrait prévoir une US pour que quand on importe un fichier client on mette la civilité par défaut si il y en a pas\n\n",
@@ -1722,9 +1751,13 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [],
+      "persBack": [
+        "Denis"
+      ],
       "persFront": [],
-      "persPoTest": [],
+      "persPoTest": [
+        "Marjorie"
+      ],
       "pointAvancement": 0.5,
       "pointsBlocage": "retour en test",
       "explication": "Malgré le correctif de Loic (BUG 1080), le camping ‘maprairie’ continue d’avoir des séjours non envoyés sur le web\n\n→ Exemple du 15.05 : séjour n°868 non envoyés sur le web\n→ Exemple du 16.05 : séjour n° 888 non envoyé sur le web\n\nAnalyse : \n\n  • Clients & séjours non présents sur le web\n  • Fichier synchro>sequential vide donc aucun élément en attente de synchro\n  • Table synchro vide\n  • Les deux sont des résas web avec création de la fiche client lors de la resa \n\nRecherche toujours en cours",
@@ -1862,7 +1895,7 @@
       "identifiant": "INA-298",
       "titre": "[LOGICIEL] - Ajout garde fou sur nom & prénom des participants d’un séjour",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -1903,7 +1936,7 @@
       "identifiant": "INA-297",
       "titre": "[WEB] - Masquer le bouton “Souscrire au programme fidelité” sur l’espace client",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -1943,11 +1976,9 @@
       "identifiant": "INA-296",
       "titre": "[LOGICIEL] Empêcher la saisie d’espace dans la création de nouvel emplacement",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Paramétrages",
       "produits": [
         "NAXI GESTION SQL",
@@ -1978,11 +2009,9 @@
       "identifiant": "INA-295",
       "titre": "[LOGICIEL] Générer un txt des traces en mode debug + case à cocher sur fenetre debug",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "AOUT 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -2054,7 +2083,7 @@
       "identifiant": "INA-293",
       "titre": "[LOGICIEL] Erreur envoi des COMMAND",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -2176,7 +2205,7 @@
       "identifiant": "INA-290",
       "titre": "[LOGICIEL] Non affichage des participants sur les bons de séjour groupe",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -2500,7 +2529,7 @@
       "identifiant": "INA-279",
       "titre": "[LOGICIEL] Ajouter un contrôle sur le nom des fiches clients",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -2611,7 +2640,7 @@
       "identifiant": "INA-276",
       "titre": "[LOGICIEL] Erreur synchro fiche client : Aucun contrôle de la syntaxe adresse email depuis la création d’une fiche client issue d’un devis",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -2806,7 +2835,7 @@
       "identifiant": "INA-269",
       "titre": "[LOGICIEL] Régression sur saisie date de naissance du client entre séjour et fiche client",
       "classification": "BUG D'USAGE",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -2850,7 +2879,7 @@
       "statut": "A planifier",
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "JUILLET 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": "Facturation",
       "produits": [
@@ -3224,11 +3253,9 @@
       "identifiant": "INA-257",
       "titre": "[LOGICIEL] Param SWIKLY : Griser et rendre non modifiable l’environnement",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Paramétrages",
       "produits": [
         "NAXI GESTION SQL",
@@ -3411,7 +3438,7 @@
       "identifiant": "INA-252",
       "titre": "[LOGICIEL] Envoi auto des etats comptables : Liste des ventes NaxiCommerce non envoyées",
       "classification": "DEV sans CC",
-      "statut": "En cours",
+      "statut": "Sprint en cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -3727,7 +3754,7 @@
       "identifiant": "INA-244",
       "titre": "[LOGICIEL]  Template : erreur sur les montants affichés dans le cas d’un séjour de TO ",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "JUIN 26"
@@ -4000,7 +4027,7 @@
       "identifiant": "INA-236",
       "titre": "[LOGICIEL] Impossible d’ouvrir un compteur sans date de fin",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUILLET 26",
@@ -4074,7 +4101,7 @@
       "identifiant": "INA-234",
       "titre": "[LOGICIEL] Purge automatique des logs SDK / NAXICOD",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -4331,7 +4358,7 @@
       "identifiant": "INA-225",
       "titre": "[LOGICIEL] Arrêt de l'appel à l'ancienne synchro quand toutes les ressources sont en V2 pour la remontée des données venant du web",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -4372,11 +4399,9 @@
       "identifiant": "INA-224",
       "titre": "[WEB] Empêcher la création de freshressource si le codsoc n’existe pas dans la table societ",
       "classification": "BUG D'USAGE",
-      "statut": null,
+      "statut": "Stand by",
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -4618,11 +4643,9 @@
       "identifiant": "INA-217",
       "titre": "[LOGICIEL]  Refacto complet des extractions clients & séjours",
       "classification": "DEV avec CC",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Extractions",
       "produits": [
         "NAXI GESTION SQL",
@@ -4724,7 +4747,7 @@
       "identifiant": "INA-214",
       "titre": "[WEB] Message erreur dans Naxi si saisie d’un # sur le pré-enregistrement de l’espace client",
       "classification": "BUG D'USAGE",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -4883,7 +4906,7 @@
       "dateSortieStable": "2026-06-04",
       "pieceJointe": {
         "name": "FicheCom_INA211.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/7d5f981d-c5ad-447d-83ff-a8edbc4a77ac/FicheCom_INA211.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z3XECU3A%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T013003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAq1PRQGv%2BGI%2B95H6YoPfW1vRZ2Dyd0F%2F7jE9z8rLeCOAiEAgbxczcps1%2FUiesHUuIZmbQUipO1np724AN630i4NKosqiAQIwf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJ6v1m5OrGD8X9dwpCrcAwZPZNf0FuXxWW5y3vlcDbHhHWwIyNh2C8U9j0KZnuBEkJV1qEvH%2BYhZSkTOjIRSCKPKUXgu2d7LSjM6pj6lGaunhTe9ZpE78Edm%2FnKjqRlssFONUqMQw%2F6ApZIa%2FG8yKqnD2CqehJNU3oMAaX49ynUpXBARheIxGgNXdqI3b8jjy%2BAngPHfBdZcSR0pI0Cs0SEhzB58GvOOEOhe9TVYP8DTDInb2Gvm6u9RD12C4SPNlyR0EeBkSnnona2gy8EcpfMTLNA6ntY0g%2Bvj4eDHa0mpoCL3VVisf6r4UYVJ7jo5p9CcBRFJ0zYc0D42GQv5MQxiPXdGxYPD90MvsN5yVL9kjzUR0nvsmoE9LQPgbOd4demMDvuwUaUVMvI%2F1yHzoO9by81cNw6yWRiH9SFIR5t1Afab3y0KwaKciM%2FdW0Q9u%2BoP7rvNhYGrnsOjxIreYz5WswEM2KqDRZB1ksOA2GXNpj4mrI%2BA6YHyb40Ogj1yh%2Bsu1LM4KxNOXcFDnc3q5vYBIsIDAxb5uQOYxMdZ9MXYC9h5lDyUMV7o7Vd1pSMhl8wvqWZS8ZFBRhJy%2FG6pzZt%2B0J%2B099HfIoTBo3wsfrBflADFUoWVDK%2FnabW7c4rLZrpG5%2BEd1BGxP2loMKO6ndEGOqUBld2EmmbJDyfXjBhq9Q7c2RexUz%2F5l80QjF9R3zsj3Ttg6Cv1i%2FCSNgzOY0DnKob3f7FwGAq%2FgKYH3oirE5g8WCPOW7gceNoTY00bYLg0ebzLhaZdiMrx%2FW%2B6Xes7G7tv%2BCaNPpX2W7%2B1AeNOMK%2Bp0QPmakldtH4hEi%2BjlsxCdguD1i624e6%2Bj64NztyCji05EauBFcd7je7cvqHuOfSK8dBTBG25&X-Amz-Signature=0c6dc280897ef02b586968dda7ce5035eab50c333c8ccc9dbcbf17417daef389&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/7d5f981d-c5ad-447d-83ff-a8edbc4a77ac/FicheCom_INA211.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VH2X3RR3%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T054347Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBWihNg%2Fax321X5xKO8rCgvdcK6gOlFdZ2r%2FCmYRPjSVAiEAq0tP6ADQRAvlkTWIKW2fcMoY3qdXWyvJYuWTL3AaMhkqiAQIxv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFfhMKaEWj670D33VircA9XbAi5TVZTU%2B9Q1VG2a4fAQ89uV5XfRTIdweSnT97K%2Fe%2Fh4TAtLxsEpyLPjbOtdkQCxvCX67O8DSfuRsxVqWirdMbmT3495VKikNDH0zFkDq82EiJxPnabyKWyWKPxe%2Fg8GhWP61tSILc0QDtgwISHb72sTkdDPpcf6U0aymRlQBNoBATtisZwY7wu4gk6A6DLrktyP4Kb%2F238jzPACMrv5tRo7gA87%2FEWfd6rEjtmAh4jfY5g1%2FznWxpg51VeG%2FyhbVFDuT7af7A4zxXthALwsbZIB7xiGKiFxHM6VpGK29LApSYvv%2FirW9P7ac%2BKKtDgRHDAjjg5yX7%2BvCyW3SZTwffjemesj8oHeHKtV31dlyTQ1UanQX3gpjQToWi%2BNaTLFgW2Vmdo4xkua9dgJ1mWROkiLwGKowO81JA5FAGgL%2FDUzNZFNakJ1B29nWodNitr2xDAVH4R62JMrUFys0XCDduwtDTmee25XGpAPpE9hlQ3Nka8hgu6eXgSmC%2B1s2%2ByuKfnXZXOEsGSoH4TVPhQSUnAk8uE3WB3jHp%2BB0r1ie4FHPs96dOv3BwShnOujtDdyQTyhnTV07Mu%2BMrQaz1G%2BYMFxVW3LdFRbgQ59EAoUuYXizb7ruDUiA4ACMJDEntEGOqUB0tLL6AjDhJB4AGRwvkqdzzdkS1%2Bpq7i%2FSSR9ZMTwjNwy2pp6IN3bgXM%2FxxreDCxa6IhwaDOFUAordkvRwJ9WbqDfvPiA%2Flfo%2BlLVSVmzfsdQVgYjrfzgJDkhCPOfTR3uZ65xBSPMcYS%2BFW%2FlTdG6OVal9T2L9lTjZg7TdAvtesR1iVVrYkDcyVrwOf5cAXTzE%2F6tEitHjglI2h4yGWMQF7O8oZqh&X-Amz-Signature=1e1c7f55a7008ec2385493bd21b521d704b592404232d9107bf87bfb934687a0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/WEB-GRAFANA-fen-tre-Naxi-V2-d-sactivation-en-masse-des-fenetres-3348db15623a80abb795f2964aad7abf"
     },
@@ -4894,9 +4917,7 @@
       "classification": "DEV sans CC",
       "statut": "Stand by",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Séjour",
       "produits": [
         "NAXI GESTION SQL",
@@ -4966,11 +4987,9 @@
       "identifiant": "INA-208",
       "titre": "[LOGICIEL] Refaire l’installateur de NAXITOTEM",
       "classification": "DEV sans CC",
-      "statut": null,
+      "statut": "Stand by",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "AOUT 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI TOTEM"
@@ -5468,7 +5487,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "Fiche communication.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z3XECU3A%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T013003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAq1PRQGv%2BGI%2B95H6YoPfW1vRZ2Dyd0F%2F7jE9z8rLeCOAiEAgbxczcps1%2FUiesHUuIZmbQUipO1np724AN630i4NKosqiAQIwf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJ6v1m5OrGD8X9dwpCrcAwZPZNf0FuXxWW5y3vlcDbHhHWwIyNh2C8U9j0KZnuBEkJV1qEvH%2BYhZSkTOjIRSCKPKUXgu2d7LSjM6pj6lGaunhTe9ZpE78Edm%2FnKjqRlssFONUqMQw%2F6ApZIa%2FG8yKqnD2CqehJNU3oMAaX49ynUpXBARheIxGgNXdqI3b8jjy%2BAngPHfBdZcSR0pI0Cs0SEhzB58GvOOEOhe9TVYP8DTDInb2Gvm6u9RD12C4SPNlyR0EeBkSnnona2gy8EcpfMTLNA6ntY0g%2Bvj4eDHa0mpoCL3VVisf6r4UYVJ7jo5p9CcBRFJ0zYc0D42GQv5MQxiPXdGxYPD90MvsN5yVL9kjzUR0nvsmoE9LQPgbOd4demMDvuwUaUVMvI%2F1yHzoO9by81cNw6yWRiH9SFIR5t1Afab3y0KwaKciM%2FdW0Q9u%2BoP7rvNhYGrnsOjxIreYz5WswEM2KqDRZB1ksOA2GXNpj4mrI%2BA6YHyb40Ogj1yh%2Bsu1LM4KxNOXcFDnc3q5vYBIsIDAxb5uQOYxMdZ9MXYC9h5lDyUMV7o7Vd1pSMhl8wvqWZS8ZFBRhJy%2FG6pzZt%2B0J%2B099HfIoTBo3wsfrBflADFUoWVDK%2FnabW7c4rLZrpG5%2BEd1BGxP2loMKO6ndEGOqUBld2EmmbJDyfXjBhq9Q7c2RexUz%2F5l80QjF9R3zsj3Ttg6Cv1i%2FCSNgzOY0DnKob3f7FwGAq%2FgKYH3oirE5g8WCPOW7gceNoTY00bYLg0ebzLhaZdiMrx%2FW%2B6Xes7G7tv%2BCaNPpX2W7%2B1AeNOMK%2Bp0QPmakldtH4hEi%2BjlsxCdguD1i624e6%2Bj64NztyCji05EauBFcd7je7cvqHuOfSK8dBTBG25&X-Amz-Signature=dc4a383f0a137629696a069f53a4a9cd59942b43efc2dbcd18eb76be6ee9ff1b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/5ac99a77-e316-4fef-a45b-3173c48a6263/Fiche_communication.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VH2X3RR3%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T054347Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBWihNg%2Fax321X5xKO8rCgvdcK6gOlFdZ2r%2FCmYRPjSVAiEAq0tP6ADQRAvlkTWIKW2fcMoY3qdXWyvJYuWTL3AaMhkqiAQIxv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFfhMKaEWj670D33VircA9XbAi5TVZTU%2B9Q1VG2a4fAQ89uV5XfRTIdweSnT97K%2Fe%2Fh4TAtLxsEpyLPjbOtdkQCxvCX67O8DSfuRsxVqWirdMbmT3495VKikNDH0zFkDq82EiJxPnabyKWyWKPxe%2Fg8GhWP61tSILc0QDtgwISHb72sTkdDPpcf6U0aymRlQBNoBATtisZwY7wu4gk6A6DLrktyP4Kb%2F238jzPACMrv5tRo7gA87%2FEWfd6rEjtmAh4jfY5g1%2FznWxpg51VeG%2FyhbVFDuT7af7A4zxXthALwsbZIB7xiGKiFxHM6VpGK29LApSYvv%2FirW9P7ac%2BKKtDgRHDAjjg5yX7%2BvCyW3SZTwffjemesj8oHeHKtV31dlyTQ1UanQX3gpjQToWi%2BNaTLFgW2Vmdo4xkua9dgJ1mWROkiLwGKowO81JA5FAGgL%2FDUzNZFNakJ1B29nWodNitr2xDAVH4R62JMrUFys0XCDduwtDTmee25XGpAPpE9hlQ3Nka8hgu6eXgSmC%2B1s2%2ByuKfnXZXOEsGSoH4TVPhQSUnAk8uE3WB3jHp%2BB0r1ie4FHPs96dOv3BwShnOujtDdyQTyhnTV07Mu%2BMrQaz1G%2BYMFxVW3LdFRbgQ59EAoUuYXizb7ruDUiA4ACMJDEntEGOqUB0tLL6AjDhJB4AGRwvkqdzzdkS1%2Bpq7i%2FSSR9ZMTwjNwy2pp6IN3bgXM%2FxxreDCxa6IhwaDOFUAordkvRwJ9WbqDfvPiA%2Flfo%2BlLVSVmzfsdQVgYjrfzgJDkhCPOfTR3uZ65xBSPMcYS%2BFW%2FlTdG6OVal9T2L9lTjZg7TdAvtesR1iVVrYkDcyVrwOf5cAXTzE%2F6tEitHjglI2h4yGWMQF7O8oZqh&X-Amz-Signature=f35288dc1c0fdecf69f6d372b5c59e33664181728c25f1623449d121b43f898e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/LOGICIEL-Facturation-factures-et-proforma-d-ch-ances-multipes-probl-mes-3288db15623a80989620f6c98afd1347"
     },
@@ -5658,11 +5677,9 @@
       "identifiant": "INA-189",
       "titre": "CTV - Push modification resa Naxi vers CTV",
       "classification": "DEV avec CC",
-      "statut": "A etudier",
+      "statut": "A prevoir TOP LINE",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "DECEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Séjour",
       "produits": [
         "CTV"
@@ -5686,41 +5703,6 @@
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/CTV-Push-modification-resa-Naxi-vers-CTV-3228db15623a809ab647eab53c2b52de"
-    },
-    {
-      "id": "3228db15-623a-8163-ab33-dffbc3d919b9",
-      "identifiant": "INA-188",
-      "titre": "[LOGICIEL] Facture électronique (envoi des statuts) ",
-      "classification": "DEV avec CC",
-      "statut": "Stand by",
-      "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "JUILLET 26"
-      ],
-      "fonctions": "Facturation",
-      "produits": [
-        "NAXI GESTION HF",
-        "NAXI GESTION SQL"
-      ],
-      "client": "tous",
-      "dateCreation": "2026-03-13T10:38:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "Norme factures électroniques (envoi des statuts)",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Facture-lectronique-envoi-des-statuts-3228db15623a8163ab33dffbc3d919b9"
     },
     {
       "id": "3228db15-623a-81cd-bf4e-dd5a108036ce",
@@ -5759,7 +5741,7 @@
       "identifiant": "INA-186",
       "titre": "[LOGICIEL]Ajout d’un mode de calcul sur les supplément : % sur tarif de base",
       "classification": "DEV avec CC",
-      "statut": "A etudier",
+      "statut": "A prevoir TOP LINE",
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Paramétrages",
@@ -5830,11 +5812,9 @@
       "identifiant": "INA-184",
       "titre": "[LOGICIEL] Export comptable : Générer automatiquement l’export sans action humaine pour tous les établissements d’un groupe",
       "classification": "DEV avec CC",
-      "statut": "A etudier",
+      "statut": "A prevoir TOP LINE",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "NOVEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Compta & finances",
       "produits": [
         "NAXI GESTION SQL",
@@ -5972,11 +5952,9 @@
       "identifiant": "INA-180",
       "titre": " [LOGICIEL] Le séjour n’apparaît pas dans l’onglet ‘Prestations’ de la fiche client après validation d’un devis depuis l’espace client",
       "classification": "BUG D'USAGE",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Séjour",
       "produits": [
         "NAXI ESPACE CLIENT",
@@ -6042,11 +6020,9 @@
       "identifiant": "INA-178",
       "titre": "[LOGICIEL] Refacto de l’envoi vers EURODECISION",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "AOUT 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Extractions",
       "produits": [
         "NAXI GESTION SQL"
@@ -6257,11 +6233,9 @@
       "identifiant": "INA-162",
       "titre": "[LOGICIEL] Version espagnole : Numérotation de facture différente de la numérotation des avoirs",
       "classification": "DEV avec CC",
-      "statut": "A etudier",
+      "statut": "A prevoir TOP LINE",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "NOVEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Facturation",
       "produits": [
         "VERSION ESPAGNOLE"
@@ -6291,7 +6265,7 @@
       "identifiant": "INA-161",
       "titre": "[WEB+LOGICIEL] Recevoir dans le CRM les suppléments hors séjours",
       "classification": "DEV sans CC",
-      "statut": "A etudier",
+      "statut": "A planifier",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "SEPTEMBRE 26"
@@ -6353,7 +6327,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-160.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z3XECU3A%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T013003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAq1PRQGv%2BGI%2B95H6YoPfW1vRZ2Dyd0F%2F7jE9z8rLeCOAiEAgbxczcps1%2FUiesHUuIZmbQUipO1np724AN630i4NKosqiAQIwf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJ6v1m5OrGD8X9dwpCrcAwZPZNf0FuXxWW5y3vlcDbHhHWwIyNh2C8U9j0KZnuBEkJV1qEvH%2BYhZSkTOjIRSCKPKUXgu2d7LSjM6pj6lGaunhTe9ZpE78Edm%2FnKjqRlssFONUqMQw%2F6ApZIa%2FG8yKqnD2CqehJNU3oMAaX49ynUpXBARheIxGgNXdqI3b8jjy%2BAngPHfBdZcSR0pI0Cs0SEhzB58GvOOEOhe9TVYP8DTDInb2Gvm6u9RD12C4SPNlyR0EeBkSnnona2gy8EcpfMTLNA6ntY0g%2Bvj4eDHa0mpoCL3VVisf6r4UYVJ7jo5p9CcBRFJ0zYc0D42GQv5MQxiPXdGxYPD90MvsN5yVL9kjzUR0nvsmoE9LQPgbOd4demMDvuwUaUVMvI%2F1yHzoO9by81cNw6yWRiH9SFIR5t1Afab3y0KwaKciM%2FdW0Q9u%2BoP7rvNhYGrnsOjxIreYz5WswEM2KqDRZB1ksOA2GXNpj4mrI%2BA6YHyb40Ogj1yh%2Bsu1LM4KxNOXcFDnc3q5vYBIsIDAxb5uQOYxMdZ9MXYC9h5lDyUMV7o7Vd1pSMhl8wvqWZS8ZFBRhJy%2FG6pzZt%2B0J%2B099HfIoTBo3wsfrBflADFUoWVDK%2FnabW7c4rLZrpG5%2BEd1BGxP2loMKO6ndEGOqUBld2EmmbJDyfXjBhq9Q7c2RexUz%2F5l80QjF9R3zsj3Ttg6Cv1i%2FCSNgzOY0DnKob3f7FwGAq%2FgKYH3oirE5g8WCPOW7gceNoTY00bYLg0ebzLhaZdiMrx%2FW%2B6Xes7G7tv%2BCaNPpX2W7%2B1AeNOMK%2Bp0QPmakldtH4hEi%2BjlsxCdguD1i624e6%2Bj64NztyCji05EauBFcd7je7cvqHuOfSK8dBTBG25&X-Amz-Signature=c4777ab26262e45a937622ec70251ef03960ca66bdaf89ad830ae625017dd503&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f659493c-3e95-4294-9f56-aa723a499edf/INA-160.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VH2X3RR3%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T054347Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBWihNg%2Fax321X5xKO8rCgvdcK6gOlFdZ2r%2FCmYRPjSVAiEAq0tP6ADQRAvlkTWIKW2fcMoY3qdXWyvJYuWTL3AaMhkqiAQIxv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFfhMKaEWj670D33VircA9XbAi5TVZTU%2B9Q1VG2a4fAQ89uV5XfRTIdweSnT97K%2Fe%2Fh4TAtLxsEpyLPjbOtdkQCxvCX67O8DSfuRsxVqWirdMbmT3495VKikNDH0zFkDq82EiJxPnabyKWyWKPxe%2Fg8GhWP61tSILc0QDtgwISHb72sTkdDPpcf6U0aymRlQBNoBATtisZwY7wu4gk6A6DLrktyP4Kb%2F238jzPACMrv5tRo7gA87%2FEWfd6rEjtmAh4jfY5g1%2FznWxpg51VeG%2FyhbVFDuT7af7A4zxXthALwsbZIB7xiGKiFxHM6VpGK29LApSYvv%2FirW9P7ac%2BKKtDgRHDAjjg5yX7%2BvCyW3SZTwffjemesj8oHeHKtV31dlyTQ1UanQX3gpjQToWi%2BNaTLFgW2Vmdo4xkua9dgJ1mWROkiLwGKowO81JA5FAGgL%2FDUzNZFNakJ1B29nWodNitr2xDAVH4R62JMrUFys0XCDduwtDTmee25XGpAPpE9hlQ3Nka8hgu6eXgSmC%2B1s2%2ByuKfnXZXOEsGSoH4TVPhQSUnAk8uE3WB3jHp%2BB0r1ie4FHPs96dOv3BwShnOujtDdyQTyhnTV07Mu%2BMrQaz1G%2BYMFxVW3LdFRbgQ59EAoUuYXizb7ruDUiA4ACMJDEntEGOqUB0tLL6AjDhJB4AGRwvkqdzzdkS1%2Bpq7i%2FSSR9ZMTwjNwy2pp6IN3bgXM%2FxxreDCxa6IhwaDOFUAordkvRwJ9WbqDfvPiA%2Flfo%2BlLVSVmzfsdQVgYjrfzgJDkhCPOfTR3uZ65xBSPMcYS%2BFW%2FlTdG6OVal9T2L9lTjZg7TdAvtesR1iVVrYkDcyVrwOf5cAXTzE%2F6tEitHjglI2h4yGWMQF7O8oZqh&X-Amz-Signature=d2ef3b850f1aa36af73163110a73c3882bae3b71bbc32d478301396c225768ef&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Apparition-d-un-message-sur-le-traitement-des-r-sas-issues-de-l-espace-client-31e8db15623a806896d5f5a1ed131200"
     },
@@ -6396,7 +6370,7 @@
       "identifiant": "INA-158",
       "titre": "[WEB+LOGICIEL] Automatiser l’import de tarif avec une fréquence définie",
       "classification": "DEV avec CC",
-      "statut": "A etudier",
+      "statut": "A prevoir TOP LINE",
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Paramétrages",
@@ -6462,11 +6436,9 @@
       "identifiant": "INA-156",
       "titre": " [LOGICIEL/WEB]  Gérer l’arrêt de l’espace client V1",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "AOUT 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
@@ -6490,7 +6462,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "synthese_espaceclient (1).xlsx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z3XECU3A%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T013003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAq1PRQGv%2BGI%2B95H6YoPfW1vRZ2Dyd0F%2F7jE9z8rLeCOAiEAgbxczcps1%2FUiesHUuIZmbQUipO1np724AN630i4NKosqiAQIwf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJ6v1m5OrGD8X9dwpCrcAwZPZNf0FuXxWW5y3vlcDbHhHWwIyNh2C8U9j0KZnuBEkJV1qEvH%2BYhZSkTOjIRSCKPKUXgu2d7LSjM6pj6lGaunhTe9ZpE78Edm%2FnKjqRlssFONUqMQw%2F6ApZIa%2FG8yKqnD2CqehJNU3oMAaX49ynUpXBARheIxGgNXdqI3b8jjy%2BAngPHfBdZcSR0pI0Cs0SEhzB58GvOOEOhe9TVYP8DTDInb2Gvm6u9RD12C4SPNlyR0EeBkSnnona2gy8EcpfMTLNA6ntY0g%2Bvj4eDHa0mpoCL3VVisf6r4UYVJ7jo5p9CcBRFJ0zYc0D42GQv5MQxiPXdGxYPD90MvsN5yVL9kjzUR0nvsmoE9LQPgbOd4demMDvuwUaUVMvI%2F1yHzoO9by81cNw6yWRiH9SFIR5t1Afab3y0KwaKciM%2FdW0Q9u%2BoP7rvNhYGrnsOjxIreYz5WswEM2KqDRZB1ksOA2GXNpj4mrI%2BA6YHyb40Ogj1yh%2Bsu1LM4KxNOXcFDnc3q5vYBIsIDAxb5uQOYxMdZ9MXYC9h5lDyUMV7o7Vd1pSMhl8wvqWZS8ZFBRhJy%2FG6pzZt%2B0J%2B099HfIoTBo3wsfrBflADFUoWVDK%2FnabW7c4rLZrpG5%2BEd1BGxP2loMKO6ndEGOqUBld2EmmbJDyfXjBhq9Q7c2RexUz%2F5l80QjF9R3zsj3Ttg6Cv1i%2FCSNgzOY0DnKob3f7FwGAq%2FgKYH3oirE5g8WCPOW7gceNoTY00bYLg0ebzLhaZdiMrx%2FW%2B6Xes7G7tv%2BCaNPpX2W7%2B1AeNOMK%2Bp0QPmakldtH4hEi%2BjlsxCdguD1i624e6%2Bj64NztyCji05EauBFcd7je7cvqHuOfSK8dBTBG25&X-Amz-Signature=0eebd04e19de2113b018feb599904bccba307c854b1e24e9e60daaf6c474b474&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4e232494-f00d-4ea0-b201-1391fd982df8/synthese_espaceclient_%281%29.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VH2X3RR3%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T054347Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBWihNg%2Fax321X5xKO8rCgvdcK6gOlFdZ2r%2FCmYRPjSVAiEAq0tP6ADQRAvlkTWIKW2fcMoY3qdXWyvJYuWTL3AaMhkqiAQIxv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFfhMKaEWj670D33VircA9XbAi5TVZTU%2B9Q1VG2a4fAQ89uV5XfRTIdweSnT97K%2Fe%2Fh4TAtLxsEpyLPjbOtdkQCxvCX67O8DSfuRsxVqWirdMbmT3495VKikNDH0zFkDq82EiJxPnabyKWyWKPxe%2Fg8GhWP61tSILc0QDtgwISHb72sTkdDPpcf6U0aymRlQBNoBATtisZwY7wu4gk6A6DLrktyP4Kb%2F238jzPACMrv5tRo7gA87%2FEWfd6rEjtmAh4jfY5g1%2FznWxpg51VeG%2FyhbVFDuT7af7A4zxXthALwsbZIB7xiGKiFxHM6VpGK29LApSYvv%2FirW9P7ac%2BKKtDgRHDAjjg5yX7%2BvCyW3SZTwffjemesj8oHeHKtV31dlyTQ1UanQX3gpjQToWi%2BNaTLFgW2Vmdo4xkua9dgJ1mWROkiLwGKowO81JA5FAGgL%2FDUzNZFNakJ1B29nWodNitr2xDAVH4R62JMrUFys0XCDduwtDTmee25XGpAPpE9hlQ3Nka8hgu6eXgSmC%2B1s2%2ByuKfnXZXOEsGSoH4TVPhQSUnAk8uE3WB3jHp%2BB0r1ie4FHPs96dOv3BwShnOujtDdyQTyhnTV07Mu%2BMrQaz1G%2BYMFxVW3LdFRbgQ59EAoUuYXizb7ruDUiA4ACMJDEntEGOqUB0tLL6AjDhJB4AGRwvkqdzzdkS1%2Bpq7i%2FSSR9ZMTwjNwy2pp6IN3bgXM%2FxxreDCxa6IhwaDOFUAordkvRwJ9WbqDfvPiA%2Flfo%2BlLVSVmzfsdQVgYjrfzgJDkhCPOfTR3uZ65xBSPMcYS%2BFW%2FlTdG6OVal9T2L9lTjZg7TdAvtesR1iVVrYkDcyVrwOf5cAXTzE%2F6tEitHjglI2h4yGWMQF7O8oZqh&X-Amz-Signature=117f96736f26ba7a605f7e05993a0f4fd0b6481064788734fdbd315a761243d1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/LOGICIEL-WEB-G-rer-l-arr-t-de-l-espace-client-V1-31a8db15623a800d915eea7ee689e4da"
     },
@@ -6579,9 +6551,7 @@
       "classification": "STACK TECH",
       "statut": "Stand by",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Paramétrages",
       "produits": [
         "NAXI GESTION HF",
@@ -6649,11 +6619,9 @@
       "identifiant": "INA-150",
       "titre": "[WEB] Espace client : pouvoir souscrire à l’assurance annulation même si séjour non modifiable",
       "classification": "DEV avec CC",
-      "statut": "A etudier",
+      "statut": "A prevoir TOP LINE",
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
@@ -6709,7 +6677,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-148.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z3XECU3A%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T013003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAq1PRQGv%2BGI%2B95H6YoPfW1vRZ2Dyd0F%2F7jE9z8rLeCOAiEAgbxczcps1%2FUiesHUuIZmbQUipO1np724AN630i4NKosqiAQIwf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJ6v1m5OrGD8X9dwpCrcAwZPZNf0FuXxWW5y3vlcDbHhHWwIyNh2C8U9j0KZnuBEkJV1qEvH%2BYhZSkTOjIRSCKPKUXgu2d7LSjM6pj6lGaunhTe9ZpE78Edm%2FnKjqRlssFONUqMQw%2F6ApZIa%2FG8yKqnD2CqehJNU3oMAaX49ynUpXBARheIxGgNXdqI3b8jjy%2BAngPHfBdZcSR0pI0Cs0SEhzB58GvOOEOhe9TVYP8DTDInb2Gvm6u9RD12C4SPNlyR0EeBkSnnona2gy8EcpfMTLNA6ntY0g%2Bvj4eDHa0mpoCL3VVisf6r4UYVJ7jo5p9CcBRFJ0zYc0D42GQv5MQxiPXdGxYPD90MvsN5yVL9kjzUR0nvsmoE9LQPgbOd4demMDvuwUaUVMvI%2F1yHzoO9by81cNw6yWRiH9SFIR5t1Afab3y0KwaKciM%2FdW0Q9u%2BoP7rvNhYGrnsOjxIreYz5WswEM2KqDRZB1ksOA2GXNpj4mrI%2BA6YHyb40Ogj1yh%2Bsu1LM4KxNOXcFDnc3q5vYBIsIDAxb5uQOYxMdZ9MXYC9h5lDyUMV7o7Vd1pSMhl8wvqWZS8ZFBRhJy%2FG6pzZt%2B0J%2B099HfIoTBo3wsfrBflADFUoWVDK%2FnabW7c4rLZrpG5%2BEd1BGxP2loMKO6ndEGOqUBld2EmmbJDyfXjBhq9Q7c2RexUz%2F5l80QjF9R3zsj3Ttg6Cv1i%2FCSNgzOY0DnKob3f7FwGAq%2FgKYH3oirE5g8WCPOW7gceNoTY00bYLg0ebzLhaZdiMrx%2FW%2B6Xes7G7tv%2BCaNPpX2W7%2B1AeNOMK%2Bp0QPmakldtH4hEi%2BjlsxCdguD1i624e6%2Bj64NztyCji05EauBFcd7je7cvqHuOfSK8dBTBG25&X-Amz-Signature=c5d1f17747be1f74a95f51cc52228e25e3ee1b8bf027759af6b0f8d4d6bef113&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/03580410-5816-499d-bf84-0cd8fc29ace0/INA-148.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VH2X3RR3%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T054347Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBWihNg%2Fax321X5xKO8rCgvdcK6gOlFdZ2r%2FCmYRPjSVAiEAq0tP6ADQRAvlkTWIKW2fcMoY3qdXWyvJYuWTL3AaMhkqiAQIxv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFfhMKaEWj670D33VircA9XbAi5TVZTU%2B9Q1VG2a4fAQ89uV5XfRTIdweSnT97K%2Fe%2Fh4TAtLxsEpyLPjbOtdkQCxvCX67O8DSfuRsxVqWirdMbmT3495VKikNDH0zFkDq82EiJxPnabyKWyWKPxe%2Fg8GhWP61tSILc0QDtgwISHb72sTkdDPpcf6U0aymRlQBNoBATtisZwY7wu4gk6A6DLrktyP4Kb%2F238jzPACMrv5tRo7gA87%2FEWfd6rEjtmAh4jfY5g1%2FznWxpg51VeG%2FyhbVFDuT7af7A4zxXthALwsbZIB7xiGKiFxHM6VpGK29LApSYvv%2FirW9P7ac%2BKKtDgRHDAjjg5yX7%2BvCyW3SZTwffjemesj8oHeHKtV31dlyTQ1UanQX3gpjQToWi%2BNaTLFgW2Vmdo4xkua9dgJ1mWROkiLwGKowO81JA5FAGgL%2FDUzNZFNakJ1B29nWodNitr2xDAVH4R62JMrUFys0XCDduwtDTmee25XGpAPpE9hlQ3Nka8hgu6eXgSmC%2B1s2%2ByuKfnXZXOEsGSoH4TVPhQSUnAk8uE3WB3jHp%2BB0r1ie4FHPs96dOv3BwShnOujtDdyQTyhnTV07Mu%2BMrQaz1G%2BYMFxVW3LdFRbgQ59EAoUuYXizb7ruDUiA4ACMJDEntEGOqUB0tLL6AjDhJB4AGRwvkqdzzdkS1%2Bpq7i%2FSSR9ZMTwjNwy2pp6IN3bgXM%2FxxreDCxa6IhwaDOFUAordkvRwJ9WbqDfvPiA%2Flfo%2BlLVSVmzfsdQVgYjrfzgJDkhCPOfTR3uZ65xBSPMcYS%2BFW%2FlTdG6OVal9T2L9lTjZg7TdAvtesR1iVVrYkDcyVrwOf5cAXTzE%2F6tEitHjglI2h4yGWMQF7O8oZqh&X-Amz-Signature=ad058ffed1c443e745b6f05d5fe0b3af3fbedebc8480d0716e018ce3e1fb2f8a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/REDSYS-Non-fonctionnel-suite-mise-en-place-3178db15623a80458d0de93a71d0564f"
     },
@@ -6744,7 +6712,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-147.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z3XECU3A%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T013003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAq1PRQGv%2BGI%2B95H6YoPfW1vRZ2Dyd0F%2F7jE9z8rLeCOAiEAgbxczcps1%2FUiesHUuIZmbQUipO1np724AN630i4NKosqiAQIwf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJ6v1m5OrGD8X9dwpCrcAwZPZNf0FuXxWW5y3vlcDbHhHWwIyNh2C8U9j0KZnuBEkJV1qEvH%2BYhZSkTOjIRSCKPKUXgu2d7LSjM6pj6lGaunhTe9ZpE78Edm%2FnKjqRlssFONUqMQw%2F6ApZIa%2FG8yKqnD2CqehJNU3oMAaX49ynUpXBARheIxGgNXdqI3b8jjy%2BAngPHfBdZcSR0pI0Cs0SEhzB58GvOOEOhe9TVYP8DTDInb2Gvm6u9RD12C4SPNlyR0EeBkSnnona2gy8EcpfMTLNA6ntY0g%2Bvj4eDHa0mpoCL3VVisf6r4UYVJ7jo5p9CcBRFJ0zYc0D42GQv5MQxiPXdGxYPD90MvsN5yVL9kjzUR0nvsmoE9LQPgbOd4demMDvuwUaUVMvI%2F1yHzoO9by81cNw6yWRiH9SFIR5t1Afab3y0KwaKciM%2FdW0Q9u%2BoP7rvNhYGrnsOjxIreYz5WswEM2KqDRZB1ksOA2GXNpj4mrI%2BA6YHyb40Ogj1yh%2Bsu1LM4KxNOXcFDnc3q5vYBIsIDAxb5uQOYxMdZ9MXYC9h5lDyUMV7o7Vd1pSMhl8wvqWZS8ZFBRhJy%2FG6pzZt%2B0J%2B099HfIoTBo3wsfrBflADFUoWVDK%2FnabW7c4rLZrpG5%2BEd1BGxP2loMKO6ndEGOqUBld2EmmbJDyfXjBhq9Q7c2RexUz%2F5l80QjF9R3zsj3Ttg6Cv1i%2FCSNgzOY0DnKob3f7FwGAq%2FgKYH3oirE5g8WCPOW7gceNoTY00bYLg0ebzLhaZdiMrx%2FW%2B6Xes7G7tv%2BCaNPpX2W7%2B1AeNOMK%2Bp0QPmakldtH4hEi%2BjlsxCdguD1i624e6%2Bj64NztyCji05EauBFcd7je7cvqHuOfSK8dBTBG25&X-Amz-Signature=a3fe74b0078c4cf3e7791ddc65ee68bca044f3f62afeeb61bb0557b0b557afa9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d297175d-8443-40e4-955d-fbd33e23d0a1/INA-147.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VH2X3RR3%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T054347Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBWihNg%2Fax321X5xKO8rCgvdcK6gOlFdZ2r%2FCmYRPjSVAiEAq0tP6ADQRAvlkTWIKW2fcMoY3qdXWyvJYuWTL3AaMhkqiAQIxv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFfhMKaEWj670D33VircA9XbAi5TVZTU%2B9Q1VG2a4fAQ89uV5XfRTIdweSnT97K%2Fe%2Fh4TAtLxsEpyLPjbOtdkQCxvCX67O8DSfuRsxVqWirdMbmT3495VKikNDH0zFkDq82EiJxPnabyKWyWKPxe%2Fg8GhWP61tSILc0QDtgwISHb72sTkdDPpcf6U0aymRlQBNoBATtisZwY7wu4gk6A6DLrktyP4Kb%2F238jzPACMrv5tRo7gA87%2FEWfd6rEjtmAh4jfY5g1%2FznWxpg51VeG%2FyhbVFDuT7af7A4zxXthALwsbZIB7xiGKiFxHM6VpGK29LApSYvv%2FirW9P7ac%2BKKtDgRHDAjjg5yX7%2BvCyW3SZTwffjemesj8oHeHKtV31dlyTQ1UanQX3gpjQToWi%2BNaTLFgW2Vmdo4xkua9dgJ1mWROkiLwGKowO81JA5FAGgL%2FDUzNZFNakJ1B29nWodNitr2xDAVH4R62JMrUFys0XCDduwtDTmee25XGpAPpE9hlQ3Nka8hgu6eXgSmC%2B1s2%2ByuKfnXZXOEsGSoH4TVPhQSUnAk8uE3WB3jHp%2BB0r1ie4FHPs96dOv3BwShnOujtDdyQTyhnTV07Mu%2BMrQaz1G%2BYMFxVW3LdFRbgQ59EAoUuYXizb7ruDUiA4ACMJDEntEGOqUB0tLL6AjDhJB4AGRwvkqdzzdkS1%2Bpq7i%2FSSR9ZMTwjNwy2pp6IN3bgXM%2FxxreDCxa6IhwaDOFUAordkvRwJ9WbqDfvPiA%2Flfo%2BlLVSVmzfsdQVgYjrfzgJDkhCPOfTR3uZ65xBSPMcYS%2BFW%2FlTdG6OVal9T2L9lTjZg7TdAvtesR1iVVrYkDcyVrwOf5cAXTzE%2F6tEitHjglI2h4yGWMQF7O8oZqh&X-Amz-Signature=1e6b985c82b3edd6cb54f1e4186dcec3b0fe28dffccaa24ea4b8e660f980c3d6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/LOGICIEL-WEB-CRM-Le-montant-des-suppl-ments-envoy-s-est-faux-lorsque-le-suppl-ment-est-en-prix-mo-3178db15623a8017a10ff4b9821287fa"
     },
@@ -6828,7 +6796,7 @@
       "dateSortieStable": null,
       "pieceJointe": {
         "name": "INA-145.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z3XECU3A%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T013003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAq1PRQGv%2BGI%2B95H6YoPfW1vRZ2Dyd0F%2F7jE9z8rLeCOAiEAgbxczcps1%2FUiesHUuIZmbQUipO1np724AN630i4NKosqiAQIwf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJ6v1m5OrGD8X9dwpCrcAwZPZNf0FuXxWW5y3vlcDbHhHWwIyNh2C8U9j0KZnuBEkJV1qEvH%2BYhZSkTOjIRSCKPKUXgu2d7LSjM6pj6lGaunhTe9ZpE78Edm%2FnKjqRlssFONUqMQw%2F6ApZIa%2FG8yKqnD2CqehJNU3oMAaX49ynUpXBARheIxGgNXdqI3b8jjy%2BAngPHfBdZcSR0pI0Cs0SEhzB58GvOOEOhe9TVYP8DTDInb2Gvm6u9RD12C4SPNlyR0EeBkSnnona2gy8EcpfMTLNA6ntY0g%2Bvj4eDHa0mpoCL3VVisf6r4UYVJ7jo5p9CcBRFJ0zYc0D42GQv5MQxiPXdGxYPD90MvsN5yVL9kjzUR0nvsmoE9LQPgbOd4demMDvuwUaUVMvI%2F1yHzoO9by81cNw6yWRiH9SFIR5t1Afab3y0KwaKciM%2FdW0Q9u%2BoP7rvNhYGrnsOjxIreYz5WswEM2KqDRZB1ksOA2GXNpj4mrI%2BA6YHyb40Ogj1yh%2Bsu1LM4KxNOXcFDnc3q5vYBIsIDAxb5uQOYxMdZ9MXYC9h5lDyUMV7o7Vd1pSMhl8wvqWZS8ZFBRhJy%2FG6pzZt%2B0J%2B099HfIoTBo3wsfrBflADFUoWVDK%2FnabW7c4rLZrpG5%2BEd1BGxP2loMKO6ndEGOqUBld2EmmbJDyfXjBhq9Q7c2RexUz%2F5l80QjF9R3zsj3Ttg6Cv1i%2FCSNgzOY0DnKob3f7FwGAq%2FgKYH3oirE5g8WCPOW7gceNoTY00bYLg0ebzLhaZdiMrx%2FW%2B6Xes7G7tv%2BCaNPpX2W7%2B1AeNOMK%2Bp0QPmakldtH4hEi%2BjlsxCdguD1i624e6%2Bj64NztyCji05EauBFcd7je7cvqHuOfSK8dBTBG25&X-Amz-Signature=b13f2bc077b05d47cd87ab9912979d1b5ef3498825080170cea590d6df311c8f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/f85a956a-8cf1-41ee-b537-3c4c58c03222/INA-145.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VH2X3RR3%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T054347Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBWihNg%2Fax321X5xKO8rCgvdcK6gOlFdZ2r%2FCmYRPjSVAiEAq0tP6ADQRAvlkTWIKW2fcMoY3qdXWyvJYuWTL3AaMhkqiAQIxv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFfhMKaEWj670D33VircA9XbAi5TVZTU%2B9Q1VG2a4fAQ89uV5XfRTIdweSnT97K%2Fe%2Fh4TAtLxsEpyLPjbOtdkQCxvCX67O8DSfuRsxVqWirdMbmT3495VKikNDH0zFkDq82EiJxPnabyKWyWKPxe%2Fg8GhWP61tSILc0QDtgwISHb72sTkdDPpcf6U0aymRlQBNoBATtisZwY7wu4gk6A6DLrktyP4Kb%2F238jzPACMrv5tRo7gA87%2FEWfd6rEjtmAh4jfY5g1%2FznWxpg51VeG%2FyhbVFDuT7af7A4zxXthALwsbZIB7xiGKiFxHM6VpGK29LApSYvv%2FirW9P7ac%2BKKtDgRHDAjjg5yX7%2BvCyW3SZTwffjemesj8oHeHKtV31dlyTQ1UanQX3gpjQToWi%2BNaTLFgW2Vmdo4xkua9dgJ1mWROkiLwGKowO81JA5FAGgL%2FDUzNZFNakJ1B29nWodNitr2xDAVH4R62JMrUFys0XCDduwtDTmee25XGpAPpE9hlQ3Nka8hgu6eXgSmC%2B1s2%2ByuKfnXZXOEsGSoH4TVPhQSUnAk8uE3WB3jHp%2BB0r1ie4FHPs96dOv3BwShnOujtDdyQTyhnTV07Mu%2BMrQaz1G%2BYMFxVW3LdFRbgQ59EAoUuYXizb7ruDUiA4ACMJDEntEGOqUB0tLL6AjDhJB4AGRwvkqdzzdkS1%2Bpq7i%2FSSR9ZMTwjNwy2pp6IN3bgXM%2FxxreDCxa6IhwaDOFUAordkvRwJ9WbqDfvPiA%2Flfo%2BlLVSVmzfsdQVgYjrfzgJDkhCPOfTR3uZ65xBSPMcYS%2BFW%2FlTdG6OVal9T2L9lTjZg7TdAvtesR1iVVrYkDcyVrwOf5cAXTzE%2F6tEitHjglI2h4yGWMQF7O8oZqh&X-Amz-Signature=8dcd3c4759bd7272e6d7e7875de0e6eb1854c1d63442685bc1d1aaab0eb46458&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/Erreur-de-saisie-sur-les-remises-manuelle-g-n-rant-un-montant-de-s-jour-faux-3178db15623a8079a34be124df5b756a"
     },
@@ -6915,7 +6883,7 @@
       "dateSortieStable": "2026-06-04",
       "pieceJointe": {
         "name": "FicheCom_INA142.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9004eaf-4551-44bb-af44-cdddad9a82d0/FicheCom_INA142.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z3XECU3A%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T013003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAq1PRQGv%2BGI%2B95H6YoPfW1vRZ2Dyd0F%2F7jE9z8rLeCOAiEAgbxczcps1%2FUiesHUuIZmbQUipO1np724AN630i4NKosqiAQIwf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJ6v1m5OrGD8X9dwpCrcAwZPZNf0FuXxWW5y3vlcDbHhHWwIyNh2C8U9j0KZnuBEkJV1qEvH%2BYhZSkTOjIRSCKPKUXgu2d7LSjM6pj6lGaunhTe9ZpE78Edm%2FnKjqRlssFONUqMQw%2F6ApZIa%2FG8yKqnD2CqehJNU3oMAaX49ynUpXBARheIxGgNXdqI3b8jjy%2BAngPHfBdZcSR0pI0Cs0SEhzB58GvOOEOhe9TVYP8DTDInb2Gvm6u9RD12C4SPNlyR0EeBkSnnona2gy8EcpfMTLNA6ntY0g%2Bvj4eDHa0mpoCL3VVisf6r4UYVJ7jo5p9CcBRFJ0zYc0D42GQv5MQxiPXdGxYPD90MvsN5yVL9kjzUR0nvsmoE9LQPgbOd4demMDvuwUaUVMvI%2F1yHzoO9by81cNw6yWRiH9SFIR5t1Afab3y0KwaKciM%2FdW0Q9u%2BoP7rvNhYGrnsOjxIreYz5WswEM2KqDRZB1ksOA2GXNpj4mrI%2BA6YHyb40Ogj1yh%2Bsu1LM4KxNOXcFDnc3q5vYBIsIDAxb5uQOYxMdZ9MXYC9h5lDyUMV7o7Vd1pSMhl8wvqWZS8ZFBRhJy%2FG6pzZt%2B0J%2B099HfIoTBo3wsfrBflADFUoWVDK%2FnabW7c4rLZrpG5%2BEd1BGxP2loMKO6ndEGOqUBld2EmmbJDyfXjBhq9Q7c2RexUz%2F5l80QjF9R3zsj3Ttg6Cv1i%2FCSNgzOY0DnKob3f7FwGAq%2FgKYH3oirE5g8WCPOW7gceNoTY00bYLg0ebzLhaZdiMrx%2FW%2B6Xes7G7tv%2BCaNPpX2W7%2B1AeNOMK%2Bp0QPmakldtH4hEi%2BjlsxCdguD1i624e6%2Bj64NztyCji05EauBFcd7je7cvqHuOfSK8dBTBG25&X-Amz-Signature=a0d358be16cf1c6a0991529059e41b71b7c9126bd1665c8249167507724c0778&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9004eaf-4551-44bb-af44-cdddad9a82d0/FicheCom_INA142.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VH2X3RR3%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T054347Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBWihNg%2Fax321X5xKO8rCgvdcK6gOlFdZ2r%2FCmYRPjSVAiEAq0tP6ADQRAvlkTWIKW2fcMoY3qdXWyvJYuWTL3AaMhkqiAQIxv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFfhMKaEWj670D33VircA9XbAi5TVZTU%2B9Q1VG2a4fAQ89uV5XfRTIdweSnT97K%2Fe%2Fh4TAtLxsEpyLPjbOtdkQCxvCX67O8DSfuRsxVqWirdMbmT3495VKikNDH0zFkDq82EiJxPnabyKWyWKPxe%2Fg8GhWP61tSILc0QDtgwISHb72sTkdDPpcf6U0aymRlQBNoBATtisZwY7wu4gk6A6DLrktyP4Kb%2F238jzPACMrv5tRo7gA87%2FEWfd6rEjtmAh4jfY5g1%2FznWxpg51VeG%2FyhbVFDuT7af7A4zxXthALwsbZIB7xiGKiFxHM6VpGK29LApSYvv%2FirW9P7ac%2BKKtDgRHDAjjg5yX7%2BvCyW3SZTwffjemesj8oHeHKtV31dlyTQ1UanQX3gpjQToWi%2BNaTLFgW2Vmdo4xkua9dgJ1mWROkiLwGKowO81JA5FAGgL%2FDUzNZFNakJ1B29nWodNitr2xDAVH4R62JMrUFys0XCDduwtDTmee25XGpAPpE9hlQ3Nka8hgu6eXgSmC%2B1s2%2ByuKfnXZXOEsGSoH4TVPhQSUnAk8uE3WB3jHp%2BB0r1ie4FHPs96dOv3BwShnOujtDdyQTyhnTV07Mu%2BMrQaz1G%2BYMFxVW3LdFRbgQ59EAoUuYXizb7ruDUiA4ACMJDEntEGOqUB0tLL6AjDhJB4AGRwvkqdzzdkS1%2Bpq7i%2FSSR9ZMTwjNwy2pp6IN3bgXM%2FxxreDCxa6IhwaDOFUAordkvRwJ9WbqDfvPiA%2Flfo%2BlLVSVmzfsdQVgYjrfzgJDkhCPOfTR3uZ65xBSPMcYS%2BFW%2FlTdG6OVal9T2L9lTjZg7TdAvtesR1iVVrYkDcyVrwOf5cAXTzE%2F6tEitHjglI2h4yGWMQF7O8oZqh&X-Amz-Signature=cc67f8b87237552debf18d377d8d3c970159f32c3e8d8f02f19597f2269641e3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/WEB-SynchroV2-Activation-globale-de-ressource-s-en-V2-pour-l-ensemble-de-nos-clients-3148db15623a80d490cfc8021defa18c"
     },
@@ -7201,11 +7169,9 @@
       "identifiant": "INA-133",
       "titre": "[LOGICIEL] Supprimer les paiements sécurisés proposés dans NAXI mais qui ne sont plus disponibles sur l’espace client V2",
       "classification": "STACK TECH",
-      "statut": "A etudier",
+      "statut": "Stand by",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Paiements",
       "produits": [
         "NAXI ESPACE CLIENT"
@@ -7235,11 +7201,9 @@
       "identifiant": "INA-132",
       "titre": "[WEB] Connexion Web a Naxi Nomad Premium",
       "classification": "DEV avec CC",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "AOUT 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI NOMAD PREMIUM"
@@ -7269,11 +7233,9 @@
       "identifiant": "INA-130",
       "titre": "[LOGICIEL] Suppression de l’ancien planning",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Autres",
       "produits": [
         "NAXI GESTION SQL",
@@ -7381,7 +7343,7 @@
       "identifiant": "INA-126",
       "titre": "[LOGICIEL] Facturation : La civilité et le pays du destinataire de la facture ne sont plus prises en compte (Facture au nom de Autre adresse)",
       "classification": "BUG OPERATIONNEL",
-      "statut": "En cours",
+      "statut": "Sprint en cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -7630,11 +7592,9 @@
       "identifiant": "INA-117",
       "titre": "[LOGICIEL] Message erreur sur recherche client avancée sans filtre en SQL",
       "classification": "BUG D'USAGE",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "JUILLET 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Fiche client",
       "produits": [
         "NAXI GESTION SQL"
@@ -7846,11 +7806,9 @@
       "identifiant": "INA-107",
       "titre": "[LOGICIEL] NX COMMERCE : Réaffectation d'un bracelet sur la saison suivante",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": "A prevoir TOP LINE",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "MARS 27"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Séjour",
       "produits": [
         "NAXI CASHLESS",
@@ -8394,11 +8352,9 @@
       "identifiant": "INA-86",
       "titre": "[LOGICIEL] Refacto Systéme d'impression",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
-      "sprintIdeal": [
-        "AOUT 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -8429,7 +8385,7 @@
       "identifiant": "INA-85",
       "titre": "[LOGICIEL] Refacto Fusion base de données",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -8462,7 +8418,7 @@
       "identifiant": "INA-84",
       "titre": "[LOGICIEL] Refacto : système de génération des courriers/emails (fichiers.rtf)",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -8495,11 +8451,9 @@
       "identifiant": "INA-83",
       "titre": "[LOGICIEL] NAXI Code : Refacto du système déporté",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI CODES"
@@ -8529,11 +8483,9 @@
       "identifiant": "INA-82",
       "titre": "[LOGICIEL] NG : Visuel => suppression code ancien menu",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -8564,11 +8516,9 @@
       "identifiant": "INA-81",
       "titre": "[WEB+LOGICIEL] CTV - Réservation Panier",
       "classification": "DEV avec CC",
-      "statut": "A etudier",
+      "statut": "A prevoir TOP LINE",
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "OCTOBRE 27"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Séjour",
       "produits": [
         "CTV"
@@ -8671,7 +8621,7 @@
       "dateSortieStable": "2026-05-04",
       "pieceJointe": {
         "name": "FicheCom_INA77.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667ARMFBYS%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T013004Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGhDcBv7fOE7C2o%2F9%2BCw6rB8leXn9NWswWd9Iw1OnVURAiARa%2Fse6g5uyH33lpQN8%2FDvKydwwfpM%2FozLmOi98qehGyqIBAjC%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMZ1MLwaOEIW8P9NJJKtwDKXg0U8DU8VtiVOjudCikanbhzU1yheUSsmlay84C5T8t8VB6APOEeK1XNVYW%2BM7HOc8Th8EvY93tkpmC7Qzn3OfPHPWSmGs3enqfRHFQXxwl1mAZIhQwiIco8SxQ8ND3WoLTZXo24MnCK%2FIzCzR8ZyxY%2FcuU0NFce1xhuH7H%2Baf8Dl8IYLm0aM4lYjChO%2BLmFNFg80FyzkhEQoFwJmVlzgDMcVrRwydywyKrmaIOyuzSNKeIQjSftojbheA2gc2IcFVtVviqxi0%2FEAgnvadHvzyYf9ZKGwY%2BSQyM%2Fh2CBCvdKK8Br3yFU4AqUi5Cb4NcLm53dqiSxvM5WQxhB7R6AhzA3EJkgCnHPEnUtclSTRtWdZremBg5hLTBx45cKBeR07wZE3UGGcv95egC%2FSFG7vFdjbKT8q0ZDTg%2BfZ34dRns9EhuFWM9QUakyMP%2B32W9Jqke3%2FYCH%2FjAXRA3teuEkzKM3ytgaNQexdSeo3FeVd9%2BlG%2Fxp30EhcfvatccILZ%2BvdcDmuV3NO0hTPO0YUvXUg1ingyW76stMknQ9YUQClJqyiVbvNI9%2B96XCx5dh7SVCb57YiHBaNHzJUn0o66eygbRRBTd2iMtxCxOts3ZeSTgC9YCgCGp5t0LF7Ewqbqd0QY6pgGZuSWqmrMqlXYQCKyWoD0%2BOdkxaz%2F%2BrJFLkvfoT%2FqXxtzOehHdGlfGdX3O%2FrK14s4dy%2Bmtfp6aPCcCz%2BSeAf8te4R7uiJLlKWRYJ8v9M%2FkRb5qrByi3cQM2n9YZIqfBQgoov09AoMBv%2FvoRWpkudx7HUtvuNef0npt2a2zTGjMN8%2F8JgcMjrUzi9m9%2BmIvCoJWze%2FBhVqHiotIjL0PZWK8uEa2%2FRc9&X-Amz-Signature=45b10685524365f2949d01db3a9a6592516e647a30ad103a51253704b9c37158&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/4a9701ec-29b5-4955-ad81-a05ccb20db8c/FicheCom_INA77.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UK6R6ATH%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T054348Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQD%2FsDCRIiloJJXhHdQfEN6s2YBodpFXDgVKPkMkVqgokQIhAPqulESJDcdt%2F84lTLkfKkqKuJH5TkAUWP9E4aAb%2FUJeKogECMb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igy0rdsZhxIMG8OEl3sq3APk0gcvdYtPtUmXVwsyIVhQbBSMI7FLPAqSqGyPp9ZH4gVsAw5HqTnUCZUodQjMkrfeibotmSHPBu3oAv6ZlDRYMKthRaUJapUOzRPt4Ng6NTuHs7EpmjvM5bGUbv30mrHvC5QC6ynBTlWqWYeotXYxay50Q6eOoVz1NRuhcGMwuayyRwpQvu51gtEOUw7itQZfwL3uXAGckDUtBzjEnej41gAOhS1lZLm9slbyVyfnOX62n0eUumAVJPgs3SQ5rmPOxMZM0xjkZJhtx85rqbNdVGSETpnUEnAmR0p1udt2qde9PhkJHjOEBFRze3L57jMoWWGyx8NYdTW4%2F%2FmmyutoJ4NV%2F%2FrFTEJZIJv23j6AQZNQvWx9te%2FPozEbB3D1xXzt5hoobRByE2t1COLwviM%2FT%2B2kZqTiRLnaty2pnOJ59WC7xBRaYbExIxMW3olPDoo5BCYyQHfPK7tdA4eLqn8cgMMlJ4pGdDl6puHXNw6ZypxCmevgbciLEMlPbHlgUahvGwZcfh0uVlTKQtsJ2ax3RbCAXAj%2FFgqfuJa5lGKKGsyT9LffWbnyYwyAmt1GKG9M9oAXBeM198aapLfRWz2k6uhqiezHCcEvbHUCMYEDBA0vC9%2FSP366f%2BtqLDDPw57RBjqkATNMDJkwEEkS69F9pJTwbqUrgStHIKj4oh8zY2EVvhaHWkk%2BU%2B%2BTK9Sax5apr%2F1cgKs%2BbEc922pQpR23%2BeNrELM4s7ajHZlQcIP9pg0i9Ri1pGYzmhKihvp3Eg7Vsr2dZuRsV55K5H%2BIuFyp1LbKi7EcxqGMLtvOIzZ5Qbu1qJ%2F990drgqeUZ12Ui3zsqg2zeUXY4wh4UwHiMakz5PvjuhsZRpOt&X-Amz-Signature=61d1d63b340fa57828505ab1664ac30f78f2c5121b960dc13c52f8f9b56dc238&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/WEB-LOGICIEL-Check-In-Scan-partie-1-Mapping-envoi-Naxi-G-vers-CiS-3118db15623a81c78ca4f07fb87f2047"
     },
@@ -8714,11 +8664,9 @@
       "identifiant": "INA-74",
       "titre": "[WEB+LOGICIEL] Accès API Contrôle d'Accès Partenaires Extérieurs",
       "classification": "DEV avec CC",
-      "statut": "A planifier",
+      "statut": "A prevoir TOP LINE",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "DECEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Séjour",
       "produits": [
         "NAXI GESTION SQL",
@@ -8750,7 +8698,7 @@
       "titre": "[WEB+LOGICIEL] CTV : Bascule en REST - Import Tarifs/Promos",
       "classification": "STACK TECH",
       "statut": "A planifier",
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [
         "NOVEMBRE 26"
       ],
@@ -8784,7 +8732,7 @@
       "titre": "[WEB+LOGICIEL] CTV : Bascule en REST - Envois des plannings",
       "classification": "STACK TECH",
       "statut": "A planifier",
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [
         "DECEMBRE 26"
       ],
@@ -8929,7 +8877,7 @@
       "identifiant": "INA-67",
       "titre": "CONCIERGERIE : Gestion du statut des suppléments (V2)",
       "classification": "DEV avec CC",
-      "statut": "A etudier",
+      "statut": "Stand by",
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -8961,7 +8909,7 @@
       "identifiant": "INA-66",
       "titre": "[LOGICIEL] Mise à jour et versionning",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -8994,7 +8942,7 @@
       "identifiant": "INA-65",
       "titre": "[WEB+LOGICIEL]Refactor Synchro V2 - Général",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9070,7 +9018,7 @@
       "identifiant": "INA-63",
       "titre": "[WEB+LOGICIEL]SynchroV2 - Synchrobatch",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9103,11 +9051,9 @@
       "identifiant": "INA-62",
       "titre": "[WEB] Refactor Web - Get Price",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
-      "sprintIdeal": [
-        "FEVRIER 27"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -9138,7 +9084,7 @@
       "identifiant": "INA-60",
       "titre": " [WEB+LOGICIEL](Suite dév) SynchroV2 - Synchronize Prio1",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9171,7 +9117,7 @@
       "identifiant": "INA-59",
       "titre": "Migration pour PCI DSS",
       "classification": "STACK TECH",
-      "statut": "En cours",
+      "statut": "Stand by",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9204,7 +9150,7 @@
       "identifiant": "INA-58",
       "titre": "[WEB+LOGICIEL] - Synchro_recup : Controle Accés",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9237,7 +9183,7 @@
       "identifiant": "INA-57",
       "titre": "[WEB+LOGICIEL] - Synchro_recup : Partenaires",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9270,7 +9216,7 @@
       "identifiant": "INA-56",
       "titre": "[WEB+LOGICIEL] - Synchronize : Socle V2",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9303,7 +9249,7 @@
       "identifiant": "INA-55",
       "titre": "[WEB+LOGICIEL] SynchroV2 - Synchronize : Gestion d'erreurs",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9336,7 +9282,7 @@
       "identifiant": "INA-54",
       "titre": "[WEB+LOGICIEL] SynchroV2 - Synchronize : Organisation envoi des données",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9369,11 +9315,9 @@
       "identifiant": "INA-53",
       "titre": "[WEB] Mise en place Test Automatisés E2E",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
-      "sprintIdeal": [
-        "JANVIER 27"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -9440,7 +9384,7 @@
       "identifiant": "INA-51",
       "titre": "[WEB] Gestion des Mails",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9470,7 +9414,7 @@
       "identifiant": "INA-50",
       "titre": "[WEB] Nettoyage de données bdd serveurs",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "CRM",
@@ -9537,7 +9481,7 @@
       "dateSortieStable": "2026-06-04",
       "pieceJointe": {
         "name": "FicheCom_INA49.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/6c1a8c6e-e00f-4f6f-bf1e-87c104e0cef1/FicheCom_INA49.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667ARMFBYS%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T013004Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGhDcBv7fOE7C2o%2F9%2BCw6rB8leXn9NWswWd9Iw1OnVURAiARa%2Fse6g5uyH33lpQN8%2FDvKydwwfpM%2FozLmOi98qehGyqIBAjC%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMZ1MLwaOEIW8P9NJJKtwDKXg0U8DU8VtiVOjudCikanbhzU1yheUSsmlay84C5T8t8VB6APOEeK1XNVYW%2BM7HOc8Th8EvY93tkpmC7Qzn3OfPHPWSmGs3enqfRHFQXxwl1mAZIhQwiIco8SxQ8ND3WoLTZXo24MnCK%2FIzCzR8ZyxY%2FcuU0NFce1xhuH7H%2Baf8Dl8IYLm0aM4lYjChO%2BLmFNFg80FyzkhEQoFwJmVlzgDMcVrRwydywyKrmaIOyuzSNKeIQjSftojbheA2gc2IcFVtVviqxi0%2FEAgnvadHvzyYf9ZKGwY%2BSQyM%2Fh2CBCvdKK8Br3yFU4AqUi5Cb4NcLm53dqiSxvM5WQxhB7R6AhzA3EJkgCnHPEnUtclSTRtWdZremBg5hLTBx45cKBeR07wZE3UGGcv95egC%2FSFG7vFdjbKT8q0ZDTg%2BfZ34dRns9EhuFWM9QUakyMP%2B32W9Jqke3%2FYCH%2FjAXRA3teuEkzKM3ytgaNQexdSeo3FeVd9%2BlG%2Fxp30EhcfvatccILZ%2BvdcDmuV3NO0hTPO0YUvXUg1ingyW76stMknQ9YUQClJqyiVbvNI9%2B96XCx5dh7SVCb57YiHBaNHzJUn0o66eygbRRBTd2iMtxCxOts3ZeSTgC9YCgCGp5t0LF7Ewqbqd0QY6pgGZuSWqmrMqlXYQCKyWoD0%2BOdkxaz%2F%2BrJFLkvfoT%2FqXxtzOehHdGlfGdX3O%2FrK14s4dy%2Bmtfp6aPCcCz%2BSeAf8te4R7uiJLlKWRYJ8v9M%2FkRb5qrByi3cQM2n9YZIqfBQgoov09AoMBv%2FvoRWpkudx7HUtvuNef0npt2a2zTGjMN8%2F8JgcMjrUzi9m9%2BmIvCoJWze%2FBhVqHiotIjL0PZWK8uEa2%2FRc9&X-Amz-Signature=45eb5a89dd0c63c83cdc5da417278915bdab2e5dfcbea194eb81e2820ac42b10&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/6c1a8c6e-e00f-4f6f-bf1e-87c104e0cef1/FicheCom_INA49.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UK6R6ATH%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T054348Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQD%2FsDCRIiloJJXhHdQfEN6s2YBodpFXDgVKPkMkVqgokQIhAPqulESJDcdt%2F84lTLkfKkqKuJH5TkAUWP9E4aAb%2FUJeKogECMb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igy0rdsZhxIMG8OEl3sq3APk0gcvdYtPtUmXVwsyIVhQbBSMI7FLPAqSqGyPp9ZH4gVsAw5HqTnUCZUodQjMkrfeibotmSHPBu3oAv6ZlDRYMKthRaUJapUOzRPt4Ng6NTuHs7EpmjvM5bGUbv30mrHvC5QC6ynBTlWqWYeotXYxay50Q6eOoVz1NRuhcGMwuayyRwpQvu51gtEOUw7itQZfwL3uXAGckDUtBzjEnej41gAOhS1lZLm9slbyVyfnOX62n0eUumAVJPgs3SQ5rmPOxMZM0xjkZJhtx85rqbNdVGSETpnUEnAmR0p1udt2qde9PhkJHjOEBFRze3L57jMoWWGyx8NYdTW4%2F%2FmmyutoJ4NV%2F%2FrFTEJZIJv23j6AQZNQvWx9te%2FPozEbB3D1xXzt5hoobRByE2t1COLwviM%2FT%2B2kZqTiRLnaty2pnOJ59WC7xBRaYbExIxMW3olPDoo5BCYyQHfPK7tdA4eLqn8cgMMlJ4pGdDl6puHXNw6ZypxCmevgbciLEMlPbHlgUahvGwZcfh0uVlTKQtsJ2ax3RbCAXAj%2FFgqfuJa5lGKKGsyT9LffWbnyYwyAmt1GKG9M9oAXBeM198aapLfRWz2k6uhqiezHCcEvbHUCMYEDBA0vC9%2FSP366f%2BtqLDDPw57RBjqkATNMDJkwEEkS69F9pJTwbqUrgStHIKj4oh8zY2EVvhaHWkk%2BU%2B%2BTK9Sax5apr%2F1cgKs%2BbEc922pQpR23%2BeNrELM4s7ajHZlQcIP9pg0i9Ri1pGYzmhKihvp3Eg7Vsr2dZuRsV55K5H%2BIuFyp1LbKi7EcxqGMLtvOIzZ5Qbu1qJ%2F990drgqeUZ12Ui3zsqg2zeUXY4wh4UwHiMakz5PvjuhsZRpOt&X-Amz-Signature=9a27cb2841bab4b354ba46846f7b80d2a6d3f92e7782ec43f437b29ae7ccbdf8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/WEB-GRAFANA-fen-tre-Naxi-V2-activation-en-masse-des-fenetres-3118db15623a8136b2d8d52416248148"
     },
@@ -9546,7 +9490,7 @@
       "identifiant": "INA-48",
       "titre": "[WEB] Amélioration performances Nouvel Espace Client ",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9576,11 +9520,9 @@
       "identifiant": "INA-47",
       "titre": "[WEB+LOGICIEL] Activation Nouvel espace client",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": null,
-      "sprintIdeal": [
-        "AOUT 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Séjour",
       "produits": [
         "NAXI ESPACE CLIENT"
@@ -9870,11 +9812,9 @@
       "identifiant": "INA-35",
       "titre": "[LOGICIEL] Facture acompte + modification de séjour amenant à facture à 0€",
       "classification": "BUG D'USAGE",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "JUILLET 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Facturation",
       "produits": [
         "NAXI GESTION SQL",
@@ -9905,11 +9845,9 @@
       "identifiant": "INA-33",
       "titre": "[LOGICIEL] Espace client toujours actif sur les templates même si plus de licence active",
       "classification": "BUG D'USAGE",
-      "statut": "A planifier",
+      "statut": "Stand by",
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "JUILLET 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Séjour",
       "produits": [
         "NAXI ESPACE CLIENT"
@@ -9942,7 +9880,7 @@
       "statut": "A planifier",
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": "Séjour",
       "produits": [
@@ -10048,7 +9986,7 @@
       "dateSortieStable": "2026-06-04",
       "pieceJointe": {
         "name": "FicheCom_INA29.docx",
-        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667ARMFBYS%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T013004Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGhDcBv7fOE7C2o%2F9%2BCw6rB8leXn9NWswWd9Iw1OnVURAiARa%2Fse6g5uyH33lpQN8%2FDvKydwwfpM%2FozLmOi98qehGyqIBAjC%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMZ1MLwaOEIW8P9NJJKtwDKXg0U8DU8VtiVOjudCikanbhzU1yheUSsmlay84C5T8t8VB6APOEeK1XNVYW%2BM7HOc8Th8EvY93tkpmC7Qzn3OfPHPWSmGs3enqfRHFQXxwl1mAZIhQwiIco8SxQ8ND3WoLTZXo24MnCK%2FIzCzR8ZyxY%2FcuU0NFce1xhuH7H%2Baf8Dl8IYLm0aM4lYjChO%2BLmFNFg80FyzkhEQoFwJmVlzgDMcVrRwydywyKrmaIOyuzSNKeIQjSftojbheA2gc2IcFVtVviqxi0%2FEAgnvadHvzyYf9ZKGwY%2BSQyM%2Fh2CBCvdKK8Br3yFU4AqUi5Cb4NcLm53dqiSxvM5WQxhB7R6AhzA3EJkgCnHPEnUtclSTRtWdZremBg5hLTBx45cKBeR07wZE3UGGcv95egC%2FSFG7vFdjbKT8q0ZDTg%2BfZ34dRns9EhuFWM9QUakyMP%2B32W9Jqke3%2FYCH%2FjAXRA3teuEkzKM3ytgaNQexdSeo3FeVd9%2BlG%2Fxp30EhcfvatccILZ%2BvdcDmuV3NO0hTPO0YUvXUg1ingyW76stMknQ9YUQClJqyiVbvNI9%2B96XCx5dh7SVCb57YiHBaNHzJUn0o66eygbRRBTd2iMtxCxOts3ZeSTgC9YCgCGp5t0LF7Ewqbqd0QY6pgGZuSWqmrMqlXYQCKyWoD0%2BOdkxaz%2F%2BrJFLkvfoT%2FqXxtzOehHdGlfGdX3O%2FrK14s4dy%2Bmtfp6aPCcCz%2BSeAf8te4R7uiJLlKWRYJ8v9M%2FkRb5qrByi3cQM2n9YZIqfBQgoov09AoMBv%2FvoRWpkudx7HUtvuNef0npt2a2zTGjMN8%2F8JgcMjrUzi9m9%2BmIvCoJWze%2FBhVqHiotIjL0PZWK8uEa2%2FRc9&X-Amz-Signature=15c7a2acef4d9be58562d9a34b74f4c9d2ef6597b322d8229afa5c28d31b200e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/08722cd0-a147-4aee-8924-8366f85ee1ba/d9218bb8-cf80-490e-9cdb-a852d6d076f1/FicheCom_INA29.docx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UK6R6ATH%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T054349Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQD%2FsDCRIiloJJXhHdQfEN6s2YBodpFXDgVKPkMkVqgokQIhAPqulESJDcdt%2F84lTLkfKkqKuJH5TkAUWP9E4aAb%2FUJeKogECMb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igy0rdsZhxIMG8OEl3sq3APk0gcvdYtPtUmXVwsyIVhQbBSMI7FLPAqSqGyPp9ZH4gVsAw5HqTnUCZUodQjMkrfeibotmSHPBu3oAv6ZlDRYMKthRaUJapUOzRPt4Ng6NTuHs7EpmjvM5bGUbv30mrHvC5QC6ynBTlWqWYeotXYxay50Q6eOoVz1NRuhcGMwuayyRwpQvu51gtEOUw7itQZfwL3uXAGckDUtBzjEnej41gAOhS1lZLm9slbyVyfnOX62n0eUumAVJPgs3SQ5rmPOxMZM0xjkZJhtx85rqbNdVGSETpnUEnAmR0p1udt2qde9PhkJHjOEBFRze3L57jMoWWGyx8NYdTW4%2F%2FmmyutoJ4NV%2F%2FrFTEJZIJv23j6AQZNQvWx9te%2FPozEbB3D1xXzt5hoobRByE2t1COLwviM%2FT%2B2kZqTiRLnaty2pnOJ59WC7xBRaYbExIxMW3olPDoo5BCYyQHfPK7tdA4eLqn8cgMMlJ4pGdDl6puHXNw6ZypxCmevgbciLEMlPbHlgUahvGwZcfh0uVlTKQtsJ2ax3RbCAXAj%2FFgqfuJa5lGKKGsyT9LffWbnyYwyAmt1GKG9M9oAXBeM198aapLfRWz2k6uhqiezHCcEvbHUCMYEDBA0vC9%2FSP366f%2BtqLDDPw57RBjqkATNMDJkwEEkS69F9pJTwbqUrgStHIKj4oh8zY2EVvhaHWkk%2BU%2B%2BTK9Sax5apr%2F1cgKs%2BbEc922pQpR23%2BeNrELM4s7ajHZlQcIP9pg0i9Ri1pGYzmhKihvp3Eg7Vsr2dZuRsV55K5H%2BIuFyp1LbKi7EcxqGMLtvOIzZ5Qbu1qJ%2F990drgqeUZ12Ui3zsqg2zeUXY4wh4UwHiMakz5PvjuhsZRpOt&X-Amz-Signature=d764c27119a6f783ad3a84a2390634e8cb334ce187ccdb58ebf3857ecc1fa120&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
       },
       "url": "https://app.notion.com/p/LOGICIEL-NORME-V19-3118db15623a8078a611ffceac61cd6e"
     },
@@ -10057,11 +9995,9 @@
       "identifiant": "INA-28",
       "titre": "[WEB+LOGICIEL] Sortie module Contrôle d'Accès NNP",
       "classification": "DEV sans CC",
-      "statut": "Fait partiellement",
+      "statut": "Stand by",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Séjour",
       "produits": [
         "NAXI GESTION SQL",
@@ -10178,7 +10114,7 @@
       "identifiant": "INA-25",
       "titre": "[WEB] CRM V2 : Les clients Vacaf doivent être envoyés en type Client Standard et non pas en Client de TO",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "JUIN 26"
@@ -10541,7 +10477,7 @@
       "identifiant": "INA-14",
       "titre": "[WEB] Paiement solde avec ou sans taxe de séjour",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": "Sprint en cours",
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -10615,11 +10551,9 @@
       "identifiant": "INA-11",
       "titre": "[LOGICIEL] Connexion plusieurs TPE Physique",
       "classification": "DEV avec CC",
-      "statut": "A etudier",
+      "statut": "A prevoir TOP LINE",
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "MARS 27"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Facturation",
       "produits": [
         "NAXI GESTION SQL",
@@ -10841,7 +10775,7 @@
       "identifiant": "INA-2",
       "titre": "Modifier réservation dans espace client suite remise manuelle",
       "classification": "BUG D'USAGE",
-      "statut": "A réfléchir autrement",
+      "statut": "A prevoir TOP LINE",
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -26349,7 +26283,7 @@
       "ordre": 4,
       "resume": ".",
       "contenu": "## Procédure : Infra projets service produits\n\n> 💡 **Document de référence** — Infrastructure et workflows des projets du service Produits Inaxel.\n\n### 1. Vue d'ensemble de l'écosystème\n\nL'écosystème Inaxel se compose de trois projets prod exposés sur des sous-domaines `*.inaxel.com`, de cinq prototypes à migrer depuis Vercel / GitHub perso, et d'un package npm de design system commun. Tout est hébergé sur GitLab EE auto-hébergé (`gitlab-ee.inaxel.com`). Le projet `KPI CTV` reste hors périmètre.\n\n| # | Nom court | URL cible | Framework | Responsabilité | État |\n| --- | --- | --- | --- | --- | --- |\n| 1 | PRODUITS | `produits.inaxel.com` | React + Vite | Suivi tickets, versions, nouveautés, projets et temps immo (sync Notion au build) | EXISTANT — renommer `inaxel-kpi` en `inaxel-produits` |\n| 2 | STORYBOOK | `storybook.inaxel.com` | Vue.js | Catalogue visuel + code des composants du design system commun | À CRÉER |\n| 3 | NORMES | `normes.inaxel.com` | Vue.js (front) | Affichage des analyses produites par les agents IA réglementaires (RGPD, NF 525, comptabilité) | À CRÉER |\n| 4 | Proto Inaxel Pilot | (sous-domaine proto à définir) | Vue.js | Prototype Pilot | À MIGRER depuis GitHub perso |\n| 5 | Proto Naxi Gestion FS | (sous-domaine proto à définir) | Vue.js | Prototype Naxi (gestion FS) | À MIGRER ou À CRÉER (origine à confirmer) |\n| 6 | Proto NAX7 / Proto NAX7 light / Proto NAX7 Manager | (sous-domaines proto à définir) | Vue.js | Trois prototypes NAX7 (standard, light, manager) | À MIGRER depuis Vercel (`nax7.vercel.app`, `nax7-light.vercel.app`, `nax7-manager.vercel.app`) et GitHub perso |\n| 7 | Package `@inaxel/ui` | npm (registry interne) | Vue.js | Librairie de composants commune, consommée par STORYBOOK, NORMES et les prototypes | À CRÉER |\n\nPoints à trancher : nom définitif du package npm (`@inaxel/ui` proposé), registry (GitLab Package Registry vs Harbor), techno de protection des prototypes (« MDP Edge »), DNS `inaxel.com`, et adoption de Chromatic pour STORYBOOK.\n\n### 2. Schéma visuel de l'infrastructure\n\n```plain text\n                        +------------------------------------+\n                        |  VS Code + Claude Code (côté dev)  |\n                        +------------------------------------+\n                                         |\n                                         v\n                        +------------------------------------+\n                        |          GitLab Inaxel             |\n                        |     (gitlab-ee.inaxel.com)         |\n                        +------------------------------------+\n                              |                       |\n              +---------------+                       +----------------+\n              v                                                        v\n   +---------------------------+                  +-----------------------------------+\n   | Accès modif Jérôme        |                  | Accès modif équipes Produits /    |\n   | uniquement                |                  | Design                            |\n   +---------------------------+                  +-----------------------------------+\n              |                                                        |\n              |                                                        v\n              |                                   +-----------------------------------+\n              |                                   | Validation visuelle / fonction-   |\n              |                                   | nelle par Jérôme avant merge main |\n              |                                   +-----------------------------------+\n              |                                                        |\n   +----------+----------+                  +----------+--------+------+----+----------+\n   v          v          v                  v          v        v          v          v\n +------+ +---------+ +-------+         +--------+ +-------+ +------+ +--------+ +---------+\n |PROD- | |STORYBOOK| |NORMES |         | Proto  | | Proto | |Proto | | Proto  | | Proto   |\n |UITS  | |         | |       |         | Inaxel | | Naxi  | | NAX7 | | NAX7   | | NAX7    |\n |      | |         | |       |         | Pilot  | | Gest. | |      | | light  | | Manager |\n |      | |         | |       |         |        | | FS    | |      | |        | |         |\n |(MDP  | |(MDP    | |(MDP   | |(MDP  | |(MDP    | |(MDP     |\n |      | |         | |       |         | Edge)  | | Edge) | | Edge)| | Edge)  | | Edge)   |\n +------+ +---------+ +-------+         +--------+ +-------+ +------+ +--------+ +---------+\n   ^         ^   ^       ^                  |         |        |          |          |\n   |         |   |       |                  +---------+--------+----------+----------+\n   |         |   |       |                                     |\n   |         |   |       |                                     v\n   |         |   |       |                              +--------------+\n   |         |   |       |                              |  Chromatic   |\n   |         |   |       |                              | (catalogue   |\n   |         |   |       |                              |   commun)    |\n   |         |   |       |                              +--------------+\n   |         |   |       |\n   |         |   |       |   Notion (token) ------+-----> PRODUITS\n   |         |   |       |                        +-----> NORMES\n   |         |   |       |\n   |         |   |       |   Agents IA local (PC Jérôme)\n   |         |   |       +------> docs .txt ------------> NORMES (commit manuel)\n   |         |   |\n   |         |   |   Package npm \"@inaxel/ui\"\n   |         |   +------> tous les protos Vue (Pilot, Naxi, NAX7, NAX7 light, Manager)\n   |         +----------> STORYBOOK\n   |         +----------> NORMES         (NB: PAS PRODUITS)\n   |\n   |   STORYBOOK --> Bot Renovate --> ouvre MR de bump @inaxel/ui dans tous les protos\n   |\n   |   Pipeline GitOps (Ludwig) pour PRODUITS :\n   +-----> build --> registry Harbor --> ArgoCD --> K8s preprod\n```\n\n### 3. Workflows opérationnels par projet\n\n#### 3.1 PRODUITS (`produits.inaxel.com`) — React\n\nWorkflow solo, simple et direct :\n\n- **Acteur unique** : Jérôme. Aucune intervention PO/Design sur ce projet.\n\n- **Code** : React + Vite, push direct sur `main` pour les changements légers, MR pour les modifications de plus grande ampleur (à l'appréciation de Jérôme).\n\n- **CI/CD** : le push déclenche le **pipeline GitOps Ludwig** (cf. section 4.9). Build = `npm ci` → `fetch-notion.js` → `extract-cii.js` → `npm run build`.\n\n- **Rafraîchissement des données Notion** : toutes les heures via un **pipeline schedule GitLab CI** (cron `0 * * * *`). Aucune donnée Notion n'est commitée dans le repo — elles sont fetchées à chaque build.\n\n- **Tempo** : continu, au fil de l'eau.\n\n#### 3.2 STORYBOOK + package `@inaxel/ui` — Vue.js\n\nWorkflow centré sur la diffusion contrôlée du design system vers les prototypes :\n\n- **Acteur** : Jérôme (code Vue.js).\n\n- **Publication double, à chaque ajout/modification de composant** :\n\n- **Propagation automatisée mais non instantanée** :\n\n- **Choix de design** : pas de propagation auto-mergée. La validation MR par MR est **volontaire**, pour garder le contrôle sur les régressions visuelles ou fonctionnelles dans les protos.\n\n#### 3.3 NORMES (`normes.inaxel.com`) — Vue.js + agents IA\n\nWorkflow batch, piloté par Jérôme, sans backend live :\n\n- **Agents IA** : tournent **sur le PC de Jérôme** (solution court terme, en attendant une éventuelle bascule serveur).\n\n- **Sources interrogées** : Legifrance, AFNOR (pour la NF 525), et autres sources réglementaires (RGPD, comptabilité).\n\n- **Sortie des agents** : documents texte produits localement.\n\n- **Ingestion dans le projet** : Jérôme **commit ces docs dans le repo NORMES**, sous `data/normes/`.\n\n- **CI** : build + deploy classique sur `normes.inaxel.com` à chaque push.\n\n- **Front Vue.js** : lit les docs commitées dans `data/normes/` **et** lit Notion (fiches produits + fonctions) pour produire l'**analyse d'impact** (quelle norme touche quel produit / quelle fonction).\n\n- **Architecture** : **pas de backend live, pas de base de données**. Tout est statique au moment du build.\n\n- **Cadence** : **mensuelle**, ou ponctuelle selon la disponibilité de Jérôme et l'actualité réglementaire.\n\n#### 3.4 Les 5 prototypes — Vue.js, workflow PO/Design + Claude Code\n\nC'est le workflow le plus structurant de l'écosystème : il fait travailler les équipes **Produits / Design** (non-développeurs) sur les protos, avec Claude Code comme copilote, et Jérôme uniquement en validation visuelle/fonctionnelle.\n\n**Étapes détaillées :**\n\n1. **Ouverture du repo proto** : le PO/Design ouvre le repo du prototype concerné dans **VS Code**, puis lance **Claude Code** dans le terminal intégré.\n\n1. **Chargement du contexte par Claude Code** : Claude Code lit automatiquement le **`CLAUDE.md`** du repo (conventions, structure, design system) et charge les **skills** définis dans `.claude/skills/` (par exemple `add-fenetre`, `add-bloc`, etc.).\n\n1. **Brief en langage naturel** : le PO/Design décrit en français ce qu'il veut à Claude (ex. *« ajoute une fenêtre de saisie client avec nom, SIRET, adresse »*).\n\n1. **Génération par Claude Code** : Claude crée, dans le même geste :\n\n1. **Vérification visuelle locale** : le PO/Design lance `npm run dev`, vérifie le rendu dans le navigateur, et **itère avec Claude** si la maquette ne correspond pas (ajustement couleurs, layout, libellés…).\n\n1. **Push sur branche feature** : une fois satisfait, le PO/Design pousse sur une branche `feature/xxx`.\n\n1. **Branche ****`main`**** protégée** : le **push direct sur ****`main`**** est interdit**. Seules les **Merge Requests** sont acceptées (réglage GitLab Protected Branches).\n\n1. **Ouverture automatique de la MR** : une MR est ouverte automatiquement (template GitLab, assignation à Jérôme).\n\n1. **Validation par Jérôme — visuel + fonctionnel uniquement** :\n\n1. **CI automatique sur la MR** : la CI vérifie que **le code compile**, que **le lint passe**, et que **le build Storybook réussit**. Si la CI est rouge, Claude (relancé par le PO/Design) ou un dev corrige avant merge.\n\n1. **Après merge sur ****`main`**, trois actions automatiques s'enchaînent :\n\n1. **Consommation par les devs externes** : les devs externes ouvrent Chromatic, voient la nouvelle fenêtre avec **(code Vue + doc Notion MDX + rendu visuel)** côte à côte. Ils peuvent **copier le code** et **l'adapter dans leur pre-prod** (industrialisation à leur charge).\n\n**Résumé du partage de responsabilité sur ce workflow :**\n\n| Rôle | Fait |\n| --- | --- |\n| PO/Design | Brief Claude, itère sur le visuel, push branche feature |\n| Claude Code | Génère Vue + story + lien Notion |\n| Jérôme | Valide visuel + fonctionnel sur MR, merge |\n| CI GitLab | Lint, build, publie Chromatic, génère MDX Notion, notifie |\n| Devs externes | Consomment Chromatic et adaptent dans leur pre-prod |\n\n### 4. Détails techniques et points clés\n\n#### 4.1 Framework par projet\n\nLe choix de framework est tranché projet par projet, sans recherche de mutualisation côté runtime.\n\n- **PRODUITS** reste en **React** : c'est l'héritage du repo `inaxel-kpi`, il ne sera pas touché sur ce volet.\n\n- **STORYBOOK, NORMES et les 5 prototypes** sont en **Vue.js**, exclusivement en **Composition API** avec la syntaxe `<script setup>`.\n\n- **Aucune mutualisation de composants entre React et Vue.** Les deux mondes vivent en parallèle : pas de wrapper, pas de pont, pas de composants partagés au niveau code. PRODUITS reste isolé de l'écosystème Vue, et inversement.\n\n#### 4.2 Design system / package commun\n\nLe design system est matérialisé par un package npm dédié, partagé par tous les projets Vue.\n\n- **Nom** : `@inaxel/ui` (à confirmer).\n\n- **Hébergement** : registry **Harbor** d'Inaxel (in-house, pas npmjs.com public).\n\n- **Construction** : **de zéro en Vue.js**. Le React existant dans `inaxel-kpi/src/components` ne se transpose pas tel quel ; il sert uniquement de **référence visuelle** (palette, espacements, typographie, patterns d'UI).\n\n- **Effort estimé** : **3 à 6 semaines de dev senior** selon la richesse cible de la librairie (composants atomiques uniquement vs blocs composés).\n\n- **Versioning** : **semver** strict, avec propagation automatique vers les protos via Renovate (cf. section 3.2).\n\n#### 4.3 Chromatic\n\nChromatic centralise la visualisation de tous les Storybooks de l'écosystème.\n\n- **Catalogue commun** rassemblant le Storybook du design system **et** celui de chaque prototype.\n\n- **Organisation par dossiers** : `Components/` (atomique), `Blocks/` (composés), `Screens/` (fenêtre complète).\n\n- **Niveau de granularité** explicite : composant atomique / bloc composé / fenêtre complète.\n\n- **Code visible** dans le panneau **\"Show source\"** de Chromatic, pour que le PO / Design puissent lire le code sans cloner le repo.\n\n- **Notifications Slack et email** déclenchées à chaque publication.\n\n- **Tarification** : démarrage sur le **free tier** (5000 snapshots/mois). Bascule sur le plan **Pro à 149 $/mois** uniquement si le quota est dépassé.\n\n#### 4.4 Notion comme source de doc\n\nNotion reste la source de vérité pour la documentation produit ; Storybook la consomme, ne la duplique pas.\n\n- **Contenu source de vérité dans Notion** : fiches produits, liste des fenêtres, fonctions par fenêtre, descriptions textuelles.\n\n- **Liaison story ↔ Notion** : chaque story expose un paramètre `notion.pageId` qui pointe vers la page Notion correspondante.\n\n- **Script de synchro** : `fetch-notion-docs.js` (à coder, **~1 jour de dev**) exécuté dans la CI. Il récupère le contenu Notion, le transforme et **génère des fichiers MDX dans ****`/docs`** consommés par Storybook.\n\n- **Conséquence pour le PO / Design** : la doc est maintenue à **UN seul endroit** (Notion). Pas de duplication, pas de drift.\n\n#### 4.5 Claude Code et workflow PO / Design\n\nClaude Code devient un acteur du workflow code côté PO / Design, encadré par des fichiers de configuration versionnés.\n\n- **`CLAUDE.md`**** à la racine de chaque repo** : conventions du projet (Vue 3 Composition API, structure `src/screens|blocks|components`, source unique du design system `@inaxel/ui`, etc.).\n\n- **`.claude/skills/`** : skills dédiés versionnés avec le code, par exemple `add-fenetre.md`, `add-bloc.md`, `update-design-system.md`, `notion-doc-link.md`.\n\n- **Comportement** : Claude Code lit ces fichiers au démarrage et applique automatiquement les patterns du projet sans avoir à les redécrire à chaque prompt.\n\n- **Usage cible** : le PO et le Design utilisent Claude Code comme **pair programmer**. Ils décrivent ce qu'ils veulent en langage naturel ; Claude écrit le code Vue conforme aux conventions.\n\n#### 4.6 Validation et CI stricte\n\nLa règle de partage du contrôle qualité est nette : l'humain regarde, la CI vérifie.\n\n- **Règle d'or** : Jérôme valide **uniquement le visuel et le fonctionnel**. Pas de relecture ligne à ligne.\n\n- **La CI compense** en vérifiant automatiquement, sur chaque MR : `eslint`, `prettier`, `vue-tsc` (si TypeScript), `npm run build`, `npm run build-storybook`.\n\n- **Optionnel** : smoke tests **Playwright** basiques (la page se charge sans erreur JS).\n\n- **Décision finale** : si la CI passe au vert **et** que Jérôme valide visuellement, la MR est acceptée et mergée.\n\n#### 4.7 Protection accès prototypes\n\nLes 5 prototypes sont accessibles via une URL nominative (proto-xxx.inaxel.com ou similaire) mais protégés par mot de passe au niveau Edge.\n\n- **URL nominative** par prototype : `proto-xxx.inaxel.com` ou similaire.\n\n- **Protection MDP Edge** : technologie précise **à confirmer ultérieurement**. Options envisagées : **Cloudflare Access**, **middleware custom**, **Vercel Password Protection** (150 $/mois ; déconseillé car Vercel est par ailleurs abandonné).\n\n- **Diffusion** : les devs externes reçoivent les credentials d'accès aux maquettes déployées **ainsi qu'à Chromatic**.\n\n#### 4.8 DNS et hébergement\n\nDNS et runtime sont entièrement gérés en interne, sans dépendance Vercel.\n\n- **Domaine ****`inaxel.com`** : registrar **Gandi**, DNS également géré chez Gandi.\n\n- **Sous-domaines** (`produits`, `storybook`, `normes`, `proto-*`) : chaque sous-domaine donne lieu à un enregistrement **A** ou **CNAME** chez Gandi pointant vers l'**ingress K8s** Inaxel.\n\n- **Hébergement** : **tout chez Inaxel sur K8s preprod**, déployé via **Ludwig**.\n\n- **Vercel** : **abandonné** intégralement.\n\n#### 4.9 Pipeline GitOps (Ludwig) pour PRODUITS\n\nPRODUITS suit le pipeline GitOps standard Inaxel.\n\n- **Stages** :\n\n- **Tags Kubernetes** sur les jobs CI : `mks`, `kubernetes`, `preprod`.\n\n- **Variables CI nécessaires** : `NOTION_TOKEN` + variables Harbor (registry, user, password) + tokens GitOps (accès en écriture au repo `web/devops/infra`).\n\n### 5. Points en suspens / décisions à prendre ultérieurement\n\n> 💡 Ces points ne bloquent pas le démarrage du projet, mais doivent être tranchés progressivement.\n\n- **Technologie de protection MDP Edge** sur les 5 prototypes — choix entre Cloudflare Access (nécessite délégation DNS chez Cloudflare), middleware custom (gratuit, demande du code), Vercel Password Protection (150 $/mois, écarté par défaut). **À trancher avant la migration du premier prototype.**\n\n- **Hébergement futur des agents IA NORMES** — court terme sur le PC de Jérôme (manuel). À terme, déplacer vers un cron Inaxel (Ludwig) ou un serverless cloud (OpenAI Assistants, Anthropic Batch). **Pas urgent.**\n\n- **Suivi du quota Chromatic Free tier** (5000 snapshots/mois). Si dépassement avec les 5 protos + design system actifs, bascule Pro 149 $/mois. **Monitorer après ~3 mois d'usage.**\n\n- **Renommage du repo ****`inaxel-kpi`**** → ****`inaxel-produits`** à coordonner avec Ludwig (impact sur le pipeline GitOps + les variables dans les `.gitlab-ci.yml`). **Tâche concrète à planifier.**\n\n- **Audit et nettoyage des assets perso GitHub** avant migration vers GitLab Inaxel : design system Vue + les prototypes déjà amorcés. **Prochaine étape concrète après ce document.**\n\n- **Recrutement d'un dev senior référent** (freelance ou CDI) pour : valider les MR sensibles, debugger quand Claude Code se plante, maintenir les skills/rules. **À planifier dès que l'usage des protos par PO/Design démarre vraiment.**\n\n- **Mise à jour du composant React ****`InfraProjetsSchema.jsx`** (dashboard PRODUITS) : son contenu actuel reflète l'ancienne archi (Vercel, Jira, GitHub privé). À refactorer pour refléter le schéma de la section 2 du présent document.\n\n### 6. Règle d'or\n\n> 💡 **Jérôme valide sur main UNIQUEMENT l'aspect visuel et fonctionnel. Jamais le code.**",
-      "lastEdited": "2026-06-09T01:04:00.000Z",
+      "lastEdited": "2026-06-09T05:04:00.000Z",
       "url": "https://app.notion.com/p/Infra-projets-service-produits-3648db15623a81949ec2eeb59712e669"
     },
     {
@@ -27386,7 +27320,7 @@
     ]
   },
   "counts": {
-    "classique": 300,
+    "classique": 299,
     "topline": 57,
     "suiviLundi": 169,
     "equipe": 19,
