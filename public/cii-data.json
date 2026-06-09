@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T14:15:16.660Z",
+  "generatedAt": "2026-06-09T16:48:22.750Z",
   "source": "suiviLundi",
   "rows": [
     {
@@ -1339,6 +1339,18 @@
       "start": "2026-06-08",
       "end": "2026-06-14",
       "projet": "Naxi G Full Saas",
+      "person": "Albert (UX)",
+      "fenetre": "PLANNING - finalisation",
+      "groupe": "PLANNING",
+      "phase": "Maquette / UX",
+      "jours": 4,
+      "actions": ""
+    },
+    {
+      "week": "2026-W24",
+      "start": "2026-06-08",
+      "end": "2026-06-14",
+      "projet": "Naxi G Full Saas",
       "person": "Caroline",
       "fenetre": "Ventes réception",
       "groupe": "HOME",
@@ -1363,6 +1375,18 @@
       "start": "2026-06-08",
       "end": "2026-06-14",
       "projet": "Naxi G Full Saas",
+      "person": "Cédric.V",
+      "fenetre": "Ventes réception",
+      "groupe": "HOME",
+      "phase": "Design",
+      "jours": 4,
+      "actions": "harmonisation"
+    },
+    {
+      "week": "2026-W24",
+      "start": "2026-06-08",
+      "end": "2026-06-14",
+      "projet": "Naxi G Full Saas",
       "person": "Denis",
       "fenetre": "détails des transactions",
       "groupe": "HOME",
@@ -1381,6 +1405,18 @@
       "phase": "Front",
       "jours": 4,
       "actions": ""
+    },
+    {
+      "week": "2026-W24",
+      "start": "2026-06-08",
+      "end": "2026-06-14",
+      "projet": "Naxi G Full Saas",
+      "person": "Sylvain",
+      "fenetre": "détails des transactions",
+      "groupe": "HOME",
+      "phase": "Front",
+      "jours": 4,
+      "actions": "modales sur les tickets des ventes"
     }
   ]
 }
