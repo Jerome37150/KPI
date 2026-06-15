@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T03:53:10.422Z",
+  "generatedAt": "2026-06-15T09:49:35.334Z",
   "source": "suiviLundi",
   "rows": [
     {
@@ -1376,6 +1376,18 @@
       "end": "2026-06-14",
       "projet": "Naxi G Full Saas",
       "person": "Cédric.V",
+      "fenetre": "HOME - Dasboard - Finalisation",
+      "groupe": "HOME",
+      "phase": "Design",
+      "jours": 3,
+      "actions": "Header + Shortcut + Menu"
+    },
+    {
+      "week": "2026-W24",
+      "start": "2026-06-08",
+      "end": "2026-06-14",
+      "projet": "Naxi G Full Saas",
+      "person": "Cédric.V",
       "fenetre": "Ventes réception",
       "groupe": "HOME",
       "phase": "Design",
@@ -1411,12 +1423,132 @@
       "start": "2026-06-08",
       "end": "2026-06-14",
       "projet": "Naxi G Full Saas",
+      "person": "Marjorie (Test)",
+      "fenetre": "Page de connexion",
+      "groupe": "HOME",
+      "phase": "Test",
+      "jours": 1,
+      "actions": ""
+    },
+    {
+      "week": "2026-W24",
+      "start": "2026-06-08",
+      "end": "2026-06-14",
+      "projet": "Naxi G Full Saas",
       "person": "Sylvain",
       "fenetre": "détails des transactions",
       "groupe": "HOME",
       "phase": "Front",
       "jours": 4,
       "actions": "modales sur les tickets des ventes"
+    },
+    {
+      "week": "2026-W25",
+      "start": "2026-06-15",
+      "end": "2026-06-21",
+      "projet": "Naxi G Full Saas",
+      "person": "Agathe (PO)",
+      "fenetre": "Fiche séjour  - finalisation",
+      "groupe": "FICHE SEJOUR",
+      "phase": "Maquette / UX",
+      "jours": 3.571,
+      "actions": ""
+    },
+    {
+      "week": "2026-W25",
+      "start": "2026-06-15",
+      "end": "2026-06-21",
+      "projet": "Naxi G Full Saas",
+      "person": "Albert (Front)",
+      "fenetre": "Historiques des ventes",
+      "groupe": "HOME",
+      "phase": "Front",
+      "jours": 2.571,
+      "actions": ""
+    },
+    {
+      "week": "2026-W25",
+      "start": "2026-06-15",
+      "end": "2026-06-21",
+      "projet": "Naxi G Full Saas",
+      "person": "Albert (UX)",
+      "fenetre": "Réservation a traiter",
+      "groupe": "HOME",
+      "phase": "Maquette / UX",
+      "jours": 2,
+      "actions": ""
+    },
+    {
+      "week": "2026-W25",
+      "start": "2026-06-15",
+      "end": "2026-06-21",
+      "projet": "Naxi G Full Saas",
+      "person": "Caroline",
+      "fenetre": "PLANNING - finalisation",
+      "groupe": "PLANNING",
+      "phase": "Front",
+      "jours": 4.571,
+      "actions": ""
+    },
+    {
+      "week": "2026-W25",
+      "start": "2026-06-15",
+      "end": "2026-06-21",
+      "projet": "Naxi G Full Saas",
+      "person": "Denis",
+      "fenetre": "détails des transactions",
+      "groupe": "HOME",
+      "phase": "Back",
+      "jours": 1,
+      "actions": ""
+    },
+    {
+      "week": "2026-W25",
+      "start": "2026-06-15",
+      "end": "2026-06-21",
+      "projet": "Naxi G Full Saas",
+      "person": "Ines",
+      "fenetre": "PLANNING - finalisation",
+      "groupe": "PLANNING",
+      "phase": "Front",
+      "jours": 4,
+      "actions": "modales plannings + filtres vacances"
+    },
+    {
+      "week": "2026-W25",
+      "start": "2026-06-15",
+      "end": "2026-06-21",
+      "projet": "Naxi G Full Saas",
+      "person": "Marjorie (Test)",
+      "fenetre": "Listing séjours",
+      "groupe": "HOME",
+      "phase": "Test",
+      "jours": 0.714,
+      "actions": ""
+    },
+    {
+      "week": "2026-W25",
+      "start": "2026-06-15",
+      "end": "2026-06-21",
+      "projet": "Naxi G Full Saas",
+      "person": "Rachid",
+      "fenetre": "Remise en banque",
+      "groupe": "HOME",
+      "phase": "Back",
+      "jours": 0.714,
+      "actions": "correctifs Bugs"
+    },
+    {
+      "week": "2026-W25",
+      "start": "2026-06-15",
+      "end": "2026-06-21",
+      "projet": "Naxi G Full Saas",
+      "person": "Sylvain",
+      "fenetre": "détails des transactions",
+      "groupe": "HOME",
+      "phase": "Front",
+      "jours": 4,
+      "actions": ""
     }
   ]
 }
