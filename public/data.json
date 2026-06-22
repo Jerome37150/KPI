@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-06-22T20:41:22.313Z",
+  "generatedAt": "2026-06-22T22:25:00.790Z",
   "classique": [
+    {
+      "id": "3878db15-623a-80b4-986f-c2e40cd70ac1",
+      "identifiant": "INA-383",
+      "titre": "[LOGICIEL] - Impossible d’envoyer le CRM sur des saisons cloturées",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": "CRM",
+      "produits": [
+        "NAXI GESTION SQL",
+        "NAXI GESTION HF"
+      ],
+      "client": "Sirene 66",
+      "dateCreation": "2026-06-22T22:14:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Impossible de renvoyer le CRM sur des saisons cloturées",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Impossible-d-envoyer-le-CRM-sur-des-saisons-clotur-es-3878db15623a80b4986fc2e40cd70ac1"
+    },
     {
       "id": "3878db15-623a-80ad-8a92-c7d32cb1fbca",
       "identifiant": "INA-382",
@@ -28452,7 +28485,7 @@
     ]
   },
   "counts": {
-    "classique": 320,
+    "classique": 321,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
