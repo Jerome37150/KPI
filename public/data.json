@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-06-22T13:16:08.460Z",
+  "generatedAt": "2026-06-22T17:58:38.489Z",
   "classique": [
+    {
+      "id": "3878db15-623a-81f1-bc0c-cc437057f656",
+      "identifiant": "INA-381",
+      "titre": "proforma plus possible de changer et de mettre facture",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "NAXI GESTION HF"
+      ],
+      "client": "molignon specif suisse",
+      "dateCreation": "2026-06-22T15:39:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Depuis les nouvelles versions, il n' a plus l'affichage des proforma tel que modifié dans le paramétrage document (spécif Suisse) le libellé reste en\"proforma\" alors que le client souhaite qu'il soit indiqué \"facture\"",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/proforma-plus-possible-de-changer-et-de-mettre-facture-3878db15623a81f1bc0ccc437057f656"
+    },
     {
       "id": "3878db15-623a-8012-840d-da073b0ed391",
       "identifiant": "INA-379",
@@ -28387,7 +28419,7 @@
     ]
   },
   "counts": {
-    "classique": 318,
+    "classique": 319,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
