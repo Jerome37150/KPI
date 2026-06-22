@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-06-22T17:58:38.489Z",
+  "generatedAt": "2026-06-22T20:41:22.313Z",
   "classique": [
+    {
+      "id": "3878db15-623a-80ad-8a92-c7d32cb1fbca",
+      "identifiant": "INA-382",
+      "titre": "[WEB + LOGICIEL ? ] - Créer un nouveau token pour Maeva",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": "Autres",
+      "produits": [
+        "NAXI GESTION SQL",
+        "NAXI GESTION HF"
+      ],
+      "client": "",
+      "dateCreation": "2026-06-22T19:51:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Email transmis par le support  le 22/06\n\nBonjour,\n\nNous sommes actuellement en train de mettre à jour nos accès techniques et aurions besoin d'un nouveau token pour nos échanges avec vos services.\n\nPouvez-vous nous indiquer comment procéder et sous quels délais cela peut être mis en place ?\n\nNous pouvons également planifier ensemble la bascule afin d'éviter toute interruption de service.\n\nMerci d'avance pour votre retour.\n\nBien cordialement,\n\nLaure DOSBA \nProduct Owner\nlaure.dosba@maeva.com   \n\n→ Je ne connais pas hyper bien cette passerelle mais, si elle parle de la passerelle distrib, il faut voir combien de clients ont cette passerelle car on ne la commercialise plus et on demande de passer sur SH \n→ Si par contre ca concerne aussi la passerelle des tarifs/yield à voir",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/WEB-LOGICIEL-Cr-er-un-nouveau-token-pour-Maeva-3878db15623a80ad8a92c7d32cb1fbca"
+    },
     {
       "id": "3878db15-623a-81f1-bc0c-cc437057f656",
       "identifiant": "INA-381",
@@ -28419,7 +28452,7 @@
     ]
   },
   "counts": {
-    "classique": 319,
+    "classique": 320,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
