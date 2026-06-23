@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T09:40:16.369Z",
+  "generatedAt": "2026-06-23T12:23:37.117Z",
   "classique": [
     {
       "id": "3878db15-623a-80b4-986f-c2e40cd70ac1",
@@ -104,7 +104,7 @@
       "identifiant": "INA-379",
       "titre": "[LOGICIEL] - Mauvais affichage et répartition paiement si annulation d’un séjour avec facturation des sommes versées",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUILLET 26"
@@ -139,7 +139,7 @@
       "identifiant": "INA-378",
       "titre": "[LOGICIEL] - Fiche client : alerte du nom non renseigné alors que bien renseigné",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUILLET 26"
@@ -174,7 +174,7 @@
       "identifiant": "INA-377",
       "titre": "[WEB] - Erreur redescente solde SH",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [
         "JUILLET 26"
@@ -208,7 +208,7 @@
       "identifiant": "INA-376",
       "titre": "[WEB] - NAXI Resa + Lien paiement solde KO - Erreur https 500",
       "classification": "BUG STRUCTURANT",
-      "statut": "Sprint en cours",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -242,7 +242,7 @@
       "identifiant": "INA-375",
       "titre": "[LOGICIEL] - Message erreur à l’ouverture d’une caution SWIKLY + URL call back erroné",
       "classification": "BUG STRUCTURANT",
-      "statut": "En cours",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -277,7 +277,7 @@
       "identifiant": "INA-374",
       "titre": "[WEB] - Remise Overlayoffer non prise en compte dans la modif de resa Sunelia",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUILLET 26"
@@ -311,7 +311,7 @@
       "identifiant": "INA-373",
       "titre": "[WEB] - Option modifiable sur l’EC : Ajout d’une étape obligatoire  “Coordonnées client”",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "NOVEMBRE 26"
@@ -345,7 +345,7 @@
       "identifiant": "INA-372",
       "titre": "[LOGICIEL] - Pouvoir scanner la carte ACSI et que la fiche client se remplisse automatiquement",
       "classification": "DEV avec CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Fiche client",
@@ -378,7 +378,7 @@
       "identifiant": "INA-371",
       "titre": "[LOGICIEL] - Ajout d’une mention obligatoire lié au type de societé sur les factures ",
       "classification": "DEV sans CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Facturation",
@@ -410,7 +410,7 @@
       "identifiant": "INA-370",
       "titre": "[LOGICIEL] - Migration SQL : certaines tables ne sont pas migrées en SQL, ce qui génère des erreurs dans la synchro ou sur NAXI",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -444,7 +444,7 @@
       "identifiant": "INA-369",
       "titre": "[LOGICIEL] - Message d’erreur au chargement de l’encours V2 en SQL",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -548,7 +548,7 @@
       "identifiant": "INA-364",
       "titre": "[LOGICIEL] - Empêcher la création d’une nouvelle entreprise depuis une entreprise mère",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "SEPTEMBRE 26"
@@ -583,7 +583,7 @@
       "identifiant": "INA-363",
       "titre": "[LOGICIEL] - Balance compte client via Etats comptables centralisés : Suppression des opérations non liés à des fiches clients",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUILLET 26"
@@ -618,7 +618,7 @@
       "identifiant": "INA-362",
       "titre": "[LOGICIEL/WEB] : Caution Payline depuis Espace client : modif contrat Payline associé",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUILLET 26"
@@ -656,7 +656,7 @@
       "identifiant": "INA-361",
       "titre": "[LOGICIEL] - Fenêtre de synchro : Le tableau Entreprise à synchroniser est vide de façon aléatoire",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Synchro",
@@ -689,7 +689,7 @@
       "identifiant": "INA-360",
       "titre": "[WEB] Amélioration performance synchro commande",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -728,7 +728,7 @@
       "identifiant": "INA-359",
       "titre": "[WEB] NAXITO : doublon dans les id suppléments SH ",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Résa web",
@@ -760,7 +760,7 @@
       "identifiant": "INA-358",
       "titre": "[WEB] - Erreur sur le détail des résas si suppléments avec prix qui varie selon la période",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -799,7 +799,7 @@
       "identifiant": "INA-357",
       "titre": "[LOGICIEL] - Erreur sur les SCHEDULES si indispo sans emplacement",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "SEPTEMBRE 26"
@@ -834,7 +834,7 @@
       "identifiant": "INA-352",
       "titre": "[LOGICIEL] - Facturation par lot des acomptes : les factures s’impriment physiquement même lorsque l’on sélectionne l’imprimante PDFCreator",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "SEPTEMBRE 26"
@@ -869,7 +869,7 @@
       "identifiant": "INA-351",
       "titre": "[LOGICIEL] - Configurer le montant de l’acompte en fonction de la durée du séjour",
       "classification": "DEV avec CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Paramétrages",
@@ -902,7 +902,7 @@
       "identifiant": "INA-350",
       "titre": "[LOGICIEL] - NXCod : Création de code : pas de contrôle entre les codes NAXI et les codes crées en local (Fonctionnement en API)",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "OCTOBRE 26"
@@ -938,7 +938,7 @@
       "identifiant": "INA-349",
       "titre": "[LOGICIEL] - Revoir les fichiers .exe.config",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUILLET 26"
@@ -973,7 +973,7 @@
       "identifiant": "INA-348",
       "titre": "[LOGICIEL] - NaxiExport ne s’ouvre pas à cause du traitement LoungeUp qui ne finit jamais",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -1014,7 +1014,7 @@
       "identifiant": "INA-347",
       "titre": "[LOGICIEL] - Message d’erreur lors de la validation d’un paiement avec répartition manuelle",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -1055,7 +1055,7 @@
       "identifiant": "INA-346",
       "titre": "[LOGICIEL] - Pouvoir créer des mouvements sur un séjoour de type linéaire",
       "classification": "DEV avec CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Autres",
@@ -1088,7 +1088,7 @@
       "identifiant": "INA-345",
       "titre": "[LOGICIEL] - Erreur Log “Maximum Row Size” suite passage en 18.21",
       "classification": "BUG STRUCTURANT",
-      "statut": "Sprint en cours",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -1127,7 +1127,7 @@
       "identifiant": "INA-344",
       "titre": "[LOGICIEL] - Fichier sousloc non généré pour EURODECISION",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [],
       "fonctions": "Extractions",
@@ -1160,7 +1160,7 @@
       "identifiant": "INA-343",
       "titre": "[LOGICIEL] - Clients et séjours non envoyés en SQL si devis transformé directement en séjour.",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -1200,7 +1200,7 @@
       "identifiant": "INA-342",
       "titre": "[LOGICIEL] - Les fiches clients ne s’ouvrent plus sur la fenêtre interne “Alerte sur les séjours”",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Autres",
@@ -1232,7 +1232,7 @@
       "identifiant": "INA-341",
       "titre": "[LOGICIEL] - Lenteurs sur fermeture fenêtre facturation par lot",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -1273,7 +1273,7 @@
       "identifiant": "INA-340",
       "titre": "[LOGICIEL] - Doublon sur la table TRFCS",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Paramétrages",
@@ -1306,7 +1306,7 @@
       "identifiant": "INA-339",
       "titre": "[LOGICIEL] - Message d’erreur depuis passage 18.19",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -1346,7 +1346,7 @@
       "identifiant": "INA-338",
       "titre": "[WEB] - Pouvoir désactiver ou activer l’échange de solde ",
       "classification": "DEV sans CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Autres",
@@ -1378,7 +1378,7 @@
       "identifiant": "INA-337",
       "titre": "[WEB]NAXITO :  suppression du patch BUG-1108",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -1417,7 +1417,7 @@
       "identifiant": "INA-336",
       "titre": "[LOGICIEL] - Envoi Coolncamp en erreur à cause d’un mauvais chemin vers le fichier config.ini",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "SEPTEMBRE 26"
@@ -1451,7 +1451,7 @@
       "identifiant": "INA-335",
       "titre": "[WEB] - Espace client : les données animaux/participants/vehicule ne sont pas en saisie obligatoire malgré le param dans NAXI Gestion",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUILLET 26"
@@ -1485,7 +1485,7 @@
       "identifiant": "INA-334",
       "titre": "[LOGICIEL] Si bascule d’un ménage en “à faire” la veille, le lendemain il repasse “En attente”",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUILLET 26"
@@ -1519,7 +1519,7 @@
       "identifiant": "INA-333",
       "titre": "[LOGICIEL] NNP : Augmenter la taille du champ commentaire des tickets d’intervention automatiques",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Autres",
@@ -1551,7 +1551,7 @@
       "identifiant": "INA-332",
       "titre": "[LOGICIEL] NNP : les ménages passent pas en “à faire” quand bascule des séjours depuis Arrivées/Départ",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -1591,7 +1591,7 @@
       "identifiant": "INA-331",
       "titre": "[LOGICIEL] - Message d’erreur au changement d’entreprise en SQL",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUILLET 26"
@@ -1625,7 +1625,7 @@
       "identifiant": "INA-330",
       "titre": "[WEB] gestion des erreurs swikly",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -1666,7 +1666,7 @@
       "identifiant": "INA-329",
       "titre": "[LOGICIEL] Worker d'erreur : perte info ressource erreur dans les logs elastic",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -1705,7 +1705,7 @@
       "identifiant": "INA-328",
       "titre": "[WEB] Problème de performance base de données",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -1741,7 +1741,7 @@
       "identifiant": "INA-327",
       "titre": "[WEB] GRAFANA : Dashboard Caution Swikly ",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Autres",
@@ -1773,7 +1773,7 @@
       "identifiant": "INA-326",
       "titre": "[LOGICIEL] - Fenêtre interne Activité journalière & taux d’occupation fait planter NAXI ",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -1809,7 +1809,7 @@
       "identifiant": "INA-325",
       "titre": "[LOGICIEL] REGRESSION sur échéance proforma ",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -1846,7 +1846,7 @@
       "identifiant": "INA-324",
       "titre": "[LOGICIEL] - Les séjours sans emplacements ne s’affichent pas dans les arrivées & départs du jour en SQL uniquement",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -1886,7 +1886,7 @@
       "identifiant": "INA-323",
       "titre": "[WEB] - Espace client - Possibilité de faire un double paiement sur un même séjour",
       "classification": "BUG D'USAGE",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Autres",
@@ -1918,7 +1918,7 @@
       "identifiant": "INA-322",
       "titre": "[LOGICIEL] - Appels inutiles des campings résiliés vers systemAPI depuis NAXI EXPORT ",
       "classification": "BUG D'USAGE",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Synchro",
@@ -1951,7 +1951,7 @@
       "identifiant": "INA-321",
       "titre": "[WEB] Interprétation web service - gestion des soldes par CTV",
       "classification": "STACK TECH",
-      "statut": "Sprint en cours",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -1991,7 +1991,7 @@
       "identifiant": "INA-320",
       "titre": "[LOGICIEL] - Gestion du 3DS sur les cautions PLBS dans NAXI",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -2028,7 +2028,7 @@
       "identifiant": "INA-319",
       "titre": "[LOGICIEL] Plus de MdP CTV passerelle mais via Web service",
       "classification": "STACK TECH",
-      "statut": "Archivé",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -2060,7 +2060,7 @@
       "identifiant": "INA-318",
       "titre": "[WEB] - Paiements PAYBOX qui ne passe pas si Countrycode à 2 caractères",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -2099,7 +2099,7 @@
       "identifiant": "INA-317",
       "titre": "[LOGICIEL] - Données CLIENT et COMMAND non envoyées sur le web",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -2136,7 +2136,7 @@
       "identifiant": "INA-316",
       "titre": "[WEB] NAXITO : Ajout de l'assurance annulation dans le montant total",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -2174,7 +2174,7 @@
       "identifiant": "INA-315",
       "titre": "[LOGICIEL] - Paiements NAXI Commerce exportés alors que date limite de l’export  antérieure",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "OCTOBRE 26"
@@ -2209,7 +2209,7 @@
       "identifiant": "INA-314",
       "titre": "[LOGICIEL] - Erreur connectivité réseau perdue sur les Saas",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -2246,7 +2246,7 @@
       "identifiant": "INA-313",
       "titre": "[LOGICIEL] - Message d’erreur à l’ouverture de la liste des cautions si pas de contrat ERT20 configuré et specif CAUTIONPAYLINE",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "OCTOBRE 26"
@@ -2281,7 +2281,7 @@
       "identifiant": "INA-312",
       "titre": "[WEB] NAXITO : modification de résa défaillante avec promos",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -2319,7 +2319,7 @@
       "identifiant": "INA-309",
       "titre": "[WEB] - Caution Payline : paiement impossible avec les contrats ERT80 PLBS",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -2355,7 +2355,7 @@
       "identifiant": "INA-308",
       "titre": "[WEB] Réponse de Payzen en erreur",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -2395,7 +2395,7 @@
       "identifiant": "INA-307",
       "titre": "[WEB] Gestion des incidents avec le fournisseur de mail (TurboSMTP) sur l'espace client",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Emails & documents",
@@ -2427,7 +2427,7 @@
       "identifiant": "INA-306",
       "titre": "[LOGICIEL] - Export EURODECISION & CRM (Maeva) : Fichier sous loc erroné",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26",
@@ -2468,7 +2468,7 @@
       "identifiant": "INA-305",
       "titre": "[LOGICIEL] - Génération des pdf de facture impossible si civilité client à 0 / Partie 2 : Identifier l’origine des civilités à 0",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -2509,7 +2509,7 @@
       "identifiant": "INA-304",
       "titre": "[LOGICIEL] - Clients & séjours non envoyés sur le web",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -2550,7 +2550,7 @@
       "identifiant": "INA-302",
       "titre": "[LOGICIEL] - Génération des pdf de facture impossible si civilité client à 0 / Partie 1 : Prendre la civilité par défaut lors de la facturation si civilité à 0",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -2587,7 +2587,7 @@
       "identifiant": "INA-301",
       "titre": "[WEB] NNP problème de chargement des suppléments quand supérieur à 20",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -2627,7 +2627,7 @@
       "identifiant": "INA-300",
       "titre": "[LOGICIEL] Erreur sur Proforma lors de paiements ventilés sur plusieurs séjours",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -2668,7 +2668,7 @@
       "identifiant": "INA-298",
       "titre": "[LOGICIEL] - Ajout garde fou sur nom & prénom des participants d’un séjour",
       "classification": "DEV sans CC",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -2709,7 +2709,7 @@
       "identifiant": "INA-297",
       "titre": "[WEB] - Masquer le bouton “Souscrire au programme fidelité” sur l’espace client",
       "classification": "DEV sans CC",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -2749,7 +2749,7 @@
       "identifiant": "INA-296",
       "titre": "[LOGICIEL] Empêcher la saisie d’espace dans la création de nouvel emplacement",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Paramétrages",
@@ -2782,7 +2782,7 @@
       "identifiant": "INA-295",
       "titre": "[LOGICIEL] Générer un txt des traces en mode debug + case à cocher sur fenetre debug",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": null,
@@ -2815,7 +2815,7 @@
       "identifiant": "INA-294",
       "titre": "Mise à jour Edge V148 engendrant un planton de NAXI lors de la facturation",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -2856,7 +2856,7 @@
       "identifiant": "INA-293",
       "titre": "[LOGICIEL] Erreur envoi des COMMAND",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -2897,7 +2897,7 @@
       "identifiant": "INA-292",
       "titre": "Erreur redescente des résas Sunelia",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -2937,7 +2937,7 @@
       "identifiant": "INA-291",
       "titre": "[WEB] API pour Modifier mail profider > .env sur NaxiApi & NaxiBooking",
       "classification": "BUG OPERATIONNEL",
-      "statut": "En cours",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -2978,7 +2978,7 @@
       "identifiant": "INA-290",
       "titre": "[LOGICIEL] Non affichage des participants sur les bons de séjour groupe",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -3019,7 +3019,7 @@
       "identifiant": "INA-289",
       "titre": "[LOGICIEL] Message d’erreur sur l’ouverture des interventions depuis fiche client si case “Masquer les prestations annulées”",
       "classification": "BUG D'USAGE",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Fiche client",
@@ -3052,7 +3052,7 @@
       "identifiant": "INA-288",
       "titre": "[LOGICIEL] Erreur sur la continuité des n° d’écritures sur l’export ISACOMPTA en SQL",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "OCTOBRE 26"
@@ -3086,7 +3086,7 @@
       "identifiant": "INA-287",
       "titre": "[WEB] Ajout d'un filtre \"Date prochaine arrivée\" dans le sous module Ménages",
       "classification": "DEV avec CC",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -3126,7 +3126,7 @@
       "identifiant": "INA-286",
       "titre": "[LOGICIEL] Proforma ne se génèrent pas en pdf si nombre de paiements associés trop importants",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Facturation",
@@ -3158,7 +3158,7 @@
       "identifiant": "INA-285",
       "titre": "[SUIVI] Erreur redescente resa SH",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Basculé coté CTV",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUILLET 26"
@@ -3194,7 +3194,7 @@
       "identifiant": "INA-284",
       "titre": "Erreur encodage fichier sousloc",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -3231,7 +3231,7 @@
       "identifiant": "INA-282",
       "titre": "[LOGICIEL] Erreur dispo Elloha Seagreen",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Abandon",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [],
       "fonctions": null,
@@ -3267,7 +3267,7 @@
       "identifiant": "INA-280",
       "titre": "[LOGICIEL] Erreur FreshResource synchroV2 failed : client avec un cllang à NULL",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUILLET 26"
@@ -3302,7 +3302,7 @@
       "identifiant": "INA-279",
       "titre": "[LOGICIEL] Ajouter un contrôle sur le nom des fiches clients",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -3344,7 +3344,7 @@
       "identifiant": "INA-278",
       "titre": "Erreur fresh_ressource : données déjà existantes dans NAXI",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "SEPTEMBRE 26"
@@ -3379,7 +3379,7 @@
       "identifiant": "INA-277",
       "titre": "[WEB] Problème sur la recherche client dans l'enregistrement des arrivées sur NNP",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [
         "AVRIL 26"
@@ -3413,7 +3413,7 @@
       "identifiant": "INA-276",
       "titre": "[LOGICIEL] Erreur synchro fiche client : Aucun contrôle de la syntaxe adresse email depuis la création d’une fiche client issue d’un devis",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -3455,7 +3455,7 @@
       "identifiant": "INA-275",
       "titre": "[WEB] Loader qui tourne sans fin alors que pas de résultat sur NNP",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -3491,7 +3491,7 @@
       "identifiant": "INA-274",
       "titre": "[WEB+LOGICIEL] Mise en place facturaction electronique (Pennylane)",
       "classification": "DEV avec CC",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -3534,7 +3534,7 @@
       "identifiant": "INA-271",
       "titre": "Erreur redescente des events NAXICAM",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "AVRIL 26"
@@ -3574,7 +3574,7 @@
       "identifiant": "INA-270",
       "titre": "Filtre secteur qui ne fonctionne pas sur le ménage de type suppléments",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "AVRIL 26"
@@ -3608,7 +3608,7 @@
       "identifiant": "INA-269",
       "titre": "[LOGICIEL] Régression sur saisie date de naissance du client entre séjour et fiche client",
       "classification": "BUG D'USAGE",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -3649,7 +3649,7 @@
       "identifiant": "INA-268",
       "titre": "[LOGICIEL/DESIGN] Optimisation PDF Factures : blocs trop grands depuis les version 18 qui engendre un nombre de pages à imprimer plus important",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "SEPTEMBRE 26"
@@ -3684,7 +3684,7 @@
       "identifiant": "INA-267",
       "titre": "[LOGICIEL]  Montant de la facture d’acompte à 0.00€ sur la facture de solde ",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -3725,7 +3725,7 @@
       "identifiant": "INA-266",
       "titre": "[WEB] Problème d’affichage du statut du ménage dans l’enregistrement d’une arrivée sur NNP",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -3765,7 +3765,7 @@
       "identifiant": "INA-264",
       "titre": "[LOGICIEL] Date prochaine arrivée erronée dans le module ménage",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -3807,7 +3807,7 @@
       "identifiant": "INA-263",
       "titre": "[LOGICIEL] Pouvoir envoyer des templates sur les séjours ‘groupe’",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Emails & documents",
@@ -3840,7 +3840,7 @@
       "identifiant": "INA-262",
       "titre": "[WEB] Garder les filtres choisis sur NNP",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -3880,7 +3880,7 @@
       "identifiant": "INA-261",
       "titre": "[WEB] Problème de chargement des listes sur NNP",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "AVRIL 26"
@@ -3914,7 +3914,7 @@
       "identifiant": "INA-260",
       "titre": "Chèques vacances connect avec Payline",
       "classification": "DEV avec CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Paiements sécurisés",
@@ -3944,7 +3944,7 @@
       "identifiant": "INA-259",
       "titre": "[LOGICIEL] Lenteurs sur affichage de la fenêtre d’envoi d’email de factures si plusieurs séjours",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -3985,7 +3985,7 @@
       "identifiant": "INA-258",
       "titre": "[LOGICIEL] Lenteurs sur l’enregistrement d’un paiement pour plusieurs prestations",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -4026,7 +4026,7 @@
       "identifiant": "INA-257",
       "titre": "[LOGICIEL] Param SWIKLY : Griser et rendre non modifiable l’environnement",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Paramétrages",
@@ -4059,7 +4059,7 @@
       "identifiant": "INA-256",
       "titre": "[LOGICIEL] Amélioration de la communication Windev ↔ C#",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -4096,7 +4096,7 @@
       "identifiant": "INA-255",
       "titre": "[LOGICIEL]  Extraction client/séjour : Ajout d’une nouvelle donnée N°Allocataire Vacaf",
       "classification": "DEV sans CC",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -4137,7 +4137,7 @@
       "identifiant": "INA-254",
       "titre": "[LOGICIEL] Extraction sur les personnes : manque n° de l’emplacement si supplément hors séjour",
       "classification": "BUG D'USAGE",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Extractions",
@@ -4170,7 +4170,7 @@
       "identifiant": "INA-253",
       "titre": "[LOGICIEL] Facturation : montant à régler erroné si paiement saisi via la fenêtre de paiement avant facturation",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -4211,7 +4211,7 @@
       "identifiant": "INA-252",
       "titre": "[LOGICIEL] Envoi auto des etats comptables : Liste des ventes NaxiCommerce non envoyées",
       "classification": "DEV sans CC",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -4252,7 +4252,7 @@
       "identifiant": "INA-251",
       "titre": "[LOGICIEL] Séjours et clients non envoyés sur le web",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -4294,7 +4294,7 @@
       "identifiant": "INA-250",
       "titre": "NNP : Message d’erreur côté web lorsque l’on passe un séjour en Parti",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26"
@@ -4334,7 +4334,7 @@
       "identifiant": "INA-249",
       "titre": "Surbook SH généré par l’absence de retenue sur nos serveurs",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "AVRIL 26"
@@ -4372,7 +4372,7 @@
       "identifiant": "INA-248",
       "titre": "[LOGICIEL] Impossible d’envoyer des emails si présence d’un code Osmokey",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "AVRIL 26"
@@ -4413,7 +4413,7 @@
       "identifiant": "INA-247",
       "titre": "[LOGICIEL] Erreur remontée historique NAXICOD (voir LOG pour analyse)",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -4454,7 +4454,7 @@
       "identifiant": "INA-246",
       "titre": "[LOGICIEL]  Erreur synchro ménage NNP si aucun libellé dans TYPEMENAG",
       "classification": "BUG D'USAGE",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Paramétrages",
@@ -4487,7 +4487,7 @@
       "identifiant": "INA-245",
       "titre": "[LOGICIEL] Message erreur traitement auto",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [
         "AVRIL 26"
@@ -4527,7 +4527,7 @@
       "identifiant": "INA-244",
       "titre": "[LOGICIEL]  Template : erreur sur les montants affichés dans le cas d’un séjour de TO ",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "JUIN 26"
@@ -4568,7 +4568,7 @@
       "identifiant": "INA-243",
       "titre": "[LOGICIEL] Non affichage du logo sur les factures & proforma si les courriers & emails sont différents par exercice",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -4610,7 +4610,7 @@
       "identifiant": "INA-242",
       "titre": "[LOGICIEL]  Fidelite 50€ minimum Flower : texte à modifier",
       "classification": "DEV sans CC",
-      "statut": "Sprint en cours",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -4651,7 +4651,7 @@
       "identifiant": "INA-241",
       "titre": "[LOGICIEL] Etats comptables centralisés : Correctif sur Balance",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "MAI 26"
@@ -4692,7 +4692,7 @@
       "identifiant": "INA-239",
       "titre": "[WEB] Grafana - Modif lien dashboard NNP Assistance",
       "classification": "BUG D'USAGE",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "MAI 26"
@@ -4732,7 +4732,7 @@
       "identifiant": "INA-238",
       "titre": "[WEB] Erreur synchro Distrib_Credentials en 18.11",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "OCTOBRE 26"
@@ -4767,7 +4767,7 @@
       "identifiant": "INA-237",
       "titre": "[LOGICIEL] Impossible de facturer un séjour de client TO si présence d’une promo de type Abattement taxe de séjour",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Facturation",
@@ -4800,7 +4800,7 @@
       "identifiant": "INA-236",
       "titre": "[LOGICIEL] Impossible d’ouvrir un compteur sans date de fin",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUILLET 26",
@@ -4842,7 +4842,7 @@
       "identifiant": "INA-235",
       "titre": "[LOGICIEL] NNP : Envoi des données dans la synchro sur exercice fermé",
       "classification": "BUG D'USAGE",
-      "statut": "Archivé",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Synchro",
@@ -4874,7 +4874,7 @@
       "identifiant": "INA-234",
       "titre": "[LOGICIEL] Purge automatique des logs SDK / NAXICOD",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -4914,7 +4914,7 @@
       "identifiant": "INA-231",
       "titre": "[LOGICIEL] Export comptable : ajout d’un nouveau champs dans le format d’export",
       "classification": "DEV sans CC",
-      "statut": "Abandon",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Compta & finances",
@@ -4947,7 +4947,7 @@
       "identifiant": "INA-230",
       "titre": "[WEB+LOGICIEL] Refonte de la gestion des id espace client pour les groupes",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AOUT 26"
@@ -4982,7 +4982,7 @@
       "identifiant": "INA-229",
       "titre": "[LOGICIEL] Incompatibilité SIGPAD avec l’offre Saas",
       "classification": "BUG D'USAGE",
-      "statut": "Abandon",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Autres",
@@ -5015,7 +5015,7 @@
       "identifiant": "INA-228",
       "titre": "Echange de Solde : non redescente du paiement de solde lorsque le paiement précédent a un montant  identique. ",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [
         "AVRIL 26"
@@ -5053,7 +5053,7 @@
       "identifiant": "INA-227",
       "titre": "[WEB] Echange de solde : non mise à jour du solde sur SH lorsque la modification du solde n'est pas liée à un paiement",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [
         "AVRIL 26"
@@ -5091,7 +5091,7 @@
       "identifiant": "INA-226",
       "titre": "[WEB] Problème de récupération de ressources NNP quand ressources plus présentes sur le web",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -5131,7 +5131,7 @@
       "identifiant": "INA-225",
       "titre": "[LOGICIEL] Arrêt de l'appel à l'ancienne synchro quand toutes les ressources sont en V2 pour la remontée des données venant du web",
       "classification": "STACK TECH",
-      "statut": "Sprint en cours",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -5172,7 +5172,7 @@
       "identifiant": "INA-224",
       "titre": "[WEB] Empêcher la création de freshressource si le codsoc n’existe pas dans la table societ",
       "classification": "BUG D'USAGE",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": null,
@@ -5202,7 +5202,7 @@
       "identifiant": "INA-223",
       "titre": "Erreur loyaltyCTV sur le freshressource ",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Abandon",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Synchro",
@@ -5234,7 +5234,7 @@
       "identifiant": "INA-222",
       "titre": "[LOGICIEL] MNGMODE5 bloque la fenêtre de NAXI Export",
       "classification": "BUG D'USAGE",
-      "statut": "Abandon",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Synchro",
@@ -5268,7 +5268,7 @@
       "identifiant": "INA-221",
       "titre": "Cautions Swikly non envoyées sur le Web",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26"
@@ -5307,7 +5307,7 @@
       "identifiant": "INA-220",
       "titre": "Lenteurs de transmissions des codes NAXI Cod",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Abandon",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [],
       "fonctions": null,
@@ -5339,7 +5339,7 @@
       "identifiant": "INA-219",
       "titre": "[LOGICIEL] Données envoyés dans la synchro pour les établissements n’ayant pas de réservation en ligne",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -5380,7 +5380,7 @@
       "identifiant": "INA-218",
       "titre": "Dev spécifique Flower / Extraction liste automatisée Liste des suppléments",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "AVRIL 26"
@@ -5416,7 +5416,7 @@
       "identifiant": "INA-217",
       "titre": "[LOGICIEL]  Refacto complet des extractions clients & séjours",
       "classification": "DEV avec CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Extractions",
@@ -5449,7 +5449,7 @@
       "identifiant": "INA-216",
       "titre": "Problème de connexion de Freshressources à RMQ",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [
         "AVRIL 26"
@@ -5487,7 +5487,7 @@
       "identifiant": "INA-215",
       "titre": "[LOGICIEL] TVA Sur encaissements : Ajout du n° du taux",
       "classification": "DEV sans CC",
-      "statut": "Abandon",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Compta & finances",
@@ -5520,7 +5520,7 @@
       "identifiant": "INA-214",
       "titre": "[WEB] Message erreur dans Naxi si saisie d’un # sur le pré-enregistrement de l’espace client",
       "classification": "BUG D'USAGE",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -5560,7 +5560,7 @@
       "identifiant": "INA-213",
       "titre": "[LOGICIEL] Erreur 424 issue de nos logs sur le delete planing",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -5601,7 +5601,7 @@
       "identifiant": "INA-212",
       "titre": "[LOGICIEL]  Synchro: problème d'affichage doublon d'exercice",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -5642,7 +5642,7 @@
       "identifiant": "INA-211",
       "titre": "[WEB] GRAFANA : fenêtre Naxi V2 : désactivation en masse des fenetres",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26",
@@ -5685,7 +5685,7 @@
       "identifiant": "INA-210",
       "titre": "[WEB+LOGICIEL] Check-In Scan partie 2 : Envoi CiS vers Naxi.G",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -5724,7 +5724,7 @@
       "identifiant": "INA-209",
       "titre": "[LOGICIEL]Cas Jardins d’Adour : User windows avec Apostrophe bloquant la génération des documents dans NAXI",
       "classification": null,
-      "statut": "A etudier",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Facturation",
@@ -5757,7 +5757,7 @@
       "identifiant": "INA-208",
       "titre": "[LOGICIEL] Refaire l’installateur de NAXITOTEM",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": null,
@@ -5789,7 +5789,7 @@
       "identifiant": "INA-207",
       "titre": "[WEB] Gestion d'erreurs : mis à niveau des erreurs les plus courantes",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MARS 26"
@@ -5824,7 +5824,7 @@
       "identifiant": "INA-206",
       "titre": "[WEB] Migration fonctions Inacom vers Backoffice ↔ Akuiteo",
       "classification": "DEV avec CC",
-      "statut": "En cours",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -5862,7 +5862,7 @@
       "identifiant": "INA-205",
       "titre": "[LOGICIEL] Facturation : Gestion des acomptes (bascule Arrhes)",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Facturation",
@@ -5930,7 +5930,7 @@
       "identifiant": "INA-203",
       "titre": "Erreur d’envoi des CHANNELS",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "AVRIL 26"
@@ -5971,7 +5971,7 @@
       "identifiant": "INA-202",
       "titre": "[LOGICIEL] TOTEM : Renvoi vers un lien boutique activités",
       "classification": "DEV avec CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": null,
@@ -6003,7 +6003,7 @@
       "identifiant": "INA-201",
       "titre": "[LOGICIEL] Code postal remplacé par un point sur fact et proforma",
       "classification": "BUG D'USAGE",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Facturation",
@@ -6036,7 +6036,7 @@
       "identifiant": "INA-200",
       "titre": "Erreur sur l’envoi des SCHEDULE",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [
         "MARS 26"
@@ -6073,7 +6073,7 @@
       "identifiant": "INA-199",
       "titre": "[LOGICIEL] Masquer le mot de passe des boites emails dans les paramètres courriers/emails",
       "classification": "DEV sans CC",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -6114,7 +6114,7 @@
       "identifiant": "INA-198",
       "titre": "[LOGICIEL] Pouvoir sélectionner plusieurs catégories en une seule fois sur la création d’indisponibilités",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Paramétrages",
@@ -6147,7 +6147,7 @@
       "identifiant": "INA-197",
       "titre": "[LOGICIEL] Mise en place d’une connexion SSO sur NAXI Gestion",
       "classification": "DEV avec CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Autres",
@@ -6180,7 +6180,7 @@
       "identifiant": "INA-196",
       "titre": "Echec des envois COOLNCAMP via NAXIEXPORT",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "AVRIL 26"
@@ -6220,7 +6220,7 @@
       "identifiant": "INA-195",
       "titre": "[LOGICIEL] Facturation : factures et proforma d’échéances : multipes problèmes",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "AVRIL 26"
@@ -6263,7 +6263,7 @@
       "identifiant": "INA-194",
       "titre": "Conflit entre l’envoi du planning et le traitement d’EURODECISION",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MARS 26"
@@ -6299,7 +6299,7 @@
       "identifiant": "INA-193",
       "titre": "Erreur sur l’affichage identifiant plateforme paiement",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MARS 26"
@@ -6335,7 +6335,7 @@
       "identifiant": "INA-192",
       "titre": "Envoi des Schedules pour les campings n’ayant pas de système de réservation en ligne",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26"
@@ -6376,7 +6376,7 @@
       "identifiant": "INA-191",
       "titre": "Impossible de faire une resa depuis WS_NAXITO",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MARS 26"
@@ -6412,7 +6412,7 @@
       "identifiant": "INA-190",
       "titre": "CTV : Echange de solde à partir d'une résa avec moteur collecteur",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A etudier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Paiements",
@@ -6444,7 +6444,7 @@
       "identifiant": "INA-189",
       "titre": "CTV - Push modification resa Naxi vers CTV",
       "classification": "DEV avec CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -6476,7 +6476,7 @@
       "identifiant": "INA-187",
       "titre": "[WEB] Ajouter dans l'espace client (site inaxel)",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Autres",
@@ -6508,7 +6508,7 @@
       "identifiant": "INA-186",
       "titre": "[LOGICIEL]Ajout d’un mode de calcul sur les supplément : % sur tarif de base",
       "classification": "DEV avec CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Paramétrages",
@@ -6542,7 +6542,7 @@
       "identifiant": "INA-185",
       "titre": "Suppression du InaxelSupport.exe dans le répertoire liveupdate",
       "classification": "BUG D'USAGE",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MARS 26"
@@ -6579,7 +6579,7 @@
       "identifiant": "INA-184",
       "titre": "[LOGICIEL] Export comptable : Générer automatiquement l’export sans action humaine pour tous les établissements d’un groupe",
       "classification": "DEV avec CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Compta & finances",
@@ -6612,7 +6612,7 @@
       "identifiant": "INA-183",
       "titre": "[LOGICIEL] Flower : Rendre obligatoire la saisie du type de promo",
       "classification": "DEV sans CC",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "MAI 26"
@@ -6653,7 +6653,7 @@
       "identifiant": "INA-182",
       "titre": "[LOGICIEL] Flower : Modification de la liste des types de promos Flower",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "SEPTEMBRE 26"
@@ -6688,7 +6688,7 @@
       "identifiant": "INA-181",
       "titre": "[LOGICIEL] Problème d’affichage sur la liste des derniers clients traités",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Fiche client",
@@ -6721,7 +6721,7 @@
       "identifiant": "INA-180",
       "titre": " [LOGICIEL] Le séjour n’apparaît pas dans l’onglet ‘Prestations’ de la fiche client après validation d’un devis depuis l’espace client",
       "classification": "BUG D'USAGE",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -6755,7 +6755,7 @@
       "identifiant": "INA-179",
       "titre": "Fenêtre de synchro bloquée par l’echec d’envoi du CRM",
       "classification": "BUG D'USAGE",
-      "statut": "Archivé",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": null,
@@ -6789,7 +6789,7 @@
       "identifiant": "INA-178",
       "titre": "[LOGICIEL] Refacto de l’envoi vers EURODECISION",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Extractions",
@@ -6821,7 +6821,7 @@
       "identifiant": "INA-177",
       "titre": "Meilleure affichage du bandeau d’autorisation des cookies sur l’espace client",
       "classification": "DEV sans CC",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26"
@@ -6861,7 +6861,7 @@
       "identifiant": "INA-168",
       "titre": "[LOGICIEL] Contrôle manquant sur la suppression d’une autre installation NNP",
       "classification": "BUG D'USAGE",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Paramétrages",
@@ -6895,7 +6895,7 @@
       "identifiant": "INA-167",
       "titre": "[LOGICIEL] NNP : Synchro qui boucle en erreur chez Ciela à cause de séjours qui n’existent pas",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [],
       "fonctions": null,
@@ -6933,7 +6933,7 @@
       "identifiant": "INA-166",
       "titre": "[WEB+ LOGICIEL]Traductions espagnoles NaxiNomadPremium + Naxi gestion",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -6966,7 +6966,7 @@
       "identifiant": "INA-164",
       "titre": "Paiement impossible sur l’espace client si le camping a un délai de validation activé sur Payline",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MARS 26"
@@ -7002,7 +7002,7 @@
       "identifiant": "INA-162",
       "titre": "[LOGICIEL] Version espagnole : Numérotation de facture différente de la numérotation des avoirs",
       "classification": "DEV avec CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Facturation",
@@ -7034,7 +7034,7 @@
       "identifiant": "INA-161",
       "titre": "[WEB+LOGICIEL] Recevoir dans le CRM les suppléments hors séjours",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "SEPTEMBRE 26"
@@ -7069,7 +7069,7 @@
       "identifiant": "INA-160",
       "titre": "Apparition d’un message sur le traitement des résas issues de l’espace client",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A etudier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -7102,7 +7102,7 @@
       "identifiant": "INA-159",
       "titre": " [LOGICIEL] SAAS - Pouvoir passer des versions en NAXIADMIN",
       "classification": "DEV sans CC",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUILLET 26"
@@ -7136,7 +7136,7 @@
       "identifiant": "INA-158",
       "titre": "[WEB+LOGICIEL] Automatiser l’import de tarif avec une fréquence définie",
       "classification": "DEV avec CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Paramétrages",
@@ -7170,7 +7170,7 @@
       "identifiant": "INA-157",
       "titre": "SQL - Exportation des fichiers NAXI : Les fichiers ne se proposent pas si ils ne sont pas présents localement ",
       "classification": "BUG D'USAGE",
-      "statut": "A etudier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": null,
@@ -7202,7 +7202,7 @@
       "identifiant": "INA-156",
       "titre": " [LOGICIEL/WEB]  Gérer l’arrêt de l’espace client V1",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": null,
@@ -7234,7 +7234,7 @@
       "identifiant": "INA-155",
       "titre": "Grafana - Ajout d’un dashboard “Rapport de version”",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "AVRIL 26",
@@ -7275,7 +7275,7 @@
       "identifiant": "INA-154",
       "titre": "Absence du nom du client lors de la facturation si le champs prénom n’est pas renseigné",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MARS 26"
@@ -7312,7 +7312,7 @@
       "identifiant": "INA-153",
       "titre": " [LOGICIEL] Gestion des mots de passe CTV",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Paramétrages",
@@ -7346,7 +7346,7 @@
       "identifiant": "INA-151",
       "titre": "SQL / Envoi auto des états comptables non fonctionnel",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MARS 26"
@@ -7382,7 +7382,7 @@
       "identifiant": "INA-150",
       "titre": "[WEB] Espace client : pouvoir souscrire à l’assurance annulation même si séjour non modifiable",
       "classification": "DEV avec CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": null,
@@ -7414,7 +7414,7 @@
       "identifiant": "INA-148",
       "titre": "REDSYS - Non fonctionnel suite mise en place",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -7446,7 +7446,7 @@
       "identifiant": "INA-147",
       "titre": " [LOGICIEL/WEB] CRM - Le montant des suppléments envoyés est faux lorsque le supplément est en prix modifiable dans NAXI",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Statistiques",
@@ -7478,7 +7478,7 @@
       "identifiant": "INA-146",
       "titre": "Incohérences dans le fichier sousloc du CRM / Eurodecision",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26"
@@ -7518,7 +7518,7 @@
       "identifiant": "INA-145",
       "titre": "Erreur de saisie sur les remises manuelle générant un montant de séjour faux ",
       "classification": "BUG D'USAGE",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -7559,7 +7559,7 @@
       "identifiant": "INA-143",
       "titre": "[GRAFANA WEB] Synchro_recupV2 : Ressources en erreur",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26"
@@ -7598,7 +7598,7 @@
       "identifiant": "INA-142",
       "titre": "[WEB] SynchroV2 - Activation globale de ressource(s) en V2 pour l'ensemble de nos clients",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26",
@@ -7643,7 +7643,7 @@
       "identifiant": "INA-141",
       "titre": "[WEB] redescente des résa en V1 alors que le synchro récup de la résa est en V2",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MARS 26"
@@ -7681,7 +7681,7 @@
       "identifiant": "INA-140",
       "titre": "Bug 237385: SQL - Pb affichage Planning suite création séjour",
       "classification": "BUG D'USAGE",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "MARS 26"
@@ -7722,7 +7722,7 @@
       "identifiant": "INA-139",
       "titre": "[WEB] Multiple bug échange de solde",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [
         "MARS 26"
@@ -7763,7 +7763,7 @@
       "identifiant": "INA-138",
       "titre": "[WEB] SH - Récupération paiement existant lors d'envoi paiement sur SH",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [
         "MARS 26"
@@ -7805,7 +7805,7 @@
       "identifiant": "INA-137",
       "titre": "[WEB] NNP contrôle d'occupation : problème d'affichage des détails",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MARS 26"
@@ -7845,7 +7845,7 @@
       "identifiant": "INA-136",
       "titre": "(Suite dév) CTV : Modification de Réservation (Classiques + TO)",
       "classification": "DEV sans CC",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MARS 26"
@@ -7887,7 +7887,7 @@
       "identifiant": "INA-134",
       "titre": "Système de monayeur Glory - CI Activate",
       "classification": "DEV sans CC",
-      "statut": "Abandon",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Paiements",
@@ -7920,7 +7920,7 @@
       "identifiant": "INA-133",
       "titre": "[LOGICIEL] Supprimer les paiements sécurisés proposés dans NAXI mais qui ne sont plus disponibles sur l’espace client V2",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Paiements",
@@ -7952,7 +7952,7 @@
       "identifiant": "INA-132",
       "titre": "[WEB] Connexion Web a Naxi Nomad Premium",
       "classification": "DEV avec CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": null,
@@ -7984,7 +7984,7 @@
       "identifiant": "INA-130",
       "titre": "[LOGICIEL] Suppression de l’ancien planning",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Autres",
@@ -8017,7 +8017,7 @@
       "identifiant": "INA-129",
       "titre": "[LOGICIEL] Doublons dans la table CPTCLIENT - Impact export comptable",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MAI 26"
@@ -8057,7 +8057,7 @@
       "identifiant": "INA-127",
       "titre": "La fenêtre de saisie d’un paiement lors de la facturation ne s’affiche plus automatiquement",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MARS 26"
@@ -8094,7 +8094,7 @@
       "identifiant": "INA-126",
       "titre": "[LOGICIEL] Facturation : La civilité et le pays du destinataire de la facture ne sont plus prises en compte (Facture au nom de Autre adresse)",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Sprint en cours",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -8135,7 +8135,7 @@
       "identifiant": "INA-125",
       "titre": " [LOGICIEL]  Extraction liste - message erreur recherche vente réception",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "DECEMBRE 26"
@@ -8170,7 +8170,7 @@
       "identifiant": "INA-123",
       "titre": "[WEB] Pb taille colonne \"tb_sbnumsup\" : Clients à mettre à jour",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "NOVEMBRE 26"
@@ -8205,7 +8205,7 @@
       "identifiant": "INA-121",
       "titre": "[LOGICIEL] Modification du CP/Ville saisie si différente de la table POSTAL",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AOUT 26"
@@ -8239,7 +8239,7 @@
       "identifiant": "INA-120",
       "titre": "[LOGICIEL] Stats INSEE - Erreur calcul HT en base SQL uniquement",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "SEPTEMBRE 26"
@@ -8273,7 +8273,7 @@
       "identifiant": "INA-119",
       "titre": "[LOGICIEL] Suppression des reports de solde lors des traitements de clients en doublon",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "AOUT 26"
@@ -8308,7 +8308,7 @@
       "identifiant": "INA-118",
       "titre": "[LOGICIEL] Impossible de facturer si changement de tarif engendrant une assurance annulation inferieure au montant facturé sur séjour facturé partiellement",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUILLET 26"
@@ -8343,7 +8343,7 @@
       "identifiant": "INA-117",
       "titre": "[LOGICIEL] Message erreur sur recherche client avancée sans filtre en SQL",
       "classification": "BUG D'USAGE",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Fiche client",
@@ -8375,7 +8375,7 @@
       "identifiant": "INA-114",
       "titre": "[WEB] Lien paiement de solde: Impossibilité d'utiliser le bon cadeau",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -8408,7 +8408,7 @@
       "identifiant": "INA-111",
       "titre": "[LOGICIEL] SQL : affichage de l'heure absente du tableau des opération de préparation des ménages",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Archivé",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Extractions",
@@ -8446,7 +8446,7 @@
       "identifiant": "INA-110",
       "titre": "[LOGICIEL]Suppléments gérés en stock non mis à jour lors d'un refus de réservation",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -8487,7 +8487,7 @@
       "identifiant": "INA-109",
       "titre": "[LOGICIEL] NNP :  SQL table FEATURES vide en bdd",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "OCTOBRE 26"
@@ -8521,7 +8521,7 @@
       "identifiant": "INA-108",
       "titre": "[WEB] Nouvel Espace Client: Erreur lors de l'enregistrement des données de profil si aucun prénom renseigné",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "MAI 26"
@@ -8557,7 +8557,7 @@
       "identifiant": "INA-107",
       "titre": "[LOGICIEL] NX COMMERCE : Réaffectation d'un bracelet sur la saison suivante",
       "classification": "DEV sans CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -8590,7 +8590,7 @@
       "identifiant": "INA-105",
       "titre": "[WEB] Erreur récurrente dans les logs NNP - camping St Martin -",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "NOVEMBRE 26"
@@ -8624,7 +8624,7 @@
       "identifiant": "INA-104",
       "titre": "[LOGICIEL] NAXICOD: Anomalie gestion des environnements",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "DECEMBRE 26"
@@ -8658,7 +8658,7 @@
       "identifiant": "INA-102",
       "titre": "[LOGICIEL] Fidelit� CTV: Erreur int�gration des infos Fid�lit� quand recup par la synchro",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": null,
@@ -8690,7 +8690,7 @@
       "identifiant": "INA-101",
       "titre": "[LOGICIEL] Watchdog : Probl�me de gestion des environnements",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": null,
@@ -8720,7 +8720,7 @@
       "identifiant": "INA-100",
       "titre": "[LOGICIEL] Bug support:   ERREUR  SYNCHRO ACCESS CONTROL API ",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -8750,7 +8750,7 @@
       "identifiant": "INA-99",
       "titre": "[LOGICIEL] Erreur sur l'affichage des photos",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": null,
@@ -8780,7 +8780,7 @@
       "identifiant": "INA-98",
       "titre": "[LOGICIEL] Erreur remise dans facturation Vacaf",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": null,
@@ -8810,7 +8810,7 @@
       "identifiant": "INA-97",
       "titre": "[LOGICIEL] NaxiCam - manque listrepdata pour le choix de NaxiGestion",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": null,
@@ -8840,7 +8840,7 @@
       "identifiant": "INA-96",
       "titre": "[LOGICIEL] Message d'erreur sur libell� suppl�ment/produit",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": null,
@@ -8870,7 +8870,7 @@
       "identifiant": "INA-95",
       "titre": "[LOGICIEL] OSMOKEY - le code ne s'affiche plus dans Naxi",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MARS 26"
@@ -8907,7 +8907,7 @@
       "identifiant": "INA-94",
       "titre": "[LOGICIEL] SUISSE et BELGIQUE - Libell�s personnalis�s proforma",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [],
       "fonctions": null,
@@ -8937,7 +8937,7 @@
       "identifiant": "INA-93",
       "titre": "[LOGICIEL] Erreur sur dipo des emplacements - MEDDITERRANEES-",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [],
       "fonctions": null,
@@ -8967,7 +8967,7 @@
       "identifiant": "INA-92",
       "titre": "[LOGICIEL] Erreur sur la visualisation de proforma groupe",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "AVRIL 26"
@@ -9008,7 +9008,7 @@
       "identifiant": "INA-91",
       "titre": "[LOGICIEL] Non affichage du n� de siret sur les proforma",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [],
       "fonctions": null,
@@ -9038,7 +9038,7 @@
       "identifiant": "INA-90",
       "titre": "[LOGICIEL] Suppl�ment avec libell� modifiable non traduit sur les bons de s�jours ",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": null,
@@ -9068,7 +9068,7 @@
       "identifiant": "INA-89",
       "titre": "[LOGICIEL] Camping sans resa web, synchro saturée",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUILLET 26"
@@ -9103,7 +9103,7 @@
       "identifiant": "INA-86",
       "titre": "[LOGICIEL] Refacto Systéme d'impression",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9136,7 +9136,7 @@
       "identifiant": "INA-85",
       "titre": "[LOGICIEL] Refacto Fusion base de données",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9169,7 +9169,7 @@
       "identifiant": "INA-84",
       "titre": "[LOGICIEL] Refacto : système de génération des courriers/emails (fichiers.rtf)",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9202,7 +9202,7 @@
       "identifiant": "INA-83",
       "titre": "[LOGICIEL] NAXI Code : Refacto du système déporté",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9234,7 +9234,7 @@
       "identifiant": "INA-82",
       "titre": "[LOGICIEL] NG : Visuel => suppression code ancien menu",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9267,7 +9267,7 @@
       "identifiant": "INA-81",
       "titre": "[WEB+LOGICIEL] CTV - Réservation Panier",
       "classification": "DEV avec CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -9299,7 +9299,7 @@
       "identifiant": "INA-80",
       "titre": "[WEB+LOGICIEL] CTV - Fidélité sur l'Espace Client",
       "classification": "DEV avec CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -9331,7 +9331,7 @@
       "identifiant": "INA-77",
       "titre": "[WEB+LOGICIEL] Check-In Scan partie 1 :  Mapping + envoi Naxi.G vers CiS",
       "classification": "DEV sans CC",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26",
@@ -9378,7 +9378,7 @@
       "identifiant": "INA-76",
       "titre": "[LOGICIEL] CTV : Import Promos / Gestion Multi Périodes",
       "classification": "DEV avec CC",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "OCTOBRE 26"
@@ -9412,7 +9412,7 @@
       "identifiant": "INA-74",
       "titre": "[WEB+LOGICIEL] Accès API Contrôle d'Accès Partenaires Extérieurs",
       "classification": "DEV avec CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -9445,7 +9445,7 @@
       "identifiant": "INA-72",
       "titre": "[WEB+LOGICIEL] CTV : Bascule en REST - Import Tarifs/Promos",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Paramétrages",
@@ -9477,7 +9477,7 @@
       "identifiant": "INA-71",
       "titre": "[WEB+LOGICIEL] CTV : Bascule en REST - Envois des plannings",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -9509,7 +9509,7 @@
       "identifiant": "INA-70",
       "titre": "[WEB+LOGICIEL] CTV / CRM : Envoi des Indispos et Sous locations (Historique)",
       "classification": "DEV avec CC",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "SEPTEMBRE 26"
@@ -9544,7 +9544,7 @@
       "identifiant": "INA-69",
       "titre": "[LOGICIEL] CTV : OTA - Mapping Stocks TO NAXI /Canal SH",
       "classification": "DEV avec CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -9576,7 +9576,7 @@
       "identifiant": "INA-68",
       "titre": "Facturation: Gestion locative",
       "classification": "DEV avec CC",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26"
@@ -9619,7 +9619,7 @@
       "identifiant": "INA-67",
       "titre": "CONCIERGERIE : Gestion du statut des suppléments (V2)",
       "classification": "DEV avec CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -9651,7 +9651,7 @@
       "identifiant": "INA-66",
       "titre": "[LOGICIEL] Mise à jour et versionning",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9684,7 +9684,7 @@
       "identifiant": "INA-65",
       "titre": "[WEB+LOGICIEL]Refactor Synchro V2 - Général",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9717,7 +9717,7 @@
       "identifiant": "INA-64",
       "titre": "(Suite dév) SynchroV2 - Synchro_recup",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [
         "MARS 26"
@@ -9760,7 +9760,7 @@
       "identifiant": "INA-63",
       "titre": "[WEB+LOGICIEL]SynchroV2 - Synchrobatch",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9793,7 +9793,7 @@
       "identifiant": "INA-62",
       "titre": "[WEB] Refactor Web - Get Price",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9826,7 +9826,7 @@
       "identifiant": "INA-60",
       "titre": " [WEB+LOGICIEL](Suite dév) SynchroV2 - Synchronize Prio1",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9859,7 +9859,7 @@
       "identifiant": "INA-59",
       "titre": "Migration pour PCI DSS",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9892,7 +9892,7 @@
       "identifiant": "INA-58",
       "titre": "[WEB+LOGICIEL] - Synchro_recup : Controle Accés",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9925,7 +9925,7 @@
       "identifiant": "INA-57",
       "titre": "[WEB+LOGICIEL] - Synchro_recup : Partenaires",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9958,7 +9958,7 @@
       "identifiant": "INA-56",
       "titre": "[WEB+LOGICIEL] - Synchronize : Socle V2",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -9991,7 +9991,7 @@
       "identifiant": "INA-55",
       "titre": "[WEB+LOGICIEL] SynchroV2 - Synchronize : Gestion d'erreurs",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -10024,7 +10024,7 @@
       "identifiant": "INA-54",
       "titre": "[WEB+LOGICIEL] SynchroV2 - Synchronize : Organisation envoi des données",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -10057,7 +10057,7 @@
       "identifiant": "INA-53",
       "titre": "[WEB] Mise en place Test Automatisés E2E",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -10090,7 +10090,7 @@
       "identifiant": "INA-52",
       "titre": " [WEB]GRAFANA Synchro_recupV2 : Résas partenaires en erreur",
       "classification": "STACK TECH",
-      "statut": "Abandon",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": null,
@@ -10126,7 +10126,7 @@
       "identifiant": "INA-51",
       "titre": "[WEB] Gestion des Mails",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -10156,7 +10156,7 @@
       "identifiant": "INA-50",
       "titre": "[WEB] Nettoyage de données bdd serveurs",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "CRM",
@@ -10186,7 +10186,7 @@
       "identifiant": "INA-49",
       "titre": "[WEB ]GRAFANA : fenêtre Naxi V2 : activation en masse des fenetres",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26",
@@ -10229,7 +10229,7 @@
       "identifiant": "INA-48",
       "titre": "[WEB] Amélioration performances Nouvel Espace Client ",
       "classification": "STACK TECH",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -10259,7 +10259,7 @@
       "identifiant": "INA-47",
       "titre": "[WEB+LOGICIEL] Activation Nouvel espace client",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -10291,7 +10291,7 @@
       "identifiant": "INA-45",
       "titre": "Impossible de refacturer un acompte sans paiement si la première facture a été annulée par un avoir",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26"
@@ -10332,7 +10332,7 @@
       "identifiant": "INA-44",
       "titre": "[LOGICIEL] Envoi email groupe impossible si séjour facture",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "OCTOBRE 26"
@@ -10367,7 +10367,7 @@
       "identifiant": "INA-43",
       "titre": "[LOGICIEL] Exporter l'historique de NAXICod ou NAXICAM",
       "classification": "DEV sans CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Extractions",
@@ -10402,7 +10402,7 @@
       "identifiant": "INA-40",
       "titre": "[LOGICIEL] Lenteurs sur liste des cautions en SQL (Optimisation)",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "JUILLET 26"
@@ -10436,7 +10436,7 @@
       "identifiant": "INA-39",
       "titre": "Erreur affichage heure sur historique séjour",
       "classification": "BUG D'USAGE",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "MARS 26"
@@ -10476,7 +10476,7 @@
       "identifiant": "INA-38",
       "titre": "[LOGICIEL] Optim SQL - suppression fiche client",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AOUT 26"
@@ -10510,7 +10510,7 @@
       "identifiant": "INA-37",
       "titre": "Fenêtre Export comptable : Manque icône pour exporter sous excel si pas assez de ligne",
       "classification": "BUG D'USAGE",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "AVRIL 26"
@@ -10551,7 +10551,7 @@
       "identifiant": "INA-35",
       "titre": "[LOGICIEL] Facture acompte + modification de séjour amenant à facture à 0€",
       "classification": "BUG D'USAGE",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Facturation",
@@ -10584,7 +10584,7 @@
       "identifiant": "INA-33",
       "titre": "[LOGICIEL] Espace client toujours actif sur les templates même si plus de licence active",
       "classification": "BUG D'USAGE",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -10616,7 +10616,7 @@
       "identifiant": "INA-32",
       "titre": "[LOGICIEL]NAXI COD : mise en place nouveau SDK axiom",
       "classification": "STACK TECH",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "NOVEMBRE 26"
@@ -10650,7 +10650,7 @@
       "identifiant": "INA-30",
       "titre": "NAXI Code : Correctif Remontées des évènements en mode déporté",
       "classification": "BUG STRUCTURANT",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MARS 26"
@@ -10687,7 +10687,7 @@
       "identifiant": "INA-29",
       "titre": "[LOGICIEL] NORME V19",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "AVRIL 26",
@@ -10731,7 +10731,7 @@
       "identifiant": "INA-28",
       "titre": "[WEB+LOGICIEL] Sortie module Contrôle d'Accès NNP",
       "classification": "DEV sans CC",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -10764,7 +10764,7 @@
       "identifiant": "INA-27",
       "titre": "[WEB+LOGICIEL] Caution SWIKLY : Nouvelle API",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -10807,7 +10807,7 @@
       "identifiant": "INA-26",
       "titre": "Paiement Sécurisé - Caution Payline: Contrat PLBS",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "AVRIL 26"
@@ -10850,7 +10850,7 @@
       "identifiant": "INA-25",
       "titre": "[WEB] CRM V2 : Les clients Vacaf doivent être envoyés en type Client Standard et non pas en Client de TO",
       "classification": "BUG OPERATIONNEL",
-      "statut": "En cours",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "JUIN 26"
@@ -10891,7 +10891,7 @@
       "identifiant": "INA-24",
       "titre": "[LOGICIEL] Erreur sur la référence dossier des bons de séjours groupe",
       "classification": "BUG D'USAGE",
-      "statut": "Stand by",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -10924,7 +10924,7 @@
       "identifiant": "INA-23",
       "titre": "Impossible de payer sur l’espace client si paiement différé activé sur Payline",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [
         "MARS 26"
@@ -10963,7 +10963,7 @@
       "identifiant": "INA-22",
       "titre": "Impossible d’ouvrir l’encours V2",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Compta & finances",
@@ -10996,7 +10996,7 @@
       "identifiant": "INA-21",
       "titre": "[LOGICIEL] Message d’erreur à l’enregistrement d’un nouveau véhicule",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "NOVEMBRE 26"
@@ -11031,7 +11031,7 @@
       "identifiant": "INA-19",
       "titre": "[WEB+LOGICIEL]Traitement des modifications statut des options séjours (CTV) - Post des options",
       "classification": "DEV avec CC",
-      "statut": "Abandon",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -11065,7 +11065,7 @@
       "identifiant": "INA-18",
       "titre": "Apple Pay & Google Pay (CTV)",
       "classification": "DEV sans CC",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AVRIL 26"
@@ -11109,7 +11109,7 @@
       "identifiant": "INA-17",
       "titre": "[WEB+LOGICIEL] CTV - Disparité tarifaire OTA (produits et périodes)",
       "classification": "DEV avec CC",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "AOUT 26"
@@ -11145,7 +11145,7 @@
       "identifiant": "INA-16",
       "titre": "[WEB+LOGICIEL] Mapping des TO / OTA avec CTV",
       "classification": "DEV avec CC",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUILLET 26"
@@ -11181,7 +11181,7 @@
       "identifiant": "INA-15",
       "titre": "Intégration balise pour prélèvement trésor public",
       "classification": "DEV sans CC",
-      "statut": "Abandon",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Facturation",
@@ -11213,7 +11213,7 @@
       "identifiant": "INA-14",
       "titre": "[WEB] Paiement solde avec ou sans taxe de séjour",
       "classification": "DEV sans CC",
-      "statut": "Sprint en cours",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
         "JUIN 26"
@@ -11254,7 +11254,7 @@
       "identifiant": "INA-13",
       "titre": "Renvoyer consommation electrique pour facturaction",
       "classification": "DATA HUB - CTV",
-      "statut": "Abandon",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Facturation",
@@ -11287,7 +11287,7 @@
       "identifiant": "INA-11",
       "titre": "[LOGICIEL] Connexion plusieurs TPE Physique",
       "classification": "DEV avec CC",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": "Facturation",
@@ -11320,7 +11320,7 @@
       "identifiant": "INA-10",
       "titre": "Supprimer lien vers vidéos Tuto",
       "classification": "STACK TECH",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "MARS 26"
@@ -11361,7 +11361,7 @@
       "identifiant": "INA-8",
       "titre": "Réservations impossibles  à cause d'un conflit de traitement sur NAXI EXPORT",
       "classification": "BUG OPERATIONNEL",
-      "statut": "FAIT",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "MARS 26"
@@ -11403,7 +11403,7 @@
       "identifiant": "INA-6",
       "titre": "[WEB+LOGICIEL] Facturation dématérialisé - Norme Européen 26 / 27 (Pennylane)",
       "classification": "DEV avec CC",
-      "statut": "En cours",
+      "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
         "JUIN 26"
@@ -11445,7 +11445,7 @@
       "identifiant": "INA-5",
       "titre": "[LOGICIEL] Absence des PDF des devis dans l’onglet Courrier / Email en SQL ",
       "classification": "BUG OPERATIONNEL",
-      "statut": "A planifier",
+      "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
         "SEPTEMBRE 26"
@@ -11479,7 +11479,7 @@
       "identifiant": "INA-3",
       "titre": "Specif - RESAAUTO",
       "classification": "BUG OPERATIONNEL",
-      "statut": "Abandon",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Séjour",
@@ -11511,7 +11511,7 @@
       "identifiant": "INA-2",
       "titre": "Modifier réservation dans espace client suite remise manuelle",
       "classification": "BUG D'USAGE",
-      "statut": "A prevoir TOP LINE",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
@@ -11543,7 +11543,7 @@
       "identifiant": "INA-1",
       "titre": "Passerelle TOOCAMP",
       "classification": "BUG D'USAGE",
-      "statut": "Abandon",
+      "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
       "fonctions": null,
