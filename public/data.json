@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-23T06:00:11.852Z",
+  "generatedAt": "2026-06-23T09:40:16.369Z",
   "classique": [
     {
       "id": "3878db15-623a-80b4-986f-c2e40cd70ac1",
       "identifiant": "INA-383",
-      "titre": "[LOGICIEL] - Impossible d’envoyer le CRM sur des saisons cloturées",
+      "titre": "[LOGICIEL] - Impossible d’envoyer le CRM sur des saisons clôturées",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
@@ -32,7 +32,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Impossible-d-envoyer-le-CRM-sur-des-saisons-clotur-es-3878db15623a80b4986fc2e40cd70ac1"
+      "url": "https://app.notion.com/p/LOGICIEL-Impossible-d-envoyer-le-CRM-sur-des-saisons-cl-tur-es-3878db15623a80b4986fc2e40cd70ac1"
     },
     {
       "id": "3878db15-623a-80ad-8a92-c7d32cb1fbca",
