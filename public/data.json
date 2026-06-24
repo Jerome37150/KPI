@@ -1,6 +1,166 @@
 {
-  "generatedAt": "2026-06-24T13:33:55.347Z",
+  "generatedAt": "2026-06-24T15:58:56.972Z",
   "classique": [
+    {
+      "id": "3898db15-623a-8169-adab-c4c8eef23412",
+      "identifiant": "INA-388",
+      "titre": "[WEB] - Erreur Echec Appel URL Notification Payzen",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": "Paiements sécurisés",
+      "produits": [
+        "NAXI RESERVATION"
+      ],
+      "client": "Bois Soleil 17",
+      "dateCreation": "2026-06-24T15:14:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Depuis peu, le camping BOIS SOLEIL 17 reçoit un certain nombre d'erreurs de la part de PAYZEN.\n\n**E_mail type _:**\n\n_____De: do_not_reply@payzen.eu\nDate: 24 juin 2026 à 12:55:17 UTC+2\nÀ: DIR <direction@bois-soleil.com>\nObjet: CAMPING BOIS SOLEIL - Tr. 076405e842f742188e2ee8fe37d5981e / ECHEC lors de l'appel de votre URL de notification [URL de notification à la fin du paiement]\n  \nSOCIÉTÉ : PARC HOTEL BOIS SOLEIL \nBOUTIQUE : CAMPING BOIS SOLEIL [90287130] \nAdresse URL : http://www.www.bois-soleil.com \n\nBonjour,\n\nNous avons enregistré le 24 juin 2026 12:53:26 la transaction 076405e842f742188e2ee8fe37d5981e d'un montant de 919,24 EUR sur la boutique CAMPING BOIS SOLEIL.\n\nLors de l'appel de votre URL de notification https://api.inaxel.com/services/payment/payzen/notify/a282f86e024739e3cee08f37c3ed4688, nous avons rencontré un problème technique dont le code d'erreur est : FAILED_SERVER_500_ERROR.\n\nPour plus d'information concernant ce code d'erreur, se référer à la FAQ : http://payzen.io/fr-FR/error-code/server-url-error.html\n\nSoit nous n'avons pas pu contacter votre serveur (indisponibilité de votre site marchand), soit votre serveur nous a répondu dans un délai beaucoup trop long, soit votre serveur nous a répondu un message d'erreur. Vous pouvez retrouver le type d'erreur rencontré dans l'historique des évènements de la transaction de votre Back Office marchand.\n\nPour information, le nom de la règle activée liée à cette erreur est [URL de notification à la fin du paiement].\n\nQuelles conséquences a ce message :\n\nLe paiement a été finalisé positivement ou négativement par la plateforme de paiement, mais il est possible que votre site marchand ne soit pas à jour. Il est inutile d'appeler le support technique car nous n'avons pas d'action sur votre informatique. Cependant, nous vous conseillons de vous rapprocher de votre webmaster pour analyser les causes de cette erreur et apporter éventuellement les corrections nécessaires.\n\nUne fois l'éventuel problème résolu, il vous est possible de rejouer manuellement l'URL de notification correspondant à cette transaction afin de notifier vos applications.\n\nPour cela, \n1.\tconnectez-vous à votre Back Office,\n2.\trecherchez la transaction réf. 076405e842f742188e2ee8fe37d5981e, \n3.\tune fois la transaction trouvée, utilisez le clic droit de votre souris sur la transaction pour sélectionner \"Exécuter l'URL de notification\". \n \n\nVous serez alors informé de la bonne exécution de cette commande si votre application est à nouveau accessible.\n\nVous pourrez dans tous les cas visualiser le résultat de votre action dans l'historique des évènements de la transaction et éventuellement analyser les messages d'erreur si le problème persiste. En survolant le champ info de ligne \"appel URL de notification\" avec votre souris, vous pouvez aussi éventuellement accéder à plus d'informations sur la cause de l'échec.\n____ _\n\n\nEn regardant les logs apache, je constate en effet beaucoup d'erreurs 500 (cf pièce jointe image (2).png)\n\nLudwig a regardé les pods et l'infra mais il ne voit aucune erreur de son côté.\n",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/WEB-Erreur-Echec-Appel-URL-Notification-Payzen-3898db15623a8169adabc4c8eef23412"
+    },
+    {
+      "id": "3898db15-623a-8077-874e-df778cc23f98",
+      "identifiant": "INA-387",
+      "titre": "[WEB] NNP masquer le numéro de téléphone sur NNP",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
+      "fonctions": null,
+      "produits": [],
+      "client": "",
+      "dateCreation": "2026-06-24T14:54:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/WEB-NNP-masquer-le-num-ro-de-t-l-phone-sur-NNP-3898db15623a8077874edf778cc23f98"
+    },
+    {
+      "id": "3898db15-623a-8049-9cfe-d7821195963f",
+      "identifiant": "INA-386",
+      "titre": "[WEB] ESPACE CAMPING : masquer toutes les données sensibles ",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
+      "fonctions": null,
+      "produits": [],
+      "client": "",
+      "dateCreation": "2026-06-24T14:52:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/WEB-ESPACE-CAMPING-masquer-toutes-les-donn-es-sensibles-3898db15623a80499cfed7821195963f"
+    },
+    {
+      "id": "3898db15-623a-8054-8272-d280fa210429",
+      "identifiant": "INA-385",
+      "titre": "[WEB] ESPACE CLIENT : Masquer les données sensibles du client",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
+      "fonctions": null,
+      "produits": [],
+      "client": "",
+      "dateCreation": "2026-06-24T14:47:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/WEB-ESPACE-CLIENT-Masquer-les-donn-es-sensibles-du-client-3898db15623a80548272d280fa210429"
+    },
+    {
+      "id": "3898db15-623a-81ba-b68e-e611f6b053b1",
+      "identifiant": "INA-384",
+      "titre": "TEST",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "NAXI GESTION SQL"
+      ],
+      "client": "",
+      "dateCreation": "2026-06-24T14:10:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/TEST-3898db15623a81bab68ee611f6b053b1"
+    },
     {
       "id": "3878db15-623a-80b4-986f-c2e40cd70ac1",
       "identifiant": "INA-383",
@@ -8,7 +168,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
       "fonctions": "CRM",
       "produits": [
         "NAXI GESTION SQL",
@@ -175,7 +337,7 @@
       "titre": "[WEB] - Erreur redescente solde SH",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
+      "priorisation": "Haute",
       "sprintIdeal": [
         "JUILLET 26"
       ],
@@ -225,7 +387,7 @@
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
-      "pointAvancement": 0,
+      "pointAvancement": 0.05,
       "pointsBlocage": "",
       "explication": "NAXI Resa et le lien de paiement du solde sont inaccesibles  ou très lents. Les premiers clients nous l’ont signalé ce Dimanche vers 11h00 mais un client nous a indiqué que le soucis aurait commencé déjà hier (Samedi 20 Juin).\n\nLudwig a fait les actions suivantes : \n  • Redémarrage des infras\n  • Vider le cache des répertoires de sessions\n  • Test d’un rollback : aucun changement\nMalgré toutes ces actions, le soucis persiste.\n\nNous constatons en revanche que le problème est surement dû à des connexions SQL qui ne se ferment pas et bloque l’accès à la base\n\nIl a été mise en place une limite pour ne pas saturer  les autres API",
       "communication": [],
@@ -730,7 +892,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
       "fonctions": "Résa web",
       "produits": [
         "CTV"
@@ -1110,7 +1274,7 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 0.2,
       "pointsBlocage": "",
       "explication": "Depuis passage en 18.21, ce camping a une erreur qui boucle sans cesse.",
       "communication": [],
@@ -1145,7 +1309,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Depuis le correctif sur la BUG-1034, le fichier sousloc ne se génère plus chez certains clients.",
+      "explication": "Depuis le correctif sur la BUG-1034, le fichier sousloc ne se génère plus chez certains clients.\n",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -1254,7 +1418,7 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 0.5,
       "pointsBlocage": "",
       "explication": "Naxi galère à fermer la fenêtre de facturation par lot que ce soit en HF ou en SQL / Depuis le 18.18 à minima",
       "communication": [],
@@ -1453,9 +1617,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "JUILLET 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Autres",
       "produits": [
         "NAXI ESPACE CLIENT"
@@ -1867,7 +2029,7 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 0.2,
       "pointsBlocage": "",
       "explication": "Depuis son passage en SQL, le client constate que les séjours sans emplacement n’apparaissent plus dans le tableau des arrivées & départs",
       "communication": [],
@@ -2878,7 +3040,7 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 0.2,
       "pointsBlocage": "",
       "explication": "Le client a appelé pour se plaindre que les séjours de ces clients n’apparaissaient pas sur l’espace client.\n\nEn me connectant, en effet, j’ai des erreurs d’envoi de COMMAND mais qui passe si on les renvoit.\nPar contre en récupérant les logs, on voit qu’en effet ça boucle souvent en erreur chez eux  (voir logs ci dessous)",
       "communication": [],
@@ -3000,7 +3162,7 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 0.5,
       "pointsBlocage": "",
       "explication": "Les participants du dernier séjour d’un bon de séjour groupe ne sont plus affichés (uniquement sur le PDF)",
       "communication": [],
@@ -3270,7 +3432,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUILLET 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": "Synchro",
       "produits": [
@@ -4549,7 +4711,7 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 0.3,
       "pointsBlocage": "",
       "explication": "Lorsque l’on envoie un template de confirmation de réservation, de solde..etc, les montants affichés sont les montants totaux. \n\nAinsi, dans le cas d’un séjour de TO, on affiche le montant total et non pas le montant client total. Par conséquent, le client voit la part TO, ce qui n’est pas normal \n\n→ correction par montant client",
       "communication": [],
@@ -4612,9 +4774,7 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "JUIN 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Séjour",
       "produits": [
         "NAXI GESTION SQL",
@@ -5843,7 +6003,7 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 100,
+      "pointAvancement": 0.4,
       "pointsBlocage": "",
       "explication": "Vu avec Christophe pour refonte de l’espace client du site Inaxel avec suppression des élements pas utilisés + ajout de lien pour la partie technique",
       "communication": [],
@@ -7105,7 +7265,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUILLET 26"
+        "OCTOBRE 26"
       ],
       "fonctions": "Mise à jour",
       "produits": [
@@ -8116,7 +8276,7 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0,
+      "pointAvancement": 0.2,
       "pointsBlocage": "",
       "explication": "Dans NAXI, nous avons la possibilité lors de la facturation de modifier le destinataire de la facture (souvent utilisé pour facturer à un CE par exemple). Depuis la version 18, lorsque l’on facture à une autre adresse, NAXI affiche par défaut sur le PDF de la facture, la civilité et le pays du client et non pas de l’autre adresse saisie",
       "communication": [],
@@ -8311,7 +8471,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUILLET 26"
+        "OCTOBRE 26"
       ],
       "fonctions": "Facturation",
       "produits": [
@@ -9070,9 +9230,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [
-        "JUILLET 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Synchro",
       "produits": [
         "NAXI GESTION SQL",
@@ -10405,7 +10563,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "JUILLET 26"
+        "OCTOBRE 26"
       ],
       "fonctions": "Extractions",
       "produits": [
@@ -28485,7 +28643,7 @@
     ]
   },
   "counts": {
-    "classique": 321,
+    "classique": 326,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
