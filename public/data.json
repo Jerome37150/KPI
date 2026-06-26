@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-06-26T06:38:28.838Z",
+  "generatedAt": "2026-06-26T10:00:34.763Z",
   "classique": [
+    {
+      "id": "38b8db15-623a-8136-bc33-e54f3d597559",
+      "identifiant": "INA-396",
+      "titre": "[LOGICIEL] - Pouvoir enlever une remise fidelité CTV dans un séjour NAXI",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [],
+      "fonctions": "Séjour",
+      "produits": [
+        "NAXI GESTION SQL",
+        "NAXI GESTION HF"
+      ],
+      "client": "Ciela",
+      "dateCreation": "2026-06-26T07:04:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Actuellement, dans NAXI, lorsqu'un séjour est validé avec une remise fidelité, en cas d'erreur, l'utilisateur ne peut plus enlever la remise.<br><br>Naxi affiche un message d'alerte<br><br><b>-&gt; Demande de Ciela</b> : Pouvoir supprimer une remise fidelité avec recrédit automatique des points vers SH&nbsp;<br><br>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Pouvoir-enlever-une-remise-fidelit-CTV-dans-un-s-jour-NAXI-38b8db15623a8136bc33e54f3d597559"
+    },
     {
       "id": "38a8db15-623a-81af-a9cb-fae4db9d513a",
       "identifiant": "INA-395",
@@ -55,7 +88,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<b style=\"\"><u>Contexte</u></b><br><i>Le groupe LA SIRENE&nbsp; a été migré en SQL le 22/06/2026 .</i><br><br><i>Depuis, ils ne parviennent à générer leur export comptable.</i><br><br><b><u>Détails permettant de reproduire le bug :&nbsp;</u></b><br><br>1. S'assurer d'être en SQL<br>2. Créer plusieurs paiements et remise en banque afin d'avoir des données<div>3. Se rendre ensuite dans le menu paramètres &gt; Paiements</div><div>4. Dans l'onglet Mes banques, s'assurer d'avoir 5/6 banques&nbsp;</div><div>5. Puis, ouvrir le menu Gestion &gt; Export comptable</div><div>6. Pour reproduire le bug, j'ai pris le modèle d'EBP mais le bug n'est pas lié au modèle</div><div>7. Dans l'onglet compte client, bien configurer un compte commun à tous les clients, avec un compte général à 411000000 -<b> La longueur du numéro client est importante car si je met 411 je ne reproduis pas le bug</b><br>8. Puis dans l'onglet Paiements, s'assurer de bien avoir un numéro de compte pour chaque banque</div><div>9. Cocher ensuite chaque ligne de Remise en banquet et bien mettre au débit Une écriture par remise et au crédit Une écriture par paiement. - <b>Je ne reproduis pas si je met au crédit une écriture par remise</b></div><div>10. Valider</div><div>11. Lancer la recherche de l'export comptable</div><div><br></div><div><b><u>NAXI plante alors avec le message d'erreur ci dessous :&nbsp;</u></b></div><div><br><i>Le mécanisme de sécurité du WLangage a détecté une erreur dans l'application EVOCAMP.&nbsp;</i><div><i>Contactez le fournisseur de l'application EVOCAMP.</i></div><div><i><br></i></div><div><i>&lt;cltype&gt; n'est ni une rubrique ni un paramètre de la requête &lt;h_transfi&gt;. De nouveaux paramètres ne doivent pas être déclarés après la préparation d'une requête. Vérifier également qu'il n'y a pas d'erreur de syntaxe dans le nom de la rubrique ou du paramètre.</i></div><div><i><br></i></div><div><i>Pile des appels :</i></div><div><i>Procédure locale rec_compte_sql (export_compta.PROCEDURE.rec_compte_sql), ligne 21</i></div><div><i>Procédure locale pl_Traitement_Paiement_SQL (export_compta.PROCEDURE.pl_Traitement_Paiement_SQL), ligne 561</i></div><div><i>Clic sur BT_REC (export_compta.BT_REC), ligne 103</i></div><div><i><br></i></div><div><i>Date : 24/06/2026 15:33:32</i></div><div><i>Projet : EVOCAMP (14.1.546.16)</i></div><div><i><br></i></div><div><i>Informations supplémentaires :</i></div><div><i>Code erreur : 70202</i></div><div><i>Code erreur WD55 : 202</i></div><div><i>Module : wd260hf.dll (01F260101d - 26.0.313.5)</i></div><div><i><br></i></div><div><i>Informations de débogage :</i></div><div><i>IEWDHF=32.206</i></div><div><i>Module=&lt;WDHF&gt;</i></div><div><i>Version=&lt;26.0.313.5&gt;</i></div><div><i>EIT_LOGICALTABLENAME : &lt;h_transfi&gt;</i></div><div><i>EIT_TYPE_WDFILE : &lt;2&gt;</i></div><div><i>EIT_IDCODE : &lt;458752&gt;</i><br><br><b>Reproduit sur démo Angélique en 18.22 SQL / Non reproduit sur démo HF&nbsp;</b></div><div><i>Lien JAM :&nbsp;<a href=\"https://jam.dev/c/8797d504-bc90-4320-aadd-fbfbf4c8173e\">https://jam.dev/c/8797d504-bc90-4320-aadd-fbfbf4c8173e</a></i></div><div><br></div></div>",
+      "explication": "<b style=\"\"><u>Contexte</u></b><br><i>Le groupe LA SIRENE&nbsp; a été migré en SQL le 22/06/2026 .</i><br><br><i>Depuis, ils ne parviennent à générer leur export comptable.</i><br><br><b><u>Détails permettant de reproduire le bug :&nbsp;</u></b><br><br>1. S'assurer d'être en SQL<br>2. Créer plusieurs paiements et remise en banque afin d'avoir des données<div>3. Se rendre ensuite dans le menu paramètres &gt; Paiements</div><div>4. Dans l'onglet Mes banques, s'assurer d'avoir 5/6 banques&nbsp;</div><div>5. Puis, ouvrir le menu Gestion &gt; Export comptable</div><div>6. Pour reproduire le bug, j'ai pris le modèle d'EBP mais le bug n'est pas lié au modèle</div><div>7. Dans l'onglet compte client, bien configurer un compte commun à tous les clients, avec un compte général à 411000000 -<b> La longueur du numéro client est importante car si je met 411 je ne reproduis pas le bug</b><br>8. Puis dans l'onglet Paiements, s'assurer de bien avoir un numéro de compte pour chaque banque</div><div>9. Cocher ensuite chaque ligne de Remise en banquet et bien mettre au débit Une écriture par remise et au crédit Une écriture par paiement. - <b>Je ne reproduis pas si je met au crédit une écriture par remise</b></div><div>10. Valider</div><div>11. Lancer la recherche de l'export comptable</div><div><br></div><div><b><u>NAXI plante alors avec le message d'erreur ci dessous :&nbsp;</u></b></div><div><br><i>Le mécanisme de sécurité du WLangage a détecté une erreur dans l'application EVOCAMP.&nbsp;</i><div><i>Contactez le fournisseur de l'application EVOCAMP.</i></div><div><i><br></i></div><div><i>&lt;cltype&gt; n'est ni une rubrique ni un paramètre de la requête &lt;h_transfi&gt;. De nouveaux paramètres ne doivent pas être déclarés après la préparation d'une requête. Vérifier également qu'il n'y a pas d'erreur de syntaxe dans le nom de la rubrique ou du paramètre.</i></div><div><i><br></i></div><div><i>Pile des appels :</i></div><div><i>Procédure locale rec_compte_sql (export_compta.PROCEDURE.rec_compte_sql), ligne 21</i></div><div><i>Procédure locale pl_Traitement_Paiement_SQL (export_compta.PROCEDURE.pl_Traitement_Paiement_SQL), ligne 561</i></div><div><i>Clic sur BT_REC (export_compta.BT_REC), ligne 103</i></div><div><i><br></i></div><div><i>Date : 24/06/2026 15:33:32</i></div><div><i>Projet : EVOCAMP (14.1.546.16)</i></div><div><i><br></i></div><div><i>Informations supplémentaires :</i></div><div><i>Code erreur : 70202</i></div><div><i>Code erreur WD55 : 202</i></div><div><i>Module : wd260hf.dll (01F260101d - 26.0.313.5)</i></div><div><i><br></i></div><div><i>Informations de débogage :</i></div><div><i>IEWDHF=32.206</i></div><div><i>Module=&lt;WDHF&gt;</i></div><div><i>Version=&lt;26.0.313.5&gt;</i></div><div><i>EIT_LOGICALTABLENAME : &lt;h_transfi&gt;</i></div><div><i>EIT_TYPE_WDFILE : &lt;2&gt;</i></div><div><i>EIT_IDCODE : &lt;458752&gt;</i><br><br><b>Reproduit sur démo Angélique en 18.22 SQL / Non reproduit sur démo HF&nbsp;<br>Base de données de la Sirene récupérée si besoin</b></div><div><i>Lien JAM :&nbsp;<a href=\"https://jam.dev/c/8797d504-bc90-4320-aadd-fbfbf4c8173e\">https://jam.dev/c/8797d504-bc90-4320-aadd-fbfbf4c8173e</a></i></div><div><br></div></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -75,7 +108,8 @@
       "sprintIdeal": [],
       "fonctions": "Fiche client",
       "produits": [
-        "NAXI GESTION SQL"
+        "NAXI GESTION SQL",
+        "Naxi Gestion PMS"
       ],
       "client": "",
       "dateCreation": "2026-06-25T13:51:00.000Z",
@@ -397,8 +431,8 @@
       ],
       "fonctions": "CRM",
       "produits": [
-        "NAXI GESTION SQL",
-        "NAXI GESTION HF"
+        "Naxi Gestion PMS",
+        "NAXI ESPACE CLIENT"
       ],
       "client": "Sirene 66",
       "dateCreation": "2026-06-22T22:14:00.000Z",
@@ -608,9 +642,13 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [],
+      "persBack": [
+        "Christophe"
+      ],
       "persFront": [],
-      "persPoTest": [],
+      "persPoTest": [
+        "Aurore"
+      ],
       "pointAvancement": 0.05,
       "pointsBlocage": "",
       "explication": "NAXI Resa et le lien de paiement du solde sont inaccesibles  ou très lents. Les premiers clients nous l’ont signalé ce Dimanche vers 11h00 mais un client nous a indiqué que le soucis aurait commencé déjà hier (Samedi 20 Juin).\n\nLudwig a fait les actions suivantes : \n  • Redémarrage des infras\n  • Vider le cache des répertoires de sessions\n  • Test d’un rollback : aucun changement\nMalgré toutes ces actions, le soucis persiste.\n\nNous constatons en revanche que le problème est surement dû à des connexions SQL qui ne se ferment pas et bloque l’accès à la base\n\nIl a été mise en place une limite pour ne pas saturer  les autres API",
@@ -28866,7 +28904,7 @@
     ]
   },
   "counts": {
-    "classique": 333,
+    "classique": 334,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
