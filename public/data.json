@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T12:25:08.001Z",
+  "generatedAt": "2026-06-26T15:06:59.720Z",
   "classique": [
     {
       "id": "38b8db15-623a-8126-b087-d940bdef869d",
@@ -140,7 +140,6 @@
       "sprintIdeal": [],
       "fonctions": "Fiche client",
       "produits": [
-        "NAXI GESTION SQL",
         "Naxi Gestion PMS"
       ],
       "client": "",
@@ -8571,7 +8570,7 @@
       ],
       "pointAvancement": 0.2,
       "pointsBlocage": "",
-      "explication": "Dans NAXI, nous avons la possibilité lors de la facturation de modifier le destinataire de la facture (souvent utilisé pour facturer à un CE par exemple). Depuis la version 18, lorsque l’on facture à une autre adresse, NAXI affiche par défaut sur le PDF de la facture, la civilité et le pays du client et non pas de l’autre adresse saisie",
+      "explication": "Dans NAXI, nous avons la possibilité lors de la facturation de modifier le destinataire de la facture (souvent utilisé pour facturer à un CE par exemple).<div>&nbsp;Depuis la version 18, lorsque l’on facture à une autre adresse, NAXI affiche par défaut sur le PDF de la facture, la civilité et le pays du client et non pas de l’autre adresse saisie</div>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
