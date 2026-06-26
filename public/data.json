@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-06-26T10:00:34.763Z",
+  "generatedAt": "2026-06-26T12:25:08.001Z",
   "classique": [
+    {
+      "id": "38b8db15-623a-8126-b087-d940bdef869d",
+      "identifiant": "INA-397",
+      "titre": "[LOGICIEL] - Message erreur sur génération export comptable en SQL",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": "Compta & finances",
+      "produits": [
+        "NAXI GESTION SQL"
+      ],
+      "client": "La sirene",
+      "dateCreation": "2026-06-26T10:03:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Le groupe LA SIRENE  a été migré en SQL le 22/06/2026 .<div><br><div></div><div>Depuis, ils ne parviennent à générer leur export comptable.</div><div><br></div><div><i>Détails permettant de reproduire le bug : </i></div><div>1. S'assurer d'être en SQL</div><div>2. Créer plusieurs paiements et remise en banque afin d'avoir des données</div><div>3. Se rendre ensuite dans le menu paramètres &gt; Paiements</div><div>4. Dans l'onglet Mes banques, s'assurer d'avoir 5/6 banques </div><div>5. Puis, ouvrir le menu Gestion &gt; Export comptable</div><div>6. Pour reproduire le bug, j'ai pris le modèle d'EBP mais le bug n'est pas lié au modèle</div><div>7. Dans l'onglet compte client, bien configurer un compte commun à tous les clients, avec un compte général à 411000000 - La longueur du numéro client est importante car si je met 411 je ne reproduis pas le bug</div><div>8. Puis dans l'onglet Paiements, s'assurer de bien avoir un numéro de compte pour chaque banque</div><div>9. Cocher ensuite chaque ligne de Remise en banquet et bien mettre au débit Une écriture par remise et au crédit Une écriture par paiement. - Je ne reproduis pas si je met au crédit une écriture par remise</div><div>10. Valider</div><div>11. Lancer la recherche de l'export comptable</div><div><br></div><div>NAXI plante alors avec le message d'erreur ci dessous : </div><div><pre style=\"background:#0f172a;color:#e2e8f0;border-radius:8px;padding:12px 14px;overflow:auto;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;line-height:1.5;white-space:pre-wrap;margin:8px 0\"><code>Le mécanisme de sécurité du WLangage a détecté une erreur dans l'application EVOCAMP.\nContactez le fournisseur de l'application EVOCAMP.\n&lt;cltype&gt; n'est ni une rubrique ni un paramètre de la requête &lt;h_transfi&gt;. De nouveaux paramètres ne doivent pas être déclarés après la préparation d'une requête. Vérifier également qu'il n'y a pas d'erreur de syntaxe dans le nom de la rubrique ou du paramètre.\nPile des appels :\nProcédure locale rec_compte_sql (export_compta.PROCEDURE.rec_compte_sql), ligne 21\nProcédure locale pl_Traitement_Paiement_SQL (export_compta.PROCEDURE.pl_Traitement_Paiement_SQL), ligne 561\nClic sur BT_REC (export_compta.BT_REC), ligne 103\nDate : 24/06/2026 15:33:32\nProjet : EVOCAMP (14.1.546.16)\nInformations supplémentaires :\nCode erreur : 70202\nCode erreur WD55 : 202\nModule : wd260hf.dll (01F260101d - 26.0.313.5)\nInformations de débogage :\nIEWDHF=32.206\nModule=&lt;WDHF&gt;\nVersion=&lt;26.0.313.5&gt;\nEIT_LOGICALTABLENAME : &lt;h_transfi&gt;\nEIT_TYPE_WDFILE : &lt;2&gt;\nEIT_IDCODE : &lt;458752&gt;</code></pre><p><br></p></div><div>Reproduit sur démo Angélique en 18.22 SQL / Non reproduit sur démo HF </div><div>Base de données de la Sirene récupérée si besoin</div><div>Lien JAM :&nbsp;<a href=\"https://jam.dev/c/8797d504-bc90-4320-aadd-fbfbf4c8173e\">https://jam.dev/c/8797d504-bc90-4320-aadd-fbfbf4c8173e</a></div><div><br></div><div></div><div></div><div></div><div></div><div> </div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Message-erreur-sur-g-n-ration-export-comptable-en-SQL-38b8db15623a8126b087d940bdef869d"
+    },
     {
       "id": "38b8db15-623a-8136-bc33-e54f3d597559",
       "identifiant": "INA-396",
@@ -28904,7 +28936,7 @@
     ]
   },
   "counts": {
-    "classique": 334,
+    "classique": 335,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
