@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-06-29T07:02:25.129Z",
+  "generatedAt": "2026-06-29T12:06:58.308Z",
   "classique": [
+    {
+      "id": "38e8db15-623a-8178-9fe5-da484aba874d",
+      "identifiant": "INA-434",
+      "titre": "[LOGICIEL] - Erreur log PaymentRepartitionAsyncProcessManager",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": "Compta & finances",
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "Lac Orient",
+      "dateCreation": "2026-06-29T09:38:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "En surveillant nos logs, j'ai détecté une erreur récurrente qui se produit sur plusieurs clients dont :&nbsp;<br><br><ul><li>Lac Orient : version 18.22 - Saas SQL</li><li>Pont du Tarn : version 18.21 - Local HF</li><li>Gayeulles : version 18.20 - Local HF</li><li>Bouillousses : version 18.20 - Saas HF<br><br></li></ul><div>Voici le détail de l'erreur :&nbsp;<br>{</div><div>&nbsp; \"company\": \"BOUIL\",</div><div>&nbsp; \"createDate\": \"2026-06-29T10:41:00.9741280+02:00\",</div><div>&nbsp; \"customerId\": \"bouillouses\",</div><div>&nbsp; \"environment\": \"PRODUCTION\",</div><div>&nbsp; \"level\": \"EXCEPTION\",</div><div>&nbsp; \"licence\": \"499435011000000023073798\",</div><div>&nbsp; \"logVersion\": \"1.0.1\",</div><div>&nbsp; \"message\": \"[PaymentRepartitionAsyncProcessManager] EnsureProcessCompleted appelé sans ProcessAsync\",</div><div>&nbsp; \"project\": \"NAXIGESTION\",</div><div>&nbsp; \"systemMessage\": \": Le processus asynchrone n'a pas été lancé.\",</div><div>&nbsp; \"version\": \"18_20\",</div><div>&nbsp; \"webAccount\": \"bouillouses\"</div><div>}<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/523b39bcf0464ae9a6bf527638b698d2\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Je ne sais pas si ça a un impact réel chez le client, mais vu qu'il y a une récurrence, à voir&nbsp;</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Erreur-log-PaymentRepartitionAsyncProcessManager-38e8db15623a81789fe5da484aba874d"
+    },
     {
       "id": "38d8db15-623a-81d8-93a6-f762e5ce3eb8",
       "identifiant": "INA-433",
@@ -392,38 +424,6 @@
       "url": "https://app.notion.com/p/Bloc-Clients-annuaire-des-campings-fiche-client-et-gestion-des-licences-et-versions-38d8db15623a816da7feffc311e20e79"
     },
     {
-      "id": "38b8db15-623a-8126-b087-d940bdef869d",
-      "identifiant": "INA-397",
-      "titre": "[LOGICIEL] - Message erreur sur génération export comptable en SQL",
-      "classification": "BUG OPERATIONNEL",
-      "statut": null,
-      "priorisation": "Moyenne",
-      "sprintIdeal": [],
-      "fonctions": "Compta & finances",
-      "produits": [
-        "NAXI GESTION SQL"
-      ],
-      "client": "La sirene",
-      "dateCreation": "2026-06-26T10:03:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "Le groupe LA SIRENE  a été migré en SQL le 22/06/2026 .<div><br><div></div><div>Depuis, ils ne parviennent à générer leur export comptable.</div><div><br></div><div><i>Détails permettant de reproduire le bug : </i></div><div>1. S'assurer d'être en SQL</div><div>2. Créer plusieurs paiements et remise en banque afin d'avoir des données</div><div>3. Se rendre ensuite dans le menu paramètres &gt; Paiements</div><div>4. Dans l'onglet Mes banques, s'assurer d'avoir 5/6 banques </div><div>5. Puis, ouvrir le menu Gestion &gt; Export comptable</div><div>6. Pour reproduire le bug, j'ai pris le modèle d'EBP mais le bug n'est pas lié au modèle</div><div>7. Dans l'onglet compte client, bien configurer un compte commun à tous les clients, avec un compte général à 411000000 - La longueur du numéro client est importante car si je met 411 je ne reproduis pas le bug</div><div>8. Puis dans l'onglet Paiements, s'assurer de bien avoir un numéro de compte pour chaque banque</div><div>9. Cocher ensuite chaque ligne de Remise en banquet et bien mettre au débit Une écriture par remise et au crédit Une écriture par paiement. - Je ne reproduis pas si je met au crédit une écriture par remise</div><div>10. Valider</div><div>11. Lancer la recherche de l'export comptable</div><div><br></div><div>NAXI plante alors avec le message d'erreur ci dessous : </div><div><pre style=\"background:#0f172a;color:#e2e8f0;border-radius:8px;padding:12px 14px;overflow:auto;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;line-height:1.5;white-space:pre-wrap;margin:8px 0\"><code>Le mécanisme de sécurité du WLangage a détecté une erreur dans l'application EVOCAMP.\nContactez le fournisseur de l'application EVOCAMP.\n&lt;cltype&gt; n'est ni une rubrique ni un paramètre de la requête &lt;h_transfi&gt;. De nouveaux paramètres ne doivent pas être déclarés après la préparation d'une requête. Vérifier également qu'il n'y a pas d'erreur de syntaxe dans le nom de la rubrique ou du paramètre.\nPile des appels :\nProcédure locale rec_compte_sql (export_compta.PROCEDURE.rec_compte_sql), ligne 21\nProcédure locale pl_Traitement_Paiement_SQL (export_compta.PROCEDURE.pl_Traitement_Paiement_SQL), ligne 561\nClic sur BT_REC (export_compta.BT_REC), ligne 103\nDate : 24/06/2026 15:33:32\nProjet : EVOCAMP (14.1.546.16)\nInformations supplémentaires :\nCode erreur : 70202\nCode erreur WD55 : 202\nModule : wd260hf.dll (01F260101d - 26.0.313.5)\nInformations de débogage :\nIEWDHF=32.206\nModule=&lt;WDHF&gt;\nVersion=&lt;26.0.313.5&gt;\nEIT_LOGICALTABLENAME : &lt;h_transfi&gt;\nEIT_TYPE_WDFILE : &lt;2&gt;\nEIT_IDCODE : &lt;458752&gt;</code></pre><p><br></p></div><div>Reproduit sur démo Angélique en 18.22 SQL / Non reproduit sur démo HF </div><div>Base de données de la Sirene récupérée si besoin</div><div>Lien JAM :&nbsp;<a href=\"https://jam.dev/c/8797d504-bc90-4320-aadd-fbfbf4c8173e\">https://jam.dev/c/8797d504-bc90-4320-aadd-fbfbf4c8173e</a></div><div><br></div><div></div><div></div><div></div><div></div><div> </div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Message-erreur-sur-g-n-ration-export-comptable-en-SQL-38b8db15623a8126b087d940bdef869d"
-    },
-    {
       "id": "38b8db15-623a-8136-bc33-e54f3d597559",
       "identifiant": "INA-396",
       "titre": "[LOGICIEL] - Pouvoir enlever une remise fidelité CTV dans un séjour NAXI",
@@ -495,7 +495,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
       "fonctions": "Compta & finances",
       "produits": [
         "NAXI GESTION SQL"
@@ -655,7 +657,9 @@
       "classification": "BUG STRUCTURANT",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "JUIN 26"
+      ],
       "fonctions": "Séjour",
       "produits": [
         "NAXI GESTION SQL"
@@ -665,17 +669,21 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [],
+      "persBack": [
+        "Denis"
+      ],
       "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
+      "persPoTest": [
+        "Marjorie"
+      ],
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Impossible d'éditer une facture ou de modifier un séjour sur une base de données en SQL en version 18.23&nbsp;<br><br>NAXI affiche un message d'erreur de ce type :&nbsp;<br><br>Que s'est-il passé ?<div>Modification d'un enregistrement. L'enregistrement a été modifié depuis sa dernière lecture.</div><div>&nbsp;</div><div>Code erreur : 70700</div><div>Niveau : erreur non fatale</div><div>Code erreur WD55 : 700</div><div>&nbsp;</div><div>Module : wd260hf.dll (01F260101d - 26.0.313.5)</div><div>&nbsp;</div><div>Informations de débogage :</div><div>IEWDHF=43.1</div><div>Module=&lt;WDHF&gt;</div><div>Version=&lt;26.0.313.5&gt;</div><div>Informations supplémentaires :</div><div>EIT_PATHFIC : &lt;command&gt;</div><div>EIT_LOGICALTABLENAME : &lt;COMMAND&gt;<br><br><b>Après analyse, le soucis vient du champs cmheuredep = 838:59:59</b><br><br>Si on le remet sur un format correct, alors on peut à nouveau modifier ou facturer le séjour</div><div><br></div><div><b>-&gt; Reproduit en basculant un séjour en parti depuis la fenêtre Arrivées/Départs</b></div>",
       "communication": [],
       "initialeAjout": [],
-      "versionInter": "",
+      "versionInter": "18.24",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-06-25",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Impossible-de-modifier-facturer-un-s-jour-sur-les-bases-SQL-depuis-la-version-18-23-38a8db15623a81ffab84f395c90e502c"
@@ -727,8 +735,8 @@
       "client": "",
       "dateCreation": "2026-06-24T14:54:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
+      "estimFront": 3.5,
+      "estimPoTest": 7,
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
@@ -759,8 +767,8 @@
       "client": "",
       "dateCreation": "2026-06-24T14:52:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
+      "estimFront": 7,
+      "estimPoTest": 7,
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
@@ -791,8 +799,8 @@
       "client": "",
       "dateCreation": "2026-06-24T14:47:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
+      "estimFront": 3.5,
+      "estimPoTest": 7,
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
@@ -857,9 +865,9 @@
       ],
       "client": "Sirene 66",
       "dateCreation": "2026-06-22T22:14:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
-      "estimPoTest": 0,
+      "estimPoTest": 7,
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
@@ -957,9 +965,9 @@
       ],
       "client": "Le Letty (Signalé le 22.06.2026)",
       "dateCreation": "2026-06-22T10:07:00.000Z",
-      "estimBack": 0,
+      "estimBack": 14,
       "estimFront": 0,
-      "estimPoTest": 0,
+      "estimPoTest": 7,
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
@@ -992,9 +1000,9 @@
       ],
       "client": "Tous les clients en 18.22",
       "dateCreation": "2026-06-22T09:47:00.000Z",
-      "estimBack": 0,
+      "estimBack": 3.5,
       "estimFront": 0,
-      "estimPoTest": 0,
+      "estimPoTest": 3.5,
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
@@ -1052,7 +1060,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "JUIN 26"
+        "JUILLET 26"
       ],
       "fonctions": "Autres",
       "produits": [
@@ -1070,7 +1078,7 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0.05,
+      "pointAvancement": 0.7,
       "pointsBlocage": "",
       "explication": "NAXI Resa et le lien de paiement du solde sont inaccesibles  ou très lents. Les premiers clients nous l’ont signalé ce Dimanche vers 11h00 mais un client nous a indiqué que le soucis aurait commencé déjà hier (Samedi 20 Juin).\n\nLudwig a fait les actions suivantes : \n  • Redémarrage des infras\n  • Vider le cache des répertoires de sessions\n  • Test d’un rollback : aucun changement\nMalgré toutes ces actions, le soucis persiste.\n\nNous constatons en revanche que le problème est surement dû à des connexions SQL qui ne se ferment pas et bloque l’accès à la base\n\nIl a été mise en place une limite pour ne pas saturer  les autres API",
       "communication": [],
@@ -1134,8 +1142,8 @@
       "client": "Sunelia",
       "dateCreation": "2026-06-18T14:01:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
+      "estimFront": 7,
+      "estimPoTest": 7,
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
@@ -1272,14 +1280,14 @@
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
-      "pointAvancement": 0.7,
-      "pointsBlocage": "retour de test",
+      "pointAvancement": 1,
+      "pointsBlocage": "",
       "explication": "La moulinette permettant de migrer une base HF en base SQL ne tient pas compte des nouveaux fichiers. Ainsi certains fichiers .FIC ne sont pas migrés en SQL.\n\nJ’ai detcté pour sûr les fichiers : \n\n  • payline_plbs_deposit_data.sql\n  • distributor_credential.sql",
       "communication": [],
       "initialeAjout": [],
-      "versionInter": "",
+      "versionInter": "18.25",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-06-29",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Migration-SQL-certaines-tables-ne-sont-pas-migr-es-en-SQL-ce-qui-g-n-re-des-erreurs-d-3818db15623a8066b1a3d684c09f617f"
@@ -1313,7 +1321,7 @@
       "initialeAjout": [],
       "versionInter": "18.22",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-06-15",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Message-d-erreur-au-chargement-de-l-encours-V2-en-SQL-3818db15623a80a690f8febdd6478427"
@@ -1440,9 +1448,9 @@
       ],
       "client": "Flower Exploit ",
       "dateCreation": "2026-06-15T09:10:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
-      "estimPoTest": 0,
+      "estimPoTest": 7,
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
@@ -1476,9 +1484,9 @@
       ],
       "client": "Tous nos clients utilisant la caution sur l’espace client",
       "dateCreation": "2026-06-12T13:34:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
+      "estimBack": 7,
+      "estimFront": 21,
+      "estimPoTest": 7,
       "persBack": [],
       "persFront": [
         "Louis Charles"
@@ -1585,8 +1593,8 @@
       "client": "Sunelia",
       "dateCreation": "2026-06-11T14:24:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
+      "estimFront": 3.5,
+      "estimPoTest": 7,
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
@@ -1610,7 +1618,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "JUIN 26"
+        "JUILLET 26"
       ],
       "fonctions": "Séjour",
       "produits": [
@@ -1797,9 +1805,9 @@
       ],
       "client": "Les Mediterranées",
       "dateCreation": "2026-06-04T20:25:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
-      "estimPoTest": 0,
+      "estimPoTest": 7,
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
@@ -1957,14 +1965,14 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0.2,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Depuis passage en 18.21, ce camping a une erreur qui boucle sans cesse.",
       "communication": [],
       "initialeAjout": [],
-      "versionInter": "",
+      "versionInter": "18.25",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-06-29",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Erreur-Log-Maximum-Row-Size-suite-passage-en-18-21-3748db15623a80bfb7baf5dfb7bfda97"
@@ -2022,7 +2030,7 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [
-        "Rachid"
+        "Denis"
       ],
       "persFront": [],
       "persPoTest": [
@@ -2101,16 +2109,16 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0.5,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Naxi galère à fermer la fenêtre de facturation par lot que ce soit en HF ou en SQL / Depuis le 18.18 à minima",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "",
+      "versionInter": "18.25",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-06-29",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Lenteurs-sur-fermeture-fen-tre-facturation-par-lot-3738db15623a8096b43cd8dbb6e759c9"
@@ -2341,9 +2349,9 @@
       ],
       "client": "CIELA",
       "dateCreation": "2026-06-01T08:05:00.000Z",
-      "estimBack": 0,
+      "estimBack": 28,
       "estimFront": 0,
-      "estimPoTest": 0,
+      "estimPoTest": 7,
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
@@ -2447,9 +2455,9 @@
       ],
       "client": "Ciela (Signalé le 29.05.2026)",
       "dateCreation": "2026-05-29T13:43:00.000Z",
-      "estimBack": 0,
+      "estimBack": 21,
       "estimFront": 0,
-      "estimPoTest": 0,
+      "estimPoTest": 7,
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
@@ -2712,16 +2720,16 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0.2,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Depuis son passage en SQL, le client constate que les séjours sans emplacement n’apparaissent plus dans le tableau des arrivées & départs",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "",
+      "versionInter": "18.25",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-06-29",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Les-s-jours-sans-emplacements-ne-s-affichent-pas-dans-les-arriv-es-d-parts-du-jour-en--36b8db15623a808299edd3e760136cf5"
@@ -2799,7 +2807,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUIN 26"
+        "JUILLET 26"
       ],
       "fonctions": "Séjour",
       "produits": [
@@ -3275,8 +3283,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUIN 26",
-        "JUILLET 26"
+        "JUIN 26"
       ],
       "fonctions": "Extractions",
       "produits": [
@@ -3294,16 +3301,16 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0.5,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "NAXI génère de façon automatique un fichier nommé sousloc pour tous les clients ayant le CRM et/ou les clients ayant la spécif EURODECISION. Côté CTM, ce fichier est utilisé pour les calculs RM. \n\nNous avons déjà fait un premier correctif : https://inaxel.atlassian.net/browse/BUG-1034?atlOrigin=eyJpIjoiZWRkNzJjYzA4ZDIwNGM4YjlmMzE3ZDlkYWE0YzBmMDIiLCJwIjoiaiJ9\nMais cela ne suffit pas, des incohérences persistent",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "",
+      "versionInter": "18.25",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-06-29",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Export-EURODECISION-CRM-Maeva-Fichier-sous-loc-erron-3648db15623a80e0afb9f5e129a9dc92"
@@ -3370,11 +3377,11 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [
-        "Denis"
+        "Loic"
       ],
       "persFront": [],
       "persPoTest": [
-        "Marjorie"
+        "Agathe"
       ],
       "pointAvancement": 1,
       "pointsBlocage": "inclus dans INA-343",
@@ -3383,9 +3390,9 @@
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "",
+      "versionInter": "18.24",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-06-25",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Clients-s-jours-non-envoy-s-sur-le-web-3648db15623a80349627e4e09145ec61"
@@ -3703,9 +3710,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "JUIN 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Synchro",
       "produits": [
         "NAXI GESTION SQL",
@@ -3785,7 +3790,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUIN 26"
+        "JUILLET 26"
       ],
       "fonctions": "Résa web",
       "produits": [
@@ -3845,16 +3850,16 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0.5,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Les participants du dernier séjour d’un bon de séjour groupe ne sont plus affichés (uniquement sur le PDF)",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "",
+      "versionInter": "18.25",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-06-29",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Non-affichage-des-participants-sur-les-bons-de-s-jour-groupe-3588db15623a80e8b10bff9e9a1e7be5"
@@ -5394,16 +5399,16 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0.3,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Lorsque l’on envoie un template de confirmation de réservation, de solde..etc, les montants affichés sont les montants totaux. \n\nAinsi, dans le cas d’un séjour de TO, on affiche le montant total et non pas le montant client total. Par conséquent, le client voit la part TO, ce qui n’est pas normal \n\n→ correction par montant client",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "",
+      "versionInter": "18.25",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-06-29",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Template-erreur-sur-les-montants-affich-s-dans-le-cas-d-un-s-jour-de-TO-3448db15623a806087edfaedf43bb98a"
@@ -5995,16 +6000,16 @@
       "persPoTest": [
         "Marjorie"
       ],
-      "pointAvancement": 0.75,
-      "pointsBlocage": "en cours de test",
+      "pointAvancement": 1,
+      "pointsBlocage": "",
       "explication": "Aujourd'hui, nous avons 2 systèmes de synchro (un ancien mode et un nouveau que l'on appelle synchro V2) pour remonter les infos du web vers NAXI. Plusieurs développement ont été mis en place pour passer toutes les ressources en V2 (ex: commande, client, résa, etc..). \nL'ancien système est très gourmand, il représente 20 à 30% de nos requêtes HTTP quotidienne (ce qui équivaut à 10-11M de requête).\nLe problème est que notre système recevant les logs est arrivé à son maximum (on est souvent à 100%).\nIl faudrait donc pour améliorer les capacités du système de log qu'on accélère le passage en synchro V2 et que l'on enlève les appels de l'ancien système quand toutes les ressources sont en V2 pour un camping.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "",
+      "versionInter": "18.25",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-06-29",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Arr-t-de-l-appel-l-ancienne-synchro-quand-toutes-les-ressources-sont-en-V2-pour-la-remon-33c8db15623a81b0ba69c40bdc30c8e9"
@@ -6669,7 +6674,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUIN 26"
+        "JUILLET 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -8958,16 +8963,16 @@
       "persPoTest": [
         "Aurore"
       ],
-      "pointAvancement": 0.2,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Dans NAXI, nous avons la possibilité lors de la facturation de modifier le destinataire de la facture (souvent utilisé pour facturer à un CE par exemple).<div>&nbsp;Depuis la version 18, lorsque l’on facture à une autre adresse, NAXI affiche par défaut sur le PDF de la facture, la civilité et le pays du client et non pas de l’autre adresse saisie</div>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "",
+      "versionInter": "18.25",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-06-29",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Facturation-La-civilit-et-le-pays-du-destinataire-de-la-facture-ne-sont-plus-prises-en--3128db15623a800499bef30bbac24f10"
@@ -11693,7 +11698,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "JUIN 26"
+        "JUILLET 26"
       ],
       "fonctions": "Autres",
       "produits": [
@@ -11998,9 +12003,9 @@
       ],
       "client": "Clients avec passerelle SH",
       "dateCreation": "2026-02-18T18:16:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
+      "estimBack": 14,
+      "estimFront": 28,
+      "estimPoTest": 28,
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
@@ -12056,7 +12061,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUIN 26"
+        "JUILLET 26"
       ],
       "fonctions": "Facturation",
       "produits": [
@@ -12246,7 +12251,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "JUIN 26"
+        "JUILLET 26"
       ],
       "fonctions": "Facturation",
       "produits": [
