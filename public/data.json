@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-06-30T13:28:17.217Z",
+  "generatedAt": "2026-06-30T16:01:38.317Z",
   "classique": [
+    {
+      "id": "38f8db15-623a-81f8-b366-c2223454c7d0",
+      "identifiant": "INA-480",
+      "titre": "[LOGICIEL] - Ajout garde fou sur poids des logos",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": "Séjour",
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "Chataigneraie",
+      "dateCreation": "2026-06-30T14:19:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<b>Client impacté : La Chataigneraie</b><br><br><div>Les bons de séjour affichent un logo noir lorsque :&nbsp;<br><br>1. Avoir une image qui dépasse les 2 Mo à peu près (je vous met le logo de la cliente en pièce jointe pour tests).</div><div>2. Se rendre dans le menu Paramètres &gt; Documents</div><div>3. Sur le bon de séjour, ajouter en logo l'image volumineuse</div><div>4. Créer un séjour et générer le bon de séjour&nbsp;</div><div><br></div><div><u><b>Résultat :&nbsp;</b></u><br><br>Le logo est remplacé par un carré noir et le poids du fichier est beaucoup trop lourd (ce qui peut engendrer des problèmes d'envois d'emails ou d'envois de documents sur l'espace client)<br><br><b><font color=\"#2563eb\">-&gt; Il faudrait ajouter soit un controle sur le poids de l'image, soit la redimensionner automatiquement pour éviter ce genre de soucis sur l'ensemble des documents (devis, factures, bon de séjour...etc.)<br></font></b><br><b>Reproduit sur démo Angélique en 18.25 / HF</b></div><div><b><i>Lien JAM </i></b>:&nbsp;<a href=\"https://jam.dev/c/2cd6b612-a964-41ab-82ab-81582f62eae3\">https://jam.dev/c/2cd6b612-a964-41ab-82ab-81582f62eae3</a></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Ajout-garde-fou-sur-poids-des-logos-38f8db15623a81f8b366c2223454c7d0"
+    },
     {
       "id": "38f8db15-623a-8189-a3b9-c6677d19a3c7",
       "identifiant": "INA-479",
@@ -30389,7 +30421,7 @@
     ]
   },
   "counts": {
-    "classique": 383,
+    "classique": 384,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
