@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-06-30T08:51:35.756Z",
+  "generatedAt": "2026-06-30T11:37:08.408Z",
   "classique": [
+    {
+      "id": "38f8db15-623a-8113-809d-c848a72635cf",
+      "identifiant": "INA-478",
+      "titre": "[LOGICIEL] - Erreur Smtp Microsoft Oauth",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": "Emails & documents",
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "-",
+      "dateCreation": "2026-06-30T10:17:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Les clients utilisant les SMTP de Microsoft Outlook ne peuvent plus envoyer de mail si l'Oauth2 est activée dans NAXI.<br><br>1. Se rendre dans le menu Paramètres &gt; Emails<div>2. Dans les SMTP configurer des SMTP Outlook (nos adresses .inaxel.com sont en réalité des adresses outlook donc pratique pour faire des tests :) )</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a4e4a4c707764188a3a94cb1dc823937\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>3. Cocher l'Oauth2&nbsp;</div><div>4. Se rendre sur une fiche client</div><div>5. Envoyer un email&nbsp;</div><div>6. Au clic sur le bouton d'envoi, une page du navigateur s'ouvre puis, indique que l'on peut fermer cette fenetre</div><div>7. Au retour dans NAXI, on a un message d'erreur indiquant que le mail n'est pas parti</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7231556d154244028e4a00bbfd3e1c28\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>8. Si on regarde dans le dossier NAXI, le token ne s'est pas généré</div><div><br></div><div>-&gt; Si on enlève la double authentification sur Outlook, visiblement ça refonctionne mais ce n'est pas une solution&nbsp;</div><div><br></div><div><b>De plus, si on recherche sur le web, on peut lire :&nbsp;</b><br><br><i>Il n'existe pas de solution permettant de continuer à utiliser smtp.office365.com sans authentification moderne après<b><u> avril 2026</u></b> ; il faut soit migrer vers OAuth2, soit changer de fournisseur. Or OAuth2/XOAUTH2 n'est généralement pas supporté par les logiciels métiers \"basiques\" qui ne savent faire que login/mot de passe sur le port 587/465<br><br>-&gt; Donc on ne peut plus proposer aux clients de remplacer l'Oauth 2 par une simple connexion TLS en 587.<br>Et désactiver la double authentification n'est pas très professionnel</i></div><div><br><b>Retour de l'informaticien du camping FALAISE56 qui est concerné :&nbsp;</b><br><br><i>L'informaticien du camping m'a indiqué que c'était très limite niveau sécurité et qu'à partir de janvier 2027 l'authentification simple ne sera plus possible</i><br><br></div><div><b><u>Reproduit sur démo Angélique en 18.25 HF&nbsp;</u></b><br>Lien jam avec compte email Angélique : https://jam.dev/c/3be4ec20-0745-43a1-bb43-61436499280e<br>Lien Jam avec adresse email crée spécialement par Steven : https://jam.dev/c/d0fdccc1-2ad7-479d-aa59-c63a0f8b65e8<br><br><b><font color=\"#ca8a04\">Pas de moyen à ce jour de chiffre le nombre de client utilisant cette solution</font></b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Erreur-Smtp-Microsoft-Oauth-38f8db15623a8113809dc848a72635cf"
+    },
     {
       "id": "38f8db15-623a-8124-aea7-d69cf7656e48",
       "identifiant": "INA-477",
@@ -30325,7 +30357,7 @@
     ]
   },
   "counts": {
-    "classique": 381,
+    "classique": 382,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
