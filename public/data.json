@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-06-30T11:37:08.408Z",
+  "generatedAt": "2026-06-30T13:28:17.217Z",
   "classique": [
+    {
+      "id": "38f8db15-623a-8189-a3b9-c6677d19a3c7",
+      "identifiant": "INA-479",
+      "titre": "[LOGICIEL] - Factures acompte & partielle erronnées si plusieurs paiements",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": "Facturation",
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "cadoret, verdalle, antioche d'oleron",
+      "dateCreation": "2026-06-30T12:08:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Les factures partielles et/ou d'acompte sont erronées lorsque :&nbsp;<br><br><b><u>1er cas :&nbsp;</u></b><br><br>1. Créer un séjour sur une fiche client<div>2. Saisir un premier paiement (20€ par exemple)</div><div>3. Aller dans l'onglet Fact/Regl du séjour et cliquer sur Facturer acompte</div><div>4. La facture d'acompte se génère tout est ok</div><div>5. Saisir ensuite un deuxième paiement sans solder le séjour (50€ par exemple)</div><div>6. Facturer de nouveau l'acompte<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/78057e3ccebe44aca501fbb1568f8fe3\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br></div><div><br></div><div><i><u><b>Résultat :</b></u>&nbsp;</i></div><div><br></div><div>La facture d'acompte présente un montant à rembourser car elle affiche les deux paiements alors qu'elle n'aurait du afficher que le paiement relatif à cette deuxième facture.</div><div><br></div><div><b><u>2ème cas :&nbsp;</u></b><br><br>1. Créer un séjour sur une fiche client</div><div>2. Saisir le paiement correspondant au solde du séjour</div><div>3. Facturer le séjour dans sa globalité</div><div>4. Puis, réouvrir le séjour et le prolonger de quelques nuits</div><div>5. Facturer à nouveau le séjour&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/3d5f30562525436ea7bea50c6caa9856\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><b><u><i>Résultat :&nbsp;</i></u></b></div><div><br></div><div>La deuxième facture correspondant aux nuits supplémentaires affiche un montant à rembourser qui correspond à la première facture.<br><br><b>Reproduit sur démo Angélique en 18.25 HF&nbsp;</b><br><b><u>Lien JAM </u></b>:&nbsp;<a href=\"https://jam.dev/c/b49c9cc0-63b7-482c-a4e4-f1772e8c97e5\">https://jam.dev/c/b49c9cc0-63b7-482c-a4e4-f1772e8c97e5</a><br><br>-&gt; Ca ressemble beaucoup à la BUG-1150 donc à voir si quand elle sera corrigé, ça corrige aussi ces deux cas là</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Factures-acompte-partielle-erronn-es-si-plusieurs-paiements-38f8db15623a8189a3b9c6677d19a3c7"
+    },
     {
       "id": "38f8db15-623a-8113-809d-c848a72635cf",
       "identifiant": "INA-478",
@@ -30357,7 +30389,7 @@
     ]
   },
   "counts": {
-    "classique": 382,
+    "classique": 383,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
