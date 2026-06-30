@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-06-30T05:53:09.996Z",
+  "generatedAt": "2026-06-30T08:51:35.756Z",
   "classique": [
+    {
+      "id": "38f8db15-623a-8124-aea7-d69cf7656e48",
+      "identifiant": "INA-477",
+      "titre": "[LOGICIEL] -  Contrôle d'accès : fenêtres de synchros qui plante",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": "Synchro",
+      "produits": [
+        "NAXI CAM",
+        "Naxi Code"
+      ],
+      "client": "Tous les clients NxCod , NxCam",
+      "dateCreation": "2026-06-30T07:47:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Nous constatons que les fenêtres de synchros NaxiCod &amp; NaxiCam s'arrêtent de façon inopinée.&nbsp;<br>Après tests sur nos démos en interne, nous constatons que la fenêtre s'est arrêtée à 23h59 :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/88f430ec46f74b1ebb3a96146de336a6\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div><b>Après analyse des logs :&nbsp;</b></div><div><br></div><div><i>2026-06-29 22:59:53. Fonction : AccessControlManager.GetRemoteData:https://synchro-access-control-api.inaxel.com/api/companies/inaxelmaxr/accessControl/devices/cod/id/1/naxictrl</i></div><div><i>2026-06-29 22:59:53. Paramètre 1 :&nbsp;</i></div><div><i>2026-06-29 22:59:53. Paramètre 2 : Request failed Bad Gateway&nbsp;</i></div><div>-------------------------------------------------------------------</div><div><br></div><div>Après échange avec Ludwig, on suppose que le pod a redémarré à 23h00 et la fenêtre de synchro ne doit pas se reconnecter au nouveau pod<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/5462d6f509fe48a2b973459009a3c6ba\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><br><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Contr-le-d-acc-s-fen-tres-de-synchros-qui-plante-38f8db15623a8124aea7d69cf7656e48"
+    },
     {
       "id": "38e8db15-623a-81ea-b983-f46a8d369ae5",
       "identifiant": "INA-476",
@@ -30292,7 +30325,7 @@
     ]
   },
   "counts": {
-    "classique": 380,
+    "classique": 381,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
