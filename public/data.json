@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T04:59:04.136Z",
+  "generatedAt": "2026-07-01T08:48:23.137Z",
   "classique": [
     {
       "id": "38f8db15-623a-81f8-b366-c2223454c7d0",
@@ -39,7 +39,7 @@
       "titre": "[LOGICIEL] - Factures acompte & partielle erronnées si plusieurs paiements",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
+      "priorisation": "Haute",
       "sprintIdeal": [],
       "fonctions": "Facturation",
       "produits": [
@@ -71,8 +71,10 @@
       "titre": "[LOGICIEL] - Erreur Smtp Microsoft Oauth",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": "Emails & documents",
       "produits": [
         "Naxi Gestion PMS"
