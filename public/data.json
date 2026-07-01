@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-01T08:48:23.137Z",
+  "generatedAt": "2026-07-01T11:48:12.775Z",
   "classique": [
+    {
+      "id": "3908db15-623a-8138-9b72-c8ebc834ed4a",
+      "identifiant": "INA-481",
+      "titre": "[LOGICIEL] - Message d'erreur sur validation séjour si actions auto activées",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": "Séjour",
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "Antioche d'Oléron",
+      "dateCreation": "2026-07-01T11:23:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div><i>Un message d'erreur apparaît à la validation d'un séjour lorsque :&nbsp;</i><br><br>1. Se rendre dans le menu Paramètres &gt; Actions de validation automatique des séjours&nbsp;</div><div>2. Sur l'une des étapes de séjour (dans mon exemple, Option camping), cocher l'impression automatique du bon de séjour&nbsp;</div><div>3. Ouvrir une fiche client</div><div>4. Créer un séjour correspondant à l'étape paramétrée (dans mon cas, un séjour en option sur une catégorie camping)</div><div>5. Valider le séjour</div><div>6. NAXI affiche alors le message d'erreur ci dessous :&nbsp;</div><div><br><i>2026-07-01 13:22:16. Fonction : Global exception</i></div><div><i>2026-07-01 13:22:16. Paramètre 1 : Appel WL :</i></div><div><i>Traitement de 'Procédure locale imprim_docs' (sejour.PROCEDURE.imprim_docs), ligne 430</i></div><div><i>Fonction 'iImprimePDF', syntaxe 0</i></div><div><i>Que s'est-il passé ?</i></div><div><i><b>Impossible d'ouvrir le fichier &lt;C:\\NAXI\\DOCS_DEMO\\DOCS_2026\\sejours\\BS00000221_0.pdf&gt;.</b></i></div><div><i>Code erreur : 0</i></div><div><i>Niveau : erreur fatale</i></div><div><i>Code d'erreur système : 2</i></div><div><i>Message d'erreur système :</i></div><div><i>Le fichier spécifié est introuvable.</i></div><div><i>Module : wd260pdf.dll (01F260101d - 26.0.340.0)</i></div><div><i>Informations de débogage :</i></div><div><i>##(IXStream)-Handle=&lt;FFFFFFFF&gt;##</i></div><div><i>Fonction (21,39)</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_SRCFILE : &lt;C:\\NAXI\\DOCS_DEMO\\DOCS_2026\\sejours\\BS00000221_0.pdf&gt;</i></div><div><i>EIT_PILEWL :</i></div><div><i>Procédure locale imprim_docs (sejour.PROCEDURE.imprim_docs), ligne 430</i></div><div><i>Clic sur BT_VALID (sejour.BT_VALID), ligne 333</i></div><div><i>Clic sur BT_ADDSEJ (client_traitement.BT_ADDSEJ), ligne 50</i></div><div><i>EIT_DATEHEURE : 01/07/2026 13:22:16</i></div><div><i>EIT_TYPE_WDFILE : &lt;2&gt;</i></div><div><i>EIT_IDCODE : &lt;458752&gt;</i></div><div><i>2026-07-01 13:22:16. Paramètre 2 :&nbsp;</i><br><br>-&gt; Si je regarde dans mes docs, je ne retrouve pas en effet le fichier PDF sur lequel un \"_0\" a été rajouté<br>Aucun log supplémentaire sur le mode debug</div><div><br></div><div><b>Reproduit sur démo Angélique en HF 18.25</b></div><div><b>Bug reproduit uniquement sur les bons de séjour / Si je configure avec l'impression de la proforma, aucun problème&nbsp;</b></div><div><b><i>Lien JAM</i></b> :&nbsp;<a href=\"https://jam.dev/c/1f6b9139-7e29-4f36-afb6-3415fe789f69\">https://jam.dev/c/1f6b9139-7e29-4f36-afb6-3415fe789f69</a></div><div><br><br></div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Message-d-erreur-sur-validation-s-jour-si-actions-auto-activ-es-3908db15623a81389b72c8ebc834ed4a"
+    },
     {
       "id": "38f8db15-623a-81f8-b366-c2223454c7d0",
       "identifiant": "INA-480",
@@ -102,11 +134,13 @@
     {
       "id": "38f8db15-623a-8124-aea7-d69cf7656e48",
       "identifiant": "INA-477",
-      "titre": "[LOGICIEL] -  Contrôle d'accès : fenêtres de synchros qui plante",
+      "titre": "[LOGICIEL-WEB] -  Contrôle d'accès : fenêtres de synchros qui plante",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
       "fonctions": "Synchro",
       "produits": [
         "NAXI CAM",
@@ -130,7 +164,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Contr-le-d-acc-s-fen-tres-de-synchros-qui-plante-38f8db15623a8124aea7d69cf7656e48"
+      "url": "https://app.notion.com/p/LOGICIEL-WEB-Contr-le-d-acc-s-fen-tres-de-synchros-qui-plante-38f8db15623a8124aea7d69cf7656e48"
     },
     {
       "id": "38e8db15-623a-81ea-b983-f46a8d369ae5",
@@ -1522,7 +1556,7 @@
       "titre": "[LOGICIEL] - Pouvoir enlever une remise fidelité CTV dans un séjour NAXI",
       "classification": "DEV sans CC",
       "statut": null,
-      "priorisation": "Pas urgente",
+      "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Séjour",
       "produits": [
@@ -1555,7 +1589,7 @@
       "titre": "[LOGICIEL] : Specif EURODECISION : Ajout d'une colonne id catempl sur le fichier capacite",
       "classification": "DEV sans CC",
       "statut": null,
-      "priorisation": "Pas urgente",
+      "priorisation": null,
       "sprintIdeal": [],
       "fonctions": "Extractions",
       "produits": [
@@ -1622,7 +1656,9 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": "CRM",
       "produits": [
         "NAXI GESTION SQL"
@@ -1707,7 +1743,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Depuis peu, le camping BOIS SOLEIL 17 reçoit un certain nombre d'erreurs de la part de PAYZEN.\n\n**E_mail type _:**\n\n_____De: do_not_reply@payzen.eu\nDate: 24 juin 2026 à 12:55:17 UTC+2\nÀ: DIR <direction@bois-soleil.com>\nObjet: CAMPING BOIS SOLEIL - Tr. 076405e842f742188e2ee8fe37d5981e / ECHEC lors de l'appel de votre URL de notification [URL de notification à la fin du paiement]\n  \nSOCIÉTÉ : PARC HOTEL BOIS SOLEIL \nBOUTIQUE : CAMPING BOIS SOLEIL [90287130] \nAdresse URL : http://www.www.bois-soleil.com \n\nBonjour,\n\nNous avons enregistré le 24 juin 2026 12:53:26 la transaction 076405e842f742188e2ee8fe37d5981e d'un montant de 919,24 EUR sur la boutique CAMPING BOIS SOLEIL.\n\nLors de l'appel de votre URL de notification https://api.inaxel.com/services/payment/payzen/notify/a282f86e024739e3cee08f37c3ed4688, nous avons rencontré un problème technique dont le code d'erreur est : FAILED_SERVER_500_ERROR.\n\nPour plus d'information concernant ce code d'erreur, se référer à la FAQ : http://payzen.io/fr-FR/error-code/server-url-error.html\n\nSoit nous n'avons pas pu contacter votre serveur (indisponibilité de votre site marchand), soit votre serveur nous a répondu dans un délai beaucoup trop long, soit votre serveur nous a répondu un message d'erreur. Vous pouvez retrouver le type d'erreur rencontré dans l'historique des évènements de la transaction de votre Back Office marchand.\n\nPour information, le nom de la règle activée liée à cette erreur est [URL de notification à la fin du paiement].\n\nQuelles conséquences a ce message :\n\nLe paiement a été finalisé positivement ou négativement par la plateforme de paiement, mais il est possible que votre site marchand ne soit pas à jour. Il est inutile d'appeler le support technique car nous n'avons pas d'action sur votre informatique. Cependant, nous vous conseillons de vous rapprocher de votre webmaster pour analyser les causes de cette erreur et apporter éventuellement les corrections nécessaires.\n\nUne fois l'éventuel problème résolu, il vous est possible de rejouer manuellement l'URL de notification correspondant à cette transaction afin de notifier vos applications.\n\nPour cela, \n1.\tconnectez-vous à votre Back Office,\n2.\trecherchez la transaction réf. 076405e842f742188e2ee8fe37d5981e, \n3.\tune fois la transaction trouvée, utilisez le clic droit de votre souris sur la transaction pour sélectionner \"Exécuter l'URL de notification\". \n \n\nVous serez alors informé de la bonne exécution de cette commande si votre application est à nouveau accessible.\n\nVous pourrez dans tous les cas visualiser le résultat de votre action dans l'historique des évènements de la transaction et éventuellement analyser les messages d'erreur si le problème persiste. En survolant le champ info de ligne \"appel URL de notification\" avec votre souris, vous pouvez aussi éventuellement accéder à plus d'informations sur la cause de l'échec.\n____ _\n\n\nEn regardant les logs apache, je constate en effet beaucoup d'erreurs 500 (cf pièce jointe image (2).png)\n\nLudwig a regardé les pods et l'infra mais il ne voit aucune erreur de son côté.\n</direction@bois-soleil.com>",
+      "explication": "Depuis peu, le camping BOIS SOLEIL 17 reçoit un certain nombre d'erreurs de la part de PAYZEN.\n\n**E_mail type _:**\n\n_____De: do_not_reply@payzen.eu\nDate: 24 juin 2026 à 12:55:17 UTC+2\nÀ: DIR <direction@bois-soleil.com>\nObjet: CAMPING BOIS SOLEIL - Tr. 076405e842f742188e2ee8fe37d5981e / ECHEC lors de l'appel de votre URL de notification [URL de notification à la fin du paiement]\n  \nSOCIÉTÉ : PARC HOTEL BOIS SOLEIL \nBOUTIQUE : CAMPING BOIS SOLEIL [90287130] \nAdresse URL : http://www.www.bois-soleil.com \n\nBonjour,\n\nNous avons enregistré le 24 juin 2026 12:53:26 la transaction 076405e842f742188e2ee8fe37d5981e d'un montant de 919,24 EUR sur la boutique CAMPING BOIS SOLEIL.\n\nLors de l'appel de votre URL de notification https://api.inaxel.com/services/payment/payzen/notify/a282f86e024739e3cee08f37c3ed4688, nous avons rencontré un problème technique dont le code d'erreur est : FAILED_SERVER_500_ERROR.\n\nPour plus d'information concernant ce code d'erreur, se référer à la FAQ : http://payzen.io/fr-FR/error-code/server-url-error.html\n\nSoit nous n'avons pas pu contacter votre serveur (indisponibilité de votre site marchand), soit votre serveur nous a répondu dans un délai beaucoup trop long, soit votre serveur nous a répondu un message d'erreur. Vous pouvez retrouver le type d'erreur rencontré dans l'historique des évènements de la transaction de votre Back Office marchand.\n\nPour information, le nom de la règle activée liée à cette erreur est [URL de notification à la fin du paiement].\n\nQuelles conséquences a ce message :\n\nLe paiement a été finalisé positivement ou négativement par la plateforme de paiement, mais il est possible que votre site marchand ne soit pas à jour. Il est inutile d'appeler le support technique car nous n'avons pas d'action sur votre informatique. Cependant, nous vous conseillons de vous rapprocher de votre webmaster pour analyser les causes de cette erreur et apporter éventuellement les corrections nécessaires.\n\nUne fois l'éventuel problème résolu, il vous est possible de rejouer manuellement l'URL de notification correspondant à cette transaction afin de notifier vos applications.&nbsp;</direction@bois-soleil.com><div><direction@bois-soleil.com>&nbsp;Pour cela,&nbsp;</direction@bois-soleil.com></div><div><direction@bois-soleil.com>&nbsp;1.\tconnectez-vous à votre Back Office,&nbsp;</direction@bois-soleil.com></div><div><direction@bois-soleil.com>2.\trecherchez la transaction réf. 076405e842f742188e2ee8fe37d5981e,&nbsp;</direction@bois-soleil.com></div><div><direction@bois-soleil.com>&nbsp;3.\tune fois la transaction trouvée, utilisez le clic droit de votre souris sur la transaction pour sélectionner \"Exécuter l'URL de notification\". \n \n\nVous serez alors informé de la bonne exécution de cette commande si votre application est à nouveau accessible.&nbsp;</direction@bois-soleil.com></div><div><direction@bois-soleil.com><br></direction@bois-soleil.com></div><div><direction@bois-soleil.com>&nbsp;Vous pourrez dans tous les cas visualiser le résultat de votre action dans l'historique des évènements de la transaction et éventuellement analyser les messages d'erreur si le problème persiste. En survolant le champ info de ligne \"appel URL de notification\" avec votre souris, vous pouvez aussi éventuellement accéder à plus d'informations sur la cause de l'échec.\n____ _&nbsp;</direction@bois-soleil.com></div><div><direction@bois-soleil.com><br></direction@bois-soleil.com></div><div><direction@bois-soleil.com>&nbsp;En regardant les logs apache, je constate en effet beaucoup d'erreurs 500 (cf pièce jointe image (2).png)\n\nLudwig a regardé les pods et l'infra mais il ne voit aucune erreur de son côté.\n</direction@bois-soleil.com></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -1871,7 +1907,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Email transmis par le support  le 22/06\n\nBonjour,\n\nNous sommes actuellement en train de mettre à jour nos accès techniques et aurions besoin d'un nouveau token pour nos échanges avec vos services.\n\nPouvez-vous nous indiquer comment procéder et sous quels délais cela peut être mis en place ?\n\nNous pouvons également planifier ensemble la bascule afin d'éviter toute interruption de service.\n\nMerci d'avance pour votre retour.\n\nBien cordialement,\n\nLaure DOSBA \nProduct Owner\nlaure.dosba@maeva.com   \n\n→ Je ne connais pas hyper bien cette passerelle mais, si elle parle de la passerelle distrib, il faut voir combien de clients ont cette passerelle car on ne la commercialise plus et on demande de passer sur SH \n→ Si par contre ca concerne aussi la passerelle des tarifs/yield à voir",
+      "explication": "Email transmis par le support  le 22/06\n\nBonjour,\n\nNous sommes actuellement en train de mettre à jour nos accès techniques et aurions besoin d'un nouveau token pour nos échanges avec vos services.\n\nPouvez-vous nous indiquer comment procéder et sous quels délais cela peut être mis en place ?\n\nNous pouvons également planifier ensemble la bascule afin d'éviter toute interruption de service.\n\nMerci d'avance pour votre retour.\n\nBien cordialement,\n\nLaure DOSBA \nProduct Owner\nlaure.dosba@maeva.com &nbsp;&nbsp;<div>&nbsp;→ Je ne connais pas hyper bien cette passerelle mais, si elle parle de la passerelle distrib, il faut voir combien de clients ont cette passerelle car on ne la commercialise plus et on demande de passer sur SH&nbsp;</div><div>&nbsp;→ Si par contre ca concerne aussi la passerelle des tarifs/yield à voir</div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -1880,38 +1916,6 @@
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/WEB-LOGICIEL-Cr-er-un-nouveau-token-pour-Maeva-3878db15623a80ad8a92c7d32cb1fbca"
-    },
-    {
-      "id": "3878db15-623a-81f1-bc0c-cc437057f656",
-      "identifiant": "INA-381",
-      "titre": "proforma plus possible de changer et de mettre facture",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [
-        "NAXI GESTION HF"
-      ],
-      "client": "molignon specif suisse",
-      "dateCreation": "2026-06-22T15:39:00.000Z",
-      "estimBack": 0,
-      "estimFront": 1,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "Depuis les nouvelles versions, il n' a plus l'affichage des proforma tel que modifié dans le paramétrage document (spécif Suisse) le libellé reste en\"proforma\" alors que le client souhaite qu'il soit indiqué \"facture\"",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/proforma-plus-possible-de-changer-et-de-mettre-facture-3878db15623a81f1bc0ccc437057f656"
     },
     {
       "id": "3878db15-623a-8012-840d-da073b0ed391",
