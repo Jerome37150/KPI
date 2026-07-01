@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-01T11:48:12.775Z",
+  "generatedAt": "2026-07-01T14:00:47.023Z",
   "classique": [
+    {
+      "id": "3908db15-623a-8179-8599-f3f275f04180",
+      "identifiant": "INA-482",
+      "titre": "[LOGICIEL] - Naxi fige de façon aléatoire sur les traitements autos relatifs aux extractions clients/séjours",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": "Extractions",
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "Arbre d'Or",
+      "dateCreation": "2026-07-01T12:07:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Le camping Arbre d'Or a signalé avoir un phénomène de \"NAXI qui fige\" de façon aléatoire.<div><br></div><div>Après analyse, il s'avère que nous avons un comportement différent sur les Saas qui pourrait expliquer le soucis, à savoir :&nbsp;</div><div><br></div><div>1. Créer une extraction client et séjour avec automatisation \"Envoyer un email à tous les clients de la liste\"</div><div>2. Se rendre ensuite dans le menu Paramètres &gt; Traitements automatiques</div><div>3. Lancer le traitement automatique correspondant à la l'extraction automatisée</div><div><br></div><div>Si on regarde dans le répertoire NAXI du camping (donc sur le F:/DATANAXI/Arbre d'Or) :&nbsp;</div><div><br></div><div>On constate que les emails se stockent dans le répertoire temp de l'opérateur, mais un sous dossier au nom de l'opérateur est recrée [temp + operateur + operateur ]:&nbsp;<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/551ca973123a4cc2bf3c11300a1b72e7\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Sur ma démo en local, en réalisant le même test, les fichiers se stockent bien dans le [temp + Nom opérateur]<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/d4003f980ecd4779a84fbb4db3102382\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br></div><div>Sur ma démo, après traitement, les emails sont automatiquement supprimés. Sur les saas, je constate sur l'arbre d'or plus de 4700 fichiers sur un opérateur :&nbsp;<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a102bdb6563b4263b03e1b2090272c07\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>-On constate ensuite des logs d'erreur dans le journal d'événements Windows qui confirme les \"NAXI qui fige\"<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/18caf88605384aa7b407600ab1b8ca95\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b><font color=\"#16a34a\">Sur Arbre d'Or, j'ai vidé le fichier temp des opérateurs concernés le 30.06 à 21h00.<br>Le 01/07 à 14h17, toujours aucun plantage donc il semblerait qu'il y ait un lien entre les deux</font></b><br><br></div><div><br></div><div><b>Reproduit sur Saas RDP01 / Base test SQL Angélique 18.22</b></div><div><b><i>Lien JAM </i></b>:&nbsp;&nbsp;<a href=\"https://jam.dev/c/ef78b4ad-db56-462c-9155-c49579583b01\">https://jam.dev/c/ef78b4ad-db56-462c-9155-c49579583b01</a></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Naxi-fige-de-fa-on-al-atoire-sur-les-traitements-autos-relatifs-aux-extractions-clients--3908db15623a81798599f3f275f04180"
+    },
     {
       "id": "3908db15-623a-8138-9b72-c8ebc834ed4a",
       "identifiant": "INA-481",
@@ -30299,7 +30331,7 @@
     ]
   },
   "counts": {
-    "classique": 380,
+    "classique": 381,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
