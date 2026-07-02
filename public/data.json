@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-02T07:49:05.455Z",
+  "generatedAt": "2026-07-02T10:25:40.860Z",
   "classique": [
+    {
+      "id": "3918db15-623a-8177-b672-e71a3fc55c74",
+      "identifiant": "INA-483",
+      "titre": "[LOGICIEL] - Message d'erreur sur le traitement auto des cautions SWIKLY si langue Danoise",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": "Autres",
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "camping la baie 56",
+      "dateCreation": "2026-07-02T10:03:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div><b>Client impacté : Baie56</b><br><i>Version 18.25 / SQL</i></div><div><br></div><div>Un message d'erreur se produit lors de la validation du traitement automatique de SWIKLY lorsque :&nbsp;</div><div><br></div><div>1. Créer une fiche client et s'assurer de mettre la langue sur \"Danois\"</div><div>2. Créer sur cette fiche client un séjour qui est soumis à une prise de caution SWIKLY</div><div>3. Lancer le traitement auto de SWIKLY</div><div><br></div><div><b><i>NAXI affiche alors le message d'erreur suivant </i></b>:&nbsp;</div><div>&nbsp;</div><div>Le mécanisme de sécurité du WLangage a détecté une erreur dans l'application EVOCAMP.&nbsp;</div><div>Contactez le fournisseur de l'application EVOCAMP.</div><div>&nbsp;L'invocation de la méthode &lt;GetSwiklyDepositLink(System.String,System.String,NaxiGestionCore.ViewModel.Partner.Swikly.ViewModelSwiklyDepositContent)&gt; du type &lt;String&gt; a échoué</div><div>Le framework .NET a renvoyé l'erreur suivante :&nbsp;</div><div>Réponse invalide de l'API Swikly (aucune donnée reçue)</div><div>&nbsp;Pile des appels :</div><div>Procédure locale pl_generation_URL_Swikly (caution_swikly.PROCEDURE.pl_generation_URL_Swikly), ligne 75</div><div>Procédure locale pl_envoi_demandes_caution_Swikly (caution_swikly.PROCEDURE.pl_envoi_demandes_caution_Swikly), ligne 98</div><div>Fin d'initialisation de caution_swikly (caution_swikly), ligne 10</div><div>Clic sur BT_VALID (actions_auto.BT_VALID), ligne 154</div><div>Procédure locale init_exercice_sql (menuV3.PROCEDURE.init_exercice_sql), ligne 259</div><div>Procédure locale init_exercice (menuV3.PROCEDURE.init_exercice), ligne 14</div><div>Fin d'initialisation de menuV3 (menuV3), ligne 987</div><div>&nbsp;Date : 02/07/2026 11:04:50</div><div>Projet : EVOCAMP (14.1.546.16)</div><div>&nbsp;Informations supplémentaires :</div><div>Code erreur : 200002</div><div>Module : wd260net4.dll (01F260101d - 26.0.264.0)</div><div>&nbsp;Informations de débogage :</div><div><br><b><font color=\"#dc2626\">Après analyse, l'API de SWIKLY n'accepte pas la langue 'da'</font></b> :&nbsp;<br><br>2026-07-02 11:56:12. Fonction : GenericRequestGet</div><div>2026-07-02 11:56:12. Paramètre 1 :  [https://api.v2.swikly.com/v1/accounts/e45b2eb7-ed30-4ae6-a8f6-d71653a9b676/requests] : {\"description\":\"Demande de Caution\",\"<b><font color=\"#db2777\">language\":\"da\",</font></b>\"customId\":\"27551\",\"firstName\":\"Lars\",\"lastName\":\"BEHNKE\",\"email\":null,\"freeText\":\"2026|baie56|338\",\"deposit\":{\"startDate\":\"2026-07-12\",\"endDate\":\"2026-07-19\",\"amount\":25000},\"callbacks\":{\"requestSecured\":\"https://api.inaxel.com/services/platforms/swikly/notify\"}}</div><div>2026-07-02 11:56:12. Paramètre 2 : {\"message\":\"The selected language is invalid.\",\"code\":\"ERR_PARAMS\",\"errors\":{\"language\":[\"The selected language is invalid.\"]}}</div><div>-------------------------------------------------------------------<br><br>Le paramétrage des deux emails relatifs à SWIKLY ont bien la langue danoise activée.<br><br><b><font color=\"#16a34a\">-&gt; Pour dépanner le client, j'ai mis sur la fiche du client danois, la langue Anglaise</font></b></div><div><b><font color=\"#16a34a\">Le traitement auto s'est alors parfaitement effectué sans erreur</font></b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Message-d-erreur-sur-le-traitement-auto-des-cautions-SWIKLY-si-langue-Danoise-3918db15623a8177b672e71a3fc55c74"
+    },
     {
       "id": "3908db15-623a-8179-8599-f3f275f04180",
       "identifiant": "INA-482",
@@ -30331,7 +30363,7 @@
     ]
   },
   "counts": {
-    "classique": 381,
+    "classique": 382,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
