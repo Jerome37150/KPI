@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T13:17:34.864Z",
+  "generatedAt": "2026-07-03T15:31:13.015Z",
   "classique": [
     {
       "id": "3928db15-623a-81d2-a4a4-e91ec1000cbf",
@@ -5380,7 +5380,8 @@
         "Louis Charles"
       ],
       "persPoTest": [
-        "Marjorie"
+        "Marjorie",
+        "Aurore"
       ],
       "pointAvancement": 0.75,
       "pointsBlocage": "2 US créer + reprise au retour de LC",
