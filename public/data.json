@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-06T19:11:36.288Z",
+  "generatedAt": "2026-07-06T20:59:12.134Z",
   "classique": [
+    {
+      "id": "3958db15-623a-8139-a68b-e56db6ec1618",
+      "identifiant": "INA-504",
+      "titre": "[LOGICIEL] - Erreur sur la recherche de dispo en SQL",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": "Autres",
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "Verdon provence",
+      "dateCreation": "2026-07-06T19:59:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "La fenêtre recherche de disponibilité ne fait pas apparaître tous les emplacements de façon aléatoire :&nbsp;<div><br></div><div>1. Sur une catégorie d'emplacement, faire en sorte qu'il ne reste qu'un emplacement disponible sur une période définie.</div><div>2. Sur le bureau ou depuis le menu \"Recherche de disponibilités\", saisir les dates correspondant à la période définie précédemment</div><div>3. Choisir la catégorie d'emplacement correspondante</div><div>4. Lancer la recherche</div><div>5. NAXI affiche alors un message indiquant qu'il n'y a plus de disponibilités alors qu'il reste encore un emplacement.</div><div><br></div><div><b>Attention, le soucis est aléatoire.</b></div><div><b>Pour faire apparaître l'emplacement restant, il suffit de cliquer sur l'icône de sélection avancée et de recocher la catégorie choisie.</b></div><div><b>Puis, l'emplacement apparaît.</b></div><div><br></div><div>Je reproduis sur le camping Verdon Provence en 18.25 / SQL</div><div><b>Lien JAM </b>:&nbsp;<a href=\"https://jam.dev/c/e5b8747e-9699-4616-889e-ec54ea8b3370\">https://jam.dev/c/e5b8747e-9699-4616-889e-ec54ea8b3370</a></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Erreur-sur-la-recherche-de-dispo-en-SQL-3958db15623a8139a68be56db6ec1618"
+    },
     {
       "id": "3958db15-623a-81df-9974-ebfee73aae86",
       "identifiant": "INA-503",
@@ -30950,7 +30982,7 @@
     ]
   },
   "counts": {
-    "classique": 400,
+    "classique": 401,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
