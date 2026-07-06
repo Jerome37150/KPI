@@ -1,14 +1,52 @@
 {
-  "generatedAt": "2026-07-06T11:03:17.364Z",
+  "generatedAt": "2026-07-06T14:34:55.300Z",
   "classique": [
+    {
+      "id": "3958db15-623a-81df-9974-ebfee73aae86",
+      "identifiant": "INA-503",
+      "titre": "[LOGICIEL] - Non génération de la facture si volumétrie importante de LIGFACT",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
+      "fonctions": "Facturation",
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "Medit",
+      "dateCreation": "2026-07-06T13:20:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div><b>Client impacté : Groupe les Méditerrannées</b><br><br>Impossible de générer, imprimer ou envoyer une facture par email lorsque :&nbsp;<br><br>1. Sur une fiche client, créer beaucoup de prestations (<i>dans mon cas j'ai crée 56 séjours avec 15 suppléments différents sur chaque séjour, ce qui m'a donné environ 900 lignes de ligfact</i>)</div><div>2. Depuis l'onglet Prestation de la fiche client, cliquer sur l'icône de facturation global pour éditer une facture de l'ensemble des prestations.&nbsp;</div><div>3. NAXI mouline, n'affiche aucun message d'erreur puis redeviens accessible. Mais le PDF ne se génère pas</div><div><br><b><i>Ma fiche client où les prestations sont facturées sous la 088 :&nbsp;</i></b></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/341ed965b07b4127a36f8c293ff8d315\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><b><i>Répertoire de mes PDF / La 088 n'existe pas :&nbsp;</i></b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/24820112dc854706979deb972852c8b9\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>4. Si on regarde dans les logs, on obtiens l'erreur ci dessous :&nbsp;<br><br></div><div><i>2026-07-06 15:19:55. Fonction : Erreur lors de la conversion du fichier HTML en PDF</i></div><div><i>2026-07-06 15:19:55. Paramètre 1 : [5372:34884:0706/151946.739:ERROR:chrome\\browser\\task_manager\\providers\\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a \"Renderer\" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/40528867.</i></div><div><i><br></i></div><div><i>2026-07-06 15:19:55. Paramètre 2 :&nbsp;</i></div><div><i>-------------------------------------------------------------------<br></i></div><div><br></div><div><b>Reproduit sur démo HF Angélique en 18.25 </b>/ Le groupe LES MEDITERRANNEES sont en 18.25 SQL et la facture qu'ils ont besoin d'éditer contient 4885 LIGFACT :(&nbsp;</div><div><b>Lien JAM </b>:&nbsp;<a href=\"https://jam.dev/c/22d4da80-bd81-46bd-a132-14ec71172669\">https://jam.dev/c/22d4da80-bd81-46bd-a132-14ec71172669</a></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Non-g-n-ration-de-la-facture-si-volum-trie-importante-de-LIGFACT-3958db15623a81df9974ebfee73aae86"
+    },
     {
       "id": "3928db15-623a-81d2-a4a4-e91ec1000cbf",
       "identifiant": "INA-502",
       "titre": "[LOGICIEL] Modif de résa : suppression du supplément non pris en compte si c'est le seul supplément présent dans le séjour",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": "Résa web",
       "produits": [
         "Naxi Gestion PMS"
@@ -547,8 +585,10 @@
       "titre": "[LOGICIEL] - Message d'erreur sur le traitement auto des cautions SWIKLY si langue Danoise",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
       "fonctions": "Autres",
       "produits": [
         "Naxi Gestion PMS"
@@ -565,7 +605,9 @@
       "pointsBlocage": "",
       "explication": "<div><b>Client impacté : Baie56</b><br><i>Version 18.25 / SQL</i></div><div><br></div><div>Un message d'erreur se produit lors de la validation du traitement automatique de SWIKLY lorsque :&nbsp;</div><div><br></div><div>1. Créer une fiche client et s'assurer de mettre la langue sur \"Danois\"</div><div>2. Créer sur cette fiche client un séjour qui est soumis à une prise de caution SWIKLY</div><div>3. Lancer le traitement auto de SWIKLY</div><div><br></div><div><b><i>NAXI affiche alors le message d'erreur suivant </i></b>:&nbsp;</div><div>&nbsp;</div><div>Le mécanisme de sécurité du WLangage a détecté une erreur dans l'application EVOCAMP.&nbsp;</div><div>Contactez le fournisseur de l'application EVOCAMP.</div><div>&nbsp;L'invocation de la méthode &lt;GetSwiklyDepositLink(System.String,System.String,NaxiGestionCore.ViewModel.Partner.Swikly.ViewModelSwiklyDepositContent)&gt; du type &lt;String&gt; a échoué</div><div>Le framework .NET a renvoyé l'erreur suivante :&nbsp;</div><div>Réponse invalide de l'API Swikly (aucune donnée reçue)</div><div>&nbsp;Pile des appels :</div><div>Procédure locale pl_generation_URL_Swikly (caution_swikly.PROCEDURE.pl_generation_URL_Swikly), ligne 75</div><div>Procédure locale pl_envoi_demandes_caution_Swikly (caution_swikly.PROCEDURE.pl_envoi_demandes_caution_Swikly), ligne 98</div><div>Fin d'initialisation de caution_swikly (caution_swikly), ligne 10</div><div>Clic sur BT_VALID (actions_auto.BT_VALID), ligne 154</div><div>Procédure locale init_exercice_sql (menuV3.PROCEDURE.init_exercice_sql), ligne 259</div><div>Procédure locale init_exercice (menuV3.PROCEDURE.init_exercice), ligne 14</div><div>Fin d'initialisation de menuV3 (menuV3), ligne 987</div><div>&nbsp;Date : 02/07/2026 11:04:50</div><div>Projet : EVOCAMP (14.1.546.16)</div><div>&nbsp;Informations supplémentaires :</div><div>Code erreur : 200002</div><div>Module : wd260net4.dll (01F260101d - 26.0.264.0)</div><div>&nbsp;Informations de débogage :</div><div><br><b><font color=\"#dc2626\">Après analyse, l'API de SWIKLY n'accepte pas la langue 'da'</font></b> :&nbsp;<br><br>2026-07-02 11:56:12. Fonction : GenericRequestGet</div><div>2026-07-02 11:56:12. Paramètre 1 :  [https://api.v2.swikly.com/v1/accounts/e45b2eb7-ed30-4ae6-a8f6-d71653a9b676/requests] : {\"description\":\"Demande de Caution\",\"<b><font color=\"#db2777\">language\":\"da\",</font></b>\"customId\":\"27551\",\"firstName\":\"Lars\",\"lastName\":\"BEHNKE\",\"email\":null,\"freeText\":\"2026|baie56|338\",\"deposit\":{\"startDate\":\"2026-07-12\",\"endDate\":\"2026-07-19\",\"amount\":25000},\"callbacks\":{\"requestSecured\":\"https://api.inaxel.com/services/platforms/swikly/notify\"}}</div><div>2026-07-02 11:56:12. Paramètre 2 : {\"message\":\"The selected language is invalid.\",\"code\":\"ERR_PARAMS\",\"errors\":{\"language\":[\"The selected language is invalid.\"]}}</div><div>-------------------------------------------------------------------<br><br>Le paramétrage des deux emails relatifs à SWIKLY ont bien la langue danoise activée.<br><br><b><font color=\"#16a34a\">-&gt; Pour dépanner le client, j'ai mis sur la fiche du client danois, la langue Anglaise</font></b></div><div><b><font color=\"#16a34a\">Le traitement auto s'est alors parfaitement effectué sans erreur</font></b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -579,8 +621,10 @@
       "titre": "[LOGICIEL] - Naxi fige de façon aléatoire sur les traitements autos relatifs aux extractions clients/séjours",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": "Extractions",
       "produits": [
         "Naxi Gestion PMS"
@@ -611,8 +655,10 @@
       "titre": "[LOGICIEL] - Message d'erreur sur validation séjour si actions auto activées",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": "Séjour",
       "produits": [
         "Naxi Gestion PMS"
@@ -30904,7 +30950,7 @@
     ]
   },
   "counts": {
-    "classique": 399,
+    "classique": 400,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
