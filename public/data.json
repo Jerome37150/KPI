@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-07-07T05:05:35.213Z",
+  "generatedAt": "2026-07-07T08:36:42.816Z",
   "classique": [
+    {
+      "id": "3968db15-623a-81b9-bedd-f971cf166c0b",
+      "identifiant": "INA-505",
+      "titre": "[LOGICIEL] - Données CLIENT et COMMAND non envoyées sur le web (Suite)",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
+      "fonctions": "Synchro",
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-07T08:11:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Malgré ce qui a été fait dans les US https://inaxel.atlassian.net/browse/BUG-1110 et https://inaxel.atlassian.net/browse/BUG-1129, il manque toujours des commandes et clients sur web.<div><br></div><div>L'idée est donc de mettre en place un système qui renvoi tous les séjours et clients créés et/ou modifiés la veille afin de s'assurer qu'ils soient bien sur le web.</div><div><br></div><div><br><div><br></div><div><br></div></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Donn-es-CLIENT-et-COMMAND-non-envoy-es-sur-le-web-Suite-3968db15623a81b9beddf971cf166c0b"
+    },
     {
       "id": "3958db15-623a-8139-a68b-e56db6ec1618",
       "identifiant": "INA-504",
@@ -30982,7 +31016,7 @@
     ]
   },
   "counts": {
-    "classique": 401,
+    "classique": 402,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
