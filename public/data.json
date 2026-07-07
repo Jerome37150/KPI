@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T08:36:42.816Z",
+  "generatedAt": "2026-07-07T11:27:57.292Z",
   "classique": [
     {
       "id": "3968db15-623a-81b9-bedd-f971cf166c0b",
@@ -8,9 +8,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [
-        "JUILLET 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": "Synchro",
       "produits": [
         "Naxi Gestion PMS"
