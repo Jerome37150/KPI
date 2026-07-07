@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-07T11:27:57.292Z",
+  "generatedAt": "2026-07-07T13:32:08.229Z",
   "classique": [
+    {
+      "id": "3968db15-623a-81dd-a491-db06b88d843b",
+      "identifiant": "INA-506",
+      "titre": "[LOGICIEL] - Message erreur à la création du nouvel exercice d'une entreprise mère",
+      "classification": "BUG D'USAGE",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": "Paramétrages",
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "Romanée",
+      "dateCreation": "2026-07-07T13:10:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<b><i>Clients impactés : ROMANEE / SQL</i></b><br><br>Un message d'erreur apparaît lorsque :&nbsp;<br><br>1. Créer ou s'assurer d'avoir une entreprise \"mère\"<div>2. Sur cette entreprise mère, cliquer sur le bouton \"Création exercice\".</div><div>3. Lancer la création de l'exercice en cliquant sur le bouton vert</div><div>4. NAXI affiche le message d'erreur ci dessous :&nbsp;<br><br><i>L'invocation de la méthode &lt;ReportDataFromPreviousExerciceAndCompany(System.String,System.String,System.String,System.String)&gt; du type &lt;Void&gt; a échoué</i></div><div><i>Le framework .NET a renvoyé l'erreur suivante :</i></div><div><i>La référence d'objet n'est pas définie à une instance d'un objet.</i></div><div><i>Pile des appels :</i></div><div><i><b>Procédure locale cree_exercice_SQL (cre_exercice.PROCEDURE.cree_exercice_SQL), ligne 65</b></i></div><div><i>Clic sur BT_VALID (cre_exercice.BT_VALID), ligne 135</i></div><div><i>Procédure locale aff_fenetre (menu_mere.PROCEDURE.aff_fenetre), ligne 34</i></div><div><i>Clic sur BTN_cre_exercice (menu_mere.BTN_cre_exercice), ligne 2</i></div><div><i>Date : 06/07/2026 08:58:51</i></div><div><i>Projet : EVOCAMP (14.1.544.16)</i></div><div><i>Informations supplémentaires :</i></div><div><i>Code erreur : 200002</i></div><div><i>Module : wd260net4.dll (01F260101d - 26.0.264.0)</i></div><div><i>Informations de débogage :</i></div><div><i>System.Reflection.TargetInvocationException: Une exception a été levée par la cible d'un appel. ---&gt; System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.</i></div><div><i>à NaxiGestionCore.Manager.CompanyExerciceDataReportManager.ReportDataForParametersExtra(String fromCompany, String fromExercice, String toCompany, String toExercice)</i></div><div><i>à NaxiGestionCore.Manager.CompanyExerciceDataReportManager.ReportDataFromPreviousExerciceAndCompany(String fromCompany, String fromExercice, String toCompany, String toExercice)</i></div><div><i>--- Fin de la trace de la pile d'exception interne ---</i></div><div><i>à System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)</i></div><div><i>à System.Reflection.Runtime<br><br><b>La ligne 65 correspond à ce bout de code :&nbsp;</b><br><br></i><i>&nbsp;//08/07/2024 - Adrien - NNBG-804 EXERCICE / ENTREPRISE : Vérifier que les nouvelles tables des Suppléments, soient bien prises en compte lors de la Création d'un Exercice ou d'une Entreprise</i></div><div><i>&nbsp;QUAND EXCEPTION DANS</i></div><div><i>&nbsp; CompanyExerciceDataReportManager.ReportDataFromPreviousExerciceAndCompany(x_socA,x_exeA,x_socB,x_exeB)&nbsp;</i></div><div><i>&nbsp;FAIRE</i></div><div><i>&nbsp; ExceptionAffiche()&nbsp;</i></div><div><i>&nbsp;FIN<br><br>-&gt; La société \"mère\" n'ayant aucun paramétrage, il doit chercher une donnée à reporter mais qui n'existe pas ?&nbsp;<br><br></i><b>Reproduit sur démo Angélique en 18.26 / HF</b><br><b>Lien JAM </b>:&nbsp;<a href=\"https://jam.dev/c/8f93d691-96f3-4877-987d-e378643fd93d\">https://jam.dev/c/8f93d691-96f3-4877-987d-e378643fd93d</a></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Message-erreur-la-cr-ation-du-nouvel-exercice-d-une-entreprise-m-re-3968db15623a81dda491db06b88d843b"
+    },
     {
       "id": "3968db15-623a-81b9-bedd-f971cf166c0b",
       "identifiant": "INA-505",
@@ -31014,7 +31046,7 @@
     ]
   },
   "counts": {
-    "classique": 402,
+    "classique": 403,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
