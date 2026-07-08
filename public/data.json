@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T11:27:38.176Z",
+  "generatedAt": "2026-07-08T12:58:46.225Z",
   "classique": [
     {
       "id": "3978db15-623a-8147-9468-d1f5dd033d91",
@@ -9,7 +9,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
@@ -41,7 +41,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "Nax7 PMS"
       ],
@@ -73,7 +73,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
@@ -105,7 +105,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
@@ -139,7 +139,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
@@ -175,7 +175,7 @@
       "sprintIdeal": [
         "AOUT 26"
       ],
-      "fonctions": "Résa web",
+      "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
@@ -683,7 +683,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Fiche client",
+      "fonctions": null,
       "produits": [
         "Inaxel Pilot"
       ],
@@ -717,7 +717,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
@@ -753,7 +753,7 @@
       "sprintIdeal": [
         "NOVEMBRE 26"
       ],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
@@ -787,7 +787,7 @@
       "sprintIdeal": [
         "SEPTEMBRE 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
@@ -819,7 +819,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
@@ -851,7 +851,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
@@ -885,7 +885,7 @@
       "sprintIdeal": [
         "SEPTEMBRE 26"
       ],
-      "fonctions": "Emails & documents",
+      "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
@@ -919,7 +919,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI CAM",
         "Naxi Code"
@@ -2214,7 +2214,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
@@ -2336,7 +2336,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -2369,7 +2369,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -2403,7 +2403,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -2437,7 +2437,7 @@
       "sprintIdeal": [
         "OCTOBRE 26"
       ],
-      "fonctions": "CRM",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -2471,7 +2471,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -2503,7 +2503,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [],
-      "fonctions": "Paiements sécurisés",
+      "fonctions": null,
       "produits": [
         "NAXI RESERVATION"
       ],
@@ -2633,7 +2633,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "CRM",
+      "fonctions": null,
       "produits": [
         "Naxi Gestion PMS",
         "NAXI ESPACE CLIENT"
@@ -2666,7 +2666,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -2701,7 +2701,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL"
@@ -2736,7 +2736,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Fiche client",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -2771,7 +2771,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -2805,7 +2805,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI RESERVATION"
       ],
@@ -2839,7 +2839,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -2874,7 +2874,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -2908,7 +2908,7 @@
       "sprintIdeal": [
         "NOVEMBRE 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
       ],
@@ -2940,7 +2940,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Fiche client",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL"
@@ -2973,7 +2973,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -3007,7 +3007,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -3041,7 +3041,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -3075,7 +3075,7 @@
       "sprintIdeal": [
         "NOVEMBRE 26"
       ],
-      "fonctions": "Fiche client",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -3110,7 +3110,7 @@
       "sprintIdeal": [
         "OCTOBRE 26"
       ],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -3145,7 +3145,7 @@
       "sprintIdeal": [
         "SEPTEMBRE 26"
       ],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -3180,7 +3180,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -3215,7 +3215,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT",
         "NAXI GESTION HF",
@@ -3249,7 +3249,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -3284,7 +3284,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -3321,7 +3321,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Résa web",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -3355,7 +3355,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
       ],
@@ -3389,7 +3389,7 @@
       "sprintIdeal": [
         "SEPTEMBRE 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL"
@@ -3424,7 +3424,7 @@
       "sprintIdeal": [
         "SEPTEMBRE 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -3457,7 +3457,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -3528,7 +3528,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -3563,7 +3563,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -3600,7 +3600,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -3635,7 +3635,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL"
@@ -3670,7 +3670,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -3702,7 +3702,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -3737,7 +3737,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -3771,7 +3771,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -3805,7 +3805,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -3840,7 +3840,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -3875,7 +3875,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -3909,7 +3909,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -3943,7 +3943,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -3980,7 +3980,7 @@
       "sprintIdeal": [
         "SEPTEMBRE 26"
       ],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -4012,7 +4012,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
       ],
@@ -4046,7 +4046,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI NOMAD PREMIUM"
       ],
@@ -4078,7 +4078,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI NOMAD PREMIUM"
       ],
@@ -4112,7 +4112,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI NOMAD PREMIUM"
       ],
@@ -4148,7 +4148,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -4182,7 +4182,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -4219,7 +4219,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -4256,7 +4256,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "CRM"
       ],
@@ -4290,7 +4290,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "GRAFANA"
       ],
@@ -4324,7 +4324,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -4360,7 +4360,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -4397,7 +4397,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -4431,7 +4431,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
       ],
@@ -4463,7 +4463,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL"
@@ -4498,7 +4498,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -4534,7 +4534,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -4569,7 +4569,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -4603,7 +4603,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Paiements sécurisés",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT",
         "NAXI RESERVATION"
@@ -4640,7 +4640,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -4677,7 +4677,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Résa web",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF"
       ],
@@ -4713,7 +4713,7 @@
       "sprintIdeal": [
         "OCTOBRE 26"
       ],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -4748,7 +4748,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -4785,7 +4785,7 @@
       "sprintIdeal": [
         "OCTOBRE 26"
       ],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -4820,7 +4820,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Résa web",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF"
       ],
@@ -4856,7 +4856,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
       ],
@@ -4892,7 +4892,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Paiements sécurisés",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
       ],
@@ -4926,7 +4926,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Emails & documents",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
       ],
@@ -4960,7 +4960,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "CRM"
       ],
@@ -4996,7 +4996,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -5033,7 +5033,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -5070,7 +5070,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -5107,7 +5107,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI NOMAD PREMIUM"
       ],
@@ -5143,7 +5143,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -5180,7 +5180,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -5217,7 +5217,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
       ],
@@ -5251,7 +5251,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -5319,7 +5319,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -5354,7 +5354,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -5391,7 +5391,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Résa web",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -5427,7 +5427,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Résa web",
+      "fonctions": null,
       "produits": [
         "NAXI RESERVATION",
         "NAXI ESPACE CLIENT"
@@ -5464,7 +5464,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -5499,7 +5499,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Fiche client",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -5534,7 +5534,7 @@
       "sprintIdeal": [
         "OCTOBRE 26"
       ],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -5568,7 +5568,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI NOMAD PREMIUM"
       ],
@@ -5602,7 +5602,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -5636,7 +5636,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Résa web",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -5672,7 +5672,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -5743,7 +5743,7 @@
       "sprintIdeal": [
         "SEPTEMBRE 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -5778,7 +5778,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Fiche client",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF",
@@ -5816,7 +5816,7 @@
       "sprintIdeal": [
         "SEPTEMBRE 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL"
@@ -5851,7 +5851,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI NOMAD PREMIUM"
       ],
@@ -5885,7 +5885,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF",
@@ -5923,7 +5923,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI NOMAD PREMIUM"
       ],
@@ -5959,7 +5959,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -6032,7 +6032,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI NOMAD PREMIUM"
       ],
@@ -6066,7 +6066,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Fiche client",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -6103,7 +6103,7 @@
       "sprintIdeal": [
         "SEPTEMBRE 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -6138,7 +6138,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -6247,7 +6247,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Emails & documents",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL"
@@ -6350,7 +6350,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Paiements sécurisés",
+      "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-04-22T17:34:00.000Z",
@@ -6382,7 +6382,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -6419,7 +6419,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -6454,7 +6454,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -6526,7 +6526,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -6561,7 +6561,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -6596,7 +6596,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -6633,7 +6633,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -6742,7 +6742,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Résa web",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -6848,7 +6848,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -6883,7 +6883,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF"
       ],
@@ -6919,7 +6919,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -6956,7 +6956,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -6991,7 +6991,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -7028,7 +7028,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -7101,7 +7101,7 @@
       "sprintIdeal": [
         "OCTOBRE 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -7134,7 +7134,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -7169,7 +7169,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Fiche client",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -7204,7 +7204,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI NOMAD PREMIUM"
       ],
@@ -7238,7 +7238,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI CODES"
       ],
@@ -7272,7 +7272,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL"
@@ -7340,7 +7340,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -7375,7 +7375,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-04-10T09:45:00.000Z",
@@ -7479,7 +7479,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -7544,7 +7544,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -7576,7 +7576,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI NOMAD PREMIUM",
@@ -7681,7 +7681,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -7718,7 +7718,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -7750,7 +7750,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -7817,7 +7817,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -7888,7 +7888,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -7925,7 +7925,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -7999,7 +7999,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -8034,7 +8034,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -8101,7 +8101,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "CRM",
+      "fonctions": null,
       "produits": [
         "CRM",
         "GRAFANA"
@@ -8168,7 +8168,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL"
@@ -8203,7 +8203,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -8238,7 +8238,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -8305,7 +8305,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -8340,7 +8340,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -8377,7 +8377,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -8412,7 +8412,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -8445,7 +8445,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -8480,7 +8480,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -8516,7 +8516,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -8555,7 +8555,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -8591,7 +8591,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Paiements",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -8627,7 +8627,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL"
@@ -8664,7 +8664,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "OTA"
       ],
@@ -8698,7 +8698,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Paiements",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -8730,7 +8730,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -8762,7 +8762,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI COMMERCE"
       ],
@@ -8794,7 +8794,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL",
@@ -8830,7 +8830,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Mise à jour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -8865,7 +8865,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -8900,7 +8900,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -8937,7 +8937,7 @@
       "sprintIdeal": [
         "SEPTEMBRE 26"
       ],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL"
@@ -8970,7 +8970,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Fiche client",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -9003,7 +9003,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT",
         "NAXI GESTION HF",
@@ -9071,7 +9071,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -9139,7 +9139,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI NOMAD PREMIUM",
         "NAXI GESTION HF",
@@ -9276,7 +9276,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "VERSION ESPAGNOLE"
       ],
@@ -9343,7 +9343,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -9378,7 +9378,7 @@
       "sprintIdeal": [
         "OCTOBRE 26"
       ],
-      "fonctions": "Mise à jour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -9410,7 +9410,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL",
@@ -9547,7 +9547,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -9582,7 +9582,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "CTV",
@@ -9618,7 +9618,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -9684,7 +9684,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "LIEN PAIEMENT SOLDE"
       ],
@@ -9716,7 +9716,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Statistiques",
+      "fonctions": null,
       "produits": [
         "CRM"
       ],
@@ -9750,7 +9750,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "CRM"
       ],
@@ -9786,7 +9786,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -9858,7 +9858,7 @@
         "AVRIL 26",
         "MAI 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -9897,7 +9897,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
       ],
@@ -9933,7 +9933,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -9970,7 +9970,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL"
@@ -10007,7 +10007,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "CTV",
         "NAXI GESTION SQL",
@@ -10081,7 +10081,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -10117,7 +10117,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Paiements",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -10150,7 +10150,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Paiements",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
       ],
@@ -10214,7 +10214,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -10249,7 +10249,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -10285,7 +10285,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -10322,7 +10322,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL"
@@ -10359,7 +10359,7 @@
       "sprintIdeal": [
         "DECEMBRE 26"
       ],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -10394,7 +10394,7 @@
       "sprintIdeal": [
         "NOVEMBRE 26"
       ],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -10429,7 +10429,7 @@
       "sprintIdeal": [
         "AOUT 26"
       ],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -10463,7 +10463,7 @@
       "sprintIdeal": [
         "SEPTEMBRE 26"
       ],
-      "fonctions": "Statistiques",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -10497,7 +10497,7 @@
       "sprintIdeal": [
         "AOUT 26"
       ],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -10532,7 +10532,7 @@
       "sprintIdeal": [
         "OCTOBRE 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -10565,7 +10565,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Fiche client",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -10597,7 +10597,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -10630,7 +10630,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -10666,7 +10666,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -10703,7 +10703,7 @@
       "sprintIdeal": [
         "OCTOBRE 26"
       ],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -10737,7 +10737,7 @@
       "sprintIdeal": [
         "MAI 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
       ],
@@ -10771,7 +10771,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI CASHLESS",
         "NAXI COMMERCE"
@@ -10806,7 +10806,7 @@
       "sprintIdeal": [
         "NOVEMBRE 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -10840,7 +10840,7 @@
       "sprintIdeal": [
         "DECEMBRE 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI CODES"
       ],
@@ -11086,7 +11086,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -11278,7 +11278,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -11475,7 +11475,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -11507,7 +11507,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -11542,7 +11542,7 @@
         "AVRIL 26",
         "MAI 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -11581,7 +11581,7 @@
       "sprintIdeal": [
         "OCTOBRE 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -11613,7 +11613,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -11646,7 +11646,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -11678,7 +11678,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -11712,7 +11712,7 @@
       "sprintIdeal": [
         "SEPTEMBRE 26"
       ],
-      "fonctions": "CRM",
+      "fonctions": null,
       "produits": [
         "CRM",
         "CTV"
@@ -11745,7 +11745,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "CTV"
       ],
@@ -11779,7 +11779,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -11816,7 +11816,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI NOMAD PREMIUM"
       ],
@@ -12343,7 +12343,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "CRM",
+      "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-02-24T19:05:00.000Z",
@@ -12442,7 +12442,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
       ],
@@ -12476,7 +12476,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -12513,7 +12513,7 @@
       "sprintIdeal": [
         "OCTOBRE 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -12546,7 +12546,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF",
@@ -12583,7 +12583,7 @@
       "sprintIdeal": [
         "OCTOBRE 26"
       ],
-      "fonctions": "Extractions",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -12617,7 +12617,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -12653,7 +12653,7 @@
       "sprintIdeal": [
         "AOUT 26"
       ],
-      "fonctions": "Fiche client",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -12687,7 +12687,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -12722,7 +12722,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -12755,7 +12755,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
       ],
@@ -12789,7 +12789,7 @@
       "sprintIdeal": [
         "NOVEMBRE 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI CODES"
       ],
@@ -12823,7 +12823,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -12861,7 +12861,7 @@
         "AVRIL 26",
         "MAI 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -12898,7 +12898,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -12933,7 +12933,7 @@
       "sprintIdeal": [
         "JUIN 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -12970,7 +12970,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -13007,7 +13007,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "CRM",
         "CTV"
@@ -13042,7 +13042,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -13112,7 +13112,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Compta & finances",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -13147,7 +13147,7 @@
       "sprintIdeal": [
         "NOVEMBRE 26"
       ],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -13180,7 +13180,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL",
@@ -13216,7 +13216,7 @@
       "sprintIdeal": [
         "AVRIL 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF",
@@ -13254,7 +13254,7 @@
       "sprintIdeal": [
         "AOUT 26"
       ],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
         "NAXI GESTION SQL",
@@ -13290,7 +13290,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Paramétrages",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF",
@@ -13324,7 +13324,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION HF"
       ],
@@ -13358,7 +13358,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT",
         "CTV"
@@ -13393,7 +13393,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "CTV",
         "DATA HUB"
@@ -13426,7 +13426,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -13461,7 +13461,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Autres",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -13498,7 +13498,7 @@
       "sprintIdeal": [
         "MARS 26"
       ],
-      "fonctions": "Synchro",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -13534,7 +13534,7 @@
       "sprintIdeal": [
         "JUILLET 26"
       ],
-      "fonctions": "Facturation",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
         "NAXI GESTION HF"
@@ -13571,7 +13571,7 @@
       "sprintIdeal": [
         "SEPTEMBRE 26"
       ],
-      "fonctions": "Devis",
+      "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
       ],
@@ -13603,7 +13603,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
-      "fonctions": "Séjour",
+      "fonctions": null,
       "produits": [
         "NAXI RESERVATION"
       ],
