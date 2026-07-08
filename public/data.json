@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-08T07:02:28.506Z",
+  "generatedAt": "2026-07-08T09:33:09.665Z",
   "classique": [
+    {
+      "id": "3978db15-623a-8147-9468-d1f5dd033d91",
+      "identifiant": "INA-507",
+      "titre": "[LOGICIEL] - Fichiers non pris en compte lors d'une migration SQL vers HF",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": "Autres",
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "Arbre d'or",
+      "dateCreation": "2026-07-08T09:05:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Le camping Arbre d'Or a été migré de SQL vers HF le 30.06.2026.<br><br>Suite à cela, nous avions des erreurs sur NNP sur l'envoi des inventaires :&nbsp;<br><br><i>2026-07-08 00:02:39. Fonction : NNPInventoriesListener</i><div><i>2026-07-08 00:02:39. Paramètre 1 : NNPInventoriesListener La référence d'objet n'est pas définie à une instance d'un objet.&nbsp;</i></div><div><i>2026-07-08 00:02:39. Paramètre 2 :    à NaxiGestionCore.Synchro.CheckRessources.NNP.NNPInventoriesListener.DoAction(String companyCode, String webAccount, String seasonCode, DataModelWebServiceGetInventories item) dans C:\\Users\\rachid.amrani.alaoui.INAXEL\\Workspace\\gds\\NaxiGestionCore\\Synchro\\CheckRessources\\NNP\\NNPInventoriesListener.cs:ligne 66</i></div><div><i>&nbsp; &nbsp;à NaxiGestionCore.Synchro.CheckRessources.AbstractSynchroRecupListener`2.SavingDataToDataBase(Tdata[] data, String companyCode, String webAccount, String seasonCode) dans C:\\Users\\rachid.amrani.alaoui.INAXEL\\Workspace\\gds\\NaxiGestionCore\\Synchro\\CheckRessources\\AbstractSynchroRecupListener.cs:ligne 288</i></div><div><i>-------------------------------------------------------------------</i><br><br>Après analyse, il s'avère que les inventaires n'ont plus le même id entre NAXI et le web.&nbsp;</div><div>Le soucis provient de la migration SQL vers HF puisque si l'on regarde l'on compare les deux bases de données, les identifiants ne sont en effet plus les mêmes.<br><br><b>Il faudrait donc analyser la moulinette n° 45 - Migration Mysql vers HF afin de s'assurer que toutes les tables SQL sont bien remigrés en HF - Pour sûr la table INVENTORIES ne s'est pas transformée en HF MAIS il faudra analyser pour voir si d'autres tables sont concernées.<br></b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/d83510266e444656a79047b4a14b0e76\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Fichiers-non-pris-en-compte-lors-d-une-migration-SQL-vers-HF-3978db15623a81479468d1f5dd033d91"
+    },
     {
       "id": "3968db15-623a-81dd-a491-db06b88d843b",
       "identifiant": "INA-506",
@@ -2448,13 +2480,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Impossible d'éditer une facture ou de modifier un séjour sur une base de données en SQL en version 18.23&nbsp;<br><br>NAXI affiche un message d'erreur de ce type :&nbsp;<br><br>Que s'est-il passé ?<div>Modification d'un enregistrement. L'enregistrement a été modifié depuis sa dernière lecture.</div><div>&nbsp;</div><div>Code erreur : 70700</div><div>Niveau : erreur non fatale</div><div>Code erreur WD55 : 700</div><div>&nbsp;</div><div>Module : wd260hf.dll (01F260101d - 26.0.313.5)</div><div>&nbsp;</div><div>Informations de débogage :</div><div>IEWDHF=43.1</div><div>Module=&lt;WDHF&gt;</div><div>Version=&lt;26.0.313.5&gt;</div><div>Informations supplémentaires :</div><div>EIT_PATHFIC : &lt;command&gt;</div><div>EIT_LOGICALTABLENAME : &lt;COMMAND&gt;<br><br><b>Après analyse, le soucis vient du champs cmheuredep = 838:59:59</b><br><br>Si on le remet sur un format correct, alors on peut à nouveau modifier ou facturer le séjour</div><div><br></div><div><b>-&gt; Reproduit en basculant un séjour en parti depuis la fenêtre Arrivées/Départs</b></div>",
@@ -2786,13 +2814,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Christophe"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "Pas reproduit depuis le 21/06",
       "explication": "NAXI Resa et le lien de paiement du solde sont inaccesibles  ou très lents. Les premiers clients nous l’ont signalé ce Dimanche vers 11h00 mais un client nous a indiqué que le soucis aurait commencé déjà hier (Samedi 20 Juin).\n\nLudwig a fait les actions suivantes : \n  • Redémarrage des infras\n  • Vider le cache des répertoires de sessions\n  • Test d’un rollback : aucun changement\nMalgré toutes ces actions, le soucis persiste.\n\nNous constatons en revanche que le problème est surement dû à des connexions SQL qui ne se ferment pas et bloque l’accès à la base\n\nIl a été mise en place une limite pour ne pas saturer  les autres API",
@@ -3203,9 +3227,7 @@
       "estimFront": 21,
       "estimPoTest": 7,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
+      "persFront": [],
       "persPoTest": [],
       "pointAvancement": 0.1,
       "pointsBlocage": "",
@@ -3273,9 +3295,7 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
+      "persFront": [],
       "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
@@ -3345,13 +3365,8 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Aurore",
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
       "explication": "Lorsque l’on se connecte sur l’espace client, et que l’on souhaite visualiser le détail d’une réservation, le montant des suppléments est erroné ",
@@ -3558,13 +3573,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "La fenêtre NAXI Export ne se lance plus et reste bloquée sur l’envoi vers LoungeUp",
@@ -3599,13 +3610,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Un message d’erreur apparaît dans NAXI lorsque on valide un paiement hors séjour sur lequel on a appliqué une répartition manuelle",
@@ -3672,14 +3679,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Loic",
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Depuis passage en 18.21, ce camping a une erreur qui boucle sans cesse.",
@@ -3744,13 +3746,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "US a faire pour diminuer temps d'attente des traitements",
       "explication": "Les clients et séjours ne sont pas envoyés dans la table SYNCHRO lorsqu’ils sont issus d’un devis transformé directement en séjour",
@@ -3817,13 +3815,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Naxi galère à fermer la fenêtre de facturation par lot que ce soit en HF ou en SQL / Depuis le 18.18 à minima",
@@ -3890,13 +3884,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "Exe sur 18.21",
       "explication": "J’ai passé ce camping en 18.19 ce midi et depuis, il a beaucoup d’erreurs visiblement. Le message se génère à chaque changement d’opérateur dans NAXI \n\nUPDATE - Malgré le correctif fait sur la 18.20, je constate à nouveau le soucis sur un camping passé en 18.21",
@@ -3965,9 +3955,7 @@
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "L'équipe SH a mis en place le correctif sur l’Assurance Annulation. Il faut supprimer le code de l’US BUG-1108 (INA-316)",
@@ -4133,13 +4121,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "En passant par la fenêtre Arrivées/Départs, quand on bascule un ou plusieurs séjours en “Parti” les ménages ne basculent pas en “A faire”",
@@ -4209,12 +4193,8 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -4251,9 +4231,7 @@
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -4428,13 +4406,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Depuis son passage en SQL, le client constate que les séjours sans emplacement n’apparaissent plus dans le tableau des arrivées & départs",
@@ -4534,12 +4508,8 @@
       "estimFront": 35,
       "estimPoTest": 14,
       "persBack": [],
-      "persFront": [
-        "Christophe"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
       "explication": "Création d’un web service par CTV pour identifier si gestion des soldes par CTV ou pas ",
@@ -4644,9 +4614,7 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
+      "persFront": [],
       "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
@@ -4720,9 +4688,7 @@
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "soustraction de l'AA au montant de base à la réception de la résa \nLe souci provient côté CTV mais ils n'ont aucune visibilité sur la mise en prod d'un correctif car ils ont des soucis de déploiement depuis mardi.\nDonc on va faire un correctif de notre côté en attendant que tout soit résolu chez eux et qu'ils puissent sortir un correctif",
@@ -4865,9 +4831,7 @@
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Harmony du groupe Sunelia nous a contacté car lorsque ils reçoivent une modif de résa qui a une promo, la modification de la résa fait sauter la promo pour remettre le tarif de base. ",
@@ -4938,12 +4902,8 @@
       "estimFront": 3.5,
       "estimPoTest": 7,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Lorsqu'un client paye avec Payzen sur l'espace client, une erreur se produit dans certains cas au retour du paiement lorsque Payzen essaye de nous rappeler. Je n'ai pas plus d'info sur le sujet, il va falloir chercher. Voici l'erreur : \"Trying to get property 'vads_trans_status' of non-object\"",
@@ -5009,13 +4969,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "NAXI génère de façon automatique un fichier nommé sousloc pour tous les clients ayant le CRM et/ou les clients ayant la spécif EURODECISION. Côté CTM, ce fichier est utilisé pour les calculs RM. \n\nNous avons déjà fait un premier correctif : https://inaxel.atlassian.net/browse/BUG-1034?atlOrigin=eyJpIjoiZWRkNzJjYzA4ZDIwNGM4YjlmMzE3ZDlkYWE0YzBmMDIiLCJwIjoiaiJ9\nMais cela ne suffit pas, des incohérences persistent",
@@ -5050,13 +5006,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le camping LA SIRENE nous a contacté car les pdf de certaines de ses factures ne se généraient pas. \nAprès analyse de leur base de données, les factures concernées ont toutes été éditées sur des fiches clients ou la civilité est à 0\n\n→ Correctif d’urgence fait par Loic car ils avaient plus de 9 000 fiches clients dans ce cas. Le correctif consiste à prendre la civilité par défaut dans NAXI (table PARGEN / pg_code = PREFCLI) lorsque la fiche client a une civilité à 0. \n\n→ En revanche, il faudrait trouver comment ils peuvent avoir des fiches clients avec une civilité à 0/ Pistes déjà vérifiées : \n\n  • L’import des clients par fichier excel, si pas de colonne civilité, alors le champs se met en effet à 0 donc il faudrait prévoir une US pour que quand on importe un fichier client on mette la civilité par défaut si il y en a pas\n\n",
@@ -5091,13 +5043,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Agathe"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "inclus dans INA-343",
       "explication": "Malgré le correctif de Loic (BUG 1080), le camping ‘maprairie’ continue d’avoir des séjours non envoyés sur le web\n\n→ Exemple du 15.05 : séjour n°868 non envoyés sur le web\n→ Exemple du 16.05 : séjour n° 888 non envoyé sur le web\n\nAnalyse : \n\n  • Clients & séjours non présents sur le web\n  • Fichier synchro>sequential vide donc aucun élément en attente de synchro\n  • Table synchro vide\n  • Les deux sont des résas web avec création de la fiche client lors de la resa \n\nRecherche toujours en cours",
@@ -5169,12 +5117,8 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
-      "persFront": [
-        "Christophe"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Si on plus de 20 suppléments à charger, lorsqu’on arrive en bas de liste, la liste se recharge avec les 20 premiers au lieu de charger les suppléments suivants",
@@ -5209,13 +5153,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -5250,13 +5190,9 @@
       "estimBack": 21,
       "estimFront": 0,
       "estimPoTest": 7,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "La synchro de FLOWER Exploit bouclait sur l’envoi d’une commande en erreur.\nAprès recherche le soucis provenait d’un £ sur le nom d’un participant, ce qui casse la chaine de caractères vu qu’il s’agit d’un séparateur en bdd\n\n→ Il faut empêcher la saisie côté NAXI et mettre un contrôle pour les résas provenant du web",
@@ -5291,12 +5227,8 @@
       "estimFront": 3.5,
       "estimPoTest": 3.5,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le groupe CHADOTEL a un programme fidelité soumis à une souscription payante. Aussi, pour adhérer au programme le client doit payer 25.00€\n\nLe soucis est que sur l’espace client, l’internaute peut souscrire au programme sans payer les 25.00€\n\nDans l’immédiat, il faudrait : \n\n→ Masquer ce bouton pour CHADOTEL (on pourrait désactiver la fid sur l’espace client mais ils perdraient les infos de nombre de points…etc).\n\nPuis il faudra réfléchir à : \n\n→ Soit on fait un param dans NAXI pour que le camping choississe si le client peut souscrire ou non de lui même sur l’espace client à la fidelité\n\n→ OU est ce qu’on gère sur l’espace client que la fid peut être soumise à une souscription payante ? En discutant avec Mailys, seuls deux groupes ont cette particularité, à savoir CHADOTEL & SUNELIA\n\n",
@@ -5397,13 +5329,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le Camp du Domaine nous a contacté en nous signalant que NAXI plantait dès qu’ils facturaient.\nAprès analyse, le soucis provient de la mise à jour d’Edge v148",
@@ -5436,13 +5364,9 @@
       "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 7,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 0.2,
       "pointsBlocage": "",
       "explication": "Le client a appelé pour se plaindre que les séjours de ces clients n’apparaissaient pas sur l’espace client.\n\nEn me connectant, en effet, j’ai des erreurs d’envoi de COMMAND mais qui passe si on les renvoit.\nPar contre en récupérant les logs, on voit qu’en effet ça boucle souvent en erreur chez eux  (voir logs ci dessous)",
@@ -5477,12 +5401,8 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
-      "persFront": [
-        "Christophe"
-      ],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "coté CTV - bascule resa SOAP en REST",
       "explication": "Beaucoup de réservations ne redescendent pas chez SUNELIA.\n\nLe soucis semble venir de l’insertion du rs_suppl lié au Programme de Fidelité de Sunelia",
@@ -5518,13 +5438,8 @@
       "estimFront": 70,
       "estimPoTest": 3.5,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Marjorie",
-        "Aurore"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 0.75,
       "pointsBlocage": "2 US créer + reprise au retour de LC",
       "explication": "Suite à l’incendie du data center hébergeant TurboSmtp, NaxiResa & l’espace client moulinait à la fin du traitement, lors de l’envoi du mail au client. Au bout de quelques minutes, une erreur 504 apparaissaient.\n\n→ Nous avons alors modifié les fichiers .env de NaxiApi & NaxiBooking en remplaçant les token de TurboSmtp par ceux d’Express Mailing. Après tests, tout refonctionne correctement.\n\nIl faudra en revanche prévoir :\n\n  • Remigrer sur TurboSmtp une fois que leurs services seront rétablis\n  • Prévoir une API à nous qui tapera sur TurboSMTP, mais qui permettra de changer de facon centraliser le mail profider",
@@ -5559,13 +5474,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Les participants du dernier séjour d’un bon de séjour groupe ne sont plus affichés (uniquement sur le PDF)",
@@ -5667,12 +5578,8 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
-      "persFront": [
-        "Christophe"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -5811,9 +5718,7 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
       "persPoTest": [],
       "pointAvancement": 0,
@@ -5884,13 +5789,9 @@
       "estimBack": 3.5,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Il est possible dans NAXI de créer une fiche client sans nom, ce qui génère ensuite des erreurs de synchro et d’envoi vers le CRM entre autres.\n\nIl faudrait donc ajouter un contrôle sur ce champs en s’assurant qu’à minima deux lettres sont saisies ",
@@ -5995,13 +5896,9 @@
       "estimBack": 3.5,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "L’envoi d’une fiche client bloque la synchro lorsque la syntaxe de l’adresse email n’est pas correcte. \nAprès analyse, il s’avère que nous ne réalisons aucun contrôle de la syntaxe lorsque l’on crée une fiche client depuis les devis",
@@ -6072,15 +5969,9 @@
       "estimBack": 28,
       "estimFront": 7,
       "estimPoTest": 21,
-      "persBack": [
-        "Loic"
-      ],
-      "persFront": [
-        "Christophe"
-      ],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "Point rapide cette semaine",
       "explication": "",
@@ -6116,13 +6007,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Aucun appel à l’api synchroaccessapi via la fenêtre de synchro NAXIRESA.exe\n\nDu coup les événements NAXICAM ne redescendaient pas dans NAXI Gestion engendrant une importante perte fonctionnelle pour les clients basculant sur le saas",
@@ -6189,13 +6076,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Depuis le passage sur une des versions 18, les saisies ou modifications de date de naissance du client faite depuis le séjour ne sont plus mémorisées. ",
@@ -6265,13 +6148,9 @@
       "estimBack": 28,
       "estimFront": 0,
       "estimPoTest": 7,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Nina"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Sur les factures finales apparaît désormais un nouveau bloc “Factures d’acompte” qui liste les factures d’acompte générés pour la commande.\n\nOr, le montant de la facture d’acompte est à 0.00€ ",
@@ -6306,12 +6185,8 @@
       "estimFront": 21,
       "estimPoTest": 7,
       "persBack": [],
-      "persFront": [
-        "Christophe"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Dans le module “enregistrer une arrivée”, sur une arrivée on peut voir le statut du ménage du locatif. Le soucis c’est que ce statut s’affiche uniquement s’il y a un ménage pour la date d’arrivée. Si le ménage a été généré quelques jours avant, alors le statut du ménage ne s’affiche pas. Vu avec Christophe, la recherche est effectuée que sur la date de l’arrivée, il faudrait aller chercher le dernier ménage fait sur l’emplacement concerné.",
@@ -6347,13 +6222,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Dans le module ménage de NAXI Gestion, quand il y a un ménage de généré sur un linéaire, la date de prochaine arrivée est la même que celle du ménage (comme s’il considéré que le prochain séjour était la suite du linéaire). e n’est pas la date du prochain séjour “client” qui est indiqué. Le soucis est présent que dans NAXI, sur Nomad la date de prochaine arrivée est la bonne",
@@ -6421,12 +6292,8 @@
       "estimFront": 70,
       "estimPoTest": 21,
       "persBack": [],
-      "persFront": [
-        "Christophe"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Quand on fait une recherche avec des filtres (peu importe ceux utilisés) qu’on  valide un ménage, un supplément, une arrivée,… quand on revient sur la liste tous les filtres utilisés avant sont enlevé → ce qui rend l’utilisation lourde",
@@ -6525,13 +6392,9 @@
       "estimBack": 21,
       "estimFront": 0,
       "estimPoTest": 7,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le camping la Sardane nous a signalé d’importantes lenteurs sur la génération de factures lorsqu’il y a plusieurs prestations.\n\n→ Après tests sur ma démo, les lenteurs sont confirmés ce qui permet d’écarter la piste de l’infra puisque je teste sur mon PC en local \n\nLes lenteurs sont en revanche pas sur la facturation mais sur l’ouverture de la fenêtre d’envoi du mail ",
@@ -6566,13 +6429,9 @@
       "estimBack": 21,
       "estimFront": 0,
       "estimPoTest": 7,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le camping La Sardane nous a contacté afin de nous signaler d’importantes lenteurs sur la saisie de paiements dans NAXI\n\nAprès tests, je reproduis en effet les lenteurs sur ma démo, lorsque le paiement concerne plusieurs prestations.",
@@ -6677,13 +6536,9 @@
       "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 7,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le groupe Seagreen nous a contacté afin de nous demander d’ajouter le n° d’allocataire dans les données à afficher sur les extractions clients et séjours.\n\nAprès recherche dans INACOM, j’ai retrouvé d’autres clients qui ont fait cette même demande (je vous note les cas les plus récents).",
@@ -6751,13 +6606,9 @@
       "estimBack": 28,
       "estimFront": 0,
       "estimPoTest": 21,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Nina"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Depuis la BUG-1036, la fenêtre de saisie paiement avant facturation apparait bien de nouveau. Toutefois, si l’on saisit un paiement via cette fenêtre, le montant restant à régler sur la facture est erroné et ne tiens pas compte du paiement saisit.",
@@ -6792,13 +6643,9 @@
       "estimBack": 35,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Les données comptables relatives à NAXI Commerce ne sont pas envoyées via l’envoi auto des etats comptables, même si elles sont bien cochées dans la configuration\n\n→ Le code n’a jamais du être fait pour NAXI Commerce",
@@ -6834,13 +6681,9 @@
       "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 14,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Mailys a mis en place un système de controle entre le fichier booking déposé tous les jours sur le FTP et le CRM. Suite à cela, un fichier excel est envoyé tous les jours sur la boite support@inaxel.com\n\nLes premiers fichiers reçus (voir pièce jointe), montre qu’un certains nombre de campings sont impactés par une différence de nombre de séjour entre le fichier booking et le crm \n\nJ’ai pris comme exemple le camping LOU PTIT POUN car il est sur notre offre Saas. Ce camping a été migré en V2 le 26.03.2026.\n\nDepuis cette date, 77 séjours n’avaient pas été envoyé dans le CRM (alors que bien présents dans NAXI et dans le fichier booking). J’ai fait un renvoi complet des séjours et clients et les données se sont bien envoyés en intégralité.\n\nIl doit donc y avoir dans NAXI un traitement de création de séjour qui ne génère pas d’envoi dans le CRM. A première vue, les séjours non envoyés sont tous des résas provenant du resa web.\n\nUpdate du 23.04.2026 : \n\nJe viens de recevoir un email de ROMANEE pour m’indiquer qu’un client n’arrive pas à se connecter sur l’espace client. Après recherche, il s’avère que le client n’existe pas sur le web donc probablement le même soucis que pour les commandes",
@@ -6874,15 +6717,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Denis"
-      ],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Un message d’erreur indiquant que le serveur est indisponible apparaît sur NNP côté Web lorsque l’on enregistre un départ (passage en statut parti)\n\nIl s’agit juste d’un problème d’affichage car si on regarde dans NAXI, le statut du séjour est bien passé en Parti",
@@ -6914,13 +6751,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Plusieurs campings nous ont signalé avoir des surbooks ces derniers jours.\nAprès recherche le soucis vient du fait que malgré que la case “Blocage des plannings en ligne soit cochée”, nous ne créeons plus de retenu sur nos serveurs\n\nDonc tant que la résa n’est pas traitée coté NAXI, il n’y a aucun blocage planning et donc le risque de surbook est important",
@@ -6953,13 +6786,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le camping Mediterrannée Plage ne peut plus envoyer de mails depuis passage de la 18.11.\nIls ont un message d’erreur lié à OSMOKEY qui ferme NAXI et qui rend l’envoi de mails impossible \nSi je supprime le code Osmokey, ils peuvent à nouveau envoyer des emails",
@@ -6994,13 +6823,9 @@
       "estimBack": 35,
       "estimFront": 0,
       "estimPoTest": 14,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Nous avons installé la version 18.10 NG et 06.03 NxCod sur le camping Flower Rivière 04 et le soucis persiste malheureusement , à savoir lorsque l’on double clique sur un client dans NG, ce n’est pas la bonne fiche client qui s’ouvre.\n\nhttps://jam.dev/c/7abddfd2-a0ba-46b2-a00e-9169629ead71",
@@ -7067,13 +6892,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -7108,13 +6929,9 @@
       "estimBack": 3.5,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Lorsque l’on envoie un template de confirmation de réservation, de solde..etc, les montants affichés sont les montants totaux. \n\nAinsi, dans le cas d’un séjour de TO, on affiche le montant total et non pas le montant client total. Par conséquent, le client voit la part TO, ce qui n’est pas normal \n\n→ correction par montant client",
@@ -7149,14 +6966,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore",
-        "Nina"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le logo ne s’affiche pas sur les pdf des factures et proforma si dans les paramètres exercices, les courriers et emails sont configurés en différents par exercice.\n\nNaxi stocke alors l’image dans un mauvais répertoire \n\nPour débloquer la situation chez le client, j’ai déplacé le fichier manuellement, ce qui a permis de ré-afficher le logo sur les factures",
@@ -7189,13 +7001,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
       "explication": "Ajouter un texte lors de l’application d’une promo Flower car depuis Mars 2024 le montant du séjour doit être de 50€ minimum  pour utiliser les points fidélité.",
@@ -7230,13 +7038,9 @@
       "estimBack": 21,
       "estimFront": 0,
       "estimPoTest": 7,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Plusieurs problématiques sur la génération de la balance : \n\n  • Modifier les points en virgule sur les colonnes Débit et Crédit (points) a voir quand lignes 0 supp.\n  • Supprimer les lignes à 0 correspondant aux remises en banque (voir pièce ci jointe)",
@@ -7271,12 +7075,8 @@
       "estimFront": 0,
       "estimPoTest": 3.5,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Les liens n’ont pas été modifié sur le dashboard Assistance > 06 : NaxiNomadPremium : \n\n  • Se rendre sur l’URL : https://backoffice.inaxel.com/grafana/d/ffaebf14-03b6-471a-a7ba-e569686f264c/06-3a-naxi-nomad-premium?orgId=1&from=now-6h&to=now&timezone=browser&var-accountWeb=kabana\n  • Choisir un compte web (dans mon exemple Kabana)\n  • Si on clique sur le nombre de tickets, le nombre de ménages, le nombre d’inventaires….etc, cela renvoit vers une URL de type : https://grafana.inaxel.com/d/d0d30252-6a39-4949-a7cb-0741fdcd8160/menages?orgId=1&var-accountWeb=kabana au lieu d’une URL backoffice.inaxel.com\n\nOlivier a montré la manip à son service mais cela n’est pas acquis donc si possible de modifier les liens pour simplifier ce serait top :)",
@@ -7379,13 +7179,9 @@
       "estimBack": 3.5,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Suite à la BUG-997, on ne peut plus ouvrir de compteur sans date de fin. \n\nOr, beaucoup de campings ouvrent leur compteur en début de saison en notant la date de relevé et l’indice. Puis ils réouvrent le compteur en fin de saison ou en fin de mois pour noter la date de fin et l’indice de fin.\n\nIl faut donc conserver le contrôle mis en place sur la BUG-997, mais uniquement lorsqu’une date de fin est saisie 🙂",
@@ -7451,13 +7247,9 @@
       "estimBack": 3.5,
       "estimFront": 0,
       "estimPoTest": 7,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Nos clients sont impactés par des lenteurs sur NAXI Cod à cause des logs SDK qui sont trop volumineux et qui finissent par saturer leur disque dur \n\nCela nécessite une intervention de notre part pour supprimer manuellement les logs\n\nLien avec ce ticket : https://www.notion.so/Naxi-Cod-Log-erreur-fichier-trop-volumineux-30b8db15623a80cb87fdd509ea32e7a8?source=copy_link",
@@ -7591,12 +7383,8 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
-      "persFront": [
-        "Christophe"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "il s'agit d'une résa en paiement différé : Acompte + 2ème paiement + solde.\n\nLe 2ème paiement + le solde sont des montants sont identiques ce que Naxi considère comme un doublon donc le traite pas.\n\nIl y a un contrôle sur le montant du paiement mais pas sur la date ",
@@ -7629,12 +7417,8 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
-      "persFront": [
-        "Christophe"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "la mise à jour du solde de réservation n’est plus opérationnelle lorsque : \n1. valider une réservation SH avec un paiement d’acompte\n2. modifier le montant du solde en modifiant uniquement les quantités des suppléments et/ou en ajoutant une part VACAF sur le séjour. Pour reproduire le Bug, le solde ne doit pas être modifié par l’ajout d’un nouveau paiement.\n3. valider le séjour \nRésultat :  le nouveau solde n’est pas à jour sur SH. \n \nBUG introduit par l’US BUG-1024: [WEB] Multiple bug échange de soldeDone ",
@@ -7669,12 +7453,8 @@
       "estimFront": 21,
       "estimPoTest": 7,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -7709,13 +7489,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 7,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Aujourd'hui, nous avons 2 systèmes de synchro (un ancien mode et un nouveau que l'on appelle synchro V2) pour remonter les infos du web vers NAXI. Plusieurs développement ont été mis en place pour passer toutes les ressources en V2 (ex: commande, client, résa, etc..). \nL'ancien système est très gourmand, il représente 20 à 30% de nos requêtes HTTP quotidienne (ce qui équivaut à 10-11M de requête).\nLe problème est que notre système recevant les logs est arrivé à son maximum (on est souvent à 100%).\nIl faudrait donc pour améliorer les capacités du système de log qu'on accélère le passage en synchro V2 et que l'on enlève les appels de l'ancien système quand toutes les ressources sont en V2 pour un camping.",
@@ -7848,9 +7624,7 @@
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le camping Arbre d’Or ne reçoit pas les validations des cautions SWIKLY dans NAXI .\n\n  • Le paramétrage a été vérifié : OK\n  • Le user id & clé secrète ont été recheckées avec Swikly directement\n  • Je les ai rétrogradés sur la version 18.08 car ils étaient sur la 18.09 mais aucun impact\n  • Je les ai migré sur la 18.10 si besoin de leur pose un exe ou autre puisqu’ils sont sur notre saas (RDP-07) \n  • Aucun caution n’est envoyée dans la table CAUTIONSWIKLY alors que le lien et le mail eux sont bien générés et envoyés au client \n  • J’ai checké d’autres campings, mais j’ai bien des cautions tous les jours pour d’autres campings.\n  • Aucun autre cas n’a été signalé pour l’instant\n\nJ’ai envoyé un email à SWIKLY encore aujrd’hui voici leur retour : \n\nBonjour Angélique,\n \n• Est-ce que ce camping a toujours eu cet identifiant ? --> Nous avons développé une nouvelle version de Swikly l'année dernière, ce qui a généré de nouveaux identifiants pour tous nos clients. L'ancien identifiant du camping est 2840ed4cd58feb86265d787b8bbde698\n• Cet établissement a-til une configuration particulière chez vous ? --> Non\n• Est-il possible éventuellement de regénérer l’id et la clé secrète ? Non, mais l'id de l'ancienne version est : 2840ed4cd58feb86265d787b8bbde698, et le secret du lien de l'ancienne version est 8ee042443ccc89bb\n• Avez-vous des logs d’erreurs à me communiquer ? --> Non\n \nIl faut peut être ré essayer en mettant les identifiants de l'ancienne version de Swikly... \nJe reste disponible si vous avez besoin d'échanger davantage,\n\nJ’ai  donc fait le test avec les anciens id sans trop y croire mais en effet cela n’a rien changé donc j’ai remis les derniers id\n \n\n",
@@ -7917,13 +7691,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le camping KABANA nous a contacté afin de nous indiquer que sa synchro bouclait en erreur.\nAprès analyse, ce camping fait parti d’un petit groupe de 4 établissements dont 3 n’ont pas de système de réservation en ligne.\n\nLes éléments en erreur qui bouclait dans la synchro correspondait aux sociétés n’ayant pas de réservation en ligne / Je les ai supprimé pour éviter que ça boucle inutilement mais cela va forcément revenir",
@@ -7957,9 +7727,7 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
       "persPoTest": [],
       "pointAvancement": 1,
@@ -8024,13 +7792,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 0,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Nina"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Vérifier que le scripti Freshressources de SystemAPI tente de ré-initialiser la connexion à RMQ quand l’envoi d’un message échoue (la valeur de message_sent de la ressource reste à -1)\nAjouter ce comportement s’il n’est pas déjà en place\n\nProblème remonté suite à un incdient en PROD le 02/04/2026 : aucune réservations, paiement…ne redescendaient chez les clients",
@@ -8098,12 +7862,8 @@
       "estimFront": 21,
       "estimPoTest": 14,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Un message d’erreur apparaît dans NAXI lors du traitement d’un pré-enregistrement provenant de l’espace client si l’internaute saisit un # dans l’un des champs de saisie\n\n→ Voir pour interdire la saisie d’un # ou d’un | sur les champs de saisie (car les deux sont des séparateurs en base de données)",
@@ -8138,13 +7898,9 @@
       "estimBack": 0,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "En analysant les logs d’un camping, je suis tombée sur une erreur qui m’a alerté.\n\nA savoir, nous avons près de 12 000 erreurs 424 par minute. \n\nAprès recherche, cette erreur provient des campings n’ayant pas de système de réservations en ligne et donc pas d’id web.  Malgré tout,  l’agent NAXI Resa envoit quand même des requêtes pour vider le planning, envoyer des tarifs…etc. Ces envois sont forcément rejetés car l’id web n’existe pas.\n\n",
@@ -8179,13 +7935,9 @@
       "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Détails:\nAnomalie sur la fenêtre de synchro: on a certaines entreprises/exercices qui apparaissent en doublon.\nLe problème ne se produit pas systématiquement sur toutes les bases il doit donc y avoir certaines conditions pour entrer dedans. (on a repéré qu’il faut à minima 2 exercices actifs) \nAprès recherche rapide avec Loïc on a identifié quelques endroits dans le code qui sont susceptibles d'être à l’origine du soucis - Il faut donc se pencher sur ces cas là et vérifier si c’est bien ça qui pose soucis ou pas",
@@ -8221,12 +7973,8 @@
       "estimFront": 35,
       "estimPoTest": 7,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Nina"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -8262,12 +8010,8 @@
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
-      "persFront": [
-        "Christophe"
-      ],
-      "persPoTest": [
-        "Nina"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 0.5,
       "pointsBlocage": "en attente retour CiS (relance 17/04)",
       "explication": "",
@@ -8400,12 +8144,8 @@
       "estimFront": 210,
       "estimPoTest": 210,
       "persBack": [],
-      "persFront": [
-        "Christophe"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 0.4,
       "pointsBlocage": "",
       "explication": "Vu avec Christophe pour refonte de l’espace client du site Inaxel avec suppression des élements pas utilisés + ajout de lien pour la partie technique",
@@ -8508,13 +8248,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Les envois des CHANNELS sont en erreur lorsque le libellé du canal est vide, ce qui sature ensuite la fenêtre de synchro\n\nDepuis semaine dernière je vérifie la table command sur le web suite à des comportements anormaux sur l’espace client (chez ciela, des clients arrivaient à se connecter mais ne voyait pas leur séjour car les séjours n’étaient plus sur le web).\n\nSuite à ce controle, ce matin, je me rends compte que le Saint Martin n’a plus que 100 séjours sur le web au lieu des 4408 de Vendredi.\n\nEn prenant la main chez le camping, leur synchro boucle en erreur sur l’envoi des CHANNELS\nL’erreur provient du libellé des CHANNELS qui est vide. J’ai remplacé par un point et la synchro s’est faite de nouveau.",
@@ -8651,13 +8387,9 @@
       "estimBack": 3.5,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le camping ROYAN17 s’est fait piraté sa boite email. \n\nAprès analyse, son informaticien souhaiterait que nous masquions le mot de passe présent dans le menu Paramètres > Courriers/Emails // Actuellement ce mot de passe est en clair ce qui représente une vraie faille de sécurité (y compris pour Inaxel vu que nous proposons nos services d’envoi d’email via TurboSmtp)",
@@ -8757,13 +8489,9 @@
       "estimBack": 10.5,
       "estimFront": 0,
       "estimPoTest": 7,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Angélique"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "RESASOL me signale que l’envoi vers COOLNCAMP ne se fait plus depuis le 13.03.2026.\nEn me connectant sur leur serveur, je constate que le traitement semble s’être fait puisque la date du prochain traitement s’est mis à jour.\nEn revanche, après échange avec COOLNCAMP, ils n’ont reçu aucun fichier sur leur serveur.\nJ’ai donc modifié la date de l’export pour qu’il se relance et que je puisse le surveiller.\nAprès cette modif et la réouverture de NAXI Export, celui ci se met en ne répond pas et COOLNCAMP mouline sans jamais se finir.\nJe me suis mise en mode debug mais la trace se met en ne répond pas non plus donc impossible de savoir ce qu’il se passe.",
@@ -8798,13 +8526,9 @@
       "estimBack": 21,
       "estimFront": 0,
       "estimPoTest": 7,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "conserve bug 1007",
       "explication": "Depuis la version 18, les factures et proforma d’échéances sont incorrectes à plusieurs niveaux : \n  • Les proforma ne font plus apparaitre le bloc des paiements\n  • Les factures d’échéance font apparaitre le bloc des paiements mais dedans, on y retrouve tous les paiements du séjour alors qu’on devrait y retrouver que le paiement de cette échéance\n  • Et donc conséquence, la facture d’échéance affiche des montants erronés sur le montant déjà réglé, ce qui génère un montant à rembourser\n\nTesté en version 17.28, les bugs ne sont pas constatés.",
@@ -8913,13 +8637,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "En analysant nos logs d’erreurs, je me suis rendue compte que nous avions plus de 1 000 erreurs en moins de 6h sur la synchronisation des SCHEDULE.\n\nAprès analyse, les SCHEDULES sont envoyés dans la table synchro même pour les campings qui n’ont pas de système de réservation en ligne, ce qui génère un nombre d’enregistrement énorme dans la table SYNCHRO ",
@@ -9190,13 +8910,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Dans NAXI, lorsque la specif Flower est activée, il y a un menu déroulant “Type de promo Flower” qui apparaît dans le paramétrages des remises/promos. \n\nL’idée serait de rendre ce champs obligatoire et que les cmapings ne puissent pas valider leur paramétrage si cette combo n’est pas renseignée",
@@ -9399,12 +9115,8 @@
       "estimFront": 7,
       "estimPoTest": 3.5,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le camping les FLOTS souhaiterait que le bandeau des cookies(voir pièce ci jointe) soit plus visible car cela lui génère beaucoup d’appels // Nous lui avons proposé de mettre une couleur dans le style pour que le bandeau soit un peu plus visiuel mais cela ne lui convient pas.  Il souhaite un bandeau plus grand et situé en milieu de page pour que l’internaute ne soit pas bloqué.\n\nBonjour,\nJe me permets de revenir vers vous concernant un problème déjà signalé à plusieurs reprises depuis plus d’un an, relatif à la page de connexion de l’espace client.\nLors de la connexion, une demande d’acceptation des cookies bloque l’accès, mais cette fenêtre n’est pas visible pour les clients. En conséquence, ils ne peuvent pas valider cette étape et restent bloqués sur la page de connexion.\nCe dysfonctionnement génère de nombreux appels à la réception pour une situation qui devrait être totalement transparente pour l’utilisateur. Nous passons régulièrement du temps à expliquer un problème qui ne devrait tout simplement pas exister.\nCe point vous a déjà été signalé à plusieurs reprises et, à ce jour, aucune correction n’a été apportée. Pourtant, il ne s’agit pas d’un développement complexe mais simplement d’un affichage correct de la bannière cookies afin qu’elle soit visible et validable par les utilisateurs.\nJe vous remercie par avance de bien vouloir traiter ce problème dans les meilleurs délais, car il devient réellement pénalisant pour notre fonctionnement quotidien.\nDans l’attente de votre retour.\nCordialement,\nCyril Dubreau",
@@ -9470,13 +9182,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 7,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
       "explication": "La synchro de CIELA boucle en erreur sur l’envoi de commandes NNP. Elle cherche à envoyer un id de séjour qui n’existe pas en base",
@@ -9813,12 +9521,8 @@
       "estimFront": 21,
       "estimPoTest": 7,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Nina"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Créer un Dashboard Rapport de version qui comporte : \n  • Une colonne Compte client (prendre le compte de la licence et non pas de l’id web pour avoir également les clients qui n’ont pas d’id web)\n  • Une colonne Version Naxi proposée\n  • Une colonne Version Naxi Installée \n\nAttention, ce Dashboard doit comporter tous les campings présents dans la table logiciels\nSi possible, ajouter des filtres relatif à la version installée afin d’avoir un listing rapide des clients ayant telle ou telle version (dans le cas où nous constatons un important bug, c’est plus facile à gérer :) ) \n",
@@ -10055,13 +9759,9 @@
       "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 14,
-      "persBack": [
-        "Loic"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "NAXI génère de façon automatique un fichier nommé sousloc pour tous les clients ayant le CRM et/ou les clients ayant la spécif EURODECISION. Côté CTM, ce fichier est utilisé pour les calculs RM. Ce fichier est aujourd’hui complètement faux et présente deux soucis : \n  • Présence de doublons\n  • Présence des séjours de sous locataires",
@@ -10096,13 +9796,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "NAXI permet de saisir un montant de remise manuelle en négatif. Ainsi, si on saisit un montant de remise à -100€, en réalité, le montant total du séjour sera à +100€ et non pas -100€\n\nLe soucis a été repéré par Mailys car les données qu’elle recevait été incohérentes dans le CRM",
@@ -10135,13 +9831,8 @@
       "estimFront": 7,
       "estimPoTest": 3.5,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Aurore",
-        "Nina"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "retour de test",
       "explication": "",
@@ -10178,13 +9869,8 @@
       "estimFront": 7,
       "estimPoTest": 14,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Aurore",
-        "Nina"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -10222,9 +9908,7 @@
       "estimPoTest": 3.5,
       "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -10259,13 +9943,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -10301,12 +9981,8 @@
       "estimFront": 7,
       "estimPoTest": 7,
       "persBack": [],
-      "persFront": [
-        "Inès"
-      ],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -10343,12 +10019,8 @@
       "estimFront": 7,
       "estimPoTest": 3.5,
       "persBack": [],
-      "persFront": [
-        "Inès"
-      ],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -10383,12 +10055,8 @@
       "estimFront": 14,
       "estimPoTest": 3.5,
       "persBack": [],
-      "persFront": [
-        "Sylvain"
-      ],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -10422,12 +10090,8 @@
       "estimBack": 21,
       "estimFront": 21,
       "estimPoTest": 49,
-      "persBack": [
-        "Denis"
-      ],
-      "persFront": [
-        "Christophe"
-      ],
+      "persBack": [],
+      "persFront": [],
       "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "Coté CTV > modification frais réservation / nom et prénom inversé (Noushka) Attente bascule en REST",
@@ -10594,13 +10258,9 @@
       "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 14,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le groupe SEAGREEN nous a contacté car son export comptable était faux. Après analyse, il s’avère que certaines factures apparaissent en double dans l’export comptable. Après recherche, j’ai identifié un doublon sur la table CPTCLIENT. En supprimant le doublon, et en regénérant l’export comptable, la facture apparaissait bien qu’une seule fois.\nPour m’assurer qu’ils n’aient pas à nouveau le soucis, j’ai joué une requête sur la table CPTCLIENT. Chez SEAGREEN, c’est 183 doublons. Chez Ciela, c’est 9 doublons",
@@ -10672,13 +10332,9 @@
       "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 7,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Dans NAXI, nous avons la possibilité lors de la facturation de modifier le destinataire de la facture (souvent utilisé pour facturer à un CE par exemple).<div>&nbsp;Depuis la version 18, lorsque l’on facture à une autre adresse, NAXI affiche par défaut sur le PDF de la facture, la civilité et le pays du client et non pas de l’autre adresse saisie</div>",
@@ -10983,13 +10639,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
       "explication": "",
@@ -11024,13 +10676,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -11545,13 +11193,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 7,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Nina"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "L’envoi de la proforma groupe génère une erreur. Il est nécessaire de faire l’envoi en deux étapes pour que le mail parte à savoir : \n  • Générer la proforma dans un premier temps en dehors de la fenetre d’envoi du mail \n  • Puis envoyer le mail en cochant la proforma générée précédemment",
@@ -11908,16 +11552,9 @@
       "estimBack": 35,
       "estimFront": 35,
       "estimPoTest": 49,
-      "persBack": [
-        "Denis"
-      ],
-      "persFront": [
-        "Louis Charles",
-        "Inès"
-      ],
-      "persPoTest": [
-        "Nina"
-      ],
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "sortie 23/04 > retour clients pas bon correctif en cours (27/04)",
       "explication": "",
@@ -12152,13 +11789,9 @@
       "estimBack": 35,
       "estimFront": 0,
       "estimPoTest": 21,
-      "persBack": [
-        "Cédric.F"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -12293,15 +11926,9 @@
       "estimBack": 14,
       "estimFront": 7,
       "estimPoTest": 42,
-      "persBack": [
-        "Rachid"
-      ],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Nina"
-      ],
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -12662,12 +12289,8 @@
       "estimFront": 35,
       "estimPoTest": 7,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Nina"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
       "explication": "",
@@ -12763,12 +12386,8 @@
       "estimFront": 14,
       "estimPoTest": 7,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Nina"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -12867,13 +12486,9 @@
       "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "",
@@ -13011,13 +12626,9 @@
       "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "L'heure des historiques est au format 00:00 lorsque :\n1.  S'assurer d'être en SQL, non reproduit en HF\n2. Se rendre dans le menu Paramètres > Historiques afin d'activer les historiques sur les commandes \n3. Ouvrir un séjour et le modifier. Enregistrer les modifications\n4. Réouvrir le séjour et se positionner sur l'onglet 'Com/Histos'\n5. La modification apparaît mais l'heure affichée est à 00:00\n6. Pourtant si on regarde en base de données, la donnée est correctement enregistrée (que ce soit en base dans NAXI ou sur PhpMyadmin)",
@@ -13086,13 +12697,9 @@
       "estimBack": 3.5,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Fenêtre Export comptable : Manque icône pour exporter sous excel si pas assez de ligne",
@@ -13264,13 +12871,9 @@
       "estimBack": 35,
       "estimFront": 0,
       "estimPoTest": 14,
-      "persBack": [
-        "Denis"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Nina"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Mise au norme NF525 et 203",
@@ -13340,15 +12943,9 @@
       "estimBack": 21,
       "estimFront": 70,
       "estimPoTest": 7,
-      "persBack": [
-        "Denis"
-      ],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Nina"
-      ],
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Modification de la solution SWIKLY - MaJ nécessaire via API",
@@ -13383,15 +12980,9 @@
       "estimBack": 35,
       "estimFront": 28,
       "estimPoTest": 14,
-      "persBack": [
-        "Rachid"
-      ],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Modification des regles sur les cautions, impossible de conserver la caution + de 7 jours. Dev a faire + client doit changer de contrat",
@@ -13427,12 +13018,8 @@
       "estimFront": 3.5,
       "estimPoTest": 3.5,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 0.5,
       "pointsBlocage": "",
       "explication": "Suite à une remontée de Flower, et après recherche avec Mailys, nous constatons que les clients VACAF sont envoyés chez CTV avec la balise Customer Type à 2, ce qui correspond à “Client de TO”. Ils devraient être envoyés à 1 “Client Standard”.",
@@ -13502,9 +13089,7 @@
       "estimPoTest": 7,
       "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Depuis la mise en ligne de Jeudi 20/02 permettant de corriger un bug relatif au paiement différé sur Payline, il est impossible de payer un acompte depuis l’espace client. Lors du clic sur le bouton ‘Payer’, l’internaute se retrouve bloqué.\nSolution temporaire : J’ai vidé en prod la table paiement_validation_differe ce qui a permis de retrouver un fonctionnement normal. Un dump de cette table a été faite sur mon poste pour le restaurer  après correction\n",
@@ -13642,15 +13227,9 @@
       "estimBack": 7,
       "estimFront": 7,
       "estimPoTest": 21,
-      "persBack": [
-        "Denis"
-      ],
-      "persFront": [
-        "Christophe"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "• Problématique identifiée uniquement pour les groupes Sunélia et Ushuaia :\n    ◦ Étude en cours pour un déploiement en dur",
@@ -13790,12 +13369,8 @@
       "estimFront": 7,
       "estimPoTest": 7,
       "persBack": [],
-      "persFront": [
-        "Louis Charles"
-      ],
-      "persPoTest": [
-        "Marjorie"
-      ],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
       "explication": "Demande amélioration sur l’espace client  mais plus généralement aussi sur la passerelle avec SH : Lors du paiement du solde, pouvoir extraire la taxe de séjour du montant du solde afin que celle-ci puisse être payée sur place",
@@ -13896,13 +13471,9 @@
       "estimBack": 3.5,
       "estimFront": 0,
       "estimPoTest": 3.5,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Enlever le menu “tuto” qui renvoi vers les vidéos",
@@ -13936,15 +13507,9 @@
       "estimBack": 14,
       "estimFront": 14,
       "estimPoTest": 7,
-      "persBack": [
-        "Denis"
-      ],
-      "persFront": [
-        "Christophe"
-      ],
-      "persPoTest": [
-        "Aurore"
-      ],
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le camping Baie de Saint Pol a contacté à plusieurs reprises le support car les réservations sur SH étaient impossibles sur tous les hébergements/dates. Après analyse, à chaque ouverture de la fenêtre de synchro le planning se vidait sans se renvoyer car le traitement d'Euro décision bloquait tout. \nSolution temporaire : Synchro mise sur la session d'Angélique avec isolement de ce camping pour équilibrer les charges.\nCf conversation teams : https://teams.microsoft.com/l/message/19:90a412a1aceb41888376d9dfd88b0e0a@thread.tacv2/1771418000631?tenantId=c9132af5-0bf5-4449-968a-869125b4282a&groupId=4c18f072-28ca-4870-b26d-bb03d2555e21&parentMessageId=1771418000631&teamName=Dev%20%7C%20Inaxel&channelName=Support%203%20-%20D%C3%A9v&createdTime=1771418000631",
@@ -13979,14 +13544,9 @@
       "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 7,
-      "persBack": [
-        "Rachid"
-      ],
+      "persBack": [],
       "persFront": [],
-      "persPoTest": [
-        "Marjorie",
-        "Aurore"
-      ],
+      "persPoTest": [],
       "pointAvancement": 0.7,
       "pointsBlocage": "attente retour LC / decalage sur juillet",
       "explication": "Proposer solution pour la norme Europeen avec une solution de PA",
@@ -31057,7 +30617,7 @@
     ]
   },
   "counts": {
-    "classique": 403,
+    "classique": 404,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
