@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T09:33:09.665Z",
+  "generatedAt": "2026-07-08T11:27:38.176Z",
   "classique": [
     {
       "id": "3978db15-623a-8147-9468-d1f5dd033d91",
@@ -2489,9 +2489,9 @@
       "communication": [],
       "initialeAjout": [],
       "versionInter": "18.24",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-25",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Impossible-de-modifier-facturer-un-s-jour-sur-les-bases-SQL-depuis-la-version-18-23-38a8db15623a81ffab84f395c90e502c"
     },
@@ -2858,9 +2858,9 @@
       "communication": [],
       "initialeAjout": [],
       "versionInter": "18.23",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-22",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Message-erreur-l-ouverture-d-une-caution-SWIKLY-URL-call-back-erron-3838db15623a8051a85dd1adca31b9dc"
     },
@@ -3025,9 +3025,9 @@
       "communication": [],
       "initialeAjout": [],
       "versionInter": "18.25",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-29",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Migration-SQL-certaines-tables-ne-sont-pas-migr-es-en-SQL-ce-qui-g-n-re-des-erreurs-d-3818db15623a8066b1a3d684c09f617f"
     },
@@ -3059,9 +3059,9 @@
       "communication": [],
       "initialeAjout": [],
       "versionInter": "18.22",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Message-d-erreur-au-chargement-de-l-encours-V2-en-SQL-3818db15623a80a690f8febdd6478427"
     },
@@ -3305,9 +3305,9 @@
         "Ajout en cours"
       ],
       "versionInter": "Web",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/WEB-Am-lioration-performance-synchro-commande-37c8db15623a81ed9e05ca908b6824c3"
     },
@@ -3584,9 +3584,9 @@
         "Ajout en cours"
       ],
       "versionInter": "18.23",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-22",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-NaxiExport-ne-s-ouvre-pas-cause-du-traitement-LoungeUp-qui-ne-finit-jamais-3758db15623a8072b3f0eacec3b4f6c2"
     },
@@ -3621,9 +3621,9 @@
         "Ajout en cours"
       ],
       "versionInter": "18.23",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-22",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Message-d-erreur-lors-de-la-validation-d-un-paiement-avec-r-partition-manuelle-3758db15623a80978f58c560c545ddee"
     },
@@ -3688,9 +3688,9 @@
       "communication": [],
       "initialeAjout": [],
       "versionInter": "18.25",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-29",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Erreur-Log-Maximum-Row-Size-suite-passage-en-18-21-3748db15623a80bfb7baf5dfb7bfda97"
     },
@@ -3757,9 +3757,9 @@
         "Ajout en cours"
       ],
       "versionInter": "18.23",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-22",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Clients-et-s-jours-non-envoy-s-en-SQL-si-devis-transform-directement-en-s-jour-3738db15623a807a9fc2cc47dec5efae"
     },
@@ -3826,9 +3826,9 @@
         "Ajout en cours"
       ],
       "versionInter": "18.25",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-29",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Lenteurs-sur-fermeture-fen-tre-facturation-par-lot-3738db15623a8096b43cd8dbb6e759c9"
     },
@@ -3895,9 +3895,9 @@
         "Ajout en cours"
       ],
       "versionInter": "18.21 (exe)",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Message-d-erreur-depuis-passage-18-19-3738db15623a808eb292d6dfe76084ee"
     },
@@ -3964,9 +3964,9 @@
         "Ajout en cours"
       ],
       "versionInter": "web",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-16",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/WEB-NAXITO-suppression-du-patch-BUG-1108-3738db15623a80688c3fe8ae75f33130"
     },
@@ -4132,9 +4132,9 @@
         "Ajout en cours"
       ],
       "versionInter": "18.23",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-22",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-NNP-les-m-nages-passent-pas-en-faire-quand-bascule-des-s-jours-depuis-Arriv-es-D-par-3728db15623a80959c87c841ef1cdb06"
     },
@@ -4203,9 +4203,9 @@
         "Ajout en cours"
       ],
       "versionInter": "18.21",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-08",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/WEB-gestion-des-erreurs-swikly-36f8db15623a8059b7d9d1f4fd993f62"
     },
@@ -4276,9 +4276,9 @@
         "Ajout en cours"
       ],
       "versionInter": "web",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/WEB-Probl-me-de-performance-base-de-donn-es-36f8db15623a81138b31f57f51a3eb5a"
     },
@@ -4417,9 +4417,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.25",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-29",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Les-s-jours-sans-emplacements-ne-s-affichent-pas-dans-les-arriv-es-d-parts-du-jour-en--36b8db15623a808299edd3e760136cf5"
     },
@@ -4912,9 +4912,9 @@
         "Sprint initiale"
       ],
       "versionInter": "Web",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-08",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/WEB-R-ponse-de-Payzen-en-erreur-3658db15623a81b994e7e032c117598a"
     },
@@ -4980,9 +4980,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.25",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-29",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Export-EURODECISION-CRM-Maeva-Fichier-sous-loc-erron-3648db15623a80e0afb9f5e129a9dc92"
     },
@@ -5017,9 +5017,9 @@
         "Débord sprint"
       ],
       "versionInter": "18.23",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-22",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-G-n-ration-des-pdf-de-facture-impossible-si-civilit-client-0-Partie-2-Identifier--3648db15623a80499f10f8385aca046f"
     },
@@ -5054,9 +5054,9 @@
         "Ajout en cours"
       ],
       "versionInter": "18.24",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-25",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Clients-s-jours-non-envoy-s-sur-le-web-3648db15623a80349627e4e09145ec61"
     },
@@ -5201,9 +5201,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.22",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Ajout-garde-fou-sur-nom-pr-nom-des-participants-d-un-s-jour-35e8db15623a807ca4a2fe86c0c4f16f"
     },
@@ -5237,9 +5237,9 @@
         "Sprint initiale"
       ],
       "versionInter": "Web",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/WEB-Masquer-le-bouton-Souscrire-au-programme-fidelit-sur-l-espace-client-35e8db15623a808ea679e77cdd45748b"
     },
@@ -5485,9 +5485,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.25",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-29",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Non-affichage-des-participants-sur-les-bons-de-s-jour-groupe-3588db15623a80e8b10bff9e9a1e7be5"
     },
@@ -5800,9 +5800,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.22",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Ajouter-un-contr-le-sur-le-nom-des-fiches-clients-3518db15623a80a2b934f7a43cae2186"
     },
@@ -5907,9 +5907,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.22",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Erreur-synchro-fiche-client-Aucun-contr-le-de-la-syntaxe-adresse-email-depuis-la-cr-atio-3518db15623a80d3abc2f5da4528a981"
     },
@@ -6087,9 +6087,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.22",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-R-gression-sur-saisie-date-de-naissance-du-client-entre-s-jour-et-fiche-client-34c8db15623a805e8221d18f1da60abe"
     },
@@ -6617,9 +6617,9 @@
         "Débord sprint"
       ],
       "versionInter": "18.22",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Facturation-montant-r-gler-erron-si-paiement-saisi-via-la-fen-tre-de-paiement-avant-f-3498db15623a80e9bffff2a78b0b810b"
     },
@@ -6654,9 +6654,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.22",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Envoi-auto-des-etats-comptables-Liste-des-ventes-NaxiCommerce-non-envoy-es-3498db15623a80e6970fe78b4c70c8ae"
     },
@@ -6834,9 +6834,9 @@
         "Débord sprint"
       ],
       "versionInter": "18.21",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-08",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Erreur-remont-e-historique-NAXICOD-voir-LOG-pour-analyse-3488db15623a8048bba2d943a468b589"
     },
@@ -6940,9 +6940,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.25",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-29",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Template-erreur-sur-les-montants-affich-s-dans-le-cas-d-un-s-jour-de-TO-3448db15623a806087edfaedf43bb98a"
     },
@@ -7190,9 +7190,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.23",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-22",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Impossible-d-ouvrir-un-compteur-sans-date-de-fin-3428db15623a8021948ee1a20ab5bc0a"
     },
@@ -7258,9 +7258,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.22 (exe)",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Purge-automatique-des-logs-SDK-NAXICOD-3428db15623a805db5a9dd3f00efccbb"
     },
@@ -7500,9 +7500,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.25",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-29",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Arr-t-de-l-appel-l-ancienne-synchro-quand-toutes-les-ressources-sont-en-V2-pour-la-remon-33c8db15623a81b0ba69c40bdc30c8e9"
     },
@@ -7702,9 +7702,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.22",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Donn-es-envoy-s-dans-la-synchro-pour-les-tablissements-n-ayant-pas-de-r-servation-en-lign-3368db15623a80478570d79f471e2786"
     },
@@ -7872,9 +7872,9 @@
         "Sprint initiale"
       ],
       "versionInter": "Web",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/WEB-Message-erreur-dans-Naxi-si-saisie-d-un-sur-le-pr-enregistrement-de-l-espace-client-3348db15623a80a58f38d8d9d206d940"
     },
@@ -7909,9 +7909,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.22",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Erreur-424-issue-de-nos-logs-sur-le-delete-planing-3348db15623a800998c0fcf815bee713"
     },
@@ -9807,9 +9807,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.21",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-08",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/Erreur-de-saisie-sur-les-remises-manuelle-g-n-rant-un-montant-de-s-jour-faux-3178db15623a8079a34be124df5b756a"
     },
@@ -10343,9 +10343,9 @@
         "Sprint initiale"
       ],
       "versionInter": "18.25",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-29",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Facturation-La-civilit-et-le-pays-du-destinataire-de-la-facture-ne-sont-plus-prises-en--3128db15623a800499bef30bbac24f10"
     },
@@ -12954,9 +12954,9 @@
         "Débord sprint"
       ],
       "versionInter": "18.21",
-      "versionStable": "",
+      "versionStable": "18.25",
       "dateSortieInter": "2026-06-08",
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-06",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/WEB-LOGICIEL-Caution-SWIKLY-Nouvelle-API-3118db15623a808b8757fcf95bb9d6f7"
     },
