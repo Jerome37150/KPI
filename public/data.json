@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-11T08:25:24.366Z",
+  "generatedAt": "2026-07-11T09:54:02.935Z",
   "classique": [
+    {
+      "id": "39a8db15-623a-8174-a004-e94660b7ac8e",
+      "identifiant": "INA-514",
+      "titre": "[LOGICIEL] - Incohérence table planning en SQL SAAS",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "Roussieres",
+      "dateCreation": "2026-07-11T08:29:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Incohérence planning constatée sur établissement LES ROUSSIERES :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/36d6f5caee8f4176a7a11b8f2febb9d1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Analyser pour comprendre comment cela a pu se produire<br><br>Le séjour 4174 a été crée le 27.05 et le séjour 6258 a été crée le 10.07<br>Ils sont en SQL depuis un moment donc ces deux séjours ont été crée en SQL<br><br>-&gt; Voir pour ajouter un garde fou pour éviter ce genre de situation ?&nbsp;<br><br>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Incoh-rence-table-planning-en-SQL-SAAS-39a8db15623a8174a004e94660b7ac8e"
+    },
     {
       "id": "3998db15-623a-8159-93fd-fb16ddcc6485",
       "identifiant": "INA-513",
@@ -311,7 +343,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "La fenêtre recherche de disponibilité ne fait pas apparaître tous les emplacements de façon aléatoire :&nbsp;<div><br></div><div>1. Sur une catégorie d'emplacement, faire en sorte qu'il ne reste qu'un emplacement disponible sur une période définie.</div><div>2. Sur le bureau ou depuis le menu \"Recherche de disponibilités\", saisir les dates correspondant à la période définie précédemment</div><div>3. Choisir la catégorie d'emplacement correspondante</div><div>4. Lancer la recherche</div><div>5. NAXI affiche alors un message indiquant qu'il n'y a plus de disponibilités alors qu'il reste encore un emplacement.</div><div><br></div><div><b>Attention, le soucis est aléatoire.</b></div><div><b>Pour faire apparaître l'emplacement restant, il suffit de cliquer sur l'icône de sélection avancée et de recocher la catégorie choisie.</b></div><div><b>Puis, l'emplacement apparaît.</b></div><div><br></div><div>Je reproduis sur le camping Verdon Provence en 18.25 / SQL</div><div><b>Lien JAM </b>:&nbsp;<a href=\"https://jam.dev/c/e5b8747e-9699-4616-889e-ec54ea8b3370\">https://jam.dev/c/e5b8747e-9699-4616-889e-ec54ea8b3370</a></div>",
+      "explication": "La fenêtre recherche de disponibilité ne fait pas apparaître tous les emplacements de façon aléatoire :&nbsp;<div><br></div><div>1. Sur une catégorie d'emplacement, faire en sorte qu'il ne reste qu'un emplacement disponible sur une période définie.</div><div>2. Sur le bureau ou depuis le menu \"Recherche de disponibilités\", saisir les dates correspondant à la période définie précédemment</div><div>3. Choisir la catégorie d'emplacement correspondante</div><div>4. Lancer la recherche</div><div>5. NAXI affiche alors un message indiquant qu'il n'y a plus de disponibilités alors qu'il reste encore un emplacement.</div><div><br></div><div><b>Attention, le soucis est aléatoire.</b></div><div><b>Pour faire apparaître l'emplacement restant, il suffit de cliquer sur l'icône de sélection avancée et de recocher la catégorie choisie.</b></div><div><b>Puis, l'emplacement apparaît.</b></div><div><br></div><div>Je reproduis sur le camping Verdon Provence en 18.25 / SQL</div><div><b>Lien JAM </b>:&nbsp;<a href=\"https://jam.dev/c/e5b8747e-9699-4616-889e-ec54ea8b3370\">https://jam.dev/c/e5b8747e-9699-4616-889e-ec54ea8b3370</a><br><br>Constaté également en weekend d'astreinte le 11.07.2026 sur le camping ROUSSIERES / Je vais le rebasculer en HF pour éviter que ça se reproduise car cliente très mécontente :&nbsp;<br><br>https://jam.dev/c/41b62dc3-d8a7-4e8f-bab4-832d2da09256</div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -29457,7 +29489,7 @@
     ]
   },
   "counts": {
-    "classique": 365,
+    "classique": 366,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
