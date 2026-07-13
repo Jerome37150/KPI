@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-13T12:27:43.134Z",
+  "generatedAt": "2026-07-13T15:19:21.268Z",
   "classique": [
+    {
+      "id": "39c8db15-623a-8186-80e0-d12eacea15b9",
+      "identifiant": "INA-515",
+      "titre": "[LOGICIEL] - Lenteurs sur Saas et Naxi qui fige de façon aléatoire sur la validation des séjours, enregistrement paiement",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "Innature",
+      "dateCreation": "2026-07-13T13:26:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<b>Client impacté : INNATURE / SQL - Saas</b><br><br>Le client signale de grosses lenteurs depuis qu'il est passé sur le Saas ainsi qu'un phénomène de NAXI qui fige de façon aléatoire mais ciblé sur l'enregistrement d'un séjour / paiement<br><br><div>Nous n'avons aucun log côté NAXI, mais constatons en effet les erreur dans le journal d'événement Windows :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/5d4d4222320545039ca7810adfa90c5b\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>L'infra a été vérifié par Steven &amp; Ludwig mais tout est ok à leur niveau.</div><div><br></div><div>Ce weekend, le camping ROUSSIERES, également sur le saas a appelé pour le même sujet : je l'ai remigré en HF Samedi 11/07 à 12h30 et depuis le client m'indique avoir retrouvé une stabilité.<br><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Lenteurs-sur-Saas-et-Naxi-qui-fige-de-fa-on-al-atoire-sur-la-validation-des-s-jours-enr-39c8db15623a818680e0d12eacea15b9"
+    },
     {
       "id": "39a8db15-623a-8174-a004-e94660b7ac8e",
       "identifiant": "INA-514",
@@ -29489,7 +29521,7 @@
     ]
   },
   "counts": {
-    "classique": 366,
+    "classique": 367,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
