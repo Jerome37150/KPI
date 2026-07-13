@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T20:05:17.251Z",
+  "generatedAt": "2026-07-13T21:10:52.256Z",
   "classique": [
     {
       "id": "39c8db15-623a-8186-80e0-d12eacea15b9",
@@ -8,7 +8,9 @@
       "classification": "BUG STRUCTURANT",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -25,7 +27,9 @@
       "pointsBlocage": "",
       "explication": "<b>Client impacté : INNATURE / SQL - Saas</b><br><br>Le client signale de grosses lenteurs depuis qu'il est passé sur le Saas ainsi qu'un phénomène de NAXI qui fige de façon aléatoire mais ciblé sur l'enregistrement d'un séjour / paiement<br><br><div>Nous n'avons aucun log côté NAXI, mais constatons en effet les erreur dans le journal d'événement Windows :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/5d4d4222320545039ca7810adfa90c5b\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>L'infra a été vérifié par Steven &amp; Ludwig mais tout est ok à leur niveau.</div><div><br></div><div>Ce weekend, le camping ROUSSIERES, également sur le saas a appelé pour le même sujet : je l'ai remigré en HF Samedi 11/07 à 12h30 et depuis le client m'indique avoir retrouvé une stabilité.<br><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
