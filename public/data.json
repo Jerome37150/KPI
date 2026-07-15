@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-07-15T13:04:29.185Z",
+  "generatedAt": "2026-07-15T14:59:54.608Z",
   "classique": [
+    {
+      "id": "39e8db15-623a-81e9-9b36-cfa1cf5ba771",
+      "identifiant": "INA-518",
+      "titre": "[LOGICIEL] - Désactiver la génération des logs SDK",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Code"
+      ],
+      "client": "Fage 24",
+      "dateCreation": "2026-07-15T14:47:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<b>Client impacté : Fage24</b><br><i>Version NxCod 06-05</i><br><br>Suite au déploiement de la version 06-05, le client nous recontacte afin de nous signaler que notre correctif ne corrige pas réellement que son disque continue d'écrire une forte volumétrie, générant de pertes de performances sur son ordinateur.<div><br></div><div><b><u>Après analyse </u></b>:&nbsp;</div><div><br></div><div>L'exe a bien été configuré en admin&nbsp; :</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/35dad1e883f040a8a3d66381ab983c34\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Le fichier de logSdk est bien à 0ko :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f20d0a4b08454abcb2f4d14cb9c657f5\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Pourtant, son disque continue d'écrire sans cesse :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a221e70dce7046bc8c5107f7cb5c1b2d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>En cause, le fichier NUL crée par le lien symbolique, qui continue de monter sans cesse :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f2085e25562d4bc6adf42e7e99b89481\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><br></div><div><b>-&gt; Il faudrait donc désactiver complètement les logs SDK</b></div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-D-sactiver-la-g-n-ration-des-logs-SDK-39e8db15623a81e99b36cfa1cf5ba771"
+    },
     {
       "id": "39e8db15-623a-8015-bc08-e325ae3cbe2a",
       "identifiant": "INA-517",
@@ -23,7 +59,7 @@
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
-      "pointAvancement": 0,
+      "pointAvancement": 0.3,
       "pointsBlocage": "",
       "explication": "Suite du BUG BUG-1167: [LOGICIEL] - Lenteurs sur Saas et Naxi qui fige de façon aléatoire (2ème partie)To Do pour solution secondaire car la première piste n’est pas totalement concluante.\nContexte : voir BUG-1167: [LOGICIEL] - Lenteurs sur Saas et Naxi qui fige de façon aléatoire (2ème partie)To DoAfficher un aperçu \n",
       "communication": [],
@@ -384,7 +420,7 @@
       "sprintIdeal": [],
       "fonctions": null,
       "produits": [
-        "Nax7 PMS"
+        "Nax7 Manager"
       ],
       "client": "Romanée",
       "dateCreation": "2026-07-07T13:10:00.000Z",
@@ -413,7 +449,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -444,8 +482,10 @@
       "titre": "[LOGICIEL] - Erreur sur la recherche de dispo en SQL",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -492,7 +532,7 @@
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
-      "pointAvancement": 0,
+      "pointAvancement": 0.8,
       "pointsBlocage": "",
       "explication": "<div><b>Client impacté : Groupe les Méditerrannées</b><br><br>Impossible de générer, imprimer ou envoyer une facture par email lorsque :&nbsp;<br><br>1. Sur une fiche client, créer beaucoup de prestations (<i>dans mon cas j'ai crée 56 séjours avec 15 suppléments différents sur chaque séjour, ce qui m'a donné environ 900 lignes de ligfact</i>)</div><div>2. Depuis l'onglet Prestation de la fiche client, cliquer sur l'icône de facturation global pour éditer une facture de l'ensemble des prestations.&nbsp;</div><div>3. NAXI mouline, n'affiche aucun message d'erreur puis redeviens accessible. Mais le PDF ne se génère pas</div><div><br><b><i>Ma fiche client où les prestations sont facturées sous la 088 :&nbsp;</i></b></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/341ed965b07b4127a36f8c293ff8d315\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><b><i>Répertoire de mes PDF / La 088 n'existe pas :&nbsp;</i></b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/24820112dc854706979deb972852c8b9\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>4. Si on regarde dans les logs, on obtiens l'erreur ci dessous :&nbsp;<br><br></div><div><i>2026-07-06 15:19:55. Fonction : Erreur lors de la conversion du fichier HTML en PDF</i></div><div><i>2026-07-06 15:19:55. Paramètre 1 : [5372:34884:0706/151946.739:ERROR:chrome\\browser\\task_manager\\providers\\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a \"Renderer\" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/40528867.</i></div><div><i><br></i></div><div><i>2026-07-06 15:19:55. Paramètre 2 :&nbsp;</i></div><div><i>-------------------------------------------------------------------<br></i></div><div><br></div><div><b>Reproduit sur démo HF Angélique en 18.25 </b>/ Le groupe LES MEDITERRANNEES sont en 18.25 SQL et la facture qu'ils ont besoin d'éditer contient 4885 LIGFACT :(&nbsp;</div><div><b>Lien JAM </b>:&nbsp;<a href=\"https://jam.dev/c/22d4da80-bd81-46bd-a132-14ec71172669\">https://jam.dev/c/22d4da80-bd81-46bd-a132-14ec71172669</a></div>",
       "communication": [],
@@ -1094,7 +1134,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "JUILLET 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1110,7 +1150,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<div><i>Un message d'erreur apparaît à la validation d'un séjour lorsque :&nbsp;</i><br><br>1. Se rendre dans le menu Paramètres &gt; Actions de validation automatique des séjours&nbsp;</div><div>2. Sur l'une des étapes de séjour (dans mon exemple, Option camping), cocher l'impression automatique du bon de séjour&nbsp;</div><div>3. Ouvrir une fiche client</div><div>4. Créer un séjour correspondant à l'étape paramétrée (dans mon cas, un séjour en option sur une catégorie camping)</div><div>5. Valider le séjour</div><div>6. NAXI affiche alors le message d'erreur ci dessous :&nbsp;</div><div><br><i>2026-07-01 13:22:16. Fonction : Global exception</i></div><div><i>2026-07-01 13:22:16. Paramètre 1 : Appel WL :</i></div><div><i>Traitement de 'Procédure locale imprim_docs' (sejour.PROCEDURE.imprim_docs), ligne 430</i></div><div><i>Fonction 'iImprimePDF', syntaxe 0</i></div><div><i>Que s'est-il passé ?</i></div><div><i><b>Impossible d'ouvrir le fichier &lt;C:\\NAXI\\DOCS_DEMO\\DOCS_2026\\sejours\\BS00000221_0.pdf&gt;.</b></i></div><div><i>Code erreur : 0</i></div><div><i>Niveau : erreur fatale</i></div><div><i>Code d'erreur système : 2</i></div><div><i>Message d'erreur système :</i></div><div><i>Le fichier spécifié est introuvable.</i></div><div><i>Module : wd260pdf.dll (01F260101d - 26.0.340.0)</i></div><div><i>Informations de débogage :</i></div><div><i>##(IXStream)-Handle=&lt;FFFFFFFF&gt;##</i></div><div><i>Fonction (21,39)</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_SRCFILE : &lt;C:\\NAXI\\DOCS_DEMO\\DOCS_2026\\sejours\\BS00000221_0.pdf&gt;</i></div><div><i>EIT_PILEWL :</i></div><div><i>Procédure locale imprim_docs (sejour.PROCEDURE.imprim_docs), ligne 430</i></div><div><i>Clic sur BT_VALID (sejour.BT_VALID), ligne 333</i></div><div><i>Clic sur BT_ADDSEJ (client_traitement.BT_ADDSEJ), ligne 50</i></div><div><i>EIT_DATEHEURE : 01/07/2026 13:22:16</i></div><div><i>EIT_TYPE_WDFILE : &lt;2&gt;</i></div><div><i>EIT_IDCODE : &lt;458752&gt;</i></div><div><i>2026-07-01 13:22:16. Paramètre 2 :&nbsp;</i><br><br>-&gt; Si je regarde dans mes docs, je ne retrouve pas en effet le fichier PDF sur lequel un \"_0\" a été rajouté<br>Aucun log supplémentaire sur le mode debug<br><br><u><b>Deuxième cas constaté sur la camping Larouletta</b> :&nbsp;</u><br><br>Configuration chez lui :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f576b45d298a456bae11432d9acae95a\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Lorsque l'on crée ensuite un séjour, le bon de séjour est censé s'envoyer en tant que pièce jointe, mais à la place on obtient ce message d'erreur :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e0f27c0244ab4e0194ae9b232f09ce18\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br></div><div><br></div><div><b>Reproduit sur démo Angélique en HF 18.25</b></div><div><b>Bug reproduit uniquement sur les bons de séjour / Si je configure avec l'impression de la proforma, aucun problème&nbsp;</b></div><div><b><i>Lien JAM</i></b> :&nbsp;<a href=\"https://jam.dev/c/1f6b9139-7e29-4f36-afb6-3415fe789f69\">https://jam.dev/c/1f6b9139-7e29-4f36-afb6-3415fe789f69</a></div><div><br><br></div><div><br></div>",
+      "explication": "<div><i>Un message d'erreur apparaît à la validation d'un séjour lorsque :&nbsp;</i><br><br>1. Se rendre dans le menu Paramètres &gt; Actions de validation automatique des séjours&nbsp;</div><div>2. Sur l'une des étapes de séjour (dans mon exemple, Option camping), cocher l'impression automatique du bon de séjour&nbsp;</div><div>3. Ouvrir une fiche client</div><div>4. Créer un séjour correspondant à l'étape paramétrée (dans mon cas, un séjour en option sur une catégorie camping)</div><div>5. Valider le séjour</div><div>6. NAXI affiche alors le message d'erreur ci dessous :&nbsp;</div><div><br><i>2026-07-01 13:22:16. Fonction : Global exception</i></div><div><i>2026-07-01 13:22:16. Paramètre 1 : Appel WL :</i></div><div><i>Traitement de 'Procédure locale imprim_docs' (sejour.PROCEDURE.imprim_docs), ligne 430</i></div><div><i>Fonction 'iImprimePDF', syntaxe 0</i></div><div><i>Que s'est-il passé ?</i></div><div><i><b>Impossible d'ouvrir le fichier &lt;C:\\NAXI\\DOCS_DEMO\\DOCS_2026\\sejours\\BS00000221_0.pdf&gt;.</b></i></div><div><i>Code erreur : 0</i></div><div><i>Niveau : erreur fatale</i></div><div><i>Code d'erreur système : 2</i></div><div><i>Message d'erreur système :</i></div><div><i>Le fichier spécifié est introuvable.</i></div><div><i>Module : wd260pdf.dll (01F260101d - 26.0.340.0)</i></div><div><i>Informations de débogage :</i></div><div><i>##(IXStream)-Handle=&lt;FFFFFFFF&gt;##</i></div><div><i>Fonction (21,39)</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_SRCFILE : &lt;C:\\NAXI\\DOCS_DEMO\\DOCS_2026\\sejours\\BS00000221_0.pdf&gt;</i></div><div><i>EIT_PILEWL :</i></div><div><i>Procédure locale imprim_docs (sejour.PROCEDURE.imprim_docs), ligne 430</i></div><div><i>Clic sur BT_VALID (sejour.BT_VALID), ligne 333</i></div><div><i>Clic sur BT_ADDSEJ (client_traitement.BT_ADDSEJ), ligne 50</i></div><div><i>EIT_DATEHEURE : 01/07/2026 13:22:16</i></div><div><i>EIT_TYPE_WDFILE : &lt;2&gt;</i></div><div><i>EIT_IDCODE : &lt;458752&gt;</i></div><div><i>2026-07-01 13:22:16. Paramètre 2 :&nbsp;</i><br><br>-&gt; Si je regarde dans mes docs, je ne retrouve pas en effet le fichier PDF sur lequel un \"_0\" a été rajouté<br>Aucun log supplémentaire sur le mode debug<br><br><u><b>Deuxième cas constaté sur la camping Larouletta</b> :&nbsp;</u><br><br>Configuration chez lui :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f576b45d298a456bae11432d9acae95a\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Lorsque l'on crée ensuite un séjour, le bon de séjour est censé s'envoyer en tant que pièce jointe, mais à la place on obtient ce message d'erreur :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e0f27c0244ab4e0194ae9b232f09ce18\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br></div><div><br></div><div><b>Reproduit sur démo Angélique en HF 18.25</b></div><div><b><i>Lien JAM</i></b> :&nbsp;<a href=\"https://jam.dev/c/1f6b9139-7e29-4f36-afb6-3415fe789f69\">https://jam.dev/c/1f6b9139-7e29-4f36-afb6-3415fe789f69</a></div><div><br><br></div><div><br></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -1419,7 +1459,7 @@
     {
       "id": "38a8db15-623a-813a-be21-cfe6b07e805f",
       "identifiant": "INA-392",
-      "titre": "[LOGICIEL/WEB] - Catégories d'emplacements : Envoi des libellés écran au lieu des libellés clients vers CTV",
+      "titre": "[WEB] - Catégories d'emplacements : Envoi des libellés écran au lieu des libellés clients vers CTV",
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Pas urgente",
@@ -1448,7 +1488,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-WEB-Cat-gories-d-emplacements-Envoi-des-libell-s-cran-au-lieu-des-libell-s-clients-ve-38a8db15623a813abe21cfe6b07e805f"
+      "url": "https://app.notion.com/p/WEB-Cat-gories-d-emplacements-Envoi-des-libell-s-cran-au-lieu-des-libell-s-clients-vers-CTV-38a8db15623a813abe21cfe6b07e805f"
     },
     {
       "id": "38a8db15-623a-81ff-ab84-f395c90e502c",
@@ -6298,7 +6338,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -9420,7 +9460,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -9488,7 +9528,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -12245,7 +12285,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -29610,7 +29650,7 @@
     ]
   },
   "counts": {
-    "classique": 369,
+    "classique": 370,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
