@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T16:21:19.155Z",
+  "generatedAt": "2026-07-15T17:42:11.104Z",
   "classique": [
     {
       "id": "39e8db15-623a-81e9-9b36-cfa1cf5ba771",
@@ -215,7 +215,7 @@
     {
       "id": "3998db15-623a-8164-9210-d760f680ec55",
       "identifiant": "INA-512",
-      "titre": "[WEB] Echange de solde conditionné par la ressource \"paiement\" en V2 au lieu de \"resa\"",
+      "titre": "[WEB] Echange de solde : changer la condition par la ressource \"paiement\" en V2 au lieu de \"resa\" en V2",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
@@ -244,7 +244,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/WEB-Echange-de-solde-conditionn-par-la-ressource-paiement-en-V2-au-lieu-de-resa-3998db15623a81649210d760f680ec55"
+      "url": "https://app.notion.com/p/WEB-Echange-de-solde-changer-la-condition-par-la-ressource-paiement-en-V2-au-lieu-de-resa-en--3998db15623a81649210d760f680ec55"
     },
     {
       "id": "3988db15-623a-8196-bdec-e4e826ceadb5",
