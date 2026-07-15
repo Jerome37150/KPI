@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-07-15T10:26:44.683Z",
+  "generatedAt": "2026-07-15T11:55:28.184Z",
   "classique": [
+    {
+      "id": "39e8db15-623a-8015-bc08-e325ae3cbe2a",
+      "identifiant": "INA-517",
+      "titre": "[LOGICIEL] - Lenteurs sur Saas et Naxi qui fige de façon aléatoire (2ème partie)",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-15T10:46:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite du BUG BUG-1167: [LOGICIEL] - Lenteurs sur Saas et Naxi qui fige de façon aléatoire (2ème partie)To Do pour solution secondaire car la première piste n’est pas totalement concluante.\nContexte : voir BUG-1167: [LOGICIEL] - Lenteurs sur Saas et Naxi qui fige de façon aléatoire (2ème partie)To DoAfficher un aperçu \n",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Lenteurs-sur-Saas-et-Naxi-qui-fige-de-fa-on-al-atoire-2-me-partie-39e8db15623a8015bc08e325ae3cbe2a"
+    },
     {
       "id": "39e8db15-623a-8086-abb1-e725330f70d5",
       "identifiant": "INA-516",
@@ -29564,7 +29600,7 @@
     ]
   },
   "counts": {
-    "classique": 368,
+    "classique": 369,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
