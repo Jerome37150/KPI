@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T11:55:28.184Z",
+  "generatedAt": "2026-07-15T13:04:29.185Z",
   "classique": [
     {
       "id": "39e8db15-623a-8015-bc08-e325ae3cbe2a",
@@ -28,7 +28,7 @@
       "explication": "Suite du BUG BUG-1167: [LOGICIEL] - Lenteurs sur Saas et Naxi qui fige de façon aléatoire (2ème partie)To Do pour solution secondaire car la première piste n’est pas totalement concluante.\nContexte : voir BUG-1167: [LOGICIEL] - Lenteurs sur Saas et Naxi qui fige de façon aléatoire (2ème partie)To DoAfficher un aperçu \n",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -114,8 +114,10 @@
       "titre": "[LOGICIEL] - Incohérence table planning en SQL SAAS",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -147,7 +149,9 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -179,7 +183,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -210,8 +216,10 @@
       "titre": "[LOGICIEL] - Ajout d'une vérification du numéro de tel avant envoi d'un SMS + garde fou sur numéro de tel",
       "classification": "DEV sans CC",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -274,8 +282,10 @@
       "titre": "[LOGICIEL] - Message d'erreur sur génération export comptable en SQL uniquement",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -303,10 +313,10 @@
     {
       "id": "3988db15-623a-8127-9370-e8420927a9b8",
       "identifiant": "INA-508",
-      "titre": "[LOGICIEL + WEB] - CRM : envoi des plaques d'immatriculation",
+      "titre": "[WEB] - CRM : envoi des plaques d'immatriculation",
       "classification": "DEV sans CC",
       "statut": null,
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": null,
       "produits": [
@@ -330,7 +340,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-WEB-CRM-envoi-des-plaques-d-immatriculation-3988db15623a81279370e8420927a9b8"
+      "url": "https://app.notion.com/p/WEB-CRM-envoi-des-plaques-d-immatriculation-3988db15623a81279370e8420927a9b8"
     },
     {
       "id": "3978db15-623a-8147-9468-d1f5dd033d91",
@@ -1414,7 +1424,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
