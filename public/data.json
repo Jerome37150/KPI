@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-16T08:59:25.932Z",
+  "generatedAt": "2026-07-16T10:58:26.667Z",
   "classique": [
+    {
+      "id": "39f8db15-623a-81dc-88e1-ea020e00a1a4",
+      "identifiant": "INA-519",
+      "titre": "Catégories d'emplacements : Envoi des libellés écran au lieu des libellés clients vers le CRM",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-16T09:06:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<i><u>Demande émise par Mailys</u></i> :&nbsp;<div><br></div><div>Flower a des problèmes avec le fait que l’on se base sur le libellé Naxi-gestion produit traduit, ces libellés ne sont pas mis à jour.</div><div><br></div><div><i>\"Pour l’envoi des produits au CRM, le choix sur la nouvelle passerelle a été fait d’envoyer le nom du produit traduit en FR et non le label principal, partant du postulat que ce nom était plus propre.</i></div><div><i>A l’usage, il n’en est rien, cela amène même des confusions (assez graves en termes de lecture de données) entre les produits et des difficultés de communication entre nos clients et les établissements.</i></div><div><i>Est-ce possible dans une version prochaine de revenir au label principal ?</i></div><div><i>Idéalement, si cette version pouvait faire en oneshot un renvoi des produits de la saison en cours ça serait super.\"</i></div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Cat-gories-d-emplacements-Envoi-des-libell-s-cran-au-lieu-des-libell-s-clients-vers-le-CRM-39f8db15623a81dc88e1ea020e00a1a4"
+    },
     {
       "id": "39e8db15-623a-81e9-9b36-cfa1cf5ba771",
       "identifiant": "INA-518",
@@ -1459,7 +1491,7 @@
     {
       "id": "38a8db15-623a-813a-be21-cfe6b07e805f",
       "identifiant": "INA-392",
-      "titre": "[WEB/LOGICIEL] - Catégories d'emplacements : Envoi des libellés écran au lieu des libellés clients vers le CRM",
+      "titre": "Catégories d'emplacements : Envoi des libellés écran au lieu des libellés clients vers le CRM",
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Pas urgente",
@@ -1488,7 +1520,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/WEB-LOGICIEL-Cat-gories-d-emplacements-Envoi-des-libell-s-cran-au-lieu-des-libell-s-clients-ve-38a8db15623a813abe21cfe6b07e805f"
+      "url": "https://app.notion.com/p/Cat-gories-d-emplacements-Envoi-des-libell-s-cran-au-lieu-des-libell-s-clients-vers-le-CRM-38a8db15623a813abe21cfe6b07e805f"
     },
     {
       "id": "38a8db15-623a-81ff-ab84-f395c90e502c",
@@ -29650,7 +29682,7 @@
     ]
   },
   "counts": {
-    "classique": 370,
+    "classique": 371,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
