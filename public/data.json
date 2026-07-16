@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-16T16:59:30.103Z",
+  "generatedAt": "2026-07-16T18:05:57.901Z",
   "classique": [
+    {
+      "id": "39f8db15-623a-8108-9c36-d05e2396b4fb",
+      "identifiant": "INA-521",
+      "titre": "[LOGICIEL] - Naxi Export : Le traitement Eurodecision bloque l'envoi du planning générant aucune dispo sur SH",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "Flower Exploit",
+      "dateCreation": "2026-07-16T17:48:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<b>Client impacté : PLAGE19 - Flower Exploit</b><div><i>Version : 18.25</i></div><div><i><br></i></div><div>Rachel m'a contacté aujourd'hui à 19h00 afin de me signaler que plus aucune dispo ne remontait pour l'établissement PLAGE 19.<br><br><b><i>Après analyse,&nbsp;</i></b></div><div><br></div><div>La synchro tourne sans erreur. Elle n'a pas été redémarré par Watch dog depuis 06h30 ce matin =&gt; OK<br><br>En revanche, la fenêtre NAXI Export est bloquée sur le traitement Eurodecision :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/78a44a9afbde4212ac95d067a7fa0e74\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Si je regarde sur le web, le planning pour plage19 est en effet vide :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/2991323afc694d88a7eb166791ea5a4e\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>En analysant les logs, on constate en effet que le planning a été vidé à 18h57 mais n'a pas été renvoyé depuis :&nbsp;<br><br><i>\"season\":\"2015\\/2016\\/2017\\/2018\\/2019\\/2020\\/2021\\/2022\\/2023\\/2024\\/2025\\/2026\\/2015\\/2016\\/2017\\/2018\\/2019\\/2020\\/2021\\/2022\\/2023\\/2024\\/2025\\/2026\\/2024\\/2025\\/2026\", \"idAccount\":\"platinredou\" } ] }</i></div><div><i>2026-07-16 18:57:40. Paramètre 2 : Response Content: {\"success\":true,\"data\":null,\"message\":\"Software form treated successfully but not saved\"}</i></div><div><i>-------------------------------------------------------------------</i></div><div><i>2026-07-16 18:57:42. Fonction : https://api.inaxel.com/v2/companies/plage19/ressource/planing/sync?plcodsoc=plage19&amp;plcodexe=2026 (Méthode: 4)</i></div><div><i>2026-07-16 18:57:42. Paramètre 1 : Request Content:&nbsp;</i></div><div><i>2026-07-16 18:57:42. Paramètre 2 : Response Content: {\"success\":true,\"data\":{\"deleted_rows\":4},\"message\":\"Data deleted successfully\"}</i></div><div>-------------------------------------------------------------------</div><div><br></div><div>Nous avions déjà eu ce bug en début d'année :&nbsp;<a href=\"https://inaxel.atlassian.net/browse/BUG-1029?atlOrigin=eyJpIjoiZDRjZmExMzY5MTc0NDA3NmE2ZDQyY2VjZTRlZmE1OGYiLCJwIjoiaiJ9\">https://inaxel.atlassian.net/browse/BUG-1029?atlOrigin=eyJpIjoiZDRjZmExMzY5MTc0NDA3NmE2ZDQyY2VjZTRlZmE1OGYiLCJwIjoiaiJ9</a></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Naxi-Export-Le-traitement-Eurodecision-bloque-l-envoi-du-planning-g-n-rant-aucune-disp-39f8db15623a81089c36d05e2396b4fb"
+    },
     {
       "id": "39f8db15-623a-81bb-bc64-c19e07c01f05",
       "identifiant": "INA-520",
@@ -29714,7 +29746,7 @@
     ]
   },
   "counts": {
-    "classique": 372,
+    "classique": 373,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
