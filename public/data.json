@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-16T12:18:04.014Z",
+  "generatedAt": "2026-07-16T14:28:50.969Z",
   "classique": [
+    {
+      "id": "39f8db15-623a-81bb-bc64-c19e07c01f05",
+      "identifiant": "INA-520",
+      "titre": "[LOGICIEL] - Dysfonctionnements : séjours manquants et modification structure",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "Medit les 3 sont impactés beach garden, charlemagne et  nouvelle floride",
+      "dateCreation": "2026-07-16T12:19:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<b>Client impacté : Les Méditerranées&nbsp;</b><div><i>Version : 18.26 /SQL&nbsp;</i></div><div><b><u>Contexte</u></b> : Passage d'un exe spécial mis pour<a href=\"https://inaxel.atlassian.net/browse/BUG-1131?atlOrigin=eyJpIjoiZGEzZmE2ZTg4OTY3NDc2MDk1Y2IzNmUzMTc0OWY5NTIiLCJwIjoiaiJ9\">https://inaxel.atlassian.net/browse/BUG-1131?atlOrigin=eyJpIjoiZGEzZmE2ZTg4OTY3NDc2MDk1Y2IzNmUzMTc0OWY5NTIiLCJwIjoiaiJ9</a>&nbsp;à la version 18.26 le 07 Juillet 2026<br><br><u style=\"\"><b style=\"\"><font color=\"#18181b\">1er soucis :&nbsp;</font></b></u><br><br>Depuis passage de la mise à jour, <b>NAXI génère trois fichiers :&nbsp;</b></div><div>- Un fichier avec les séjours de toute la saison du Camping A</div><div>- Un fichier avec les séjours de toute la saison du Camping B</div><div>- Un fichier avec les séjours de toute la saison du Camping C<br><br>Avant mise à jour, NAXI génère trois fichiers identiques, c'est à dire que le fichier comportait les trois établissements.<br><br><b><i>Avant mise à jour (fichier du 03 Juillet)</i></b> :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/17bd09b7ffd144928cca2a4a3349738f\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br><b><i>Après mise à jour (fichier du 13 Juillet) :&nbsp;</i></b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ea89f2e78f994680b9bcc656b7b5e9aa\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br><b>2ème soucis :&nbsp;</b><br><br>Des séjours sont manquants de façon aléatoire ce qui pose soucis ensuite dans le traitement des données par LoungeUp :&nbsp;<br><br>Si je prend le fichier du 13 Juillet sur le camping CHARLEMAGNE, il me manque par exemple le séjour n°84 :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/134f4e5b0fa8410ebdf87d8b2f441647\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Alors que sur le fichier du 03 Juillet j'avais le séjour sans problème :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a8dd855a1a9040609cd071b90bed6dc0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Ce qui est très étonnant, c'est que sur l'US BUG-1131, j'ai fait les tests le 17/06/2026.<br>Si je regarde le fichier du 17 Juin, j'avais bien tous les campings sur le même fichier.&nbsp;</b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Dysfonctionnements-s-jours-manquants-et-modification-structure-39f8db15623a81bbbc64c19e07c01f05"
+    },
     {
       "id": "39f8db15-623a-81dc-88e1-ea020e00a1a4",
       "identifiant": "INA-519",
@@ -29682,7 +29714,7 @@
     ]
   },
   "counts": {
-    "classique": 371,
+    "classique": 372,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
