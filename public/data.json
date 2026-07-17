@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T06:33:08.790Z",
+  "generatedAt": "2026-07-17T08:53:52.953Z",
   "classique": [
     {
       "id": "39f8db15-623a-8108-9c36-d05e2396b4fb",
@@ -194,7 +194,7 @@
       "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "BUG-1159",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "18.27",
