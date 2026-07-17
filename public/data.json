@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T08:53:52.953Z",
+  "generatedAt": "2026-07-17T10:27:57.063Z",
   "classique": [
     {
       "id": "39f8db15-623a-8108-9c36-d05e2396b4fb",
@@ -8,7 +8,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -39,8 +41,10 @@
       "titre": "[LOGICIEL] - Dysfonctionnements : séjours manquants et modification structure",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -194,7 +198,7 @@
       "persPoTest": [],
       "pointAvancement": 1,
       "pointsBlocage": "",
-      "explication": "BUG-1159",
+      "explication": "Les factures partielles et/ou d'acompte sont erronées lorsque :&nbsp;<div><b><br></b></div><div><b>1er cas :&nbsp;</b></div><div><br></div><div>Créer un séjour sur une fiche client</div><div><br></div><div>Saisir un premier paiement (20€ par exemple)</div><div><br></div><div>Aller dans l'onglet Fact/Regl du séjour et cliquer sur Facturer acompte</div><div><br></div><div>La facture d'acompte se génère tout est ok</div><div><br></div><div>Saisir ensuite un deuxième paiement sans solder le séjour (50€ par exemple)</div><div><br></div><div>Facturer de nouveau l'acompte</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/8d758610e542486db0a15f6410d2b6c0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><i>Résultat </i>:&nbsp;</div><div><br></div><div>La facture d'acompte présente un montant à rembourser car elle affiche les deux paiements alors qu'elle n'aurait du afficher que le paiement relatif à cette deuxième facture.</div><div><br></div><div><b>2ème cas :&nbsp;</b></div><div><br></div><div>Créer un séjour sur une fiche client</div><div><br></div><div>Saisir le paiement correspondant au solde du séjour</div><div><br></div><div>Facturer le séjour dans sa globalité</div><div><br></div><div>Puis, réouvrir le séjour et le prolonger de quelques nuits</div><div><br></div><div>Facturer à nouveau le séjour&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6808af0044114db3beed67b8f0595097\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Résultat :&nbsp;</div><div><br></div><div>La deuxième facture correspondant aux nuits supplémentaires affiche un montant à rembourser qui correspond à la première facture.</div><div><br></div><div>Reproduit sur démo Angélique en 18.25 HF&nbsp;</div><div>Lien JAM : https://jam.dev/c/b49c9cc0-63b7-482c-a4e4-f1772e8c97e5&nbsp;</div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "18.27",
