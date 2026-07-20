@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-20T12:37:53.618Z",
+  "generatedAt": "2026-07-20T14:53:41.922Z",
   "classique": [
+    {
+      "id": "3a38db15-623a-817f-8740-c25dbca36f9b",
+      "identifiant": "INA-523",
+      "titre": "US — [LOGICIEL] - Désactiver la génération des logs SDK",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Code"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-20T12:51:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/US-LOGICIEL-D-sactiver-la-g-n-ration-des-logs-SDK-3a38db15623a817f8740c25dbca36f9b"
+    },
     {
       "id": "3a38db15-623a-8149-b04d-fd9d5c81c174",
       "identifiant": "INA-522",
@@ -8,7 +40,10 @@
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26",
+        "JUILLET 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -108,7 +143,9 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -139,9 +176,9 @@
       "titre": "[LOGICIEL] - Désactiver la génération des logs SDK",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": "Haute",
+      "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUILLET 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -300,7 +337,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Incohérence planning constatée sur établissement LES ROUSSIERES :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/36d6f5caee8f4176a7a11b8f2febb9d1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Analyser pour comprendre comment cela a pu se produire<br><br>Le séjour 4174 a été crée le 27.05 et le séjour 6258 a été crée le 10.07<br>Ils sont en SQL depuis un moment donc ces deux séjours ont été crée en SQL<br><br>-&gt; Voir pour ajouter un garde fou pour éviter ce genre de situation ?&nbsp;<br><br>Nouveau cas constaté ce Lundi 20 Juillet sur l'établissement REPOS DU BALADIN /&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/802543e04e47422a84e3c5eb0b4e4e67\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\">",
+      "explication": "Incohérence planning constatée sur établissement LES ROUSSIERES :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/36d6f5caee8f4176a7a11b8f2febb9d1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Analyser pour comprendre comment cela a pu se produire<br><br>Le séjour 4174 a été crée le 27.05 et le séjour 6258 a été crée le 10.07<br>Ils sont en SQL depuis un moment donc ces deux séjours ont été crée en SQL<br><br>-&gt; Voir pour ajouter un garde fou pour éviter ce genre de situation ?&nbsp;<br><br><b>Nouveau cas constaté ce Lundi 20 Juillet sur l'établissement REPOS DU BALADIN /&nbsp;</b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/802543e04e47422a84e3c5eb0b4e4e67\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div><br></div><div><br></div><div>Nouveau cas constaté le 20.07.2026 chez Flower Exploit :&nbsp;<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/8cc5703c0dca45db92243f0f587d0d2c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Le soucis semble lié aux indispos car sur chaque cas, on constate que dans l'une des lignes en doublon on a un plstatut à 8</b></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -419,7 +456,9 @@
       "classification": "BUG D'USAGE",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -450,9 +489,9 @@
       "titre": "[LOGICIEL] - Message d'erreur sur génération export comptable en SQL uniquement",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": "Moyenne",
+      "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -485,7 +524,9 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -516,8 +557,10 @@
       "titre": "[LOGICIEL] - Fichiers non pris en compte lors d'une migration SQL vers HF",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -1596,7 +1639,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -29780,7 +29823,7 @@
     ]
   },
   "counts": {
-    "classique": 374,
+    "classique": 375,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
