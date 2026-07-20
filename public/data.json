@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-20T16:18:32.999Z",
+  "generatedAt": "2026-07-20T18:25:43.169Z",
   "classique": [
+    {
+      "id": "3a38db15-623a-81b7-a571-e4558b32856b",
+      "identifiant": "INA-525",
+      "titre": "Facturation : Montant à régler erroné / Cas d'un paiement global sur plusieurs prestations",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "lac de lislebonne",
+      "dateCreation": "2026-07-20T17:57:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "La facture et/ou proforma n'affiche pas le bon montant à régler lorsque :&nbsp;<div><br></div><div>1.&nbsp; Sur une fiche client, créer un séjour d'une part, et un supplément ou une vente hors séjour d'autre part.</div><div>2. Saisir un paiement global aux deux prestations</div><div>3. Facturer uniquement l'une des deux prestations (dans mon cas la vente hors séjours).</div><div><br></div><div><b><u>Résultat :&nbsp;</u></b></div><div><br></div><div>La facture affiche dans le bloc des paiement, le montant total du paiement. Cela a pour conséquence de déclencher un solde à rembourser correspondant au montant de la deuxième prestation.<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/3b6f1ba77a014eea9622187fc9053dbc\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c73a7785116941138d23985c50d7d91c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Facturation-Montant-r-gler-erron-Cas-d-un-paiement-global-sur-plusieurs-prestations-3a38db15623a81b7a571e4558b32856b"
+    },
     {
       "id": "3a38db15-623a-8170-b936-d54b6add2e6f",
       "identifiant": "INA-524",
@@ -29855,7 +29887,7 @@
     ]
   },
   "counts": {
-    "classique": 376,
+    "classique": 377,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
