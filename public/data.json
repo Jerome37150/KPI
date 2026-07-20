@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T04:49:06.601Z",
+  "generatedAt": "2026-07-20T07:49:31.864Z",
   "classique": [
     {
       "id": "39f8db15-623a-8108-9c36-d05e2396b4fb",
@@ -38,7 +38,7 @@
     {
       "id": "39f8db15-623a-81bb-bc64-c19e07c01f05",
       "identifiant": "INA-520",
-      "titre": "[LOGICIEL] - Dysfonctionnements : séjours manquants et modification structure",
+      "titre": "[LOGICIEL] - Dysfonctionnements LOUNGE UP : séjours manquants et modification structure",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
@@ -67,7 +67,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Dysfonctionnements-s-jours-manquants-et-modification-structure-39f8db15623a81bbbc64c19e07c01f05"
+      "url": "https://app.notion.com/p/LOGICIEL-Dysfonctionnements-LOUNGE-UP-s-jours-manquants-et-modification-structure-39f8db15623a81bbbc64c19e07c01f05"
     },
     {
       "id": "39f8db15-623a-81dc-88e1-ea020e00a1a4",
@@ -268,7 +268,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Incohérence planning constatée sur établissement LES ROUSSIERES :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/36d6f5caee8f4176a7a11b8f2febb9d1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Analyser pour comprendre comment cela a pu se produire<br><br>Le séjour 4174 a été crée le 27.05 et le séjour 6258 a été crée le 10.07<br>Ils sont en SQL depuis un moment donc ces deux séjours ont été crée en SQL<br><br>-&gt; Voir pour ajouter un garde fou pour éviter ce genre de situation ?&nbsp;<br><br>",
+      "explication": "Incohérence planning constatée sur établissement LES ROUSSIERES :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/36d6f5caee8f4176a7a11b8f2febb9d1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Analyser pour comprendre comment cela a pu se produire<br><br>Le séjour 4174 a été crée le 27.05 et le séjour 6258 a été crée le 10.07<br>Ils sont en SQL depuis un moment donc ces deux séjours ont été crée en SQL<br><br>-&gt; Voir pour ajouter un garde fou pour éviter ce genre de situation ?&nbsp;<br><br>Nouveau cas constaté ce Lundi 20 Juillet sur l'établissement REPOS DU BALADIN /&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/802543e04e47422a84e3c5eb0b4e4e67\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\">",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -1178,16 +1178,16 @@
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
-      "pointAvancement": 0.2,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "<div><b>Client impacté : Baie56</b><br><i>Version 18.25 / SQL</i></div><div><br></div><div>Un message d'erreur se produit lors de la validation du traitement automatique de SWIKLY lorsque :&nbsp;</div><div><br></div><div>1. Créer une fiche client et s'assurer de mettre la langue sur \"Danois\"</div><div>2. Créer sur cette fiche client un séjour qui est soumis à une prise de caution SWIKLY</div><div>3. Lancer le traitement auto de SWIKLY</div><div><br></div><div><b><i>NAXI affiche alors le message d'erreur suivant </i></b>:&nbsp;</div><div>&nbsp;</div><div>Le mécanisme de sécurité du WLangage a détecté une erreur dans l'application EVOCAMP.&nbsp;</div><div>Contactez le fournisseur de l'application EVOCAMP.</div><div>&nbsp;L'invocation de la méthode &lt;GetSwiklyDepositLink(System.String,System.String,NaxiGestionCore.ViewModel.Partner.Swikly.ViewModelSwiklyDepositContent)&gt; du type &lt;String&gt; a échoué</div><div>Le framework .NET a renvoyé l'erreur suivante :&nbsp;</div><div>Réponse invalide de l'API Swikly (aucune donnée reçue)</div><div>&nbsp;Pile des appels :</div><div>Procédure locale pl_generation_URL_Swikly (caution_swikly.PROCEDURE.pl_generation_URL_Swikly), ligne 75</div><div>Procédure locale pl_envoi_demandes_caution_Swikly (caution_swikly.PROCEDURE.pl_envoi_demandes_caution_Swikly), ligne 98</div><div>Fin d'initialisation de caution_swikly (caution_swikly), ligne 10</div><div>Clic sur BT_VALID (actions_auto.BT_VALID), ligne 154</div><div>Procédure locale init_exercice_sql (menuV3.PROCEDURE.init_exercice_sql), ligne 259</div><div>Procédure locale init_exercice (menuV3.PROCEDURE.init_exercice), ligne 14</div><div>Fin d'initialisation de menuV3 (menuV3), ligne 987</div><div>&nbsp;Date : 02/07/2026 11:04:50</div><div>Projet : EVOCAMP (14.1.546.16)</div><div>&nbsp;Informations supplémentaires :</div><div>Code erreur : 200002</div><div>Module : wd260net4.dll (01F260101d - 26.0.264.0)</div><div>&nbsp;Informations de débogage :</div><div><br><b><font color=\"#dc2626\">Après analyse, l'API de SWIKLY n'accepte pas la langue 'da'</font></b> :&nbsp;<br><br>2026-07-02 11:56:12. Fonction : GenericRequestGet</div><div>2026-07-02 11:56:12. Paramètre 1 :  [https://api.v2.swikly.com/v1/accounts/e45b2eb7-ed30-4ae6-a8f6-d71653a9b676/requests] : {\"description\":\"Demande de Caution\",\"<b><font color=\"#db2777\">language\":\"da\",</font></b>\"customId\":\"27551\",\"firstName\":\"Lars\",\"lastName\":\"BEHNKE\",\"email\":null,\"freeText\":\"2026|baie56|338\",\"deposit\":{\"startDate\":\"2026-07-12\",\"endDate\":\"2026-07-19\",\"amount\":25000},\"callbacks\":{\"requestSecured\":\"https://api.inaxel.com/services/platforms/swikly/notify\"}}</div><div>2026-07-02 11:56:12. Paramètre 2 : {\"message\":\"The selected language is invalid.\",\"code\":\"ERR_PARAMS\",\"errors\":{\"language\":[\"The selected language is invalid.\"]}}</div><div>-------------------------------------------------------------------<br><br>Le paramétrage des deux emails relatifs à SWIKLY ont bien la langue danoise activée.<br><br><b><font color=\"#16a34a\">-&gt; Pour dépanner le client, j'ai mis sur la fiche du client danois, la langue Anglaise</font></b></div><div><b><font color=\"#16a34a\">Le traitement auto s'est alors parfaitement effectué sans erreur</font></b></div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "",
+      "versionInter": "18.28",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-07-20",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Message-d-erreur-sur-le-traitement-auto-des-cautions-SWIKLY-si-langue-Danoise-3918db15623a8177b672e71a3fc55c74"
@@ -1916,7 +1916,7 @@
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
-      "pointAvancement": 0,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Le client nous a contacté afin de nous signaler que certains soldes ne remontaient pas sur NAXI.\nAprès analyse, il y a bien eu une erreur quand SH a tenté de nous l’envoyer, mais besoin d’aide pour savoir si bug ou si problème chez nous ou chez CTV",
       "communication": [],
@@ -1935,9 +1935,7 @@
       "classification": "BUG STRUCTURANT",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [
-        "JUILLET 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI RESERVATION"
@@ -2326,14 +2324,14 @@
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
-      "pointAvancement": 0,
+      "pointAvancement": 1,
       "pointsBlocage": "",
       "explication": "Dans la balance comptable extraite depuis l’état comptable centralisés, des lignes avec un client à 0 apparaissent alors qu’elle ne devrait pas.\n\nUn premier correctif a été fait pour enlever les remises en banque, mais finalement il n’y a pas que les remises en banque ;( → BUG 1070",
       "communication": [],
       "initialeAjout": [],
-      "versionInter": "",
+      "versionInter": "18.28",
       "versionStable": "",
-      "dateSortieInter": null,
+      "dateSortieInter": "2026-07-20",
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Balance-compte-client-via-Etats-comptables-centralis-s-Suppression-des-op-rations-non--3808db15623a805f9053fe1709943ccf"
@@ -12154,7 +12152,7 @@
       "persFront": [],
       "persPoTest": [],
       "pointAvancement": 0.7,
-      "pointsBlocage": "",
+      "pointsBlocage": "en test",
       "explication": "Suite à une remontée de Flower, et après recherche avec Mailys, nous constatons que les clients VACAF sont envoyés chez CTV avec la balise Customer Type à 2, ce qui correspond à “Client de TO”. Ils devraient être envoyés à 1 “Client Standard”.",
       "communication": [],
       "initialeAjout": [
