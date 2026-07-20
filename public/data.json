@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-20T14:53:41.922Z",
+  "generatedAt": "2026-07-20T16:18:32.999Z",
   "classique": [
+    {
+      "id": "3a38db15-623a-8170-b936-d54b6add2e6f",
+      "identifiant": "INA-524",
+      "titre": "Lenteurs import tarifs & promo depuis SH",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "Flower",
+      "dateCreation": "2026-07-20T14:54:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div><b>Client impacté : Flower / Chadotel</b><br><br>Ces deux groupes nous ont signalé rencontré beaucoup de difficultés à importer leur tarif depuis CTV.</div><div><br></div><div>Après tests sur chacune des deux bases de données, je constate en effet que la fenêtre de chargement des tarifs met déjà plus d'une minute à lister les tarifs. NAXI est complètement bloqué pendant ce traitement et ne permet donc pas de travailler en parallèle.</div><div><br></div><div>Pour reproduire le soucis :</div><div><br></div><div>1. Se connecter sur une base de données assez volumineuse avec plusieurs établissements</div><div>2. Se rendre dans le menu Paramètres &gt; Tarifs</div><div>3. Cliquer sur le bouton Import Tout</div><div><br></div><div>-&gt; A partir de là, NAXI charge chaque tarif mis à jour sur SH : On a donc une première lenteur ici</div><div>-&gt; Puis NAXI, ouvre la fenêtre de validation : Deuxième lenteur</div><div><b><br></b></div><div><b>Il faut donc réaliser un correctif pour optimiser les requêtes faites sur ce traitement afin de retrouver une meilleure fluidité/rapidité.</b></div><div><br></div><div>Reproduit sur toutes les bases de données groupes : Ciela, Chadotel, Flower Exploit...etc.</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Lenteurs-import-tarifs-promo-depuis-SH-3a38db15623a8170b936d54b6add2e6f"
+    },
     {
       "id": "3a38db15-623a-817f-8740-c25dbca36f9b",
       "identifiant": "INA-523",
@@ -29823,7 +29855,7 @@
     ]
   },
   "counts": {
-    "classique": 375,
+    "classique": 376,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
