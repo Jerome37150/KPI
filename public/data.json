@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-20T07:49:31.864Z",
+  "generatedAt": "2026-07-20T10:37:22.511Z",
   "classique": [
+    {
+      "id": "3a38db15-623a-8149-b04d-fd9d5c81c174",
+      "identifiant": "INA-522",
+      "titre": "Migrer SystemApi en Laravel 13",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "Tous ceux qui ont une synchro",
+      "dateCreation": "2026-07-20T10:30:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Test d'une migration en Laravel 13 pour une des APIs",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Migrer-SystemApi-en-Laravel-13-3a38db15623a8149b04dfd9d5c81c174"
+    },
     {
       "id": "39f8db15-623a-8108-9c36-d05e2396b4fb",
       "identifiant": "INA-521",
@@ -29748,7 +29780,7 @@
     ]
   },
   "counts": {
-    "classique": 373,
+    "classique": 374,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
