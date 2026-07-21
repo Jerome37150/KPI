@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T20:10:27.509Z",
+  "generatedAt": "2026-07-21T21:31:07.982Z",
   "classique": [
     {
       "id": "3a48db15-623a-8161-a957-c9e66e8e0e46",
@@ -183,7 +183,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "La facture et/ou proforma n'affiche pas le bon montant à régler lorsque :&nbsp;<div><br></div><div>1.&nbsp; Sur une fiche client, créer un séjour d'une part, et un supplément ou une vente hors séjour d'autre part.</div><div>2. Saisir un paiement global aux deux prestations</div><div>3. Facturer uniquement l'une des deux prestations (dans mon cas la vente hors séjours).</div><div><br></div><div><b><u>Résultat :&nbsp;</u></b></div><div><br></div><div>La facture affiche dans le bloc des paiement, le montant total du paiement. Cela a pour conséquence de déclencher un solde à rembourser correspondant au montant de la deuxième prestation.<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/3b6f1ba77a014eea9622187fc9053dbc\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c73a7785116941138d23985c50d7d91c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br></div>",
+      "explication": "La facture et/ou proforma n'affiche pas le bon montant à régler lorsque :&nbsp;<div><br></div><div><b><u><font style=\"background-color: rgb(254, 215, 170);\" color=\"#18181b\">CAS N°1</font></u></b></div><div><br></div><div>1.&nbsp; Sur une fiche client, créer un séjour d'une part, et un supplément ou une vente hors séjour d'autre part.</div><div>2. Saisir un paiement global aux deux prestations</div><div>3. Facturer uniquement l'une des deux prestations (dans mon cas la vente hors séjours).</div><div><br></div><div><b><u>Résultat :&nbsp;</u></b></div><div><br></div><div>La facture affiche dans le bloc des paiement, le montant total du paiement. Cela a pour conséquence de déclencher un solde à rembourser correspondant au montant de la deuxième prestation.<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/3b6f1ba77a014eea9622187fc9053dbc\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c73a7785116941138d23985c50d7d91c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br><b><u><font color=\"#18181b\" style=\"background-color: rgb(254, 215, 170);\">CAS N°2</font></u></b><br><br></div><div>1. Sur une fiche séjour, créer un séjour&nbsp;</div><div>2. Créer des suppléments hors séjours</div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
