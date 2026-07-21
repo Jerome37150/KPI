@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-21T11:18:06.262Z",
+  "generatedAt": "2026-07-21T12:48:42.586Z",
   "classique": [
+    {
+      "id": "3a48db15-623a-8161-a957-c9e66e8e0e46",
+      "identifiant": "INA-530",
+      "titre": "Facturation : Erreur montant déjà réglé sur multiséjour",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-21T12:11:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Le montant restant à réglé est erroné si :&nbsp;<div><br></div><div>1. Sur une fiche client, créer deux séjours (dans le cas remonté par le client, nous avons un séjour classique et un séjour VACAF)</div><div>2. Saisir un paiement global pour les deux séjours</div><div>3. Facturer ensuite un seul séjour.</div><div><br></div><div><b><u>Résultat obtenu</u></b><br><br>La facture mentionne un montant déjà réglé correspondant au montant total payé, ce qui génère un montant à rembourser sur la facture :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/52cf91ca744b44efae0cd467fd7ea50f\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Facturation-Erreur-montant-d-j-r-gl-sur-multis-jour-3a48db15623a8161a957c9e66e8e0e46"
+    },
     {
       "id": "3a48db15-623a-81e6-b9b1-f108e6c10f9f",
       "identifiant": "INA-529",
@@ -37,7 +69,7 @@
       "id": "3a48db15-623a-816e-952e-de6815bd1f2d",
       "identifiant": "INA-528",
       "titre": "Heure d'arrivée non mémorisée dans le séjour",
-      "classification": null,
+      "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
@@ -69,7 +101,7 @@
       "id": "3a38db15-623a-8122-872a-eee43ae4c482",
       "identifiant": "INA-527",
       "titre": "Facturation échéance : mauvais déduction des acomptes déjà facturés",
-      "classification": null,
+      "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
@@ -101,7 +133,7 @@
       "id": "3a38db15-623a-81f9-a65b-c78966a36199",
       "identifiant": "INA-526",
       "titre": "Espace client : paiement d'acompte possible même si résa web fermée",
-      "classification": null,
+      "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
@@ -2746,7 +2778,7 @@
     {
       "id": "37c8db15-623a-8017-9796-e0ffae8d6dfd",
       "identifiant": "INA-358",
-      "titre": "[WEB] - Erreur sur le détail des résas si suppléments avec prix qui varie selon la période",
+      "titre": "[LOGICIEL] - Erreur sur le détail des résas si suppléments avec prix qui varie selon la période",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
@@ -2767,7 +2799,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Lorsque l’on se connecte sur l’espace client, et que l’on souhaite visualiser le détail d’une réservation, le montant des suppléments est erroné ",
+      "explication": "Lorsque l’on se connecte sur l’espace client, et que l’on souhaite visualiser le détail d’une réservation, le montant des suppléments est erroné<div><br></div><div><b>Client impacté </b>: Domaine de la Bergerie</div><div><br></div><div><b>Détails :</b></div><div><br></div><div>Sur NAXI, dans le paramétrage des suppléments, choisir un supplément et le paramétrer en Mode de calcul “Le prix varie suivant la période”</div><div><br></div><div>Saisir plusieurs périodes tarifaires et valider</div><div><br></div><div>Sur une fiche client, créer un séjour</div><div><br></div><div>Dans ce séjour, saisir une date d’arrivée &amp; départ qui se chevauchent sur deux périodes tarifaires</div><div><br></div><div>Ajouter le supplément paramétré précédemment</div><div><br></div><div>Valider le séjour</div><div><br></div><div>Se rendre sur l’espace client du client en question</div><div><br></div><div>Cliquer sur la réservation, puis cliquer sur “Détails”</div><div><b><br></b></div><div><b>Résultat :</b></div><div><br></div><div>Le montant total du séjour est OK</div><div><br></div><div>Le montant total des suppléments est OK</div><div><br></div><div>En revanche, le montant de chaque supplément est KO : est affiché uniquement la première période tarifaire</div><div><br></div><div>**Reproduit sur démo Angélique en 18.20 HF</div><div><br></div><div>→ Je reproduis également le soucis si je crée un séjour sur une seule période tarifaire mais avec des mouvements de suppléments (dans mon exemple, mon tarif change au 15/07 // Je crée un séjour du 10/07 au 13/07 → Je saisis un mouvement sur mon supplément Adulte (4 pers jusqu’au 12/07 puis 3 pers sur la nuit du 12/07) // Si je retourne sur l’espace client, je constate le même soucis (seule la première ligne du calcul est prise en compte)**</div><div><br></div><div>Lien JAM :&nbsp;<a href=\"https://jam.dev/c/caa88d04-6e7e-416a-9195-f78cb2d005e9\">https://jam.dev/c/caa88d04-6e7e-416a-9195-f78cb2d005e9</a></div><div><br></div><div><b>Analyse du problème :</b></div><div>En base de donnée, il y a une mauvaise information concernant le supplément, dans la command en multi période (sur mon exemple) il y a une période à 10€ et une autre à 84€</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ec6b905d6469406092125642025f32a6\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Sur l’espace client, le montant supplément est le bon et se met à jour lorsqu’on le change dans Naxi. Dans le détail par contre , il ne prend en compte que la première période du supplément</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/bb76abece80f4ba4ba51214c36e9b115\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/aff3dbdd295e4e2a986ae03643aa7b81\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/16d2beaed9204201946c876e47588c26\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -2775,7 +2807,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/WEB-Erreur-sur-le-d-tail-des-r-sas-si-suppl-ments-avec-prix-qui-varie-selon-la-p-riode-37c8db15623a80179796e0ffae8d6dfd"
+      "url": "https://app.notion.com/p/LOGICIEL-Erreur-sur-le-d-tail-des-r-sas-si-suppl-ments-avec-prix-qui-varie-selon-la-p-riode-37c8db15623a80179796e0ffae8d6dfd"
     },
     {
       "id": "37c8db15-623a-804a-9194-e1d545a5a6cc",
@@ -30015,7 +30047,7 @@
     ]
   },
   "counts": {
-    "classique": 381,
+    "classique": 382,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
