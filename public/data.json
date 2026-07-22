@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-22T11:28:22.666Z",
+  "generatedAt": "2026-07-22T12:55:31.738Z",
   "classique": [
+    {
+      "id": "3a58db15-623a-8140-8a0f-fd2b093c876c",
+      "identifiant": "INA-533",
+      "titre": "TEST JA",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Nax7 PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-22T12:34:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "TEST JA",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/TEST-JA-3a58db15623a81408a0ffd2b093c876c"
+    },
     {
       "id": "3a58db15-623a-81b8-9084-c4a69e65b8f5",
       "identifiant": "INA-532",
@@ -30046,7 +30078,7 @@
     ]
   },
   "counts": {
-    "classique": 384,
+    "classique": 385,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
