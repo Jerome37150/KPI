@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-22T04:30:15.375Z",
+  "generatedAt": "2026-07-22T07:10:48.850Z",
   "classique": [
+    {
+      "id": "3a58db15-623a-8156-abf1-ee39f8552a13",
+      "identifiant": "INA-531",
+      "titre": "[LOGICIEL] Changement de Token d'accès de Systeme API",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-22T07:09:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite à un message de non récupération des comptes entreprise sur nos bases en préprod.<div>Il faut changer les tokens d’accès de System API de preprod&nbsp;</div><div>Louis-Charles les a recréé côté web&nbsp;</div><div><br></div><div>Les tokens sont dans le coffre fort dans Bitwarden</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Changement-de-Token-d-acc-s-de-Systeme-API-3a58db15623a8156abf1ee39f8552a13"
+    },
     {
       "id": "3a48db15-623a-8161-a957-c9e66e8e0e46",
       "identifiant": "INA-530",
@@ -29980,7 +30012,7 @@
     ]
   },
   "counts": {
-    "classique": 382,
+    "classique": 383,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
