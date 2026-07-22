@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T16:11:33.588Z",
+  "generatedAt": "2026-07-22T17:39:47.557Z",
   "classique": [
     {
       "id": "3a58db15-623a-8140-8a0f-fd2b093c876c",
@@ -93,9 +93,9 @@
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
-      "versionStable": "",
+      "versionStable": "test jerome",
       "dateSortieInter": null,
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-22",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Changement-de-Token-d-acc-s-de-Systeme-API-3a58db15623a8156abf1ee39f8552a13"
     },
@@ -1617,9 +1617,9 @@
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
-      "versionStable": "",
+      "versionStable": "test jerome",
       "dateSortieInter": null,
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-22",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Naxi-fige-de-fa-on-al-atoire-sur-les-traitements-autos-relatifs-aux-extractions-clients--3908db15623a81798599f3f275f04180"
     },
@@ -2182,9 +2182,9 @@
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
-      "versionStable": "",
+      "versionStable": "test jerome",
       "dateSortieInter": null,
-      "dateSortieStable": null,
+      "dateSortieStable": "2026-07-22",
       "pieceJointe": null,
       "url": "https://app.notion.com/p/LOGICIEL-Impossible-d-envoyer-le-CRM-sur-des-saisons-cl-tur-es-3878db15623a80b4986fc2e40cd70ac1"
     },
