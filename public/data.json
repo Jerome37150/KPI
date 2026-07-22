@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-22T07:10:48.850Z",
+  "generatedAt": "2026-07-22T09:36:34.247Z",
   "classique": [
+    {
+      "id": "3a58db15-623a-81b8-9084-c4a69e65b8f5",
+      "identifiant": "INA-532",
+      "titre": "Bon de séjour non actualisé si modification du séjour avant action automatique",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "Sunelia TO",
+      "dateCreation": "2026-07-22T07:16:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>Le bon de séjour ne s'actualise pas et est donc erroné lorsque :&nbsp;</div><div><br></div><div>1. Se rendre dans le menu Paramètres &gt; Actions de validations des séjours&nbsp;</div><div>2. Sur l'étape \"Paiement du solde d'une réservation\", cocher \"Joindre\" le bon de séjour et choisir un email à envoyer par défaut.<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/9f533475c07a40d9bb7e4ae23e6514af\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>3. Valider l'action de valition.</div><div>4. Sur une fiche client, créer un séjour</div><div>5. Saisir l'acompte et valider le séjour</div><div>6. Ré-ouvrir le séjour, ajouter des suppléments ou modifier les dates d'arrivées/départs.</div><div>7. Saisir le solde du séjour, puis valider le séjour</div><div><br></div><div><b><u>Résultat obtenu</u></b></div><div><br></div><div>L'action automatique se déclenche, l'email s'envoit. Toutefois si on regarde le bon de séjour, ce dernier n'a pas pris en compte les modifications de séjour. Cela engendre alors un montant total du séjour erroné et surtout à montant à régler pour le client incohérent.</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ec1418949ca44d1c92cadf8f1234f8e5\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><br></div><div><b>Reproduit sur démo Angélique en 18.28 HF</b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Bon-de-s-jour-non-actualis-si-modification-du-s-jour-avant-action-automatique-3a58db15623a81b89084c4a69e65b8f5"
+    },
     {
       "id": "3a58db15-623a-8156-abf1-ee39f8552a13",
       "identifiant": "INA-531",
@@ -8,7 +40,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -23,7 +57,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Suite à un message de non récupération des comptes entreprise sur nos bases en préprod.<div>Il faut changer les tokens d’accès de System API de preprod&nbsp;</div><div>Louis-Charles les a recréé côté web&nbsp;</div><div><br></div><div>Les tokens sont dans le coffre fort dans Bitwarden</div>",
+      "explication": "Suite à un message de non récupération des comptes entreprise sur nos bases en préprod.<div>Il faut changer les tokens d’accès de System API de preprod&nbsp;</div><div>Louis-Charles les a recréé côté web&nbsp;</div><div><br></div><div>Les tokens sont dans le coffre fort dans Bitwarden<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/82cfafd501a24c8381a2edd40e9ad19c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -30012,7 +30046,7 @@
     ]
   },
   "counts": {
-    "classique": 383,
+    "classique": 384,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
