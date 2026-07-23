@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T07:03:48.156Z",
+  "generatedAt": "2026-07-23T09:32:14.247Z",
   "classique": [
     {
       "id": "3a58db15-623a-8140-8a0f-fd2b093c876c",
@@ -105,8 +105,10 @@
       "titre": "Facturation : Erreur montant déjà réglé sur multiséjour",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -123,7 +125,9 @@
       "pointsBlocage": "",
       "explication": "Le montant restant à réglé est erroné si :&nbsp;<div><br></div><div>1. Sur une fiche client, créer deux séjours (dans le cas remonté par le client, nous avons un séjour classique et un séjour VACAF)</div><div>2. Saisir un paiement global pour les deux séjours</div><div>3. Facturer ensuite un seul séjour.</div><div><br></div><div><b><u>Résultat obtenu</u></b><br><br>La facture mentionne un montant déjà réglé correspondant au montant total payé, ce qui génère un montant à rembourser sur la facture :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/52cf91ca744b44efae0cd467fd7ea50f\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -201,8 +205,10 @@
       "titre": "Facturation échéance : mauvais déduction des acomptes déjà facturés",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -219,7 +225,9 @@
       "pointsBlocage": "",
       "explication": "<div><b>Client impacté : CHADOTEL</b><br><br>Les factures finales réalisées après une facture d'échéance sont erronées :&nbsp;</div><div><br></div><div>1. Sur une fiche client, créer un séjour en s'assurant d'avoir mis des frais de dossier</div><div>2. Sur ce séjour, mettre un échéancier (dans mon cas, 2 échéances en %)</div><div>3. Solder la première échéance</div><div>4. Facturer cette première échéance : OK</div><div>5. Générer la facture finale</div><div><br></div><div><b><u>Résultat</u></b><br><br>La facture finale affiche dans le champs \"Déjà réglé\", le montant des frais de dossier alors que ces derniers ont déjà été facturé sur la 1ère facture d'échéance.</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/feba549f310f4d4b949094413a9b7f96\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Reproduit sur démo Angélique en 18.27 / HF</b></div><div><b>Non reproduit sur une démo en 17.28 HF :&nbsp;</b><br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/8f45882b14004bc89e4db748b7b3f5dc\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
