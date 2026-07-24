@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T11:20:26.639Z",
+  "generatedAt": "2026-07-24T12:51:11.744Z",
   "classique": [
     {
       "id": "3a78db15-623a-8180-a303-ef20924c134e",
@@ -1184,38 +1184,6 @@
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/PROTOTYPE-Liste-des-transactions-3918db15623a8188adc2f52391c85f60"
-    },
-    {
-      "id": "3918db15-623a-818e-9827-f85c7aae7432",
-      "identifiant": "INA-499",
-      "titre": "Nouvelle US",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [
-        "Inaxel Pilot"
-      ],
-      "client": "",
-      "dateCreation": "2026-07-02T15:20:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Nouvelle-US-3918db15623a818e9827f85c7aae7432"
     },
     {
       "id": "3918db15-623a-8149-8142-cca7af2149da",
@@ -30122,7 +30090,7 @@
     ]
   },
   "counts": {
-    "classique": 386,
+    "classique": 385,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
