@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-07-24T07:03:58.822Z",
+  "generatedAt": "2026-07-24T09:29:39.793Z",
   "classique": [
+    {
+      "id": "3a78db15-623a-8180-a303-ef20924c134e",
+      "identifiant": "INA-534",
+      "titre": "Erreur lors de l'export Eurodecision car sousloc vide",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-24T07:14:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Lors d’un test sur ma base SQL en prod lorsque l’export d’EURODECISION se lance , il y a un message d’erreur.<div><br></div><div>Lien JAM : <a href=\"https://jam.dev/c/69b4b6be-4fb9-49a1-a9b4-59cb42e487e8\">https://jam.dev/c/69b4b6be-4fb9-49a1-a9b4-59cb42e487e8</a></div><div><br></div><div><pre style=\"background:#0f172a;color:#e2e8f0;border-radius:8px;padding:12px 14px;overflow:auto;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;line-height:1.5;white-space:pre-wrap;margin:8px 0\">Le mécanisme de sécurité du WLangage a détecté une erreur dans l'application EVOCAMP. <br>Contactez le fournisseur de l'application EVOCAMP.<br>L'invocation de la méthode &lt;ExportSubRentalPeriods(System.String,System.String,System.String,System.String)&gt; du type &lt;String&gt; a échoué<br>Le framework .NET a renvoyé l'erreur suivante : <br>liste commande ou liste emplacement vides<br>Pile des appels :<br>Procédure locale export_data_eurodecision (export_eurodecision.PROCEDURE.export_data_eurodecision), ligne 635<br>Fin d'initialisation de export_eurodecision (export_eurodecision), ligne 33<br>Clic sur BT_VALID (actions_auto.BT_VALID), ligne 100<br>Procédure locale init_exercice_sql (menuV3.PROCEDURE.init_exercice_sql), ligne 259<br>Procédure locale init_exercice (menuV3.PROCEDURE.init_exercice), ligne 14<br>Fin d'initialisation de menuV3 (menuV3), ligne 987<br>Date : 23/07/2026 15:37:37<br>Projet : EVOCAMP (14.1.547.16)<br>Informations supplémentaires :<br>Code erreur : 200002<br>Module : wd260net4.dll (01F260101d - 26.0.264.0)<br>Informations de débogage :<br>System.Reflection.TargetInvocationException: Une exception a été levée par la cible d'un appel. ---&gt; System.Exception: liste commande ou liste emplacement vides<br>   à NaxiGestionCore.SQLManager.SQLSchedule.GetSchedules(String companyCode, String exerciseCode, List`1 locationsCode, List`1 orderIds, List`1 selectedProperties) dans C:\\Users\\rachid.amrani.alaoui.INAXEL\\Workspace\\gds\\NaxiGestionCore\\SQLManager\\Schedule\\SQLSchedule.cs:ligne 423<br>   à NaxiGestionCore.Manager.CampingSublocation.CampingSublocationManager.GetSubRentalPeriods(String companyCode, String exerciseCode, List`1 customerIds) dans C:\\Users\\rachid.amrani.alaoui.INAXEL\\Workspace\\gds\\NaxiGestionCore\\Manager\\CampingSublocation\\CampingSublocationManager.cs:ligne 66<br>   à NaxiGestionCore.Manager.Extraction.SubRentalExtractionManager.ExportSubRentalPeriods(String companyCode, String exerciseCode, String outputDirectory, String partnerName) dans C:\\Users\\rachid.amrani.alaoui.INAXEL\\Workspace\\gds\\NaxiGestionCore\\Manager\\Extraction\\SubRentalExtractionManager.cs:ligne 57<br>   --- Fin de la trace de la pile d'exception interne ---<br>   à System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)<br>   à System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)<br>   à System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)<br>   à CDotNetMethod.bInvoke(Char* pszTypeName, Char* pszMethodName, Char* pszParameters, MethodInfo gcMethod, Object gcObj, CSLevel* pclPile, Int32 nNbParamPile, Int32 bValeurRetour, STOperationDotNet* pstOperation)<br>EIT_EXCEPTIONDOTNET<br>EIT_TYPE_WDFILE : &lt;2&gt;<br>EIT_IDCODE : &lt;458752&gt;</pre><p>Pour un autre test j’avais supprimé les sous loc des résidents</p><p>Pour éviter que cette erreur arrive aux clients, il faut faire une correction</p></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-lors-de-l-export-Eurodecision-car-sousloc-vide-3a78db15623a8180a303ef20924c134e"
+    },
     {
       "id": "3a58db15-623a-8140-8a0f-fd2b093c876c",
       "identifiant": "INA-533",
@@ -2154,7 +2190,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "",
       "dateSortieInter": "2026-07-07",
       "dateSortieStable": null,
@@ -2840,7 +2876,7 @@
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
       "dateSortieStable": "2026-07-06",
@@ -4159,7 +4195,7 @@
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "WEB",
+      "versionInter": "web",
       "versionStable": "18.20",
       "dateSortieInter": "2026-05-25",
       "dateSortieStable": "2026-06-04",
@@ -4411,7 +4447,7 @@
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "WEB",
+      "versionInter": "web",
       "versionStable": "18.20",
       "dateSortieInter": "2026-05-25",
       "dateSortieStable": "2026-06-04",
@@ -4447,7 +4483,7 @@
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.25",
       "dateSortieInter": "2026-06-08",
       "dateSortieStable": "2026-07-06",
@@ -4662,7 +4698,7 @@
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "WEB",
+      "versionInter": "web",
       "versionStable": "18.20",
       "dateSortieInter": "2026-05-25",
       "dateSortieStable": "2026-06-04",
@@ -4772,7 +4808,7 @@
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
       "dateSortieStable": "2026-07-06",
@@ -5123,7 +5159,7 @@
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "WEB",
+      "versionInter": "web",
       "versionStable": "18.20",
       "dateSortieInter": "2026-05-25",
       "dateSortieStable": "2026-06-04",
@@ -5404,7 +5440,7 @@
       "explication": "Le problème est présent sur les arrivées/départs. Si je cherche un client commençant par la lettre V, je n’ai rien qui apparait alors qu’il y a bien des clients arrivant qui commencent par la lettre V.",
       "communication": [],
       "initialeAjout": [],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "",
       "dateSortieInter": "2026-04-30",
       "dateSortieStable": null,
@@ -5478,7 +5514,7 @@
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "WEB",
+      "versionInter": "web",
       "versionStable": "18.20",
       "dateSortieInter": "2026-05-25",
       "dateSortieStable": "2026-06-04",
@@ -5552,7 +5588,7 @@
       "communication": [],
       "initialeAjout": [],
       "versionInter": "18.15",
-      "versionStable": "",
+      "versionStable": "18.14",
       "dateSortieInter": "2026-05-04",
       "dateSortieStable": "2026-05-04",
       "pieceJointe": null,
@@ -5585,7 +5621,7 @@
       "explication": "Si on a des ménages de type “suppléments” (donc juste des suppléments à mettre en place à l’arrivée, pas de repasse), le filtre secteur ne fonctionne pas sur eux. Ce qui fait que quand on filtre par secteur on a aussi bien des emplacements du secteur (pour les ménages) mais aussi des emplacements hors secteur, ce qui n’est fonctionnellement pas pratique",
       "communication": [],
       "initialeAjout": [],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "",
       "dateSortieInter": "2026-04-28",
       "dateSortieStable": null,
@@ -5730,7 +5766,7 @@
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.20",
       "dateSortieInter": "2026-05-11",
       "dateSortieStable": "2026-06-04",
@@ -5837,7 +5873,7 @@
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.20",
       "dateSortieInter": "2026-05-11",
       "dateSortieStable": "2026-06-04",
@@ -5871,7 +5907,7 @@
       "explication": "Le problème est présent aussi bien sur les ménages, les suppléments ou les arrivées/départs. La liste ne se charge pas en entier, ce qui fait que par exemple sur les arrivées si je cherche un client commençant par la lettre V, je n’ai rien qui apparait alors qu’il y a bien des clients arrivant qui commencent par la lettre V. Ce n’est pas qu’un problème d’affichage de la liste mais plutôt un problème de récupération de l’ensemble de la liste. Quand je fais des tests, avec les mêmes données que le camping, sur une page web (sur ordi) ou sur mon tél je ne reproduis pas le soucis. Mais le problème est présent sur plusieurs camping sur leurs téléphones ou tablette, et j’ai fait des tests avec une personne de chez eux et en effet le soucis est bien présent. Le problème était déjà présent l’année dernière (mais moins souvent) et on a une vidéo qu’ils nous avaient envoyé qui est dans l’US ",
       "communication": [],
       "initialeAjout": [],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "",
       "dateSortieInter": "2026-04-30",
       "dateSortieStable": null,
@@ -6261,7 +6297,7 @@
       "explication": "Un message d’erreur indiquant que le serveur est indisponible apparaît sur NNP côté Web lorsque l’on enregistre un départ (passage en statut parti)\n\nIl s’agit juste d’un problème d’affichage car si on regarde dans NAXI, le statut du séjour est bien passé en Parti",
       "communication": [],
       "initialeAjout": [],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.14",
       "dateSortieInter": "2026-04-27",
       "dateSortieStable": "2026-05-04",
@@ -6295,7 +6331,7 @@
       "explication": "Plusieurs campings nous ont signalé avoir des surbooks ces derniers jours.\nAprès recherche le soucis vient du fait que malgré que la case “Blocage des plannings en ligne soit cochée”, nous ne créeons plus de retenu sur nos serveurs\n\nDonc tant que la résa n’est pas traitée coté NAXI, il n’y a aucun blocage planning et donc le risque de surbook est important",
       "communication": [],
       "initialeAjout": [],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.14",
       "dateSortieInter": "2026-04-13",
       "dateSortieStable": "2026-05-04",
@@ -6928,7 +6964,7 @@
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.14",
       "dateSortieInter": "2026-04-13",
       "dateSortieStable": "2026-05-04",
@@ -6962,7 +6998,7 @@
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.14",
       "dateSortieInter": "2026-04-13",
       "dateSortieStable": "2026-05-04",
@@ -6998,7 +7034,7 @@
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.20",
       "dateSortieInter": "2026-05-11",
       "dateSortieStable": "2026-06-04",
@@ -7168,7 +7204,7 @@
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.14",
       "dateSortieInter": "2026-04-22",
       "dateSortieStable": "2026-05-04",
@@ -7338,7 +7374,7 @@
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.14",
       "dateSortieInter": "2026-04-03",
       "dateSortieStable": "2026-05-04",
@@ -7407,7 +7443,7 @@
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.25",
       "dateSortieInter": "2026-06-15",
       "dateSortieStable": "2026-07-06",
@@ -8660,7 +8696,7 @@
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.14",
       "dateSortieInter": "2026-04-27",
       "dateSortieStable": "2026-05-04",
@@ -9452,7 +9488,7 @@
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.11",
       "dateSortieInter": "2026-03-16",
       "dateSortieStable": "2026-04-07",
@@ -10292,7 +10328,7 @@
       "initialeAjout": [
         "Ajout en cours"
       ],
-      "versionInter": "WEB",
+      "versionInter": "web",
       "versionStable": "18.20",
       "dateSortieInter": "2026-05-25",
       "dateSortieStable": "2026-06-04",
@@ -12773,7 +12809,7 @@
       "initialeAjout": [
         "Sprint initiale"
       ],
-      "versionInter": "Web",
+      "versionInter": "web",
       "versionStable": "18.14",
       "dateSortieInter": "2026-04-13",
       "dateSortieStable": "2026-05-04",
@@ -30086,7 +30122,7 @@
     ]
   },
   "counts": {
-    "classique": 385,
+    "classique": 386,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
