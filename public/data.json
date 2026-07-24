@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-24T12:51:11.744Z",
+  "generatedAt": "2026-07-24T14:40:57.281Z",
   "classique": [
+    {
+      "id": "3a78db15-623a-8137-a352-fea395955663",
+      "identifiant": "INA-535",
+      "titre": "Erreur d'intialisation des fenêtres de synchro",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-24T13:53:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "CIELA nous a contacté le 24 Juillet 2025 à 12h25 afin de nous signaler un dysfonctionnement sur leur fenêtre de synchro.<div><br></div><div>-&gt; La table ETATSYNCHRO ne s'actualisait plus</div><div>-&gt; Les synchros se lançaient sans erreur et envoyer des données au compte goutte</div><div>-&gt; La table SYNCHRO ne dépilait donc pas et ne cessait de croître</div><div><br></div><div>Beaucoup de manipulations ont été faites sans succès :&nbsp;</div><div><br></div><div>-&gt; Suppression des exe NAXIRESA et recréer : NOK</div><div>-&gt; Fermeture/réouverture des exe : NOK</div><div>-&gt; Désactivation de Watchdog : NOK</div><div>-&gt; Suppression de la table SYNCHRO et recrer : NOK</div><div>-&gt; Modification des groupes de synchro : NOK&nbsp;</div><div><br></div><div>Finalement, au bout de 3h de recherches, après une énième relance, les synchros sont revenues à la normale toute seule.</div><div>Nous avons constater que les exe de NAXICLOTURE se sont lancées au redémarrage ce qui n'était pas le cas jusqu'à maintenant.</div><div><br></div><div><b><u>Analyse de Loic :&nbsp;</u></b></div><div><br></div><div>Il faut déplacer <b>delegate_postInitCsharp</b> en Windev le plus tôt possible (<i>Attention : init session C#</i>)</div><div>Selon Loïc, lien possible avec la REF-600</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-d-intialisation-des-fen-tres-de-synchro-3a78db15623a8137a352fea395955663"
+    },
     {
       "id": "3a78db15-623a-8180-a303-ef20924c134e",
       "identifiant": "INA-534",
@@ -30090,7 +30122,7 @@
     ]
   },
   "counts": {
-    "classique": 385,
+    "classique": 386,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
