@@ -1,14 +1,88 @@
 {
-  "generatedAt": "2026-07-27T04:59:18.777Z",
+  "generatedAt": "2026-07-27T08:29:06.743Z",
   "classique": [
+    {
+      "id": "3aa8db15-623a-8043-bb05-d467dd253f94",
+      "identifiant": "INA-537",
+      "titre": "Migrer SalesApi en Laravel 13",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-27T08:18:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Migrer-SalesApi-en-Laravel-13-3aa8db15623a8043bb05d467dd253f94"
+    },
+    {
+      "id": "3aa8db15-623a-819d-b375-d8b30b2e37a4",
+      "identifiant": "INA-536",
+      "titre": "[LOGICIEL] Nouveau correctif pour les lenteurs sur la fenêtre d'envoi de mail de factures si plusieurs séjours",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-27T07:41:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite aux différents problèmes de lenteurs rencontrés sur les SAAS ( BUG-1166: [LOGICIEL] - Lenteurs sur Saas et Naxi qui fige de façon aléatoire sur la validation des séjours, enregistrement paiement<div>TEST EN COURS</div><div>&nbsp;et BUG-1167: [LOGICIEL] - Lenteurs sur Saas et Naxi qui fige de façon aléatoire (2ème partie)</div><div>In Progress</div><div>) on s’est rendu compte que c'était l’US BUG-1077: [LOGICIEL] Lenteurs sur affichage de la fenêtre d’envoi d’email de factures si plusieurs séjours</div><div>Done</div><div>&nbsp;qui avait introduit ces lenteurs.</div><div><br></div><div>&nbsp;</div><div><br></div><div>Donc dans l’US BUG-1167: [LOGICIEL] - Lenteurs sur Saas et Naxi qui fige de façon aléatoire (2ème partie)</div><div>In Progress</div><div>&nbsp;il a été décidé de supprimer le code de la BUG-1077: [LOGICIEL] Lenteurs sur affichage de la fenêtre d’envoi d’email de factures si plusieurs séjours</div><div>Done</div><div>&nbsp;et donc cette US est pour apporter un nouveau correctif au bug de la BUG-1077: [LOGICIEL] Lenteurs sur affichage de la fenêtre d’envoi d’email de factures si plusieurs séjours</div><div>Done</div><div>Afficher un aperçu</div><div>.</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Nouveau-correctif-pour-les-lenteurs-sur-la-fen-tre-d-envoi-de-mail-de-factures-si-plusieur-3aa8db15623a819db375d8b30b2e37a4"
+    },
     {
       "id": "3a78db15-623a-8137-a352-fea395955663",
       "identifiant": "INA-535",
       "titre": "Erreur d'intialisation des fenêtres de synchro",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -25,7 +99,9 @@
       "pointsBlocage": "",
       "explication": "CIELA nous a contacté le 24 Juillet 2025 à 12h25 afin de nous signaler un dysfonctionnement sur leur fenêtre de synchro.<div><br></div><div>-&gt; La table ETATSYNCHRO ne s'actualisait plus</div><div>-&gt; Les synchros se lançaient sans erreur et envoyer des données au compte goutte</div><div>-&gt; La table SYNCHRO ne dépilait donc pas et ne cessait de croître</div><div><br></div><div>Beaucoup de manipulations ont été faites sans succès :&nbsp;</div><div><br></div><div>-&gt; Suppression des exe NAXIRESA et recréer : NOK</div><div>-&gt; Fermeture/réouverture des exe : NOK</div><div>-&gt; Désactivation de Watchdog : NOK</div><div>-&gt; Suppression de la table SYNCHRO et recrer : NOK</div><div>-&gt; Modification des groupes de synchro : NOK&nbsp;</div><div><br></div><div>Finalement, au bout de 3h de recherches, après une énième relance, les synchros sont revenues à la normale toute seule.</div><div>Nous avons constater que les exe de NAXICLOTURE se sont lancées au redémarrage ce qui n'était pas le cas jusqu'à maintenant.</div><div><br></div><div><b><u>Analyse de Loic :&nbsp;</u></b></div><div><br></div><div>Il faut déplacer <b>delegate_postInitCsharp</b> en Windev le plus tôt possible (<i>Attention : init session C#</i>)</div><div>Selon Loïc, lien possible avec la REF-600</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -342,7 +418,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -359,7 +437,9 @@
       "pointsBlocage": "",
       "explication": "La facture et/ou proforma n'affiche pas le bon montant à régler lorsque :&nbsp;<div><br></div><div><b><u><font style=\"background-color: rgb(254, 215, 170);\" color=\"#18181b\">CAS N°1</font></u></b></div><div><br></div><div>1.&nbsp; Sur une fiche client, créer un séjour d'une part, et un supplément ou une vente hors séjour d'autre part.</div><div>2. Saisir un paiement global aux deux prestations</div><div>3. Facturer uniquement l'une des deux prestations (dans mon cas la vente hors séjours).</div><div><br></div><div><b><u>Résultat :&nbsp;</u></b></div><div><br></div><div>La facture affiche dans le bloc des paiement, le montant total du paiement. Cela a pour conséquence de déclencher un solde à rembourser correspondant au montant de la deuxième prestation.<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/3b6f1ba77a014eea9622187fc9053dbc\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c73a7785116941138d23985c50d7d91c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br><b><u><font color=\"#18181b\" style=\"background-color: rgb(254, 215, 170);\">CAS N°2</font></u></b><br><br></div><div>1. Sur une fiche séjour, créer un séjour&nbsp;</div><div>2. Créer des suppléments hors séjours</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -506,9 +586,9 @@
       "titre": "[LOGICIEL] - Dysfonctionnements LOUNGE UP : séjours manquants et modification structure",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": "Haute",
+      "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUILLET 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2785,7 +2865,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "JUILLET 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -12860,7 +12940,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUILLET 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -13104,7 +13184,8 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "JUILLET 26"
+        "JUILLET 26",
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -30122,7 +30203,7 @@
     ]
   },
   "counts": {
-    "classique": 386,
+    "classique": 388,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
