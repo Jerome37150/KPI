@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T11:50:28.381Z",
+  "generatedAt": "2026-07-27T14:05:10.566Z",
   "classique": [
     {
       "id": "3aa8db15-623a-8132-bd65-f5391b4eb4be",
@@ -47,7 +47,7 @@
       "sprintIdeal": [],
       "fonctions": null,
       "produits": [
-        "Naxi Gestion PMS"
+        "Nax7 PMS"
       ],
       "client": "",
       "dateCreation": "2026-07-27T09:28:00.000Z",
@@ -251,8 +251,10 @@
       "titre": "Bon de séjour non actualisé si modification du séjour avant action automatique",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -269,7 +271,9 @@
       "pointsBlocage": "",
       "explication": "<div>Le bon de séjour ne s'actualise pas et est donc erroné lorsque :&nbsp;</div><div><br></div><div>1. Se rendre dans le menu Paramètres &gt; Actions de validations des séjours&nbsp;</div><div>2. Sur l'étape \"Paiement du solde d'une réservation\", cocher \"Joindre\" le bon de séjour et choisir un email à envoyer par défaut.<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/9f533475c07a40d9bb7e4ae23e6514af\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>3. Valider l'action de valition.</div><div>4. Sur une fiche client, créer un séjour</div><div>5. Saisir l'acompte et valider le séjour</div><div>6. Ré-ouvrir le séjour, ajouter des suppléments ou modifier les dates d'arrivées/départs.</div><div>7. Saisir le solde du séjour, puis valider le séjour</div><div><br></div><div><b><u>Résultat obtenu</u></b></div><div><br></div><div>L'action automatique se déclenche, l'email s'envoit. Toutefois si on regarde le bon de séjour, ce dernier n'a pas pris en compte les modifications de séjour. Cela engendre alors un montant total du séjour erroné et surtout à montant à régler pour le client incohérent.</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ec1418949ca44d1c92cadf8f1234f8e5\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><br></div><div><b>Reproduit sur démo Angélique en 18.28 HF</b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -353,8 +357,10 @@
       "titre": "Message d'erreur Evocamp lors de l'impression de la calculette espèces / résultat d'extraction",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -385,8 +391,10 @@
       "titre": "Heure d'arrivée non mémorisée dans le séjour",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -453,8 +461,10 @@
       "titre": "Espace client : paiement d'acompte possible même si résa web fermée",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
@@ -521,8 +531,10 @@
       "titre": "Lenteurs import tarifs & promo depuis SH",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -3071,9 +3083,9 @@
       "titre": "[LOGICIEL] - Erreur sur le détail des résas si suppléments avec prix qui varie selon la période",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": "Haute",
+      "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUILLET 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
