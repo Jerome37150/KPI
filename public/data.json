@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-07-27T08:29:06.743Z",
+  "generatedAt": "2026-07-27T11:50:28.381Z",
   "classique": [
+    {
+      "id": "3aa8db15-623a-8132-bd65-f5391b4eb4be",
+      "identifiant": "INA-539",
+      "titre": "[LOGICIEL] Multi problèmes sur PDF des facture/duplicata/proforma",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "JUILLET 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-27T10:58:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Depuis environ la version 18.25, nous rencontre de multiples problèmes dont les derniers sont :&nbsp;<div><br></div><div>Facturation : Erreur montant déjà réglé sur multiséjour → ticket INA-530</div><div><br></div><div>Facturation échéance : mauvais déduction des acomptes déjà facturés → ticket INA-527</div><div><br></div><div>Facturation : Montant à régler erroné / Cas d'un paiement global sur plusieurs prestations → ticket INA-525</div><div><br></div><div>Après analyse, on s’est rendu compte que tous ces soucis n'étaient pas présents dans la version 18.15, et après décoticage on s’est rendu compte que cela avait été introduit par la https://inaxel.atlassian.net/browse/BUG-1081. Lors de la résolution de cette US, 2 solutions étaient possibles :&nbsp;</div><div><br></div><div>solution 1 : Remettre comme en version 17.16 - si saisie du paiement suite au clic sur facturation ==&gt; affichage pdf:  tableau des paiements ne contient pas le paiement + le “à payer” indique qu’il reste le règlement à payer</div><div><br></div><div>solution 2 : si saisie du paiement suite au clic sur facturation ==&gt; affichage pdf:  tableau des paiements contient le paiement + le “à payer” indique qu’il ne reste plus rien à payer la facture est soldée</div><div><br></div><div>→ La solution 2 a été retenu mais la problème qu’il y a avec cette solution c’est que du coup le tableau des totaux n’est pas iso avec l’enregistrement qu’il y a en bdd sur la table facture</div><div><br></div><div>Suite à cette correction, cela a engendré d’autres soucis :&nbsp;</div><div><br></div><div>https://inaxel.atlassian.net/browse/BUG-1150&nbsp;</div><div><br></div><div>https://inaxel.atlassian.net/browse/BUG-1159&nbsp;</div><div><br></div><div>Le soucis de la https://inaxel.atlassian.net/browse/BUG-1081 n'était pas remonté avant car on avait un soucis d’affichage de la fenêtre de paiement https://inaxel.atlassian.net/browse/BUG-1036&nbsp;</div><div><br></div><div><br></div><div><br></div><div>L’idée est donc de repartir avant le correctif de la https://inaxel.atlassian.net/browse/BUG-1081 en enlevant donc les correctifs des US https://inaxel.atlassian.net/browse/BUG-1150 et https://inaxel.atlassian.net/browse/BUG-1159 et de faire le correctif de la https://inaxel.atlassian.net/browse/BUG-1081 mais cette fois-ci avec la solution 1, à  affichage pdf:  tableau des paiements ne contient pas le paiement + le “à payer” indique qu’il reste le règlement à payer (comme c'était en version 17.16 - voir US qui l’explique).</div><div><br></div><div>Cette US va donc annuler tous les correctifs des US https://inaxel.atlassian.net/browse/BUG-1150, https://inaxel.atlassian.net/browse/BUG-1159 car non plus lieu d'être</div><div><br></div><div>Lors de la réalisation de tests sur une version 17.16 pour voir comment ça fonctionnait, on s’est rendu compte que le soucis venait du fait que dans la version 18, la génération du PDF se faisait après la fenêtre d’enregistrement du paiement contrairement à la version 17.16 qui elle génère le PDF avant même d’afficher la fenêtre de paiement. Ce qui a pour conséquence dans la version 18 que sur la facture on retrouve dans le bloc paiement, tous les paiements de la commande au lieu d’avoir tous les paiements sauf celui enregistré à partir de la fenêtre de facturation.</div><div><br></div><div>Donc il faut garder le fait, que sur la facture on affiche les paiements de la commande (ce qui permet dans le cas d’un règlement ventilé sur plusieurs séjours de bien afficher le montant du paiement total et non que la partie répartie sur le séjour facturé et dans le bloc totaux de bien prendre en compte que la partie répartie sur le séjour) mais de faire en sorte que le PDF se génère avant la fenêtre de paiement.</div><div><br></div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/LOGICIEL-Multi-probl-mes-sur-PDF-des-facture-duplicata-proforma-3aa8db15623a8132bd65f5391b4eb4be"
+    },
+    {
+      "id": "3aa8db15-623a-8123-b4fb-e41a91dc539f",
+      "identifiant": "INA-538",
+      "titre": "Message Evocamp sur sélection avancée des TO depuis le planning",
+      "classification": "BUG D'USAGE",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-27T09:28:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>Un message d'erreur apparaît sur NAXI lorsque l'on souhaite accéder à la sélection avancée des TO depuis le planning :&nbsp;</div><div><br></div><div>1. S'assurer d'avoir plusieurs fiches TO ou CE dont une sur laquelle aucun séjour n'est affecté</div><div>2. Se rendre dans le menu Disponibilités &gt; Planning</div><div>3.&nbsp; Dans la combo en haut à gauche, cliquer sur \"Sélection avancée des Tours-Opérateurs\"</div><div>4. Une fenêtre s'affiche, cocher tous les TO, valider -&gt; Le planning s'affiche OK</div><div>5. Si on regarde en base de données, dans la table PARGEN.pgcode = STO : les numéros clients de mes fiches TO se sont bien enregistrées OK</div><div>6. Réouvrir une fiche TO sur laquelle il n'y a aucun séjour&nbsp;</div><div>7. Supprimer la fiche client <b><u>OU</u></b> simplement changer le type TO pour le mettre en type séjournant par exemple</div><div>8. Fermer la fiche client</div><div>9. Se rendre à nouveau dans le menu Disponibilités &gt; Planning</div><div>10. Cliquer à nouveau sur la Sélection avancée des TO</div><div><br></div><div><b>NAXI affiche alors l'erreur suivante :&nbsp;</b></div><div><br></div><div><i>Le mécanisme de sécurité du WLangage a détecté une erreur dans l'application EVOCAMP.&nbsp;</i></div><div><i>Contactez le fournisseur de l'application EVOCAMP.</i></div><div><i><br></i></div><div><i>Vous avez appelé l'opérateur [] sur le champ tbto.</i></div><div><i>L'indice spécifié [-1] est invalide.&nbsp;</i></div><div><i>Les valeurs valides sont comprises entre 1 et 2 (inclus).</i></div><div><i><br></i></div><div><i>Pile des appels :</i></div><div><i>Fin d'initialisation de filtre_to (filtre_to), ligne 45</i></div><div><i>Sélection d'une ligne de Combo_empl (planning.Combo_empl), ligne 9</i></div><div><i><br></i></div><div><i>Date : 27/07/2026 11:26:32</i></div><div><i>Projet : EVOCAMP (14.1.555.16)</i></div><div><i><br></i></div><div><i>Informations supplémentaires :</i></div><div><i>Code erreur : 10038</i></div><div><i>Module : wd260obj.dll (01F260101d - 26.0.572.39)</i></div><div><i>EIT_TYPE_WDFILE : &lt;2&gt;</i></div><div><i>EIT_IDCODE : &lt;34&gt;</i></div><div><br></div><div><b><font color=\"#16a34a\">Si on regarde à nouveau en base de données dans PARGEN.pgcode = STO : les numéros clients n'ont pas changé, ce qui génère l'erreur puisque NAXI essaie de chercher un numéro client en type 3 ou 4 mais celui ci n'existe plus.</font></b></div><div><br></div><div><b>Reproduit sur démo Angélique en SQL Saas / 18.28</b></div><div><i style=\"\">Pour dépanner le client, j'ai réaliser la requête ci dessous, permettant d'enlever le client 63569 qui n'existait plus (surement suite à une suppression de la fiche OU à un traitement de client en doublon) :&nbsp;<br><br>UPDATE pargen</i></div><div><i style=\"\">SET pgparam = '1123|436|1038|28438|416|29175|248|725|775|57072|57073|57074|57075|57076|57077|57078|57079|57080|57081|57082|57083|57084|57085|57086|57087|57088|57089|57090|57091|57092|57093|57094|57095|57096|57097|57098|57099|57100|57101|57102|57103|57104|57105|57106|57107|57108|57109|57110|57111|57112|57113|57114|57115|57116|577|58945|58946|58947|1083|79894|1063|84117|84134|86427|781|430|92019|102061|102062|102063|102064|102065|102066|102067|102068|102069|102071|1244|230|1046|122045|125212|547|969|312|823|145291|234|1240|153303|153304|153309|1079|782|155854|224|729|427|229|585|160992|268|214|261|1039|1116|1133|167715|968|250|955|172226|1087|179668|175489|175490|175491|175492|175493|175494|175495|175496|175497|175498|175499|175500|175501|175502|175503|175504|175505|175506|175507|175508|175509|175645|1189|4404|2447|2451|3441|179811|27343|27715|27767|41380|29911|29913|29914|29915|29931|30762|30767|30768|30769|30770|30772|30773|30776|30779|30790|30794|30796|30803|30808|30811|30814|180152|30955|31064|31145|35500|35501|35502|30774|39040|39041|39042|39045|39043|39044|39046|39048|39050|39051|39055|39056|39097|40591|41381|41382|30775|179672|41375|41379|41383|41384|41386|41387|41389|41390|41393|41394|45838|57363|41385|62263|75017|30792|30793|41388|127975|145124|153055|159519|41392|165794|167442|178890|'</i></div><div><i style=\"\">WHERE pgcode = 'STO' AND pgsoc = 'OCE'</i></div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Message-Evocamp-sur-s-lection-avanc-e-des-TO-depuis-le-planning-3aa8db15623a8123b4fbe41a91dc539f"
+    },
     {
       "id": "3aa8db15-623a-8043-bb05-d467dd253f94",
       "identifiant": "INA-537",
@@ -40,7 +108,7 @@
     {
       "id": "3aa8db15-623a-819d-b375-d8b30b2e37a4",
       "identifiant": "INA-536",
-      "titre": "[LOGICIEL] Nouveau correctif pour les lenteurs sur la fenêtre d'envoi de mail de factures si plusieurs séjours",
+      "titre": "Nouveau correctif pour les lenteurs sur la fenêtre d'envoi de mail de factures si plusieurs séjours",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
@@ -71,7 +139,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Nouveau-correctif-pour-les-lenteurs-sur-la-fen-tre-d-envoi-de-mail-de-factures-si-plusieur-3aa8db15623a819db375d8b30b2e37a4"
+      "url": "https://app.notion.com/p/Nouveau-correctif-pour-les-lenteurs-sur-la-fen-tre-d-envoi-de-mail-de-factures-si-plusieurs-s-jours-3aa8db15623a819db375d8b30b2e37a4"
     },
     {
       "id": "3a78db15-623a-8137-a352-fea395955663",
@@ -30203,7 +30271,7 @@
     ]
   },
   "counts": {
-    "classique": 388,
+    "classique": 390,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
