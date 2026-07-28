@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T15:30:34.303Z",
+  "generatedAt": "2026-07-28T17:06:15.940Z",
   "classique": [
     {
       "id": "3ab8db15-623a-81a3-82ae-e7328843d8f2",
@@ -728,7 +728,7 @@
     {
       "id": "39f8db15-623a-81bb-bc64-c19e07c01f05",
       "identifiant": "INA-520",
-      "titre": "[LOGICIEL] - Dysfonctionnements LOUNGE UP : séjours manquants et modification structure",
+      "titre": "Dysfonctionnements LOUNGE UP : séjours manquants et modification structure",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
@@ -757,7 +757,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Dysfonctionnements-LOUNGE-UP-s-jours-manquants-et-modification-structure-39f8db15623a81bbbc64c19e07c01f05"
+      "url": "https://app.notion.com/p/Dysfonctionnements-LOUNGE-UP-s-jours-manquants-et-modification-structure-39f8db15623a81bbbc64c19e07c01f05"
     },
     {
       "id": "39f8db15-623a-81dc-88e1-ea020e00a1a4",
@@ -939,12 +939,12 @@
     {
       "id": "39a8db15-623a-8174-a004-e94660b7ac8e",
       "identifiant": "INA-514",
-      "titre": "[LOGICIEL] - Incohérence table planning",
+      "titre": "Incohérence table planning",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "AOUT 26"
+        "JUILLET 26"
       ],
       "fonctions": null,
       "produits": [
@@ -963,14 +963,14 @@
       "explication": "Incohérence planning constatée sur établissement LES ROUSSIERES :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/36d6f5caee8f4176a7a11b8f2febb9d1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Analyser pour comprendre comment cela a pu se produire<br><br>Le séjour 4174 a été crée le 27.05 et le séjour 6258 a été crée le 10.07<br>Ils sont en SQL depuis un moment donc ces deux séjours ont été crée en SQL<br><br>-&gt; Voir pour ajouter un garde fou pour éviter ce genre de situation ?&nbsp;<br><br><b>Nouveau cas constaté ce Lundi 20 Juillet sur l'établissement REPOS DU BALADIN /&nbsp;</b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/802543e04e47422a84e3c5eb0b4e4e67\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div><br></div><div><br></div><div>Nouveau cas constaté le 20.07.2026 chez Flower Exploit :&nbsp;<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/8cc5703c0dca45db92243f0f587d0d2c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Le soucis semble lié aux indispos car sur chaque cas, on constate que dans l'une des lignes en doublon on a un plstatut à 8</b></div>",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Incoh-rence-table-planning-39a8db15623a8174a004e94660b7ac8e"
+      "url": "https://app.notion.com/p/Incoh-rence-table-planning-39a8db15623a8174a004e94660b7ac8e"
     },
     {
       "id": "3998db15-623a-8159-93fd-fb16ddcc6485",
@@ -1145,7 +1145,7 @@
     {
       "id": "3988db15-623a-8127-9370-e8420927a9b8",
       "identifiant": "INA-508",
-      "titre": "[WEB] - CRM : envoi des plaques d'immatriculation",
+      "titre": "CRM : envoi des plaques d'immatriculation",
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
@@ -1176,7 +1176,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/WEB-CRM-envoi-des-plaques-d-immatriculation-3988db15623a81279370e8420927a9b8"
+      "url": "https://app.notion.com/p/CRM-envoi-des-plaques-d-immatriculation-3988db15623a81279370e8420927a9b8"
     },
     {
       "id": "3978db15-623a-8147-9468-d1f5dd033d91",
@@ -1247,7 +1247,7 @@
     {
       "id": "3968db15-623a-81b9-bedd-f971cf166c0b",
       "identifiant": "INA-505",
-      "titre": "[LOGICIEL] - Données CLIENT et COMMAND non envoyées sur le web (Suite)",
+      "titre": "Données CLIENT et COMMAND non envoyées sur le web (Suite)",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
@@ -1276,12 +1276,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Donn-es-CLIENT-et-COMMAND-non-envoy-es-sur-le-web-Suite-3968db15623a81b9beddf971cf166c0b"
+      "url": "https://app.notion.com/p/Donn-es-CLIENT-et-COMMAND-non-envoy-es-sur-le-web-Suite-3968db15623a81b9beddf971cf166c0b"
     },
     {
       "id": "3958db15-623a-8139-a68b-e56db6ec1618",
       "identifiant": "INA-504",
-      "titre": "[LOGICIEL] - Erreur sur la recherche de dispo en SQL",
+      "titre": "Erreur sur la recherche de dispo en SQL",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
@@ -1310,7 +1310,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Erreur-sur-la-recherche-de-dispo-en-SQL-3958db15623a8139a68be56db6ec1618"
+      "url": "https://app.notion.com/p/Erreur-sur-la-recherche-de-dispo-en-SQL-3958db15623a8139a68be56db6ec1618"
     },
     {
       "id": "3958db15-623a-81df-9974-ebfee73aae86",
@@ -1351,7 +1351,7 @@
     {
       "id": "3928db15-623a-81d2-a4a4-e91ec1000cbf",
       "identifiant": "INA-502",
-      "titre": "[LOGICIEL] Modif de résa : suppression du supplément non pris en compte si c'est le seul supplément présent dans le séjour",
+      "titre": "Modif de résa : suppression du supplément non pris en compte si c'est le seul supplément présent dans le séjour",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
@@ -1380,7 +1380,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Modif-de-r-sa-suppression-du-suppl-ment-non-pris-en-compte-si-c-est-le-seul-suppl-ment-p-3928db15623a81d2a4a4e91ec1000cbf"
+      "url": "https://app.notion.com/p/Modif-de-r-sa-suppression-du-suppl-ment-non-pris-en-compte-si-c-est-le-seul-suppl-ment-pr-sent-dan-3928db15623a81d2a4a4e91ec1000cbf"
     },
     {
       "id": "3928db15-623a-8101-83e5-d00a208e5d10",
@@ -2939,7 +2939,7 @@
     {
       "id": "3808db15-623a-80c6-a07b-d9932437b478",
       "identifiant": "INA-364",
-      "titre": "[LOGICIEL] - Empêcher la création d’une nouvelle entreprise depuis une entreprise mère",
+      "titre": "Empêcher la création d’une nouvelle entreprise depuis une entreprise mère",
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Pas urgente",
@@ -2971,7 +2971,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Emp-cher-la-cr-ation-d-une-nouvelle-entreprise-depuis-une-entreprise-m-re-3808db15623a80c6a07bd9932437b478"
+      "url": "https://app.notion.com/p/Emp-cher-la-cr-ation-d-une-nouvelle-entreprise-depuis-une-entreprise-m-re-3808db15623a80c6a07bd9932437b478"
     },
     {
       "id": "3808db15-623a-805f-9053-fe1709943ccf",
@@ -3185,7 +3185,7 @@
     {
       "id": "37c8db15-623a-804a-9194-e1d545a5a6cc",
       "identifiant": "INA-357",
-      "titre": "[LOGICIEL] - Erreur sur les SCHEDULES si indispo sans emplacement",
+      "titre": "Erreur sur les SCHEDULES si indispo sans emplacement",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Pas urgente",
@@ -3217,7 +3217,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Erreur-sur-les-SCHEDULES-si-indispo-sans-emplacement-37c8db15623a804a9194e1d545a5a6cc"
+      "url": "https://app.notion.com/p/Erreur-sur-les-SCHEDULES-si-indispo-sans-emplacement-37c8db15623a804a9194e1d545a5a6cc"
     },
     {
       "id": "3798db15-623a-80a5-a5d1-d3d81e14c4a6",
@@ -5541,7 +5541,7 @@
     {
       "id": "3518db15-623a-80a5-8b4f-d2cd483d8a3b",
       "identifiant": "INA-280",
-      "titre": "[LOGICIEL] Erreur FreshResource synchroV2 failed : client avec un cllang à NULL",
+      "titre": "Erreur FreshResource synchroV2 failed : client avec un cllang à NULL",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
@@ -5573,7 +5573,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Erreur-FreshResource-synchroV2-failed-client-avec-un-cllang-NULL-3518db15623a80a58b4fd2cd483d8a3b"
+      "url": "https://app.notion.com/p/Erreur-FreshResource-synchroV2-failed-client-avec-un-cllang-NULL-3518db15623a80a58b4fd2cd483d8a3b"
     },
     {
       "id": "3518db15-623a-80a2-b934-f7a43cae2186",
@@ -12451,7 +12451,7 @@
     {
       "id": "3118db15-623a-8030-a2ff-ec0665b50130",
       "identifiant": "INA-38",
-      "titre": "[LOGICIEL] Optim SQL - suppression fiche client",
+      "titre": "Optim SQL - suppression fiche client",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
@@ -12480,7 +12480,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Optim-SQL-suppression-fiche-client-3118db15623a8030a2ffec0665b50130"
+      "url": "https://app.notion.com/p/Optim-SQL-suppression-fiche-client-3118db15623a8030a2ffec0665b50130"
     },
     {
       "id": "3118db15-623a-80cf-aea4-ff038ddeadde",
@@ -13088,7 +13088,7 @@
     {
       "id": "30b8db15-623a-8090-988d-ff16092e3037",
       "identifiant": "INA-16",
-      "titre": "[WEB+LOGICIEL] Mapping des TO / OTA avec CTV",
+      "titre": "Mapping des TO / OTA avec CTV",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
@@ -13119,7 +13119,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/WEB-LOGICIEL-Mapping-des-TO-OTA-avec-CTV-30b8db15623a8090988dff16092e3037"
+      "url": "https://app.notion.com/p/Mapping-des-TO-OTA-avec-CTV-30b8db15623a8090988dff16092e3037"
     },
     {
       "id": "30b8db15-623a-8074-ae10-c00be0dabd5a",
