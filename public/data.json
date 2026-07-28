@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-28T13:00:39.060Z",
+  "generatedAt": "2026-07-28T15:30:34.303Z",
   "classique": [
+    {
+      "id": "3ab8db15-623a-81a3-82ae-e7328843d8f2",
+      "identifiant": "INA-541",
+      "titre": "Resasol - Séjours Coolncamp en erreur",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-28T13:05:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Les envois vers COOLNCAMP étaient en erreur chez RESASOL à cause d'une mauvaise syntaxe de l'adresse email. Après analyse, il s'avère que NAXI n'effectue plus de contrôle sur la syntaxe de l'email.<div><br><b><u>Pour reproduire :&nbsp;</u></b><div><br></div><div>1. Créer une nouvelle fiche client dans NAXI</div><div>2. Dans le champs adresse email, saisir par exemple 'contact@hotmail'</div><div>3. Fermer la fiche client</div><div><br></div><div>NAXI n'affiche plus aucune alerte comme quoi la syntaxe est erronée</div><div><br></div><div><b>Reproduit sur ma démo HF et SQL en 18.28<br>RESASOL est en SQL 18.25</b></div></div><div><b><br></b></div><div><b><font color=\"#16a34a\">-&gt; Surement introduit par la BUG 1088 livré en 18.22</font></b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Resasol-S-jours-Coolncamp-en-erreur-3ab8db15623a81a382aee7328843d8f2"
+    },
     {
       "id": "3aa8db15-623a-81cd-bbfc-da0e5aa56778",
       "identifiant": "INA-540",
@@ -631,8 +663,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "AOUT 26",
-        "JUILLET 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -650,7 +681,9 @@
       "pointsBlocage": "",
       "explication": "Test d'une migration en Laravel 13 pour une des APIs",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -906,12 +939,12 @@
     {
       "id": "39a8db15-623a-8174-a004-e94660b7ac8e",
       "identifiant": "INA-514",
-      "titre": "[LOGICIEL] - Incohérence table planning en SQL SAAS",
+      "titre": "[LOGICIEL] - Incohérence table planning",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": "Moyenne",
+      "priorisation": "Haute",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -929,13 +962,15 @@
       "pointsBlocage": "",
       "explication": "Incohérence planning constatée sur établissement LES ROUSSIERES :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/36d6f5caee8f4176a7a11b8f2febb9d1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Analyser pour comprendre comment cela a pu se produire<br><br>Le séjour 4174 a été crée le 27.05 et le séjour 6258 a été crée le 10.07<br>Ils sont en SQL depuis un moment donc ces deux séjours ont été crée en SQL<br><br>-&gt; Voir pour ajouter un garde fou pour éviter ce genre de situation ?&nbsp;<br><br><b>Nouveau cas constaté ce Lundi 20 Juillet sur l'établissement REPOS DU BALADIN /&nbsp;</b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/802543e04e47422a84e3c5eb0b4e4e67\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div><br></div><div><br></div><div>Nouveau cas constaté le 20.07.2026 chez Flower Exploit :&nbsp;<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/8cc5703c0dca45db92243f0f587d0d2c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Le soucis semble lié aux indispos car sur chaque cas, on constate que dans l'une des lignes en doublon on a un plstatut à 8</b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/LOGICIEL-Incoh-rence-table-planning-en-SQL-SAAS-39a8db15623a8174a004e94660b7ac8e"
+      "url": "https://app.notion.com/p/LOGICIEL-Incoh-rence-table-planning-39a8db15623a8174a004e94660b7ac8e"
     },
     {
       "id": "3998db15-623a-8159-93fd-fb16ddcc6485",
@@ -1115,7 +1150,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1133,7 +1168,9 @@
       "pointsBlocage": "",
       "explication": "<b>Client concerné :</b> Les Mediterrannées<div><br></div><div><u><b>Demande :</b></u>&nbsp;<br><br>-&gt; Envoyer les plaques d'immatriculation dans le CRM afin que CTV puisse ensuite les envoyer à 1check</div><div><br></div><div><b><u>Mail initial du client </u></b>:&nbsp;<br><br><i>Bonjour,&nbsp;</i><div><i><br></i></div><div><i>Nous avons demandé à 1check de faire apparaitre les plaques d’immatriculation des clients dans les réservations afin que notre équipe de sécurité puisse savoir à qui appartient les véhicules en cas de gêne.</i></div><div><i>Il apparait que l’information ne remonte pas de Naxi.</i></div><div><i>Pourriez-vous faire remonter cette information dans l’API ?</i><br><br><u><b>Retour de Mailys :&nbsp;</b></u><br><br><i>Hello,</i></div><div><i><br></i></div><div><i>C’est assez simple pour nous d’ajouter un champ, c’est d’ailleurs prévu en ce qui concerne l’immat.</i></div><div><i>Pour moi la question est plutôt quand cela pourra être ajouté à la passerelle Naxi&gt;CRM….</i></div><div><i><br></i></div><div><br></div></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2907,7 +2944,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2926,7 +2963,9 @@
       "pointsBlocage": "",
       "explication": "Le groupe CHADOTEL a réussi à créer une nouvelle entreprise dans NAXI ce qui n’est pas censé être autorisé car du coup aucune licence n’est rattaché chez nous",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3151,7 +3190,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3168,9 +3207,11 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Deux clients nous ont signalés des erreurs de synchro sur l’envoi de SCHEDULE.\n\nAprès recherche le soucis provenait du fait que l’indispo a pu être crée sans emplacement",
+      "explication": "Deux clients nous ont signalés des erreurs de synchro sur l’envoi de SCHEDULE.\n\nAprès recherche le soucis provenait du fait que l’indispo a pu être crée sans emplacement.<div><br><div><b>Client impacté </b>: Soleil de Bastide (était en 18.08 quand ils nous ont appelé donc bug surement assez ancien mais qui ne devait pas poser problème avant les SCHEDULE).</div><div><br></div><div>Camping La Pedagne</div><div><br></div><div><b>Détails</b> :</div><div><ul><li>Se rendre dans le menu Disponibilités &gt; Indisponibilités</li><li>Cliquer sur le gros “+” pour créer plusieurs indispos</li><li>Saisir les dates d’indispos</li><li>Cliquer sur une ligne du tableau, une case à cocher va apparaître</li><li>Cocher cette case</li><li>Saisir un motif</li><li>Valider l’indispo</li><li>Si on regarde la synchro, elle boucle en erreur sur l’envoi des SCHEDULES</li></ul></div><div><br></div><div><b>Voici le log d’erreur </b>:</div><div><br></div><div>2026-06-11 09:02:13. Fonction : AbstractStandardFunction InsertOrUpdate</div><div><br></div><div>2026-06-11 09:02:13. Paramètre 1 : ScheduleFunction : The 0.pitchId field is required. 2026-06-11 09:02:13. Paramètre 2 : à NaxiGestionCore.Synchro.Synchronize.SynchronizeFunction.AbstractStandardFunction`2.InsertOrUpdate()*</div><div><br></div><div>2026-06-11 09:02:13. Fonction : AbstractFunction</div><div><br></div><div>2026-06-11 09:02:13. Paramètre 1 : Execute ScheduleFunction : The 0.pitchId field is required. 2026-06-11 09:02:13. Paramètre 2 : à NaxiGestionCore.Synchro.Synchronize.SynchronizeFunction.AbstractStandardFunction2.InsertOrUpdate() à NaxiGestionCore.Synchro.Synchronize.SynchronizeFunction.AbstractStandardFunction2.DoTask() à NaxiGestionCore.Synchro.Synchronize.AbstractFunction1.Execute(IFunctionFactory1 functionFactory)*</div></div><div><br></div><div><b>Reproduit sur démo Angélique en 18.20 / HF</b> → Voir pour empêcher l’enregistrement d’une ligne dans la table PLANING sans emplacement</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5505,7 +5546,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5522,9 +5563,11 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Certains messages de type clientnaxi n’arrivent pas à être récupéré par la synchro et sont donc envoyé dans le fresh_ressource_pms_error.\n\nAprès analyse, cela se produit lorsque le client présent dans la table clientnaxi, a un cllang à NULL",
+      "explication": "<b>Client Ciela : Camp du Domaine&nbsp;&nbsp;</b><div><br></div><div>Certains messages de type clientnaxi n’arrivent pas à être récupéré par la synchro et sont donc envoyé dans le fresh_ressource_pms_error.\n\nAprès analyse, cela se produit lorsque le client présent dans la table clientnaxi, a un cllang à NULL</div><div>Suite à la mise en place du dashboard, j’ai constaté deux ressources en erreur chez Ciela &amp; Camp du Domaine :</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/548cdbe13a5b44148f1fdc77a13c0181\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Après recherche, cette erreur est causée par un cllang à NULL :</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/d0db03fc51514ef392be774648763a7e\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><i>Logs NAXI :</i></div><div><br></div><div>2026-04-29 17:13:27. Fonction : CustomerListener 2026-04-29 17:13:27. Paramètre 1 : CustomerListener Error converting value {null} to type 'System.Int32'. Path 'data[132].cllang', line 1, position 149432. 2026-04-29 17:13:27. Paramètre 2 : à NaxiGestionCore.Synchro.CheckRessources.AbstractSynchroRecupListener</div><div><br></div><div><code style=\"background:#f4f4f5;border:1px solid #e4e4e7;border-radius:4px;padding:1px 5px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em\">2.GetDataToSynchonize(String webAccount, String seasonCode) dans C:\\\\Users\\\\rachid.amrani.alaoui.INAXEL\\\\Workspace\\\\gds\\\\NaxiGestionCore\\\\Synchro\\\\CheckRessources\\\\AbstractSynchroRecupListener.cs:ligne 274 à NaxiGestionCore.Synchro.CheckRessources.AbstractSynchroRecupListener</code>&nbsp;</div><div><br></div><div>2.OnMessage(NaxiMessage message) dans C:\\Users\\rachid.amrani.alaoui.INAXEL\\Workspace\\gds\\NaxiGestionCore\\Synchro\\CheckRessources\\AbstractSynchroRecupListener.cs:ligne 88</div><div><br></div><div>J’ai ensuite fait une recherche sur le web et en effet, pour ciela, j’ai environ 3500 clients dont le cllang est à NULL</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/12db874ce7ae4cefb2399d6c5efe9770\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Côté NAXI, le cllang est aussi à 0.</div><div><br></div><div>&nbsp;En creusant encore un peu, j’ai reproduit sur ma démo la création d’une fiche client avec un cllang à 0 :&nbsp;</div><div><br></div><div>1. Refuser une resa web&nbsp;</div><div><br></div><div>2. A l’affichage de la fenêtre, choisir envoyer une email et créer la fiche client.&nbsp;</div><div><br></div><div>3. Ne surtout pas réouvrir la fiche client → Si on regarde en base le cllang est à NULL&nbsp;</div><div><br></div><div><b>Chez CIELA</b> → J’ai mis les clients ayant un cllang à NULL à 1 (valeur par défaut dans leur param) : je l’ai fait côté NAXI Gestion&amp; sur le web pour éviter toute erreur → Puis j’ai relancé la ressource, elle est arrivée dans NAXI sans erreur</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5577,9 +5620,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION HF",
@@ -12431,7 +12472,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Message d'erreur sur la suppression d'un client",
+      "explication": "<b>Client : Ciela (Base groupe)</b><div><br></div><div><u>Détails :</u></div><div><br></div><div>Message d'erreur sur la suppression d'un client :</div><div><br></div><div>1. Ouvrir une fiche client&nbsp;</div><div><br></div><div>2. Cliquer sur la corbeille pour effectuer la suppression du client (Clic sur BT_Suppr)</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c5febf66e07347998e2c9a7ee7e5c5df\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>3. De façon aléatoire (mais je pense que c'est selon le camping où je suis connectée ?) , je me prends le message d'erreur suivant :</div><div><pre style=\"background: rgb(15, 23, 42); color: rgb(226, 232, 240); border-radius: 8px; padding: 12px 14px; overflow: auto; font-size: 12.5px; line-height: 1.5; white-space: pre-wrap; margin: 8px 0px;\">Le mécanisme de sécurité du WLangage a détecté une erreur dans l'application EVOCAMP. <br>Contactez le fournisseur de l'application EVOCAMP.<br><br>Erreur de l'accès natif MySQL.<br>Numéro d'erreur = 22 <br><br>L'erreur suivante a été renvoyée par la base de données &lt;172.16.27.4&gt; :<br>Numéro d'erreur = &lt;2008&gt;.<br>Message d'erreur :<br>MySQL client ran out of memory<br><br>Pile des appels :<br>Clic sur BT_suppr (client_traitement.BT_suppr), ligne 26<br><br>Date : 16/10/2023 15:47:16<br>Projet : EVOCAMP (14.1.511.16)<br><br>Informations supplémentaires :<br>Code erreur : 73001<br>Code erreur WD55 : 3001<br>Module : wd260hf.dll (01F260101d - 26.0.313.5)<br><br>Informations de débogage :<br>IEWDMSQL=100.22<br>Module=&lt;WDMSQL&gt;<br>Version=&lt;26.0.62.0&gt;<br>Couche client : C:\\NAXI\\libmysql.dll<br>Provider : WinDevMySQL<br>Utilisateur : inaxel<br>Source de données : 172.16.27.4<br>Base de données : ngw_pommier<br>Unicode supporté : 1<br>Code page du WL : 1252<br>Code page de la connexion : UTF-8<br>Fonction (7,118)<br>EIT_BASECODE : &lt;2008&gt;<br>EIT_INFOCLIENT : &lt;5.6.16&gt;<br>EIT_INFOSERVEUR : &lt;5.7.42-log&gt;<br>EIT_NATIVECODE : &lt;22&gt;<br>EIT_LOGICALTABLENAME : &lt;FACTURE&gt;<br>EIT_TYPE_WDFILE : &lt;2&gt;<br>EIT_IDCODE : &lt;18&gt;</pre><p>&nbsp;📝<span style=\"background-color: rgb(191, 219, 254);\">Dans tous les cas, même si je me prends pas de messages d'erreur, près de 2 minutes pour supprimer la fiche client. En regardant en parallèle sur le serveur SQL, beaucoup de requêtes non optimisées explique probablement le plantage :</span></p><p>SELECT <i>`facodsoc`,`facodexe`,`fanumfac`,`fanumcli`,`fatype`,`fattc`,`faht`,`fatva`,`fataxsej`,`faregle`,`faavfact`,`fainterf`,`fadate`,`fareptva`,`farepht`,`faheure`,`fanom`,`faprenom`,`faad1`,`faad2`,`facp`,`faville`,`fapays`,`facivil`,`facom`,`faautres`,`fareportsignpreced`,`fasignature`,`fasocadresse`,`fasocville`,`fasoccp`,`fasocpays`,`fasocsiret`,`fasocnaf`,`fasoctva`,`facloture`,`faversion`,`faoper`,`fanomoper`,`faposte`,`fareptaux`,`facloturenum`,`farepttc`,`fatotalremise`,`fanbimpression`,`fanbarticles`,`fanumtvacli`,`falistregl`,`fasoclib`,`faextrsignature`,`farepcode`,`faidauto`,`fanblig`,`fatypop`,`facloturemens`,`facloturemensnum`,`faclotureexe`,`faclotureexenum`,`faclientpro`,`faformejuridique`,`faversionsign`,`fanifcli`,`faexecompta`,`facapital`,`farcs`,`fagreffeville`,`fatypedocument`,`fasiretcli` FROM `facture` WHERE `fanumcli`&gt;16183 ORDER BY 4 , 52</i></p><p>SELECT<i> `coucodsoc`,`coucodexe`,`couid`,`counumcli`,`coudate`,`couoper`,`couheure`,`coutype`,`counumcom`,`counumdoc`,`coudocsj`,`couadmail`,`counumtel`,`coudiff`,`coueche`,`couautres`,`coutexte` FROM `courcli` WHERE `counumcli`&gt;16183 ORDER BY 4 , 1 , 2 , 3 , 5 , 6 , 7 , 8 , 9 , 10 , 12 , 13 , 14 , 15 , 16</i></p></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -30315,7 +30356,7 @@
     ]
   },
   "counts": {
-    "classique": 391,
+    "classique": 392,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
