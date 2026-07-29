@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-29T13:20:56.289Z",
+  "generatedAt": "2026-07-29T15:24:06.680Z",
   "classique": [
+    {
+      "id": "3ac8db15-623a-8194-a79d-e0ea930a8897",
+      "identifiant": "INA-542",
+      "titre": "Naxi Nomad : Erreur sur la transmission des plaques d'immatriculation entre le web & Naxi Gestion",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Nomad"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-29T13:38:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>Les plaques d'immatriculation ne redescendent pas correctement dans NAXI lorsque :&nbsp;</div><div><br></div><div>1. Créer un séjour dans NAXI dont la date d'arrivée est égale à la date du jour.</div><div>2. Se rendre sur NAXI Nomad &gt;Module Accueil &gt; Enregistrer une arrivée</div><div>3. Le séjour précédemment crée apparaît</div><div>4. Cliquer sur le séjour pour accéder au détail</div><div>5. Cliquer sur le bouton \"Info Accès\"</div><div>6. Sur le véhicule n°1, renseigner la plaque d'immatriculation, marque &amp; couleur puis enregistrer</div><div>7. Passer le séjour en Arrivée</div><div><br></div><div><b><u>Résultat constaté :&nbsp;</u></b><br><br>Si je clique ensuite sur Nouvelle Recherche, mon séjour précédemment validé apparaît toujours</div><div>Et surtout, la plaque d'immatriculation saisie ne semble pas être mémorisée.</div><div>Côté NAXI Gestion, un message d'erreur apparaît dans la fenêtre de synchro :&nbsp;<br><i>Que s'est-il passé ?</i></div><div><i>Erreur de doublon lors de la modification de l'enregistrement &lt;256&gt; dans le fichier &lt;csjcodeC&gt;.</i></div><div><i>Cette modification aurait provoqué un doublon sur la clé &lt;CCOCODE&gt; avec l'enregistrement &lt;512&gt;.</i></div><div><i><br></i></div><div><i>Code erreur : 70010</i></div><div><i>Niveau : erreur non fatale</i></div><div><i>Code erreur WD55 : 10</i></div><div><i><br></i></div><div><i>Module : wd260hf.dll (01F260101d - 26.0.313.5)</i></div><div><i><br></i></div><div><i>Informations de débogage :</i></div><div><i>IEWDHF=37.4</i></div><div><i>Module=&lt;WDHF&gt;</i></div><div><i>Version=&lt;26.0.313.5&gt;</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_LOGICALTABLENAME : &lt;csjcodeC&gt;</i></div><div><i>EIT_ITEMNAME : &lt;CCOCODE&gt;</i></div><div><i>EIT_RECNUM : &lt;512&gt;</i></div><div><i>EIT_PATHFIC : &lt;C:\\NAXICOD\\fichiers\\csjcode.FIC&gt;</i></div><div><i>EIT_PATHNDX : &lt;C:\\NAXICOD\\fichiers\\csjcode.ndx&gt;</i></div><div><i><br></i></div><div><i>Si je regarde dans ma bdd NAXICODE, le ccocode = 512 correspond à un enregistrement de 2021 :&nbsp;<br></i><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f255753b294547cbb0ca9cd2b5950b50\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><i><br></i><br>Si je clique sur OK, je vois passer une récupération de 1 Order. Mais le séjour n'est pas modifié dans NAXI (statut toujours en réservation + immatriculation non récupérée).<br>Si je refais la manipulation une deuxième fois sur le web, cette fois, le séjour dans NAXI bascule bien en arrivée mais l'immatriculation n'est toujours pas récupérée.</div><div><i><br></i></div><div><b>Reproduit sur démo Angélique en 18.28 HF</b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Naxi-Nomad-Erreur-sur-la-transmission-des-plaques-d-immatriculation-entre-le-web-Naxi-Gestion-3ac8db15623a8194a79de0ea930a8897"
+    },
     {
       "id": "3ab8db15-623a-81a3-82ae-e7328843d8f2",
       "identifiant": "INA-541",
@@ -30362,7 +30394,7 @@
     ]
   },
   "counts": {
-    "classique": 392,
+    "classique": 393,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
