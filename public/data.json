@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T06:27:31.969Z",
+  "generatedAt": "2026-07-29T09:19:28.499Z",
   "classique": [
     {
       "id": "3ab8db15-623a-81a3-82ae-e7328843d8f2",
@@ -3156,7 +3156,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "JUILLET 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3174,7 +3174,9 @@
       "pointsBlocage": "",
       "explication": "Lorsque l’on se connecte sur l’espace client, et que l’on souhaite visualiser le détail d’une réservation, le montant des suppléments est erroné<div><br></div><div><b>Client impacté </b>: Domaine de la Bergerie</div><div><br></div><div><b>Détails :</b></div><div><br></div><div>Sur NAXI, dans le paramétrage des suppléments, choisir un supplément et le paramétrer en Mode de calcul “Le prix varie suivant la période”</div><div><br></div><div>Saisir plusieurs périodes tarifaires et valider</div><div><br></div><div>Sur une fiche client, créer un séjour</div><div><br></div><div>Dans ce séjour, saisir une date d’arrivée &amp; départ qui se chevauchent sur deux périodes tarifaires</div><div><br></div><div>Ajouter le supplément paramétré précédemment</div><div><br></div><div>Valider le séjour</div><div><br></div><div>Se rendre sur l’espace client du client en question</div><div><br></div><div>Cliquer sur la réservation, puis cliquer sur “Détails”</div><div><b><br></b></div><div><b>Résultat :</b></div><div><br></div><div>Le montant total du séjour est OK</div><div><br></div><div>Le montant total des suppléments est OK</div><div><br></div><div>En revanche, le montant de chaque supplément est KO : est affiché uniquement la première période tarifaire</div><div><br></div><div>**Reproduit sur démo Angélique en 18.20 HF</div><div><br></div><div>→ Je reproduis également le soucis si je crée un séjour sur une seule période tarifaire mais avec des mouvements de suppléments (dans mon exemple, mon tarif change au 15/07 // Je crée un séjour du 10/07 au 13/07 → Je saisis un mouvement sur mon supplément Adulte (4 pers jusqu’au 12/07 puis 3 pers sur la nuit du 12/07) // Si je retourne sur l’espace client, je constate le même soucis (seule la première ligne du calcul est prise en compte)**</div><div><br></div><div>Lien JAM :&nbsp;<a href=\"https://jam.dev/c/caa88d04-6e7e-416a-9195-f78cb2d005e9\">https://jam.dev/c/caa88d04-6e7e-416a-9195-f78cb2d005e9</a></div><div><br></div><div><b>Analyse du problème :</b></div><div>En base de donnée, il y a une mauvaise information concernant le supplément, dans la command en multi période (sur mon exemple) il y a une période à 10€ et une autre à 84€</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ec6b905d6469406092125642025f32a6\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Sur l’espace client, le montant supplément est le bon et se met à jour lorsqu’on le change dans Naxi. Dans le détail par contre , il ne prend en compte que la première période du supplément</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/bb76abece80f4ba4ba51214c36e9b115\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/aff3dbdd295e4e2a986ae03643aa7b81\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/16d2beaed9204201946c876e47588c26\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Il faut que le <b>cmsuppl</b> prenne en compte la totalité du montant du supplément pour que l’affichage dans le détail soit correct</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
