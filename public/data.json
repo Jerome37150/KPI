@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-07-29T18:48:41.940Z",
+  "generatedAt": "2026-07-29T20:05:37.093Z",
   "classique": [
+    {
+      "id": "3ac8db15-623a-81a1-b5b1-d177397a1d22",
+      "identifiant": "INA-543",
+      "titre": "CLOS DE LA CHAUME 88 - Pb de dispo lié aux indispo",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-07-29T19:23:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Saas en 18.28, sql<div>la cliente reçoit des réservations de CTV en emplacement confort alors que c'est complet</div><div>quand je regarde le planning il y a des indisponibilités sur ces dates</div><div>Est-ce que cela vient de ces indispo, comme déjà remontés par Julie (Abijune, Belle Roche, Raguenes)&nbsp;</div><div><b><br></b></div><div><b>il y a deja un ticket sur inacom de Sabine qui date d'hier :</b></div><div><i><b>suite inter ML OK =&gt; j'en informe la cliente mais Pb persisite = reverif manque la case Blocage planning =&gt; decoche puis recoche DR puis blocage + repousse planning = OK sur emplact nature</b></i></div><div><br></div><div>j'ai renvoyé les dispo réelles par unité, les dates des resa qui sont tombées ne sont plus réservables sur leur site</div><div><br></div><div>resa 19503712 LEVEILLARD Laurent&nbsp;</div><div>du 02/08 au 07/08</div><div>empl confort</div><div><br></div><div>resa 19505602 WITTMANN Théo</div><div>du 10 au 13/08</div><div>Empl confort</div><div><br></div><div>la cliente va bloquer la resa ferme en attendant qu'on trouve une solution, car elle a 4 résa tombées depuis hier alors que pas dispo</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/CLOS-DE-LA-CHAUME-88-Pb-de-dispo-li-aux-indispo-3ac8db15623a81a1b5b1d177397a1d22"
+    },
     {
       "id": "3ac8db15-623a-8194-a79d-e0ea930a8897",
       "identifiant": "INA-542",
@@ -996,7 +1028,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Incohérence planning constatée sur établissement LES ROUSSIERES :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/36d6f5caee8f4176a7a11b8f2febb9d1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Analyser pour comprendre comment cela a pu se produire<br><br>Le séjour 4174 a été crée le 27.05 et le séjour 6258 a été crée le 10.07<br>Ils sont en SQL depuis un moment donc ces deux séjours ont été crée en SQL<br><br>-&gt; Voir pour ajouter un garde fou pour éviter ce genre de situation ?&nbsp;<br><br><b>Nouveau cas constaté ce Lundi 20 Juillet sur l'établissement REPOS DU BALADIN /&nbsp;</b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/802543e04e47422a84e3c5eb0b4e4e67\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div><br></div><div><br></div><div>Nouveau cas constaté le 20.07.2026 chez Flower Exploit :&nbsp;<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/8cc5703c0dca45db92243f0f587d0d2c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Le soucis semble lié aux indispos car sur chaque cas, on constate que dans l'une des lignes en doublon on a un plstatut à 8</b></div>",
+      "explication": "Incohérence planning constatée sur établissement LES ROUSSIERES :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/36d6f5caee8f4176a7a11b8f2febb9d1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Analyser pour comprendre comment cela a pu se produire<br><br>Le séjour 4174 a été crée le 27.05 et le séjour 6258 a été crée le 10.07<br>Ils sont en SQL depuis un moment donc ces deux séjours ont été crée en SQL<br><br>-&gt; Voir pour ajouter un garde fou pour éviter ce genre de situation ?&nbsp;<br><br><b>Nouveau cas constaté ce Lundi 20 Juillet sur l'établissement REPOS DU BALADIN /&nbsp;</b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/802543e04e47422a84e3c5eb0b4e4e67\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div><br></div><div><br></div><div>Nouveau cas constaté le 20.07.2026 chez Flower Exploit :&nbsp;<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/8cc5703c0dca45db92243f0f587d0d2c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Le soucis semble lié aux indispos car sur chaque cas, on constate que dans l'une des lignes en doublon on a un plstatut à 8</b></div><div><b><br></b></div><div><u style=\"\"><b><font color=\"#dc2626\">UPDATE 29/07/2026</font></b></u><br><br><b>Pour reproduire le bug -<br></b><br>1. Sur un emplacement, créer un séjour qu'importe les dates (dans mon cas du 05/06 au 18/06)</div><div>2. Aller dans le menu Disponibilités &gt; Indisponibilités.</div><div>3. Créer une indisponibilité en cliquant sur le \"+\"</div><div>4. Saisir des dates qui chevauchent le séjour (dans mon cas, du 01/06 au 10/06).</div><div>5. NAXI affiche alors Planning occupé.</div><div>6. Mais si on regarde la table planning, cela a crée des chevauchements :</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/93c02e1b52d44f0e82c8b0889958d432\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Reproduit sur démo HF et SQL en 18.29&nbsp;</b></div><div><br></div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -30394,7 +30426,7 @@
     ]
   },
   "counts": {
-    "classique": 393,
+    "classique": 394,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
