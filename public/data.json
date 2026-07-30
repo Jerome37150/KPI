@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T08:45:29.090Z",
+  "generatedAt": "2026-07-30T10:55:58.478Z",
   "classique": [
     {
       "id": "3ac8db15-623a-81a1-b5b1-d177397a1d22",
@@ -1028,7 +1028,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Incohérence planning constatée sur établissement LES ROUSSIERES :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/36d6f5caee8f4176a7a11b8f2febb9d1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Analyser pour comprendre comment cela a pu se produire<br><br>Le séjour 4174 a été crée le 27.05 et le séjour 6258 a été crée le 10.07<br>Ils sont en SQL depuis un moment donc ces deux séjours ont été crée en SQL<br><br>-&gt; Voir pour ajouter un garde fou pour éviter ce genre de situation ?&nbsp;<br><br><b>Nouveau cas constaté ce Lundi 20 Juillet sur l'établissement REPOS DU BALADIN /&nbsp;</b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/802543e04e47422a84e3c5eb0b4e4e67\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div><br></div><div><br></div><div>Nouveau cas constaté le 20.07.2026 chez Flower Exploit :&nbsp;<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/8cc5703c0dca45db92243f0f587d0d2c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Le soucis semble lié aux indispos car sur chaque cas, on constate que dans l'une des lignes en doublon on a un plstatut à 8</b></div><div><b><br></b></div><div><u style=\"\"><b><font color=\"#dc2626\">UPDATE 29/07/2026</font></b></u><br><br><b>Pour reproduire le bug -<br></b><br>1. Sur un emplacement, créer un séjour qu'importe les dates (dans mon cas du 05/06 au 18/06)</div><div>2. Aller dans le menu Disponibilités &gt; Indisponibilités.</div><div>3. Créer une indisponibilité en cliquant sur le \"+\"</div><div>4. Saisir des dates qui chevauchent le séjour (dans mon cas, du 01/06 au 10/06).</div><div>5. NAXI affiche alors Planning occupé.</div><div>6. Mais si on regarde la table planning, cela a crée des chevauchements :</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/93c02e1b52d44f0e82c8b0889958d432\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Reproduit sur démo HF et SQL en 18.29&nbsp;</b></div><div><br></div>",
+      "explication": "Incohérence planning constatée sur établissement LES ROUSSIERES :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/36d6f5caee8f4176a7a11b8f2febb9d1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Analyser pour comprendre comment cela a pu se produire<br><br>Le séjour 4174 a été crée le 27.05 et le séjour 6258 a été crée le 10.07<br>Ils sont en SQL depuis un moment donc ces deux séjours ont été crée en SQL<br><br>-&gt; Voir pour ajouter un garde fou pour éviter ce genre de situation ?&nbsp;<br><br><b>Nouveau cas constaté ce Lundi 20 Juillet sur l'établissement REPOS DU BALADIN /&nbsp;</b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/802543e04e47422a84e3c5eb0b4e4e67\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div><br></div><div><br></div><div>Nouveau cas constaté le 20.07.2026 chez Flower Exploit :&nbsp;<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/8cc5703c0dca45db92243f0f587d0d2c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Le soucis semble lié aux indispos car sur chaque cas, on constate que dans l'une des lignes en doublon on a un plstatut à 8</b></div><div><b><br></b></div><div><u style=\"\"><b><font color=\"#dc2626\">UPDATE 29/07/2026</font></b></u><br><br><b>Pour reproduire le bug -<br></b><br>1. Sur un emplacement, créer un séjour qu'importe les dates (dans mon cas du 05/06 au 18/06)</div><div>2. Aller dans le menu Disponibilités &gt; Indisponibilités.</div><div>3. Créer une indisponibilité en cliquant sur le \"+\"</div><div>4. Saisir des dates qui chevauchent le séjour (dans mon cas, du 01/06 au 10/06).</div><div>5. NAXI affiche alors Planning occupé.</div><div>6. Mais si on regarde la table planning, cela a crée des chevauchements :</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/93c02e1b52d44f0e82c8b0889958d432\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Si on supprime ensuite l’indisponibilité, alors dans la table PLANNING la période de l’indisponibilité passe à 0 et donc en disponible.&nbsp;</div><div>On peut alors aller créer un séjour sur cette période là et ça fait un chevauchement pour 2 séjours.</div><div><br></div><div><b>Reproduit sur démo HF et SQL en 18.29&nbsp;</b></div><div><br></div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -3007,7 +3007,7 @@
     {
       "id": "3808db15-623a-80c6-a07b-d9932437b478",
       "identifiant": "INA-364",
-      "titre": "Empêcher la création d’une nouvelle entreprise depuis une entreprise mère",
+      "titre": "Empêcher la création d’une nouvelle entreprise/ suppression exercice depuis une entreprise mère",
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Pas urgente",
@@ -3029,7 +3029,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Le groupe CHADOTEL a réussi à créer une nouvelle entreprise dans NAXI ce qui n’est pas censé être autorisé car du coup aucune licence n’est rattaché chez nous",
+      "explication": "Le groupe CHADOTEL a réussi à créer une nouvelle entreprise et la suppression d'un exercice, dans NAXI ce qui n’est pas censé être autorisé car du coup aucune licence n’est rattaché chez nous",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -3039,7 +3039,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Emp-cher-la-cr-ation-d-une-nouvelle-entreprise-depuis-une-entreprise-m-re-3808db15623a80c6a07bd9932437b478"
+      "url": "https://app.notion.com/p/Emp-cher-la-cr-ation-d-une-nouvelle-entreprise-suppression-exercice-depuis-une-entreprise-m-re-3808db15623a80c6a07bd9932437b478"
     },
     {
       "id": "3808db15-623a-805f-9053-fe1709943ccf",
@@ -3255,7 +3255,7 @@
     {
       "id": "37c8db15-623a-804a-9194-e1d545a5a6cc",
       "identifiant": "INA-357",
-      "titre": "Erreur sur les SCHEDULES si indispo sans emplacement",
+      "titre": "Ne pas pouvoir créer une indispo sans emplacement",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Pas urgente",
@@ -3287,7 +3287,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Erreur-sur-les-SCHEDULES-si-indispo-sans-emplacement-37c8db15623a804a9194e1d545a5a6cc"
+      "url": "https://app.notion.com/p/Ne-pas-pouvoir-cr-er-une-indispo-sans-emplacement-37c8db15623a804a9194e1d545a5a6cc"
     },
     {
       "id": "3798db15-623a-80a5-a5d1-d3d81e14c4a6",
@@ -13248,7 +13248,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Demande amélioration sur l’espace client  mais plus généralement aussi sur la passerelle avec SH : Lors du paiement du solde, pouvoir extraire la taxe de séjour du montant du solde afin que celle-ci puisse être payée sur place",
+      "explication": "Demande amélioration sur l’espace client&nbsp; mais plus généralement aussi sur la passerelle avec SH&nbsp;: Lors du paiement du solde, pouvoir extraire la taxe de séjour du montant du solde afin que celle-ci puisse être payée sur place<div><br></div><div>Aujourd’hui dans SH, un camping peut choisir de prendre en compte la taxe de séjour on non dans le solde du séjour.</div><div><br></div><div>Sauf que de notre côté nous n’avons pas cette information et nous n’avons pas ce type de paramétrage dans NAXI, ce qui fait que actuellement dans l'échange de solde la taxe de séjour est tout le temps prise en compte.</div><div><br></div><div>Ce qui pose soucis pour certains campings qui ne veulent pas encaisser des taxes de séjour avant le venus des clients.</div>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
