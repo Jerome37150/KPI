@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T14:37:56.963Z",
+  "generatedAt": "2026-07-30T16:12:21.015Z",
   "classique": [
     {
       "id": "3ac8db15-623a-81a1-b5b1-d177397a1d22",
@@ -13909,6 +13909,7 @@
       },
       "contributeursReels": [
         "Cédric.F",
+        "Caroline",
         "Jérôme",
         "Albert (UX)",
         "Agathe (PO)",
@@ -17082,7 +17083,8 @@
         "Cédric.V",
         "Albert (Front)",
         "Jérôme",
-        "Albert (UX)"
+        "Albert (UX)",
+        "Marjorie (Test)"
       ],
       "lienMaquette": "https://flick-royal-89410119.figma.site",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-52",
@@ -17295,7 +17297,8 @@
         "Cédric.V",
         "Jérôme",
         "Albert (UX)",
-        "Loic"
+        "Loic",
+        "Marjorie (Test)"
       ],
       "lienMaquette": "https://embed-salon-34129728.figma.site",
       "lienJira": "https://inaxel.atlassian.net/browse/TL-11",
