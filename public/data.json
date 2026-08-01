@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T01:10:26.914Z",
+  "generatedAt": "2026-08-01T04:32:21.552Z",
   "classique": [
     {
       "id": "3ac8db15-623a-81a1-b5b1-d177397a1d22",
@@ -209,7 +209,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "JUILLET 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -228,7 +228,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -2504,7 +2504,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "JUILLET 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2523,7 +2523,9 @@
       "pointsBlocage": "test en cours",
       "explication": "<b>Client impacté : Sirene 66</b><div>Version 18.22 / SQL</div><div><br></div><div>Se connecter sur une saison cloturée (dans mon cas 2025)</div><div><br></div><div>Aller dans les paramètres SH &gt; Bouton CRM</div><div><br></div><div>Envoyer les clients et séjours sur la saison (2025 chez moi)</div><div><br></div><div>Les enregistrements COMMAND et CLIENT s’envoient bien dans la table SYNCHRO</div><div><br></div><div>En revanche la synchro ne traite pas la demande car l’exercice est fermée à la resa web cloturée :</div><div><br></div><div>Reproduit sur démo Angélique en 18.22 HF - Surement lié à la BUG 1055 ?</div><div><b>Lien JAM :&nbsp;<a href=\"https://jam.dev/c/eb0121a2-4e9d-4d25-ab7f-3c35c53719c7\">https://jam.dev/c/eb0121a2-4e9d-4d25-ab7f-3c35c53719c7</a></b></div><div><br></div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7060bae7565d48bbb06b61e995c81f37\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><b>Problématique de la 1055</b> : l’activation de la réservation en ligne ne doit pas être pris en compte. La seule condition doit être si la licence possède la réservation en ligne ou non.&nbsp;</div><div><br></div><div>Lors du réfacto de la synchroV2, nous avons déborné la condition de la réservation en ligne ouverte pour l’envoi des tables utilisées pour le CRM. Ce paramètre doit rester inchangé .&nbsp;</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5302,7 +5304,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUILLET 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5322,7 +5324,7 @@
       "explication": "Suite à l’incendie du data center hébergeant TurboSmtp, NaxiResa & l’espace client moulinait à la fin du traitement, lors de l’envoi du mail au client. Au bout de quelques minutes, une erreur 504 apparaissaient.\n\n→ Nous avons alors modifié les fichiers .env de NaxiApi & NaxiBooking en remplaçant les token de TurboSmtp par ceux d’Express Mailing. Après tests, tout refonctionne correctement.\n\nIl faudra en revanche prévoir :\n\n  • Remigrer sur TurboSmtp une fois que leurs services seront rétablis\n  • Prévoir une API à nous qui tapera sur TurboSMTP, mais qui permettra de changer de facon centraliser le mail profider",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8011,7 +8013,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUILLET 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -8028,7 +8030,7 @@
       "explication": "Vu avec Christophe pour refonte de l’espace client du site Inaxel avec suppression des élements pas utilisés + ajout de lien pour la partie technique",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -13233,7 +13235,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUILLET 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -13253,7 +13255,7 @@
       "explication": "Demande amélioration sur l’espace client&nbsp; mais plus généralement aussi sur la passerelle avec SH&nbsp;: Lors du paiement du solde, pouvoir extraire la taxe de séjour du montant du solde afin que celle-ci puisse être payée sur place<div><br></div><div>Aujourd’hui dans SH, un camping peut choisir de prendre en compte la taxe de séjour on non dans le solde du séjour.</div><div><br></div><div>Sauf que de notre côté nous n’avons pas cette information et nous n’avons pas ce type de paramétrage dans NAXI, ce qui fait que actuellement dans l'échange de solde la taxe de séjour est tout le temps prise en compte.</div><div><br></div><div>Ce qui pose soucis pour certains campings qui ne veulent pas encaisser des taxes de séjour avant le venus des clients.</div>",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
