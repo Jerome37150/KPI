@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-08-03T11:51:29.738Z",
+  "generatedAt": "2026-08-03T14:09:25.282Z",
   "classique": [
+    {
+      "id": "3b18db15-623a-81ef-9c21-eeaa0af3ec95",
+      "identifiant": "INA-545",
+      "titre": "Incohérence entre les plannings du web (planings dans customers_bookings) et la table PLANING de NAXI (Schedules)",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-08-03T13:12:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite au bug présent dans la INA-514 (Incohérences planning), on a voulu essayer d'identifier les campings qui pouvaient avoir le soucis en regardant la table planings dans customers_bookings qui est sur le web. Après quelques vérification dans les bases des clients concernés, on s'est rendu compte qu'il y avait des différences entre les 2 (exemple des lignes d'occupations en double (même séjour sur les 2), des séjours dans NAXI avec des mouvements d'emplacement qui n'étaient pas du tout visible sur le web et des lignes en double,...).&nbsp;<div>Je n'ai pas eu le temps d'identifier les différents cas, ce qu'il va falloir essayer de faire</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Incoh-rence-entre-les-plannings-du-web-planings-dans-customers_bookings-et-la-table-PLANING-de-NAX-3b18db15623a81ef9c21eeaa0af3ec95"
+    },
     {
       "id": "3b18db15-623a-81bd-be84-fcf4e56cce46",
       "identifiant": "INA-544",
@@ -13223,7 +13255,7 @@
       "persPoTest": [],
       "pointAvancement": 0.3,
       "pointsBlocage": "En attente retour CTV > renvoi dans les résa",
-      "explication": "• Le mapping sera réalisé côté CTV. \n• Envoi des données via web service. \n• Côté Inaxel :\n    ◦ Désactivation des fiches OTA non actives\n    ◦ Envoi uniquement des fiches activesObjectif de déploiement : Octobre 2026",
+      "explication": "• Le mapping sera réalisé côté CTV. \n• Envoi des données via web service. \n• Côté Inaxel :\n    ◦ Désactivation des fiches OTA non actives\n    ◦ Envoi uniquement des fiches activesObjectif de déploiement : Octobre 2026<div><br></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -30471,7 +30503,7 @@
     ]
   },
   "counts": {
-    "classique": 395,
+    "classique": 396,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
