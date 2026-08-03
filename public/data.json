@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T04:45:24.592Z",
+  "generatedAt": "2026-08-03T08:18:07.413Z",
   "classique": [
     {
       "id": "3ac8db15-623a-81a1-b5b1-d177397a1d22",
@@ -245,7 +245,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "JUILLET 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -264,7 +264,7 @@
       "explication": "Suite aux différents problèmes de lenteurs rencontrés sur les SAAS ( BUG-1166: [LOGICIEL] - Lenteurs sur Saas et Naxi qui fige de façon aléatoire sur la validation des séjours, enregistrement paiement<div>TEST EN COURS</div><div>&nbsp;et BUG-1167: [LOGICIEL] - Lenteurs sur Saas et Naxi qui fige de façon aléatoire (2ème partie)</div><div>In Progress</div><div>) on s’est rendu compte que c'était l’US BUG-1077: [LOGICIEL] Lenteurs sur affichage de la fenêtre d’envoi d’email de factures si plusieurs séjours</div><div>Done</div><div>&nbsp;qui avait introduit ces lenteurs.</div><div><br></div><div>&nbsp;</div><div><br></div><div>Donc dans l’US BUG-1167: [LOGICIEL] - Lenteurs sur Saas et Naxi qui fige de façon aléatoire (2ème partie)</div><div>In Progress</div><div>&nbsp;il a été décidé de supprimer le code de la BUG-1077: [LOGICIEL] Lenteurs sur affichage de la fenêtre d’envoi d’email de factures si plusieurs séjours</div><div>Done</div><div>&nbsp;et donc cette US est pour apporter un nouveau correctif au bug de la BUG-1077: [LOGICIEL] Lenteurs sur affichage de la fenêtre d’envoi d’email de factures si plusieurs séjours</div><div>Done</div><div>Afficher un aperçu</div><div>.</div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -1974,7 +1974,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUILLET 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1992,7 +1992,9 @@
       "pointsBlocage": "",
       "explication": "<div><i>Un message d'erreur apparaît à la validation d'un séjour lorsque :&nbsp;</i><br><br>1. Se rendre dans le menu Paramètres &gt; Actions de validation automatique des séjours&nbsp;</div><div>2. Sur l'une des étapes de séjour (dans mon exemple, Option camping), cocher l'impression automatique du bon de séjour&nbsp;</div><div>3. Ouvrir une fiche client</div><div>4. Créer un séjour correspondant à l'étape paramétrée (dans mon cas, un séjour en option sur une catégorie camping)</div><div>5. Valider le séjour</div><div>6. NAXI affiche alors le message d'erreur ci dessous :&nbsp;</div><div><br><i>2026-07-01 13:22:16. Fonction : Global exception</i></div><div><i>2026-07-01 13:22:16. Paramètre 1 : Appel WL :</i></div><div><i>Traitement de 'Procédure locale imprim_docs' (sejour.PROCEDURE.imprim_docs), ligne 430</i></div><div><i>Fonction 'iImprimePDF', syntaxe 0</i></div><div><i>Que s'est-il passé ?</i></div><div><i><b>Impossible d'ouvrir le fichier &lt;C:\\NAXI\\DOCS_DEMO\\DOCS_2026\\sejours\\BS00000221_0.pdf&gt;.</b></i></div><div><i>Code erreur : 0</i></div><div><i>Niveau : erreur fatale</i></div><div><i>Code d'erreur système : 2</i></div><div><i>Message d'erreur système :</i></div><div><i>Le fichier spécifié est introuvable.</i></div><div><i>Module : wd260pdf.dll (01F260101d - 26.0.340.0)</i></div><div><i>Informations de débogage :</i></div><div><i>##(IXStream)-Handle=&lt;FFFFFFFF&gt;##</i></div><div><i>Fonction (21,39)</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_SRCFILE : &lt;C:\\NAXI\\DOCS_DEMO\\DOCS_2026\\sejours\\BS00000221_0.pdf&gt;</i></div><div><i>EIT_PILEWL :</i></div><div><i>Procédure locale imprim_docs (sejour.PROCEDURE.imprim_docs), ligne 430</i></div><div><i>Clic sur BT_VALID (sejour.BT_VALID), ligne 333</i></div><div><i>Clic sur BT_ADDSEJ (client_traitement.BT_ADDSEJ), ligne 50</i></div><div><i>EIT_DATEHEURE : 01/07/2026 13:22:16</i></div><div><i>EIT_TYPE_WDFILE : &lt;2&gt;</i></div><div><i>EIT_IDCODE : &lt;458752&gt;</i></div><div><i>2026-07-01 13:22:16. Paramètre 2 :&nbsp;</i><br><br>-&gt; Si je regarde dans mes docs, je ne retrouve pas en effet le fichier PDF sur lequel un \"_0\" a été rajouté<br>Aucun log supplémentaire sur le mode debug<br><br><u><b>Deuxième cas constaté sur la camping Larouletta</b> :&nbsp;</u><br><br>Configuration chez lui :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f576b45d298a456bae11432d9acae95a\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Lorsque l'on crée ensuite un séjour, le bon de séjour est censé s'envoyer en tant que pièce jointe, mais à la place on obtient ce message d'erreur :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e0f27c0244ab4e0194ae9b232f09ce18\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br></div><div><br></div><div><b>Reproduit sur démo Angélique en HF 18.25</b></div><div><b><i>Lien JAM</i></b> :&nbsp;<a href=\"https://jam.dev/c/1f6b9139-7e29-4f36-afb6-3415fe789f69\">https://jam.dev/c/1f6b9139-7e29-4f36-afb6-3415fe789f69</a></div><div><br><br></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2106,7 +2108,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "JUILLET 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2125,7 +2127,9 @@
       "pointsBlocage": "",
       "explication": "Nous constatons que les fenêtres de synchros NaxiCod &amp; NaxiCam s'arrêtent de façon inopinée.&nbsp;<br>Après tests sur nos démos en interne, nous constatons que la fenêtre s'est arrêtée à 23h59 :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/88f430ec46f74b1ebb3a96146de336a6\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div><b>Après analyse des logs :&nbsp;</b></div><div><br></div><div><i>2026-06-29 22:59:53. Fonction : AccessControlManager.GetRemoteData:https://synchro-access-control-api.inaxel.com/api/companies/inaxelmaxr/accessControl/devices/cod/id/1/naxictrl</i></div><div><i>2026-06-29 22:59:53. Paramètre 1 :&nbsp;</i></div><div><i>2026-06-29 22:59:53. Paramètre 2 : Request failed Bad Gateway&nbsp;</i></div><div>-------------------------------------------------------------------</div><div><br></div><div>Après échange avec Ludwig, on suppose que le pod a redémarré à 23h00 et la fenêtre de synchro ne doit pas se reconnecter au nouveau pod<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/5462d6f509fe48a2b973459009a3c6ba\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>+ Constat du 09.07.2026 fait par Steven &amp; Ludwig</b> :&nbsp;<br><br>-&gt; A chaque erreur 502, la synchro de NAXICOD ou NAXICAM se fige complètement et nécessite un redémarrage.<br>Il faudrait donc une procédure de reconnexion en cas d'erreur 502, en cas d'erreur réseau...etc<br><br><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2745,7 +2749,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "JUILLET 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2763,7 +2767,9 @@
       "pointsBlocage": "",
       "explication": "Sunelia  a reçu une modif de resa :\n\nPlain Text\n{\"body\":{\"bookingRequest\":{\"shBookingId\":17471741,\"shEstablishmentId\":15544,\"shEstablishmentName\":\"Domaine de la Forge - Sea Green by Sunêlia\",\"shProductId\":142986,\"productName\":\"Chalet LUXE Hékipia - 2 chambres 4 pers.\",\"productType\":\"Locatif\",\"shGridId\":413197,\"gridName\":\"TARIFICATION A LA NUITÉE\",\"naxiToId\":\"sunelia\",\"purchaseDate\":\"2026-01-17T19:22:42.453\",\"arrivalDate\":\"2026-06-20T00:00:00\",\"numberOfNights\":12,\"nbPersIncluded\":7,\"isFirmBooking\":false,\"status\":0,\"customer\":{\"name\":\"NATHALIE\",\"surname\":\"PIRRONE\",\"language\":\"FR\",\"birthDate\":\"1969-01-21T00:00:00\",\"address\":\"15 RUE DE POINT DU JOUR\",\"town\":\"SAINT ILLIERS LA VILLE\",\"zip\":\"78980\",\"countryCode\":\"FR\",\"phone\":\"0630827922\",\"email\":\"pirrone.nathalie@gmail.com\",\"isGdprOptinAccepted\":false,\"accompanyingPersons\":[{\"name\":\"SERGE\",\"surname\":\"PIRRONE\",\"birthDate\":\"1962-02-28T00:00:00\"}]},\"prices\":{\"details\":{\"currency\":\"€\",\"\nbase\":1281,\n\"total\":1046.58,\n\"deposit\":212.06,\n\"bookingFees\":0},\n\"appliedOffers\":{\"specialOffer\":{\"shId\":2858319,\"discountCode\":\"1010220\",\"label\":\"Les beaux jours reviennent | -14%\",\"amount\":179.34},\"overlayOffer\":{\"shId\":14150,\"label\":\"CSE -CPC classique BS 2026 | -5,00 %\",\"amount\":55.08}},\n\"extras\":[{\"shId\":536,\"name\":\"vehicle\",\"quantity\":1,\"offeredQuantity\":1,\"unitAmount\":0,\"isIncluded\":true}],\"taxes\":[{\"name\":\"Taxe de séjour\",\"amount\":18.96,\"isIncluded\":false}]},\"paymentDetails\":[{\"type\":\"Carte Bancaire\",\"amount\":212.06}],\"engine\":{\"shId\":1913,\"name\":\"Sunelia Web\",\"shPackId\":\"PG\",\"packName\":\"PG\",\"collectsPayment\":false}},\"updateDate\":\"2026-06-17T10:52:41.82\",\"isNewStay\":true,\"commentaries\":[{\"text\":\"VB - modification hebergement Chalet LUXE Hékipia - 2 chambres 4 pers. //  Réservation CSE 1010220 – Réservation/Règlement Salarié – Remise CPC 5% Basse saison + frais de dossier offerts\",\"date\":\"2026-06-17T10:52:41.82\"}],\"updateFees\":0}}\n\nSauf que dans NAXI, la résa est redescendue au mauvais montant et sans la deuxième remise de -5%.\n\nEn regardant sur le web\n\nle prix de base est pour moi incorrect :\n\nCar sur l'appel de SH, le montant de base est de 1281€ / Si je fais 1281€ - 179.34€ (1ère remise) je tombe bien sur 1101.66 mais du coup c'est faux, car il faut aussi prendre la deuxième remise de 55.08 .. ",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3194,7 +3200,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "JUILLET 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3212,7 +3218,9 @@
       "pointsBlocage": "En attente retour Paul",
       "explication": "La réservation n°17192565 au nom de CAVIEZEL Daniel au camping les sablons.\nA la modification nous avons reçu une mauvaise ventilation des quantités des prestations ajoutées. 2 quantités pour le suppléments chaise haute , alors qu’il n’y en avait qu’une seule. A près recherche , l’idSH pour la chaise haute et le programme Sunelia est le même = 101",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3228,7 +3236,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUILLET 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4375,7 +4383,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JUILLET 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4394,7 +4402,7 @@
       "explication": "Création d’un web service par CTV pour identifier si gestion des soldes par CTV ou pas ",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8012,11 +8020,11 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "AOUT 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
-      "produits": [],
+      "produits": [
+        "Inaxel Pilot"
+      ],
       "client": "",
       "dateCreation": "2026-03-24T14:29:00.000Z",
       "estimBack": 0,
@@ -8029,9 +8037,7 @@
       "pointsBlocage": "",
       "explication": "Vu avec Christophe pour refonte de l’espace client du site Inaxel avec suppression des élements pas utilisés + ajout de lien pour la partie technique",
       "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -12884,7 +12890,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "JUILLET 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -12904,7 +12910,7 @@
       "explication": "Suite à une remontée de Flower, et après recherche avec Mailys, nous constatons que les clients VACAF sont envoyés chez CTV avec la balise Customer Type à 2, ce qui correspond à “Client de TO”. Ils devraient être envoyés à 1 “Client Standard”.",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
