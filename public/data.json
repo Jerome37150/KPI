@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-08-03T20:05:24.417Z",
+  "generatedAt": "2026-08-03T21:18:06.084Z",
   "classique": [
+    {
+      "id": "3b18db15-623a-81a8-8db7-cbfee2883514",
+      "identifiant": "INA-548",
+      "titre": "Erreur lancement watchdog",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-08-03T20:57:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Sur le groupe Village Collection, au passage de la version 18.29, les fenêtres de Watchdog sont toutes en erreur :&nbsp;<div><br></div><div><i>Le mécanisme de sécurité du WLangage a détecté une erreur dans l'application WatchDog.&nbsp;</i><div><i>Contactez le fournisseur de l'application WatchDog.</i></div><div><i><br></i></div><div><i>L'invocation de la méthode &lt;InitializeWathDog(System.String)&gt; du type &lt;Void&gt; a échoué</i></div><div><i>Le framework .NET a renvoyé l'erreur suivante :&nbsp;</i></div><div><i>Erreur lors du chargement de la configuration : Impossible de charger le fichier ou l'assembly 'System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)</i></div><div><i><br></i></div><div><i>Pile des appels :</i></div><div><i>Méthode InitializeWatchDog (CSharp.InitializeWatchDog), ligne 38</i></div><div><i>Initialisation de WatchDog (), ligne 18</i></div><div><i><br></i></div><div><i>Date : 03/08/2026 22:55:52</i></div><div><i>Projet : WatchDog (0.0.17.0)</i></div><div><i><br></i></div><div><i>Informations supplémentaires :</i></div><div><i>Code erreur : 200002</i></div><div><i>Module : wd260net4.dll (01F260101d - 26.0.264.0)</i></div><div><i><br></i></div><div><i>Informations de débogage :</i></div><div><i>System.Reflection.TargetInvocationException: Une exception a été levée par la cible d'un appel. ---&gt; System.InvalidOperationException: Erreur lors du chargement de la configuration : Impossible de charger le fichier ou l'assembly 'System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040) ---&gt; System.IO.FileLoadException: Impossible de charger le fichier ou l'assembly 'System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)</i></div><div><i>&nbsp; &nbsp;à System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)</i></div><div><i>&nbsp; &nbsp;à NaxiGestionCore.InaxelSystem.SynchroWatchDog.SynchroWatchDog.GetConfig(String filePath) dans C:\\Users\\l.sabella\\Documents\\Repo\\gds\\NaxiGestionCore\\InaxelSystem\\SynchroWatchDog\\SynchroWatchDog.cs:ligne 193</i></div><div><i>&nbsp; &nbsp;--- Fin de la trace de la pile d'exception interne ---</i></div><div><i>&nbsp; &nbsp;à NaxiGestionCore.InaxelSystem.SynchroWatchDog.SynchroWatchDog.GetConfig(String filePath) dans C:\\Users\\l.sabella\\Documents\\Repo\\gds\\NaxiGestionCore\\InaxelSystem\\SynchroWatchDog\\SynchroWatchDog.cs:ligne 210</i></div><div><i>&nbsp; &nbsp;à NaxiGestionCore.Manager.Core.InitializeWathDog(String configFilePath) dans C:\\Users\\l.sabella\\Documents\\Repo\\gds\\NaxiGestionCore\\Manager\\Core.cs:ligne 685</i></div><div><i>&nbsp; &nbsp;--- Fin de la trace de la pile d'exception interne ---</i></div><div><i>&nbsp; &nbsp;à System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)</i></div><div><i>&nbsp; &nbsp;à System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)</i></div><div><i>&nbsp; &nbsp;à System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)</i></div><div><i>&nbsp; &nbsp;à CDotNetMethod.bInvoke(Char* pszTypeName, Char* pszMethodName, Char* pszParameters, MethodInfo gcMethod, Object gcObj, CSLevel* pclPile, Int32 nNbParamPile, Int32 bValeurRetour, STOperationDotNet* pstOperation)</i></div><div><i>EIT_EXCEPTIONDOTNET</i></div><div><i>EIT_TYPE_WDFILE : &lt;4&gt;</i></div><div><i>EIT_IDCODE : &lt;458752&gt;</i></div></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-lancement-watchdog-3b18db15623a81a88db7cbfee2883514"
+    },
     {
       "id": "3b18db15-623a-8122-853e-ebe6e90e9958",
       "identifiant": "INA-547",
@@ -30567,7 +30599,7 @@
     ]
   },
   "counts": {
-    "classique": 398,
+    "classique": 399,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
