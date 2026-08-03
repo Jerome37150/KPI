@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-08-03T14:09:25.282Z",
+  "generatedAt": "2026-08-03T16:37:54.673Z",
   "classique": [
+    {
+      "id": "3b18db15-623a-81d8-8238-f53957c6b471",
+      "identifiant": "INA-546",
+      "titre": "Refacto Bon de séjour",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-08-03T14:37:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite à une demande d'optimisation (INA ??), et vue qu'on avait commencé à faire le refacto des bons de séjour dans les US (https://inaxel.atlassian.net/browse/COEUR-541 et https://inaxel.atlassian.net/browse/DES-497), il a été décidé de continuer ce refacto plutôt que de faire une optimisation",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Refacto-Bon-de-s-jour-3b18db15623a81d88238f53957c6b471"
+    },
     {
       "id": "3b18db15-623a-81ef-9c21-eeaa0af3ec95",
       "identifiant": "INA-545",
@@ -30503,7 +30535,7 @@
     ]
   },
   "counts": {
-    "classique": 396,
+    "classique": 397,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
