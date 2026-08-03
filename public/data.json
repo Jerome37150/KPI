@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-08-03T08:18:07.413Z",
+  "generatedAt": "2026-08-03T11:51:29.738Z",
   "classique": [
+    {
+      "id": "3b18db15-623a-81bd-be84-fcf4e56cce46",
+      "identifiant": "INA-544",
+      "titre": "Erreur Evocamp depuis passage en 18.29 sur le TPE VIRTUEL/PAYLINE",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-08-03T11:31:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Un message d'erreur apparaît sur le TPE VIRUTEL lorsque :&nbsp;<br><br>1. S'assurer d'être sur la version 18.29 de NAXI (Chadotel n'avait pas le soucis en 18.25 et je n'ai pas le soucis en 18.26 chez CIELA)<br>2. S'assurer d'avoir la spécif TPE VIRTUEL<div>3. S'assurer d'avoir un mode de paiement associé au TPE VIRTUEL</div><div>4. Se rendre sur une fiche client</div><div>5. Cliquer sur le symbole € pour saisir un paiement&nbsp;</div><div>6. Choisir le mode de paiement associé au TPE VIRTUEL</div><div>7. Cliquer sur l'icône du TPE</div><div><br></div><div>NAXI affiche alors l'erreur :&nbsp;</div><div><br></div><div><i>2026-08-03 13:30:18. Fonction : Global exception</i></div><div><i>2026-08-03 13:30:18. Paramètre 1 : Appel WL :</i></div><div><i>Traitement de 'Fin d'initialisation de caution_payline' (caution_payline), ligne 126</i></div><div><i><br></i></div><div><i>Que s'est-il passé ?</i></div><div><i>Le champ DotNet2 n'a pu être créé.&nbsp;</i></div><div><i>L'erreur rencontrée lors de la création du champ est :&nbsp;</i></div><div><i>Le framework .NET a renvoyé l'erreur suivante :&nbsp;</i></div><div><i>Une exception a été levée par la cible d'un appel.</i></div><div><i><br></i></div><div><i>Code erreur : 10454</i></div><div><i>Niveau : erreur fatale</i></div><div><i><br></i></div><div><i>Module : wd260obj.dll (01F260101d - 26.0.572.39)</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_PILEWL :</i></div><div><i>Fin d'initialisation de caution_payline (caution_payline), ligne 126</i></div><div><i>Procédure locale pl_PaiementPayline (transactionfi.PROCEDURE.pl_PaiementPayline), ligne 10</i></div><div><i>Clic sur BT_TPE (transactionfi.BT_TPE), ligne 28</i></div><div><i>Clic sur BT_REGLE_3 (client_traitement.BT_REGLE_3), ligne 5</i></div><div><i>EIT_DATEHEURE : 03/08/2026 13:30:18</i></div><div><i>EIT_TYPE_WDFILE : &lt;2&gt;</i></div><div><i>EIT_IDCODE : &lt;34&gt;</i></div><div><i>2026-08-03 13:30:18. Paramètre 2 :&nbsp;</i></div><div><i>-------------------------------------------------------------------</i></div><div><b><br></b></div><div><b>Reproduit sur démo Angélique en HF et SQL, version 18.29</b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-Evocamp-depuis-passage-en-18-29-sur-le-TPE-VIRTUEL-PAYLINE-3b18db15623a81bdbe84fcf4e56cce46"
+    },
     {
       "id": "3ac8db15-623a-81a1-b5b1-d177397a1d22",
       "identifiant": "INA-543",
@@ -30439,7 +30471,7 @@
     ]
   },
   "counts": {
-    "classique": 394,
+    "classique": 395,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
