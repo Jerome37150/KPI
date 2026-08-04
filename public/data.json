@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T11:52:34.568Z",
+  "generatedAt": "2026-08-04T13:39:38.961Z",
   "classique": [
     {
       "id": "3b28db15-623a-8163-89a6-ea4464e63796",
@@ -44,7 +44,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -61,7 +63,9 @@
       "pointsBlocage": "",
       "explication": "Depuis passage en 18.29, les fenêtres de synchro de CHADOTEL ont un comportement anormal :&nbsp;<div><br></div><div>-&gt; Certaines fenêtres ont du mal à se connecter à RMQ</div><div>-&gt; Des élements passent en erreur, puis repasse en succès quelques minutes plus tard</div><div>-&gt; Les synchros saturent le processeur à 100% mais dès qu'on les ferme on repasse à 10/15% du proc</div><div><br></div><div>Test de remettre CHADOTEL en 18.28 : la synchro dépile et fonctionne sans erreur.</div><div><br></div><div><br></div><div>Comme on ne trouve pas d’où cela provient et à la vue de l’avancement de la saison, il a été décidé de supprimer le code la INA-535 grâce à cette US</div><div>&nbsp;et on reprendra ce sujet après l'été grâce à la INA-547.</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -4311,7 +4315,7 @@
       "titre": "Synchro qui ne dépile pas de façon aléatoire en 18.29",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [
         "SEPTEMBRE 26"
       ],
@@ -4380,7 +4384,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -4397,7 +4403,9 @@
       "pointsBlocage": "",
       "explication": "Suite au bug présent dans la INA-514 (Incohérences planning), on a voulu essayer d'identifier les campings qui pouvaient avoir le soucis en regardant la table planings dans customers_bookings qui est sur le web. Après quelques vérification dans les bases des clients concernés, on s'est rendu compte qu'il y avait des différences entre les 2 (exemple des lignes d'occupations en double (même séjour sur les 2), des séjours dans NAXI avec des mouvements d'emplacement qui n'étaient pas du tout visible sur le web et des lignes en double,...).&nbsp;<div>Je n'ai pas eu le temps d'identifier les différents cas, ce qu'il va falloir essayer de faire</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -4412,7 +4420,9 @@
       "classification": "BUG STRUCTURANT",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -4429,7 +4439,9 @@
       "pointsBlocage": "",
       "explication": "Un message d'erreur apparaît sur le TPE VIRUTEL lorsque :&nbsp;<br><br>1. S'assurer d'être sur la version 18.29 de NAXI (Chadotel n'avait pas le soucis en 18.25 et je n'ai pas le soucis en 18.26 chez CIELA)<br>2. S'assurer d'avoir la spécif TPE VIRTUEL<div>3. S'assurer d'avoir un mode de paiement associé au TPE VIRTUEL</div><div>4. Se rendre sur une fiche client</div><div>5. Cliquer sur le symbole € pour saisir un paiement&nbsp;</div><div>6. Choisir le mode de paiement associé au TPE VIRTUEL</div><div>7. Cliquer sur l'icône du TPE</div><div><br></div><div>NAXI affiche alors l'erreur :&nbsp;</div><div><br></div><div><i>2026-08-03 13:30:18. Fonction : Global exception</i></div><div><i>2026-08-03 13:30:18. Paramètre 1 : Appel WL :</i></div><div><i>Traitement de 'Fin d'initialisation de caution_payline' (caution_payline), ligne 126</i></div><div><i><br></i></div><div><i>Que s'est-il passé ?</i></div><div><i>Le champ DotNet2 n'a pu être créé.&nbsp;</i></div><div><i>L'erreur rencontrée lors de la création du champ est :&nbsp;</i></div><div><i>Le framework .NET a renvoyé l'erreur suivante :&nbsp;</i></div><div><i>Une exception a été levée par la cible d'un appel.</i></div><div><i><br></i></div><div><i>Code erreur : 10454</i></div><div><i>Niveau : erreur fatale</i></div><div><i><br></i></div><div><i>Module : wd260obj.dll (01F260101d - 26.0.572.39)</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_PILEWL :</i></div><div><i>Fin d'initialisation de caution_payline (caution_payline), ligne 126</i></div><div><i>Procédure locale pl_PaiementPayline (transactionfi.PROCEDURE.pl_PaiementPayline), ligne 10</i></div><div><i>Clic sur BT_TPE (transactionfi.BT_TPE), ligne 28</i></div><div><i>Clic sur BT_REGLE_3 (client_traitement.BT_REGLE_3), ligne 5</i></div><div><i>EIT_DATEHEURE : 03/08/2026 13:30:18</i></div><div><i>EIT_TYPE_WDFILE : &lt;2&gt;</i></div><div><i>EIT_IDCODE : &lt;34&gt;</i></div><div><i>2026-08-03 13:30:18. Paramètre 2 :&nbsp;</i></div><div><i>-------------------------------------------------------------------</i></div><div><b><br></b></div><div><b>Reproduit sur démo Angélique en HF et SQL, version 18.29</b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -4475,8 +4487,10 @@
       "titre": "Naxi Nomad : Erreur sur la transmission des plaques d'immatriculation entre le web & Naxi Gestion",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Nomad"
@@ -4493,7 +4507,9 @@
       "pointsBlocage": "",
       "explication": "<div>Les plaques d'immatriculation ne redescendent pas correctement dans NAXI lorsque :&nbsp;</div><div><br></div><div>1. Créer un séjour dans NAXI dont la date d'arrivée est égale à la date du jour.</div><div>2. Se rendre sur NAXI Nomad &gt;Module Accueil &gt; Enregistrer une arrivée</div><div>3. Le séjour précédemment crée apparaît</div><div>4. Cliquer sur le séjour pour accéder au détail</div><div>5. Cliquer sur le bouton \"Info Accès\"</div><div>6. Sur le véhicule n°1, renseigner la plaque d'immatriculation, marque &amp; couleur puis enregistrer</div><div>7. Passer le séjour en Arrivée</div><div><br></div><div><b><u>Résultat constaté :&nbsp;</u></b><br><br>Si je clique ensuite sur Nouvelle Recherche, mon séjour précédemment validé apparaît toujours</div><div>Et surtout, la plaque d'immatriculation saisie ne semble pas être mémorisée.</div><div>Côté NAXI Gestion, un message d'erreur apparaît dans la fenêtre de synchro :&nbsp;<br><i>Que s'est-il passé ?</i></div><div><i>Erreur de doublon lors de la modification de l'enregistrement &lt;256&gt; dans le fichier &lt;csjcodeC&gt;.</i></div><div><i>Cette modification aurait provoqué un doublon sur la clé &lt;CCOCODE&gt; avec l'enregistrement &lt;512&gt;.</i></div><div><i><br></i></div><div><i>Code erreur : 70010</i></div><div><i>Niveau : erreur non fatale</i></div><div><i>Code erreur WD55 : 10</i></div><div><i><br></i></div><div><i>Module : wd260hf.dll (01F260101d - 26.0.313.5)</i></div><div><i><br></i></div><div><i>Informations de débogage :</i></div><div><i>IEWDHF=37.4</i></div><div><i>Module=&lt;WDHF&gt;</i></div><div><i>Version=&lt;26.0.313.5&gt;</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_LOGICALTABLENAME : &lt;csjcodeC&gt;</i></div><div><i>EIT_ITEMNAME : &lt;CCOCODE&gt;</i></div><div><i>EIT_RECNUM : &lt;512&gt;</i></div><div><i>EIT_PATHFIC : &lt;C:\\NAXICOD\\fichiers\\csjcode.FIC&gt;</i></div><div><i>EIT_PATHNDX : &lt;C:\\NAXICOD\\fichiers\\csjcode.ndx&gt;</i></div><div><i><br></i></div><div><i>Si je regarde dans ma bdd NAXICODE, le ccocode = 512 correspond à un enregistrement de 2021 :&nbsp;<br></i><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f255753b294547cbb0ca9cd2b5950b50\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><i><br></i><br>Si je clique sur OK, je vois passer une récupération de 1 Order. Mais le séjour n'est pas modifié dans NAXI (statut toujours en réservation + immatriculation non récupérée).<br>Si je refais la manipulation une deuxième fois sur le web, cette fois, le séjour dans NAXI bascule bien en arrivée mais l'immatriculation n'est toujours pas récupérée.</div><div><i><br></i></div><div><b>Reproduit sur démo Angélique en 18.28 HF</b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -4507,8 +4523,10 @@
       "titre": "Resasol - Séjours Coolncamp en erreur",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": "Haute",
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -4523,9 +4541,11 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Les envois vers COOLNCAMP étaient en erreur chez RESASOL à cause d'une mauvaise syntaxe de l'adresse email. Après analyse, il s'avère que NAXI n'effectue plus de contrôle sur la syntaxe de l'email.<div><br><b><u>Pour reproduire :&nbsp;</u></b><div><br></div><div>1. Créer une nouvelle fiche client dans NAXI</div><div>2. Dans le champs adresse email, saisir par exemple 'contact@hotmail'</div><div>3. Fermer la fiche client</div><div><br></div><div>NAXI n'affiche plus aucune alerte comme quoi la syntaxe est erronée</div><div><br></div><div><b>Reproduit sur ma démo HF et SQL en 18.28<br>RESASOL est en SQL 18.25</b></div></div><div><b><br></b></div><div><b><font color=\"#16a34a\">-&gt; Surement introduit par la BUG 1088 livré en 18.22</font></b></div>",
+      "explication": "Les envois vers COOLNCAMP étaient en erreur chez RESASOL à cause d'une mauvaise syntaxe de l'adresse email. Après analyse, il s'avère que NAXI n'effectue plus de contrôle sur la syntaxe de l'email.<div><br><b><u>Pour reproduire :&nbsp;</u></b><div><br></div><div>1. Créer une nouvelle fiche client dans NAXI</div><div>2. Dans le champs adresse email, saisir par exemple 'contact@hotmail'</div><div>3. Fermer la fiche client</div><div><br></div><div>NAXI n'affiche plus aucune alerte comme quoi la syntaxe est erronée</div><div><br></div><div><b>Reproduit sur ma démo HF et SQL en 18.28<br>RESASOL est en SQL 18.25</b></div></div><div><b><br></b></div><div><b>Reproduit également en SQL 18.20 + 17.14</b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5253,7 +5273,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<b>Client impacté : Les Méditerranées&nbsp;</b><div><i>Version : 18.26 /SQL&nbsp;</i></div><div><b><u>Contexte</u></b> : Passage d'un exe spécial mis pour<a href=\"https://inaxel.atlassian.net/browse/BUG-1131?atlOrigin=eyJpIjoiZGEzZmE2ZTg4OTY3NDc2MDk1Y2IzNmUzMTc0OWY5NTIiLCJwIjoiaiJ9\">https://inaxel.atlassian.net/browse/BUG-1131?atlOrigin=eyJpIjoiZGEzZmE2ZTg4OTY3NDc2MDk1Y2IzNmUzMTc0OWY5NTIiLCJwIjoiaiJ9</a>&nbsp;à la version 18.26 le 07 Juillet 2026<br><br><u style=\"\"><b style=\"\"><font color=\"#18181b\">1er soucis :&nbsp;</font></b></u><br><br>Depuis passage de la mise à jour, <b>NAXI génère trois fichiers :&nbsp;</b></div><div>- Un fichier avec les séjours de toute la saison du Camping A</div><div>- Un fichier avec les séjours de toute la saison du Camping B</div><div>- Un fichier avec les séjours de toute la saison du Camping C<br><br>Avant mise à jour, NAXI génère trois fichiers identiques, c'est à dire que le fichier comportait les trois établissements.<br><br><b><i>Avant mise à jour (fichier du 03 Juillet)</i></b> :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/17bd09b7ffd144928cca2a4a3349738f\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br><b><i>Après mise à jour (fichier du 13 Juillet) :&nbsp;</i></b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ea89f2e78f994680b9bcc656b7b5e9aa\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br><b>2ème soucis :&nbsp;</b><br><br>Des séjours sont manquants de façon aléatoire ce qui pose soucis ensuite dans le traitement des données par LoungeUp :&nbsp;<br><br>Si je prend le fichier du 13 Juillet sur le camping CHARLEMAGNE, il me manque par exemple le séjour n°84 :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/134f4e5b0fa8410ebdf87d8b2f441647\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Alors que sur le fichier du 03 Juillet j'avais le séjour sans problème :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a8dd855a1a9040609cd071b90bed6dc0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Ce qui est très étonnant, c'est que sur l'US BUG-1131, j'ai fait les tests le 17/06/2026.<br>Si je regarde le fichier du 17 Juin, j'avais bien tous les campings sur le même fichier.&nbsp;</b></div>",
+      "explication": "<b>Client impacté : Les Méditerranées&nbsp;</b><div><i>Version : 18.26 /SQL&nbsp;</i></div><div><b><u>Contexte</u></b> : Passage d'un exe spécial mis pour<a href=\"https://inaxel.atlassian.net/browse/BUG-1131?atlOrigin=eyJpIjoiZGEzZmE2ZTg4OTY3NDc2MDk1Y2IzNmUzMTc0OWY5NTIiLCJwIjoiaiJ9\">https://inaxel.atlassian.net/browse/BUG-1131?atlOrigin=eyJpIjoiZGEzZmE2ZTg4OTY3NDc2MDk1Y2IzNmUzMTc0OWY5NTIiLCJwIjoiaiJ9</a>&nbsp;à la version 18.26 le 07 Juillet 2026<br><br><u style=\"\"><b style=\"\"><font color=\"#18181b\">1er soucis :&nbsp;</font></b></u><br><br>Depuis passage de la mise à jour, <b>NAXI génère trois fichiers :&nbsp;</b></div><div>- Un fichier avec les séjours de toute la saison du Camping A</div><div>- Un fichier avec les séjours de toute la saison du Camping B</div><div>- Un fichier avec les séjours de toute la saison du Camping C<br><br>Avant mise à jour, NAXI génère trois fichiers identiques, c'est à dire que le fichier comportait les trois établissements.<br><br><b><i>Avant mise à jour (fichier du 03 Juillet)</i></b> :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/17bd09b7ffd144928cca2a4a3349738f\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br><b><i>Après mise à jour (fichier du 13 Juillet) :&nbsp;</i></b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ea89f2e78f994680b9bcc656b7b5e9aa\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br><b>2ème soucis :&nbsp;</b><br><br>Des séjours sont manquants de façon aléatoire ce qui pose soucis ensuite dans le traitement des données par LoungeUp :&nbsp;<br><br>Si je prend le fichier du 13 Juillet sur le camping CHARLEMAGNE, il me manque par exemple le séjour n°84 :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/134f4e5b0fa8410ebdf87d8b2f441647\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Alors que sur le fichier du 03 Juillet j'avais le séjour sans problème :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a8dd855a1a9040609cd071b90bed6dc0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Ce qui est très étonnant, c'est que sur l'US BUG-1131, j'ai fait les tests le 17/06/2026.<br>Si je regarde le fichier du 17 Juin, j'avais bien tous les campings sur le même fichier.&nbsp;</b></div><div><br></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -5689,9 +5709,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -6509,9 +6527,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -6811,9 +6827,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [
-        "JUILLET 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI RESERVATION"
@@ -6830,9 +6844,7 @@
       "pointsBlocage": "",
       "explication": "Depuis peu, le camping BOIS SOLEIL 17 reçoit un certain nombre d'erreurs de la part de PAYZEN.\n\n**E_mail type _:**\n\n_____De: do_not_reply@payzen.eu\nDate: 24 juin 2026 à 12:55:17 UTC+2\nÀ: DIR <direction@bois-soleil.com>\nObjet: CAMPING BOIS SOLEIL - Tr. 076405e842f742188e2ee8fe37d5981e / ECHEC lors de l'appel de votre URL de notification [URL de notification à la fin du paiement]\n  \nSOCIÉTÉ : PARC HOTEL BOIS SOLEIL \nBOUTIQUE : CAMPING BOIS SOLEIL [90287130] \nAdresse URL : http://www.www.bois-soleil.com \n\nBonjour,\n\nNous avons enregistré le 24 juin 2026 12:53:26 la transaction 076405e842f742188e2ee8fe37d5981e d'un montant de 919,24 EUR sur la boutique CAMPING BOIS SOLEIL.\n\nLors de l'appel de votre URL de notification https://api.inaxel.com/services/payment/payzen/notify/a282f86e024739e3cee08f37c3ed4688, nous avons rencontré un problème technique dont le code d'erreur est : FAILED_SERVER_500_ERROR.\n\nPour plus d'information concernant ce code d'erreur, se référer à la FAQ : http://payzen.io/fr-FR/error-code/server-url-error.html\n\nSoit nous n'avons pas pu contacter votre serveur (indisponibilité de votre site marchand), soit votre serveur nous a répondu dans un délai beaucoup trop long, soit votre serveur nous a répondu un message d'erreur. Vous pouvez retrouver le type d'erreur rencontré dans l'historique des évènements de la transaction de votre Back Office marchand.\n\nPour information, le nom de la règle activée liée à cette erreur est [URL de notification à la fin du paiement].\n\nQuelles conséquences a ce message :\n\nLe paiement a été finalisé positivement ou négativement par la plateforme de paiement, mais il est possible que votre site marchand ne soit pas à jour. Il est inutile d'appeler le support technique car nous n'avons pas d'action sur votre informatique. Cependant, nous vous conseillons de vous rapprocher de votre webmaster pour analyser les causes de cette erreur et apporter éventuellement les corrections nécessaires.\n\nUne fois l'éventuel problème résolu, il vous est possible de rejouer manuellement l'URL de notification correspondant à cette transaction afin de notifier vos applications.&nbsp;</direction@bois-soleil.com><div><direction@bois-soleil.com>&nbsp;Pour cela,&nbsp;</direction@bois-soleil.com></div><div><direction@bois-soleil.com>&nbsp;1.\tconnectez-vous à votre Back Office,&nbsp;</direction@bois-soleil.com></div><div><direction@bois-soleil.com>2.\trecherchez la transaction réf. 076405e842f742188e2ee8fe37d5981e,&nbsp;</direction@bois-soleil.com></div><div><direction@bois-soleil.com>&nbsp;3.\tune fois la transaction trouvée, utilisez le clic droit de votre souris sur la transaction pour sélectionner \"Exécuter l'URL de notification\". \n \n\nVous serez alors informé de la bonne exécution de cette commande si votre application est à nouveau accessible.&nbsp;</direction@bois-soleil.com></div><div><direction@bois-soleil.com><br></direction@bois-soleil.com></div><div><direction@bois-soleil.com>&nbsp;Vous pourrez dans tous les cas visualiser le résultat de votre action dans l'historique des évènements de la transaction et éventuellement analyser les messages d'erreur si le problème persiste. En survolant le champ info de ligne \"appel URL de notification\" avec votre souris, vous pouvez aussi éventuellement accéder à plus d'informations sur la cause de l'échec.\n____ _&nbsp;</direction@bois-soleil.com></div><div><direction@bois-soleil.com><br></direction@bois-soleil.com></div><div><direction@bois-soleil.com>&nbsp;En regardant les logs apache, je constate en effet beaucoup d'erreurs 500 (cf pièce jointe image (2).png)\n\nLudwig a regardé les pods et l'infra mais il ne voit aucune erreur de son côté.\n</direction@bois-soleil.com></div>",
       "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7083,9 +7095,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [
-        "JUILLET 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "CTV"
@@ -9956,9 +9966,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "JUILLET 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "CTV"
@@ -9975,9 +9983,7 @@
       "pointsBlocage": "",
       "explication": "Certaines réservations ne redescendent pas dans NAXI et reste bloquée dans le freshressource en raison d’un format d’adresse client non valide.\n",
       "communication": [],
-      "initialeAjout": [
-        "Débord sprint"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -10279,9 +10285,7 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "MAI 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -10299,9 +10303,7 @@
       "pointsBlocage": "Point rapide cette semaine",
       "explication": "",
       "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -14967,9 +14969,7 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [
-        "Débord sprint"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -16616,9 +16616,7 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
