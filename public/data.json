@@ -1,6 +1,138 @@
 {
-  "generatedAt": "2026-08-05T06:16:17.441Z",
+  "generatedAt": "2026-08-05T09:14:49.542Z",
   "classique": [
+    {
+      "id": "3b38db15-623a-81e5-a25b-d01c830d4e3f",
+      "identifiant": "INA-720",
+      "titre": "test",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Nax7 PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-08-05T08:49:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/test-3b38db15623a81e5a25bd01c830d4e3f"
+    },
+    {
+      "id": "3b38db15-623a-8119-8d10-c2ec1e653553",
+      "identifiant": "INA-719",
+      "titre": "Modification QuickSupport Teamviewer sur tous nos logiciels",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-08-05T07:52:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>Notre service support rencontre des difficultés pour se connecter via Teamviewer chez certains de nos clients.</div><div><br></div><div><i><b>L'erreur rencontrée est \"Cause inconnue\".</b></i></div><div><br></div><div>Après analyse, le quicksupport embarqué dans NAXI est en version 13.06447.0</div><div>Nos licences au service support sont en version 15.</div><div><br></div><div>TeamViewer 13 est ancien (2017) et n'est plus maintenu. Les serveurs TeamViewer imposent parfois des exigences de sécurité (TLS, protocoles) que les vieilles versions ne satisfont plus totalement, ce qui peut provoquer des refus de connexion imprévisibles.</div><div><br></div><div>Il faudrait donc modifier le quicksupport sur tous nos logiciels ayant la fonctionnalité de télémaintenance :&nbsp;</div><div>- NAXI Gestion</div><div>-Naxi Cod</div><div>-Naxi Cam</div><div>-Naxi Totem</div><div><br></div><div><b style=\"background-color: rgb(254, 240, 138);\">Le quicksupport en version 15 est disponible sur /Exe Testeuses/Preprod/Exe Specifiques/Angélique</b></div><div><br></div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Modification-QuickSupport-Teamviewer-sur-tous-nos-logiciels-3b38db15623a81198d10c2ec1e653553"
+    },
+    {
+      "id": "3b38db15-623a-8154-b63e-d515638e3069",
+      "identifiant": "INA-718",
+      "titre": "Nouvelle USttt",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-08-05T07:15:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Nouvelle-USttt-3b38db15623a8154b63ed515638e3069"
+    },
+    {
+      "id": "3b38db15-623a-81c3-baf5-e269651c1896",
+      "identifiant": "INA-717",
+      "titre": "Suppression du compte Pennylane",
+      "classification": null,
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-08-05T07:11:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Etape-4 — Révocation de l'accès<div><br></div><div>En tant que client, je veux pouvoir déconnecter mon compte Pennylane afin de révoquer l'accès de l'application à mes données.</div><div><br></div><div>Critères d'acceptance :</div><div><br></div><div>Un bouton \"Déconnecter Pennylane\" est disponible dans les paramètres</div><div>Au clic, un appel POST /oauth/revoke est effectué avec le token actif</div><div>Les tokens sont supprimés de la base de données</div><div>L'interface reflète l'état déconnecté immédiatement</div><div>POST app.pennylane.com/oauth/revoke</div><div><br></div><div>Paramètres : client_id, client_secret, token</div><div><br></div><div>Résultats : HTTP 200 OK — token invalidé</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Suppression-du-compte-Pennylane-3b38db15623a81c3baf5e269651c1896"
+    },
     {
       "id": "3b28db15-623a-8182-8a44-fb310b707407",
       "identifiant": "INA-716",
@@ -68,7 +200,7 @@
     {
       "id": "3b28db15-623a-8150-8a49-fd83f7e0d828",
       "identifiant": "INA-714",
-      "titre": "Authentification : Etape-2",
+      "titre": "Authentification : Etape-2 Connexion d'un client via \"Sign in with Pennylane\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
@@ -95,7 +227,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Authentification-Etape-2-3b28db15623a81508a49fd83f7e0d828"
+      "url": "https://app.notion.com/p/Authentification-Etape-2-Connexion-d-un-client-via-Sign-in-with-Pennylane-3b28db15623a81508a49fd83f7e0d828"
     },
     {
       "id": "3b28db15-623a-8177-bbd1-d854d0b9ddd5",
@@ -132,7 +264,7 @@
     {
       "id": "3b28db15-623a-815d-8eb0-ec3ea0e1f757",
       "identifiant": "INA-712",
-      "titre": "Authentifcation : Etape-4 (Optionnel)",
+      "titre": "Authentifcation : Etape-4 Révocation de l'accès",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
@@ -151,7 +283,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p><strong>Etape-4 — Révocation de l'accès </strong></p><blockquote style=\"border-left:3px solid #e4e4e7;margin:8px 0;padding-left:10px;color:#52525b\"><p><em>En tant que</em> client, <em>je veux</em> pouvoir déconnecter mon compte Pennylane <em>afin de</em> révoquer l'accès de l'application à mes données.</p></blockquote><p><strong>Critères d'acceptance :</strong></p><ul><li>Un bouton &quot;Déconnecter Pennylane&quot; est disponible dans les paramètres</li><li>Au clic, un appel <code style=\"background:#f1f5f9;border-radius:4px;padding:1px 4px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px\">POST /oauth/revoke</code> est effectué avec le token actif</li><li>Les tokens sont supprimés de la base de données</li><li>L'interface reflète l'état déconnecté immédiatement</li></ul><p>POST <a href=\"http://app.pennylane.com/oauth/revoke\" target=\"_blank\" rel=\"noreferrer\">app.pennylane.com/oauth/revoke</a></p><p>Paramètres : <code style=\"background:#f1f5f9;border-radius:4px;padding:1px 4px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px\">client_id</code>, <code style=\"background:#f1f5f9;border-radius:4px;padding:1px 4px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px\">client_secret</code>, <code style=\"background:#f1f5f9;border-radius:4px;padding:1px 4px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px\">token</code></p><p>Résultats : HTTP 200 OK — token invalidé</p>",
+      "explication": "<p><strong>Etape-4 — Révocation de l'accès </strong></p><blockquote style=\"border-left:3px solid #e4e4e7;margin:8px 0;padding-left:10px;color:#52525b\"><p><em>En tant que</em> client, <em>je veux</em> pouvoir déconnecter mon compte Pennylane <em>afin de</em> révoquer l'accès de l'application à mes données.</p></blockquote><p><strong>Critères d'acceptance :</strong></p><ul><li>Un bouton \"Déconnecter Pennylane\" est disponible dans les paramètres</li><li>Au clic, un appel <code style=\"background:#f1f5f9;border-radius:4px;padding:1px 4px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px\">POST /oauth/revoke</code> est effectué avec le token actif</li><li>Les tokens sont supprimés de la base de données</li><li>L'interface reflète l'état déconnecté immédiatement</li></ul><p>POST <a href=\"http://app.pennylane.com/oauth/revoke\" target=\"_blank\" rel=\"noreferrer\">app.pennylane.com/oauth/revoke</a></p><p>Paramètres : <code style=\"background:#f1f5f9;border-radius:4px;padding:1px 4px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px\">client_id</code>, <code style=\"background:#f1f5f9;border-radius:4px;padding:1px 4px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px\">client_secret</code>, <code style=\"background:#f1f5f9;border-radius:4px;padding:1px 4px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px\">token</code></p><p>Résultats : HTTP 200 OK — token invalidé</p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -159,7 +291,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Authentifcation-Etape-4-Optionnel-3b28db15623a815d8eb0ec3ea0e1f757"
+      "url": "https://app.notion.com/p/Authentifcation-Etape-4-R-vocation-de-l-acc-s-3b28db15623a815d8eb0ec3ea0e1f757"
     },
     {
       "id": "3b28db15-623a-8167-828d-da4987cb3a75",
@@ -392,9 +524,7 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "AOUT 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -424,9 +554,7 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "AOUT 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -18362,10 +18490,7 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [
-        "JUILLET 26",
-        "AOUT 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -18383,9 +18508,7 @@
       "pointsBlocage": "",
       "explication": "Proposer solution pour la norme Europeen avec une solution de PA",
       "communication": [],
-      "initialeAjout": [
-        "Débord sprint"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -35385,7 +35508,7 @@
     ]
   },
   "counts": {
-    "classique": 557,
+    "classique": 561,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
