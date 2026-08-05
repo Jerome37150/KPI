@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-08-05T09:14:49.542Z",
+  "generatedAt": "2026-08-05T11:28:35.062Z",
   "classique": [
+    {
+      "id": "3b38db15-623a-81cd-bc56-d19487421082",
+      "identifiant": "INA-721",
+      "titre": "Synchro qui plante après envoi en échec",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-08-05T09:17:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite au cours des tests de la version 18.30, on s’est rendu compte que lors d’un envoi en masse, s'il y a un lot qui est en erreur (dans mon cas j’ai un lot qui est trop grand → 100 séjours avec plus de 25 suppléments chacun), le système d’erreur fonctionne bien et l’envoi en individuel se fait correctement après 3 tentatives en lot. Mais une fois cet envoi fait en individuel, l’envoi des commandes suivent ne fonctionne plus. Les autres ressources s’envoient correctement mais le commande ne partent plus.",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Synchro-qui-plante-apr-s-envoi-en-chec-3b38db15623a81cdbc56d19487421082"
+    },
     {
       "id": "3b38db15-623a-81e5-a25b-d01c830d4e3f",
       "identifiant": "INA-720",
@@ -35508,7 +35544,7 @@
     ]
   },
   "counts": {
-    "classique": 561,
+    "classique": 562,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
