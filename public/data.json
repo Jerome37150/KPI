@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T09:05:19.778Z",
+  "generatedAt": "2026-08-06T11:30:27.554Z",
   "classique": [
     {
       "id": "3b38db15-623a-81cd-bc56-d19487421082",
@@ -4993,7 +4993,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5009,10 +5009,10 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Depuis passage en 18.29, les fenêtres de synchro de CHADOTEL ont un comportement anormal :&nbsp;<div><br></div><div>-&gt; Certaines fenêtres ont du mal à se connecter à RMQ</div><div>-&gt; Des élements passent en erreur, puis repasse en succès quelques minutes plus tard</div><div>-&gt; Les synchros saturent le processeur à 100% mais dès qu'on les ferme on repasse à 10/15% du proc</div><div><br></div><div>Test de remettre CHADOTEL en 18.28 : la synchro dépile et fonctionne sans erreur.</div><div><br></div><div><br></div><div>Comme on ne trouve pas d’où cela provient et à la vue de l’avancement de la saison, il a été décidé de  supprimer le code la INA-535 grâce à la INA-689</div><div>&nbsp;et on reprendra ce sujet après l'été.</div>",
+      "explication": "Depuis passage en 18.29, les fenêtres de synchro de CHADOTEL ont un comportement anormal :&nbsp;<div><br></div><div>-&gt; Certaines fenêtres ont du mal à se connecter à RMQ</div><div>-&gt; Des élements passent en erreur, puis repasse en succès quelques minutes plus tard</div><div>-&gt; Les synchros saturent le processeur à 100% mais dès qu'on les ferme on repasse à 10/15% du proc</div><div><br></div><div>Test de remettre CHADOTEL en 18.28 : la synchro dépile et fonctionne sans erreur.</div><div><br></div><div><br></div><div>Comme on ne trouve pas d’où cela provient et à la vue de l’avancement de la saison, il a été décidé de  supprimer le code la INA-535 grâce à la INA-689</div><div>&nbsp;et on reprendra ce sujet après l'été.</div><div><br></div><div>Après d’autres tests avec les versions 18.30 (qui n’a plus le code de la INA-535 et avec les correctifs de la INA-721, on s’est rendu compte que les synchros chez Chadotel ne dépilaient toujours pas.&nbsp;</div><div><br></div><div>Après analyse, on s’est rendu compte que les exe de la synchros prenaient tout le processeur (CPU très élevé à 100%), ce qui n’est pas le cas avec les exe de la 18.28 (processeur à environ 40%).</div>",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
