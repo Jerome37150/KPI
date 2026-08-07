@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T14:36:52.592Z",
+  "generatedAt": "2026-08-07T15:32:19.644Z",
   "classique": [
     {
       "id": "3b38db15-623a-81cd-bc56-d19487421082",
@@ -1279,7 +1279,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Développer l’API et la logique serveur pour fournir les données du plan du camping, les statuts d’occupation en temps réel, la gestion des filtres, la recherche de disponibilités, la synchronisation des sélections, et l’intégration avec la base de données des emplacements et réservations.</p>",
+      "explication": "<p>Développer l’API et la logique serveur pour fournir les données du plan du camping, les statuts d’occupation en temps réel, la gestion des filtres, la recherche de disponibilités, la synchronisation des sélections, et l’intégration avec la base de données des emplacements et réservations.</p><p><b>US Jira liée :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-261\">TL-261</a></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
