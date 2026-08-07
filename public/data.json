@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T13:34:10.902Z",
+  "generatedAt": "2026-08-07T14:36:52.592Z",
   "classique": [
     {
       "id": "3b38db15-623a-81cd-bc56-d19487421082",
@@ -1519,7 +1519,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Développer la partie back-end pour la gestion des données et des règles métier liées aux suppléments numérotés, y compris la gestion des disponibilités et des affectations.</p>",
+      "explication": "<p>Développer la partie back-end pour la gestion des données et des règles métier liées aux suppléments numérotés, y compris la gestion des disponibilités et des affectations.</p><p><b>US Jira liée :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-338\">TL-338</a></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -6762,7 +6762,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Développer la partie back-end pour la fenêtre 'Liste transactions' : endpoints pour la récupération, le filtrage, la recherche et la modification des transactions, gestion des deep-links, pagination, export et impression, ainsi que la logique métier pour les modifications de mode de paiement.</p>",
+      "explication": "<p>Développer la partie back-end pour la fenêtre 'Liste transactions' : endpoints pour la récupération, le filtrage, la recherche et la modification des transactions, gestion des deep-links, pagination, export et impression, ainsi que la logique métier pour les modifications de mode de paiement.</p><p><b>US Jira liée : </b><a href=\"https://inaxel.atlassian.net/browse/TL-310\" style=\"\">TL-310</a></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
