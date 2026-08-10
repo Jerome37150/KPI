@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T12:05:17.815Z",
+  "generatedAt": "2026-08-10T13:39:35.690Z",
   "classique": [
     {
       "id": "3b38db15-623a-81cd-bc56-d19487421082",
@@ -889,7 +889,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Développer la logique back-end pour la gestion du planning : gestion des filtres, des statuts, des séjours, des indisponibilités, des droits opérateur, de la persistance des préférences utilisateur (règles d’affichage), et des interactions avec la base de données.</p>",
+      "explication": "<p>Développer la logique back-end pour la gestion du planning : gestion des filtres, des statuts, des séjours, des indisponibilités, des droits opérateur, de la persistance des préférences utilisateur (règles d’affichage), et des interactions avec la base de données.</p><p><b>Lien JIRA :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-334\">TL-334</a></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
