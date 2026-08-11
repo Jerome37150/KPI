@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T06:32:00.980Z",
+  "generatedAt": "2026-08-11T07:50:47.174Z",
   "classique": [
     {
       "id": "3b38db15-623a-81cd-bc56-d19487421082",
@@ -8448,7 +8448,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Lorsque l’on souhaite faire une facturation par lot des acomptes, les factures s’imrpiment même lorsque l’on sélectionne l’imprimante “PDF Creator”",
+      "explication": "Lorsque l’on souhaite faire une facturation par lot des acomptes, les factures s’imrpiment même lorsque l’on sélectionne l’imprimante “PDF Creator”<div><br></div><div>Client impacté : Marmotte 09</div><div><br></div><div>&nbsp;Version : 18.16 / HF</div><div><br></div><div>Détails :</div><div><br></div><div>S’assurer d’avoir un séjour sur lequel il y a un acompte à facturer</div><div><br></div><div>Se rendre dans le menu Séjours &gt; Facturation par lot</div><div><br></div><div>Cliquer sur l’icône de facturation par lot</div><div><br></div><div>Choisir l’imprimante PDF Creator</div><div><br></div><div>Lancer la génération</div><div><br></div><div>Résultats :</div><div><br></div><div>Les factures se sont imprimées alors qu’elles auraient du simplement se générer en PDF</div><div><br></div><div>Reproduit sur démo Angélique en 18.20 / HF Non reproduit sur la facturation par lot classique (là pas d’impression, les pdf se génèrent uniquement)</div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
