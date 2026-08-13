@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T09:45:25.876Z",
+  "generatedAt": "2026-08-13T10:49:40.987Z",
   "classique": [
     {
       "id": "3bb8db15-623a-81e6-978c-d672e6647bc9",
@@ -159,7 +159,7 @@
       "titre": "Page d'accueil (menu Clients)",
       "classification": null,
       "statut": null,
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [],
       "fonctions": null,
       "produits": [
