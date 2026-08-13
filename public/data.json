@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-08-13T12:30:00.050Z",
+  "generatedAt": "2026-08-13T13:57:05.368Z",
   "classique": [
+    {
+      "id": "3bb8db15-623a-81ed-8057-e273d3090a72",
+      "identifiant": "INA-730",
+      "titre": "Acceptation des formats xml de la facture et des avoirs",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-08-13T13:27:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Nous avons fait en sorte que les factures, et avoir s'importent bien sur Pennylane.&nbsp;<div><b>Dans le cas des factures B TOB :</b></div><div><br></div><div>il faut maintenant valider le xml des factures&nbsp; , factures d'acompte,facturesd'echéance et des avoirs</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Acceptation-des-formats-xml-de-la-facture-et-des-avoirs-3bb8db15623a81ed8057e273d3090a72"
+    },
     {
       "id": "3bb8db15-623a-815d-a62f-c6329b4cacd7",
       "identifiant": "INA-725",
@@ -175,7 +211,7 @@
       "sprintIdeal": [],
       "fonctions": null,
       "produits": [
-        "Nax7 PMS"
+        "NAXI TOTEM"
       ],
       "client": "",
       "dateCreation": "2026-08-05T08:49:00.000Z",
@@ -35672,7 +35708,7 @@
     ]
   },
   "counts": {
-    "classique": 566,
+    "classique": 567,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
