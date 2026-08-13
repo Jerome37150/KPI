@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T13:57:05.368Z",
+  "generatedAt": "2026-08-13T14:50:30.056Z",
   "classique": [
     {
       "id": "3bb8db15-623a-81ed-8057-e273d3090a72",
@@ -5648,7 +5648,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -5665,7 +5667,9 @@
       "pointsBlocage": "",
       "explication": "TEST JA",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
