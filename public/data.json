@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T14:35:33.525Z",
+  "generatedAt": "2026-08-14T15:27:01.253Z",
   "classique": [
     {
       "id": "3bc8db15-623a-81d8-a90c-fa4a7ca59ea5",
@@ -23,7 +23,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour charger les demandes à traiter avec leurs données complètes, rapprocher et mettre à jour les fiches clients, calculer les disponibilités d'emplacements et les tarifs, persister les validations et refus par type de demande et déclencher les traitements associés (e-mail, paiement, facturation).",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -55,7 +55,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Développer l’interface de la fenêtre : recherche par dates, liste des demandes non traitées, sélection d’une demande, ouverture des onglets et affichage des informations détaillées.",
+      "explication": "Développer l'interface du panneau : liste des demandes avec filtres et signalétique, parcours de traitement par étapes avec stepper adapté au type de demande (rapprochement client, choix d'emplacement, traitements e-mail/paiement/facturation), flux de refus, récapitulatifs de confirmation et écrans de succès.",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
