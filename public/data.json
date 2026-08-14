@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T10:37:38.793Z",
+  "generatedAt": "2026-08-14T11:24:24.411Z",
   "classique": [
     {
       "id": "3bc8db15-623a-81d8-a90c-fa4a7ca59ea5",
@@ -55,7 +55,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l’interface de la fenêtre : recherche par dates, liste des demandes non traitées, sélection d’une demande, ouverture des onglets et affichage des informations détaillées.",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
