@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T08:19:49.167Z",
+  "generatedAt": "2026-08-18T08:59:47.350Z",
   "classique": [
     {
       "id": "3bd8db15-623a-81d5-8273-f18d36e95e9d",
@@ -1181,7 +1181,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Développer la logique back-end pour la gestion du planning : gestion des filtres, des statuts, des séjours, des indisponibilités, des droits opérateur, de la persistance des préférences utilisateur (règles d’affichage), et des interactions avec la base de données.</p><p><b>Lien JIRA :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-334\">TL-334</a></p>",
+      "explication": "<p><code style=\"background: rgb(244, 244, 245); border: 1px solid rgb(228, 228, 231); border-radius: 4px; padding: 1px 5px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.92em;\">FREE/OPTION/RESERVATION/ARRIVED/GONE/RESIDENT/LINEAR/ ALLOTMENT/UNAVAILABLE/UNSOLD/NON_SWITCHABLE_OPTION/NON_SWITCHABLE_RESERVATION</code>&nbsp;Développer la logique back-end pour la gestion du planning : gestion des filtres, des statuts, des séjours, des indisponibilités, des droits opérateur, de la persistance des préférences utilisateur (règles d’affichage), et des interactions avec la base de données.</p><p><b>Lien JIRA :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-334\">TL-334</a></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
