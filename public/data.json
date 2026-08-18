@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T07:10:57.064Z",
+  "generatedAt": "2026-08-18T07:50:27.449Z",
   "classique": [
     {
       "id": "3bd8db15-623a-81d5-8273-f18d36e95e9d",
@@ -720,7 +720,7 @@
     {
       "id": "3b28db15-623a-8147-b17c-fb84ff010dcb",
       "identifiant": "INA-708",
-      "titre": "Facturation électronique - Boutons de connexion à Pennylane",
+      "titre": "Facturation électronique - Connexion  Pennylane à NAXI",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
@@ -747,12 +747,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Facturation-lectronique-Boutons-de-connexion-Pennylane-3b28db15623a8147b17cfb84ff010dcb"
+      "url": "https://app.notion.com/p/Facturation-lectronique-Connexion-Pennylane-NAXI-3b28db15623a8147b17cfb84ff010dcb"
     },
     {
       "id": "3b28db15-623a-8154-afa0-dbb98921fd48",
       "identifiant": "INA-707",
-      "titre": "Facturation électronique - Fenêtres de première connexion",
+      "titre": "Facturation électronique - Création du compte Pennylane",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
@@ -771,7 +771,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<h3>Idée générale : l'utilisateur doit pouvoir faire un maximum dans NAXI Gestion afin d'éviter les aller-retour entre le logiecl et le B.O Pennylane</h3><div>Dans les paramètres Exercice, dans l'onglet mention légale nous alloons créer plusieurs boutons .</div><div>Cette US se concentre sur la création de compte pennylane.</div><div>lorsque l'utilisateur n'a pas encore de compte Pennylane, il va avoir la possibilité de pré-créer son compte depuis NAXI.&nbsp;</div><p></p><ul><li><b>Le bouton “Créer un compte”</b></li></ul><p></p><p><br></p><p>Lorsque l’utilisateur clique sur le bouton, une fenêtre s’affiche avec tous les champs obligatoires (Contact client et entreprise) (voir dans le code tous les champs obligatoires ) comme dans l’exemple suivant déjà rempli qu’il peut modifier :</p><p><br></p><p><br></p><p>Il peut avec le bouton “Retour” revenir dans les mentions légales de Naxi et pourvoir recommencer sa création de compte.</p><p>Lorsque l’utilisateur clique sur le bouton “Créer le compte Pennylane”, une pop-up s’affiche indiquant qu’un mail vient de lui être envoyé et qu’il doit le consulter pour continuer comme dans l’exemple suivant :</p><p><strong><br></strong></p><p></p><ul><li><strong><strike>Le bouton “Se connecter”</strike></strong></li></ul><p></p><p><strike>L’utilisateur a déjà un compte Pennylane et veut le lier à Naxi, il va cliquer sur le bouton “Se connecter” qui ouvrira une fenêtre avec une demande d’autorisation, US <strong>Authentification : Etape-2</strong></strike> </p><p><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/01bb42b1b2e54abaa5956dee64c8b080\" alt=\"image-20260522-132808.png\" style=\"max-width:100%\"></p><p><br></p>",
+      "explication": "<h3>Idée générale : l'utilisateur doit pouvoir faire un maximum dans NAXI Gestion afin d'éviter les aller-retour entre le logiecl et le B.O Pennylane</h3><div>Dans les paramètres Exercice, dans l'onglet mention légale nous alloons créer plusieurs boutons.</div><div><br></div><div><b><u>Cette US se concentre sur la création de compte pennylane.</u></b></div><div><b><u><br></u></b></div><div>Lorsque l'utilisateur n'a pas encore de compte Pennylane, il va avoir la possibilité de pré-créer son compte depuis NAXI.&nbsp;</div><p></p><ul><li><b>Le bouton “Créer un compte”</b></li></ul><p></p><p><br></p><p>Lorsque l’utilisateur clique sur le bouton, une fenêtre s’affiche avec tous les champs obligatoires (Contact client et entreprise) (voir dans le code tous les champs obligatoires ).</p><p>Il peut avec le bouton “Retour” revenir dans les mentions légales de Naxi et pourvoir recommencer sa création de compte.</p><p>Lorsque l’utilisateur clique sur le bouton “Créer le compte Pennylane”, une pop-up s’affiche indiquant qu’un mail vient de lui être envoyé et qu’il doit le consulter pour continuer.</p><p><strong><br></strong></p><p></p><ul><li><strong><strike>Le bouton “Se connecter”</strike></strong></li></ul><p></p><p><strike>L’utilisateur a déjà un compte Pennylane et veut le lier à Naxi, il va cliquer sur le bouton “Se connecter” qui ouvrira une fenêtre avec une demande d’autorisation, US <strong>Authentification : Etape-2</strong></strike> </p><p><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/01bb42b1b2e54abaa5956dee64c8b080\" alt=\"image-20260522-132808.png\" style=\"max-width:100%\"></p><p><br></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -779,7 +779,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Facturation-lectronique-Fen-tres-de-premi-re-connexion-3b28db15623a8154afa0dbb98921fd48"
+      "url": "https://app.notion.com/p/Facturation-lectronique-Cr-ation-du-compte-Pennylane-3b28db15623a8154afa0dbb98921fd48"
     },
     {
       "id": "3b28db15-623a-8187-98d9-ec2a150f912f",
