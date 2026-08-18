@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T08:59:47.350Z",
+  "generatedAt": "2026-08-18T09:32:05.718Z",
   "classique": [
     {
       "id": "3bd8db15-623a-81d5-8273-f18d36e95e9d",
@@ -739,7 +739,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<h3>générale : l'utilisateur doit pouvoir faire un maximum dans NAXI Gestion afin d'éviter les aller-retour entre le logiciel et le B.O Pennylane</h3><div>Dans les paramètres Exercice, dans l'onglet mention légale nous allons créer plusieurs boutons.</div><div><br></div><div><b><i><u>Cette US se concentre sur la connexion entre Pennylane et Naxi&nbsp;</u></i></b></div><p>Lorsque le l'utilisateur a créer son compte Pennylane et fait la démarche pour la plateforme agrée, il faut connecter Naxi à Pennylane.&nbsp;</p><p>Le but :&nbsp;</p><p>Avec cet appairage, Naxi Communique directemetn avec Pennylane. l'envoi des éléments nécessaire à l'invoicing et l'ereporting pourra donc se faire de manière automatique sans que l'utilisateur ait, au&nbsp;</p><h3><br></h3><ol><li><strong>Bouton « Se connecter »</strong></li></ol><ul><li>Destiné aux clients qui possèdent déjà un compte Pennylane sur NAXI</li><li>Redirige vers la page de connexion Pennylane</li><li>Libellé du bouton : « Se connecter »</li></ul><p><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/081cff6a95034fc0a0316580928908a0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></p><p>Lorsque le client à soit créer un compte, soit s’est connecté à son compte pour la première fois sur Naxi et que tout est OK alors les boutons sont désactivés, grisés et non cliquables.</p><p>Gestion des erreurs si la création ou la connexion ne peut pas se faire pour différentes raisons (problème de réseau, Pennylane ne répond pas ….) , message selon ce qu’on va recevoir dans RabbitMQ (pour réessayer par exemple).</p><p>La suite de ce développement dans l’US <strong>Facturation électronique - Fenêtres de première connexion</strong> une fois que l’on clique sur les boutons.</p>",
+      "explication": "<h3>Idée générale : l'utilisateur doit pouvoir faire un maximum dans NAXI Gestion afin d'éviter les aller-retour entre le logiciel et le B.O Pennylane</h3><div>Dans les paramètres Exercice, dans l'onglet mention légale nous allons créer plusieurs boutons.</div><div><br></div><div><b><i><u>Cette US se concentre sur la connexion entre Pennylane et Naxi&nbsp;</u></i></b></div><p>Lorsque l'utilisateur a crée son compte Pennylane et fait la démarche pour la plateforme agrée, il faut connecter Naxi à Pennylane.&nbsp;</p><p>Le but :&nbsp;</p><p>Avec cet appairage, Naxi Communique directement avec Pennylane. l'envoi des éléments nécessaires à l'invoicing et l'e-reporting pourra donc se faire de manière automatique sans que l'utilisateur ait, au quotidien, à se rendre sur son espace Pennylane.&nbsp;</p><p><br></p><p>Lorsque le client à soit créer un compte, soit s’est connecté à son compte pour la première fois sur Naxi et que tout est OK alors les boutons sont désactivés, grisés et non cliquables.</p><p>Gestion des erreurs si la création ou la connexion ne peut pas se faire pour différentes raisons (problème de réseau, Pennylane ne répond pas ….) , message selon ce qu’on va recevoir dans RabbitMQ (pour réessayer par exemple).</p><p><br></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -1181,7 +1181,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p><code style=\"background: rgb(244, 244, 245); border: 1px solid rgb(228, 228, 231); border-radius: 4px; padding: 1px 5px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.92em;\">FREE/OPTION/RESERVATION/ARRIVED/GONE/RESIDENT/LINEAR/ ALLOTMENT/UNAVAILABLE/UNSOLD/NON_SWITCHABLE_OPTION/NON_SWITCHABLE_RESERVATION</code>&nbsp;Développer la logique back-end pour la gestion du planning : gestion des filtres, des statuts, des séjours, des indisponibilités, des droits opérateur, de la persistance des préférences utilisateur (règles d’affichage), et des interactions avec la base de données.</p><p><b>Lien JIRA :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-334\">TL-334</a></p>",
+      "explication": "<p>Développer la logique back-end pour la gestion du planning : gestion des filtres, des statuts, des séjours, des indisponibilités, des droits opérateur, de la persistance des préférences utilisateur (règles d’affichage), et des interactions avec la base de données.</p><p><b>Lien JIRA :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-334\">TL-334</a></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
