@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T07:50:27.449Z",
+  "generatedAt": "2026-08-18T08:19:49.167Z",
   "classique": [
     {
       "id": "3bd8db15-623a-81d5-8273-f18d36e95e9d",
@@ -720,7 +720,7 @@
     {
       "id": "3b28db15-623a-8147-b17c-fb84ff010dcb",
       "identifiant": "INA-708",
-      "titre": "Facturation électronique - Connexion  Pennylane à NAXI",
+      "titre": "Facturation électronique - Appairage  Pennylane et NAXI",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
@@ -739,7 +739,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<h3>Besoin</h3><p>En tant qu'utilisateur, je souhaite disposer de boutons de connexion à Pennylane sur l'interface,<br>Afin de pouvoir accéder à la plateforme de facturation électronique via notre partenaire agréé Pennylane.</p><h3>Contexte</h3><p>Suite à la nouvelle réforme de facturation électronique, ajout de 2 boutons de connexions pour que le client puisse se connecter ou créer son compte à notre partenaire agréé Pennylane</p><p>Dans l’onglet des Mentions légales (Paramètres / Exercice / Mentions légales)</p><p><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7ec211fa7f0846e29d13993a782d29fe\" alt=\"image-20260521-100800.png\" style=\"max-width:100%\"></p><ol><li><strong>Bouton « Se connecter »</strong></li></ol><ul><li>Destiné aux clients qui possèdent déjà un compte Pennylane sur NAXI</li><li>Redirige vers la page de connexion Pennylane</li><li>Libellé du bouton : « Se connecter »</li></ul><p><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/081cff6a95034fc0a0316580928908a0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></p><p>Lorsque le client à soit créer un compte, soit s’est connecté à son compte pour la première fois sur Naxi et que tout est OK alors les boutons sont désactivés, grisés et non cliquables.</p><p>Gestion des erreurs si la création ou la connexion ne peut pas se faire pour différentes raisons (problème de réseau, Pennylane ne répond pas ….) , message selon ce qu’on va recevoir dans RabbitMQ (pour réessayer par exemple).</p><p>La suite de ce développement dans l’US <strong>Facturation électronique - Fenêtres de première connexion</strong> une fois que l’on clique sur les boutons.</p>",
+      "explication": "<h3>générale : l'utilisateur doit pouvoir faire un maximum dans NAXI Gestion afin d'éviter les aller-retour entre le logiciel et le B.O Pennylane</h3><div>Dans les paramètres Exercice, dans l'onglet mention légale nous allons créer plusieurs boutons.</div><div><br></div><div><b><i><u>Cette US se concentre sur la connexion entre Pennylane et Naxi&nbsp;</u></i></b></div><p>Lorsque le l'utilisateur a créer son compte Pennylane et fait la démarche pour la plateforme agrée, il faut connecter Naxi à Pennylane.&nbsp;</p><p>Le but :&nbsp;</p><p>Avec cet appairage, Naxi Communique directemetn avec Pennylane. l'envoi des éléments nécessaire à l'invoicing et l'ereporting pourra donc se faire de manière automatique sans que l'utilisateur ait, au&nbsp;</p><h3><br></h3><ol><li><strong>Bouton « Se connecter »</strong></li></ol><ul><li>Destiné aux clients qui possèdent déjà un compte Pennylane sur NAXI</li><li>Redirige vers la page de connexion Pennylane</li><li>Libellé du bouton : « Se connecter »</li></ul><p><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/081cff6a95034fc0a0316580928908a0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></p><p>Lorsque le client à soit créer un compte, soit s’est connecté à son compte pour la première fois sur Naxi et que tout est OK alors les boutons sont désactivés, grisés et non cliquables.</p><p>Gestion des erreurs si la création ou la connexion ne peut pas se faire pour différentes raisons (problème de réseau, Pennylane ne répond pas ….) , message selon ce qu’on va recevoir dans RabbitMQ (pour réessayer par exemple).</p><p>La suite de ce développement dans l’US <strong>Facturation électronique - Fenêtres de première connexion</strong> une fois que l’on clique sur les boutons.</p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -747,7 +747,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Facturation-lectronique-Connexion-Pennylane-NAXI-3b28db15623a8147b17cfb84ff010dcb"
+      "url": "https://app.notion.com/p/Facturation-lectronique-Appairage-Pennylane-et-NAXI-3b28db15623a8147b17cfb84ff010dcb"
     },
     {
       "id": "3b28db15-623a-8154-afa0-dbb98921fd48",
