@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-08-19T12:33:35.577Z",
+  "generatedAt": "2026-08-19T13:28:33.907Z",
   "classique": [
+    {
+      "id": "3c18db15-623a-81bf-80a6-f272171315f3",
+      "identifiant": "INA-735",
+      "titre": "demande suppression ticket vente reception sur 2027",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-08-19T12:47:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "le receptionniste a saisi par erreur 2 ventes receptions sur 2027, j'ai tenté de les annuler via \"Gestion des ventes reception\" mais j'ai un msg : traitement impossible en dehors des dates de l'ex comptable<div>possible de les supprimer en base svp</div><div>ticket 001 et 002 du 29/07/2026</div><div><br></div><div>possible de rappeler Marina cet après-midi à partir de 14h</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/demande-suppression-ticket-vente-reception-sur-2027-3c18db15623a81bf80a6f272171315f3"
+    },
     {
       "id": "3bd8db15-623a-81d5-8273-f18d36e95e9d",
       "identifiant": "INA-734",
@@ -35836,7 +35868,7 @@
     ]
   },
   "counts": {
-    "classique": 571,
+    "classique": 572,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
