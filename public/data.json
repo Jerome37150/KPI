@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T06:24:08.906Z",
+  "generatedAt": "2026-08-20T07:13:38.399Z",
   "classique": [
     {
       "id": "3c18db15-623a-81bf-80a6-f272171315f3",
@@ -752,7 +752,7 @@
     {
       "id": "3b28db15-623a-8147-b17c-fb84ff010dcb",
       "identifiant": "INA-708",
-      "titre": "Facturation électronique - Appairage  Pennylane et NAXI",
+      "titre": "Appairage  Pennylane et NAXI",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
@@ -779,12 +779,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Facturation-lectronique-Appairage-Pennylane-et-NAXI-3b28db15623a8147b17cfb84ff010dcb"
+      "url": "https://app.notion.com/p/Appairage-Pennylane-et-NAXI-3b28db15623a8147b17cfb84ff010dcb"
     },
     {
       "id": "3b28db15-623a-8154-afa0-dbb98921fd48",
       "identifiant": "INA-707",
-      "titre": "Facturation électronique - Création du compte Pennylane",
+      "titre": "Création du compte Pennylane",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
@@ -811,7 +811,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Facturation-lectronique-Cr-ation-du-compte-Pennylane-3b28db15623a8154afa0dbb98921fd48"
+      "url": "https://app.notion.com/p/Cr-ation-du-compte-Pennylane-3b28db15623a8154afa0dbb98921fd48"
     },
     {
       "id": "3b28db15-623a-8187-98d9-ec2a150f912f",
@@ -959,7 +959,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Lorsqu’une facture est éditée elle doit être envoyée à Pennylane sous le format demandé. </p><p>Dans Naxi, on peut facturer au fil de l’eau via la fiche du client ou facturer par lot. </p>",
+      "explication": "<p>Lorsqu’une<b> facture BtoB </b>est éditée elle doit être envoyée à Pennylane sous le format demandé. </p><p>Dans Naxi, on peut facturer au fil de l’eau via la fiche du client ou facturer par lot. </p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
