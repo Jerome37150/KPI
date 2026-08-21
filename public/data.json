@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T07:55:38.629Z",
+  "generatedAt": "2026-08-21T08:24:26.920Z",
   "classique": [
     {
       "id": "3c18db15-623a-81bf-80a6-f272171315f3",
@@ -3223,7 +3223,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Développer les données et règles serveur du tableau de bord : calcul des KPI, cohérence avec Séjours / Planning / Contrôle de caisse, alimentation des cartes selon la souscription BI CRM, préparation des jeux de données pour les graphes et filtres.</p>",
+      "explication": "<p>Développer les données et règles serveur du tableau de bord : calcul des KPI, cohérence avec Séjours / Planning / Contrôle de caisse, alimentation des cartes selon la souscription BI CRM, préparation des jeux de données pour les graphes et filtres.</p><p>US Jira liées : <a href=\"https://inaxel.atlassian.net/browse/TL-398\">TL-398</a></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
