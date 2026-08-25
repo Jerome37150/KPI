@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-08-25T09:48:38.536Z",
+  "generatedAt": "2026-08-25T10:19:04.830Z",
   "classique": [
+    {
+      "id": "3c78db15-623a-8122-8e64-fa38cd9ab1da",
+      "identifiant": "INA-739",
+      "titre": "enregistrement réglement reparition manuelle très lent si beaucoup de commandes",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-08-25T09:49:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "La répartition manuelle est très lente lorsque :&nbsp;<div><ul><li>1.&nbsp; sur une fiche client avoir plus de 20 prestations</li><li>2. réaliser un apiement et choisir une répartition manuelle</li><li>3. répartir manuelle manuelle le paiement sur les différentes prestations</li></ul></div><div>Résultat =&gt; la répartition manuelle est très lente et bloque l'utilisateur.&nbsp;</div><div>La répartition automotaique est&nbsp; instantannée.&nbsp;</div><div><br></div><div><b>Reproduit sur base SQL et HF 18.31</b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/enregistrement-r-glement-reparition-manuelle-tr-s-lent-si-beaucoup-de-commandes-3c78db15623a81228e64fa38cd9ab1da"
+    },
     {
       "id": "3c78db15-623a-812d-bed4-d7a5b5ec2833",
       "identifiant": "INA-738",
@@ -35976,7 +36008,7 @@
     ]
   },
   "counts": {
-    "classique": 575,
+    "classique": 576,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
