@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T13:24:29.473Z",
+  "generatedAt": "2026-08-25T14:10:20.820Z",
   "classique": [
     {
       "id": "3c78db15-623a-8166-a74f-e45be81876f3",
@@ -10951,7 +10951,7 @@
       "persPoTest": [],
       "pointAvancement": 0.75,
       "pointsBlocage": "2 US créer + reprise au retour de LC",
-      "explication": "Suite à l’incendie du data center hébergeant TurboSmtp, NaxiResa & l’espace client moulinait à la fin du traitement, lors de l’envoi du mail au client. Au bout de quelques minutes, une erreur 504 apparaissaient.\n\n→ Nous avons alors modifié les fichiers .env de NaxiApi & NaxiBooking en remplaçant les token de TurboSmtp par ceux d’Express Mailing. Après tests, tout refonctionne correctement.\n\nIl faudra en revanche prévoir :\n\n  • Remigrer sur TurboSmtp une fois que leurs services seront rétablis\n  • Prévoir une API à nous qui tapera sur TurboSMTP, mais qui permettra de changer de facon centraliser le mail profider",
+      "explication": "Suite à l’incendie du data center hébergeant TurboSmtp, NaxiResa &amp; l’espace client moulinait à la fin du traitement, lors de l’envoi du mail au client. Au bout de quelques minutes, une erreur 504 apparaissaient.&nbsp;<div>&nbsp;→ Nous avons alors modifié les fichiers .env de NaxiApi &amp; NaxiBooking en remplaçant les token de TurboSmtp par ceux d’Express Mailing.&nbsp;</div><div>Après tests, tout refonctionne correctement.\n\nIl faudra en revanche prévoir :&nbsp;</div><div>&nbsp;• Remigrer sur TurboSmtp une fois que leurs services seront rétablis&nbsp;</div><div>&nbsp;• Prévoir une API à nous qui tapera sur TurboSMTP, mais qui permettra de changer de facon centraliser le mail profider</div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
