@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-08-25T12:21:17.865Z",
+  "generatedAt": "2026-08-25T13:24:29.473Z",
   "classique": [
+    {
+      "id": "3c78db15-623a-8166-a74f-e45be81876f3",
+      "identifiant": "INA-740",
+      "titre": "NAXITO : Faire remonter les libellés de OS et Suroffre dans les commentaires",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-08-25T13:15:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>Mail Rachel le 20/08/2026 :&nbsp;</div><div><br></div><div><i>Voilà la requête de Sunelia concernant Naxi TO (ça fonctionnait avant le passage en Rest). Faire remonter les libellés de OS et Suroffre dans les commentaires.</i></div><div><i><br></i></div><div><i>Comme me l’expliquait Paul, on essaie de faire les choses plus propres depuis le passage en REST et la demande a été faite en juin à Inaxel pour ré-intégrer ces éléments qui étaient bien présents dans l’ancienne version.</i></div><div><i><br></i></div><div><i>Dans la passerelle classique Naxi PMS, Paul me disait que vous aviez repris l’ensemble des éléments envoyés pas très proprement dans le commentaire, pour les réintégrer plus proprement chez vous depuis les différents nœuds d’information.</i></div><div><i><br></i></div><div><i>Sunelia s’impatiente par contre, parce que ça n’a pas été fait et la compta manque d’infos, deux solutions donc :</i></div><div><i><br></i></div><div><i>On repart temporairement sur un truc pas propre que pour Naxi TO et on fait le boulot de notre côté. On corrigera dès que les équipes d’inaxel auront du temps.</i></div><div><i>@Jérôme | Inaxel tu nous dis si ça te semble faisable sur Naxi TO dans un temps assez court et on ne fait rien de notre côté.</i></div><div><i>&nbsp;</i></div><div><i><br></i></div><div><i>Voilà ce que vous recevez sur l’exemple de la résa 19623227 et jaune toutes les infos à faire remonter dans Naxi TO, soit dans les commentaires, soit dans un champ approprié, je ne sais pas.</i></div><div><i><br></i></div><div><i>&nbsp;</i></div><div><i><br></i></div><div><i>},</i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; UnitLocationAmount: null,</i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; AppliedOffers: {</i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; &nbsp; SpecialOffer: {</i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; &nbsp; &nbsp; ShId: 2962225,</i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; &nbsp; &nbsp; DiscountCode: null,</i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; &nbsp; &nbsp; Label: <span style=\"background-color: rgb(254, 240, 138);\">\"15% discount in august ! | -15%\",</span></i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; &nbsp; &nbsp; Type: null,</i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; &nbsp; &nbsp; Amount: 229.2</i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; &nbsp; },</i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; &nbsp; CumulativeOffer: null,</i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; &nbsp; OverlayOffer: {</i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; &nbsp; &nbsp; ShId: 30089,</i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; &nbsp; &nbsp; DiscountCode: null,</i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; &nbsp; &nbsp; Label: \"<span style=\"background-color: rgb(254, 240, 138);\">By BAIA HOLIDAY 1016629 --&gt; rgt directe\",</span></i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; &nbsp; &nbsp; Type: null,</i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; &nbsp; &nbsp; Amount: 0</i></div><div><i><br></i></div><div><i>&nbsp; &nbsp; &nbsp; }</i></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/NAXITO-Faire-remonter-les-libell-s-de-OS-et-Suroffre-dans-les-commentaires-3c78db15623a8166a74fe45be81876f3"
+    },
     {
       "id": "3c78db15-623a-8122-8e64-fa38cd9ab1da",
       "identifiant": "INA-739",
@@ -36008,7 +36044,7 @@
     ]
   },
   "counts": {
-    "classique": 576,
+    "classique": 577,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
