@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T14:10:20.820Z",
+  "generatedAt": "2026-08-25T15:00:07.026Z",
   "classique": [
     {
       "id": "3c78db15-623a-8166-a74f-e45be81876f3",
@@ -113,7 +113,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -129,10 +129,10 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "<br><div><div><br></div><div><br></div></div>",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -149,7 +149,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "AOUT 26"
       ],
       "fonctions": null,
       "produits": [
@@ -165,10 +165,10 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Pour synchroniser les factures B2B/B2C et les ventes anonymes (Ticket Z / Caisses) depuis votre logiciel de gestion vers Pennylane, ces deux documentations décrivent deux flux distincts.<div><br></div><div>Nous allons dans cette Us se concentrer sur les ventes anonymes</div>",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
