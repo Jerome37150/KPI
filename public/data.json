@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-08-25T07:05:27.639Z",
+  "generatedAt": "2026-08-25T07:55:11.956Z",
   "classique": [
+    {
+      "id": "3c78db15-623a-812d-bed4-d7a5b5ec2833",
+      "identifiant": "INA-738",
+      "titre": "Dashboard Etat des envois des factures b2b à la plateforme",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "GRAFANA"
+      ],
+      "client": "",
+      "dateCreation": "2026-08-25T07:29:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Afin de suivre convenablement l'envoi des factures B2B à Pennylane et les plateformes agréees, il nous faudrait un Dasboard qui rescence , apr camping l'etat des envois des factures. En cas d'échecs , nous avons besoin d'en connaître la cause afin de pouvoir aiguiller au mieux le client dans la résolution de cet échec",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Dashboard-Etat-des-envois-des-factures-b2b-la-plateforme-3c78db15623a812dbed4d7a5b5ec2833"
+    },
     {
       "id": "3c68db15-623a-817d-a916-e8228f3f20db",
       "identifiant": "INA-737",
@@ -35940,7 +35976,7 @@
     ]
   },
   "counts": {
-    "classique": 574,
+    "classique": 575,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
