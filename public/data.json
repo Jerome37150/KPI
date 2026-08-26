@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T14:11:23.811Z",
+  "generatedAt": "2026-08-26T14:59:32.357Z",
   "classique": [
     {
       "id": "3c88db15-623a-819c-bf93-eb9c8823a05f",
@@ -112,9 +112,7 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [
-        "AOUT 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "GRAFANA"
@@ -131,9 +129,7 @@
       "pointsBlocage": "",
       "explication": "Afin de suivre convenablement l'envoi des factures B2B à Pennylane et les plateformes agréees, il nous faudrait un Dasboard qui rescence , apr camping l'etat des envois des factures. En cas d'échecs , nous avons besoin d'en connaître la cause afin de pouvoir aiguiller au mieux le client dans la résolution de cet échec",
       "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
