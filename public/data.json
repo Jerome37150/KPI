@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T06:26:30.243Z",
+  "generatedAt": "2026-08-26T07:22:42.411Z",
   "classique": [
     {
       "id": "3c78db15-623a-8166-a74f-e45be81876f3",
@@ -129,7 +129,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<br><div><div><br></div><div><br></div></div>",
+      "explication": "<div><div>La réforme de la facturation électronique qui entrera en vigueur en septembre 2026, impose aux entreprises la transmission dématérialisée des données de transactions commerciales à l'administration fiscale ou e-reporting.</div></div><div><br></div><div>Nous allons nous concentrer ici sur les factures&nbsp; <b>BtoC.</b></div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -165,7 +165,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Pour synchroniser les factures B2B/B2C et les ventes anonymes (Ticket Z / Caisses) depuis votre logiciel de gestion vers Pennylane, ces deux documentations décrivent deux flux distincts.<div><br></div><div>Nous allons dans cette Us se concentrer sur les ventes anonymes</div>",
+      "explication": "<div><br></div><div>La réforme de la facturation électronique qui entrera en vigueur en septembre 2026, impose aux entreprises la transmission dématérialisée des données de transactions commerciales à l'administration fiscale ou e-reporting.</div><div><br></div><div>Nous allons dans cette Us se concentrer sur les ventes anonymes</div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
