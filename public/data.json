@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T08:04:50.388Z",
+  "generatedAt": "2026-08-26T08:58:27.680Z",
   "classique": [
     {
       "id": "3c78db15-623a-8166-a74f-e45be81876f3",
@@ -199,7 +199,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Il es possible dans NAXI de réaliser une vente anonymes sur une saison où l'exercice comptable n'est pas encore ouvert :&nbsp;<div><ul><li>Créer une nouvelle saison pour 2027 avec un exercice comptable commençant au premier 1er janvier 2027</li><li>les dates de délais de paiement doivent comprendre la date du jour</li><li>réaliser une vente anonymes sur cet execice =&gt; cela fonctionne</li><li>si je souhaite annuler le ticket =&gt; je ne peux pas car l'exercice comptable n'a pas commencé</li><li>Si la date de délais de paiement est égale à la date d'exercice =&gt; je ne peux faire de vente anonyme en dehors de l'exercice comptable</li></ul></div>",
+      "explication": "Il es possible dans NAXI de réaliser une vente anonymes sur une saison où l'exercice comptable n'est pas encore ouvert :&nbsp;<div><ul><li>Créer une nouvelle saison pour 2027 avec un exercice comptable commençant au premier 1er janvier 2027</li><li>les dates de délais de paiement doivent comprendre la date du jour</li><li>réaliser une vente anonymes sur cet execice =&gt; cela fonctionne</li><li>si je souhaite annuler le ticket =&gt; je ne peux pas car l'exercice comptable n'a pas commencé</li><li>Si la date de délais de paiement est égale à la date d'exercice =&gt; je ne peux faire de vente anonyme en dehors de l'exercice comptable</li></ul><div>Il manque un contrôle sur les délais de paiement.</div></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
