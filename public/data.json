@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-08-26T12:23:07.686Z",
+  "generatedAt": "2026-08-26T13:30:18.032Z",
   "classique": [
+    {
+      "id": "3c88db15-623a-819c-bf93-eb9c8823a05f",
+      "identifiant": "INA-741",
+      "titre": "Naxi Réservation : faire passer les emails par MailRelayAPI local",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Réservation"
+      ],
+      "client": "",
+      "dateCreation": "2026-08-26T13:11:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Nous avons créer une nouvelle API  pour faire transiter les envois d’emails de nos différent applicatifs via l’US WEB-785: [WEB] Créer une API pour pouvoir gérer le service du mail profider<div>&nbsp;Dans cette Us nous allons nous concentrer au projet Naxi réservation</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Naxi-R-servation-faire-passer-les-emails-par-MailRelayAPI-local-3c88db15623a819cbf93eb9c8823a05f"
+    },
     {
       "id": "3c78db15-623a-8166-a74f-e45be81876f3",
       "identifiant": "INA-740",
@@ -41,7 +77,7 @@
       "id": "3c78db15-623a-8122-8e64-fa38cd9ab1da",
       "identifiant": "INA-739",
       "titre": "enregistrement réglement reparition manuelle très lent si beaucoup de commandes",
-      "classification": null,
+      "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
@@ -36044,7 +36080,7 @@
     ]
   },
   "counts": {
-    "classique": 577,
+    "classique": 578,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
