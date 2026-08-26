@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T13:30:18.032Z",
+  "generatedAt": "2026-08-26T14:11:23.811Z",
   "classique": [
     {
       "id": "3c88db15-623a-819c-bf93-eb9c8823a05f",
@@ -18553,7 +18553,7 @@
       "persPoTest": [],
       "pointAvancement": 0.7,
       "pointsBlocage": "en test",
-      "explication": "Suite à une remontée de Flower, et après recherche avec Mailys, nous constatons que les clients VACAF sont envoyés chez CTV avec la balise Customer Type à 2, ce qui correspond à “Client de TO”. Ils devraient être envoyés à 1 “Client Standard”.",
+      "explication": "<i>Suite à une remontée de Flower, et après recherche avec Mailys, nous constatons que les clients VACAF sont envoyés chez CTV avec la balise Customer Type à 2, ce qui correspond à “Client de TO”. Ils devraient être envoyés à 1 “Client Standard”.</i><div><br><div>Aujourd’hui, quand on envoi un séjour au CRM, on envoi le PmsCustomerType avec la règle suivante :&nbsp;<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/add3c52120024845ab3b37c337c883ff\" alt=\"capture\" style=\"opacity: 1; max-width: 100%;\"></div><div><br></div><div>Dans NAXI Gestion, VACAF est géré comme un TO et donc sur une commande affecté à VACAF, le numéro de la fiche VACAF est dans le cmto de la commande.&nbsp;</div><div><br></div><div>On a fait en sorte de pouvoir gérer les clients passant par VACAF sur l’espace client et pour cela on a fait en sorte d’envoyer le numéro de la fiche VACAF du camping sur le web → à vérifier que ce soit envoyé pour tous types de configuration camping</div></div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
