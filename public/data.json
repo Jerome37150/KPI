@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T03:33:08.180Z",
+  "generatedAt": "2026-08-27T14:37:50.668Z",
   "classique": [
     {
       "id": "3c88db15-623a-819c-bf93-eb9c8823a05f",
@@ -4871,7 +4871,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Développer la partie back-end de la To Do Liste, incluant la gestion des tâches, la persistance des données et l'intégration avec les autres modules si nécessaire.</p>",
+      "explication": "<p>Développer la partie back-end de la To Do Liste, incluant la gestion des tâches, la persistance des données et l'intégration avec les autres modules si nécessaire.</p><p><b>US Jira liée :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-347\">TL-347</a></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
