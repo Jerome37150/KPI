@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T07:46:39.697Z",
+  "generatedAt": "2026-08-31T15:34:11.066Z",
   "classique": [
     {
       "id": "3c88db15-623a-819c-bf93-eb9c8823a05f",
@@ -607,8 +607,10 @@
       "titre": "Modification QuickSupport Teamviewer sur tous nos logiciels",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -625,7 +627,9 @@
       "pointsBlocage": "",
       "explication": "<div>Notre service support rencontre des difficultés pour se connecter via Teamviewer chez certains de nos clients.</div><div><br></div><div><i><b>L'erreur rencontrée est \"Cause inconnue\".</b></i></div><div><br></div><div>Après analyse, le quicksupport embarqué dans NAXI est en version 13.06447.0</div><div>Nos licences au service support sont en version 15.</div><div><br></div><div>TeamViewer 13 est ancien (2017) et n'est plus maintenu. Les serveurs TeamViewer imposent parfois des exigences de sécurité (TLS, protocoles) que les vieilles versions ne satisfont plus totalement, ce qui peut provoquer des refus de connexion imprévisibles.</div><div><br></div><div>Il faudrait donc modifier le quicksupport sur tous nos logiciels ayant la fonctionnalité de télémaintenance :&nbsp;</div><div>- NAXI Gestion</div><div>-Naxi Cod</div><div>-Naxi Cam</div><div>-Naxi Totem</div><div><br></div><div><b style=\"background-color: rgb(254, 240, 138);\">Le quicksupport en version 15 est disponible sur /Exe Testeuses/Preprod/Exe Specifiques/Angélique</b></div><div><br></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1216,9 +1220,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [
-        "AOUT 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -1235,9 +1237,7 @@
       "pointsBlocage": "",
       "explication": "Camping CLOS DE LA CHAUME :&nbsp;<br><br>-&gt; La version 18.29 a été déployé chez eux Dimanche 02/08 à 20h00.<div>-&gt; Les plannins côté NAXI sont ok depuis cette date, plus aucun chevauchement planning.</div><div><br></div><div>Pourtant, le 03/08 la cliente a reçu deux réservations SH :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/4b77e1f13d6c49b9bebaaf73f8238a5d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>La première 19595050 est passée à 18h41 et a permis de prendre la dernière disponibilité restante à savoir l'emplacement 055.<br>Puis à 21h28 une autre résa a réussi à passer malgré le fait que plus aucun emplacement n'était disponible.<br><br>Ce matin, le 04/08 les plannings sur le web sont ok et je ne peux pas réserver :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/25e5da7efaed497ca82905b4d22d7bb5\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Il faut donc analyser et comprendre ce qui a pu se produire<br><br><b>2ème cas : Camping Chevaliers de Malte</b><br><br>Une résa est arrivée alors qu'il n'y avait plus de dispo : 19599815<br><br>Le camping a été migré sur la 18.29 le 03/08 vers 10h00. La résa en erreur est arrivée vers 22h50 le 03/08.<br>Le camping a encore un poste en 18.25 mais sa base de données ne présente aucune incohérence donc il y a un problème ailleurs</div>",
       "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -8071,7 +8071,9 @@
         "JUILLET 26"
       ],
       "fonctions": null,
-      "produits": [],
+      "produits": [
+        "Naxi Nomad"
+      ],
       "client": "",
       "dateCreation": "2026-06-24T14:54:00.000Z",
       "estimBack": 0,
@@ -8168,8 +8170,7 @@
       ],
       "fonctions": null,
       "produits": [
-        "Naxi Gestion PMS",
-        "NAXI ESPACE CLIENT"
+        "Naxi Gestion PMS"
       ],
       "client": "Sirene 66",
       "dateCreation": "2026-06-22T22:14:00.000Z",
