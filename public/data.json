@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T00:35:46.856Z",
+  "generatedAt": "2026-09-01T05:38:17.705Z",
   "classique": [
     {
       "id": "3c88db15-623a-819c-bf93-eb9c8823a05f",
@@ -145,7 +145,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -181,7 +181,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -6329,7 +6329,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -6347,7 +6347,9 @@
       "pointsBlocage": "",
       "explication": "<div><b>Client impacté : Flower / Chadotel</b><br><br>Ces deux groupes nous ont signalé rencontré beaucoup de difficultés à importer leur tarif depuis CTV.</div><div><br></div><div>Après tests sur chacune des deux bases de données, je constate en effet que la fenêtre de chargement des tarifs met déjà plus d'une minute à lister les tarifs. NAXI est complètement bloqué pendant ce traitement et ne permet donc pas de travailler en parallèle.</div><div><br></div><div>Pour reproduire le soucis :</div><div><br></div><div>1. Se connecter sur une base de données assez volumineuse avec plusieurs établissements</div><div>2. Se rendre dans le menu Paramètres &gt; Tarifs</div><div>3. Cliquer sur le bouton Import Tout</div><div><br></div><div>-&gt; A partir de là, NAXI charge chaque tarif mis à jour sur SH : On a donc une première lenteur ici</div><div>-&gt; Puis NAXI, ouvre la fenêtre de validation : Deuxième lenteur</div><div><b><br></b></div><div><b>Il faut donc réaliser un correctif pour optimiser les requêtes faites sur ce traitement afin de retrouver une meilleure fluidité/rapidité.</b></div><div><br></div><div>Reproduit sur toutes les bases de données groupes : Ciela, Chadotel, Flower Exploit...etc.</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6465,7 +6467,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -6483,7 +6485,9 @@
       "pointsBlocage": "",
       "explication": "<b>Client impacté : Les Méditerranées&nbsp;</b><div><i>Version : 18.26 /SQL&nbsp;</i></div><div><b><u>Contexte</u></b> : Passage d'un exe spécial mis pour<a href=\"https://inaxel.atlassian.net/browse/BUG-1131?atlOrigin=eyJpIjoiZGEzZmE2ZTg4OTY3NDc2MDk1Y2IzNmUzMTc0OWY5NTIiLCJwIjoiaiJ9\">https://inaxel.atlassian.net/browse/BUG-1131?atlOrigin=eyJpIjoiZGEzZmE2ZTg4OTY3NDc2MDk1Y2IzNmUzMTc0OWY5NTIiLCJwIjoiaiJ9</a>&nbsp;à la version 18.26 le 07 Juillet 2026<br><br><u style=\"\"><b style=\"\"><font color=\"#18181b\">1er soucis :&nbsp;</font></b></u><br><br>Depuis passage de la mise à jour, <b>NAXI génère trois fichiers :&nbsp;</b></div><div>- Un fichier avec les séjours de toute la saison du Camping A</div><div>- Un fichier avec les séjours de toute la saison du Camping B</div><div>- Un fichier avec les séjours de toute la saison du Camping C<br><br>Avant mise à jour, NAXI génère trois fichiers identiques, c'est à dire que le fichier comportait les trois établissements.<br><br><b><i>Avant mise à jour (fichier du 03 Juillet)</i></b> :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/17bd09b7ffd144928cca2a4a3349738f\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br><b><i>Après mise à jour (fichier du 13 Juillet) :&nbsp;</i></b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ea89f2e78f994680b9bcc656b7b5e9aa\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br><b>2ème soucis :&nbsp;</b><br><br>Des séjours sont manquants de façon aléatoire ce qui pose soucis ensuite dans le traitement des données par LoungeUp :&nbsp;<br><br>Si je prend le fichier du 13 Juillet sur le camping CHARLEMAGNE, il me manque par exemple le séjour n°84 :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/134f4e5b0fa8410ebdf87d8b2f441647\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Alors que sur le fichier du 03 Juillet j'avais le séjour sans problème :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a8dd855a1a9040609cd071b90bed6dc0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Ce qui est très étonnant, c'est que sur l'US BUG-1131, j'ai fait les tests le 17/06/2026.<br>Si je regarde le fichier du 17 Juin, j'avais bien tous les campings sur le même fichier.&nbsp;</b></div><div>Le problème vient du multi synchro car en synchro standard ça fonctionne&nbsp;</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6882,7 +6886,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -6901,7 +6905,7 @@
       "explication": "<b>Client concerné :</b> Les Mediterrannées<div><br></div><div><u><b>Demande :</b></u>&nbsp;<br><br>-&gt; Envoyer les plaques d'immatriculation dans le CRM afin que CTV puisse ensuite les envoyer à 1check</div><div><br></div><div><b><u>Mail initial du client </u></b>:&nbsp;<br><br><i>Bonjour,&nbsp;</i><div><i><br></i></div><div><i>Nous avons demandé à 1check de faire apparaitre les plaques d’immatriculation des clients dans les réservations afin que notre équipe de sécurité puisse savoir à qui appartient les véhicules en cas de gêne.</i></div><div><i>Il apparait que l’information ne remonte pas de Naxi.</i></div><div><i>Pourriez-vous faire remonter cette information dans l’API ?</i><br><br><u><b>Retour de Mailys :&nbsp;</b></u><br><br><i>Hello,</i></div><div><i><br></i></div><div><i>C’est assez simple pour nous d’ajouter un champ, c’est d’ailleurs prévu en ce qui concerne l’immat.</i></div><div><i>Pour moi la question est plutôt quand cela pourra être ajouté à la passerelle Naxi&gt;CRM….</i></div><div><i><br></i></div><div><br></div></div>",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -10038,7 +10042,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -18533,7 +18537,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -18816,7 +18820,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -18836,7 +18840,9 @@
       "pointsBlocage": "En attente retour CTV > renvoi dans les résa",
       "explication": "• Le mapping sera réalisé côté CTV. \n• Envoi des données via web service. \n• Côté Inaxel :\n    ◦ Désactivation des fiches OTA non actives\n    ◦ Envoi uniquement des fiches actives. Objectif de déploiement : Octobre 2026<div><br></div><div>US Jira correspondante : <a href=\"https://inaxel.atlassian.net/browse/CONNECT-209\">CONNECT-209</a><br><div><br></div></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -18884,7 +18890,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
