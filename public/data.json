@@ -1,6 +1,198 @@
 {
-  "generatedAt": "2026-09-02T09:47:52.773Z",
+  "generatedAt": "2026-09-02T13:54:51.509Z",
   "classique": [
+    {
+      "id": "3cf8db15-623a-814f-990e-d8f0b3439c76",
+      "identifiant": "INA-844",
+      "titre": "Action : \"Annulation séjour\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T13:12:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Annulation-s-jour-3cf8db15623a814f990ed8f0b3439c76"
+    },
+    {
+      "id": "3cf8db15-623a-8176-85a1-e163cf5d543d",
+      "identifiant": "INA-843",
+      "titre": "Inversion Code soc & Code exe lors de l'utilisation de la moulinette n°32 \"Modifier le code exercice\"",
+      "classification": "BUG D'USAGE",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T12:34:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Lors du paramétrage d'un client, une erreur a été commise lors de la création du code exercice.<div>Nous avons alors souhaité utilisé la moulinette 32 mais avons constaté un important problème :</div><div><br></div><div>1. Se rendre dans le menu Administration &gt; Maintenance Inaxel</div><div>2. Dans la liste des procédures, choisir la procédure n°32 &gt; Modifier le code exercice</div><div>3. Saisir le nouveau code exe</div><div>4. Valider : le traitement se lance et se finit sans problème</div><div>5. En revanche, si l'on regarde en base de données dans la table Exercice, la moulinette a inversé le code soc et le code exe&nbsp;</div><div><br></div><div>Après analyse, toutes les tables de la base de données sont concernées : exemple ci dessous avec la table TRFBASE :&nbsp;<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7a318c2f46624582a75e7800c120e758\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Testé et reproduis sur démo Angélique en 18.32 / Version HF</b></div><div><i>Cette moulinette a été utilisé en Janvier 2026 sur le groupe RESASOL en SQL sans aucun soucis&nbsp;</i></div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Inversion-Code-soc-Code-exe-lors-de-l-utilisation-de-la-moulinette-n-32-Modifier-le-code-exercice-3cf8db15623a817685a1e163cf5d543d"
+    },
+    {
+      "id": "3cf8db15-623a-815a-97d0-f6f7532e60bc",
+      "identifiant": "INA-842",
+      "titre": "Action : \"Encaisser\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T10:31:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Encaisser-3cf8db15623a815a97d0f6f7532e60bc"
+    },
+    {
+      "id": "3cf8db15-623a-81ea-8279-dcac2af87011",
+      "identifiant": "INA-841",
+      "titre": "Action : \"Encaisser\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T10:31:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Encaisser-3cf8db15623a81ea8279dcac2af87011"
+    },
+    {
+      "id": "3cf8db15-623a-81bd-944b-cc1284d9a25c",
+      "identifiant": "INA-840",
+      "titre": "Action : \"Encaisser\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T10:30:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Encaisser-3cf8db15623a81bd944bcc1284d9a25c"
+    },
+    {
+      "id": "3cf8db15-623a-8164-98ae-fd5b2d576632",
+      "identifiant": "INA-839",
+      "titre": "Action : \"Encaisser\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T10:30:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Encaisser-3cf8db15623a816498aefd5b2d576632"
+    },
     {
       "id": "3cf8db15-623a-8159-b17a-c737b74e9f5d",
       "identifiant": "INA-838",
@@ -7538,7 +7730,7 @@
     {
       "id": "3b28db15-623a-812c-8e02-e6fa0cec60a9",
       "identifiant": "INA-583",
-      "titre": "Facturer",
+      "titre": "Action : \"Facturer\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -7563,7 +7755,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Facturer-3b28db15623a812c8e02e6fa0cec60a9"
+      "url": "https://app.notion.com/p/Action-Facturer-3b28db15623a812c8e02e6fa0cec60a9"
     },
     {
       "id": "3b28db15-623a-81d4-9a3c-e944c08c4087",
@@ -7718,7 +7910,7 @@
     {
       "id": "3b28db15-623a-819c-8580-c366bb02d465",
       "identifiant": "INA-577",
-      "titre": "Facturer",
+      "titre": "Action : \"Facturer\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -7743,7 +7935,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Facturer-3b28db15623a819c8580c366bb02d465"
+      "url": "https://app.notion.com/p/Action-Facturer-3b28db15623a819c8580c366bb02d465"
     },
     {
       "id": "3b28db15-623a-813d-9c3e-fd0349d145eb",
@@ -7868,7 +8060,7 @@
     {
       "id": "3b28db15-623a-8185-a9b7-f56478c76239",
       "identifiant": "INA-572",
-      "titre": "Facturer",
+      "titre": "Action : \"Facturer\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -7893,7 +8085,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Facturer-3b28db15623a8185a9b7f56478c76239"
+      "url": "https://app.notion.com/p/Action-Facturer-3b28db15623a8185a9b7f56478c76239"
     },
     {
       "id": "3b28db15-623a-8130-a8e6-def7583f7612",
@@ -7928,7 +8120,7 @@
     {
       "id": "3b28db15-623a-819d-b81b-f7f08de810f6",
       "identifiant": "INA-570",
-      "titre": "Facturer",
+      "titre": "Action : \"Facturer\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -7953,7 +8145,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Facturer-3b28db15623a819db81bf7f08de810f6"
+      "url": "https://app.notion.com/p/Action-Facturer-3b28db15623a819db81bf7f08de810f6"
     },
     {
       "id": "3b28db15-623a-81b0-b3ad-eb05360532c6",
@@ -8697,7 +8889,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "MARS 27"
       ],
       "fonctions": null,
       "produits": [
@@ -9604,7 +9796,7 @@
     {
       "id": "39f8db15-623a-81dc-88e1-ea020e00a1a4",
       "identifiant": "INA-519",
-      "titre": "Catégories d'emplacements : Envoi des libellés écran au lieu des libellés clients vers le CRM",
+      "titre": "CRM : Catégories d'emplacements : Envoi des libellés écran au lieu des libellés clients vers le CRM",
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Pas urgente",
@@ -9633,7 +9825,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Cat-gories-d-emplacements-Envoi-des-libell-s-cran-au-lieu-des-libell-s-clients-vers-le-CRM-39f8db15623a81dc88e1ea020e00a1a4"
+      "url": "https://app.notion.com/p/CRM-Cat-gories-d-emplacements-Envoi-des-libell-s-cran-au-lieu-des-libell-s-clients-vers-le-CRM-39f8db15623a81dc88e1ea020e00a1a4"
     },
     {
       "id": "39e8db15-623a-81e9-9b36-cfa1cf5ba771",
@@ -9643,7 +9835,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -9822,7 +10014,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "MARS 27"
       ],
       "fonctions": null,
       "produits": [
@@ -9840,7 +10032,9 @@
       "pointsBlocage": "",
       "explication": "On a reçu une demande de Swikly, suite à la bascule sur leur nouvelle API, pour améliorer le parcours utilisateur qui est la suivante :&nbsp;<div><br><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/59a044f5d8114c87aa1fde27c306e3ec\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -9992,7 +10186,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -10092,7 +10286,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -10643,7 +10837,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Inaxel Pilot"
@@ -10660,7 +10856,9 @@
       "pointsBlocage": "",
       "explication": "<div>Voici les éléments qui permettent de générer la licence d’un camping :&nbsp;</div><div><br></div><div><br></div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/631657ac78e54867872badfaec54c195\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div>1 : Inscription libre ce champ doit être rempli obligatoirement</div><div><br></div><div>2 : Sélection possible : Achat / location / Version Eval</div><div><br></div><div>3 : Inscription date type JJ/MM/AAAA uniquement pour la location&nbsp;</div><div><br></div><div>4 : Sélection possible : non /NAXIRESA/NAXICTV/PREMIUM+NAXIRESA/NAXIPASS</div><div><br></div><div>5 : Sélection possible :  Aucun (par défaut ) , Sovematic, Vauban System, bracelets Code Barre, Code Barre NAXI, Salto</div><div><br></div><div>De 7 à 12 : le nom du logiciel apparait avec un bouton cliquable</div><div><br></div><div>Tous ces éléments font générer un numéro de licence.</div><div><br></div><div>La licence ne peut pas être modifiée manuellement, elle ne se modifie que par les sélections des éléments 2 à 12.</div><div><br></div><div>L’élément 1 ne modifie pas le numéro mais il doit être indispensable à la génération de ce dernier.</div><div><br></div><div>&nbsp;</div><div><br></div><div>La licence se compose  également de produits qui ne génèrent pas de numéro de la licence mais qui doivent être présents : ce sont ce que l’on appelle les “spécifs” .&nbsp;</div><div><br></div><div>Il y’en a 73 . Certaines d’entre elles ne sont plus utilisées, il faudra les supprimer .&nbsp;</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -11073,7 +11271,7 @@
     {
       "id": "38a8db15-623a-813a-be21-cfe6b07e805f",
       "identifiant": "INA-392",
-      "titre": "Catégories d'emplacements : Envoi des libellés écran au lieu des libellés clients vers le CRM",
+      "titre": "CRM : Catégories d'emplacements : Envoi des libellés écran au lieu des libellés clients vers le CRM",
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Pas urgente",
@@ -11102,7 +11300,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Cat-gories-d-emplacements-Envoi-des-libell-s-cran-au-lieu-des-libell-s-clients-vers-le-CRM-38a8db15623a813abe21cfe6b07e805f"
+      "url": "https://app.notion.com/p/CRM-Cat-gories-d-emplacements-Envoi-des-libell-s-cran-au-lieu-des-libell-s-clients-vers-le-CRM-38a8db15623a813abe21cfe6b07e805f"
     },
     {
       "id": "38a8db15-623a-81ff-ab84-f395c90e502c",
@@ -11533,7 +11731,7 @@
       "explication": "Sunelia  a reçu une modif de resa :\n\nPlain Text\n{\"body\":{\"bookingRequest\":{\"shBookingId\":17471741,\"shEstablishmentId\":15544,\"shEstablishmentName\":\"Domaine de la Forge - Sea Green by Sunêlia\",\"shProductId\":142986,\"productName\":\"Chalet LUXE Hékipia - 2 chambres 4 pers.\",\"productType\":\"Locatif\",\"shGridId\":413197,\"gridName\":\"TARIFICATION A LA NUITÉE\",\"naxiToId\":\"sunelia\",\"purchaseDate\":\"2026-01-17T19:22:42.453\",\"arrivalDate\":\"2026-06-20T00:00:00\",\"numberOfNights\":12,\"nbPersIncluded\":7,\"isFirmBooking\":false,\"status\":0,\"customer\":{\"name\":\"NATHALIE\",\"surname\":\"PIRRONE\",\"language\":\"FR\",\"birthDate\":\"1969-01-21T00:00:00\",\"address\":\"15 RUE DE POINT DU JOUR\",\"town\":\"SAINT ILLIERS LA VILLE\",\"zip\":\"78980\",\"countryCode\":\"FR\",\"phone\":\"0630827922\",\"email\":\"pirrone.nathalie@gmail.com\",\"isGdprOptinAccepted\":false,\"accompanyingPersons\":[{\"name\":\"SERGE\",\"surname\":\"PIRRONE\",\"birthDate\":\"1962-02-28T00:00:00\"}]},\"prices\":{\"details\":{\"currency\":\"€\",\"\nbase\":1281,\n\"total\":1046.58,\n\"deposit\":212.06,\n\"bookingFees\":0},\n\"appliedOffers\":{\"specialOffer\":{\"shId\":2858319,\"discountCode\":\"1010220\",\"label\":\"Les beaux jours reviennent | -14%\",\"amount\":179.34},\"overlayOffer\":{\"shId\":14150,\"label\":\"CSE -CPC classique BS 2026 | -5,00 %\",\"amount\":55.08}},\n\"extras\":[{\"shId\":536,\"name\":\"vehicle\",\"quantity\":1,\"offeredQuantity\":1,\"unitAmount\":0,\"isIncluded\":true}],\"taxes\":[{\"name\":\"Taxe de séjour\",\"amount\":18.96,\"isIncluded\":false}]},\"paymentDetails\":[{\"type\":\"Carte Bancaire\",\"amount\":212.06}],\"engine\":{\"shId\":1913,\"name\":\"Sunelia Web\",\"shPackId\":\"PG\",\"packName\":\"PG\",\"collectsPayment\":false}},\"updateDate\":\"2026-06-17T10:52:41.82\",\"isNewStay\":true,\"commentaries\":[{\"text\":\"VB - modification hebergement Chalet LUXE Hékipia - 2 chambres 4 pers. //  Réservation CSE 1010220 – Réservation/Règlement Salarié – Remise CPC 5% Basse saison + frais de dossier offerts\",\"date\":\"2026-06-17T10:52:41.82\"}],\"updateFees\":0}}\n\nSauf que dans NAXI, la résa est redescendue au mauvais montant et sans la deuxième remise de -5%.\n\nEn regardant sur le web\n\nle prix de base est pour moi incorrect :\n\nCar sur l'appel de SH, le montant de base est de 1281€ / Si je fais 1281€ - 179.34€ (1ère remise) je tombe bien sur 1101.66 mais du coup c'est faux, car il faut aussi prendre la deuxième remise de 55.08 .. ",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -11859,7 +12057,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -11879,7 +12077,9 @@
       "pointsBlocage": "",
       "explication": "Suite aux différentes problématiques remontées et suite aux échanges avec Payline, il faut désormais que les cautions Payline effectuées par l’espace client transitent par le contrat ERT24 afin de sécuriser la transaction par du 3DS.\n\nIl faudra bien faire attention que le code action soit en 130 pour que le client ne soit pas débité.",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -12074,7 +12274,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -12093,7 +12293,9 @@
       "pointsBlocage": "",
       "explication": "Lorsque l’on souhaite faire une facturation par lot des acomptes, les factures s’imrpiment même lorsque l’on sélectionne l’imprimante “PDF Creator”<div><br></div><div>Client impacté : Marmotte 09</div><div><br></div><div>&nbsp;Version : 18.16 / HF</div><div><br></div><div>Détails :</div><div><br></div><div>S’assurer d’avoir un séjour sur lequel il y a un acompte à facturer</div><div><br></div><div>Se rendre dans le menu Séjours &gt; Facturation par lot</div><div><br></div><div>Cliquer sur l’icône de facturation par lot</div><div><br></div><div>Choisir l’imprimante PDF Creator</div><div><br></div><div>Lancer la génération</div><div><br></div><div>Résultats :</div><div><br></div><div>Les factures se sont imprimées alors qu’elles auraient du simplement se générer en PDF</div><div><br></div><div>Reproduit sur démo Angélique en 18.20 / HF Non reproduit sur la facturation par lot classique (là pas d’impression, les pdf se génèrent uniquement)</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -12141,9 +12343,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -14745,7 +14945,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "MARS 27"
       ],
       "fonctions": null,
       "produits": [
@@ -14764,7 +14964,9 @@
       "pointsBlocage": "",
       "explication": "Depuis la version 18, le visuel des factures a été revu.\n\nSauf que les blocs sont beaucoup plus grands (voir comparaison visuelle ci dessous) / Nos clients se plaignent donc car au lieu de s’imprimer sur une feuille, on est désormais sur 2 à 3 pages minimum ",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -15948,9 +16150,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -17945,12 +18145,12 @@
     {
       "id": "31e8db15-623a-803e-a64f-f0f424551663",
       "identifiant": "INA-161",
-      "titre": "Recevoir dans le CRM les suppléments hors séjours",
+      "titre": "CRM : Envoi des suppléments hors séjours",
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -17969,13 +18169,15 @@
       "pointsBlocage": "",
       "explication": "Le Domaine de la Bergerie a la passerelle avec SWIKLY d’un côté et AnimLive / One Check de l’autre côté. \n\nCe camping jusqu’à maintenant crée un supplément hors séjour à chaque fois que l’un de ses résidents séjourne au camping (taxe de séjour + ménage). Jusqu’à l’année dernière, pas de soucis puisque Anim Live & OneCheck récupérait les données depuis NAXI via une extraction : donc ils récupéraient les séjours + les suppléments hors séjours.\n\nProblème : cette année AnimLive et Onecheck arrête la passerelle directe avec NAXI et passe par le SDH. Or le SDH ne récupère pas les suppléments hors séjours.\n\nDonc le camping doit créer désormais des séjours pour les résidents (afin que onecheck récupère les ménages à faire). Or, en réalisant cela, cela génère un problème du côté de SWIKLY car les résidents reçoivent le mail de caution.\n\nLa cliente ne souhaite pas duppliquer toutes ses catégories d’hébergements pour exclure les résidents de SWIKLY",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Recevoir-dans-le-CRM-les-suppl-ments-hors-s-jours-31e8db15623a803ea64ff0f424551663"
+      "url": "https://app.notion.com/p/CRM-Envoi-des-suppl-ments-hors-s-jours-31e8db15623a803ea64ff0f424551663"
     },
     {
       "id": "31e8db15-623a-8068-96d5-f5a1ed131200",
@@ -19478,7 +19680,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -19494,9 +19696,11 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Reporté le contenu de l'US https://inaxel.atlassian.net/browse/BUG-924",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -19507,7 +19711,7 @@
     {
       "id": "3118db15-623a-8103-a292-da5e0a32d85c",
       "identifiant": "INA-102",
-      "titre": "Fidelit� CTV: Erreur int�gration des infos Fid�lit� quand recup par la synchro",
+      "titre": "Fidelite CTV: Erreur integration des infos Fidelite quand recup par la synchro",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
@@ -19534,7 +19738,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Fidelit-CTV-Erreur-int-gration-des-infos-Fid-lit-quand-recup-par-la-synchro-3118db15623a8103a292da5e0a32d85c"
+      "url": "https://app.notion.com/p/Fidelite-CTV-Erreur-integration-des-infos-Fidelite-quand-recup-par-la-synchro-3118db15623a8103a292da5e0a32d85c"
     },
     {
       "id": "3118db15-623a-819c-85a1-ef0ed7cd9434",
@@ -20219,7 +20423,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -20237,7 +20441,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -20345,7 +20551,7 @@
     {
       "id": "3118db15-623a-81e3-b8f2-dbcb88d3da15",
       "identifiant": "INA-70",
-      "titre": "CTV / CRM : Envoi des Indispos et Sous locations (Historique)",
+      "titre": "CRM : Envoi des Indispos et Sous locations (Historique)",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Pas urgente",
@@ -20375,7 +20581,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/CTV-CRM-Envoi-des-Indispos-et-Sous-locations-Historique-3118db15623a81e3b8f2dbcb88d3da15"
+      "url": "https://app.notion.com/p/CRM-Envoi-des-Indispos-et-Sous-locations-Historique-3118db15623a81e3b8f2dbcb88d3da15"
     },
     {
       "id": "3118db15-623a-8109-b6cf-de7dfec9a3fa",
@@ -21425,7 +21631,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -21441,9 +21647,11 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Mise a jour du système avec le partenaire AXIOM",
+      "explication": "Mise a jour du système avec le partenaire AXIOM - Reporté contenu https://inaxel.atlassian.net/browse/COEUR-602",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -21890,7 +22098,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -21910,7 +22118,9 @@
       "pointsBlocage": "",
       "explication": "• Mise en place en méthode dynamique, similaire au fonctionnement FLEX. \n• Ajout dans le commentaire du montant de la différence tarifaire. \n• Ce message devra être toujours visible, y compris en cas d’erreur. \n• Envoi du commentaire à CTV dès que possible dans le planning de dev CTV (estimation mars). ",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -39189,7 +39399,7 @@
     ]
   },
   "counts": {
-    "classique": 675,
+    "classique": 681,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
