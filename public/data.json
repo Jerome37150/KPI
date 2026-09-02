@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T13:54:51.509Z",
+  "generatedAt": "2026-09-02T17:28:05.216Z",
   "classique": [
     {
       "id": "3cf8db15-623a-814f-990e-d8f0b3439c76",
@@ -8,7 +8,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -25,7 +27,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -40,7 +44,9 @@
       "classification": "BUG D'USAGE",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -57,7 +63,9 @@
       "pointsBlocage": "",
       "explication": "Lors du paramétrage d'un client, une erreur a été commise lors de la création du code exercice.<div>Nous avons alors souhaité utilisé la moulinette 32 mais avons constaté un important problème :</div><div><br></div><div>1. Se rendre dans le menu Administration &gt; Maintenance Inaxel</div><div>2. Dans la liste des procédures, choisir la procédure n°32 &gt; Modifier le code exercice</div><div>3. Saisir le nouveau code exe</div><div>4. Valider : le traitement se lance et se finit sans problème</div><div>5. En revanche, si l'on regarde en base de données dans la table Exercice, la moulinette a inversé le code soc et le code exe&nbsp;</div><div><br></div><div>Après analyse, toutes les tables de la base de données sont concernées : exemple ci dessous avec la table TRFBASE :&nbsp;<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7a318c2f46624582a75e7800c120e758\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Testé et reproduis sur démo Angélique en 18.32 / Version HF</b></div><div><i>Cette moulinette a été utilisé en Janvier 2026 sur le groupe RESASOL en SQL sans aucun soucis&nbsp;</i></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -72,7 +80,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -89,7 +99,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -104,7 +116,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -121,7 +135,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -136,7 +152,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -153,7 +171,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -168,7 +188,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -185,7 +207,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -200,7 +224,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -217,7 +243,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -232,7 +260,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -249,7 +279,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -264,7 +296,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -281,7 +315,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -296,7 +332,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -313,7 +351,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -328,7 +368,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -345,7 +387,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -392,7 +436,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -409,7 +455,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -424,7 +472,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -441,7 +491,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -456,7 +508,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -473,7 +527,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -488,7 +544,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -505,7 +563,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -517,10 +577,12 @@
       "id": "3cf8db15-623a-8135-b1f5-ee20ddaf77c3",
       "identifiant": "INA-828",
       "titre": "Allotement : création d'un encart commentaire dédié à l'allotement.",
-      "classification": null,
+      "classification": "DEV sans CC",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -537,7 +599,9 @@
       "pointsBlocage": "",
       "explication": "<b>Fonctionnement actuel</b> =&gt; création de l'allotement depuis la fiche client d'un T.O (voir vidéo démo)<div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/456900122d794ee59e2a797e5567ad1b\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Pour un même client (dans notre cas Odalys) nous avons besoin d'identifier , sur chaque emplacement, quel CE ou TO y est rattaché dans le but de facilité les équipes réception.&nbsp;</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -552,7 +616,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -569,7 +635,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -584,7 +652,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -601,7 +671,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -616,7 +688,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -633,7 +707,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -648,7 +724,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -665,7 +743,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -680,7 +760,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -697,7 +779,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -712,7 +796,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -729,7 +815,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -744,7 +832,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -761,7 +851,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -776,7 +868,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -793,7 +887,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -808,7 +904,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -825,7 +923,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -840,7 +940,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -857,7 +959,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -872,7 +976,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -889,7 +995,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -904,7 +1012,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -921,7 +1031,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -936,7 +1048,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -953,7 +1067,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -968,7 +1084,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -985,7 +1103,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1000,7 +1120,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1017,7 +1139,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1032,7 +1156,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1049,7 +1175,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1064,7 +1192,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1081,7 +1211,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1096,7 +1228,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1113,7 +1247,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1128,7 +1264,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1145,7 +1283,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1160,7 +1300,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1177,7 +1319,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1192,7 +1336,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1209,7 +1355,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1224,7 +1372,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1241,7 +1391,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1256,7 +1408,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1273,7 +1427,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1288,7 +1444,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1305,7 +1463,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1320,7 +1480,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1337,7 +1499,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1352,7 +1516,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1369,7 +1535,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1384,7 +1552,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1401,7 +1571,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1416,7 +1588,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1433,7 +1607,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1448,7 +1624,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1465,7 +1643,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1480,7 +1660,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1497,7 +1679,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1512,7 +1696,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1529,7 +1715,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1544,7 +1732,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1561,7 +1751,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1576,7 +1768,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1593,7 +1787,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1608,7 +1804,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1625,7 +1823,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1640,7 +1840,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1657,7 +1859,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1672,7 +1876,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1689,7 +1895,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1704,7 +1912,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 2026"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1721,7 +1931,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1736,7 +1948,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1753,7 +1967,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1768,7 +1984,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1785,7 +2003,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1800,7 +2020,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 2026"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1817,7 +2039,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1832,7 +2056,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -1849,7 +2075,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3269,10 +3497,12 @@
       "id": "3ce8db15-623a-81e6-be98-e28bdc3de664",
       "identifiant": "INA-742",
       "titre": "Séjour linéaire  : rendre visible sur le planning le commentaire sous la case permutable",
-      "classification": null,
+      "classification": "DEV sans CC",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -3289,7 +3519,9 @@
       "pointsBlocage": "",
       "explication": "Aujourd'hui, sur le planning:<div><ul><li>Un séjour linéaire apparait comme ceci :&nbsp;</li></ul><div><b>Nom + Prénom + numéro fiche client</b><br><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e6da62fb7a1b4bd1b1b32495b96371cd\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><br></div><div><ul><li>L'info bulle mentionne les éléments suivants :&nbsp;&nbsp;</li></ul></div></div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div><div>n°emplacement + catégorie</div></div></blockquote><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div><div>identifiant de la fiche client&nbsp;</div></div></blockquote><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div><div>les dates du début et de la fin du linéaire.&nbsp;<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/4f2ae43f777d4a2a8e2036bac81c0d4d\" alt=\"capture\" style=\"opacity: 1; max-width: 100%;\"></div></div><div><br></div></blockquote></blockquote>Pour un même client (dans notre cas Odalys) nous avons besoin d'identifier , sur chaque emplacement, quel CE ou TO y est rattaché dans le but de facilité les équipes réception.&nbsp;</div><div>Nous allons débloquer le commentaire présent sous la case non permutable et le rendre visible sur planning.&nbsp;</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3740,7 +3972,9 @@
       "classification": null,
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3757,7 +3991,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3772,7 +4008,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3789,7 +4027,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3804,7 +4044,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3821,7 +4063,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -8754,7 +8998,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8769,7 +9015,9 @@
       "pointsBlocage": "",
       "explication": "<p><br></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -17794,7 +18042,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Dans NAXI, lorsque la spécif FLOWER est activée, il est possible dans le paramétrage des remises/promos de sélectionner un type de promo Flower dans un menu déroulant.\n\nLa demande de Vivian est de revoir complètement cette liste pour l’automne 2026 car elle contient des éléments obsolètes et des éléments sont manquants. \n\nPré-requis : Attendre de recevoir la liste des types de promos souhaitées par Vivian",
+      "explication": "Dans NAXI, lorsque la spécif FLOWER est activée, il est possible dans le paramétrage des remises/promos de sélectionner un type de promo Flower dans un menu déroulant.\n\nLa demande de Vivian est de revoir complètement cette liste pour l’automne 2026 car elle contient des éléments obsolètes et des éléments sont manquants. \n\nPré-requis : Attendre de recevoir la liste des types de promos souhaitées par Vivian<div><br></div><div><br></div><div>https://inaxel.atlassian.net/browse/COEUR-638</div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -19287,7 +19535,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Les villes et codes postaux saisit ne sont pas mémorisés lorsque :<div><br></div><div>&nbsp;Exemple pris, code postal de Birmingham, à savoir B43 5LR</div><div><br></div><div>Créer une fiche client dans NAXI, en saisissant le pays GB</div><div><br></div><div>Saisir le code postal B43 5LR (avec ou sans espace le bug se produit)</div><div><br></div><div>Dans le champs ville, saisir manuellement BIRMINGHAM</div><div><br></div><div>Cliquer dans un autre champs (exemple champs email)</div><div><br></div><div>&nbsp;==&gt; Résultat : Le champs ville s'efface et le code postal se modifie en 'B' (au lieu de 'B43 5LR saisit initialement)</div><div>Si on ferme la fiche du client et qu'on la ré-ouvre, on constate toujours l'erreur.</div><div>En base de données, sur la table client, nous avons également l'erreur.</div><div>Après analyse, dans la table POSTAL, la ville de BIRMINGHAM est enregistrée sous le code postal 'B', ce qui explique le bug rencontré.</div><div><br></div><div><span style=\"background-color: rgb(254, 240, 138);\">Le fichier POSTAL me paraît erroné notamment sur les codes postaux Anglais, car beaucoup de codes postaux ne comporte que 2 caractères (exemple BL / BT...etc) - Autre exemple, la ville de Soundwell est enregistré dans notre fichier POSTAL sur le code BL, alors qu'en recherchant sur Google, le code postal serait BS16 4RP</span></div><div><span style=\"background-color: rgb(254, 240, 138);\"><br></span></div><div><font color=\"#2563eb\">Reproduit sur démo Angélique en version 16.16</font></div><div><font color=\"#2563eb\"><br></font></div><div><font color=\"#2563eb\">Visiblement, le problème se produit principalement sur les codes des pays GB / DE / BE .</font></div><div><font color=\"#2563eb\"><br></font></div><div><font color=\"#2563eb\">Bloquant pour la facturation car la ville est obligatoire.</font></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -19305,7 +19553,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "MARS 27"
       ],
       "fonctions": null,
       "produits": [
@@ -19321,9 +19569,11 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Le montant CA HT affiché sur la STAT INSEE est incohérent dans le ca suivant :<div><br></div><div>S'assurer au préalable d'être en SQL</div><div><br></div><div>1. Faire une facture sur le mois en cours correspondant à plusieurs numéros de commandes.</div><div><br></div><div>2. Se rendre sur la stats INSEE, et choisir le mois correspondant à la facture faite précédemment</div><div><br></div><div>3. Cocher la cellule \"Calculer et renseigner le CA HT\" et afficher la stats</div><div><br></div><div>4. Le montant du CA est incohérent.</div><div><br></div><div>Fenêtre stat_insee // Procédure locale calc_stat</div><div>A partir de ligne 187.</div><div><br></div><div>En fait, pour une facture correspondant à plusieurs commandes, le REPARFACT comptabilise donc pour une même facture plusieurs ligne.</div><div>Dans ce cas précis, pour le calcul du CA HT Insee, NAXI vient multiplier le montant ht de la facture par le nombre de lignes présentes dans Reparfacgt</div><div><br></div><div>Bug corrigé en HF sur la version 15.04 (CONNECT-61: Bug 207894 / 202676 / 180599 / 179438 / 151717 / 110658: erreur calcul montant HT sur stat INSEE</div><div>Done ) Mais le correctif n'a pas dû être reporté sur les procédures SQL</div><div>Reproduit sur démo Angélique en SQL en 15.13 mais non reproduit sur version HF</div><div>Sur ma base SQL, j'ai fait une facture avec deux séjours (donc deux REPARFACT), le montant de mon CA HT sur la stat INSEE. Si je fais une facture par séjour, le montant HT est correct</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -19356,7 +19606,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "<i>Config Client : HF - Version 17-03</i><div><br></div><div>Les reports de solde se suppriment lorsque :&nbsp;</div><div><br></div><div>1. Sur une base de données, créer un client A sur la saison 2024. Faire en sorte que ce client présente un solde positif à reporter sur la saison suivante</div><div><br></div><div>2. Sur la saison 2025, sur le client A, procéder au report de solde. Créer un séjour en utilisant ce report de solde.</div><div><br></div><div>3. Créer un client B dont la fiche client est identique aux clients A (l’idée étant de les fusionner par la suite).</div><div><br></div><div>4. Ouvrir depuis le menu Administration &gt; Traitement des clients en doublon</div><div><br></div><div>5. Lancer la recherche afin de retrouver les deux clients crées précédemment.</div><div><br></div><div>6. Double cliquer sur l’une des deux fiches pour ouvrir l’outil de comparaison.</div><div><br></div><div>7. Sur le client A, choisir l’action “Fusionner et supprimer” et sur le client B (qui n’a pas de report), choisir “Garder”</div><div><br></div><div>8. Valider&nbsp;</div><div><br></div><div><u>Résultat</u> :&nbsp;</div><div>La fiche client du client A est bien supprimé. Son séjour est bien transféré sur la fiche du client B.</div><div><br></div><div>En revanche, le report de solde n’a pas suivi puisque nous n’avons rien dans l’onglet Compte. De plus, le séjour transféré montre encore la présence du report par rapport au solde du séjour. Mais si on réouvre le séjour, celui ci se recalcule et supprime donc définitivement le report de solde qui était affecté.</div><div><br></div><div>En base de données, dans la table CPTCLIENT, le report n’existe plus sur le client A ni sur le client B&nbsp;</div><div><br></div><div>→ Il faudrait donc que la fonctionnalité de traitement des clients en doublons gère également la table CPTCLIENT, ce qui n’est pas le cas aujourd’hui.</div><div><br></div><div><font color=\"#2563eb\">Reproduit sur démo Angélique en Version HF 17.03</font></div><div><font color=\"#2563eb\"><br></font></div><div><font color=\"#2563eb\">Reproduit sur un report automatique de saison précédente mais également sur un report manuel (complémentaire)</font></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -19696,7 +19946,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Reporté le contenu de l'US https://inaxel.atlassian.net/browse/BUG-924",
+      "explication": "<b><u>Détails</u></b>:<div><br></div><div>==&gt; Mode de fonctionnement en déporté avec SynchroAccesControlAPI</div><div><br></div><div>Dans NaxiCode il est possible de se mettre en mode “Test” ce qui doit nous permettre d’utiliser les environnements de Preprod.</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f1f8da42fa6147cda66797e2a2b7f70b\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Il a été observé que la gestion des environnements ne fonctionnait pas correctement pour certaines fonctionnalités:</div><div><br></div><div><ul><li>Lorsqu’on créer un code depuis NaxiCode en mode Test, il est pourtant enregistrer sur la db de prod</li></ul><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7ac4773b064344e4aefc24b26110b52c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ecf80836686b4b74b14c57b737154ae0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Pourtant la conf est ok&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6d30b30409f64546bac974740469d8ef\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><ul><li><b style=\"background-color: rgb(191, 219, 254);\">Il faudrait également vérifier et faire une passe pour s’assurer qu’il n’y ai pas d’autres fonctionnalités dans le logiciel qui ne prennent pas correctement en compte l’environnement</b></li></ul></div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -20439,7 +20689,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Dans NAXI Gestion, si on a la spécif FLOWER, on peut importer les promotions de CTV quand le camping possède une réservation en ligne NX_PASS<div><br></div><div>Voir documentation :  PRFL_Promo_V07.pdf&nbsp;</div><div><br></div><div>Dans l<i>’US CONNECT-674: [WINDEV] CTV/PROMOS : Import des Promos pour tous les Campings,&nbsp;</i>on a fait en sorte que tous les campings puissent importer des promotions (pas uniquement les FLOWER)</div><div><b><br></b></div><div><b>Problème :&nbsp;</b></div><div><br></div><div>Si la promotion paramétrée chez CTV, possède plusieurs périodes d’application, ces périodes ne sont pas reportées dans NAXI Gestion lors de l’import. On a ce genre de message qui s’affiche (message qui a été modifié) :&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/9945228442e44eb79273cadc5d96720d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -20474,7 +20724,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "En tant que partenaire extérieur,<div><br></div><div>je souhaite pouvoir accéder à l’API du contrôle d’accès pour interconnecter les 2 systèmes et éviter de la ressaisi aux campings.</div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -20573,7 +20823,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "En tant que PO CTV,<div><br></div><div>je souhaite avoir accès à l’historique des indisponibilités et des sous locations des années précédentes</div><div><br></div><div><u>Contexte général</u> :&nbsp;</div><div><br></div><div>Il a été mit en place un système d’export de fichiers envoyés sur un ftp auquel CTV a accès afin de récupérer dans ces fichiers les informations relatives aux indisponibilités et aux sous locations (CONNECT-700: [C#] CTV/CRM : Export de fichiers pour CTV - Done). Ce système a même été généralisé à l’ensemble des campings ayant le CRM et non pas uniquement les Flower (CONNECT-752: [C#] CTV/CRM : Export de fichiers pour CTV pour tous les campings ayant le CRM-Done).</div><div><br></div><div>Le soucis est que ce système n’envoi que la saison en cours et pas les saisons précédentes, dont à besoin CTV.</div><div><br></div><div>Mais la question est : est ce qu’on fait en sorte que ce système envoi une fois les saisons précédentes ou bien on fait en sorte que les indispos et les sous locations soient envoyés via le CRM et non via des fichiers FTP ?</div><div><br></div><div>Echange de mail du 08.01.2026 :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/40d1f410eac148999e5a6af82d353b95\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6c3b38dfd8d74a7da15b8438c4d69a5c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -21647,7 +21897,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Mise a jour du système avec le partenaire AXIOM - Reporté contenu https://inaxel.atlassian.net/browse/COEUR-602",
+      "explication": "<div><br></div><div><br></div><div><br></div><div>Axiom a fait une mise à jour de leur SDK pour commercialiser leur nouvelle carte.&nbsp;</div><div><br></div><div>Il va donc falloir faire des adaptations afin que le nouveau SDK fonctionne pour les anciennes cartes et les nouvelles cartes.</div><div><br></div><div>Voici les exe du nouveau SDK : dossier disponible sur ftp : /Exe Testeuses/Preprod/Projects/nouveau DSK</div><div><br></div><div>Contact chez Axiom pour toutes questions :  Imad RAOUAZI au 04 72 97 02 90</div><div><br></div><div>Les différentes questions qu’il va falloir se poser (liste non exhaustive) :&nbsp;</div><div><ul><li>Qu’elles sont les conséquences de ce changement de SDK ? Car dans le dossier zippé, il y a uniquement les exe du SDK et une liste des différents codes.&nbsp;</li><li>Est-ce qu’on a la possibilité de leur demander une doc expliquant les changements ? Pour voir si en plus du changement des exe on doit faire des adaptations du code.</li><li>&nbsp;Et est ce que nous avons encore des campings utilisant les anciens lecteurs ?&nbsp;</li><li>Est ce que le nouvel SDK fonctionnera avec eux ? Pour savoir si nous devons maintenir les 2 versions du SDK.</li></ul></div><div><br></div><div><br></div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -22414,9 +22664,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
@@ -22431,7 +22679,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Le fichier pdf du devis n'apparaît pas dans l'onglet courrier/email de la fiche client - Uniquement en SQL",
+      "explication": "Le fichier pdf du devis n'apparaît pas dans l'onglet courrier/email de la fiche client - Uniquement en SQL<div><br></div><div>https://inaxel.atlassian.net/browse/BUG-1030</div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
