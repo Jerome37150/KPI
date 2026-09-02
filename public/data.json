@@ -1,6 +1,358 @@
 {
-  "generatedAt": "2026-09-02T05:28:35.114Z",
+  "generatedAt": "2026-09-02T09:47:52.773Z",
   "classique": [
+    {
+      "id": "3cf8db15-623a-8159-b17a-c737b74e9f5d",
+      "identifiant": "INA-838",
+      "titre": "Onglet \"Détails\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T09:21:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-D-tails-3cf8db15623a8159b17ac737b74e9f5d"
+    },
+    {
+      "id": "3cf8db15-623a-81ac-a086-f0ada011c22c",
+      "identifiant": "INA-837",
+      "titre": "Onglet \"Détails\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T09:20:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-D-tails-3cf8db15623a81aca086f0ada011c22c"
+    },
+    {
+      "id": "3cf8db15-623a-8191-876e-dedc2aa1a214",
+      "identifiant": "INA-836",
+      "titre": "Onglet \"Immatriculation\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T08:26:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Immatriculation-3cf8db15623a8191876ededc2aa1a214"
+    },
+    {
+      "id": "3cf8db15-623a-81c6-9ff8-feb669c6fa8a",
+      "identifiant": "INA-835",
+      "titre": "Analyse Séjour actuel",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T08:08:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Analyse-S-jour-actuel-3cf8db15623a81c69ff8feb669c6fa8a"
+    },
+    {
+      "id": "3cf8db15-623a-8172-9536-c8562d65f276",
+      "identifiant": "INA-834",
+      "titre": "Onglet \"Participants\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T07:53:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Participants-3cf8db15623a81729536c8562d65f276"
+    },
+    {
+      "id": "3cf8db15-623a-8116-8030-f9183bd42b7a",
+      "identifiant": "INA-833",
+      "titre": "Onglet \"Cautions\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T07:51:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Cautions-3cf8db15623a81168030f9183bd42b7a"
+    },
+    {
+      "id": "3cf8db15-623a-81c2-b74b-ebc9549c32af",
+      "identifiant": "INA-832",
+      "titre": "Structure générale du séjour (menu + bandeau séjour)",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T07:48:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Structure-g-n-rale-du-s-jour-menu-bandeau-s-jour-3cf8db15623a81c2b74bebc9549c32af"
+    },
+    {
+      "id": "3cf8db15-623a-8138-be7a-cc5c232b32ad",
+      "identifiant": "INA-831",
+      "titre": "Structure générale du séjour (menu + bandeau séjour)",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T07:47:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Structure-g-n-rale-du-s-jour-menu-bandeau-s-jour-3cf8db15623a8138be7acc5c232b32ad"
+    },
+    {
+      "id": "3cf8db15-623a-8128-8551-fb6ee563deea",
+      "identifiant": "INA-830",
+      "titre": "Structure générale du séjour (menu + bandeau séjour)",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T07:47:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Structure-g-n-rale-du-s-jour-menu-bandeau-s-jour-3cf8db15623a81288551fb6ee563deea"
+    },
+    {
+      "id": "3cf8db15-623a-8100-b18e-f0db0316ca75",
+      "identifiant": "INA-829",
+      "titre": "Structure générale du séjour (menu + bandeau séjour)",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T07:47:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Structure-g-n-rale-du-s-jour-menu-bandeau-s-jour-3cf8db15623a8100b18ef0db0316ca75"
+    },
+    {
+      "id": "3cf8db15-623a-8135-b1f5-ee20ddaf77c3",
+      "identifiant": "INA-828",
+      "titre": "Allotement : création d'un encart commentaire dédié à l'allotement.",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-02T07:03:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<b>Fonctionnement actuel</b> =&gt; création de l'allotement depuis la fiche client d'un T.O (voir vidéo démo)<div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/456900122d794ee59e2a797e5567ad1b\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Pour un même client (dans notre cas Odalys) nous avons besoin d'identifier , sur chaque emplacement, quel CE ou TO y est rattaché dans le but de facilité les équipes réception.&nbsp;</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Allotement-cr-ation-d-un-encart-commentaire-d-di-l-allotement-3cf8db15623a8135b1f5ee20ddaf77c3"
+    },
     {
       "id": "3ce8db15-623a-81ad-9215-eecd357ca7c0",
       "identifiant": "INA-827",
@@ -964,7 +1316,7 @@
     {
       "id": "3ce8db15-623a-8179-ac59-ccecf538bd71",
       "identifiant": "INA-797",
-      "titre": "Nouvelle US",
+      "titre": "Onglet \"Identité\"",
       "classification": null,
       "statut": null,
       "priorisation": null,
@@ -991,7 +1343,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Nouvelle-US-3ce8db15623a8179ac59ccecf538bd71"
+      "url": "https://app.notion.com/p/Onglet-Identit-3ce8db15623a8179ac59ccecf538bd71"
     },
     {
       "id": "3ce8db15-623a-81c9-8b93-e6c3bac71695",
@@ -1316,7 +1668,7 @@
     {
       "id": "3ce8db15-623a-8113-a5c9-c1f2189dc011",
       "identifiant": "INA-786",
-      "titre": "Nouvelle US",
+      "titre": "Compte commerce (Naxi Commerce)",
       "classification": null,
       "statut": null,
       "priorisation": null,
@@ -1343,7 +1695,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Nouvelle-US-3ce8db15623a8113a5c9c1f2189dc011"
+      "url": "https://app.notion.com/p/Compte-commerce-Naxi-Commerce-3ce8db15623a8113a5c9c1f2189dc011"
     },
     {
       "id": "3ce8db15-623a-8109-9c45-d7587cb3b9de",
@@ -1412,7 +1764,7 @@
     {
       "id": "3ce8db15-623a-8168-a45a-ec6ba31d832d",
       "identifiant": "INA-783",
-      "titre": "Nouvelle US",
+      "titre": "Compte commerce (Naxi Commerce)",
       "classification": null,
       "statut": null,
       "priorisation": null,
@@ -1439,7 +1791,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Nouvelle-US-3ce8db15623a8168a45aec6ba31d832d"
+      "url": "https://app.notion.com/p/Compte-commerce-Naxi-Commerce-3ce8db15623a8168a45aec6ba31d832d"
     },
     {
       "id": "3ce8db15-623a-81d9-957a-dad12f7c439c",
@@ -1572,7 +1924,7 @@
     {
       "id": "3ce8db15-623a-8145-92da-e2cbba6cc2fd",
       "identifiant": "INA-778",
-      "titre": "Nouvelle US",
+      "titre": "Suppléments Hors Séjour",
       "classification": null,
       "statut": null,
       "priorisation": null,
@@ -1599,7 +1951,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Nouvelle-US-3ce8db15623a814592dae2cbba6cc2fd"
+      "url": "https://app.notion.com/p/Suppl-ments-Hors-S-jour-3ce8db15623a814592dae2cbba6cc2fd"
     },
     {
       "id": "3ce8db15-623a-81be-a723-f649b8e547c1",
@@ -1764,7 +2116,7 @@
     {
       "id": "3ce8db15-623a-81bc-86bd-f006ba620641",
       "identifiant": "INA-772",
-      "titre": "Nouvelle US",
+      "titre": "Devis",
       "classification": null,
       "statut": null,
       "priorisation": null,
@@ -1791,7 +2143,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Nouvelle-US-3ce8db15623a81bc86bdf006ba620641"
+      "url": "https://app.notion.com/p/Devis-3ce8db15623a81bc86bdf006ba620641"
     },
     {
       "id": "3ce8db15-623a-818d-9c41-e6de035b696c",
@@ -2724,7 +3076,7 @@
     {
       "id": "3ce8db15-623a-81e6-be98-e28bdc3de664",
       "identifiant": "INA-742",
-      "titre": "Séjours linéaires  : rendre visible le commentaire sous la case permutable sur le planning",
+      "titre": "Séjour linéaire  : rendre visible sur le planning le commentaire sous la case permutable",
       "classification": null,
       "statut": null,
       "priorisation": null,
@@ -2743,7 +3095,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Aujourdh'ui, sur le planning ,<div><ul><li>Un séjour linéaire apparait comme ceci :&nbsp;</li></ul><div><b>Nom + Prénom + numéro fiche client</b><br><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e6da62fb7a1b4bd1b1b32495b96371cd\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><br></div><div><ul><li>L'info bulle mentionne les éléments suivants :&nbsp;&nbsp;</li></ul></div></div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div><div>n°emplacement + catégorie</div></div></blockquote><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div><div>identifiant de la fiche client&nbsp;</div></div></blockquote><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div><div>les dates du début et de la fin du linéaire.&nbsp;<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/4f2ae43f777d4a2a8e2036bac81c0d4d\" alt=\"capture\" style=\"opacity: 1; max-width: 100%;\"></div></div><div><br></div></blockquote></blockquote>Pour un même client (dans notre cas Odalys) nous avons besoin d'identifier , sur chaque emplacement, quel CE ou TO y est rattaché dans le but de facilité les équipes réception.&nbsp;</div><div>Nous allons débloquer le commentaire présent sous la case nopn permutableet le rendre visible sur planning.&nbsp;</div>",
+      "explication": "Aujourd'hui, sur le planning:<div><ul><li>Un séjour linéaire apparait comme ceci :&nbsp;</li></ul><div><b>Nom + Prénom + numéro fiche client</b><br><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e6da62fb7a1b4bd1b1b32495b96371cd\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><br></div><div><ul><li>L'info bulle mentionne les éléments suivants :&nbsp;&nbsp;</li></ul></div></div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div><div>n°emplacement + catégorie</div></div></blockquote><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div><div>identifiant de la fiche client&nbsp;</div></div></blockquote><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div><div>les dates du début et de la fin du linéaire.&nbsp;<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/4f2ae43f777d4a2a8e2036bac81c0d4d\" alt=\"capture\" style=\"opacity: 1; max-width: 100%;\"></div></div><div><br></div></blockquote></blockquote>Pour un même client (dans notre cas Odalys) nous avons besoin d'identifier , sur chaque emplacement, quel CE ou TO y est rattaché dans le but de facilité les équipes réception.&nbsp;</div><div>Nous allons débloquer le commentaire présent sous la case non permutable et le rendre visible sur planning.&nbsp;</div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -2751,7 +3103,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/S-jours-lin-aires-rendre-visible-le-commentaire-sous-la-case-permutable-sur-le-planning-3ce8db15623a81e6be98e28bdc3de664"
+      "url": "https://app.notion.com/p/S-jour-lin-aire-rendre-visible-sur-le-planning-le-commentaire-sous-la-case-permutable-3ce8db15623a81e6be98e28bdc3de664"
     },
     {
       "id": "3c88db15-623a-819c-bf93-eb9c8823a05f",
@@ -3377,7 +3729,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<div>Notre service support rencontre des difficultés pour se connecter via Teamviewer chez certains de nos clients.</div><div><br></div><div><i><b>L'erreur rencontrée est \"Cause inconnue\".</b></i></div><div><br></div><div>Après analyse, le quicksupport embarqué dans NAXI est en version 13.06447.0</div><div>Nos licences au service support sont en version 15.</div><div><br></div><div>TeamViewer 13 est ancien (2017) et n'est plus maintenu. Les serveurs TeamViewer imposent parfois des exigences de sécurité (TLS, protocoles) que les vieilles versions ne satisfont plus totalement, ce qui peut provoquer des refus de connexion imprévisibles.</div><div><br></div><div>Il faudrait donc modifier le quicksupport sur tous nos logiciels ayant la fonctionnalité de télémaintenance :&nbsp;</div><div>- NAXI Gestion</div><div>-Naxi Cod</div><div>-Naxi Cam</div><div>-Naxi Totem</div><div><br></div><div><b style=\"background-color: rgb(254, 240, 138);\">Le quicksupport en version 15 est disponible sur /Exe Testeuses/Preprod/Exe Specifiques/Angélique</b></div><div><br></div><div><br></div>",
+      "explication": "<div>Notre service support rencontre des difficultés pour se connecter via Teamviewer chez certains de nos clients.</div><div><br></div><div><i><b>L'erreur rencontrée est \"Cause inconnue\".</b></i></div><div><br></div><div>Après analyse, le quicksupport embarqué dans NAXI est en version 13.06447.0</div><div>Nos licences au service support sont en version 15.</div><div><br></div><div>TeamViewer 13 est ancien (2017) et n'est plus maintenu. Les serveurs TeamViewer imposent parfois des exigences de sécurité (TLS, protocoles) que les vieilles versions ne satisfont plus totalement, ce qui peut provoquer des refus de connexion imprévisibles.</div><div><br></div><div>Il faudrait donc modifier le quicksupport sur tous nos logiciels ayant la fonctionnalité de télémaintenance :&nbsp;</div><div>- NAXI Gestion</div><div>- Naxi Cod</div><div>- Naxi Cam</div><div>- Naxi Totem</div><div><br></div><div><b style=\"background-color: rgb(254, 240, 138);\">Le quicksupport en version 15 est disponible sur /Exe Testeuses/Preprod/Exe Specifiques/Angélique</b></div><div><br></div><div><br></div>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -4276,7 +4628,7 @@
     {
       "id": "3b28db15-623a-81e4-b402-ec7bfb38f87a",
       "identifiant": "INA-680",
-      "titre": "Planning Emplacements",
+      "titre": "Onglet \"Animaux\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -4293,7 +4645,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Rédiger et exécuter les scénarios de tests fonctionnels et d’acceptation pour la fenêtre de planning emplacement, couvrant l’ensemble des fonctionnalités (filtres, zoom, sélection, affichage, interactions, impression, etc.) et la gestion des cas limites.</p>",
+      "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -4301,12 +4653,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Planning-Emplacements-3b28db15623a81e4b402ec7bfb38f87a"
+      "url": "https://app.notion.com/p/Onglet-Animaux-3b28db15623a81e4b402ec7bfb38f87a"
     },
     {
       "id": "3b28db15-623a-81a5-bb07-db312f35aad5",
       "identifiant": "INA-679",
-      "titre": "Connexion - V1",
+      "titre": "Connexion",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -4331,12 +4683,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Connexion-V1-3b28db15623a81a5bb07db312f35aad5"
+      "url": "https://app.notion.com/p/Connexion-3b28db15623a81a5bb07db312f35aad5"
     },
     {
       "id": "3b28db15-623a-8106-9f16-c6da6ff1fb60",
       "identifiant": "INA-678",
-      "titre": "Connexion (V1)",
+      "titre": "Connexion",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -4361,12 +4713,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Connexion-V1-3b28db15623a81069f16c6da6ff1fb60"
+      "url": "https://app.notion.com/p/Connexion-3b28db15623a81069f16c6da6ff1fb60"
     },
     {
       "id": "3b28db15-623a-8131-a893-e9f7f0ec3769",
       "identifiant": "INA-677",
-      "titre": "Connexion (V1)",
+      "titre": "Connexion",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -4391,12 +4743,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Connexion-V1-3b28db15623a8131a893e9f7f0ec3769"
+      "url": "https://app.notion.com/p/Connexion-3b28db15623a8131a893e9f7f0ec3769"
     },
     {
       "id": "3b28db15-623a-81a7-9e8a-d3671345cfae",
       "identifiant": "INA-676",
-      "titre": "Connexion (V1)",
+      "titre": "Connexion",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -4421,12 +4773,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Connexion-V1-3b28db15623a81a79e8ad3671345cfae"
+      "url": "https://app.notion.com/p/Connexion-3b28db15623a81a79e8ad3671345cfae"
     },
     {
       "id": "3b28db15-623a-8143-9d47-f7dbfcf3579a",
       "identifiant": "INA-675",
-      "titre": "Connexion (V1)",
+      "titre": "Connexion",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -4451,7 +4803,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Connexion-V1-3b28db15623a81439d47f7dbfcf3579a"
+      "url": "https://app.notion.com/p/Connexion-3b28db15623a81439d47f7dbfcf3579a"
     },
     {
       "id": "3b28db15-623a-81b5-a131-cd76b6d91c1a",
@@ -4666,7 +5018,7 @@
     {
       "id": "3b28db15-623a-813e-a1b3-e882e314a019",
       "identifiant": "INA-667",
-      "titre": "Plan du camping",
+      "titre": "Onglet \"Participants\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -4683,7 +5035,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Rédiger et exécuter les scénarios de tests fonctionnels et techniques pour valider la recherche de disponibilité, l’affectation d’emplacement, les interactions utilisateur, les filtres, l’impression, et l’affichage des informations contextuelles sur le plan du camping.</p>",
+      "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -4691,7 +5043,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Plan-du-camping-3b28db15623a813ea1b3e882e314a019"
+      "url": "https://app.notion.com/p/Onglet-Participants-3b28db15623a813ea1b3e882e314a019"
     },
     {
       "id": "3b28db15-623a-81f0-86aa-dd2f44bd6a1e",
@@ -4906,7 +5258,7 @@
     {
       "id": "3b28db15-623a-81c3-b9d8-f3e5d783e7ba",
       "identifiant": "INA-659",
-      "titre": "Plannings des suppléments numérotés",
+      "titre": "Onglet \"Participants\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -4931,7 +5283,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Plannings-des-suppl-ments-num-rot-s-3b28db15623a81c3b9d8f3e5d783e7ba"
+      "url": "https://app.notion.com/p/Onglet-Participants-3b28db15623a81c3b9d8f3e5d783e7ba"
     },
     {
       "id": "3b28db15-623a-8191-b4b6-ce1fda666367",
@@ -5086,7 +5438,7 @@
     {
       "id": "3b28db15-623a-8164-837b-ef2c65f6dedc",
       "identifiant": "INA-653",
-      "titre": "Liste des Cautions",
+      "titre": "Onglet \"Participants\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -5111,7 +5463,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Liste-des-Cautions-3b28db15623a8164837bef2c65f6dedc"
+      "url": "https://app.notion.com/p/Onglet-Participants-3b28db15623a8164837bef2c65f6dedc"
     },
     {
       "id": "3b28db15-623a-81f6-9e9c-ec0f17e7e165",
@@ -5356,7 +5708,7 @@
     {
       "id": "3b28db15-623a-8149-92d8-cddc4a1de466",
       "identifiant": "INA-644",
-      "titre": "Recherche client",
+      "titre": "Onglet \"Animaux\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -5373,7 +5725,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Rédiger et exécuter les scénarios de test pour valider le fonctionnement de la recherche client, la création de client, l’affichage des résultats, la gestion des filtres, et la conformité aux règles de gestion.</p>",
+      "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -5381,7 +5733,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Recherche-client-3b28db15623a814992d8cddc4a1de466"
+      "url": "https://app.notion.com/p/Onglet-Animaux-3b28db15623a814992d8cddc4a1de466"
     },
     {
       "id": "3b28db15-623a-8177-9a57-d425133fa4b2",
@@ -5536,7 +5888,7 @@
     {
       "id": "3b28db15-623a-81c5-b043-cb1db3a439d8",
       "identifiant": "INA-638",
-      "titre": "Contrôle d'accès",
+      "titre": "Onglet \"Immatriculation\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -5553,7 +5905,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Rédiger et exécuter les tests fonctionnels et d’intégration pour la fenêtre 'moniteur contrôle d'accès', couvrant la visualisation des passages, la gestion des onglets, l’affichage des informations, et le fonctionnement des boutons d’ouverture.</p>",
+      "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -5561,7 +5913,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Contr-le-d-acc-s-3b28db15623a81c5b043cb1db3a439d8"
+      "url": "https://app.notion.com/p/Onglet-Immatriculation-3b28db15623a81c5b043cb1db3a439d8"
     },
     {
       "id": "3b28db15-623a-81ab-a0a0-f0a46c0bb4ff",
@@ -5776,7 +6128,7 @@
     {
       "id": "3b28db15-623a-81fc-88f7-dae4bec866e2",
       "identifiant": "INA-630",
-      "titre": "Liste des Indisponibilités",
+      "titre": "Onglet \"Immatriculation\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -5801,7 +6153,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Liste-des-Indisponibilit-s-3b28db15623a81fc88f7dae4bec866e2"
+      "url": "https://app.notion.com/p/Onglet-Immatriculation-3b28db15623a81fc88f7dae4bec866e2"
     },
     {
       "id": "3b28db15-623a-812a-b874-dccea3c7bbc5",
@@ -6136,7 +6488,7 @@
     {
       "id": "3b28db15-623a-812f-bbda-fabaf71558c6",
       "identifiant": "INA-618",
-      "titre": "Recherche Disponibilités",
+      "titre": "Onglet \"Immatriculation\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -6161,12 +6513,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Recherche-Disponibilit-s-3b28db15623a812fbbdafabaf71558c6"
+      "url": "https://app.notion.com/p/Onglet-Immatriculation-3b28db15623a812fbbdafabaf71558c6"
     },
     {
       "id": "3b28db15-623a-81c9-b70a-d494d4146ef7",
       "identifiant": "INA-617",
-      "titre": "HOME PAGE / TABLEAU DE BORD",
+      "titre": "Tableau de Bord / Home Page",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -6191,12 +6543,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/HOME-PAGE-TABLEAU-DE-BORD-3b28db15623a81c9b70ad494d4146ef7"
+      "url": "https://app.notion.com/p/Tableau-de-Bord-Home-Page-3b28db15623a81c9b70ad494d4146ef7"
     },
     {
       "id": "3b28db15-623a-8124-a961-da20a93bf1c2",
       "identifiant": "INA-616",
-      "titre": "HOME PAGE / TABLEAU DE BORD",
+      "titre": "Tableau de Bord / Home Page",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -6221,12 +6573,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/HOME-PAGE-TABLEAU-DE-BORD-3b28db15623a8124a961da20a93bf1c2"
+      "url": "https://app.notion.com/p/Tableau-de-Bord-Home-Page-3b28db15623a8124a961da20a93bf1c2"
     },
     {
       "id": "3b28db15-623a-817b-a1c6-ddffeb260327",
       "identifiant": "INA-615",
-      "titre": "HOME PAGE / TABLEAU DE BORD",
+      "titre": "Tableau de Bord / Home Page",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -6251,12 +6603,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/HOME-PAGE-TABLEAU-DE-BORD-3b28db15623a817ba1c6ddffeb260327"
+      "url": "https://app.notion.com/p/Tableau-de-Bord-Home-Page-3b28db15623a817ba1c6ddffeb260327"
     },
     {
       "id": "3b28db15-623a-811b-8804-d05f954c1b83",
       "identifiant": "INA-614",
-      "titre": "HOME PAGE / TABLEAU DE BORD",
+      "titre": "Tableau de Bord / Home Page",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -6281,12 +6633,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/HOME-PAGE-TABLEAU-DE-BORD-3b28db15623a811b8804d05f954c1b83"
+      "url": "https://app.notion.com/p/Tableau-de-Bord-Home-Page-3b28db15623a811b8804d05f954c1b83"
     },
     {
       "id": "3b28db15-623a-8128-8822-db7122324010",
       "identifiant": "INA-613",
-      "titre": "HOME PAGE / TABLEAU DE BORD",
+      "titre": "Onglet \"Détails\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -6303,7 +6655,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Valider le fonctionnement du tableau de bord : actualisation automatique des indicateurs, cohérence des listes dynamiques, navigation depuis les compteurs, affichage du message de fermeture et conformité aux attentes de la maquette.</p>",
+      "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -6311,12 +6663,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/HOME-PAGE-TABLEAU-DE-BORD-3b28db15623a81288822db7122324010"
+      "url": "https://app.notion.com/p/Onglet-D-tails-3b28db15623a81288822db7122324010"
     },
     {
       "id": "3b28db15-623a-8147-aa53-cb1c1de01cc0",
       "identifiant": "INA-612",
-      "titre": "MENU BURGER / RAIL NAVIGATION / HEADER",
+      "titre": "Menu / Rail Navigation / Header",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -6341,12 +6693,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/MENU-BURGER-RAIL-NAVIGATION-HEADER-3b28db15623a8147aa53cb1c1de01cc0"
+      "url": "https://app.notion.com/p/Menu-Rail-Navigation-Header-3b28db15623a8147aa53cb1c1de01cc0"
     },
     {
       "id": "3b28db15-623a-814e-9d34-f5979de86828",
       "identifiant": "INA-611",
-      "titre": "MENU BURGER / RAIL NAVIGATION / HEADER",
+      "titre": "Menu / Rail Navigation / Header",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -6371,12 +6723,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/MENU-BURGER-RAIL-NAVIGATION-HEADER-3b28db15623a814e9d34f5979de86828"
+      "url": "https://app.notion.com/p/Menu-Rail-Navigation-Header-3b28db15623a814e9d34f5979de86828"
     },
     {
       "id": "3b28db15-623a-8137-928f-e795d3b3bf9d",
       "identifiant": "INA-610",
-      "titre": "MENU BURGER / RAIL NAVIGATION / HEADER",
+      "titre": "Menu / Rail Navigation / Header",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -6401,12 +6753,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/MENU-BURGER-RAIL-NAVIGATION-HEADER-3b28db15623a8137928fe795d3b3bf9d"
+      "url": "https://app.notion.com/p/Menu-Rail-Navigation-Header-3b28db15623a8137928fe795d3b3bf9d"
     },
     {
       "id": "3b28db15-623a-8170-b594-d7e2bdadeb97",
       "identifiant": "INA-609",
-      "titre": "MENU BURGER / RAIL NAVIGATION / HEADER",
+      "titre": "Menu / Rail Navigation / Header",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -6431,7 +6783,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/MENU-BURGER-RAIL-NAVIGATION-HEADER-3b28db15623a8170b594d7e2bdadeb97"
+      "url": "https://app.notion.com/p/Menu-Rail-Navigation-Header-3b28db15623a8170b594d7e2bdadeb97"
     },
     {
       "id": "3b28db15-623a-81a8-b656-dbfaf5a26bb8",
@@ -6796,7 +7148,7 @@
     {
       "id": "3b28db15-623a-81d7-8ae1-d07b4455d080",
       "identifiant": "INA-596",
-      "titre": "Support / Compte",
+      "titre": "Onglet \"Financier\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -6821,7 +7173,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Support-Compte-3b28db15623a81d78ae1d07b4455d080"
+      "url": "https://app.notion.com/p/Onglet-Financier-3b28db15623a81d78ae1d07b4455d080"
     },
     {
       "id": "3b28db15-623a-81b3-8f26-d5ce53c7c766",
@@ -7006,7 +7358,7 @@
     {
       "id": "3b28db15-623a-812d-b534-d32ed2633bda",
       "identifiant": "INA-589",
-      "titre": "Remise en banque",
+      "titre": "Onglet \"Financier\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -7023,7 +7375,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Rédiger et exécuter les tests fonctionnels pour valider la génération des remises, la gestion des filtres, la modification/suppression des paiements, l’impression, la gestion des remises effectuées et l’affichage du détail.</p>",
+      "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -7031,7 +7383,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Remise-en-banque-3b28db15623a812db534d32ed2633bda"
+      "url": "https://app.notion.com/p/Onglet-Financier-3b28db15623a812db534d32ed2633bda"
     },
     {
       "id": "3b28db15-623a-811e-8acc-f6beedf02a3d",
@@ -7186,7 +7538,7 @@
     {
       "id": "3b28db15-623a-812c-8e02-e6fa0cec60a9",
       "identifiant": "INA-583",
-      "titre": "Ventes Réception",
+      "titre": "Facturer",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -7203,7 +7555,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Rédiger et exécuter les scénarios de tests fonctionnels et techniques pour valider le bon fonctionnement du module Ventes Réception, y compris la gestion des paiements, l’impression, les validations et les cas d’erreur.</p>",
+      "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -7211,7 +7563,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Ventes-R-ception-3b28db15623a812c8e02e6fa0cec60a9"
+      "url": "https://app.notion.com/p/Facturer-3b28db15623a812c8e02e6fa0cec60a9"
     },
     {
       "id": "3b28db15-623a-81d4-9a3c-e944c08c4087",
@@ -7366,7 +7718,7 @@
     {
       "id": "3b28db15-623a-819c-8580-c366bb02d465",
       "identifiant": "INA-577",
-      "titre": "Historique des Ventes Réception",
+      "titre": "Facturer",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -7383,7 +7735,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Rédiger et exécuter les scénarios de tests fonctionnels et techniques pour valider le bon fonctionnement du module 'Gestion des Ventes Réception', couvrant les cas d'utilisation principaux et les règles de gestion spécifiques.</p>",
+      "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -7391,7 +7743,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Historique-des-Ventes-R-ception-3b28db15623a819c8580c366bb02d465"
+      "url": "https://app.notion.com/p/Facturer-3b28db15623a819c8580c366bb02d465"
     },
     {
       "id": "3b28db15-623a-813d-9c3e-fd0349d145eb",
@@ -7516,7 +7868,7 @@
     {
       "id": "3b28db15-623a-8185-a9b7-f56478c76239",
       "identifiant": "INA-572",
-      "titre": "Listing Occupation (calendrier)",
+      "titre": "Facturer",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -7541,7 +7893,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Listing-Occupation-calendrier-3b28db15623a8185a9b7f56478c76239"
+      "url": "https://app.notion.com/p/Facturer-3b28db15623a8185a9b7f56478c76239"
     },
     {
       "id": "3b28db15-623a-8130-a8e6-def7583f7612",
@@ -7576,7 +7928,7 @@
     {
       "id": "3b28db15-623a-819d-b81b-f7f08de810f6",
       "identifiant": "INA-570",
-      "titre": "Liste transactions",
+      "titre": "Facturer",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -7601,7 +7953,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Liste-transactions-3b28db15623a819db81bf7f08de810f6"
+      "url": "https://app.notion.com/p/Facturer-3b28db15623a819db81bf7f08de810f6"
     },
     {
       "id": "3b28db15-623a-81b0-b3ad-eb05360532c6",
@@ -7726,7 +8078,7 @@
     {
       "id": "3b28db15-623a-81d6-93d9-c906e8a9e3e6",
       "identifiant": "INA-565",
-      "titre": "To Do Liste",
+      "titre": "Onglet \"Financier\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -7743,7 +8095,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Rédiger et exécuter les tests fonctionnels et techniques pour valider le bon fonctionnement de la To Do Liste, couvrir les cas d'utilisation principaux et les scénarios limites.</p>",
+      "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -7751,7 +8103,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/To-Do-Liste-3b28db15623a81d693d9c906e8a9e3e6"
+      "url": "https://app.notion.com/p/Onglet-Financier-3b28db15623a81d693d9c906e8a9e3e6"
     },
     {
       "id": "3b28db15-623a-817c-9288-c90b97263fc4",
@@ -7966,7 +8318,7 @@
     {
       "id": "3b28db15-623a-8143-9a91-d468ae554c80",
       "identifiant": "INA-557",
-      "titre": "Notifications - actualisation des indicateurs",
+      "titre": "Onglet \"Détails\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -7991,7 +8343,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Notifications-actualisation-des-indicateurs-3b28db15623a81439a91d468ae554c80"
+      "url": "https://app.notion.com/p/Onglet-D-tails-3b28db15623a81439a91d468ae554c80"
     },
     {
       "id": "3b28db15-623a-8194-ae0d-da422aac36cb",
@@ -8206,7 +8558,7 @@
     {
       "id": "3b28db15-623a-817e-9da7-e37bc8384e1c",
       "identifiant": "INA-549",
-      "titre": "Contrôle Caisse",
+      "titre": "Onglet \"Financier\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -8223,7 +8575,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Rédiger et exécuter les scénarios de tests fonctionnels et techniques pour la fenêtre Contrôle Caisse, couvrant l’ensemble des cas d’utilisation, les règles de gestion, les interactions utilisateur, et la conformité aux spécifications.</p>",
+      "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -8231,7 +8583,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Contr-le-Caisse-3b28db15623a817e9da7e37bc8384e1c"
+      "url": "https://app.notion.com/p/Onglet-Financier-3b28db15623a817e9da7e37bc8384e1c"
     },
     {
       "id": "3b18db15-623a-81a8-8db7-cbfee2883514",
@@ -15614,7 +15966,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Ciela, Romanée et Chadotel nous signale encore cette année avoir beaucoup de clients qui rencontrent des difficultés pour se connecter à l’espace client : \n2 problèmes >>\n  • Soit l’id espace client n’est pas correct entre NAXI et le web, donc on refait la moulinette des id espace client + un renvoi des clients et séjours et ça refonctionne\n  • Soit le client arrive à se connecter mais il ne voit aucun séjour car la command n’existe plus sur le web : bien souvent, c’est dû à des problèmes de synchro / raison pour laquelle j’ai mis en place une surveillance de la table command fin Mars\n\nJ’avais déjà soumis le soucis en Janvier dernier sur Support 3 : Angélique | Inaxel : CIELA - ERR CONNEXION ESPACE CLIENT CAUSE PB ID ESPACE CLIENT | Dev | Inaxel > Support 3 - Dév | Microsoft Teams\n\nEgalement en Juin 2025 : Angélique | Inaxel : NOUVEL EC - SEJOURS MANQUANTS POUR LE DOMAINE DE LA BERGERIE | Dev | Inaxel > Support 3 - Dév | Microsoft Teams\n",
+      "explication": "Ciela, Romanée et Chadotel nous signale encore cette année avoir beaucoup de clients qui rencontrent des difficultés pour se connecter à l’espace client : \n2 problèmes &gt;&gt;&nbsp;<div>&nbsp;• Soit l’id espace client n’est pas correct entre NAXI et le web, donc on refait la moulinette des id espace client + un renvoi des clients et séjours et ça refonctionne</div><div>&nbsp;• Soit le client arrive à se connecter mais il ne voit aucun séjour car la command n’existe plus sur le web : bien souvent, c’est dû à des problèmes de synchro / raison pour laquelle j’ai mis en place une surveillance de la table command fin Mars&nbsp;</div><div><br></div><div>&nbsp;J’avais déjà soumis le soucis en Janvier dernier sur Support 3 : Angélique | Inaxel : CIELA - ERR CONNEXION ESPACE CLIENT CAUSE PB ID ESPACE CLIENT | Dev | Inaxel &gt; Support 3 - Dév | Microsoft&nbsp;Teams\n\nEgalement en Juin 2025 : Angélique | Inaxel : NOUVEL EC - SEJOURS MANQUANTS POUR LE DOMAINE DE LA BERGERIE | Dev | Inaxel &gt; Support 3 - Dév | Microsoft&nbsp;Teams\n</div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -38837,7 +39189,7 @@
     ]
   },
   "counts": {
-    "classique": 664,
+    "classique": 675,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
