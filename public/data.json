@@ -1,6 +1,36 @@
 {
-  "generatedAt": "2026-09-03T19:48:29.566Z",
+  "generatedAt": "2026-09-03T21:57:28.018Z",
   "classique": [
+    {
+      "id": "3d08db15-623a-811a-aaf6-f6b89481ad16",
+      "identifiant": "INA-856",
+      "titre": "[RECETTE 04/09] US parcours complet",
+      "classification": null,
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [],
+      "client": "",
+      "dateCreation": "2026-09-03T21:03:00.000Z",
+      "estimBack": 8,
+      "estimFront": 2,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0.6,
+      "pointsBlocage": "blocage de recette",
+      "explication": "Ticket de recette automatisee - agent B. A supprimer.",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/RECETTE-04-09-US-parcours-complet-3d08db15623a811aaaf6f6b89481ad16"
+    },
     {
       "id": "3d08db15-623a-81fb-a48a-cde4225c59e5",
       "identifiant": "INA-854",
@@ -40253,7 +40283,7 @@
     ]
   },
   "counts": {
-    "classique": 691,
+    "classique": 692,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
