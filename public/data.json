@@ -1,6 +1,182 @@
 {
-  "generatedAt": "2026-09-03T04:46:15.655Z",
+  "generatedAt": "2026-09-03T09:15:36.354Z",
   "classique": [
+    {
+      "id": "3d08db15-623a-8131-9828-e7ecbb8c44e2",
+      "identifiant": "INA-849",
+      "titre": "Remplacer les appels du \"checkPrice\" et \"getOptionsByDate\" de WS_RESA par l'équivalent de NAXIAPI",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [
+        "FEVRIER 27"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-03T08:28:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>On souhaite ne plus utiliser le WS_RESA (windev), et à la place effectuer les requêtes à l’API NAXIAPI.</div><div><br></div><div>Pour s'assurer que NAXIAPI et le WS_RESA renvoyent bien les mêmes résultats, un comparatif a étét mit en place (Voir US https://inaxel.atlassian.net/browse/CONNECT-801) et le grafana réalisé :&nbsp;</div><div>Dashboard Grafana pour suivre les résultats</div><div>https://backoffice.inaxel.com/grafana/d/ecb456df-770e-462c-af83-77041c2b1d7f/ws-naxito-3a-connect-510?orgId=1&amp;from=2026-09-03T02:57:17.103Z&amp;to=2026-09-03T03:29:33.840Z&amp;timezone=Europe%2FParis</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Remplacer-les-appels-du-checkPrice-et-getOptionsByDate-de-WS_RESA-par-l-quivalent-de-NAXIAPI-3d08db15623a81319828e7ecbb8c44e2"
+    },
+    {
+      "id": "3d08db15-623a-8187-aa6b-ddd26e6332fc",
+      "identifiant": "INA-848",
+      "titre": "Migration de Naxigestionfront d'AWS vers OVH en preprod",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-03T07:36:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Migration de l'environnement de preprod d'AWS vers OVH",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Migration-de-Naxigestionfront-d-AWS-vers-OVH-en-preprod-3d08db15623a8187aa6bddd26e6332fc"
+    },
+    {
+      "id": "3d08db15-623a-81a5-96f8-ee6c8a52d0e5",
+      "identifiant": "INA-847",
+      "titre": "Message evocamp lors de l'ouverture de la fenêtre d'automatisation d'un extraction pré-paramétrée",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-03T07:16:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>Un message Evocamp apparaît lorsque :&nbsp;</div><div><br></div><div>1. Créer une extraction pré-paramétrée depuis le menu Séjour &gt; Extractions clients &amp; Séjours</div><div>2. Paramétrer sur cette liste une automatisation avec un opérateur affecté (un opérateur classique, pas l'opérateur [NAXIRESA]) / Dans mon test, j'ai fait une automatisation de ce type :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/600aa08c191c4fb29359f366ce7df49e\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>3. Valider l'automatisation</div><div>4. Se rendre ensuite dans le menu Paramètres &gt; Gestion des opérateurs</div><div>5. Ouvrir l'opérateur qui a été affecté sur l'extraction</div><div>6. Supprimer l'opérateur</div><div>7. Se rendre à nouveau dans le menu Séjours &gt; Extractions clients et séjours&nbsp;</div><div>8. Choisir l'extraction paramétrée précédemment</div><div>9. Ouvrir l'automatisation, NAXI affiche alors l'erreur suivante :&nbsp;<br><br><i>2026-09-03 09:16:33. Fonction : Global exception</i></div><div><i>2026-09-03 09:16:33. Paramètre 1 : Appel WL :</i></div><div><i>Traitement de 'Fin d'initialisation de param_listesauto' (param_listesauto), ligne 97</i></div><div><i><br></i></div><div><i>Que s'est-il passé ?</i></div><div><i>Vous avez appelé l'opérateur [] sur le champ ComboOp.</i></div><div><i>L'indice spécifié [-1] est invalide.&nbsp;</i></div><div><i>Les valeurs valides sont comprises entre 1 et 59 (inclus).</i></div><div><i><br></i></div><div><i>Code erreur : 10038</i></div><div><i>Niveau : erreur fatale</i></div><div><i><br></i></div><div><i>Module : wd260obj.dll (01F260101d - 26.0.572.39)</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_PILEWL :</i></div><div><i>Fin d'initialisation de param_listesauto (param_listesauto), ligne 97</i></div><div><i>Clic sur BT_modif (param_actauto.BT_modif), ligne 19</i></div><div><i>EIT_DATEHEURE : 03/09/2026 09:16:33</i></div><div><i>EIT_TYPE_WDFILE : &lt;2&gt;</i></div><div><i>EIT_IDCODE : &lt;34&gt;</i></div><div><i>2026-09-03 09:16:33. Paramètre 2 :&nbsp;</i><br><br>Si on regarde en base de données, dans la table ACTAUTO, l'opérateur reste enregistré en base de données d'où l'erreur :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ad63125b5c1c4c48bf8c037e10dd706b\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Reproduit sur démo Angélique en 18.32 HF / Village Collection est en 18.30 SQL</b><br><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Message-evocamp-lors-de-l-ouverture-de-la-fen-tre-d-automatisation-d-un-extraction-pr-param-tr-e-3d08db15623a81a596f8ee6c8a52d0e5"
+    },
+    {
+      "id": "3d08db15-623a-817f-8fbc-cdaab5c87647",
+      "identifiant": "INA-846",
+      "titre": "Grafana : Connaître les campings qui ont appairé Naxi à Pennylane",
+      "classification": null,
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-03T07:11:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite à la mise en place de la connectivité entre Naxi et Pennylane pour l'e-invoicing, l'utilisateur doit faire lui même l'apparairage avec Pennylane.<div><br></div><div>Suite au développement en cours pour&nbsp; e-reporting,&nbsp; l'utilsateur qui a déja connecté Naxi à Pennylane va devoir se déconnecter et se reconnecter à Pennylane pour inclure l'e-reporting.</div><div><br></div><div>Nous avons besoin de connaître les campings qui ont déjà appairé Naxi à Pennylane afin de les accompagner dans le passage de la nouvelle Version.&nbsp;</div><div><br></div><div>De manière plus générale,le dashboard sera pour nous une manière de quantifier les clients qui utilisent la connectivité Pennylane avec Naxi.</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Grafana-Conna-tre-les-campings-qui-ont-appair-Naxi-Pennylane-3d08db15623a817f8fbccdaab5c87647"
+    },
+    {
+      "id": "3d08db15-623a-8114-a19e-c76997b7bd3c",
+      "identifiant": "INA-845",
+      "titre": "Migration de l'API SynchroAccessControl vers la preprod d'OVH",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Cod & Cam"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-03T07:06:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Migration de SynchroAccessControlAPI d'AWS vers OVH en preprod",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Migration-de-l-API-SynchroAccessControl-vers-la-preprod-d-OVH-3d08db15623a8114a19ec76997b7bd3c"
+    },
     {
       "id": "3cf8db15-623a-814f-990e-d8f0b3439c76",
       "identifiant": "INA-844",
@@ -2092,7 +2268,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2109,7 +2287,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2124,7 +2304,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2141,7 +2323,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2156,7 +2340,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2173,7 +2359,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2188,7 +2376,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2205,7 +2395,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2220,7 +2412,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2237,7 +2431,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2252,7 +2448,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2269,7 +2467,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2284,7 +2484,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2301,7 +2503,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3020,7 +3224,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3037,7 +3243,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3052,7 +3260,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3069,7 +3279,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3084,7 +3296,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3101,7 +3315,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3116,7 +3332,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3133,7 +3351,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3148,7 +3368,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3165,7 +3387,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3180,7 +3404,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3197,7 +3423,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3212,7 +3440,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3229,7 +3459,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3244,7 +3476,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3261,7 +3495,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3276,7 +3512,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3293,7 +3531,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3308,7 +3548,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3325,7 +3567,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3340,7 +3584,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3357,7 +3603,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3372,7 +3620,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3389,7 +3639,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3404,7 +3656,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3421,7 +3675,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3436,7 +3692,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3453,7 +3711,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3468,7 +3728,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3485,7 +3747,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -4828,7 +5092,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -4843,7 +5109,9 @@
       "pointsBlocage": "",
       "explication": "<p>Analyser les besoins fonctionnels et techniques pour la fenêtre de sélection des emplacements, même si elle ne sera pas reportée dans le projet Top Line. Identifier les impacts éventuels et documenter les spécificités.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -4888,7 +5156,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -4903,7 +5173,9 @@
       "pointsBlocage": "",
       "explication": "<p>Concevoir l'interface utilisateur pour la fenêtre de paramétrage des critères prédéfinis sur les emplacements, en tenant compte de la sélection des catégories à afficher et de l'intégration avec les autres fenêtres concernées.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -39647,7 +39919,7 @@
     ]
   },
   "counts": {
-    "classique": 681,
+    "classique": 686,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
