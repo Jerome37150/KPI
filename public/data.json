@@ -1,6 +1,186 @@
 {
-  "generatedAt": "2026-09-03T09:15:36.354Z",
+  "generatedAt": "2026-09-03T13:40:15.047Z",
   "classique": [
+    {
+      "id": "3d08db15-623a-81fb-a48a-cde4225c59e5",
+      "identifiant": "INA-854",
+      "titre": "Action : \"Annulation séjour\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-03T10:23:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Annulation-s-jour-3d08db15623a81fba48acde4225c59e5"
+    },
+    {
+      "id": "3d08db15-623a-81c8-993e-d9d7c39757ac",
+      "identifiant": "INA-853",
+      "titre": "Action : \"Annulation séjour\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-03T10:22:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Annulation-s-jour-3d08db15623a81c8993ed9d7c39757ac"
+    },
+    {
+      "id": "3d08db15-623a-8190-b981-e39bed75f60e",
+      "identifiant": "INA-852",
+      "titre": "Action : \"Annulation séjour\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-03T10:22:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Annulation-s-jour-3d08db15623a8190b981e39bed75f60e"
+    },
+    {
+      "id": "3d08db15-623a-81a9-b38b-f56a975508a8",
+      "identifiant": "INA-851",
+      "titre": "Onglet \"Animaux\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-03T10:13:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Animaux-3d08db15623a81a9b38bf56a975508a8"
+    },
+    {
+      "id": "3d08db15-623a-81c0-96a6-f9d27f61c3c7",
+      "identifiant": "INA-850",
+      "titre": "Onglet \"Animaux\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-03T10:12:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Animaux-3d08db15623a81c096a6f9d27f61c3c7"
+    },
     {
       "id": "3d08db15-623a-8131-9828-e7ecbb8c44e2",
       "identifiant": "INA-849",
@@ -25,7 +205,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<div>On souhaite ne plus utiliser le WS_RESA (windev), et à la place effectuer les requêtes à l’API NAXIAPI.</div><div><br></div><div>Pour s'assurer que NAXIAPI et le WS_RESA renvoyent bien les mêmes résultats, un comparatif a étét mit en place (Voir US https://inaxel.atlassian.net/browse/CONNECT-801) et le grafana réalisé :&nbsp;</div><div>Dashboard Grafana pour suivre les résultats</div><div>https://backoffice.inaxel.com/grafana/d/ecb456df-770e-462c-af83-77041c2b1d7f/ws-naxito-3a-connect-510?orgId=1&amp;from=2026-09-03T02:57:17.103Z&amp;to=2026-09-03T03:29:33.840Z&amp;timezone=Europe%2FParis</div>",
+      "explication": "<div>On souhaite ne plus utiliser le WS_RESA (windev), et à la place effectuer les requêtes à l’API NAXIAPI.</div><div><br></div><div>Pour s'assurer que NAXIAPI et le WS_RESA renvoient bien les mêmes résultats, un comparatif a étét mit en place (Voir US https://inaxel.atlassian.net/browse/CONNECT-801) et le grafana réalisé :&nbsp;</div><div>Dashboard Grafana pour suivre les résultats</div><div>https://backoffice.inaxel.com/grafana/d/ecb456df-770e-462c-af83-77041c2b1d7f/ws-naxito-3a-connect-510?orgId=1&amp;from=2026-09-03T02:57:17.103Z&amp;to=2026-09-03T03:29:33.840Z&amp;timezone=Europe%2FParis</div>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -121,7 +301,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-03T07:11:00.000Z",
-      "estimBack": 0,
+      "estimBack": 2,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -229,7 +409,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-02T12:34:00.000Z",
-      "estimBack": 0,
+      "estimBack": 3,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -580,7 +760,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -597,7 +779,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -765,7 +949,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-02T07:03:00.000Z",
-      "estimBack": 0,
+      "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -2520,7 +2704,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2537,7 +2723,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2552,7 +2740,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2569,7 +2759,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2584,7 +2776,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2601,7 +2795,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2616,7 +2812,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2633,7 +2831,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2648,7 +2848,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2665,7 +2867,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2680,7 +2884,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2697,7 +2903,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2712,7 +2920,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2729,7 +2939,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2744,7 +2956,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2761,7 +2975,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2776,7 +2992,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2793,7 +3011,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2808,7 +3028,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2825,7 +3047,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2840,7 +3064,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2857,7 +3083,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2872,7 +3100,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2889,7 +3119,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2904,7 +3136,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2921,7 +3155,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2936,7 +3172,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2953,7 +3191,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2968,7 +3208,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2985,7 +3227,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3000,7 +3244,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3017,7 +3263,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3032,7 +3280,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3049,7 +3299,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3064,7 +3316,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3081,7 +3335,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3096,7 +3352,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3113,7 +3371,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3128,7 +3388,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3145,7 +3407,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3160,7 +3424,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3177,7 +3443,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3192,7 +3460,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3209,7 +3479,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3773,7 +4045,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-01T15:14:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -5340,7 +5612,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5355,7 +5629,9 @@
       "pointsBlocage": "",
       "explication": "<p><br></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5730,7 +6006,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5745,7 +6023,9 @@
       "pointsBlocage": "",
       "explication": "<p><br></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5970,7 +6250,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5985,7 +6267,9 @@
       "pointsBlocage": "",
       "explication": "<p>Rédiger et exécuter les scénarios de tests fonctionnels et techniques pour valider le bon fonctionnement du planning des suppléments numérotés.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6150,7 +6434,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6165,7 +6451,9 @@
       "pointsBlocage": "",
       "explication": "<p>Rédiger et exécuter les scénarios de tests fonctionnels et techniques pour la fenêtre Liste des Cautions, couvrant l'affichage, les filtres, la restitution en masse, la gestion des statuts, les interactions utilisateur et la conformité aux règles de gestion.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6420,7 +6708,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6435,7 +6725,9 @@
       "pointsBlocage": "",
       "explication": "<p><br></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6600,7 +6892,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6615,7 +6909,9 @@
       "pointsBlocage": "",
       "explication": "<p><br></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6840,7 +7136,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6855,7 +7153,9 @@
       "pointsBlocage": "",
       "explication": "<p>Définir et exécuter les scénarios de tests fonctionnels et techniques pour la fenêtre 'Indisponibilités', incluant la liste, la création, la modification, la suppression (individuelle et en masse) et la navigation vers les fenêtres associées.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7200,7 +7500,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7215,7 +7517,9 @@
       "pointsBlocage": "",
       "explication": "<p>Rédiger et exécuter les tests fonctionnels et techniques pour valider le bon fonctionnement de la fenêtre 'Disponibilités', des filtres, de l'affichage des résultats et du respect des règles de gestion.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7350,7 +7654,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7365,7 +7671,9 @@
       "pointsBlocage": "",
       "explication": "<p><br></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7860,7 +8168,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7875,7 +8185,9 @@
       "pointsBlocage": "",
       "explication": "<p>Rédiger et exécuter les scénarios de test pour vérifier le bon fonctionnement de la fenêtre Télémaintenance, l’intégration des outils d’assistance à distance et l’accessibilité via le menu burger.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -8070,7 +8382,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8085,7 +8399,9 @@
       "pointsBlocage": "",
       "explication": "<p><br></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -8250,7 +8566,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8265,7 +8583,9 @@
       "pointsBlocage": "",
       "explication": "<p><br></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -8430,7 +8750,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8445,7 +8767,9 @@
       "pointsBlocage": "",
       "explication": "<p><br></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -8580,7 +8904,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8595,7 +8921,9 @@
       "pointsBlocage": "",
       "explication": "<p>Concevoir et exécuter les tests fonctionnels et d'intégration pour valider l'affichage du calendrier, la précision des données d'occupation, et la navigation dans le détail mensuel (arrivées/départs par jour).</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -8640,7 +8968,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8655,7 +8985,9 @@
       "pointsBlocage": "",
       "explication": "<p>Rédiger et exécuter les scénarios de tests fonctionnels et techniques pour la fenêtre 'Liste transactions', couvrant l'ensemble des fonctionnalités (impression, modification/suppression de paiement, filtres, navigation vers fiche client, etc.).</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -8790,7 +9122,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8805,7 +9139,9 @@
       "pointsBlocage": "",
       "explication": "<p><br></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -9030,7 +9366,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -9045,7 +9383,9 @@
       "pointsBlocage": "",
       "explication": "<p>Valider les scénarios de mise à jour en temps réel des indicateurs sur un ou plusieurs postes : départ, arrivée, création/modification/suppression de séjour, paiement, traitement des réservations en ligne et traitement des éléments de la To Do.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -9271,7 +9611,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9288,7 +9628,7 @@
       "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9979,7 +10319,7 @@
       ],
       "client": "",
       "dateCreation": "2026-07-21T10:36:00.000Z",
-      "estimBack": 0,
+      "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -10329,7 +10669,7 @@
       ],
       "client": "",
       "dateCreation": "2026-07-16T09:06:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -10363,7 +10703,7 @@
       ],
       "client": "Fage 24",
       "dateCreation": "2026-07-15T14:47:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -18306,7 +18646,7 @@
       ],
       "client": "Flower (Demandé le 12.03.2026)",
       "dateCreation": "2026-03-12T13:23:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -19799,7 +20139,7 @@
       ],
       "client": "",
       "dateCreation": "2026-02-24T19:05:00.000Z",
-      "estimBack": 0,
+      "estimBack": 3,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -19870,7 +20210,7 @@
       ],
       "client": "",
       "dateCreation": "2026-02-24T19:05:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -20210,7 +20550,7 @@
       ],
       "client": "",
       "dateCreation": "2026-02-24T19:05:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -20953,7 +21293,7 @@
       ],
       "client": "",
       "dateCreation": "2026-02-24T19:05:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -21077,9 +21417,7 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "CRM",
@@ -22152,9 +22490,7 @@
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI CODES"
@@ -22171,9 +22507,7 @@
       "pointsBlocage": "",
       "explication": "<div><br></div><div><br></div><div><br></div><div>Axiom a fait une mise à jour de leur SDK pour commercialiser leur nouvelle carte.&nbsp;</div><div><br></div><div>Il va donc falloir faire des adaptations afin que le nouveau SDK fonctionne pour les anciennes cartes et les nouvelles cartes.</div><div><br></div><div>Voici les exe du nouveau SDK : dossier disponible sur ftp : /Exe Testeuses/Preprod/Projects/nouveau DSK</div><div><br></div><div>Contact chez Axiom pour toutes questions :  Imad RAOUAZI au 04 72 97 02 90</div><div><br></div><div>Les différentes questions qu’il va falloir se poser (liste non exhaustive) :&nbsp;</div><div><ul><li>Qu’elles sont les conséquences de ce changement de SDK ? Car dans le dossier zippé, il y a uniquement les exe du SDK et une liste des différents codes.&nbsp;</li><li>Est-ce qu’on a la possibilité de leur demander une doc expliquant les changements ? Pour voir si en plus du changement des exe on doit faire des adaptations du code.</li><li>&nbsp;Et est ce que nous avons encore des campings utilisant les anciens lecteurs ?&nbsp;</li><li>Est ce que le nouvel SDK fonctionnera avec eux ? Pour savoir si nous devons maintenir les 2 versions du SDK.</li></ul></div><div><br></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -39919,7 +40253,7 @@
     ]
   },
   "counts": {
-    "classique": 686,
+    "classique": 691,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
