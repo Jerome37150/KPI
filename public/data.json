@@ -1,11 +1,291 @@
 {
-  "generatedAt": "2026-09-04T06:04:59.632Z",
+  "generatedAt": "2026-09-04T11:12:23.101Z",
   "classique": [
+    {
+      "id": "3d18db15-623a-81ef-8467-e188919b9d2f",
+      "identifiant": "INA-864",
+      "titre": "Mise en place le CI/CD pour le dépôt FrontOffice",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-04T09:54:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite à la restructuration des dépôts Git, migration du projet Naxigestionfront et du projet Storybook dans le même dépôt. Il faut refaire les pipelines.&nbsp;",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-en-place-le-CI-CD-pour-le-d-p-t-FrontOffice-3d18db15623a81ef8467e188919b9d2f"
+    },
+    {
+      "id": "3d18db15-623a-81d8-be9f-cc38f1eb59fe",
+      "identifiant": "INA-863",
+      "titre": "Nouvelle US",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-04T09:50:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Nouvelle-US-3d18db15623a81d8be9fcc38f1eb59fe"
+    },
+    {
+      "id": "3d18db15-623a-8135-996a-da8442bac17d",
+      "identifiant": "INA-862",
+      "titre": "Interface :  listing des campings qui sont connectés à Pennylane",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-04T08:39:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div><b>2 Objectifs :&nbsp;</b></div><div><br></div><div>- Quantifier et lister les campings qui sont passés par Naxi Gestion pour la création du compte Pennylane</div><div><br></div><div>- Quantifier et lister les clients qui utilisent la connectivité Pennylane avec Naxi.</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Interface-listing-des-campings-qui-sont-connect-s-Pennylane-3d18db15623a8135996ada8442bac17d"
+    },
+    {
+      "id": "3d18db15-623a-81f8-88bd-ca9d464c5186",
+      "identifiant": "INA-861",
+      "titre": "Migration de la BDD d'AWS vers OVH en preprod",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-04T07:53:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Migration de la BDD MariaDB d'AWS vers OVH en preprod",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Migration-de-la-BDD-d-AWS-vers-OVH-en-preprod-3d18db15623a81f888bdca9d464c5186"
+    },
+    {
+      "id": "3d18db15-623a-81aa-817a-ec59eb980daf",
+      "identifiant": "INA-860",
+      "titre": "Mise en place d'un cluster RabbitMQ sur la nouvelle preprod",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-04T07:52:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Déplacer le cluster RabbitMQ d'AWS vers OVH en réalisant un upgrade de la version",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-en-place-d-un-cluster-RabbitMQ-sur-la-nouvelle-preprod-3d18db15623a81aa817aec59eb980daf"
+    },
+    {
+      "id": "3d18db15-623a-8181-bae9-c5cb626e6cf1",
+      "identifiant": "INA-859",
+      "titre": "Erreur affichage logo bloc bas de page sur les pro-forma & factures",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-04T07:45:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>L'image du bloc bas de page sur les factures &amp; proforma est incorrecte lorsque :&nbsp;<br><br>1. Se rendre dans le menu Paramètres &gt; Documents</div><div>2. Choisir le document Factures</div><div>3. Dans l'onglet Bloc Bas de Page, choisir 'Texte &amp; Image (Bandeau)'</div><div>4. Sélectionner l'image qui apparaitra dans le bandeau du bloc bas de page</div><div>5. Valider</div><div>6. Se rendre sur un séjour et générer la facture ou la proforma qu'importe.</div><div>7. Si on regarde le document généré, l'image du bloc bas de page n'est pas celle paramétrée.</div><div><br></div><div><i>Après tests, il s'avère que NAXI prend par défaut dans le bloc bas de page, le logo de l'entête.</i></div><div><i>Si je change le logo de l'entête, le bloc bas de page se change aussi.</i></div><div><br></div><div><b>Reproduit sur démo Angélique en HF 18.32 / Resasol est en SQL 18.25</b></div><div><b>Non reproduit sur les autres documents (bons de séjours, devis OK)</b></div><div><b><br></b></div><div><i>-&gt; Voir peut être en lien avec l'US https://inaxel.atlassian.net/browse/BUG-1004</i></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-affichage-logo-bloc-bas-de-page-sur-les-pro-forma-factures-3d18db15623a8181bae9c5cb626e6cf1"
+    },
+    {
+      "id": "3d18db15-623a-8129-b3e0-c883a1145834",
+      "identifiant": "INA-858",
+      "titre": "Construire Storybook composants Front & maquette",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "SEPTEMBRE 2026"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Nax7 PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-04T07:39:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Construire-Storybook-composants-Front-maquette-3d18db15623a8129b3e0c883a1145834"
+    },
+    {
+      "id": "3d18db15-623a-81f4-b781-efdcd7799a30",
+      "identifiant": "INA-857",
+      "titre": "Pipeline \"de la maquette à la preprod\"",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "SEPTEMBRE 2026"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Nax7 PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-04T07:33:00.000Z",
+      "estimBack": 140,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Créer une pipeline automatisation IA, pour gagner en productivité et en efficacité<div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/d4872e9ed7ea4ad38056cd6c2c71844d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Pipeline-de-la-maquette-la-preprod-3d18db15623a81f4b781efdcd7799a30"
+    },
     {
       "id": "3d08db15-623a-81fb-a48a-cde4225c59e5",
       "identifiant": "INA-854",
       "titre": "Action : \"Annulation séjour\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -41,7 +321,7 @@
       "id": "3d08db15-623a-81c8-993e-d9d7c39757ac",
       "identifiant": "INA-853",
       "titre": "Action : \"Annulation séjour\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -74,46 +354,10 @@
       "url": "https://app.notion.com/p/Action-Annulation-s-jour-3d08db15623a81c8993ed9d7c39757ac"
     },
     {
-      "id": "3d08db15-623a-8190-b981-e39bed75f60e",
-      "identifiant": "INA-852",
-      "titre": "Action : \"Annulation séjour\"",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-03T10:22:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Action-Annulation-s-jour-3d08db15623a8190b981e39bed75f60e"
-    },
-    {
       "id": "3d08db15-623a-81a9-b38b-f56a975508a8",
       "identifiant": "INA-851",
       "titre": "Onglet \"Animaux\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -149,7 +393,7 @@
       "id": "3d08db15-623a-81c0-96a6-f9d27f61c3c7",
       "identifiant": "INA-850",
       "titre": "Onglet \"Animaux\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -224,9 +468,7 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -243,9 +485,7 @@
       "pointsBlocage": "",
       "explication": "Migration de l'environnement de preprod d'AWS vers OVH",
       "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -361,7 +601,7 @@
       "id": "3cf8db15-623a-814f-990e-d8f0b3439c76",
       "identifiant": "INA-844",
       "titre": "Action : \"Annulation séjour\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -401,7 +641,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -420,7 +660,7 @@
       "explication": "Lors du paramétrage d'un client, une erreur a été commise lors de la création du code exercice.<div>Nous avons alors souhaité utilisé la moulinette 32 mais avons constaté un important problème :</div><div><br></div><div>1. Se rendre dans le menu Administration &gt; Maintenance Inaxel</div><div>2. Dans la liste des procédures, choisir la procédure n°32 &gt; Modifier le code exercice</div><div>3. Saisir le nouveau code exe</div><div>4. Valider : le traitement se lance et se finit sans problème</div><div>5. En revanche, si l'on regarde en base de données dans la table Exercice, la moulinette a inversé le code soc et le code exe&nbsp;</div><div><br></div><div>Après analyse, toutes les tables de la base de données sont concernées : exemple ci dessous avec la table TRFBASE :&nbsp;<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7a318c2f46624582a75e7800c120e758\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Testé et reproduis sur démo Angélique en 18.32 / Version HF</b></div><div><i>Cette moulinette a été utilisé en Janvier 2026 sur le groupe RESASOL en SQL sans aucun soucis&nbsp;</i></div><div><br></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -433,7 +673,7 @@
       "id": "3cf8db15-623a-815a-97d0-f6f7532e60bc",
       "identifiant": "INA-842",
       "titre": "Action : \"Encaisser\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -469,7 +709,7 @@
       "id": "3cf8db15-623a-81ea-8279-dcac2af87011",
       "identifiant": "INA-841",
       "titre": "Action : \"Encaisser\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -502,46 +742,10 @@
       "url": "https://app.notion.com/p/Action-Encaisser-3cf8db15623a81ea8279dcac2af87011"
     },
     {
-      "id": "3cf8db15-623a-81bd-944b-cc1284d9a25c",
-      "identifiant": "INA-840",
-      "titre": "Action : \"Encaisser\"",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-02T10:30:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Action-Encaisser-3cf8db15623a81bd944bcc1284d9a25c"
-    },
-    {
       "id": "3cf8db15-623a-8164-98ae-fd5b2d576632",
       "identifiant": "INA-839",
       "titre": "Action : \"Encaisser\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -577,7 +781,7 @@
       "id": "3cf8db15-623a-8159-b17a-c737b74e9f5d",
       "identifiant": "INA-838",
       "titre": "Onglet \"Détails\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -613,7 +817,7 @@
       "id": "3cf8db15-623a-81ac-a086-f0ada011c22c",
       "identifiant": "INA-837",
       "titre": "Onglet \"Détails\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -649,7 +853,7 @@
       "id": "3cf8db15-623a-8191-876e-dedc2aa1a214",
       "identifiant": "INA-836",
       "titre": "Onglet \"Immatriculation\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -721,7 +925,7 @@
       "id": "3cf8db15-623a-8172-9536-c8562d65f276",
       "identifiant": "INA-834",
       "titre": "Onglet \"Participants\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -757,7 +961,7 @@
       "id": "3cf8db15-623a-8116-8030-f9183bd42b7a",
       "identifiant": "INA-833",
       "titre": "Onglet \"Cautions\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -793,7 +997,7 @@
       "id": "3cf8db15-623a-81c2-b74b-ebc9549c32af",
       "identifiant": "INA-832",
       "titre": "Structure générale du séjour (menu + bandeau séjour)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -829,7 +1033,7 @@
       "id": "3cf8db15-623a-8138-be7a-cc5c232b32ad",
       "identifiant": "INA-831",
       "titre": "Structure générale du séjour (menu + bandeau séjour)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -862,46 +1066,10 @@
       "url": "https://app.notion.com/p/Structure-g-n-rale-du-s-jour-menu-bandeau-s-jour-3cf8db15623a8138be7acc5c232b32ad"
     },
     {
-      "id": "3cf8db15-623a-8128-8551-fb6ee563deea",
-      "identifiant": "INA-830",
-      "titre": "Structure générale du séjour (menu + bandeau séjour)",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-02T07:47:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Structure-g-n-rale-du-s-jour-menu-bandeau-s-jour-3cf8db15623a81288551fb6ee563deea"
-    },
-    {
       "id": "3cf8db15-623a-8100-b18e-f0db0316ca75",
       "identifiant": "INA-829",
       "titre": "Structure générale du séjour (menu + bandeau séjour)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -973,7 +1141,7 @@
       "id": "3ce8db15-623a-81ad-9215-eecd357ca7c0",
       "identifiant": "INA-827",
       "titre": "Onglet \"Vue d'ensemble\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1009,7 +1177,7 @@
       "id": "3ce8db15-623a-819d-a72d-f75926cee66c",
       "identifiant": "INA-826",
       "titre": "Onglet \"Vue d'ensemble\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1022,7 +1190,7 @@
       "client": "",
       "dateCreation": "2026-09-01T16:16:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 96,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -1042,46 +1210,10 @@
       "url": "https://app.notion.com/p/Onglet-Vue-d-ensemble-3ce8db15623a819da72df75926cee66c"
     },
     {
-      "id": "3ce8db15-623a-8143-9704-dc20b532dad9",
-      "identifiant": "INA-825",
-      "titre": "Onglet \"Vue d'ensemble\"",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T16:16:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Vue-d-ensemble-3ce8db15623a81439704dc20b532dad9"
-    },
-    {
       "id": "3ce8db15-623a-81d2-98b6-c9af5f4d4a5e",
       "identifiant": "INA-824",
       "titre": "Onglet \"Vue d'ensemble\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1117,11 +1249,11 @@
       "id": "3ce8db15-623a-81ed-9d2b-ffdb886a474d",
       "identifiant": "INA-823",
       "titre": "Onglet \"Prestations\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "SEPTEMBRE 2026"
       ],
       "fonctions": null,
       "produits": [
@@ -1153,11 +1285,11 @@
       "id": "3ce8db15-623a-81dc-8687-e690bb86cefa",
       "identifiant": "INA-822",
       "titre": "Onglet \"Prestations\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "SEPTEMBRE 2026"
       ],
       "fonctions": null,
       "produits": [
@@ -1166,7 +1298,7 @@
       "client": "",
       "dateCreation": "2026-09-01T16:15:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -1186,46 +1318,10 @@
       "url": "https://app.notion.com/p/Onglet-Prestations-3ce8db15623a81dc8687e690bb86cefa"
     },
     {
-      "id": "3ce8db15-623a-81f7-b0f7-e3a2b797ccbb",
-      "identifiant": "INA-821",
-      "titre": "Onglet \"Prestations\"",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T16:15:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Prestations-3ce8db15623a81f7b0f7e3a2b797ccbb"
-    },
-    {
       "id": "3ce8db15-623a-8145-94cb-fe6c3ed7feeb",
       "identifiant": "INA-820",
       "titre": "Onglet \"Prestations\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1261,7 +1357,7 @@
       "id": "3ce8db15-623a-819b-ac3c-f582230f3469",
       "identifiant": "INA-819",
       "titre": "Onglet \"Cautions\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1297,7 +1393,7 @@
       "id": "3ce8db15-623a-81b4-b1d4-fa28f5b719bb",
       "identifiant": "INA-818",
       "titre": "Onglet \"Cautions\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1310,7 +1406,7 @@
       "client": "",
       "dateCreation": "2026-09-01T16:14:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 32,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -1330,46 +1426,10 @@
       "url": "https://app.notion.com/p/Onglet-Cautions-3ce8db15623a81b4b1d4fa28f5b719bb"
     },
     {
-      "id": "3ce8db15-623a-814b-948e-fa24be1542c7",
-      "identifiant": "INA-817",
-      "titre": "Onglet \"Cautions\"",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T16:14:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Cautions-3ce8db15623a814b948efa24be1542c7"
-    },
-    {
       "id": "3ce8db15-623a-8132-a870-d7b97b145469",
       "identifiant": "INA-816",
       "titre": "Onglet \"Cautions\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1405,7 +1465,7 @@
       "id": "3ce8db15-623a-8192-addd-cbdef2ed86e6",
       "identifiant": "INA-815",
       "titre": "Onglet \"Devis\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1441,7 +1501,7 @@
       "id": "3ce8db15-623a-81fd-9392-c2242d72f8f8",
       "identifiant": "INA-814",
       "titre": "Onglet \"Devis\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1454,7 +1514,7 @@
       "client": "",
       "dateCreation": "2026-09-01T16:13:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 48,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -1474,46 +1534,10 @@
       "url": "https://app.notion.com/p/Onglet-Devis-3ce8db15623a81fd9392c2242d72f8f8"
     },
     {
-      "id": "3ce8db15-623a-810f-9e43-c5a245af9848",
-      "identifiant": "INA-813",
-      "titre": "Onglet \"Devis\"",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T16:12:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Devis-3ce8db15623a810f9e43c5a245af9848"
-    },
-    {
       "id": "3ce8db15-623a-8109-b4a7-ec53dcac4636",
       "identifiant": "INA-812",
       "titre": "Onglet \"Devis\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1549,7 +1573,7 @@
       "id": "3ce8db15-623a-818a-99ba-c38e2af7009b",
       "identifiant": "INA-811",
       "titre": "Onglet \"Communication\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1585,7 +1609,7 @@
       "id": "3ce8db15-623a-8131-8e5f-f0617f15f603",
       "identifiant": "INA-810",
       "titre": "Onglet \"Communication\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1598,7 +1622,7 @@
       "client": "",
       "dateCreation": "2026-09-01T16:11:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 48,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -1618,46 +1642,10 @@
       "url": "https://app.notion.com/p/Onglet-Communication-3ce8db15623a81318e5ff0617f15f603"
     },
     {
-      "id": "3ce8db15-623a-814a-8864-cd8c5b17fc37",
-      "identifiant": "INA-809",
-      "titre": "Onglet \"Communication\"",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T16:11:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Communication-3ce8db15623a814a8864cd8c5b17fc37"
-    },
-    {
       "id": "3ce8db15-623a-8195-8327-e8b72ee6f395",
       "identifiant": "INA-808",
       "titre": "Onglet \"Communication\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1693,7 +1681,7 @@
       "id": "3ce8db15-623a-818c-aebf-e0ed0f0f8984",
       "identifiant": "INA-807",
       "titre": "Onglet \"Documents\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1729,7 +1717,7 @@
       "id": "3ce8db15-623a-81ed-806d-f322824bc561",
       "identifiant": "INA-806",
       "titre": "Onglet \"Documents\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1742,7 +1730,7 @@
       "client": "",
       "dateCreation": "2026-09-01T16:10:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 32,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -1762,46 +1750,10 @@
       "url": "https://app.notion.com/p/Onglet-Documents-3ce8db15623a81ed806df322824bc561"
     },
     {
-      "id": "3ce8db15-623a-817f-a8f8-c6bbe3034412",
-      "identifiant": "INA-805",
-      "titre": "Onglet \"Documents\"",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T16:09:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Documents-3ce8db15623a817fa8f8c6bbe3034412"
-    },
-    {
       "id": "3ce8db15-623a-81e5-a101-c75594c3ec23",
       "identifiant": "INA-804",
       "titre": "Onglet \"Documents\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1837,7 +1789,7 @@
       "id": "3ce8db15-623a-8177-ba66-df60f13c8da9",
       "identifiant": "INA-803",
       "titre": "Onglet \"Comptabilité\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1873,7 +1825,7 @@
       "id": "3ce8db15-623a-8152-9e09-c4a7e0c03238",
       "identifiant": "INA-802",
       "titre": "Onglet \"Comptabilité\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1886,7 +1838,7 @@
       "client": "",
       "dateCreation": "2026-09-01T16:08:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 10,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -1906,46 +1858,10 @@
       "url": "https://app.notion.com/p/Onglet-Comptabilit-3ce8db15623a81529e09c4a7e0c03238"
     },
     {
-      "id": "3ce8db15-623a-81d6-86b0-d03d62324528",
-      "identifiant": "INA-801",
-      "titre": "Onglet \"Comptabilité\"",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T16:08:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Comptabilit-3ce8db15623a81d686b0d03d62324528"
-    },
-    {
       "id": "3ce8db15-623a-812d-b45c-de98e9774361",
       "identifiant": "INA-800",
       "titre": "Onglet \"Comptabilité\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1981,7 +1897,7 @@
       "id": "3ce8db15-623a-81f2-aa7c-c6fe175d7f6b",
       "identifiant": "INA-799",
       "titre": "Onglet \"Identité\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2017,7 +1933,7 @@
       "id": "3ce8db15-623a-8156-b88a-ea68a93ffd26",
       "identifiant": "INA-798",
       "titre": "Onglet \"Identité\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2030,7 +1946,7 @@
       "client": "",
       "dateCreation": "2026-09-01T16:05:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 32,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -2050,46 +1966,10 @@
       "url": "https://app.notion.com/p/Onglet-Identit-3ce8db15623a8156b88aea68a93ffd26"
     },
     {
-      "id": "3ce8db15-623a-8179-ac59-ccecf538bd71",
-      "identifiant": "INA-797",
-      "titre": "Onglet \"Identité\"",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T16:05:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Identit-3ce8db15623a8179ac59ccecf538bd71"
-    },
-    {
       "id": "3ce8db15-623a-81c9-8b93-e6c3bac71695",
       "identifiant": "INA-796",
       "titre": "Onglet \"Identité\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2125,7 +2005,7 @@
       "id": "3ce8db15-623a-815f-9d01-e947eab73cf5",
       "identifiant": "INA-795",
       "titre": "Onglet \"TO / CE / Résident\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2161,7 +2041,7 @@
       "id": "3ce8db15-623a-812d-82f4-f1ce98e2cc9a",
       "identifiant": "INA-794",
       "titre": "Onglet \"TO / CE / Résident\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2194,46 +2074,10 @@
       "url": "https://app.notion.com/p/Onglet-TO-CE-R-sident-3ce8db15623a812d82f4f1ce98e2cc9a"
     },
     {
-      "id": "3ce8db15-623a-8188-a588-ebe616470edf",
-      "identifiant": "INA-793",
-      "titre": "Onglet \"TO / CE / Résident\"",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T16:03:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-TO-CE-R-sident-3ce8db15623a8188a588ebe616470edf"
-    },
-    {
       "id": "3ce8db15-623a-811a-a1bc-d394c9a2dc8d",
       "identifiant": "INA-792",
       "titre": "Onglet \"TO / CE / Résident\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2269,7 +2113,7 @@
       "id": "3ce8db15-623a-816f-adf2-de8b6aad284a",
       "identifiant": "INA-791",
       "titre": "Structure générale de la fiche client (menu + bandeau client)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2305,7 +2149,7 @@
       "id": "3ce8db15-623a-8179-8900-e490ef12d460",
       "identifiant": "INA-790",
       "titre": "Structure générale de la fiche client (menu + bandeau client)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2318,7 +2162,7 @@
       "client": "",
       "dateCreation": "2026-09-01T16:01:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 35,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -2338,46 +2182,10 @@
       "url": "https://app.notion.com/p/Structure-g-n-rale-de-la-fiche-client-menu-bandeau-client-3ce8db15623a81798900e490ef12d460"
     },
     {
-      "id": "3ce8db15-623a-810c-ac27-f66f44d374d6",
-      "identifiant": "INA-789",
-      "titre": "Structure générale de la fiche client (menu + bandeau client)",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T16:01:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Structure-g-n-rale-de-la-fiche-client-menu-bandeau-client-3ce8db15623a810cac27f66f44d374d6"
-    },
-    {
       "id": "3ce8db15-623a-8130-8be2-d9ac5fd3c8ee",
       "identifiant": "INA-788",
       "titre": "Structure générale de la fiche client (menu + bandeau client)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2413,7 +2221,7 @@
       "id": "3ce8db15-623a-81de-8279-dd2099ef50d1",
       "identifiant": "INA-787",
       "titre": "Page d'accueil (menu Clients)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2449,7 +2257,7 @@
       "id": "3ce8db15-623a-8113-a5c9-c1f2189dc011",
       "identifiant": "INA-786",
       "titre": "Compte commerce (Naxi Commerce)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2482,46 +2290,10 @@
       "url": "https://app.notion.com/p/Compte-commerce-Naxi-Commerce-3ce8db15623a8113a5c9c1f2189dc011"
     },
     {
-      "id": "3ce8db15-623a-8109-9c45-d7587cb3b9de",
-      "identifiant": "INA-785",
-      "titre": "Compte commerce (Naxi Commerce)",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "NOVEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T15:56:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Compte-commerce-Naxi-Commerce-3ce8db15623a81099c45d7587cb3b9de"
-    },
-    {
       "id": "3ce8db15-623a-814d-bc10-c794a88699b0",
       "identifiant": "INA-784",
       "titre": "Compte commerce (Naxi Commerce)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2557,7 +2329,7 @@
       "id": "3ce8db15-623a-8168-a45a-ec6ba31d832d",
       "identifiant": "INA-783",
       "titre": "Compte commerce (Naxi Commerce)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2593,7 +2365,7 @@
       "id": "3ce8db15-623a-81d9-957a-dad12f7c439c",
       "identifiant": "INA-782",
       "titre": "Compte commerce (Naxi Commerce)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2629,7 +2401,7 @@
       "id": "3ce8db15-623a-814c-891a-cd0f63bb3304",
       "identifiant": "INA-781",
       "titre": "Suppléments Hors Séjour",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2665,7 +2437,7 @@
       "id": "3ce8db15-623a-817e-a6d0-c41f76d2a363",
       "identifiant": "INA-780",
       "titre": "Suppléments Hors Séjour",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2698,46 +2470,10 @@
       "url": "https://app.notion.com/p/Suppl-ments-Hors-S-jour-3ce8db15623a817ea6d0c41f76d2a363"
     },
     {
-      "id": "3ce8db15-623a-813a-b2a8-cd15773bc136",
-      "identifiant": "INA-779",
-      "titre": "Suppléments Hors Séjour",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "NOVEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T15:53:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Suppl-ments-Hors-S-jour-3ce8db15623a813ab2a8cd15773bc136"
-    },
-    {
       "id": "3ce8db15-623a-8145-92da-e2cbba6cc2fd",
       "identifiant": "INA-778",
       "titre": "Suppléments Hors Séjour",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2773,7 +2509,7 @@
       "id": "3ce8db15-623a-81be-a723-f649b8e547c1",
       "identifiant": "INA-777",
       "titre": "Suppléments Hors Séjour",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2809,7 +2545,7 @@
       "id": "3ce8db15-623a-810e-87f6-d63ab0942782",
       "identifiant": "INA-776",
       "titre": "Ventes Réception (Hors Séjour)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2845,7 +2581,7 @@
       "id": "3ce8db15-623a-8148-b240-fa9765391377",
       "identifiant": "INA-775",
       "titre": "Devis",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2881,7 +2617,7 @@
       "id": "3ce8db15-623a-815c-b91a-d8c2a6d51c51",
       "identifiant": "INA-774",
       "titre": "Devis",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2917,7 +2653,7 @@
       "id": "3ce8db15-623a-810f-99e6-deceed9b7acc",
       "identifiant": "INA-773",
       "titre": "Devis",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2950,46 +2686,10 @@
       "url": "https://app.notion.com/p/Devis-3ce8db15623a810f99e6deceed9b7acc"
     },
     {
-      "id": "3ce8db15-623a-81bc-86bd-f006ba620641",
-      "identifiant": "INA-772",
-      "titre": "Devis",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "DECEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T15:43:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Devis-3ce8db15623a81bc86bdf006ba620641"
-    },
-    {
       "id": "3ce8db15-623a-818d-9c41-e6de035b696c",
       "identifiant": "INA-771",
       "titre": "Devis",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3025,7 +2725,7 @@
       "id": "3ce8db15-623a-8103-8fcc-c3df3dbdf97a",
       "identifiant": "INA-770",
       "titre": "Gestion des Devis",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3061,7 +2761,7 @@
       "id": "3ce8db15-623a-8171-a182-d6cf8fcf003a",
       "identifiant": "INA-769",
       "titre": "Ventes Réception (Hors Séjour)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3097,7 +2797,7 @@
       "id": "3ce8db15-623a-81b2-8c4e-cd13f77ea85b",
       "identifiant": "INA-768",
       "titre": "Ventes Réception (Hors Séjour)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3130,46 +2830,10 @@
       "url": "https://app.notion.com/p/Ventes-R-ception-Hors-S-jour-3ce8db15623a81b28c4ecd13f77ea85b"
     },
     {
-      "id": "3ce8db15-623a-81fa-8768-e34cf1d0af61",
-      "identifiant": "INA-767",
-      "titre": "Ventes Réception (Hors Séjour)",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "DECEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T15:40:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Ventes-R-ception-Hors-S-jour-3ce8db15623a81fa8768e34cf1d0af61"
-    },
-    {
       "id": "3ce8db15-623a-81c5-882a-d28f2be90062",
       "identifiant": "INA-766",
       "titre": "Gestion des Devis",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3205,7 +2869,7 @@
       "id": "3ce8db15-623a-8144-9459-e5d20a153ca9",
       "identifiant": "INA-765",
       "titre": "Ventes Réception (Hors Séjour)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3241,7 +2905,7 @@
       "id": "3ce8db15-623a-8193-a220-c40f6bb3b35b",
       "identifiant": "INA-764",
       "titre": "Gestion des Devis",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3274,46 +2938,10 @@
       "url": "https://app.notion.com/p/Gestion-des-Devis-3ce8db15623a8193a220c40f6bb3b35b"
     },
     {
-      "id": "3ce8db15-623a-8127-913e-de6f3268e857",
-      "identifiant": "INA-763",
-      "titre": "Gestion des Devis",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "DECEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T15:37:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Gestion-des-Devis-3ce8db15623a8127913ede6f3268e857"
-    },
-    {
       "id": "3ce8db15-623a-81e6-ba5e-c38f235363d8",
       "identifiant": "INA-762",
       "titre": "Gestion des Devis",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3349,7 +2977,7 @@
       "id": "3ce8db15-623a-81ab-98e0-d876b249c88e",
       "identifiant": "INA-761",
       "titre": "Pré-réservation",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3385,7 +3013,7 @@
       "id": "3ce8db15-623a-8143-94f2-dcc021d10e71",
       "identifiant": "INA-760",
       "titre": "Pré-réservation",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3418,46 +3046,10 @@
       "url": "https://app.notion.com/p/Pr-r-servation-3ce8db15623a814394f2dcc021d10e71"
     },
     {
-      "id": "3ce8db15-623a-8169-8fb9-f4aa5daf8203",
-      "identifiant": "INA-759",
-      "titre": "Pré-réservation",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "DECEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T15:35:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Pr-r-servation-3ce8db15623a81698fb9f4aa5daf8203"
-    },
-    {
       "id": "3ce8db15-623a-81d2-862d-d0d7edf699f8",
       "identifiant": "INA-758",
       "titre": "Pré-réservation",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3493,7 +3085,7 @@
       "id": "3ce8db15-623a-81e6-96a4-f8ea52a75776",
       "identifiant": "INA-757",
       "titre": "Paramètres Indisponibilités",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3529,7 +3121,7 @@
       "id": "3ce8db15-623a-810c-b6af-faa53bafe71c",
       "identifiant": "INA-756",
       "titre": "Paramètres Indisponibilités",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3562,46 +3154,10 @@
       "url": "https://app.notion.com/p/Param-tres-Indisponibilit-s-3ce8db15623a810cb6affaa53bafe71c"
     },
     {
-      "id": "3ce8db15-623a-8174-bcf6-d6849d6f4c6f",
-      "identifiant": "INA-755",
-      "titre": "Paramètres Indisponibilités",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "NOVEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T15:25:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Param-tres-Indisponibilit-s-3ce8db15623a8174bcf6d6849d6f4c6f"
-    },
-    {
       "id": "3ce8db15-623a-818d-b6f5-d6ba2f3c11ad",
       "identifiant": "INA-754",
       "titre": "Paramètres Indisponibilités",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3637,7 +3193,7 @@
       "id": "3ce8db15-623a-81a8-86fa-d7f79f93f69f",
       "identifiant": "INA-753",
       "titre": "Paramètres Cautions",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3673,7 +3229,7 @@
       "id": "3ce8db15-623a-8105-a23a-fbe023b06e1c",
       "identifiant": "INA-752",
       "titre": "Paramètres Cautions",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3706,46 +3262,10 @@
       "url": "https://app.notion.com/p/Param-tres-Cautions-3ce8db15623a8105a23afbe023b06e1c"
     },
     {
-      "id": "3ce8db15-623a-8189-87ba-f35b56766b27",
-      "identifiant": "INA-751",
-      "titre": "Paramètres Cautions",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "NOVEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T15:23:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Param-tres-Cautions-3ce8db15623a818987baf35b56766b27"
-    },
-    {
       "id": "3ce8db15-623a-81ef-bdca-d029fe718915",
       "identifiant": "INA-750",
       "titre": "Paramètres Cautions",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3781,7 +3301,7 @@
       "id": "3ce8db15-623a-81c9-bbd6-f9c982b0d642",
       "identifiant": "INA-749",
       "titre": "Paramètres Emplacements",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3817,7 +3337,7 @@
       "id": "3ce8db15-623a-810a-83ad-d76713284556",
       "identifiant": "INA-748",
       "titre": "Paramètres Emplacements",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3850,82 +3370,10 @@
       "url": "https://app.notion.com/p/Param-tres-Emplacements-3ce8db15623a810a83add76713284556"
     },
     {
-      "id": "3ce8db15-623a-8116-92ee-f65667f7470c",
-      "identifiant": "INA-747",
-      "titre": "Paramètres Emplacements",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "NOVEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T15:21:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Param-tres-Emplacements-3ce8db15623a811692eef65667f7470c"
-    },
-    {
-      "id": "3ce8db15-623a-81e4-8724-d9231da7fd93",
-      "identifiant": "INA-746",
-      "titre": "Paramètres Mails de Relance",
-      "classification": null,
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "NOVEMBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-09-01T15:18:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Param-tres-Mails-de-Relance-3ce8db15623a81e48724d9231da7fd93"
-    },
-    {
       "id": "3ce8db15-623a-8139-b196-f3fe65b19206",
       "identifiant": "INA-745",
       "titre": "Paramètres Mails de Relance",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3961,7 +3409,7 @@
       "id": "3ce8db15-623a-8189-a57f-ea3cc79351f7",
       "identifiant": "INA-744",
       "titre": "Paramètres Mails de Relance",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3997,7 +3445,7 @@
       "id": "3ce8db15-623a-8121-b87a-d6b717152818",
       "identifiant": "INA-743",
       "titre": "Paramètres Mails de Relance",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -4209,7 +3657,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4217,7 +3665,7 @@
       ],
       "client": "",
       "dateCreation": "2026-08-24T14:33:00.000Z",
-      "estimBack": 0,
+      "estimBack": 35,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -4228,7 +3676,7 @@
       "explication": "<div><div>La réforme de la facturation électronique qui entrera en vigueur en septembre 2026, impose aux entreprises la transmission dématérialisée des données de transactions commerciales à l'administration fiscale ou e-reporting.</div></div><div><br></div><div>Nous allons nous concentrer ici sur les factures&nbsp; <b>BtoC.</b></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4341,10 +3789,12 @@
       "id": "3bc8db15-623a-81d8-a90c-fa4a7ca59ea5",
       "identifiant": "INA-733",
       "titre": "Demandes à traiter",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -4361,7 +3811,9 @@
       "pointsBlocage": "",
       "explication": "Mettre en place les endpoints et traitements nécessaires pour charger les demandes à traiter avec leurs données complètes, rapprocher et mettre à jour les fiches clients, calculer les disponibilités d'emplacements et les tarifs, persister les validations et refus par type de demande et déclencher les traitements associés (e-mail, paiement, facturation).",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -4373,10 +3825,12 @@
       "id": "3bc8db15-623a-8184-9792-d6bfe3cc5581",
       "identifiant": "INA-732",
       "titre": "Demandes à traiter",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -4393,45 +3847,15 @@
       "pointsBlocage": "",
       "explication": "Développer l'interface du panneau : liste des demandes avec filtres et signalétique, parcours de traitement par étapes avec stepper adapté au type de demande (rapprochement client, choix d'emplacement, traitements e-mail/paiement/facturation), flux de refus, récapitulatifs de confirmation et écrans de succès.",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
       "url": "https://app.notion.com/p/Demandes-traiter-3bc8db15623a81849792d6bfe3cc5581"
-    },
-    {
-      "id": "3bc8db15-623a-8105-ba94-dc331f1094a8",
-      "identifiant": "INA-731",
-      "titre": "Demandes à traiter",
-      "classification": null,
-      "statut": null,
-      "priorisation": "Moyenne",
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-08-14T07:36:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Demandes-traiter-3bc8db15623a8105ba94dc331f1094a8"
     },
     {
       "id": "3bb8db15-623a-81ed-8057-e273d3090a72",
@@ -4476,7 +3900,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -4505,7 +3931,7 @@
       "id": "3bb8db15-623a-81db-bc73-e6ea7077fc61",
       "identifiant": "INA-724",
       "titre": "Page d'accueil (menu Clients)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
@@ -4518,7 +3944,7 @@
       "client": "",
       "dateCreation": "2026-08-13T07:21:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 14,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -4544,9 +3970,7 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -4563,9 +3987,7 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5398,7 +4820,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5413,7 +4837,9 @@
       "pointsBlocage": "",
       "explication": "<p>Réaliser une analyse fonctionnelle et technique du module Paramétrage des modes de paiement afin de définir les besoins, les flux, et les interactions avec les autres modules.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5462,7 +4888,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5492,12 +4920,14 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:35:00.000Z",
-      "estimBack": 0,
+      "estimBack": 2,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -5507,7 +4937,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la logique back-end pour la gestion du planning : gestion des filtres, des statuts, des séjours, des indisponibilités, des droits opérateur, de la persistance des préférences utilisateur (règles d’affichage), et des interactions avec la base de données.</p><p><b>US Jira liée:</b> <a href=\"https://inaxel.atlassian.net/browse/TL-334\">TL-334</a></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5516,43 +4948,15 @@
       "url": "https://app.notion.com/p/Planning-Emplacements-3b28db15623a81f4a825d0240bb8371e"
     },
     {
-      "id": "3b28db15-623a-8147-b98e-c0092245c28b",
-      "identifiant": "INA-683",
-      "titre": "Planning Emplacements",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:35:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p>Concevoir l'interface graphique détaillée de la fenêtre de planning, incluant la disposition des filtres, sélecteurs, boutons, codes couleurs, pictogrammes et interactions utilisateur, en respectant les contraintes ergonomiques et les fonctionnalités listées pour la V1.</p>",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Planning-Emplacements-3b28db15623a8147b98ec0092245c28b"
-    },
-    {
       "id": "3b28db15-623a-811b-a968-e716ae4d3ceb",
       "identifiant": "INA-682",
       "titre": "Planning Emplacements",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5582,7 +4986,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5606,47 +5012,15 @@
       "url": "https://app.notion.com/p/Planning-Emplacements-3b28db15623a81b79ea6c920be8a0c37"
     },
     {
-      "id": "3b28db15-623a-81e4-b402-ec7bfb38f87a",
-      "identifiant": "INA-680",
-      "titre": "Onglet \"Animaux\"",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:35:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p><br></p>",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Animaux-3b28db15623a81e4b402ec7bfb38f87a"
-    },
-    {
       "id": "3b28db15-623a-81a5-bb07-db312f35aad5",
       "identifiant": "INA-679",
       "titre": "Connexion",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5676,7 +5050,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5700,43 +5076,15 @@
       "url": "https://app.notion.com/p/Connexion-3b28db15623a81069f16c6da6ff1fb60"
     },
     {
-      "id": "3b28db15-623a-8131-a893-e9f7f0ec3769",
-      "identifiant": "INA-677",
-      "titre": "Connexion",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:34:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Connexion-3b28db15623a8131a893e9f7f0ec3769"
-    },
-    {
       "id": "3b28db15-623a-81a7-9e8a-d3671345cfae",
       "identifiant": "INA-676",
       "titre": "Connexion",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5766,7 +5114,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5796,7 +5146,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5826,7 +5178,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5856,7 +5210,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5886,7 +5242,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5910,43 +5268,15 @@
       "url": "https://app.notion.com/p/Plan-du-camping-3b28db15623a819aba2bc9a970578674"
     },
     {
-      "id": "3b28db15-623a-81ad-a19d-c66987292a94",
-      "identifiant": "INA-670",
-      "titre": "Plan du camping",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:33:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Plan-du-camping-3b28db15623a81ada19dc66987292a94"
-    },
-    {
       "id": "3b28db15-623a-8192-bc00-ed29cd07db1c",
       "identifiant": "INA-669",
       "titre": "Plan du camping",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5976,7 +5306,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6040,7 +5372,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6070,7 +5404,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6100,7 +5436,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6130,7 +5468,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6154,43 +5494,15 @@
       "url": "https://app.notion.com/p/Plannings-des-suppl-ments-num-rot-s-3b28db15623a816fa6a2d2cd818e6d76"
     },
     {
-      "id": "3b28db15-623a-8116-bf44-f393d054c79f",
-      "identifiant": "INA-662",
-      "titre": "Plannings des suppléments numérotés",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:32:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p>Concevoir l'interface utilisateur détaillée du planning des suppléments numérotés, en intégrant les parcours utilisateurs validés et les contraintes d'ergonomie.</p>",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Plannings-des-suppl-ments-num-rot-s-3b28db15623a8116bf44f393d054c79f"
-    },
-    {
       "id": "3b28db15-623a-8192-a1dd-f55ae1c34a14",
       "identifiant": "INA-661",
       "titre": "Plannings des suppléments numérotés",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6220,7 +5532,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6284,7 +5598,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6314,7 +5630,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6338,43 +5656,15 @@
       "url": "https://app.notion.com/p/Liste-des-Cautions-3b28db15623a8161bc1ed694da009336"
     },
     {
-      "id": "3b28db15-623a-81fb-81c5-de80c2f2ae24",
-      "identifiant": "INA-656",
-      "titre": "Liste des Cautions",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:32:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Liste-des-Cautions-3b28db15623a81fb81c5de80c2f2ae24"
-    },
-    {
       "id": "3b28db15-623a-8173-b8be-e564c0b911d3",
       "identifiant": "INA-655",
       "titre": "Liste des Cautions",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6404,7 +5694,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6428,47 +5720,15 @@
       "url": "https://app.notion.com/p/Liste-des-Cautions-3b28db15623a817983dcdc94649fda85"
     },
     {
-      "id": "3b28db15-623a-8164-837b-ef2c65f6dedc",
-      "identifiant": "INA-653",
-      "titre": "Onglet \"Participants\"",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:32:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p>Rédiger et exécuter les scénarios de tests fonctionnels et techniques pour la fenêtre Liste des Cautions, couvrant l'affichage, les filtres, la restitution en masse, la gestion des statuts, les interactions utilisateur et la conformité aux règles de gestion.</p>",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Participants-3b28db15623a8164837bef2c65f6dedc"
-    },
-    {
       "id": "3b28db15-623a-81f6-9e9c-ec0f17e7e165",
       "identifiant": "INA-652",
       "titre": "Recherche client",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6498,7 +5758,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6528,7 +5790,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6558,7 +5822,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6582,43 +5848,15 @@
       "url": "https://app.notion.com/p/Gestion-de-l-historique-des-clients-consult-s-3b28db15623a81d3ab7df17ae154e28f"
     },
     {
-      "id": "3b28db15-623a-8166-9244-d21c18942d2d",
-      "identifiant": "INA-648",
-      "titre": "Recherche client",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:29:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Recherche-client-3b28db15623a81669244d21c18942d2d"
-    },
-    {
       "id": "3b28db15-623a-81b6-af64-c8f7faf656d8",
       "identifiant": "INA-647",
       "titre": "Recherche client",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6648,7 +5886,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6678,7 +5918,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6742,7 +5984,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6772,7 +6016,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6796,43 +6042,15 @@
       "url": "https://app.notion.com/p/Contr-le-d-acc-s-3b28db15623a8196ae39d0584bffb3dc"
     },
     {
-      "id": "3b28db15-623a-8161-8f79-dc78942e8477",
-      "identifiant": "INA-641",
-      "titre": "Contrôle d'accès",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:29:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Contr-le-d-acc-s-3b28db15623a81618f79dc78942e8477"
-    },
-    {
       "id": "3b28db15-623a-8127-a8ee-e8c3469a93b9",
       "identifiant": "INA-640",
       "titre": "Contrôle d'accès",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6862,7 +6080,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6926,7 +6146,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6956,7 +6178,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6986,7 +6210,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7016,7 +6242,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7040,43 +6268,15 @@
       "url": "https://app.notion.com/p/Liste-des-Indisponibilit-s-3b28db15623a81bd8267f03ac1365365"
     },
     {
-      "id": "3b28db15-623a-81e3-8e15-f6f6b37d78ad",
-      "identifiant": "INA-633",
-      "titre": "Liste des Indisponibilités",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:28:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Liste-des-Indisponibilit-s-3b28db15623a81e38e15f6f6b37d78ad"
-    },
-    {
       "id": "3b28db15-623a-81a5-a7ae-c62006915004",
       "identifiant": "INA-632",
       "titre": "Liste des Indisponibilités",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7106,7 +6306,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7130,47 +6332,15 @@
       "url": "https://app.notion.com/p/Liste-des-Indisponibilit-s-3b28db15623a81ee8dd4ded6e1b8efa1"
     },
     {
-      "id": "3b28db15-623a-81fc-88f7-dae4bec866e2",
-      "identifiant": "INA-630",
-      "titre": "Onglet \"Immatriculation\"",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:28:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p>Définir et exécuter les scénarios de tests fonctionnels et techniques pour la fenêtre 'Indisponibilités', incluant la liste, la création, la modification, la suppression (individuelle et en masse) et la navigation vers les fenêtres associées.</p>",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Immatriculation-3b28db15623a81fc88f7dae4bec866e2"
-    },
-    {
       "id": "3b28db15-623a-812a-b874-dccea3c7bbc5",
       "identifiant": "INA-629",
       "titre": "Moniteur Alertes de Gestion",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7200,7 +6370,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7224,43 +6396,15 @@
       "url": "https://app.notion.com/p/Liste-des-R-servations-3b28db15623a8140b894eec311529e38"
     },
     {
-      "id": "3b28db15-623a-81ac-8160-d59be6cc4c8a",
-      "identifiant": "INA-627",
-      "titre": "Liste des Réservations",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:27:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Liste-des-R-servations-3b28db15623a81ac8160d59be6cc4c8a"
-    },
-    {
       "id": "3b28db15-623a-813e-afde-dd1c6d365a3b",
       "identifiant": "INA-626",
       "titre": "Liste des Réservations",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7290,7 +6434,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7320,7 +6466,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7335,7 +6483,9 @@
       "pointsBlocage": "",
       "explication": "<p>Définir et exécuter les scénarios de test pour valider le fonctionnement de la fenêtre “Liste des réservations” : filtres, affichage, gestion des statuts, alertes, actions rapides, impression, conformité aux règles de gestion et UX.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7350,7 +6500,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7380,7 +6532,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7404,43 +6558,15 @@
       "url": "https://app.notion.com/p/Recherche-Disponibilit-s-3b28db15623a817bb546d560b09998f3"
     },
     {
-      "id": "3b28db15-623a-814c-8943-dbe85f4c66b0",
-      "identifiant": "INA-621",
-      "titre": "Recherche Disponibilités",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:26:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Recherche-Disponibilit-s-3b28db15623a814c8943dbe85f4c66b0"
-    },
-    {
       "id": "3b28db15-623a-818b-adba-cf72deee7450",
       "identifiant": "INA-620",
       "titre": "Recherche Disponibilités",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7470,7 +6596,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7534,7 +6662,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7558,49 +6688,21 @@
       "url": "https://app.notion.com/p/Tableau-de-Bord-Home-Page-3b28db15623a81c9b70ad494d4146ef7"
     },
     {
-      "id": "3b28db15-623a-8124-a961-da20a93bf1c2",
-      "identifiant": "INA-616",
-      "titre": "Tableau de Bord / Home Page",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:26:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p>Concevoir l'interface du tableau de bord en respectant la maquette et les contraintes de densité : 4 KPI du jour, grille d'analyse 2×2, variantes avec et sans BI CRM, états de survol, états vides et message camping fermé.</p>",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Tableau-de-Bord-Home-Page-3b28db15623a8124a961da20a93bf1c2"
-    },
-    {
       "id": "3b28db15-623a-817b-a1c6-ddffeb260327",
       "identifiant": "INA-615",
       "titre": "Tableau de Bord / Home Page",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:26:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 3,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -7609,7 +6711,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la page d'accueil du tableau de bord : affichage des KPI, cartes cliquables, bascule avec/sans BI CRM, filtres par type d'hébergement, intégration des graphes et navigation vers les fenêtres métiers pré-filtrées.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7624,7 +6728,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7688,7 +6794,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7712,43 +6820,15 @@
       "url": "https://app.notion.com/p/Menu-Rail-Navigation-Header-3b28db15623a8147aa53cb1c1de01cc0"
     },
     {
-      "id": "3b28db15-623a-814e-9d34-f5979de86828",
-      "identifiant": "INA-611",
-      "titre": "Menu / Rail Navigation / Header",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:26:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p>Concevoir les écrans et comportements UI du menu burger, du rail de navigation et du header, incluant le positionnement du sélecteur saison/exercice, les accès aux nouvelles fenêtres V1 et le bouton de retour vers la version classique.</p>",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Menu-Rail-Navigation-Header-3b28db15623a814e9d34f5979de86828"
-    },
-    {
       "id": "3b28db15-623a-8137-928f-e795d3b3bf9d",
       "identifiant": "INA-610",
       "titre": "Menu / Rail Navigation / Header",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7778,7 +6858,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7808,7 +6890,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7823,7 +6907,9 @@
       "pointsBlocage": "",
       "explication": "<p>Vérifier les parcours et points d’accès du menu burger, du rail de navigation et du header : redirection vers la nouvelle pré-réservation, accès à la gestion des devis, changement de saison/exercice et retour vers la version classique.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7838,7 +6924,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7868,7 +6956,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7892,43 +6982,15 @@
       "url": "https://app.notion.com/p/Listes-des-S-jours-3b28db15623a81a6b347f90eca877f1d"
     },
     {
-      "id": "3b28db15-623a-81d2-b1fd-d67be351d5be",
-      "identifiant": "INA-605",
-      "titre": "Listes des Séjours",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:26:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Listes-des-S-jours-3b28db15623a81d2b1fdd67be351d5be"
-    },
-    {
       "id": "3b28db15-623a-81f7-9f2b-c79cc327f0e2",
       "identifiant": "INA-604",
       "titre": "Listes des Séjours",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7958,7 +7020,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7988,7 +7052,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8003,7 +7069,9 @@
       "pointsBlocage": "",
       "explication": "<p>Rédiger et exécuter les scénarios de test pour la fenêtre “Liste des séjours” en couvrant l’ensemble des fonctionnalités : filtres (date, type, nom), compteur, affichage coloré, pictogrammes, actions rapides (individuelles et en masse), impression, gestion des statuts, et navigation. Vérifier la conformité avec les règles de gestion et les cas de test spécifiés.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -8018,7 +7086,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8048,7 +7118,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8072,43 +7144,15 @@
       "url": "https://app.notion.com/p/Support-Compte-3b28db15623a811f8805d1772bc682bf"
     },
     {
-      "id": "3b28db15-623a-816f-826f-fe109f81fd03",
-      "identifiant": "INA-599",
-      "titre": "Support / Compte",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:25:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Support-Compte-3b28db15623a816f826ffe109f81fd03"
-    },
-    {
       "id": "3b28db15-623a-8104-b0db-f45d3dbc4450",
       "identifiant": "INA-598",
       "titre": "Support / Compte",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8138,7 +7182,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8162,47 +7208,15 @@
       "url": "https://app.notion.com/p/Support-Compte-3b28db15623a81bb89ebd1106faef564"
     },
     {
-      "id": "3b28db15-623a-81d7-8ae1-d07b4455d080",
-      "identifiant": "INA-596",
-      "titre": "Onglet \"Financier\"",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:25:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p>Rédiger et exécuter les scénarios de test pour vérifier le bon fonctionnement de la fenêtre Télémaintenance, l’intégration des outils d’assistance à distance et l’accessibilité via le menu burger.</p>",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Financier-3b28db15623a81d78ae1d07b4455d080"
-    },
-    {
       "id": "3b28db15-623a-81b3-8f26-d5ce53c7c766",
       "identifiant": "INA-595",
       "titre": "Remise en banque",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8232,7 +7246,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8262,7 +7278,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8277,7 +7295,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la logique backend pour la gestion des remises en banque : préparation, enregistrement, modification et suppression des remises, gestion des transactions par mode de paiement, intégration des filtres (dates, Naxi Commerce), alimentation des listes (modes, banques, saisons), gestion de l’historique, impression et export.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -8286,43 +7306,15 @@
       "url": "https://app.notion.com/p/Remise-en-banque-3b28db15623a81a28f54f6ed5cc29c3f"
     },
     {
-      "id": "3b28db15-623a-8180-a39a-f8a917b6b038",
-      "identifiant": "INA-592",
-      "titre": "Remise en banque",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:24:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p>Concevoir les maquettes détaillées de la fenêtre Remise en banque et de ses modales (Nouvelle remise, Détail, Suppression), en respectant les règles d’UX/UI, la navigation croisée avec Contrôle de caisse et la cohérence avec les autres modules (filtres, tableaux, badges, tooltips, icônes).</p>",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Remise-en-banque-3b28db15623a8180a39af8a917b6b038"
-    },
-    {
       "id": "3b28db15-623a-8120-9bb4-fd996f755af1",
       "identifiant": "INA-591",
       "titre": "Remise en banque",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8337,7 +7329,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l’interface utilisateur de la fenêtre Remise en banque : navigation, affichage des onglets (À remettre, Historique), gestion des filtres, tableaux par mode de paiement, modales (Nouvelle remise, Détail, Suppression), intégration des boutons Imprimer/Exporter, gestion des interactions et états vides.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -8352,7 +7346,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8416,7 +7412,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8446,7 +7444,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8470,43 +7470,15 @@
       "url": "https://app.notion.com/p/Ventes-R-ception-3b28db15623a813f8bf1dea2ad87fc3d"
     },
     {
-      "id": "3b28db15-623a-81c5-b1ce-c0a0bc7d59cf",
-      "identifiant": "INA-586",
-      "titre": "Ventes Réception",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:23:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p>Concevoir le design détaillé de l'interface utilisateur pour la fenêtre Ventes Réception, incluant tous les boutons, encarts, tableaux récapitulatifs, et interactions décrits dans les spécifications fonctionnelles.</p>",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Ventes-R-ception-3b28db15623a81c5b1cec0a0bc7d59cf"
-    },
-    {
       "id": "3b28db15-623a-81ba-8d25-c6c5de6eaf71",
       "identifiant": "INA-585",
       "titre": "Ventes Réception",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8536,7 +7508,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8600,7 +7574,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8630,7 +7606,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8654,43 +7632,15 @@
       "url": "https://app.notion.com/p/Historique-des-Ventes-R-ception-3b28db15623a81da94aefd632b465306"
     },
     {
-      "id": "3b28db15-623a-81eb-8822-eaffcff8b820",
-      "identifiant": "INA-580",
-      "titre": "Historique des Ventes Réception",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:23:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p>Mettre en place le design détaillé de l'interface utilisateur pour la fenêtre 'Gestion des Ventes Réception', incluant les filtres, boutons d'action, tableaux récapitulatifs, et la navigation vers les fenêtres de détail et de multi règlement.</p>",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Historique-des-Ventes-R-ception-3b28db15623a81eb8822eaffcff8b820"
-    },
-    {
       "id": "3b28db15-623a-8155-9b55-c627f11950a1",
       "identifiant": "INA-579",
       "titre": "Historique des Ventes Réception",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8720,7 +7670,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8744,47 +7696,15 @@
       "url": "https://app.notion.com/p/Historique-des-Ventes-R-ception-3b28db15623a812c921cedba019c18ba"
     },
     {
-      "id": "3b28db15-623a-819c-8580-c366bb02d465",
-      "identifiant": "INA-577",
-      "titre": "Action : \"Facturer\"",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:23:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p><br></p>",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Action-Facturer-3b28db15623a819c8580c366bb02d465"
-    },
-    {
       "id": "3b28db15-623a-813d-9c3e-fd0349d145eb",
       "identifiant": "INA-576",
       "titre": "Listing Occupation (calendrier)",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8808,43 +7728,15 @@
       "url": "https://app.notion.com/p/Listing-Occupation-calendrier-3b28db15623a813d9c3efd0349d145eb"
     },
     {
-      "id": "3b28db15-623a-81f6-9577-dbf61647be38",
-      "identifiant": "INA-575",
-      "titre": "Listing Occupation (calendrier)",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:23:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Listing-Occupation-calendrier-3b28db15623a81f69577dbf61647be38"
-    },
-    {
       "id": "3b28db15-623a-813a-a8ef-f5348377f3d7",
       "identifiant": "INA-574",
       "titre": "Listing Occupation (calendrier)",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8874,7 +7766,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -8938,7 +7832,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -9002,7 +7898,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -9026,43 +7924,15 @@
       "url": "https://app.notion.com/p/To-Do-Liste-3b28db15623a81b0b3adeb05360532c6"
     },
     {
-      "id": "3b28db15-623a-81d2-8666-ef92da57d1b5",
-      "identifiant": "INA-568",
-      "titre": "To Do Liste",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:22:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p>Concevoir l'interface utilisateur détaillée de la To Do Liste, incluant les wireframes, les éléments graphiques et les guidelines UI/UX.</p>",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/To-Do-Liste-3b28db15623a81d28666ef92da57d1b5"
-    },
-    {
       "id": "3b28db15-623a-8119-87e4-ebd44a8a7b38",
       "identifiant": "INA-567",
       "titre": "To Do Liste",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -9077,7 +7947,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la partie front-end de la To Do Liste, en intégrant le design validé et en assurant l'interactivité et la réactivité de l'interface.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -9092,7 +7964,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -9156,12 +8030,14 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:22:00.000Z",
-      "estimBack": 0,
+      "estimBack": 3,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -9171,7 +8047,9 @@
       "pointsBlocage": "",
       "explication": "<p>Mettre en place la logique serveur permettant de recalculer et diffuser les indicateurs en temps réel lors des actions utilisateur, y compris la prise en compte du multi-postes et des événements issus d’un autre poste.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -9186,12 +8064,14 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:22:00.000Z",
-      "estimBack": 0,
+      "estimBack": 3,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -9201,7 +8081,9 @@
       "pointsBlocage": "",
       "explication": "<p>Mettre en place la logique serveur permettant de recalculer et diffuser les indicateurs en temps réel lors des actions utilisateur, y compris la prise en compte du multi-postes et des événements issus d’un autre poste.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -9216,12 +8098,14 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:22:00.000Z",
-      "estimBack": 0,
+      "estimBack": 3,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -9231,7 +8115,9 @@
       "pointsBlocage": "",
       "explication": "<p>Mettre en place la logique serveur permettant de recalculer et diffuser les indicateurs en temps réel lors des actions utilisateur, y compris la prise en compte du multi-postes et des événements issus d’un autre poste.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -9246,12 +8132,14 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:22:00.000Z",
-      "estimBack": 0,
+      "estimBack": 3,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -9261,7 +8149,9 @@
       "pointsBlocage": "",
       "explication": "<p>Mettre en place la logique serveur permettant de recalculer et diffuser les indicateurs en temps réel lors des actions utilisateur, y compris la prise en compte du multi-postes et des événements issus d’un autre poste.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -9276,12 +8166,14 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:22:00.000Z",
-      "estimBack": 0,
+      "estimBack": 3,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -9291,7 +8183,9 @@
       "pointsBlocage": "",
       "explication": "<p>Mettre en place la logique serveur permettant de recalculer et diffuser les indicateurs en temps réel lors des actions utilisateur, y compris la prise en compte du multi-postes et des événements issus d’un autre poste.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -9306,7 +8200,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -9321,7 +8217,9 @@
       "pointsBlocage": "",
       "explication": "<p>Mettre en place la logique serveur permettant de recalculer et diffuser les indicateurs en temps réel lors des actions utilisateur, y compris la prise en compte du multi-postes et des événements issus d’un autre poste.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -9336,7 +8234,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -9351,7 +8251,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l’affichage et l’actualisation côté interface des compteurs du tableau de bord et du rail de navigation, avec prise en compte des mises à jour en temps réel provenant du serveur.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -9360,47 +8262,15 @@
       "url": "https://app.notion.com/p/Notifications-actualisation-des-indicateurs-3b28db15623a81f28e2ac2a2f731c564"
     },
     {
-      "id": "3b28db15-623a-8143-9a91-d468ae554c80",
-      "identifiant": "INA-557",
-      "titre": "Onglet \"Détails\"",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
-      "fonctions": null,
-      "produits": [],
-      "client": "",
-      "dateCreation": "2026-08-04T07:22:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p>Valider les scénarios de mise à jour en temps réel des indicateurs sur un ou plusieurs postes : départ, arrivée, création/modification/suppression de séjour, paiement, traitement des réservations en ligne et traitement des éléments de la To Do.</p>",
-      "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-D-tails-3b28db15623a81439a91d468ae554c80"
-    },
-    {
       "id": "3b28db15-623a-8194-ae0d-da422aac36cb",
       "identifiant": "INA-556",
       "titre": "Calculette Espèces",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -9430,7 +8300,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -9460,7 +8332,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -9490,7 +8364,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -9520,7 +8396,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -9535,7 +8413,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la logique back-end pour la fenêtre Contrôle de caisse : gestion des filtres (dates, opérateurs, remisé, Naxi Commerce), consolidation des transactions par mode de paiement, calcul des totaux, gestion des droits opérateurs, et exposition des endpoints nécessaires pour l’interface front.</p><p><b>US Jira liée : </b><a href=\"https://inaxel.atlassian.net/browse/TL-296\" style=\"\">TL-296</a></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -9550,7 +8430,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -9565,7 +8447,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l’interface utilisateur de la fenêtre Contrôle de caisse : affichage du tableau consolidé, gestion des filtres, navigation vers Détail des transactions, intégration des modales (calculette espèces, détail valeurs faciales, remise en banque), gestion des états vides et des droits opérateurs.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -9580,7 +8464,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -10311,7 +9197,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -10330,7 +9216,7 @@
       "explication": "<b>Apparition d'un message d'erreur sur les saas lorsque :&nbsp;<br><span style=\"background-color: rgb(254, 240, 138);\"><br>Cas n°1</span><br></b><div><br></div><div>1. Se rendre dans le menu Paiements &gt; Calculette Espèces</div><div>2. Saisir plusieurs valeurs afin de remplir à minimum le tableau</div><div>3. Cliquer sur l'imprimante avec aperçu avant impression</div><div>4. Choisir une imprimante et cliquer sur le bouton \"Lancer l'impression\"</div><div><br></div><div>Le message d'erreur apparaît au bout de quelques secondes :<br><br></div><div><i>Code erreur : 1020</i></div><div><i>Niveau : erreur fatale</i></div><div><i><br></i></div><div><i>Module : wd260vm.dll (01F260101d - 26.0.480.22)</i></div><div><i><br></i></div><div><i>Informations de débogage :</i></div><div><i>?????????</i></div><div><i>Erreur systeme : Illegal instruction</i></div><div><i>EIP = 1EDE2F39</i></div><div><i>OS : Windows 2016 (10.0.26100)</i></div><div><i><br></i></div><div><i>Registres :</i></div><div><i>&nbsp; EIP = 1EDE2F39    EBP = 02CFE168</i></div><div><i>&nbsp; EAX = 02CFE1D4    EBX = 02CFC298</i></div><div><i>&nbsp; ECX = 02CFE197    EDX = 7A8836B4</i></div><div><i>&nbsp; ESI = 1ACB50E0    EDI = 1EDE2EE8</i></div><div><i><br></i></div><div><i>Pile des appels :</i></div><div><i>[???]\t1EDE2F39</i></div><div><i>[wd260prn.dll (7A6B0000), 26.0.403.0, 01F260101d]\t7A74364B : ExternalTermLibrary() + 226890 bytes</i></div><div><i>[wd260prn.dll (7A6B0000), 26.0.403.0, 01F260101d]\t7A6CCE38 : Execution() + 473619 bytes</i></div><div><i>[wd260prn.dll (7A6B0000), 26.0.403.0, 01F260101d]\t7A6CCE38 : Execution() + 473277 bytes</i></div><div><i>[NAXI.exe (00000000), 14.1.555.16]\t00000001</i></div><div><i><br></i></div><div><i>Fonction (21,0)</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_PILEWL :</i></div><div><i>Clic sur b_assistant_impression (calc_especes.b_assistant_impression), ligne 1</i></div><div><i>EIT_DATEHEURE : 21/07/2026 12:32:32</i></div><div><i>EIT_TYPE_WDFILE : &lt;2&gt;</i></div><div><i>EIT_IDCODE : &lt;18&gt;</i></div><div><i>2026-07-21 12:32:32. Paramètre 2 :&nbsp;</i></div><div><i>-------------------------------------------------------------------</i><br><b style=\"\"><br>Reproduit sur ma démo SQL en Saas / Non reproduit sur ma démo HF en 18.27 en local sur mon poste.<br>Les tests ont été réalisés sur la même imprimante</b></div><div><b style=\"\"><br></b></div><div><span style=\"font-weight: bold; background-color: rgb(254, 240, 138);\">Cas n°2</span><br><br><b>J'ai un message d'erreur similaire chez CIELA / Sur la fenêtre extra_result cette fois ci&nbsp;</b><br><br><i style=\"\">2026-07-20 18:53:48. Fonction : Global exception</i></div><div><i>2026-07-20 18:53:48. Paramètre 1 : Appel WL :</i></div><div><i>Traitement de 'Procédure locale imprim_list' (extra_result.PROCEDURE.imprim_list), ligne 77</i></div><div><i>Fonction 'iImprimeEtat', syntaxe 0</i></div><div><i>Que s'est-il passé ?</i></div><div><i>Une erreur interne inattendue est survenue.</i></div><div><i>Code erreur : 1020</i></div><div><i>Niveau : erreur fatale</i></div><div><i>Module : wd260vm.dll (01F260101d - 26.0.480.22)</i></div><div><i>Informations de débogage :</i></div><div><i>Module : wd260prn.dll(01F260101d - 26.0.403.0)</i></div><div><i>Adresse de base : 69DA0000</i></div><div><i>Erreur systeme : Access violation (GPF)</i></div><div><i>EIP = 69EFA8F2</i></div><div><i>OS : Windows 2016 (10.0.20348)</i></div><div><i>Registres :</i></div><div><i>&nbsp; EIP = 69EFA8F2    EBP = 007EA7D8</i></div><div><i>&nbsp; EAX = 69EFA8ED    EBX = 19073138</i></div><div><i>&nbsp; ECX = 00000000    EDX = 74DFEEA0</i></div><div><i>&nbsp; ESI = 00000000    EDI = 00000000</i></div><div><i>Pile des appels :</i></div><div><i>[wd260prn.dll (69DA0000), 26.0.403.0, 01F260101d]\t69E3364B : ExternalTermLibrary() + 815783 bytes</i></div><div><i>[wd260prn.dll (69DA0000), 26.0.403.0, 01F260101d]\t69E3364B : ExternalTermLibrary() + 154055 bytes</i></div><div><i>[wd260prn.dll (69DA0000), 26.0.403.0, 01F260101d]\t69DBCE38 : Execution() + 482268 bytes</i></div><div><i>[wd260prn.dll (69DA0000), 26.0.403.0, 01F260101d]\t69E3364B : ExternalTermLibrary() + 336606 bytes</i></div><div><i>[wd260prn.dll (69DA0000), 26.0.403.0, 01F260101d]\t69E3364B : ExternalTermLibrary() + 336493 bytes</i></div><div><i>[wd260prn.dll (69DA0000), 26.0.403.0, 01F260101d]\t69E3364B : ExternalTermLibrary() + 679298 bytes</i></div><div><i>[wd260prn.dll (69DA0000), 26.0.403.0, 01F260101d]\t69DBCE38 : Execution() + 483626 bytes</i></div><div><i>[wd260prn.dll (69DA0000), 26.0.403.0, 01F260101d]\t69E3364B : ExternalTermLibrary() + 610601 bytes</i></div><div><i>[wd260prn.dll (69DA0000), 26.0.403.0, 01F260101d]\t69E3364B : ExternalTermLibrary() + 611104 bytes</i></div><div><i>[wd260prn.dll (69DA0000), 26.0.403.0, 01F260101d]\t69E3364B : ExternalTermLibrary() + 612213 bytes</i></div><div><i>[wd260prn.dll (69DA0000), 26.0.403.0, 01F260101d]\t69E3364B : ExternalTermLibrary() + 586100 bytes</i></div><div><i>[wd260prn.dll (69DA0000), 26.0.403.0, 01F260101d]\t69E3364B : ExternalTermLibrary() + 336606 bytes</i></div><div><i>[wd260prn.dll (69DA0000), 26.0.403.0, 01F260101d]\t69DBCE38 : Execution() + 240828 bytes</i></div><div><i>[wd260prn.dll (69DA0000), 26.0.403.0, 01F260101d]\t69DBCE38 : Execution() + 239222 bytes</i></div><div><i>[wd260prn.dll (69DA0000), 26.0.403.0, 01F260101d]\t69DA3E07</i></div><div><i><br></i></div><div><i>Fonction (21,0)</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_PILEWL :</i></div><div><i>Procédure locale imprim_list (extra_result.PROCEDURE.imprim_list), ligne 77</i></div><div><i>Clic sur BT_IMPR3 (extra_result.BT_IMPR3), ligne 1</i></div><div><i>Procédure locale pl_BTN_Valid_SQL (extract_cli_sej.PROCEDURE.pl_BTN_Valid_SQL), ligne 824</i></div><div><i>Clic sur BT_VALID (extract_cli_sej.BT_VALID), ligne 6</i></div><div><i>Fin d'initialisation de extract_cli_sej (extract_cli_sej), ligne 81</i></div><div><i>Clic sur BT_IMP4 ( tl_extraction ) (liste_sej.TBLIST.tl_extraction.BT_IMP4), ligne 9</i></div><div><i>EIT_DATEHEURE : 20/07/2026 18:53:48</i></div><div><i>EIT_TYPE_WDFILE : &lt;2&gt;</i></div><div><i>EIT_IDCODE : &lt;458752&gt;</i></div><div><i>2026-07-20 18:53:48. Paramètre 2 :&nbsp;</i></div><div><i style=\"\">-----------------------------------------------------------------</i></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -10487,7 +9373,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -10506,7 +9392,7 @@
       "explication": "<div><b>Client impacté : Flower / Chadotel</b><br><br>Ces deux groupes nous ont signalé rencontré beaucoup de difficultés à importer leur tarif depuis CTV.</div><div><br></div><div>Après tests sur chacune des deux bases de données, je constate en effet que la fenêtre de chargement des tarifs met déjà plus d'une minute à lister les tarifs. NAXI est complètement bloqué pendant ce traitement et ne permet donc pas de travailler en parallèle.</div><div><br></div><div>Pour reproduire le soucis :</div><div><br></div><div>1. Se connecter sur une base de données assez volumineuse avec plusieurs établissements</div><div>2. Se rendre dans le menu Paramètres &gt; Tarifs</div><div>3. Cliquer sur le bouton Import Tout</div><div><br></div><div>-&gt; A partir de là, NAXI charge chaque tarif mis à jour sur SH : On a donc une première lenteur ici</div><div>-&gt; Puis NAXI, ouvre la fenêtre de validation : Deuxième lenteur</div><div><b><br></b></div><div><b>Il faut donc réaliser un correctif pour optimiser les requêtes faites sur ce traitement afin de retrouver une meilleure fluidité/rapidité.</b></div><div><br></div><div>Reproduit sur toutes les bases de données groupes : Ciela, Chadotel, Flower Exploit...etc.</div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -10625,7 +9511,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -10644,7 +9530,7 @@
       "explication": "<b>Client impacté : Les Méditerranées&nbsp;</b><div><i>Version : 18.26 /SQL&nbsp;</i></div><div><b><u>Contexte</u></b> : Passage d'un exe spécial mis pour<a href=\"https://inaxel.atlassian.net/browse/BUG-1131?atlOrigin=eyJpIjoiZGEzZmE2ZTg4OTY3NDc2MDk1Y2IzNmUzMTc0OWY5NTIiLCJwIjoiaiJ9\">https://inaxel.atlassian.net/browse/BUG-1131?atlOrigin=eyJpIjoiZGEzZmE2ZTg4OTY3NDc2MDk1Y2IzNmUzMTc0OWY5NTIiLCJwIjoiaiJ9</a>&nbsp;à la version 18.26 le 07 Juillet 2026<br><br><u style=\"\"><b style=\"\"><font color=\"#18181b\">1er soucis :&nbsp;</font></b></u><br><br>Depuis passage de la mise à jour, <b>NAXI génère trois fichiers :&nbsp;</b></div><div>- Un fichier avec les séjours de toute la saison du Camping A</div><div>- Un fichier avec les séjours de toute la saison du Camping B</div><div>- Un fichier avec les séjours de toute la saison du Camping C<br><br>Avant mise à jour, NAXI génère trois fichiers identiques, c'est à dire que le fichier comportait les trois établissements.<br><br><b><i>Avant mise à jour (fichier du 03 Juillet)</i></b> :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/17bd09b7ffd144928cca2a4a3349738f\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br><b><i>Après mise à jour (fichier du 13 Juillet) :&nbsp;</i></b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ea89f2e78f994680b9bcc656b7b5e9aa\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br><b>2ème soucis :&nbsp;</b><br><br>Des séjours sont manquants de façon aléatoire ce qui pose soucis ensuite dans le traitement des données par LoungeUp :&nbsp;<br><br>Si je prend le fichier du 13 Juillet sur le camping CHARLEMAGNE, il me manque par exemple le séjour n°84 :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/134f4e5b0fa8410ebdf87d8b2f441647\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Alors que sur le fichier du 03 Juillet j'avais le séjour sans problème :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a8dd855a1a9040609cd071b90bed6dc0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Ce qui est très étonnant, c'est que sur l'US BUG-1131, j'ai fait les tests le 17/06/2026.<br>Si je regarde le fichier du 17 Juin, j'avais bien tous les campings sur le même fichier.&nbsp;</b></div><div>Le problème vient du multi synchro car en synchro standard ça fonctionne&nbsp;</div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -11279,45 +10165,15 @@
       "url": "https://app.notion.com/p/Modif-de-r-sa-suppression-du-suppl-ment-non-pris-en-compte-si-c-est-le-seul-suppl-ment-pr-sent-dan-3928db15623a81d2a4a4e91ec1000cbf"
     },
     {
-      "id": "3928db15-623a-8101-83e5-d00a208e5d10",
-      "identifiant": "INA-501",
-      "titre": "Contrôle Caisse",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-07-03T07:27:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p>Décliner le design system pour la fenêtre Contrôle de caisse : composants UI (tableau, filtres, boutons d’action, modales), icônes, couleurs, et interactions, en cohérence avec les maquettes et les besoins métier.</p>",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Contr-le-Caisse-3928db15623a810183e5d00a208e5d10"
-    },
-    {
       "id": "3918db15-623a-8188-adc2-f52391c85f60",
       "identifiant": "INA-500",
       "titre": "Liste transactions",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -11443,7 +10299,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -11569,7 +10427,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AOUT 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -11627,38 +10487,6 @@
       "url": "https://app.notion.com/p/G-n-ration-des-produits-Naxi-Nomad-Premium-3918db15623a8147a6a8c0fe8b608d0d"
     },
     {
-      "id": "3918db15-623a-81af-b4f1-efe0d77b86c2",
-      "identifiant": "INA-486",
-      "titre": "Liste transactions",
-      "classification": "DEV avec CC",
-      "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
-      "fonctions": null,
-      "produits": [
-        "Naxi Desk"
-      ],
-      "client": "",
-      "dateCreation": "2026-07-02T13:15:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
-      "estimPoTest": 0,
-      "persBack": [],
-      "persFront": [],
-      "persPoTest": [],
-      "pointAvancement": 0,
-      "pointsBlocage": "",
-      "explication": "<p>Concevoir les maquettes UI/UX détaillées de la fenêtre 'Liste transactions', incluant la toolbar, les filtres, les onglets dynamiques, les colonnes, le menu contextuel, les modales de modification de paiement, et le footer. Prendre en compte les règles de gestion et les cas d'usage décrits.</p>",
-      "communication": [],
-      "initialeAjout": [],
-      "versionInter": "",
-      "versionStable": "",
-      "dateSortieInter": null,
-      "dateSortieStable": null,
-      "pieceJointe": null,
-      "url": "https://app.notion.com/p/Liste-transactions-3918db15623a81afb4f1efe0d77b86c2"
-    },
-    {
       "id": "3918db15-623a-818d-bfeb-df99bacf4b32",
       "identifiant": "INA-485",
       "titre": "Elements à faire apparaitre sur la fiche camping ",
@@ -11706,8 +10534,8 @@
       ],
       "client": "",
       "dateCreation": "2026-07-02T12:57:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
+      "estimBack": 35,
+      "estimFront": 35,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -12350,7 +11178,7 @@
       "persPoTest": [],
       "pointAvancement": 0.8,
       "pointsBlocage": "test en cours",
-      "explication": "<b>Client impacté : Sirene 66</b><div>Version 18.22 / SQL</div><div><br></div><div>Se connecter sur une saison cloturée (dans mon cas 2025)</div><div><br></div><div>Aller dans les paramètres SH &gt; Bouton CRM</div><div><br></div><div>Envoyer les clients et séjours sur la saison (2025 chez moi)</div><div><br></div><div>Les enregistrements COMMAND et CLIENT s’envoient bien dans la table SYNCHRO</div><div><br></div><div>En revanche la synchro ne traite pas la demande car l’exercice est fermée à la resa web cloturée :</div><div><br></div><div>Reproduit sur démo Angélique en 18.22 HF - Surement lié à la BUG 1055 ?</div><div><b>Lien JAM :&nbsp;<a href=\"https://jam.dev/c/eb0121a2-4e9d-4d25-ab7f-3c35c53719c7\">https://jam.dev/c/eb0121a2-4e9d-4d25-ab7f-3c35c53719c7</a></b></div><div><br></div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7060bae7565d48bbb06b61e995c81f37\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><b>Problématique de la 1055</b> : l’activation de la réservation en ligne ne doit pas être pris en compte. La seule condition doit être si la licence possède la réservation en ligne ou non.&nbsp;</div><div><br></div><div>Lors du réfacto de la synchroV2, nous avons déborné la condition de la réservation en ligne ouverte pour l’envoi des tables utilisées pour le CRM. Ce paramètre doit rester inchangé .&nbsp;</div>",
+      "explication": "<b>Client impacté : Sirene 66</b><div>Version 18.22 / SQL</div><div><br></div><div>Se connecter sur une saison cloturée (dans mon cas 2025)</div><div><br></div><div>Aller dans les paramètres SH &gt; Bouton CRM</div><div><br></div><div>Envoyer les clients et séjours sur la saison (2025 chez moi)</div><div><br></div><div>Les enregistrements COMMAND et CLIENT s’envoient bien dans la table SYNCHRO</div><div><br></div><div>En revanche la synchro ne traite pas la demande car l’exercice est fermée à la resa web cloturée :</div><div><br></div><div>Reproduit sur démo Angélique en 18.22 HF - Surement lié à la BUG 1055 ?</div><div><b>Lien JAM :&nbsp;<a href=\"https://jam.dev/c/eb0121a2-4e9d-4d25-ab7f-3c35c53719c7\">https://jam.dev/c/eb0121a2-4e9d-4d25-ab7f-3c35c53719c7</a></b></div><div><br></div><div><b>Lien Jira :</b> <a href=\"https://inaxel.atlassian.net/browse/BUG-1151\">BUG-1151</a></div><div><br></div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7060bae7565d48bbb06b61e995c81f37\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><b>Problématique de la 1055</b> : l’activation de la réservation en ligne ne doit pas être pris en compte. La seule condition doit être si la licence possède la réservation en ligne ou non.&nbsp;</div><div><br></div><div>Lors du réfacto de la synchroV2, nous avons déborné la condition de la réservation en ligne ouverte pour l’envoi des tables utilisées pour le CRM. Ce paramètre doit rester inchangé .&nbsp;</div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -13688,9 +12516,9 @@
       "titre": "Envoi Coolncamp en erreur à cause d’un mauvais chemin vers le fichier config.ini",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": "Haute",
+      "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -13708,7 +12536,9 @@
       "pointsBlocage": "",
       "explication": "Depuis passage en 18.15, Coolncamp ne reçoit plus les données de certains campings.\nAprès analyse, le soucis provient des clients en Saas puisqu’on recherche un fichier dans le C:\\ alors qu’en Saas ils n’ont pas de C:\\",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -14208,7 +13038,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -14227,7 +13057,7 @@
       "explication": "Création d’un web service par CTV pour identifier si gestion des soldes par CTV ou pas ",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -20130,9 +18960,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
@@ -20542,7 +19370,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -20561,7 +19389,7 @@
       "explication": "<b><u>Détails</u></b>:<div><br></div><div>==&gt; Mode de fonctionnement en déporté avec SynchroAccesControlAPI</div><div><br></div><div>Dans NaxiCode il est possible de se mettre en mode “Test” ce qui doit nous permettre d’utiliser les environnements de Preprod.</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f1f8da42fa6147cda66797e2a2b7f70b\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Il a été observé que la gestion des environnements ne fonctionnait pas correctement pour certaines fonctionnalités:</div><div><br></div><div><ul><li>Lorsqu’on créer un code depuis NaxiCode en mode Test, il est pourtant enregistrer sur la db de prod</li></ul><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7ac4773b064344e4aefc24b26110b52c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ecf80836686b4b74b14c57b737154ae0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Pourtant la conf est ok&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6d30b30409f64546bac974740469d8ef\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><ul><li><b style=\"background-color: rgb(191, 219, 254);\">Il faudrait également vérifier et faire une passe pour s’assurer qu’il n’y ai pas d’autres fonctionnalités dans le logiciel qui ne prennent pas correctement en compte l’environnement</b></li></ul></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -21285,7 +20113,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -21304,7 +20132,7 @@
       "explication": "Dans NAXI Gestion, si on a la spécif FLOWER, on peut importer les promotions de CTV quand le camping possède une réservation en ligne NX_PASS<div><br></div><div>Voir documentation :  PRFL_Promo_V07.pdf&nbsp;</div><div><br></div><div>Dans l<i>’US CONNECT-674: [WINDEV] CTV/PROMOS : Import des Promos pour tous les Campings,&nbsp;</i>on a fait en sorte que tous les campings puissent importer des promotions (pas uniquement les FLOWER)</div><div><b><br></b></div><div><b>Problème :&nbsp;</b></div><div><br></div><div>Si la promotion paramétrée chez CTV, possède plusieurs périodes d’application, ces périodes ne sont pas reportées dans NAXI Gestion lors de l’import. On a ce genre de message qui s’affiche (message qui a été modifié) :&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/9945228442e44eb79273cadc5d96720d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -22707,7 +21535,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -22727,7 +21555,7 @@
       "explication": "<i>Suite à une remontée de Flower, et après recherche avec Mailys, nous constatons que les clients VACAF sont envoyés chez CTV avec la balise Customer Type à 2, ce qui correspond à “Client de TO”. Ils devraient être envoyés à 1 “Client Standard”.</i><div><br><div>Aujourd’hui, quand on envoi un séjour au CRM, on envoi le PmsCustomerType avec la règle suivante :&nbsp;<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/add3c52120024845ab3b37c337c883ff\" alt=\"capture\" style=\"opacity: 1; max-width: 100%;\"></div><div><br></div><div>Dans NAXI Gestion, VACAF est géré comme un TO et donc sur une commande affecté à VACAF, le numéro de la fiche VACAF est dans le cmto de la commande.&nbsp;</div><div><br></div><div>On a fait en sorte de pouvoir gérer les clients passant par VACAF sur l’espace client et pour cela on a fait en sorte d’envoyer le numéro de la fiche VACAF du camping sur le web → à vérifier que ce soit envoyé pour tous types de configuration camping</div></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -22992,7 +21820,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -23013,7 +21841,7 @@
       "explication": "• Le mapping sera réalisé côté CTV. \n• Envoi des données via web service. \n• Côté Inaxel :\n    ◦ Désactivation des fiches OTA non actives\n    ◦ Envoi uniquement des fiches actives. Objectif de déploiement : Octobre 2026<div><br></div><div>US Jira correspondante : <a href=\"https://inaxel.atlassian.net/browse/CONNECT-209\">CONNECT-209</a><br><div><br></div></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -23062,12 +21890,11 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
-        "NAXI ESPACE CLIENT",
-        "CTV"
+        "Naxi Gestion PMS"
       ],
       "client": "Plaine tonique\nCleutRouz (Signalé le 28.05.2026)",
       "dateCreation": "2026-02-18T17:58:00.000Z",
@@ -23082,7 +21909,7 @@
       "explication": "Demande amélioration sur l’espace client&nbsp; mais plus généralement aussi sur la passerelle avec SH&nbsp;: Lors du paiement du solde, pouvoir extraire la taxe de séjour du montant du solde afin que celle-ci puisse être payée sur place<div><br></div><div>Aujourd’hui dans SH, un camping peut choisir de prendre en compte la taxe de séjour on non dans le solde du séjour.</div><div><br></div><div>Sauf que de notre côté nous n’avons pas cette information et nous n’avons pas ce type de paramétrage dans NAXI, ce qui fait que actuellement dans l'échange de solde la taxe de séjour est tout le temps prise en compte.</div><div><br></div><div>Ce qui pose soucis pour certains campings qui ne veulent pas encaisser des taxes de séjour avant le venus des clients.</div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -40253,7 +39080,7 @@
     ]
   },
   "counts": {
-    "classique": 691,
+    "classique": 648,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
