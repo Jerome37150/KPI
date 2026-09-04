@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-09-04T11:12:23.101Z",
+  "generatedAt": "2026-09-04T14:56:45.953Z",
   "classique": [
+    {
+      "id": "3d18db15-623a-81af-8bf2-d8c11b10738b",
+      "identifiant": "INA-865",
+      "titre": "NaxiApi : faire passer les emails par MailRelayAPI",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "NAXI ESPACE CLIENT"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-04T13:35:00.000Z",
+      "estimBack": 0,
+      "estimFront": 2,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>Nous avons créer une nouvelle API  pour faire transiter les envois d’emails de nos différent applicatifs via l’US <span style=\"background-color: rgb(254, 240, 138);\">WEB-785: [WEB] Créer une API pour pouvoir gérer le service du mail profider-Done</span></div><div><br></div><div><br></div>Ca va concerner les applications&nbsp;<div><ul><li>&nbsp;Espace client (confirmation de paiement (acompte solde, caution), mot de passe oublié)</li><li>&nbsp;SalesApi(confirmation de paiement de crédit)</li><li>&nbsp;Backoffice Naxiapi (abandonné</li></ul><div><br></div></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/NaxiApi-faire-passer-les-emails-par-MailRelayAPI-3d18db15623a81af8bf2d8c11b10738b"
+    },
     {
       "id": "3d18db15-623a-81ef-8467-e188919b9d2f",
       "identifiant": "INA-864",
@@ -76,14 +112,16 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
       "client": "",
       "dateCreation": "2026-09-04T08:39:00.000Z",
-      "estimBack": 0,
+      "estimBack": 4,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -91,9 +129,11 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<div><b>2 Objectifs :&nbsp;</b></div><div><br></div><div>- Quantifier et lister les campings qui sont passés par Naxi Gestion pour la création du compte Pennylane</div><div><br></div><div>- Quantifier et lister les clients qui utilisent la connectivité Pennylane avec Naxi.</div>",
+      "explication": "<div><b>2 Objectifs :&nbsp;</b></div><div><br></div><div>- Quantifier et lister les campings qui sont passés par Naxi Gestion pour la création du compte Pennylane</div><div><br></div><div>- Quantifier et lister les clients qui utilisent la connectivité Pennylane avec Naxi =&gt; qui se connecte et qui se déconnecte</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -189,7 +229,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-04T07:45:00.000Z",
-      "estimBack": 0,
+      "estimBack": 4,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -605,7 +645,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "SEPTEMBRE 2026"
       ],
       "fonctions": null,
       "produits": [
@@ -624,7 +664,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -749,7 +789,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "SEPTEMBRE 2026"
       ],
       "fonctions": null,
       "produits": [
@@ -768,7 +808,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -929,7 +969,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "SEPTEMBRE 2026"
       ],
       "fonctions": null,
       "produits": [
@@ -948,7 +988,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -1073,7 +1113,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "SEPTEMBRE 2026"
       ],
       "fonctions": null,
       "produits": [
@@ -1092,7 +1132,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -1145,7 +1185,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1164,7 +1204,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -1181,7 +1221,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1200,7 +1240,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -1217,7 +1257,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "SEPTEMBRE 2026"
       ],
       "fonctions": null,
       "produits": [
@@ -1253,7 +1293,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1272,7 +1312,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -1289,7 +1329,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1308,7 +1348,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -1325,7 +1365,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "SEPTEMBRE 2026"
       ],
       "fonctions": null,
       "produits": [
@@ -1469,7 +1509,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1488,7 +1528,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -1505,7 +1545,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1524,7 +1564,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -1541,7 +1581,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "SEPTEMBRE 2026"
       ],
       "fonctions": null,
       "produits": [
@@ -1613,7 +1653,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1632,7 +1672,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -1793,7 +1833,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1812,7 +1852,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -1829,7 +1869,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1848,7 +1888,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -2017,7 +2057,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-01T16:04:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -2054,7 +2094,7 @@
       "client": "",
       "dateCreation": "2026-09-01T16:03:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 2,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -3693,7 +3733,8 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3701,7 +3742,7 @@
       ],
       "client": "",
       "dateCreation": "2026-08-24T14:30:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -3801,7 +3842,7 @@
       ],
       "client": "",
       "dateCreation": "2026-08-14T07:38:00.000Z",
-      "estimBack": 0,
+      "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -3838,7 +3879,7 @@
       "client": "",
       "dateCreation": "2026-08-14T07:37:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 14,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -4821,7 +4862,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -4838,7 +4879,7 @@
       "explication": "<p>Réaliser une analyse fonctionnelle et technique du module Paramétrage des modes de paiement afin de définir les besoins, les flux, et les interactions avec les autres modules.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4927,7 +4968,7 @@
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:35:00.000Z",
-      "estimBack": 2,
+      "estimBack": 4,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -4955,14 +4996,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:35:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -4971,7 +5013,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l’interface utilisateur de la fenêtre de planning, intégrant les fonctionnalités de sélection, zoom, filtres, affichage des informations, interactions (clic, glisser-déposer), pictogrammes, codes couleurs, boutons d’action, et impression.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5051,13 +5095,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:34:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -5067,7 +5112,9 @@
       "pointsBlocage": "",
       "explication": "<p>Implémenter le service d’authentification permettant la connexion à l’application : récupération des répertoires de données, authentification de l’opérateur, retour des entreprises/exercices autorisés et des imprimantes disponibles, puis redirection vers le Tableau de bord.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5083,14 +5130,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:34:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -5099,7 +5147,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l’interface frontend de la fenêtre de connexion, avec l’affichage du formulaire d’authentification, la gestion des champs de saisie et des messages d’erreur, l’intégration du design conforme au projet, et la préparation des appels vers le service d’authentification.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5146,9 +5196,7 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [
-        "AOUT 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -5243,13 +5291,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:33:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -5259,7 +5308,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l’API et la logique serveur pour fournir les données du plan du camping, les statuts d’occupation en temps réel, la gestion des filtres, la recherche de disponibilités, la synchronisation des sélections, et l’intégration avec la base de données des emplacements et réservations.</p><p><b>US Jira liée :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-261\">TL-261</a></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5275,14 +5326,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:33:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -5291,7 +5343,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l’interface utilisateur du plan du camping en plein écran, incluant la carte interactive, la gestion des spots, les filtres, la barre d’outils, le panneau de recherche avancée, les tooltips, le zoom, la navigation, et la synchronisation des états (sélection, filtres, onglets).</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5469,13 +5523,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:32:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -5485,7 +5540,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la partie back-end pour la gestion des données et des règles métier liées aux suppléments numérotés, y compris la gestion des disponibilités et des affectations.</p><p><b>US Jira liée :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-338\">TL-338</a></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5501,14 +5558,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:32:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 4,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -5517,7 +5575,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la partie front-end de la fenêtre/planning des suppléments numérotés, en respectant le design validé et en assurant l'intégration des interactions utilisateur.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5631,13 +5691,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:32:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -5647,7 +5708,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la logique backend pour la gestion de la liste des cautions, y compris la récupération, le filtrage (dates, statuts, types, modes de paiement), la restitution en masse, la gestion des statuts et l'intégration des nouvelles règles de gestion.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5663,14 +5726,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:32:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -5679,7 +5743,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l'interface utilisateur de la fenêtre Liste des Cautions, intégrant les filtres, le tableau de résultats, les boutons d'action (recherche, modification, impression, restitution, accès fiche client), la sélection/désélection en masse, et l'affichage des statuts et détails.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5791,13 +5857,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:31:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -5807,7 +5874,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la logique backend pour la recherche client, incluant le pré-filtrage, la gestion des différents critères de recherche, la création de client, la gestion de la mémoire des recherches, et l’intégration des règles de gestion.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5823,13 +5892,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:29:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -5839,7 +5909,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la logique backend pour la gestion de l'historique des consultations clients, incluant la persistance, la non réinitialisation à la déconnexion/changement d'entreprise ou d'exercice, et la non distinction entre les historiques des deux modes de recherche.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5855,14 +5927,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:29:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -5871,7 +5944,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l’interface frontend de la fenêtre de recherche client, avec la gestion dynamique des champs de recherche, l’affichage des résultats, les filtres avancés, la création de client, et la fermeture de la fenêtre.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5887,14 +5962,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:29:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -5903,7 +5979,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l'interface frontend pour l'affichage de l'historique des consultations dans le panneau Recherche client, sans distinction entre les deux onglets, la limitation à 20 entrées, la non réinitialisation après déconnexion ou changement d’entreprise ou changement d’exercice et l'ouverture directe de la fiche client depuis l'historique.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5951,7 +6029,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "SEPTEMBRE 2026"
       ],
       "fonctions": null,
       "produits": [],
@@ -5968,7 +6046,7 @@
       "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6017,13 +6095,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:29:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -6033,7 +6112,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la logique backend pour la fenêtre 'moniteur contrôle d'accès', incluant la gestion des deux onglets (NAXI Code et NAXI Cam), la récupération et l'affichage des passages aux barrières, la gestion des boutons d'ouverture, et l'intégration des informations spécifiques (numéro du point d’accès, nom/prénom, validation, plaque d’immatriculation ou code selon l’onglet).</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6049,14 +6130,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:29:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -6065,7 +6147,9 @@
       "pointsBlocage": "",
       "explication": "<p>Implémenter l’interface utilisateur de la fenêtre 'moniteur contrôle d'accès' avec deux onglets distincts (NAXI Code et NAXI Cam), affichage des colonnes requises, gestion des boutons d’ouverture pour chaque point d’accès, et intégration avec le backend.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6113,7 +6197,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "SEPTEMBRE 2026"
       ],
       "fonctions": null,
       "produits": [],
@@ -6130,7 +6214,7 @@
       "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6243,13 +6327,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:28:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -6259,7 +6344,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la logique backend et les API nécessaires pour gérer la liste, la création, la modification et la suppression (individuelle et en masse) des indisponibilités, en respectant les règles de gestion et les validations décrites.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6275,14 +6362,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:28:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -6291,7 +6379,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l'interface utilisateur de la fenêtre 'Liste des Indisponibilités', incluant l'affichage de la liste, les formulaires de création/modification, la gestion des filtres, les boutons d'action et les messages d'alerte/confirmation.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6371,13 +6461,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:27:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -6387,7 +6478,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la partie back-end pour la gestion des listes de réservations, l’application des filtres, la gestion des statuts, le calcul des soldes, la gestion des alertes et l’exposition des données nécessaires à l’interface front-end.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6403,14 +6496,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:27:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -6419,7 +6513,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la partie front-end de la fenêtre “Liste des réservations” : intégration des filtres, affichage dynamique des listes, gestion des compteurs, actions rapides (affectation d’emplacement, impression), et respect des règles d’affichage des statuts et soldes.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6466,9 +6562,7 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6483,9 +6577,7 @@
       "pointsBlocage": "",
       "explication": "<p>Définir et exécuter les scénarios de test pour valider le fonctionnement de la fenêtre “Liste des réservations” : filtres, affichage, gestion des statuts, alertes, actions rapides, impression, conformité aux règles de gestion et UX.</p>",
       "communication": [],
-      "initialeAjout": [
-        "Débord sprint"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6533,13 +6625,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:26:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -6549,7 +6642,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la logique backend pour la recherche de disponibilités, la gestion des filtres (dates, catégories, nombre de personnes), et le calcul des emplacements disponibles selon les règles de gestion.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6565,14 +6660,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:26:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -6581,7 +6677,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l'interface frontend de la fenêtre 'Disponibilités', intégrant les filtres, le bouton de recherche, l'affichage des résultats, et l'interaction avec le backend.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6663,13 +6761,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:26:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -6679,7 +6778,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer les données et règles serveur du tableau de bord : calcul des KPI, cohérence avec Séjours / Planning / Contrôle de caisse, alimentation des cartes selon la souscription BI CRM, préparation des jeux de données pour les graphes et filtres.</p><p><b>US Jira liée :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-398\">TL-398</a></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6761,7 +6862,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "SEPTEMBRE 2026"
       ],
       "fonctions": null,
       "produits": [],
@@ -6778,7 +6879,7 @@
       "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6795,13 +6896,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:26:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -6811,7 +6913,9 @@
       "pointsBlocage": "",
       "explication": "<p>Mettre en place la logique serveur et les données nécessaires pour les redirections et l’exposition des informations de contexte (saison, exercice, version classique) utilisées par le menu burger / header.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6827,14 +6931,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:26:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 2,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -6843,7 +6948,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l’interface du menu burger / rail navigation / header avec les nouveaux accès V1, le renvoi vers la nouvelle pré-réservation, l’accès à la gestion des devis, le sélecteur saison/exercice et le bouton de retour vers la version classique.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6890,9 +6997,7 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -6907,9 +7012,7 @@
       "pointsBlocage": "",
       "explication": "<p>Vérifier les parcours et points d’accès du menu burger, du rail de navigation et du header : redirection vers la nouvelle pré-réservation, accès à la gestion des devis, changement de saison/exercice et retour vers la version classique.</p>",
       "communication": [],
-      "initialeAjout": [
-        "Débord sprint"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6957,13 +7060,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:26:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -6973,7 +7077,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la partie back-end pour la fenêtre “Liste des séjours” : création des endpoints pour la récupération, le filtrage (date, type, nom), la gestion des statuts, l’application des règles de gestion, la gestion des actions rapides (individuelles et en masse), l’impression, et l’intégration avec les paramétrages existants (TO, statuts, etc.). Assurer la cohérence des données et la performance des requêtes.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6989,14 +7095,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:26:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -7005,7 +7112,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la partie front-end de la fenêtre “Liste des séjours” : intégration des filtres, affichage dynamique des listes, gestion du code couleur, pictogrammes, compteur, champ de recherche, actions rapides, impression, et navigation. Assurer la réactivité et l’ergonomie de l’interface.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7052,9 +7161,7 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -7069,9 +7176,7 @@
       "pointsBlocage": "",
       "explication": "<p>Rédiger et exécuter les scénarios de test pour la fenêtre “Liste des séjours” en couvrant l’ensemble des fonctionnalités : filtres (date, type, nom), compteur, affichage coloré, pictogrammes, actions rapides (individuelles et en masse), impression, gestion des statuts, et navigation. Vérifier la conformité avec les règles de gestion et les cas de test spécifiés.</p>",
       "communication": [],
-      "initialeAjout": [
-        "Débord sprint"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7119,13 +7224,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:25:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -7135,7 +7241,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la logique backend permettant de lancer les applications Teamviewer ou Anydesk depuis la fenêtre Télémaintenance. Gérer les autorisations et la sécurité de l’exécution à distance.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7151,14 +7259,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:25:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -7167,7 +7276,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l’interface frontend de la fenêtre Télémaintenance, avec les boutons d’accès à Teamviewer et Anydesk, et l’intégration dans le menu burger.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7285,7 +7396,7 @@
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:24:00.000Z",
-      "estimBack": 0,
+      "estimBack": 4,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -7320,7 +7431,7 @@
       "client": "",
       "dateCreation": "2026-08-04T07:24:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 4,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -7445,13 +7556,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:23:00.000Z",
-      "estimBack": 0,
+      "estimBack": 4,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -7461,7 +7573,9 @@
       "pointsBlocage": "",
       "explication": "<p>Implémenter la logique métier et les API nécessaires pour gérer les ventes réception, les paiements, les interactions avec les autres modules (clients, produits, paiements), et le stockage des données associées.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7477,14 +7591,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:23:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 4,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -7493,7 +7608,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l'interface utilisateur du module Ventes Réception, en intégrant tous les éléments interactifs (boutons, tableaux, champs de saisie, sélecteurs, etc.) et en assurant la navigation et l'expérience utilisateur selon les maquettes validées.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7541,7 +7658,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "SEPTEMBRE 2026"
       ],
       "fonctions": null,
       "produits": [],
@@ -7558,7 +7675,7 @@
       "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -7607,13 +7724,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:23:00.000Z",
-      "estimBack": 0,
+      "estimBack": 4,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -7623,7 +7741,9 @@
       "pointsBlocage": "",
       "explication": "<p>Implémenter la logique métier et les API nécessaires pour la gestion des ventes à la réception, incluant la récupération des données, la gestion des filtres, la génération d'avoirs, l'impression de tickets, et la gestion des paiements et remboursements.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7639,14 +7759,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:23:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 4,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -7655,7 +7776,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l'interface utilisateur de la fenêtre 'Gestion des Ventes Réception' en respectant les maquettes et les spécifications fonctionnelles, incluant la gestion des filtres, l'affichage des ventes, les boutons d'action, et la navigation vers les fenêtres associées.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7703,13 +7826,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:23:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -7719,7 +7843,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la logique backend pour fournir les données nécessaires à l'affichage du calendrier d'occupation mensuelle : calcul des taux d'occupation, gestion des filtres par type d'hébergement, récupération des arrivées et départs par jour, et gestion des périodes d'ouverture de la saison.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7735,14 +7861,15 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:23:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -7751,7 +7878,9 @@
       "pointsBlocage": "",
       "explication": "<p>Implémenter l'interface utilisateur du panneau Occupation mensuelle côté frontend : affichage de la grille calendrier, gestion du scroll automatique à l'ouverture, application des codes couleur, gestion des filtres, et intégration avec le store global pour l'ouverture/fermeture du panneau.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7899,13 +8028,14 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:22:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -7915,7 +8045,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la partie back-end de la To Do Liste, incluant la gestion des tâches, la persistance des données et l'intégration avec les autres modules si nécessaire.</p><p><b>US Jira liée :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-347\">TL-347</a></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -7938,7 +8070,7 @@
       "client": "",
       "dateCreation": "2026-08-04T07:22:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 21,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -7997,7 +8129,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "SEPTEMBRE 2026"
       ],
       "fonctions": null,
       "produits": [],
@@ -8014,7 +8146,7 @@
       "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8207,7 +8339,7 @@
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:22:00.000Z",
-      "estimBack": 0,
+      "estimBack": 3,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -8242,7 +8374,7 @@
       "client": "",
       "dateCreation": "2026-08-04T07:22:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 4,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -8403,7 +8535,7 @@
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T05:11:00.000Z",
-      "estimBack": 0,
+      "estimBack": 4,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -8438,7 +8570,7 @@
       "client": "",
       "dateCreation": "2026-08-04T05:11:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 4,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -10300,7 +10432,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -10308,7 +10440,7 @@
       ],
       "client": "",
       "dateCreation": "2026-07-02T13:49:00.000Z",
-      "estimBack": 0,
+      "estimBack": 2,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -10428,7 +10560,8 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -10437,7 +10570,7 @@
       "client": "",
       "dateCreation": "2026-07-02T13:18:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -10446,7 +10579,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer l'interface utilisateur de la fenêtre 'Liste transactions' : intégration de la toolbar, des filtres, des onglets dynamiques, des colonnes avec recherches/filtres inline, du menu contextuel, des modales de modification de paiement, du footer avec impression/export, et gestion des deep-links.</p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -39080,7 +39215,7 @@
     ]
   },
   "counts": {
-    "classique": 648,
+    "classique": 649,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
