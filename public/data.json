@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T05:37:51.961Z",
+  "generatedAt": "2026-09-07T10:42:54.175Z",
   "classique": [
     {
       "id": "3d18db15-623a-81af-8bf2-d8c11b10738b",
@@ -3713,7 +3713,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<div><div>La réforme de la facturation électronique qui entrera en vigueur en septembre 2026, impose aux entreprises la transmission dématérialisée des données de transactions commerciales à l'administration fiscale ou e-reporting.</div></div><div><br></div><div>Nous allons nous concentrer ici sur les factures&nbsp; <b>BtoC.</b></div>",
+      "explication": "<div><div>Un séjour camping génère plusieurs encaissements échelonnés avant la facture finale : acompte à la réservation, solde avant l'arrivée, taxe de séjour à l'arrivée, consommations diverses pendant le séjour, règlement du solde restant au départ (facture éditée à ce moment-là). Ces ventes sont rattachées à un dossier client identifié dans le PMS, mais restent des ventes B2C au sens fiscal : le client final est un particulier, jamais un professionnel assujetti.</div></div><div><br></div><div>L'hébergement étant une prestation de services, la TVA est exigible à l'encaissement : chaque paiement (acompte, solde, règlement final) doit donc être transmis à Pennylane comme un événement de paiement daté de l'encaissement réel, indépendamment de la date d'émission de la facture finale. La facture finale génère, elle, un événement de transaction agrégée. La taxe de séjour, hors champ TVA, est exclue de ces flux.</div>",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -3750,7 +3750,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<div><br></div><div>La réforme de la facturation électronique qui entrera en vigueur en septembre 2026, impose aux entreprises la transmission dématérialisée des données de transactions commerciales à l'administration fiscale ou e-reporting.</div><div><br></div><div>Nous allons dans cette Us se concentrer sur les ventes anonymes</div>",
+      "explication": "<div>Le camping réalise des ventes qui ne sont rattachées à aucun dossier client dans le PMS : boutique, bar/snack, prestations ponctuelles payées sur place (accès piscine à la journée, laverie, location de matériel...). Ces ventes donnent lieu à un simple ticket de caisse, jamais à une facture nominative, et concernent aussi bien des campeurs en séjour que des visiteurs de passage non identifiés.</div><div>Ces ventes entrent dans le champ de l'e-reporting B2C : elles n'ont pas besoin d'être transmises individuellement, mais doivent être agrégées par jour de vente et ventilées par taux de TVA, sans aucune donnée d'identification client, avant transmission à Pennylane.</div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -12004,7 +12004,7 @@
       "persPoTest": [],
       "pointAvancement": 0.9,
       "pointsBlocage": "En attente retour Paul",
-      "explication": "La réservation n°17192565 au nom de CAVIEZEL Daniel au camping les sablons.\nA la modification nous avons reçu une mauvaise ventilation des quantités des prestations ajoutées. 2 quantités pour le suppléments chaise haute , alors qu’il n’y en avait qu’une seule. A près recherche , l’idSH pour la chaise haute et le programme Sunelia est le même = 101",
+      "explication": "La réservation n°17192565 au nom de CAVIEZEL Daniel au camping les sablons.&nbsp;<div><br></div><div>A la modification nous avons reçu une mauvaise ventilation des quantités des prestations ajoutées. 2 quantités pour le suppléments chaise haute , alors qu’il n’y en avait qu’une seule.&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/de638c94ae6e46629e5657283b1e7079\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/16e348b2ae854c5793fe83501ee2b923\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Après recherche , l’idSH pour la chaise haute et le programme Sunelia sont identiques = 101</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ea65c85d86204a3a8c184779359ed8ec\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><b>CONTEXTE</b><br>Mail du 22/06/2026 de CTV :</div><div><br></div><div>Bonjour,</div><div>Je fais un mail pour échanger sur le sujet du bug « chaise haute » de Sunelia. La chaise haute et le package groupe programme fidélité a le même ID, à savoir 101.</div><div>Comme vu ensemble, nous avons créé un nouvel attribut \"Type\", pour l'extra, qui peut prendre 3 valeurs :&nbsp;</div><div>Option</div><div>Package</div><div>PackageGroup</div><div>C’est en preprod chez nous, avec la résa 18717910. Ça vaut pour naxi et naxito.</div><div>Nous mettrons en ligne dès que possible (possiblement jeudi), en théorie ça ne devrait pas vous poser problème que nous ajoutions un attribut. Ainsi, vous pourrez mettre en ligne de votre côté.</div><div>Ce mail c’est surtout pour garder une trace, on se parle sur teams si besoin.</div><div>Merci,</div><div>Noushka DELPOUX</div><div><br></div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
