@@ -1,6 +1,146 @@
 {
-  "generatedAt": "2026-09-07T10:42:54.175Z",
+  "generatedAt": "2026-09-07T16:03:37.387Z",
   "classique": [
+    {
+      "id": "3d48db15-623a-813d-8cc6-d077766964c8",
+      "identifiant": "INA-869",
+      "titre": "CTV : Paiement solde avec ou sans taxe de séjour dans l'EC (WEB)",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "NAXI ESPACE CLIENT"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-07T14:06:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Demande amélioration sur l’espace client mais plus généralement aussi sur la passerelle avec SH : Lors du paiement du solde, pouvoir extraire la taxe de séjour du montant du solde afin que celle-ci puisse être payée sur place<div><br></div><div><span style=\"background-color: rgb(191, 219, 254);\">Dans la même optique que la INA-14 mais pour l'Espace client et INA-867 pour la partie Back</span></div><div><br></div><div>Aujourd’hui dans SH, un camping peut choisir de prendre en compte la taxe de séjour on non dans le solde du séjour.</div><div><br></div><div>Sauf que de notre côté nous n’avons pas cette information et nous n’avons pas ce type de paramétrage dans NAXI, ce qui fait que actuellement dans l'échange de solde la taxe de séjour est tout le temps prise en compte.</div><div><br></div><div>Ce qui pose soucis pour certains campings qui ne veulent pas encaisser des taxes de séjour avant le venus des clients.</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/CTV-Paiement-solde-avec-ou-sans-taxe-de-s-jour-dans-l-EC-WEB-3d48db15623a813d8cc6d077766964c8"
+    },
+    {
+      "id": "3d48db15-623a-8143-a788-c11b269c5e33",
+      "identifiant": "INA-868",
+      "titre": "test",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "NAXI ESPACE CLIENT"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-07T13:43:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<br>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/test-3d48db15623a8143a788c11b269c5e33"
+    },
+    {
+      "id": "3d48db15-623a-81d6-b60f-e0ab3d31932b",
+      "identifiant": "INA-867",
+      "titre": "Paiement solde avec ou sans taxe de séjour dans l'EC",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "NAXI ESPACE CLIENT"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-07T13:34:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Demande amélioration sur l’<b>espace client</b>  mais plus généralement aussi sur la passerelle avec SH : Lors du paiement du solde, pouvoir extraire la taxe de séjour du montant du solde afin que celle-ci puisse être payée sur place<div><br><div><span style=\"background-color: rgb(191, 219, 254);\">Dans la même optique que la INA-14 mais pour l'Espace client et la INA-889 pour la partie WEB</span></div><div><br></div><div>Aujourd’hui dans SH, un camping peut choisir de prendre en compte la taxe de séjour on non dans le solde du séjour.</div><div><br></div><div>Sauf que de notre côté nous n’avons pas cette information et nous n’avons pas ce type de paramétrage dans NAXI, ce qui fait que actuellement dans l'échange de solde la taxe de séjour est tout le temps prise en compte.</div><div><br></div><div>Ce qui pose soucis pour certains campings qui ne veulent pas encaisser des taxes de séjour avant le venus des clients.</div></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Paiement-solde-avec-ou-sans-taxe-de-s-jour-dans-l-EC-3d48db15623a81d6b60fe0ab3d31932b"
+    },
+    {
+      "id": "3d48db15-623a-8129-a74f-edfa7a3918f5",
+      "identifiant": "INA-866",
+      "titre": "Ajout balise Google ADS",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Réservation"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-07T13:32:00.000Z",
+      "estimBack": 0,
+      "estimFront": 1,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<b>Email reçu le 4 Septembre sur la boite contact :</b><br><br><i>De : Jordan Morand &lt;jordan@red-panda.fr&gt;</i><div><i>Envoyé : vendredi 4 septembre 2026 15:16</i></div><div><i>À : Contact | Inaxel &lt;contact@inaxel.com&gt;</i></div><div><i>Objet : Google tags avec inaxel</i></div><div>&nbsp;</div><div>Bonjour,</div><div>&nbsp;</div><div>Je me permets de vous contacter concernant un client en commun, je suis le développeur du site&nbsp;</div><div>https://www.sen-yan.com/</div><div>&nbsp;</div><div>Nous souhaiterions savoir s'il est possible d'intégrer sur votre service de réservation deux codes gtags ? est ce que vous proposez cela ?</div><div>&nbsp;</div><div>Cela nous permettrait de suivre la réservation jusqu'a la fin.</div><div>&nbsp;</div><div>Merci d'avance.</div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Ajout-balise-Google-ADS-3d48db15623a8129a74fedfa7a3918f5"
+    },
     {
       "id": "3d18db15-623a-81af-8bf2-d8c11b10738b",
       "identifiant": "INA-865",
@@ -257,7 +397,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -293,7 +433,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -539,8 +679,10 @@
       "titre": "Message evocamp lors de l'ouverture de la fenêtre d'automatisation d'un extraction pré-paramétrée",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -557,7 +699,9 @@
       "pointsBlocage": "",
       "explication": "<div>Un message Evocamp apparaît lorsque :&nbsp;</div><div><br></div><div>1. Créer une extraction pré-paramétrée depuis le menu Séjour &gt; Extractions clients &amp; Séjours</div><div>2. Paramétrer sur cette liste une automatisation avec un opérateur affecté (un opérateur classique, pas l'opérateur [NAXIRESA]) / Dans mon test, j'ai fait une automatisation de ce type :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/600aa08c191c4fb29359f366ce7df49e\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>3. Valider l'automatisation</div><div>4. Se rendre ensuite dans le menu Paramètres &gt; Gestion des opérateurs</div><div>5. Ouvrir l'opérateur qui a été affecté sur l'extraction</div><div>6. Supprimer l'opérateur</div><div>7. Se rendre à nouveau dans le menu Séjours &gt; Extractions clients et séjours&nbsp;</div><div>8. Choisir l'extraction paramétrée précédemment</div><div>9. Ouvrir l'automatisation, NAXI affiche alors l'erreur suivante :&nbsp;<br><br><i>2026-09-03 09:16:33. Fonction : Global exception</i></div><div><i>2026-09-03 09:16:33. Paramètre 1 : Appel WL :</i></div><div><i>Traitement de 'Fin d'initialisation de param_listesauto' (param_listesauto), ligne 97</i></div><div><i><br></i></div><div><i>Que s'est-il passé ?</i></div><div><i>Vous avez appelé l'opérateur [] sur le champ ComboOp.</i></div><div><i>L'indice spécifié [-1] est invalide.&nbsp;</i></div><div><i>Les valeurs valides sont comprises entre 1 et 59 (inclus).</i></div><div><i><br></i></div><div><i>Code erreur : 10038</i></div><div><i>Niveau : erreur fatale</i></div><div><i><br></i></div><div><i>Module : wd260obj.dll (01F260101d - 26.0.572.39)</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_PILEWL :</i></div><div><i>Fin d'initialisation de param_listesauto (param_listesauto), ligne 97</i></div><div><i>Clic sur BT_modif (param_actauto.BT_modif), ligne 19</i></div><div><i>EIT_DATEHEURE : 03/09/2026 09:16:33</i></div><div><i>EIT_TYPE_WDFILE : &lt;2&gt;</i></div><div><i>EIT_IDCODE : &lt;34&gt;</i></div><div><i>2026-09-03 09:16:33. Paramètre 2 :&nbsp;</i><br><br>Si on regarde en base de données, dans la table ACTAUTO, l'opérateur reste enregistré en base de données d'où l'erreur :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ad63125b5c1c4c48bf8c037e10dd706b\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Reproduit sur démo Angélique en 18.32 HF / Village Collection est en 18.30 SQL</b><br><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -645,7 +789,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -789,7 +933,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -969,7 +1113,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1113,7 +1257,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1257,7 +1401,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1365,7 +1509,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1581,7 +1725,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2157,7 +2301,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2229,7 +2373,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -6029,7 +6173,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -6197,7 +6341,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -6862,7 +7006,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7658,7 +7802,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -8129,7 +8273,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 2026"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -22041,7 +22185,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Demande amélioration sur l’espace client&nbsp; mais plus généralement aussi sur la passerelle avec SH&nbsp;: Lors du paiement du solde, pouvoir extraire la taxe de séjour du montant du solde afin que celle-ci puisse être payée sur place<div><br></div><div>Aujourd’hui dans SH, un camping peut choisir de prendre en compte la taxe de séjour on non dans le solde du séjour.</div><div><br></div><div>Sauf que de notre côté nous n’avons pas cette information et nous n’avons pas ce type de paramétrage dans NAXI, ce qui fait que actuellement dans l'échange de solde la taxe de séjour est tout le temps prise en compte.</div><div><br></div><div>Ce qui pose soucis pour certains campings qui ne veulent pas encaisser des taxes de séjour avant le venus des clients.</div>",
+      "explication": "<div>Aujourd’hui dans SH, un camping peut choisir de prendre en compte la taxe de séjour on non dans le solde du séjour.</div><div><br></div><div>Sauf que de notre côté nous n’avons pas cette information et nous n’avons pas ce type de paramétrage dans NAXI, ce qui fait que actuellement dans l'échange de solde la taxe de séjour est tout le temps prise en compte.</div><div><br></div><div>Ce qui pose soucis pour certains campings qui ne veulent pas encaisser des taxes de séjour avant le venus des clients.</div>",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -39215,7 +39359,7 @@
     ]
   },
   "counts": {
-    "classique": 649,
+    "classique": 653,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
