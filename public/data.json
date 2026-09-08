@@ -1,10 +1,258 @@
 {
-  "generatedAt": "2026-09-08T05:12:04.911Z",
+  "generatedAt": "2026-09-08T09:38:08.065Z",
   "classique": [
+    {
+      "id": "3d58db15-623a-813c-b91f-e689831ead91",
+      "identifiant": "INA-876",
+      "titre": "Fidélité sur le bandeau",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-08T08:48:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Fid-lit-sur-le-bandeau-3d58db15623a813cb91fe689831ead91"
+    },
+    {
+      "id": "3d58db15-623a-81a0-8c87-ddc12e2c0cbd",
+      "identifiant": "INA-875",
+      "titre": "Fidélité sur le bandeau",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-08T08:45:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Fid-lit-sur-le-bandeau-3d58db15623a81a08c87ddc12e2c0cbd"
+    },
+    {
+      "id": "3d58db15-623a-81c4-9166-cece8df76fcd",
+      "identifiant": "INA-874",
+      "titre": "Fidélité sur le bandeau",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-08T08:44:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Fid-lit-sur-le-bandeau-3d58db15623a81c49166cece8df76fcd"
+    },
+    {
+      "id": "3d58db15-623a-81b6-b805-de986fb7e3bf",
+      "identifiant": "INA-873",
+      "titre": "Bouton \"A traiter\" du bandeau",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-08T08:38:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Bouton-A-traiter-du-bandeau-3d58db15623a81b6b805de986fb7e3bf"
+    },
+    {
+      "id": "3d58db15-623a-814c-84f6-cc4560db62b1",
+      "identifiant": "INA-872",
+      "titre": "Bouton \"A traiter\" du bandeau",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-08T08:08:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Bouton-A-traiter-du-bandeau-3d58db15623a814c84f6cc4560db62b1"
+    },
+    {
+      "id": "3d58db15-623a-819d-830b-e8b52b494691",
+      "identifiant": "INA-871",
+      "titre": "Bouton \"A traiter\" du bandeau",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-08T08:05:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Bouton-A-traiter-du-bandeau-3d58db15623a819d830be8b52b494691"
+    },
+    {
+      "id": "3d58db15-623a-81ec-be90-c89ee97328dd",
+      "identifiant": "INA-870",
+      "titre": "Message d'erreur à l'ouverture d'une entreprise mère",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-08T07:16:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Depuis la version 18.30 minimum, nous ne pouvons plus ouvrir les entreprises mères car NAXI cherche à charger la liste des derniers clients traités. Sauf que sur les entreprises mères, il n'y a pas d'affichage des derniers clients traités.<div><br></div><div>Pour reproduire,&nbsp;</div><div><br></div><div>1. S'assurer d'avoir une entreprise mère sur NAXI</div><div>2. Ouvrir NAXI</div><div>3. Se connecter sur cette entreprise mère</div><div>4. NAXI affiche alors le message d'erreur ci dessous :&nbsp;</div><div><br></div><div><i>Le mécanisme de sécurité du WLangage a détecté une erreur dans l'application EVOCAMP.&nbsp;</i></div><div><i>Contactez le fournisseur de l'application EVOCAMP.</i></div><div><i><br></i></div><div><i>L'invocation de la méthode &lt;LoadLastCustomers(System.String)&gt; du type &lt;String[]&gt; a échoué</i></div><div><i>Le framework .NET a renvoyé l'erreur suivante :&nbsp;</i></div><div><i>La référence d'objet n'est pas définie à une instance d'un objet.</i></div><div><i><br></i></div><div><i>Pile des appels :</i></div><div><i>Procédure globale pg_charge_derniersClients (Procedures globales de EVOCAMP.pg_charge_derniersClients), ligne 5</i></div><div><i>Procédure locale appli_inter (menu_mere.PROCEDURE.appli_inter), ligne 68</i></div><div><i>Fin d'initialisation de menu_mere (menu_mere), ligne 731</i></div><div><i><br></i></div><div><i>Date : 08/09/2026 09:10:15</i></div><div><i>Projet : EVOCAMP (14.1.548.16)</i></div><div><i><br></i></div><div><i>Informations supplémentaires :</i></div><div><i>Code erreur : 200002</i></div><div><i>Module : wd260net4.dll (01F260101d - 26.0.264.0)</i></div><div><i><br></i></div><div><i>Informations de débogage :</i></div><div><i>System.Reflection.TargetInvocationException: Une exception a été levée par la cible d'un appel. ---&gt; System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.</i></div><div><i>&nbsp; &nbsp;à NaxiGestionCore.Manager.DelegateManager.MultiSelectDelegateV2(MultiSelectRequestV2 request) dans C:\\Users\\l.sabella\\Documents\\Repo\\gds\\NaxiGestionCore\\Manager\\DelegateManager.cs:ligne 77</i></div><div><i>&nbsp; &nbsp;à NaxiGestionCore.DelegateRequest.SelectRequestObjectManager`1.ExecuteRequest() dans C:\\Users\\l.sabella\\Documents\\Repo\\gds\\NaxiGestionCore\\DelegateRequest\\SelectRequestObjectManager.cs:ligne 318</i></div><div><i>&nbsp; &nbsp;à NaxiGestionCore.SQLManager.Customer.SQLCustomer.GetCustomersWithHashInName(List`1 selectedProperties) dans C:\\Users\\l.sabella\\Documents\\Repo\\gds\\NaxiGestionCore\\SQLManager\\Customer\\SQLCustomer.cs:ligne 125</i></div><div><i>&nbsp; &nbsp;à NaxiGestionCore.Manager.Customer.LastCustomerListManager.RemoveHashFromCustomerNames() dans C:\\Users\\l.sabella\\Documents\\Repo\\gds\\NaxiGestionCore\\Manager\\Customer\\LastCustomerManager.cs:ligne 85</i></div><div><i>&nbsp; &nbsp;à NaxiGestionCore.Manager.Customer.LastCustomerListManager.LoadLastCustomers(String storedList) dans C:\\Users\\l.sabella\\Documents\\Repo\\gds\\NaxiGestionCore\\Manager\\Customer\\LastCustomerManager.cs:ligne 71</i></div><div><i>&nbsp; &nbsp;--- Fin de la trace de la pile d'exception interne ---</i></div><div><i>&nbsp; &nbsp;à System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)</i></div><div><i>&nbsp; &nbsp;à System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)</i></div><div><i>&nbsp; &nbsp;à System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)</i></div><div><i>&nbsp; &nbsp;à CDotNetMethod.bInvoke(Char* pszTypeName, Char* pszMethodName, Char* pszParameters, MethodInfo gcMethod, Object gcObj, CSLevel* pclPile, Int32 nNbParamPile, Int32 bValeurRetour, STOperationDotNet* pstOperation)</i></div><div><i>EIT_EXCEPTIONDOTNET</i></div><div><i>EIT_TYPE_WDFILE : &lt;7&gt;</i></div><div><i>EIT_IDCODE : &lt;458752&gt;</i></div><div><i><br></i></div><div><i>A voir si ce n'est pas liée à cette US :&nbsp;<a href=\"https://inaxel.atlassian.net/browse/BUG-1126?atlOrigin=eyJpIjoiNmExZTM5NjdlNDM0NGUxNDgzMzAzZDI0ODQyNzRiZjEiLCJwIjoiaiJ9\">https://inaxel.atlassian.net/browse/BUG-1126?atlOrigin=eyJpIjoiNmExZTM5NjdlNDM0NGUxNDgzMzAzZDI0ODQyNzRiZjEiLCJwIjoiaiJ9</a></i></div><div><br></div><div><b>Reproduit sur démo Angélique en 18.32 HF / Les Romanée sont en 18.30 SQL</b></div><div><b>Si j'ouvre NAXI sur une entreprise classique, puis que je change d'entreprise, NAXI mouline longtemps et finit par se fermer seul sans erreur donc à checker après correctif : l'ouverture sur l'entreprise mère + le changement d'entreprise vers une entreprise mère.</b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Message-d-erreur-l-ouverture-d-une-entreprise-m-re-3d58db15623a81ecbe90c89ee97328dd"
+    },
     {
       "id": "3d48db15-623a-813d-8cc6-d077766964c8",
       "identifiant": "INA-869",
-      "titre": "CTV : Paiement solde avec ou sans taxe de séjour dans l'EC (WEB)",
+      "titre": "Paiement solde avec ou sans taxe de séjour dans l'EC",
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
@@ -35,7 +283,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/CTV-Paiement-solde-avec-ou-sans-taxe-de-s-jour-dans-l-EC-WEB-3d48db15623a813d8cc6d077766964c8"
+      "url": "https://app.notion.com/p/Paiement-solde-avec-ou-sans-taxe-de-s-jour-dans-l-EC-3d48db15623a813d8cc6d077766964c8"
     },
     {
       "id": "3d48db15-623a-8143-a788-c11b269c5e33",
@@ -39359,7 +39607,7 @@
     ]
   },
   "counts": {
-    "classique": 653,
+    "classique": 660,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
