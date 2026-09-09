@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-09-09T09:44:00.727Z",
+  "generatedAt": "2026-09-09T13:55:28.704Z",
   "classique": [
+    {
+      "id": "3d68db15-623a-814c-8a30-e25c7f5f82b9",
+      "identifiant": "INA-892",
+      "titre": "Envoi des emails depuis le séjour : fonction des ménages qui décale l'index de la commande en cours",
+      "classification": null,
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-09T10:15:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "depuis l'inter de nos équipes hier, on lui a passé la 18.33 sur son pc ppal et quand il veut la passer sur le secondaire elle ne passe pas<div><br></div><div>+ sur le pc ppal qui est en 18.33 il a un souci de mail type lié à une reservation :</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/86933940c8604bdfa549bd694aa5c426\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>ca se met sur conf option template et le séjour n'est pas sélectionné</div><div>alors que sur la version 18.32 du pc secondaire, ca ouvre le bon mail</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/12f4be8b8efa4cd084e3c9a7183ef2d1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Du coup il n'est pas très chaud pour passer la 18.33</div><div><br></div><div>Lorsque l'on clique sur l'envoi d'un email, le séjour ne s'affiche pas. Lors du choix du séjour , le séjour disponible est le séjour précédent qui se trouve sur le même emplacement.&nbsp;</div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Envoi-des-emails-depuis-le-s-jour-fonction-des-m-nages-qui-d-cale-l-index-de-la-commande-en-cours-3d68db15623a814c8a30e25c7f5f82b9"
+    },
+    {
+      "id": "3d68db15-623a-8141-a122-f842573e97d5",
+      "identifiant": "INA-891",
+      "titre": "Création du dashboard",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-09T09:45:00.000Z",
+      "estimBack": 0,
+      "estimFront": 32,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Cr-ation-du-dashboard-3d68db15623a8141a122f842573e97d5"
+    },
     {
       "id": "3d68db15-623a-8190-8ac8-f6f39bdb5f04",
       "identifiant": "INA-890",
@@ -7662,7 +7730,7 @@
       "titre": "Tableau de Bord / Home Page",
       "classification": "DEV avec CC",
       "statut": null,
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [
         "SEPTEMBRE 26"
       ],
@@ -7671,7 +7739,7 @@
       "client": "",
       "dateCreation": "2026-08-04T07:26:00.000Z",
       "estimBack": 0,
-      "estimFront": 3,
+      "estimFront": 32,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -40083,7 +40151,7 @@
     ]
   },
   "counts": {
-    "classique": 674,
+    "classique": 676,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
