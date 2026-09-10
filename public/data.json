@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-09-10T04:35:14.888Z",
+  "generatedAt": "2026-09-10T09:09:36.493Z",
   "classique": [
+    {
+      "id": "3d78db15-623a-81c4-ba6e-d283c8dc9d23",
+      "identifiant": "INA-893",
+      "titre": "Masquer le paramétrage de Pennylane lorsque le camping est une structure publique",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-10T06:52:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Nous avons mis en place une passerelle avec Pennylane afin que les entreprises privées puissent envoyer tous les éléments nécessaires rentrant dans le cadre de la R.F.E<div>Nous devons faire la même chose pour les entreprises publiques. Elles ne peuvent pas passer par pennylane mais par la P.A publique Chorus Pro.&nbsp;</div><div>Afin d'éviter toute confusion à l'utilisateur, nous allons masquer la configuration pennylane au camping municipaux.&nbsp;</div><div><br></div><div>Comment savoir si une entreprise est publique ?</div><div>Dans les mentions légales , la case suivante est cochée :&nbsp;&nbsp;<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/cebde94504c44e64ae352b2b01117e9b\" alt=\"capture\" style=\"opacity: 1; max-width: 100%;\"></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Masquer-le-param-trage-de-Pennylane-lorsque-le-camping-est-une-structure-publique-3d78db15623a81c4ba6ed283c8dc9d23"
+    },
     {
       "id": "3d68db15-623a-814c-8a30-e25c7f5f82b9",
       "identifiant": "INA-892",
@@ -9983,7 +10015,8 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "AOUT 26"
+        "AOUT 26",
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -40151,7 +40184,7 @@
     ]
   },
   "counts": {
-    "classique": 676,
+    "classique": 677,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
