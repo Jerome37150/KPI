@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-09-10T09:09:36.493Z",
+  "generatedAt": "2026-09-10T13:33:04.378Z",
   "classique": [
+    {
+      "id": "3d78db15-623a-8106-8706-de0c7f456a47",
+      "identifiant": "INA-894",
+      "titre": "Erreur sur fonctionnalité Mot de passe Oublié depuis l'EC",
+      "classification": null,
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "NAXI ESPACE CLIENT"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-10T09:43:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>Un incident a été constaté sur la fonctionnalité \"Identifiant oublié\" lorsque l'on est sur un espace client groupe :&nbsp;</div><div><br></div><div><i>Pré-requis : Etre sur un espace client groupe</i></div><div><br></div><div>1. Sur NAXI, créer une fiche client avec un séjour sur une entreprise A&nbsp;</div><div>2. Se rendre ensuite sur un l'espace client</div><div>3. Cliquer sur le lien \"Identifiant oublié\"</div><div>4. Saisir l'adresse email correspondant à la fiche client crée précédemment</div><div>5. Lorsqu'on reçoit le mail d'identifiant oublié, l'expéditeur correspond à un camping du groupe mais ne correspond pas au camping sur lequel nous avons crée le séjour.</div><div><br></div><div>Cela est donc très perturbant pour le client final</div><div><br></div><div><b>Reproduit sur démo CIELA en 18.30 / SQL&nbsp;</b><br><br>-&gt; J'ai voulu faire identifiant oublié sur une client qui n'a que des séjours sur le camping FLORIDE</div><div>-&gt; Quand je reçois le mail, l'expéditeur est le camping BEAURIVAGE</div><div><br></div><div>Je ne sais pas pourquoi il prend ce camping car ce n'est même pas le premier de la liste (le premier étant ATLANTICA)</div><div><i>A voir si on le bascule en étude pour revoir tout le fonctionnement de cet identifiant oublié sur les bases groupes</i></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-sur-fonctionnalit-Mot-de-passe-Oubli-depuis-l-EC-3d78db15623a81068706de0c7f456a47"
+    },
     {
       "id": "3d78db15-623a-81c4-ba6e-d283c8dc9d23",
       "identifiant": "INA-893",
@@ -8,7 +40,9 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -25,7 +59,9 @@
       "pointsBlocage": "",
       "explication": "Nous avons mis en place une passerelle avec Pennylane afin que les entreprises privées puissent envoyer tous les éléments nécessaires rentrant dans le cadre de la R.F.E<div>Nous devons faire la même chose pour les entreprises publiques. Elles ne peuvent pas passer par pennylane mais par la P.A publique Chorus Pro.&nbsp;</div><div>Afin d'éviter toute confusion à l'utilisateur, nous allons masquer la configuration pennylane au camping municipaux.&nbsp;</div><div><br></div><div>Comment savoir si une entreprise est publique ?</div><div>Dans les mentions légales , la case suivante est cochée :&nbsp;&nbsp;<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/cebde94504c44e64ae352b2b01117e9b\" alt=\"capture\" style=\"opacity: 1; max-width: 100%;\"></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -40184,7 +40220,7 @@
     ]
   },
   "counts": {
-    "classique": 677,
+    "classique": 678,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
