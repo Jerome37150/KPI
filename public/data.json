@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-09-10T13:33:04.378Z",
+  "generatedAt": "2026-09-10T17:11:18.866Z",
   "classique": [
+    {
+      "id": "3d78db15-623a-81d1-a49f-c8d305c89a1b",
+      "identifiant": "INA-896",
+      "titre": "Erreur affichage assurance annulation si facturation d'acompte en amont",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-10T15:15:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "L'affichage des factures est incorrect lorsque :&nbsp;<div><div><br></div><div>1. Se rendre dans le menu Paramètres &gt; Paiements &gt; Onglet Acomptes</div><div>2. S'assurer que la case 'Facturer aussi les frais de dossier et l'assurance annulation' soit cochée :</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/78d8049f5ee14d4bb87949c269380a4c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>3. Se rendre ensuite dans le menu Paramètres &gt; Tarifs &gt; Onget Suppléments</div></div><div>4. S'assurer d'avoir un supplément de type assurance annulation dont une partie est conservée par le camping :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/529c3316cbf44ac589d499667d0605d1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>5. Créer un séjour et y ajouter des frais de dossier et de l'assurance annulation.</div><div>6. Saisir un acompte sur ce séjour</div><div>7. Facturer l'acompte : La première facture est <b><font color=\"#16a34a\">OK</font></b></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/b2a08ae15b204e0c9b6f2e3035530f53\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><b><font color=\"#16a34a\"></font></b></div><div><font color=\"#18181b\">8. Saisir un deuxième paiement (paiement qui ne solde pas le séjour).</font></div><div><font color=\"#18181b\">9. Facturer ce deuxième acompte. Sur la deuxième facture, une ligne liée à l'assurance annulation et une au frais de dossier apparaît alors qu'elle ne devrait pas car déjà facturée sur la première / Les lignes sont à 0.00€ donc pas d'impact :&nbsp;</font></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/5be00839925e4fb0bdaa7872c1d1f737\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><font color=\"#18181b\"></font></div><div>10. Si on fait la facture finale, on constate le même problème :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c269a47d39f3486883f33ceca745a811\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><b>Reproduit sur démo Angélique en 18.33 / HF</b></div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-affichage-assurance-annulation-si-facturation-d-acompte-en-amont-3d78db15623a81d1a49fc8d305c89a1b"
+    },
+    {
+      "id": "3d78db15-623a-81b1-a295-f18a292dc936",
+      "identifiant": "INA-895",
+      "titre": "E reporting : ventes en compte Naxi commerce",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-10T14:09:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite à l'échange avec notre partenaire Fülle ( abbil/force7) , nous allons nous charger d'envoyer le e-reporting pour les ventes en compte Naxi Commerce.&nbsp;<div>Dans NAXI la possibilité de mettre en compte des ventes est disponible avec les specifs&nbsp;<b>NAXICOMMERCE + NAXICASHLESS</b></div><div>Une ventes en compte c'est quoi ?</div><div>Sur le logiciel de caisse, l'utilisateur peut,&nbsp; au moment du paiement, faire un transfert PMS.</div><div>Le client final peut :&nbsp;</div><div>- payer l'intégralité des ses ventes à la fin du séjour.</div><div>- Créditer un compte qui sera débité à chaque passage en caisse.&nbsp;</div><div><br></div><div><b>Les ventes mises en compte sont toujours rattachées à un numéro client</b></div><div><b><br></b></div><div>Le client final, peut créditer son compte par deux moyens :</div><div>- au comptoir, avec n'importe quel mode de paiement =&gt; il s'agit alors d'un paiement classique dans NAXI (TRANSFI)</div><div>- depuis son espace client =&gt; ce n'est pas un paiement comme les autres,&nbsp; il ne sert qu'aux ventes NAXICOMMERCE (TRANS_NV)</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/E-reporting-ventes-en-compte-Naxi-commerce-3d78db15623a81b1a295f18a292dc936"
+    },
     {
       "id": "3d78db15-623a-8106-8706-de0c7f456a47",
       "identifiant": "INA-894",
@@ -40220,7 +40288,7 @@
     ]
   },
   "counts": {
-    "classique": 678,
+    "classique": 680,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
