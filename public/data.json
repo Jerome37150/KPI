@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T11:13:59.625Z",
+  "generatedAt": "2026-09-11T15:00:11.808Z",
   "classique": [
     {
       "id": "3d78db15-623a-81d1-a49f-c8d305c89a1b",
@@ -3733,7 +3733,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4057,7 +4057,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4165,7 +4165,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -12971,7 +12971,7 @@
       "persPoTest": [],
       "pointAvancement": 0.7,
       "pointsBlocage": "",
-      "explication": "Suite aux différentes problématiques remontées et suite aux échanges avec Payline, il faut désormais que les cautions Payline effectuées par l’espace client transitent par le contrat ERT24 afin de sécuriser la transaction par du 3DS.\n\nIl faudra bien faire attention que le code action soit en 130 pour que le client ne soit pas débité.",
+      "explication": "Suite aux différentes problématiques remontées et suite aux échanges avec Payline, il faut désormais que les cautions Payline effectuées par l’espace client transitent par le contrat ERT24 afin de sécuriser la transaction par du 3DS.\n\nIl faudra bien faire attention que le code action soit en 130 pour que le client ne soit pas débité.<div><br></div><div><b>US Jira liée (BACK) :</b> <a href=\"https://inaxel.atlassian.net/browse/WEB-789\">WEB-789</a></div>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
