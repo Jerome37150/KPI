@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T06:10:08.725Z",
+  "generatedAt": "2026-09-11T11:13:59.625Z",
   "classique": [
     {
       "id": "3d78db15-623a-81d1-a49f-c8d305c89a1b",
@@ -213,7 +213,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -232,7 +232,7 @@
       "explication": "Mettre en place une BDD Postgres sur un environnement de production chez OVH",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -377,7 +377,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -396,7 +396,7 @@
       "explication": "Mettre en place la CI/CD pour déployer en production",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -449,7 +449,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -468,7 +468,7 @@
       "explication": "Création de l'environnement de production pour le projet NaxiDesk",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
