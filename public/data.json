@@ -1,6 +1,114 @@
 {
-  "generatedAt": "2026-09-14T06:12:59.056Z",
+  "generatedAt": "2026-09-14T12:41:34.067Z",
   "classique": [
+    {
+      "id": "3db8db15-623a-8143-912d-d9a55dd976d2",
+      "identifiant": "INA-899",
+      "titre": "Traitements automatiques",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-14T07:59:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Traitements-automatiques-3db8db15623a8143912dd9a55dd976d2"
+    },
+    {
+      "id": "3db8db15-623a-81ee-9522-db1455488c06",
+      "identifiant": "INA-898",
+      "titre": "Traitements automatiques",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-14T07:59:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Traitements-automatiques-3db8db15623a81ee9522db1455488c06"
+    },
+    {
+      "id": "3db8db15-623a-8119-bb0a-f97b2ae63567",
+      "identifiant": "INA-897",
+      "titre": "Traitements automatiques",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-14T07:57:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Traitements-automatiques-3db8db15623a8119bb0af97b2ae63567"
+    },
     {
       "id": "3d78db15-623a-81d1-a49f-c8d305c89a1b",
       "identifiant": "INA-896",
@@ -40288,7 +40396,7 @@
     ]
   },
   "counts": {
-    "classique": 680,
+    "classique": 683,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
