@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-09-15T04:48:36.788Z",
+  "generatedAt": "2026-09-15T09:39:54.603Z",
   "classique": [
+    {
+      "id": "3dc8db15-623a-8105-91c7-f624ea4250a8",
+      "identifiant": "INA-901",
+      "titre": "Mise en place d'une CI/CD pour déployer NaxiDesk sur une branche de maquette",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-15T09:33:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Mettre en place une CI/CD pour déployer le code des PO sur une branche de maquette et l'exposer sur internet",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-en-place-d-une-CI-CD-pour-d-ployer-NaxiDesk-sur-une-branche-de-maquette-3dc8db15623a810591c7f624ea4250a8"
+    },
+    {
+      "id": "3dc8db15-623a-81eb-afe1-e79447dbd7f6",
+      "identifiant": "INA-900",
+      "titre": "Synchro qui reste en inactive si date fin d'exercice à - 15 jours",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-15T09:19:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Les synchros des clients dont la date de fin d'exercice est au 30/09 ne s'ouvrent plus ce matin,<div><br></div><div>Elle reste en synchro inactive malgré des versions de NAXI différentes :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/4de7d52c5a9b45fd9a579599fcecbfc1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Synchro-qui-reste-en-inactive-si-date-fin-d-exercice-15-jours-3dc8db15623a81ebafe1e79447dbd7f6"
+    },
     {
       "id": "3db8db15-623a-8143-912d-d9a55dd976d2",
       "identifiant": "INA-899",
@@ -8290,7 +8362,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Développer la partie front-end de la fenêtre “Liste des séjours” : intégration des filtres, affichage dynamique des listes, gestion du code couleur, pictogrammes, compteur, champ de recherche, actions rapides, impression, et navigation. Assurer la réactivité et l’ergonomie de l’interface.</p>",
+      "explication": "<p>Développer la partie front-end de la fenêtre “Liste des séjours” : intégration des filtres, affichage dynamique des listes, gestion du code couleur, pictogrammes, compteur, champ de recherche, actions rapides, impression, et navigation. Assurer la réactivité et l’ergonomie de l’interface.</p><p><br></p><p><br></p><p>https://ctoutvertcom-my.sharepoint.com/:x:/g/personal/marjorie_gusai_inaxel_com/IQBimhcvECDVQ7iWAt1o-RGzATpfjWM1wwxMpS6mkOlyDW8?e=dYqSm4</p>",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -40396,7 +40468,7 @@
     ]
   },
   "counts": {
-    "classique": 683,
+    "classique": 685,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
