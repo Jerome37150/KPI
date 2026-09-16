@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-09-16T06:43:20.104Z",
+  "generatedAt": "2026-09-16T12:03:31.721Z",
   "classique": [
+    {
+      "id": "3dd8db15-623a-813d-a383-fb97b0babc67",
+      "identifiant": "INA-902",
+      "titre": "Impossible de voir les départs du jour sur le tableau des Arrivées/Départs sir la date de départ correspond à la fin du planning",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-16T08:58:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Il n'est pas possible de visualiser les départs du jour lorsque :&nbsp;<br><br>1. Se rendre dans le menu Paramètres &gt; Paramètres Exercice<div>2. Récupérer la date de fin du planning</div><div>3. Ouvrir une fiche client et créer un séjour en s'assurant que la date de départ correspondent à la date de fin du planning</div><div>4. Valider le séjour</div><div>5. Se rendre ensuite dans le menu Séjour &gt; Arrivées / Départs</div><div>6. Saisir la date de fin du planning (dans mon exemple 30/12/2026)</div><div><br></div><div>NAXI affiche alors un message comme quoi la date d'arrivée doit être comprises dans les dates d'exercice</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/050367b025864104a45468af4c2cec58\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Il est donc impossible de voir les départs du jour</div><div><br></div><div><b>Reproduit sur démo Angélique en 18.34 / HF</b></div><div>Chadotel est en SQL 18.34</div><div><br></div><div>-&gt; Il faudrait que le contrôle soit fait sur la date de départ et non pas sur la date d'arrivée</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Impossible-de-voir-les-d-parts-du-jour-sur-le-tableau-des-Arriv-es-D-parts-sir-la-date-de-d-part-cor-3dd8db15623a813da383fb97b0babc67"
+    },
     {
       "id": "3dc8db15-623a-8105-91c7-f624ea4250a8",
       "identifiant": "INA-901",
@@ -2653,7 +2685,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2672,7 +2704,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -2689,7 +2721,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2708,7 +2740,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -2869,7 +2901,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2888,7 +2920,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -2977,7 +3009,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2996,7 +3028,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3012,9 +3044,7 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3031,9 +3061,7 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5086,7 +5114,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5105,7 +5133,7 @@
       "explication": "Mettre en place les endpoints et traitements nécessaires pour charger les demandes à traiter avec leurs données complètes, rapprocher et mettre à jour les fiches clients, calculer les disponibilités d'emplacements et les tarifs, persister les validations et refus par type de demande et déclencher les traitements associés (e-mail, paiement, facturation).",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -5122,7 +5150,8 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "SEPTEMBRE 26",
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5141,7 +5170,7 @@
       "explication": "Développer l'interface du panneau : liste des demandes avec filtres et signalétique, parcours de traitement par étapes avec stepper adapté au type de demande (rapprochement client, choix d'emplacement, traitements e-mail/paiement/facturation), flux de refus, récapitulatifs de confirmation et écrans de succès.",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6544,7 +6573,7 @@
       "priorisation": null,
       "sprintIdeal": [
         "AOUT 26",
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -6561,7 +6590,7 @@
       "explication": "<p>Développer l’API et la logique serveur pour fournir les données du plan du camping, les statuts d’occupation en temps réel, la gestion des filtres, la recherche de disponibilités, la synchronisation des sélections, et l’intégration avec la base de données des emplacements et réservations.</p><p><b>US Jira liée :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-261\">TL-261</a></p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6579,7 +6608,7 @@
       "priorisation": null,
       "sprintIdeal": [
         "AOUT 26",
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -6596,7 +6625,7 @@
       "explication": "<p>Développer l’interface utilisateur du plan du camping en plein écran, incluant la carte interactive, la gestion des spots, les filtres, la barre d’outils, le panneau de recherche avancée, les tooltips, le zoom, la navigation, et la synchronisation des états (sélection, filtres, onglets).</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6776,7 +6805,7 @@
       "priorisation": null,
       "sprintIdeal": [
         "AOUT 26",
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -6793,7 +6822,7 @@
       "explication": "<p>Développer la partie back-end pour la gestion des données et des règles métier liées aux suppléments numérotés, y compris la gestion des disponibilités et des affectations.</p><p><b>US Jira liée :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-338\">TL-338</a></p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6811,7 +6840,7 @@
       "priorisation": null,
       "sprintIdeal": [
         "AOUT 26",
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -6828,7 +6857,7 @@
       "explication": "<p>Développer la partie front-end de la fenêtre/planning des suppléments numérotés, en respectant le design validé et en assurant l'intégration des interactions utilisateur.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6944,7 +6973,7 @@
       "priorisation": null,
       "sprintIdeal": [
         "AOUT 26",
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -6961,7 +6990,7 @@
       "explication": "<p>Développer la logique backend pour la gestion de la liste des cautions, y compris la récupération, le filtrage (dates, statuts, types, modes de paiement), la restitution en masse, la gestion des statuts et l'intégration des nouvelles règles de gestion.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6979,7 +7008,7 @@
       "priorisation": null,
       "sprintIdeal": [
         "AOUT 26",
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -6996,7 +7025,7 @@
       "explication": "<p>Développer l'interface utilisateur de la fenêtre Liste des Cautions, intégrant les filtres, le tableau de résultats, les boutons d'action (recherche, modification, impression, restitution, accès fiche client), la sélection/désélection en masse, et l'affichage des statuts et détails.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -7348,7 +7377,7 @@
       "priorisation": null,
       "sprintIdeal": [
         "AOUT 26",
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7365,7 +7394,7 @@
       "explication": "<p>Développer la logique backend pour la fenêtre 'moniteur contrôle d'accès', incluant la gestion des deux onglets (NAXI Code et NAXI Cam), la récupération et l'affichage des passages aux barrières, la gestion des boutons d'ouverture, et l'intégration des informations spécifiques (numéro du point d’accès, nom/prénom, validation, plaque d’immatriculation ou code selon l’onglet).</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -7383,7 +7412,7 @@
       "priorisation": null,
       "sprintIdeal": [
         "AOUT 26",
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7400,7 +7429,7 @@
       "explication": "<p>Implémenter l’interface utilisateur de la fenêtre 'moniteur contrôle d'accès' avec deux onglets distincts (NAXI Code et NAXI Cam), affichage des colonnes requises, gestion des boutons d’ouverture pour chaque point d’accès, et intégration avec le backend.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8809,7 +8838,7 @@
       "priorisation": null,
       "sprintIdeal": [
         "AOUT 26",
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -8826,7 +8855,7 @@
       "explication": "<p>Implémenter la logique métier et les API nécessaires pour gérer les ventes réception, les paiements, les interactions avec les autres modules (clients, produits, paiements), et le stockage des données associées.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8844,7 +8873,7 @@
       "priorisation": null,
       "sprintIdeal": [
         "AOUT 26",
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -8861,7 +8890,7 @@
       "explication": "<p>Développer l'interface utilisateur du module Ventes Réception, en intégrant tous les éléments interactifs (boutons, tableaux, champs de saisie, sélecteurs, etc.) et en assurant la navigation et l'expérience utilisateur selon les maquettes validées.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8977,7 +9006,7 @@
       "priorisation": null,
       "sprintIdeal": [
         "AOUT 26",
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -8994,7 +9023,7 @@
       "explication": "<p>Implémenter la logique métier et les API nécessaires pour la gestion des ventes à la réception, incluant la récupération des données, la gestion des filtres, la génération d'avoirs, l'impression de tickets, et la gestion des paiements et remboursements.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9012,7 +9041,7 @@
       "priorisation": null,
       "sprintIdeal": [
         "AOUT 26",
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9029,7 +9058,7 @@
       "explication": "<p>Développer l'interface utilisateur de la fenêtre 'Gestion des Ventes Réception' en respectant les maquettes et les spécifications fonctionnelles, incluant la gestion des filtres, l'affichage des ventes, les boutons d'action, et la navigation vers les fenêtres associées.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9079,7 +9108,7 @@
       "priorisation": null,
       "sprintIdeal": [
         "AOUT 26",
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9096,7 +9125,7 @@
       "explication": "<p>Développer la logique backend pour fournir les données nécessaires à l'affichage du calendrier d'occupation mensuelle : calcul des taux d'occupation, gestion des filtres par type d'hébergement, récupération des arrivées et départs par jour, et gestion des périodes d'ouverture de la saison.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9114,7 +9143,7 @@
       "priorisation": null,
       "sprintIdeal": [
         "AOUT 26",
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9131,7 +9160,7 @@
       "explication": "<p>Implémenter l'interface utilisateur du panneau Occupation mensuelle côté frontend : affichage de la grille calendrier, gestion du scroll automatique à l'ouverture, application des codes couleur, gestion des filtres, et intégration avec le store global pour l'ouverture/fermeture du panneau.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9281,7 +9310,7 @@
       "priorisation": null,
       "sprintIdeal": [
         "AOUT 26",
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9298,7 +9327,7 @@
       "explication": "<p>Développer la partie back-end de la To Do Liste, incluant la gestion des tâches, la persistance des données et l'intégration avec les autres modules si nécessaire.</p><p><b>US Jira liée :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-347\">TL-347</a></p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9315,7 +9344,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9332,7 +9361,7 @@
       "explication": "<p>Développer la partie front-end de la To Do Liste, en intégrant le design validé et en assurant l'interactivité et la réactivité de l'interface.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -40468,7 +40497,7 @@
     ]
   },
   "counts": {
-    "classique": 685,
+    "classique": 686,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
