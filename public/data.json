@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T12:03:31.721Z",
+  "generatedAt": "2026-09-16T16:48:20.494Z",
   "classique": [
     {
       "id": "3dd8db15-623a-813d-a383-fb97b0babc67",
@@ -8,7 +8,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -25,7 +27,9 @@
       "pointsBlocage": "",
       "explication": "Il n'est pas possible de visualiser les départs du jour lorsque :&nbsp;<br><br>1. Se rendre dans le menu Paramètres &gt; Paramètres Exercice<div>2. Récupérer la date de fin du planning</div><div>3. Ouvrir une fiche client et créer un séjour en s'assurant que la date de départ correspondent à la date de fin du planning</div><div>4. Valider le séjour</div><div>5. Se rendre ensuite dans le menu Séjour &gt; Arrivées / Départs</div><div>6. Saisir la date de fin du planning (dans mon exemple 30/12/2026)</div><div><br></div><div>NAXI affiche alors un message comme quoi la date d'arrivée doit être comprises dans les dates d'exercice</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/050367b025864104a45468af4c2cec58\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Il est donc impossible de voir les départs du jour</div><div><br></div><div><b>Reproduit sur démo Angélique en 18.34 / HF</b></div><div>Chadotel est en SQL 18.34</div><div><br></div><div>-&gt; Il faudrait que le contrôle soit fait sur la date de départ et non pas sur la date d'arrivée</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -219,8 +223,10 @@
       "titre": "Erreur affichage assurance annulation si facturation d'acompte en amont",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [
+        "JANVIER 27"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -237,7 +243,9 @@
       "pointsBlocage": "",
       "explication": "L'affichage des factures est incorrect lorsque :&nbsp;<div><div><br></div><div>1. Se rendre dans le menu Paramètres &gt; Paiements &gt; Onglet Acomptes</div><div>2. S'assurer que la case 'Facturer aussi les frais de dossier et l'assurance annulation' soit cochée :</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/78d8049f5ee14d4bb87949c269380a4c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>3. Se rendre ensuite dans le menu Paramètres &gt; Tarifs &gt; Onget Suppléments</div></div><div>4. S'assurer d'avoir un supplément de type assurance annulation dont une partie est conservée par le camping :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/529c3316cbf44ac589d499667d0605d1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>5. Créer un séjour et y ajouter des frais de dossier et de l'assurance annulation.</div><div>6. Saisir un acompte sur ce séjour</div><div>7. Facturer l'acompte : La première facture est <b><font color=\"#16a34a\">OK</font></b></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/b2a08ae15b204e0c9b6f2e3035530f53\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><b><font color=\"#16a34a\"></font></b></div><div><font color=\"#18181b\">8. Saisir un deuxième paiement (paiement qui ne solde pas le séjour).</font></div><div><font color=\"#18181b\">9. Facturer ce deuxième acompte. Sur la deuxième facture, une ligne liée à l'assurance annulation et une au frais de dossier apparaît alors qu'elle ne devrait pas car déjà facturée sur la première / Les lignes sont à 0.00€ donc pas d'impact :&nbsp;</font></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/5be00839925e4fb0bdaa7872c1d1f737\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><font color=\"#18181b\"></font></div><div>10. Si on fait la facture finale, on constate le même problème :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c269a47d39f3486883f33ceca745a811\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><b>Reproduit sur démo Angélique en 18.33 / HF</b></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -288,7 +296,9 @@
       "classification": null,
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
@@ -305,7 +315,9 @@
       "pointsBlocage": "",
       "explication": "<div>Un incident a été constaté sur la fonctionnalité \"Identifiant oublié\" lorsque l'on est sur un espace client groupe :&nbsp;</div><div><br></div><div><i>Pré-requis : Etre sur un espace client groupe</i></div><div><br></div><div>1. Sur NAXI, créer une fiche client avec un séjour sur une entreprise A&nbsp;</div><div>2. Se rendre ensuite sur un l'espace client</div><div>3. Cliquer sur le lien \"Identifiant oublié\"</div><div>4. Saisir l'adresse email correspondant à la fiche client crée précédemment</div><div>5. Lorsqu'on reçoit le mail d'identifiant oublié, l'expéditeur correspond à un camping du groupe mais ne correspond pas au camping sur lequel nous avons crée le séjour.</div><div><br></div><div>Cela est donc très perturbant pour le client final</div><div><br></div><div><b>Reproduit sur démo CIELA en 18.30 / SQL&nbsp;</b><br><br>-&gt; J'ai voulu faire identifiant oublié sur une client qui n'a que des séjours sur le camping FLORIDE</div><div>-&gt; Quand je reçois le mail, l'expéditeur est le camping BEAURIVAGE</div><div><br></div><div>Je ne sais pas pourquoi il prend ce camping car ce n'est même pas le premier de la liste (le premier étant ATLANTICA)</div><div><i>A voir si on le bascule en étude pour revoir tout le fonctionnement de cet identifiant oublié sur les bases groupes</i></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -524,7 +536,9 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -541,7 +555,9 @@
       "pointsBlocage": "",
       "explication": "Il arrive bien souvent sur les saas, que je sois bloquée sur l’opérateur NAXI ADMIN lorsque je clique sur l’icône permettant de lancer la mise à jour. Cela nécessite donc que j’aille en base de données, sur la table OPER afin de récupérer un opérateur et son mot de passe (en ayant vérifiant en amont dans le paramétrage que cet opérateur a bien les autorisations pour déployer les mises à jour). Est ce qu’il serait possible de faire en sorte que l’opérateur NAXI ADMIN soit toujours autorisé à lancer une mise à jour ?<div><br></div><div>Dans les paramétrages opérateurs de NAXI , on peut venir bloquer certaines fonctionnalités aux utilisateurs, comme le passage de version, l’activation/désactivation de la synchro.&nbsp;</div><div><br></div><div>Aujourd’hui, l’opérateur NAXIADMIN, se retrouve bloqué lorsqu’il y a des utilisateurs qui ont ces fonctions interdites.&nbsp;</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -556,7 +572,9 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -573,7 +591,9 @@
       "pointsBlocage": "",
       "explication": "En tant qu’utilisateur, je souhaite pouvoir cocher en masse les compteurs afin de gagner du temps dans la procédure de fermeture/ouverture de ces derniers.<div><br><div>&nbsp;Chaque année le camping les Dunes s'arrachent les cheveux car elle a 700 résidents en eau + élec soit 1400 compteurs minimum à fermer et rouvrir 4 fois par an minimum (voir plus pour l'elec)  à cause des changements de prix et des reports ... Opération très chronophage</div></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ad96a3958ef044b0a70e921568d7e50d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -768,7 +788,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
@@ -785,7 +807,9 @@
       "pointsBlocage": "",
       "explication": "<div><div>Les séjours ne s'affichent pas correctement lorsque :&nbsp;</div></div><div><br></div><div>1. S'assurer d'être sur un espace client groupe</div><div>2. Sur NAXI, sur une fiche client, créer un séjour sur l'entreprise A et un séjour sur l'entreprise B</div><div>3. S'assurer que les command ont bien été envoyés sur le web</div><div>4. Se connecter ensuite sur l'espace client du client concerné</div><div>5. Si on regarde les réservations affichées, seul un séjour sur les deux apparaît.</div><div><br></div><div><b><i>Eléments vérifiés sur les deux groupes (Ciela / Chadotel) :&nbsp;</i></b></div><div><br></div><div>- Les résas web des deux campings sont bien ouvertes.&nbsp;</div><div>- Les paramétrages des groupcamp ont été vérifiés. Les clients ayant qu'un seul séjour fonctionne parfaitement.</div><div>- Les fichecamping de chaque établissement ont bien été envoyées sur le web.</div><div>- Les command qui ne s'affichent pas sont bien présentes sur le web</div><div><br></div><div>Il semble donc que l'affichage des multiséjours sur des établissements différents ne soit pas géré</div><div><br></div><div><b>Reproduit sur base de données CHADOTEL et confirmé sur base de données de CIELA.</b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -800,7 +824,9 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -817,7 +843,9 @@
       "pointsBlocage": "",
       "explication": "En tant que P.O, je souhaite bloquer la saisie des quantités de supplément à 999 afin d’éviter des problèmes d’envoi au CRM.<div><br><div>Actuellement, l’utilisateur peut saisir la quantité qu’il souhaite sur les suppléments lorsqu’il crée un séjour.</div><div>Cependant, lorsque le CRM est activée sur la licence, si la commande contient un supplément avec une quantité supérieure à 999 l’envoi ne se fait pas côté CRM.&nbsp;</div><div>SH a limité la quantité à 999.&nbsp;</div><div>Dans un but d’harmonisation avec SH , nous allons limiter de notre côté la saisie d’une quantité supérieure à 999.</div></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -864,7 +892,9 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "JANVIER 27"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -881,7 +911,9 @@
       "pointsBlocage": "",
       "explication": "&nbsp;En tant que P.O je souhaite que l’utilisateur ne puisse pas modifier la date de vente d’un ticket de ventes réception afin que  les données soient  cohérentes.<div><br><div>Dans le menu ventes réception /saisie des ventes , nous avons la possibilité de choisir deux modes de visualisation de la fenêtre :  Le mode classique et le mode caisse.&nbsp;</div><div>Le mode classique laisse la possibilité à l’utilisateur de modifier la date de la vente :&nbsp;</div></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/01b0cbc0be724d00bd25f8092eb8e387\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Problème rencontré</div><div>1.&nbsp; Lorsque la fenêtre des ventes réception reste constamment ouverte en mode classique : quand la date du PC change au lendemain, la fenêtre des ventes réception, si elle est restée ouverte, reste à la date de la veille. Mais à la génération d'une vente, le paiement et la commande sont en date de la veille et le ticket lui prend bien la date de l’ordinateur et donc il est à la date du jour …</div><div><br></div><div>2.&nbsp; l’utilisateur pouvant inscrire lui même une date, il peut faire une erreur =&gt; appel au support car il ne retrouve pas sa vente qui a été enregistré en 2050.&nbsp;</div><div><br></div><div>&nbsp;Nous allons donc bloquer la possibilité à l’utilisateur de modifier cette date :&nbsp;</div><div><br></div><div>=&gt; cohérence entre la date de vente, la date de paiement et la date du ticket.&nbsp;</div><div><br></div><div>=&gt; être ISO avec le mode Caisse</div><div><br></div><div>=&gt; éviter les interventions en base de données pour les erreurs de frappe (ticket enregistré en 2050 …)</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -12148,7 +12180,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -12163,9 +12197,11 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Les clients utilisant les SMTP de Microsoft Outlook ne peuvent plus envoyer de mail si l'Oauth2 est activée dans NAXI.<br><br>1. Se rendre dans le menu Paramètres &gt; Emails<div>2. Dans les SMTP configurer des SMTP Outlook (nos adresses .inaxel.com sont en réalité des adresses outlook donc pratique pour faire des tests :) )</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a4e4a4c707764188a3a94cb1dc823937\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>3. Cocher l'Oauth2&nbsp;</div><div>4. Se rendre sur une fiche client</div><div>5. Envoyer un email&nbsp;</div><div>6. Au clic sur le bouton d'envoi, une page du navigateur s'ouvre puis, indique que l'on peut fermer cette fenetre</div><div>7. Au retour dans NAXI, on a un message d'erreur indiquant que le mail n'est pas parti</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7231556d154244028e4a00bbfd3e1c28\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>8. Si on regarde dans le dossier NAXI, le token ne s'est pas généré</div><div><br></div><div>-&gt; Si on enlève la double authentification sur Outlook, visiblement ça refonctionne mais ce n'est pas une solution&nbsp;</div><div><br></div><div><b>De plus, si on recherche sur le web, on peut lire :&nbsp;</b><br><br><i>Il n'existe pas de solution permettant de continuer à utiliser smtp.office365.com sans authentification moderne après<b><u> avril 2026</u></b> ; il faut soit migrer vers OAuth2, soit changer de fournisseur. Or OAuth2/XOAUTH2 n'est généralement pas supporté par les logiciels métiers \"basiques\" qui ne savent faire que login/mot de passe sur le port 587/465<br><br>-&gt; Donc on ne peut plus proposer aux clients de remplacer l'Oauth 2 par une simple connexion TLS en 587.<br>Et désactiver la double authentification n'est pas très professionnel</i></div><div><br><b>Retour de l'informaticien du camping FALAISE56 qui est concerné :&nbsp;</b><br><br><i>L'informaticien du camping m'a indiqué que c'était très limite niveau sécurité et qu'à partir de janvier 2027 l'authentification simple ne sera plus possible</i><br><br></div><div><b><u>Reproduit sur démo Angélique en 18.25 HF&nbsp;</u></b><br>Lien jam avec compte email Angélique : https://jam.dev/c/3be4ec20-0745-43a1-bb43-61436499280e<br>Lien Jam avec adresse email crée spécialement par Steven : https://jam.dev/c/d0fdccc1-2ad7-479d-aa59-c63a0f8b65e8<br><br><b><font color=\"#ca8a04\">Pas de moyen à ce jour de chiffre le nombre de client utilisant cette solution</font></b></div>",
+      "explication": "Les clients utilisant les SMTP de Microsoft Outlook ne peuvent plus envoyer de mail si l'Oauth2 est activée dans NAXI.<br><br>1. Se rendre dans le menu Paramètres &gt; Emails<div>2. Dans les SMTP configurer des SMTP Outlook (nos adresses .inaxel.com sont en réalité des adresses outlook donc pratique pour faire des tests :) )</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a4e4a4c707764188a3a94cb1dc823937\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>3. Cocher l'Oauth2&nbsp;</div><div>4. Se rendre sur une fiche client</div><div>5. Envoyer un email&nbsp;</div><div>6. Au clic sur le bouton d'envoi, une page du navigateur s'ouvre puis, indique que l'on peut fermer cette fenetre</div><div>7. Au retour dans NAXI, on a un message d'erreur indiquant que le mail n'est pas parti</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7231556d154244028e4a00bbfd3e1c28\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>8. Si on regarde dans le dossier NAXI, le token ne s'est pas généré</div><div><br></div><div>-&gt; Si on enlève la double authentification sur Outlook, visiblement ça refonctionne mais ce n'est pas une solution&nbsp;</div><div><br></div><div><b>De plus, si on recherche sur le web, on peut lire :&nbsp;</b><br><br><i>Il n'existe pas de solution permettant de continuer à utiliser smtp.office365.com sans authentification moderne après<b><u> avril 2026</u></b> ; il faut soit migrer vers OAuth2, soit changer de fournisseur. Or OAuth2/XOAUTH2 n'est généralement pas supporté par les logiciels métiers \"basiques\" qui ne savent faire que login/mot de passe sur le port 587/465<br><br>-&gt; Donc on ne peut plus proposer aux clients de remplacer l'Oauth 2 par une simple connexion TLS en 587.<br>Et désactiver la double authentification n'est pas très professionnel</i></div><div><br><b>Retour de l'informaticien du camping FALAISE56 qui est concerné :&nbsp;</b><br><br><i>L'informaticien du camping m'a indiqué que c'était très limite niveau sécurité et qu'à partir de janvier 2027 l'authentification simple ne sera plus possible</i><br><br></div><div><b><u>Reproduit sur démo Angélique en 18.25 HF&nbsp;</u></b><br>Lien jam avec compte email Angélique : https://jam.dev/c/3be4ec20-0745-43a1-bb43-61436499280e<br>Lien Jam avec adresse email crée spécialement par Steven : https://jam.dev/c/d0fdccc1-2ad7-479d-aa59-c63a0f8b65e8<br><br><b><font color=\"#ca8a04\">Pas de moyen à ce jour de chiffre le nombre de client utilisant cette solution</font></b></div><div><b><font color=\"#ca8a04\"><br></font></b></div><div><b><font color=\"#ca8a04\">COEUR 412 / COEUR 409</font></b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
