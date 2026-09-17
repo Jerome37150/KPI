@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T10:09:13.048Z",
+  "generatedAt": "2026-09-17T14:57:23.910Z",
   "classique": [
     {
       "id": "3de8db15-623a-814d-ba51-fe416c5b316f",
@@ -169,7 +169,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Exposer l'indicateur « l'opérateur connecté a des traitements automatiques à faire » et mettre en place le point d'entrée vers la fenêtre des traitements automatiques de la version classique, avec transmission du contexte opérateur, camping et saison sans nouvelle authentification.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -205,7 +205,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer le bouton « Traitement automatique » du header : icône, pastille de notification conditionnelle, bulle d'information au survol et ouverture de la version classique dans un nouvel onglet, directement sur la fenêtre des traitements automatiques de l'opérateur connecté.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -3297,7 +3297,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Exposer et persister l'ensemble des champs d'identité du client, les listes de référence et les valeurs par défaut issues du paramétrage du camping, les règles de validation à la création, la comparaison avec la fiche CRM et la suppression conditionnée à l'absence de prestation.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -3333,7 +3333,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer la section Identité de la fiche client : grille de six blocs de champs, contrôles de saisie, signalisation des champs obligatoires et des alertes de non-saisie, verrou de sortie d'une fiche incomplète, modale de comparaison avec la fiche CRM et suppression de la fiche.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -3513,7 +3513,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Exposer les données d'en-tête de la fiche client (identité, coordonnées, type, identifiant d'espace client), les compteurs de chaque section du menu, la persistance des mémos et de la remarque avec son alerte, ainsi que la liste des champs obligatoires issue du paramétrage du camping.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -3549,7 +3549,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer la structure de la fiche client : carte client permanente (identité, coordonnées copiables, type de client, gestion des mémos et de la remarque avec sa fenêtre d'alerte, menu Actions) et menu latéral de navigation entre les sections, avec ses modes réduit et étendu et son verrouillage pendant la création d'une fiche.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -3621,7 +3621,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires à la recherche de clients par nom, numéro client ou numéro d'emplacement, à l'affinage par critères secondaires, à la restitution du séjour rattaché à chaque client, à la gestion de l'historique des clients consultés et à la création d'une fiche client.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -5333,7 +5333,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de la page d'accueil Clients : onglets de recherche par client ou par numéro d'emplacement, champ de recherche et filtres d'affinage, liste des résultats et des derniers clients consultés, ouverture de la fiche au clic et création d'une nouvelle fiche client.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
