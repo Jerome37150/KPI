@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T14:57:23.910Z",
+  "generatedAt": "2026-09-17T18:42:58.651Z",
   "classique": [
     {
       "id": "3de8db15-623a-814d-ba51-fe416c5b316f",
@@ -3405,7 +3405,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Exposer le type du client et l'adresse de la version classique en source unique, sans exposer aucun paramétrage de fiche particulière à Naxi Desk, et arbitrer si le renvoi doit ouvrir directement le paramétrage du client concerné.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -3441,7 +3441,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer la section TO / CE / Résident de la fiche client : en-tête de section et encart centré « Une fonction vous manque ? » renvoyant vers la version classique dans un nouvel onglet.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
