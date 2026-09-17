@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-09-17T05:22:50.876Z",
+  "generatedAt": "2026-09-17T10:09:13.048Z",
   "classique": [
+    {
+      "id": "3de8db15-623a-814d-ba51-fe416c5b316f",
+      "identifiant": "INA-903",
+      "titre": "Erreur Smtp Microsoft Oauth",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-17T07:45:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Les clients utilisant les SMTP de Microsoft Outlook ne peuvent plus envoyer de mail si l'Oauth2 est activée dans NAXI.<div><br></div><div>1. Se rendre dans le menu Paramètres &gt; Emails</div><div>2. Dans les SMTP configurer des SMTP Outlook (nos adresses .inaxel.com sont en réalité des adresses outlook donc pratique pour faire des tests :) )</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/280d2b63481e4612a822d872676f35c1\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>3. Cocher l'Oauth2&nbsp;</div><div>4. Se rendre sur une fiche client</div><div>5. Envoyer un email&nbsp;</div><div>6. Au clic sur le bouton d'envoi, une page du navigateur s'ouvre puis, indique que l'on peut fermer cette fenetre</div><div>7. Au retour dans NAXI, on a un message d'erreur indiquant que le mail n'est pas parti</div><div>3. Cocher l'Oauth2&nbsp;</div><div>4. Se rendre sur une fiche client</div><div>5. Envoyer un email&nbsp;</div><div>6. Au clic sur le bouton d'envoi, une page du navigateur s'ouvre puis, indique que l'on peut fermer cette fenetre</div><div>7. Au retour dans NAXI, on a un message d'erreur indiquant que le mail n'est pas parti</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/debe92432d1741ba8d81282825b7b5ec\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>8. Si on regarde dans le dossier NAXI, le token ne s'est pas généré</div><div><br></div><div>-&gt; Si on enlève la double authentification sur Outlook, visiblement ça refonctionne mais ce n'est pas une solution&nbsp;</div><div><br></div><div>De plus, si on recherche sur le web, on peut lire :&nbsp;</div><div><br></div><div>Il n'existe pas de solution permettant de continuer à utiliser smtp.office365.com sans authentification moderne après avril 2026 ; il faut soit migrer vers OAuth2, soit changer de fournisseur. Or OAuth2/XOAUTH2 n'est généralement pas supporté par les logiciels métiers \"basiques\" qui ne savent faire que login/mot de passe sur le port 587/465</div><div><br></div><div>-&gt; Donc on ne peut plus proposer aux clients de remplacer l'Oauth 2 par une simple connexion TLS en 587.</div><div>Et désactiver la double authentification n'est pas très professionnel</div><div><br></div><div>Retour de l'informaticien du camping FALAISE56 qui est concerné :&nbsp;</div><div><br></div><div>L'informaticien du camping m'a indiqué que c'était très limite niveau sécurité et qu'à partir de janvier 2027 l'authentification simple ne sera plus possible</div><div><br></div><div>Reproduit sur démo Angélique en 18.25 HF&nbsp;</div><div>Lien jam avec compte email Angélique : https://jam.dev/c/3be4ec20-0745-43a1-bb43-61436499280e</div><div>Lien Jam avec adresse email crée spécialement par Steven : https://jam.dev/c/d0fdccc1-2ad7-479d-aa59-c63a0f8b65e8</div><div><br></div><div><font color=\"#ca8a04\"><b>Pas de moyen à ce jour de chiffre le nombre de client utilisant cette solution</b></font></div><div><font color=\"#ca8a04\"><b><br></b></font></div><div><font color=\"#ca8a04\"><b>Les clés arrivant à expiration, on veut mettre en place les clés sur le web, il s'agissait des COEUR-412 / COEUR-409&nbsp;</b></font></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-Smtp-Microsoft-Oauth-3de8db15623a814dba51fe416c5b316f"
+    },
     {
       "id": "3dd8db15-623a-813d-a383-fb97b0babc67",
       "identifiant": "INA-902",
@@ -1032,7 +1068,7 @@
     {
       "id": "3d58db15-623a-81b6-b805-de986fb7e3bf",
       "identifiant": "INA-873",
-      "titre": "Bouton \"A traiter\" du bandeau",
+      "titre": "Boutons \"CA Total\" + \"Fiche\" du bandeau",
       "classification": null,
       "statut": null,
       "priorisation": null,
@@ -1063,12 +1099,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Bouton-A-traiter-du-bandeau-3d58db15623a81b6b805de986fb7e3bf"
+      "url": "https://app.notion.com/p/Boutons-CA-Total-Fiche-du-bandeau-3d58db15623a81b6b805de986fb7e3bf"
     },
     {
       "id": "3d58db15-623a-814c-84f6-cc4560db62b1",
       "identifiant": "INA-872",
-      "titre": "Bouton \"A traiter\" du bandeau",
+      "titre": "Boutons \"CA Total\" + \"Fiche\" du bandeau",
       "classification": null,
       "statut": null,
       "priorisation": null,
@@ -1099,12 +1135,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Bouton-A-traiter-du-bandeau-3d58db15623a814c84f6cc4560db62b1"
+      "url": "https://app.notion.com/p/Boutons-CA-Total-Fiche-du-bandeau-3d58db15623a814c84f6cc4560db62b1"
     },
     {
       "id": "3d58db15-623a-819d-830b-e8b52b494691",
       "identifiant": "INA-871",
-      "titre": "Bouton \"A traiter\" du bandeau",
+      "titre": "Boutons \"CA Total\" + \"Fiche\" du bandeau",
       "classification": null,
       "statut": null,
       "priorisation": null,
@@ -1135,7 +1171,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Bouton-A-traiter-du-bandeau-3d58db15623a819d830be8b52b494691"
+      "url": "https://app.notion.com/p/Boutons-CA-Total-Fiche-du-bandeau-3d58db15623a819d830be8b52b494691"
     },
     {
       "id": "3d58db15-623a-81ec-be90-c89ee97328dd",
@@ -1460,9 +1496,7 @@
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "SEPTEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -1479,9 +1513,7 @@
       "pointsBlocage": "",
       "explication": "Migration de la BDD MariaDB d'AWS vers OVH en preprod",
       "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2320,9 +2352,7 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -2339,9 +2369,7 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -12197,7 +12225,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Les clients utilisant les SMTP de Microsoft Outlook ne peuvent plus envoyer de mail si l'Oauth2 est activée dans NAXI.<br><br>1. Se rendre dans le menu Paramètres &gt; Emails<div>2. Dans les SMTP configurer des SMTP Outlook (nos adresses .inaxel.com sont en réalité des adresses outlook donc pratique pour faire des tests :) )</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a4e4a4c707764188a3a94cb1dc823937\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>3. Cocher l'Oauth2&nbsp;</div><div>4. Se rendre sur une fiche client</div><div>5. Envoyer un email&nbsp;</div><div>6. Au clic sur le bouton d'envoi, une page du navigateur s'ouvre puis, indique que l'on peut fermer cette fenetre</div><div>7. Au retour dans NAXI, on a un message d'erreur indiquant que le mail n'est pas parti</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7231556d154244028e4a00bbfd3e1c28\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>8. Si on regarde dans le dossier NAXI, le token ne s'est pas généré</div><div><br></div><div>-&gt; Si on enlève la double authentification sur Outlook, visiblement ça refonctionne mais ce n'est pas une solution&nbsp;</div><div><br></div><div><b>De plus, si on recherche sur le web, on peut lire :&nbsp;</b><br><br><i>Il n'existe pas de solution permettant de continuer à utiliser smtp.office365.com sans authentification moderne après<b><u> avril 2026</u></b> ; il faut soit migrer vers OAuth2, soit changer de fournisseur. Or OAuth2/XOAUTH2 n'est généralement pas supporté par les logiciels métiers \"basiques\" qui ne savent faire que login/mot de passe sur le port 587/465<br><br>-&gt; Donc on ne peut plus proposer aux clients de remplacer l'Oauth 2 par une simple connexion TLS en 587.<br>Et désactiver la double authentification n'est pas très professionnel</i></div><div><br><b>Retour de l'informaticien du camping FALAISE56 qui est concerné :&nbsp;</b><br><br><i>L'informaticien du camping m'a indiqué que c'était très limite niveau sécurité et qu'à partir de janvier 2027 l'authentification simple ne sera plus possible</i><br><br></div><div><b><u>Reproduit sur démo Angélique en 18.25 HF&nbsp;</u></b><br>Lien jam avec compte email Angélique : https://jam.dev/c/3be4ec20-0745-43a1-bb43-61436499280e<br>Lien Jam avec adresse email crée spécialement par Steven : https://jam.dev/c/d0fdccc1-2ad7-479d-aa59-c63a0f8b65e8<br><br><b><font color=\"#ca8a04\">Pas de moyen à ce jour de chiffre le nombre de client utilisant cette solution</font></b></div><div><b><font color=\"#ca8a04\"><br></font></b></div><div><b><font color=\"#ca8a04\">COEUR 412 / COEUR 409</font></b></div>",
+      "explication": "Les clients utilisant les SMTP de Microsoft Outlook ne peuvent plus envoyer de mail si l'Oauth2 est activée dans NAXI.<br><br>1. Se rendre dans le menu Paramètres &gt; Emails<div>2. Dans les SMTP configurer des SMTP Outlook (nos adresses .inaxel.com sont en réalité des adresses outlook donc pratique pour faire des tests :) )</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a4e4a4c707764188a3a94cb1dc823937\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>3. Cocher l'Oauth2&nbsp;</div><div>4. Se rendre sur une fiche client</div><div>5. Envoyer un email&nbsp;</div><div>6. Au clic sur le bouton d'envoi, une page du navigateur s'ouvre puis, indique que l'on peut fermer cette fenetre</div><div>7. Au retour dans NAXI, on a un message d'erreur indiquant que le mail n'est pas parti</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7231556d154244028e4a00bbfd3e1c28\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>8. Si on regarde dans le dossier NAXI, le token ne s'est pas généré</div><div><br></div><div>-&gt; Si on enlève la double authentification sur Outlook, visiblement ça refonctionne mais ce n'est pas une solution&nbsp;</div><div><br></div><div><b>De plus, si on recherche sur le web, on peut lire :&nbsp;</b><br><br><i>Il n'existe pas de solution permettant de continuer à utiliser smtp.office365.com sans authentification moderne après<b><u> avril 2026</u></b> ; il faut soit migrer vers OAuth2, soit changer de fournisseur. Or OAuth2/XOAUTH2 n'est généralement pas supporté par les logiciels métiers \"basiques\" qui ne savent faire que login/mot de passe sur le port 587/465<br><br>-&gt; Donc on ne peut plus proposer aux clients de remplacer l'Oauth 2 par une simple connexion TLS en 587.<br>Et désactiver la double authentification n'est pas très professionnel</i></div><div><br><b>Retour de l'informaticien du camping FALAISE56 qui est concerné :&nbsp;</b><br><br><i>L'informaticien du camping m'a indiqué que c'était très limite niveau sécurité et qu'à partir de janvier 2027 l'authentification simple ne sera plus possible</i><br><br></div><div><b><u>Reproduit sur démo Angélique en 18.25 HF&nbsp;</u></b><br>Lien jam avec compte email Angélique : https://jam.dev/c/3be4ec20-0745-43a1-bb43-61436499280e<br>Lien Jam avec adresse email crée spécialement par Steven : https://jam.dev/c/d0fdccc1-2ad7-479d-aa59-c63a0f8b65e8<br><br><b><font color=\"#ca8a04\">Pas de moyen à ce jour de chiffre le nombre de client utilisant cette solution</font></b></div><div><b><font color=\"#ca8a04\"><br></font></b></div><div><b><font color=\"#ca8a04\">Les clés arrivant à expiration, on veut mettre en place les clés sur le web, il s'agissait des COEUR-412 / COEUR-409&nbsp;</font></b></div>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -40533,7 +40561,7 @@
     ]
   },
   "counts": {
-    "classique": 686,
+    "classique": 687,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
