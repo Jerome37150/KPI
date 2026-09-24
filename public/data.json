@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-09-24T09:31:35.909Z",
+  "generatedAt": "2026-09-24T14:25:15.537Z",
   "classique": [
+    {
+      "id": "3e58db15-623a-8119-be59-d3ac4f928d63",
+      "identifiant": "INA-908",
+      "titre": "Impossible de créer un nouvel exercice si entreprise mère liée positionnée sur \"Aucune\"",
+      "classification": "BUG D'USAGE",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-24T11:37:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Sur les versions groupes, la création d'un nouvel exercice est impossible lorsque :&nbsp;<div><br></div><div>1. Se rendre dans le Menu Administration &gt; Création d'un nouvel Exercice</div><div>2. Saisir les données demandées</div><div>3. Dans le champs \"Entreprise mère liée\" : choisir \"Aucune\"</div><div>4. NAXI affiche alors un message indiquant :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/79a947e757304c7abb25d8a2ef29d7c5\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Le soucis c'est que ce message apparaît sur les groupes qui n'utilise pas le fonctionnement Mère/Fille.</div><div><br></div><div>Il faudrait donc mettre un garde fou pour griser cette combo lorsqu'il n'y n'y a aucune somere = 1 dans la table SOCIETDETAILS.</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Impossible-de-cr-er-un-nouvel-exercice-si-entreprise-m-re-li-e-positionn-e-sur-Aucune-3e58db15623a8119be59d3ac4f928d63"
+    },
     {
       "id": "3df8db15-623a-8103-8c15-cf26001171ad",
       "identifiant": "INA-907",
@@ -5017,7 +5049,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Aujourd'hui, sur le planning:<div><ul><li>Un séjour linéaire apparait comme ceci :&nbsp;</li></ul><div><b>Nom + Prénom + numéro fiche client</b><br><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e6da62fb7a1b4bd1b1b32495b96371cd\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><br></div><div><ul><li>L'info bulle mentionne les éléments suivants :&nbsp;&nbsp;</li></ul></div></div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div><div>n°emplacement + catégorie</div></div></blockquote><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div><div>identifiant de la fiche client&nbsp;</div></div></blockquote><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div><div>les dates du début et de la fin du linéaire.&nbsp;<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/4f2ae43f777d4a2a8e2036bac81c0d4d\" alt=\"capture\" style=\"opacity: 1; max-width: 100%;\"></div></div><div><br></div></blockquote></blockquote>Pour un même client (dans notre cas Odalys) nous avons besoin d'identifier , sur chaque emplacement, quel CE ou TO y est rattaché dans le but de facilité les équipes réception.&nbsp;</div><div>Nous allons débloquer le commentaire présent sous la case non permutable et le rendre visible sur planning.&nbsp;</div>",
+      "explication": "Aujourd'hui, sur le planning:<div><ul><li>Un séjour linéaire apparait comme ceci :&nbsp;</li></ul><div><b>Nom + Prénom + numéro fiche client</b><br><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e6da62fb7a1b4bd1b1b32495b96371cd\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><br></div><div><ul><li>L'info bulle mentionne les éléments suivants :&nbsp;&nbsp;</li></ul></div></div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div><div>n°emplacement + catégorie</div></div></blockquote><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div><div>identifiant de la fiche client&nbsp;</div></div></blockquote><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div><div>les dates du début et de la fin du linéaire.&nbsp;<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/4f2ae43f777d4a2a8e2036bac81c0d4d\" alt=\"capture\" style=\"opacity: 1; max-width: 100%;\"></div></div><div><br></div></blockquote></blockquote>Pour un même client (dans notre cas Odalys) nous avons besoin d'identifier , sur chaque emplacement, quel CE ou TO y est rattaché dans le but de faciliter les équipes réception.&nbsp;</div><div>Nous allons débloquer le commentaire présent sous la case non permutable et le rendre visible sur planning.&nbsp;</div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -40697,7 +40729,7 @@
     ]
   },
   "counts": {
-    "classique": 691,
+    "classique": 692,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
