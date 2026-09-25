@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-09-25T09:04:57.557Z",
+  "generatedAt": "2026-09-25T14:34:36.786Z",
   "classique": [
+    {
+      "id": "3e68db15-623a-8156-825c-faa60f11e599",
+      "identifiant": "INA-909",
+      "titre": "Fenêtre courrier/email : mauvais id de séjour affiché",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-25T14:03:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Malgré le correctif de la INA-892, un client nous signale encore avoir un soucis lors de l'ouverture de la fenêtre des courriers/emails :&nbsp;<div><br></div><div><b><u>Exemple pris sur la fiche client 20541 / MOUSSIERE Arthur</u></b> :&nbsp;</div><div><br></div><div>Le client a un séjour n°3361 mais lorsqu'on ouvre la fenêtre courrier/email, c'est le séjour 3318 qui se propose, qui correspond au séjour précédent sur le même emplacement.</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/5949573a90184b138a66def40651da50\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>La base de données du client a été récupéré sur mon PC, je reproduis sur ma démo.</div><div>La base de données a également été réindexé : cela ne change rien</div><div>Pas de doublon sur les commandes et clients</div><div><br></div><div>La sauvegarde du client est déposée sur le FTP si besoin : /BaseClientBug/Angelique/Tikayan</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Fen-tre-courrier-email-mauvais-id-de-s-jour-affich-3e68db15623a8156825cfaa60f11e599"
+    },
     {
       "id": "3e58db15-623a-8119-be59-d3ac4f928d63",
       "identifiant": "INA-908",
@@ -40729,7 +40761,7 @@
     ]
   },
   "counts": {
-    "classique": 692,
+    "classique": 693,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
