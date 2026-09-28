@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-09-28T05:50:31.182Z",
+  "generatedAt": "2026-09-28T12:08:54.504Z",
   "classique": [
+    {
+      "id": "3e98db15-623a-81ae-89e0-ce1585e3c2a4",
+      "identifiant": "INA-910",
+      "titre": "Erreur d'intégration des critères clients lors de l'importation des données Eseason",
+      "classification": "BUG D'USAGE",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-28T09:51:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "L'intégration des critères clients ne se fait plus correctement lorsque :&nbsp;<div><br></div><div>1. S'assurer d'avoir un répertoire de fichier txt provenant d'Eseason</div><div>2. Sur une entreprise, se rendre dans le menu Administration &gt; Maintenance Inaxel</div><div>3. Choisir la moulinette \"Importer clients &amp; paramètres depuis fichier txt\"</div><div>4. Sur la fenêtre qui s'ouvre sélectionner le répertoire de données à importer</div><div>5. Lancer l'import : ok</div><div>6. Après import, si on regarde la table CLASSCLI, celle ci comporte beaucoup de doublons, et par conséquent des données sont manquantes.</div><div><br></div><div>Le cas a été reproduit sur beaucoup de paramétrages, j'ai pris pour test la base du camping ROBINSON 34 :&nbsp;</div><div>Fichiers disponibles sur H:\\2027\\Robinson - 34\\Récupération Eseason\\Fichiers E-Season</div><div><br></div><div>-&gt; Si on regarde le fichier Eseason, on voit 7 critères :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/530fa3bb00af4c558199a7638a330bed\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Après import dans NAXI, la table CLASSCLI ne mentionne uniquement la classe \"Animateur\" :</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/79f3c7bc7a3446b78354004a40c73d5d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Il manque donc toutes les autres classes.</div><div><br></div><div><b>Reproduit sur démo Angélique en HF 18.35&nbsp;</b></div><div><br></div><div><br></div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-d-int-gration-des-crit-res-clients-lors-de-l-importation-des-donn-es-Eseason-3e98db15623a81ae89e0ce1585e3c2a4"
+    },
     {
       "id": "3e68db15-623a-8156-825c-faa60f11e599",
       "identifiant": "INA-909",
@@ -40761,7 +40793,7 @@
     ]
   },
   "counts": {
-    "classique": 693,
+    "classique": 694,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
