@@ -1,14 +1,52 @@
 {
-  "generatedAt": "2026-09-28T12:08:54.504Z",
+  "generatedAt": "2026-09-28T19:38:38.525Z",
   "classique": [
+    {
+      "id": "3e98db15-623a-81d9-b7ce-d5978eeb3546",
+      "identifiant": "INA-911",
+      "titre": "Mettre en place la CI/CD sur le dépôt frontoffice pour déployer les maquettes",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-28T14:17:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Mettre en place la pipeline pour déployer sur un environnement de produits (maquette) le projet naxi-desk",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mettre-en-place-la-CI-CD-sur-le-d-p-t-frontoffice-pour-d-ployer-les-maquettes-3e98db15623a81d9b7ced5978eeb3546"
+    },
     {
       "id": "3e98db15-623a-81ae-89e0-ce1585e3c2a4",
       "identifiant": "INA-910",
       "titre": "Erreur d'intégration des critères clients lors de l'importation des données Eseason",
       "classification": "BUG D'USAGE",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -25,7 +63,9 @@
       "pointsBlocage": "",
       "explication": "L'intégration des critères clients ne se fait plus correctement lorsque :&nbsp;<div><br></div><div>1. S'assurer d'avoir un répertoire de fichier txt provenant d'Eseason</div><div>2. Sur une entreprise, se rendre dans le menu Administration &gt; Maintenance Inaxel</div><div>3. Choisir la moulinette \"Importer clients &amp; paramètres depuis fichier txt\"</div><div>4. Sur la fenêtre qui s'ouvre sélectionner le répertoire de données à importer</div><div>5. Lancer l'import : ok</div><div>6. Après import, si on regarde la table CLASSCLI, celle ci comporte beaucoup de doublons, et par conséquent des données sont manquantes.</div><div><br></div><div>Le cas a été reproduit sur beaucoup de paramétrages, j'ai pris pour test la base du camping ROBINSON 34 :&nbsp;</div><div>Fichiers disponibles sur H:\\2027\\Robinson - 34\\Récupération Eseason\\Fichiers E-Season</div><div><br></div><div>-&gt; Si on regarde le fichier Eseason, on voit 7 critères :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/530fa3bb00af4c558199a7638a330bed\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Après import dans NAXI, la table CLASSCLI ne mentionne uniquement la classe \"Animateur\" :</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/79f3c7bc7a3446b78354004a40c73d5d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Il manque donc toutes les autres classes.</div><div><br></div><div><b>Reproduit sur démo Angélique en HF 18.35&nbsp;</b></div><div><br></div><div><br></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -40,7 +80,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -57,7 +99,9 @@
       "pointsBlocage": "",
       "explication": "Malgré le correctif de la INA-892, un client nous signale encore avoir un soucis lors de l'ouverture de la fenêtre des courriers/emails :&nbsp;<div><br></div><div><b><u>Exemple pris sur la fiche client 20541 / MOUSSIERE Arthur</u></b> :&nbsp;</div><div><br></div><div>Le client a un séjour n°3361 mais lorsqu'on ouvre la fenêtre courrier/email, c'est le séjour 3318 qui se propose, qui correspond au séjour précédent sur le même emplacement.</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/5949573a90184b138a66def40651da50\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>La base de données du client a été récupéré sur mon PC, je reproduis sur ma démo.</div><div>La base de données a également été réindexé : cela ne change rien</div><div>Pas de doublon sur les commandes et clients</div><div><br></div><div>La sauvegarde du client est déposée sur le FTP si besoin : /BaseClientBug/Angelique/Tikayan</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -72,7 +116,9 @@
       "classification": "BUG D'USAGE",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "MARS 27"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -89,7 +135,9 @@
       "pointsBlocage": "",
       "explication": "Sur les versions groupes, la création d'un nouvel exercice est impossible lorsque :&nbsp;<div><br></div><div>1. Se rendre dans le Menu Administration &gt; Création d'un nouvel Exercice</div><div>2. Saisir les données demandées</div><div>3. Dans le champs \"Entreprise mère liée\" : choisir \"Aucune\"</div><div>4. NAXI affiche alors un message indiquant :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/79a947e757304c7abb25d8a2ef29d7c5\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Le soucis c'est que ce message apparaît sur les groupes qui n'utilise pas le fonctionnement Mère/Fille.</div><div><br></div><div>Il faudrait donc mettre un garde fou pour griser cette combo lorsqu'il n'y n'y a aucune somere = 1 dans la table SOCIETDETAILS.</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -104,7 +152,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -121,7 +171,9 @@
       "pointsBlocage": "",
       "explication": "Le groupe HAIE PENEE / GARENNE n'arrive plus à ouvrir leur fenêtre de synchro depuis passage en 18.32 - L'erreur ci dessosu apparaît :<div><br><div><i style=\"\">Le mécanisme de sécurité du WLangage a détecté une erreur dans l'application NAXIRESA.&nbsp;</i></div><div><i>Contactez le fournisseur de l'application NAXIRESA.</i></div><div><i>L'invocation de la méthode &lt;GetDistributorCredential(System.String,System.String,System.String)&gt; du type &lt;ViewModelDistributorCredential&gt; a échoué</i></div><div><i>Le framework .NET a renvoyé l'erreur suivante :&nbsp;</i></div><div><i>Requete : SELECT distributor_credential.id AS Id ,distributor_credential.distributor_code AS DistributorCode ,distributor_credential.company_code AS CompanyCode ,distributor_credential.exercise_code AS ExerciseCode ,distributor_credential.external_id AS ExternalId ,distributor_credential.external_name AS ExternalName ,distributor_credential.authentication_key AS Authenticationkey ,distributor_credential.distributor_login AS Login ,distributor_credential.distributor_password AS Password ,distributor_credential.frequency AS DayFrequency ,distributor_credential.distributor_url AS Url  FROM distributor_credential  WHERE  company_code = 'HAIEPENE' AND exercise_code = '2026' AND distributor_code = 'cnelloha'  \\r\\n Que s'est-il passé ?</i></div><div><i>Que s'est-il passé ?</i></div><div><i>Erreur dans le code SQL de la requête &lt;resultatRequete&gt;. Initialisation de la requête impossible.</i></div><div><i>Fichier distributor_credential inconnu</i></div><div><i>Erreur détectée :</i></div><div><i>_credential.distributor_url AS Url  FROM &gt;&gt;&gt;&gt;distributor_credential&lt;&lt;&lt;&lt;  WHERE  company_code</i></div><div><i>Code erreur : 70208</i></div><div><i>Niveau : erreur non fatale</i></div><div><i>Code erreur WD55 : 208</i></div><div><i>Module : wd260sql.dll (01F260101d - 26.0.559.2)</i></div><div><i>Informations de débogage :</i></div><div><i>IEWD260SQL=1.12</i></div><div><i>Module=&lt;WD260SQL&gt;</i></div><div><i>Version=&lt;26.0.559.2&gt;</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_LOGICALTABLENAME : &lt;distributor_credential&gt;</i></div><div><i>EIT_POSITION_ERREUR : &lt;0\t584\t0\t605&gt;</i></div><div><i>Code erreur : 1</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_PILEWL :</i></div><div><i>Méthode MultiSelectDelegateV2 (WindevDelegateManager.MultiSelectDelegateV2), ligne 46</i></div><div><i>Méthode DoTask (WindevDelegateManager.DoTask), ligne 25</i></div><div><i>EIT_DATEHEURE : 18/09/2026 12:05:55</i></div><div><i>EIT_TYPE_WDFILE : &lt;4&gt;</i></div><div><i>EIT_IDCODE : &lt;458752&gt;</i></div><div><i>EIT_THREAD : &lt;Task_dc4d5091c98643359c6fce99d83bf4ba&gt;</i></div><div><i>Pile des appels :</i></div><div><i>Procédure locale recherche_OTA (naxi_resaV3.PROCEDURE.recherche_OTA), ligne 40</i></div><div><i>Procédure locale postInitCsharp (naxi_resaV3.PROCEDURE.postInitCsharp), ligne 292</i></div><div><i>Procédure locale postInitCsharpAsynch (naxi_resaV3.PROCEDURE.postInitCsharpAsynch), ligne 20</i></div><div><i>Date : 18/09/2026 12:05:55</i></div><div><i>Projet : NAXIRESA (1.0.1618.3)</i></div><div><i>Informations supplémentaires :</i></div><div><i>Code erreur : 200002</i></div><div><i>Module : wd260net4.dll (01F260101d - 26.0.264.0)</i></div><div><i>Informations de débogage :</i></div><div><i>System.Reflection.TargetInvocationException: Une exception a été levée par la cible d'un appel. ---&gt; NaxiGestionCore.CustomException.InaxelException: Requete : SELECT distributor_credential.id AS Id ,distributor_credential.distributor_code AS DistributorCode ,distributor_credential.company_code AS CompanyCode ,distributor_credential.exercise_code AS ExerciseCode ,distributor_credential.external_id AS ExternalId ,distributor_credential.external_name AS ExternalName ,distributor_credential.authentication_key AS Authenticationkey ,distributor_credential.distributor_login AS Login ,distributor_credential.distributor_password AS Password ,distributor_credential.frequency AS DayFrequency ,distributor_credential.distributor_url AS Url  FROM distributor_credential  WHERE  company_code = 'HAIEPENE' AND exercise_code = '2026' AND distributor_code = 'cnelloha'  \\r\\n Que s'est-il passé ?</i></div><div><i>Que s'est-il passé ?</i></div><div><i>Erreur dans le code SQL de la requête &lt;resultatRequete&gt;. Initialisation de la requête impossible.</i></div><div><i>Fichier distributor_credential inconnu</i></div><div><i>Erreur détectée :</i></div><div><i>_credential.distributor_url AS Url  FROM &gt;&gt;&gt;&gt;distributor_credential&lt;&lt;&lt;&lt;  WHERE  company_code</i></div><div><i>Code erreur : 70208</i></div><div><i>Niveau : erreur non fatale</i></div><div><i>Code erreur WD55 : 208</i></div><div><i>Module : wd260sql.dll (01F260101d - 26.0.559.2)</i></div><div><i>Informations de débogage :</i></div><div><i>IEWD260SQL=1.12</i></div><div><i>Module=&lt;WD260SQL&gt;</i></div><div><i>Version=&lt;26.0.559.2&gt;</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_LOGICALTABLENAME : &lt;distributor_credential&gt;</i></div><div><i style=\"\">EIT_POSITION_ERREUR : &lt;0\t584\t0\t605&gt;</i></div><div><br></div><div><b><u>Liste des manips effectuées :&nbsp;</u></b></div></div><div><br></div><div>- Réindexation de la table distributo_credentials : KO</div><div>- Passage en 18.34 puis en 18.35 : KO</div><div>- Check des droits sur la table distributor_credential : KO&nbsp;</div><div>- Check du framework : ils sont bien en 4.8</div><div>- Sur la table distributor_credential, il y un enregistrement pour chaque camping sur 2026 pour elloha.&nbsp;</div><div>Mais un truc m'a interpellé à savoir les campings ont le meme distributor_login / distributor_passeword</div><div>Par contre l'exernal_id est différent. J'ai donc testé sur l'un des deux d'enlever le login sur l'un des deux mais ça ne change rien, à savoir la synchro affiche toujours le message d'erreur.</div><div><br></div><div><font color=\"#16a34a\">-&gt; Repasser client en 18.30 : OK, la synchro tourne de nouveau correctement</font><br><br><font color=\"#18181b\" style=\"\">Ce camping a la passerelle Elloha uniquement dans la table distributor_credential</font></div><div><font color=\"#18181b\" style=\"\">Ils sont en base groupe HF&nbsp;</font></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -208,7 +260,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -225,7 +279,9 @@
       "pointsBlocage": "",
       "explication": "NAXI affiche un message empêchant la facturation lorsque :&nbsp;<div><br></div><div>1. Créer une fiche TO sur laquelle tout est facturé au séjourant, mais sur laquelle on configure une commission TO à 8% (pas forcément logique mais fonctionnement NewDealCE).</div><div>2. Dans les conditions particulières, s'assurer que les frais de dossier sont bien facturés au séjournant.</div><div>3. Créer un séjour affecté à NEWDEALCE en s'assurant de bien ajouter une quantité sur les frais de dossier</div><div>4. Facturer le séjour : NAXI affiche alors un message indiquant une erreur de calcul.</div><div><br></div><div><b>Reproduit sur démo Angélique en 18.35 HF.</b><br>Si je prends mon exemple, il y a en réalité plusieurs problèmes :&nbsp;</div><div><br></div><div>1 - Cas avec un supplément de type \"Frais de dossier\" :&nbsp;</div><div><br></div><div>Mon séjour affiche une commission à 350.40€ ce qui est ok puisque cela correspond à 8% de mon montant de base :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c62d8ba859a94ad4bf71ab11cb405b41\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br>Toutefois, quand je veux facturer, NAXI affiche une commission à 351.60 ce qui correspond à 8% de mon tarif de base + commission (donc ce n'est pas bon) :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/fb445512122e48a6ab15b0c5376ba401\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>2 - Cas avec un supplément de type \"Divers\" :&nbsp;</div><div><br></div><div>NAXI calcule la commission sur tarif de base + suppléments :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/3350f5073081440a8af4eecb59b22a81\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Je peux ensuite facturer sans erreur car lors de la facturation, le même calcul est effectué à savoir 8% du montant de base + suppléments :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/b201cd9a66ab4b89b0a6d6abc7f56971\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Dans tous les cas, cela n'est pas logique car dans le paramétrage, il est bien indiqué que les suppléments ne sont pas soumis à commission :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/184422fa68f64d39b82091d95bb151a0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Solution provisoire donnée au client : mettre les suppléments et frais de dossier en dehors du séjour</b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3336,7 +3392,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3353,7 +3411,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -40793,7 +40853,7 @@
     ]
   },
   "counts": {
-    "classique": 694,
+    "classique": 695,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
