@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-29T16:00:29.367Z",
+  "generatedAt": "2026-09-29T20:43:20.212Z",
   "classique": [
     {
       "id": "3ea8db15-623a-8185-9c9a-ffaa7fa62b89",
       "identifiant": "INA-913",
-      "titre": "Erreur affichage fiche client sur la version 18.36",
+      "titre": "Erreur affichage malgré la version 18.36",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
@@ -23,7 +23,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "La ligne \"Voir les exercices précédents\" sur les fiches clients est tronquée :<div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6f9ddfbd5c32456197faa2dd910f9a7b\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
+      "explication": "Des problèmes d'affichages sont encore constatés malgré le correctif de la 18.36 :&nbsp;<div><br></div><div><b>1 - La ligne \"Voir les exercices précédents\" sur les fiches clients est tronquée</b> :<div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6f9ddfbd5c32456197faa2dd910f9a7b\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div></div><div><br></div><div><b>2 - Sur la version groupe, on ne peut plus réduire la taille du tableau des prestations</b>, la flèche permettant de réduire ou augmenter n'apparaît plus :&nbsp;<a href=\"https://jam.dev/c/e1609a4a-1a90-46b4-8817-3d1557003846\">https://jam.dev/c/e1609a4a-1a90-46b4-8817-3d1557003846</a></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -31,7 +31,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Erreur-affichage-fiche-client-sur-la-version-18-36-3ea8db15623a81859c9affaa7fa62b89"
+      "url": "https://app.notion.com/p/Erreur-affichage-malgr-la-version-18-36-3ea8db15623a81859c9affaa7fa62b89"
     },
     {
       "id": "3ea8db15-623a-8131-8410-d3b2c71cb031",
