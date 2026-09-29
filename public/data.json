@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-09-29T09:21:27.646Z",
+  "generatedAt": "2026-09-29T16:00:29.367Z",
   "classique": [
+    {
+      "id": "3ea8db15-623a-8185-9c9a-ffaa7fa62b89",
+      "identifiant": "INA-913",
+      "titre": "Erreur affichage fiche client sur la version 18.36",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-29T14:37:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "La ligne \"Voir les exercices précédents\" sur les fiches clients est tronquée :<div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6f9ddfbd5c32456197faa2dd910f9a7b\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-affichage-fiche-client-sur-la-version-18-36-3ea8db15623a81859c9affaa7fa62b89"
+    },
+    {
+      "id": "3ea8db15-623a-8131-8410-d3b2c71cb031",
+      "identifiant": "INA-912",
+      "titre": "Création de compte sous Pennylane : utilisateur crée mais pas d'entreprise crée",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-29T13:48:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "De nombreux utilisateurs nous signalent qu'à la suite de leur création de compte dans NAXI, ils ne reçoivent pas le mail de validation de Pennylane.<div>De plus dans Pennylane, ils ne peuvent rien faire car leur entreprise n'apparaissent pas.</div><div><br></div><div>Voici les étapes réalisées par nos clients :&nbsp;</div><div><br></div><div>1. Dans NAXI, se rendre dans le menu Paramètres &gt; Exercices</div><div>2. Dans l'onglet Mentions Légales, cliquer sur \"Créer son compte\"</div><div>3. Renseigner les champs demandés</div><div>4. On reçoit bien le mail de Pennylane pour finaliser la création OK</div><div>5. En théorie, 48h après, on est censés recevoir un email de Pennylane indiquant que le compte est validé et que l'entreprise est bien crée.</div><div><br></div><div>Or, pour un certain nombre de client, ce second email n'est pas reçu.</div><div><br></div><div>Après échange avec Pennylane il s'avère que les comptes utilisateurs sont bien crées, mais que nous n'avons fait aucun appel pour créer l'entreprise.</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/b79697c1a0454a1698fa6620644671ff\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Cr-ation-de-compte-sous-Pennylane-utilisateur-cr-e-mais-pas-d-entreprise-cr-e-3ea8db15623a81318410d3b2c71cb031"
+    },
     {
       "id": "3e98db15-623a-81d9-b7ce-d5978eeb3546",
       "identifiant": "INA-911",
@@ -45,7 +113,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -333,7 +401,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -441,7 +509,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -460,7 +528,7 @@
       "explication": "Exposer l'indicateur « l'opérateur connecté a des traitements automatiques à faire » et mettre en place le point d'entrée vers la fenêtre des traitements automatiques de la version classique, avec transmission du contexte opérateur, camping et saison sans nouvelle authentification.",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -477,7 +545,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -496,7 +564,7 @@
       "explication": "Développer le bouton « Traitement automatique » du header : icône, pastille de notification conditionnelle, bulle d'information au survol et ouverture de la version classique dans un nouvel onglet, directement sur la fenêtre des traitements automatiques de l'opérateur connecté.",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -621,7 +689,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1149,7 +1217,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -1253,7 +1321,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1289,7 +1357,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1361,7 +1429,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1397,7 +1465,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2173,7 +2241,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -2817,7 +2885,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2853,7 +2921,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3033,7 +3101,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3069,7 +3137,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3141,7 +3209,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3177,7 +3245,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3249,7 +3317,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3285,7 +3353,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3481,7 +3549,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements du compte client : grand livre de l'exercice (report, factures, avoirs, paiements, remboursements, transferts, cautions, Naxi Commerce), soldes et totaux, création, modification, répartition et suppression des règlements, virements entre clients, reports de solde, génération d'avoirs, duplicatas et régénération des PDF de pièces.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -3517,7 +3585,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de l'onglet Comptabilité de la fiche client : grand livre de l'exercice avec filtres et tris de colonnes, menus d'actions par type d'écriture, tuiles de synthèse du compte, et modales Nouveau règlement, Modifier paiement, Répartition / Transfert, Report de solde, Générer un avoir, Duplicata et Suppression.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -3573,7 +3641,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3592,7 +3660,7 @@
       "explication": "Exposer et persister l'ensemble des champs d'identité du client, les listes de référence et les valeurs par défaut issues du paramétrage du camping, les règles de validation à la création, la comparaison avec la fiche CRM et la suppression conditionnée à l'absence de prestation.",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3609,7 +3677,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3628,7 +3696,7 @@
       "explication": "Développer la section Identité de la fiche client : grille de six blocs de champs, contrôles de saisie, signalisation des champs obligatoires et des alertes de non-saisie, verrou de sortie d'une fiche incomplète, modale de comparaison avec la fiche CRM et suppression de la fiche.",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3681,7 +3749,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3700,7 +3768,7 @@
       "explication": "Exposer le type du client et l'adresse de la version classique en source unique, sans exposer aucun paramétrage de fiche particulière à Naxi Desk, et arbitrer si le renvoi doit ouvrir directement le paramétrage du client concerné.",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3717,7 +3785,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3736,7 +3804,7 @@
       "explication": "Développer la section TO / CE / Résident de la fiche client : en-tête de section et encart centré « Une fonction vous manque ? » renvoyant vers la version classique dans un nouvel onglet.",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3789,7 +3857,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3808,7 +3876,7 @@
       "explication": "Exposer les données d'en-tête de la fiche client (identité, coordonnées, type, identifiant d'espace client), les compteurs de chaque section du menu, la persistance des mémos et de la remarque avec son alerte, ainsi que la liste des champs obligatoires issue du paramétrage du camping.",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3825,7 +3893,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3844,7 +3912,7 @@
       "explication": "Développer la structure de la fiche client : carte client permanente (identité, coordonnées copiables, type de client, gestion des mémos et de la remarque avec sa fenêtre d'alerte, menu Actions) et menu latéral de navigation entre les sections, avec ses modes réduit et étendu et son verrouillage pendant la création d'une fiche.",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3897,7 +3965,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3916,7 +3984,7 @@
       "explication": "Mettre en place les endpoints et traitements nécessaires à la recherche de clients par nom, numéro client ou numéro d'emplacement, à l'affinage par critères secondaires, à la restitution du séjour rattaché à chaque client, à la gestion de l'historique des clients consultés et à la création d'une fiche client.",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3933,7 +4001,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3969,7 +4037,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4005,7 +4073,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4024,7 +4092,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4040,9 +4108,7 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [
-        "NOVEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -4059,9 +4125,7 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -4077,7 +4141,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4113,7 +4177,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4149,7 +4213,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4168,7 +4232,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4185,7 +4249,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4204,7 +4268,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4221,7 +4285,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4240,7 +4304,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4257,7 +4321,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4293,7 +4357,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4312,7 +4376,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4329,7 +4393,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4365,7 +4429,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4384,7 +4448,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4401,7 +4465,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4420,7 +4484,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4437,7 +4501,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4509,7 +4573,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4545,7 +4609,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4564,7 +4628,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4581,7 +4645,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4617,7 +4681,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4636,7 +4700,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4653,7 +4717,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4689,7 +4753,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4725,7 +4789,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4744,7 +4808,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4833,7 +4897,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4852,7 +4916,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4869,7 +4933,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4905,7 +4969,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4941,7 +5005,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4960,7 +5024,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -5121,7 +5185,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5140,7 +5204,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -5466,7 +5530,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5502,8 +5566,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26",
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5522,7 +5585,7 @@
       "explication": "Développer l'interface du panneau : liste des demandes avec filtres et signalétique, parcours de traitement par étapes avec stepper adapté au type de demande (rapprochement client, choix d'emplacement, traitements e-mail/paiement/facturation), flux de refus, récapitulatifs de confirmation et écrans de succès.",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -5609,7 +5672,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5628,7 +5691,7 @@
       "explication": "Développer l'interface de la page d'accueil Clients : onglets de recherche par client ou par numéro d'emplacement, champ de recherche et filtres d'affinage, liste des résultats et des derniers clients consultés, ouverture de la fiche au clic et création d'une nouvelle fiche client.",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6495,7 +6558,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -6512,7 +6575,7 @@
       "explication": "<p>Réaliser une analyse fonctionnelle et technique du module Paramétrage des modes de paiement afin de définir les besoins, les flux, et les interactions avec les autres modules.</p>",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6529,7 +6592,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "SEPTEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -6546,7 +6609,7 @@
       "explication": "<p>Concevoir l'interface utilisateur pour la fenêtre de paramétrage des critères prédéfinis sur les emplacements, en tenant compte de la sélection des catégories à afficher et de l'intégration avec les autres fenêtres concernées.</p>",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6629,7 +6692,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -6647,7 +6709,7 @@
       "explication": "<p>Développer l’interface utilisateur de la fenêtre de planning, intégrant les fonctionnalités de sélection, zoom, filtres, affichage des informations, interactions (clic, glisser-déposer), pictogrammes, codes couleurs, boutons d’action, et impression.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6728,7 +6790,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -6746,7 +6807,7 @@
       "explication": "<p>Implémenter le service d’authentification permettant la connexion à l’application : récupération des répertoires de données, authentification de l’opérateur, retour des entreprises/exercices autorisés et des imprimantes disponibles, puis redirection vers le Tableau de bord.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6763,7 +6824,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -6781,7 +6841,7 @@
       "explication": "<p>Développer l’interface frontend de la fenêtre de connexion, avec l’affichage du formulaire d’authentification, la gestion des champs de saisie et des messages d’erreur, l’intégration du design conforme au projet, et la préparation des appels vers le service d’authentification.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6924,7 +6984,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "NOVEMBRE 26"
       ],
       "fonctions": null,
@@ -6959,7 +7018,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "NOVEMBRE 26"
       ],
       "fonctions": null,
@@ -7156,8 +7214,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7191,8 +7248,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7324,8 +7380,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7359,8 +7414,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7490,7 +7544,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -7508,7 +7561,7 @@
       "explication": "<p>Développer la logique backend pour la recherche client, incluant le pré-filtrage, la gestion des différents critères de recherche, la création de client, la gestion de la mémoire des recherches, et l’intégration des règles de gestion.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -7525,7 +7578,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -7543,7 +7595,7 @@
       "explication": "<p>Développer la logique backend pour la gestion de l'historique des consultations clients, incluant la persistance, la non réinitialisation à la déconnexion/changement d'entreprise ou d'exercice, et la non distinction entre les historiques des deux modes de recherche.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -7560,7 +7612,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -7578,7 +7629,7 @@
       "explication": "<p>Développer l’interface frontend de la fenêtre de recherche client, avec la gestion dynamique des champs de recherche, l’affichage des résultats, les filtres avancés, la création de client, et la fermeture de la fenêtre.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -7595,7 +7646,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -7613,7 +7663,7 @@
       "explication": "<p>Développer l'interface frontend pour l'affichage de l'historique des consultations dans le panneau Recherche client, sans distinction entre les deux onglets, la limitation à 20 entrées, la non réinitialisation après déconnexion ou changement d’entreprise ou changement d’exercice et l'ouverture directe de la fiche client depuis l'historique.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -7728,8 +7778,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7763,8 +7812,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7960,8 +8008,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7978,7 +8025,7 @@
       "explication": "<p>Développer la logique backend et les API nécessaires pour gérer la liste, la création, la modification et la suppression (individuelle et en masse) des indisponibilités, en respectant les règles de gestion et les validations décrites.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -7995,8 +8042,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
-        "SEPTEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -8013,7 +8059,7 @@
       "explication": "<p>Développer l'interface utilisateur de la fenêtre 'Liste des Indisponibilités', incluant l'affichage de la liste, les formulaires de création/modification, la gestion des filtres, les boutons d'action et les messages d'alerte/confirmation.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8094,7 +8140,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -8112,7 +8157,7 @@
       "explication": "<p>Développer la partie back-end pour la gestion des listes de réservations, l’application des filtres, la gestion des statuts, le calcul des soldes, la gestion des alertes et l’exposition des données nécessaires à l’interface front-end.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8129,7 +8174,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -8147,7 +8191,7 @@
       "explication": "<p>Développer la partie front-end de la fenêtre “Liste des réservations” : intégration des filtres, affichage dynamique des listes, gestion des compteurs, actions rapides (affectation d’emplacement, impression), et respect des règles d’affichage des statuts et soldes.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8258,7 +8302,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -8276,7 +8319,7 @@
       "explication": "<p>Développer la logique backend pour la recherche de disponibilités, la gestion des filtres (dates, catégories, nombre de personnes), et le calcul des emplacements disponibles selon les règles de gestion.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8293,7 +8336,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -8311,7 +8353,7 @@
       "explication": "<p>Développer l'interface frontend de la fenêtre 'Disponibilités', intégrant les filtres, le bouton de recherche, l'affichage des résultats, et l'interaction avec le backend.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8394,7 +8436,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -8412,7 +8453,7 @@
       "explication": "<p>Développer les données et règles serveur du tableau de bord : calcul des KPI, cohérence avec Séjours / Planning / Contrôle de caisse, alimentation des cartes selon la souscription BI CRM, préparation des jeux de données pour les graphes et filtres.</p><p><b>US Jira liée :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-398\">TL-398</a></p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8529,7 +8570,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -8547,7 +8587,7 @@
       "explication": "<p>Mettre en place la logique serveur et les données nécessaires pour les redirections et l’exposition des informations de contexte (saison, exercice, version classique) utilisées par le menu burger / header.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8564,7 +8604,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -8582,7 +8621,7 @@
       "explication": "<p>Développer l’interface du menu burger / rail navigation / header avec les nouveaux accès V1, le renvoi vers la nouvelle pré-réservation, l’accès à la gestion des devis, le sélecteur saison/exercice et le bouton de retour vers la version classique.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8693,7 +8732,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -8711,7 +8749,7 @@
       "explication": "<p>Développer la partie back-end pour la fenêtre “Liste des séjours” : création des endpoints pour la récupération, le filtrage (date, type, nom), la gestion des statuts, l’application des règles de gestion, la gestion des actions rapides (individuelles et en masse), l’impression, et l’intégration avec les paramétrages existants (TO, statuts, etc.). Assurer la cohérence des données et la performance des requêtes.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8728,7 +8766,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -8746,7 +8783,7 @@
       "explication": "<p>Développer la partie front-end de la fenêtre “Liste des séjours” : intégration des filtres, affichage dynamique des listes, gestion du code couleur, pictogrammes, compteur, champ de recherche, actions rapides, impression, et navigation. Assurer la réactivité et l’ergonomie de l’interface.</p><p><br></p><p><br></p><p>https://ctoutvertcom-my.sharepoint.com/:x:/g/personal/marjorie_gusai_inaxel_com/IQBimhcvECDVQ7iWAt1o-RGzATpfjWM1wwxMpS6mkOlyDW8?e=dYqSm4</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8857,7 +8894,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -8875,7 +8911,7 @@
       "explication": "<p>Développer la logique backend permettant de lancer les applications Teamviewer ou Anydesk depuis la fenêtre Télémaintenance. Gérer les autorisations et la sécurité de l’exécution à distance.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8892,7 +8928,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -8910,7 +8945,7 @@
       "explication": "<p>Développer l’interface frontend de la fenêtre Télémaintenance, avec les boutons d’accès à Teamviewer et Anydesk, et l’intégration dans le menu burger.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9189,8 +9224,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9224,8 +9258,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9357,8 +9390,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9392,8 +9424,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9459,8 +9490,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9494,8 +9524,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9661,8 +9690,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9696,7 +9724,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -11562,7 +11590,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -11580,7 +11608,9 @@
       "pointsBlocage": "",
       "explication": "Nous avons certains campings qui utilisent l'échange de solde de SH mais ne souhaitent pas recevoir les paiements dans NAXI Gestion.&nbsp;<div><br></div><div>Nous avons désactivé la ressource \"paiement\" en V2 (condition pour que l'échange de solde fonctionne) mais cela ne bloque pas la redescente des paiements.</div><div><br></div><div>Après vérification avec Christophe, il semblerait que l'échange de solde soit conditionné par l'activation de la ressource \"resa\" en V2.</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -11596,7 +11626,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -11614,7 +11644,9 @@
       "pointsBlocage": "",
       "explication": "<b>Client impacté : Logis d'Orres</b><div><i>Version 18.25 / SQL</i><br><br>Le camping&nbsp; nous a contacté afin de nous signaler une erreur récurrente lors de l'envoi des SMS :&nbsp;<br><br><i>2026-07-06 17:53:46. Fonction : {\"title\":\"Bad Request\",\"message\":\"Request body: recipient.to invalid\",\"detail\":\"The valid format is defined in E.164 standard\",\"type\":\"https://dev.smsmode.com/sms/errors/400.029\",\"status\":\"400\",\"errorCode\":\"400.029\"}</i><div><i>2026-07-06 17:53:46. Paramètre 1 : [{\"Key\":\"urlRoot\",\"Value\":\"\\\"https://rest.smsmode.com/sms/v1\\\"\"},{\"Key\":\"apiKey\",\"Value\":\"\\\"7QMs4hhOIg9N9TSBriYgCnPtFg7sC6Rj\\\"\"},{\"Key\":\"content\",\"Value\":\"{\\\"recipient\\\":<b><font color=\"#dc2626\">{\\\"to\\\":\\\"33xxxx\\\"},</font></b>\\\"body\\\":{\\\"text\\\":\\\"Bonjour, l'activité \\\\\\\"jeux apéro\\\\\\\" vous attend pour jouer en famille, entre amis, en amoureux! Venez nombreux Les Logis d'Orres.\\\\r\\\\nFIN $scod\\\"},\\\"from\\\":\\\"\\\",\\\"refClient\\\":\\\"logisorres|179407\\\",\\\"callbackUrlMo\\\":\\\"https://api.inaxel.com/services/campaigns/sms/smsmode/unsubscribe\\\"}\"}]</i></div><div><i>2026-07-06 17:53:46. Paramètre 2 : {\"title\":\"Bad Request\",\"message\":\"Request body: recipient.to invalid\",\"detail\":\"The valid format is defined in E.164 standard\",\"type\":\"https://dev.smsmode.com/sms/errors/400.029\",\"status\":\"400\",\"errorCode\":\"400.029\"}</i></div><div><i>&nbsp; &nbsp;à NaxiGestionCore.Manager.SmsManager.SendSmsWithSmsMode(String urlRoot, String apiKey, DataModelWebServiceSmsMode content) dans C:\\Users\\rachid.amrani.alaoui.INAXEL\\Workspace\\gds\\NaxiGestionCore\\Manager\\SmsManager.cs:ligne 50</i></div><div><i>-------------------------------------------------------------------</i><br><br>Si on regarde le log d'erreur, le soucis provient du numéro de téléphone de la fiche client : {\\\"to\\\":\\\"33xxxx\\\"}<br><br><b>Il faudrait donc :&nbsp;</b></div></div><div><br></div><div>-&gt; Mettre un garde fou sur le champs tel 3&nbsp;</div><div>-&gt; Et cumuler peut être par une vérif avant envoi du sms afin d'éviter au client d'avoir ce type d'erreur qui peut faire peur (Peut être juste un message : Veuillez vérifier le numéro de téléphone saisi dans la fiche client) // Histoire que si le numéro de téléphone n'est pas renseigné ça ne plante pas non plus</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -11630,7 +11662,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -11648,7 +11680,9 @@
       "pointsBlocage": "",
       "explication": "Depuis peu, le camping BOIS SOLEIL 17 reçoit un certain nombre d'erreurs de la part de PAYZEN. **E_mail type _:** _____De: do_not_reply@payzen.eu&nbsp;<div><br></div><div>Après analyse du web (voir https://inaxel.atlassian.net/browse/BUG-1158) :&nbsp;</div><div><br></div><div><i>Message d’erreur relevé dans Elastic :</i></div><div><i>\"message\": \"Address in mailbox given [0674923288] does not comply with RFC 2822, 3.6.2.\",</i></div><div><i>C’est un bug de paramétrage : </i></div><div><i>Le camping a renseigné un numéro de tel à la place d’une adresse email pour recevoir un message à chaque nouvelle réservation.</i></div><div><i>Dans inaresa.parweb.pwautres du camping boissoleil: j’ai trouvé 0674923288 à la place de l’adresse email</i></div><div><i>Correction : </i></div><div><i>Saisir une adresse email correcte dans NaxiGestion pour recevoir les email à chaque nouvelle réservation.</i></div><div><br></div><div>Et en effet, après vérification sur la base du client il avait mit son numéro de téléphone dans le champs dédié à l'adresse mail :&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/cab9d02032504d7eaf0ee48ba15c1905\" alt=\"capture\" style=\"opacity: 1; max-width: 100%;\"></div><div></div><div></div><div></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -12194,7 +12228,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "AOUT 26",
         "SEPTEMBRE 26"
       ],
       "fonctions": null,
@@ -12214,7 +12247,7 @@
       "explication": "<p>Développer l'interface utilisateur de la fenêtre 'Liste transactions' : intégration de la toolbar, des filtres, des onglets dynamiques, des colonnes avec recherches/filtres inline, du menu contextuel, des modales de modification de paiement, du footer avec impression/export, et gestion des deep-links.</p>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -15025,9 +15058,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -15097,9 +15128,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -15846,9 +15875,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
@@ -17407,9 +17434,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -19682,9 +19707,7 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
@@ -20836,9 +20859,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -21005,9 +21026,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
@@ -21143,7 +21162,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -21886,7 +21905,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -22815,9 +22834,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -22885,9 +22902,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL"
@@ -40853,7 +40868,7 @@
     ]
   },
   "counts": {
-    "classique": 695,
+    "classique": 697,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
