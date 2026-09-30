@@ -1,6 +1,466 @@
 {
-  "generatedAt": "2026-09-30T09:51:14.413Z",
+  "generatedAt": "2026-09-30T16:07:47.433Z",
   "classique": [
+    {
+      "id": "3eb8db15-623a-8115-b672-f60b01cec8af",
+      "identifiant": "INA-931",
+      "titre": "Comptes commerces en double",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-30T15:36:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Plusieurs clients nous ont signalé avoir des anomalies de gestion. Après analyse, il s'avère que les erreurs sont dues à la présence de plusieurs comptes commerces sur un seul et même client.<div><br></div><div>Exemple constaté sur la base du client Etang de la Fougeraie :&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/efd8cc3b17224e728b30eeb80f3499ed\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>A première vue, les comptes semblent être liées aux séjours puisqu'un compte a été crée le 13.09 et un autre compte a été crée le 10.06 ce qui correspond à J-1 de chaque séjour.&nbsp;</div><div><br></div><div>Les réindexations de base de données n'ont rien changé / Intervention d'Angélique en base de données pour tout remettre à plat et permettre au camping de clôturer la saison sans erreur.</div><div><br></div><div>Il faut toutefois analyser comment cela est possible et surtout éviter que cela se reproduise.</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Comptes-commerces-en-double-3eb8db15623a8115b672f60b01cec8af"
+    },
+    {
+      "id": "3eb8db15-623a-8199-9100-c37577b34531",
+      "identifiant": "INA-930",
+      "titre": "E-reporting des séjours B2C",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-30T13:10:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<ul><li>En tant que : Système back-office&nbsp;</li><li>Je veux : transmettre les données de facturation des séjours B2C et tracer séparément chaque encaissement (acomptes et soldes)</li><li>Afin de : déclarer la TVA exigible au bon moment pour les prestations de services, conformément à la réglementation.</li></ul>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/E-reporting-des-s-jours-B2C-3eb8db15623a81999100c37577b34531"
+    },
+    {
+      "id": "3eb8db15-623a-8100-b1f2-c56649c98374",
+      "identifiant": "INA-929",
+      "titre": "E-reporting des ventes B2C anonymes",
+      "classification": null,
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-30T13:00:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<ul><li>En tant que : Système back-office (module de caisse)</li><li>Je veux : compiler et transmettre quotidiennement les données agrégées des tickets de caisse anonymes (sans SIRET)</li></ul><div><ul><li>Afin de : automatiser la déclaration de e-reporting pour les ventes au comptoir payées comptant.</li></ul></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/E-reporting-des-ventes-B2C-anonymes-3eb8db15623a8100b1f2c56649c98374"
+    },
+    {
+      "id": "3eb8db15-623a-81dc-8243-cc0163bd3de8",
+      "identifiant": "INA-928",
+      "titre": "E-Invoicing : synchroniser les statuts de cycle de vie des factures",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-30T12:52:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<ul><li>En tant que : Gérant du camping municipal</li><li>Je veux : visualiser le statut de ma facture (Déposée, Rejetée, Suspendue, Mandatée) directement dans mon tableau de bord des factures</li><li>Afin de : suivre les paiements de la trésorerie publique sans devoir me connecter au portail externe de Chorus Pro.</li></ul>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/E-Invoicing-synchroniser-les-statuts-de-cycle-de-vie-des-factures-3eb8db15623a81dc8243cc0163bd3de8"
+    },
+    {
+      "id": "3eb8db15-623a-8159-8fb6-e910685c3515",
+      "identifiant": "INA-927",
+      "titre": "E-Invoicing : Transmettre la facture au format Factur-X vers l'API",
+      "classification": null,
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-30T12:48:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<ul><li>En tant que : Système back-office</li><li>Je veux : envoyer automatiquement le fichier XML/PDF Factur-X généré vers l'API de dépôt de Chorus Pro lors de la validation d'une facture B2B ou B2G</li><li>Afin de : remplir mon obligation légale sans imposer de dépôt manuel à l'utilisateur.</li></ul>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/E-Invoicing-Transmettre-la-facture-au-format-Factur-X-vers-l-API-3eb8db15623a81598fb6e910685c3515"
+    },
+    {
+      "id": "3eb8db15-623a-815e-96ef-f6b9d597166c",
+      "identifiant": "INA-926",
+      "titre": "Paramétrer le compte technique Chorus Pro dans NAXI",
+      "classification": null,
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-30T12:41:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<ul><li>En tant que Gérant du camping municipal ou de la régie&nbsp;</li><li>Je veux&nbsp; saisir mes identifiants de compte technique Chorus Pro et mon Code Service dans un écran de configuration dédié</li><li>Afin de lier mon logiciel de gestion à la plateforme de l'État pour automatiser mes envois.</li></ul>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Param-trer-le-compte-technique-Chorus-Pro-dans-NAXI-3eb8db15623a815e96eff6b9d597166c"
+    },
+    {
+      "id": "3eb8db15-623a-818e-b9e4-eb90d719d231",
+      "identifiant": "INA-925",
+      "titre": "Implémenter l'authentification dynamique OAuth 2.0 (PISTE)",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-30T12:39:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "En tant que : Système back-office<div>Je veux : m'authentifier sur l'API de l'État (PISTE) avec un Client ID / Client Secret pour récupérer un token d'accès temporaire</div><div>Afin de : garantir des appels sécurisés et ininterrompus vers les web services Chorus Pro.</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Impl-menter-l-authentification-dynamique-OAuth-2-0-PISTE-3eb8db15623a818eb9e4eb90d719d231"
+    },
+    {
+      "id": "3eb8db15-623a-81ce-893b-eeef8de6a67a",
+      "identifiant": "INA-924",
+      "titre": "Déploiement V5 - Démasquer/dégriser des menus",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "FEVRIER 27"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-30T10:26:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Pour la sortie de la version 5 de NAXI Desk, on va avoir besoin de démasquer/dégriser des menus/fonctions pour qu'elles soient accessibles.",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/D-ploiement-V5-D-masquer-d-griser-des-menus-3eb8db15623a81ce893beeef8de6a67a"
+    },
+    {
+      "id": "3eb8db15-623a-8167-a8da-cb737cb57139",
+      "identifiant": "INA-923",
+      "titre": "Déploiement V4 - Démasquer/dégriser des menus",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "JANVIER 27"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-30T10:25:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Pour la sortie de la version 4 de NAXI Desk, on va avoir besoin de démasquer/dégriser des menus/fonctions pour qu'elles soient accessibles.",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/D-ploiement-V4-D-masquer-d-griser-des-menus-3eb8db15623a8167a8dacb737cb57139"
+    },
+    {
+      "id": "3eb8db15-623a-815f-a1a0-c70d53b7509c",
+      "identifiant": "INA-922",
+      "titre": "Erreur sur le report des plaques d'immatriculation Résident (nom & prénom non conservé)",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Cod & Cam"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-30T10:21:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Les noms &amp; prénoms associées aux plaques d'immatriculation ne sont pas conservées lorsque :&nbsp;<div><br></div><div>1. Créer un séjour résident sur saison 2026.</div><div>2. Cliquer sur la voiture afin de créer plusieurs plaques d'immatriculation</div><div>3. Saisir un nom &amp; prénom différent sur chaque plaque d'immatriculation.</div><div>4. Se rendre sur la saison 2027.</div><div>5. Créer un séjour de type résident sur le même client que 2026.</div><div>6. Fermer la fiche client</div><div>7. Se rendre dans le menu Administration &gt; NAXI CAM : Activation des immatriculations des résidents</div><div>8. Choisir 2026 dans la combo</div><div>9. Les immatriculations se chargent : on voit déjà que le nom et prénom n'est pas repris, NAXI affiche par défaut le nom &amp; prénom de la fiche client associée</div><div>10. Valider l'import : si on retourne dans la fiche du client sur 2027, les noms &amp; prénoms ont en effet été remplacés par le nom &amp; prénom de la fiche client</div><div><br></div><div><b>Dans mon cas de tests / 2026 :&nbsp;</b></div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e9774349702c461da0b4715d193cb16f\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>2027 :&nbsp;</b></div><div><b><br></b></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/70ffab0627664790850dd9957d2db9e5\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><br></div><div><b>Reproduit sur démo Angélique 18.36 HF</b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-sur-le-report-des-plaques-d-immatriculation-R-sident-nom-pr-nom-non-conserv-3eb8db15623a815fa1a0c70d53b7509c"
+    },
+    {
+      "id": "3eb8db15-623a-81e5-a576-c2985fbaefe7",
+      "identifiant": "INA-921",
+      "titre": "Norme pour version 19 :  optimisations et mise en conformité légale",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-30T10:18:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Cette US regroupe en résumé ce qui a été fait pour l'audit de juillet 2026 pour le version 19.<br>Dans Jira cela correspond aux US suivantes :<br><br><b>NF-197</b>&nbsp; : <b>Revenu Locatif - Ajout info nature opération</b><br><ul><li>Enregistrement en base (LIGFACT) de la mention « service » pour les lignes et les avoirs liés aux revenus locatifs.</li><li>Présence de la mention sur les éditions de factures, avoirs et proformas.</li><li>Applicable aux sociétés basées en France (FR) et en Espagne (ES) dès la v19.</li></ul><div><b>NF-209 : Vente réception - mode caisse : gérer le rendu monnaie sur le multi-paiements</b></div><div><ul><li>Saisie possible du montant rendu pour les modes de paiement autorisés.</li><li>Récapitulatif mis à jour en temps réel (Total, Réglé, Rendu monnaie, Reste à régler).</li><li>Enregistrement de deux écritures distinctes en base de données lors d'un rendu en espèces (entrée pour le montant perçu / sortie pour la monnaie rendue) et affichage détaillé sur le ticket.</li></ul><div><b>NF-210 : Vente réception - mode classique : gérer le rendu monnaie sur le multi-paiements</b></div></div><div><ul><li>Ajout de la colonne de saisie du rendu monnaie dans la table de règlement (detail_paiVente.wdw).</li><li>Harmonisation des libellés de récapitulatif (Total Vente, Réglé, Reste à régler).</li><li>Contrôle de cohérence lors de la validation (Total - Rendu == MontantInitial) et activation/désactivation conditionnelle selon le mode de paiement choisi.</li></ul><div><b>NF-211 : Revenu Locatif - Facturation par avoir uniquement</b></div></div><div><ul><li>Le bouton « Générer et Facturer » ouvre directement la fenêtre de création d'avoir (les options proforma sont grisées).</li><li>Enregistrement de la prestation, mise à jour des encours et du compte client.</li><li>Respect des règles fiscales : chaîne de signatures conforme et archivage automatique dans l'archive fiscale.</li></ul><div><b>NF-212 : Clôture exercice : Délai supplémentaire à 9 jours</b></div></div><div><ul><li>Réduction du délai de clôture automatique de 15 jours à 9 jours après la fin d'exercice.</li><li>Règle appliquée spécifiquement pour les entreprises en France (FR) et en Espagne (ES) à partir de la version 19.</li><li>Recalcul automatique et dynamique de la date prévisionnelle de clôture lors de la saisie ou modification de la date de fin d'exercice.</li></ul></div><b>NF-221 : Facturation - Montant de la facture d'acompte à 0 sur la facture&nbsp;</b><div><ul><li>Le montant de l'acompte n'était pas correctement récupéré lors de la génération de la facture de solde.</li></ul><br></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Norme-pour-version-19-optimisations-et-mise-en-conformit-l-gale-3eb8db15623a81e5a576c2985fbaefe7"
+    },
+    {
+      "id": "3eb8db15-623a-81e6-af70-fd29199ecb72",
+      "identifiant": "INA-920",
+      "titre": "Déploiement V3 - Démasquer/dégriser des menus",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-30T10:03:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Pour la sortie de la version 3 de NAXI Desk, on va avoir besoin de démasquer/dégriser des menus/fonctions pour qu'elles soient accessibles.",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/D-ploiement-V3-D-masquer-d-griser-des-menus-3eb8db15623a81e6af70fd29199ecb72"
+    },
+    {
+      "id": "3eb8db15-623a-812c-8842-d5ef59022286",
+      "identifiant": "INA-919",
+      "titre": "Déploiement V2 - Démasquer/dégriser des menus",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-09-30T09:58:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Pour la sortie de la version 2 de NAXI Desk, on va avoir besoin de démasquer/dégriser des menus/fonctions pour qu'elles soient accessibles.",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/D-ploiement-V2-D-masquer-d-griser-des-menus-3eb8db15623a812c8842d5ef59022286"
+    },
     {
       "id": "3eb8db15-623a-8139-bfc6-e330fbd068dd",
       "identifiant": "INA-918",
@@ -546,7 +1006,7 @@
       "client": "",
       "dateCreation": "2026-09-17T07:45:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 14,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -689,7 +1149,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-14T07:59:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -1754,7 +2214,7 @@
       "client": "",
       "dateCreation": "2026-09-07T14:06:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 7,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -4280,7 +4740,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "SEPTEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -4297,7 +4759,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -41040,7 +41504,7 @@
     ]
   },
   "counts": {
-    "classique": 702,
+    "classique": 715,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
