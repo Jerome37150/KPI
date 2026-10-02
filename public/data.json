@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T13:48:55.500Z",
+  "generatedAt": "2026-10-02T18:45:44.724Z",
   "classique": [
     {
       "id": "3ed8db15-623a-8123-a97e-d0bf911c7964",
@@ -1678,7 +1678,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1686,7 +1686,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-10T06:52:00.000Z",
-      "estimBack": 0,
+      "estimBack": 2,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -1697,7 +1697,7 @@
       "explication": "Nous avons mis en place une passerelle avec Pennylane afin que les entreprises privées puissent envoyer tous les éléments nécessaires rentrant dans le cadre de la R.F.E<div>Nous devons faire la même chose pour les entreprises publiques. Elles ne peuvent pas passer par pennylane mais par la P.A publique Chorus Pro.&nbsp;</div><div>Afin d'éviter toute confusion à l'utilisateur, nous allons masquer la configuration pennylane au camping municipaux.&nbsp;</div><div><br></div><div>Comment savoir si une entreprise est publique ?</div><div>Dans les mentions légales , la case suivante est cochée :&nbsp;&nbsp;<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/cebde94504c44e64ae352b2b01117e9b\" alt=\"capture\" style=\"opacity: 1; max-width: 100%;\"></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -2526,7 +2526,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2545,7 +2545,7 @@
       "explication": "Demande amélioration sur l’espace client mais plus généralement aussi sur la passerelle avec SH : Lors du paiement du solde, pouvoir extraire la taxe de séjour du montant du solde afin que celle-ci puisse être payée sur place<div><br></div><div><span style=\"background-color: rgb(191, 219, 254);\">Dans la même optique que la INA-14 mais pour l'Espace client et INA-867 pour la partie Back</span></div><div><br></div><div>Aujourd’hui dans SH, un camping peut choisir de prendre en compte la taxe de séjour on non dans le solde du séjour.</div><div><br></div><div>Sauf que de notre côté nous n’avons pas cette information et nous n’avons pas ce type de paramétrage dans NAXI, ce qui fait que actuellement dans l'échange de solde la taxe de séjour est tout le temps prise en compte.</div><div><br></div><div>Ce qui pose soucis pour certains campings qui ne veulent pas encaisser des taxes de séjour avant le venus des clients.</div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4342,7 +4342,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4361,7 +4361,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4450,7 +4450,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4469,7 +4469,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -7614,7 +7614,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7648,7 +7648,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7665,7 +7665,7 @@
       "explication": "<p>Développer l’interface utilisateur de la fenêtre de planning, intégrant les fonctionnalités de sélection, zoom, filtres, affichage des informations, interactions (clic, glisser-déposer), pictogrammes, codes couleurs, boutons d’action, et impression.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -7746,7 +7746,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7763,7 +7763,7 @@
       "explication": "<p>Implémenter le service d’authentification permettant la connexion à l’application : récupération des répertoires de données, authentification de l’opérateur, retour des entreprises/exercices autorisés et des imprimantes disponibles, puis redirection vers le Tableau de bord.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8500,7 +8500,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -8517,7 +8517,7 @@
       "explication": "<p>Développer la logique backend pour la recherche client, incluant le pré-filtrage, la gestion des différents critères de recherche, la création de client, la gestion de la mémoire des recherches, et l’intégration des règles de gestion.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8534,7 +8534,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -8551,7 +8551,7 @@
       "explication": "<p>Développer la logique backend pour la gestion de l'historique des consultations clients, incluant la persistance, la non réinitialisation à la déconnexion/changement d'entreprise ou d'exercice, et la non distinction entre les historiques des deux modes de recherche.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9096,7 +9096,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9113,7 +9113,7 @@
       "explication": "<p>Développer la partie back-end pour la gestion des listes de réservations, l’application des filtres, la gestion des statuts, le calcul des soldes, la gestion des alertes et l’exposition des données nécessaires à l’interface front-end.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9258,7 +9258,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9275,7 +9275,7 @@
       "explication": "<p>Développer la logique backend pour la recherche de disponibilités, la gestion des filtres (dates, catégories, nombre de personnes), et le calcul des emplacements disponibles selon les règles de gestion.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9292,7 +9292,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9309,7 +9309,7 @@
       "explication": "<p>Développer l'interface frontend de la fenêtre 'Disponibilités', intégrant les filtres, le bouton de recherche, l'affichage des résultats, et l'interaction avec le backend.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9688,7 +9688,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9705,7 +9705,7 @@
       "explication": "<p>Développer la partie back-end pour la fenêtre “Liste des séjours” : création des endpoints pour la récupération, le filtrage (date, type, nom), la gestion des statuts, l’application des règles de gestion, la gestion des actions rapides (individuelles et en masse), l’impression, et l’intégration avec les paramétrages existants (TO, statuts, etc.). Assurer la cohérence des données et la performance des requêtes.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9722,7 +9722,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9739,7 +9739,7 @@
       "explication": "<p>Développer la partie front-end de la fenêtre “Liste des séjours” : intégration des filtres, affichage dynamique des listes, gestion du code couleur, pictogrammes, compteur, champ de recherche, actions rapides, impression, et navigation. Assurer la réactivité et l’ergonomie de l’interface.</p><p><br></p><p><br></p><p>https://ctoutvertcom-my.sharepoint.com/:x:/g/personal/marjorie_gusai_inaxel_com/IQBimhcvECDVQ7iWAt1o-RGzATpfjWM1wwxMpS6mkOlyDW8?e=dYqSm4</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -10014,7 +10014,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -10048,7 +10048,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -10780,7 +10780,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -10814,7 +10814,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -10848,7 +10848,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -10882,7 +10882,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -10916,7 +10916,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -10950,7 +10950,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -11146,7 +11146,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -11180,7 +11180,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -11664,8 +11664,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "AOUT 26",
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -11674,7 +11673,7 @@
       "client": "",
       "dateCreation": "2026-07-27T08:18:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 8,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -11684,7 +11683,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -12191,7 +12190,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -12210,7 +12209,7 @@
       "explication": "Test d'une migration en Laravel 13 pour une des APIs",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -12333,7 +12332,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -12352,7 +12351,7 @@
       "explication": "<b>Client impacté : Fage24</b><br><i>Version NxCod 06-05</i><br><br>Suite au déploiement de la version 06-05, le client nous recontacte afin de nous signaler que notre correctif ne corrige pas réellement que son disque continue d'écrire une forte volumétrie, générant de pertes de performances sur son ordinateur.<div><br></div><div><b><u>Après analyse </u></b>:&nbsp;</div><div><br></div><div>L'exe a bien été configuré en admin&nbsp; :</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/35dad1e883f040a8a3d66381ab983c34\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Le fichier de logSdk est bien à 0ko :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f20d0a4b08454abcb2f4d14cb9c657f5\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Pourtant, son disque continue d'écrire sans cesse :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a221e70dce7046bc8c5107f7cb5c1b2d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>En cause, le fichier NUL crée par le lien symbolique, qui continue de monter sans cesse :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f2085e25562d4bc6adf42e7e99b89481\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><br></div><div><b>-&gt; Il faudrait donc désactiver complètement les logs SDK</b></div><div><br></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -12690,7 +12689,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -12709,7 +12708,7 @@
       "explication": "<b>Client concerné :</b> Les Mediterrannées<div><br></div><div><u><b>Demande :</b></u>&nbsp;<br><br>-&gt; Envoyer les plaques d'immatriculation dans le CRM afin que CTV puisse ensuite les envoyer à 1check</div><div><br></div><div><b><u>Mail initial du client </u></b>:&nbsp;<br><br><i>Bonjour,&nbsp;</i><div><i><br></i></div><div><i>Nous avons demandé à 1check de faire apparaitre les plaques d’immatriculation des clients dans les réservations afin que notre équipe de sécurité puisse savoir à qui appartient les véhicules en cas de gêne.</i></div><div><i>Il apparait que l’information ne remonte pas de Naxi.</i></div><div><i>Pourriez-vous faire remonter cette information dans l’API ?</i><br><br><u><b>Retour de Mailys :&nbsp;</b></u><br><br><i>Hello,</i></div><div><i><br></i></div><div><i>C’est assez simple pour nous d’ajouter un champ, c’est d’ailleurs prévu en ce qui concerne l’immat.</i></div><div><i>Pour moi la question est plutôt quand cela pourra être ajouté à la passerelle Naxi&gt;CRM….</i></div><div><i><br></i></div><div><br></div></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -13058,7 +13057,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -13076,7 +13075,9 @@
       "pointsBlocage": "",
       "explication": "<p>Développer la partie back-end pour la fenêtre 'Liste transactions' : endpoints pour la récupération, le filtrage, la recherche et la modification des transactions, gestion des deep-links, pagination, export et impression, ainsi que la logique métier pour les modifications de mode de paiement.</p><p><b>US Jira liée : </b><a href=\"https://inaxel.atlassian.net/browse/TL-310\" style=\"\">TL-310</a></p>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -13186,7 +13187,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -13205,7 +13206,7 @@
       "explication": "<p>Développer l'interface utilisateur de la fenêtre 'Liste transactions' : intégration de la toolbar, des filtres, des onglets dynamiques, des colonnes avec recherches/filtres inline, du menu contextuel, des modales de modification de paiement, du footer avec impression/export, et gestion des deep-links.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -13528,7 +13529,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "AOUT 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -13537,7 +13538,7 @@
       ],
       "client": "Tous les clients NxCod , NxCam",
       "dateCreation": "2026-06-30T07:47:00.000Z",
-      "estimBack": 0,
+      "estimBack": 4,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -13548,7 +13549,7 @@
       "explication": "Nous constatons que les fenêtres de synchros NaxiCod &amp; NaxiCam s'arrêtent de façon inopinée.&nbsp;<br>Après tests sur nos démos en interne, nous constatons que la fenêtre s'est arrêtée à 23h59 :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/88f430ec46f74b1ebb3a96146de336a6\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div><b>Après analyse des logs :&nbsp;</b></div><div><br></div><div><i>2026-06-29 22:59:53. Fonction : AccessControlManager.GetRemoteData:https://synchro-access-control-api.inaxel.com/api/companies/inaxelmaxr/accessControl/devices/cod/id/1/naxictrl</i></div><div><i>2026-06-29 22:59:53. Paramètre 1 :&nbsp;</i></div><div><i>2026-06-29 22:59:53. Paramètre 2 : Request failed Bad Gateway&nbsp;</i></div><div>-------------------------------------------------------------------</div><div><br></div><div>Après échange avec Ludwig, on suppose que le pod a redémarré à 23h00 et la fenêtre de synchro ne doit pas se reconnecter au nouveau pod<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/5462d6f509fe48a2b973459009a3c6ba\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>+ Constat du 09.07.2026 fait par Steven &amp; Ludwig</b> :&nbsp;<br><br>-&gt; A chaque erreur 502, la synchro de NAXICOD ou NAXICAM se fige complètement et nécessite un redémarrage.<br>Il faudrait donc une procédure de reconnexion en cas d'erreur 502, en cas d'erreur réseau...etc<br><br><br></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -13728,7 +13729,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -13746,7 +13747,9 @@
       "pointsBlocage": "",
       "explication": "<u><i>Demande émise par Mailys</i> </u>:&nbsp;<br><br>Flower a des problèmes avec le fait que l’on se base sur le libellé Naxi-gestion produit traduit, ces libellés ne sont pas mis à jour.<div><br></div><div><i>\"Pour l’envoi des produits au CRM, le choix sur la nouvelle passerelle a été fait d’envoyer le nom du produit traduit en FR et non le label principal, partant du postulat que ce nom était plus propre.</i></div><div><i>A l’usage, il n’en est rien, cela amène même des confusions (assez graves en termes de lecture de données) entre les produits et des difficultés de communication entre nos clients et les établissements.</i></div><div><div><i>Est-ce possible dans une version prochaine de revenir au label principal ?</i></div><div><i>Idéalement, si cette version pouvait faire en oneshot un renvoi des produits de la saison en cours ça serait super.\"</i><br><br></div></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -14164,7 +14167,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "AOUT 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -15802,7 +15805,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -24640,7 +24643,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
