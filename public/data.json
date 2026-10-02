@@ -1,6 +1,218 @@
 {
-  "generatedAt": "2026-10-02T07:06:54.602Z",
+  "generatedAt": "2026-10-02T13:48:55.500Z",
   "classique": [
+    {
+      "id": "3ed8db15-623a-8123-a97e-d0bf911c7964",
+      "identifiant": "INA-940",
+      "titre": "Création d'une image docker pour NaxiAPI",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-02T09:07:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Les packages des librairies des images pour l'application naxi-api ne vont plus être distribués.<div><br></div><div>Création d'une image avec les packages et la stocké sur une registry AWS</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Cr-ation-d-une-image-docker-pour-NaxiAPI-3ed8db15623a8123a97ed0bf911c7964"
+    },
+    {
+      "id": "3ed8db15-623a-81e7-99cb-ceb9dedbac15",
+      "identifiant": "INA-939",
+      "titre": "Migration API en version Laravel",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-02T08:40:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Migration-API-en-version-Laravel-3ed8db15623a81e799cbceb9dedbac15"
+    },
+    {
+      "id": "3ed8db15-623a-81d4-8038-d265fc432b34",
+      "identifiant": "INA-938",
+      "titre": "Migration de NAXIAPI en Laravel 8",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-02T08:37:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Migration-de-NAXIAPI-en-Laravel-8-3ed8db15623a81d48038d265fc432b34"
+    },
+    {
+      "id": "3ed8db15-623a-81b2-908c-f86063ba0afd",
+      "identifiant": "INA-937",
+      "titre": "Gestion du projet cortex.backoffice.indexator",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-02T07:35:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "### Description<div><br></div><div>En tant que **système d’indexation**,</div><div>je souhaite **analyser un dépôt Git contenant un projet C# et extraire les informations pertinentes**,</div><div>afin de **les indexer dans une base de données et permettre leur exploitation ultérieure par un serveur MCP**.</div><div><br></div><div>### Objectifs</div><div><br></div><div>Le projet devra permettre de :</div><div><br></div><div>* récupérer ou lire un dépôt Git ;</div><div>* analyser sa structure et son contenu ;</div><div>* identifier et extraire les informations nécessaires à l’indexation ;</div><div>* normaliser les informations collectées ;</div><div>* stocker ces informations dans une base de données ;</div><div>* permettre la mise à jour de l’index lorsqu'une nouvelle version du dépôt est analysée ;</div><div>* fournir une donnée structurée et exploitable ultérieurement par un MCP.</div><div><br></div><div>### Périmètre technique à étudier</div><div><br></div><div>Le mécanisme permettant de déclencher l'analyse devra être défini lors de la phase de conception. Deux approches sont envisagées :</div><div><br></div><div>* **Pipeline GitLab CI/CD** : déclenchement de l'analyse lors d'un événement sur le dépôt ou selon une planification ;</div><div>* **Application Kubernetes** : exécution du traitement sous forme de job périodique (`CronJob`) dans le cluster.</div><div><br></div><div>Le choix entre ces deux approches devra être réalisé en fonction des contraintes d'exploitation, de fréquence d'indexation, de volumétrie et des besoins de déclenchement.</div><div><br></div><div>### Résultat attendu</div><div><br></div><div>À l'issue du traitement :</div><div><br></div><div>1. le dépôt Git est analysé ;</div><div>2. les informations ciblées sont extraites ;</div><div>3. les données sont persistées dans la base de données ;</div><div>4. l'index peut être mis à jour lors d'une nouvelle analyse ;</div><div>5. les données stockées sont structurées de manière à pouvoir être consommées par un serveur MCP.</div><div><br></div><div>### Critères d'acceptation</div><div><br></div><div>* [ ] Un dépôt Git peut être fourni au système d'indexation.</div><div>* [ ] Le dépôt est correctement récupéré et analysé.</div><div>* [ ] Les informations définies dans le périmètre fonctionnel sont extraites.</div><div>* [ ] Les informations extraites sont persistées en base de données.</div><div>* [ ] Une nouvelle analyse permet de mettre à jour les données existantes sans créer de doublons.</div><div>* [ ] Le traitement est automatisable.</div><div>* [ ] Le mécanisme d'exécution retenu est documenté : GitLab CI/CD ou Kubernetes CronJob.</div><div>* [ ] Les données stockées disposent d'un modèle permettant leur consommation par le MCP.</div><div>* [ ] Les erreurs d'analyse ou d'indexation sont journalisées et identifiables.</div><div>* [ ] Le traitement est reproductible et peut être relancé sans compromettre l'intégrité des données.</div><div><br></div><div>### Points à définir lors de la conception</div><div><br></div><div>* Informations exactes à extraire du dépôt C#.</div><div>* Structure et technologie de la base de données.</div><div>* Stratégie d'identification/versionnement des dépôts analysés.</div><div>* Gestion des branches et tags.</div><div>* Fréquence de réindexation.</div><div>* Déclenchement sur événement Git ou exécution planifiée.</div><div>* Choix entre GitLab CI/CD et Kubernetes CronJob.</div><div>* Gestion des accès aux dépôts privés.</div><div>* Gestion des secrets et credentials.</div><div>* Volume attendu et stratégie de purge/rétention.</div><div>* Contrat de données entre la base et le MCP.</div><div>* Gestion des erreurs et mécanisme de reprise.</div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Gestion-du-projet-cortex-backoffice-indexator-3ed8db15623a81b2908cf86063ba0afd"
+    },
+    {
+      "id": "3ed8db15-623a-814c-b9cd-d1060ecc546b",
+      "identifiant": "INA-936",
+      "titre": "Gestion du projet cortex.frontoffice.indexator",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-02T07:34:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "### Description<div><br></div><div>En tant que **système d’indexation**,</div><div>je souhaite **analyser un dépôt Git contenant un projet C# et extraire les informations pertinentes**,</div><div>afin de **les indexer dans une base de données et permettre leur exploitation ultérieure par un serveur MCP**.</div><div><br></div><div>### Objectifs</div><div><br></div><div>Le projet devra permettre de :</div><div><br></div><div>* récupérer ou lire un dépôt Git ;</div><div>* analyser sa structure et son contenu ;</div><div>* identifier et extraire les informations nécessaires à l’indexation ;</div><div>* normaliser les informations collectées ;</div><div>* stocker ces informations dans une base de données ;</div><div>* permettre la mise à jour de l’index lorsqu'une nouvelle version du dépôt est analysée ;</div><div>* fournir une donnée structurée et exploitable ultérieurement par un MCP.</div><div><br></div><div>### Périmètre technique à étudier</div><div><br></div><div>Le mécanisme permettant de déclencher l'analyse devra être défini lors de la phase de conception. Deux approches sont envisagées :</div><div><br></div><div>* **Pipeline GitLab CI/CD** : déclenchement de l'analyse lors d'un événement sur le dépôt ou selon une planification ;</div><div>* **Application Kubernetes** : exécution du traitement sous forme de job périodique (`CronJob`) dans le cluster.</div><div><br></div><div>Le choix entre ces deux approches devra être réalisé en fonction des contraintes d'exploitation, de fréquence d'indexation, de volumétrie et des besoins de déclenchement.</div><div><br></div><div>### Résultat attendu</div><div><br></div><div>À l'issue du traitement :</div><div><br></div><div>1. le dépôt Git est analysé ;</div><div>2. les informations ciblées sont extraites ;</div><div>3. les données sont persistées dans la base de données ;</div><div>4. l'index peut être mis à jour lors d'une nouvelle analyse ;</div><div>5. les données stockées sont structurées de manière à pouvoir être consommées par un serveur MCP.</div><div><br></div><div>### Critères d'acceptation</div><div><br></div><div>* [ ] Un dépôt Git peut être fourni au système d'indexation.</div><div>* [ ] Le dépôt est correctement récupéré et analysé.</div><div>* [ ] Les informations définies dans le périmètre fonctionnel sont extraites.</div><div>* [ ] Les informations extraites sont persistées en base de données.</div><div>* [ ] Une nouvelle analyse permet de mettre à jour les données existantes sans créer de doublons.</div><div>* [ ] Le traitement est automatisable.</div><div>* [ ] Le mécanisme d'exécution retenu est documenté : GitLab CI/CD ou Kubernetes CronJob.</div><div>* [ ] Les données stockées disposent d'un modèle permettant leur consommation par le MCP.</div><div>* [ ] Les erreurs d'analyse ou d'indexation sont journalisées et identifiables.</div><div>* [ ] Le traitement est reproductible et peut être relancé sans compromettre l'intégrité des données.</div><div><br></div><div>### Points à définir lors de la conception</div><div><br></div><div>* Informations exactes à extraire du dépôt C#.</div><div>* Structure et technologie de la base de données.</div><div>* Stratégie d'identification/versionnement des dépôts analysés.</div><div>* Gestion des branches et tags.</div><div>* Fréquence de réindexation.</div><div>* Déclenchement sur événement Git ou exécution planifiée.</div><div>* Choix entre GitLab CI/CD et Kubernetes CronJob.</div><div>* Gestion des accès aux dépôts privés.</div><div>* Gestion des secrets et credentials.</div><div>* Volume attendu et stratégie de purge/rétention.</div><div>* Contrat de données entre la base et le MCP.</div><div>* Gestion des erreurs et mécanisme de reprise.</div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Gestion-du-projet-cortex-frontoffice-indexator-3ed8db15623a814cb9cdd1060ecc546b"
+    },
+    {
+      "id": "3ed8db15-623a-813b-974e-f47ab9aeca34",
+      "identifiant": "INA-935",
+      "titre": "Création de composants Gitlab CI pour les projets csharp",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-02T07:29:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Création de composants Gitlab CI pour gérer les jobs d'un projet csharp",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Cr-ation-de-composants-Gitlab-CI-pour-les-projets-csharp-3ed8db15623a813b974ef47ab9aeca34"
+    },
     {
       "id": "3ec8db15-623a-81dd-abb7-f04bf21aa520",
       "identifiant": "INA-934",
@@ -18,7 +230,7 @@
       "client": "",
       "dateCreation": "2026-10-01T14:54:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 10,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -76,14 +288,16 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
       "client": "",
       "dateCreation": "2026-10-01T08:53:00.000Z",
-      "estimBack": 0,
+      "estimBack": 5,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -93,7 +307,9 @@
       "pointsBlocage": "",
       "explication": "<div>La gestion des devis ne s'affiche pas correctement lorsque :&nbsp;</div><div><br></div><div>1. Avoir une fiche client à minimum 7 chiffres.</div><div>2. Créer un devis rattaché à cette fiche client</div><div>3. Se rendre ensuite dans le menu Séjour &gt; Gestion des devis</div><div>4. Les clients ayant un numéro à 7 chiffres et + s'affichent avec des \"++++\" :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e816950bfc204bff9c5f3f5aa3a4c5cb\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Reproduit sur démo Angélique en HF - 18.36</b></div><div><i>Seul le tableau de Gestion des devis est concerné / Si je regarde la recherche des devis on est ok :</i></div><div><i><br></i></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/8e1cc2620b3c4173a2b61cdff90e6b39\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -149,7 +365,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-30T13:10:00.000Z",
-      "estimBack": 0,
+      "estimBack": 5,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -185,7 +401,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-30T13:00:00.000Z",
-      "estimBack": 0,
+      "estimBack": 15,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -221,7 +437,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-30T12:52:00.000Z",
-      "estimBack": 0,
+      "estimBack": 8,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -257,7 +473,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-30T12:48:00.000Z",
-      "estimBack": 0,
+      "estimBack": 8,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -293,7 +509,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-30T12:41:00.000Z",
-      "estimBack": 0,
+      "estimBack": 8,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -329,7 +545,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-30T12:39:00.000Z",
-      "estimBack": 0,
+      "estimBack": 8,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -578,7 +794,7 @@
       "client": "",
       "dateCreation": "2026-09-30T09:36:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 7,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -739,15 +955,17 @@
       "titre": "Erreur affichage malgré la version 18.36",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
       "client": "",
       "dateCreation": "2026-09-29T14:37:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -757,7 +975,9 @@
       "pointsBlocage": "",
       "explication": "Des problèmes d'affichages sont encore constatés malgré le correctif de la 18.36 :&nbsp;<div><br></div><div><b>1 - La ligne \"Voir les exercices précédents\" sur les fiches clients est tronquée</b> :<div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6f9ddfbd5c32456197faa2dd910f9a7b\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div></div><div><br></div><div><b>2 - Sur la version groupe, on ne peut plus réduire la taille du tableau des prestations</b>, la flèche permettant de réduire ou augmenter n'apparaît plus :&nbsp;<a href=\"https://jam.dev/c/e1609a4a-1a90-46b4-8817-3d1557003846\">https://jam.dev/c/e1609a4a-1a90-46b4-8817-3d1557003846</a></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -773,7 +993,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -781,7 +1001,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-29T13:48:00.000Z",
-      "estimBack": 0,
+      "estimBack": 2,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -792,7 +1012,7 @@
       "explication": "De nombreux utilisateurs nous signalent qu'à la suite de leur création de compte dans NAXI, ils ne reçoivent pas le mail de validation de Pennylane.<div>De plus dans Pennylane, ils ne peuvent rien faire car leur entreprise n'apparaissent pas.</div><div><br></div><div>Voici les étapes réalisées par nos clients :&nbsp;</div><div><br></div><div>1. Dans NAXI, se rendre dans le menu Paramètres &gt; Exercices</div><div>2. Dans l'onglet Mentions Légales, cliquer sur \"Créer son compte\"</div><div>3. Renseigner les champs demandés</div><div>4. On reçoit bien le mail de Pennylane pour finaliser la création OK</div><div>5. En théorie, 48h après, on est censés recevoir un email de Pennylane indiquant que le compte est validé et que l'entreprise est bien crée.</div><div><br></div><div>Or, pour un certain nombre de client, ce second email n'est pas reçu.</div><div><br></div><div>Après échange avec Pennylane il s'avère que les comptes utilisateurs sont bien crées, mais que nous n'avons fait aucun appel pour créer l'entreprise.</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/b79697c1a0454a1698fa6620644671ff\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -809,7 +1029,8 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "SEPTEMBRE 26",
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1241,7 +1462,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1260,7 +1481,7 @@
       "explication": "Exposer l'indicateur « l'opérateur connecté a des traitements automatiques à faire » et mettre en place le point d'entrée vers la fenêtre des traitements automatiques de la version classique, avec transmission du contexte opérateur, camping et saison sans nouvelle authentification.",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -1277,7 +1498,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1286,7 +1507,7 @@
       "client": "",
       "dateCreation": "2026-09-14T07:59:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 5,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -1296,7 +1517,7 @@
       "explication": "Développer le bouton « Traitement automatique » du header : icône, pastille de notification conditionnelle, bulle d'information au survol et ouverture de la version classique dans un nouvel onglet, directement sur la fenêtre des traitements automatiques de l'opérateur connecté.",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -1385,7 +1606,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -1393,7 +1614,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-10T14:09:00.000Z",
-      "estimBack": 0,
+      "estimBack": 5,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -1404,7 +1625,7 @@
       "explication": "Suite à l'échange avec notre partenaire Fülle ( abbil/force7) , nous allons nous charger d'envoyer le e-reporting pour les ventes en compte Naxi Commerce.&nbsp;<div>Dans NAXI la possibilité de mettre en compte des ventes est disponible avec les specifs&nbsp;<b>NAXICOMMERCE + NAXICASHLESS</b></div><div>Une ventes en compte c'est quoi ?</div><div>Sur le logiciel de caisse, l'utilisateur peut,&nbsp; au moment du paiement, faire un transfert PMS.</div><div>Le client final peut :&nbsp;</div><div>- payer l'intégralité des ses ventes à la fin du séjour.</div><div>- Créditer un compte qui sera débité à chaque passage en caisse.&nbsp;</div><div><br></div><div><b>Les ventes mises en compte sont toujours rattachées à un numéro client</b></div><div><b><br></b></div><div>Le client final, peut créditer son compte par deux moyens :</div><div>- au comptoir, avec n'importe quel mode de paiement =&gt; il s'agit alors d'un paiement classique dans NAXI (TRANSFI)</div><div>- depuis son espace client =&gt; ce n'est pas un paiement comme les autres,&nbsp; il ne sert qu'aux ventes NAXICOMMERCE (TRANS_NV)</div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -1697,7 +1918,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2373,7 +2594,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2381,7 +2602,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-07T13:34:00.000Z",
-      "estimBack": 0,
+      "estimBack": 15,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -2392,7 +2613,7 @@
       "explication": "Demande amélioration sur l’<b>espace client</b>  mais plus généralement aussi sur la passerelle avec SH : Lors du paiement du solde, pouvoir extraire la taxe de séjour du montant du solde afin que celle-ci puisse être payée sur place<div><br><div><span style=\"background-color: rgb(191, 219, 254);\">Dans la même optique que la INA-14 mais pour l'Espace client et la INA-889 pour la partie WEB</span></div><div><br></div><div>Aujourd’hui dans SH, un camping peut choisir de prendre en compte la taxe de séjour on non dans le solde du séjour.</div><div><br></div><div>Sauf que de notre côté nous n’avons pas cette information et nous n’avons pas ce type de paramétrage dans NAXI, ce qui fait que actuellement dans l'échange de solde la taxe de séjour est tout le temps prise en compte.</div><div><br></div><div>Ce qui pose soucis pour certains campings qui ne veulent pas encaisser des taxes de séjour avant le venus des clients.</div></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -2445,7 +2666,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2464,7 +2685,7 @@
       "explication": "<div>Nous avons créer une nouvelle API  pour faire transiter les envois d’emails de nos différent applicatifs via l’US <span style=\"background-color: rgb(254, 240, 138);\">WEB-785: [WEB] Créer une API pour pouvoir gérer le service du mail profider-Done</span></div><div><br></div><div><br></div>Ca va concerner les applications&nbsp;<div><ul><li>&nbsp;Espace client (confirmation de paiement (acompte solde, caution), mot de passe oublié)</li><li>&nbsp;SalesApi(confirmation de paiement de crédit)</li><li>&nbsp;Backoffice Naxiapi (abandonné</li></ul><div><br></div></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -2549,7 +2770,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2568,7 +2789,7 @@
       "explication": "<div><b>2 Objectifs :&nbsp;</b></div><div><br></div><div>- Quantifier et lister les campings qui sont passés par Naxi Gestion pour la création du compte Pennylane</div><div><br></div><div>- Quantifier et lister les clients qui utilisent la connectivité Pennylane avec Naxi =&gt; qui se connecte et qui se déconnecte</div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -2689,7 +2910,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2708,7 +2929,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -2725,7 +2946,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -2744,7 +2965,7 @@
       "explication": "Créer une pipeline automatisation IA, pour gagner en productivité et en efficacité<div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/d4872e9ed7ea4ad38056cd6c2c71844d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -2806,7 +3027,7 @@
       "client": "",
       "dateCreation": "2026-09-03T10:22:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 5,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -2878,7 +3099,7 @@
       "client": "",
       "dateCreation": "2026-09-03T10:12:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 5,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -3009,7 +3230,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3028,7 +3249,7 @@
       "explication": "Suite à la mise en place de la connectivité entre Naxi et Pennylane pour l'e-invoicing, l'utilisateur doit faire lui même l'apparairage avec Pennylane.<div><br></div><div>Suite au développement en cours pour&nbsp; e-reporting,&nbsp; l'utilsateur qui a déja connecté Naxi à Pennylane va devoir se déconnecter et se reconnecter à Pennylane pour inclure l'e-reporting.</div><div><br></div><div>Nous avons besoin de connaître les campings qui ont déjà appairé Naxi à Pennylane afin de les accompagner dans le passage de la nouvelle Version.&nbsp;</div><div><br></div><div>De manière plus générale,le dashboard sera pour nous une manière de quantifier les clients qui utilisent la connectivité Pennylane avec Naxi.</div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3081,7 +3302,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3100,7 +3321,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3198,7 +3419,7 @@
       "client": "",
       "dateCreation": "2026-09-02T10:31:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 7,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -3225,7 +3446,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3244,7 +3465,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3306,7 +3527,7 @@
       "client": "",
       "dateCreation": "2026-09-02T09:20:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 21,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -3369,7 +3590,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3388,7 +3609,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3405,7 +3626,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3424,7 +3645,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3518,7 +3739,7 @@
       "client": "",
       "dateCreation": "2026-09-02T07:47:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 14,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -3545,7 +3766,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3564,7 +3785,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3581,7 +3802,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3600,7 +3821,7 @@
       "explication": "<b>Fonctionnement actuel</b> =&gt; création de l'allotement depuis la fiche client d'un T.O (voir vidéo démo)<div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/456900122d794ee59e2a797e5567ad1b\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Pour un même client (dans notre cas Odalys) nous avons besoin d'identifier , sur chaque emplacement, quel CE ou TO y est rattaché dans le but de facilité les équipes réception.&nbsp;</div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3689,7 +3910,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3708,7 +3929,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3770,7 +3991,7 @@
       "client": "",
       "dateCreation": "2026-09-01T16:15:00.000Z",
       "estimBack": 0,
-      "estimFront": 1,
+      "estimFront": 10,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -3797,7 +4018,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3816,7 +4037,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3905,7 +4126,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3924,7 +4145,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4013,7 +4234,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4032,7 +4253,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4805,7 +5026,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4824,7 +5045,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4841,7 +5062,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4860,7 +5081,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4949,7 +5170,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4968,7 +5189,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -4985,7 +5206,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5004,7 +5225,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -5021,7 +5242,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5040,7 +5261,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -5093,7 +5314,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5112,7 +5333,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -5165,7 +5386,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5184,7 +5405,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -5201,7 +5422,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5220,7 +5441,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -5345,7 +5566,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5364,7 +5585,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -5417,7 +5638,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5436,7 +5657,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -5525,7 +5746,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5544,7 +5765,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -5633,7 +5854,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5652,7 +5873,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -5741,7 +5962,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5760,7 +5981,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -5921,7 +6142,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -5940,7 +6161,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6129,7 +6350,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -6165,8 +6386,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "AOUT 26",
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -6185,7 +6405,7 @@
       "explication": "<div>Le camping réalise des ventes qui ne sont rattachées à aucun dossier client dans le PMS : boutique, bar/snack, prestations ponctuelles payées sur place (accès piscine à la journée, laverie, location de matériel...). Ces ventes donnent lieu à un simple ticket de caisse, jamais à une facture nominative, et concernent aussi bien des campeurs en séjour que des visiteurs de passage non identifiés.</div><div>Ces ventes entrent dans le champ de l'e-reporting B2C : elles n'ont pas besoin d'être transmises individuellement, mais doivent être agrégées par jour de vente et ventilées par taux de TVA, sans aucune donnée d'identification client, avant transmission à Pennylane.</div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -7294,7 +7514,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7311,7 +7531,7 @@
       "explication": "<p>Réaliser une analyse fonctionnelle et technique du module Paramétrage des modes de paiement afin de définir les besoins, les flux, et les interactions avec les autres modules.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -7328,7 +7548,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7345,7 +7565,7 @@
       "explication": "<p>Concevoir l'interface utilisateur pour la fenêtre de paramétrage des critères prédéfinis sur les emplacements, en tenant compte de la sélection des catégories à afficher et de l'intégration avec les autres fenêtres concernées.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -7560,7 +7780,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -7577,7 +7797,7 @@
       "explication": "<p>Développer l’interface frontend de la fenêtre de connexion, avec l’affichage du formulaire d’authentification, la gestion des champs de saisie et des messages d’erreur, l’intégration du design conforme au projet, et la préparation des appels vers le service d’authentification.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -7827,7 +8047,7 @@
       "client": "",
       "dateCreation": "2026-08-04T07:33:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 4,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -8056,7 +8276,7 @@
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:32:00.000Z",
-      "estimBack": 4,
+      "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -8348,7 +8568,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -8365,7 +8585,7 @@
       "explication": "<p>Développer l’interface frontend de la fenêtre de recherche client, avec la gestion dynamique des champs de recherche, l’affichage des résultats, les filtres avancés, la création de client, et la fermeture de la fenêtre.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8382,7 +8602,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -8399,7 +8619,7 @@
       "explication": "<p>Développer l'interface frontend pour l'affichage de l'historique des consultations dans le panneau Recherche client, sans distinction entre les deux onglets, la limitation à 20 entrées, la non réinitialisation après déconnexion ou changement d’entreprise ou changement d’exercice et l'ouverture directe de la fiche client depuis l'historique.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8448,7 +8668,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -8465,7 +8685,7 @@
       "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8614,7 +8834,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -8631,7 +8851,7 @@
       "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8910,7 +9130,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -8927,7 +9147,7 @@
       "explication": "<p>Développer la partie front-end de la fenêtre “Liste des réservations” : intégration des filtres, affichage dynamique des listes, gestion des compteurs, actions rapides (affectation d’emplacement, impression), et respect des règles d’affichage des statuts et soldes.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9145,7 +9365,7 @@
       "client": "",
       "dateCreation": "2026-08-04T07:26:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 5,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -9172,7 +9392,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9189,7 +9409,7 @@
       "explication": "<p>Développer les données et règles serveur du tableau de bord : calcul des KPI, cohérence avec Séjours / Planning / Contrôle de caisse, alimentation des cartes selon la souscription BI CRM, préparation des jeux de données pour les graphes et filtres.</p><p><b>US Jira liée :</b> <a href=\"https://inaxel.atlassian.net/browse/TL-398\">TL-398</a></p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9206,7 +9426,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9272,7 +9492,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9289,7 +9509,7 @@
       "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9340,7 +9560,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -9357,7 +9577,7 @@
       "explication": "<p>Développer l’interface du menu burger / rail navigation / header avec les nouveaux accès V1, le renvoi vers la nouvelle pré-réservation, l’accès à la gestion des devis, le sélecteur saison/exercice et le bouton de retour vers la version classique.</p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -10060,7 +10280,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -10077,7 +10297,7 @@
       "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -10333,7 +10553,7 @@
       "client": "",
       "dateCreation": "2026-08-04T07:23:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 21,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -10526,7 +10746,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -10543,7 +10763,7 @@
       "explication": "<p><br></p>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -10764,7 +10984,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -11033,7 +11253,7 @@
       "client": "",
       "dateCreation": "2026-08-04T05:11:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 5,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -11727,7 +11947,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -11903,7 +12123,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -11911,7 +12131,7 @@
       ],
       "client": "Flower",
       "dateCreation": "2026-07-20T14:54:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -12041,7 +12261,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -12077,7 +12297,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -12095,7 +12315,9 @@
       "pointsBlocage": "",
       "explication": "<i><u>Demande émise par Mailys</u></i> :&nbsp;<div><br></div><div>Flower a des problèmes avec le fait que l’on se base sur le libellé Naxi-gestion produit traduit, ces libellés ne sont pas mis à jour.</div><div><br></div><div><i>\"Pour l’envoi des produits au CRM, le choix sur la nouvelle passerelle a été fait d’envoyer le nom du produit traduit en FR et non le label principal, partant du postulat que ce nom était plus propre.</i></div><div><i>A l’usage, il n’en est rien, cela amène même des confusions (assez graves en termes de lecture de données) entre les produits et des difficultés de communication entre nos clients et les établissements.</i></div><div><i>Est-ce possible dans une version prochaine de revenir au label principal ?</i></div><div><i>Idéalement, si cette version pouvait faire en oneshot un renvoi des produits de la saison en cours ça serait super.\"</i></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -13064,7 +13286,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -13083,7 +13305,7 @@
       "explication": "<div>Voici les éléments qui permettent de générer la licence d’un camping :&nbsp;</div><div><br></div><div><br></div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/631657ac78e54867872badfaec54c195\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div>1 : Inscription libre ce champ doit être rempli obligatoirement</div><div><br></div><div>2 : Sélection possible : Achat / location / Version Eval</div><div><br></div><div>3 : Inscription date type JJ/MM/AAAA uniquement pour la location&nbsp;</div><div><br></div><div>4 : Sélection possible : non /NAXIRESA/NAXICTV/PREMIUM+NAXIRESA/NAXIPASS</div><div><br></div><div>5 : Sélection possible :  Aucun (par défaut ) , Sovematic, Vauban System, bracelets Code Barre, Code Barre NAXI, Salto</div><div><br></div><div>De 7 à 12 : le nom du logiciel apparait avec un bouton cliquable</div><div><br></div><div>Tous ces éléments font générer un numéro de licence.</div><div><br></div><div>La licence ne peut pas être modifiée manuellement, elle ne se modifie que par les sélections des éléments 2 à 12.</div><div><br></div><div>L’élément 1 ne modifie pas le numéro mais il doit être indispensable à la génération de ce dernier.</div><div><br></div><div>&nbsp;</div><div><br></div><div>La licence se compose  également de produits qui ne génèrent pas de numéro de la licence mais qui doivent être présents : ce sont ce que l’on appelle les “spécifs” .&nbsp;</div><div><br></div><div>Il y’en a 73 . Certaines d’entre elles ne sont plus utilisées, il faudra les supprimer .&nbsp;</div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -20001,7 +20223,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -20020,7 +20242,9 @@
       "pointsBlocage": "",
       "explication": "Dans NAXI, lorsque la spécif FLOWER est activée, il est possible dans le paramétrage des remises/promos de sélectionner un type de promo Flower dans un menu déroulant.\n\nLa demande de Vivian est de revoir complètement cette liste pour l’automne 2026 car elle contient des éléments obsolètes et des éléments sont manquants. \n\nPré-requis : Attendre de recevoir la liste des types de promos souhaitées par Vivian<div><br></div><div><br></div><div>https://inaxel.atlassian.net/browse/COEUR-638</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -21561,7 +21785,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -21580,7 +21804,9 @@
       "pointsBlocage": "",
       "explication": "<i>Config Client : HF - Version 17-03</i><div><br></div><div>Les reports de solde se suppriment lorsque :&nbsp;</div><div><br></div><div>1. Sur une base de données, créer un client A sur la saison 2024. Faire en sorte que ce client présente un solde positif à reporter sur la saison suivante</div><div><br></div><div>2. Sur la saison 2025, sur le client A, procéder au report de solde. Créer un séjour en utilisant ce report de solde.</div><div><br></div><div>3. Créer un client B dont la fiche client est identique aux clients A (l’idée étant de les fusionner par la suite).</div><div><br></div><div>4. Ouvrir depuis le menu Administration &gt; Traitement des clients en doublon</div><div><br></div><div>5. Lancer la recherche afin de retrouver les deux clients crées précédemment.</div><div><br></div><div>6. Double cliquer sur l’une des deux fiches pour ouvrir l’outil de comparaison.</div><div><br></div><div>7. Sur le client A, choisir l’action “Fusionner et supprimer” et sur le client B (qui n’a pas de report), choisir “Garder”</div><div><br></div><div>8. Valider&nbsp;</div><div><br></div><div><u>Résultat</u> :&nbsp;</div><div>La fiche client du client A est bien supprimé. Son séjour est bien transféré sur la fiche du client B.</div><div><br></div><div>En revanche, le report de solde n’a pas suivi puisque nous n’avons rien dans l’onglet Compte. De plus, le séjour transféré montre encore la présence du report par rapport au solde du séjour. Mais si on réouvre le séjour, celui ci se recalcule et supprime donc définitivement le report de solde qui était affecté.</div><div><br></div><div>En base de données, dans la table CPTCLIENT, le report n’existe plus sur le client A ni sur le client B&nbsp;</div><div><br></div><div>→ Il faudrait donc que la fonctionnalité de traitement des clients en doublons gère également la table CPTCLIENT, ce qui n’est pas le cas aujourd’hui.</div><div><br></div><div><font color=\"#2563eb\">Reproduit sur démo Angélique en Version HF 17.03</font></div><div><font color=\"#2563eb\"><br></font></div><div><font color=\"#2563eb\">Reproduit sur un report automatique de saison précédente mais également sur un report manuel (complémentaire)</font></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Débord sprint"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -24344,7 +24570,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "SEPTEMBRE 26"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -41604,7 +41830,7 @@
     ]
   },
   "counts": {
-    "classique": 718,
+    "classique": 724,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
