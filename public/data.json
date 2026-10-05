@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-10-05T06:21:39.533Z",
+  "generatedAt": "2026-10-05T15:01:29.573Z",
   "classique": [
+    {
+      "id": "3f08db15-623a-8178-8728-d065a3076b1a",
+      "identifiant": "INA-942",
+      "titre": "Blocage création de compte Pennylane",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-05T13:00:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Ne peut pas choisir son entreprise lors de la connexion depuis NG à Pennylane.&nbsp;<div>N'a pas utilisé ailleurs son adresse email pour créer son compte + n'a pas reçu de 2e email.&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/1df5e9683cae4109bb07a9570a3579d3\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Blocage-cr-ation-de-compte-Pennylane-3f08db15623a81788728d065a3076b1a"
+    },
+    {
+      "id": "3f08db15-623a-8116-8689-e6b2bccc57dc",
+      "identifiant": "INA-941",
+      "titre": "Tableau d'activité journalière erroné sur le nombre de personnes si mouvements de supplément personne",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [
+        "FEVRIER 27"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-05T09:38:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Les stats \"Activités journalières\" sont erronés sur le nombre de personnes lorsque :&nbsp;<div><br></div><div>1. Créer un séjour sur une fiche client et y ajouter une quantité sur un supplément de type personne.&nbsp;</div><div><i>Dans mon exemple vidéo, j'ai crée un séjour du 15.10.2027 au 04.11.2027 avec 2 personnes</i></div><div>2. Se rendre dans le menu Statistiques &gt; Activités journalières, et saisir une date en fonction du séjour crée précédemment.</div><div><i>Dans mon exemple, je recherche sur la date du 20.10.2027</i></div><div>3. La stats affiche bien 2 personnes : ✅</div><div>4. Revenir sur le séjour et saisir un mouvement d'emplacements&nbsp;</div><div><i>Dans mon exemple, je saisis un mouvement au 18/10/2027 : je passe de 2 personnes à 4 personnes - Le 20/10 j'aurais donc 4 personnes.</i></div><div>5. Si je retourne sur ma stats Activité journalière, NAXI affiche un nombre de personne à 0 : ❌</div><div><br></div><div><b>Reproduit sur démo Angélique en 18.36 HF</b></div><div><i>Le problème est constaté sur la stat Activité journalière + sur la fenêtre interne qui peut être activée sur le moniteur.</i></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Tableau-d-activit-journali-re-erron-sur-le-nombre-de-personnes-si-mouvements-de-suppl-ment-personn-3f08db15623a81168689e6b2bccc57dc"
+    },
     {
       "id": "3ed8db15-623a-8123-a97e-d0bf911c7964",
       "identifiant": "INA-940",
@@ -324,7 +392,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "JANVIER 27"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -341,7 +411,9 @@
       "pointsBlocage": "",
       "explication": "Plusieurs clients nous ont signalé avoir des anomalies de gestion. Après analyse, il s'avère que les erreurs sont dues à la présence de plusieurs comptes commerces sur un seul et même client.<div><br></div><div><u><b>Exemple constaté sur la base du client Etang de la Fougeraie :&nbsp;</b></u></div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/efd8cc3b17224e728b30eeb80f3499ed\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>A première vue, les comptes semblent être liées aux séjours puisqu'un compte a été crée le 13.09 et un autre compte a été crée le 10.06 ce qui correspond à J-1 de chaque séjour.&nbsp;</div><div><br></div><div><b>La base du client est disponible sur : /BaseClientBug/Angelique/INA-931</b></div><div><b><br></b></div><div><b><u>Deuxième exemple sur le camping LE COLOMBIER </u>:&nbsp;</b></div><div><b><br></b></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/cbc0efafdaf14a55807095fe8ea76a33\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><b></b></div><div><br></div><div>Si je prends le client 8645 il a même réussi à avoir 3 comptes commerces (correspondant aux 3 séjours) :&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ecfe18e0cf5d45b6b659c33228c38da5\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Les réindexations de base de données n'ont rien changé / Intervention d'Angélique en base de données pour tout remettre à plat et permettre au camping de clôturer la saison sans erreur.</div><div><br></div><div>Il faut toutefois analyser comment cela est possible et surtout éviter que cela se reproduise.</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -644,7 +716,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AVRIL 27"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Cod & Cam"
@@ -661,7 +735,9 @@
       "pointsBlocage": "",
       "explication": "Les noms &amp; prénoms associées aux plaques d'immatriculation ne sont pas conservées lorsque :&nbsp;<div><br></div><div>1. Créer un séjour résident sur saison 2026.</div><div>2. Cliquer sur la voiture afin de créer plusieurs plaques d'immatriculation</div><div>3. Saisir un nom &amp; prénom différent sur chaque plaque d'immatriculation.</div><div>4. Se rendre sur la saison 2027.</div><div>5. Créer un séjour de type résident sur le même client que 2026.</div><div>6. Fermer la fiche client</div><div>7. Se rendre dans le menu Administration &gt; NAXI CAM : Activation des immatriculations des résidents</div><div>8. Choisir 2026 dans la combo</div><div>9. Les immatriculations se chargent : on voit déjà que le nom et prénom n'est pas repris, NAXI affiche par défaut le nom &amp; prénom de la fiche client associée</div><div>10. Valider l'import : si on retourne dans la fiche du client sur 2027, les noms &amp; prénoms ont en effet été remplacés par le nom &amp; prénom de la fiche client</div><div><br></div><div><b>Dans mon cas de tests / 2026 :&nbsp;</b></div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e9774349702c461da0b4715d193cb16f\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>2027 :&nbsp;</b></div><div><b><br></b></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/70ffab0627664790850dd9957d2db9e5\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><br></div><div><b>Reproduit sur démo Angélique 18.36 HF</b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -819,8 +895,10 @@
       "titre": "Envoi des séjours avec assurance annulation impossible si résa web fermée",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -837,7 +915,9 @@
       "pointsBlocage": "",
       "explication": "<div>Gritchen nous a contacté au sujet de plusieurs établissements qui n'envoient pas leur séjours 2027 à l'assureur.</div><div><br></div><div>Après analyse, les clients en question n'ont pas ouvert leur réservation en ligne, et donc la synchronisation ne se fait pas.</div><div><br></div><div>On ne peut pas nous plus lancer une synchronisation manuelle puisque le bouton de synchro est masquée lorsque la résa web est fermée :&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e3d6e79d8dda4c938b7414b3c2a1fd7d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b><u>Extrait du code </u></b>:&nbsp;</div><div><br></div><div><b>SI Combo4 &gt; 1 _ET_ gp_webouvert ALORS</b></div><div>&nbsp;SI OuiNon(\"Confirmez-vous la re-synchronisation de tous les dossiers d'assurance annulation ?\") ALORS</div><div>&nbsp; HRAZ(SYNCHRO)</div><div>&nbsp; SYNCHRO.sycodsoc\t= Gp_codsoc</div><div>&nbsp; SYNCHRO.sycodexe\t= Gp_codexe</div><div>&nbsp; SYNCHRO.syaction\t= \"M\"</div><div>&nbsp; SELON Combo4</div><div><br></div><div>-&gt; Il faudrait pouvoir envoyer les assurances annulations même si la réservation web est fermée.</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1316,7 +1396,7 @@
       "titre": "Erreur Smtp Microsoft Oauth",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": "Moyenne",
+      "priorisation": "Haute",
       "sprintIdeal": [
         "OCTOBRE 26"
       ],
@@ -13491,7 +13571,7 @@
       "titre": "Erreur Smtp Microsoft Oauth",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": "Moyenne",
+      "priorisation": "Haute",
       "sprintIdeal": [
         "OCTOBRE 26"
       ],
@@ -41833,7 +41913,7 @@
     ]
   },
   "counts": {
-    "classique": 724,
+    "classique": 726,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
