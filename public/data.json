@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-10-06T02:02:53.420Z",
+  "generatedAt": "2026-10-06T08:54:48.273Z",
   "classique": [
+    {
+      "id": "3f18db15-623a-816c-b5e5-ee5a4f61785b",
+      "identifiant": "INA-943",
+      "titre": "2 eme mail Inscription Pennylane non reçu",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-06T07:37:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "N' a toujours pas reçu le 2 eme mail de Pennylane, le camping n' a fait qu'1 inscription donc pas de doublon.",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/2-eme-mail-Inscription-Pennylane-non-re-u-3f18db15623a816cb5e5ee5a4f61785b"
+    },
     {
       "id": "3f08db15-623a-8178-8728-d065a3076b1a",
       "identifiant": "INA-942",
@@ -41913,7 +41945,7 @@
     ]
   },
   "counts": {
-    "classique": 726,
+    "classique": 727,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
