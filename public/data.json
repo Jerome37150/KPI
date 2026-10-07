@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T10:33:49.674Z",
+  "generatedAt": "2026-10-07T17:32:21.306Z",
   "classique": [
     {
       "id": "3f18db15-623a-81b0-8891-c8587163bee1",
@@ -4634,7 +4634,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les points d'accès et les traitements serveur pour lister les documents d'un client, ouvrir le fichier de chaque document, enregistrer un fichier ajouté depuis le poste et supprimer définitivement un document ajouté.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -4670,7 +4670,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de l'onglet Documents de la fiche client : tableau des documents avec tri et filtre par type, ouverture directe des documents dans un nouvel onglet, ajout d'un fichier depuis l'ordinateur et fenêtre de suppression des documents ajoutés.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
