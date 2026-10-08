@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T02:05:35.985Z",
+  "generatedAt": "2026-10-08T08:53:25.406Z",
   "classique": [
     {
       "id": "3f18db15-623a-81b0-8891-c8587163bee1",
@@ -4526,7 +4526,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les points d'accès et les traitements serveur pour lister l'historique des courriers d'un client, ouvrir les documents envoyés, envoyer un e-mail (modèle ou texte libre, avec pièces jointes) ou un SMS (modèle ou texte libre) en les enregistrant dans l'historique, et supprimer définitivement un courrier.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -4562,7 +4562,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de l'onglet Communication de la fiche client : historique des courriers avec tri, cellule des documents envoyés, ouverture directe des documents, fenêtres d'envoi d'un e-mail et d'un SMS (modèle par défaut ou texte libre) et fenêtre de suppression d'un courrier.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
