@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-10-09T13:48:08.003Z",
+  "generatedAt": "2026-10-09T19:07:11.000Z",
   "classique": [
+    {
+      "id": "3f48db15-623a-81e5-93e5-f83a2cce6719",
+      "identifiant": "INA-952",
+      "titre": "Message d'erreur sur NAXIRESA en prod",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-09T14:18:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Lors de la sortie de la première version de la 18.37 (qu'on a refait en enlevant&nbsp; des US et la modif d'analyse)<br>Angélique en la mettant sur sa base en prod a eu ce message (par contre pas les clients ni les testeuses) sur la synchro de Naxiresa<br><br><pre style=\"background:#0f172a;color:#e2e8f0;border-radius:8px;padding:12px 14px;overflow:auto;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;line-height:1.5;white-space:pre-wrap;margin:8px 0\"><code>Le mécanisme de sécurité du WLangage a détecté une erreur dans l'application NAXIRESA. <br>Contactez le fournisseur de l'application NAXIRESA.<br> <br>Une erreur interne inattendue est survenue.<br> <br>Pile des appels :<br>Méthode DisplayTrackingInfosAsync (DebugDelegateManager.DisplayTrackingInfosAsync), ligne 18<br>Procédure locale postInitCsharpAsynch (naxi_resaV3.PROCEDURE.postInitCsharpAsynch), ligne 19<br> <br>Date : 09/10/2026 09:01:07<br>Projet : NAXIRESA (1.0.1618.3)<br> <br>Informations supplémentaires :<br>Code erreur : 1020<br>Module : wd260vm.dll (01F260101d - 26.0.480.22)<br> <br>Informations de débogage :<br>Module : wd260net4.dll(00X260000 - 26.0.264.0)<br>Adresse de base : 6DE50000<br>Erreur systeme : Access violation (GPF)<br>EIP = 6DE87031<br>OS : Windows 10.0 (10.0.26300)<br> <br>Registres :<br>  EIP = 6DE87031    EBP = 001DDC60<br>  EAX = 00000000    EBX = 095008B8<br>  ECX = 09508988    EDX = 00000028<br>  ESI = 00000028    EDI = 095009B4<br> <br>Pile des appels :<br>[wd260net4.dll (6DE50000), 26.0.264.0, 00X260000]\t6DE7C494 : EXT_VMTerm() + 43933 bytes<br>[wd260net4.dll (6DE50000), 26.0.264.0, 00X260000]\t6DE6118E : Execution() + 8573 bytes<br>[wd260net4.dll (6DE50000), 26.0.264.0, 00X260000]\t6DE6118E : Execution() + 7887 bytes<br>[wd260net4.dll (6DE50000), 26.0.264.0, 00X260000]\t6DE6118E : Execution() + 6441 bytes<br>[wd260net4.dll (6DE50000), 26.0.264.0, 00X260000]\t6DE7C494 : EXT_VMTerm() + 42650 bytes<br>[???]\t0447AC11<br>[???]\t0447E528<br>[???]\t04520E38<br>[wd260vm.dll (6F9D0000), 26.0.480.22, 01F260101d]\t6FAE78F0 : EXT_bSetVariableCollection() + 404886 bytes<br>[NAXIRESA.exe (00000000), 1.0.1618.3]\t00000001<br>[???]\t00700073<br>[???]\t0061006C<br>[???]\t00540079<br>[???]\t00610072<br>[???]\t00650063<br> <br>EIT_TYPE_WDFILE : &lt;4&gt;<br>EIT_IDCODE : &lt;458752&gt;</code></pre><p>Afin que ce message n'apparaisse plus ou plante le mode debug, il faudrait trouver pourquoi elle a eu ce message et corriger les problème.&nbsp;</p>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Message-d-erreur-sur-NAXIRESA-en-prod-3f48db15623a81e593e5f83a2cce6719"
+    },
     {
       "id": "3f48db15-623a-811e-b354-cfa2c029f4eb",
       "identifiant": "INA-951",
@@ -72,7 +104,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -89,7 +123,9 @@
       "pointsBlocage": "",
       "explication": "Depuis passage en 18.37, le planning met plus de 40 secondes à s'ouvrir ce qui est anormal.<div><br></div><div>Le test a été effectué sur la base de données du camping BUGEAU qui est en SQL sur notre offre Saas.</div><div>Ce camping est tout petit car 100 emplacements et client chez nous depuis 2019.</div><div><br></div><div>J'ai effectué le même test sur le camping RIVIERE04 qui est sur le même serveur, qui a 104 emplacements et qui est client chez nous depuis 2013.</div><div>Ce camping est en 18.34 SQL, le planning s'ouvre en moins de 5 secondes.</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -104,7 +140,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -121,7 +159,9 @@
       "pointsBlocage": "",
       "explication": "Suite passage en 18.37, des soucis d'affichages persistent encore&nbsp;<div><br></div><div><b>Sur la version 18.37 en saas :&nbsp;</b></div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/9788145667d8442db77f080e5d0490a2\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e4109b7cbb944d51a21d7906aa2e7ba6\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><b>Sur la version 18.30 en Saas :&nbsp;</b><br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/498e745f3cec4aaab926bf0cc7d514dc\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/1ad53f2a46ee4a4194d2e3573b05d59b\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><b><br></b></div><div><b>Plusieurs fenêtres sont impactés : fiches clients, états comptables de ventes...etc</b></div><div><br></div><div><br></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -42201,7 +42241,7 @@
     ]
   },
   "counts": {
-    "classique": 735,
+    "classique": 736,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
