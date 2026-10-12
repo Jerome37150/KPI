@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-10-12T07:31:45.886Z",
+  "generatedAt": "2026-10-12T16:59:39.105Z",
   "classique": [
+    {
+      "id": "3f78db15-623a-81c6-b896-ffd7978ae50c",
+      "identifiant": "INA-954",
+      "titre": "Lenteurs sur stats à la demande avec filtre sur les suppléments en SQL",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-12T14:01:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "L'affichage des stats à la demande est très long lorsque :&nbsp;<div><br></div><div>1. Etre sur une base de données en SQL</div><div>2. Se rendre dans le menu Stats &gt; Stats à la demande</div><div>3. Sélectionner les séjours de toute la saison par exemple</div><div>4. Décocher certains suppléments</div><div>5. Lancer la recherche à l'aide de la loupe bleue.</div><div><br></div><div><b><u>Résultat :&nbsp;</u></b></div><div><br></div><div>NAXI affiche la stats après environ 1 minute d'attente</div><div><br></div><div><u><b>Tests complémentaires</b></u> :</div><div><br></div><div>🟢 Si je décoche aucun filtre lié au supplément : la recherche s'affiche instantanément</div><div>🟢Si je met un filtre sur le type de client (par exemple je décoche le type de client : Résident) : la recherche s'affiche instantanément</div><div>🔴Le bug se produit si je décoche 1 supplément ou plsuieurs / Et ce sur tous les types (type location, camping ou vente réception)&nbsp;</div><div><br></div><div><b>Reproduit sur base du camping Armorique en 18.35 SQL</b> (Ce camping n'a qu'une seule saison sur NAXI donc peu de volumétrie) / Reproduit également sur le camping Mas Fleuri 06 qui est sur notre Saas également en 18.37.</div><div><br></div><div>-&gt; A voir si en attendant une optimisation SQL, est ce qu'on ne ferait pas une règle supplémentaire sur ProxySQL</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Lenteurs-sur-stats-la-demande-avec-filtre-sur-les-suppl-ments-en-SQL-3f78db15623a81c6b896ffd7978ae50c"
+    },
+    {
+      "id": "3f78db15-623a-810b-9da9-d3962cb35e62",
+      "identifiant": "INA-953",
+      "titre": "Erreur lors de la récupération de compte en preprod",
+      "classification": "BUG D'USAGE",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-12T08:24:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "En preprod sur toutes nos bases, à chaque connexion à Naxi nous avons ce message&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e38e0d118bb646dc8d6bf9adb206b29d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>En juillet, nous avions déjà eu ce message sur certaines bases puis plus rien.&nbsp;<div><br>Depuis fin septembre ce message apparait sur toutes nos bases en preprod<br><br>Cela laisse à penser que toutes les données ne sont pas récupérés donc fausse nos tests.</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-lors-de-la-r-cup-ration-de-compte-en-preprod-3f78db15623a810b9da9d3962cb35e62"
+    },
     {
       "id": "3f48db15-623a-81e5-93e5-f83a2cce6719",
       "identifiant": "INA-952",
@@ -72,7 +140,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "JANVIER 27"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -89,7 +159,9 @@
       "pointsBlocage": "",
       "explication": "Les factures partielles ne sont pas envoyées par email lorsque :&nbsp;<div><br></div><div>1. Sur une fiche client, créer un séjour de plusieurs nuits.</div><div>2. Saisir un paiement et valider le séjour</div><div>3. Ré-ouvrir le séjour et se rendre dans l'onglet Fact/Regl</div><div>4. Saisir une date dans la partie \"Facturation partielle\" - Dans mon cas, j'ai saisi J+1 la date d'arrivée pour ne facturer qu'une seule nuit.</div><div>5. Sur la page de facturation, cocher \"Envoyer facture par email\"</div><div>6. Cliquer sur l'enveloppe pour envoyer la facture par email&nbsp;</div><div><br></div><div><b><u>Résultat :&nbsp;</u></b></div><div><br></div><div>L'envoi de la facture n'est pas mémorisée dans l'onglet \"Courriers/Email\" de la fiche client</div><div>Et la facture n'est jamais reçue par email</div><div><br></div><div><u><b>Tests complémentaires</b></u> :</div><div><br></div><div>🟢Si je coche \"Modifier l'email avant envoi\", le bloc de modification ne s'ouvre pas et la facture ne s'envoit pas par email non plus :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/84cb823c3a6e4b41b7f2d74c5584837c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>🔴 Si je passe par la facturation depuis l'icône Autres Fonction :&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6515c630dc364cff9b2afd3aaf4357ba\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Dans ce cas là, la modification de l'email avant envoi est ok, j'ai bien la fenêtre qui s'ouvre. J'ai également l'email qui s'enregistre bien dans l'onglet \"Courriers/Emails\" de la fiche client. En revanche, je ne reçois jamais l'email.</div><div><br></div><div>🟢 Si je fais une facture classique, là aucun soucis je reçois bien ma facture par email</div><div><br></div><div><b>Reproduit sur démo Angélique en 18.37 HF</b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -176,7 +248,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 27"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -193,7 +267,9 @@
       "pointsBlocage": "",
       "explication": "Client impacté : CIELA<div>Config : SQL / 18.25</div><div><br></div><div>Ciela rencontre régulièrement le message d'erreur ci dessous :&nbsp;</div><div><br></div><div><i>2026-07-15 16:02:21. Fonction : Global exception</i></div><div><i>2026-07-15 16:02:21. Paramètre 1 : Appel WL :</i></div><div><i>Traitement de 'Ouverture de bonsej_1_groupe' (bonsej_1_groupe), ligne 84</i></div><div><i>Fonction 'HLitRecherche', syntaxe 0</i></div><div><i>Que s'est-il passé ?</i></div><div><i>Erreur de l'accès natif MySQL.</i></div><div><i>Numéro d'erreur = 22&nbsp;</i></div><div><i>&nbsp;L'erreur suivante a été renvoyée par la base de données &lt;192.168.90.2:6033&gt; :</i></div><div><i>Numéro d'erreur = &lt;2008&gt;.</i></div><div><i><font color=\"#2563eb\"><b>Message d'erreur :</b></font></i></div><div><i><font color=\"#2563eb\"><b>MySQL client ran out of memory</b></font></i></div><div><i>Code erreur : 73001</i></div><div><i>Niveau : erreur fatale</i></div><div><i>Code erreur WD55 : 3001</i></div><div><i>Module : wd260hf.dll (01F260101d - 26.0.313.5)</i></div><div><i>Informations de débogage :</i></div><div><i>IEWDMSQL=100.22</i></div><div><i>Module=&lt;WDMSQL&gt;</i></div><div><i>Version=&lt;26.0.62.0&gt;</i></div><div><i>Couche client : C:\\NAXI\\libmysql.dll</i></div><div><i>Provider : WinDevMySQL</i></div><div><i>Utilisateur : proxynaxi</i></div><div><i>Source de données : 192.168.90.2:6033</i></div><div><i>Base de données : bdd_ciela</i></div><div><i>Unicode supporté : 1</i></div><div><i>Code page du WL : 1252</i></div><div><i>Code page de la connexion : UTF-8</i></div><div><i>Fonction (7,118)</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_BASECODE : &lt;2008&gt;</i></div><div><i>EIT_INFOCLIENT : &lt;5.6.16&gt;</i></div><div><i>EIT_INFOSERVEUR : &lt;5.5.30&gt;</i></div><div><i>EIT_NATIVECODE : &lt;22&gt;</i></div><div><i>EIT_LOGICALTABLENAME : &lt;COMMAND&gt;</i></div><div><i>EIT_PILEWL :</i></div><div><i>Ouverture de bonsej_1_groupe (bonsej_1_groupe), ligne 84</i></div><div><i>Procédure locale cree_bonsej_simpl_groupe (client_traitement.PROCEDURE.cree_bonsej_simpl_groupe), ligne 180</i></div><div><i>Clic sur bt_mail (client_traitement.bt_mail), ligne 58</i></div><div><i>EIT_DATEHEURE : 15/07/2026 16:02:21</i></div><div><i>EIT_TYPE_WDFILE : &lt;3&gt;</i></div><div><i>EIT_IDCODE : &lt;327680&gt;</i></div><div><br></div><div>Après analyse du code, à cet endroit du code, on fait un appel sur la table CLIENT et la table COMMAND.</div><div>Il n'y a pas d'optimisation SQL, ce qui fait planter NAXI car ils ont une volumétrie trop importante.</div><div><br></div><div>-&gt; Il faudrait donc prévoir une optimisation SQL afin d'éviter l'erreur Mysql client ran out of memory</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -208,7 +284,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -225,7 +303,9 @@
       "pointsBlocage": "",
       "explication": "Le camping Arbre d'Or a été migré de SQL vers HF le 30.06.2026.<div><br></div><div>Suite à cela, nous avions des erreurs sur NNP sur l'envoi des inventaires :&nbsp;</div><div><i><br></i></div><div><i>2026-07-08 00:02:39. Fonction : NNPInventoriesListener</i></div><div><i>2026-07-08 00:02:39. Paramètre 1 : NNPInventoriesListener La référence d'objet n'est pas définie à une instance d'un objet.&nbsp;</i></div><div><i>2026-07-08 00:02:39. Paramètre 2 : à NaxiGestionCore.Synchro.CheckRessources.NNP.NNPInventoriesListener.DoAction(String companyCode, String webAccount, String seasonCode, DataModelWebServiceGetInventories item) dans C:\\Users\\rachid.amrani.alaoui.INAXEL\\Workspace\\gds\\NaxiGestionCore\\Synchro\\CheckRessources\\NNP\\NNPInventoriesListener.cs:ligne 66</i></div><div><i>&nbsp; &nbsp;à NaxiGestionCore.Synchro.CheckRessources.AbstractSynchroRecupListener`2.SavingDataToDataBase(Tdata[] data, String companyCode, String webAccount, String seasonCode) dans C:\\Users\\rachid.amrani.alaoui.INAXEL\\Workspace\\gds\\NaxiGestionCore\\Synchro\\CheckRessources\\AbstractSynchroRecupListener.cs:ligne 288</i></div><div>-------------------------------------------------------------------</div><div><br></div><div>Après analyse, il s'avère que les inventaires n'ont plus le même id entre NAXI et le web.&nbsp;</div><div>Le soucis provient de la migration SQL vers HF puisque si l'on regarde l'on compare les deux bases de données, les identifiants ne sont en effet plus les mêmes.</div><div><br></div><div><ul><li>Il faudrait donc analyser la moulinette n° 45 - Migration Mysql vers HF afin de s'assurer que toutes les tables SQL sont bien remigrés en HF - Pour sûr la table INVENTORIES ne s'est pas transformée en HF MAIS il faudra analyser pour voir si d'autres tables sont concernées.</li></ul><ul><li>Analyser également les nouvelles tables à ajouter afin que l'équipe support puisse réaliser des réindexation de fichier (pour les bases HF) avec l'intégralité des fichiers.&nbsp;</li><li><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7935ad59ef164310b83dbd1114eef04d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></li></ul></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -240,7 +320,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -257,7 +339,9 @@
       "pointsBlocage": "",
       "explication": "<i>Suite à l'ETU-19 c'est la solution n°2 qui a été retenue.</i><div><br></div><div>L'url qui pose problème est :&nbsp;</div><div><br></div><div><b>http://resa8.inaxel.com/EVORESA_WEB/dataresa/naxipremium/assurances_gritchen.php</b></div><div><br></div><div><b>Les 2 principaux problèmes de cette url :&nbsp;</b></div><div>&nbsp;1 - elle pointe sur le serveur de PREPROD \"resa8\" alors quelle sert pour la PRODUCTION</div><div>&nbsp;2 - elle est hébergée sur un serveur WEBDEV qu'on cherche à supprimer</div><div><br></div><div>SOLUTION :&nbsp;</div><div><br></div><div>&nbsp;- Développer le script \"assurances_gritchen.php\" et l'exposer sur un vrai serveur de PRODUCTION (PartnersApi, par exemple)</div><div>&nbsp; =&gt; le développement est simple car il s'agit juste d'un script de redirection des données par l'intermédiaire d'un objet CURL php.</div><div>&nbsp;- Modifier l'url dans NaxiGestion par quelque chose comme :&nbsp;</div><div>&nbsp; =&gt; POST https://partners-api.inaxel.com/services/partners/gritchen/insurance</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -272,7 +356,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -289,7 +375,9 @@
       "pointsBlocage": "",
       "explication": "<i>Suite à l'ETU-19 c'est la solution n°2 qui a été retenue.</i><br><br>L'url qui pose problème est :&nbsp;<div><br></div><div><b>http://resa8.inaxel.com/EVORESA_WEB/dataresa/naxipremium/assurances_gritchen.php</b></div><div><b><br></b></div><div><b>Les 2 principaux problèmes de cette url :&nbsp;</b></div><div>&nbsp;1 - elle pointe sur le serveur de PREPROD \"resa8\" alors quelle sert pour la PRODUCTION</div><div>&nbsp;2 - elle est hébergée sur un serveur WEBDEV qu'on cherche à supprimer<br><br><b>SOLUTION :&nbsp;</b><br><br>&nbsp;- Développer le script \"assurances_gritchen.php\" et l'exposer sur un vrai serveur de PRODUCTION (PartnersApi, par exemple)<div>&nbsp; =&gt; le développement est simple car il s'agit juste d'un script de redirection des données par l'intermédiaire d'un objet CURL php.</div><div>&nbsp;- Modifier l'url dans NaxiGestion par quelque chose comme :&nbsp;</div><div>&nbsp; =&gt; POST https://partners-api.inaxel.com/services/partners/gritchen/insurance<br><br></div></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -881,7 +969,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<ul><li>En tant que : Système back-office</li><li>Je veux : envoyer automatiquement le fichier XML/PDF Factur-X généré vers l'API de dépôt de Chorus Pro lors de la validation d'une facture B2B ou B2G</li><li>Afin de : remplir mon obligation légale sans imposer de dépôt manuel à l'utilisateur.</li></ul>",
+      "explication": "<ul><li>En tant que : Système back-office</li><li>Je veux : envoyer automatiquement le fichier XML/PDF Factur-X généré vers l'API de dépôt de Chorus Pro lors de la validation d'une facture G2B ou G2G</li><li>Afin de : remplir mon obligation légale sans imposer de dépôt manuel à l'utilisateur.</li></ul>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -12667,9 +12755,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -12686,9 +12772,7 @@
       "pointsBlocage": "",
       "explication": "<b>Client impacté : Les Méditerranées&nbsp;</b><div><i>Version : 18.26 /SQL&nbsp;</i></div><div><b><u>Contexte</u></b> : Passage d'un exe spécial mis pour<a href=\"https://inaxel.atlassian.net/browse/BUG-1131?atlOrigin=eyJpIjoiZGEzZmE2ZTg4OTY3NDc2MDk1Y2IzNmUzMTc0OWY5NTIiLCJwIjoiaiJ9\">https://inaxel.atlassian.net/browse/BUG-1131?atlOrigin=eyJpIjoiZGEzZmE2ZTg4OTY3NDc2MDk1Y2IzNmUzMTc0OWY5NTIiLCJwIjoiaiJ9</a>&nbsp;à la version 18.26 le 07 Juillet 2026<br><br><u style=\"\"><b style=\"\"><font color=\"#18181b\">1er soucis :&nbsp;</font></b></u><br><br>Depuis passage de la mise à jour, <b>NAXI génère trois fichiers :&nbsp;</b></div><div>- Un fichier avec les séjours de toute la saison du Camping A</div><div>- Un fichier avec les séjours de toute la saison du Camping B</div><div>- Un fichier avec les séjours de toute la saison du Camping C<br><br>Avant mise à jour, NAXI génère trois fichiers identiques, c'est à dire que le fichier comportait les trois établissements.<br><br><b><i>Avant mise à jour (fichier du 03 Juillet)</i></b> :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/17bd09b7ffd144928cca2a4a3349738f\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br><b><i>Après mise à jour (fichier du 13 Juillet) :&nbsp;</i></b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ea89f2e78f994680b9bcc656b7b5e9aa\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br><b>2ème soucis :&nbsp;</b><br><br>Des séjours sont manquants de façon aléatoire ce qui pose soucis ensuite dans le traitement des données par LoungeUp :&nbsp;<br><br>Si je prend le fichier du 13 Juillet sur le camping CHARLEMAGNE, il me manque par exemple le séjour n°84 :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/134f4e5b0fa8410ebdf87d8b2f441647\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Alors que sur le fichier du 03 Juillet j'avais le séjour sans problème :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a8dd855a1a9040609cd071b90bed6dc0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Ce qui est très étonnant, c'est que sur l'US BUG-1131, j'ai fait les tests le 17/06/2026.<br>Si je regarde le fichier du 17 Juin, j'avais bien tous les campings sur le même fichier.&nbsp;</b></div><div>Le problème vient du multi synchro car en synchro standard ça fonctionne&nbsp;</div>",
       "communication": [],
-      "initialeAjout": [
-        "Débord sprint"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -21026,7 +21110,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Le Domaine de la Bergerie a la passerelle avec SWIKLY d’un côté et AnimLive / One Check de l’autre côté. \n\nCe camping jusqu’à maintenant crée un supplément hors séjour à chaque fois que l’un de ses résidents séjourne au camping (taxe de séjour + ménage). Jusqu’à l’année dernière, pas de soucis puisque Anim Live & OneCheck récupérait les données depuis NAXI via une extraction : donc ils récupéraient les séjours + les suppléments hors séjours.\n\nProblème : cette année AnimLive et Onecheck arrête la passerelle directe avec NAXI et passe par le SDH. Or le SDH ne récupère pas les suppléments hors séjours.\n\nDonc le camping doit créer désormais des séjours pour les résidents (afin que onecheck récupère les ménages à faire). Or, en réalisant cela, cela génère un problème du côté de SWIKLY car les résidents reçoivent le mail de caution.\n\nLa cliente ne souhaite pas duppliquer toutes ses catégories d’hébergements pour exclure les résidents de SWIKLY",
+      "explication": "Le Domaine de la Bergerie a la passerelle avec SWIKLY d’un côté et AnimLive / One Check de l’autre côté. \n\nCe camping jusqu’à maintenant crée un supplément hors séjour à chaque fois que l’un de ses résidents séjourne au camping (taxe de séjour + ménage). Jusqu’à l’année dernière, pas de soucis puisque Anim Live &amp; OneCheck récupérait les données depuis NAXI via une extraction : donc ils récupéraient les séjours + les suppléments hors séjours.\n\nProblème : cette année AnimLive et Onecheck arrête la passerelle directe avec NAXI et passe par le SDH. Or le SDH ne récupère pas les suppléments hors séjours.\n\nDonc le camping doit créer désormais des séjours pour les résidents (afin que onecheck récupère les ménages à faire). Or, en réalisant cela, cela génère un problème du côté de SWIKLY car les résidents reçoivent le mail de caution.\n\nLa cliente ne souhaite pas duppliquer toutes ses catégories d’hébergements pour exclure les résidents de SWIKLY",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -42241,7 +42325,7 @@
     ]
   },
   "counts": {
-    "classique": 736,
+    "classique": 738,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
