@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T01:17:58.939Z",
+  "generatedAt": "2026-10-12T07:31:45.886Z",
   "classique": [
     {
       "id": "3f48db15-623a-81e5-93e5-f83a2cce6719",
@@ -23294,7 +23294,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Dans NAXI Gestion, si on a la spécif FLOWER, on peut importer les promotions de CTV quand le camping possède une réservation en ligne NX_PASS<div><br></div><div>Voir documentation :  PRFL_Promo_V07.pdf&nbsp;</div><div><br></div><div>Dans l<i>’US CONNECT-674: [WINDEV] CTV/PROMOS : Import des Promos pour tous les Campings,&nbsp;</i>on a fait en sorte que tous les campings puissent importer des promotions (pas uniquement les FLOWER)</div><div><b><br></b></div><div><b>Problème :&nbsp;</b></div><div><br></div><div>Si la promotion paramétrée chez CTV, possède plusieurs périodes d’application, ces périodes ne sont pas reportées dans NAXI Gestion lors de l’import. On a ce genre de message qui s’affiche (message qui a été modifié) :&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/9945228442e44eb79273cadc5d96720d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
+      "explication": "<div>En tant que gérant de camping,</div><div>je souhaite que si ma promotion possède plusieurs périodes d’application, que ces périodes soient intégrées dans NAXI lors de l’import de la promotion.&nbsp;</div><div>------------------</div><div><br></div><div>Dans l<i>’US CONNECT-674: [WINDEV] CTV/PROMOS : Import des Promos pour tous les Campings,&nbsp;</i>on a fait en sorte que tous les campings puissent importer des promotions (pas uniquement les FLOWER)</div><div><b><br></b></div><div><b>Problème :&nbsp;</b></div><div><br></div><div>Si la promotion paramétrée chez CTV, possède plusieurs périodes d’application, ces périodes ne sont pas reportées dans NAXI Gestion lors de l’import. On a ce genre de message qui s’affiche (message qui a été modifié) :&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/9945228442e44eb79273cadc5d96720d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
