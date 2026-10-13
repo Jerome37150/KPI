@@ -1,11 +1,43 @@
 {
-  "generatedAt": "2026-10-13T11:07:56.237Z",
+  "generatedAt": "2026-10-13T18:13:54.426Z",
   "classique": [
+    {
+      "id": "3f88db15-623a-81a5-8ec3-c006fea12564",
+      "identifiant": "INA-956",
+      "titre": "SWIKLY : Envoyer un identifiant unique de caution",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-13T12:56:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Durant l'été, nous avons eu divers soucis dans NAXI Gestion qui ont engendrés des doublons de cautions côté Swikly pour un même séjour.<div><br></div><div>Certains soucis ont été corrigé mais pour certains nous n'avons pas encore trouvé la cause.</div><div><br></div><div>Swikly nous propose, si on le souhaite, d'envoyer un identifiant unique qui fera que si la caution existe déjà côté Swikly</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/SWIKLY-Envoyer-un-identifiant-unique-de-caution-3f88db15623a81a58ec3c006fea12564"
+    },
     {
       "id": "3f88db15-623a-81a4-88e8-f081de162318",
       "identifiant": "INA-955",
       "titre": "Erreur affiche logo sur les templates si camping sans resa web",
-      "classification": null,
+      "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [],
@@ -4005,7 +4037,7 @@
     {
       "id": "3cf8db15-623a-8159-b17a-c737b74e9f5d",
       "identifiant": "INA-838",
-      "titre": "Onglet \"Détails\"",
+      "titre": "Onglet \"Options\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -4036,12 +4068,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-D-tails-3cf8db15623a8159b17ac737b74e9f5d"
+      "url": "https://app.notion.com/p/Onglet-Options-3cf8db15623a8159b17ac737b74e9f5d"
     },
     {
       "id": "3cf8db15-623a-81ac-a086-f0ada011c22c",
       "identifiant": "INA-837",
-      "titre": "Onglet \"Détails\"",
+      "titre": "Onglet \"Options\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -4072,7 +4104,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-D-tails-3cf8db15623a81aca086f0ada011c22c"
+      "url": "https://app.notion.com/p/Onglet-Options-3cf8db15623a81aca086f0ada011c22c"
     },
     {
       "id": "3cf8db15-623a-8191-876e-dedc2aa1a214",
@@ -10015,7 +10047,7 @@
     {
       "id": "3b28db15-623a-8128-8822-db7122324010",
       "identifiant": "INA-613",
-      "titre": "Onglet \"Détails\"",
+      "titre": "Onglet \"Options\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -10044,7 +10076,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-D-tails-3b28db15623a81288822db7122324010"
+      "url": "https://app.notion.com/p/Onglet-Options-3b28db15623a81288822db7122324010"
     },
     {
       "id": "3b28db15-623a-8147-aa53-cb1c1de01cc0",
@@ -42357,7 +42389,7 @@
     ]
   },
   "counts": {
-    "classique": 739,
+    "classique": 740,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
