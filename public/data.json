@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-10-13T03:45:17.169Z",
+  "generatedAt": "2026-10-13T11:07:56.237Z",
   "classique": [
+    {
+      "id": "3f88db15-623a-81a4-88e8-f081de162318",
+      "identifiant": "INA-955",
+      "titre": "Erreur affiche logo sur les templates si camping sans resa web",
+      "classification": null,
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-13T09:44:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Les emails envoyés au client n'affichent pas le bon logo lorsque :&nbsp;<div><br></div><div>1. Etre sur une base de données ayant une licence sans résa web</div><div>2. Dans le menu Paramètres &gt; Courriers/Emails, créer un email relatif à un séjour&nbsp;</div><div>3. Configurer cet email en tant que Template et insérer son logo.</div><div>4. Se rendre ensuite sur une fiche client, créer un séjour</div><div>5. Envoyer l'email paramétré précédemment au client</div><div>6. Si on regarde l'html envoyé, l'email affiche un logo d'un de nos autres clients :&nbsp;</div><div><br></div><div>Exemple pris sur le cmaping IKL / c'est le logo du camping LES CAPUCINES qui s'affiche :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/96bb566713a3493ebdd2be4de48c16fa\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br></div><div>⚠️ <i>Depuis la mise en place des templates dans NAXI, on sait que les clients n'ayant pas de resa web, si ils utilisent les templates, alors leur image (logo, photo des categ...etc), ne s'afficheront pas car ils n'ont pas de répertoire sur nos serveurs FTP. Il y a donc une régression car là NAXI va chercher l'image d'un autre client</i></div><div><br></div><div><u><b>Test complémentaires :&nbsp;</b></u></div><div><br></div><div>🔴Si je fais un template relatif au client, je constate également le soucis</div><div>🟢Sur les clients ayant un système de résa, pas de soucis constaté</div><div><br></div><div>Sur le camping ayant signalé le problème, je constate que le soucis est apparu entre le&nbsp; 04/08/2026 et le 27/08/2026 - En fouillant dans les logs, je leur ai passé <b><font color=\"#2563eb\">la version 18.30 le 05/08/2026</font></b>. Ils étaient avant sur la version 18.26</div><div><br></div><div><b>Reproduit sur camping LE VERDALLE qui est aussi un camping sans résa sur le Saas (version 18.37 / SQL) / IKL est en version 18.35 SQL</b><br><br><u style=\"font-weight: bold;\">Solution provisoire apportée au client mécontent </u><b>:&nbsp;</b><br><br>- Création d'un répertoire \"ikl\" sur le ftp dataResa@resa01.inaxel.com</div><div>- Ajout en bdd chez le client de l'id 'ikl' sur la table parweb</div><div>- Renvoi du logo dans les param des templates&nbsp;</div><div><br></div><div>-&gt; Test : ok on reçoit bien le logo du client</div><div><br></div><div><br><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-affiche-logo-sur-les-templates-si-camping-sans-resa-web-3f88db15623a81a488e8f081de162318"
+    },
     {
       "id": "3f78db15-623a-81c6-b896-ffd7978ae50c",
       "identifiant": "INA-954",
@@ -42325,7 +42357,7 @@
     ]
   },
   "counts": {
-    "classique": 738,
+    "classique": 739,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
