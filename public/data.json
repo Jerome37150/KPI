@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-10-14T06:17:32.511Z",
+  "generatedAt": "2026-10-14T12:09:29.074Z",
   "classique": [
+    {
+      "id": "3f98db15-623a-817b-85d7-f8012220e795",
+      "identifiant": "INA-958",
+      "titre": "NAXITO:  Faire remonter les libellés de OS et Suroffres dans les commentaires si montant à 0",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 27"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-14T09:14:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite à la mise en prod de la INA-740, on a eu un retour car des offres n'apparaissaient pas dans les commentaires.<br>Après recherches, les offres ou suroffres qui sont en produit offert donc avec un montant à 0 ne remontaient pas.<br>Le code ne prend pas en compte les montants à zéro.",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/NAXITO-Faire-remonter-les-libell-s-de-OS-et-Suroffres-dans-les-commentaires-si-montant-0-3f98db15623a817b85d7f8012220e795"
+    },
+    {
+      "id": "3f98db15-623a-811c-bf73-f8c3417d7058",
+      "identifiant": "INA-957",
+      "titre": "Questions relatives au tracking GA4 & vérifications",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-14T06:49:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "problème de tracking au niveau de Google Analytics depuis des années, elle n'a jamais eu de retour de notre part, elle a trouvé d'où vient le problème<div>il y a quelque chose à faire de notre côté</div><div><br></div><div><b><u>Email envoyé par le client :&nbsp;</u></b></div><div><b><u><br></u></b></div><div><i>Bonjour,</i></div><div><i><br></i></div><div><i>Dans le cadre de la préparation de notre stratégie d'acquisition digitale 2027, nous avons réalisé plusieurs vérifications du suivi de nos réservations dans Google Analytics 4.</i></div><div><i><br></i></div><div><i>Nos analyses ont révélé une anomalie importante : plus de 90 % des achats et des revenus enregistrés dans GA4 sont attribués à notre propre site internet (laplainetonique.com) comme source référente.</i></div><div><i><br></i></div><div><i>Des vérifications complémentaires ont permis de constater que :</i></div><div><i><br></i></div><div><i>•\tNotre site internet et Naxi Résa transmettent bien des données à la même propriété GA4 (G-4QWJ23C9WR).</i></div><div><i>•\tLes événements purchase et les revenus sont enregistrés dans GA4.</i></div><div><i>•\tLes identifiants clients GA4 (cid) sont différents entre notre site et Naxi Résa lors d'un même parcours de réservation.</i></div><div><i>•\tLe paramètre _gl, nécessaire à la transmission des informations du suivi multidomaine, n'a pas été observé lors du passage vers Naxi Résa.</i></div><div><i>Ces éléments semblent indiquer une rupture du suivi entre notre site internet et votre moteur de réservation.</i></div><div><br></div><div>Pourriez-vous nous préciser :</div><div><br></div><div>1.\tSi Naxi Résa prend en charge le suivi multidomaine GA4 et la conservation de l'identifiant client lors du passage depuis notre site internet.</div><div><br></div><div>2.\tSi une configuration particulière est nécessaire de votre côté ou du nôtre pour assurer cette continuité.</div><div><br></div><div>3.\tSi vous pouvez vérifier les paramètres actuellement en place et, le cas échéant, intervenir pour corriger les anomalies identifiées.</div><div><br></div><div>4.\tSi la transmission des événements purchase, des montants et des identifiants de transaction est correctement configurée.</div><div><br></div><div><br></div><div>Nous disposons de rapports détaillant les vérifications réalisées et pouvons vous les transmettre si nécessaire.</div><div><br></div><div>Je vous remercie par avance pour votre retour.</div><div><br></div><div>Bien cordialement,</div><div><br></div><div>Laëtitia BOYAT&nbsp;</div><div>Chargée de mission marketing et communication</div><div>Camping**** et Base de loisirs La Plaine Tonique</div><div>599 Route d'Etrez, 01340 Malafretaz</div><div>www.laplainetonique.com</div><div><br></div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Questions-relatives-au-tracking-GA4-v-rifications-3f98db15623a811cbf73f8c3417d7058"
+    },
     {
       "id": "3f88db15-623a-81a5-8ec3-c006fea12564",
       "identifiant": "INA-956",
@@ -21547,7 +21615,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Le camping espagnol l’Orangeraie souhaitait utiliser le paiement du solde via la plateforme de paiement sécurisé Redsys. Nous n’avons jamais fait de mise en place mais en suivant le wiki, nous avons trouvé comment le configurer. Toutefois, après configuration, le paiement reste impossible que ce soit sur l’espace client ou sur le lien de paiement du solde.\n\nAprès échange avec Christophe, à voir si on a été au bout de ces développements à l’époque ? ",
+      "explication": "Le camping espagnol l’Orangeraie souhaitait utiliser le paiement du solde via la plateforme de paiement sécurisé Redsys. Nous n’avons jamais fait de mise en place mais en suivant le wiki, nous avons trouvé comment le configurer. Toutefois, après configuration, le paiement reste impossible que ce soit sur l’espace client ou sur le lien de paiement du solde.\n\nAprès échange avec Christophe, à voir si on a été au bout de ces développements à l’époque ? <div><br></div><div>Client impacté : ORANGERAIE</div><div><br></div><div>Version 18.07 HF</div><div><br></div><div>1er problème : la configuration est impossible si le client n’a pas la licence NAXI RESA</div><div><br></div><div>En effet, la configuration n’est pas la même entre paramètres &gt; Naxi Resa &amp; Paramètres &gt; Naxi Résa (Compléments)</div><div><br></div><div>2eme problème : Après mise en place, il est impossible de payer&nbsp;:</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7f2303d8e72948288484c49fc42bd1d7\" style=\"opacity: 1; max-width: 100%; width: 52.4645%; height: auto;\" alt=\"capture\"></div><div><br></div><div>J’ai récupéré les id du camping pour les mettre sur ma démo et tester mais,</div><div><br></div><div>Sur l’espace client&nbsp;: KO&nbsp;:&nbsp;</div><div><br></div><div><br></div><div>{\"platform\":\"redsys\",\"company\":\"inaxelange\",\"client\":\"Naxibooking\",\"customer_firstname\":\"Test\",\"customer_lastname\":\"FLOTSVILLAGE\",\"customer_address\":null,\"customer_zip\":\"17000\",\"customer_city\":\"LA PALLICE\",\"customer_country\":\"FR\",\"customer_mail\":\"contact@inaxel.com\",\"customer_phone\":null,\"customer_dial_code\":null,\"authorization_without_capture\":\"0\",\"capture_delay\":\"0\",\"environment\":\"TEST\",\"datetime\":\"2026-03-02 15:36:34\",\"timestamp\":\"1772465794697\",\"amount\":\"70256\",\"currency\":\"978\",\"language\":\"fr\",\"multiple_installments\":null,\"return_ok_url\":\"https:\\/\\/inaxelange.my-user-account.com\\/booking\\/56\\/advancePayment\\/success\",\"return_ko_url\":\"https:\\/\\/inaxelange.my-user-account.com\\/booking\\/56\\/advancePayment\\/failure\",\"return_cancel_url\":\"https:\\/\\/inaxelange.my-user-account.com\\/booking\\/56\\/advancePayment\\/failure\",\"contract\":null,\"object\":\"{\\\"type\\\":\\\"booking\\\",\\\"id\\\":56,\\\"subject\\\":\\\"advance\\\",\\\"method\\\":9,\\\"idCustomer\\\":4825,\\\"lg\\\":\\\"fr\\\",\\\"company\\\":\\\"inaxelange\\\",\\\"season\\\":\\\"2026\\\",\\\"orderId\\\":\\\"CIU901KU\\\",\\\"bookingReference\\\":\\\"CIU901KU\\\",\\\"variety\\\":1}\"}</div><div><br></div><div><br></div><div><br></div><div>Sur le lien du paiement du solde&nbsp;: KO</div><div><br></div><div><br></div><div>{\"HTTP_REFERER\":\"https:\\/\\/naxiresav2.inaxel.com\\/paiement-solde.php?compte=orangeraie12\",\"GET params\":{\"compte\":\"orangeraie12\"},\"POST params\":{\"montant\":\"1\",\"emailpai\":\"fraterca@hotmail.com\",\"paiementdiff\":\"1\",\"typmod\":\"27\",\"idmodpai\":\"3\",\"numdossier\":\"492C433C04C2026ORANGERAIE12\",\"idresa\":\"492\",\"codexe\":\"2026\",\"nomcli\":\"\",\"paiementDiff\":\"1\",\"valboncadcheck\":\"0\",\"valpaisoldApayer\":\"0\",\"oldnumboncad\":\"\"},\"retourneFormulaireEnvoiPaiement ARGS\":[\"orangeraie12\",null,\"1\",\"615996\",\"\",\"https:\\/\\/naxiresav2.inaxel.com\\/retourpaiement.php?sess=0tup7sv0rrraov1iu17mikjn4o&amp;type=paiementsolde&amp;compte=orangeraie12&amp;codexe=2026&amp;idresa=492&amp;numpai=710051001&amp;mode=27\",\"https:\\/\\/naxiresav2.inaxel.com\\/fin-paiement-solde.php?paiement=ok&amp;compte=orangeraie12&amp;codexe=2026&amp;idresa=492&amp;numpai=710051001\",\"https:\\/\\/naxiresav2.inaxel.com\\/fin-paiement-solde.php?paiement=ko\",\"978\"],\"HTML\":\"&lt;form name=\\\"payment_redsys\\\" method=\\\"POST\\\" action=\\\"https:\\/\\/sis.redsys.es\\/sis\\/realizarPago\\\"&gt;&lt;input type=\\\"hidden\\\" name=\\\"Ds_SignatureVersion\\\" value=\\\"HMAC_SHA256_V1\\\"&gt;&lt;input type=\\\"hidden\\\" name=\\\"Ds_MerchantParameters\\\" value=\\\"eyJEU19NRVJDSEFOVF9BTU9VTlQiOjEwMCwiRFNfTUVSQ0hBTlRfT1JERVIiOiI2MTU5OTYiLCJEU19NRVJDSEFOVF9NRVJDSEFOVENPREUiOiIiLCJEU19NRVJDSEFOVF9DVVJSRU5DWSI6Ijk3OCIsIkRTX01FUkNIQU5UX1RSQU5TQUNUSU9OVFlQRSI6MCwiRFNfTUVSQ0hBTlRfVEVSTUlOQUwiOjEsIkRTX01FUkNIQU5UX01FUkNIQU5UVVJMIjoiaHR0cHM6XC9cL25heGlyZXNhdjIuaW5heGVsLmNvbVwvcmV0b3VycGFpZW1lbnQucGhwP3Nlc3M9MHR1cDdzdjBycnJhb3YxaXUxN21pa2puNG8mdHlwZT1wYWllbWVudHNvbGRlJmNvbXB0ZT1vcmFuZ2VyYWllMTImY29kZXhlPTIwMjYmaWRyZXNhPTQ5MiZudW1wYWk9NzEwMDUxMDAxJm1vZGU9MjciLCJEU19NRVJDSEFOVF9VUkxPSyI6Imh0dHBzOlwvXC9uYXhpcmVzYXYyLmluYXhlbC5jb21cL2Zpbi1wYWllbWVudC1zb2xkZS5waHA\\/cGFpZW1lbnQ9b2smY29tcHRlPW9yYW5nZXJhaWUxMiZjb2RleGU9MjAyNiZpZHJlc2E9NDkyJm51bXBhaT03MTAwNTEwMDEiLCJEU19NRVJDSEFOVF9VUkxLTyI6Imh0dHBzOlwvXC9uYXhpcmVzYXYyLmluYXhlbC5jb21cL2Zpbi1wYWllbWVudC1zb2xkZS5waHA\\/cGFpZW1lbnQ9a28ifQ==\\\"&gt;&lt;input type=\\\"hidden\\\" name=\\\"Ds_Signature\\\" value=\\\"IgCw+YuLguXcijikMipnXyjLZnJk1RRYa6mLhmUheSo=\\\"&gt;&lt;\\/form&gt;&lt;script&gt;document.getElementsByName(\\\"payment_redsys\\\")[0].submit();&lt;\\/script&gt;\"}</div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div>Si on regarde la page d’erreur de Redsys, le montant est à 0.00€, donc à voir si le soucis ne provient pas de la façon dont on envoie cette valeur&nbsp;?</div><div><br></div><div>Si besoin&nbsp;:</div><div><br></div><div>Numéro du commerce&nbsp;: 353045891</div><div><br></div><div>Clé secrète&nbsp;: Zrb0/w5uPyslrvEY0vcanYILogjYZHVw</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/be3c67fcf9a04f8eafd550a801b62c8e\" style=\"opacity: 1; max-width: 100%; width: 51.0972%; height: auto;\" alt=\"capture\"></div><div><br></div><div>Doc technique REDSYS : https://pagosonline.redsys.es/desarrolladores-inicio/documentacion-operativa/autorizacion/#rest  et si besoin email de leur support : soportevirtual@bbva.com</div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -21564,7 +21632,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "CRM"
@@ -21581,7 +21651,9 @@
       "pointsBlocage": "",
       "explication": "Mailys m’a contacté afin de me signaler des incohérences sur le CRM du camping LAC CARNAC.\nAprès recherche il s’avère que nous envoyons dans le CRM un prix erroné sur les suppléments qui sont paramétrés en “Prix modifiable”",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -22746,11 +22818,13 @@
     {
       "id": "3118db15-623a-819c-85a1-ef0ed7cd9434",
       "identifiant": "INA-101",
-      "titre": "Watchdog : Probl�me de gestion des environnements",
+      "titre": "Watchdog : Problème de gestion des environnements",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -22763,9 +22837,11 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "<b><u>Détails</u></b>:<div><br></div><div>Lorsque les watchdogs sont activés, chaque exe d’export ou de synchro possède son exe de watchdog qui est lancé automatiquement.</div><div><br></div><div>A chaque lancement du watchdog un fichier de conf est généré dans lequel est indiqué l’environnement sur lequel doit bosser cet exe (sera forcément l’environnement choisi au lancement de naxi gestion)</div><div><br></div><div>Il se trouve qu’actuellement, peu importe l’environnement sur lequel on lance Naxi Gestion et donc par conséquent les synchro/export et watchdog associé, l’info de l’environnement est toujours indiqué comme la prod par défaut&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c0beec7e592f40839d0aab8ac99a3a71\" style=\"opacity: 1; max-width: 100%; width: 25.709%; height: auto;\" alt=\"capture\"></div><div>==&gt; Aujourd'hui la problématique est surtout qu’avec cette mauvaise gestion des environnements tous les logs que fait le watchdog sont fait sur la prod</div><div><br></div><div>Il faudrait géré l’initialisation des environnement au lancement de l’exe du watchdog.&nbsp;</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -22823,7 +22899,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Le camping JENNY (HF-18.28) a un bug mais reproduit sur demo Angélique en HF 18.01<div><br></div><div><br></div><div><br></div><div>Pour reproduire le bug,&nbsp;</div><div><br></div><div>1. Se rendre dans le menu Paramètres &gt; Emplacements</div><div>2. epuis l'onglet Emplacements, ajouter une photo sur un emplacement</div><div>3. Si on regarde la synchro, elle envoit correctement l'info, à savoir 'Transferts photos'</div><div>4. e rendre ensuite dans le menu Paramètres &gt; NAXI Réservations, et lancer une synchronisation manuelle du planning</div><div>5. En base de données, les EMPLIMG sont bien là, en revanche si on regarde l'IHM de la fenêtre de synchro, cela s'envoie sous l'intutilé 'Génération des opérations de préparation (Ménages Mode 4).</div><div><br></div><div>Ce camping n'a pas NAXI Nomad et n'est même pas sur le menu Ménage Mode4</div><div><br></div><div>Lien JAM : https://jam.dev/c/0729d6be-27b3-4a1d-ac6a-2793e35dae82&nbsp;</div><div><br></div><div>Les photos s'envoient bien :&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/fe0081ce49ea4743b4ca860384cccf40\" style=\"opacity: 1; max-width: 100%; width: 44.1425%; height: auto;\" alt=\"capture\"></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -22883,7 +22959,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Suite à un test de bug sur NaxiCam, on s’est aperçus d’une autre erreur.<div><br></div><div>Dans NaxiGestion, dans Paramètre / Exercice / Dossiers NAXI-controle</div><div><br></div><div>&nbsp;<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/d60c9db966234e88b1d9d58d2bc6ecf2\" alt=\"capture\" style=\"opacity: 1; max-width: 100%; width: 44.0243%; height: auto;\"></div><div><br></div><div>NAXICAM → je clique sur le menu déroulant, je change le chemin du répertoire pour un autre, j’enregistre. Je ferme et je réouvre Naxi, quand je regarde à nouveau le menu déroulant, je n’ai plus le choix&nbsp;</div><div><br></div><div><br></div><div>Aucun problème avec NaxiCod</div><div><br></div><div>Après recherches, on s’est aperçu que dans NaxiCod il y a le listrepdata alors que dans NaxiCam il n’y est pas. Ce qui explique que je ne retrouve pas la liste de départ.</div><div><br></div><div>NAXICAM</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c5be4a68f955492cb605c9b69db3f610\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>&nbsp;NAXICOD</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/05113672263c419fa3864ef9aaaf5538\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -22993,7 +23069,7 @@
     {
       "id": "3118db15-623a-81c0-b9ae-ece7c4c5fa44",
       "identifiant": "INA-93",
-      "titre": "Erreur sur dipo des emplacements - MEDDITERRANEES-",
+      "titre": "Erreur sur dispo des emplacements - MEDITERRANEES-",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
@@ -23010,7 +23086,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "J'ai un vieux problème qui ressort chez les MEDITERRANEES qui sont passé sen SQL en Décembre. Apparemment, ils ont régulièrement le soucis :&nbsp;<div><br></div><div>1. Ouvrir la fenêtre recherche dispo depuis le menu Disponibilités</div><div>2. Sur leur base de données, j'ai pris un exemple précis pour que ce soit plus facile à debug - Donc faire une recherche (recherche entre deux dates) entre le 23/05 et le 04/06 sur la catégorie 44 - B Emplacement Gd Confort</div><div>3. Lancer la recherche : NAXI affiche uniquement 3 emplacements : les 266 / 300 et 304</div><div>4. Si on ouvre le planning et que l'on recherche sur la même période, NAXI affiche 4 emplacements disponibles, à savoir les 240 / 266 / 300 et 304.</div><div>5. L'emplacement 240 n'apparaît donc pas dans la recherche de dispo alors qu'il devrait.</div><div>6. Si on vérifie la table planning, elle est ok, l'emplacement 240 est bien disponible</div><div>7. Si on vérifie la table command, sur le champs cm.empl, l'emplacement 240 est disponible également sur la période de recherche</div><div><br></div><div>J'avais déjà eu un soucis similaire chez ROMANEE &nbsp;: Angélique | Inaxel : ROMANEE, encore &amp; toujours ! | Dev | Inaxel &gt; Support 3 - Dév | Microsoft&nbsp;Teams</div><div><br></div><div>&nbsp;lien JAM : https://jam.dev/c/c2e610ce-3234-4f52-8df2-6a63a2958b31&nbsp;</div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -23018,7 +23094,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Erreur-sur-dipo-des-emplacements-MEDDITERRANEES-3118db15623a81c0b9aeece7c4c5fa44"
+      "url": "https://app.notion.com/p/Erreur-sur-dispo-des-emplacements-MEDITERRANEES-3118db15623a81c0b9aeece7c4c5fa44"
     },
     {
       "id": "3118db15-623a-8199-a5f8-eaee59ba56ac",
@@ -23060,7 +23136,7 @@
     {
       "id": "3118db15-623a-8143-abe6-fa74c296ad21",
       "identifiant": "INA-91",
-      "titre": "Non affichage du n� de siret sur les proforma",
+      "titre": "Non affichage du numéro de siret sur les proforma",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
@@ -23077,7 +23153,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "<b>Client impacté : Presqu'ile de Giens</b><div><br></div><div><i>Config : 18.05 - HF</i></div><div><br></div><div><b><u>Détails</u></b> :&nbsp;</div><div><br></div><div>1. Créer une fiche client</div><div>2. Cocher la case \"Professionnel\" et remplir les champs obligatoires : SIRET / SIREN / TVA INTRA</div><div>3. Créer un séjour sur cette fiche client</div><div>4. Générer une proforma</div><div>5. Sur la proforma générée, le n° de SIRET n'est pas renseigné // Le SIREN et TVA INTRA sont en revanche OK&nbsp;</div><div>6. Si sur ce même séjour on génère une facture, cette fois les 3 champs s'affichent correctement</div><div>7. Le soucis est donc juste sur la proforma</div><div><br></div><div><b>Bug non reproduit sur la version 17.28</b></div><div><b><br></b></div><div><b>Bug reproduit sur démo Angélique en HF - 18.06</b></div><div><b><br></b></div><div>Lien JAM : https://jam.dev/c/8f2d3ddb-7e98-4ab6-8b9a-d11682e6d2b4&nbsp;</div><div>&nbsp;</div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -23085,12 +23161,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Non-affichage-du-n-de-siret-sur-les-proforma-3118db15623a8143abe6fa74c296ad21"
+      "url": "https://app.notion.com/p/Non-affichage-du-num-ro-de-siret-sur-les-proforma-3118db15623a8143abe6fa74c296ad21"
     },
     {
       "id": "3118db15-623a-811b-a198-cf83fdf48dc3",
       "identifiant": "INA-90",
-      "titre": "Suppl�ment avec libell� modifiable non traduit sur les bons de s�jours",
+      "titre": "Supplément avec libellé modifiable non traduit sur les bons de séjours",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
@@ -23107,7 +23183,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "<b>Client impacté : SUN MARINA</b><div><br></div><div><i>Config - 18.05 - HF - Version Groupe&nbsp;</i></div><div><br></div><div><b><u>Détails</u></b> :&nbsp;</div><div><br></div><div>1. Se rendre dans le menu Paramètres &gt; Tarifs &gt; Onglet Supplément</div><div>2. Sur un supplément, saisir une traduction en anglais par exemple dans le libellé client</div><div>3. Cocher également sur ce supplément \"Libellé modifiable\"</div><div>4. Se rendre ensuite sur une fiche client</div><div>5. Créer un séjour et ajouter dans ce séjour, une quantité sur le supplément modifié précédemment</div><div>6. Générer le bon de séjour : le libellé du supplément est resté en Français&nbsp;</div><div>7. Fermer le séjour et retourner dans les param tarifs&nbsp;</div><div>8. Sur le supplément concerné, décocher la case \"Libellé modifiable\"</div><div>9. Regénérer le bon de séjour : le libellé en anglais est cette fois ci bien pris en compte&nbsp;</div><div><br></div><div><b>Reproduit sur démo Angélique en HF 18.06</b> - Le soucis se pose uniquement sur le bon de séjour (la facture et proforma sont ok même si le libellé modifiable est coché)</div><div><br></div><div>Lien JAM : https://jam.dev/c/7e2b8034-4c1a-467d-bd42-768748bf9d14&nbsp;</div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -42389,7 +42465,7 @@
     ]
   },
   "counts": {
-    "classique": 740,
+    "classique": 742,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
