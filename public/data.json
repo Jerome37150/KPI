@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-10-14T12:09:29.074Z",
+  "generatedAt": "2026-10-14T17:05:33.849Z",
   "classique": [
+    {
+      "id": "3f98db15-623a-812b-81f5-dec0ea97c963",
+      "identifiant": "INA-959",
+      "titre": "Modification SIRET et Adresse postale dans INACOM",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-14T13:56:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Depuis le déménagement des locaux à Montpellier, le numéro de SIRET et l'adresse postale ont donc changé.<div><br></div><div>Nous rencontrons à ce jour le refus de nos factures par l'AFDAS car le numéro de SIRET est incorrect, ce qui bloque la prise en charge des formations de nos clients.&nbsp;</div><div><br></div><div>Après analyse dans INACOM, l'adresse postale et le SIRET sont codés en dur :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/805b3d3879b14191b0849a24c6b78b9e\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Je joins le KBIS pour avoir toutes les infos&nbsp;</div><div><br></div><div>-&gt; Il faut modifier tous les documents avec les bonnes informations : Factures, conventions de formation, relevé...etc.</div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Modification-SIRET-et-Adresse-postale-dans-INACOM-3f98db15623a812b81f5dec0ea97c963"
+    },
     {
       "id": "3f98db15-623a-817b-85d7-f8012220e795",
       "identifiant": "INA-958",
@@ -3433,7 +3465,9 @@
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -3450,7 +3484,9 @@
       "pointsBlocage": "",
       "explication": "Migration de la BDD MariaDB d'AWS vers OVH en preprod",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -20235,7 +20271,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Client : POMMIERS76\nDétails : \nLe code postal du client est remplacé par un point lorsque :\n1.  Créer une fiche client en prenant soin de renseigner son adresse complète et en cochant la case \"Le client refuse d'indiquer son adresse\". [Fenêtre client_traitement / Interrupteur 'Inter_RefusAdresse']\n2. Créer ensuite un séjour sur cette fiche client, (en statut réservation pour ensuite pouvoir générer une facture).\n3. Générer une facture ou une proforma sur cette fiche client en cliquant sur le bouton 'bt_fact' depuis la fenêtre séjour.\n4. La fenêtre 'factgenere' s'ouvre bien : en bas à droite, les coordonnées du client sont bien affichées.\n5. Générer la facture ou la proforma : après génération, lorsqu'on regarde le document, le code postal s'est transformé en un point.\n \n \nReproduit sur démo Angélique HF et SQL en 18.09\nReproduit uniquement sur les proforma & factures / Sur le devis aucun problème",
+      "explication": "<b><u>Client</u></b> : POMMIERS76&nbsp;<div><br><div><b><u>Détails</u></b> :&nbsp;&nbsp;</div><div>Le code postal du client est remplacé par un point lorsque :&nbsp;</div><div>1. &nbsp;Créer une fiche client en prenant soin de renseigner son adresse complète et en cochant la case \"Le client refuse d'indiquer son adresse\". [Fenêtre client_traitement / Interrupteur 'Inter_RefusAdresse']&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/3f895aa886e84563b374ea7f20224a0f\" style=\"opacity: 1; max-width: 100%; width: 40.0743%; height: auto;\" alt=\"capture\"></div><div>2. Créer ensuite un séjour sur cette fiche client, (en statut réservation pour ensuite pouvoir générer une facture).&nbsp;</div><div>3. Générer une facture ou une proforma sur cette fiche client en cliquant sur le bouton 'bt_fact' depuis la fenêtre séjour.&nbsp;</div><div>4. La fenêtre 'factgenere' s'ouvre bien : en bas à droite, les coordonnées du client sont bien affichées.&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/41c0dddd67f448068cca2a3cf4817063\" style=\"opacity: 1; max-width: 100%; width: 44.8177%; height: auto;\" alt=\"capture\"></div><div>5. Générer la facture ou la proforma : après génération, lorsqu'on regarde le document, le code postal s'est transformé en un point.\n&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/9ec55150323448e2a261ec2c47bd496b\" alt=\"capture\" style=\"opacity: 1; max-width: 100%; width: 34.1492%; height: auto;\">&nbsp;&nbsp;&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a0fb1fefba6c4f789bdfaaca936bf807\" style=\"opacity: 1; max-width: 100%; width: 34.3117%; height: auto;\" alt=\"capture\"></div><div><br></div><div>Reproduit sur démo Angélique HF et SQL en 18.09&nbsp;</div><div>Reproduit uniquement sur les proforma &amp; factures / Sur le devis aucun problème</div></div>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -42465,7 +42501,7 @@
     ]
   },
   "counts": {
-    "classique": 742,
+    "classique": 743,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
