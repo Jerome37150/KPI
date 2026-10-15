@@ -1,6 +1,1614 @@
 {
-  "generatedAt": "2026-10-15T11:46:18.804Z",
+  "generatedAt": "2026-10-15T15:51:01.209Z",
   "classique": [
+    {
+      "id": "3fa8db15-623a-8109-83b5-c9b98362742b",
+      "identifiant": "INA-1004",
+      "titre": "Compteur",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:44:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Compteur-3fa8db15623a810983b5c9b98362742b"
+    },
+    {
+      "id": "3fa8db15-623a-8129-972a-d7f34cf6807b",
+      "identifiant": "INA-1003",
+      "titre": "Compteur",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:44:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Compteur-3fa8db15623a8129972ad7f34cf6807b"
+    },
+    {
+      "id": "3fa8db15-623a-81bc-b306-e28887693e45",
+      "identifiant": "INA-1002",
+      "titre": "Compteur",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:43:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Compteur-3fa8db15623a81bcb306e28887693e45"
+    },
+    {
+      "id": "3fa8db15-623a-819c-aa7c-e4b7ac468c8a",
+      "identifiant": "INA-1001",
+      "titre": "Nouvelle US",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:41:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Nouvelle-US-3fa8db15623a819caa7ce4b7ac468c8a"
+    },
+    {
+      "id": "3fa8db15-623a-8141-aa53-cbaa198569e0",
+      "identifiant": "INA-1000",
+      "titre": "Commande diverse",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:41:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Commande-diverse-3fa8db15623a8141aa53cbaa198569e0"
+    },
+    {
+      "id": "3fa8db15-623a-81f6-bc00-d6ff464ef2ab",
+      "identifiant": "INA-999",
+      "titre": "Commande diverse",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:40:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Commande-diverse-3fa8db15623a81f6bc00d6ff464ef2ab"
+    },
+    {
+      "id": "3fa8db15-623a-81e2-b790-cab1a260c344",
+      "identifiant": "INA-998",
+      "titre": "Commande diverse",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:40:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Commande-diverse-3fa8db15623a81e2b790cab1a260c344"
+    },
+    {
+      "id": "3fa8db15-623a-814b-8c91-fe407e8975ce",
+      "identifiant": "INA-997",
+      "titre": "Création nouveau séjour",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:21:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Cr-ation-nouveau-s-jour-3fa8db15623a814b8c91fe407e8975ce"
+    },
+    {
+      "id": "3fa8db15-623a-81ce-b3bb-e95d8b97e3db",
+      "identifiant": "INA-996",
+      "titre": "Création nouveau séjour",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:20:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Cr-ation-nouveau-s-jour-3fa8db15623a81ceb3bbe95d8b97e3db"
+    },
+    {
+      "id": "3fa8db15-623a-8150-852b-ef317c8fce1f",
+      "identifiant": "INA-995",
+      "titre": "Création nouveau séjour",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:20:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Cr-ation-nouveau-s-jour-3fa8db15623a8150852bef317c8fce1f"
+    },
+    {
+      "id": "3fa8db15-623a-8149-86cf-e74710ac582c",
+      "identifiant": "INA-994",
+      "titre": "Onglet \"Remises et fidélité\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:19:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Remises-et-fid-lit-3fa8db15623a814986cfe74710ac582c"
+    },
+    {
+      "id": "3fa8db15-623a-814a-a3a7-e2bce3f845c8",
+      "identifiant": "INA-993",
+      "titre": "Onglet \"Remises et fidélité\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:19:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Remises-et-fid-lit-3fa8db15623a814aa3a7e2bce3f845c8"
+    },
+    {
+      "id": "3fa8db15-623a-81e9-9b63-ccb92e926241",
+      "identifiant": "INA-992",
+      "titre": "Onglet \"Remises et fidélité\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:18:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Remises-et-fid-lit-3fa8db15623a81e99b63ccb92e926241"
+    },
+    {
+      "id": "3fa8db15-623a-81f0-a863-d73e7308b84e",
+      "identifiant": "INA-991",
+      "titre": "Onglet \"Commentaire\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:18:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Commentaire-3fa8db15623a81f0a863d73e7308b84e"
+    },
+    {
+      "id": "3fa8db15-623a-81fe-924f-c494253b19b8",
+      "identifiant": "INA-990",
+      "titre": "Onglet \"Commentaire\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:17:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Commentaire-3fa8db15623a81fe924fc494253b19b8"
+    },
+    {
+      "id": "3fa8db15-623a-81f3-b353-d0069ef8c0cd",
+      "identifiant": "INA-989",
+      "titre": "Onglet \"Commentaire\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:17:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Commentaire-3fa8db15623a81f3b353d0069ef8c0cd"
+    },
+    {
+      "id": "3fa8db15-623a-81a0-936a-ec3b84222920",
+      "identifiant": "INA-988",
+      "titre": "Onglet \"Facture\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:16:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Facture-3fa8db15623a81a0936aec3b84222920"
+    },
+    {
+      "id": "3fa8db15-623a-818c-9097-cbaadadadd6b",
+      "identifiant": "INA-987",
+      "titre": "Onglet \"Facture\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:16:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Facture-3fa8db15623a818c9097cbaadadadd6b"
+    },
+    {
+      "id": "3fa8db15-623a-81e6-b61a-e0c5f3befe4d",
+      "identifiant": "INA-986",
+      "titre": "Onglet \"Facture\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:15:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Facture-3fa8db15623a81e6b61ae0c5f3befe4d"
+    },
+    {
+      "id": "3fa8db15-623a-8103-9454-fef963c454a4",
+      "identifiant": "INA-985",
+      "titre": "Action \"Voir le détail\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:14:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Voir-le-d-tail-3fa8db15623a81039454fef963c454a4"
+    },
+    {
+      "id": "3fa8db15-623a-818c-9a90-cd560cfcf325",
+      "identifiant": "INA-984",
+      "titre": "Action \"Voir le détail\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:14:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Voir-le-d-tail-3fa8db15623a818c9a90cd560cfcf325"
+    },
+    {
+      "id": "3fa8db15-623a-8131-845e-c441b6478a16",
+      "identifiant": "INA-983",
+      "titre": "Action \"Voir le détail\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:14:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Voir-le-d-tail-3fa8db15623a8131845ec441b6478a16"
+    },
+    {
+      "id": "3fa8db15-623a-81ae-a7f5-e3dc8ac9407b",
+      "identifiant": "INA-982",
+      "titre": "Action \"Modifier\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:13:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Modifier-3fa8db15623a81aea7f5e3dc8ac9407b"
+    },
+    {
+      "id": "3fa8db15-623a-81a7-9290-c2a59a1c3712",
+      "identifiant": "INA-981",
+      "titre": "Action \"Modifier\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:12:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Modifier-3fa8db15623a81a79290c2a59a1c3712"
+    },
+    {
+      "id": "3fa8db15-623a-8105-994e-e527d649290e",
+      "identifiant": "INA-980",
+      "titre": "Action \"Modifier\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:12:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Modifier-3fa8db15623a8105994ee527d649290e"
+    },
+    {
+      "id": "3fa8db15-623a-8171-8e86-e8311c127ced",
+      "identifiant": "INA-979",
+      "titre": "Action \"Visualiser le bon de séjour\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:11:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Visualiser-le-bon-de-s-jour-3fa8db15623a81718e86e8311c127ced"
+    },
+    {
+      "id": "3fa8db15-623a-8143-996a-cc23c31d6851",
+      "identifiant": "INA-978",
+      "titre": "Action \"Visualiser le bon de séjour\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:10:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Visualiser-le-bon-de-s-jour-3fa8db15623a8143996acc23c31d6851"
+    },
+    {
+      "id": "3fa8db15-623a-8176-b58a-fe36f60771c4",
+      "identifiant": "INA-977",
+      "titre": "Action \"Visualiser le bon de séjour\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:10:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Visualiser-le-bon-de-s-jour-3fa8db15623a8176b58afe36f60771c4"
+    },
+    {
+      "id": "3fa8db15-623a-81f1-8b23-dd73bbff3d90",
+      "identifiant": "INA-976",
+      "titre": "Onglet \"Autres infos\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:08:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Autres-infos-3fa8db15623a81f18b23dd73bbff3d90"
+    },
+    {
+      "id": "3fa8db15-623a-81a1-b2b2-c2d67c62ad0e",
+      "identifiant": "INA-975",
+      "titre": "Onglet \"Autres infos\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:08:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Autres-infos-3fa8db15623a81a1b2b2c2d67c62ad0e"
+    },
+    {
+      "id": "3fa8db15-623a-8158-bbeb-f8c0834f78b5",
+      "identifiant": "INA-974",
+      "titre": "Onglet \"Autres infos\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:07:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Autres-infos-3fa8db15623a8158bbebf8c0834f78b5"
+    },
+    {
+      "id": "3fa8db15-623a-81f3-a08f-e28022884e2f",
+      "identifiant": "INA-973",
+      "titre": "Action \"Copier\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:05:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Copier-3fa8db15623a81f3a08fe28022884e2f"
+    },
+    {
+      "id": "3fa8db15-623a-8185-9bda-f690c9caa4e3",
+      "identifiant": "INA-972",
+      "titre": "Action \"Copier\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:05:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Copier-3fa8db15623a81859bdaf690c9caa4e3"
+    },
+    {
+      "id": "3fa8db15-623a-81ec-bc02-eb0578de28e5",
+      "identifiant": "INA-971",
+      "titre": "Action \"Copier\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T15:04:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Copier-3fa8db15623a81ecbc02eb0578de28e5"
+    },
+    {
+      "id": "3fa8db15-623a-81d5-936e-e776b2c1dd9c",
+      "identifiant": "INA-970",
+      "titre": "Action \"Transférer\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T14:58:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Transf-rer-3fa8db15623a81d5936ee776b2c1dd9c"
+    },
+    {
+      "id": "3fa8db15-623a-816a-9301-d973a6ec05a5",
+      "identifiant": "INA-969",
+      "titre": "Action \"Transférer\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T14:58:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Transf-rer-3fa8db15623a816a9301d973a6ec05a5"
+    },
+    {
+      "id": "3fa8db15-623a-81be-ae5e-eb1ad11b1b7e",
+      "identifiant": "INA-968",
+      "titre": "Action \"Transférer\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T14:57:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Transf-rer-3fa8db15623a81beae5eeb1ad11b1b7e"
+    },
+    {
+      "id": "3fa8db15-623a-81e8-b761-ea1710ee753b",
+      "identifiant": "INA-967",
+      "titre": "Action \"Changer le statut\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T14:56:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Changer-le-statut-3fa8db15623a81e8b761ea1710ee753b"
+    },
+    {
+      "id": "3fa8db15-623a-81d7-b156-d079dfcb859e",
+      "identifiant": "INA-966",
+      "titre": "Action \"Changer le statut\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T14:55:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Changer-le-statut-3fa8db15623a81d7b156d079dfcb859e"
+    },
+    {
+      "id": "3fa8db15-623a-81f0-a17d-fcbede9c1457",
+      "identifiant": "INA-965",
+      "titre": "Action \"Changer le statut\"",
+      "classification": null,
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T14:53:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Changer-le-statut-3fa8db15623a81f0a17dfcbede9c1457"
+    },
+    {
+      "id": "3fa8db15-623a-8165-b617-c0d4531fa704",
+      "identifiant": "INA-964",
+      "titre": "Onglet \"Cautions\" de la fiche séjour",
+      "classification": null,
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T14:27:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Cautions-de-la-fiche-s-jour-3fa8db15623a8165b617c0d4531fa704"
+    },
+    {
+      "id": "3fa8db15-623a-8168-8309-f6d918e693a8",
+      "identifiant": "INA-963",
+      "titre": "Onglet \"Cautions\" de la fiche séjour",
+      "classification": null,
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T14:26:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Cautions-de-la-fiche-s-jour-3fa8db15623a81688309f6d918e693a8"
+    },
+    {
+      "id": "3fa8db15-623a-8171-b4e1-f721adda89f7",
+      "identifiant": "INA-962",
+      "titre": "Onglet \"Cautions\" de la fiche séjour",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T14:26:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Cautions-de-la-fiche-s-jour-3fa8db15623a8171b4e1f721adda89f7"
+    },
+    {
+      "id": "3fa8db15-623a-816b-a437-e1d095e69198",
+      "identifiant": "INA-961",
+      "titre": "Mise en place de suivi Google ADS",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Réservation"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T13:38:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div><b><u>Email reçu sur la boite developpement&nbsp;</u></b></div><div><br></div><div><i>✏️Personne à contacter si besoin : ads@agence-beecom.fr&nbsp; /&nbsp; jm@agence-beecom.fr</i></div><div><i><br></i></div><div><b><font color=\"#16a34a\">Compte web du camping : senyan</font></b></div><div><br></div>Bonjour,<div>&nbsp;</div><div>Pour notre client commun - Village Tropical Sen Yan à Mézos - nous souhaitons mettre en place le suivi Google Ads des</div><div>réservations réalisées via votre moteur : https://naxiresav2.inaxel.com/etape1-criteres.php?compte=senyan</div><div>&nbsp;</div><div>Voici les éléments à intégrer :</div><div>• Identifiant de conversion (Conversion ID) :</div><div>11429921325</div><div><br></div><div>• Libellé de conversion (Conversion Label) :</div><div>4152CJnBkvMcEK2Em8oq</div><div>&nbsp;</div><div>Balise globale</div><div>À charger sur les pages du tunnel de réservation :</div><div>&nbsp;</div><div>&lt;!-- Google tag (gtag.js) --&gt;</div><div>&lt;script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-11429921325\"&gt;&lt;/script&gt;</div><div>&lt;script&gt;</div><div>&nbsp;window.dataLayer = window.dataLayer || [];</div><div>&nbsp;function gtag(){dataLayer.push(arguments);}</div><div>&nbsp;gtag('js', new Date());</div><div>&nbsp;</div><div>&nbsp;gtag('config', 'AW-11429921325');</div><div>&lt;/script&gt;</div><div>&nbsp;</div><div>&nbsp;</div><div>Événement de conversion</div><div>À déclencher uniquement après une réservation confirmée :</div><div>&nbsp;</div><div>&lt;!-- Event snippet for Réservation camping via INAXEL --&gt;</div><div>&lt;script&gt;</div><div>&nbsp;gtag('event', 'conversion', {</div><div>&nbsp; &nbsp;'send_to': 'AW-11429921325/4152CJnBkvMcEK2Em8oq',</div><div>&nbsp; &nbsp;'value': {{TOTAL_TTC}},</div><div>&nbsp; &nbsp;'currency': 'EUR',</div><div>&nbsp; &nbsp;'transaction_id': '{{BOOKING_ID}}'</div><div>&nbsp;});</div><div>&lt;/script&gt;</div><div>&nbsp;</div><div>&nbsp;</div><div>Merci de charger la balise globale sur les pages du tunnel et de déclencher l’événement uniquement après</div><div>confirmation d’une réservation. Si possible, merci de renseigner dynamiquement le montant réel et l’identifiant</div><div>unique de réservation.</div><div>&nbsp;</div><div>Je vous joins également le document avec l'ensemble des informations si nécessaire : https://docs.google.com/document/d/1RxhGZQ52nBWonJyIy1tAKuepeCp1ktUF/edit?usp=sharing&amp;ouid=103924696103621485792&amp;rtpof=true&amp;sd=true</div><div>&nbsp;</div><div>Pouvez-vous nous confirmer la mise en place ainsi que le point de déclenchement et les valeurs transmises ?</div><div>&nbsp;</div><div>Merci d’avance, belle journée.</div><div><br></div><div><br></div><div><br></div><div>Bien à vous,</div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-en-place-de-suivi-Google-ADS-3fa8db15623a816ba437e1d095e69198"
+    },
+    {
+      "id": "3fa8db15-623a-810c-9cf1-f219e2a1ecf4",
+      "identifiant": "INA-960",
+      "titre": "Listes automatisées non fonctionnelles via NAXIEXPORT si exercice comptable non débuté",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-15T12:43:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>RevenueConsulting nous a contacté afin de nous indiquer qu'ils ne reçoivent pas les fichiers paramétrés dans NAXI sur les saisons 2027.</div><div><br></div><div><i><b>Après analyse :&nbsp;</b></i></div><div><br></div><div>1. Avoir une saison 2027 sur laquelle la date de début d'exercice comptable est ultérieure à aujourd'hui (dans mon cas 01.01.2027)</div><div>2. Créer une extraction de liste</div><div>3. Configurer une automatisation de ce type :</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/b2d8ec55663e41b2a0b7a1ee03ed0d07\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>3. Si on ferme NAXI Export et qu'on le ré-ouvre, alors le traitement Auto ne s'affiche pas :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/b77eac53afe348fd95db5511fb2d3276\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Donc, le traitement ne s'exécute pas et donc revenue consulting ne reçoit jamais le fichier.</div><div><br></div><div><u><b>Dans le code</b></u> :&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f86af3b1cc624ffca23c97d16bafb28f\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>&nbsp;En réalité, les traitements s'affichent uniquement si l'exercice comptable est ouvert ce qui n'est pas logique.</div><div><br></div><div>J'ai modifié temporairement la date d'exercice pour tester et en effet, si la date d'exercice est inférieure ou égale ou aujourd'hui alors le traitement auto apparaît bien dans NAXI Export et les fichiers s'envoient bien sur le serveur FTP.</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Listes-automatis-es-non-fonctionnelles-via-NAXIEXPORT-si-exercice-comptable-non-d-but-3fa8db15623a810c9cf1f219e2a1ecf4"
+    },
     {
       "id": "3f98db15-623a-812b-81f5-dec0ea97c963",
       "identifiant": "INA-959",
@@ -17,7 +1625,7 @@
       ],
       "client": "",
       "dateCreation": "2026-10-14T13:56:00.000Z",
-      "estimBack": 0,
+      "estimBack": 3,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -45,7 +1653,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "OCTOBRE 27"
+        "OCTOBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -64,7 +1672,7 @@
       "explication": "Suite à la mise en prod de la INA-740, on a eu un retour car des offres n'apparaissaient pas dans les commentaires.<br>Après recherches, les offres ou suroffres qui sont en produit offert donc avec un montant à 0 ne remontaient pas.<br>Le code ne prend pas en compte les montants à zéro.",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -229,7 +1837,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "En preprod sur toutes nos bases, à chaque connexion à Naxi nous avons ce message&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e38e0d118bb646dc8d6bf9adb206b29d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>En juillet, nous avions déjà eu ce message sur certaines bases puis plus rien.&nbsp;<div><br>Depuis fin septembre ce message apparait sur toutes nos bases en preprod<br><br>Cela laisse à penser que toutes les données ne sont pas récupérés donc fausse nos tests.</div>",
+      "explication": "En preprod sur toutes nos bases, à chaque connexion à Naxi nous avons ce message&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e38e0d118bb646dc8d6bf9adb206b29d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>En juillet, nous avions déjà eu ce message sur certaines bases puis plus rien.&nbsp;<div>Depuis fin septembre ce message apparait sur toutes nos bases en preprod<br>Cela laisse à penser que toutes les données ne sont pas récupérés donc fausse nos tests.</div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -280,7 +1888,9 @@
       "classification": "BUG D'USAGE",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -297,7 +1907,9 @@
       "pointsBlocage": "",
       "explication": "<div>Suite à une mise en place de CRM, Solenne m'a indiqué ne pas recevoir les données de la saison 2027.</div><div><br></div><div>Après analyse de la base de données du camping, ce dernier avait configuré après notre mise en place, des gammes sur les catégories d'emplacements :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6b15ad799524422189d94c9584a036c7\" alt=\"capture\" style=\"opacity: 1; max-width: 100%;\"></div><div><br></div><div>Or, lorsque des gammes sont configurées, l'envoi des catégories vers SH est impossible et donc les séjours et les clients ne s'envoient plus :&nbsp;</div><div><br></div><div>Requête envoyée au CRM :&nbsp;<br><br>{</div><div>&nbsp; \"requestName\": \"SetSeasonProducts\",</div><div>&nbsp; \"body\": {</div><div>&nbsp; &nbsp; \"SetSeasonProducts\": {</div><div>&nbsp; &nbsp; &nbsp; \"season\": {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"PmsId\": 23,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"PmsEstablishmentId\": \"gallouette\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"PmsSeasonId\": \"2027\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"StartDate\": \"2027-03-26T00:00:00+01:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"EndDate\": \"2027-10-31T00:00:00+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"Products\": [</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Reference\": \"MH4\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Name\": \"Mobil Home Vue sur Mer Confort 4 pers 2 chambres\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Year\": 2027,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Quantity\": 1,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"PmsProductId\": \"3\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ShProductId\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"TypeCode\": \"MH\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ModelCode\": \"XX\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"PitchTypeCode\": \"LOC\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ProductRangeCode\": \"05\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LocationCode\": \"\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Surface\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"NbSleepingPlace\": null,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"NbBedRoom\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"WithSanitary\": null,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"WithTerrace\": true,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"StartDateTariff\": \"2027-03-26T10:53:43+01:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"EndDateTariff\": \"2027-10-31T10:53:43+01:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LastUpdate\": \"2026-10-09T10:53:43+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"IsActive\": true,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LocationDetail\": \"\"</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Reference\": \"MH4\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Name\": \"Espace Terrasse 2sdb/dim\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Year\": 2027,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Quantity\": 1,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"PmsProductId\": \"39\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ShProductId\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"TypeCode\": \"MH\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ModelCode\": \"XX\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"PitchTypeCode\": \"LOC\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ProductRangeCode\": \"04\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LocationCode\": \"\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Surface\": 33,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"NbSleepingPlace\": null,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"NbBedRoom\": 2,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"WithSanitary\": null,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"WithTerrace\": true,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"StartDateTariff\": \"2027-03-26T10:53:43+01:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"EndDateTariff\": \"2027-10-31T10:53:43+01:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LastUpdate\": \"2026-10-09T10:53:43+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"IsActive\": true,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LocationDetail\": \"\"</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Reference\": \"XXXXXXXXXXSXTXXXXX\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Name\": \"\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Year\": 2027,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Quantity\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"PmsProductId\": \"-1\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ShProductId\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"TypeCode\": \"AU\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ModelCode\": \"XX\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"PitchTypeCode\": \"NU\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ProductRangeCode\": \"\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LocationCode\": \"\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Surface\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"NbSleepingPlace\": null,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"NbBedRoom\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"WithSanitary\": null,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"WithTerrace\": false,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"StartDateTariff\": \"2026-10-09T10:53:43+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"EndDateTariff\": \"2026-10-09T10:53:43+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LastUpdate\": \"2026-10-09T10:53:43+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"IsActive\": true,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LocationDetail\": \"\"</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Reference\": \"XXXXXXXXXXSXTXXXXX\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Name\": \"\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Year\": 2027,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Quantity\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"PmsProductId\": \"-2\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ShProductId\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"TypeCode\": \"AU\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ModelCode\": \"XX\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"PitchTypeCode\": \"LOC\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ProductRangeCode\": \"\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LocationCode\": \"\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Surface\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"NbSleepingPlace\": null,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"NbBedRoom\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"WithSanitary\": null,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"WithTerrace\": false,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"StartDateTariff\": \"2026-10-09T10:53:43+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"EndDateTariff\": \"2026-10-09T10:53:43+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LastUpdate\": \"2026-10-09T10:53:43+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"IsActive\": true,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LocationDetail\": \"\"</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div><div>&nbsp; &nbsp; &nbsp; &nbsp; ]</div><div>&nbsp; &nbsp; &nbsp; }</div><div>&nbsp; &nbsp; }</div><div>&nbsp; },</div><div>&nbsp; \"headers\": null</div><div>}</div><div><br></div><div><u><b>Réponse à la requête :&nbsp;</b></u></div><div><br></div><div>{</div><div>&nbsp; \"message\": \"SetSeasonProducts: Product range code '05' does not exists for product [3] Mobil Home Vue sur Mer Confort 4 pers 2 chambres. Please use the web service GetProductRange to get available codes. ---&gt; SetSeasonProducts: Product range code '05' does not exists for product [3] Mobil Home Vue sur Mer Confort 4 pers 2 chambres. Please use the web service GetProductRange to get available codes.\",</div><div>&nbsp; \"code\": \"CrmException\"</div><div>}</div><div><br></div><div>Vu avec Mailys / En effet, si les gammes ne sont pas crées côté SH cela génère cette erreur.</div><div>Le soucis c'est que les gammes ne sont pas aussi facilement paramétrable côté SH.</div><div>Actuellement, chez SH il existe que un Getproductrange / Il faudrait donc que SH créer un SetProductRange pour qu'ensuite, ce qui est crée dans NAXI soit envoyé à SH et que cela ne bloque plus l'envoi des séjours vers le CRM</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -4721,7 +6333,7 @@
     {
       "id": "3ce8db15-623a-819b-ac3c-f582230f3469",
       "identifiant": "INA-819",
-      "titre": "Onglet \"Cautions\"",
+      "titre": "Onglet \"Cautions\" de la fiche client",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -4752,12 +6364,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Cautions-3ce8db15623a819bac3cf582230f3469"
+      "url": "https://app.notion.com/p/Onglet-Cautions-de-la-fiche-client-3ce8db15623a819bac3cf582230f3469"
     },
     {
       "id": "3ce8db15-623a-81b4-b1d4-fa28f5b719bb",
       "identifiant": "INA-818",
-      "titre": "Onglet \"Cautions\"",
+      "titre": "Onglet \"Cautions\" de la fiche client",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -4788,12 +6400,12 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Cautions-3ce8db15623a81b4b1d4fa28f5b719bb"
+      "url": "https://app.notion.com/p/Onglet-Cautions-de-la-fiche-client-3ce8db15623a81b4b1d4fa28f5b719bb"
     },
     {
       "id": "3ce8db15-623a-8132-a870-d7b97b145469",
       "identifiant": "INA-816",
-      "titre": "Onglet \"Cautions\"",
+      "titre": "Onglet \"Cautions\" de la fiche client",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -4824,7 +6436,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Cautions-3ce8db15623a8132a870d7b97b145469"
+      "url": "https://app.notion.com/p/Onglet-Cautions-de-la-fiche-client-3ce8db15623a8132a870d7b97b145469"
     },
     {
       "id": "3ce8db15-623a-8192-addd-cbdef2ed86e6",
@@ -10781,7 +12393,7 @@
     {
       "id": "3b28db15-623a-812d-b534-d32ed2633bda",
       "identifiant": "INA-589",
-      "titre": "Onglet \"Financier\"",
+      "titre": "Onglet \"Paiements\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -10810,7 +12422,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Financier-3b28db15623a812db534d32ed2633bda"
+      "url": "https://app.notion.com/p/Onglet-Paiements-3b28db15623a812db534d32ed2633bda"
     },
     {
       "id": "3b28db15-623a-811e-8acc-f6beedf02a3d",
@@ -11413,7 +13025,7 @@
     {
       "id": "3b28db15-623a-81d6-93d9-c906e8a9e3e6",
       "identifiant": "INA-565",
-      "titre": "Onglet \"Financier\"",
+      "titre": "Onglet \"Paiements\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -11442,7 +13054,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Financier-3b28db15623a81d693d9c906e8a9e3e6"
+      "url": "https://app.notion.com/p/Onglet-Paiements-3b28db15623a81d693d9c906e8a9e3e6"
     },
     {
       "id": "3b28db15-623a-817c-9288-c90b97263fc4",
@@ -11913,7 +13525,7 @@
     {
       "id": "3b28db15-623a-817e-9da7-e37bc8384e1c",
       "identifiant": "INA-549",
-      "titre": "Onglet \"Financier\"",
+      "titre": "Onglet \"Paiements\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -11942,7 +13554,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Financier-3b28db15623a817e9da7e37bc8384e1c"
+      "url": "https://app.notion.com/p/Onglet-Paiements-3b28db15623a817e9da7e37bc8384e1c"
     },
     {
       "id": "3b18db15-623a-81a8-8db7-cbfee2883514",
@@ -21286,7 +22898,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Le Domaine de la Bergerie a la passerelle avec SWIKLY d’un côté et AnimLive / One Check de l’autre côté. \n\nCe camping jusqu’à maintenant crée un supplément hors séjour à chaque fois que l’un de ses résidents séjourne au camping (taxe de séjour + ménage). Jusqu’à l’année dernière, pas de soucis puisque Anim Live &amp; OneCheck récupérait les données depuis NAXI via une extraction : donc ils récupéraient les séjours + les suppléments hors séjours.\n\nProblème : cette année AnimLive et Onecheck arrête la passerelle directe avec NAXI et passe par le SDH. Or le SDH ne récupère pas les suppléments hors séjours.\n\nDonc le camping doit créer désormais des séjours pour les résidents (afin que onecheck récupère les ménages à faire). Or, en réalisant cela, cela génère un problème du côté de SWIKLY car les résidents reçoivent le mail de caution.\n\nLa cliente ne souhaite pas duppliquer toutes ses catégories d’hébergements pour exclure les résidents de SWIKLY",
+      "explication": "Le Domaine de la Bergerie a la passerelle avec SWIKLY d’un côté et AnimLive / One Check de l’autre côté. \n\nCe camping jusqu’à maintenant crée un supplément hors séjour à chaque fois que l’un de ses résidents séjourne au camping (taxe de séjour + ménage). Jusqu’à l’année dernière, pas de soucis puisque Anim Live &amp; OneCheck récupérait les données depuis NAXI via une extraction : donc ils récupéraient les séjours + les suppléments hors séjours.\n\nProblème : cette année AnimLive et Onecheck arrête la passerelle directe avec NAXI et passe par le SDH. Or le SDH ne récupère pas les suppléments hors séjours.&nbsp;<div>&nbsp;Donc le camping doit créer désormais des séjours pour les résidents (afin que onecheck récupère les ménages à faire).&nbsp;<div><br></div><div>Or, en réalisant cela, cela génère un problème du côté de SWIKLY car les résidents reçoivent le mail de caution.\n\nLa cliente ne souhaite pas duppliquer toutes ses catégories d’hébergements pour exclure les résidents de SWIKLY</div></div>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -25229,7 +26841,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "• Mise en place en méthode dynamique, similaire au fonctionnement FLEX. \n• Ajout dans le commentaire du montant de la différence tarifaire. \n• Ce message devra être toujours visible, y compris en cas d’erreur. \n• Envoi du commentaire à CTV dès que possible dans le planning de dev CTV (estimation mars). ",
+      "explication": "<ul><li>Mise en place en méthode dynamique, similaire au fonctionnement FLEX.</li><li>Ajout dans le commentaire du montant de la différence tarifaire.&nbsp;</li><li>Ce message devra être toujours visible, y compris en cas d’erreur.&nbsp;</li><li>Envoi du commentaire à CTV dès que possible dans le planning de dev CTV (estimation mars). </li></ul>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -42509,7 +44121,7 @@
     ]
   },
   "counts": {
-    "classique": 743,
+    "classique": 788,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
