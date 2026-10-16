@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-10-16T05:00:16.471Z",
+  "generatedAt": "2026-10-16T09:31:32.152Z",
   "classique": [
+    {
+      "id": "3fb8db15-623a-81a7-b1d3-ceab4d5eae50",
+      "identifiant": "INA-1005",
+      "titre": "RFE : ajout de l'adresse électronique",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-16T09:27:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Dans le cadre de la Réforme de la Facturation Électronique (RFE), l'adresse électronique est un identifiant technique structuré qui commence obligatoirement par le numéro SIREN de l'entreprise. L'administration accepte 4 formats officiels de lignes d'adressage pour s'adapter à l'organisation de chaque structure.&nbsp;<div><br></div><div>Afin de répondre aux futurs besoin de nos clients il va falloir adapter cette adresse :&nbsp;</div><div><br></div><div>4 formats d'adresse électronqiues sont possible :&nbsp;</div><div><br></div><div>Format SIREN seul =&gt; géré dans NAXI. Il s'agit du format le plus courant utilisé par les TPE /PME</div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/RFE-ajout-de-l-adresse-lectronique-3fb8db15623a81a7b1d3ceab4d5eae50"
+    },
     {
       "id": "3fa8db15-623a-8109-83b5-c9b98362742b",
       "identifiant": "INA-1004",
@@ -1761,7 +1793,7 @@
       ],
       "client": "",
       "dateCreation": "2026-10-13T09:44:00.000Z",
-      "estimBack": 0,
+      "estimBack": 3,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -44121,7 +44153,7 @@
     ]
   },
   "counts": {
-    "classique": 788,
+    "classique": 789,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
