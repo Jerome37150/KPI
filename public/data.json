@@ -1,10 +1,74 @@
 {
-  "generatedAt": "2026-10-16T09:31:32.152Z",
+  "generatedAt": "2026-10-16T14:13:31.137Z",
   "classique": [
+    {
+      "id": "3fb8db15-623a-816a-bc3a-efe34dce0a6f",
+      "identifiant": "INA-1007",
+      "titre": "Paramétrage de l'adresse Electronique dans les mentions légales",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-16T13:28:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Entant que gérant de camping je souhaite pouvoir paramétrer mon adresse electronique&nbsp; afin d'acheminer automatiquement la facture électronique vers la bonne plateforme de réception et le bon service de l'entreprise.",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Param-trage-de-l-adresse-Electronique-dans-les-mentions-l-gales-3fb8db15623a816abc3aefe34dce0a6f"
+    },
+    {
+      "id": "3fb8db15-623a-81a4-bb89-de3eebc4e4ca",
+      "identifiant": "INA-1006",
+      "titre": "Nouvelle US",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-16T13:27:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Nouvelle-US-3fb8db15623a81a4bb89de3eebc4e4ca"
+    },
     {
       "id": "3fb8db15-623a-81a7-b1d3-ceab4d5eae50",
       "identifiant": "INA-1005",
-      "titre": "RFE : ajout de l'adresse électronique",
+      "titre": "Paramétrage de l'adresse électronique sur la fiche client",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
@@ -23,7 +87,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Dans le cadre de la Réforme de la Facturation Électronique (RFE), l'adresse électronique est un identifiant technique structuré qui commence obligatoirement par le numéro SIREN de l'entreprise. L'administration accepte 4 formats officiels de lignes d'adressage pour s'adapter à l'organisation de chaque structure.&nbsp;<div><br></div><div>Afin de répondre aux futurs besoin de nos clients il va falloir adapter cette adresse :&nbsp;</div><div><br></div><div>4 formats d'adresse électronqiues sont possible :&nbsp;</div><div><br></div><div>Format SIREN seul =&gt; géré dans NAXI. Il s'agit du format le plus courant utilisé par les TPE /PME</div><div><br></div>",
+      "explication": "Entant que gérant de camping je souhaite pouvoir paramétrer une adresse electronique sur la fiche du client professionnel afin d'acheminer automatiquement la facture électronique vers la bonne plateforme de réception et le bon service de l'entreprise.",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -31,7 +95,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/RFE-ajout-de-l-adresse-lectronique-3fb8db15623a81a7b1d3ceab4d5eae50"
+      "url": "https://app.notion.com/p/Param-trage-de-l-adresse-lectronique-sur-la-fiche-client-3fb8db15623a81a7b1d3ceab4d5eae50"
     },
     {
       "id": "3fa8db15-623a-8109-83b5-c9b98362742b",
@@ -44153,7 +44217,7 @@
     ]
   },
   "counts": {
-    "classique": 789,
+    "classique": 791,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
