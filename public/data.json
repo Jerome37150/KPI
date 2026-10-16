@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T14:13:31.137Z",
+  "generatedAt": "2026-10-16T18:01:54.083Z",
   "classique": [
     {
       "id": "3fb8db15-623a-816a-bc3a-efe34dce0a6f",
@@ -6342,7 +6342,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et les traitements qui renvoient les prestations d'un client par saison, avec leurs soldes, leur statut, leur état de facturation et les actions autorisées sur chacune, qui calculent les totaux du compte et le compteur de l'onglet, et qui fournissent le PDF des factures et le paramétrage Naxi Commerce du camping.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -6378,7 +6378,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de l'onglet Prestations de la fiche client : titre et tuiles de totaux, bouton « + Nouvelle prestation » et son menu, onglets Saison en cours et Saisons passées, tableau des prestations avec ses colonnes, tris, indicateurs de statut et de facturation, menus ⋮ selon le type de prestation, sélection multiple avec les boutons « Facturer (N) » et « Encaisser (N) », pagination et pied de tableau.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
