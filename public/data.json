@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-10-19T13:42:26.230Z",
+  "generatedAt": "2026-10-19T19:28:33.474Z",
   "classique": [
+    {
+      "id": "3fe8db15-623a-8179-948d-e3b746974306",
+      "identifiant": "INA-1010",
+      "titre": "Template : Erreur sur la ligne \"Montant de ce séjour\" si séjour TO avec une remise manuelle",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-19T18:43:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "La variable affichant le \"montant de ce séjour\" sur les Template est fausse lorsque :&nbsp;<div><br></div><div>1. S'assurer d'avoir des templates configurées dans le menu Paramètres &gt; Courriers, Emails (confirmation de résa ou option)&nbsp;</div><div>2. S'assurer d'avoir une fiche client de type TO où : 1/ Pas de commission 2/ Tout est reglé par le séjournant&nbsp;</div><div>3. Sur une fiche client, créer un séjour et l'associer au TO crée précédemment</div><div>4. Sur ce séjour, affecter une remise (en montant ou en % qu'importe le bug se produit)</div><div>5. Envoyer un email relatif à ce séjour de type template&nbsp;</div><div>6. Si on visualise le contenu, on se rend compte que la ligne \"Montant de ce séjour\" est fausse, elle ne tient pas compte de la remise :&nbsp;<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/5dc16936eb0d41318be0840f582e5a56\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>C'est la variable [MTBASEPROMO] qui est erronée.<br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6d825ccb1c3a4e42b3fbb1cc2591e29d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Reproduit sur démo Angélique en version 19-01 HF</b></div><div>Non reproduit si le séjour bénéficie d'une remise automatique.</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Template-Erreur-sur-la-ligne-Montant-de-ce-s-jour-si-s-jour-TO-avec-une-remise-manuelle-3fe8db15623a8179948de3b746974306"
+    },
+    {
+      "id": "3fe8db15-623a-818d-ad9e-c86344405eb0",
+      "identifiant": "INA-1009",
+      "titre": "Mettre en place la pipeline de déploiement pour le projet nax7 sur une url de produits",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Nax7 PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-19T13:42:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mettre-en-place-la-pipeline-de-d-ploiement-pour-le-projet-nax7-sur-une-url-de-produits-3fe8db15623a818dad9ec86344405eb0"
+    },
     {
       "id": "3fe8db15-623a-816b-a460-db1d4c474e58",
       "identifiant": "INA-1008",
@@ -1832,7 +1900,9 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -1849,7 +1919,9 @@
       "pointsBlocage": "",
       "explication": "problème de tracking au niveau de Google Analytics depuis des années, elle n'a jamais eu de retour de notre part, elle a trouvé d'où vient le problème<div>il y a quelque chose à faire de notre côté</div><div><br></div><div><b><u>Email envoyé par le client :&nbsp;</u></b></div><div><b><u><br></u></b></div><div><i>Bonjour,</i></div><div><i><br></i></div><div><i>Dans le cadre de la préparation de notre stratégie d'acquisition digitale 2027, nous avons réalisé plusieurs vérifications du suivi de nos réservations dans Google Analytics 4.</i></div><div><i><br></i></div><div><i>Nos analyses ont révélé une anomalie importante : plus de 90 % des achats et des revenus enregistrés dans GA4 sont attribués à notre propre site internet (laplainetonique.com) comme source référente.</i></div><div><i><br></i></div><div><i>Des vérifications complémentaires ont permis de constater que :</i></div><div><i><br></i></div><div><i>•\tNotre site internet et Naxi Résa transmettent bien des données à la même propriété GA4 (G-4QWJ23C9WR).</i></div><div><i>•\tLes événements purchase et les revenus sont enregistrés dans GA4.</i></div><div><i>•\tLes identifiants clients GA4 (cid) sont différents entre notre site et Naxi Résa lors d'un même parcours de réservation.</i></div><div><i>•\tLe paramètre _gl, nécessaire à la transmission des informations du suivi multidomaine, n'a pas été observé lors du passage vers Naxi Résa.</i></div><div><i>Ces éléments semblent indiquer une rupture du suivi entre notre site internet et votre moteur de réservation.</i></div><div><br></div><div>Pourriez-vous nous préciser :</div><div><br></div><div>1.\tSi Naxi Résa prend en charge le suivi multidomaine GA4 et la conservation de l'identifiant client lors du passage depuis notre site internet.</div><div><br></div><div>2.\tSi une configuration particulière est nécessaire de votre côté ou du nôtre pour assurer cette continuité.</div><div><br></div><div>3.\tSi vous pouvez vérifier les paramètres actuellement en place et, le cas échéant, intervenir pour corriger les anomalies identifiées.</div><div><br></div><div>4.\tSi la transmission des événements purchase, des montants et des identifiants de transaction est correctement configurée.</div><div><br></div><div><br></div><div>Nous disposons de rapports détaillant les vérifications réalisées et pouvons vous les transmettre si nécessaire.</div><div><br></div><div>Je vous remercie par avance pour votre retour.</div><div><br></div><div>Bien cordialement,</div><div><br></div><div>Laëtitia BOYAT&nbsp;</div><div>Chargée de mission marketing et communication</div><div>Camping**** et Base de loisirs La Plaine Tonique</div><div>599 Route d'Etrez, 01340 Malafretaz</div><div>www.laplainetonique.com</div><div><br></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5818,7 +5890,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour enregistrer un règlement (paiement ou remboursement) sur une ou plusieurs prestations du client, le répartir automatiquement selon leur reste à payer, recalculer les restes à payer et les états qui en dépendent, et indiquer pour chaque prestation si elle a un reste à payer ou quelque chose à facturer.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -5854,7 +5926,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'action « Encaisser » de la vue séjour et de l'onglet Prestations : entrées de menu selon le reste à payer, case à cocher sur toutes les prestations avec les boutons « Encaisser (N) » et « Facturer (N) » limités aux lignes concernées, et fenêtre « Nouveau règlement » pré-remplie (type, date, moyen de paiement, montant, référence, statut Manque / Soldé / Trop perçu).",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -44265,7 +44337,7 @@
     ]
   },
   "counts": {
-    "classique": 792,
+    "classique": 794,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
