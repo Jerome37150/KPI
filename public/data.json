@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-10-19T06:22:47.100Z",
+  "generatedAt": "2026-10-19T13:42:26.230Z",
   "classique": [
+    {
+      "id": "3fe8db15-623a-816b-a460-db1d4c474e58",
+      "identifiant": "INA-1008",
+      "titre": "Autoriser un capital à 0.00€ dans les mentions légales",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-19T10:01:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Depuis passage en 18.37, certains campings ne peuvent plus se connecter à Pennylane.<div><br></div><div>Visiblement, les clients étant sous le statut juridique \"Entreprise individuelle\" avait coché la case \"Non asujetti à ces trois mentions\" car ils n'ont pas de capital.</div><div><br></div><div>NAXI n'autorise pas la saisie d'un capital à 0.00e raison pour laquelle cette case avait été cochée à l'époque.</div><div><br></div><div><b><u>Il faudrait donc autoriser la saisie d'un capital à 0.00€ pour ce type d'entreprise car ce ne sont pas des campings municipaux et ils ont besoin de se connecter à Pennylane.</u></b><br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/cf2e985aa02d41219b9121670306c9b3\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>-&gt; En attendant le correctif, j'ai modifié le capital en base de données pour le forcer à 0.00€ afin que le camping puisse tout de même se brancher à Pennylane<br><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Autoriser-un-capital-0-00-dans-les-mentions-l-gales-3fe8db15623a816ba460db1d4c474e58"
+    },
     {
       "id": "3fb8db15-623a-816a-bc3a-efe34dce0a6f",
       "identifiant": "INA-1007",
@@ -8,7 +40,9 @@
       "classification": null,
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -23,9 +57,11 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Entant que gérant de camping je souhaite pouvoir paramétrer mon adresse electronique&nbsp; afin d'acheminer automatiquement la facture électronique vers la bonne plateforme de réception et le bon service de l'entreprise.",
+      "explication": "Entant que gérant de camping je souhaite pouvoir paramétrer mon adresse électronique afin d'acheminer automatiquement la facture électronique vers la bonne plateforme de réception et le bon service de l'entreprise.",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -72,7 +108,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -89,7 +127,9 @@
       "pointsBlocage": "",
       "explication": "Entant que gérant de camping je souhaite pouvoir paramétrer une adresse electronique sur la fiche du client professionnel afin d'acheminer automatiquement la facture électronique vers la bonne plateforme de réception et le bon service de l'entreprise.",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1017,7 +1057,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'action « Visualiser le Bon de séjour » du menu « + Actions » de la vue séjour : entrée de menu proposée pour tous les séjours, y compris annulés, et affichage du bon de séjour existant en PDF dans un nouvel onglet du navigateur.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -1053,7 +1093,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place l'endpoint qui renvoie le bon de séjour enregistré d'un séjour, y compris annulé, pour l'afficher en PDF, et le créer s'il n'existe pas encore.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -1485,7 +1525,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer la fenêtre « Changer le statut » de la vue séjour : ouverture depuis « + Actions », choix du statut parmi Option, Réservation, Présent et Parti avec le statut actuel présélectionné, saisie des heures d'arrivée et de départ, bouton « Enregistrer » actif seulement en cas de changement, et mise à jour immédiate des couleurs du statut partout où le séjour apparaît.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -1521,7 +1561,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place l'endpoint et les traitements nécessaires pour enregistrer le changement manuel du statut d'un séjour (Option, Réservation, Présent ou Parti) avec ses heures d'arrivée et de départ, refuser les cas interdits, et répercuter le nouveau statut sur les listes de séjours et de réservations et sur le planning.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -1648,7 +1688,9 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Réservation"
@@ -1665,7 +1707,9 @@
       "pointsBlocage": "",
       "explication": "<div><b><u>Email reçu sur la boite developpement&nbsp;</u></b></div><div><br></div><div><i>✏️Personne à contacter si besoin : ads@agence-beecom.fr&nbsp; /&nbsp; jm@agence-beecom.fr</i></div><div><i><br></i></div><div><b><font color=\"#16a34a\">Compte web du camping : senyan</font></b></div><div><br></div>Bonjour,<div>&nbsp;</div><div>Pour notre client commun - Village Tropical Sen Yan à Mézos - nous souhaitons mettre en place le suivi Google Ads des</div><div>réservations réalisées via votre moteur : https://naxiresav2.inaxel.com/etape1-criteres.php?compte=senyan</div><div>&nbsp;</div><div>Voici les éléments à intégrer :</div><div>• Identifiant de conversion (Conversion ID) :</div><div>11429921325</div><div><br></div><div>• Libellé de conversion (Conversion Label) :</div><div>4152CJnBkvMcEK2Em8oq</div><div>&nbsp;</div><div>Balise globale</div><div>À charger sur les pages du tunnel de réservation :</div><div>&nbsp;</div><div>&lt;!-- Google tag (gtag.js) --&gt;</div><div>&lt;script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-11429921325\"&gt;&lt;/script&gt;</div><div>&lt;script&gt;</div><div>&nbsp;window.dataLayer = window.dataLayer || [];</div><div>&nbsp;function gtag(){dataLayer.push(arguments);}</div><div>&nbsp;gtag('js', new Date());</div><div>&nbsp;</div><div>&nbsp;gtag('config', 'AW-11429921325');</div><div>&lt;/script&gt;</div><div>&nbsp;</div><div>&nbsp;</div><div>Événement de conversion</div><div>À déclencher uniquement après une réservation confirmée :</div><div>&nbsp;</div><div>&lt;!-- Event snippet for Réservation camping via INAXEL --&gt;</div><div>&lt;script&gt;</div><div>&nbsp;gtag('event', 'conversion', {</div><div>&nbsp; &nbsp;'send_to': 'AW-11429921325/4152CJnBkvMcEK2Em8oq',</div><div>&nbsp; &nbsp;'value': {{TOTAL_TTC}},</div><div>&nbsp; &nbsp;'currency': 'EUR',</div><div>&nbsp; &nbsp;'transaction_id': '{{BOOKING_ID}}'</div><div>&nbsp;});</div><div>&lt;/script&gt;</div><div>&nbsp;</div><div>&nbsp;</div><div>Merci de charger la balise globale sur les pages du tunnel et de déclencher l’événement uniquement après</div><div>confirmation d’une réservation. Si possible, merci de renseigner dynamiquement le montant réel et l’identifiant</div><div>unique de réservation.</div><div>&nbsp;</div><div>Je vous joins également le document avec l'ensemble des informations si nécessaire : https://docs.google.com/document/d/1RxhGZQ52nBWonJyIy1tAKuepeCp1ktUF/edit?usp=sharing&amp;ouid=103924696103621485792&amp;rtpof=true&amp;sd=true</div><div>&nbsp;</div><div>Pouvez-vous nous confirmer la mise en place ainsi que le point de déclenchement et les valeurs transmises ?</div><div>&nbsp;</div><div>Merci d’avance, belle journée.</div><div><br></div><div><br></div><div><br></div><div>Bien à vous,</div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1680,7 +1724,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -1697,7 +1743,9 @@
       "pointsBlocage": "",
       "explication": "<div>RevenueConsulting nous a contacté afin de nous indiquer qu'ils ne reçoivent pas les fichiers paramétrés dans NAXI sur les saisons 2027.</div><div><br></div><div><i><b>Après analyse :&nbsp;</b></i></div><div><br></div><div>1. Avoir une saison 2027 sur laquelle la date de début d'exercice comptable est ultérieure à aujourd'hui (dans mon cas 01.01.2027)</div><div>2. Créer une extraction de liste</div><div>3. Configurer une automatisation de ce type :</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/b2d8ec55663e41b2a0b7a1ee03ed0d07\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>3. Si on ferme NAXI Export et qu'on le ré-ouvre, alors le traitement Auto ne s'affiche pas :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/b77eac53afe348fd95db5511fb2d3276\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Donc, le traitement ne s'exécute pas et donc revenue consulting ne reçoit jamais le fichier.</div><div><br></div><div><u><b>Dans le code</b></u> :&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f86af3b1cc624ffca23c97d16bafb28f\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>&nbsp;En réalité, les traitements s'affichent uniquement si l'exercice comptable est ouvert ce qui n'est pas logique.</div><div><br></div><div>J'ai modifié temporairement la date d'exercice pour tester et en effet, si la date d'exercice est inférieure ou égale ou aujourd'hui alors le traitement auto apparaît bien dans NAXI Export et les fichiers s'envoient bien sur le serveur FTP.</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1884,7 +1932,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -1901,7 +1951,9 @@
       "pointsBlocage": "",
       "explication": "L'affichage des stats à la demande est très long lorsque :&nbsp;<div><br></div><div>1. Etre sur une base de données en SQL</div><div>2. Se rendre dans le menu Stats &gt; Stats à la demande</div><div>3. Sélectionner les séjours de toute la saison par exemple</div><div>4. Décocher certains suppléments</div><div>5. Lancer la recherche à l'aide de la loupe bleue.</div><div><br></div><div><b><u>Résultat :&nbsp;</u></b></div><div><br></div><div>NAXI affiche la stats après environ 1 minute d'attente</div><div><br></div><div><u><b>Tests complémentaires</b></u> :</div><div><br></div><div>🟢 Si je décoche aucun filtre lié au supplément : la recherche s'affiche instantanément</div><div>🟢Si je met un filtre sur le type de client (par exemple je décoche le type de client : Résident) : la recherche s'affiche instantanément</div><div>🔴Le bug se produit si je décoche 1 supplément ou plsuieurs / Et ce sur tous les types (type location, camping ou vente réception)&nbsp;</div><div><br></div><div><u><b>Infos techniques :&nbsp;</b></u></div><div><br></div><div>J'ai pu récupéré la requête qui génère la lenteur :&nbsp;<br><br><i>SELECT `IDLIGCOM`,`lccodsoc`,`lccodexe`,`lcnumcom`,`lcnumsup`,`lcqte`,`lcpu`,`lclib`,`lcdeb`,`lcdatfac`,`lcmtfact`,`lcttc`,`lclig`,`lctyplig`,`lcfin`,`lcfacto`,`lctva`,`lccompte`,`lcautres`,`lcht`,`lcnatureope_id` FROM `ligcom` WHERE `lccodsoc`&gt;'ARMORIQ' OR `lccodsoc`='ARMORIQ' AND (`lccodexe`&gt;'2026' OR `lccodexe`='2026' AND (`lcnumcom`&gt;473 OR `lcnumcom`=473 AND (`lctyplig`&gt;'' OR `lctyplig`='' AND `lcnumsup`&gt;2 ))) ORDER BY 2 , 3 , 4 , 14 , 5 , 1 LIMIT 100</i></div><div><br></div><div>🚩-&gt; Il faut donc optimiser cette requête qui est le résultat d'une interprétation du moteur de Windev // A voir si en attendant une optimisation SQL, est ce qu'on ne ferait pas une règle supplémentaire sur ProxySQL</div><div><br></div><div><b>Reproduit sur base du camping Armorique en 18.35 SQL</b> (Ce camping n'a qu'une seule saison sur NAXI donc peu de volumétrie) / Reproduit également sur le camping Mas Fleuri 06 qui est sur notre Saas également en 18.37.</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3765,9 +3817,7 @@
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -3784,9 +3834,7 @@
       "pointsBlocage": "",
       "explication": "Mettre en place une CI/CD pour déployer le code des PO sur une branche de maquette et l'exposer sur internet",
       "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6090,7 +6138,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour charger les données du bandeau du séjour (identification, statut, emplacements, intermédiaire, montant, reste à payer, état de facturation), les compteurs et la visibilité des onglets du menu de gauche, les actions autorisées selon l'état du séjour, et l'enregistrement du passage en Présent ou Parti à la sortie du séjour.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -6126,7 +6174,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer la structure de la vue séjour : ouverture depuis la fiche client et les listes, bandeau du séjour (identification, cases de montants, bouton « + Actions » et son menu), menu de gauche en sous-catégories avec compteurs et mode réduit / agrandi, présentation d'un séjour annulé, et fermeture avec la proposition de passage en Présent ou Parti.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -44217,7 +44265,7 @@
     ]
   },
   "counts": {
-    "classique": 791,
+    "classique": 792,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
