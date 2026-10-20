@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-10-20T06:34:34.639Z",
+  "generatedAt": "2026-10-20T12:07:47.807Z",
   "classique": [
+    {
+      "id": "3ff8db15-623a-8132-ae1b-f651dd3cf4ed",
+      "identifiant": "INA-1011",
+      "titre": "Migration de NAXI API en Laravel 10",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-20T10:00:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Après avoir migré NAXI API en Laravel 8 en octobre novembre 2026, il faudrait migrer NAXI API en Laravel 10 pendant l'été 2027. Les taches à faire seront à définir",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Migration-de-NAXI-API-en-Laravel-10-3ff8db15623a8132ae1bf651dd3cf4ed"
+    },
     {
       "id": "3fe8db15-623a-8179-948d-e3b746974306",
       "identifiant": "INA-1010",
@@ -2528,7 +2560,7 @@
     {
       "id": "3ed8db15-623a-81e7-99cb-ceb9dedbac15",
       "identifiant": "INA-939",
-      "titre": "Migration API en version Laravel",
+      "titre": "Migration UserAccountAPI vers Laravel 13",
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": "Moyenne",
@@ -2547,7 +2579,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Migrer vers Laravel 13 est indispensable pour continuer à recevoir les correctifs de sécurité critiques (le support de Laravel 10 ayant pris fin), tout en profitant des gains de performance de PHP 8.3 et d'une structure de code allégée.",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -2555,7 +2587,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Migration-API-en-version-Laravel-3ed8db15623a81e799cbceb9dedbac15"
+      "url": "https://app.notion.com/p/Migration-UserAccountAPI-vers-Laravel-13-3ed8db15623a81e799cbceb9dedbac15"
     },
     {
       "id": "3ed8db15-623a-81d4-8038-d265fc432b34",
@@ -44337,7 +44369,7 @@
     ]
   },
   "counts": {
-    "classique": 794,
+    "classique": 795,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
