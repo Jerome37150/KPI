@@ -1,14 +1,124 @@
 {
-  "generatedAt": "2026-10-22T12:27:21.173Z",
+  "generatedAt": "2026-10-22T17:26:00.801Z",
   "classique": [
+    {
+      "id": "4018db15-623a-81be-a914-de9efaf6d00f",
+      "identifiant": "INA-1034",
+      "titre": "Mise à jour version PHP PaymentSecure",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T15:36:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-PaymentSecure-4018db15623a81bea914de9efaf6d00f"
+    },
+    {
+      "id": "4018db15-623a-81f8-9168-dc301851c85e",
+      "identifiant": "INA-1033",
+      "titre": "Mise à jour version PHP NotificationManager",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T15:35:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-NotificationManager-4018db15623a81f89168dc301851c85e"
+    },
+    {
+      "id": "4018db15-623a-8112-9b24-db4cf075bb83",
+      "identifiant": "INA-1032",
+      "titre": "Mise à jour version PHP InterventionAPI",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T12:29:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-InterventionAPI-4018db15623a81129b24db4cf075bb83"
+    },
     {
       "id": "4018db15-623a-81d4-a49a-db18b9cc2113",
       "identifiant": "INA-1031",
       "titre": "Mise à jour version PHP Ancien Nomad",
-      "classification": null,
+      "classification": "BUG STRUCTURANT",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -25,7 +135,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -37,10 +149,12 @@
       "id": "4018db15-623a-81c5-9ee7-e4690402f7c9",
       "identifiant": "INA-1030",
       "titre": "Mise à jour version PHP Espace Résident",
-      "classification": null,
+      "classification": "BUG STRUCTURANT",
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -57,7 +171,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -45053,7 +45169,7 @@
     ]
   },
   "counts": {
-    "classique": 815,
+    "classique": 818,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
