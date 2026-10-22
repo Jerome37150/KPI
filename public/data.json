@@ -1,6 +1,466 @@
 {
-  "generatedAt": "2026-10-22T06:43:49.179Z",
+  "generatedAt": "2026-10-22T12:27:21.173Z",
   "classique": [
+    {
+      "id": "4018db15-623a-81d4-a49a-db18b9cc2113",
+      "identifiant": "INA-1031",
+      "titre": "Mise à jour version PHP Ancien Nomad",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T09:08:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-Ancien-Nomad-4018db15623a81d4a49adb18b9cc2113"
+    },
+    {
+      "id": "4018db15-623a-81c5-9ee7-e4690402f7c9",
+      "identifiant": "INA-1030",
+      "titre": "Mise à jour version PHP Espace Résident",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T09:07:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-Espace-R-sident-4018db15623a81c59ee7e4690402f7c9"
+    },
+    {
+      "id": "4018db15-623a-8156-bdee-f1d8106b7429",
+      "identifiant": "INA-1029",
+      "titre": "Mise à jour version PHP SynchroAPI",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T08:39:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-SynchroAPI-4018db15623a8156bdeef1d8106b7429"
+    },
+    {
+      "id": "4018db15-623a-818e-bbb0-d1cada6a7bf2",
+      "identifiant": "INA-1028",
+      "titre": "Mise à jour version PHP NomadPremiumAPI",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T07:44:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-NomadPremiumAPI-4018db15623a818ebbb0d1cada6a7bf2"
+    },
+    {
+      "id": "4018db15-623a-81cb-af45-f555b48dee31",
+      "identifiant": "INA-1027",
+      "titre": "Mise à jour version PHP PartnerAPI",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T07:43:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-PartnerAPI-4018db15623a81cbaf45f555b48dee31"
+    },
+    {
+      "id": "4018db15-623a-81e3-8796-eba883cb8c34",
+      "identifiant": "INA-1026",
+      "titre": "Mise à jour version PHP UploadFileAPI",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T07:42:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-UploadFileAPI-4018db15623a81e38796eba883cb8c34"
+    },
+    {
+      "id": "4018db15-623a-817c-a861-daee37ba8435",
+      "identifiant": "INA-1025",
+      "titre": "Mise à jour version PHP UserAccountAPI",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T07:42:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-UserAccountAPI-4018db15623a817ca861daee37ba8435"
+    },
+    {
+      "id": "4018db15-623a-8133-90ee-f8f47bf904c9",
+      "identifiant": "INA-1024",
+      "titre": "Mise à jour version PHP CTVCRMAPI",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T07:39:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-CTVCRMAPI-4018db15623a813390eef8f47bf904c9"
+    },
+    {
+      "id": "4018db15-623a-8171-9644-f4d48fc9b84b",
+      "identifiant": "INA-1023",
+      "titre": "Mise à jour version PHP SecureHolidayAPI",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T07:37:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-SecureHolidayAPI-4018db15623a81719644f4d48fc9b84b"
+    },
+    {
+      "id": "4018db15-623a-8123-880c-e42d881f3df1",
+      "identifiant": "INA-1022",
+      "titre": "Mise à jour version PHP NAXIAPI",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T07:31:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-NAXIAPI-4018db15623a8123880ce42d881f3df1"
+    },
+    {
+      "id": "4018db15-623a-8103-a568-c24ecf30934f",
+      "identifiant": "INA-1021",
+      "titre": "Mise à jour version PHP SalesAPI",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T07:23:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-SalesAPI-4018db15623a8103a568c24ecf30934f"
+    },
+    {
+      "id": "4018db15-623a-8163-aebb-d19a1269f405",
+      "identifiant": "INA-1020",
+      "titre": "Mise à jour version PHP SynchroAccesControlAPI",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T07:23:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-SynchroAccesControlAPI-4018db15623a8163aebbd19a1269f405"
+    },
+    {
+      "id": "4018db15-623a-81da-a30b-ec0bb2aa601b",
+      "identifiant": "INA-1019",
+      "titre": "Mise à jour version PHP SystemAPI",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-22T07:22:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-PHP-SystemAPI-4018db15623a81daa30bec0bb2aa601b"
+    },
     {
       "id": "3ff8db15-623a-81bb-b811-c7146622283d",
       "identifiant": "INA-1018",
@@ -44593,7 +45053,7 @@
     ]
   },
   "counts": {
-    "classique": 802,
+    "classique": 815,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
