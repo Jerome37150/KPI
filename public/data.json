@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T12:04:20.856Z",
+  "generatedAt": "2026-10-23T17:00:41.863Z",
   "classique": [
     {
       "id": "4018db15-623a-81be-a914-de9efaf6d00f",
@@ -581,7 +581,7 @@
       "id": "3ff8db15-623a-81bb-b811-c7146622283d",
       "identifiant": "INA-1018",
       "titre": "Migrer NotificationManager vers NomadPremiumAPI",
-      "classification": null,
+      "classification": "STACK TECH",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
@@ -613,7 +613,7 @@
       "id": "3ff8db15-623a-812f-828a-fbaa4bb4a9d4",
       "identifiant": "INA-1017",
       "titre": "Migration SynchroAccessControlAPI en Laravel 13",
-      "classification": null,
+      "classification": "STACK TECH",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
@@ -645,7 +645,7 @@
       "id": "3ff8db15-623a-810e-8a31-e45e6800ef13",
       "identifiant": "INA-1016",
       "titre": "Migration PartnerAPI en Laravel 13",
-      "classification": null,
+      "classification": "STACK TECH",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
@@ -677,7 +677,7 @@
       "id": "3ff8db15-623a-8101-adff-f500d11bd23f",
       "identifiant": "INA-1015",
       "titre": "Migration SecureHolidayAPI en Laravel 13",
-      "classification": null,
+      "classification": "STACK TECH",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
@@ -709,7 +709,7 @@
       "id": "3ff8db15-623a-81b2-99d4-fb86c44ca6a8",
       "identifiant": "INA-1014",
       "titre": "Migration CtvCrmAPI en Laravel 13",
-      "classification": null,
+      "classification": "STACK TECH",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
@@ -741,7 +741,7 @@
       "id": "3ff8db15-623a-8112-ac20-def859422eb1",
       "identifiant": "INA-1013",
       "titre": "Migration UploadFileAPI en Laravel 13",
-      "classification": null,
+      "classification": "STACK TECH",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
@@ -1337,7 +1337,7 @@
       ],
       "client": "",
       "dateCreation": "2026-10-15T15:20:00.000Z",
-      "estimBack": 0,
+      "estimBack": 9,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -1769,7 +1769,7 @@
       ],
       "client": "",
       "dateCreation": "2026-10-15T15:14:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -1877,7 +1877,7 @@
       ],
       "client": "",
       "dateCreation": "2026-10-15T15:12:00.000Z",
-      "estimBack": 0,
+      "estimBack": 2,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -3681,7 +3681,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -3717,7 +3717,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4934,7 +4934,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -4953,7 +4953,7 @@
       "explication": "Suite à l'échange avec notre partenaire Fülle ( abbil/force7) , nous allons nous charger d'envoyer le e-reporting pour les ventes en compte Naxi Commerce.&nbsp;<div>Dans NAXI la possibilité de mettre en compte des ventes est disponible avec les specifs&nbsp;<b>NAXICOMMERCE + NAXICASHLESS</b></div><div>Une ventes en compte c'est quoi ?</div><div>Sur le logiciel de caisse, l'utilisateur peut,&nbsp; au moment du paiement, faire un transfert PMS.</div><div>Le client final peut :&nbsp;</div><div>- payer l'intégralité des ses ventes à la fin du séjour.</div><div>- Créditer un compte qui sera débité à chaque passage en caisse.&nbsp;</div><div><br></div><div><b>Les ventes mises en compte sont toujours rattachées à un numéro client</b></div><div><b><br></b></div><div>Le client final, peut créditer son compte par deux moyens :</div><div>- au comptoir, avec n'importe quel mode de paiement =&gt; il s'agit alors d'un paiement classique dans NAXI (TRANSFI)</div><div>- depuis son espace client =&gt; ce n'est pas un paiement comme les autres,&nbsp; il ne sert qu'aux ventes NAXICOMMERCE (TRANS_NV)</div>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9682,7 +9682,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -9701,7 +9701,7 @@
       "explication": "<div><div>Un séjour camping génère plusieurs encaissements échelonnés avant la facture finale : acompte à la réservation, solde avant l'arrivée, taxe de séjour à l'arrivée, consommations diverses pendant le séjour, règlement du solde restant au départ (facture éditée à ce moment-là). Ces ventes sont rattachées à un dossier client identifié dans le PMS, mais restent des ventes B2C au sens fiscal : le client final est un particulier, jamais un professionnel assujetti.</div></div><div><br></div><div>L'hébergement étant une prestation de services, la TVA est exigible à l'encaissement : chaque paiement (acompte, solde, règlement final) doit donc être transmis à Pennylane comme un événement de paiement daté de l'encaissement réel, indépendamment de la date d'émission de la facture finale. La facture finale génère, elle, un événement de transaction agrégée. La taxe de séjour, hors champ TVA, est exclue de ces flux.</div>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9718,7 +9718,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -9737,7 +9737,7 @@
       "explication": "<div>Le camping réalise des ventes qui ne sont rattachées à aucun dossier client dans le PMS : boutique, bar/snack, prestations ponctuelles payées sur place (accès piscine à la journée, laverie, location de matériel...). Ces ventes donnent lieu à un simple ticket de caisse, jamais à une facture nominative, et concernent aussi bien des campeurs en séjour que des visiteurs de passage non identifiés.</div><div>Ces ventes entrent dans le champ de l'e-reporting B2C : elles n'ont pas besoin d'être transmises individuellement, mais doivent être agrégées par jour de vente et ventilées par taux de TVA, sans aucune donnée d'identification client, avant transmission à Pennylane.</div>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
