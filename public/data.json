@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-10-26T05:02:22.509Z",
+  "generatedAt": "2026-10-26T11:01:00.792Z",
   "classique": [
+    {
+      "id": "4058db15-623a-814e-8ef8-d4f409a494a3",
+      "identifiant": "INA-1036",
+      "titre": "Remettre les traces de NAXI Gestion en mode DEBUG",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-26T10:38:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Remettre-les-traces-de-NAXI-Gestion-en-mode-DEBUG-4058db15623a814e8ef8d4f409a494a3"
+    },
+    {
+      "id": "4058db15-623a-817c-b8c9-e9be2d109c4c",
+      "identifiant": "INA-1035",
+      "titre": "Différents correctifs suite mise à jour de PHP",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-26T07:45:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "- Certains camping ont le message d'erreur à l'ouverture de NAXI, de la récupération de la configuration du compte client -&gt; redémarrage de SystemAPI a fait en sorte que plus de message d'erreur mais une optimisation est à faire car saturation trop fréquente (à voir avec Ludwig)<div><br></div><div>- Certains ont de réservations non redescendus -&gt; paiement PAYZEN non validé (on a pas de retour de paiement), les résas sont sur nos serveur mais avec un SogOK à 0</div><div><br></div><div>- Certains ont des soucis avec NAXI Réservation (peut être lié au soucis de Payzen)</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Diff-rents-correctifs-suite-mise-jour-de-PHP-4058db15623a817cb8c9e9be2d109c4c"
+    },
     {
       "id": "4018db15-623a-81be-a914-de9efaf6d00f",
       "identifiant": "INA-1034",
@@ -25,7 +97,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "- Une partie a été livrée mais il manque la partie de Payline",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -116,9 +188,7 @@
       "classification": "BUG STRUCTURANT",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "OCTOBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -135,9 +205,7 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1337,7 +1405,7 @@
       ],
       "client": "",
       "dateCreation": "2026-10-15T15:20:00.000Z",
-      "estimBack": 9,
+      "estimBack": 90,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -45169,7 +45237,7 @@
     ]
   },
   "counts": {
-    "classique": 818,
+    "classique": 820,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
