@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-10-27T05:45:40.492Z",
+  "generatedAt": "2026-10-27T11:09:14.772Z",
   "classique": [
+    {
+      "id": "4068db15-623a-8158-a4db-fc4ff9c1a042",
+      "identifiant": "INA-1038",
+      "titre": "Upgrade ressource SystemAPI",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-27T09:39:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Faire un upgrade des ressources sur filebeat car beaucoup de log en envoie",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Upgrade-ressource-SystemAPI-4068db15623a8158a4dbfc4ff9c1a042"
+    },
+    {
+      "id": "4068db15-623a-8167-8ff9-d58cf21269c7",
+      "identifiant": "INA-1037",
+      "titre": "Erreur commission TO",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-27T09:14:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite à l'US INA-904, nous avons décidé de mettre le cas n°2 dans une US isolé pour la retrouver&nbsp;<br><br>Voici le problème:&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e239af1f997d42b8b87244ad397c7172\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div>Je peux ensuite facturer sans erreur car lors de la facturation, le même calcul est effectué à savoir 8% du montant de base + suppléments :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/b127dcd30e8749aa8306adfb27d5cb4a\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Dans tous les cas, cela n'est pas logique car dans le paramétrage, il est bien indiqué que les suppléments ne sont pas soumis à commission :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/421ca926cf5340588e3b8531af48dc01\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><b>Solution provisoire donnée au client : mettre les suppléments et frais de dossier en dehors du séjour</b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-commission-TO-4068db15623a81678ff9d58cf21269c7"
+    },
     {
       "id": "4058db15-623a-814e-8ef8-d4f409a494a3",
       "identifiant": "INA-1036",
@@ -61,7 +129,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "- Certains camping ont le message d'erreur à l'ouverture de NAXI, de la récupération de la configuration du compte client -&gt; redémarrage de SystemAPI a fait en sorte que plus de message d'erreur mais une optimisation est à faire car saturation trop fréquente (à voir avec Ludwig)<div><br></div><div>- Certains ont de réservations non redescendus -&gt; paiement PAYZEN non validé (on a pas de retour de paiement), les résas sont sur nos serveur mais avec un SogOK à 0</div><div><br></div><div>- Certains ont des soucis avec NAXI Réservation (peut être lié au soucis de Payzen)</div>",
+      "explication": "- Certains camping ont le message d'erreur à l'ouverture de NAXI, de la récupération de la configuration du compte client -&gt; redémarrage de SystemAPI a fait en sorte que plus de message d'erreur mais une optimisation est à faire car saturation trop fréquente (à voir avec Ludwig)<div><br></div><div>- Certains ont de réservations non redescendus -&gt; paiement PAYZEN non validé (on a pas de retour de paiement), les résas sont sur nos serveur mais avec un SogOK à 0 =&gt; <font color=\"#16a34a\"><b>OK corrigé</b></font></div><div><br></div><div>- Certains ont des soucis avec NAXI Réservation (peut être lié au soucis de Payzen) =&gt;<font color=\"#16a34a\"> <b>OK corrigé</b></font></div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -976,7 +1044,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -993,7 +1063,9 @@
       "pointsBlocage": "",
       "explication": "Depuis passage en 18.37, certains campings ne peuvent plus se connecter à Pennylane.<div><br></div><div>Visiblement, les clients étant sous le statut juridique \"Entreprise individuelle\" avait coché la case \"Non asujetti à ces trois mentions\" car ils n'ont pas de capital.</div><div><br></div><div>NAXI n'autorise pas la saisie d'un capital à 0.00e raison pour laquelle cette case avait été cochée à l'époque.</div><div><br></div><div><b><u>Il faudrait donc autoriser la saisie d'un capital à 0.00€ pour ce type d'entreprise car ce ne sont pas des campings municipaux et ils ont besoin de se connecter à Pennylane.</u></b><br><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/cf2e985aa02d41219b9121670306c9b3\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>-&gt; En attendant le correctif, j'ai modifié le capital en base de données pour le forcer à 0.00€ afin que le camping puisse tout de même se brancher à Pennylane<br><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1007,7 +1079,7 @@
       "titre": "Paramétrage de l'adresse Electronique dans les mentions légales",
       "classification": null,
       "statut": null,
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [
         "NOVEMBRE 26"
       ],
@@ -3460,7 +3532,7 @@
     {
       "id": "3ed8db15-623a-81d4-8038-d265fc432b34",
       "identifiant": "INA-938",
-      "titre": "Migration de NAXIAPI en Laravel 8",
+      "titre": "Migration de NAXIAPI en Laravel 10",
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": "Haute",
@@ -3491,7 +3563,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Migration-de-NAXIAPI-en-Laravel-8-3ed8db15623a81d48038d265fc432b34"
+      "url": "https://app.notion.com/p/Migration-de-NAXIAPI-en-Laravel-10-3ed8db15623a81d48038d265fc432b34"
     },
     {
       "id": "3ed8db15-623a-81b2-908c-f86063ba0afd",
@@ -4698,7 +4770,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "NAXI affiche un message empêchant la facturation lorsque :&nbsp;<div><br></div><div>1. Créer une fiche TO sur laquelle tout est facturé au séjourant, mais sur laquelle on configure une commission TO à 8% (pas forcément logique mais fonctionnement NewDealCE).</div><div>2. Dans les conditions particulières, s'assurer que les frais de dossier sont bien facturés au séjournant.</div><div>3. Créer un séjour affecté à NEWDEALCE en s'assurant de bien ajouter une quantité sur les frais de dossier</div><div>4. Facturer le séjour : NAXI affiche alors un message indiquant une erreur de calcul.</div><div><br></div><div><b>Reproduit sur démo Angélique en 18.35 HF.</b><br>Si je prends mon exemple, il y a en réalité plusieurs problèmes :&nbsp;</div><div><br></div><div>1 - Cas avec un supplément de type \"Frais de dossier\" :&nbsp;</div><div><br></div><div>Mon séjour affiche une commission à 350.40€ ce qui est ok puisque cela correspond à 8% de mon montant de base :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c62d8ba859a94ad4bf71ab11cb405b41\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br>Toutefois, quand je veux facturer, NAXI affiche une commission à 351.60 ce qui correspond à 8% de mon tarif de base + commission (donc ce n'est pas bon) :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/fb445512122e48a6ab15b0c5376ba401\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>2 - Cas avec un supplément de type \"Divers\" :&nbsp;</div><div><br></div><div>NAXI calcule la commission sur tarif de base + suppléments :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/3350f5073081440a8af4eecb59b22a81\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Je peux ensuite facturer sans erreur car lors de la facturation, le même calcul est effectué à savoir 8% du montant de base + suppléments :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/b201cd9a66ab4b89b0a6d6abc7f56971\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Dans tous les cas, cela n'est pas logique car dans le paramétrage, il est bien indiqué que les suppléments ne sont pas soumis à commission :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/184422fa68f64d39b82091d95bb151a0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Solution provisoire donnée au client : mettre les suppléments et frais de dossier en dehors du séjour</b></div>",
+      "explication": "NAXI affiche un message empêchant la facturation lorsque :&nbsp;<div><br></div><div>1. Créer une fiche TO sur laquelle tout est facturé au séjournant, mais sur laquelle on configure une commission TO à 8% (pas forcément logique mais fonctionnement NewDealCE).</div><div>2. Dans les conditions particulières, s'assurer que les frais de dossier sont bien facturés au séjournant.</div><div>3. Créer un séjour affecté à NEWDEALCE en s'assurant de bien ajouter une quantité sur les frais de dossier</div><div>4. Facturer le séjour : NAXI affiche alors un message indiquant une erreur de calcul.</div><div><br></div><div><b>Reproduit sur démo Angélique en 18.35 HF.</b><br>Si je prends mon exemple, il y a en réalité plusieurs problèmes :&nbsp;</div><div><br></div><div>1 - Cas avec un supplément de type \"Frais de dossier\" :&nbsp;</div><div><br></div><div>Mon séjour affiche une commission à 350.40€ ce qui est ok puisque cela correspond à 8% de mon montant de base :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c62d8ba859a94ad4bf71ab11cb405b41\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br>Toutefois, quand je veux facturer, NAXI affiche une commission à 351.60 ce qui correspond à 8% de mon tarif de base + commission (donc ce n'est pas bon) :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/fb445512122e48a6ab15b0c5376ba401\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>2 - Cas avec un supplément de type \"Divers\" :&nbsp;</div><div><br></div><div>NAXI calcule la commission sur tarif de base + suppléments :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/3350f5073081440a8af4eecb59b22a81\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Je peux ensuite facturer sans erreur car lors de la facturation, le même calcul est effectué à savoir 8% du montant de base + suppléments :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/b201cd9a66ab4b89b0a6d6abc7f56971\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Dans tous les cas, cela n'est pas logique car dans le paramétrage, il est bien indiqué que les suppléments ne sont pas soumis à commission :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/184422fa68f64d39b82091d95bb151a0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Solution provisoire donnée au client : mettre les suppléments et frais de dossier en dehors du séjour</b></div>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -10638,7 +10710,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<h3>Besoin</h3><p>En tant qu' utilisateur de la facturation électronique via Pennylane, je veux voir le statut à jour du traitement effectué par le prestataire Pennylane pour les factures et avoirs en B2B (pro) afin de suivre l'avancement de la facturation électronique et m'assurer que les documents sont correctement traités</p><h3>Contexte</h3><p>Dans le cadre de la facturation électronique, pour les factures B2B (professionnels), il est nécessaire d'afficher le statut à jour du traitement réalisé par le prestataire Pennylane pour les factures et avoirs. Pour ce faire, il faut ajouter une colonne dans l’onglet Compte de la fiche client ainsi que dans l’Etats comptable des ventes, onglet Factures/ Avoirs.</p><p><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/75cc36092d604816a9aded6311269188\" alt=\"image-20260521-134715.png\" style=\"max-width:100%\"></p><p>Gestion / Etats comptable des ventes</p><p><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/d009f18ac5f148e3a055392b4a0ab7ab\" alt=\"image-20260521-134753.png\" style=\"max-width:100%\"></p><p>S’assurer d’une fréquence de mise à jour par défaut à 1 fois par jour pouvant être modifiable si besoin)</p>",
+      "explication": "<h3>Besoin</h3><p>En tant qu' utilisateur de la facturation électronique via Pennylane, je veux voir le statut à jour du traitement effectué par le prestataire Pennylane pour les factures et avoirs en B2B (pro) afin de suivre l'avancement de la facturation électronique et m'assurer que les documents sont correctement traités</p><h3>Contexte</h3><p>Dans le cadre de la facturation électronique, pour les factures B2B (professionnels), il est nécessaire d'afficher le statut à jour du traitement réalisé par le prestataire Pennylane pour les factures et avoirs. Pour ce faire, il faut ajouter une colonne dans l’onglet Compte de la fiche client ainsi que dans l’Etats comptable des ventes, onglet Factures/ Avoirs.</p><p><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/75cc36092d604816a9aded6311269188\" alt=\"image-20260521-134715.png\" style=\"max-width:100%\"></p><p>Gestion / Etats comptable des ventes</p><p><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/d009f18ac5f148e3a055392b4a0ab7ab\" alt=\"image-20260521-134753.png\" style=\"max-width:100%\"></p><p>S’assurer d’une fréquence de mise à jour par défaut à 1 fois par jour pouvant être modifiable si besoin)</p><p>Les statuts des factures électroniques de PennyLane à transmettre à NaxiGestion :</p><p><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/33205eb55ddf4c868bdb233670f2a3af\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></p>",
       "communication": [],
       "initialeAjout": [],
       "versionInter": "",
@@ -23997,7 +24069,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -24405,7 +24477,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -25084,9 +25156,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "NOVEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -45237,7 +45307,7 @@
     ]
   },
   "counts": {
-    "classique": 820,
+    "classique": 822,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
