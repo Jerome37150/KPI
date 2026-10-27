@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T11:09:14.772Z",
+  "generatedAt": "2026-10-27T16:32:46.819Z",
   "classique": [
     {
       "id": "4068db15-623a-8158-a4db-fc4ff9c1a042",
@@ -129,7 +129,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "- Certains camping ont le message d'erreur à l'ouverture de NAXI, de la récupération de la configuration du compte client -&gt; redémarrage de SystemAPI a fait en sorte que plus de message d'erreur mais une optimisation est à faire car saturation trop fréquente (à voir avec Ludwig)<div><br></div><div>- Certains ont de réservations non redescendus -&gt; paiement PAYZEN non validé (on a pas de retour de paiement), les résas sont sur nos serveur mais avec un SogOK à 0 =&gt; <font color=\"#16a34a\"><b>OK corrigé</b></font></div><div><br></div><div>- Certains ont des soucis avec NAXI Réservation (peut être lié au soucis de Payzen) =&gt;<font color=\"#16a34a\"> <b>OK corrigé</b></font></div>",
+      "explication": "- Certains camping ont le message d'erreur à l'ouverture de NAXI, de la récupération de la configuration du compte client -&gt; redémarrage de SystemAPI a fait en sorte que plus de message d'erreur mais une optimisation est à faire car saturation trop fréquente (à voir avec Ludwig)<div><br></div><div>- Certains ont de réservations non redescendus -&gt; paiement PAYZEN non validé (on a pas de retour de paiement), les résas sont sur nos serveur mais avec un SogOK à 0 =&gt; <font color=\"#16a34a\"><b>OK corrigé</b></font></div><div><br></div><div>- Certains ont des soucis avec NAXI Réservation (peut être lié au soucis de Payzen) =&gt;<font color=\"#16a34a\"> <b>OK corrigé</b></font></div><div><font color=\"#16a34a\"><b><br></b></font></div><div><font color=\"#18181b\">- Erreur sur WS NAXITO suite retour OTA VacancesSelect : While the WSDL now works, we get a different error when attempting to fetch destinations.</font></div><div><span style=\"color: rgb(24, 24, 27);\">The \"getDestination\" function gives us the following response:&nbsp;</span></div><div><font color=\"#18181b\">\"getDestination SQL error #3. Please contact Inaxel technical support. java.sql.SQLException: java.lang.NullPointerException\" =&gt; </font><b style=\"\"><font color=\"#ea580c\">A regarder</font></b></div><div><font color=\"#18181b\"><br></font></div><div><font color=\"#18181b\">- Paiements PAYZEN non validé et donc resas qui ne redescendent pas sur le camping LA ROULETTA&nbsp;=&gt; </font><b style=\"\"><font color=\"#ea580c\">A regarder</font></b></div><div><br></div><div><font color=\"#18181b\"><br></font></div><div><br></div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -19289,7 +19289,7 @@
       "persPoTest": [],
       "pointAvancement": 0.5,
       "pointsBlocage": "En attente retour Paul",
-      "explication": "Création d’un web service par CTV pour identifier si gestion des soldes par CTV ou pas ",
+      "explication": "Création d’un web service par CTV pour identifier si gestion des soldes par CTV ou pas <div>https://inaxel.atlassian.net/browse/CONNECT-795</div><div>En tant que développeur,</div><div>afin de limiter les envois de solde inutiles pour des campings qui n’ont pas l'échange de solde, je souhaite savoir si le camping a activé ou non l'échange de solde sur SH.</div><div><br></div><div>Aujourd’hui dans l'échange de solde avec SH, on ne sait pas si le camping a activé ou non l'échange de solde sur SH, ce qui fait que notre côté on envoi tout le temps l'échange de solde.</div><div>Ce qui pose soucis, car du coup au niveau des logs il est difficile de distinguer les vraies erreurs de fausses.</div>",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
