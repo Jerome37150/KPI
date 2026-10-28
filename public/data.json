@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-10-28T05:31:37.758Z",
+  "generatedAt": "2026-10-28T11:36:50.627Z",
   "classique": [
+    {
+      "id": "4078db15-623a-8102-8354-dce486dc7c91",
+      "identifiant": "INA-1039",
+      "titre": "Mise à jour version Widget NAXI Réservation",
+      "classification": "BUG STRUCTURANT",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "OCTOBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-28T08:34:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-version-Widget-NAXI-R-servation-4078db15623a81028354dce486dc7c91"
+    },
     {
       "id": "4068db15-623a-8158-a4db-fc4ff9c1a042",
       "identifiant": "INA-1038",
@@ -129,7 +165,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "- Certains camping ont le message d'erreur à l'ouverture de NAXI, de la récupération de la configuration du compte client -&gt; redémarrage de SystemAPI a fait en sorte que plus de message d'erreur mais une optimisation est à faire car saturation trop fréquente (à voir avec Ludwig)<div><br></div><div>- Certains ont de réservations non redescendus -&gt; paiement PAYZEN non validé (on a pas de retour de paiement), les résas sont sur nos serveur mais avec un SogOK à 0 =&gt; <font color=\"#16a34a\"><b>OK corrigé</b></font></div><div><br></div><div>- Certains ont des soucis avec NAXI Réservation (peut être lié au soucis de Payzen) =&gt;<font color=\"#16a34a\"> <b>OK corrigé</b></font></div><div><font color=\"#16a34a\"><b><br></b></font></div><div><font color=\"#18181b\">- Erreur sur WS NAXITO suite retour OTA VacancesSelect : While the WSDL now works, we get a different error when attempting to fetch destinations.</font></div><div><span style=\"color: rgb(24, 24, 27);\">The \"getDestination\" function gives us the following response:&nbsp;</span></div><div><font color=\"#18181b\">\"getDestination SQL error #3. Please contact Inaxel technical support. java.sql.SQLException: java.lang.NullPointerException\" =&gt; </font><b style=\"\"><font color=\"#ea580c\">A regarder</font></b></div><div><font color=\"#18181b\"><br></font></div><div><font color=\"#18181b\">- Paiements PAYZEN non validé et donc resas qui ne redescendent pas sur le camping LA ROULETTA&nbsp;=&gt; </font><b style=\"\"><font color=\"#ea580c\">A regarder</font></b></div><div><br></div><div><font color=\"#18181b\"><br></font></div><div><br></div>",
+      "explication": "- Certains camping ont le message d'erreur à l'ouverture de NAXI, de la récupération de la configuration du compte client -&gt; redémarrage de SystemAPI a fait en sorte que plus de message d'erreur mais une optimisation est à faire car saturation trop fréquente (à voir avec Ludwig)<div><br></div><div>- Certains ont de réservations non redescendus -&gt; paiement PAYZEN non validé (on a pas de retour de paiement), les résas sont sur nos serveur mais avec un SogOK à 0 =&gt; <font color=\"#16a34a\"><b>OK corrigé</b></font></div><div><br></div><div>- Certains ont des soucis avec NAXI Réservation (peut être lié au soucis de Payzen) =&gt;<font color=\"#16a34a\"> <b>OK corrigé</b></font></div><div><font color=\"#16a34a\"><b><br></b></font></div><div><font color=\"#18181b\">- Erreur sur WS NAXITO suite retour OTA VacancesSelect : While the WSDL now works, we get a different error when attempting to fetch destinations.</font></div><div><span style=\"color: rgb(24, 24, 27);\">The \"getDestination\" function gives us the following response:&nbsp;</span></div><div><font color=\"#18181b\">\"getDestination SQL error #3. Please contact Inaxel technical support. java.sql.SQLException: java.lang.NullPointerException\" =&gt; </font><b style=\"\"><font color=\"#ea580c\">A regarder</font></b></div><div><font color=\"#18181b\"><br></font></div><div><font color=\"#18181b\">- Paiements PAYZEN non validé et donc resas qui ne redescendent pas sur le camping LA ROULETTA&nbsp;=&gt; </font><b style=\"\"><font color=\"#16a34a\">OK corrigé - Pb de config des règles de notification (http au lieu de https sur l'une d'entre elle)</font></b></div><div><br></div><div>- Erreur sur la récupération des formulaires d'info de CTV /&nbsp; <b><font color=\"#ea580c\">=&gt; A regarder</font></b></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c851cdb4943c41b2b15e6b6ae49c9dea\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><font color=\"#18181b\"></font></div><div><br></div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -15472,7 +15508,9 @@
       "pointsBlocage": "",
       "explication": "L'heure d'arrivée d'un client n'est pas mémorisée dans le séjour lorsque :&nbsp;<div><br></div><div>1. Créer un séjour ayant pour date d'arrivée la date du jour.</div><div>2. Se rendre ensuite dans le menu Séjours &gt; Arrivées/Départs.</div><div>3. Passer le séjour crée précédemment en statut \"Arrivée\"&nbsp;</div><div><br></div><div><b><u>Résultat obtenu :&nbsp;</u></b></div><div><br></div><div>Sur le tableau des arrivées/départs, l'heure d'arrivée s'affiche sans problème. En revanche, si on ouvre le séjour le champs 'heure d'arrivée' est vide :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/64e75ae28ab44f029479a28c7e0d9891\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><b><br></b></div><div><b>Si je revalide manuellement le séjour en statut Arrivé, l'heure se mémorise correctement.</b></div><div><b>Reproduit sur démo HF et SQL / 18.27</b><br><i>Lorsque le champs Arrivée à est renseigné, il est censé se mémoriser dans la table <b>command.cmautres</b> à la 8ème position. Lorsque l'on passe le séjour en Arrivé depuis le menu Arrivées/Départ, la 8ème position est vide.</i></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -16141,7 +16179,9 @@
       "pointsBlocage": "",
       "explication": "<b>Client impacté : CHAMPS NEUF</b><div><i>Version : 18-26 / SQL&nbsp;</i><br><br><u><b>Détails :&nbsp;</b></u></div><div><br></div><div>1. S'assurer d'être en SQL / Bug non reproduit sur une base HF</div><div>2. Se rendre dans le menu Gestion &gt; Export comptable</div><div>3. Cliquer sur l'icône représentant des outils bleus et choisir un export vers ISACOMPTA</div><div>4. Puis, dans l'onglet \"Factures\", paramétrer comme ci dessous :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a1a8634c63404bf7aee93c1150a80d0f\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br>5. Se rendre ensuite dans le menu Ventes Réception &gt; Saisie des ventes</div><div>6. Saisir une vente et encaisser</div><div>7. Puis retourner dans le menu Gestion &gt; Export comptable</div><div>8. Lancer la recherche à l'aide de la loupe bleue : NAXI affiche alors le message d'erreur ci dessous :&nbsp;<br><div><i><br></i></div><div><i>&nbsp;Le mécanisme de sécurité du WLangage a détecté une erreur dans l'application EVOCAMP.&nbsp;</i></div><div><i>Contactez le fournisseur de l'application EVOCAMP.&nbsp;&lt;vedate&gt; n'est ni une rubrique ni un paramètre de la requête &lt;L_sdVente&gt;. De nouveaux paramètres ne doivent pas être déclarés après la préparation d'une requête. Vérifier également qu'il n'y a pas d'erreur de syntaxe dans le nom de la rubrique ou du paramètre.&nbsp;Pile des appels :</i></div><p><i>Procédure locale pl_Traitement_Ticket_SQL (export_compta.PROCEDURE.pl_Traitement_Ticket_SQL), ligne 68</i></p><p><i>Clic sur BT_REC (export_compta.BT_REC), ligne 72&nbsp;Date : 08/07/2026 10:28:21</i></p><p><i>Projet : EVOCAMP (14.1.546.16)&nbsp;Informations supplémentaires :</i></p><p><i>Code erreur : 70202</i></p><p><i>Code erreur WD55 : 202</i></p><p><i>Module : wd260hf.dll (01F260101d - 26.0.313.5)&nbsp;Informations de débogage :</i></p><p><br></p><p><b>Reproduit sur démo Angélique SQL en 18.25</b><br><b><u>Lien JAM</u></b> : https://jam.dev/c/c81d583e-1a9e-46d9-9652-e4a77d6fa196</p><p><b><font color=\"#16a34a\">Non reproduit</font></b> si je modifie la configuration des mes factures comme ceci :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/57c17232b98a45f0ba49d783d939ede4\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><b>Non reproduit sur les autres logiciels comme EBP ou SAGE</b></p></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -17671,7 +17711,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -17689,7 +17729,9 @@
       "pointsBlocage": "",
       "explication": "Ce camping a l’espace client et a configuré ses options en “modifiables sur l’espace client”. Or ils souhaiteraient que dans cette configuration, lorsque le client final valide son option, on ajoute une étape obligatoire  “Coordonnées clients” (comme sur la résa), pour que les clients puissent vérifier et complèter leur coordonnées.",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -17857,7 +17899,9 @@
       "pointsBlocage": "",
       "explication": "La synchro des ROMANEE bouclait en erreur sur la redescente d’un événement à cause de caractères saisis dans le champs prénom",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -19069,7 +19113,7 @@
       "sprintIdeal": [],
       "fonctions": null,
       "produits": [
-        "GRAFANA"
+        "Naxi Gestion PMS"
       ],
       "client": "Interne",
       "dateCreation": "2026-05-28T15:02:00.000Z",
@@ -25141,7 +25185,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -25581,7 +25627,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -27897,7 +27945,7 @@
     {
       "id": "30c8db15-623a-8007-ac73-ce8b55f77ce2",
       "identifiant": "INA-21",
-      "titre": "Message d’erreur à l’enregistrement d’un nouveau véhicule",
+      "titre": "Message d’erreur à l'ajout d'une nouvelle marque/modèle de véhicule",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Pas urgente",
@@ -27919,15 +27967,17 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "La saisie d’un nouveau type de véhicule dans les paramètres entrainent un message d’erreur dans NAXI",
+      "explication": "<u><b>Client&nbsp;</b></u>: Moulin de la salle (HF V18.07)<div><br></div><div><b><u>Détails</u></b>:</div><div><br></div><div>1. Se rendre dans le menu Paramètres &gt; Clients</div><div>2. Aller dans l’onglet Véhicules</div><div>3. Ajouter une nouvelle marque/modèle</div><div>4. Cliquer sur Valider</div><div>5. NAXI affiche un message d’erreur de doublon de ce type&nbsp;:&nbsp;</div><div><i><br></i></div><div><i>Que s'est-il passé ?</i></div><div><i>Erreur de doublon lors de l'ajout dans le fichier &lt;TYPEVEHI&gt;.</i></div><div><i>Cet ajout aurait provoqué un doublon sur la clé &lt;tvnum&gt; avec l'enregistrement &lt;130&gt;.</i></div><div><i>Code erreur : 70010</i></div><div><i>Niveau : erreur non fatale</i></div><div><i>Code erreur WD55 : 10</i></div><div><i>Module : wd260hf.dll (01F260101d - 26.0.313.5)</i></div><div><i>Informations de débogage :</i></div><div><i>IEWDHF=37.4</i></div><div><i>Module=&lt;WDHF&gt;</i></div><div><i>Version=&lt;26.0.313.5&gt;</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_LOGICALTABLENAME : &lt;TYPEVEHI&gt;</i></div><div><i>EIT_ITEMNAME : &lt;tvnum&gt;</i></div><div><i>EIT_RECNUM : &lt;130&gt;</i></div><div><i>EIT_PATHFIC : &lt;C:\\NAXI\\TYPEVEHI.FIC&gt;</i></div><div><i>EIT_PATHNDX : &lt;C:\\NAXI\\TYPEVEHI.ndx&gt;</i></div><div><br></div><div><br></div><div>Reproduit sur base de données CIELA en 18.05 SQL</div><div>Reproduit sur démo Angélique en 18.07 HF&nbsp;</div><div>Lien JAM : https://jam.dev/c/b07f2371-4147-4e34-bccf-a1c131512213&nbsp;</div><div><br></div><div><br></div><div><b><u>+ Infos</u></b> :</div><div><br></div><div>Reproduit sur base de données HF version client 18.07 (C:\\NAXI) de Nina mais pas reproduit sur toutes les bases des autres PO - il doit donc y avoir une spécificité</div><div><br></div><div><u>Attention à vérifier&nbsp;</u>:</div><div><br></div><div>- s’il n’y a pas un soucis sur les enregistrements, est ce qu’ils se font bien sur le TYPEVEHI.fic présent dans la base de données et non pas sur le TYPEVEHI.fic qui est présent dans le répertoire d’installation</div><div>- s’il n’y a pas une problématique entre N° enr. et tvnum dans la table (au vue des fichiers ci joint base Nina)</div><div><br></div><div><i>Que s'est-il passé ?</i></div><div><i>Erreur de doublon lors de l'ajout dans le fichier &lt;TYPEVEHI&gt;.</i></div><div><i>Cet ajout aurait provoqué un doublon sur la clé &lt;tvnum&gt; avec l'enregistrement &lt;1&gt;.</i></div><div><i><br></i></div><div><i>Code erreur : 70010</i></div><div><i>Niveau : erreur non fatale</i></div><div><i>Code erreur WD55 : 10</i></div><div><i><br></i></div><div><i>Module : wd260hf.dll (01F260101d - 26.0.313.5)</i></div><div><i><br></i></div><div><i>Informations de débogage :</i></div><div><i>IEWDHF=37.4</i></div><div><i>Module=&lt;WDHF&gt;</i></div><div><i>Version=&lt;26.0.313.5&gt;</i></div><div><i>Informations supplémentaires :</i></div><div><i>EIT_LOGICALTABLENAME : &lt;TYPEVEHI&gt;</i></div><div><i>EIT_ITEMNAME : &lt;tvnum&gt;</i></div><div><i>EIT_RECNUM : &lt;1&gt;</i></div><div><i>EIT_PATHFIC : &lt;C:\\NAXI\\TYPEVEHI.FIC&gt;</i></div><div><i>EIT_PATHNDX : &lt;C:\\NAXI\\TYPEVEHI.ndx&gt;</i></div><div><i><br></i></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c0ef723ed6334aca8142e85d4f73262d\" style=\"opacity: 1; max-width: 100%; width: 34.6388%; height: auto;\" alt=\"capture\"><i></i></div><div><br></div><div>https://inaxel.atlassian.net/browse/BUG-1031</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Message-d-erreur-l-enregistrement-d-un-nouveau-v-hicule-30c8db15623a8007ac73ce8b55f77ce2"
+      "url": "https://app.notion.com/p/Message-d-erreur-l-ajout-d-une-nouvelle-marque-mod-le-de-v-hicule-30c8db15623a8007ac73ce8b55f77ce2"
     },
     {
       "id": "30b8db15-623a-8000-ac61-d549e3e99413",
@@ -45307,7 +45357,7 @@
     ]
   },
   "counts": {
-    "classique": 822,
+    "classique": 823,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
