@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T14:30:52.176Z",
+  "generatedAt": "2026-10-29T19:50:13.355Z",
   "classique": [
     {
       "id": "4088db15-623a-8119-bedd-c7c26d32ffdb",
@@ -93,7 +93,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Migration JQUERY et PHP dans le cadre de la faille PHP2Shell",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
