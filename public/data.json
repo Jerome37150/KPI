@@ -1,6 +1,106 @@
 {
-  "generatedAt": "2026-10-30T09:13:47.258Z",
+  "generatedAt": "2026-10-30T15:55:27.906Z",
   "classique": [
+    {
+      "id": "4098db15-623a-8170-9154-e61f0bbf54d4",
+      "identifiant": "INA-1044",
+      "titre": "Lenteurs sur importations des codes/cartes des résidents",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Cod & Cam"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-30T15:27:00.000Z",
+      "estimBack": 4,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "L'importation des codes/cartes des résidents n'aboutit pas lorsque :&nbsp;<div><br></div><div>1. S'assurer d'être en SQL</div><div>2. Se rendre sur la saison 2027 dans le menu Administration &gt; NAXICOD : Import exercice précédent</div><div>3. Choisir dans la combo la saison 2026.</div><div>4. Lancer la recherche : NAXI mouline et la recherche n'aboutit jamais&nbsp;</div><div><br></div><div>Après analyse sur le serveur SQL du groupe Garennes62 - La requête semble non optimisée et passe commande après commande :&nbsp;</div><div><br></div><div><i>SELECT `cmid`,`cmcodsoc`,`cmcodexe`,`cmclient`,`cmtypcom`,`cmdatcom`,`cmtarif`,`cmetat`,`cmttc`,`cmbrut`,`cmrem`,`cmregle`,`cmdatdeb`,`cmdatfin`,`cmtypsej`,`cmstatut`,`cmto`,`cmto_allot`,`cmref`,`cmpermut`,`cmresa`,`cmtexte`,`cmmtcli`,`cmto_mt`,`cmto_regle`,`cmmtbase`,`cmmtsuppl`,`cmmttax`,`cmtofact`,`cmmtprod`,`cmmtfrais`,`cmfamille`,`cmaccdem`,`cmmtassu`,`cmdatefact`,`cmnumfac`,`cmeche`,`cmtotfact`,`cmdatmod`,`cmopecre`,`cmopmod`,`cmresaweb`,`cmto_rem`,`cmcomloc`,`cmrepttc`,`cmtrack`,`cmcodpro`,`cmautres`,`cm_condpermut`,`cmempl`,`cmheudep`,`cmfidaqui`,`cmfiduti`,`cmdatval`,`cmpromoid`,`cmvacaf`,`cmcampingcheque`,`cmid_crmsh`,`cmcom2`,`cmmajoration`,`cmverstarif`,`cmtypefl`,`cmexpcrm`,`cmproductname`,`cmdestination`,`cmdetailcalc`,`cmyield`,`cmcontratassur`,`cmestimateid`,`cmexpsrv`,`cmsuppl`,`cmcateg`,`cmarrivtard`,`cmprecheck`,`cmmtbaseHT`,`cmcptfid`,`cmcptfiduti`,`cm_canal`,`cm_idcaution`,`cmnumdevis`,`cmnbecheNS`,`cmmthorspromo`,`cmmtpromo`,`compte_commerce_bloque` FROM `command` WHERE `cmcodsoc`&gt;'GAR62' OR `cmcodsoc`='GAR62' AND (`cmcodexe`&gt;'2027' OR `cmcodexe`='2027' AND `cmclient`&gt;53336 ) ORDER BY 2 , 3 , 4 , 1 , 17 , 63 , 70 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 18 , 19 , 20 , 21 , 23 , 24 , 25 , 26 , 27 , 28 , 29 , 30 , 31 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , 45 , 46 , 47 , 48 , 50 , 51 , 52 , 53 , 54 , 55 , 56 , 57 , 58 , 60 , 61 , 62 , 64 , 65 , 67 , 68 , 69 , 72 , 73 , 74 , 75 , 76 , 77 , 78 , 79 , 80 , 81 , 82 , 83 , 84</i></div><div><br></div><div><b>Reproduit sur bdd Ciela en 18.36 / Non reproduit sur ma démo HF en 19-03.</b></div><div><b>Le camping ayant signalé le soucis est en SQL 18-30.</b></div><div><br></div><div>Si besoin de remonter leur base de données pour tester, n'hésitez pas :)</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Lenteurs-sur-importations-des-codes-cartes-des-r-sidents-4098db15623a81709154e61f0bbf54d4"
+    },
+    {
+      "id": "4098db15-623a-81cf-9d2c-ed9a03ada1be",
+      "identifiant": "INA-1043",
+      "titre": "Revenu locatif : le montant est en positif ce qui génère un solde doublé lorsqu'on saisit le remboursement",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-30T12:33:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Le solde des revenu locatifs est doublé lorsque :&nbsp;<div><br></div><div>1. Etre à minima sur la version 19-01 de NAXI&nbsp;</div><div>2. S'assurer d'avoir un séjour résident sur laquelle la sous location est autorisée.</div><div>3. Sur la fiche du résident, créer un séjour annuel en autorisant une période de sous location.</div><div>4. Créer un séjour sur une fiche client et l'associer à l'emplacement du résident (sur la période de sous location autorisée).</div><div>5. Revenir sur la fiche du résident dans l'onglet TO/CE/Résident</div><div>6. Cliquer sur \"Générer le revenu locatif\".</div><div>7. La fenêtre de revenu locatif s'ouvre, cocher le séjour du sous locataire crée précédemment.</div><div>8. Valider, cliquer sur Générer et Facturer</div><div>9. NAXI propose alors de saisir le remboursement : le saisir</div><div><br></div><div><b><u>Résultat :&nbsp;</u></b></div><div><br></div><div>Si on regarde la ligne du revenu locatif dans les prestations, alors le revenu locatif est en positif. Comme nous avons saisi un remboursement, le solde du revenu locatif est ainsi doublé ce qui est incorrect.</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/5fede97794834791b9fa98eaac119a92\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>En revanche, au niveau de l'encours sur le bandeau en haut, les montants sont corrects.&nbsp;</div><div><br></div><div><b><u>En version 18.32, le solde est bien à 0.00€</u></b></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ce7c655665684f97a9325c6d849ef18a\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b>Reproduit sur démo Angélique en 19.03 - HF</b></div><div><b>Non reproduit sur démo en 18.32</b></div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Revenu-locatif-le-montant-est-en-positif-ce-qui-g-n-re-un-solde-doubl-lorsqu-on-saisit-le-rembour-4098db15623a81cf9d2ced9a03ada1be"
+    },
+    {
+      "id": "4098db15-623a-812b-a17d-ec2f0552e628",
+      "identifiant": "INA-1042",
+      "titre": "Mail : [Api Open Pro] Nouvelle infrastructure à partir du 23/11/2026 – Exigences TLS à vérifier",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-10-30T12:22:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>Reçu le 29/10/2026 à 19h12, De :</div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/1d274fb395d44a01bdea4c6adc6a7bfb\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div><br></div><div>Message :</div><div>Bonjour,</div><div>Vous êtes référencé comme utilisateur de notre API Open Pro (https://api.open-pro.fr).</div><div>À partir du 23 novembre 2026, l'API Open Pro sera hébergée sur une nouvelle infrastructure. Cette migration renforce les exigences de sécurité des connexions HTTPS (TLS).</div><div>Voici les conditions requises sur cette nouvelle infrastructure :</div><div>1. Version de protocole</div><div>- TLS 1.2 minimum (TLS 1.3 supporté)</div><div>- TLS 1.0 et TLS 1.1, ainsi que SSL, ne seront plus acceptés</div><div>2. Suites de chiffrement acceptées en TLS 1.2</div><div>- ECDHE-ECDSA-AES128-GCM-SHA256</div><div>- ECDHE-RSA-AES128-GCM-SHA256</div><div>- ECDHE-ECDSA-AES256-GCM-SHA384</div><div>- ECDHE-RSA-AES256-GCM-SHA384</div><div>- ECDHE-ECDSA-CHACHA20-POLY1305</div><div>- ECDHE-RSA-CHACHA20-POLY1305</div><div>- DHE-RSA-AES128-GCM-SHA256</div><div>- DHE-RSA-AES256-GCM-SHA384</div><div>3. Suites de chiffrement acceptées en TLS 1.3</div><div>- TLS_AES_128_GCM_SHA256</div><div>- TLS_AES_256_GCM_SHA384</div><div>- TLS_CHACHA20_POLY1305_SHA256</div><div><br></div><div>Nous vous invitons à vérifier dès à présent la compatibilité TLS de vos systèmes avec ces conditions, et à faire les éventuels ajustements nécessaires avant le 23 novembre 2026.</div><div><br></div><div>Pour tester vos appels avant la bascule, vous pouvez utiliser l'adresse de test https://api-20261123.open-pro.fr : il suffit de remplacer https://api.open-pro.fr par cette adresse de test dans l'URL que vous utilisez actuellement.</div><div>Cette adresse de test est hébergée sur la nouvelle infrastructure et applique déjà les nouvelles conditions TLS décrites ci-dessus. Elle accède aux mêmes données que votre URL actuelle. Si vos appels fonctionnent sur cette adresse de test, alors ils fonctionneront aussi après la bascule du 23 novembre 2026.</div><div>Attention : cette adresse de test est temporaire et sera supprimée le 23 novembre 2026. Ne l'intégrez pas de façon définitive dans vos applications. Votre URL habituelle (https://api.open-pro.fr) basculera automatiquement sur la nouvelle infrastructure le 23 novembre 2026 : vous n'aurez aucun changement d'URL à faire.</div><div><br></div><div>Merci d'accuser bonne réception et bonne prise en compte de ce message.</div><div>N’hésitez pas à nous contacter pour toute question.</div><div>Cordialement,&nbsp;</div><div>Jean-Michel</div><div><br></div><div>Jean Michel MARTIN</div><div>Responsable de Production</div><div>jm.martin@alliance-reseaux.com</div><div><br></div><div>26 Rue de Saint Exupéry</div><div>73300 Saint Jean de Maurienne</div><div>www.alliance-reseaux.com</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mail-Api-Open-Pro-Nouvelle-infrastructure-partir-du-23-11-2026-Exigences-TLS-v-rifier-4098db15623a812ba17dec2f0552e628"
+    },
     {
       "id": "4088db15-623a-8119-bedd-c7c26d32ffdb",
       "identifiant": "INA-1041",
@@ -226,14 +326,14 @@
       "client": "",
       "dateCreation": "2026-10-26T07:45:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 14,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "- Certains camping ont le message d'erreur à l'ouverture de NAXI, de la récupération de la configuration du compte client -&gt; redémarrage de SystemAPI a fait en sorte que plus de message d'erreur mais une optimisation est à faire car saturation trop fréquente (à voir avec Ludwig)<div><br></div><div>- Certains ont de réservations non redescendus -&gt; paiement PAYZEN non validé (on a pas de retour de paiement), les résas sont sur nos serveur mais avec un SogOK à 0 =&gt; <font color=\"#16a34a\"><b>OK corrigé</b></font></div><div><br></div><div>- Certains ont des soucis avec NAXI Réservation (peut être lié au soucis de Payzen) =&gt;<font color=\"#16a34a\"> <b>OK corrigé</b></font></div><div><font color=\"#16a34a\"><b><br></b></font></div><div><font color=\"#18181b\">- Erreur sur WS NAXITO suite retour OTA VacancesSelect : While the WSDL now works, we get a different error when attempting to fetch destinations.</font></div><div><span style=\"color: rgb(24, 24, 27);\">The \"getDestination\" function gives us the following response:&nbsp;</span></div><div><font color=\"#18181b\">\"getDestination SQL error #3. Please contact Inaxel technical support. java.sql.SQLException: java.lang.NullPointerException\" =&gt; </font><b style=\"\"><font color=\"#ea580c\">A regarder</font></b></div><div><font color=\"#18181b\"><br></font></div><div><font color=\"#18181b\">- Paiements PAYZEN non validé et donc resas qui ne redescendent pas sur le camping LA ROULETTA&nbsp;=&gt; </font><b style=\"\"><font color=\"#16a34a\">OK corrigé - Pb de config des règles de notification (http au lieu de https sur l'une d'entre elle)</font></b></div><div><br></div><div>- Erreur sur la récupération des formulaires d'info de CTV /&nbsp; <b><font color=\"#ea580c\">=&gt; A regarder</font></b></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c851cdb4943c41b2b15e6b6ae49c9dea\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><font color=\"#18181b\"></font></div><div><br></div>",
+      "explication": "- Certains camping ont le message d'erreur à l'ouverture de NAXI, de la récupération de la configuration du compte client -&gt; redémarrage de SystemAPI a fait en sorte que plus de message d'erreur mais une optimisation est à faire car saturation trop fréquente (à voir avec Ludwig)<div><br></div><div>- Certains ont de réservations non redescendus -&gt; paiement PAYZEN non validé (on a pas de retour de paiement), les résas sont sur nos serveur mais avec un SogOK à 0 =&gt; <font color=\"#16a34a\"><b>OK corrigé</b></font></div><div><br></div><div>- Certains ont des soucis avec NAXI Réservation (peut être lié au soucis de Payzen) =&gt;<font color=\"#16a34a\"> <b>OK corrigé</b></font></div><div><font color=\"#16a34a\"><b><br></b></font></div><div><font color=\"#18181b\">- Erreur sur WS NAXITO suite retour OTA VacancesSelect : While the WSDL now works, we get a different error when attempting to fetch destinations.</font></div><div><span style=\"color: rgb(24, 24, 27);\">The \"getDestination\" function gives us the following response:&nbsp;</span></div><div><font color=\"#18181b\">\"getDestination SQL error #3. Please contact Inaxel technical support. java.sql.SQLException: java.lang.NullPointerException\" =&gt; </font><b style=\"\"><font color=\"#ea580c\">A regarder</font></b></div><div><font color=\"#18181b\"><br></font></div><div><font color=\"#18181b\">- Paiements PAYZEN non validé et donc resas qui ne redescendent pas sur le camping LA ROULETTA&nbsp;=&gt; </font><b style=\"\"><font color=\"#16a34a\">OK corrigé - Pb de config des règles de notification (http au lieu de https sur l'une d'entre elle)</font></b></div><div><br></div><div>- Erreur sur la récupération des formulaires d'info de CTV /&nbsp; <b><font color=\"#16a34a\">=&gt; A regarder (OK voir commentaire)</font></b></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c851cdb4943c41b2b15e6b6ae49c9dea\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><font color=\"#18181b\"></font></div><div><br></div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -402,7 +502,7 @@
       "client": "",
       "dateCreation": "2026-10-22T09:07:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 2,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -1181,7 +1281,7 @@
       "id": "3fb8db15-623a-816a-bc3a-efe34dce0a6f",
       "identifiant": "INA-1007",
       "titre": "Paramétrage de l'adresse Electronique dans les mentions légales",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
@@ -1261,7 +1361,7 @@
       ],
       "client": "",
       "dateCreation": "2026-10-16T09:27:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -1553,7 +1653,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de création d'un séjour depuis la fiche client : entrée « Séjour » du menu « Nouvelle prestation », fenêtre « Nouveau séjour » (dates et hébergement, changements d'emplacement, permutation, tarif, organisme, suppléments, remises, récapitulatif avec loader de calcul), enregistrement et ouverture directe de la vue du séjour créé.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -1589,7 +1689,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour fournir le paramétrage du camping et les disponibilités aux dates choisies, calculer le prix du séjour (hébergement, suppléments, remises, taxes de séjour, prise en charge de l'organisme), contrôler et enregistrer le nouveau séjour en option avec son occupation au planning, puis renvoyer le séjour créé pour son ouverture.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -1769,7 +1869,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de l'onglet Commentaire de la vue séjour : titre « Commentaire du client », grande zone de texte modifiable pré-remplie avec le commentaire de la réservation en ligne (aide quand il est vide), compteur 1 / 0 dans le menu du séjour et lecture seule sur un séjour annulé.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -1805,7 +1905,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour reprendre sur le séjour le commentaire laissé lors de la réservation en ligne, le renvoyer avec l'indicateur du compteur, l'enregistrer à chaque modification et refuser toute modification sur un séjour annulé.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -3446,7 +3546,7 @@
       "client": "",
       "dateCreation": "2026-10-06T13:16:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 7,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -6646,7 +6746,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour lister les animaux d'un séjour et ceux connus du client, créer un animal, le rattacher au séjour ou l'en retirer, enregistrer chaque modification de ses informations et refuser toute modification sur un séjour annulé.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -6682,7 +6782,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de l'onglet Animaux de la vue séjour : tableau des animaux modifiable directement (N° tatouage, date du dernier vaccin, nom, plus d'infos), corbeille « Supprimer du séjour », bouton « Ajouter » et fenêtre « Ajouter un animal » (animaux connus du client et création d'un nouvel animal), lecture seule sur un séjour annulé.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -7074,7 +7174,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour charger les suppléments d'un séjour avec le paramétrage du camping, enregistrer chaque changement (quantité, produit, période, prix, nom, N°), recalculer le montant et le reste à payer du séjour, gérer les N° au planning des suppléments et le stock, remettre les suppléments à leur état d'ouverture, enregistrer les paramètres du séjour et appliquer les verrous (facturation, annulation, droits de l'opérateur).",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -7110,7 +7210,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de l'onglet Options de la vue séjour : grille des suppléments modifiable directement (quantités, ajout et retrait de produits, périodes, prix modifiables, nom de l'animal), attribution des N° des suppléments numérotés, suivi du stock, bouton « Annuler les modifications », bloc Paramètres, loader des montants du séjour et verrouillage selon l'état du séjour et les droits de l'opérateur.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -7125,7 +7225,7 @@
     {
       "id": "3cf8db15-623a-8191-876e-dedc2aa1a214",
       "identifiant": "INA-836",
-      "titre": "Onglet \"Immatriculation\"",
+      "titre": "Onglet \"Véhicules\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -7146,7 +7246,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour lister les véhicules d'un séjour et ceux connus du client, fournir les listes Marque / Couleur / Type du paramétrage et l'information de licence NAXICAM, créer un véhicule, le rattacher au séjour ou l'en retirer, enregistrer chaque modification et refuser toute modification sur un séjour annulé.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -7156,7 +7256,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Immatriculation-3cf8db15623a8191876ededc2aa1a214"
+      "url": "https://app.notion.com/p/Onglet-V-hicules-3cf8db15623a8191876ededc2aa1a214"
     },
     {
       "id": "3cf8db15-623a-81c6-9ff8-feb669c6fa8a",
@@ -9582,7 +9682,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-01T15:22:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -11630,7 +11730,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p><br></p>",
+      "explication": "Développer l'interface de l'onglet Participants de la vue séjour : tableau des participants (date et lieu de naissance modifiables, âge calculé), bouton « Ajouter » (nouveau participant, ajout du client), actions par ligne, et fenêtres « Nouveau participant », « Identité » et « Scan pièce d'identité ».",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -11860,7 +11960,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Rédiger et exécuter les scénarios de tests fonctionnels et techniques pour valider le bon fonctionnement du planning des suppléments numérotés.</p>",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour lister les participants d'un séjour et ceux connus du client, rattacher ou retirer un participant d'un séjour, créer un participant, enregistrer sa date et son lieu de naissance, ses coordonnées et sa pièce d'identité, stocker le scan recto / verso de la pièce, et appliquer le verrou des séjours annulés.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -12405,7 +12505,7 @@
     {
       "id": "3b28db15-623a-81c5-b043-cb1db3a439d8",
       "identifiant": "INA-638",
-      "titre": "Onglet \"Immatriculation\"",
+      "titre": "Onglet \"Véhicules\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -12434,7 +12534,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Immatriculation-3b28db15623a81c5b043cb1db3a439d8"
+      "url": "https://app.notion.com/p/Onglet-V-hicules-3b28db15623a81c5b043cb1db3a439d8"
     },
     {
       "id": "3b28db15-623a-81ab-a0a0-f0a46c0bb4ff",
@@ -12929,7 +13029,7 @@
     {
       "id": "3b28db15-623a-812f-bbda-fabaf71558c6",
       "identifiant": "INA-618",
-      "titre": "Onglet \"Immatriculation\"",
+      "titre": "Onglet \"Véhicules\"",
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
@@ -12948,7 +13048,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Rédiger et exécuter les tests fonctionnels et techniques pour valider le bon fonctionnement de la fenêtre 'Disponibilités', des filtres, de l'affichage des résultats et du respect des règles de gestion.</p>",
+      "explication": "Développer l'interface de l'onglet Véhicules de la vue séjour : tableau des véhicules modifiable directement (immatriculation au format plaque, marque, couleur et type en listes du paramétrage, plus d'infos, contrôle caméra selon la licence NAXICAM), corbeille « Supprimer du séjour », bouton « Ajouter » et fenêtre « Ajouter un véhicule », lecture seule sur un séjour annulé.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -12958,7 +13058,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Onglet-Immatriculation-3b28db15623a812fbbdafabaf71558c6"
+      "url": "https://app.notion.com/p/Onglet-V-hicules-3b28db15623a812fbbdafabaf71558c6"
     },
     {
       "id": "3b28db15-623a-81c9-b70a-d494d4146ef7",
@@ -13304,7 +13404,7 @@
       "produits": [],
       "client": "",
       "dateCreation": "2026-08-04T07:26:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
@@ -25675,7 +25775,7 @@
       "titre": "Erreur récurrente dans les logs NNP - camping St Martin -",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": "Moyenne",
+      "priorisation": "Pas urgente",
       "sprintIdeal": [
         "NOVEMBRE 26"
       ],
@@ -28137,8 +28237,8 @@
       ],
       "client": "Clients avec passerelle SH",
       "dateCreation": "2026-02-18T18:23:00.000Z",
-      "estimBack": 0,
-      "estimFront": 0,
+      "estimBack": 14,
+      "estimFront": 7,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -45425,7 +45525,7 @@
     ]
   },
   "counts": {
-    "classique": 825,
+    "classique": 828,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
