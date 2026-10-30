@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T15:55:27.906Z",
+  "generatedAt": "2026-10-30T20:14:12.917Z",
   "classique": [
     {
       "id": "4098db15-623a-8170-9154-e61f0bbf54d4",
@@ -2877,7 +2877,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de l'onglet Caution de la vue séjour : visibilité selon les spécificités de caution automatique, tableau des cautions du séjour (colonne N°, recherche et tri, pastille Auto, mention Encaissée, statut avec progression), menu d'actions par ligne, actions sur une sélection, et fenêtres de modification, de restitution et de suppression.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -2913,7 +2913,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour indiquer si le camping utilise les cautions automatiques, renvoyer les cautions rattachées à un séjour, modifier, restituer et supprimer une ou plusieurs cautions avec leurs contrôles (statut, paiement remis en banque ou exporté, séjour annulé), et déclencher l'envoi du mail de restitution.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -7746,7 +7746,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour renvoyer toutes les cautions d'un client, créer une caution manuelle (types et montants par défaut du paramétrage, statut Validée, reçu), modifier, restituer et supprimer une ou plusieurs cautions avec leurs contrôles, et calculer les cautions à valider et à restituer pour les points à traiter du bandeau client.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -7782,7 +7782,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de l'onglet Cautions de la fiche client : tableau de toutes les cautions du client (recherche et tri, pastille Auto, mention Encaissée, statut avec progression), bouton « Nouvelle caution » et fenêtre « Saisie d'une caution », menu d'actions par ligne, actions sur une sélection, et fenêtres de modification, de restitution et de suppression.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
