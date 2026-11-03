@@ -1,6 +1,114 @@
 {
-  "generatedAt": "2026-11-03T08:03:28.869Z",
+  "generatedAt": "2026-11-03T16:09:08.277Z",
   "classique": [
+    {
+      "id": "40d8db15-623a-814f-ad47-e835d7451934",
+      "identifiant": "INA-1050",
+      "titre": "Spécificités des fiches TO/CE/VACAF",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-03T10:51:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Sp-cificit-s-des-fiches-TO-CE-VACAF-40d8db15623a814fad47e835d7451934"
+    },
+    {
+      "id": "40d8db15-623a-8183-b104-de09a632a438",
+      "identifiant": "INA-1049",
+      "titre": "Spécificités des fiches TO/CE/VACAF",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-03T10:50:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Sp-cificit-s-des-fiches-TO-CE-VACAF-40d8db15623a8183b104de09a632a438"
+    },
+    {
+      "id": "40d8db15-623a-81c0-93af-c259d3ca1854",
+      "identifiant": "INA-1048",
+      "titre": "Spécificités des fiches TO/CE/VACAF",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-03T10:50:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Sp-cificit-s-des-fiches-TO-CE-VACAF-40d8db15623a81c093afc259d3ca1854"
+    },
     {
       "id": "40c8db15-623a-812f-ac91-fcf4c7403f9b",
       "identifiant": "INA-1047",
@@ -3427,9 +3535,9 @@
       "titre": "Facturation partielle : email non envoyé et non mémorisé sur la fiche client",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": "Moyenne",
+      "priorisation": "Haute",
       "sprintIdeal": [
-        "JANVIER 27"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -28348,7 +28456,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<ul><li>Mise en place en méthode dynamique, similaire au fonctionnement FLEX.</li><li>Ajout dans le commentaire du montant de la différence tarifaire.&nbsp;</li><li>Ce message devra être toujours visible, y compris en cas d’erreur.&nbsp;</li><li>Envoi du commentaire à CTV dès que possible dans le planning de dev CTV (estimation mars). </li></ul>",
+      "explication": "<div><b>OTA</b> : Pouvoir configurer une d'augmentation de tarif pour les distributeurs pour éviter de dupliquer les tarifs de base dans NAXI</div><ul><li>Mise en place en méthode dynamique, similaire au fonctionnement FLEX =&gt; Envoyer l’information de l’augmentation brute dans un champ au postbooking, plutôt que le détail du calcul, à l’instar du Flex</li><li>Ajout dans le commentaire du montant de la différence tarifaire.&nbsp;</li><li>Ce message devra être toujours visible, y compris en cas d’erreur.&nbsp;</li><li>Envoi du commentaire à CTV dès que possible dans le planning de dev CTV. </li></ul>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -45628,7 +45736,7 @@
     ]
   },
   "counts": {
-    "classique": 831,
+    "classique": 834,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
