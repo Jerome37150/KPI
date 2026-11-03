@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-11-02T18:48:15.224Z",
+  "generatedAt": "2026-11-03T01:22:48.250Z",
   "classique": [
+    {
+      "id": "40c8db15-623a-812f-ac91-fcf4c7403f9b",
+      "identifiant": "INA-1047",
+      "titre": "Stats Yield : erreur sur les bases SQL si client d'un TO ayant des allotements",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-02T18:54:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Les stats yield affichent un taux d'occupation, un nombre de nuit vendues incohérent lorsque :&nbsp;<div><br></div><div>1. Créer une fiche client en type client = Tour Opérateur</div><div>2. Depuis l'onglet TO/CE/Résident, cliquer sur l'icône Allotement : créer plusieurs allotements sur une catégorie (catégorie A).</div><div>3. Créer une fiche client.&nbsp;</div><div>4. Sur cette fiche, créer un séjour. Affecter ce séjour au Tour Opérateur.</div><div>5. Affecter un emplacement au séjour. Attention, l'emplacement ne doit faire parti des allotements et doit être sur une catégorie différente (catégorie B).&nbsp;</div><div>6. Se rendre dans le menu Statistiques &gt; Stats Yield</div><div>7. Choisir la catégorie du séjour crée juste avant (catégorie B dans mon exemple). Lancer la recherche en prenant soin de saisir des dates arrivée/départ comprises sur les dates du séjour crée précédemment.&nbsp;</div><div><br></div><div><b><u>Résultat :&nbsp;</u></b></div><div><br></div><div>NAXI affiche un taux d'occupation à 200% et un nombre de nuit vendue à 2 alors que je ne peux en vendre qu'une seule.</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/97cfa514d9114724b9076f8f6c16966f\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b><u>Tests complémentaires</u></b> :&nbsp;</div><div><br></div><div>🔴Si on modifie le séjour en enlevant le TO associé et qu'on relance la recherche, la stat est correcte</div><div>🔴Si on laisse le séjour associé au TO mais qu'on supprime les allotements, la stat est correcte.</div><div><br></div><div><b>Reproduit sur démo Angélique en SQL - Version 19.02</b></div><div><b>Non reproduit sur démo HF - Version 19-03.</b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Stats-Yield-erreur-sur-les-bases-SQL-si-client-d-un-TO-ayant-des-allotements-40c8db15623a812fac91fcf4c7403f9b"
+    },
     {
       "id": "40c8db15-623a-8181-ac50-d28afa03a624",
       "identifiant": "INA-1046",
@@ -45596,7 +45628,7 @@
     ]
   },
   "counts": {
-    "classique": 830,
+    "classique": 831,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
