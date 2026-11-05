@@ -1,6 +1,178 @@
 {
-  "generatedAt": "2026-11-05T08:38:37.129Z",
+  "generatedAt": "2026-11-05T16:48:35.022Z",
   "classique": [
+    {
+      "id": "40f8db15-623a-8182-8771-eb245de28b42",
+      "identifiant": "INA-1057",
+      "titre": "Nouvelle US",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T16:31:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Nouvelle-US-40f8db15623a81828771eb245de28b42"
+    },
+    {
+      "id": "40f8db15-623a-8155-97d2-f671c3178462",
+      "identifiant": "INA-1056",
+      "titre": "Bloc Contrôle d’accès (onglet \"Autres Infos\")",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T16:30:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Bloc-Contr-le-d-acc-s-onglet-Autres-Infos-40f8db15623a815597d2f671c3178462"
+    },
+    {
+      "id": "40f8db15-623a-819c-89ec-c69397b43e80",
+      "identifiant": "INA-1055",
+      "titre": "Bloc Contrôle d’accès (onglet \"Autres Infos\")",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T16:29:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Bloc-Contr-le-d-acc-s-onglet-Autres-Infos-40f8db15623a819c89ecc69397b43e80"
+    },
+    {
+      "id": "40f8db15-623a-81ae-a372-e6fa9a0ae312",
+      "identifiant": "INA-1054",
+      "titre": "Bloc Contrôle d’accès (onglet \"Autres Infos\")",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T16:29:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Bloc-Contr-le-d-acc-s-onglet-Autres-Infos-40f8db15623a81aea372e6fa9a0ae312"
+    },
+    {
+      "id": "40f8db15-623a-8116-b29b-e0fb65bc08db",
+      "identifiant": "INA-1053",
+      "titre": "Augmenter la taille du champs \"N°TVA Intra\" sur les fiches clients",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T12:57:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Il est impossible dans NAXI de renseigner un n° de TVA Intracommunautaire à + de 13 chiffres.<div><br></div><div>Cela pose problème pour les sociétés étrangères, notamment les sociétés basées aux Pays bas. En effet leur n° de TVA est toujours à 14 chiffres.&nbsp;</div><div><u><br></u></div><div><u>Extrait d'une documentation trouvée sur le web :&nbsp;</u><br><br><i>Le numéro d'identification TVA néerlandais suit un format fixe qui s'aligne sur les normes de l'UE.</i></div><div><i>Exemple de numéro d'identification TVA : NL123456789B01</i></div><div><i>Voici la signification de chaque partie de ce numéro :</i></div><div><i>« NL » est le code pays des Pays-Bas.</i></div><div><i>« 123456789 » est un identifiant unique à 9 chiffres.</i></div><div><i>La partie « B01 » est composée d'une lettre fixe (toujours « B ») et d'un suffixe à 2 chiffres.</i></div><div><br></div><div><b>-&gt; Il faudrait analyser le nombre de caractères des n° de TVA Intra et augmenter le champs dans NAXI en fonction</b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Augmenter-la-taille-du-champs-N-TVA-Intra-sur-les-fiches-clients-40f8db15623a8116b29be0fb65bc08db"
+    },
     {
       "id": "40e8db15-623a-8130-87f3-e6a715fcd48b",
       "identifiant": "INA-1052",
@@ -105,7 +277,7 @@
       "id": "40d8db15-623a-8183-b104-de09a632a438",
       "identifiant": "INA-1049",
       "titre": "Spécificités des fiches TO/CE/VACAF",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1665,7 +1837,7 @@
       "id": "3fa8db15-623a-8109-83b5-c9b98362742b",
       "identifiant": "INA-1004",
       "titre": "Compteur",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1701,7 +1873,7 @@
       "id": "3fa8db15-623a-8129-972a-d7f34cf6807b",
       "identifiant": "INA-1003",
       "titre": "Compteur",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1737,7 +1909,7 @@
       "id": "3fa8db15-623a-81bc-b306-e28887693e45",
       "identifiant": "INA-1002",
       "titre": "Compteur",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1805,7 +1977,7 @@
       "id": "3fa8db15-623a-8141-aa53-cbaa198569e0",
       "identifiant": "INA-1000",
       "titre": "Commande diverse",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1841,7 +2013,7 @@
       "id": "3fa8db15-623a-81f6-bc00-d6ff464ef2ab",
       "identifiant": "INA-999",
       "titre": "Commande diverse",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1877,7 +2049,7 @@
       "id": "3fa8db15-623a-81e2-b790-cab1a260c344",
       "identifiant": "INA-998",
       "titre": "Commande diverse",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -1985,7 +2157,7 @@
       "id": "3fa8db15-623a-8150-852b-ef317c8fce1f",
       "identifiant": "INA-995",
       "titre": "Création nouveau séjour",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2201,7 +2373,7 @@
       "id": "3fa8db15-623a-81f3-b353-d0069ef8c0cd",
       "identifiant": "INA-989",
       "titre": "Onglet \"Commentaire\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2237,7 +2409,7 @@
       "id": "3fa8db15-623a-81a0-936a-ec3b84222920",
       "identifiant": "INA-988",
       "titre": "Onglet \"Facture\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2273,7 +2445,7 @@
       "id": "3fa8db15-623a-818c-9097-cbaadadadd6b",
       "identifiant": "INA-987",
       "titre": "Onglet \"Facture\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2309,7 +2481,7 @@
       "id": "3fa8db15-623a-81e6-b61a-e0c5f3befe4d",
       "identifiant": "INA-986",
       "titre": "Onglet \"Facture\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2345,7 +2517,7 @@
       "id": "3fa8db15-623a-8103-9454-fef963c454a4",
       "identifiant": "INA-985",
       "titre": "Action \"Voir le détail\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2381,7 +2553,7 @@
       "id": "3fa8db15-623a-818c-9a90-cd560cfcf325",
       "identifiant": "INA-984",
       "titre": "Action \"Voir le détail\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2417,7 +2589,7 @@
       "id": "3fa8db15-623a-8131-845e-c441b6478a16",
       "identifiant": "INA-983",
       "titre": "Action \"Voir le détail\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2453,7 +2625,7 @@
       "id": "3fa8db15-623a-81ae-a7f5-e3dc8ac9407b",
       "identifiant": "INA-982",
       "titre": "Action \"Modifier\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2489,7 +2661,7 @@
       "id": "3fa8db15-623a-81a7-9290-c2a59a1c3712",
       "identifiant": "INA-981",
       "titre": "Action \"Modifier\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2525,7 +2697,7 @@
       "id": "3fa8db15-623a-8105-994e-e527d649290e",
       "identifiant": "INA-980",
       "titre": "Action \"Modifier\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2561,7 +2733,7 @@
       "id": "3fa8db15-623a-8171-8e86-e8311c127ced",
       "identifiant": "INA-979",
       "titre": "Action \"Visualiser le bon de séjour\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2597,7 +2769,7 @@
       "id": "3fa8db15-623a-8143-996a-cc23c31d6851",
       "identifiant": "INA-978",
       "titre": "Action \"Visualiser le bon de séjour\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2633,7 +2805,7 @@
       "id": "3fa8db15-623a-8176-b58a-fe36f60771c4",
       "identifiant": "INA-977",
       "titre": "Action \"Visualiser le bon de séjour\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2777,7 +2949,7 @@
       "id": "3fa8db15-623a-81f3-a08f-e28022884e2f",
       "identifiant": "INA-973",
       "titre": "Action \"Copier\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2813,7 +2985,7 @@
       "id": "3fa8db15-623a-8185-9bda-f690c9caa4e3",
       "identifiant": "INA-972",
       "titre": "Action \"Copier\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2849,7 +3021,7 @@
       "id": "3fa8db15-623a-81ec-bc02-eb0578de28e5",
       "identifiant": "INA-971",
       "titre": "Action \"Copier\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2885,7 +3057,7 @@
       "id": "3fa8db15-623a-81d5-936e-e776b2c1dd9c",
       "identifiant": "INA-970",
       "titre": "Action \"Transférer\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2921,7 +3093,7 @@
       "id": "3fa8db15-623a-816a-9301-d973a6ec05a5",
       "identifiant": "INA-969",
       "titre": "Action \"Transférer\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
@@ -2957,7 +3129,7 @@
       "id": "3fa8db15-623a-81be-ae5e-eb1ad11b1b7e",
       "identifiant": "INA-968",
       "titre": "Action \"Transférer\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -2993,7 +3165,7 @@
       "id": "3fa8db15-623a-81e8-b761-ea1710ee753b",
       "identifiant": "INA-967",
       "titre": "Action \"Changer le statut\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -3029,7 +3201,7 @@
       "id": "3fa8db15-623a-81d7-b156-d079dfcb859e",
       "identifiant": "INA-966",
       "titre": "Action \"Changer le statut\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
@@ -3065,7 +3237,7 @@
       "id": "3fa8db15-623a-81f0-a17d-fcbede9c1457",
       "identifiant": "INA-965",
       "titre": "Action \"Changer le statut\"",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
@@ -3101,7 +3273,7 @@
       "id": "3fa8db15-623a-8165-b617-c0d4531fa704",
       "identifiant": "INA-964",
       "titre": "Onglet \"Cautions\" de la fiche séjour",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
@@ -3137,7 +3309,7 @@
       "id": "3fa8db15-623a-8168-8309-f6d918e693a8",
       "identifiant": "INA-963",
       "titre": "Onglet \"Cautions\" de la fiche séjour",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
@@ -3849,7 +4021,7 @@
       "id": "3f18db15-623a-816c-b5e5-ee5a4f61785b",
       "identifiant": "INA-943",
       "titre": "2 eme mail Inscription Pennylane non reçu",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
@@ -3881,7 +4053,7 @@
       "id": "3f08db15-623a-8178-8728-d065a3076b1a",
       "identifiant": "INA-942",
       "titre": "Blocage création de compte Pennylane",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [],
@@ -4020,9 +4192,7 @@
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [
-        "NOVEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -4039,9 +4209,7 @@
       "pointsBlocage": "",
       "explication": "Préparer une migration progressive de Laravel 6 vers Laravel 8.",
       "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -4301,7 +4469,7 @@
       "id": "3eb8db15-623a-8199-9100-c37577b34531",
       "identifiant": "INA-930",
       "titre": "E-reporting des séjours B2C",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -4337,7 +4505,7 @@
       "id": "3eb8db15-623a-8100-b1f2-c56649c98374",
       "identifiant": "INA-929",
       "titre": "E-reporting des ventes B2C anonymes",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
@@ -4373,7 +4541,7 @@
       "id": "3eb8db15-623a-81dc-8243-cc0163bd3de8",
       "identifiant": "INA-928",
       "titre": "E-Invoicing : synchroniser les statuts de cycle de vie des factures",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -4409,7 +4577,7 @@
       "id": "3eb8db15-623a-8159-8fb6-e910685c3515",
       "identifiant": "INA-927",
       "titre": "E-Invoicing : Transmettre la facture au format Factur-X vers l'API",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
@@ -4445,7 +4613,7 @@
       "id": "3eb8db15-623a-815e-96ef-f6b9d597166c",
       "identifiant": "INA-926",
       "titre": "Paramétrer le compte technique Chorus Pro dans NAXI",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
@@ -4481,7 +4649,7 @@
       "id": "3eb8db15-623a-818e-b9e4-eb90d719d231",
       "identifiant": "INA-925",
       "titre": "Implémenter l'authentification dynamique OAuth 2.0 (PISTE)",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -5445,7 +5613,7 @@
       "id": "3db8db15-623a-81ee-9522-db1455488c06",
       "identifiant": "INA-898",
       "titre": "Traitements automatiques",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -5481,7 +5649,7 @@
       "id": "3db8db15-623a-8119-bb0a-f97b2ae63567",
       "identifiant": "INA-897",
       "titre": "Traitements automatiques",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -5553,7 +5721,7 @@
       "id": "3d78db15-623a-81b1-a295-f18a292dc936",
       "identifiant": "INA-895",
       "titre": "E reporting : ventes en compte Naxi commerce",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -5589,7 +5757,7 @@
       "id": "3d78db15-623a-8106-8706-de0c7f456a47",
       "identifiant": "INA-894",
       "titre": "Erreur sur fonctionnalité Mot de passe Oublié depuis l'EC",
-      "classification": null,
+      "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
@@ -5661,7 +5829,7 @@
       "id": "3d68db15-623a-814c-8a30-e25c7f5f82b9",
       "identifiant": "INA-892",
       "titre": "Envoi des emails depuis le séjour : fonction des ménages qui décale l'index de la commande en cours",
-      "classification": null,
+      "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
@@ -6221,7 +6389,7 @@
       "id": "3d58db15-623a-813c-b91f-e689831ead91",
       "identifiant": "INA-876",
       "titre": "Fidélité sur le bandeau",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -6257,7 +6425,7 @@
       "id": "3d58db15-623a-81a0-8c87-ddc12e2c0cbd",
       "identifiant": "INA-875",
       "titre": "Fidélité sur le bandeau",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -6293,7 +6461,7 @@
       "id": "3d58db15-623a-81c4-9166-cece8df76fcd",
       "identifiant": "INA-874",
       "titre": "Fidélité sur le bandeau",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -6401,7 +6569,7 @@
       "id": "3d58db15-623a-819d-830b-e8b52b494691",
       "identifiant": "INA-871",
       "titre": "Boutons \"CA Total\" + \"Fiche\" du bandeau",
-      "classification": null,
+      "classification": "DEV avec CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -6577,7 +6745,7 @@
       "id": "3d48db15-623a-8129-a74f-edfa7a3918f5",
       "identifiant": "INA-866",
       "titre": "Ajout balise Google ADS",
-      "classification": null,
+      "classification": "DEV sans CC",
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
@@ -45800,7 +45968,7 @@
     ]
   },
   "counts": {
-    "classique": 836,
+    "classique": 841,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
