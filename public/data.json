@@ -1,6 +1,438 @@
 {
-  "generatedAt": "2026-11-05T16:48:35.022Z",
+  "generatedAt": "2026-11-05T22:25:18.283Z",
   "classique": [
+    {
+      "id": "40f8db15-623a-816f-875c-eeee8fdbfdc3",
+      "identifiant": "INA-1069",
+      "titre": "Action \"Envoyer un mail\" depuis le séjour",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T18:42:00.000Z",
+      "estimBack": 7,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Envoyer-un-mail-depuis-le-s-jour-40f8db15623a816f875ceeee8fdbfdc3"
+    },
+    {
+      "id": "40f8db15-623a-811c-b5d3-dc8e7ac63e44",
+      "identifiant": "INA-1068",
+      "titre": "Action \"Envoyer un mail\" depuis le séjour",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T18:41:00.000Z",
+      "estimBack": 0,
+      "estimFront": 7,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Envoyer-un-mail-depuis-le-s-jour-40f8db15623a811cb5d3dc8e7ac63e44"
+    },
+    {
+      "id": "40f8db15-623a-8128-b581-ef18f0a899fe",
+      "identifiant": "INA-1067",
+      "titre": "Action \"Envoyer un mail\" depuis le séjour",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T18:40:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Action-Envoyer-un-mail-depuis-le-s-jour-40f8db15623a8128b581ef18f0a899fe"
+    },
+    {
+      "id": "40f8db15-623a-81c1-bb88-fd7e51dc03b1",
+      "identifiant": "INA-1066",
+      "titre": "Inventaire (onglet \"Autres Infos\")",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T17:58:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Inventaire-onglet-Autres-Infos-40f8db15623a81c1bb88fd7e51dc03b1"
+    },
+    {
+      "id": "40f8db15-623a-81ea-932a-de1064ff8186",
+      "identifiant": "INA-1065",
+      "titre": "Inventaire (onglet \"Autres Infos\")",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T17:57:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Inventaire-onglet-Autres-Infos-40f8db15623a81ea932ade1064ff8186"
+    },
+    {
+      "id": "40f8db15-623a-8119-96b5-ccc8acbe7e5e",
+      "identifiant": "INA-1064",
+      "titre": "Inventaire (onglet \"Autres Infos\")",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T17:56:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Inventaire-onglet-Autres-Infos-40f8db15623a811996b5ccc8acbe7e5e"
+    },
+    {
+      "id": "40f8db15-623a-81c7-805b-e09ed6f4b8b9",
+      "identifiant": "INA-1063",
+      "titre": "Statut Ménage dans Bandeau Séjour",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T17:55:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Statut-M-nage-dans-Bandeau-S-jour-40f8db15623a81c7805be09ed6f4b8b9"
+    },
+    {
+      "id": "40f8db15-623a-81d9-a127-e7b02ad2a3f9",
+      "identifiant": "INA-1062",
+      "titre": "Statut Ménage dans Bandeau Séjour",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T17:54:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Statut-M-nage-dans-Bandeau-S-jour-40f8db15623a81d9a127e7b02ad2a3f9"
+    },
+    {
+      "id": "40f8db15-623a-811a-8b8d-d3e2ede1256a",
+      "identifiant": "INA-1061",
+      "titre": "Statut Ménage dans Bandeau Séjour",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T17:53:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Statut-M-nage-dans-Bandeau-S-jour-40f8db15623a811a8b8dd3e2ede1256a"
+    },
+    {
+      "id": "40f8db15-623a-818d-8225-dbd93919d867",
+      "identifiant": "INA-1060",
+      "titre": "Contrôle d'accès dans Bandeau Client",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T17:49:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Contr-le-d-acc-s-dans-Bandeau-Client-40f8db15623a818d8225dbd93919d867"
+    },
+    {
+      "id": "40f8db15-623a-8192-867a-e5a56ac7cf2e",
+      "identifiant": "INA-1059",
+      "titre": "Contrôle d'accès dans Bandeau Client",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T17:49:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Contr-le-d-acc-s-dans-Bandeau-Client-40f8db15623a8192867ae5a56ac7cf2e"
+    },
+    {
+      "id": "40f8db15-623a-8127-810a-cf2e1c09d19b",
+      "identifiant": "INA-1058",
+      "titre": "Contrôle d'accès dans Bandeau Client",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-05T17:48:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Contr-le-d-acc-s-dans-Bandeau-Client-40f8db15623a8127810acf2e1c09d19b"
+    },
     {
       "id": "40f8db15-623a-8182-8771-eb245de28b42",
       "identifiant": "INA-1057",
@@ -2701,7 +3133,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -45968,7 +46400,7 @@
     ]
   },
   "counts": {
-    "classique": 841,
+    "classique": 853,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
