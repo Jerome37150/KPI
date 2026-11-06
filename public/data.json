@@ -1,6 +1,114 @@
 {
-  "generatedAt": "2026-11-06T09:50:33.846Z",
+  "generatedAt": "2026-11-06T16:59:03.042Z",
   "classique": [
+    {
+      "id": "4108db15-623a-81f9-aa05-fb5fb2058031",
+      "identifiant": "INA-1073",
+      "titre": "Onglet \"Echéancier\"",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-06T16:16:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Ech-ancier-4108db15623a81f9aa05fb5fb2058031"
+    },
+    {
+      "id": "4108db15-623a-8178-a824-e7727aa3bb42",
+      "identifiant": "INA-1072",
+      "titre": "Onglet \"Echéancier\"",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-06T16:15:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Ech-ancier-4108db15623a8178a824e7727aa3bb42"
+    },
+    {
+      "id": "4108db15-623a-812d-a391-d8ba5408a246",
+      "identifiant": "INA-1071",
+      "titre": "Onglet \"Echéancier\"",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-06T16:15:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Onglet-Ech-ancier-4108db15623a812da391d8ba5408a246"
+    },
     {
       "id": "4108db15-623a-817a-a091-e91dea859d4c",
       "identifiant": "INA-1070",
@@ -937,7 +1045,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "L'importation des codes/cartes des résidents n'aboutit pas lorsque :&nbsp;<div><br></div><div>1. S'assurer d'être en SQL</div><div>2. Se rendre sur la saison 2027 dans le menu Administration &gt; NAXICOD : Import exercice précédent</div><div>3. Choisir dans la combo la saison 2026.</div><div>4. Lancer la recherche : NAXI mouline et la recherche n'aboutit jamais&nbsp;</div><div><br></div><div>Après analyse sur le serveur SQL du groupe Garennes62 - La requête semble non optimisée et passe commande après commande :&nbsp;</div><div><br></div><div><i>SELECT `cmid`,`cmcodsoc`,`cmcodexe`,`cmclient`,`cmtypcom`,`cmdatcom`,`cmtarif`,`cmetat`,`cmttc`,`cmbrut`,`cmrem`,`cmregle`,`cmdatdeb`,`cmdatfin`,`cmtypsej`,`cmstatut`,`cmto`,`cmto_allot`,`cmref`,`cmpermut`,`cmresa`,`cmtexte`,`cmmtcli`,`cmto_mt`,`cmto_regle`,`cmmtbase`,`cmmtsuppl`,`cmmttax`,`cmtofact`,`cmmtprod`,`cmmtfrais`,`cmfamille`,`cmaccdem`,`cmmtassu`,`cmdatefact`,`cmnumfac`,`cmeche`,`cmtotfact`,`cmdatmod`,`cmopecre`,`cmopmod`,`cmresaweb`,`cmto_rem`,`cmcomloc`,`cmrepttc`,`cmtrack`,`cmcodpro`,`cmautres`,`cm_condpermut`,`cmempl`,`cmheudep`,`cmfidaqui`,`cmfiduti`,`cmdatval`,`cmpromoid`,`cmvacaf`,`cmcampingcheque`,`cmid_crmsh`,`cmcom2`,`cmmajoration`,`cmverstarif`,`cmtypefl`,`cmexpcrm`,`cmproductname`,`cmdestination`,`cmdetailcalc`,`cmyield`,`cmcontratassur`,`cmestimateid`,`cmexpsrv`,`cmsuppl`,`cmcateg`,`cmarrivtard`,`cmprecheck`,`cmmtbaseHT`,`cmcptfid`,`cmcptfiduti`,`cm_canal`,`cm_idcaution`,`cmnumdevis`,`cmnbecheNS`,`cmmthorspromo`,`cmmtpromo`,`compte_commerce_bloque` FROM `command` WHERE `cmcodsoc`&gt;'GAR62' OR `cmcodsoc`='GAR62' AND (`cmcodexe`&gt;'2027' OR `cmcodexe`='2027' AND `cmclient`&gt;53336 ) ORDER BY 2 , 3 , 4 , 1 , 17 , 63 , 70 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 18 , 19 , 20 , 21 , 23 , 24 , 25 , 26 , 27 , 28 , 29 , 30 , 31 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , 45 , 46 , 47 , 48 , 50 , 51 , 52 , 53 , 54 , 55 , 56 , 57 , 58 , 60 , 61 , 62 , 64 , 65 , 67 , 68 , 69 , 72 , 73 , 74 , 75 , 76 , 77 , 78 , 79 , 80 , 81 , 82 , 83 , 84</i></div><div><br></div><div><b>Reproduit sur bdd Ciela en 18.36 / Non reproduit sur ma démo HF en 19-03.</b></div><div><b>Le camping ayant signalé le soucis est en SQL 18-30.</b></div><div><br></div><div>Si besoin de remonter leur base de données pour tester, n'hésitez pas :)</div>",
+      "explication": "L'importation des codes/cartes des résidents n'aboutit pas lorsque :&nbsp;<div>1. S'assurer d'être en SQL</div><div>2. Se rendre sur la saison 2027 dans le menu Administration &gt; NAXICOD : Import exercice précédent</div><div>3. Choisir dans la combo la saison 2026.</div><div>4. Lancer la recherche : NAXI mouline et la recherche n'aboutit jamais&nbsp;</div><div><br></div><div>Après analyse sur le serveur SQL du groupe Garennes62 - La requête semble non optimisée et passe commande après commande :&nbsp;</div><div><i>SELECT `cmid`,`cmcodsoc`,`cmcodexe`,`cmclient`,`cmtypcom`,`cmdatcom`,`cmtarif`,`cmetat`,`cmttc`,`cmbrut`,`cmrem`,`cmregle`,`cmdatdeb`,`cmdatfin`,`cmtypsej`,`cmstatut`,`cmto`,`cmto_allot`,`cmref`,`cmpermut`,`cmresa`,`cmtexte`,`cmmtcli`,`cmto_mt`,`cmto_regle`,`cmmtbase`,`cmmtsuppl`,`cmmttax`,`cmtofact`,`cmmtprod`,`cmmtfrais`,`cmfamille`,`cmaccdem`,`cmmtassu`,`cmdatefact`,`cmnumfac`,`cmeche`,`cmtotfact`,`cmdatmod`,`cmopecre`,`cmopmod`,`cmresaweb`,`cmto_rem`,`cmcomloc`,`cmrepttc`,`cmtrack`,`cmcodpro`,`cmautres`,`cm_condpermut`,`cmempl`,`cmheudep`,`cmfidaqui`,`cmfiduti`,`cmdatval`,`cmpromoid`,`cmvacaf`,`cmcampingcheque`,`cmid_crmsh`,`cmcom2`,`cmmajoration`,`cmverstarif`,`cmtypefl`,`cmexpcrm`,`cmproductname`,`cmdestination`,`cmdetailcalc`,`cmyield`,`cmcontratassur`,`cmestimateid`,`cmexpsrv`,`cmsuppl`,`cmcateg`,`cmarrivtard`,`cmprecheck`,`cmmtbaseHT`,`cmcptfid`,`cmcptfiduti`,`cm_canal`,`cm_idcaution`,`cmnumdevis`,`cmnbecheNS`,`cmmthorspromo`,`cmmtpromo`,`compte_commerce_bloque` FROM `command` WHERE `cmcodsoc`&gt;'GAR62' OR `cmcodsoc`='GAR62' AND (`cmcodexe`&gt;'2027' OR `cmcodexe`='2027' AND `cmclient`&gt;53336 ) ORDER BY 2 , 3 , 4 , 1 , 17 , 63 , 70 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 18 , 19 , 20 , 21 , 23 , 24 , 25 , 26 , 27 , 28 , 29 , 30 , 31 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , 45 , 46 , 47 , 48 , 50 , 51 , 52 , 53 , 54 , 55 , 56 , 57 , 58 , 60 , 61 , 62 , 64 , 65 , 67 , 68 , 69 , 72 , 73 , 74 , 75 , 76 , 77 , 78 , 79 , 80 , 81 , 82 , 83 , 84</i></div><div><br></div><div><b>Reproduit sur bdd Ciela en 18.36 / Non reproduit sur ma démo HF en 19-03.</b></div><div><b>Le camping ayant signalé le soucis est en SQL 18-30.</b></div><div>Si besoin de remonter leur base de données pour tester, n'hésitez pas :)</div>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -3357,7 +3465,7 @@
       ],
       "client": "",
       "dateCreation": "2026-10-15T15:08:00.000Z",
-      "estimBack": 14,
+      "estimBack": 2,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -25616,7 +25724,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Mailys m’a contacté afin de me signaler des incohérences sur le CRM du camping LAC CARNAC.\nAprès recherche il s’avère que nous envoyons dans le CRM un prix erroné sur les suppléments qui sont paramétrés en “Prix modifiable”",
+      "explication": "Mailys m’a contacté afin de me signaler des incohérences sur le CRM du camping LAC CARNAC.\nAprès recherche il s’avère que nous envoyons dans le CRM un prix erroné sur les suppléments qui sont paramétrés en “Prix modifiable”<br><br><br>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -46436,7 +46544,7 @@
     ]
   },
   "counts": {
-    "classique": 854,
+    "classique": 857,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
