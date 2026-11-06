@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-06T02:36:53.965Z",
+  "generatedAt": "2026-11-06T09:50:33.846Z",
   "classique": [
+    {
+      "id": "4108db15-623a-817a-a091-e91dea859d4c",
+      "identifiant": "INA-1070",
+      "titre": "WS_NAXITO : remplacer l'URL d'accès à WS_RESA",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Réservation"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-06T08:39:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Remplacer l'url de PRODUCTION d'accès à WS_RESA (webservice windev) qui est \"resa02.inaxel.com\" par \"resa01.inaxel.com\"<div>&nbsp;</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/WS_NAXITO-remplacer-l-URL-d-acc-s-WS_RESA-4108db15623a817aa091e91dea859d4c"
+    },
     {
       "id": "40f8db15-623a-816f-875c-eeee8fdbfdc3",
       "identifiant": "INA-1069",
@@ -46400,7 +46436,7 @@
     ]
   },
   "counts": {
-    "classique": 853,
+    "classique": 854,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
