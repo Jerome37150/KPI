@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T09:41:27.195Z",
+  "generatedAt": "2026-11-09T20:03:37.480Z",
   "classique": [
     {
       "id": "4108db15-623a-81f9-aa05-fb5fb2058031",
@@ -724,14 +724,16 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
       "client": "",
       "dateCreation": "2026-11-05T12:57:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -741,7 +743,9 @@
       "pointsBlocage": "",
       "explication": "Il est impossible dans NAXI de renseigner un n° de TVA Intracommunautaire à + de 13 chiffres.<div><br></div><div>Cela pose problème pour les sociétés étrangères, notamment les sociétés basées aux Pays bas. En effet leur n° de TVA est toujours à 14 chiffres.&nbsp;</div><div><u><br></u></div><div><u>Extrait d'une documentation trouvée sur le web :&nbsp;</u><br><br><i>Le numéro d'identification TVA néerlandais suit un format fixe qui s'aligne sur les normes de l'UE.</i></div><div><i>Exemple de numéro d'identification TVA : NL123456789B01</i></div><div><i>Voici la signification de chaque partie de ce numéro :</i></div><div><i>« NL » est le code pays des Pays-Bas.</i></div><div><i>« 123456789 » est un identifiant unique à 9 chiffres.</i></div><div><i>La partie « B01 » est composée d'une lettre fixe (toujours « B ») et d'un suffixe à 2 chiffres.</i></div><div><br></div><div><b>-&gt; Il faudrait analyser le nombre de caractères des n° de TVA Intra et augmenter le champs dans NAXI en fonction</b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -756,7 +760,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -773,7 +779,9 @@
       "pointsBlocage": "",
       "explication": "Depuis la 19-01, en théorie les revenus locatifs doivent générer un avoir. Or si la facture n'est pas générée de suite, c'est une facture qui sort et non pas un avoir :<div><br></div><div>1. S'assurer d'être en 19-01</div><div>2. Créer un séjour résident et autoriser la gestion locative</div><div>3. Créer le séjour d'un sous locataire</div><div>4. Revenir sur la fiche du résident dans l'onglet TO/CE/Résident</div><div>&nbsp;5. Cliquer sur Générer le revenu locatif.</div><div>6. La fenêtre de facture s'ouvre, fermer la fenêtre</div><div><br></div><div><b><u>Résultat :&nbsp;</u></b></div><div><br></div><div>Dans l'onglet Prestations, la ligne du revenu locatif s'est bien générer mais aucune facture n'a été éditée.</div><div>Double cliquer sur la ligne du revenu, cliquer sur l'icône de facturation</div><div>NAXI génère alors une facture et non pas un avoir</div><div><br></div><div><b>Reproduit sur démo Angélique en 19.03 - HF</b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -788,7 +796,9 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Réservation"
@@ -805,7 +815,9 @@
       "pointsBlocage": "",
       "explication": "Bonjour,<div><br></div><div>je vais lancer une campagne TikTok Ads le 1er Janvier 2027 pour le camping la Côte d'Argent à Hourtin : https://www.camping-cote-dargent.com/</div><div><br></div><div><b><i>Codsoc du camping : coteargent</i></b></div><div><br></div><div>Pouvez vous mettre en place les balises ci dessous sur la réservation ?&nbsp;</div><div><br></div><div>Sur toutes les pages de la réservation :</div><div><br></div><div>&lt;!-- TikTok Pixel Code Start --&gt;</div><div>&lt;script&gt;</div><div>!function (w, d, t) {</div><div>&nbsp; w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=[\"page\",\"track\",\"identify\",\"instances\",\"debug\",\"on\",\"off\",\"once\",\"ready\",\"alias\",\"group\",\"enableCookie\",\"disableCookie\",\"holdConsent\",\"revokeConsent\",\"grantConsent\"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i&lt;ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(</div><div>var e=ttq._i[t]||[],n=0;n&lt;ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r=\"https://analytics.tiktok.com/i18n/pixel/events.js\",o=n&amp;&amp;n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement(\"script\")</div><div>;n.type=\"text/javascript\",n.async=!0,n.src=r+\"?sdkid=\"+e+\"&amp;lib=\"+t;e=document.getElementsByTagName(\"script\")[0];e.parentNode.insertBefore(n,e)};</div><div><br></div><div><br></div><div>&nbsp; ttq.load('DBLFVBRC77UF91064V70');</div><div>&nbsp; ttq.page();</div><div>}(window, document, 'ttq');</div><div>&lt;/script&gt;</div><div>&lt;!-- TikTok Pixel Code End --&gt;</div><div><br></div><div><br></div><div>Sur la page de confirmation de la réservation (en plus de la balise ci dessus) : merci de bien modifier la variable 'value' avec la valeur réelle de la réservation et la variable 'currency'</div><div><br></div><div>ttq.track('Purchase', {</div><div>&nbsp; &nbsp; \"value\": \"&lt;content_value&gt;\",&nbsp;</div><div>&nbsp; &nbsp; \"currency\": \"&lt;content_currency&gt;\"&nbsp;</div><div>});</div><div><br></div><div><br></div><div>Merci pour votre retour.</div><div>Bien cordialement,</div><div>Marie PELARD Responsable SEA / Google ads, Facebook ads, Bing ads&nbsp;</div><div>marie@francecom.fr</div><div>02 51 80 51 60 / 06 14 15 48 66</div><div>8 rue des bruyères - bâtiment B - 44400 REZÉ&nbsp;</div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -909,7 +921,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "droit des opérateurs sur les séjours TO",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -1357,7 +1369,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "- Certains camping ont le message d'erreur à l'ouverture de NAXI, de la récupération de la configuration du compte client -&gt; redémarrage de SystemAPI a fait en sorte que plus de message d'erreur mais une optimisation est à faire car saturation trop fréquente (à voir avec Ludwig)<div><br></div><div>- Certains ont de réservations non redescendus -&gt; paiement PAYZEN non validé (on a pas de retour de paiement), les résas sont sur nos serveur mais avec un SogOK à 0 =&gt; <font color=\"#16a34a\"><b>OK corrigé</b></font></div><div><br></div><div>- Certains ont des soucis avec NAXI Réservation (peut être lié au soucis de Payzen) =&gt;<font color=\"#16a34a\"> <b>OK corrigé</b></font></div><div><font color=\"#16a34a\"><b><br></b></font></div><div><font color=\"#18181b\">- Erreur sur WS NAXITO suite retour OTA VacancesSelect : While the WSDL now works, we get a different error when attempting to fetch destinations.</font></div><div><span style=\"color: rgb(24, 24, 27);\">The \"getDestination\" function gives us the following response:&nbsp;</span></div><div><font color=\"#18181b\">\"getDestination SQL error #3. Please contact Inaxel technical support. java.sql.SQLException: java.lang.NullPointerException\" =&gt; </font><b style=\"\"><font color=\"#ea580c\">A regarder</font></b></div><div><font color=\"#18181b\"><br></font></div><div><font color=\"#18181b\">- Paiements PAYZEN non validé et donc resas qui ne redescendent pas sur le camping LA ROULETTA&nbsp;=&gt; </font><b style=\"\"><font color=\"#16a34a\">OK corrigé - Pb de config des règles de notification (http au lieu de https sur l'une d'entre elle)</font></b></div><div><br></div><div>- Erreur sur la récupération des formulaires d'info de CTV /&nbsp; <b><font color=\"#16a34a\">=&gt; A regarder (OK voir commentaire)</font></b></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c851cdb4943c41b2b15e6b6ae49c9dea\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><font color=\"#18181b\"></font></div><div><br></div>",
+      "explication": "- Certains camping ont le message d'erreur à l'ouverture de NAXI, de la récupération de la configuration du compte client -&gt; redémarrage de SystemAPI a fait en sorte que plus de message d'erreur mais une optimisation est à faire car saturation trop fréquente (à voir avec Ludwig)<div><br></div><div>- Certains ont de réservations non redescendus -&gt; paiement PAYZEN non validé (on a pas de retour de paiement), les résas sont sur nos serveur mais avec un SogOK à 0 =&gt; <font color=\"#16a34a\"><b>OK corrigé</b></font></div><div><br></div><div>- Certains ont des soucis avec NAXI Réservation (peut être lié au soucis de Payzen) =&gt;<font color=\"#16a34a\"> <b>OK corrigé</b></font></div><div><font color=\"#16a34a\"><b><br></b></font></div><div><font color=\"#18181b\">- Erreur sur WS NAXITO suite retour OTA VacancesSelect : While the WSDL now works, we get a different error when attempting to fetch destinations.</font></div><div><span style=\"color: rgb(24, 24, 27);\">The \"getDestination\" function gives us the following response:&nbsp;</span></div><div><font color=\"#18181b\">\"getDestination SQL error #3. Please contact Inaxel technical support. java.sql.SQLException: java.lang.NullPointerException\" =&gt;&nbsp;<font color=\"#ea580c\"><b>l'erreur n'est pas reproduit mais voir piste en commentaire</b></font></font></div><div><font color=\"#18181b\"><br></font></div><div><font color=\"#18181b\">- Paiements PAYZEN non validé et donc resas qui ne redescendent pas sur le camping LA ROULETTA&nbsp;=&gt; </font><b style=\"\"><font color=\"#16a34a\">OK corrigé - Pb de config des règles de notification (http au lieu de https sur l'une d'entre elle)</font></b></div><div><br></div><div>- Erreur sur la récupération des formulaires d'info de CTV /&nbsp; <b><font color=\"#16a34a\">=&gt; A regarder (OK voir commentaire)</font></b></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c851cdb4943c41b2b15e6b6ae49c9dea\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><font color=\"#18181b\"></font></div><div><br></div>",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -2789,7 +2801,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de l'onglet « Remises et fidélité » de la vue séjour : bloc Remises (ajout, modification et retrait des remises du camping), case des promotions automatiques, bloc Fidélité selon le programme du camping (points Naxi Réservation ou remise CTV avec sa fenêtre), recalcul immédiat des montants du séjour et blocage sur un séjour facturé ou annulé.",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -2825,7 +2837,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour charger les remises du camping et celles du séjour, appliquer les remises automatiques, enregistrer l'ajout, la modification et le retrait des remises manuelles, calculer leurs montants, gérer le paramètre des promotions automatiques et la fidélité du programme du camping (points Naxi Réservation ou remise CTV), puis recalculer le montant et le reste à payer du séjour, en refusant toute modification sur un séjour facturé ou annulé.",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -3005,7 +3017,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de l'onglet « Facture » de la vue séjour : tableau des factures et des avoirs du séjour (avoir sous la facture annulée, type barré), menu d'actions et clic sur la ligne, pied avec le montant déjà facturé, bouton « + Ajouter » vers la facturation d'acompte ou partielle, et ouverture des fenêtres communes (Facturation, duplicata, avoir, PDF).",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -3041,7 +3053,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour charger les factures et les avoirs du séjour avec leur lien d'annulation, calculer le montant déjà facturé, créer les factures d'acompte et partielles du séjour avec leurs contrôles, appliquer les avoirs au séjour (remise « à facturer ») et tenir à jour l'état de facturation du séjour.",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -3113,7 +3125,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'action « Voir le détail » du menu « + Actions » du séjour et la fenêtre « Détails de la réservation » : récapitulatif du séjour en lecture seule (lignes, détail des calculs affiché directement, prise en charge d'un organisme), informations de la réservation (Réf., n° allocataire VACAF, canal de vente, création et modification) et saisie de la Réf. et du n° allocataire VACAF.",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -3149,7 +3161,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour fournir le récapitulatif du séjour calculé à partir de son prix enregistré (détail de l'hébergement, des options, des taxes et des remises, prise en charge d'un organisme) et les informations de la réservation (Réf., n° allocataire VACAF, canal de vente, création et modification), et pour enregistrer la saisie de la Réf. et du n° allocataire VACAF.",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -3221,7 +3233,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'action « Modifier » du menu « + Actions » du séjour et la fenêtre « Modifier le séjour » : bloc Dates & hébergement pré-rempli avec le séjour (fonctionnement commun avec « Nouveau séjour »), cas du séjour sans emplacement, du séjour facturé en entier ou en partie, enregistrement direct et mise à jour du bandeau du séjour.",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -3257,7 +3269,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour charger le séjour à modifier (dates, hébergement, changements d'emplacement, cadenas, tarif, organisme, état de facturation), contrôler la modification selon ses règles (séjour annulé, facturé en entier ou en partie, disponibilités), l'enregistrer et recalculer les options, les remises, le montant, le reste à payer et l'occupation des emplacements.",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -3437,7 +3449,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de l'onglet « Autres infos » de la vue séjour : dossier du séjour (code de paiement du solde à copier, traitement automatique de la validation), origine du séjour avec la fenêtre « Récapitulatif de la réservation », bloc Inventaire, bloc Contrôle d'accès selon la licence du camping et tableau de l'historique du séjour.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -3473,7 +3485,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour charger les informations complémentaires du séjour (code de paiement du solde, traitement automatique de la validation, origine du séjour et récapitulatif de la réservation en ligne, rendez-vous d'inventaire, accès au contrôle d'accès selon la licence) et pour tenir l'historique du séjour, en enregistrant chaque modification et en exécutant le traitement automatique à la validation.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -8985,7 +8997,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Mettre en place les points d'accès et les traitements serveur pour lister l'historique des courriers d'un client, ouvrir les documents envoyés, envoyer un e-mail (modèle ou texte libre, avec pièces jointes) ou un SMS (modèle ou texte libre) en les enregistrant dans l'historique, et supprimer définitivement un courrier.",
+      "explication": "Mettre en place les points d'accès et les traitements serveur pour lister l'historique des courriers d'un client, ouvrir les documents envoyés, envoyer un e-mail ou un SMS relatif au client, à un séjour, à une échéance (ou à un compteur pour l'e-mail) à partir des modèles remplis du camping ou en texte libre, avec documents générés et pièces jointes, en l'enregistrant dans l'historique sauf choix contraire, et supprimer définitivement un courrier.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -9021,7 +9033,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Développer l'interface de l'onglet Communication de la fiche client : historique des courriers avec tri, cellule des documents envoyés, ouverture directe des documents, fenêtres d'envoi d'un e-mail et d'un SMS (modèle par défaut ou texte libre) et fenêtre de suppression d'un courrier.",
+      "explication": "Développer l'interface de l'onglet Communication de la fiche client : historique des courriers avec tri, cellule des documents envoyés, ouverture directe des documents, fenêtres d'envoi d'un e-mail et d'un SMS (relatif au client, à un séjour ou à une échéance, modèle ou texte libre, documents et pièces jointes) et fenêtre de suppression d'un courrier.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -14827,7 +14839,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p><br></p>",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour charger les paiements et remboursements du séjour avec leur remise en banque et leur export en comptabilité, calculer le total encaissé, enregistrer un nouveau règlement imputé au séjour, et appliquer au séjour les modifications, répartitions et suppressions communes au grand livre, en refusant la modification et la suppression d'un paiement remis en banque ou exporté.",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -15259,7 +15271,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Concevoir et exécuter les tests fonctionnels et d'intégration pour valider l'affichage du calendrier, la précision des données d'occupation, et la navigation dans le détail mensuel (arrivées/départs par jour).</p>",
+      "explication": "Développer la fenêtre « Facturation » et ses points d'entrée (onglet Prestations en individuel et en masse, « + Actions › Facturer » du séjour, onglet Facture, onglet Échéancier) : bandeau « Facturé à » et adresse de facturation, détail de la facture par prestation, options de la facturation en masse, modes facture d'acompte / partielle / d'échéance, mode de génération (e-mail, impression), proforma et boutons avec bulles d'aide.",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -15325,7 +15337,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p>Rédiger et exécuter les scénarios de tests fonctionnels et techniques pour la fenêtre 'Liste transactions', couvrant l'ensemble des fonctionnalités (impression, modification/suppression de paiement, filtres, navigation vers fiche client, etc.).</p>",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour préparer la facturation (destinataires, adresse, détail des lignes, totaux, prestations concernées par chaque option), calculer les factures individuelles, en masse, d'acompte, partielles et d'échéance avec leurs contrôles, générer les factures numérotées et la proforma, les envoyer par e-mail ou les imprimer, et mettre à jour l'état de facturation des prestations.",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -15959,7 +15971,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<p><br></p>",
+      "explication": "Développer l'interface de l'onglet « Paiements » de la vue séjour : tableau des paiements et remboursements du séjour, n° de remise sous le montant, menu d'actions et clic sur la ligne, pied avec le total encaissé, bouton « + Ajouter » vers « Nouveau règlement », et ouverture des fenêtres communes au grand livre (modifier, répartir, supprimer) avec leur verrouillage pour un paiement remis en banque ou exporté.",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
