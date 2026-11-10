@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-11-10T10:22:58.564Z",
+  "generatedAt": "2026-11-10T17:59:33.803Z",
   "classique": [
+    {
+      "id": "4148db15-623a-819b-bebb-d387c4d2bc60",
+      "identifiant": "INA-1075",
+      "titre": "Suppression de l'URL - Sécuriser l'envoi des données à Campez couvert",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-10T15:48:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite à l'ETU-19 c'est la solution n°2 qui a été retenue.<div><br></div><div>L'url qui pose problème est :&nbsp;</div><div><br></div><div>http://resa8.inaxel.com/EVORESA_WEB/dataresa/naxipremium/assurances_gritchen.php</div><div><br></div><div>Les 2 principaux problèmes de cette url :&nbsp;</div><div>&nbsp;1 - elle pointe sur le serveur de PREPROD \"resa8\" alors quelle sert pour la PRODUCTION</div><div>&nbsp;2 - elle est hébergée sur un serveur WEBDEV qu'on cherche à supprimer</div><div><br></div><div>SOLUTION :&nbsp;</div><div><br></div><div>&nbsp;- Développer le script \"assurances_gritchen.php\" et l'exposer sur un vrai serveur de PRODUCTION (PartnersApi, par exemple)</div><div>&nbsp; =&gt; le développement est simple car il s'agit juste d'un script de redirection des données par l'intermédiaire d'un objet CURL php.</div><div>&nbsp;- Modifier l'url dans NaxiGestion par quelque chose comme :&nbsp;</div><div>&nbsp; =&gt; POST https://partners-api.inaxel.com/services/partners/gritchen/insurance</div><div><br>Suite aux développements effectués, il faut supprimer l'URL <b>http://resa8.inaxel.com/EVORESA_WEB/dataresa/naxipremium/assurances_gritchen.php</b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Suppression-de-l-URL-S-curiser-l-envoi-des-donn-es-Campez-couvert-4148db15623a819bbebbd387c4d2bc60"
+    },
+    {
+      "id": "4148db15-623a-815e-a897-d0b3f9e4c61c",
+      "identifiant": "INA-1074",
+      "titre": "RFE : ajout du code service dans la fiche client",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-10T15:05:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>Dans le cadre de la RFE, nous devons nous mettre au norme concernant le circuit B2G.&nbsp;</div><div>Il est obligatoire dans la plupart des services de collectivité de mentionner le code service destinataire.&nbsp;</div><div>l'ajout de ce nouveau champ servira également pour mentionner le \"suffixe\" =&gt; c'est usuellement un code service mais il est plus dédié aux strucutures privées qui vont avoir une adresse de routage SIREN_SUFFIXE</div><div><br></div><div><br></div><div><br></div><br>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/RFE-ajout-du-code-service-dans-la-fiche-client-4148db15623a815ea897d0b3f9e4c61c"
+    },
     {
       "id": "4108db15-623a-81f9-aa05-fb5fb2058031",
       "identifiant": "INA-1073",
@@ -2324,9 +2392,7 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "NOVEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -2343,9 +2409,7 @@
       "pointsBlocage": "",
       "explication": "Entant que gérant de camping je souhaite pouvoir paramétrer mon adresse électronique afin d'acheminer automatiquement la facture électronique vers la bonne plateforme de réception et le bon service de l'entreprise.",
       "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3557,7 +3621,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'action « Copier » du menu « + Actions » du séjour et la fenêtre « Copier le séjour » : mode de création (à la suite, aux mêmes dates, option pour l'année prochaine), séjour d'origine, dates et emplacements du nouveau séjour selon le mode avec leurs messages de blocage, récapitulatif, puis retour sur les Prestations où les copies apparaissent en option.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -3593,7 +3657,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour proposer les dates, les catégories, les emplacements libres et les bornes de la saison suivante selon le mode de copie, calculer le montant de chaque copie, et créer les séjours copiés en option avec les suppléments, participants, véhicules, animaux et commentaire du séjour d'origine, en refusant une copie sur un emplacement occupé ou hors saison.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -29276,7 +29340,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<div><b>OTA</b> : Pouvoir configurer une d'augmentation de tarif pour les distributeurs pour éviter de dupliquer les tarifs de base dans NAXI</div><ul><li>Mise en place en méthode dynamique, similaire au fonctionnement FLEX =&gt; Envoyer l’information de l’augmentation brute dans un champ au postbooking, plutôt que le détail du calcul, à l’instar du Flex</li><li>Ajout dans le commentaire du montant de la différence tarifaire.&nbsp;</li><li>Ce message devra être toujours visible, y compris en cas d’erreur.&nbsp;</li><li>Envoi du commentaire à CTV dès que possible dans le planning de dev CTV. </li></ul>",
+      "explication": "<div><b>OTA</b> : Pouvoir configurer une d'augmentation de tarif pour les distributeurs pour éviter de dupliquer les tarifs de base dans NAXI</div><ul><li>Mise en place en méthode dynamique, similaire au fonctionnement FLEX =&gt; Envoyer l’information de l’augmentation brute dans un champ au postbooking, plutôt que le détail du calcul, à l’instar du Flex</li><li>Ajout dans le commentaire du montant de la différence tarifaire.&nbsp;</li><li>Ce message devra être toujours visible, y compris en cas d’erreur.&nbsp;</li><li>Envoi du commentaire à CTV dès que possible dans le planning de dev CTV. <br><br>Dans Naxi, une catégorie d’hébergement a un tarif de base. Lorsqu’une réservation passe par un Tour Opérateur (TO), les campings dupliquent aujourd’hui la catégorie en augmentant son tarif, afin d’absorber la commission du TO. Cette pratique est lourde à maintenir et source d’erreurs.</li></ul><div>L’objectif est de gérer cette disparité tarifaire de façon native : le WEB transmet l’augmentation appliquée, et Naxi recalcule le prix du séjour en conséquence. Le fonctionnement est identique à celui déjà en place pour CTV lorsque la réservation provient d’un TO, et s’appuie sur le même mécanisme que le tarif flex, sans pour autant créer de tarif flex.</div>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -46556,7 +46620,7 @@
     ]
   },
   "counts": {
-    "classique": 857,
+    "classique": 859,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
