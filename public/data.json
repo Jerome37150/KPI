@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T02:41:33.817Z",
+  "generatedAt": "2026-11-10T10:22:58.564Z",
   "classique": [
     {
       "id": "4108db15-623a-81f9-aa05-fb5fb2058031",
@@ -3665,7 +3665,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'action « Transférer » du menu « + Actions » du séjour et la fenêtre « Transférer le séjour » : séjour à transférer, recherche ou création du nouveau client, choix du devenir des paiements déjà encaissés, confirmation « Séjour transféré », reprise du transfert après la création d'une fiche, et mise à jour des deux fiches.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -3701,7 +3701,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements nécessaires pour vérifier qu'un séjour peut être transféré, rechercher le nouveau client, faire passer le séjour et tout ce qui lui est rattaché sur la fiche du nouveau client, traiter les paiements déjà encaissés (ils suivent le séjour ou restent au compte d'origine), et mettre à jour le planning, les listes et la comptabilité des deux fiches.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
