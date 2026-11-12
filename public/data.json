@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-11-12T12:37:21.363Z",
+  "generatedAt": "2026-11-12T20:25:05.991Z",
   "classique": [
+    {
+      "id": "4168db15-623a-81db-a824-c73b0c6465d3",
+      "identifiant": "INA-1080",
+      "titre": "Pennylane : Affichage du motif de refus / d'anomalie sur les statuts des factures B2B",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-12T16:03:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Actuellement, NAXI reçoit et affiche les mises à jour de statut des factures B2B. Cependant, lorsqu'une facture sort de son cycle de vie normal (cas de rejet ou de refus), le motif explicatif reçu dans le flux n'est pas restitué à l'utilisateur",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Pennylane-Affichage-du-motif-de-refus-d-anomalie-sur-les-statuts-des-factures-B2B-4168db15623a81dba824c73b0c6465d3"
+    },
+    {
+      "id": "4168db15-623a-812c-9e5d-f7059a9d7957",
+      "identifiant": "INA-1079",
+      "titre": "Création d'une pipeline pour le projet backend de Nax7",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Nax7 PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-12T12:44:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Cr-ation-d-une-pipeline-pour-le-projet-backend-de-Nax7-4168db15623a812c9e5df7059a9d7957"
+    },
     {
       "id": "4168db15-623a-819e-a4d4-d80343361ad6",
       "identifiant": "INA-1078",
@@ -229,7 +297,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Développer l'interface de l'onglet Échéancier de la vue séjour : création d'un échéancier de 1 à 12 échéances, saisie des dates et des valeurs en pourcentage ou en montant avec répartition automatique de l'écart, suivi du réglé, du reste à payer, du facturé et de l'état de chaque échéance, et facturation de la prochaine échéance due.",
+      "explication": "Développer l'interface de l'onglet Échéancier de la vue séjour : création d'un échéancier de 1 à 12 échéances, saisie des dates et des valeurs en pourcentage ou en montant avec répartition automatique de l'écart, suivi du réglé, du reste à payer et du facturé de chaque échéance, facturation de la prochaine échéance due, et onglet grisé sur un séjour annulé.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -445,7 +513,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Afficher le bloc « Inventaire » dans l'onglet Autres infos du séjour, avec le rendez-vous actuel et les actions possibles. Ajouter la fenêtre « Paramètres de la journée d'inventaire », qui s'ouvre la première fois qu'on prend rendez-vous pour une journée, et la fenêtre « Prise de rendez-vous pour inventaire », avec les créneaux du jour du départ. Afficher l'icône verte d'inventaire dans le bandeau du séjour quand un rendez-vous existe.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -517,7 +585,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Le serveur doit fournir et enregistrer : les journées d'inventaire (plage horaire, durée, statut et nombre de personnes) ; les créneaux du jour du départ, avec les rendez-vous pris et les places libres ; le rendez-vous d'inventaire du séjour (prise, déplacement et suppression). Il supprime aussi le rendez-vous quand la date de départ change ou quand le séjour est annulé. Il contrôle enfin les règles : emplacement obligatoire, séjour ni annulé ni parti, créneau non complet.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -553,7 +621,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Renvoyer avec le séjour l'étape de ménage en cours et son statut, ou le statut général « terminé », à partir du suivi du module Ménages et des étapes paramétrées par le camping.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -589,7 +657,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Afficher dans le bandeau de la vue séjour la pastille de statut ménage envoyée par le serveur : libellé « Étape · statut », couleur selon le statut, « Ménage ✓ » en vert quand toutes les étapes sont validées, aucune pastille sans étape, sans clic ni bulle.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -661,7 +729,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements pour lire, créer, modifier et supprimer les immatriculations et les codes ou cartes d'accès au niveau du client (tous ses séjours non annulés et le client sans séjour), enregistrer le nombre de véhicules simultanés du client et renvoyer l'historique des passages de toutes ces lignes.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -697,7 +765,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'icône Contrôle d'accès du bandeau client et l'ouverture de la fenêtre « Gestion du contrôle d'accès » pour tout le client : lignes de tous ses séjours non annulés et du client sans séjour, nouvelle ligne rattachée au client seul, nombre de véhicules simultanés commun et historiques de toutes les lignes affichées.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -801,7 +869,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements pour lire, créer, modifier et supprimer les immatriculations et les codes ou cartes d'accès d'un séjour, enregistrer le nombre de véhicules simultanés, transmettre les autorisations au système de contrôle d'accès et exposer les licences, les points d'accès et l'historique des passages.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -837,7 +905,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de la fenêtre « Gestion du contrôle d'accès » ouverte depuis le bloc de l'onglet Autres infos du séjour : onglets Caméra et Codes / Cartes selon les licences, tableaux des immatriculations et des codes ou cartes, zone de saisie dans le tableau pour l'ajout et la modification, suppression, nombre de véhicules simultanés et historiques des passages.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -46720,7 +46788,7 @@
     ]
   },
   "counts": {
-    "classique": 862,
+    "classique": 864,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
