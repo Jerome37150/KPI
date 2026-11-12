@@ -1,6 +1,106 @@
 {
-  "generatedAt": "2026-11-12T04:11:38.836Z",
+  "generatedAt": "2026-11-12T12:37:21.363Z",
   "classique": [
+    {
+      "id": "4168db15-623a-819e-a4d4-d80343361ad6",
+      "identifiant": "INA-1078",
+      "titre": "Erreur création code qui boucle en erreur à cause d'un code à 0 encodé par NAXI Gestion",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Cod & Cam"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-12T10:57:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div><b><u>Historique de cet établissement</u></b> :&nbsp;</div><div><br></div><div>📅Il y a deux ans, ce camping a souhaité installé des encodeurs pour gérer l'accès de sa piscine / salle de sport.</div><div>Lorsqu'Olivier a été faire l'installation, il a été constaté que NAXI était limité à 5 centrales, or ce camping avait en avait 6.</div><div>Un développement spécifique aurait été fait pour ce camping afin de pouvoir mettre 6 centrales -&gt; <i>Pas de traces de ce développement / A voir avec Loïc si jamais car c'est lui qui aurait vu avec Olivier V à l'époque</i>.</div><div><br></div><div><u style=\"\"><b>Problème rencontré</b></u><b> :&nbsp;</b></div><div><br></div><div>Après installation, et ce depuis deux ans, le camping appelle afin de signaler des soucis intempestifs avec sa fenêtre de synchro.</div><div>Lorsque l'on se connecte, on constate en effet que la synchro de NAXICod boucle en erreur sur l'envoi d'un code :&nbsp;</div><div><br></div><div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/4e48ce41f27242509eab65a862e3d4f1\" alt=\"capture\" style=\"opacity: 1; max-width: 100%;\"></div></div><div><br></div><div>-&gt; Après analyse, la synchro boucle en erreur car en base de données, le code est à 0 au lieu d'être avec une vraie valeur (5538 par exemple - format d'un code attendu)</div><div><br></div><div>-&gt; Pour débloquer la situation, il est alors nécessaire d'aller en base de données, de supprimer le code et ensuite de ré-encoder le badge proprement dans NAXI Gestion</div><div><br></div><div><b><u>Ce qui a été fait </u></b>:&nbsp;</div><div><br></div><div>Olivier V en a alors parlé à Loïc. Des tests ont été fait au bureau à Montpellier et le soucis a pu être reproduit (toujours de façon aléatoire).</div><div>Loïc aurait fait des corrections mais le problème persiste malgré tout.&nbsp;</div><div><br></div><div><b><u>A faire</u></b> :&nbsp;</div><div><br></div><div>-&gt; Pour éviter que le client soit aussi impacté surtout en saison, il faudrait déjà faire en sorte que la création de ce type de code erroné ne bloque pas la synchro&nbsp;</div><div>-&gt; Puis trouver pourquoi de façon aléatoire, NAXI encode des badges avec un code à 0&nbsp;</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-cr-ation-code-qui-boucle-en-erreur-cause-d-un-code-0-encod-par-NAXI-Gestion-4168db15623a819ea4d4d80343361ad6"
+    },
+    {
+      "id": "4168db15-623a-8142-8c87-fd07a2332d18",
+      "identifiant": "INA-1077",
+      "titre": "Non affichage du devis dans les pièces jointes si Base SQL",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-12T10:46:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div><b><i>S'assurer d'être sur une base SQL (bug non reproduit en HF)&nbsp;</i></b></div><div><br></div><div>1. Créer un devis (soit depuis la fiche d'un client depuis Autres Fonctions, soit depuis le menu Séjours)</div><div>2. S'assurer d'avoir cocher la case \"Créer ou rechercher une fiche client\" afin que le devis soit bien rattaché à une fiche client</div><div>3. Envoyer le devis par email&nbsp;</div><div><br></div><div><u><b>Résultats :</b></u></div><div><br></div><div>🟢Si on se rend ensuite dans l'onglet Courriers/Emails de la fiche client, on retrouve bien la ligne de l'email envoyé</div><div>🔴En revanche dans la colonne Documents, on a uniquement le fichier html de l'email, mais on a pas le PDF du devis (comme c'est le cas en HF)</div><div>🟢Si je regarde l'email reçu, j'ai bien reçu le devis en PDF</div><div><br></div><div><b>Le soucis est donc uniquement sur l'enregistrement dans la table COURCLI // Le PDF ne s'enregistre pas dans le champs coudocsj</b></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/690641cff7874314bd13598f858fdebe\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Reproduit sur base de données CIELA en 18.05 (SQL)</div><div>Toujours reproduit en version 19-03 SQL</div><div>Non reproduit sur démo Angélique en 18.07 HF&nbsp;</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Non-affichage-du-devis-dans-les-pi-ces-jointes-si-Base-SQL-4168db15623a81428c87fd07a2332d18"
+    },
+    {
+      "id": "4168db15-623a-814c-a21b-d6bab325cb87",
+      "identifiant": "INA-1076",
+      "titre": "FACTURE : ajout du numéro d'engagement sur la facture",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-12T08:23:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Lorsque l'utilisateur facture une collectivité , certaines mentions sont alors obligatoire pour que la facture soit recevable dans chorus pro.<div>Dans le cadre de la facturation électronique et de l'automatisation de l'envoi via le circuit B2G , nous devons rajouter le numéro d'engagement sur la facture.</div><div><br></div><div>Le numéro d'engagement (souvent appelé numéro d'engagement juridique ou EJ) sur le portail Chorus Pro est une référence unique fournie par l'administration ou la collectivité publique (l'acheteur) lors d'une commande.&nbsp;</div><div><br></div><div>À quoi il sert :&nbsp;</div><div><br></div><div>• Lien comptable : Il permet à l'entité publique de lier votre facture à son bon de commande ou à son marché public.</div><div>• Rapprochement rapide : Il facilite la validation et le paiement de la facture par le service comptable.</div><div>• <b>Caractère obligatoire</b> : Selon les structures (obligatoire pour l'État, optionnel ou requis selon le paramétrage pour les collectivités locales ou hôpitaux), son absence ou une erreur de saisie entraîne le rejet ou le « recyclage » de la facture.</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/FACTURE-ajout-du-num-ro-d-engagement-sur-la-facture-4168db15623a814ca21bd6bab325cb87"
+    },
     {
       "id": "4148db15-623a-819b-bebb-d387c4d2bc60",
       "identifiant": "INA-1075",
@@ -93,7 +193,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place l'enregistrement de l'échéancier sur le séjour et les traitements serveur associés : création à parts égales et calcul des dates proposées, répartition de l'écart lors d'une saisie, calcul du réglé, du facturé, du reste à payer et de l'état de chaque échéance, et facturation de la prochaine échéance due.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -129,7 +229,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface de l'onglet Échéancier de la vue séjour : création d'un échéancier de 1 à 12 échéances, saisie des dates et des valeurs en pourcentage ou en montant avec répartition automatique de l'écart, suivi du réglé, du reste à payer, du facturé et de l'état de chaque échéance, et facturation de la prochaine échéance due.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -237,7 +337,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les traitements nécessaires pour préparer l'e-mail d'un séjour : choix du modèle selon l'étape du séjour et le paramétrage du camping, remplissage des modèles avec les informations du séjour, documents proposés et joints d'office, génération des documents à l'envoi et enregistrement du courrier rattaché au séjour.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -273,7 +373,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'entrée « Envoyer un mail » du menu « + Actions » de la vue séjour et l'ouverture de la fenêtre « Envoi email » sur le séjour affiché : mail relatif au séjour, modèle proposé selon l'étape du séjour, sans texte libre, cases et documents propres au séjour, documents joints par le modèle, et rattachement du mail envoyé au séjour.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -46620,7 +46720,7 @@
     ]
   },
   "counts": {
-    "classique": 859,
+    "classique": 862,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
