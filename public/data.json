@@ -1,6 +1,106 @@
 {
-  "generatedAt": "2026-11-13T07:57:23.691Z",
+  "generatedAt": "2026-11-13T15:49:35.624Z",
   "classique": [
+    {
+      "id": "4178db15-623a-81f0-867e-da51f97ccc46",
+      "identifiant": "INA-1083",
+      "titre": "Erreur lors de l'ajout de la specif NAXICOMMERCE pour un nouveau client sur INACOM",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "NAXI COMMERCE"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-13T13:19:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Il est impossible d'ajouter la spécif NAXICOMMERCE sur un client qui vient de souscrire au produit :&nbsp;<div><br></div><div>Sur INACOM, on peut prendre l'exemple du camping LE CHAMOIS :&nbsp;</div><div><br></div><div>1. SI on ouvre la fiche INACOM, que l'on se rend dans l'onglet NAXI et que l'on ajoute la spécif NAXICOMMERCE :&nbsp;<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a6e15ea5851f47e8baaa30ed0feced80\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div><br></div></div><div><br></div><div>De plus, l'onglet FORCE 7 est grisé donc est complètement bloqués</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-lors-de-l-ajout-de-la-specif-NAXICOMMERCE-pour-un-nouveau-client-sur-INACOM-4178db15623a81f0867eda51f97ccc46"
+    },
+    {
+      "id": "4178db15-623a-81e0-8f7c-de3588adc218",
+      "identifiant": "INA-1082",
+      "titre": "Sales Api :  retirer le contrôle sur la suppression d'un client",
+      "classification": "BUG D'USAGE",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-13T10:41:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Lors de la migration de Sales APi en laravel 13, nous avons constater un log d'erreur .&nbsp;<div>Il apparait lorsque Naxi envoi l'ordre de supprimer un client dans Sales API alors que ce client n'existe pas ou plus. :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/12024f8f6644484fb4bd38c36bcd5fcd\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Afin d'eviter des logs d'erreurs inulites, nous allons supprimer le contrôle sur la suppression.&nbsp;</div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Sales-Api-retirer-le-contr-le-sur-la-suppression-d-un-client-4178db15623a81e08f7cde3588adc218"
+    },
+    {
+      "id": "4178db15-623a-81a1-ab89-d2f31d3f3613",
+      "identifiant": "INA-1081",
+      "titre": "Limite du nombre de caractère sur le champs \"Email\" depuis la création d'une fiche client sur les devis",
+      "classification": null,
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-13T09:33:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Le champs \"adresse email\" est limité et ne permet pas de renseigner les longues adresses emails lorsque :&nbsp;<div><br></div><div>1. Se rendre dans le menu Séjours &gt; Devis</div><div>2. Saisir un devis et l'ajouter au comparateur</div><div>3. Cliquer sur l'envoi d'email du devis en s'assurant que la case \"Créer ou rechercher la fiche client\" soit cochée</div><div>4. Lors du clic sur l'envoi d'email, la recherche client s'ouvre. Saisir un nom et cliquer sur la création d'une nouvelle fiche client</div><div>5. Sur la création de la fiche client, dans le champs email, on ne peut pas saisir plus de 50 caractères. Or dans le cas de notre client, l'adresse comporte 51 caractères : <i>serviceenfancejeunesse@mairie-mouilleronlecaptif.fr</i><br><br>-&gt; Si je passe par la fiche client directement, je n'ai pas cette limite. Il faudrait donc harmoniser le champs \"Email\" et mettre la même limite partout (supérieure à 50 du coup)</div><div><br></div><div><b>Reproduit sur démo Angélique en 19-04 HF</b></div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Limite-du-nombre-de-caract-re-sur-le-champs-Email-depuis-la-cr-ation-d-une-fiche-client-sur-les-de-4178db15623a81a1ab89d2f31d3f3613"
+    },
     {
       "id": "4168db15-623a-81db-a824-c73b0c6465d3",
       "identifiant": "INA-1080",
@@ -46788,7 +46888,7 @@
     ]
   },
   "counts": {
-    "classique": 864,
+    "classique": 867,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
