@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-13T15:49:35.624Z",
+  "generatedAt": "2026-11-13T21:42:08.596Z",
   "classique": [
+    {
+      "id": "4178db15-623a-81fc-8240-f65c46aafcc8",
+      "identifiant": "INA-1084",
+      "titre": "CTV : Corriger le calcul de prix avec promo de Naxiapi",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-13T15:53:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Bug repéré dans les comparaisons de résultats de calculs de prix effectués avec WS _RESA (windev) de WS_NAXITO.<div><br></div><div>Détail du bug :</div><div><br></div><div>Models/Advanced/Price.php : ligne 1374...                                    for($i = $start_for; $i &lt; $end_for; $i++) {if ($params['company_id'] == \"lignon43\") {  file_put_contents(\"/tmp/price.log\", __LINE__ . \" : \" . $pu . \" : \" . $duration_rate. \" : \" . ($pu / $duration_rate) . \" : \" . round($pu / $duration_rate, $round_decimal) . \" \\n\", FILE_APPEND);}                                        $params['tab_prix_par_nuit'][$i] = round($pu / $duration_rate, $round_decimal);                                        $params['tab_pers_inclus'][$i] = intval($params['tab_nb_pers'][$count_nb_pers]);                                    }...</div><div><br></div><div>Calcul du prix par nuit :</div><div><br></div><div>Numéro de ligne du log : tarif de base : nuitées : prix nuitée brut : prix nuitée arrondi1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64</div><div><br></div><div>==&gt; Le code arrondi en entier le prix par nuit, donc les calculs qui sont effectués sur ces prix sont faussés</div><div><br></div><div>7 * 64 =&gt; 448 * (20/100) = 89.6 ==&gt; FAUX</div><div><br></div><div>7 * 64.285714285714 =&gt; 450 * (20/100) = 90 ==&gt; VRAI ( identique à WS_RESA)</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/CTV-Corriger-le-calcul-de-prix-avec-promo-de-Naxiapi-4178db15623a81fc8240f65c46aafcc8"
+    },
     {
       "id": "4178db15-623a-81f0-867e-da51f97ccc46",
       "identifiant": "INA-1083",
@@ -46888,7 +46924,7 @@
     ]
   },
   "counts": {
-    "classique": 867,
+    "classique": 868,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
