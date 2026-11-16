@@ -1,10 +1,258 @@
 {
-  "generatedAt": "2026-11-16T08:06:29.563Z",
+  "generatedAt": "2026-11-16T18:26:11.736Z",
   "classique": [
+    {
+      "id": "41a8db15-623a-8117-a3ab-f07db9dc204e",
+      "identifiant": "INA-1091",
+      "titre": "Contrôler la taille du logo importé par le logiciel",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "NAXI ESPACE CLIENT"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-16T15:33:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Un client nous a signalé que certains de ces clients réalisent plusieurs fois un paiement ce qui l'oblige à les rembourser ensuite :<br><br>1. Le client va sur son espace client<div>2. Il paie son acompte ou solde sur Payline</div><div>3. Le paiement est bien validé sur Payline</div><div>4. Sauf que le client, lui est redirigé vers l'espace client avec une erreur 500 comme ci dessous</div><div>5. Le client pense donc que le paiement a échoué et donc il refait son paiement générant un doublon<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ec25420647de49e19174a192e65431ee\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><u>Plus d'info sur la INA-1085</u><br><br>Après recherches on s'est aperçu que c'était à cause de l'import des logos / image importé par le logiciel qui sont trop volumineux. <br>Il faudrait donc limiter la taille car par ex express-mailing limite à 3 MB&nbsp;<br><br>Pour palier au problème on a remis TurboSMTP qui supporte beaucoup plus mais il faut quand même mettre une limite pour éviter ce genre d'erreur.<br><br><br></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Contr-ler-la-taille-du-logo-import-par-le-logiciel-41a8db15623a8117a3abf07db9dc204e"
+    },
+    {
+      "id": "41a8db15-623a-81f9-935f-fa66706b5445",
+      "identifiant": "INA-1090",
+      "titre": "Paramétrer TurboSMTP comme serveur de mail",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-16T15:28:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "En mai dernier il y a eu un incendie chez TurboSMTP, nous sommes donc passé chez emailing.<br><br>Il faudrait qu'on remettre TurboSmtp comme serveur de mail principal",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Param-trer-TurboSMTP-comme-serveur-de-mail-41a8db15623a81f9935ffa66706b5445"
+    },
+    {
+      "id": "41a8db15-623a-81fd-85c5-ebc1e88e6d28",
+      "identifiant": "INA-1089",
+      "titre": "Synchro_recupV2 - Traitement des messages RabbitMQ : accesscontrolevent",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-16T11:55:00.000Z",
+      "estimBack": 5,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "US mise en STAND BY le 04/11/2025 (POIRIER Nina) : trop de problèmes ont été identifiés déjà sur le fonctionnement déporté en V1. On décide donc de reprendre tout le code du fonctionnement déporté, et une fois ce code repris on pourra à nouveau faire les tests sur la V2 (COEUR-593).",
+      "explication": "<p>En tant que développeur, je souhaite que les messages issus de RabbitMQ soient traités. Cette US a pour but de traiter les messages dont la cible (Target) est « accesscontrolevent ». L'objectif est de restructurer le code de la synchro qui traite cette partie en C#.</p><p><br></p><p><br></p><p><b><i>Correspond à l'US REF-296</i></b></p>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Synchro_recupV2-Traitement-des-messages-RabbitMQ-accesscontrolevent-41a8db15623a81fd85c5ebc1e88e6d28"
+    },
+    {
+      "id": "41a8db15-623a-819d-b408-f3d645cbbb9e",
+      "identifiant": "INA-1088",
+      "titre": "Synchro_recupV2 - Traitement des messages RabbitMQ : accesscontrolcodes",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-16T11:55:00.000Z",
+      "estimBack": 5,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "US mise en STAND BY le 04/11/2025 (POIRIER Nina) : trop de problèmes ont été identifiés déjà sur le fonctionnement déporté en V1. On décide donc de reprendre tout le code du fonctionnement déporté, et une fois ce code repris on pourra à nouveau faire les tests sur la V2 (COEUR-593).<div><br></div><div><b>Problèmes bloquants non liés à l'US (4)</b> :</div><div><ul><li>INFRA - Pas les droits sur un dossier sur InacomPreprod du Bastion</li><li>WEB - « Request failed Internal Server Error » sur API de preprod</li><li>LOGICIEL - Bug en V1 : déjà le fonctionnement a un souci</li><li>LOGICIEL - Les post de code en mode Test ne s'envoient pas sur les serveurs de preprod mais sur ceux de prod : mauvaise gestion des environnements dans le code de NaxiCode</li></ul></div>",
+      "explication": "<p>En tant que développeur, je souhaite que les messages issus de RabbitMQ soient traités. Cette US a pour but de traiter les messages dont la cible (Target) est « accesscontrolcodes ». L'objectif est de restructurer le code de la synchro qui traite cette partie en C#.</p><p><br></p><p><br></p><p><b><i>Correspond à l'US REF-297</i></b></p>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Synchro_recupV2-Traitement-des-messages-RabbitMQ-accesscontrolcodes-41a8db15623a819db408f3d645cbbb9e"
+    },
+    {
+      "id": "41a8db15-623a-81e1-a79e-f8176c758247",
+      "identifiant": "INA-1087",
+      "titre": "Synchro_recupV2 - ACCESSCONTROL : Changer l'url de Synchro Recup pour la V2 pour mettre SynchroApi",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-16T11:43:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<p>En tant que dev, je souhaite que la route de synchro recup V2 pointe sur SynchroAPI, afin d'utiliser la synchro recup générique.</p><p><br></p><p><br></p><p><b><i>Correspond à l'US REF-328</i></b></p>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Synchro_recupV2-ACCESSCONTROL-Changer-l-url-de-Synchro-Recup-pour-la-V2-pour-mettre-SynchroApi-41a8db15623a81e1a79ef8176c758247"
+    },
+    {
+      "id": "41a8db15-623a-8119-9f7a-d0215de7640e",
+      "identifiant": "INA-1086",
+      "titre": "Synchro_recupV2 - Mettre en place les écouteurs d'évènements pour les ressources liées au Contrôle d'Accès",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-16T11:23:00.000Z",
+      "estimBack": 0,
+      "estimFront": 8,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "US mise en STAND BY le 04/11/2025 (POIRIER Nina) : trop de problèmes ont été identifiés déjà sur le fonctionnement déporté en V1. On décide donc de reprendre tout le code du fonctionnement déporté, et une fois ce code repris on pourra à nouveau faire les tests sur la V2 (COEUR-593).<div><br></div><div>Problème bloquant non lié à l'US : LOGICIEL - Mauvaise gestion des environnements preprod dans le code NaxiCode.</div>",
+      "explication": "<p>Suite au spike REF-341, la méthode initiale (utiliser le freshressources) a été abandonnée au profit de la mise en place d'écouteurs d'évènements LARAVEL.</p><div><br></div><div><b>Version initiale (abandonnée)</b> :</div><div>Actuellement certaines méthodes ne sont pas traitées via le freshressources. Dans le cadre du refacto SynchroV2, nous allons avoir besoin de passer en fonctionnement via le freshressources toutes les méthodes de la procédure « synchro_recup ».</div><div><br></div><div><b><i>Correspond à l'US REF-328</i></b></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Synchro_recupV2-Mettre-en-place-les-couteurs-d-v-nements-pour-les-ressources-li-es-au-Contr-le-d-41a8db15623a81199f7ad0215de7640e"
+    },
+    {
+      "id": "41a8db15-623a-811c-9e12-f9e207666f72",
+      "identifiant": "INA-1085",
+      "titre": "Espace client : erreur 500 après paiement sur Payline",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "NAXI ESPACE CLIENT"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-16T10:53:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>Un client nous a signalé que certains de ces clients réalisent plusieurs fois un paiement ce qui l'oblige à les rembourser ensuite car :&nbsp;<br><br>1. Le client va sur son espace client</div><div>2. Il paie son acompte ou solde sur Payline</div><div>3. Le paiement est bien validé sur Payline</div><div>4. Sauf que le client, lui est redirigé vers l'espace client avec une erreur 500 comme ci dessous</div><div>5. Le client pense donc que le paiement a échoué et donc il refait son paiement générant un doublon</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/fa01a9b8059d4192bbff51633f3f5b27\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b><u>Après analyse</u></b>, j'ai isolé un cas précis pour faciliter les recherches :&nbsp;</div><div><br></div><div>Cas constaté sur le camping LES COUDOULETS (codsoc = coudoulets) :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/0d306c42587243acb15f78fe6a1dd90c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Le client a fait une première tentative de paiement à 11h34 le 13/11/2026.<br><br>Côté Payline, j'ai bien le dowebpayment :&nbsp;<br><b><u><i>Requête</i></u></b></div><div>&lt;ns1:doWebPaymentRequest xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ns1=\"http://impl.ws.payline.experian.com\" xmlns:ns2=\"http://obj.ws.payline.experian.com\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"&gt;</div><div>&nbsp; &lt;ns1:version&gt;28&lt;/ns1:version&gt;</div><div>&nbsp; &lt;ns1:payment&gt;</div><div>&nbsp; &nbsp; &lt;ns2:amount&gt;33275&lt;/ns2:amount&gt;</div><div>&nbsp; &nbsp; &lt;ns2:currency&gt;978&lt;/ns2:currency&gt;</div><div>&nbsp; &nbsp; &lt;ns2:action&gt;100&lt;/ns2:action&gt;</div><div>&nbsp; &nbsp; &lt;ns2:mode&gt;CPT&lt;/ns2:mode&gt;</div><div>&nbsp; &nbsp; &lt;ns2:contractNumber&gt;3341395&lt;/ns2:contractNumber&gt;</div><div>&nbsp; &nbsp; &lt;ns2:differedActionDate xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:method xsi:nil=\"true\"/&gt;</div><div>&nbsp; &lt;/ns1:payment&gt;</div><div>&nbsp; &lt;ns1:returnURL&gt;https://api.inaxel.com/services/payment/payline/return/cb959b12d18d7f44fb240ebf83ecb1ec&lt;/ns1:returnURL&gt;</div><div>&nbsp; &lt;ns1:cancelURL&gt;https://api.inaxel.com/services/payment/payline/cancel/cb959b12d18d7f44fb240ebf83ecb1ec&lt;/ns1:cancelURL&gt;</div><div>&nbsp; &lt;ns1:order&gt;</div><div>&nbsp; &nbsp; &lt;ns2:ref&gt;1229583887&lt;/ns2:ref&gt;</div><div>&nbsp; &nbsp; &lt;ns2:origin xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:country xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:taxes xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:amount&gt;33275&lt;/ns2:amount&gt;</div><div>&nbsp; &nbsp; &lt;ns2:currency&gt;978&lt;/ns2:currency&gt;</div><div>&nbsp; &nbsp; &lt;ns2:date&gt;13/11/2026 11:33&lt;/ns2:date&gt;</div><div>&nbsp; &nbsp; &lt;ns2:details/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:deliveryTime xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:deliveryMode xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:deliveryExpectedDate xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:deliveryExpectedDelay xsi:nil=\"true\"/&gt;</div><div>&nbsp; &lt;/ns1:order&gt;</div><div>&nbsp; &lt;ns1:notificationURL&gt;https://api.inaxel.com/services/payment/payline/notify/cb959b12d18d7f44fb240ebf83ecb1ec&lt;/ns1:notificationURL&gt;</div><div>&nbsp; &lt;ns1:selectedContractList&gt;</div><div>&nbsp; &nbsp; &lt;ns2:selectedContract&gt;3341395&lt;/ns2:selectedContract&gt;</div><div>&nbsp; &lt;/ns1:selectedContractList&gt;</div><div>&nbsp; &lt;ns1:secondSelectedContractList xsi:nil=\"true\"/&gt;</div><div>&nbsp; &lt;ns1:privateDataList/&gt;</div><div>&nbsp; &lt;ns1:languageCode&gt;fr&lt;/ns1:languageCode&gt;</div><div>&nbsp; &lt;ns1:customPaymentPageCode xsi:nil=\"true\"/&gt;</div><div>&nbsp; &lt;ns1:buyer&gt;</div><div>&nbsp; &nbsp; &lt;ns2:title xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:lastName&gt;BREMER&lt;/ns2:lastName&gt;</div><div>&nbsp; &nbsp; &lt;ns2:firstName xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:email xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:shippingAdress&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:title xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:name xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:firstName xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:lastName xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:street1 xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:street2 xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:cityName xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:zipCode xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:country xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:phone xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:state xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:county xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:phoneType xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;/ns2:shippingAdress&gt;</div><div>&nbsp; &nbsp; &lt;ns2:billingAddress&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:title xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:name xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:firstName xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:lastName xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:street1 xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:street2 xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:cityName xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:zipCode xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:country xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:phone xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:state xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:county xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:phoneType xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;/ns2:billingAddress&gt;</div><div>&nbsp; &nbsp; &lt;ns2:accountCreateDate xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:accountAverageAmount xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:accountOrderCount xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:walletId xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:walletDisplayed xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:walletSecured xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:walletCardInd xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:ip xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:mobilePhone xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:customerId xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:legalStatus xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:legalDocument xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:birthDate xsi:nil=\"true\"/&gt;</div><div>&nbsp; &nbsp; &lt;ns2:fingerprintID xsi:nil=\"true\"/&gt;</div><div>&nbsp; &lt;/ns1:buyer&gt;</div><div>&nbsp; &lt;ns1:owner xsi:nil=\"true\"/&gt;</div><div>&nbsp; &lt;ns1:securityMode xsi:nil=\"true\"/&gt;</div><div>&nbsp; &lt;ns1:recurring xsi:nil=\"true\"/&gt;</div><div>&nbsp; &lt;ns1:customPaymentTemplateURL xsi:nil=\"true\"/&gt;</div><div>&nbsp; &lt;ns1:contractNumberWalletList xsi:nil=\"true\"/&gt;</div><div>&lt;/ns1:doWebPaymentRequest&gt;</div><div><br></div><div>Et la réponse :&nbsp;</div><div><br></div><div>&lt;doWebPaymentResponse xmlns=\"http://impl.ws.payline.experian.com\" xmlns:obj=\"http://obj.ws.payline.experian.com\"&gt;</div><div>&nbsp; &lt;result&gt;</div><div>&nbsp; &nbsp; &lt;obj:code&gt;00000&lt;/obj:code&gt;</div><div>&nbsp; &nbsp; &lt;obj:shortMessage&gt;ACCEPTED&lt;/obj:shortMessage&gt;</div><div>&nbsp; &nbsp; &lt;obj:longMessage&gt;Transaction approved&lt;/obj:longMessage&gt;</div><div>&nbsp; &lt;/result&gt;</div><div>&nbsp; &lt;token&gt;1YhJdcfPPqrOwAYNt2501794566017090&lt;/token&gt;</div><div>&nbsp; &lt;redirectURL&gt;https://webpayment.payline.com/v2/?token=1YhJdcfPPqrOwAYNt2501794566017090&lt;/redirectURL&gt;</div><div>&lt;/doWebPaymentResponse&gt;</div><div><br></div><div>En revanche, nous avons en effet eu une erreur 500 sur les logs apache :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/5e03d399a8bd42998f2a34a8dc2f25dc\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>En regardant sur le weekend, nous avons eu cette même erreur plus de 30 fois :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6e1df61849c441c6b2d494d0dacfcc36\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Espace-client-erreur-500-apr-s-paiement-sur-Payline-41a8db15623a811c9e12f9e207666f72"
+    },
     {
       "id": "4178db15-623a-81fc-8240-f65c46aafcc8",
       "identifiant": "INA-1084",
-      "titre": "CTV : Corriger le calcul de prix avec promo de Naxiapi",
+      "titre": "Corriger le calcul de prix avec promo de Naxiapi (diff avec WS RESA)",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
@@ -35,7 +283,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/CTV-Corriger-le-calcul-de-prix-avec-promo-de-Naxiapi-4178db15623a81fc8240f65c46aafcc8"
+      "url": "https://app.notion.com/p/Corriger-le-calcul-de-prix-avec-promo-de-Naxiapi-diff-avec-WS-RESA-4178db15623a81fc8240f65c46aafcc8"
     },
     {
       "id": "4178db15-623a-81f0-867e-da51f97ccc46",
@@ -44,7 +292,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "NAXI COMMERCE"
@@ -61,7 +311,9 @@
       "pointsBlocage": "",
       "explication": "Il est impossible d'ajouter la spécif NAXICOMMERCE sur un client qui vient de souscrire au produit :&nbsp;<div><br></div><div>Sur INACOM, on peut prendre l'exemple du camping LE CHAMOIS :&nbsp;</div><div><br></div><div>1. SI on ouvre la fiche INACOM, que l'on se rend dans l'onglet NAXI et que l'on ajoute la spécif NAXICOMMERCE :&nbsp;<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a6e15ea5851f47e8baaa30ed0feced80\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div><br></div></div><div><br></div><div>De plus, l'onglet FORCE 7 est grisé donc est complètement bloqués</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -109,10 +361,12 @@
       "id": "4178db15-623a-81a1-ab89-d2f31d3f3613",
       "identifiant": "INA-1081",
       "titre": "Limite du nombre de caractère sur le champs \"Email\" depuis la création d'une fiche client sur les devis",
-      "classification": null,
+      "classification": "BUG D'USAGE",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "JANVIER 27"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -129,7 +383,9 @@
       "pointsBlocage": "",
       "explication": "Le champs \"adresse email\" est limité et ne permet pas de renseigner les longues adresses emails lorsque :&nbsp;<div><br></div><div>1. Se rendre dans le menu Séjours &gt; Devis</div><div>2. Saisir un devis et l'ajouter au comparateur</div><div>3. Cliquer sur l'envoi d'email du devis en s'assurant que la case \"Créer ou rechercher la fiche client\" soit cochée</div><div>4. Lors du clic sur l'envoi d'email, la recherche client s'ouvre. Saisir un nom et cliquer sur la création d'une nouvelle fiche client</div><div>5. Sur la création de la fiche client, dans le champs email, on ne peut pas saisir plus de 50 caractères. Or dans le cas de notre client, l'adresse comporte 51 caractères : <i>serviceenfancejeunesse@mairie-mouilleronlecaptif.fr</i><br><br>-&gt; Si je passe par la fiche client directement, je n'ai pas cette limite. Il faudrait donc harmoniser le champs \"Email\" et mettre la même limite partout (supérieure à 50 du coup)</div><div><br></div><div><b>Reproduit sur démo Angélique en 19-04 HF</b></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -144,14 +400,16 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
       ],
       "client": "",
       "dateCreation": "2026-11-12T16:03:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -161,7 +419,9 @@
       "pointsBlocage": "",
       "explication": "Actuellement, NAXI reçoit et affiche les mises à jour de statut des factures B2B. Cependant, lorsqu'une facture sort de son cycle de vie normal (cas de rejet ou de refus), le motif explicatif reçu dans le flux n'est pas restitué à l'utilisateur",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -212,7 +472,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Cod & Cam"
@@ -229,7 +491,9 @@
       "pointsBlocage": "",
       "explication": "<div><b><u>Historique de cet établissement</u></b> :&nbsp;</div><div><br></div><div>📅Il y a deux ans, ce camping a souhaité installé des encodeurs pour gérer l'accès de sa piscine / salle de sport.</div><div>Lorsqu'Olivier a été faire l'installation, il a été constaté que NAXI était limité à 5 centrales, or ce camping avait en avait 6.</div><div>Un développement spécifique aurait été fait pour ce camping afin de pouvoir mettre 6 centrales -&gt; <i>Pas de traces de ce développement / A voir avec Loïc si jamais car c'est lui qui aurait vu avec Olivier V à l'époque</i>.</div><div><br></div><div><u style=\"\"><b>Problème rencontré</b></u><b> :&nbsp;</b></div><div><br></div><div>Après installation, et ce depuis deux ans, le camping appelle afin de signaler des soucis intempestifs avec sa fenêtre de synchro.</div><div>Lorsque l'on se connecte, on constate en effet que la synchro de NAXICod boucle en erreur sur l'envoi d'un code :&nbsp;</div><div><br></div><div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/4e48ce41f27242509eab65a862e3d4f1\" alt=\"capture\" style=\"opacity: 1; max-width: 100%;\"></div></div><div><br></div><div>-&gt; Après analyse, la synchro boucle en erreur car en base de données, le code est à 0 au lieu d'être avec une vraie valeur (5538 par exemple - format d'un code attendu)</div><div><br></div><div>-&gt; Pour débloquer la situation, il est alors nécessaire d'aller en base de données, de supprimer le code et ensuite de ré-encoder le badge proprement dans NAXI Gestion</div><div><br></div><div><b><u>Ce qui a été fait </u></b>:&nbsp;</div><div><br></div><div>Olivier V en a alors parlé à Loïc. Des tests ont été fait au bureau à Montpellier et le soucis a pu être reproduit (toujours de façon aléatoire).</div><div>Loïc aurait fait des corrections mais le problème persiste malgré tout.&nbsp;</div><div><br></div><div><b><u>A faire</u></b> :&nbsp;</div><div><br></div><div>-&gt; Pour éviter que le client soit aussi impacté surtout en saison, il faudrait déjà faire en sorte que la création de ce type de code erroné ne bloque pas la synchro&nbsp;</div><div>-&gt; Puis trouver pourquoi de façon aléatoire, NAXI encode des badges avec un code à 0&nbsp;</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -244,7 +508,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -261,7 +527,9 @@
       "pointsBlocage": "",
       "explication": "<div><b><i>S'assurer d'être sur une base SQL (bug non reproduit en HF)&nbsp;</i></b></div><div><br></div><div>1. Créer un devis (soit depuis la fiche d'un client depuis Autres Fonctions, soit depuis le menu Séjours)</div><div>2. S'assurer d'avoir cocher la case \"Créer ou rechercher une fiche client\" afin que le devis soit bien rattaché à une fiche client</div><div>3. Envoyer le devis par email&nbsp;</div><div><br></div><div><u><b>Résultats :</b></u></div><div><br></div><div>🟢Si on se rend ensuite dans l'onglet Courriers/Emails de la fiche client, on retrouve bien la ligne de l'email envoyé</div><div>🔴En revanche dans la colonne Documents, on a uniquement le fichier html de l'email, mais on a pas le PDF du devis (comme c'est le cas en HF)</div><div>🟢Si je regarde l'email reçu, j'ai bien reçu le devis en PDF</div><div><br></div><div><b>Le soucis est donc uniquement sur l'enregistrement dans la table COURCLI // Le PDF ne s'enregistre pas dans le champs coudocsj</b></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/690641cff7874314bd13598f858fdebe\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Reproduit sur base de données CIELA en 18.05 (SQL)</div><div>Toujours reproduit en version 19-03 SQL</div><div>Non reproduit sur démo Angélique en 18.07 HF&nbsp;</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -312,7 +580,9 @@
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -329,7 +599,9 @@
       "pointsBlocage": "",
       "explication": "Suite à l'ETU-19 c'est la solution n°2 qui a été retenue.<div><br></div><div>L'url qui pose problème est :&nbsp;</div><div><br></div><div>http://resa8.inaxel.com/EVORESA_WEB/dataresa/naxipremium/assurances_gritchen.php</div><div><br></div><div>Les 2 principaux problèmes de cette url :&nbsp;</div><div>&nbsp;1 - elle pointe sur le serveur de PREPROD \"resa8\" alors quelle sert pour la PRODUCTION</div><div>&nbsp;2 - elle est hébergée sur un serveur WEBDEV qu'on cherche à supprimer</div><div><br></div><div>SOLUTION :&nbsp;</div><div><br></div><div>&nbsp;- Développer le script \"assurances_gritchen.php\" et l'exposer sur un vrai serveur de PRODUCTION (PartnersApi, par exemple)</div><div>&nbsp; =&gt; le développement est simple car il s'agit juste d'un script de redirection des données par l'intermédiaire d'un objet CURL php.</div><div>&nbsp;- Modifier l'url dans NaxiGestion par quelque chose comme :&nbsp;</div><div>&nbsp; =&gt; POST https://partners-api.inaxel.com/services/partners/gritchen/insurance</div><div><br>Suite aux développements effectués, il faut supprimer l'URL <b>http://resa8.inaxel.com/EVORESA_WEB/dataresa/naxipremium/assurances_gritchen.php</b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1312,7 +1584,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -1329,7 +1603,9 @@
       "pointsBlocage": "",
       "explication": "Les stats yield affichent un taux d'occupation, un nombre de nuit vendues incohérent lorsque :&nbsp;<div><br></div><div>1. Créer une fiche client en type client = Tour Opérateur</div><div>2. Depuis l'onglet TO/CE/Résident, cliquer sur l'icône Allotement : créer plusieurs allotements sur une catégorie (catégorie A).</div><div>3. Créer une fiche client.&nbsp;</div><div>4. Sur cette fiche, créer un séjour. Affecter ce séjour au Tour Opérateur.</div><div>5. Affecter un emplacement au séjour. Attention, l'emplacement ne doit faire parti des allotements et doit être sur une catégorie différente (catégorie B).&nbsp;</div><div>6. Se rendre dans le menu Statistiques &gt; Stats Yield</div><div>7. Choisir la catégorie du séjour crée juste avant (catégorie B dans mon exemple). Lancer la recherche en prenant soin de saisir des dates arrivée/départ comprises sur les dates du séjour crée précédemment.&nbsp;</div><div><br></div><div><b><u>Résultat :&nbsp;</u></b></div><div><br></div><div>NAXI affiche un taux d'occupation à 200% et un nombre de nuit vendue à 2 alors que je ne peux en vendre qu'une seule.</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/97cfa514d9114724b9076f8f6c16966f\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div><b><u>Tests complémentaires</u></b> :&nbsp;</div><div><br></div><div>🔴Si on modifie le séjour en enlevant le TO associé et qu'on relance la recherche, la stat est correcte</div><div>🔴Si on laisse le séjour associé au TO mais qu'on supprime les allotements, la stat est correcte.</div><div><br></div><div><b>Reproduit sur démo Angélique en SQL - Version 19.02</b></div><div><b>Non reproduit sur démo HF - Version 19-03.</b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1344,7 +1620,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -1361,7 +1639,9 @@
       "pointsBlocage": "",
       "explication": "La suppression des répartitions paiements est très longue lorsque :&nbsp;<div><br></div><div>1. Sur une fiche d'un client, saisir beaucoup de prestations et beaucoup de paiements associés ( dans le cas remonté, il y a 40 paiements au total à \"dé-répartir\")</div><div>2. Se rendre ensuite dans l'onglet \"Compte\" de la fiche client</div><div>3. Cliquer sur un paiement&nbsp;</div><div>4. Cliquer ensuite sur l'icône \"Répartir\"</div><div>5. Cliquer ensuite sur la corbeille pour supprimer toutes les répartitions</div><div><br></div><div><u><b>Résultat </b></u>: NAXI se met en ne répond pas et finit le traitement en 5/6 minutes.</div><div><br></div><div>En analysant le serveur SQL, on voit en effet que la requête n'est pas du tout optimisée :&nbsp;</div><div><br></div><div><i>SELECT `tfcodsoc`,`tfcodexe`,`tfid`,`tfclient`,`tfdate`,`tfmont`,`tfsens`,`tfbanque`,`tfref`,`tftireur`,`tfnumrem`,`tfcompta`,`tfetat`,`tfmodpai`,`tfoper`,`tfdatrem`,`tftype`,`tfheure`,`tfreparti`,`tfanul_oper`,`tfanul_date`,`tfanul_heure`,`tfvirement`,`tfcaution`,`tfvaleurs`,`tfprelev`,`tflibelle`,`tfchequenbr`,`tftpv`,`tfautres`,`tfexpsrv`,`tfposte`,`tflibmodepai`,`tf_cloture`,`tf_cloture_num`,`tf_cloturemens`,`tf_cloturemens_num`,`tf_clotureexe`,`tf_clotureexe_num`,`tfexecompta`,`tfidexecompta` FROM `transfi` WHERE `tfcodsoc`&gt;'ESCALE' OR `tfcodsoc`='ESCALE' AND (`tfcodexe`&gt;'2026' OR `tfcodexe`='2026' AND (`tfclient`&gt;483684 OR `tfclient`=483684 AND (`tfdate`&gt;'2026-07-17' OR `tfdate`='2026-07-17' AND (`tfid`&gt;3967 OR `tfid`=3967 AND (`tfexpsrv`&gt;'0' OR `tfexpsrv`='0' AND (`tfmont`&gt;2 OR `tfmont`=2 AND (`tfsens`&gt;1 OR `tfsens`=1 AND (`tfbanque`&gt;'' OR `tfbanque`='' AND (`tfref`&gt;'' OR `tfref`='' AND (`tftireur`&gt;'CLIENTS DIVERS-BOUTIQUE/EPICER' OR `tftireur`='CLIENTS DIVERS-BOUTIQUE/EPICER' AND (`tfnumrem`&gt;550 OR `tfnumrem`=550 AND (`tfcompta`&gt;11 OR `tfcompta`=11 AND (`tfetat`&gt;0 OR `tfetat`=0 AND (`tfmodpai`&gt;14 OR `tfmodpai`=14 AND (`tfoper`&gt;'CHLOEM' OR `tfoper`='CHLOEM' AND (`tfdatrem`&gt;'2026-07-17' OR `tfdatrem`='2026-07-17' AND (`tftype`&gt;'CL' OR `tftype`='CL' AND (TIME_FORMAT(`tfheure`,'%H%i%S')&gt;'130247' OR TIME_FORMAT(`tfheure`,'%H%i%S')='130247' AND (`tfreparti`&gt;2 OR `tfreparti`=2 AND (`tfanul_oper`&gt;'' OR `tfanul_oper`='' AND (`tfanul_date` IS NOT NULL OR `tfanul_date` IS NULL AND (TIME_FORMAT(`tfanul_heure`,'%H%i') IS NOT NULL OR TIME_FORMAT(`tfanul_heure`,'%H%i') IS NULL AND (`tfvirement`&gt;0 OR `tfvirement`=0 AND (`tfcaution`&gt;0 OR `tfcaution`=0 AND (`tfvaleurs`&gt;'' OR `tfvaleurs`='' AND (`tfprelev`&gt;0 OR `tfprelev`=0 AND (`tflibelle`&gt;'' OR `tflibelle`='' AND (`tfchequenbr`&gt;'' OR `tfchequenbr`='' AND (`tftpv`&gt;0 OR `tftpv`=0 AND (`tfautres`&gt;'' OR `tfautres`='' AND (`tfposte`&gt;'ODAFLINA-APP-01' OR `tfposte`='ODAFLINA-APP-01' AND (`tflibmodepai`&gt;'CBS' OR `tflibmodepai`='CBS' AND (`tf_cloture`&gt;'1' OR `tf_cloture`='1' AND (`tf_cloture_num`&gt;206 OR `tf_cloture_num`=206 AND (`tf_cloturemens`&gt;'1' OR `tf_cloturemens`='1' AND (`tf_cloturemens_num`&gt;221 OR `tf_cloturemens_num`=221 AND (`tf_clotureexe`&gt;'' OR `tf_clotureexe`='' AND (`tf_clotureexe_num`&gt;0 OR `tf_clotureexe_num`=0 AND (`tfexecompta`&gt;'2026' OR `tfexecompta`='2026' AND `tfidexecompta`&gt;33003967 ))))))))))))))))))))))))))))))))))))))) ORDER BY 1 , 2 , 4 , 5 , 3 , 31 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21 , 22 , 23 , 24 , 25 , 26 , 27 , 28 , 29 , 30 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40 , 41</i></div><div><i><br></i></div><div>Reproduit sur base de Flower Exploit en 18-37 *- SQL</div><div><br></div><div>❓&nbsp;<b><font color=\"#16a34a\">A voir si on ne peut pas optimiser par ProxySQL avec Ludwig</font></b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -29675,7 +29955,7 @@
       "client": "Clients avec passerelle SH",
       "dateCreation": "2026-02-18T18:16:00.000Z",
       "estimBack": 14,
-      "estimFront": 28,
+      "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -46924,7 +47204,7 @@
     ]
   },
   "counts": {
-    "classique": 868,
+    "classique": 875,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
