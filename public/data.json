@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T08:40:36.022Z",
+  "generatedAt": "2026-11-18T17:31:03.149Z",
   "classique": [
     {
       "id": "41a8db15-623a-8117-a3ab-f07db9dc204e",
@@ -2148,7 +2148,9 @@
       "classification": "BUG STRUCTURANT",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -2165,7 +2167,9 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
