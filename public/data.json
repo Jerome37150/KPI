@@ -1,6 +1,318 @@
 {
-  "generatedAt": "2026-11-19T04:29:16.764Z",
+  "generatedAt": "2026-11-19T13:41:54.755Z",
   "classique": [
+    {
+      "id": "41d8db15-623a-81ca-a5e0-ea3d89f35201",
+      "identifiant": "INA-1100",
+      "titre": "Exclusion des factures B2Bi de la transmission vers les PA",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-19T12:59:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Dans le cadre de la réforme de la facturation électronique (e-invoicing / e-reporting), seules les opérations domestiques B2B (entre assujettis établis en France) doivent transiter par une Plateforme Agréée (PA) sous forme de facture électronique structurée (flux e-invoicing).<div><br></div><div>Les opérations B2Bi (ventes à des clients professionnels établis hors de France : Union Européenne ou Hors UE) sont exclues du périmètre e-invoicing. Elles relèvent uniquement du dispositif e-reporting (transmission périodique des données de transaction et de paiement) et doivent continuer d'être adressées directement au client selon les canaux habituels (envoi PDF par e-mail, EDI historique, etc.).</div><div><br></div><div>Actuellement, le moteur d'envoi automatique vers la PA risque d'intercepter l'ensemble des factures validées. Il est nécessaire de mettre en place un filtrage strict à la validation de la facture pour bloquer toute transmission vers la PA dès lors que le tiers client est qualifié en B2Bi.</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Exclusion-des-factures-B2Bi-de-la-transmission-vers-les-PA-41d8db15623a81caa5e0ea3d89f35201"
+    },
+    {
+      "id": "41d8db15-623a-81a7-8b26-f109ae365ad8",
+      "identifiant": "INA-1099",
+      "titre": "Faire un upgrade de l'image tomcat9 en preprod",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-19T11:16:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite à la publication d'une faille critique sur Java, faire un upgrade de l'image de preprod de Tomcat9",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Faire-un-upgrade-de-l-image-tomcat9-en-preprod-41d8db15623a81a78b26f109ae365ad8"
+    },
+    {
+      "id": "41d8db15-623a-8119-8cf2-cd2f7793cbf9",
+      "identifiant": "INA-1098",
+      "titre": "RFE  cas particuliers : la Facture T.O avec TVA déductible est rejetée",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-19T11:04:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "une facture de T.O est rejaté par la P.A lorsque :&nbsp;<div>paramétrer un T.O avec une déduction de commission avec un taux de tva à 20 %</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/d36a05aa1661411baf135bda2dcc2bb8\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Réaliser un séjour de T.O , puis facturer la part T.O&nbsp;</div><div>Résultat : la facture est bloquée&nbsp; :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/16ff2b8d87544a7aa37aab7d00d222a9\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/RFE-cas-particuliers-la-Facture-T-O-avec-TVA-d-ductible-est-rejet-e-41d8db15623a81198cf2cd2f7793cbf9"
+    },
+    {
+      "id": "41d8db15-623a-81a0-8f14-db6e836faf17",
+      "identifiant": "INA-1097",
+      "titre": "Revoir la remise OverlayOffer - prix de base",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-19T09:59:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Plusieurs campings ont signalé un problème (INA-1095) avec des versions totalement différentes<br>On s'est aperçu que ça venait de la INA-374 qui fonctionne pour Sunelia mais pas pour les resa classique, il faut qu'on trouve une solution car le tarif de base n'est pas le bon.<br>Une réunion va être faite pour prendre les décisions sur ce qu'il faut faire<br><br><b>Pour info voici ce qui a été fait sur la INA-1095 :&nbsp;</b><br>Je suis revenu en arrière sur une des modifications que j'avais effectué sur le traitement des prix de base dans l'US INA-374 (Jira : BUG-1146)<div><br></div><div>Il s'agit du traitement du prix de base effectué lors de la création ou de la modification d'une resa classique.</div><div>=&gt; <font color=\"#2563eb\">le prix de base enregistré dans la resa est celui reçu par dans celle de CTV (sans modification)</font></div><div><br></div><div>J'ai laissé la modif qui avait été faite pour les resas TO :&nbsp;</div><div>=&gt; <font color=\"#2563eb\">le prix de base enregistré dans la resa TO est celui reçu par dans celle de CTV auquel on retire le montant du total des offres&nbsp;</font></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Revoir-la-remise-OverlayOffer-prix-de-base-41d8db15623a81a08f14db6e836faf17"
+    },
+    {
+      "id": "41d8db15-623a-8138-8c86-c705a55c47a3",
+      "identifiant": "INA-1096",
+      "titre": "Failles PHP/JAVA/NGINX",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-19T09:56:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Après les failles critiques de PHP/JAVA et NGINX, il faut mettre à jour les versions de chacun de ces projets.<br>JAVA est en 17 et il faut l'upgrader, NGINX il faut relancer les services sur chaques API, PHP vérifier que les configurations php soient bonnes en attendant l'upgrade.",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Failles-PHP-JAVA-NGINX-41d8db15623a81388c86c705a55c47a3"
+    },
+    {
+      "id": "41d8db15-623a-8176-b3a9-fb9e8d4e5138",
+      "identifiant": "INA-1095",
+      "titre": "Erreur rs_prixBase lors de l'intégration d'une résa Web",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-19T09:02:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Erreur lors de l'intégration d'une résa web : le montant rs_prixdebase est incorrect car les remises sont déjà déduites.<div><br></div><div>1. Le camping valide sa résa :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/b9c4c267f69043dfb6468b662b307ba7\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Le montant est différent donc le camping clique sur Forcer le prix calculé lors de la réservation Internet :</div><div><br></div><div>Le montant affiché est erroné car les remises sont déduites :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/e0152191e876436ca2de9bed366382d7\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Sur le web le rs_prix de base est erroné :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/3e9407a074ec459caa6af77c1b275724\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Sur le xml de CTV :&nbsp;</div><div><br></div><div>&nbsp; &nbsp;\"accompanyingPersons\": []</div><div>&nbsp; },</div><div>&nbsp; \"prices\": {</div><div>&nbsp; &nbsp; \"details\": {</div><div>&nbsp; &nbsp; &nbsp; \"currency\": \"EUR\",</div><div>&nbsp; &nbsp;<font color=\"#dc2626\"> &nbsp; <b>\"base\": 805.0,</b></font></div><div>&nbsp; &nbsp; &nbsp; \"total\": 652.05,</div><div>&nbsp; &nbsp; &nbsp; \"deposit\": 230.62,</div><div>&nbsp; &nbsp; &nbsp; \"bookingFees\": 0.0</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-rs_prixBase-lors-de-l-int-gration-d-une-r-sa-Web-41d8db15623a8176b3a9fb9e8d4e5138"
+    },
+    {
+      "id": "41d8db15-623a-818b-93a0-dc59b1dd40e2",
+      "identifiant": "INA-1094",
+      "titre": "Resa en ligne: Parametrer TurboSmtp comme serveur de mails",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-19T07:58:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "En mai dernier il y a eu un incendie chez TurboSMTP, nous sommes donc passé chez emailing.<div><br></div><div>Il faudrait qu'on remettre TurboSmtp comme serveur de mail principal<br><br>Une US a été faite pour l'Espace client, celle-ci c'est pour la resa en ligne</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Resa-en-ligne-Parametrer-TurboSmtp-comme-serveur-de-mails-41d8db15623a818b93a0dc59b1dd40e2"
+    },
+    {
+      "id": "41d8db15-623a-81f9-a1ae-f779f024b41c",
+      "identifiant": "INA-1093",
+      "titre": "Upgrade de la version de RabbitMQ en production",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-19T07:54:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite au scan ASV, CNPP nous fait remonter des failles critiques sur RabbitMQ",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Upgrade-de-la-version-de-RabbitMQ-en-production-41d8db15623a81f9a1aef779f024b41c"
+    },
+    {
+      "id": "41d8db15-623a-815d-8e12-d20668de064b",
+      "identifiant": "INA-1092",
+      "titre": "Upgrade de la version d'Apache2",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-19T07:49:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite au scan ASV, CNPP nous informe que NaxiResa utilise une version d'Apache HTTP Server 2.4.67 possède des failles critiques qui peuvent être corrigées avec la version 2.4.69 ou ultérieure",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Upgrade-de-la-version-d-Apache2-41d8db15623a815d8e12d20668de064b"
+    },
     {
       "id": "41a8db15-623a-8117-a3ab-f07db9dc204e",
       "identifiant": "INA-1091",
@@ -293,7 +605,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -312,7 +624,7 @@
       "explication": "Il est impossible d'ajouter la spécif NAXICOMMERCE sur un client qui vient de souscrire au produit :&nbsp;<div><br></div><div>Sur INACOM, on peut prendre l'exemple du camping LE CHAMOIS :&nbsp;</div><div><br></div><div>1. SI on ouvre la fiche INACOM, que l'on se rend dans l'onglet NAXI et que l'on ajoute la spécif NAXICOMMERCE :&nbsp;<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/a6e15ea5851f47e8baaa30ed0feced80\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div><br></div></div><div><br></div><div>De plus, l'onglet FORCE 7 est grisé donc est complètement bloqués</div>",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -47208,7 +47520,7 @@
     ]
   },
   "counts": {
-    "classique": 875,
+    "classique": 884,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
