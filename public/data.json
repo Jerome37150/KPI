@@ -1,6 +1,142 @@
 {
-  "generatedAt": "2026-11-20T10:29:37.092Z",
+  "generatedAt": "2026-11-20T18:43:20.758Z",
   "classique": [
+    {
+      "id": "41e8db15-623a-81a5-8b7b-f7aaa1859928",
+      "identifiant": "INA-1106",
+      "titre": "Version espagnole : erreur de traduction sur la fiche client",
+      "classification": "BUG D'USAGE",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-20T14:37:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Mauvaise traduction du logiciel sur la case \"Masquer les prestations annulées\" qui laisse apparaître \"ver los otros ejercicios\"<br><br><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/bee9a652220748f7993cdaaf0cad2d27\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Il faut remplacer l'intitulé en encadré orange sur la capture ci dessus par : <b><i>Ocultar los servicios cancelados</i></b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Version-espagnole-erreur-de-traduction-sur-la-fiche-client-41e8db15623a81a58b7bf7aaa1859928"
+    },
+    {
+      "id": "41e8db15-623a-814b-8a9d-d8ace9616a1c",
+      "identifiant": "INA-1105",
+      "titre": "Création d'un environnement de production chez OVHCloud",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-20T13:39:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Création d'un environnement de production (LB, cluster mks, etc...) pour déployer des services en production chez OVH",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Cr-ation-d-un-environnement-de-production-chez-OVHCloud-41e8db15623a814b8a9dd8ace9616a1c"
+    },
+    {
+      "id": "41e8db15-623a-8156-a4b9-ef3ffbfb40b9",
+      "identifiant": "INA-1104",
+      "titre": "Mise en prod Chorus Pro",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-20T13:22:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "https://portail.chorus-pro.gouv.fr/aife_documentation?id=kb_article_view&amp;sys_kb_id=25895e0c2b5f8f50b4a3f6fbfe91bff3.<div><br></div><div>https://wiki.inaxel.com/fr/Developpement/08-Projets/FacturationElectronique/ChorusPro/Connexion</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-en-prod-Chorus-Pro-41e8db15623a8156a4b9ef3ffbfb40b9"
+    },
+    {
+      "id": "41e8db15-623a-816b-8299-cd1b35816f82",
+      "identifiant": "INA-1103",
+      "titre": "CTV - Disparité tarifaire OTA (produits et périodes)",
+      "classification": "DEV avec CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-20T10:41:00.000Z",
+      "estimBack": 7,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<b>OTA :</b> Pouvoir configurer une d'augmentation de tarif pour les distributeurs pour éviter de dupliquer les tarifs de base dans NAXI<div><ul><li>Mise en place en méthode dynamique, similaire au fonctionnement FLEX =&gt; Envoyer l’information de l’augmentation brute dans un champ au postbooking, plutôt que le détail du calcul, à l’instar du Flex</li><li>Ajout dans le commentaire du montant de la différence tarifaire.&nbsp;</li><li>Ce message devra être toujours visible, y compris en cas d’erreur.&nbsp;</li><li>Envoi du commentaire à CTV dès que possible dans le planning de dev CTV.</li></ul></div><div><br></div><div>Dans Naxi, une catégorie d’hébergement a un tarif de base. Lorsqu’une réservation passe par un Tour Opérateur (TO), les campings dupliquent aujourd’hui la catégorie en augmentant son tarif, afin d’absorber la commission du TO. Cette pratique est lourde à maintenir et source d’erreurs.</div><div><br></div><div>L’objectif est de gérer cette disparité tarifaire de façon native : le WEB transmet l’augmentation appliquée, et Naxi recalcule le prix du séjour en conséquence. Le fonctionnement est identique à celui déjà en place pour CTV lorsque la réservation provient d’un TO, et s’appuie sur le même mécanisme que le tarif flex, sans pour autant créer de tarif flex.</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/CTV-Disparit-tarifaire-OTA-produits-et-p-riodes-41e8db15623a816b8299cd1b35816f82"
+    },
     {
       "id": "41e8db15-623a-81c3-88a8-d06bfdc62cf2",
       "identifiant": "INA-1102",
@@ -30300,7 +30436,7 @@
       ],
       "client": "Clients avec passerelle SH",
       "dateCreation": "2026-02-18T18:23:00.000Z",
-      "estimBack": 14,
+      "estimBack": 0,
       "estimFront": 7,
       "estimPoTest": 0,
       "persBack": [],
@@ -47588,7 +47724,7 @@
     ]
   },
   "counts": {
-    "classique": 886,
+    "classique": 890,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
