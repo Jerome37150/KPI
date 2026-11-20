@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-11-20T02:42:37.777Z",
+  "generatedAt": "2026-11-20T10:29:37.092Z",
   "classique": [
+    {
+      "id": "41e8db15-623a-81c3-88a8-d06bfdc62cf2",
+      "identifiant": "INA-1102",
+      "titre": "RFE cas particuliers : modifier le code pour la taxe de séjour sur xml structure privée",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-20T09:11:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<br><div><br></div><div>Certains validateurs affichent les règles BR-FXEXT-Z-* à titre informatif (Warning)</div><div>Le préfixe FXEXT indique une règle spécifique au profil Factur-X Extended (urn:factur-x.eu:1p0:extended). Dès qu'une facture utilise le code TVA Z (Zero Rated / taux zéro), certains moteurs de validation remontent un avertissement pour signaler l'usage de ce code particulier et rappeler la règle de contrôle associée.</div><div><br></div><div>En France, le code Z est rarement approprié pour une taxe de séjour</div><div><br></div><div>Le code Z signifie « soumise à la TVA au taux de 0 % » (cas très spécifiques comme les exportations ou livraisons intracommunautaires exonérées ouvrant droit à déduction).</div><div><br></div><div>Une taxe de séjour collectée pour le compte d'une commune est généralement hors champ de la TVA (code O – Not subject to VAT) ou exonérée (code E), et non taxée à 0 % (Z).</div><div><br></div><div>De plus, dans votre XML, le motif est rédigé en allemand (« nach dem Nullsatz zu versteuernde Waren »), ce qui est typique d'un paramétrage par défaut d'une bibliothèque Factur-X (comme Mustangproject) lorsqu'on choisit la catégorie Z.</div><div><br></div><div><b>Que faire selon le statut dans votre validateur ?</b></div><div>Si c'est un simple avertissement (WARNING / INFO) : la facture est techniquement conforme sur le plan arithmétique (2.80 = 2.80) et ne sera pas rejetée pour ce calcul.</div><div><br></div><div>Si vous souhaitez supprimer l'avertissement et être fiscalement propre (en France) :</div><div><br></div><div><br></div><div><br></div><div><b>Attention :</b> si vous passez la ligne 6 en code O (Not subject to VAT), la norme EN 16931 impose que toute la facture soit en code O (on ne peut pas mélanger S et O sur une même facture). Si vous devez garder des lignes à 10 % (S) sur la même facture, le code E (Exempt from tax — exonéré de TVA, avec un motif d'exonération en français) est généralement utilisé à la place de Z pour éviter l'usage du taux zéro Z et son libellé allemand par défaut.</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/RFE-cas-particuliers-modifier-le-code-pour-la-taxe-de-s-jour-sur-xml-structure-priv-e-41e8db15623a81c388a8d06bfdc62cf2"
+    },
+    {
+      "id": "41e8db15-623a-81a7-a467-c0af5f5b2fd5",
+      "identifiant": "INA-1101",
+      "titre": "CTV: envoi des ID distributeur",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-20T08:47:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite au développement du Mapping des TO et récupération de l'id TO lors du postbooking des Réservations SH, une demande d'Arthur avait été faite car ils ont essayé d'activer la remonter des distributeurs mais on envoyait des int alors qu'ils n'acceptent que des string comme ID.<div><br></div><div>Louis-Charles avait corrigé mais il reste un problème sur la récupération de cette donnée dans le PUT Booking de SecureHoliday Api (mise à jour d'une reservation existante).</div><div><br></div><div>Il faut donc corriger le controle du type de cette donnée =&gt; vérifier que c'est un int et plus un string (car l'id d'un distributeur dans notre DB inaresa.distributeur est toujours un int).</div><div><br></div><div>C'est déjà le cas pour le POST (création d'une nouvelle reservation) qui est ok.</div><div><br></div><div>Arthur veut envoyer le noeud pmsDistributorId à NULL =&gt; ça ne posera pas problème.</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/CTV-envoi-des-ID-distributeur-41e8db15623a81a7a467c0af5f5b2fd5"
+    },
     {
       "id": "41d8db15-623a-81ca-a5e0-ea3d89f35201",
       "identifiant": "INA-1100",
@@ -73,7 +141,7 @@
       "id": "41d8db15-623a-8119-8cf2-cd2f7793cbf9",
       "identifiant": "INA-1098",
       "titre": "RFE  cas particuliers : la Facture T.O avec TVA déductible est rejetée",
-      "classification": "BUG OPERATIONNEL",
+      "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [],
@@ -47520,7 +47588,7 @@
     ]
   },
   "counts": {
-    "classique": 884,
+    "classique": 886,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
