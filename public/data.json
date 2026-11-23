@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T01:43:05.083Z",
+  "generatedAt": "2026-11-23T09:46:31.480Z",
   "classique": [
     {
       "id": "41e8db15-623a-81a5-8b7b-f7aaa1859928",
@@ -76,7 +76,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -91,9 +93,11 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "https://portail.chorus-pro.gouv.fr/aife_documentation?id=kb_article_view&amp;sys_kb_id=25895e0c2b5f8f50b4a3f6fbfe91bff3.<div><br></div><div>https://wiki.inaxel.com/fr/Developpement/08-Projets/FacturationElectronique/ChorusPro/Connexion</div>",
+      "explication": "https://portail.chorus-pro.gouv.fr/aife_documentation?id=kb_article_view&amp;sys_kb_id=25895e0c2b5f8f50b4a3f6fbfe91bff3.<div><br></div><div>https://wiki.inaxel.com/fr/Developpement/08-Projets/FacturationElectronique/ChorusPro/Connexion</div><div><br></div><div><br></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6317,7 +6321,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<ul><li>En tant que : Gérant du camping municipal</li><li>Je veux : visualiser le statut de ma facture (Déposée, Rejetée, Suspendue, Mandatée) directement dans mon tableau de bord des factures</li><li>Afin de : suivre les paiements de la trésorerie publique sans devoir me connecter au portail externe de Chorus Pro.</li></ul>",
+      "explication": "<ul><li>En tant que : Gérant du camping municipal</li><li>Je veux : visualiser le statut de ma facture (Déposée, Rejetée, Suspendue, Mandatée...) directement dans mon tableau de bord des factures</li><li>Afin de : suivre les paiements de la trésorerie publique sans devoir me connecter au portail externe de Chorus Pro.</li></ul>",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
