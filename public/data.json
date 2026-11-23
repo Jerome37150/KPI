@@ -1,6 +1,186 @@
 {
-  "generatedAt": "2026-11-23T09:46:31.480Z",
+  "generatedAt": "2026-11-23T21:46:32.235Z",
   "classique": [
+    {
+      "id": "4218db15-623a-81f6-b007-ee12f4bcfdf0",
+      "identifiant": "INA-1111",
+      "titre": "Mettre en place un système pour pouvoir changer le user et mdp du CRM",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-23T15:22:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<u><i>Nous avons reçu un mail de Maïlys concernant le CRM (suite aux attaques qu'ils ont subit) </i></u>:&nbsp;<div><br></div><div><i>Bonjour Jérôme,</i></div><div><i>&nbsp;</i></div><div><i>Nous allons procéder au renouvellement de tous les mots de passe des utilisateurs webservices, et ajouter en complément lorsque cela est possible une restriction sur une ou plusieurs IP par user WS.</i></div><div><i>&nbsp;</i></div><div><i>Dans cette optique, pourras-tu m’indiquer :</i></div><div><i>Lesquels de ces 3 users sont toujours utilisés :</i></div><div><i>#11 inaxelF &gt; User dédié Flower</i></div><div><i>#17 inaxelM &gt; User dédié Les médit</i></div><div><i>#24 Inaxel3 &gt; User standard, pas de doute sur celui-ci</i></div><div><i>&nbsp;</i></div><div><i>Nous souhaitons mettre en place par ailleurs des IP autorisées, cela n’est possible que si les appels se font uniquement depuis le web. Or pour la fid je pense que les appels sont faits depuis l’établissement directement, mais je vous laisse toutefois confirmer.</i></div><div><i>&nbsp;</i></div><div><i>Le renouvellement des mots de passe devra se faire de manière synchronisée pour éviter une rupture de service.</i></div><div><i>Si ces changements nécessitent un déploiement de version, il est envisageable de créer de nouveaux users le temps que les établissements fassent la mise à jour (quelques jours seulement, les anciens accès seraient supprimés très rapidement dans ce cas).</i></div><div><i>&nbsp;</i></div><div><i>Je te laisse revenir vers moi pour m’indiquer un créneau durant le quel cela serait envisageable pour vous la semaine prochaine (le plus tôt sera clairement le mieux).</i></div><div><i>Si besoin de faire le switch en soirée (avant 22h please) c’est possible pour moi,</i></div><div><br></div><div><br></div><div><b><u>Suite à la réunion du 23.11.2026 (Loic, Jérôme, Angélique, Agathe et Maïlys)</u></b> :&nbsp;</div><div><br></div><div><i><u>Problématique</u></i> : les users et mot de passe (en cryptés) sont présents dans le fichier config.ini de NAXI donc la mise à jour, en si peu de temps, est très compliquée.</div><div><br></div><div><i><u>Il a été convenu</u></i> :&nbsp;</div><div><br></div><div>1. D'envoyer à CTV la liste des méthodes utilisées par NAXI Gestion/NAXIEXPORT/NAXIRESA qui appellent les WS du CRM.</div><div><br></div><div>2. CTV va développer des users avec une restriction sur les accès (grâce à la liste envoyée précédemment) pour les users qu'on utilise aujourd'hui. Ces users pourront donc être conservés plus longtemps (car accès restrincts).</div><div><br></div><div>3. CTV va nous créer un nouvel user et mot de passe.&nbsp;</div><div><br></div><div>4. On va changer le user et le mot de passe sur le web pour tous les envois qui sont faits via l'API du CRM.</div><div><br></div><div>5. Ensuite, côté NAXI Gestion, on va mettre en place un système de récupération du user et du mot de passe depuis le web, afin de ne plus avoir besoin de faire une version pour changer le config.ini, on pourra les changer directement sur le web (même principe que celui mit en place pour salesAPI).</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mettre-en-place-un-syst-me-pour-pouvoir-changer-le-user-et-mdp-du-CRM-4218db15623a81f6b007ee12f4bcfdf0"
+    },
+    {
+      "id": "4218db15-623a-81d5-a106-f52109345967",
+      "identifiant": "INA-1110",
+      "titre": "Lister les méthodes utilisées pour le CRM dans NAXI Gestion/NAXIEXPORT/NAXIRESA",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-23T15:17:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<u><i>Nous avons reçu un mail de Maïlys concernant le CRM (suite aux attaques qu'ils ont subit)</i></u> :&nbsp;<div><br></div><div><i>Bonjour Jérôme,</i></div><div><i>&nbsp;</i></div><div><i>Nous allons procéder au renouvellement de tous les mots de passe des utilisateurs webservices, et ajouter en complément lorsque cela est possible une restriction sur une ou plusieurs IP par user WS.</i></div><div><i>&nbsp;</i></div><div><i>Dans cette optique, pourras-tu m’indiquer :</i></div><div><i>Lesquels de ces 3 users sont toujours utilisés :</i></div><div><i>#11 inaxelF &gt; User dédié Flower</i></div><div><i>#17 inaxelM &gt; User dédié Les médit</i></div><div><i>#24 Inaxel3 &gt; User standard, pas de doute sur celui-ci</i></div><div><i>&nbsp;</i></div><div><i>Nous souhaitons mettre en place par ailleurs des IP autorisées, cela n’est possible que si les appels se font uniquement depuis le web. Or pour la fid je pense que les appels sont faits depuis l’établissement directement, mais je vous laisse toutefois confirmer.</i></div><div><i>&nbsp;</i></div><div><i>Le renouvellement des mots de passe devra se faire de manière synchronisée pour éviter une rupture de service.</i></div><div><i>Si ces changements nécessitent un déploiement de version, il est envisageable de créer de nouveaux users le temps que les établissements fassent la mise à jour (quelques jours seulement, les anciens accès seraient supprimés très rapidement dans ce cas).</i></div><div><i>&nbsp;</i></div><div><i>Je te laisse revenir vers moi pour m’indiquer un créneau durant le quel cela serait envisageable pour vous la semaine prochaine (le plus tôt sera clairement le mieux).</i></div><div><i>Si besoin de faire le switch en soirée (avant 22h please) c’est possible pour moi,</i></div><div><br></div><div><br></div><div><u><b>Suite à la réunion du 23.11.2026 (Loic, Jérôme, Angélique, Agathe et Maïlys)</b></u> :&nbsp;</div><div><br></div><div><i><u>Problématique</u></i> : les users et mot de passe (en cryptés) sont présents dans le fichier config.ini de NAXI donc la mise à jour, en si peu de temps, est très compliquée.</div><div><br></div><div><u><i>Il a été convenu </i></u>:&nbsp;</div><div><br></div><div>1. D'envoyer à CTV la liste des méthodes utilisées par NAXI Gestion/NAXIEXPORT/NAXIRESA qui appellent les WS du CRM.</div><div><br></div><div>2. CTV va développer des users avec une restriction sur les accès (grâce à la liste envoyée précédemment) pour les users qu'on utilise aujourd'hui. Ces users pourront donc être conservés plus longtemps (car accès restrincts).</div><div><br></div><div>3. CTV va nous créer un nouvel user et mot de passe.&nbsp;</div><div><br></div><div>4. On va changer le user et le mot de passe sur le web pour tous les envois qui sont faits via l'API du CRM.</div><div><br></div><div>5. Ensuite, côté NAXI Gestion, on va mettre en place un système de récupération du user et du mot de passe depuis le web, afin de ne plus avoir besoin de faire une version pour changer le config.ini, on pourra les changer directement sur le web (même principe que celui mit en place pour salesAPI).</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Lister-les-m-thodes-utilis-es-pour-le-CRM-dans-NAXI-Gestion-NAXIEXPORT-NAXIRESA-4218db15623a81d5a106f52109345967"
+    },
+    {
+      "id": "4218db15-623a-81d4-89c8-dabe401ad91b",
+      "identifiant": "INA-1109",
+      "titre": "Mettre en place un système pour pouvoir changer le user et mdp du CRM",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-23T15:13:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<i><u>Nous avons reçu un mail de Maïlys concernant le CRM (suite aux attaques qu'ils ont subit)</u></i> :&nbsp;<div><br></div><div><i>Bonjour Jérôme,</i></div><div><i>&nbsp;</i></div><div><i>Nous allons procéder au renouvellement de tous les mots de passe des utilisateurs webservices, et ajouter en complément lorsque cela est possible une restriction sur une ou plusieurs IP par user WS.</i></div><div><i>&nbsp;</i></div><div><i>Dans cette optique, pourras-tu m’indiquer :</i></div><div><i>Lesquels de ces 3 users sont toujours utilisés :</i></div><div><i>#11 inaxelF &gt; User dédié Flower</i></div><div><i>#17 inaxelM &gt; User dédié Les médit</i></div><div><i>#24 Inaxel3 &gt; User standard, pas de doute sur celui-ci</i></div><div><i>&nbsp;</i></div><div><i>Nous souhaitons mettre en place par ailleurs des IP autorisées, cela n’est possible que si les appels se font uniquement depuis le web. Or pour la fid je pense que les appels sont faits depuis l’établissement directement, mais je vous laisse toutefois confirmer.</i></div><div><i>&nbsp;</i></div><div><i>Le renouvellement des mots de passe devra se faire de manière synchronisée pour éviter une rupture de service.</i></div><div><i>Si ces changements nécessitent un déploiement de version, il est envisageable de créer de nouveaux users le temps que les établissements fassent la mise à jour (quelques jours seulement, les anciens accès seraient supprimés très rapidement dans ce cas).</i></div><div><i>&nbsp;</i></div><div><i>Je te laisse revenir vers moi pour m’indiquer un créneau durant le quel cela serait envisageable pour vous la semaine prochaine (le plus tôt sera clairement le mieux).</i></div><div><i>Si besoin de faire le switch en soirée (avant 22h please) c’est possible pour moi,</i></div><div><br></div><div><br></div><div><u><b>Suite à la réunion du 23.11.2026 (Loic, Jérôme, Angélique, Agathe et Maïlys) </b></u>:&nbsp;</div><div><br></div><div><i><u>Problématique</u></i> : les users et mot de passe (en cryptés) sont présents dans le fichier config.ini de NAXI donc la mise à jour, en si peu de temps, est très compliquée.</div><div><br></div><div><u><i>Il a été convenu </i></u>:&nbsp;</div><div><br></div><div>1. D'envoyer à CTV la liste des méthodes utilisées par NAXI Gestion/NAXIEXPORT/NAXIRESA qui appellent les WS du CRM.</div><div><br></div><div>2. CTV va développer des users avec une restriction sur les accès (grâce à la liste envoyée précédemment) pour les users qu'on utilise aujourd'hui. Ces users pourront donc être conservés plus longtemps (car accès restrincts).</div><div><br></div><div>3. CTV va nous créer un nouvel user et mot de passe.&nbsp;</div><div><br></div><div>4. On va changer le user et le mot de passe sur le web pour tous les envois qui sont faits via l'API du CRM.</div><div><br></div><div>5. Ensuite, côté NAXI Gestion, on va mettre en place un système de récupération du user et du mot de passe depuis le web, afin de ne plus avoir besoin de faire une version pour changer le config.ini, on pourra les changer directement sur le web (même principe que celui mit en place pour salesAPI).</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mettre-en-place-un-syst-me-pour-pouvoir-changer-le-user-et-mdp-du-CRM-4218db15623a81d489c8dabe401ad91b"
+    },
+    {
+      "id": "4218db15-623a-81ff-aab3-cd8bc2d9c40f",
+      "identifiant": "INA-1108",
+      "titre": "Changer Mot de Passe des WS CRM",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-23T15:11:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div><i><u>Nous avons reçu un mail de Maïlys concernant le CRM (suite aux attaques qu'ils ont subit) </u></i>:&nbsp;</div><div><br></div><div><i>Bonjour Jérôme,</i></div><div><i>&nbsp;</i></div><div><i>Nous allons procéder au renouvellement de tous les mots de passe des utilisateurs webservices, et ajouter en complément lorsque cela est possible une restriction sur une ou plusieurs IP par user WS.</i></div><div><i>&nbsp;</i></div><div><i>Dans cette optique, pourras-tu m’indiquer :</i></div><div><i>Lesquels de ces 3 users sont toujours utilisés :</i></div><div><i>#11 inaxelF &gt; User dédié Flower</i></div><div><i>#17 inaxelM &gt; User dédié Les médit</i></div><div><i>#24 Inaxel3 &gt; User standard, pas de doute sur celui-ci</i></div><div><i>&nbsp;</i></div><div><i>Nous souhaitons mettre en place par ailleurs des IP autorisées, cela n’est possible que si les appels se font uniquement depuis le web. Or pour la fid je pense que les appels sont faits depuis l’établissement directement, mais je vous laisse toutefois confirmer.</i></div><div><i>&nbsp;</i></div><div><i>Le renouvellement des mots de passe devra se faire de manière synchronisée pour éviter une rupture de service.</i></div><div><i>Si ces changements nécessitent un déploiement de version, il est envisageable de créer de nouveaux users le temps que les établissements fassent la mise à jour (quelques jours seulement, les anciens accès seraient supprimés très rapidement dans ce cas).</i></div><div><i>&nbsp;</i></div><div><i>Je te laisse revenir vers moi pour m’indiquer un créneau durant le quel cela serait envisageable pour vous la semaine prochaine (le plus tôt sera clairement le mieux).</i></div><div><i>Si besoin de faire le switch en soirée (avant 22h please) c’est possible pour moi,</i></div><div><br></div><div><br></div><div><u><b>Suite à la réunion du 23.11.2026 (Loic, Jérôme, Angélique, Agathe et Maïlys)</b></u> :&nbsp;</div><div><br></div><div><u><i>Problématique</i></u> : les users et mot de passe (en cryptés) sont présents dans le fichier config.ini de NAXI donc la mise à jour, en si peu de temps, est très compliquée.</div><div><br></div><div><i><u>Il a été convenu</u></i> :&nbsp;</div><div><br></div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div>1. D'envoyer à CTV la liste des méthodes utilisées par NAXI Gestion/NAXIEXPORT/NAXIRESA qui appellent les WS du CRM.</div></blockquote><div><br></div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div>2. CTV va développer des users avec une restriction sur les accès (grâce à la liste envoyée précédemment) pour les users qu'on utilise aujourd'hui. Ces users pourront donc être conservés plus longtemps (car accès restrincts).</div></blockquote><div><br></div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div>3. CTV va nous créer un nouvel user et mot de passe.&nbsp;</div></blockquote><div><br></div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div>4. On va changer le user et le mot de passe sur le web pour tous les envois qui sont faits via l'API du CRM.</div></blockquote><div><br></div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div>5. Ensuite, côté NAXI Gestion, on va mettre en place un système de récupération du user et du mot de passe depuis le web, afin de ne plus avoir besoin de faire une version pour changer le config.ini, on pourra les changer directement sur le web (même principe que celui mit en place pour salesAPI).</div></blockquote><div><br></div><div><br></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Changer-Mot-de-Passe-des-WS-CRM-4218db15623a81ffaab3cd8bc2d9c40f"
+    },
+    {
+      "id": "4218db15-623a-81fe-8bdd-ceca10014cff",
+      "identifiant": "INA-1107",
+      "titre": "RFE - Facture refusée sur Pennylane si n° TVA Intra comporte un espace entre le FR et la suite de chiffres",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-23T10:52:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "L'un de nos clients nous a signalé que sa première facture envoyée sur Pennylane est rejetée.<div><br></div><div>Après analyse, il s'avère que la facture est refusée lorsque :&nbsp;</div><div><br></div><div>1. Se rendre dans son menu Paramètres &gt; Paramètres Exercice</div><div>2. Dans les mentions légales, inscrire un numéro de TVA intra qui comporte un espace entre le FR et les chiffres - <i>Exemple : FR 96519799845</i></div><div>3. Se rendre ensuite sur la fiche d'un client professionnel, générer une facture.</div><div><br></div><div>Si on regarde ensuite sur Pennylane, la facture est en effet rejetée :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/b57741376aca426c97e9b462e26160bf\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>{</div><div>&nbsp; \"type\": \"cii\",</div><div>&nbsp; \"profile\": \"facturx_extended\",</div><div>&nbsp; \"valid\": false,</div><div>&nbsp; \"validation_results\": {</div><div>&nbsp; &nbsp; \"XSD Structure\": {</div><div>&nbsp; &nbsp; &nbsp; \"valid\": true,</div><div>&nbsp; &nbsp; &nbsp; \"errors\": [],</div><div>&nbsp; &nbsp; &nbsp; \"warnings\": []</div><div>&nbsp; &nbsp; },</div><div>&nbsp; &nbsp; \"Factur-X\": {</div><div>&nbsp; &nbsp; &nbsp; \"valid\": true,</div><div>&nbsp; &nbsp; &nbsp; \"errors\": [],</div><div>&nbsp; &nbsp; &nbsp; \"warnings\": []</div><div>&nbsp; &nbsp; },</div><div>&nbsp; &nbsp; \"French Rules (BR-FR)\": {</div><div>&nbsp; &nbsp; &nbsp; \"valid\": true,</div><div>&nbsp; &nbsp; &nbsp; \"errors\": [],</div><div>&nbsp; &nbsp; &nbsp; \"warnings\": []</div><div>&nbsp; &nbsp; },</div><div>&nbsp; &nbsp; \"PPF Portal\": {</div><div>&nbsp; &nbsp; &nbsp; \"valid\": false,</div><div>&nbsp; &nbsp; &nbsp; \"errors\": [</div><div>&nbsp; &nbsp; &nbsp; &nbsp; {</div><div><b><font color=\"#dc2626\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"rule_id\": \"PL.02\",</font></b></div><div><b><font color=\"#dc2626\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"message\": \"Value is invalid\",</font></b></div><div><b><font color=\"#dc2626\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"locations\": [</font></b></div><div><b><font color=\"#dc2626\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"BT-31 - seller_attributes.fiscal_id\"</font></b></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ]</div><div>&nbsp; &nbsp; &nbsp; &nbsp; }</div><div>&nbsp; &nbsp; &nbsp; ],</div><div>&nbsp; &nbsp; &nbsp; \"warnings\": []</div><div>&nbsp; &nbsp; }</div><div>&nbsp; },</div><div>&nbsp; \"file\": {</div><div>&nbsp; &nbsp; \"name\": \"FA26000152.pdf\",</div><div>&nbsp; &nbsp; \"size\": 305799,</div><div>&nbsp; &nbsp; \"format\": \"facturx\"</div><div>&nbsp; },</div><div>&nbsp; \"xml\": \"&lt;?xml version=\\\"1.0\\\" encoding=\\\"utf-8\\\"?&gt;\\r\\n&lt;rsm:CrossIndustryInvoice xmlns:a=\\\"urn:un:unece:uncefact:data:standard:QualifiedDataType:100\\\" xmlns:rsm=\\\"urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100\\\" xmlns:qdt=\\\"urn:un:unece:uncefact:data:standard:QualifiedDataType:100\\\" xmlns:ram=\\\"urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100\\\" xmlns:xs=\\\"http://www.w3.org/2001/XMLSchema\\\" xmlns:udt=\\\"urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100\\\"&gt;\\r\\n  &lt;rsm:ExchangedDocumentContext&gt;\\r\\n    &lt;ram:BusinessProcessSpecifiedDocumentContextParameter&gt;\\r\\n      &lt;ram:ID&gt;S1&lt;/ram:ID&gt;\\r\\n    &lt;/ram:BusinessProcessSpecifiedDocumentContextParameter&gt;\\r\\n    &lt;ram:GuidelineSpecifiedDocumentContextParameter&gt;\\r\\n      &lt;ram:ID&gt;urn:cen.eu:en16931:2017#conformant#urn:factur-x.eu:1p0:extended&lt;/ram:ID&gt;\\r\\n    &lt;/ram:GuidelineSpecifiedDocumentContextParameter&gt;\\r\\n  &lt;/rsm:ExchangedDocumentContext&gt;\\r\\n  &lt;rsm:ExchangedDocument&gt;\\r\\n    &lt;ram:ID&gt;26000152&lt;/ram:ID&gt;\\r\\n    &lt;ram:TypeCode&gt;380&lt;/ram:TypeCode&gt;\\r\\n    &lt;ram:IssueDateTime&gt;\\r\\n      &lt;udt:DateTimeString format=\\\"102\\\"&gt;20261123&lt;/udt:DateTimeString&gt;\\r\\n    &lt;/ram:IssueDateTime&gt;\\r\\n    &lt;ram:IncludedNote&gt;\\r\\n      &lt;ram:Content&gt;Participants à ce séjour :\\r\\nSARL RESTAURANT Test&lt;/ram:Content&gt;\\r\\n    &lt;/ram:IncludedNote&gt;\\r\\n    &lt;ram:IncludedNote&gt;\\r\\n      &lt;ram:Content&gt;Indemnité forfaitaire pour frais de recouvrement en cas de retard de paiement : 40 euros (art. L441-10 et D441-5 du Code de commerce).&lt;/ram:Content&gt;\\r\\n      &lt;ram:SubjectCode&gt;PMT&lt;/ram:SubjectCode&gt;\\r\\n    &lt;/ram:IncludedNote&gt;\\r\\n    &lt;ram:IncludedNote&gt;\\r\\n      &lt;ram:Content&gt;Pénalités de retard exigibles en cas de non-paiement à la date d'échéance : taux d'intérêt appliqué par la Banque Centrale Européenne à son opération de refinancement la plus récente majoré de 10 points de pourcentage (art. L441-10 du Code de commerce).&lt;/ram:Content&gt;\\r\\n      &lt;ram:SubjectCode&gt;PMD&lt;/ram:SubjectCode&gt;\\r\\n    &lt;/ram:IncludedNote&gt;\\r\\n    &lt;ram:IncludedNote&gt;\\r\\n      &lt;ram:Content&gt;Pas d'escompte accordé en cas de paiement anticipé.&lt;/ram:Content&gt;\\r\\n      &lt;ram:SubjectCode&gt;AAB&lt;/ram:SubjectCode&gt;\\r\\n    &lt;/ram:IncludedNote&gt;\\r\\n    &lt;ram:IncludedNote&gt;\\r\\n      &lt;ram:Content&gt;Signature extract :  Bmfd&lt;/ram:Content&gt;\\r\\n    &lt;/ram:IncludedNote&gt;\\r\\n    &lt;ram:IncludedNote&gt;\\r\\n      &lt;ram:Content&gt;Computer name : pc-angelique&lt;/ram:Content&gt;\\r\\n    &lt;/ram:IncludedNote&gt;\\r\\n    &lt;ram:IncludedNote&gt;\\r\\n      &lt;ram:Content&gt;Issue date/time : 2026-11-23 11:51&lt;/ram:Content&gt;\\r\\n    &lt;/ram:IncludedNote&gt;\\r\\n  &lt;/rsm:ExchangedDocument&gt;\\r\\n  &lt;rsm:SupplyChainTradeTransaction&gt;\\r\\n    &lt;ram:IncludedSupplyChainTradeLineItem&gt;\\r\\n      &lt;ram:AssociatedDocumentLineDocument&gt;\\r\\n        &lt;ram:LineID&gt;1&lt;/ram:LineID&gt;\\r\\n      &lt;/ram:AssociatedDocumentLineDocument&gt;\\r\\n      &lt;ram:SpecifiedTradeProduct&gt;\\r\\n        &lt;ram:SellerAssignedID&gt;1&lt;/ram:SellerAssignedID&gt;\\r\\n        &lt;ram:Name&gt;Chalet 5 pers&lt;/ram:Name&gt;\\r\\n        &lt;ram:Description&gt;Service&lt;/ram:Description&gt;\\r\\n      &lt;/ram:SpecifiedTradeProduct&gt;\\r\\n      &lt;ram:SpecifiedLineTradeAgreement&gt;\\r\\n        &lt;ram:GrossPriceProductTradePrice&gt;\\r\\n          &lt;ram:ChargeAmount&gt;90.91&lt;/ram:ChargeAmount&gt;\\r\\n        &lt;/ram:GrossPriceProductTradePrice&gt;\\r\\n        &lt;ram:NetPriceProductTradePrice&gt;\\r\\n          &lt;ram:ChargeAmount&gt;90.91&lt;/ram:ChargeAmount&gt;\\r\\n          &lt;ram:BasisQuantity unitCode=\\\"C62\\\"&gt;1.0000&lt;/ram:BasisQuantity&gt;\\r\\n        &lt;/ram:NetPriceProductTradePrice&gt;\\r\\n      &lt;/ram:SpecifiedLineTradeAgreement&gt;\\r\\n      &lt;ram:SpecifiedLineTradeDelivery&gt;\\r\\n        &lt;ram:BilledQuantity unitCode=\\\"C62\\\"&gt;1.0000&lt;/ram:BilledQuantity&gt;\\r\\n      &lt;/ram:SpecifiedLineTradeDelivery&gt;\\r\\n      &lt;ram:SpecifiedLineTradeSettlement&gt;\\r\\n        &lt;ram:ApplicableTradeTax&gt;\\r\\n          &lt;ram:TypeCode&gt;VAT&lt;/ram:TypeCode&gt;\\r\\n          &lt;ram:CategoryCode&gt;S&lt;/ram:CategoryCode&gt;\\r\\n          &lt;ram:RateApplicablePercent&gt;10.00&lt;/ram:RateApplicablePercent&gt;\\r\\n        &lt;/ram:ApplicableTradeTax&gt;\\r\\n        &lt;ram:BillingSpecifiedPeriod&gt;\\r\\n          &lt;ram:StartDateTime&gt;\\r\\n            &lt;udt:DateTimeString format=\\\"102\\\"&gt;20261123&lt;/udt:DateTimeString&gt;\\r\\n          &lt;/ram:StartDateTime&gt;\\r\\n          &lt;ram:EndDateTime&gt;\\r\\n            &lt;udt:DateTimeString format=\\\"102\\\"&gt;20261124&lt;/udt:DateTimeString&gt;\\r\\n          &lt;/ram:EndDateTime&gt;\\r\\n        &lt;/ram:BillingSpecifiedPeriod&gt;\\r\\n        &lt;ram:SpecifiedTradeSettlementLineMonetarySummation&gt;\\r\\n          &lt;ram:LineTotalAmount&gt;90.91&lt;/ram:LineTotalAmount&gt;\\r\\n        &lt;/ram:SpecifiedTradeSettlementLineMonetarySummation&gt;\\r\\n      &lt;/ram:SpecifiedLineTradeSettlement&gt;\\r\\n    &lt;/ram:IncludedSupplyChainTradeLineItem&gt;\\r\\n    &lt;ram:ApplicableHeaderTradeAgreement&gt;\\r\\n      &lt;ram:SellerTradeParty&gt;\\r\\n        &lt;ram:ID&gt;FR 96519799845&lt;/ram:ID&gt;\\r\\n        &lt;ram:GlobalID schemeID=\\\"0009\\\"&gt;51979984500028&lt;/ram:GlobalID&gt;\\r\\n        &lt;ram:Name&gt;Inaxel&lt;/ram:Name&gt;\\r\\n        &lt;ram:SpecifiedLegalOrganization&gt;\\r\\n          &lt;ram:ID schemeID=\\\"0002\\\"&gt;519799845&lt;/ram:ID&gt;\\r\\n          &lt;ram:TradingBusinessName&gt;Inaxel&lt;/ram:TradingBusinessName&gt;\\r\\n        &lt;/ram:SpecifiedLegalOrganization&gt;\\r\\n        &lt;ram:PostalTradeAddress&gt;\\r\\n          &lt;ram:PostcodeCode&gt;34130 &lt;/ram:PostcodeCode&gt;\\r\\n          &lt;ram:LineOne&gt;491 Rue Charles Nungesser test 222222&lt;/ram:LineOne&gt;\\r\\n          &lt;ram:CityName&gt;MAUGUIO&lt;/ram:CityName&gt;\\r\\n          &lt;ram:CountryID&gt;FR&lt;/ram:CountryID&gt;\\r\\n        &lt;/ram:PostalTradeAddress&gt;\\r\\n        &lt;ram:URIUniversalCommunication&gt;\\r\\n          &lt;ram:URIID schemeID=\\\"0225\\\"&gt;519799845&lt;/ram:URIID&gt;\\r\\n        &lt;/ram:URIUniversalCommunication&gt;\\r\\n        &lt;ram:SpecifiedTaxRegistration&gt;\\r\\n          &lt;ram:ID schemeID=\\\"VA\\\"&gt;FR 96519799845&lt;/ram:ID&gt;\\r\\n        &lt;/ram:SpecifiedTaxRegistration&gt;\\r\\n        &lt;ram:SpecifiedTaxRegistration&gt;\\r\\n          &lt;ram:ID schemeID=\\\"FC\\\"&gt;51979984500028&lt;/ram:ID&gt;\\r\\n        &lt;/ram:SpecifiedTaxRegistration&gt;\\r\\n      &lt;/ram:SellerTradeParty&gt;\\r\\n      &lt;ram:BuyerTradeParty&gt;\\r\\n        &lt;ram:ID&gt;FR44514457100&lt;/ram:ID&gt;\\r\\n        &lt;ram:Name&gt;SARL RESTAURANT Test&lt;/ram:Name&gt;\\r\\n        &lt;ram:SpecifiedLegalOrganization&gt;\\r\\n          &lt;ram:ID schemeID=\\\"0002\\\"&gt;514457100&lt;/ram:ID&gt;\\r\\n          &lt;ram:TradingBusinessName&gt;SARL RESTAURANT&lt;/ram:TradingBusinessName&gt;\\r\\n        &lt;/ram:SpecifiedLegalOrganization&gt;\\r\\n        &lt;ram:PostalTradeAddress&gt;\\r\\n          &lt;ram:PostcodeCode&gt;17000&lt;/ram:PostcodeCode&gt;\\r\\n          &lt;ram:LineOne&gt;Test&lt;/ram:LineOne&gt;\\r\\n          &lt;ram:CityName&gt;LA PALLICE&lt;/ram:CityName&gt;\\r\\n          &lt;ram:CountryID&gt;FR&lt;/ram:CountryID&gt;\\r\\n        &lt;/ram:PostalTradeAddress&gt;\\r\\n        &lt;ram:URIUniversalCommunication&gt;\\r\\n          &lt;ram:URIID schemeID=\\\"0225\\\"&gt;514457100&lt;/ram:URIID&gt;\\r\\n        &lt;/ram:URIUniversalCommunication&gt;\\r\\n        &lt;ram:SpecifiedTaxRegistration&gt;\\r\\n          &lt;ram:ID schemeID=\\\"VA\\\"&gt;FR44514457100&lt;/ram:ID&gt;\\r\\n        &lt;/ram:SpecifiedTaxRegistration&gt;\\r\\n      &lt;/ram:BuyerTradeParty&gt;\\r\\n    &lt;/ram:ApplicableHeaderTradeAgreement&gt;\\r\\n    &lt;ram:ApplicableHeaderTradeDelivery&gt;\\r\\n      &lt;ram:ActualDeliverySupplyChainEvent&gt;\\r\\n        &lt;ram:OccurrenceDateTime&gt;\\r\\n          &lt;udt:DateTimeString format=\\\"102\\\"&gt;20261123&lt;/udt:DateTimeString&gt;\\r\\n        &lt;/ram:OccurrenceDateTime&gt;\\r\\n      &lt;/ram:ActualDeliverySupplyChainEvent&gt;\\r\\n    &lt;/ram:ApplicableHeaderTradeDelivery&gt;\\r\\n    &lt;ram:ApplicableHeaderTradeSettlement&gt;\\r\\n      &lt;ram:InvoiceCurrencyCode&gt;EUR&lt;/ram:InvoiceCurrencyCode&gt;\\r\\n      &lt;ram:ApplicableTradeTax&gt;\\r\\n        &lt;ram:CalculatedAmount&gt;9.09&lt;/ram:CalculatedAmount&gt;\\r\\n        &lt;ram:TypeCode&gt;VAT&lt;/ram:TypeCode&gt;\\r\\n        &lt;ram:BasisAmount&gt;90.91&lt;/ram:BasisAmount&gt;\\r\\n        &lt;ram:CategoryCode&gt;S&lt;/ram:CategoryCode&gt;\\r\\n        &lt;ram:RateApplicablePercent&gt;10.00&lt;/ram:RateApplicablePercent&gt;\\r\\n      &lt;/ram:ApplicableTradeTax&gt;\\r\\n      &lt;ram:SpecifiedTradePaymentTerms&gt;\\r\\n        &lt;ram:Description&gt;Payment due before&lt;/ram:Description&gt;\\r\\n        &lt;ram:DueDateDateTime&gt;\\r\\n          &lt;udt:DateTimeString format=\\\"102\\\"&gt;20261223&lt;/udt:DateTimeString&gt;\\r\\n        &lt;/ram:DueDateDateTime&gt;\\r\\n      &lt;/ram:SpecifiedTradePaymentTerms&gt;\\r\\n      &lt;ram:SpecifiedTradeSettlementHeaderMonetarySummation&gt;\\r\\n        &lt;ram:LineTotalAmount&gt;90.91&lt;/ram:LineTotalAmount&gt;\\r\\n        &lt;ram:AllowanceTotalAmount&gt;0.00&lt;/ram:AllowanceTotalAmount&gt;\\r\\n        &lt;ram:TaxBasisTotalAmount&gt;90.91&lt;/ram:TaxBasisTotalAmount&gt;\\r\\n        &lt;ram:TaxTotalAmount currencyID=\\\"EUR\\\"&gt;9.09&lt;/ram:TaxTotalAmount&gt;\\r\\n        &lt;ram:GrandTotalAmount&gt;100.00&lt;/ram:GrandTotalAmount&gt;\\r\\n        &lt;ram:TotalPrepaidAmount&gt;0.00&lt;/ram:TotalPrepaidAmount&gt;\\r\\n        &lt;ram:DuePayableAmount&gt;100.00&lt;/ram:DuePayableAmount&gt;\\r\\n      &lt;/ram:SpecifiedTradeSettlementHeaderMonetarySummation&gt;\\r\\n    &lt;/ram:ApplicableHeaderTradeSettlement&gt;\\r\\n  &lt;/rsm:SupplyChainTradeTransaction&gt;\\r\\n&lt;/rsm:CrossIndustryInvoice&gt;\"</div><div>}</div><div><br></div><div><b>Reproduit sur démo Angélique en 19-04 HF</b></div><div>Si j'enlève l'espace, ma facture s'envoie bien :)</div><div><br></div><div>🟢 Il faut donc mettre un garde fou sur ce champs pour éviter la saisie d'un espace - Et voir comment gérer tous les clients qui ont surement mis l'espace :(&nbsp;</div><div>Sur la fiche client, c'est ok, on ne peut pas saisir d'espace</div>",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/RFE-Facture-refus-e-sur-Pennylane-si-n-TVA-Intra-comporte-un-espace-entre-le-FR-et-la-suite-de-ch-4218db15623a81fe8bddceca10014cff"
+    },
     {
       "id": "41e8db15-623a-81a5-8b7b-f7aaa1859928",
       "identifiant": "INA-1106",
@@ -8,7 +188,9 @@
       "classification": "BUG D'USAGE",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -25,7 +207,9 @@
       "pointsBlocage": "",
       "explication": "Mauvaise traduction du logiciel sur la case \"Masquer les prestations annulées\" qui laisse apparaître \"ver los otros ejercicios\"<br><br><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/bee9a652220748f7993cdaaf0cad2d27\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Il faut remplacer l'intitulé en encadré orange sur la capture ci dessus par : <b><i>Ocultar los servicios cancelados</i></b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -77,7 +261,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -96,7 +280,7 @@
       "explication": "https://portail.chorus-pro.gouv.fr/aife_documentation?id=kb_article_view&amp;sys_kb_id=25895e0c2b5f8f50b4a3f6fbfe91bff3.<div><br></div><div>https://wiki.inaxel.com/fr/Developpement/08-Projets/FacturationElectronique/ChorusPro/Connexion</div><div><br></div><div><br></div><div><br></div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -148,7 +332,9 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -165,7 +351,9 @@
       "pointsBlocage": "",
       "explication": "<br><div><br></div><div>Certains validateurs affichent les règles BR-FXEXT-Z-* à titre informatif (Warning)</div><div>Le préfixe FXEXT indique une règle spécifique au profil Factur-X Extended (urn:factur-x.eu:1p0:extended). Dès qu'une facture utilise le code TVA Z (Zero Rated / taux zéro), certains moteurs de validation remontent un avertissement pour signaler l'usage de ce code particulier et rappeler la règle de contrôle associée.</div><div><br></div><div>En France, le code Z est rarement approprié pour une taxe de séjour</div><div><br></div><div>Le code Z signifie « soumise à la TVA au taux de 0 % » (cas très spécifiques comme les exportations ou livraisons intracommunautaires exonérées ouvrant droit à déduction).</div><div><br></div><div>Une taxe de séjour collectée pour le compte d'une commune est généralement hors champ de la TVA (code O – Not subject to VAT) ou exonérée (code E), et non taxée à 0 % (Z).</div><div><br></div><div>De plus, dans votre XML, le motif est rédigé en allemand (« nach dem Nullsatz zu versteuernde Waren »), ce qui est typique d'un paramétrage par défaut d'une bibliothèque Factur-X (comme Mustangproject) lorsqu'on choisit la catégorie Z.</div><div><br></div><div><b>Que faire selon le statut dans votre validateur ?</b></div><div>Si c'est un simple avertissement (WARNING / INFO) : la facture est techniquement conforme sur le plan arithmétique (2.80 = 2.80) et ne sera pas rejetée pour ce calcul.</div><div><br></div><div>Si vous souhaitez supprimer l'avertissement et être fiscalement propre (en France) :</div><div><br></div><div><br></div><div><br></div><div><b>Attention :</b> si vous passez la ligne 6 en code O (Not subject to VAT), la norme EN 16931 impose que toute la facture soit en code O (on ne peut pas mélanger S et O sur une même facture). Si vous devez garder des lignes à 10 % (S) sur la même facture, le code E (Exempt from tax — exonéré de TVA, avec un motif d'exonération en français) est généralement utilisé à la place de Z pour éviter l'usage du taux zéro Z et son libellé allemand par défaut.</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -216,7 +404,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -233,7 +423,9 @@
       "pointsBlocage": "",
       "explication": "Dans le cadre de la réforme de la facturation électronique (e-invoicing / e-reporting), seules les opérations domestiques B2B (entre assujettis établis en France) doivent transiter par une Plateforme Agréée (PA) sous forme de facture électronique structurée (flux e-invoicing).<div><br></div><div>Les opérations B2Bi (ventes à des clients professionnels établis hors de France : Union Européenne ou Hors UE) sont exclues du périmètre e-invoicing. Elles relèvent uniquement du dispositif e-reporting (transmission périodique des données de transaction et de paiement) et doivent continuer d'être adressées directement au client selon les canaux habituels (envoi PDF par e-mail, EDI historique, etc.).</div><div><br></div><div>Actuellement, le moteur d'envoi automatique vers la PA risque d'intercepter l'ensemble des factures validées. Il est nécessaire de mettre en place un filtrage strict à la validation de la facture pour bloquer toute transmission vers la PA dès lors que le tiers client est qualifié en B2Bi.</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -284,7 +476,9 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -301,7 +495,9 @@
       "pointsBlocage": "",
       "explication": "une facture de T.O est rejaté par la P.A lorsque :&nbsp;<div>paramétrer un T.O avec une déduction de commission avec un taux de tva à 20 %</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/d36a05aa1661411baf135bda2dcc2bb8\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Réaliser un séjour de T.O , puis facturer la part T.O&nbsp;</div><div>Résultat : la facture est bloquée&nbsp; :&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/16ff2b8d87544a7aa37aab7d00d222a9\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -316,7 +512,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -333,7 +531,9 @@
       "pointsBlocage": "",
       "explication": "Plusieurs campings ont signalé un problème (INA-1095) avec des versions totalement différentes<br>On s'est aperçu que ça venait de la INA-374 qui fonctionne pour Sunelia mais pas pour les resa classique, il faut qu'on trouve une solution car le tarif de base n'est pas le bon.<br>Une réunion va être faite pour prendre les décisions sur ce qu'il faut faire<br><br><b>Pour info voici ce qui a été fait sur la INA-1095 :&nbsp;</b><br>Je suis revenu en arrière sur une des modifications que j'avais effectué sur le traitement des prix de base dans l'US INA-374 (Jira : BUG-1146)<div><br></div><div>Il s'agit du traitement du prix de base effectué lors de la création ou de la modification d'une resa classique.</div><div>=&gt; <font color=\"#2563eb\">le prix de base enregistré dans la resa est celui reçu par dans celle de CTV (sans modification)</font></div><div><br></div><div>J'ai laissé la modif qui avait été faite pour les resas TO :&nbsp;</div><div>=&gt; <font color=\"#2563eb\">le prix de base enregistré dans la resa TO est celui reçu par dans celle de CTV auquel on retire le montant du total des offres&nbsp;</font></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -528,7 +728,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
@@ -545,7 +747,9 @@
       "pointsBlocage": "",
       "explication": "Un client nous a signalé que certains de ces clients réalisent plusieurs fois un paiement ce qui l'oblige à les rembourser ensuite :<br><br>1. Le client va sur son espace client<div>2. Il paie son acompte ou solde sur Payline</div><div>3. Le paiement est bien validé sur Payline</div><div>4. Sauf que le client, lui est redirigé vers l'espace client avec une erreur 500 comme ci dessous</div><div>5. Le client pense donc que le paiement a échoué et donc il refait son paiement générant un doublon<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ec25420647de49e19174a192e65431ee\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><u>Plus d'info sur la INA-1085</u><br><br>Après recherches on s'est aperçu que c'était à cause de l'import des logos / image importé par le logiciel qui sont trop volumineux. <br>Il faudrait donc limiter la taille car par ex express-mailing limite à 3 MB&nbsp;<br><br>Pour palier au problème on a remis TurboSMTP qui supporte beaucoup plus mais il faut quand même mettre une limite pour éviter ce genre d'erreur.<br><br><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -5685,7 +5889,7 @@
       ],
       "client": "",
       "dateCreation": "2026-10-06T13:26:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -6233,7 +6437,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -6269,7 +6473,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -7485,7 +7689,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -9113,7 +9317,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -9132,7 +9336,7 @@
       "explication": "Suite à la mise en place de la connectivité entre Naxi et Pennylane pour l'e-invoicing, l'utilisateur doit faire lui même l'apparairage avec Pennylane.<div><br></div><div>Suite au développement en cours pour&nbsp; e-reporting,&nbsp; l'utilsateur qui a déja connecté Naxi à Pennylane va devoir se déconnecter et se reconnecter à Pennylane pour inclure l'e-reporting.</div><div><br></div><div>Nous avons besoin de connaître les campings qui ont déjà appairé Naxi à Pennylane afin de les accompagner dans le passage de la nouvelle Version.&nbsp;</div><div><br></div><div>De manière plus générale,le dashboard sera pour nous une manière de quantifier les clients qui utilisent la connectivité Pennylane avec Naxi.</div>",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -12233,7 +12437,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -12269,7 +12473,7 @@
       "statut": null,
       "priorisation": "Haute",
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -17371,7 +17575,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -19170,7 +19374,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "MARS 27"
       ],
       "fonctions": null,
       "produits": [
@@ -20085,9 +20289,7 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "DECEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI ESPACE CLIENT"
@@ -20104,9 +20306,7 @@
       "pointsBlocage": "",
       "explication": "Ce camping a l’espace client et a configuré ses options en “modifiables sur l’espace client”. Or ils souhaiteraient que dans cette configuration, lorsque le client final valide son option, on ajoute une étape obligatoire  “Coordonnées clients” (comme sur la résa), pour que les clients puissent vérifier et complèter leur coordonnées.",
       "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -26484,7 +26684,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -27536,9 +27736,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Pas urgente",
-      "sprintIdeal": [
-        "DECEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "NAXI GESTION SQL",
@@ -27556,9 +27754,7 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -28083,9 +28279,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "DECEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [],
       "client": "",
@@ -28100,9 +28294,7 @@
       "pointsBlocage": "",
       "explication": "<b><u>Détails</u></b>:<div><br></div><div>Lorsque les watchdogs sont activés, chaque exe d’export ou de synchro possède son exe de watchdog qui est lancé automatiquement.</div><div><br></div><div>A chaque lancement du watchdog un fichier de conf est généré dans lequel est indiqué l’environnement sur lequel doit bosser cet exe (sera forcément l’environnement choisi au lancement de naxi gestion)</div><div><br></div><div>Il se trouve qu’actuellement, peu importe l’environnement sur lequel on lance Naxi Gestion et donc par conséquent les synchro/export et watchdog associé, l’info de l’environnement est toujours indiqué comme la prod par défaut&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c0beec7e592f40839d0aab8ac99a3a71\" style=\"opacity: 1; max-width: 100%; width: 25.709%; height: auto;\" alt=\"capture\"></div><div>==&gt; Aujourd'hui la problématique est surtout qu’avec cette mauvaise gestion des environnements tous les logs que fait le watchdog sont fait sur la prod</div><div><br></div><div>Il faudrait géré l’initialisation des environnement au lancement de l’exe du watchdog.&nbsp;</div>",
       "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -47728,7 +47920,7 @@
     ]
   },
   "counts": {
-    "classique": 890,
+    "classique": 895,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
