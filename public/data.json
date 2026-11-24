@@ -1,6 +1,110 @@
 {
-  "generatedAt": "2026-11-24T05:38:21.471Z",
+  "generatedAt": "2026-11-24T16:22:11.838Z",
   "classique": [
+    {
+      "id": "4228db15-623a-818e-b1f0-c77382e4726c",
+      "identifiant": "INA-1114",
+      "titre": "Ajout des logs d'info de paiements - PaymentSecur",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-24T13:17:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Actuellement, il n'y a que les logs d'erreurs sur le projet PaymentSecur. Ce qui empêche de savoir ce qui se passe quand un paiement se passe mal et qu'il n'y a pas de log d'erreur. L'objectif est d'ajouter un peu plus de log d'info pour suivre la transaction.<br><br>Pas de test nécessaire car c'est juste de l'ajout de log qui n'impacte pas le fonctionnement.",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Ajout-des-logs-d-info-de-paiements-PaymentSecur-4228db15623a818eb1f0c77382e4726c"
+    },
+    {
+      "id": "4228db15-623a-8148-8297-e7a290ed74ec",
+      "identifiant": "INA-1113",
+      "titre": "test",
+      "classification": "BUG D'USAGE",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-24T10:59:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "fggfdgfd",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/test-4228db15623a81488297e7a290ed74ec"
+    },
+    {
+      "id": "4228db15-623a-810e-b141-dcb280130bb3",
+      "identifiant": "INA-1112",
+      "titre": "Sécuriser la réservation en ligne",
+      "classification": "STACK TECH",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-24T09:22:00.000Z",
+      "estimBack": 0,
+      "estimFront": 7,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "L'actuelle réservation en ligne est une application historique dont la sécurité ne correspond plus aux standards actuels (versions des langages plus maintenus, failles dangereuses dans le code, etc...). Cette US vise sa mise à niveau de sécurité, sans refonte fonctionnelle du parcours existant.<div><br></div><div><br></div><div><font color=\"#dc2626\"><b>En attente du dev de l'US INA-1114 qui permettra de consulter les logs pour valiser les tests de paiement de cette US</b></font></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/S-curiser-la-r-servation-en-ligne-4228db15623a810eb141dcb280130bb3"
+    },
     {
       "id": "4218db15-623a-81f6-b007-ee12f4bcfdf0",
       "identifiant": "INA-1111",
@@ -512,9 +616,7 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "DECEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -531,9 +633,7 @@
       "pointsBlocage": "",
       "explication": "Plusieurs campings ont signalé un problème (INA-1095) avec des versions totalement différentes<br>On s'est aperçu que ça venait de la INA-374 qui fonctionne pour Sunelia mais pas pour les resa classique, il faut qu'on trouve une solution car le tarif de base n'est pas le bon.<br>Une réunion va être faite pour prendre les décisions sur ce qu'il faut faire<br><br><b>Pour info voici ce qui a été fait sur la INA-1095 :&nbsp;</b><br>Je suis revenu en arrière sur une des modifications que j'avais effectué sur le traitement des prix de base dans l'US INA-374 (Jira : BUG-1146)<div><br></div><div>Il s'agit du traitement du prix de base effectué lors de la création ou de la modification d'une resa classique.</div><div>=&gt; <font color=\"#2563eb\">le prix de base enregistré dans la resa est celui reçu par dans celle de CTV (sans modification)</font></div><div><br></div><div>J'ai laissé la modif qui avait été faite pour les resas TO :&nbsp;</div><div>=&gt; <font color=\"#2563eb\">le prix de base enregistré dans la resa TO est celui reçu par dans celle de CTV auquel on retire le montant du total des offres&nbsp;</font></div>",
       "communication": [],
-      "initialeAjout": [
-        "Sprint initiale"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -2217,7 +2317,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements des fiches TO, CE et VACAF. Il s'agit de : renvoyer les séjours des clients et les linéaires de l'organisme avec la part de l'organisme ; calculer les parts selon le paramétrage de l'organisme ; séparer les paiements et factures de l'organisme de ceux du client ; refuser toute modification réservée à un séjour non facturé dès qu'une des deux parts est facturée ; contrôler les droits de l'opérateur.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -2253,7 +2353,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'interface des fiches TO, CE et VACAF : liste des séjours des clients et des linéaires avec la part de l'organisme, ouverture d'un séjour dans la fiche de l'organisme (bandeau au nom du client, cases par payeur, actions grisées, paiements et échéancier du client en lecture seule), séjours linéaires et blocage des modifications dès qu'une part est facturée, ainsi que les restrictions selon les droits de l'opérateur.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -2289,7 +2389,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "droit des opérateurs sur les séjours TO",
+      "explication": "<br>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -2868,7 +2968,7 @@
     {
       "id": "4018db15-623a-81d4-a49a-db18b9cc2113",
       "identifiant": "INA-1031",
-      "titre": "Mise à jour version PHP Ancien Nomad",
+      "titre": "Mise à jour et uniformisation Ancien Nomad",
       "classification": "BUG STRUCTURANT",
       "statut": null,
       "priorisation": "Moyenne",
@@ -2889,7 +2989,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre à jour la version de PHP Nomad et remettre la sécurité sur le projet.<br>Passer le projet sur AWS/Gitlab pour uniformiser comme les autres projets.",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -2899,7 +2999,7 @@
       "dateSortieInter": null,
       "dateSortieStable": null,
       "pieceJointe": null,
-      "url": "https://app.notion.com/p/Mise-jour-version-PHP-Ancien-Nomad-4018db15623a81d4a49adb18b9cc2113"
+      "url": "https://app.notion.com/p/Mise-jour-et-uniformisation-Ancien-Nomad-4018db15623a81d4a49adb18b9cc2113"
     },
     {
       "id": "4018db15-623a-81c5-9ee7-e4690402f7c9",
@@ -3340,7 +3440,9 @@
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "MARS 27"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -3357,7 +3459,9 @@
       "pointsBlocage": "",
       "explication": "<div><b>Avant toute décision, il faut en parler avec l'équipe WINDEV.&nbsp;</b></div><div><br></div><div>NotificationManager utilise un ancien système de queue et n'est utilisé que pour les notifications de NomadPremium. Il y a 2 solutions pour le mettre à jour :</div><div><ul><li>Migrer en Laravel 13</li><li>Migrer vers le nouveau système de queue et NomadPremiumAPI. Ce qui permettrait de virer le projet NotificationManager.<br><br></li></ul>Note Christophe : La migration vers NomadPremiumAPI est plus longue mais permet de s'enlever un projet (quasi inutile aujourd'hui). ça permet aussi d'avoir un projet de moins à migrer lors de la prochaine migration. On parle d'une migration de 3jours pas plus.</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3372,7 +3476,9 @@
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "AVRIL 27"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -3389,7 +3495,9 @@
       "pointsBlocage": "",
       "explication": "Migrer vers Laravel 13 est indispensable pour continuer à recevoir les correctifs de sécurité critiques (le support de Laravel 10 ayant pris fin), tout en profitant des gains de performance de PHP 8.3 et d'une structure de code allégée.",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3404,7 +3512,9 @@
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "MARS 27"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -3421,7 +3531,9 @@
       "pointsBlocage": "",
       "explication": "Migrer vers Laravel 13 est indispensable pour continuer à recevoir les correctifs de sécurité critiques (le support de Laravel 10 ayant pris fin), tout en profitant des gains de performance de PHP 8.3 et d'une structure de code allégée.",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3436,7 +3548,9 @@
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -3453,7 +3567,9 @@
       "pointsBlocage": "",
       "explication": "Migrer vers Laravel 13 est indispensable pour continuer à recevoir les correctifs de sécurité critiques (le support de Laravel 10 ayant pris fin), tout en profitant des gains de performance de PHP 8.3 et d'une structure de code allégée.",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3468,7 +3584,9 @@
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -3485,7 +3603,9 @@
       "pointsBlocage": "",
       "explication": "Migrer vers Laravel 13 est indispensable pour continuer à recevoir les correctifs de sécurité critiques (le support de Laravel 10 ayant pris fin), tout en profitant des gains de performance de PHP 8.3 et d'une structure de code allégée.",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3500,7 +3620,9 @@
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "FEVRIER 27"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -3517,7 +3639,9 @@
       "pointsBlocage": "",
       "explication": "<div>Migrer vers Laravel 13 est indispensable pour continuer à recevoir les correctifs de sécurité critiques (le support de Laravel 9 ayant pris fin), tout en profitant des gains de performance de PHP 8.3 et d'une structure de code allégée.</div><div><br></div><div><b>Attention cette API est la seule en Laravel 9</b></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -3532,7 +3656,9 @@
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": null,
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "MARS 27"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -3549,7 +3675,9 @@
       "pointsBlocage": "",
       "explication": "Migrer vers Laravel 13 est indispensable pour continuer à recevoir les correctifs de sécurité critiques (le support de Laravel 10 ayant pris fin), tout en profitant des gains de performance de PHP 8.3 et d'une structure de code allégée.",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6124,7 +6252,9 @@
       "classification": "STACK TECH",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "JANVIER 27"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -6141,7 +6271,9 @@
       "pointsBlocage": "",
       "explication": "Migrer vers Laravel 13 est indispensable pour continuer à recevoir les correctifs de sécurité critiques (le support de Laravel 10 ayant pris fin), tout en profitant des gains de performance de PHP 8.3 et d'une structure de code allégée.",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -6913,7 +7045,7 @@
       ],
       "client": "",
       "dateCreation": "2026-09-30T09:35:00.000Z",
-      "estimBack": 5,
+      "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -9085,7 +9217,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements de l'annulation d'un séjour. Il s'agit de : dire quel cas s'applique (annulation impossible, acompte facturé, simple confirmation, fenêtre complète) et renvoyer les sommes versées ; contrôler les montants ; passer le séjour au statut Annulé ; créer la commande diverse facturée, le remboursement ou le paiement non réparti ; libérer l'emplacement, restituer les cautions et supprimer le rendez-vous d'inventaire ; revalider un séjour annulé.",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -9121,7 +9253,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer l'action « Annuler le séjour » de la vue séjour : fenêtre qui s'adapte à l'état du séjour (annulation impossible, simple confirmation, question sur l'acompte facturé, fenêtre complète avec facturation, remboursement ou somme gardée sur le compte), mise à jour de l'affichage après l'annulation, et fenêtre « Revalider le séjour ».",
       "communication": [],
       "initialeAjout": [
         "Débord sprint"
@@ -11777,7 +11909,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements de la pré-réservation. Il s'agit de : rechercher et créer le client ; enregistrer un séjour en Option (avec ou sans emplacement) ou un devis, y compris sans fiche client ; envoyer le devis par mail avec le modèle choisi ; contrôler les règles de ventes et les organismes autorisés. Les calculs sont communs avec « Nouveau séjour ».",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -11813,7 +11945,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer la pré-réservation : panneau du rail de droite et fenêtre ouverte depuis le planning, bloc Client (recherche, nouveau client, devis sans fiche client), enregistrement en séjour ou en devis, écrans « Séjour enregistré » et « Devis enregistré » avec l'envoi du devis par mail, saisie gardée et retour à l'écran d'origine. Les blocs communs reprennent ceux de « Nouveau séjour ».",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -47920,7 +48052,7 @@
     ]
   },
   "counts": {
-    "classique": 895,
+    "classique": 898,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
