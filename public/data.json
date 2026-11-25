@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-11-25T00:55:15.839Z",
+  "generatedAt": "2026-11-25T09:19:27.626Z",
   "classique": [
+    {
+      "id": "4238db15-623a-81a9-870c-e45001dff346",
+      "identifiant": "INA-1116",
+      "titre": "Mettre en place la remontée des logs sur paymentsecur à destination d'ES",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-25T09:00:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mettre-en-place-la-remont-e-des-logs-sur-paymentsecur-destination-d-ES-4238db15623a81a9870ce45001dff346"
+    },
+    {
+      "id": "4238db15-623a-81db-9a93-cde06a33e573",
+      "identifiant": "INA-1115",
+      "titre": "Erreur intitulé dans l'IHM de NAXI Resa lors de l'envoi des assurances annulations",
+      "classification": "BUG D'USAGE",
+      "statut": null,
+      "priorisation": "Pas urgente",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-25T08:14:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "L'intitulé dans l'IHM de NAXI Resa est erroné lorsque :&nbsp;<div><br></div><div>1. Se rendre dans le menu Gestion &gt; Relevé des assurances annulations.</div><div>2. Cliquer sur les outils bleus pour accéder à la configuration</div><div>3. Cliquer sur l'icône des flèches bleues &amp; boules colorées pour lancer un renvoi des données</div><div>4. NAXI affiche un message comme quoi le traitement sera effectué par NAXI Resa</div><div>5. Si on regarde l'IHM de NAXI Resa, c'est indiqué \"Génération des ménages\", alors que ça correspond bien à l'envoi des assurances annulations :&nbsp;<br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/fb3692c5a0054753a25e3017ecbd583e\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><br><br>Le soucis se produit pour les campings qui ont NAXI Nomad Premium mais aussi pour ceux qui ne l'ont pas.</div><div><br></div><div><b>Reproduit sur démo Ciela en 19-04 SQL&nbsp;</b></div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Erreur-intitul-dans-l-IHM-de-NAXI-Resa-lors-de-l-envoi-des-assurances-annulations-4238db15623a81db9a93cde06a33e573"
+    },
     {
       "id": "4228db15-623a-818e-b1f0-c77382e4726c",
       "identifiant": "INA-1114",
@@ -48052,7 +48120,7 @@
     ]
   },
   "counts": {
-    "classique": 898,
+    "classique": 900,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
