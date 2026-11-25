@@ -1,6 +1,74 @@
 {
-  "generatedAt": "2026-11-25T09:19:27.626Z",
+  "generatedAt": "2026-11-25T19:28:19.810Z",
   "classique": [
+    {
+      "id": "4238db15-623a-81f6-b327-eb934a4fd3b8",
+      "identifiant": "INA-1118",
+      "titre": "Supprimer des images docker les répertoires qui ne sont pas utile à l'application",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-25T15:41:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Dans les images docker, les répertoires comme kubernetes et docker sont présent. Les supprimer au build de l'image&nbsp;",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Supprimer-des-images-docker-les-r-pertoires-qui-ne-sont-pas-utile-l-application-4238db15623a81f6b327eb934a4fd3b8"
+    },
+    {
+      "id": "4238db15-623a-8119-8d7e-fd1865f72c6c",
+      "identifiant": "INA-1117",
+      "titre": "Nom des catempl envoyé à vide dans le CRM",
+      "classification": "BUG OPERATIONNEL",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-25T15:13:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Suite à la mise en place de plusieurs CRM le 24.11.2026, CTV m'informe qu'ils ne reçoivent plus les noms des catégories.<div><br></div><div>Après test chez CIELA le 25.11.2026, en effet, les noms sont envoyés à vide lorsque l'on envoie les catégories d'emplacement :&nbsp;<br><br>{</div><div>&nbsp; \"requestName\": \"SetSeasonProducts\",</div><div>&nbsp; \"body\": {</div><div>&nbsp; &nbsp; \"SetSeasonProducts\": {</div><div>&nbsp; &nbsp; &nbsp; \"season\": {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"PmsId\": 23,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"PmsEstablishmentId\": \"bontemps\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"PmsSeasonId\": \"2027\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"StartDate\": \"2027-04-09T00:00:00+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"EndDate\": \"2027-09-13T00:00:00+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"Products\": [</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Reference\": \"MH0\",</div><div>&nbsp;<font color=\"#ea580c\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b> \"Name\": \"\",</b></font></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Year\": 2027,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Quantity\": 5,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"PmsProductId\": \"15\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ShProductId\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"TypeCode\": \"MH\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ModelCode\": \"\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"PitchTypeCode\": \"LOC\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ProductRangeCode\": \"\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LocationCode\": \"\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Surface\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"NbSleepingPlace\": null,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"NbBedRoom\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"WithSanitary\": null,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"WithTerrace\": false,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"StartDateTariff\": \"2027-04-09T14:19:43+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"EndDateTariff\": \"2027-09-13T14:19:43+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LastUpdate\": \"2026-11-24T14:19:43+01:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"IsActive\": true,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LocationDetail\": \"\"</div><div>&nbsp; &nbsp; &nbsp; &nbsp;</div><div>Le soucis semble provenir de la livraison en prod de cette US ?&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/69fdf8ce34064ab08453487ac561e0d5\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Je ne reproduis en revanche pas sur ma démo avec la spécif FLOWER, donc je pense que ça concerne uniquement les CRM Indiv&nbsp;</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Nom-des-catempl-envoy-vide-dans-le-CRM-4238db15623a81198d7efd1865f72c6c"
+    },
     {
       "id": "4238db15-623a-81a9-870c-e45001dff346",
       "identifiant": "INA-1116",
@@ -8,9 +76,7 @@
       "classification": "DEV sans CC",
       "statut": null,
       "priorisation": "Moyenne",
-      "sprintIdeal": [
-        "NOVEMBRE 26"
-      ],
+      "sprintIdeal": [],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -27,9 +93,7 @@
       "pointsBlocage": "",
       "explication": "",
       "communication": [],
-      "initialeAjout": [
-        "Ajout en cours"
-      ],
+      "initialeAjout": [],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -81,7 +145,7 @@
       ],
       "fonctions": null,
       "produits": [
-        "Naxi Gestion PMS"
+        "Naxi Réservation"
       ],
       "client": "",
       "dateCreation": "2026-11-24T13:17:00.000Z",
@@ -149,7 +213,7 @@
       ],
       "fonctions": null,
       "produits": [
-        "Naxi Gestion PMS"
+        "Naxi Réservation"
       ],
       "client": "",
       "dateCreation": "2026-11-24T09:22:00.000Z",
@@ -225,7 +289,7 @@
       ],
       "client": "",
       "dateCreation": "2026-11-23T15:17:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -3039,13 +3103,13 @@
       "titre": "Mise à jour et uniformisation Ancien Nomad",
       "classification": "BUG STRUCTURANT",
       "statut": null,
-      "priorisation": "Moyenne",
+      "priorisation": "Haute",
       "sprintIdeal": [
         "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
-        "Naxi Gestion PMS"
+        "Naxi Nomad"
       ],
       "client": "",
       "dateCreation": "2026-10-22T09:08:00.000Z",
@@ -3057,7 +3121,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Mettre à jour la version de PHP Nomad et remettre la sécurité sur le projet.<br>Passer le projet sur AWS/Gitlab pour uniformiser comme les autres projets.",
+      "explication": "Mettre à jour la version de PHP Nomad et remettre la sécurité sur le projet.<br><div>Passer le projet sur AWS/Gitlab pour uniformiser comme les autres projets.</div><div><br></div><div>L'url va changer mais ça doit être invisible pour les utilisateurs (uniquement en prod).</div><div><br></div><div>Nouvelle URL : https://naxinomad.preprod.inaxel.com/connexion.php</div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -4017,7 +4081,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer le compteur de la fiche client. Cela couvre : les fenêtres « Nouveau compteur » et « Modifier le compteur », avec leurs contrôles et leurs questions affichés dans la fenêtre ; le calcul de la consommation ; la ligne de l'onglet Prestations et son menu ⋮ ; les fenêtres « Voir compteur » et « Annuler le compteur ».",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -4053,7 +4117,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements du compteur. Il s'agit de : renvoyer les types et les tarifs du paramétrage ; contrôler les relevés sur tous les compteurs du camping ; enregistrer et modifier le compteur, et calculer sa consommation et son montant ; ouvrir le relevé suivant ; contrôler l'encaissement, la facturation et l'annulation, avec le paiement gardé en non réparti.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -6707,7 +6771,7 @@
       "titre": "E-Invoicing : synchroniser les statuts de cycle de vie des factures",
       "classification": "DEV avec CC",
       "statut": null,
-      "priorisation": null,
+      "priorisation": "Haute",
       "sprintIdeal": [
         "NOVEMBRE 26"
       ],
@@ -20672,7 +20736,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "La synchro des ROMANEE bouclait en erreur sur la redescente d’un événement à cause de caractères saisis dans le champs prénom",
+      "explication": "La synchro des ROMANEE bouclait en erreur sur la redescente d’un événement à cause de caractères saisis dans le champs prénom<br><br>Les caractères spéciaux pouvant poser problème sont à exclure du champs prénom, un message apparait au moment de la validation indiquant que les caractères spéciaux (.....) sont interdits.<br>Indiquer la listes des caractères interdits.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -48120,7 +48184,7 @@
     ]
   },
   "counts": {
-    "classique": 900,
+    "classique": 902,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
