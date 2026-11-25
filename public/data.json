@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T16:22:11.838Z",
+  "generatedAt": "2026-11-25T00:55:15.839Z",
   "classique": [
     {
       "id": "4228db15-623a-818e-b1f0-c77382e4726c",
@@ -4089,7 +4089,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements de la commande diverse. Il s'agit de : renvoyer le paramétrage (produits, comptes de vente, TVA, natures) ; enregistrer et modifier la commande avec ses lignes dans l'ordre choisi ; calculer les totaux ; contrôler l'encaissement, la facturation et l'annulation, avec le paiement gardé en non réparti.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -4161,7 +4161,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer la commande diverse de la fiche client. Cela couvre : les fenêtres « Nouvelle commande diverse » et « Modifier la commande diverse » (saisie ligne par ligne, « Ajouter un produit », tableau des lignes modifiable et réordonnable, totaux) ; la ligne de l'onglet Prestations et son menu ⋮ ; les fenêtres « Voir commande diverse » et « Annuler la commande diverse ».",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -11693,7 +11693,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Mettre en place les endpoints et traitements de la vente réception hors séjour. Il s'agit de : enregistrer la vente sur le compte du client, comme un ticket de l'historique ; renvoyer ses articles et ses paiements ; la modifier tant qu'elle n'est pas entièrement facturée ; contrôler l'encaissement, la facturation et l'annulation, avec le paiement gardé en non réparti.",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -11729,7 +11729,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "",
+      "explication": "Développer la vente réception hors séjour dans la fiche client. Cela couvre : la création depuis « Nouvelle prestation », avec le transfert imposé sur le client de la fiche, et le transfert depuis la caisse ; la ligne de l'onglet Prestations et son menu ⋮ ; la modification dans le panneau de la caisse ; les fenêtres « Voir vente » et « Annuler la vente réception ».",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
