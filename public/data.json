@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T11:10:04.231Z",
+  "generatedAt": "2026-11-26T20:07:22.624Z",
   "classique": [
     {
       "id": "4248db15-623a-81e7-a307-d9bb19c7734a",
@@ -2569,7 +2569,7 @@
       ],
       "client": "",
       "dateCreation": "2026-11-03T10:51:00.000Z",
-      "estimBack": 0,
+      "estimBack": 21,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -28620,7 +28620,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<b><u>Détails</u></b>:<div><br></div><div>==&gt; Mode de fonctionnement en déporté avec SynchroAccesControlAPI</div><div><br></div><div>Dans NaxiCode il est possible de se mettre en mode “Test” ce qui doit nous permettre d’utiliser les environnements de Preprod.</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f1f8da42fa6147cda66797e2a2b7f70b\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Il a été observé que la gestion des environnements ne fonctionnait pas correctement pour certaines fonctionnalités:</div><div><br></div><div><ul><li>Lorsqu’on créer un code depuis NaxiCode en mode Test, il est pourtant enregistrer sur la db de prod</li></ul><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7ac4773b064344e4aefc24b26110b52c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ecf80836686b4b74b14c57b737154ae0\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div>Pourtant la conf est ok&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6d30b30409f64546bac974740469d8ef\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><ul><li><b style=\"background-color: rgb(191, 219, 254);\">Il faudrait également vérifier et faire une passe pour s’assurer qu’il n’y ai pas d’autres fonctionnalités dans le logiciel qui ne prennent pas correctement en compte l’environnement</b></li></ul></div>",
+      "explication": "<b><u>Détails</u></b>:<div><br></div><div>==&gt; Mode de fonctionnement en déporté avec SynchroAccesControlAPI</div><div><br></div><div>Dans NaxiCode il est possible de se mettre en mode “Test” ce qui doit nous permettre d’utiliser les environnements de Preprod.</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f1f8da42fa6147cda66797e2a2b7f70b\" style=\"opacity: 1; max-width: 100%; width: 75%; height: auto;\" alt=\"capture\"></div><div>Il a été observé que la gestion des environnements ne fonctionnait pas correctement pour certaines fonctionnalités:</div><div><br></div><div><ul><li>Lorsqu’on créer un code depuis NaxiCode en mode Test, il est pourtant enregistrer sur la db de prod</li></ul><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7ac4773b064344e4aefc24b26110b52c\" style=\"opacity: 1; max-width: 100%; width: 50%; height: auto;\" alt=\"capture\"></div></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ecf80836686b4b74b14c57b737154ae0\" style=\"opacity: 1; max-width: 100%; width: 75%; height: auto;\" alt=\"capture\"></div><div>Pourtant la conf est ok&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6d30b30409f64546bac974740469d8ef\" style=\"opacity: 1; max-width: 100%; width: 50%; height: auto;\" alt=\"capture\"></div><div><ul><li><b style=\"background-color: rgb(191, 219, 254);\">Il faudrait également vérifier et faire une passe pour s’assurer qu’il n’y ai pas d’autres fonctionnalités dans le logiciel qui ne prennent pas correctement en compte l’environnement</b></li></ul></div>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -29355,7 +29355,7 @@
       ],
       "client": "",
       "dateCreation": "2026-02-24T19:05:00.000Z",
-      "estimBack": 7,
+      "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
