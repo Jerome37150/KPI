@@ -1,6 +1,182 @@
 {
-  "generatedAt": "2026-11-27T11:30:49.258Z",
+  "generatedAt": "2026-11-27T20:16:51.747Z",
   "classique": [
+    {
+      "id": "4258db15-623a-812f-baf7-dda6bf492f59",
+      "identifiant": "INA-1129",
+      "titre": "Mise à jour Naxi gestion",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "JANVIER 27"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-27T16:09:00.000Z",
+      "estimBack": 4,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Voir INA-1120",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-jour-Naxi-gestion-4258db15623a812fbaf7dda6bf492f59"
+    },
+    {
+      "id": "4258db15-623a-8169-8911-e18d08834c75",
+      "identifiant": "INA-1128",
+      "titre": "Ajout des informations RFE",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "JANVIER 27"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-27T16:03:00.000Z",
+      "estimBack": 4,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Ajout-des-informations-RFE-4258db15623a81698911e18d08834c75"
+    },
+    {
+      "id": "4258db15-623a-81a4-9ca2-d385bba7c7b8",
+      "identifiant": "INA-1127",
+      "titre": "Ajout des informations RFE",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-27T16:01:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/4675d9c51ff446b8a55bd26bb80ff101\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/caa573dcda58429b86e48c1038f2a96a\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Ajout-des-informations-RFE-4258db15623a81a49ca2d385bba7c7b8"
+    },
+    {
+      "id": "4258db15-623a-81ab-b88d-f5f14fd8633d",
+      "identifiant": "INA-1126",
+      "titre": "Ajout des informations RFE",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "JANVIER 27"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Naxi Desk"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-27T14:40:00.000Z",
+      "estimBack": 0,
+      "estimFront": 4,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "",
+      "communication": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Ajout-des-informations-RFE-4258db15623a81abb88df5f14fd8633d"
+    },
+    {
+      "id": "4258db15-623a-8183-aa07-e0a4bf8dd59d",
+      "identifiant": "INA-1125",
+      "titre": "Mise en place CI + pentest",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-27T13:05:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>- Mettre à jour pour les deux APIs de l'EPIC la CI pour faire tourner les tests</div><div>- Lancer le pentest</div><div>- Voir où stocker le pentest</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Mise-en-place-CI-pentest-4258db15623a8183aa07e0a4bf8dd59d"
+    },
     {
       "id": "4258db15-623a-81c1-915a-dd70e99b016d",
       "identifiant": "INA-1124",
@@ -144,7 +320,9 @@
       "classification": "DEV avec CC",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "JANVIER 27"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Desk"
@@ -152,7 +330,7 @@
       "client": "",
       "dateCreation": "2026-11-26T08:59:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 2,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -161,7 +339,9 @@
       "pointsBlocage": "",
       "explication": "lorsqu'il y a une mise à jour de la base de données (modification d'analyse ) impossible de lancer le logiciel . lors du clic sur le bouton demarrer, le logiciel mouline puis le message suivant apparait :&nbsp;<div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/c2f0ce4d87854dce9ca68088340b7c2d\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>lorsque le souhaite quitter le logiciel deux fenetre de NAXI classiques apparaisent :&nbsp;<img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/28bb164f9ade44e5b44f671014ccd7f1\" alt=\"capture\" style=\"opacity: 1; max-width: 100%;\"></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -1813,7 +1993,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -1849,7 +2029,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -1957,7 +2137,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -1976,7 +2156,7 @@
       "explication": "Mettre en place les traitements nécessaires pour préparer l'e-mail d'un séjour : choix du modèle selon l'étape du séjour et le paramétrage du camping, remplissage des modèles avec les informations du séjour, documents proposés et joints d'office, génération des documents à l'envoi et enregistrement du courrier rattaché au séjour.",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -1993,7 +2173,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -2012,7 +2192,7 @@
       "explication": "Développer l'entrée « Envoyer un mail » du menu « + Actions » de la vue séjour et l'ouverture de la fenêtre « Envoi email » sur le séjour affiché : mail relatif au séjour, modèle proposé selon l'étape du séjour, sans texte libre, cases et documents propres au séjour, documents joints par le modèle, et rattachement du mail envoyé au séjour.",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -3894,7 +4074,7 @@
       "client": "",
       "dateCreation": "2026-10-20T12:41:00.000Z",
       "estimBack": 0,
-      "estimFront": 7,
+      "estimFront": 21,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -3930,7 +4110,7 @@
       "client": "",
       "dateCreation": "2026-10-20T12:39:00.000Z",
       "estimBack": 0,
-      "estimFront": 7,
+      "estimFront": 14,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -3955,7 +4135,7 @@
       "titre": "Migration UploadFileAPI en Laravel 13",
       "classification": "STACK TECH",
       "statut": null,
-      "priorisation": null,
+      "priorisation": "Pas urgente",
       "sprintIdeal": [
         "FEVRIER 27"
       ],
@@ -5381,7 +5561,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -5417,7 +5597,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -5489,7 +5669,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -5525,7 +5705,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -5741,7 +5921,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -5777,7 +5957,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -6061,7 +6241,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -6080,7 +6260,7 @@
       "explication": "L'affichage des stats à la demande est très long lorsque :&nbsp;<div><br></div><div>1. Etre sur une base de données en SQL</div><div>2. Se rendre dans le menu Stats &gt; Stats à la demande</div><div>3. Sélectionner les séjours de toute la saison par exemple</div><div>4. Décocher certains suppléments</div><div>5. Lancer la recherche à l'aide de la loupe bleue.</div><div><br></div><div><b><u>Résultat :&nbsp;</u></b></div><div><br></div><div>NAXI affiche la stats après environ 1 minute d'attente</div><div><br></div><div><u><b>Tests complémentaires</b></u> :</div><div><br></div><div>🟢 Si je décoche aucun filtre lié au supplément : la recherche s'affiche instantanément</div><div>🟢Si je met un filtre sur le type de client (par exemple je décoche le type de client : Résident) : la recherche s'affiche instantanément</div><div>🔴Le bug se produit si je décoche 1 supplément ou plsuieurs / Et ce sur tous les types (type location, camping ou vente réception)&nbsp;</div><div><br></div><div><u><b>Infos techniques :&nbsp;</b></u></div><div><br></div><div>J'ai pu récupéré la requête qui génère la lenteur :&nbsp;<br><br><i>SELECT `IDLIGCOM`,`lccodsoc`,`lccodexe`,`lcnumcom`,`lcnumsup`,`lcqte`,`lcpu`,`lclib`,`lcdeb`,`lcdatfac`,`lcmtfact`,`lcttc`,`lclig`,`lctyplig`,`lcfin`,`lcfacto`,`lctva`,`lccompte`,`lcautres`,`lcht`,`lcnatureope_id` FROM `ligcom` WHERE `lccodsoc`&gt;'ARMORIQ' OR `lccodsoc`='ARMORIQ' AND (`lccodexe`&gt;'2026' OR `lccodexe`='2026' AND (`lcnumcom`&gt;473 OR `lcnumcom`=473 AND (`lctyplig`&gt;'' OR `lctyplig`='' AND `lcnumsup`&gt;2 ))) ORDER BY 2 , 3 , 4 , 14 , 5 , 1 LIMIT 100</i></div><div><br></div><div>🚩-&gt; Il faut donc optimiser cette requête qui est le résultat d'une interprétation du moteur de Windev // A voir si en attendant une optimisation SQL, est ce qu'on ne ferait pas une règle supplémentaire sur ProxySQL</div><div><br></div><div><b>Reproduit sur base du camping Armorique en 18.35 SQL</b> (Ce camping n'a qu'une seule saison sur NAXI donc peu de volumétrie) / Reproduit également sur le camping Mas Fleuri 06 qui est sur notre Saas également en 18.37.</div>",
       "communication": [],
       "initialeAjout": [
-        "Ajout en cours"
+        "Débord sprint"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -6903,7 +7083,7 @@
       "titre": "E-reporting des séjours B2C",
       "classification": "DEV avec CC",
       "statut": null,
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [
         "FEVRIER 27"
       ],
@@ -7157,7 +7337,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "JANVIER 27"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -8049,7 +8229,6 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26",
         "NOVEMBRE 26"
       ],
       "fonctions": null,
@@ -8156,7 +8335,7 @@
       "titre": "E reporting : ventes en compte Naxi commerce",
       "classification": "DEV avec CC",
       "statut": null,
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [
         "FEVRIER 27"
       ],
@@ -8934,7 +9113,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -8970,7 +9149,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -9538,7 +9717,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -9557,7 +9736,7 @@
       "explication": "Mettre en place les endpoints et traitements de l'annulation d'un séjour. Il s'agit de : dire quel cas s'applique (annulation impossible, acompte facturé, simple confirmation, fenêtre complète) et renvoyer les sommes versées ; contrôler les montants ; passer le séjour au statut Annulé ; créer la commande diverse facturée, le remboursement ou le paiement non réparti ; libérer l'emplacement, restituer les cautions et supprimer le rendez-vous d'inventaire ; revalider un séjour annulé.",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -9574,7 +9753,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -9593,7 +9772,7 @@
       "explication": "Développer l'action « Annuler le séjour » de la vue séjour : fenêtre qui s'adapte à l'état du séjour (annulation impossible, simple confirmation, question sur l'acompte facturé, fenêtre complète avec facturation, remboursement ou somme gardée sur le compte), mise à jour de l'affichage après l'annulation, et fenêtre « Revalider le séjour ».",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -10466,7 +10645,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -10485,7 +10664,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Sprint initiale"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -10610,7 +10789,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -10646,7 +10825,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -10718,7 +10897,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -10754,7 +10933,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -10826,7 +11005,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -10862,7 +11041,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -11834,7 +12013,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -11906,7 +12085,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -12014,7 +12193,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "FEVRIER 27"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -12050,7 +12229,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "FEVRIER 27"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -12086,7 +12265,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -12158,7 +12337,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -12230,7 +12409,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -12266,7 +12445,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -12338,7 +12517,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -12374,7 +12553,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -12446,7 +12625,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -12482,7 +12661,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -12554,7 +12733,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -12590,7 +12769,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -12626,7 +12805,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -12662,7 +12841,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -13042,7 +13221,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -13078,7 +13257,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -14496,7 +14675,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -14530,7 +14709,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -14726,7 +14905,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -14760,7 +14939,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -14892,7 +15071,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -14926,7 +15105,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -15520,7 +15699,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -15554,7 +15733,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -16736,7 +16915,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "FEVRIER 27"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -16770,7 +16949,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "FEVRIER 27"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -16902,7 +17081,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "FEVRIER 27"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -16936,7 +17115,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "FEVRIER 27"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -17202,7 +17381,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -17236,7 +17415,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -17404,7 +17583,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -17438,7 +17617,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [],
@@ -48389,7 +48568,7 @@
     ]
   },
   "counts": {
-    "classique": 908,
+    "classique": 913,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
