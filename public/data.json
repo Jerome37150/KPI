@@ -1,14 +1,84 @@
 {
-  "generatedAt": "2026-11-27T02:48:36.307Z",
+  "generatedAt": "2026-11-27T11:30:49.258Z",
   "classique": [
+    {
+      "id": "4258db15-623a-81c1-915a-dd70e99b016d",
+      "identifiant": "INA-1124",
+      "titre": "Etude sur la cartographie",
+      "classification": null,
+      "statut": null,
+      "priorisation": null,
+      "sprintIdeal": [],
+      "fonctions": null,
+      "produits": [
+        "Naxi Gestion PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-27T10:49:00.000Z",
+      "estimBack": 0,
+      "estimFront": 14,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "<div>Lister tous les produits utilisés par INAXEL<br>Etudier comment récupérer la version de tous les produits</div><div>Regarder comment connecter l'api EOL</div><div>Etudier comment récupérer les failles de sécurité</div><div>Regarde comment envoyer des alertes lors d'une faille de sécurité</div><div>Réutiliser le HTML déjà produit pour le rendu finale de l'étude</div><div><br></div><div>L'objectif de l'US est d'avoir lister toutes les technos via le HTML et d'avoir écrit toutes les US pour mener ce projet à terme.</div>",
+      "communication": [],
+      "initialeAjout": [],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Etude-sur-la-cartographie-4258db15623a81c1915add70e99b016d"
+    },
+    {
+      "id": "4258db15-623a-8108-a29a-f9d5fe8815f9",
+      "identifiant": "INA-1123",
+      "titre": "Modification de la pipeline back et front",
+      "classification": "DEV sans CC",
+      "statut": null,
+      "priorisation": "Haute",
+      "sprintIdeal": [
+        "NOVEMBRE 26"
+      ],
+      "fonctions": null,
+      "produits": [
+        "Nax7 PMS"
+      ],
+      "client": "",
+      "dateCreation": "2026-11-27T09:41:00.000Z",
+      "estimBack": 0,
+      "estimFront": 0,
+      "estimPoTest": 0,
+      "persBack": [],
+      "persFront": [],
+      "persPoTest": [],
+      "pointAvancement": 0,
+      "pointsBlocage": "",
+      "explication": "Mettre en place le flux de travail sur Gitlab entre les PO, les back et les front",
+      "communication": [],
+      "initialeAjout": [
+        "Ajout en cours"
+      ],
+      "versionInter": "",
+      "versionStable": "",
+      "dateSortieInter": null,
+      "dateSortieStable": null,
+      "pieceJointe": null,
+      "url": "https://app.notion.com/p/Modification-de-la-pipeline-back-et-front-4258db15623a8108a29af9d5fe8815f9"
+    },
     {
       "id": "4248db15-623a-81e7-a307-d9bb19c7734a",
       "identifiant": "INA-1122",
       "titre": "Remplacement de WS Resa par NAXI API dans WS NAXI TO",
       "classification": null,
       "statut": null,
-      "priorisation": null,
-      "sprintIdeal": [],
+      "priorisation": "Moyenne",
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -25,7 +95,9 @@
       "pointsBlocage": "",
       "explication": "Aujourd'hui, le WS NAXI TO appelle les web services WEB DEV WS RESA. Nous aimerions éteindre le WEB DEV, il faut donc remplacer les web services WS RESA par NAXI API.<br><div>Les deux web services concernées dans WS NAXITO sont le \"check price\" et \"get options\".</div><div><br></div><div>Un script de comparaison tourne pour comparer les résultats de WS RESA et NAXI API et enregistre les différences inaresa.debogage, ce qui permet de voir d’éventuelles régressions.</div><div><br></div><div>On ne prend pas en compte les corrections d'éventuelles bugs dans cette US, on créera d'autres US si des bugs apparaissent.</div><div><br></div><div><br></div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -172,7 +244,9 @@
       "classification": "BUG OPERATIONNEL",
       "statut": null,
       "priorisation": "Haute",
-      "sprintIdeal": [],
+      "sprintIdeal": [
+        "DECEMBRE 26"
+      ],
       "fonctions": null,
       "produits": [
         "Naxi Gestion PMS"
@@ -180,7 +254,7 @@
       "client": "",
       "dateCreation": "2026-11-25T15:13:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 3,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -189,7 +263,9 @@
       "pointsBlocage": "",
       "explication": "Suite à la mise en place de plusieurs CRM le 24.11.2026, CTV m'informe qu'ils ne reçoivent plus les noms des catégories.<div><br></div><div>Après test chez CIELA le 25.11.2026, en effet, les noms sont envoyés à vide lorsque l'on envoie les catégories d'emplacement :&nbsp;<br><br>{</div><div>&nbsp; \"requestName\": \"SetSeasonProducts\",</div><div>&nbsp; \"body\": {</div><div>&nbsp; &nbsp; \"SetSeasonProducts\": {</div><div>&nbsp; &nbsp; &nbsp; \"season\": {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"PmsId\": 23,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"PmsEstablishmentId\": \"bontemps\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"PmsSeasonId\": \"2027\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"StartDate\": \"2027-04-09T00:00:00+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"EndDate\": \"2027-09-13T00:00:00+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"Products\": [</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Reference\": \"MH0\",</div><div>&nbsp;<font color=\"#ea580c\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b> \"Name\": \"\",</b></font></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Year\": 2027,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Quantity\": 5,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"PmsProductId\": \"15\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ShProductId\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"TypeCode\": \"MH\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ModelCode\": \"\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"PitchTypeCode\": \"LOC\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"ProductRangeCode\": \"\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LocationCode\": \"\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"Surface\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"NbSleepingPlace\": null,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"NbBedRoom\": 0,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"WithSanitary\": null,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"WithTerrace\": false,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"StartDateTariff\": \"2027-04-09T14:19:43+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"EndDateTariff\": \"2027-09-13T14:19:43+02:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LastUpdate\": \"2026-11-24T14:19:43+01:00\",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"IsActive\": true,</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"LocationDetail\": \"\"</div><div>&nbsp; &nbsp; &nbsp; &nbsp;</div><div>Le soucis semble provenir de la livraison en prod de cette US ?&nbsp;</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/69fdf8ce34064ab08453487ac561e0d5\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><br></div><div>Je ne reproduis en revanche pas sur ma démo avec la spécif FLOWER, donc je pense que ça concerne uniquement les CRM Indiv&nbsp;</div>",
       "communication": [],
-      "initialeAjout": [],
+      "initialeAjout": [
+        "Sprint initiale"
+      ],
       "versionInter": "",
       "versionStable": "",
       "dateSortieInter": null,
@@ -373,7 +449,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -445,7 +521,7 @@
       "statut": null,
       "priorisation": "Pas urgente",
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -453,7 +529,7 @@
       ],
       "client": "",
       "dateCreation": "2026-11-23T15:13:00.000Z",
-      "estimBack": 0,
+      "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -525,7 +601,7 @@
       ],
       "client": "",
       "dateCreation": "2026-11-23T10:52:00.000Z",
-      "estimBack": 0,
+      "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -561,7 +637,7 @@
       ],
       "client": "",
       "dateCreation": "2026-11-20T14:37:00.000Z",
-      "estimBack": 0,
+      "estimBack": 1,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -705,7 +781,7 @@
       ],
       "client": "",
       "dateCreation": "2026-11-20T09:11:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -777,7 +853,7 @@
       ],
       "client": "",
       "dateCreation": "2026-11-19T12:59:00.000Z",
-      "estimBack": 0,
+      "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -849,7 +925,7 @@
       ],
       "client": "",
       "dateCreation": "2026-11-19T11:04:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -1097,7 +1173,7 @@
       ],
       "client": "",
       "dateCreation": "2026-11-16T15:33:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -1241,7 +1317,7 @@
       ],
       "client": "",
       "dateCreation": "2026-11-16T11:43:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -1357,7 +1433,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "Bug repéré dans les comparaisons de résultats de calculs de prix effectués avec WS _RESA (windev) de WS_NAXITO.<div><br></div><div>Détail du bug :</div><div><br></div><div>Models/Advanced/Price.php : ligne 1374...                                    for($i = $start_for; $i &lt; $end_for; $i++) {if ($params['company_id'] == \"lignon43\") {  file_put_contents(\"/tmp/price.log\", __LINE__ . \" : \" . $pu . \" : \" . $duration_rate. \" : \" . ($pu / $duration_rate) . \" : \" . round($pu / $duration_rate, $round_decimal) . \" \\n\", FILE_APPEND);}                                        $params['tab_prix_par_nuit'][$i] = round($pu / $duration_rate, $round_decimal);                                        $params['tab_pers_inclus'][$i] = intval($params['tab_nb_pers'][$count_nb_pers]);                                    }...</div><div><br></div><div>Calcul du prix par nuit :</div><div><br></div><div>Numéro de ligne du log : tarif de base : nuitées : prix nuitée brut : prix nuitée arrondi1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64</div><div><br></div><div>==&gt; Le code arrondi en entier le prix par nuit, donc les calculs qui sont effectués sur ces prix sont faussés</div><div><br></div><div>7 * 64 =&gt; 448 * (20/100) = 89.6 ==&gt; FAUX</div><div><br></div><div>7 * 64.285714285714 =&gt; 450 * (20/100) = 90 ==&gt; VRAI ( identique à WS_RESA)</div>",
+      "explication": "Bug repéré dans les comparaisons de résultats de calculs de prix effectués avec WS _RESA (windev) de WS_NAXITO.<div><br></div><div>Détail du bug :</div><div><br></div><div>Models/Advanced/Price.php : ligne 1374...                                    for($i = $start_for; $i &lt; $end_for; $i++) {if ($params['company_id'] == \"lignon43\") {  file_put_contents(\"/tmp/price.log\", __LINE__ . \" : \" . $pu . \" : \" . $duration_rate. \" : \" . ($pu / $duration_rate) . \" : \" . round($pu / $duration_rate, $round_decimal) . \" \\n\", FILE_APPEND);}                                        $params['tab_prix_par_nuit'][$i] = round($pu / $duration_rate, $round_decimal);                                        $params['tab_pers_inclus'][$i] = intval($params['tab_nb_pers'][$count_nb_pers]);                                    }...</div><div><br></div><div>Calcul du prix par nuit :</div><div><br></div><div>Numéro de ligne du log : tarif de base : nuitées : prix nuitée brut : prix nuitée arrondi1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64 1376 : 450 : 7 : 64.285714285714 : 64</div><div><br></div><div>==&gt; Le code arrondi en entier le prix par nuit, donc les calculs qui sont effectués sur ces prix sont faussés</div><div><br></div><div>7 * 64 =&gt; 448 * (20/100) = 89.6 ==&gt; FAUX</div><div><br></div><div>7 * 64.285714285714 =&gt; 450 * (20/100) = 90 ==&gt; VRAI ( identique à WS_RESA)<br><br><font color=\"#ea580c\">==&gt;</font> Après avoir fait des tests avec la même config que le camping ayant l'erreur, on s'est aperçu que quand on paramètre la calcul de promo à 2 décimales, on a pas le même montant du tarif de promo à la resa et sur Naxi<br><b>RESA WEB :</b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6bb05b9f2c1e45b1863603b75ce4a78c\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div><div><b>NAXI :&nbsp;</b><br><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7123823c4dcb4f5ab9752e72b95eee72\" style=\"opacity: 1; max-width: 100%;\" alt=\"capture\"></div>",
       "communication": [],
       "initialeAjout": [
         "Ajout en cours"
@@ -1565,7 +1641,7 @@
       ],
       "client": "",
       "dateCreation": "2026-11-12T10:57:00.000Z",
-      "estimBack": 0,
+      "estimBack": 4,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -1591,7 +1667,7 @@
       "titre": "Non affichage du devis dans les pièces jointes si Base SQL",
       "classification": "BUG OPERATIONNEL",
       "statut": null,
-      "priorisation": "Moyenne",
+      "priorisation": "Haute",
       "sprintIdeal": [
         "DECEMBRE 26"
       ],
@@ -1601,7 +1677,7 @@
       ],
       "client": "",
       "dateCreation": "2026-11-12T10:46:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -1989,7 +2065,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -2061,7 +2137,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -2097,7 +2173,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -2133,7 +2209,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -2205,7 +2281,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -2241,7 +2317,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -2250,7 +2326,7 @@
       "client": "",
       "dateCreation": "2026-11-05T17:49:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 4,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -2345,7 +2421,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -2381,7 +2457,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -2390,7 +2466,7 @@
       "client": "",
       "dateCreation": "2026-11-05T16:29:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 4,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -2497,7 +2573,7 @@
       ],
       "client": "",
       "dateCreation": "2026-11-04T10:53:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -2677,7 +2753,7 @@
       ],
       "client": "",
       "dateCreation": "2026-11-02T18:54:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -3807,7 +3883,7 @@
       "titre": "Migration SecureHolidayAPI en Laravel 13",
       "classification": "STACK TECH",
       "statut": null,
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [
         "DECEMBRE 26"
       ],
@@ -3843,7 +3919,7 @@
       "titre": "Migration CtvCrmAPI en Laravel 13",
       "classification": "STACK TECH",
       "statut": null,
-      "priorisation": null,
+      "priorisation": "Moyenne",
       "sprintIdeal": [
         "DECEMBRE 26"
       ],
@@ -4193,7 +4269,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -4229,7 +4305,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -4333,7 +4409,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -4405,7 +4481,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -6133,7 +6209,7 @@
       ],
       "client": "",
       "dateCreation": "2026-10-09T07:17:00.000Z",
-      "estimBack": 0,
+      "estimBack": 7,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -6269,7 +6345,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "JANVIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -7189,7 +7265,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -7225,7 +7301,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -7261,7 +7337,7 @@
       "statut": null,
       "priorisation": "Moyenne",
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -7280,7 +7356,7 @@
       "explication": "Pour la sortie de la version 1 de NAXI Desk, on va avoir besoin de masquer/griser des menus/fonctions pour qu'elles ne soient pas accessibles.",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -7973,7 +8049,8 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "OCTOBRE 26"
+        "OCTOBRE 26",
+        "NOVEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -7992,7 +8069,7 @@
       "explication": "Développer le bouton « Traitement automatique » du header : icône, pastille de notification conditionnelle, bulle d'information au survol et ouverture de la version classique dans un nouvel onglet, directement sur la fenêtre des traitements automatiques de l'opérateur connecté.",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Ajout en cours"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -8126,7 +8203,7 @@
       "client": "",
       "dateCreation": "2026-09-10T09:43:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 4,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -8749,7 +8826,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -8785,7 +8862,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -10317,7 +10394,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -10353,7 +10430,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -10389,7 +10466,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "NOVEMBRE 26"
+        "DECEMBRE 26"
       ],
       "fonctions": null,
       "produits": [
@@ -10408,7 +10485,7 @@
       "explication": "",
       "communication": [],
       "initialeAjout": [
-        "Débord sprint"
+        "Sprint initiale"
       ],
       "versionInter": "",
       "versionStable": "",
@@ -11433,7 +11510,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -11469,7 +11546,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -11478,7 +11555,7 @@
       "client": "",
       "dateCreation": "2026-09-01T15:56:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 4,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -11577,7 +11654,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -11613,7 +11690,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -11622,7 +11699,7 @@
       "client": "",
       "dateCreation": "2026-09-01T15:53:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 1,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -11937,7 +12014,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -11973,7 +12050,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [
@@ -12414,7 +12491,7 @@
       "client": "",
       "dateCreation": "2026-09-01T15:24:00.000Z",
       "estimBack": 0,
-      "estimFront": 0,
+      "estimFront": 4,
       "estimPoTest": 0,
       "persBack": [],
       "persFront": [],
@@ -15213,7 +15290,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -15247,7 +15324,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -16659,7 +16736,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -16693,7 +16770,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -16825,7 +16902,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -16859,7 +16936,7 @@
       "statut": null,
       "priorisation": null,
       "sprintIdeal": [
-        "DECEMBRE 26"
+        "FEVRIER 27"
       ],
       "fonctions": null,
       "produits": [],
@@ -28612,7 +28689,7 @@
       ],
       "client": "",
       "dateCreation": "2026-02-24T19:05:00.000Z",
-      "estimBack": 1,
+      "estimBack": 14,
       "estimFront": 0,
       "estimPoTest": 0,
       "persBack": [],
@@ -28620,7 +28697,7 @@
       "persPoTest": [],
       "pointAvancement": 0,
       "pointsBlocage": "",
-      "explication": "<b><u>Détails</u></b>:<div><br></div><div>==&gt; Mode de fonctionnement en déporté avec SynchroAccesControlAPI</div><div><br></div><div>Dans NaxiCode il est possible de se mettre en mode “Test” ce qui doit nous permettre d’utiliser les environnements de Preprod.</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f1f8da42fa6147cda66797e2a2b7f70b\" style=\"opacity: 1; max-width: 100%; width: 75%; height: auto;\" alt=\"capture\"></div><div>Il a été observé que la gestion des environnements ne fonctionnait pas correctement pour certaines fonctionnalités:</div><div><br></div><div><ul><li>Lorsqu’on créer un code depuis NaxiCode en mode Test, il est pourtant enregistrer sur la db de prod</li></ul><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7ac4773b064344e4aefc24b26110b52c\" style=\"opacity: 1; max-width: 100%; width: 50%; height: auto;\" alt=\"capture\"></div></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ecf80836686b4b74b14c57b737154ae0\" style=\"opacity: 1; max-width: 100%; width: 75%; height: auto;\" alt=\"capture\"></div><div>Pourtant la conf est ok&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6d30b30409f64546bac974740469d8ef\" style=\"opacity: 1; max-width: 100%; width: 50%; height: auto;\" alt=\"capture\"></div><div><ul><li><b style=\"background-color: rgb(191, 219, 254);\">Il faudrait également vérifier et faire une passe pour s’assurer qu’il n’y ai pas d’autres fonctionnalités dans le logiciel qui ne prennent pas correctement en compte l’environnement</b></li></ul></div>",
+      "explication": "<b><u>Détails</u></b>:<div><br></div><div>==&gt; Mode de fonctionnement en déporté avec SynchroAccesControlAPI</div><div><br></div><div>Dans NaxiCode il est possible de se mettre en mode “Test” ce qui doit nous permettre d’utiliser les environnements de Preprod.</div><div><br></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/f1f8da42fa6147cda66797e2a2b7f70b\" style=\"opacity: 1; max-width: 100%; width: 75%; height: auto;\" alt=\"capture\"></div><div>Il a été observé que la gestion des environnements ne fonctionnait pas correctement pour certaines fonctionnalités:</div><div><br></div><div><ul><li>Lorsqu’on créer un code depuis NaxiCode en mode Test, il est pourtant enregistrer sur la db de prod</li></ul><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/7ac4773b064344e4aefc24b26110b52c\" style=\"opacity: 1; max-width: 100%; width: 50%; height: auto;\" alt=\"capture\"></div></div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/ecf80836686b4b74b14c57b737154ae0\" style=\"opacity: 1; max-width: 100%; width: 89.0884%; height: auto;\" alt=\"capture\"></div><div>Pourtant la conf est ok&nbsp;</div><div><img src=\"https://inaxel-arbitrage.inaxel-produits.workers.dev/img/6d30b30409f64546bac974740469d8ef\" style=\"opacity: 1; max-width: 100%; width: 50%; height: auto;\" alt=\"capture\"></div><div><ul><li><b style=\"background-color: rgb(191, 219, 254);\">Il faudrait également vérifier et faire une passe pour s’assurer qu’il n’y ai pas d’autres fonctionnalités dans le logiciel qui ne prennent pas correctement en compte l’environnement</b></li></ul></div>",
       "communication": [],
       "initialeAjout": [
         "Sprint initiale"
@@ -48312,7 +48389,7 @@
     ]
   },
   "counts": {
-    "classique": 906,
+    "classique": 908,
     "topline": 57,
     "suiviLundi": 190,
     "equipe": 19,
